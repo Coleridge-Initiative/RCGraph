@@ -62,6 +62,8 @@ class TestRCGraph (unittest.TestCase):
                     print("```\n{}\n```".format(pub))
                     print("from partition `{}`".format(self.partition_map[pub["title"]]))
 
+        for pub in self.publications:
+            for d in pub["datasets"]:
                 self.assertTrue(d in self.datasets.keys())
 
 
