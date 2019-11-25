@@ -58,8 +58,9 @@ class TestRCGraph (unittest.TestCase):
         for pub in self.publications:
             for d in pub["datasets"]:
                 if d not in self.datasets.keys():
-                    print("dataset |{}| not found: {}".format(d, pub))
-                    print("from partition {}".format(self.partition_map[pub["title"]]))
+                    print("dataset `{}` not found".format(d))
+                    print("```\n{}\n```".format(pub))
+                    print("from partition `{}`".format(self.partition_map[pub["title"]]))
 
                 self.assertTrue(d in self.datasets.keys())
 
