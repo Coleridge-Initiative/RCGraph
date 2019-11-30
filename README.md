@@ -5,9 +5,13 @@ Let's manage the Rich Context knowledge graph.
 
 ## Installation
 
-Be sure to install the dependencies:
+First, use `virtualenv` to create a virtual environment in the
+subdirectory `venv` for Python 3.x as the target.
+
+Then run:
 
 ```
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -28,7 +32,26 @@ For more info about how to use Git submodules, see
 <https://github.blog/2016-02-01-working-with-submodules/> 
 
 
-## Testing
+## Submodules
+
+There are GitHub repos for each entity in the KG, linked here as submodules:
+
+  * <https://github.com/NYU-CI/RCCustomers>
+  * <https://github.com/NYU-CI/RCDatasets>
+  * <https://github.com/NYU-CI/RCHuman>
+  * <https://github.com/NYU-CI/RCProjects>
+  * <https://github.com/NYU-CI/RCPublications>
+  * <https://github.com/NYU-CI/RCStewards>
+
+The RCLC leaderboard competition is also linked as a submodule, since
+it's a consumer from this repo for its corpus updates:
+
+  * <https://github.com/Coleridge-Initiative/rclc.git>
+
+
+## Workflow
+
+### Step 1: Graph Consistency Tests
 
 To run the unit tests:
 
@@ -39,17 +62,17 @@ nose2 -v --pretty-assert
 Please create GitHub issues among the submodules for any failed tests.
 
 
-## Submodules
+### Step N: Generate Corpus Update
 
-There are GitHub repos for each entity in the KG, linked here as submodules:
+This workflow step generates `uuid` values (late binding) for both
+publications and datasets, then serializes the full output as TTL in
+`tmp.ttl` and as JSON-LD in `tmp.jsonld` for a corpus update:
 
-  * <https://github.com/NYU-CI/RCCustomers.git>
-  * <https://github.com/NYU-CI/RCDatasets.git>
-  * <https://github.com/NYU-CI/RCProjects>
-  * <https://github.com/NYU-CI/RCPublications.git>
-  * <https://github.com/NYU-CI/RCStewards.git>
+```
+python ./bin/gen_ttl.py
+```
 
-The RCLC leaderboard competition is also linked as a submodule, since
-it's a consumer from this repo for its corpus updates:
+Afterwards, move/rename/test/commit the generated `tmp.*` files as a
+new release for the corpus repo
+<https://github.com/Coleridge-Initiative/rclc>
 
-  * <https://github.com/Coleridge-Initiative/rclc.git>
