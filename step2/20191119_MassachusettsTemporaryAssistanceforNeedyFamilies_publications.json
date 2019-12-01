@@ -1,0 +1,670 @@
+[
+    {
+        "Dimensions": {
+            "FOR": [
+                {
+                    "id": "3177",
+                    "name": "1117 Public Health and Health Services"
+                },
+                {
+                    "id": "3292",
+                    "name": "1402 Applied Economics"
+                }
+            ],
+            "FOR_first": [
+                {
+                    "id": "2211",
+                    "name": "11 Medical and Health Sciences"
+                },
+                {
+                    "id": "2214",
+                    "name": "14 Economics"
+                }
+            ],
+            "HRCS_HC": null,
+            "HRCS_RAC": [
+                {
+                    "id": "10801",
+                    "name": "8.1 Organisation and delivery of services"
+                }
+            ],
+            "RCDC": [
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
+                },
+                {
+                    "id": "497",
+                    "name": "Basic Behavioral and Social Science"
+                },
+                {
+                    "id": "443",
+                    "name": "Health Services"
+                },
+                {
+                    "id": "550",
+                    "name": "Pediatric Research Initiative"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
+                }
+            ],
+            "altmetric": null,
+            "altmetric_id": null,
+            "author_affiliations": [
+                [
+                    {
+                        "affiliations": [
+                            {
+                                "city": "Oakland",
+                                "city_id": 5378538,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.30389.31",
+                                "name": "University of California System",
+                                "state": "California",
+                                "state_code": "US-CA"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.266102.1",
+                        "first_name": "Scott R.",
+                        "last_name": "Bauer",
+                        "orcid": "['0000-0003-4908-1924']",
+                        "researcher_id": "ur.01147561272.35"
+                    },
+                    {
+                        "affiliations": [
+                            {
+                                "city": "Boston",
+                                "city_id": 4930956,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.2515.3",
+                                "name": "Boston Children's Hospital",
+                                "state": "Massachusetts",
+                                "state_code": "US-MA"
+                            },
+                            {
+                                "city": "Cambridge",
+                                "city_id": 4931972,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.38142.3c",
+                                "name": "Harvard University",
+                                "state": "Massachusetts",
+                                "state_code": "US-MA"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.2515.3",
+                        "first_name": "Michael C.",
+                        "last_name": "Monuteaux",
+                        "orcid": "",
+                        "researcher_id": "ur.01330055347.30"
+                    },
+                    {
+                        "affiliations": [
+                            {
+                                "city": "Boston",
+                                "city_id": 4930956,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.2515.3",
+                                "name": "Boston Children's Hospital",
+                                "state": "Massachusetts",
+                                "state_code": "US-MA"
+                            },
+                            {
+                                "city": "Cambridge",
+                                "city_id": 4931972,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.38142.3c",
+                                "name": "Harvard University",
+                                "state": "Massachusetts",
+                                "state_code": "US-MA"
+                            }
+                        ],
+                        "corresponding": true,
+                        "current_organization_id": "grid.2515.3",
+                        "first_name": "Eric W.",
+                        "last_name": "Fleegler",
+                        "orcid": "['0000-0002-3563-6258']",
+                        "researcher_id": "ur.01045415620.32"
+                    }
+                ]
+            ],
+            "authors": [
+                {
+                    "affiliations": [
+                        {
+                            "city": "Oakland",
+                            "city_id": 5378538,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.30389.31",
+                            "name": "University of California System",
+                            "state": "California",
+                            "state_code": "US-CA"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.266102.1",
+                    "first_name": "Scott R.",
+                    "last_name": "Bauer",
+                    "orcid": "['0000-0003-4908-1924']",
+                    "researcher_id": "ur.01147561272.35"
+                },
+                {
+                    "affiliations": [
+                        {
+                            "city": "Boston",
+                            "city_id": 4930956,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.2515.3",
+                            "name": "Boston Children's Hospital",
+                            "state": "Massachusetts",
+                            "state_code": "US-MA"
+                        },
+                        {
+                            "city": "Cambridge",
+                            "city_id": 4931972,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.38142.3c",
+                            "name": "Harvard University",
+                            "state": "Massachusetts",
+                            "state_code": "US-MA"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.2515.3",
+                    "first_name": "Michael C.",
+                    "last_name": "Monuteaux",
+                    "orcid": "",
+                    "researcher_id": "ur.01330055347.30"
+                },
+                {
+                    "affiliations": [
+                        {
+                            "city": "Boston",
+                            "city_id": 4930956,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.2515.3",
+                            "name": "Boston Children's Hospital",
+                            "state": "Massachusetts",
+                            "state_code": "US-MA"
+                        },
+                        {
+                            "city": "Cambridge",
+                            "city_id": 4931972,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.38142.3c",
+                            "name": "Harvard University",
+                            "state": "Massachusetts",
+                            "state_code": "US-MA"
+                        }
+                    ],
+                    "corresponding": true,
+                    "current_organization_id": "grid.2515.3",
+                    "first_name": "Eric W.",
+                    "last_name": "Fleegler",
+                    "orcid": "['0000-0002-3563-6258']",
+                    "researcher_id": "ur.01045415620.32"
+                }
+            ],
+            "book_doi": null,
+            "book_series_title": null,
+            "book_title": null,
+            "category_bra": [
+                {
+                    "id": "4003",
+                    "name": "Public Health"
+                }
+            ],
+            "category_for": [
+                {
+                    "id": "3177",
+                    "name": "1117 Public Health and Health Services"
+                },
+                {
+                    "id": "2211",
+                    "name": "11 Medical and Health Sciences"
+                }
+            ],
+            "category_hra": [
+                {
+                    "id": "3903",
+                    "name": "Population & Society"
+                }
+            ],
+            "category_hrcs_hc": null,
+            "category_hrcs_rac": [
+                {
+                    "id": "10801",
+                    "name": "8.1 Organisation and delivery of services"
+                }
+            ],
+            "category_icrp_cso": null,
+            "category_icrp_ct": null,
+            "category_rcdc": [
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
+                },
+                {
+                    "id": "497",
+                    "name": "Basic Behavioral and Social Science"
+                },
+                {
+                    "id": "443",
+                    "name": "Health Services"
+                },
+                {
+                    "id": "550",
+                    "name": "Pediatric Research Initiative"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
+                }
+            ],
+            "category_ua": [
+                {
+                    "id": "30020",
+                    "name": "C20 Social Work and Social Policy"
+                }
+            ],
+            "concepts": [
+                "geographic location",
+                "important factor",
+                "factors",
+                "disparities",
+                "access",
+                "health-care",
+                "care",
+                "social services",
+                "services",
+                "objective",
+                "income",
+                "social service agencies",
+                "service agencies",
+                "agencies",
+                "population",
+                "need",
+                "Boston",
+                "agency location",
+                "comprehensive database",
+                "geographic information system",
+                "relationship",
+                "point density estimation",
+                "density estimation",
+                "estimation",
+                "census population data",
+                "population data",
+                "data",
+                "regression",
+                "categories of income",
+                "categories",
+                "census block groups",
+                "block group",
+                "miles",
+                "federal poverty level",
+                "poverty level",
+                "levels",
+                "percent of persons",
+                "percent",
+                "persons",
+                "blacks",
+                "Hispanics",
+                "non-Hispanic whites",
+                "Hispanic whites",
+                "whites",
+                "conclusion",
+                "neighborhood",
+                "low-income populations",
+                "income populations",
+                "geographic disparities"
+            ],
+            "date": "2015-10-01",
+            "date_inserted": "2017-08-31",
+            "doi": "10.1007/s11524-015-9971-2",
+            "field_citation_ratio": 0.6,
+            "funder_countries": [
+                {
+                    "id": "US",
+                    "name": "United States"
+                }
+            ],
+            "funders": [
+                {
+                    "acronym": "NIMH",
+                    "city_name": "Bethesda",
+                    "country_name": "United States",
+                    "id": "grid.416868.5",
+                    "name": "National Institute of Mental Health"
+                }
+            ],
+            "id": "pub.1004158146",
+            "issn": [
+                "1099-3460",
+                "1468-2869"
+            ],
+            "issue": "5",
+            "journal": {
+                "id": "jour.1356564",
+                "title": "Journal of Urban Health"
+            },
+            "journal_lists": [
+                "ERA 2015",
+                "Norwegian register level 1",
+                "VABB-SHW",
+                "PubMed"
+            ],
+            "linkout": "http://europepmc.org/articles/pmc4608945?pdf=render",
+            "mesh_terms": [
+                "Boston",
+                "Geographic Information Systems",
+                "Health Services Accessibility",
+                "Health Status Disparities",
+                "Humans",
+                "Income",
+                "Poverty",
+                "Risk Factors",
+                "Social Work",
+                "Unemployment"
+            ],
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - published"
+            ],
+            "open_access_categories": [
+                {
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Free copy of published version in an OA repository",
+                    "id": "green_pub",
+                    "name": "Green, Published"
+                }
+            ],
+            "pages": "853-863",
+            "pmcid": "PMC4608945",
+            "pmid": "26264235",
+            "proceedings_title": null,
+            "publisher": "Springer Nature",
+            "recent_citations": 1,
+            "reference_ids": [
+                "pub.1052912174",
+                "pub.1068844724",
+                "pub.1068844674",
+                "pub.1068878807",
+                "pub.1045090905",
+                "pub.1011183012",
+                "pub.1063529813",
+                "pub.1048156681",
+                "pub.1050960236",
+                "pub.1068844135",
+                "pub.1029673358",
+                "pub.1044526959",
+                "pub.1004820174",
+                "pub.1021068798",
+                "pub.1068845045",
+                "pub.1068844343",
+                "pub.1037949922",
+                "pub.1039912420",
+                "pub.1002678127",
+                "pub.1007836985",
+                "pub.1068844241",
+                "pub.1068844159",
+                "pub.1068878210",
+                "pub.1010721460",
+                "pub.1068842870",
+                "pub.1077109955",
+                "pub.1068842772",
+                "pub.1068845083",
+                "pub.1068874254",
+                "pub.1068877800",
+                "pub.1050657611"
+            ],
+            "references": [
+                "pub.1052912174",
+                "pub.1068844724",
+                "pub.1068844674",
+                "pub.1068878807",
+                "pub.1045090905",
+                "pub.1011183012",
+                "pub.1063529813",
+                "pub.1048156681",
+                "pub.1050960236",
+                "pub.1068844135",
+                "pub.1029673358",
+                "pub.1044526959",
+                "pub.1004820174",
+                "pub.1021068798",
+                "pub.1068845045",
+                "pub.1068844343",
+                "pub.1037949922",
+                "pub.1039912420",
+                "pub.1002678127",
+                "pub.1007836985",
+                "pub.1068844241",
+                "pub.1068844159",
+                "pub.1068878210",
+                "pub.1010721460",
+                "pub.1068842870",
+                "pub.1077109955",
+                "pub.1068842772",
+                "pub.1068845083",
+                "pub.1068874254",
+                "pub.1068877800",
+                "pub.1050657611"
+            ],
+            "relative_citation_ratio": 0.22,
+            "research_org_cities": [
+                {
+                    "id": 4930956,
+                    "name": "Boston"
+                },
+                {
+                    "id": 5378538,
+                    "name": "Oakland"
+                },
+                {
+                    "id": 4931972,
+                    "name": "Cambridge"
+                }
+            ],
+            "research_org_countries": [
+                {
+                    "id": "US",
+                    "name": "United States"
+                }
+            ],
+            "research_org_country_names": [
+                "United States"
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-CA",
+                    "name": "California"
+                },
+                {
+                    "id": "US-MA",
+                    "name": "Massachusetts"
+                }
+            ],
+            "research_org_state_names": [
+                "Massachusetts",
+                "California"
+            ],
+            "research_orgs": [
+                {
+                    "city_name": "Cambridge",
+                    "country_name": "United States",
+                    "id": "grid.38142.3c",
+                    "name": "Harvard University"
+                },
+                {
+                    "city_name": "Boston",
+                    "country_name": "United States",
+                    "id": "grid.2515.3",
+                    "name": "Boston Children's Hospital"
+                },
+                {
+                    "city_name": "Oakland",
+                    "country_name": "United States",
+                    "id": "grid.30389.31",
+                    "name": "University of California System"
+                }
+            ],
+            "researchers": [
+                {
+                    "first_name": "Scott R",
+                    "id": "ur.01147561272.35",
+                    "last_name": "Bauer",
+                    "orcid_id": [
+                        "0000-0003-4908-1924"
+                    ],
+                    "research_orgs": [
+                        "grid.30389.31",
+                        "grid.62560.37",
+                        "grid.266102.1",
+                        "grid.410372.3",
+                        "grid.412311.4",
+                        "grid.38142.3c"
+                    ]
+                },
+                {
+                    "first_name": "Michael Carl",
+                    "id": "ur.01330055347.30",
+                    "last_name": "Monuteaux",
+                    "research_orgs": [
+                        "grid.265008.9",
+                        "grid.266832.b",
+                        "grid.2515.3",
+                        "grid.42505.36",
+                        "grid.38142.3c",
+                        "grid.415948.5",
+                        "grid.411023.5",
+                        "grid.239276.b",
+                        "grid.32224.35"
+                    ]
+                },
+                {
+                    "first_name": "Eric William",
+                    "id": "ur.01045415620.32",
+                    "last_name": "Fleegler",
+                    "orcid_id": [
+                        "0000-0002-3563-6258"
+                    ],
+                    "research_orgs": [
+                        "grid.25879.31",
+                        "grid.2515.3",
+                        "grid.189504.1",
+                        "grid.266102.1",
+                        "grid.38142.3c"
+                    ]
+                }
+            ],
+            "score": 18.932823,
+            "supporting_grant_ids": null,
+            "terms": [
+                "geographic location",
+                "important factor",
+                "factors",
+                "disparities",
+                "access",
+                "health-care",
+                "care",
+                "social services",
+                "services",
+                "objective",
+                "income",
+                "social service agencies",
+                "service agencies",
+                "agencies",
+                "population",
+                "need",
+                "Boston",
+                "agency location",
+                "comprehensive database",
+                "geographic information system",
+                "relationship",
+                "point density estimation",
+                "density estimation",
+                "estimation",
+                "census population data",
+                "population data",
+                "data",
+                "regression",
+                "categories of income",
+                "categories",
+                "census block groups",
+                "block group",
+                "miles",
+                "federal poverty level",
+                "poverty level",
+                "levels",
+                "percent of persons",
+                "percent",
+                "persons",
+                "blacks",
+                "Hispanics",
+                "non-Hispanic whites",
+                "Hispanic whites",
+                "whites",
+                "conclusion",
+                "neighborhood",
+                "low-income populations",
+                "income populations",
+                "geographic disparities"
+            ],
+            "times_cited": 2,
+            "title": "Geographic Disparities in Access to Agencies Providing Income-Related Social Services",
+            "type": "article",
+            "volume": "92",
+            "year": 2015
+        },
+        "EuropePMC": {
+            "authors": [
+                "Bauer SR",
+                "Monuteaux MC",
+                "Fleegler EW."
+            ],
+            "doi": "10.1007/s11524-015-9971-2",
+            "journal": "J Urban Health",
+            "pdf": "http://europepmc.org/articles/PMC4608945?pdf=render",
+            "pmcid": "PMC4608945"
+        },
+        "OpenAIRE": {
+            "authors": [
+                "Bauer, Scott R.",
+                "Monuteaux, Michael C.",
+                "Fleegler, Eric W."
+            ],
+            "open": true,
+            "url": "https://europepmc.org/articles/PMC4608945/"
+        },
+        "datasets": [
+            "dataset-221"
+        ],
+        "doi": "10.1007/s11524-015-9971-2",
+        "original": {
+            "date_added": "2019-11-27 12:22:48",
+            "doi": "10.1007/s11524-015-9971-2",
+            "journal": "Journal of Urban Health",
+            "notes": NaN,
+            "search_term": "Massachusetts Temporary Assistance for Needy Families"
+        },
+        "title": "Geographic Disparities in Access to Agencies Providing Income-Related Social Services"
+    }
+]

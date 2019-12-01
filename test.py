@@ -5,6 +5,7 @@ from urllib.parse import urlparse
 import json
 import os
 import sys
+import traceback
 import unittest
 
 
@@ -39,7 +40,13 @@ class TestRCGraph (unittest.TestCase):
 
         for partition in partitions:
             with open(partition, "r") as f:
-                pub_list = json.load(f)
+                try:
+                    pub_list = json.load(f)
+                except Exception:
+                    traceback.print_exc()
+                    print(partition)
+                    self.fail("publication partition could not be read")
+
                 self.publications.extend(pub_list)
 
                 for pub in pub_list:

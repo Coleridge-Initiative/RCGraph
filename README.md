@@ -12,6 +12,7 @@ Then run:
 
 ```
 source venv/bin/activate
+pip install setuptools --upgrade
 pip install -r requirements.txt
 ```
 
@@ -60,6 +61,20 @@ nose2 -v --pretty-assert
 ```
 
 Please create GitHub issues among the submodules for any failed tests.
+
+
+### Step 2: Gather the DOI, etc.
+
+Use title search across the scholarly infrastructure APIs to identify
+a DOI and other metadata for each publication. 
+
+```
+python ./run_step2.py
+```
+
+Results are organized in partitions in the `step2` subdirectory, using
+the same partition names from the previous workflow step, to make
+errors easier to trace and troubleshoot.
 
 
 ### Step N: Generate Corpus Update
