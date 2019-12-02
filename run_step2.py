@@ -103,6 +103,6 @@ if __name__ == "__main__":
             json.dump(pub_list, f, indent=4, sort_keys=True)
 
     # report titles for publications that failed every API lookup
-    with open("misses.txt", "w") as f:
+    with open("misses_step2.txt", "w") as f:
         for title in misses:
             f.write("{}\n".format(title))

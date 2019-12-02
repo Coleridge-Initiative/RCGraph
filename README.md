@@ -52,21 +52,27 @@ it's a consumer from this repo for its corpus updates:
 
 ## Workflow
 
+### Initial Steps
+
+  * update `datasets.json` -- datasets are the foundation for the KG
+  * add a new partition of publication metadata for each data ingest
+
+
 ### Step 1: Graph Consistency Tests
 
-To run the unit tests:
+To perform these tests:
 
 ```
 nose2 -v --pretty-assert
 ```
 
-Please create GitHub issues among the submodules for any failed tests.
+Then create GitHub issues among the submodules for any failed tests.
 
 
-### Step 2: Gather the DOI, etc.
+### Step 2: Gather the DOIs, etc.
 
-Use title search across the scholarly infrastructure APIs to identify
-a DOI and other metadata for each publication. 
+Use *title search* across the scholarly infrastructure APIs to
+identify a DOI and other metadata for each publication.
 
 ```
 python ./run_step2.py
@@ -75,6 +81,19 @@ python ./run_step2.py
 Results are organized in partitions in the `step2` subdirectory, using
 the same partition names from the previous workflow step, to make
 errors easier to trace and troubleshoot.
+
+
+### Step 3: Gather the PDFs, etc.
+
+Use *publication lookup* with DOIs across the scholarly infrastructure
+APIs to identify open access PDFs, journals, authors, keywords, etc.
+
+```
+python ./run_step3.py
+```
+
+Results are organized in partitions in the `step3` subdirectory, using
+the same partition names from the previous workflow step.
 
 
 ### Step N: Generate Corpus Update
