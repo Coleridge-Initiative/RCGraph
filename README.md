@@ -96,6 +96,20 @@ Results are organized in partitions in the `step3` subdirectory, using
 the same partition names from the previous workflow step.
 
 
+### Step 4: Apply Business Logic
+
+Scan results from the calls to scholarly infrastructure APIs, the
+apply business logic to identify each publication's open access PDFs,
+etc.
+
+```
+python ./run_step4.py
+```
+
+Results are organized in partitions in the `step4` subdirectory, using
+the same partition names from the previous workflow step.
+
+
 ### Step N: Generate Corpus Update
 
 This workflow step generates `uuid` values (late binding) for both
