@@ -5,6 +5,7 @@ from rdflib.serializer import Serializer
 import corpus
 import glob
 import json
+import pprint
 import rdflib
 import sys
 
@@ -35,6 +36,8 @@ TEMPLATE_PUBLICATION = """
   dct:identifier "{}" ;
   :openAccess "{}"^^xsd:anyURI ;
 """
+
+OVERRIDE = {}
 
 
 def load_datasets (out_buf):
@@ -73,41 +76,72 @@ def load_datasets (out_buf):
     return known_datasets
 
 
+def iter_stream (stream_path):
+    """
+    iterate through the publication partitions
+    """
+    path = "step4"
+    filter = None
+
+    for partition in glob.glob(path + "/*.json"):
+        if not filter or partition.endswith(filter):
+            with open(partition) as f:
+                try:
+                    for elem in json.load(f):
+                        yield elem
+                except Exception:
+                    traceback.print_exc()
+                    print(partition)
+
+
 def iter_publications (stream_path="human/manual/stream.json", override_path="human/manual/partitions/*.json"):
     """
     load the publications metadata, apply the manually curated
     override metadata, then yield an iterator
     """
-    override = {}
-
     # load the manual override metadata
     for filename in glob.glob(override_path):
         with open(filename) as f:
             for elem in json.load(f):
-                override[elem["title"]] = elem["manual"]
+                # one small fix...
+                if "publisher" in elem["manual"]:
+                    elem["manual"]["journal"] = elem["manual"]["publisher"]
+
+                OVERRIDE[elem["title"]] = elem["manual"]
 
     # load the metadata stream
-    with open(stream_path, "r") as f:
-        for elem in json.load(f):
-            title = elem["title"]
+    for elem in iter_stream(stream_path):
+        title = elem["title"]
 
-            if title in override:
-                if "omit-corpus" in override[title] and override[title]["omit-corpus"]:
-                    # omit this publication from the corpus
-                    continue
+        if title in OVERRIDE:
+            OVERRIDE[title]["used"] = True
 
-                for key in ["doi", "pdf", "publisher", "url"]:
-                    if key in override[title]:
-                        elem[key] = override[title][key]
+            if "omit-corpus" in OVERRIDE[title] and OVERRIDE[title]["omit-corpus"]:
+                # omit this publication from the corpus
+                continue
 
-                if "datasets" not in elem:
-                    elem["datasets"] = []
+            for key in ["doi", "pdf", "journal", "url"]:
+                if key in OVERRIDE[title]:
+                    elem[key] = OVERRIDE[title][key]
 
-                for dataset in override[title]["datasets"]:
+            if "datasets" not in elem:
+                elem["datasets"] = []
+
+            if "datasets" in OVERRIDE[title]:
+                for dataset in OVERRIDE[title]["datasets"]:
                     if not dataset in elem["datasets"]:
                         elem["datasets"].append(dataset)
 
-                # yield corrected metadata for one publication
+        # yield corrected metadata for one publication
+        yield elem
+
+    # did we miss any of the manual entries?
+    for title, elem in OVERRIDE.items():
+        if "used" not in elem:
+            if "omit-corpus" in elem and elem["omit-corpus"]:
+                continue
+            else:
+                elem["title"] = title
                 yield elem
 
 
@@ -118,17 +152,26 @@ def load_publications (out_buf, known_datasets):
     for elem in iter_publications():
         link_map = elem["datasets"]
 
-        if elem["pdf"] and (len(link_map) > 0):
+        if "pdf" in elem and elem["pdf"] and (len(link_map) > 0):
             # generate UUID
-            id_list = [elem["publisher"], elem["title"]]
-            pub_id = corpus.get_hash(id_list, prefix="publication-")
+            try:
+                elem["title"] = elem["title"].replace('"', "'")
+                url = elem["url"]
+
+                id_list = [elem["journal"], elem["title"]]
+                pub_id = corpus.get_hash(id_list, prefix="publication-")
+            except:
+                print("MISSING JOURNAL or URL")
+                pprint.pprint(elem)
+                print(len(out_buf))
+                sys.exit(0)
 
             # reshape the metadata for corpus output
             out_buf.append(
                 TEMPLATE_PUBLICATION.format(
                     pub_id,
                     elem["url"],
-                    elem["publisher"],
+                    elem["journal"],
                     elem["title"],
                     elem["doi"],
                     elem["pdf"]

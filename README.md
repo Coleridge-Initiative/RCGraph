@@ -75,7 +75,7 @@ Use *title search* across the scholarly infrastructure APIs to
 identify a DOI and other metadata for each publication.
 
 ```
-python ./run_step2.py
+python run_step2.py
 ```
 
 Results are organized in partitions in the `step2` subdirectory, using
@@ -89,7 +89,7 @@ Use *publication lookup* with DOIs across the scholarly infrastructure
 APIs to identify open access PDFs, journals, authors, keywords, etc.
 
 ```
-python ./run_step3.py
+python run_step3.py
 ```
 
 Results are organized in partitions in the `step3` subdirectory, using
@@ -103,7 +103,7 @@ apply business logic to identify each publication's open access PDFs,
 etc.
 
 ```
-python ./run_step4.py
+python run_step4.py
 ```
 
 Results are organized in partitions in the `step4` subdirectory, using
@@ -117,10 +117,9 @@ publications and datasets, then serializes the full output as TTL in
 `tmp.ttl` and as JSON-LD in `tmp.jsonld` for a corpus update:
 
 ```
-python ./bin/gen_ttl.py
+python gen_ttl.py
 ```
 
 Afterwards, move/rename/test/commit the generated `tmp.*` files as a
 new release for the corpus repo
 <https://github.com/Coleridge-Initiative/rclc>
-
