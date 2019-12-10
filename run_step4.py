@@ -148,13 +148,13 @@ if __name__ == "__main__":
                 "titles": [j for j, c in tally]
                 }
 
-            print(json.dumps(entry, indent=2, sort_keys=True))
+            print("{},".format(json.dumps(entry, indent=2, sort_keys=True)))
 
             for title in entry["titles"]:
                 if title_key not in IGNORE_JOURNALS:
                     seen[title_key] = entry
 
     # report titles for publications that don't have a journal
-    with open("misses_step3a.txt", "w") as f:
+    with open("misses_step4.txt", "w") as f:
         for title in misses:
             f.write("{}\n".format(title))

@@ -1,6 +1,6 @@
 # RCGraph
 
-Let's manage the Rich Context knowledge graph.
+Manage the Rich Context knowledge graph.
 
 
 ## Installation
@@ -82,6 +82,9 @@ Results are organized in partitions in the `step2` subdirectory, using
 the same partition names from the previous workflow step, to make
 errors easier to trace and troubleshoot.
 
+See the `misses_step2.txt` file which reports the title of each
+publication that failed every API lookup.
+
 
 ### Step 3: Gather the PDFs, etc.
 
@@ -95,10 +98,44 @@ python run_step3.py
 Results are organized in partitions in the `step3` subdirectory, using
 the same partition names from the previous workflow step.
 
+See the `misses_step3.txt` file which reports the title of each
+publication that failed every API lookup.
 
-### Step 5: Apply Business Logic
 
-Scan results from the calls to scholarly infrastructure APIs, the
+### Step 4: Reconcile Journal Entities
+
+**This is a manual step.**
+
+Scan results from calls to scholarly infrastructure APIs, then apply
+business logic to reconcile the journal for each publication with the
+`journals.json` entity listing.
+
+```
+python run_step4.py
+```
+
+Results are written to standard output, for suggested additions to the
+`journals.json` entity listing. A person running this step must
+inspect each suggestion, then determine whether to add the suggested
+journal to the file -- or make other changes to previously described
+journal entities. For example, sometimes the metadata returned from
+discovery APIs has errors and would cause data quality issues within
+the KG.
+
+Journal names get used later in the workflow to construct UUIDs for
+publications, prior to generating the public corpus. This step
+performs consistency tests and filtering of the API metadata, to avoid
+data quality issues later.
+
+See the `misses_step4.txt` file which reports the title of each
+publication that doesn't have a journal.
+
+NB: if you don't understand what this step performs, don't run it.
+
+
+### Step 5: Reconcile Open Access PDFs
+
+Scan results from the calls to scholarly infrastructure APIs, then
 apply business logic to identify each publication's open access PDFs,
 etc.
 
@@ -108,6 +145,9 @@ python run_step5.py
 
 Results are organized in partitions in the `step5` subdirectory, using
 the same partition names from the previous workflow step.
+
+See the `misses_step5.txt` file which reports the title of each
+publication that failed every API lookup.
 
 
 ### Step N: Generate Corpus Update
