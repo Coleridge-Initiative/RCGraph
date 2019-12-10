@@ -1,55 +1,23 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-from richcontext import scholapi as rc_scholapi
-import glob
+from util import iter_publications, tally_list
 import json
-import operator
-import os
-import pprint
+import re
 import sys
-import traceback
 
 
-def iter_publications (path, filter=None):
-    """
-    iterate through the publication partitions
-    """
-    for partition in glob.glob(path + "/*.json"):
-        if not filter or partition.endswith(filter):
-            with open(partition) as f:
-                try:
-                    yield os.path.basename(partition), json.load(f)
-                except Exception:
-                    traceback.print_exc()
-                    print(partition)
+IGNORE_JOURNALS = set([
+        "ssrn electronic journal"
+        ])
 
 
-def tally_list (l):
-    """
-    sort a list in descending order of most frequent element
-    """
-    trans = dict([ (x.lower(), x) for x in l])
-    lower_l = list(map(lambda x: x.lower(), l))
-    keys = set(lower_l)
-    enum_dict = {}
-
-    for key in keys:
-        enum_dict[trans[key]] = lower_l.count(key)
-
-    return sorted(enum_dict.items(), key=operator.itemgetter(1), reverse=True)
-
-
-def gather_pdf (pub, partition, pub_list, misses):
+def extract_journals (pub):
     """
     scan results from scholarly infrastructure APIs, apply business
-    logic to identify this publication's open access PDFs, etc.
+    logic to extract a list of candidate journals for this publication
     """
-    url_list = []
     journal_list = []
-
-    title = pub["title"]
-    pdf_match = False
 
     # EuropePMC has the best PDFs
     if "EuropePMC" in pub:
@@ -61,13 +29,6 @@ def gather_pdf (pub, partition, pub_list, misses):
             if journal and isinstance(journal, str):
                 journal_list.append(journal)
 
-        if "pdf" in meta:
-            pdf = meta["pdf"]
-
-            if pdf:
-                pub["pdf"] = pdf
-                pdf_match = True
-
     # Unpaywall has mostly reliable metadata, except for PDFs
     if "Unpaywall" in pub:
         meta = pub["Unpaywall"]
@@ -78,33 +39,12 @@ def gather_pdf (pub, partition, pub_list, misses):
             if journal and isinstance(journal, str):
                 journal_list.append(journal)
 
-        if "is_oa" in meta:
-            if meta["is_oa"]:
-                best_meta = meta["best_oa_location"]
-
-                url = best_meta["url_for_landing_page"]
-
-                if url and isinstance(url, str):
-                    url_list.append(url)
-
-                pdf = best_meta["url_for_pdf"]
-
-                if pdf and not "pdf" in pub:
-                    pub["pdf"] = pdf
-                    pdf_match = True
-
     # dissem.in is somewhat sparse / seems iffy
     if "dissemin" in pub and "paper" in pub["dissemin"]:
         records = pub["dissemin"]["paper"]["records"]
 
         if len(records) > 0:
             meta = records[0]
-        
-            if "splash_url" in meta:
-                url = meta["splash_url"]
-
-                if url and isinstance(url, str):
-                    url_list.append(url)
 
             if "journal" in meta:
                 journal = meta["journal"]
@@ -116,13 +56,6 @@ def gather_pdf (pub, partition, pub_list, misses):
     if "Dimensions" in pub:
         meta = pub["Dimensions"]
 
-        if "linkout" in meta:
-            pdf = meta["linkout"]
-
-            if pdf and not "pdf" in pub:
-                pub["pdf"] = pdf
-                pdf_match = True
-
         if "journal" in meta:
             if meta["journal"] and "title" in meta["journal"]:
                 journal = meta["journal"]["title"]
@@ -130,103 +63,98 @@ def gather_pdf (pub, partition, pub_list, misses):
                 if journal and isinstance(journal, str):
                     journal_list.append(journal)
 
-    # OpenAIRE is generally good
-    if "OpenAIRE" in pub:
-        meta = pub["OpenAIRE"]
-
-        if "url" in meta:
-            url = meta["url"]
-
-            if url and isinstance(url, str):
-                url_list.append(url)
-
-    # Semantic Scholar -- could be better, has good open access but doesn't share it
+    # Semantic Scholar -- could be better
+    # has good open access but doesn't share
+    # also, beware their use of "arXiv" as a journal
     if "Semantic Scholar" in pub:
         meta = pub["Semantic Scholar"]
-
-        if "url" in meta:
-            url = meta["url"]
-
-            if url and isinstance(url, str):
-                url_list.append(url)
 
         if "venue" in meta:
             journal = meta["venue"]
 
             if journal and isinstance(journal, str):
-                journal_list.append(journal)
+                if journal.lower() != "arxiv":
+                    journal_list.append(journal)
 
     # original metadata from data ingest
     if "original" in pub:
         meta = pub["original"]
 
-        if "url" in meta:
-            url = meta["url"]
-
-            if url and isinstance(url, str):
-                url_list.append(url)
-
         if "journal" in meta:
             journal = meta["journal"]
 
             if journal and isinstance(journal, str):
-                journal_list.append(journal)
+                # TODO: input metadata for `original` is not consistent
+                #print("original", journal)
+                #journal_list.append(journal)
+                pass
 
-    # keep track of the titles that had no open access PDF
-    if not pdf_match:
-        misses.append(title)
+    return journal_list
 
-    # send a view of this publication along into the workflow stream
-    view = {
-        "title": title,
-        "datasets": pub["datasets"]
-        }
 
-    if "doi" in pub:
-        view["doi"] = pub["doi"]
-
-    if pdf_match:
-        view["pdf"] = pub["pdf"]
+def reconcile_journal (pub, misses, journals):
+    """
+    for each publication, identify a list of its candidate journals,
+    or mark as a miss
+    """
+    journal_list = extract_journals(pub)
 
     if len(journal_list) > 0:
-        tally = tally_list(journal_list)
-        journal, count = tally[0]
-        view["journal"] = journal
-
-    if len(url_list) > 0:
-        tally = tally_list(url_list)
-        url, count = tally[0]
-        view["url"] = url
-
-    #pprint.pprint(view)
-    pub_list.append(view)
+        tally = tally_list(journal_list, ignores=IGNORE_JOURNALS)
+        journals.append(tally)
+    else:
+        misses.append(pub["title"])
 
 
 if __name__ == "__main__":
-    # initialize the federated API access
-    schol = rc_scholapi.ScholInfraAPI(config_file="rc.cfg", logger=None)
+    # load the list of journals
+    journals_path = "journals.json"
 
-    # for each publication: gather the open access PDFs, etc.
-    pdf_hits = 0
+    with open(journals_path, "r") as f:
+        journals = json.load(f)
+
+    ids = sorted([j["id"] for j in journals])
+    m = re.search("journal\-(\d+)", ids[-1])
+    next_id = int(m.group(1))
+    seen = {}
+
+    for journal in journals:
+        for title in journal["titles"]:
+            title_key = title.strip().lower()
+
+            if title_key in seen:
+                print("DUPLICATE JOURNAL: {}".format(title))
+            else:
+                seen[title_key] = journal
+
+    # for each publication: reconcile journal names
     misses = []
+    journals = []
 
     for partition, pub_iter in iter_publications(path="step3"):
-        print("working: {}".format(partition))
-        pub_list = []
-
         for pub in pub_iter:
-            gather_pdf(pub, partition, pub_list, misses)
+            reconcile_journal(pub, misses, journals)
 
-        for pub in pub_list:
-            if "pdf" in pub:
-                pdf_hits += 1
+    # tentative list of journals to be considered for adding
+    for tally in journals:
+        title, count = tally[0]
+        title_key = title.strip().lower()
 
-        with open("step4/" + partition, "w") as f:
-            json.dump(pub_list, f, indent=4, sort_keys=True)
+        if title_key not in seen:
+            # add the tally for this (apparently) new journal
+            next_id += 1
+            entry = {
+                "id": "journal-{:03d}".format(next_id),
+                "titles": [j for j, c in tally]
+                }
 
-    print("PDFs: {}".format(pdf_hits))
+            print(json.dumps(entry, indent=2, sort_keys=True))
 
-    # report titles for publications that failed every API lookup
-    with open("misses_step4.txt", "w") as f:
+            for title in entry["titles"]:
+                if title_key not in IGNORE_JOURNALS:
+                    seen[title_key] = entry
+
+    # report titles for publications that don't have a journal
+    with open("misses_step3a.txt", "w") as f:
         for title in misses:
             f.write("{}\n".format(title))
