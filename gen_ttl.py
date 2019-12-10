@@ -76,7 +76,7 @@ def load_datasets (out_buf):
     return known_datasets
 
 
-def iter_publications (override_path="human/manual/partitions/*.json"):
+def iter_override_publications (override_path="human/manual/partitions/*.json"):
     """
     load the publications metadata, apply the manually curated
     override metadata, then yield an iterator
@@ -85,10 +85,6 @@ def iter_publications (override_path="human/manual/partitions/*.json"):
     for filename in glob.glob(override_path):
         with open(filename) as f:
             for elem in json.load(f):
-                # one small fix...
-                if "publisher" in elem["manual"]:
-                    elem["manual"]["journal"] = elem["manual"]["publisher"]
-
                 OVERRIDE[elem["title"]] = elem["manual"]
 
     # load the metadata stream
@@ -132,7 +128,7 @@ def load_publications (graph, out_buf, known_datasets):
     """
     load publications, link to datasets, reshape metadata
     """
-    for elem in iter_publications():
+    for elem in iter_override_publications():
         link_map = elem["datasets"]
 
         if "pdf" in elem and elem["pdf"] and (len(link_map) > 0):
