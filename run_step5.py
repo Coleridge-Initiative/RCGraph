@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+from graph import RCGraph
 from richcontext import scholapi as rc_scholapi
-from util import iter_publications, tally_list
 import json
 import pprint
 import sys
 
 
-def gather_pdf (pub, partition, pub_list, misses):
+def gather_pdf (pub, partition, pub_list, graph):
     """
     scan results from scholarly infrastructure APIs, apply business
     logic to identify this publication's open access PDFs, etc.
@@ -142,7 +142,7 @@ def gather_pdf (pub, partition, pub_list, misses):
 
     # keep track of the titles that had no open access PDF
     if not pdf_match:
-        misses.append(title)
+        graph.misses.append(title)
 
     # send a view of this publication along into the workflow stream
     view = {
@@ -157,12 +157,12 @@ def gather_pdf (pub, partition, pub_list, misses):
         view["pdf"] = pub["pdf"]
 
     if len(journal_list) > 0:
-        tally = tally_list(journal_list)
+        tally = graph.tally_list(journal_list)
         journal, count = tally[0]
         view["journal"] = journal
 
     if len(url_list) > 0:
-        tally = tally_list(url_list)
+        tally = graph.tally_list(url_list)
         url, count = tally[0]
         view["url"] = url
 
@@ -173,17 +173,17 @@ def gather_pdf (pub, partition, pub_list, misses):
 if __name__ == "__main__":
     # initialize the federated API access
     schol = rc_scholapi.ScholInfraAPI(config_file="rc.cfg", logger=None)
+    graph = RCGraph("step5")
 
     # for each publication: gather the open access PDFs, etc.
     pdf_hits = 0
-    misses = []
 
-    for partition, pub_iter in iter_publications(path="step3"):
+    for partition, pub_iter in graph.iter_publications(path="step3"):
         print("working: {}".format(partition))
         pub_list = []
 
         for pub in pub_iter:
-            gather_pdf(pub, partition, pub_list, misses)
+            gather_pdf(pub, partition, pub_list, graph)
 
         for pub in pub_list:
             if "pdf" in pub:
@@ -195,6 +195,4 @@ if __name__ == "__main__":
     print("PDFs: {}".format(pdf_hits))
 
     # report titles for publications that failed every API lookup
-    with open("misses_step5.txt", "w") as f:
-        for title in misses:
-            f.write("{}\n".format(title))
+    graph.report_misses()

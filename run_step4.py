@@ -1,15 +1,10 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-from util import iter_publications, tally_list
+from graph import RCGraph
 import json
 import re
 import sys
-
-
-IGNORE_JOURNALS = set([
-        "ssrn electronic journal"
-        ])
 
 
 def extract_journals (pub):
@@ -92,21 +87,10 @@ def extract_journals (pub):
     return journal_list
 
 
-def reconcile_journal (pub, misses, journals):
-    """
-    for each publication, identify a list of its candidate journals,
-    or mark as a miss
-    """
-    journal_list = extract_journals(pub)
-
-    if len(journal_list) > 0:
-        tally = tally_list(journal_list, ignores=IGNORE_JOURNALS)
-        journals.append(tally)
-    else:
-        misses.append(pub["title"])
-
-
 if __name__ == "__main__":
+    graph = RCGraph(step_name="step4")
+    seen = {}
+
     # load the list of journals
     journals_path = "journals.json"
 
@@ -116,7 +100,6 @@ if __name__ == "__main__":
     ids = sorted([j["id"] for j in journals])
     m = re.search("journal\-(\d+)", ids[-1])
     next_id = int(m.group(1))
-    seen = {}
 
     for journal in journals:
         for title in journal["titles"]:
@@ -128,12 +111,17 @@ if __name__ == "__main__":
                 seen[title_key] = journal
 
     # for each publication: reconcile journal names
-    misses = []
     journals = []
 
-    for partition, pub_iter in iter_publications(path="step3"):
+    for partition, pub_iter in graph.iter_publications(path="step3"):
         for pub in pub_iter:
-            reconcile_journal(pub, misses, journals)
+            journal_list = extract_journals(pub)
+
+            if len(journal_list) > 0:
+                tally = graph.tally_list(journal_list, ignores=RCGraph.IGNORE_JOURNALS)
+                journals.append(tally)
+            else:
+                graph.misses.append(pub["title"])
 
     # tentative list of journals to be considered for adding
     for tally in journals:
@@ -151,10 +139,8 @@ if __name__ == "__main__":
             print("{},".format(json.dumps(entry, indent=2, sort_keys=True)))
 
             for title in entry["titles"]:
-                if title_key not in IGNORE_JOURNALS:
+                if title_key not in RCGraph.IGNORE_JOURNALS:
                     seen[title_key] = entry
 
     # report titles for publications that don't have a journal
-    with open("misses_step4.txt", "w") as f:
-        for title in misses:
-            f.write("{}\n".format(title))
+    graph.report_misses()
