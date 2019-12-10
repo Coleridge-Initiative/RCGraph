@@ -2,6 +2,7 @@
 # encoding: utf-8
 
 import glob
+import hashlib
 import json
 import operator
 import os
@@ -176,6 +177,24 @@ class RCGraph:
         self.step_name = step_name
         self.misses = []
         self.journals = RCJournals()
+
+
+    @classmethod
+    def get_hash (cls, strings, prefix=None, digest_size=10):
+        """
+        construct a unique identifier from a collection of strings
+        """
+        m = hashlib.blake2b(digest_size=digest_size)
+    
+        for elem in sorted(map(lambda x: x.encode("utf-8").lower().strip(), strings)):
+            m.update(elem)
+
+        if prefix:
+            id = prefix + m.hexdigest()
+        else:
+            id = m.hexdigest()
+
+        return id
 
 
     @classmethod
