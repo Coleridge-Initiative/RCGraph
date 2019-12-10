@@ -14,7 +14,6 @@ def gather_pdf (pub, partition, pub_list, graph):
     logic to identify this publication's open access PDFs, etc.
     """
     url_list = []
-    journal_list = []
 
     title = pub["title"]
     pdf_match = False
@@ -22,12 +21,6 @@ def gather_pdf (pub, partition, pub_list, graph):
     # EuropePMC has the best PDFs
     if "EuropePMC" in pub:
         meta = pub["EuropePMC"]
-
-        if "journal" in meta:
-            journal = meta["journal"]
-
-            if journal and isinstance(journal, str):
-                journal_list.append(journal)
 
         if "pdf" in meta:
             pdf = meta["pdf"]
@@ -39,12 +32,6 @@ def gather_pdf (pub, partition, pub_list, graph):
     # Unpaywall has mostly reliable metadata, except for PDFs
     if "Unpaywall" in pub:
         meta = pub["Unpaywall"]
-
-        if "journal_name" in meta:
-            journal = meta["journal_name"]
-
-            if journal and isinstance(journal, str):
-                journal_list.append(journal)
 
         if "is_oa" in meta:
             if meta["is_oa"]:
@@ -74,12 +61,6 @@ def gather_pdf (pub, partition, pub_list, graph):
                 if url and isinstance(url, str):
                     url_list.append(url)
 
-            if "journal" in meta:
-                journal = meta["journal"]
-
-                if journal and isinstance(journal, str):
-                    journal_list.append(journal)
-
     # Dimensions metadata is verbose, if there
     if "Dimensions" in pub:
         meta = pub["Dimensions"]
@@ -90,13 +71,6 @@ def gather_pdf (pub, partition, pub_list, graph):
             if pdf and not "pdf" in pub:
                 pub["pdf"] = pdf
                 pdf_match = True
-
-        if "journal" in meta:
-            if meta["journal"] and "title" in meta["journal"]:
-                journal = meta["journal"]["title"]
-
-                if journal and isinstance(journal, str):
-                    journal_list.append(journal)
 
     # OpenAIRE is generally good
     if "OpenAIRE" in pub:
@@ -118,12 +92,6 @@ def gather_pdf (pub, partition, pub_list, graph):
             if url and isinstance(url, str):
                 url_list.append(url)
 
-        if "venue" in meta:
-            journal = meta["venue"]
-
-            if journal and isinstance(journal, str):
-                journal_list.append(journal)
-
     # original metadata from data ingest
     if "original" in pub:
         meta = pub["original"]
@@ -133,12 +101,6 @@ def gather_pdf (pub, partition, pub_list, graph):
 
             if url and isinstance(url, str):
                 url_list.append(url)
-
-        if "journal" in meta:
-            journal = meta["journal"]
-
-            if journal and isinstance(journal, str):
-                journal_list.append(journal)
 
     # keep track of the titles that had no open access PDF
     if not pdf_match:
@@ -156,15 +118,15 @@ def gather_pdf (pub, partition, pub_list, graph):
     if pdf_match:
         view["pdf"] = pub["pdf"]
 
-    if len(journal_list) > 0:
-        tally = graph.tally_list(journal_list)
-        journal, count = tally[0]
-        view["journal"] = journal
-
     if len(url_list) > 0:
         tally = graph.tally_list(url_list)
         url, count = tally[0]
         view["url"] = url
+
+    # select the best journal
+    journal_list = graph.journals.extract_journals(pub)
+    journal = graph.journals.select_best_entity(journal_list)
+    view["journal"] = journal["id"]
 
     #pprint.pprint(view)
     pub_list.append(view)
@@ -173,7 +135,9 @@ def gather_pdf (pub, partition, pub_list, graph):
 if __name__ == "__main__":
     # initialize the federated API access
     schol = rc_scholapi.ScholInfraAPI(config_file="rc.cfg", logger=None)
+
     graph = RCGraph("step5")
+    graph.journals.load_entities()
 
     # for each publication: gather the open access PDFs, etc.
     pdf_hits = 0
