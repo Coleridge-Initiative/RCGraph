@@ -83,6 +83,8 @@ def iter_override_publications (override_path="human/manual/partitions/*.json"):
     """
     # load the manual override metadata
     for filename in glob.glob(override_path):
+        print("override:", filename)
+
         with open(filename) as f:
             for elem in json.load(f):
                 OVERRIDE[elem["title"]] = elem["manual"]
