@@ -1,9 +1,12 @@
-tmp.*
-misses_step*.txt
+# Configuration, log files, reports, and other state
 
 rc.cfg
 chromedriver
 chromedriver.exe
+
+nohup.out
+misses_step*.txt
+tmp.*
 
 .ipynb_checkpoints/*
 .DS_Store
