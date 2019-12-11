@@ -25,16 +25,12 @@ class TestRCGraph (unittest.TestCase):
 
     def setUp (self):
         """load the resources from submodules"""
-        self.datasets = {}
-        self.publications = []
         self.partition_map = {}
+        self.publications = []
+        self.datasets = {}
+        self.journals = {}
 
-        subdir = "datasets/datasets.json"
-
-        with open(subdir, "r") as f:
-            for d in json.load(f):
-                self.datasets[d["id"]] = d
-
+        # load the publications
         subdir = "publications/partitions"
         partitions = [ "/".join([subdir, name]) for name in os.listdir(subdir) ]
 
@@ -52,13 +48,28 @@ class TestRCGraph (unittest.TestCase):
                 for pub in pub_list:
                     self.partition_map[pub["title"]] = partition
 
+        # load the datasets
+        subdir = "datasets/datasets.json"
+
+        with open(subdir, "r") as f:
+            for d in json.load(f):
+                self.datasets[d["id"]] = d
+
+        # load the journals
+        with open("journals.json", "r") as f:
+            for j in json.load(f):
+                self.journals[j["id"]] = j
+
 
     def test_resources_loaded (self):
+        print("\n{} publications loaded".format(len(self.publications)))
+        self.assertTrue(len(self.publications) > 0)
+
         print("\n{} datasets loaded".format(len(self.datasets)))
         self.assertTrue(len(self.datasets) > 0)
 
-        print("\n{} publications loaded".format(len(self.publications)))
-        self.assertTrue(len(self.publications) > 0)
+        print("\n{} journals loaded".format(len(self.journals)))
+        self.assertTrue(len(self.journals) > 0)
 
 
     def test_publication_dataset_links (self):

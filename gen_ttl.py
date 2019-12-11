@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+from graph import RCGraph
 from rdflib.serializer import Serializer
-import corpus
 import glob
 import json
 import pprint
@@ -19,6 +19,12 @@ PREAMBLE = """
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 """
 
+TEMPLATE_JOURNAL = """
+:{}
+  rdf:type :Journal ;
+  dct:title "{}" ;
+"""
+
 TEMPLATE_DATASET = """
 :{}
   rdf:type :Dataset ;
@@ -31,13 +37,41 @@ TEMPLATE_PUBLICATION = """
 :{}
   rdf:type :ResearchPublication ;
   foaf:page "{}"^^xsd:anyURI ;
-  dct:publisher "{}" ;
+  dct:publisher :{} ;
   dct:title "{}" ;
   dct:identifier "{}" ;
   :openAccess "{}"^^xsd:anyURI ;
 """
 
 OVERRIDE = {}
+
+
+def load_journals (graph, out_buf):
+    """
+    load the journals
+    """
+    journals = {}
+
+    for j in graph.journals.known.values():
+        id_list = [ j["titles"][0] ]
+        j["hash"] = RCGraph.get_hash(id_list, prefix="journal-")
+        journals[j["id"]] = j
+
+    for id, j in journals.items():
+        out_buf.append(
+            TEMPLATE_JOURNAL.format(
+                j["hash"],
+                j["titles"][0],
+                ).strip()
+            )
+
+        if len(j["titles"]) > 1:
+            for title in j["titles"][1:]:
+                out_buf.append("  dct:alternative \"{}\" ;".format(title))
+
+        out_buf.append(".\n")
+
+    return journals
 
 
 def load_datasets (out_buf):
@@ -51,7 +85,7 @@ def load_datasets (out_buf):
         for elem in json.load(f):
             dat_id = elem["id"]
             id_list = [elem["provider"], elem["title"]]
-            known_datasets[dat_id] = corpus.get_hash(id_list, prefix="dataset-")
+            known_datasets[dat_id] = RCGraph.get_hash(id_list, prefix="dataset-")
 
             if "url" in elem:
                 url = elem["url"]
@@ -76,64 +110,45 @@ def load_datasets (out_buf):
     return known_datasets
 
 
-def iter_stream (stream_path):
-    """
-    iterate through the publication partitions
-    """
-    path = "step4"
-    filter = None
-
-    for partition in glob.glob(path + "/*.json"):
-        if not filter or partition.endswith(filter):
-            with open(partition) as f:
-                try:
-                    for elem in json.load(f):
-                        yield elem
-                except Exception:
-                    traceback.print_exc()
-                    print(partition)
-
-
-def iter_publications (stream_path="human/manual/stream.json", override_path="human/manual/partitions/*.json"):
+def iter_override_publications (override_path="human/manual/partitions/*.json"):
     """
     load the publications metadata, apply the manually curated
     override metadata, then yield an iterator
     """
     # load the manual override metadata
     for filename in glob.glob(override_path):
+        print("override:", filename)
+
         with open(filename) as f:
             for elem in json.load(f):
-                # one small fix...
-                if "publisher" in elem["manual"]:
-                    elem["manual"]["journal"] = elem["manual"]["publisher"]
-
                 OVERRIDE[elem["title"]] = elem["manual"]
 
     # load the metadata stream
-    for elem in iter_stream(stream_path):
-        title = elem["title"]
+    for partition, pub_iter in graph.iter_publications(path="step5"):
+        for elem in pub_iter:
+            title = elem["title"]
 
-        if title in OVERRIDE:
-            OVERRIDE[title]["used"] = True
+            if title in OVERRIDE:
+                OVERRIDE[title]["used"] = True
 
-            if "omit-corpus" in OVERRIDE[title] and OVERRIDE[title]["omit-corpus"]:
-                # omit this publication from the corpus
-                continue
+                if "omit-corpus" in OVERRIDE[title] and OVERRIDE[title]["omit-corpus"]:
+                    # omit this publication from the corpus
+                    continue
 
-            for key in ["doi", "pdf", "journal", "url"]:
-                if key in OVERRIDE[title]:
-                    elem[key] = OVERRIDE[title][key]
+                for key in ["doi", "pdf", "journal", "url"]:
+                    if key in OVERRIDE[title]:
+                        elem[key] = OVERRIDE[title][key]
 
-            if "datasets" not in elem:
-                elem["datasets"] = []
+                if "datasets" not in elem:
+                    elem["datasets"] = []
 
-            if "datasets" in OVERRIDE[title]:
-                for dataset in OVERRIDE[title]["datasets"]:
-                    if not dataset in elem["datasets"]:
-                        elem["datasets"].append(dataset)
+                if "datasets" in OVERRIDE[title]:
+                    for dataset in OVERRIDE[title]["datasets"]:
+                        if not dataset in elem["datasets"]:
+                            elem["datasets"].append(dataset)
 
-        # yield corrected metadata for one publication
-        yield elem
+            # yield corrected metadata for one publication
+            yield elem
 
     # did we miss any of the manual entries?
     for title, elem in OVERRIDE.items():
@@ -145,11 +160,11 @@ def iter_publications (stream_path="human/manual/stream.json", override_path="hu
                 yield elem
 
 
-def load_publications (out_buf, known_datasets):
+def load_publications (graph, out_buf, known_datasets, journals):
     """
     load publications, link to datasets, reshape metadata
     """
-    for elem in iter_publications():
+    for elem in iter_override_publications():
         link_map = elem["datasets"]
 
         if "pdf" in elem and elem["pdf"] and (len(link_map) > 0):
@@ -159,7 +174,7 @@ def load_publications (out_buf, known_datasets):
                 url = elem["url"]
 
                 id_list = [elem["journal"], elem["title"]]
-                pub_id = corpus.get_hash(id_list, prefix="publication-")
+                pub_id = RCGraph.get_hash(id_list, prefix="publication-")
             except:
                 print("MISSING JOURNAL or URL")
                 pprint.pprint(elem)
@@ -167,11 +182,13 @@ def load_publications (out_buf, known_datasets):
                 sys.exit(0)
 
             # reshape the metadata for corpus output
+            journal_hash = journals[elem["journal"]]["hash"]
+
             out_buf.append(
                 TEMPLATE_PUBLICATION.format(
                     pub_id,
                     elem["url"],
-                    elem["journal"],
+                    journal_hash,
                     elem["title"],
                     elem["doi"],
                     elem["pdf"]
@@ -198,29 +215,35 @@ def write_corpus (out_buf, vocab_file="vocab.json"):
             f.write("\n")
 
     ## load the TTL output as a graph
-    graph = rdflib.Graph()
-    graph.parse(corpus_ttl_filename, format="n3")
+    g = rdflib.Graph()
+    g.parse(corpus_ttl_filename, format="n3")
 
     ## transform graph into JSON-LD
     with open(vocab_file, "r") as f:
         context = json.load(f)
 
     with open(corpus_jsonld_filename, "wb") as f:
-        f.write(graph.serialize(format="json-ld", context=context, indent=2))
+        f.write(g.serialize(format="json-ld", context=context, indent=2))
 
     ## read back, to confirm formatting
-    graph = rdflib.Graph()
-    graph.parse(corpus_jsonld_filename, format="json-ld")
+    g = rdflib.Graph()
+    g.parse(corpus_jsonld_filename, format="json-ld")
 
 
 if __name__ == "__main__":
 
-    ## 1. load the metadata for datasets and publications
+    ## 1. load the metadata for journals, datasets, publications
     ## 2. apply manually curated metadata as override per publication, if any
     ## 3. validate the linked data
     ## 4. format output for the corpus as both TTL and JSON-LD
 
     out_buf = [ PREAMBLE.lstrip() ]
+
+    graph = RCGraph("step5")
+    graph.journals.load_entities()
+
+    journals = load_journals(graph, out_buf)
     known_datasets = load_datasets(out_buf)
-    load_publications(out_buf, known_datasets)
+
+    load_publications(graph, out_buf, known_datasets, journals)
     write_corpus(out_buf)
