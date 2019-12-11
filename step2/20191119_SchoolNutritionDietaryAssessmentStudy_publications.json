@@ -475,30 +475,30 @@
             "publisher": "PNG Publications",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1033944759",
                 "pub.1012731337",
+                "pub.1033944759",
                 "pub.1030567231",
-                "pub.1078573572",
-                "pub.1004934942",
-                "pub.1052024588",
                 "pub.1052363427",
                 "pub.1010269388",
-                "pub.1003097762",
                 "pub.1030882170",
-                "pub.1030643648"
+                "pub.1052024588",
+                "pub.1030643648",
+                "pub.1003097762",
+                "pub.1004934942",
+                "pub.1078573572"
             ],
             "references": [
-                "pub.1033944759",
                 "pub.1012731337",
+                "pub.1033944759",
                 "pub.1030567231",
-                "pub.1078573572",
-                "pub.1004934942",
-                "pub.1052024588",
                 "pub.1052363427",
                 "pub.1010269388",
-                "pub.1003097762",
                 "pub.1030882170",
-                "pub.1030643648"
+                "pub.1052024588",
+                "pub.1030643648",
+                "pub.1003097762",
+                "pub.1004934942",
+                "pub.1078573572"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -557,28 +557,64 @@
                     "city_name": "Pittsburgh",
                     "country_name": "United States",
                     "id": "grid.21925.3d",
-                    "name": "University of Pittsburgh"
+                    "latitude": 40.443504,
+                    "linkout": [
+                        "http://www.pitt.edu/"
+                    ],
+                    "longitude": -79.961525,
+                    "name": "University of Pittsburgh",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UIUC",
                     "city_name": "Urbana",
                     "country_name": "United States",
                     "id": "grid.35403.31",
-                    "name": "University of Illinois at Urbana Champaign"
+                    "latitude": 40.10218,
+                    "linkout": [
+                        "http://illinois.edu/"
+                    ],
+                    "longitude": -88.227196,
+                    "name": "University of Illinois at Urbana Champaign",
+                    "state_name": "Illinois",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "NIU",
                     "city_name": "DeKalb",
                     "country_name": "United States",
                     "id": "grid.261128.e",
-                    "name": "Northern Illinois University"
+                    "latitude": 41.933887,
+                    "linkout": [
+                        "http://www.niu.edu/index.shtml"
+                    ],
+                    "longitude": -88.77778,
+                    "name": "Northern Illinois University",
+                    "state_name": "Illinois",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UF",
                     "city_name": "Gainesville",
                     "country_name": "United States",
                     "id": "grid.15276.37",
-                    "name": "University of Florida"
+                    "latitude": 29.643902,
+                    "linkout": [
+                        "http://www.ufl.edu/"
+                    ],
+                    "longitude": -82.35495,
+                    "name": "University of Florida",
+                    "state_name": "Florida",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -634,15 +670,15 @@
                         "0000-0003-3462-9790"
                     ],
                     "research_orgs": [
-                        "grid.213876.9",
-                        "grid.438526.e",
-                        "grid.35403.31",
                         "grid.29857.31",
-                        "grid.261120.6"
+                        "grid.35403.31",
+                        "grid.261120.6",
+                        "grid.438526.e",
+                        "grid.213876.9"
                     ]
                 }
             ],
-            "score": 19.980373,
+            "score": 19.981182,
             "supporting_grant_ids": null,
             "terms": [
                 "study",
@@ -746,12 +782,12 @@
             ],
             "HRCS_HC": [
                 {
-                    "id": "899",
-                    "name": "Oral and Gastrointestinal"
-                },
-                {
                     "id": "906",
                     "name": "Metabolic and Endocrine"
+                },
+                {
+                    "id": "899",
+                    "name": "Oral and Gastrointestinal"
                 }
             ],
             "HRCS_RAC": null,
@@ -761,20 +797,20 @@
                     "name": "Clinical Research"
                 },
                 {
-                    "id": "558",
-                    "name": "Prevention"
+                    "id": "388",
+                    "name": "Nutrition"
                 },
                 {
-                    "id": "344",
-                    "name": "Digestive Diseases"
+                    "id": "558",
+                    "name": "Prevention"
                 },
                 {
                     "id": "547",
                     "name": "Pediatric"
                 },
                 {
-                    "id": "388",
-                    "name": "Nutrition"
+                    "id": "344",
+                    "name": "Digestive Diseases"
                 }
             ],
             "altmetric": 1.0,
@@ -920,12 +956,12 @@
             ],
             "category_hrcs_hc": [
                 {
-                    "id": "899",
-                    "name": "Oral and Gastrointestinal"
-                },
-                {
                     "id": "906",
                     "name": "Metabolic and Endocrine"
+                },
+                {
+                    "id": "899",
+                    "name": "Oral and Gastrointestinal"
                 }
             ],
             "category_hrcs_rac": null,
@@ -937,20 +973,20 @@
                     "name": "Clinical Research"
                 },
                 {
-                    "id": "558",
-                    "name": "Prevention"
+                    "id": "388",
+                    "name": "Nutrition"
                 },
                 {
-                    "id": "344",
-                    "name": "Digestive Diseases"
+                    "id": "558",
+                    "name": "Prevention"
                 },
                 {
                     "id": "547",
                     "name": "Pediatric"
                 },
                 {
-                    "id": "388",
-                    "name": "Nutrition"
+                    "id": "344",
+                    "name": "Digestive Diseases"
                 }
             ],
             "category_ua": [
@@ -1060,7 +1096,16 @@
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.280785.0",
-                    "name": "National Institute of General Medical Sciences"
+                    "latitude": 38.997833,
+                    "linkout": [
+                        "http://www.nigms.nih.gov/Pages/default.aspx"
+                    ],
+                    "longitude": -77.09938,
+                    "name": "National Institute of General Medical Sciences",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1122019738",
@@ -1096,188 +1141,188 @@
             "publisher": "Elsevier",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1092668178",
-                "pub.1041483737",
-                "pub.1020998874",
-                "pub.1034675947",
-                "pub.1013830289",
-                "pub.1083817658",
-                "pub.1060348450",
-                "pub.1049441170",
-                "pub.1039971981",
-                "pub.1002791386",
-                "pub.1085431328",
-                "pub.1008932088",
-                "pub.1023893418",
-                "pub.1037084752",
-                "pub.1050643751",
-                "pub.1019669855",
-                "pub.1101151312",
-                "pub.1007710132",
-                "pub.1009984764",
-                "pub.1017400322",
-                "pub.1045246944",
-                "pub.1052378845",
-                "pub.1055914247",
-                "pub.1032367351",
-                "pub.1037357400",
-                "pub.1003118444",
-                "pub.1107129414",
-                "pub.1008135931",
-                "pub.1050498034",
-                "pub.1052356500",
-                "pub.1009345667",
-                "pub.1045980007",
-                "pub.1027536444",
-                "pub.1006874441",
-                "pub.1074840904",
-                "pub.1038450930",
-                "pub.1025700107",
-                "pub.1006565229",
-                "pub.1031137241",
-                "pub.1078148436",
-                "pub.1003479016",
-                "pub.1023962826",
-                "pub.1034568952",
-                "pub.1101634436",
-                "pub.1033727547",
-                "pub.1008766428",
-                "pub.1053120043",
-                "pub.1110458929",
-                "pub.1036538412",
-                "pub.1037011309",
-                "pub.1069166551",
-                "pub.1000085698",
-                "pub.1042157769",
-                "pub.1023427228",
-                "pub.1006588343",
-                "pub.1049864477",
-                "pub.1004540352",
-                "pub.1006715973",
-                "pub.1019627885",
-                "pub.1007455001",
-                "pub.1015324311",
-                "pub.1033807069",
-                "pub.1027743851",
                 "pub.1026461300",
-                "pub.1103354239",
+                "pub.1006588343",
+                "pub.1007455001",
+                "pub.1043916234",
+                "pub.1027536444",
+                "pub.1078148436",
+                "pub.1085431328",
+                "pub.1006715973",
                 "pub.1003337956",
-                "pub.1026762871",
-                "pub.1004952443",
-                "pub.1038673065",
-                "pub.1006312159",
-                "pub.1009032055",
-                "pub.1040553591",
-                "pub.1056719737",
-                "pub.1048392484",
-                "pub.1051863807",
-                "pub.1077687179",
-                "pub.1044288255",
-                "pub.1040668719",
-                "pub.1010718391",
+                "pub.1006565229",
+                "pub.1002791386",
+                "pub.1036538412",
+                "pub.1110458929",
+                "pub.1038450930",
+                "pub.1050643751",
                 "pub.1045931365",
                 "pub.1014404908",
-                "pub.1101087324",
-                "pub.1021738341",
-                "pub.1034201526",
-                "pub.1003977212",
+                "pub.1020998874",
+                "pub.1026762871",
+                "pub.1033727547",
+                "pub.1017400322",
+                "pub.1008932088",
+                "pub.1037084752",
+                "pub.1069166551",
+                "pub.1023427228",
+                "pub.1015324311",
+                "pub.1049441170",
+                "pub.1034675947",
                 "pub.1028540883",
+                "pub.1031137241",
+                "pub.1044288255",
+                "pub.1077687179",
+                "pub.1101151312",
+                "pub.1103354239",
+                "pub.1009345667",
+                "pub.1060348450",
+                "pub.1025700107",
                 "pub.1040378105",
+                "pub.1055914247",
+                "pub.1052378845",
+                "pub.1007710132",
+                "pub.1101087324",
+                "pub.1013830289",
+                "pub.1045980007",
+                "pub.1009984764",
+                "pub.1048392484",
+                "pub.1083817658",
+                "pub.1006874441",
                 "pub.1083275831",
+                "pub.1050498034",
+                "pub.1101634436",
+                "pub.1004952443",
+                "pub.1003118444",
                 "pub.1077004798",
-                "pub.1043916234"
+                "pub.1003479016",
+                "pub.1042157769",
+                "pub.1004540352",
+                "pub.1023893418",
+                "pub.1040668719",
+                "pub.1049864477",
+                "pub.1023962826",
+                "pub.1033807069",
+                "pub.1040553591",
+                "pub.1019627885",
+                "pub.1032367351",
+                "pub.1038673065",
+                "pub.1041483737",
+                "pub.1051863807",
+                "pub.1056719737",
+                "pub.1045246944",
+                "pub.1037357400",
+                "pub.1052356500",
+                "pub.1053120043",
+                "pub.1107129414",
+                "pub.1010718391",
+                "pub.1006312159",
+                "pub.1027743851",
+                "pub.1092668178",
+                "pub.1074840904",
+                "pub.1009032055",
+                "pub.1003977212",
+                "pub.1000085698",
+                "pub.1008766428",
+                "pub.1019669855",
+                "pub.1039971981",
+                "pub.1021738341",
+                "pub.1008135931",
+                "pub.1034201526",
+                "pub.1034568952",
+                "pub.1037011309"
             ],
             "references": [
-                "pub.1092668178",
-                "pub.1041483737",
-                "pub.1020998874",
-                "pub.1034675947",
-                "pub.1013830289",
-                "pub.1083817658",
-                "pub.1060348450",
-                "pub.1049441170",
-                "pub.1039971981",
-                "pub.1002791386",
-                "pub.1085431328",
-                "pub.1008932088",
-                "pub.1023893418",
-                "pub.1037084752",
-                "pub.1050643751",
-                "pub.1019669855",
-                "pub.1101151312",
-                "pub.1007710132",
-                "pub.1009984764",
-                "pub.1017400322",
-                "pub.1045246944",
-                "pub.1052378845",
-                "pub.1055914247",
-                "pub.1032367351",
-                "pub.1037357400",
-                "pub.1003118444",
-                "pub.1107129414",
-                "pub.1008135931",
-                "pub.1050498034",
-                "pub.1052356500",
-                "pub.1009345667",
-                "pub.1045980007",
-                "pub.1027536444",
-                "pub.1006874441",
-                "pub.1074840904",
-                "pub.1038450930",
-                "pub.1025700107",
-                "pub.1006565229",
-                "pub.1031137241",
-                "pub.1078148436",
-                "pub.1003479016",
-                "pub.1023962826",
-                "pub.1034568952",
-                "pub.1101634436",
-                "pub.1033727547",
-                "pub.1008766428",
-                "pub.1053120043",
-                "pub.1110458929",
-                "pub.1036538412",
-                "pub.1037011309",
-                "pub.1069166551",
-                "pub.1000085698",
-                "pub.1042157769",
-                "pub.1023427228",
-                "pub.1006588343",
-                "pub.1049864477",
-                "pub.1004540352",
-                "pub.1006715973",
-                "pub.1019627885",
-                "pub.1007455001",
-                "pub.1015324311",
-                "pub.1033807069",
-                "pub.1027743851",
                 "pub.1026461300",
-                "pub.1103354239",
+                "pub.1006588343",
+                "pub.1007455001",
+                "pub.1043916234",
+                "pub.1027536444",
+                "pub.1078148436",
+                "pub.1085431328",
+                "pub.1006715973",
                 "pub.1003337956",
-                "pub.1026762871",
-                "pub.1004952443",
-                "pub.1038673065",
-                "pub.1006312159",
-                "pub.1009032055",
-                "pub.1040553591",
-                "pub.1056719737",
-                "pub.1048392484",
-                "pub.1051863807",
-                "pub.1077687179",
-                "pub.1044288255",
-                "pub.1040668719",
-                "pub.1010718391",
+                "pub.1006565229",
+                "pub.1002791386",
+                "pub.1036538412",
+                "pub.1110458929",
+                "pub.1038450930",
+                "pub.1050643751",
                 "pub.1045931365",
                 "pub.1014404908",
-                "pub.1101087324",
-                "pub.1021738341",
-                "pub.1034201526",
-                "pub.1003977212",
+                "pub.1020998874",
+                "pub.1026762871",
+                "pub.1033727547",
+                "pub.1017400322",
+                "pub.1008932088",
+                "pub.1037084752",
+                "pub.1069166551",
+                "pub.1023427228",
+                "pub.1015324311",
+                "pub.1049441170",
+                "pub.1034675947",
                 "pub.1028540883",
+                "pub.1031137241",
+                "pub.1044288255",
+                "pub.1077687179",
+                "pub.1101151312",
+                "pub.1103354239",
+                "pub.1009345667",
+                "pub.1060348450",
+                "pub.1025700107",
                 "pub.1040378105",
+                "pub.1055914247",
+                "pub.1052378845",
+                "pub.1007710132",
+                "pub.1101087324",
+                "pub.1013830289",
+                "pub.1045980007",
+                "pub.1009984764",
+                "pub.1048392484",
+                "pub.1083817658",
+                "pub.1006874441",
                 "pub.1083275831",
+                "pub.1050498034",
+                "pub.1101634436",
+                "pub.1004952443",
+                "pub.1003118444",
                 "pub.1077004798",
-                "pub.1043916234"
+                "pub.1003479016",
+                "pub.1042157769",
+                "pub.1004540352",
+                "pub.1023893418",
+                "pub.1040668719",
+                "pub.1049864477",
+                "pub.1023962826",
+                "pub.1033807069",
+                "pub.1040553591",
+                "pub.1019627885",
+                "pub.1032367351",
+                "pub.1038673065",
+                "pub.1041483737",
+                "pub.1051863807",
+                "pub.1056719737",
+                "pub.1045246944",
+                "pub.1037357400",
+                "pub.1052356500",
+                "pub.1053120043",
+                "pub.1107129414",
+                "pub.1010718391",
+                "pub.1006312159",
+                "pub.1027743851",
+                "pub.1092668178",
+                "pub.1074840904",
+                "pub.1009032055",
+                "pub.1003977212",
+                "pub.1000085698",
+                "pub.1008766428",
+                "pub.1019669855",
+                "pub.1039971981",
+                "pub.1021738341",
+                "pub.1008135931",
+                "pub.1034201526",
+                "pub.1034568952",
+                "pub.1037011309"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": null,
@@ -1307,7 +1352,7 @@
                     ]
                 }
             ],
-            "score": 24.957716,
+            "score": 24.975113,
             "supporting_grant_ids": null,
             "terms": [
                 "human gut microbiome",
@@ -1722,7 +1767,7 @@
                     ]
                 }
             ],
-            "score": 26.023289,
+            "score": 26.02081,
             "supporting_grant_ids": null,
             "terms": [
                 "article",
@@ -2430,19 +2475,47 @@
                     "city_name": "Austin",
                     "country_name": "United States",
                     "id": "grid.468222.8",
-                    "name": "The University of Texas Health Science Center"
+                    "latitude": 30.279268,
+                    "linkout": [
+                        "https://sph.uth.edu/campuses/austin/"
+                    ],
+                    "longitude": -97.74294,
+                    "name": "The University of Texas Health Science Center",
+                    "state_name": "Texas",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
+                    "acronym": "HISD",
                     "city_name": "Houston",
                     "country_name": "United States",
                     "id": "grid.420769.e",
-                    "name": "Houston Independent School District"
+                    "latitude": 29.802847,
+                    "linkout": [
+                        "https://www.houstonisd.org/"
+                    ],
+                    "longitude": -95.45426,
+                    "name": "Houston Independent School District",
+                    "state_name": "Texas",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Houston",
                     "country_name": "United States",
                     "id": "grid.267308.8",
-                    "name": "The University of Texas Health Science Center at Houston"
+                    "latitude": 29.703306,
+                    "linkout": [
+                        "https://www.uth.edu/"
+                    ],
+                    "longitude": -95.40305,
+                    "name": "The University of Texas Health Science Center at Houston",
+                    "state_name": "Texas",
+                    "types": [
+                        "Healthcare"
+                    ]
                 }
             ],
             "researchers": [
@@ -2461,7 +2534,7 @@
                     ]
                 }
             ],
-            "score": 20.711359,
+            "score": 20.71269,
             "supporting_grant_ids": null,
             "terms": [
                 "main aim",
@@ -3012,26 +3085,26 @@
             "publisher": "Cold Spring Harbor Laboratory",
             "recent_citations": null,
             "reference_ids": [
+                "pub.1106813179",
+                "pub.1031770694",
+                "pub.1104164650",
+                "pub.1078754088",
+                "pub.1092866120",
                 "pub.1006340194",
                 "pub.1078950981",
-                "pub.1078754088",
-                "pub.1111739368",
-                "pub.1031770694",
                 "pub.1027535152",
-                "pub.1104164650",
-                "pub.1092866120",
-                "pub.1106813179"
+                "pub.1111739368"
             ],
             "references": [
+                "pub.1106813179",
+                "pub.1031770694",
+                "pub.1104164650",
+                "pub.1078754088",
+                "pub.1092866120",
                 "pub.1006340194",
                 "pub.1078950981",
-                "pub.1078754088",
-                "pub.1111739368",
-                "pub.1031770694",
                 "pub.1027535152",
-                "pub.1104164650",
-                "pub.1092866120",
-                "pub.1106813179"
+                "pub.1111739368"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -3063,7 +3136,16 @@
                     "city_name": "Minneapolis",
                     "country_name": "United States",
                     "id": "grid.17635.36",
-                    "name": "University of Minnesota"
+                    "latitude": 44.974194,
+                    "linkout": [
+                        "http://twin-cities.umn.edu/"
+                    ],
+                    "longitude": -93.22776,
+                    "name": "University of Minnesota",
+                    "state_name": "Minnesota",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -3118,7 +3200,7 @@
                     ]
                 }
             ],
-            "score": 23.59879,
+            "score": 23.589476,
             "supporting_grant_ids": null,
             "terms": [
                 "Healthy",
@@ -3470,7 +3552,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 22.923077,
+            "score": 22.922588,
             "supporting_grant_ids": null,
             "terms": [
                 "school meals",
@@ -3795,7 +3877,15 @@
                     "city_name": "Rio de Janeiro",
                     "country_name": "Brazil",
                     "id": "grid.452413.5",
-                    "name": "Get\u00falio Vargas Foundation"
+                    "latitude": -22.941439,
+                    "linkout": [
+                        "http://portal.fgv.br/en"
+                    ],
+                    "longitude": -43.179962,
+                    "name": "Get\u00falio Vargas Foundation",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -3808,7 +3898,7 @@
                     ]
                 }
             ],
-            "score": 20.105911,
+            "score": 20.10103,
             "supporting_grant_ids": null,
             "terms": [
                 "farms",
@@ -4755,41 +4845,90 @@
                     "city_name": "Palermo",
                     "country_name": "Italy",
                     "id": "grid.10776.37",
-                    "name": "University of Palermo"
+                    "latitude": 38.117874,
+                    "linkout": [
+                        "http://portale.unipa.it/"
+                    ],
+                    "longitude": 13.369795,
+                    "name": "University of Palermo",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Naples",
                     "country_name": "Italy",
                     "id": "grid.4691.a",
-                    "name": "University of Naples Federico II"
+                    "latitude": 40.84722,
+                    "linkout": [
+                        "http://www.unina.it/index.jsp"
+                    ],
+                    "longitude": 14.256944,
+                    "name": "University of Naples Federico II",
+                    "state_name": "Campania",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "ISA",
                     "city_name": "Avellino",
                     "country_name": "Italy",
                     "id": "grid.429574.9",
-                    "name": "Institute of Food Science"
+                    "latitude": 40.911198,
+                    "linkout": [
+                        "http://www.isa.cnr.it/webisa/"
+                    ],
+                    "longitude": 14.775847,
+                    "name": "Institute of Food Science",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "acronym": "FAO",
                     "city_name": "Rome",
                     "country_name": "Italy",
                     "id": "grid.420153.1",
-                    "name": "Food and Agriculture Organization of the United Nations"
+                    "latitude": 41.882805,
+                    "linkout": [
+                        "http://www.fao.org/home/en/"
+                    ],
+                    "longitude": 12.488505,
+                    "name": "Food and Agriculture Organization of the United Nations",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "UNIPR",
                     "city_name": "Parma",
                     "country_name": "Italy",
                     "id": "grid.10383.39",
-                    "name": "University of Parma"
+                    "latitude": 44.797077,
+                    "linkout": [
+                        "http://en.unipr.it/"
+                    ],
+                    "longitude": 10.30867,
+                    "name": "University of Parma",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UNISA",
                     "city_name": "Fisciano",
                     "country_name": "Italy",
                     "id": "grid.11780.3f",
-                    "name": "University of Salerno"
+                    "latitude": 40.76868,
+                    "linkout": [
+                        "http://www.unisa.it/"
+                    ],
+                    "longitude": 14.795022,
+                    "name": "University of Salerno",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -4817,8 +4956,8 @@
                     "id": "ur.016243261161.26",
                     "last_name": "De Blasio",
                     "research_orgs": [
-                        "grid.4691.a",
-                        "grid.7605.4"
+                        "grid.7605.4",
+                        "grid.4691.a"
                     ]
                 },
                 {
@@ -4880,7 +5019,7 @@
                     ]
                 }
             ],
-            "score": 17.727377,
+            "score": 17.724743,
             "supporting_grant_ids": null,
             "terms": [
                 "surveillance system",
@@ -5377,94 +5516,94 @@
             "publisher": "Cambridge University Press (CUP)",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1084508513",
-                "pub.1084812181",
-                "pub.1020645782",
-                "pub.1041306032",
                 "pub.1010777993",
-                "pub.1046455821",
-                "pub.1006216788",
-                "pub.1004251476",
-                "pub.1053803271",
-                "pub.1005885173",
-                "pub.1032007628",
-                "pub.1035946323",
-                "pub.1003550133",
-                "pub.1018570222",
-                "pub.1007673769",
-                "pub.1002559051",
-                "pub.1023768176",
-                "pub.1007222398",
-                "pub.1035453973",
-                "pub.1010956526",
-                "pub.1009672946",
-                "pub.1079390518",
-                "pub.1051890018",
-                "pub.1004125147",
-                "pub.1039569443",
-                "pub.1021483770",
-                "pub.1020998874",
-                "pub.1078953039",
-                "pub.1028042677",
-                "pub.1078523558",
-                "pub.1027870698",
                 "pub.1026618713",
-                "pub.1006340194",
                 "pub.1059244068",
-                "pub.1002500083",
-                "pub.1033862681",
-                "pub.1031737102",
-                "pub.1030967262",
+                "pub.1084812181",
+                "pub.1006340194",
+                "pub.1010956526",
                 "pub.1010231314",
-                "pub.1003689980",
+                "pub.1079390518",
+                "pub.1009672946",
+                "pub.1046354769",
+                "pub.1007222398",
+                "pub.1007673769",
+                "pub.1018570222",
+                "pub.1020645782",
+                "pub.1027870698",
+                "pub.1023768176",
+                "pub.1021483770",
+                "pub.1030967262",
+                "pub.1084508513",
+                "pub.1078953039",
+                "pub.1035453973",
+                "pub.1046455821",
+                "pub.1003550133",
                 "pub.1091487149",
+                "pub.1020998874",
+                "pub.1005885173",
+                "pub.1002500083",
+                "pub.1003689980",
+                "pub.1078523558",
                 "pub.1052941788",
-                "pub.1046354769"
+                "pub.1031737102",
+                "pub.1028042677",
+                "pub.1035946323",
+                "pub.1002559051",
+                "pub.1004125147",
+                "pub.1004251476",
+                "pub.1039569443",
+                "pub.1053803271",
+                "pub.1051890018",
+                "pub.1033862681",
+                "pub.1041306032",
+                "pub.1006216788",
+                "pub.1032007628"
             ],
             "references": [
-                "pub.1084508513",
-                "pub.1084812181",
-                "pub.1020645782",
-                "pub.1041306032",
                 "pub.1010777993",
-                "pub.1046455821",
-                "pub.1006216788",
-                "pub.1004251476",
-                "pub.1053803271",
-                "pub.1005885173",
-                "pub.1032007628",
-                "pub.1035946323",
-                "pub.1003550133",
-                "pub.1018570222",
-                "pub.1007673769",
-                "pub.1002559051",
-                "pub.1023768176",
-                "pub.1007222398",
-                "pub.1035453973",
-                "pub.1010956526",
-                "pub.1009672946",
-                "pub.1079390518",
-                "pub.1051890018",
-                "pub.1004125147",
-                "pub.1039569443",
-                "pub.1021483770",
-                "pub.1020998874",
-                "pub.1078953039",
-                "pub.1028042677",
-                "pub.1078523558",
-                "pub.1027870698",
                 "pub.1026618713",
-                "pub.1006340194",
                 "pub.1059244068",
-                "pub.1002500083",
-                "pub.1033862681",
-                "pub.1031737102",
-                "pub.1030967262",
+                "pub.1084812181",
+                "pub.1006340194",
+                "pub.1010956526",
                 "pub.1010231314",
-                "pub.1003689980",
+                "pub.1079390518",
+                "pub.1009672946",
+                "pub.1046354769",
+                "pub.1007222398",
+                "pub.1007673769",
+                "pub.1018570222",
+                "pub.1020645782",
+                "pub.1027870698",
+                "pub.1023768176",
+                "pub.1021483770",
+                "pub.1030967262",
+                "pub.1084508513",
+                "pub.1078953039",
+                "pub.1035453973",
+                "pub.1046455821",
+                "pub.1003550133",
                 "pub.1091487149",
+                "pub.1020998874",
+                "pub.1005885173",
+                "pub.1002500083",
+                "pub.1003689980",
+                "pub.1078523558",
                 "pub.1052941788",
-                "pub.1046354769"
+                "pub.1031737102",
+                "pub.1028042677",
+                "pub.1035946323",
+                "pub.1002559051",
+                "pub.1004125147",
+                "pub.1004251476",
+                "pub.1039569443",
+                "pub.1053803271",
+                "pub.1051890018",
+                "pub.1033862681",
+                "pub.1041306032",
+                "pub.1006216788",
+                "pub.1032007628"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -5510,21 +5649,48 @@
                     "city_name": "San Diego",
                     "country_name": "United States",
                     "id": "grid.266100.3",
-                    "name": "University of California, San Diego"
+                    "latitude": 32.881,
+                    "linkout": [
+                        "http://ucsd.edu/"
+                    ],
+                    "longitude": -117.238,
+                    "name": "University of California, San Diego",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UIUC",
                     "city_name": "Urbana",
                     "country_name": "United States",
                     "id": "grid.35403.31",
-                    "name": "University of Illinois at Urbana Champaign"
+                    "latitude": 40.10218,
+                    "linkout": [
+                        "http://illinois.edu/"
+                    ],
+                    "longitude": -88.227196,
+                    "name": "University of Illinois at Urbana Champaign",
+                    "state_name": "Illinois",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UCD",
                     "city_name": "Davis",
                     "country_name": "United States",
                     "id": "grid.27860.3b",
-                    "name": "University of California, Davis"
+                    "latitude": 38.54,
+                    "linkout": [
+                        "http://ucdavis.edu/"
+                    ],
+                    "longitude": -121.75,
+                    "name": "University of California, Davis",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -5587,7 +5753,7 @@
                     ]
                 }
             ],
-            "score": 25.86348,
+            "score": 25.859568,
             "supporting_grant_ids": null,
             "terms": [
                 "schools",
@@ -6140,7 +6306,16 @@
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.281076.a",
-                    "name": "National Institute On Minority Health and Health Disparities"
+                    "latitude": 39.023106,
+                    "linkout": [
+                        "http://nimhd.nih.gov/"
+                    ],
+                    "longitude": -77.137665,
+                    "name": "National Institute On Minority Health and Health Disparities",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1113640072",
@@ -6267,7 +6442,16 @@
                     "city_name": "Medford",
                     "country_name": "United States",
                     "id": "grid.429997.8",
-                    "name": "Tufts University"
+                    "latitude": 42.40983,
+                    "linkout": [
+                        "http://www.tufts.edu/"
+                    ],
+                    "longitude": -71.12194,
+                    "name": "Tufts University",
+                    "state_name": "Massachusetts",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -6279,9 +6463,9 @@
                         "0000-0002-9596-9230"
                     ],
                     "research_orgs": [
-                        "grid.429997.8",
+                        "grid.137628.9",
                         "grid.189504.1",
-                        "grid.137628.9"
+                        "grid.429997.8"
                     ]
                 },
                 {
@@ -6350,14 +6534,14 @@
                         "0000-0002-3130-0087"
                     ],
                     "research_orgs": [
-                        "grid.429997.8",
+                        "grid.21729.3f",
                         "grid.266871.c",
                         "grid.48336.3a",
-                        "grid.21729.3f"
+                        "grid.429997.8"
                     ]
                 }
             ],
-            "score": 25.223354,
+            "score": 25.229166,
             "supporting_grant_ids": [
                 "grant.6443529"
             ],
@@ -6835,14 +7019,32 @@
                     "city_name": "Rockville",
                     "country_name": "United States",
                     "id": "grid.429651.d",
-                    "name": "National Center for Advancing Translational Sciences"
+                    "latitude": 39.09584,
+                    "linkout": [
+                        "https://ncats.nih.gov/"
+                    ],
+                    "longitude": -77.197174,
+                    "name": "National Center for Advancing Translational Sciences",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "NHLBI",
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.279885.9",
-                    "name": "National Heart Lung and Blood Institute"
+                    "latitude": 39.00428,
+                    "linkout": [
+                        "http://www.nhlbi.nih.gov/"
+                    ],
+                    "longitude": -77.100945,
+                    "name": "National Heart Lung and Blood Institute",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1112136855",
@@ -7030,7 +7232,7 @@
                     ]
                 }
             ],
-            "score": 28.633053,
+            "score": 28.641577,
             "supporting_grant_ids": [
                 "grant.7520427",
                 "grant.2543710"
@@ -7565,14 +7767,31 @@
                     "city_name": "Kyoto",
                     "country_name": "Japan",
                     "id": "grid.258799.8",
-                    "name": "Kyoto University"
+                    "latitude": 35.026157,
+                    "linkout": [
+                        "http://www.kyoto-u.ac.jp/en"
+                    ],
+                    "longitude": 135.77979,
+                    "name": "Kyoto University",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "ASU",
                     "city_name": "Tempe",
                     "country_name": "United States",
                     "id": "grid.215654.1",
-                    "name": "Arizona State University"
+                    "latitude": 33.417194,
+                    "linkout": [
+                        "http://www.asu.edu/"
+                    ],
+                    "longitude": -111.93651,
+                    "name": "Arizona State University",
+                    "state_name": "Arizona",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -7612,7 +7831,7 @@
                     ]
                 }
             ],
-            "score": 16.467236,
+            "score": 16.46118,
             "supporting_grant_ids": null,
             "terms": [
                 "centrality of culture",
@@ -8045,7 +8264,7 @@
                     ]
                 }
             ],
-            "score": 28.703968,
+            "score": 28.716724,
             "supporting_grant_ids": null,
             "terms": [
                 "Department",
@@ -8449,7 +8668,15 @@
                     "city_name": "Yogyakarta",
                     "country_name": "Indonesia",
                     "id": "grid.8570.a",
-                    "name": "Gadjah Mada University"
+                    "latitude": -7.769444,
+                    "linkout": [
+                        "http://www.ugm.ac.id/new/en"
+                    ],
+                    "longitude": 110.37889,
+                    "name": "Gadjah Mada University",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -8463,7 +8690,7 @@
                     ]
                 }
             ],
-            "score": 36.19255,
+            "score": 36.169037,
             "supporting_grant_ids": null,
             "terms": [
                 "obesity",
@@ -9045,14 +9272,32 @@
                     "city_name": "New York",
                     "country_name": "United States",
                     "id": "grid.21729.3f",
-                    "name": "Columbia University"
+                    "latitude": 40.807774,
+                    "linkout": [
+                        "http://www.columbia.edu/"
+                    ],
+                    "longitude": -73.962585,
+                    "name": "Columbia University",
+                    "state_name": "New York",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "USF",
                     "city_name": "Tampa",
                     "country_name": "United States",
                     "id": "grid.170693.a",
-                    "name": "University of South Florida"
+                    "latitude": 28.054562,
+                    "linkout": [
+                        "http://www.usf.edu/"
+                    ],
+                    "longitude": -82.413055,
+                    "name": "University of South Florida",
+                    "state_name": "Florida",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -9092,8 +9337,8 @@
                     ],
                     "research_orgs": [
                         "grid.170693.a",
-                        "grid.439164.d",
-                        "grid.21729.3f"
+                        "grid.21729.3f",
+                        "grid.439164.d"
                     ]
                 },
                 {
@@ -9109,7 +9354,7 @@
                     ]
                 }
             ],
-            "score": 25.497341,
+            "score": 25.506733,
             "supporting_grant_ids": null,
             "terms": [
                 "U.S.",
@@ -9519,7 +9764,16 @@
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.279885.9",
-                    "name": "National Heart Lung and Blood Institute"
+                    "latitude": 39.00428,
+                    "linkout": [
+                        "http://www.nhlbi.nih.gov/"
+                    ],
+                    "longitude": -77.100945,
+                    "name": "National Heart Lung and Blood Institute",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1106894966",
@@ -9622,7 +9876,16 @@
                     "city_name": "Minneapolis",
                     "country_name": "United States",
                     "id": "grid.17635.36",
-                    "name": "University of Minnesota"
+                    "latitude": 44.974194,
+                    "linkout": [
+                        "http://twin-cities.umn.edu/"
+                    ],
+                    "longitude": -93.22776,
+                    "name": "University of Minnesota",
+                    "state_name": "Minnesota",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -9668,7 +9931,7 @@
                     ]
                 }
             ],
-            "score": 26.710617,
+            "score": 26.702906,
             "supporting_grant_ids": [
                 "grant.2543710"
             ],

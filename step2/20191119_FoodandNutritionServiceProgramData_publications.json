@@ -281,7 +281,16 @@
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.420089.7",
-                    "name": "National Institute of Child Health and Human Development"
+                    "latitude": 39.001095,
+                    "linkout": [
+                        "http://www.nichd.nih.gov/Pages/index.aspx"
+                    ],
+                    "longitude": -77.10042,
+                    "name": "National Institute of Child Health and Human Development",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1120774448",
@@ -404,17 +413,27 @@
                     "city_name": "Falls Church",
                     "country_name": "United States",
                     "id": "grid.429534.d",
-                    "name": "Lewin Group"
+                    "name": "Lewin Group",
+                    "state_name": "Virginia"
                 },
                 {
                     "city_name": "Rockville",
                     "country_name": "United States",
                     "id": "grid.280561.8",
-                    "name": "Westat (United States)"
+                    "latitude": 39.04747,
+                    "linkout": [
+                        "https://www.westat.com/"
+                    ],
+                    "longitude": -77.12495,
+                    "name": "Westat (United States)",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Company"
+                    ]
                 }
             ],
             "researchers": null,
-            "score": 25.52777,
+            "score": 25.519733,
             "supporting_grant_ids": [
                 "grant.3806886"
             ],
@@ -731,7 +750,7 @@
             "date": "2016-05-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.foodpol.2016.01.009",
-            "field_citation_ratio": 1.1,
+            "field_citation_ratio": 1.09,
             "funder_countries": [
                 {
                     "id": "US",
@@ -744,7 +763,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417548.b",
-                    "name": "United States Department of Agriculture"
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1001157080",
@@ -929,7 +957,16 @@
                     "city_name": "Oakland",
                     "country_name": "United States",
                     "id": "grid.30389.31",
-                    "name": "University of California System"
+                    "latitude": 37.80217,
+                    "linkout": [
+                        "http://www.universityofcalifornia.edu/"
+                    ],
+                    "longitude": -122.27128,
+                    "name": "University of California System",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -956,7 +993,7 @@
                     ]
                 }
             ],
-            "score": 23.286472,
+            "score": 23.288153,
             "supporting_grant_ids": null,
             "terms": [
                 "women",
@@ -1319,35 +1356,80 @@
                     "city_name": "Princeton",
                     "country_name": "United States",
                     "id": "grid.419213.c",
-                    "name": "Robert Wood Johnson Foundation"
+                    "latitude": 40.353897,
+                    "linkout": [
+                        "http://www.rwjf.org/"
+                    ],
+                    "longitude": -74.606094,
+                    "name": "Robert Wood Johnson Foundation",
+                    "state_name": "New Jersey",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 },
                 {
                     "acronym": "NCI",
                     "city_name": "Rockville",
                     "country_name": "United States",
                     "id": "grid.48336.3a",
-                    "name": "National Cancer Institute"
+                    "latitude": 39.004326,
+                    "linkout": [
+                        "http://www.cancer.gov/"
+                    ],
+                    "longitude": -77.10119,
+                    "name": "National Cancer Institute",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "CDC",
                     "city_name": "Atlanta",
                     "country_name": "United States",
                     "id": "grid.416738.f",
-                    "name": "Centers for Disease Control and Prevention"
+                    "latitude": 33.798817,
+                    "linkout": [
+                        "http://www.cdc.gov/"
+                    ],
+                    "longitude": -84.3256,
+                    "name": "Centers for Disease Control and Prevention",
+                    "state_name": "Georgia",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "NIMHD",
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.281076.a",
-                    "name": "National Institute On Minority Health and Health Disparities"
+                    "latitude": 39.023106,
+                    "linkout": [
+                        "http://nimhd.nih.gov/"
+                    ],
+                    "longitude": -77.137665,
+                    "name": "National Institute On Minority Health and Health Disparities",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "NIDDK",
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.419635.c",
-                    "name": "National Institute of Diabetes and Digestive and Kidney Diseases"
+                    "latitude": 39.003628,
+                    "linkout": [
+                        "http://www.niddk.nih.gov/"
+                    ],
+                    "longitude": -77.10107,
+                    "name": "National Institute of Diabetes and Digestive and Kidney Diseases",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1020550581",
@@ -1557,7 +1639,7 @@
                     ]
                 }
             ],
-            "score": 27.445488,
+            "score": 27.447344,
             "supporting_grant_ids": [
                 "grant.2440209",
                 "grant.2441295",
@@ -1931,7 +2013,7 @@
                     ]
                 }
             ],
-            "score": 27.102556,
+            "score": 27.09595,
             "supporting_grant_ids": null,
             "terms": [
                 "people",
@@ -2211,7 +2293,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 25.165941,
+            "score": 25.158909,
             "supporting_grant_ids": null,
             "terms": [
                 "study",
@@ -2445,7 +2527,7 @@
             "date": "2011-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/19320248.2011.549358",
-            "field_citation_ratio": 0.38,
+            "field_citation_ratio": 0.39,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1017056280",
@@ -2537,7 +2619,7 @@
                     ]
                 }
             ],
-            "score": 19.737303,
+            "score": 19.73274,
             "supporting_grant_ids": null,
             "terms": [
                 "Commodity Supplemental Food Program",
@@ -2804,7 +2886,16 @@
                     "city_name": "Princeton",
                     "country_name": "United States",
                     "id": "grid.419482.2",
-                    "name": "Mathematica Policy Research"
+                    "latitude": 40.32583,
+                    "linkout": [
+                        "http://www.mathematica-mpr.com/"
+                    ],
+                    "longitude": -74.63507,
+                    "name": "Mathematica Policy Research",
+                    "state_name": "New Jersey",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "researchers": [
@@ -2817,7 +2908,7 @@
                     ]
                 }
             ],
-            "score": 16.782824,
+            "score": 16.77755,
             "supporting_grant_ids": null,
             "terms": [
                 "food environment",
@@ -3072,7 +3163,7 @@
             "date": "2009-10-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1606/1044-3894.3930",
-            "field_citation_ratio": 3.0,
+            "field_citation_ratio": 3.03,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1019771388",
@@ -3175,13 +3266,31 @@
                     "city_name": "Columbia",
                     "country_name": "United States",
                     "id": "grid.134936.a",
-                    "name": "University of Missouri"
+                    "latitude": 38.93918,
+                    "linkout": [
+                        "http://missouri.edu/"
+                    ],
+                    "longitude": -92.331856,
+                    "name": "University of Missouri",
+                    "state_name": "Missouri",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.257127.4",
-                    "name": "Howard University"
+                    "latitude": 38.922222,
+                    "linkout": [
+                        "http://www2.howard.edu/"
+                    ],
+                    "longitude": -77.01945,
+                    "name": "Howard University",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -3204,9 +3313,9 @@
                         "0000-0002-3055-6291"
                     ],
                     "research_orgs": [
-                        "grid.4367.6",
+                        "grid.134936.a",
                         "grid.24434.35",
-                        "grid.134936.a"
+                        "grid.4367.6"
                     ]
                 },
                 {
@@ -3220,7 +3329,7 @@
                     ]
                 }
             ],
-            "score": 28.128984,
+            "score": 28.119144,
             "supporting_grant_ids": null,
             "terms": [
                 "Food Stamp Program",
@@ -3440,7 +3549,7 @@
             "date": "2009-09-15",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/15588740903176278",
-            "field_citation_ratio": 2.63,
+            "field_citation_ratio": 2.65,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1021110966",
@@ -3531,9 +3640,9 @@
                         "0000-0002-3055-6291"
                     ],
                     "research_orgs": [
-                        "grid.4367.6",
+                        "grid.134936.a",
                         "grid.24434.35",
-                        "grid.134936.a"
+                        "grid.4367.6"
                     ]
                 },
                 {
@@ -3547,7 +3656,7 @@
                     ]
                 }
             ],
-            "score": 28.354557,
+            "score": 28.345459,
             "supporting_grant_ids": null,
             "terms": [
                 "Food Stamp Program",
@@ -3754,7 +3863,7 @@
                     ]
                 }
             ],
-            "score": 14.703541,
+            "score": 14.702924,
             "supporting_grant_ids": null,
             "terms": [
                 "research",
@@ -4060,7 +4169,7 @@
             "date": "2006-11-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.jada.2006.08.013",
-            "field_citation_ratio": 8.38,
+            "field_citation_ratio": 8.37,
             "funder_countries": [
                 {
                     "id": "US",
@@ -4073,7 +4182,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417548.b",
-                    "name": "United States Department of Agriculture"
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1010404530",
@@ -4190,7 +4308,16 @@
                     "city_name": "Princeton",
                     "country_name": "United States",
                     "id": "grid.419482.2",
-                    "name": "Mathematica Policy Research"
+                    "latitude": 40.32583,
+                    "linkout": [
+                        "http://www.mathematica-mpr.com/"
+                    ],
+                    "longitude": -74.63507,
+                    "name": "Mathematica Policy Research",
+                    "state_name": "New Jersey",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "researchers": [
@@ -4203,7 +4330,7 @@
                     ]
                 }
             ],
-            "score": 25.421244,
+            "score": 25.418297,
             "supporting_grant_ids": null,
             "terms": [
                 "school breakfast",
@@ -4544,7 +4671,16 @@
                     "city_name": "Louisville",
                     "country_name": "United States",
                     "id": "grid.266623.5",
-                    "name": "University of Louisville"
+                    "latitude": 38.212345,
+                    "linkout": [
+                        "http://louisville.edu/"
+                    ],
+                    "longitude": -85.75928,
+                    "name": "University of Louisville",
+                    "state_name": "Kentucky",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -4571,7 +4707,7 @@
                     ]
                 }
             ],
-            "score": 16.616758,
+            "score": 16.617207,
             "supporting_grant_ids": null,
             "terms": [
                 "rental assistance",
@@ -4935,7 +5071,7 @@
             "date": "2001-02-01",
             "date_inserted": "2017-08-31",
             "doi": "10.14219/jada.archive.2001.0158",
-            "field_citation_ratio": 12.54,
+            "field_citation_ratio": 12.55,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1010349192",
@@ -5056,7 +5192,16 @@
                     "city_name": "Nashville",
                     "country_name": "United States",
                     "id": "grid.416951.e",
-                    "name": "Tennessee Department of Health"
+                    "latitude": 36.168064,
+                    "linkout": [
+                        "http://www.tn.gov/health"
+                    ],
+                    "longitude": -86.78757,
+                    "name": "Tennessee Department of Health",
+                    "state_name": "Tennessee",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "researchers": [
@@ -5090,7 +5235,7 @@
                     ]
                 }
             ],
-            "score": 16.324657,
+            "score": 16.318674,
             "supporting_grant_ids": null,
             "terms": [
                 "substantial decline",

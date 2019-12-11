@@ -31,12 +31,12 @@
             ],
             "RCDC": [
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
                     "id": "497",
                     "name": "Basic Behavioral and Social Science"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
             "altmetric": null,
@@ -132,12 +132,12 @@
             "category_icrp_ct": null,
             "category_rcdc": [
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
                     "id": "497",
                     "name": "Basic Behavioral and Social Science"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
             "category_ua": [
@@ -222,7 +222,31 @@
                 "PubMed"
             ],
             "linkout": null,
-            "mesh_terms": null,
+            "mesh_terms": [
+                "Adolescent",
+                "Adult",
+                "Aged",
+                "Aged, 80 and over",
+                "Cost of Illness",
+                "Delivery of Health Care",
+                "Disabled Persons",
+                "Employment",
+                "Ethnic Groups",
+                "Female",
+                "Health Equity",
+                "Health Status",
+                "Health Status Disparities",
+                "Humans",
+                "Income",
+                "Male",
+                "Marital Status",
+                "Middle Aged",
+                "Patient Acceptance of Health Care",
+                "Surveys and Questionnaires",
+                "Time",
+                "United States",
+                "Young Adult"
+            ],
             "open_access": null,
             "open_access_categories": [
                 {
@@ -238,72 +262,72 @@
             "publisher": "Elsevier",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1043954983",
-                "pub.1051268297",
-                "pub.1068847405",
-                "pub.1044808666",
-                "pub.1041687135",
-                "pub.1015259818",
-                "pub.1010943853",
-                "pub.1078965093",
-                "pub.1045674939",
-                "pub.1030989893",
-                "pub.1021743030",
-                "pub.1064753051",
-                "pub.1026159729",
-                "pub.1025846607",
-                "pub.1049157361",
-                "pub.1079137712",
                 "pub.1024112477",
-                "pub.1048111871",
-                "pub.1103362840",
-                "pub.1030488857",
-                "pub.1085217571",
+                "pub.1026159729",
                 "pub.1043958883",
-                "pub.1043344352",
-                "pub.1068568887",
-                "pub.1039538583",
-                "pub.1001453292",
-                "pub.1025234805",
+                "pub.1068847405",
                 "pub.1003396891",
-                "pub.1063924487",
-                "pub.1013369269",
+                "pub.1044808666",
                 "pub.1013455545",
-                "pub.1082824080"
+                "pub.1001453292",
+                "pub.1045674939",
+                "pub.1078965093",
+                "pub.1103362840",
+                "pub.1030989893",
+                "pub.1013369269",
+                "pub.1048111871",
+                "pub.1049157361",
+                "pub.1051268297",
+                "pub.1064753051",
+                "pub.1085217571",
+                "pub.1043954983",
+                "pub.1015259818",
+                "pub.1030488857",
+                "pub.1079137712",
+                "pub.1082824080",
+                "pub.1043344352",
+                "pub.1063924487",
+                "pub.1041687135",
+                "pub.1010943853",
+                "pub.1025846607",
+                "pub.1068568887",
+                "pub.1021743030",
+                "pub.1025234805",
+                "pub.1039538583"
             ],
             "references": [
-                "pub.1043954983",
-                "pub.1051268297",
-                "pub.1068847405",
-                "pub.1044808666",
-                "pub.1041687135",
-                "pub.1015259818",
-                "pub.1010943853",
-                "pub.1078965093",
-                "pub.1045674939",
-                "pub.1030989893",
-                "pub.1021743030",
-                "pub.1064753051",
-                "pub.1026159729",
-                "pub.1025846607",
-                "pub.1049157361",
-                "pub.1079137712",
                 "pub.1024112477",
-                "pub.1048111871",
-                "pub.1103362840",
-                "pub.1030488857",
-                "pub.1085217571",
+                "pub.1026159729",
                 "pub.1043958883",
-                "pub.1043344352",
-                "pub.1068568887",
-                "pub.1039538583",
-                "pub.1001453292",
-                "pub.1025234805",
+                "pub.1068847405",
                 "pub.1003396891",
-                "pub.1063924487",
-                "pub.1013369269",
+                "pub.1044808666",
                 "pub.1013455545",
-                "pub.1082824080"
+                "pub.1001453292",
+                "pub.1045674939",
+                "pub.1078965093",
+                "pub.1103362840",
+                "pub.1030989893",
+                "pub.1013369269",
+                "pub.1048111871",
+                "pub.1049157361",
+                "pub.1051268297",
+                "pub.1064753051",
+                "pub.1085217571",
+                "pub.1043954983",
+                "pub.1015259818",
+                "pub.1030488857",
+                "pub.1079137712",
+                "pub.1082824080",
+                "pub.1043344352",
+                "pub.1063924487",
+                "pub.1041687135",
+                "pub.1010943853",
+                "pub.1025846607",
+                "pub.1068568887",
+                "pub.1021743030",
+                "pub.1025234805",
+                "pub.1039538583"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -336,7 +360,16 @@
                     "city_name": "Stony Brook",
                     "country_name": "United States",
                     "id": "grid.36425.36",
-                    "name": "Stony Brook University"
+                    "latitude": 40.914223,
+                    "linkout": [
+                        "http://www.stonybrook.edu/"
+                    ],
+                    "longitude": -73.11623,
+                    "name": "Stony Brook University",
+                    "state_name": "New York",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -354,7 +387,7 @@
                     ]
                 }
             ],
-            "score": 18.490335,
+            "score": 18.480967,
             "supporting_grant_ids": null,
             "terms": [
                 "population-level estimates",
@@ -630,20 +663,47 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417548.b",
-                    "name": "United States Department of Agriculture"
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "NIFA",
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.482914.2",
-                    "name": "National Institute of Food and Agriculture"
+                    "latitude": 38.880623,
+                    "linkout": [
+                        "https://nifa.usda.gov/"
+                    ],
+                    "longitude": -77.02424,
+                    "name": "National Institute of Food and Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "city_name": "Blacksburg",
                     "country_name": "United States",
                     "id": "grid.438526.e",
-                    "name": "Virginia Tech"
+                    "latitude": 37.22001,
+                    "linkout": [
+                        "https://www.vt.edu/about/index.html"
+                    ],
+                    "longitude": -80.42409,
+                    "name": "Virginia Tech",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "id": "pub.1100790625",
@@ -679,67 +739,67 @@
             "recent_citations": null,
             "reference_ids": [
                 "pub.1069843051",
-                "pub.1011827098",
-                "pub.1005910786",
                 "pub.1025577017",
-                "pub.1022165695",
-                "pub.1000863940",
-                "pub.1039987860",
-                "pub.1019628055",
-                "pub.1041974808",
-                "pub.1061933571",
-                "pub.1047218364",
-                "pub.1023398521",
-                "pub.1032439457",
-                "pub.1008383064",
-                "pub.1006867671",
-                "pub.1001916955",
-                "pub.1036752115",
                 "pub.1008926058",
-                "pub.1022157959",
-                "pub.1000490995",
-                "pub.1109732122",
+                "pub.1041974808",
                 "pub.1006305309",
-                "pub.1013790075",
-                "pub.1010085964",
-                "pub.1041904252",
                 "pub.1036078457",
+                "pub.1023398521",
+                "pub.1006867671",
+                "pub.1102715901",
+                "pub.1061933571",
+                "pub.1013790075",
+                "pub.1011827098",
+                "pub.1022157959",
+                "pub.1008383064",
+                "pub.1041904252",
+                "pub.1047218364",
                 "pub.1042334302",
+                "pub.1019628055",
+                "pub.1010085964",
+                "pub.1001916955",
+                "pub.1032439457",
                 "pub.1037183051",
+                "pub.1022165695",
+                "pub.1039987860",
+                "pub.1036752115",
+                "pub.1109732122",
                 "pub.1041778442",
-                "pub.1102715901"
+                "pub.1005910786",
+                "pub.1000863940",
+                "pub.1000490995"
             ],
             "references": [
                 "pub.1069843051",
-                "pub.1011827098",
-                "pub.1005910786",
                 "pub.1025577017",
-                "pub.1022165695",
-                "pub.1000863940",
-                "pub.1039987860",
-                "pub.1019628055",
-                "pub.1041974808",
-                "pub.1061933571",
-                "pub.1047218364",
-                "pub.1023398521",
-                "pub.1032439457",
-                "pub.1008383064",
-                "pub.1006867671",
-                "pub.1001916955",
-                "pub.1036752115",
                 "pub.1008926058",
-                "pub.1022157959",
-                "pub.1000490995",
-                "pub.1109732122",
+                "pub.1041974808",
                 "pub.1006305309",
-                "pub.1013790075",
-                "pub.1010085964",
-                "pub.1041904252",
                 "pub.1036078457",
+                "pub.1023398521",
+                "pub.1006867671",
+                "pub.1102715901",
+                "pub.1061933571",
+                "pub.1013790075",
+                "pub.1011827098",
+                "pub.1022157959",
+                "pub.1008383064",
+                "pub.1041904252",
+                "pub.1047218364",
                 "pub.1042334302",
+                "pub.1019628055",
+                "pub.1010085964",
+                "pub.1001916955",
+                "pub.1032439457",
                 "pub.1037183051",
+                "pub.1022165695",
+                "pub.1039987860",
+                "pub.1036752115",
+                "pub.1109732122",
                 "pub.1041778442",
-                "pub.1102715901"
+                "pub.1005910786",
+                "pub.1000863940",
+                "pub.1000490995"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -771,7 +831,16 @@
                     "city_name": "Blacksburg",
                     "country_name": "United States",
                     "id": "grid.438526.e",
-                    "name": "Virginia Tech"
+                    "latitude": 37.22001,
+                    "linkout": [
+                        "https://www.vt.edu/about/index.html"
+                    ],
+                    "longitude": -80.42409,
+                    "name": "Virginia Tech",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -796,7 +865,7 @@
                     ]
                 }
             ],
-            "score": 22.165722,
+            "score": 22.152493,
             "supporting_grant_ids": null,
             "terms": [
                 "intrahousehold resource allocation",
@@ -1171,7 +1240,16 @@
                     "city_name": "Baltimore",
                     "country_name": "United States",
                     "id": "grid.419475.a",
-                    "name": "National Institute on Aging"
+                    "latitude": 39.003796,
+                    "linkout": [
+                        "https://www.nia.nih.gov/"
+                    ],
+                    "longitude": -77.101166,
+                    "name": "National Institute on Aging",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1109889182",
@@ -1365,21 +1443,48 @@
                     "city_name": "La Verne",
                     "country_name": "United States",
                     "id": "grid.266583.c",
-                    "name": "University of La Verne"
+                    "latitude": 34.09963,
+                    "linkout": [
+                        "https://laverne.edu/"
+                    ],
+                    "longitude": -117.77216,
+                    "name": "University of La Verne",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "PSU",
                     "city_name": "State College",
                     "country_name": "United States",
                     "id": "grid.29857.31",
-                    "name": "Pennsylvania State University"
+                    "latitude": 40.79845,
+                    "linkout": [
+                        "http://www.psu.edu/"
+                    ],
+                    "longitude": -77.85993,
+                    "name": "Pennsylvania State University",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UCD",
                     "city_name": "Denver",
                     "country_name": "United States",
                     "id": "grid.241116.1",
-                    "name": "University of Colorado Denver"
+                    "latitude": 39.74327,
+                    "linkout": [
+                        "http://www.ucdenver.edu/pages/ucdwelcomepage.aspx"
+                    ],
+                    "longitude": -105.00311,
+                    "name": "University of Colorado Denver",
+                    "state_name": "Colorado",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -1414,7 +1519,7 @@
                     ]
                 }
             ],
-            "score": 20.408468,
+            "score": 20.40573,
             "supporting_grant_ids": [
                 "grant.2448891"
             ],
@@ -1759,52 +1864,52 @@
             "publisher": "Elsevier",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1030495097",
-                "pub.1008996326",
-                "pub.1027474247",
-                "pub.1014480866",
-                "pub.1069639794",
-                "pub.1035259483",
-                "pub.1061933860",
-                "pub.1058573803",
-                "pub.1070139880",
-                "pub.1058575306",
-                "pub.1005250718",
+                "pub.1058640343",
                 "pub.1064527622",
-                "pub.1009314263",
-                "pub.1030944841",
-                "pub.1060004764",
+                "pub.1058573803",
+                "pub.1030495097",
                 "pub.1015319969",
-                "pub.1064528039",
-                "pub.1036752115",
+                "pub.1035259483",
+                "pub.1005250718",
+                "pub.1070139880",
+                "pub.1008996326",
+                "pub.1069639794",
+                "pub.1014480866",
+                "pub.1060004764",
+                "pub.1030944841",
                 "pub.1023740837",
+                "pub.1058575306",
+                "pub.1061933860",
+                "pub.1064528039",
                 "pub.1064528029",
-                "pub.1028420340",
-                "pub.1058640343"
+                "pub.1036752115",
+                "pub.1027474247",
+                "pub.1009314263",
+                "pub.1028420340"
             ],
             "references": [
-                "pub.1030495097",
-                "pub.1008996326",
-                "pub.1027474247",
-                "pub.1014480866",
-                "pub.1069639794",
-                "pub.1035259483",
-                "pub.1061933860",
-                "pub.1058573803",
-                "pub.1070139880",
-                "pub.1058575306",
-                "pub.1005250718",
+                "pub.1058640343",
                 "pub.1064527622",
-                "pub.1009314263",
-                "pub.1030944841",
-                "pub.1060004764",
+                "pub.1058573803",
+                "pub.1030495097",
                 "pub.1015319969",
-                "pub.1064528039",
-                "pub.1036752115",
+                "pub.1035259483",
+                "pub.1005250718",
+                "pub.1070139880",
+                "pub.1008996326",
+                "pub.1069639794",
+                "pub.1014480866",
+                "pub.1060004764",
+                "pub.1030944841",
                 "pub.1023740837",
+                "pub.1058575306",
+                "pub.1061933860",
+                "pub.1064528039",
                 "pub.1064528029",
-                "pub.1028420340",
-                "pub.1058640343"
+                "pub.1036752115",
+                "pub.1027474247",
+                "pub.1009314263",
+                "pub.1028420340"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -1835,7 +1940,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 20.20162,
+            "score": 20.204254,
             "supporting_grant_ids": null,
             "terms": [
                 "impact",
@@ -2201,7 +2306,7 @@
             "date": "2017-07-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.appet.2017.03.032",
-            "field_citation_ratio": 11.04,
+            "field_citation_ratio": 10.92,
             "funder_countries": [
                 {
                     "id": "US",
@@ -2214,28 +2319,64 @@
                     "city_name": "Baltimore",
                     "country_name": "United States",
                     "id": "grid.419475.a",
-                    "name": "National Institute on Aging"
+                    "latitude": 39.003796,
+                    "linkout": [
+                        "https://www.nia.nih.gov/"
+                    ],
+                    "longitude": -77.101166,
+                    "name": "National Institute on Aging",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "acronym": "NICHD",
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.420089.7",
-                    "name": "National Institute of Child Health and Human Development"
+                    "latitude": 39.001095,
+                    "linkout": [
+                        "http://www.nichd.nih.gov/Pages/index.aspx"
+                    ],
+                    "longitude": -77.10042,
+                    "name": "National Institute of Child Health and Human Development",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "acronym": "NHLBI",
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.279885.9",
-                    "name": "National Heart Lung and Blood Institute"
+                    "latitude": 39.00428,
+                    "linkout": [
+                        "http://www.nhlbi.nih.gov/"
+                    ],
+                    "longitude": -77.100945,
+                    "name": "National Heart Lung and Blood Institute",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "acronym": "NCATS",
                     "city_name": "Rockville",
                     "country_name": "United States",
                     "id": "grid.429651.d",
-                    "name": "National Center for Advancing Translational Sciences"
+                    "latitude": 39.09584,
+                    "linkout": [
+                        "https://ncats.nih.gov/"
+                    ],
+                    "longitude": -77.197174,
+                    "name": "National Center for Advancing Translational Sciences",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1084058931",
@@ -2462,28 +2603,64 @@
                     "city_name": "Oakland",
                     "country_name": "United States",
                     "id": "grid.280062.e",
-                    "name": "Kaiser Permanente"
+                    "latitude": 37.80611,
+                    "linkout": [
+                        "https://healthy.kaiserpermanente.org/html/kaiser/index.shtml"
+                    ],
+                    "longitude": -122.26466,
+                    "name": "Kaiser Permanente",
+                    "state_name": "California",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 },
                 {
                     "acronym": "UVA",
                     "city_name": "Charlottesville",
                     "country_name": "United States",
                     "id": "grid.27755.32",
-                    "name": "University of Virginia"
+                    "latitude": 38.035,
+                    "linkout": [
+                        "http://www.virginia.edu/"
+                    ],
+                    "longitude": -78.505,
+                    "name": "University of Virginia",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UCI",
                     "city_name": "Irvine",
                     "country_name": "United States",
                     "id": "grid.266093.8",
-                    "name": "University of California, Irvine"
+                    "latitude": 33.64535,
+                    "linkout": [
+                        "http://uci.edu/"
+                    ],
+                    "longitude": -117.84264,
+                    "name": "University of California, Irvine",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UCLA",
                     "city_name": "Los Angeles",
                     "country_name": "United States",
                     "id": "grid.19006.3e",
-                    "name": "University of California Los Angeles"
+                    "latitude": 34.072224,
+                    "linkout": [
+                        "http://www.ucla.edu/"
+                    ],
+                    "longitude": -118.4441,
+                    "name": "University of California, Los Angeles",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -2517,7 +2694,7 @@
                     ]
                 }
             ],
-            "score": 25.372204,
+            "score": 25.378107,
             "supporting_grant_ids": [
                 "grant.2623610",
                 "grant.4241633",
@@ -2900,7 +3077,16 @@
                     "city_name": "Nashville",
                     "country_name": "United States",
                     "id": "grid.152326.1",
-                    "name": "Vanderbilt University"
+                    "latitude": 36.144936,
+                    "linkout": [
+                        "http://www.vanderbilt.edu/"
+                    ],
+                    "longitude": -86.80269,
+                    "name": "Vanderbilt University",
+                    "state_name": "Tennessee",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -2917,7 +3103,7 @@
                     ]
                 }
             ],
-            "score": 16.770184,
+            "score": 16.766611,
             "supporting_grant_ids": null,
             "terms": [
                 "Congress",
@@ -3133,7 +3319,7 @@
             "date": "2016-10-01",
             "date_inserted": "2017-12-01",
             "doi": "10.1080/15528014.2016.1243766",
-            "field_citation_ratio": 2.16,
+            "field_citation_ratio": 2.14,
             "funder_countries": [
                 {
                     "id": "GB",
@@ -3146,7 +3332,15 @@
                     "city_name": "Swindon",
                     "country_name": "United Kingdom",
                     "id": "grid.434257.3",
-                    "name": "Economic and Social Research Council"
+                    "latitude": 51.56685,
+                    "linkout": [
+                        "http://www.esrc.ac.uk/"
+                    ],
+                    "longitude": -1.785952,
+                    "name": "Economic and Social Research Council",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1093083894",
@@ -3298,7 +3492,7 @@
                     ]
                 }
             ],
-            "score": 23.724876,
+            "score": 23.721745,
             "supporting_grant_ids": [
                 "grant.3560794",
                 "grant.2778037"
@@ -3684,14 +3878,32 @@
                     "city_name": "Rockville",
                     "country_name": "United States",
                     "id": "grid.48336.3a",
-                    "name": "National Cancer Institute"
+                    "latitude": 39.004326,
+                    "linkout": [
+                        "http://www.cancer.gov/"
+                    ],
+                    "longitude": -77.10119,
+                    "name": "National Cancer Institute",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "NINR",
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.280738.6",
-                    "name": "National Institute of Nursing Research"
+                    "latitude": 38.996788,
+                    "linkout": [
+                        "https://www.ninr.nih.gov/"
+                    ],
+                    "longitude": -77.09921,
+                    "name": "National Institute of Nursing Research",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1033725233",
@@ -3753,82 +3965,82 @@
             "publisher": "Wiley",
             "recent_citations": 3,
             "reference_ids": [
+                "pub.1051808636",
                 "pub.1014545162",
-                "pub.1040319107",
-                "pub.1001060460",
-                "pub.1028440350",
-                "pub.1051190609",
-                "pub.1022630734",
-                "pub.1013269363",
-                "pub.1024387101",
-                "pub.1053207907",
-                "pub.1037753603",
-                "pub.1073065811",
-                "pub.1004602892",
-                "pub.1058302878",
-                "pub.1077493563",
-                "pub.1002406581",
-                "pub.1000017496",
-                "pub.1024207529",
-                "pub.1016630038",
-                "pub.1112535417",
-                "pub.1031497763",
+                "pub.1073065750",
+                "pub.1023779639",
                 "pub.1062427748",
                 "pub.1077644696",
-                "pub.1013136288",
-                "pub.1059948246",
-                "pub.1037628624",
-                "pub.1062447269",
-                "pub.1006945770",
-                "pub.1032429476",
+                "pub.1077493563",
                 "pub.1004474218",
-                "pub.1079102408",
+                "pub.1059948246",
+                "pub.1040319107",
                 "pub.1015218698",
-                "pub.1023779639",
-                "pub.1042793515",
+                "pub.1004602892",
+                "pub.1016630038",
+                "pub.1062447269",
+                "pub.1032429476",
+                "pub.1051190609",
+                "pub.1053207907",
+                "pub.1024387101",
+                "pub.1013269363",
+                "pub.1073065811",
                 "pub.1020626655",
-                "pub.1051808636",
+                "pub.1006945770",
+                "pub.1058302878",
+                "pub.1013136288",
+                "pub.1079102408",
+                "pub.1037628624",
+                "pub.1001060460",
+                "pub.1024207529",
+                "pub.1037753603",
+                "pub.1031497763",
+                "pub.1028440350",
+                "pub.1112535417",
+                "pub.1000017496",
+                "pub.1022630734",
+                "pub.1042793515",
                 "pub.1010885723",
-                "pub.1073065750"
+                "pub.1002406581"
             ],
             "references": [
+                "pub.1051808636",
                 "pub.1014545162",
-                "pub.1040319107",
-                "pub.1001060460",
-                "pub.1028440350",
-                "pub.1051190609",
-                "pub.1022630734",
-                "pub.1013269363",
-                "pub.1024387101",
-                "pub.1053207907",
-                "pub.1037753603",
-                "pub.1073065811",
-                "pub.1004602892",
-                "pub.1058302878",
-                "pub.1077493563",
-                "pub.1002406581",
-                "pub.1000017496",
-                "pub.1024207529",
-                "pub.1016630038",
-                "pub.1112535417",
-                "pub.1031497763",
+                "pub.1073065750",
+                "pub.1023779639",
                 "pub.1062427748",
                 "pub.1077644696",
-                "pub.1013136288",
-                "pub.1059948246",
-                "pub.1037628624",
-                "pub.1062447269",
-                "pub.1006945770",
-                "pub.1032429476",
+                "pub.1077493563",
                 "pub.1004474218",
-                "pub.1079102408",
+                "pub.1059948246",
+                "pub.1040319107",
                 "pub.1015218698",
-                "pub.1023779639",
-                "pub.1042793515",
+                "pub.1004602892",
+                "pub.1016630038",
+                "pub.1062447269",
+                "pub.1032429476",
+                "pub.1051190609",
+                "pub.1053207907",
+                "pub.1024387101",
+                "pub.1013269363",
+                "pub.1073065811",
                 "pub.1020626655",
-                "pub.1051808636",
+                "pub.1006945770",
+                "pub.1058302878",
+                "pub.1013136288",
+                "pub.1079102408",
+                "pub.1037628624",
+                "pub.1001060460",
+                "pub.1024207529",
+                "pub.1037753603",
+                "pub.1031497763",
+                "pub.1028440350",
+                "pub.1112535417",
+                "pub.1000017496",
+                "pub.1022630734",
+                "pub.1042793515",
                 "pub.1010885723",
-                "pub.1073065750"
+                "pub.1002406581"
             ],
             "relative_citation_ratio": 0.65,
             "research_org_cities": [
@@ -3869,14 +4081,32 @@
                     "city_name": "Philadelphia",
                     "country_name": "United States",
                     "id": "grid.25879.31",
-                    "name": "University of Pennsylvania"
+                    "latitude": 39.952457,
+                    "linkout": [
+                        "http://www.upenn.edu/"
+                    ],
+                    "longitude": -75.19322,
+                    "name": "University of Pennsylvania",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "CWRU",
                     "city_name": "Cleveland",
                     "country_name": "United States",
                     "id": "grid.67105.35",
-                    "name": "Case Western Reserve University"
+                    "latitude": 41.50442,
+                    "linkout": [
+                        "http://www.case.edu/"
+                    ],
+                    "longitude": -81.60838,
+                    "name": "Case Western Reserve University",
+                    "state_name": "Ohio",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -3894,18 +4124,18 @@
                     "id": "ur.01235773767.25",
                     "last_name": "Basner",
                     "research_orgs": [
-                        "grid.7551.6",
-                        "grid.35403.31",
-                        "grid.47100.32",
                         "grid.413103.4",
+                        "grid.35403.31",
                         "grid.25879.31",
-                        "grid.419491.0",
                         "grid.168010.e",
-                        "grid.32224.35"
+                        "grid.47100.32",
+                        "grid.7551.6",
+                        "grid.32224.35",
+                        "grid.419491.0"
                     ]
                 }
             ],
-            "score": 15.542027,
+            "score": 15.537497,
             "supporting_grant_ids": [
                 "grant.2553336"
             ],
@@ -4169,7 +4399,7 @@
             "date": "2016-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/s11150-014-9267-4",
-            "field_citation_ratio": 3.32,
+            "field_citation_ratio": 3.28,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1008460118",
@@ -4314,7 +4544,16 @@
                     "city_name": "Suitland",
                     "country_name": "United States",
                     "id": "grid.432923.d",
-                    "name": "United States Census Bureau"
+                    "latitude": 38.846096,
+                    "linkout": [
+                        "http://www.census.gov/"
+                    ],
+                    "longitude": -76.92876,
+                    "name": "United States Census Bureau",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "researchers": [
@@ -4327,7 +4566,7 @@
                     ]
                 }
             ],
-            "score": 24.13357,
+            "score": 24.130266,
             "supporting_grant_ids": null,
             "terms": [
                 "decades",
@@ -4716,7 +4955,16 @@
                     "city_name": "Gainesville",
                     "country_name": "United States",
                     "id": "grid.15276.37",
-                    "name": "University of Florida"
+                    "latitude": 29.643902,
+                    "linkout": [
+                        "http://www.ufl.edu/"
+                    ],
+                    "longitude": -82.35495,
+                    "name": "University of Florida",
+                    "state_name": "Florida",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -4730,7 +4978,7 @@
                     ]
                 }
             ],
-            "score": 17.646568,
+            "score": 17.633453,
             "supporting_grant_ids": null,
             "terms": [
                 "feasibility",

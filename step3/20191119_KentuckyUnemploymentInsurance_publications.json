@@ -937,6 +937,50 @@
         "datasets": [
             "dataset-155"
         ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "name": {
+                            "first": "Patrick",
+                            "last": "Kelly"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Christina",
+                            "last": "Whitfield"
+                        }
+                    }
+                ],
+                "classification": "OK",
+                "date": "2014-05-04",
+                "records": [
+                    {
+                        "doi": "10.1080/00091383.2014.910054",
+                        "identifier": "oai:crossref.org:10.1080/00091383.2014.910054",
+                        "issn": "0009-1383",
+                        "issue": "3",
+                        "journal": "Change: The Magazine of Higher Learning",
+                        "pages": "60-63",
+                        "policy": {
+                            "postprint": "can",
+                            "preprint": "can",
+                            "published": "cannot",
+                            "romeo_id": "1140"
+                        },
+                        "publisher": "Informa UK Limited",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.1080/00091383.2014.910054",
+                        "type": "journal-article",
+                        "volume": "46"
+                    }
+                ],
+                "title": "Playing the Numbers: Employment Outcomes in the Two-Year Sector: The Witch Hunt for College Programs that Don't Pay Off",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
         "doi": "10.1080/00091383.2014.910054",
         "original": {
             "date_added": "2019-11-25 12:05:33",
@@ -1643,6 +1687,49 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "49364517",
+                            "name": "Mart\u00edn Hunter",
+                            "url": "https://www.semanticscholar.org/author/49364517"
+                        }
+                    ],
+                    "doi": "10.13023/ETD.2017.399",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "d8a636bb9359b69f8d6dae3779d757074beac121",
+                    "title": "Four Essays on a Student's Expectation that they will Complete College",
+                    "url": "https://www.semanticscholar.org/paper/d8a636bb9359b69f8d6dae3779d757074beac121",
+                    "venue": "",
+                    "year": 2017
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "50818360",
+                            "name": "Alison F. Del Rossi",
+                            "url": "https://www.semanticscholar.org/author/50818360"
+                        },
+                        {
+                            "authorId": "3242089",
+                            "name": "Joni Hersch",
+                            "url": "https://www.semanticscholar.org/author/3242089"
+                        }
+                    ],
+                    "doi": "10.1017/bca.2016.14",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "701d6dd19b34f2827c047431200ee1b88653d8de",
+                    "title": "The Private and Social Benefits of Double Majors",
+                    "url": "https://www.semanticscholar.org/paper/701d6dd19b34f2827c047431200ee1b88653d8de",
+                    "venue": "",
+                    "year": 2016
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "1403704273",
                             "name": "Marie Duru-bellat",
                             "url": "https://www.semanticscholar.org/author/1403704273"
@@ -1661,26 +1748,6 @@
                     "url": "https://www.semanticscholar.org/paper/9156dee2e6e6eec31db7d05c8d5309e3ace30fa1",
                     "venue": "",
                     "year": 2012
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "49364517",
-                            "name": "Mart\u00edn Hunter",
-                            "url": "https://www.semanticscholar.org/author/49364517"
-                        }
-                    ],
-                    "doi": "10.13023/ETD.2017.399",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "d8a636bb9359b69f8d6dae3779d757074beac121",
-                    "title": "Four Essays on a Student's Expectation that they will Complete College",
-                    "url": "https://www.semanticscholar.org/paper/d8a636bb9359b69f8d6dae3779d757074beac121",
-                    "venue": "",
-                    "year": 2017
                 },
                 {
                     "arxivId": null,
@@ -1711,29 +1778,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "50818360",
-                            "name": "Alison F. Del Rossi",
-                            "url": "https://www.semanticscholar.org/author/50818360"
-                        },
-                        {
-                            "authorId": "3242089",
-                            "name": "Joni Hersch",
-                            "url": "https://www.semanticscholar.org/author/3242089"
-                        }
-                    ],
-                    "doi": "10.1017/bca.2016.14",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "701d6dd19b34f2827c047431200ee1b88653d8de",
-                    "title": "The Private and Social Benefits of Double Majors",
-                    "url": "https://www.semanticscholar.org/paper/701d6dd19b34f2827c047431200ee1b88653d8de",
-                    "venue": "",
-                    "year": 2016
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "122474513",
                             "name": "Benjamin T. McIntosh",
                             "url": "https://www.semanticscholar.org/author/122474513"
@@ -1755,6 +1799,24 @@
             "influentialCitationCount": 1,
             "paperId": "bdcb39257439952f76e2c334fcd2adbb89986f8a",
             "references": [
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "46249669",
+                            "name": "James E. Rauch",
+                            "url": "https://www.semanticscholar.org/author/46249669"
+                        }
+                    ],
+                    "doi": "10.1006/juec.1993.1042",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "61597b5d7b8980ad0797349fb65dd39930dc9bef",
+                    "title": "Productivity Gains from Geographic Concentration of Human Capital: Evidence from the Cities",
+                    "url": "https://www.semanticscholar.org/paper/61597b5d7b8980ad0797349fb65dd39930dc9bef",
+                    "venue": "",
+                    "year": 1991
+                },
                 {
                     "arxivId": null,
                     "authors": [
@@ -1782,19 +1844,65 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "46249669",
-                            "name": "James E. Rauch",
-                            "url": "https://www.semanticscholar.org/author/46249669"
+                            "authorId": "35527107",
+                            "name": "John V Winters",
+                            "url": "https://www.semanticscholar.org/author/35527107"
                         }
                     ],
-                    "doi": "10.1006/juec.1993.1042",
+                    "doi": "10.1093/jeg/lbs046",
                     "intent": [],
                     "isInfluential": false,
-                    "paperId": "61597b5d7b8980ad0797349fb65dd39930dc9bef",
-                    "title": "Productivity Gains from Geographic Concentration of Human Capital: Evidence from the Cities",
-                    "url": "https://www.semanticscholar.org/paper/61597b5d7b8980ad0797349fb65dd39930dc9bef",
+                    "paperId": "9fdb154b27a05d747766d0ec8a9a323666c96979",
+                    "title": "Human Capital Externalities and Employment Differences across Metropolitan Areas of the U.S",
+                    "url": "https://www.semanticscholar.org/paper/9fdb154b27a05d747766d0ec8a9a323666c96979",
                     "venue": "",
-                    "year": 1991
+                    "year": 2010
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "144145230",
+                            "name": "David M. Cutler",
+                            "url": "https://www.semanticscholar.org/author/144145230"
+                        },
+                        {
+                            "authorId": "1397958197",
+                            "name": "Adriana Lleras-Muney",
+                            "url": "https://www.semanticscholar.org/author/1397958197"
+                        }
+                    ],
+                    "doi": "10.3386/w12352",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "062e077c3c901f993b28f33aec4183cb404d6fe4",
+                    "title": "Education and Health: Evaluating Theories and Evidence",
+                    "url": "https://www.semanticscholar.org/paper/062e077c3c901f993b28f33aec4183cb404d6fe4",
+                    "venue": "",
+                    "year": 2006
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "3701289",
+                            "name": "Edward L. Glaeser",
+                            "url": "https://www.semanticscholar.org/author/3701289"
+                        },
+                        {
+                            "authorId": "98248399",
+                            "name": "Raven E. Saks",
+                            "url": "https://www.semanticscholar.org/author/98248399"
+                        }
+                    ],
+                    "doi": "10.2139/ssrn.599042",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "d62252e6a985cdeb576a0ece3c5af59b84adc60b",
+                    "title": "Corruption in America",
+                    "url": "https://www.semanticscholar.org/paper/d62252e6a985cdeb576a0ece3c5af59b84adc60b",
+                    "venue": "",
+                    "year": 2004
                 },
                 {
                     "arxivId": null,
@@ -1831,52 +1939,6 @@
                     "url": "https://www.semanticscholar.org/paper/6c8d9e57dfa1f12c332a8c974e1852abfbecc330",
                     "venue": "",
                     "year": 1995
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "35527107",
-                            "name": "John V Winters",
-                            "url": "https://www.semanticscholar.org/author/35527107"
-                        }
-                    ],
-                    "doi": "10.1093/jeg/lbs046",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "9fdb154b27a05d747766d0ec8a9a323666c96979",
-                    "title": "Human Capital Externalities and Employment Differences across Metropolitan Areas of the U.S",
-                    "url": "https://www.semanticscholar.org/paper/9fdb154b27a05d747766d0ec8a9a323666c96979",
-                    "venue": "",
-                    "year": 2010
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "3101008",
-                            "name": "James J. Heckman",
-                            "url": "https://www.semanticscholar.org/author/3101008"
-                        },
-                        {
-                            "authorId": "4384429",
-                            "name": "Lance J. Lochner",
-                            "url": "https://www.semanticscholar.org/author/4384429"
-                        },
-                        {
-                            "authorId": "47257105",
-                            "name": "Petra E. Todd",
-                            "url": "https://www.semanticscholar.org/author/47257105"
-                        }
-                    ],
-                    "doi": "10.3386/w11544",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "8d895b132c89aec5e2ab9e9bbbeabfbf807635e7",
-                    "title": "Earnings Functions, Rates of Return and Treatment Effects: The Mincer Equation and Beyond",
-                    "url": "https://www.semanticscholar.org/paper/8d895b132c89aec5e2ab9e9bbbeabfbf807635e7",
-                    "venue": "",
-                    "year": 2005
                 },
                 {
                     "arxivId": null,
@@ -1950,6 +2012,136 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "7896334",
+                            "name": "John Christopher Whitehead",
+                            "url": "https://www.semanticscholar.org/author/7896334"
+                        }
+                    ],
+                    "doi": "10.2307/3147274",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "28ab208d8a9bff39f83f75ac1ff15a1460e99808",
+                    "title": "Incentive Incompatibility and Starting-Point Bias in Iterative Valuation Questions",
+                    "url": "https://www.semanticscholar.org/paper/28ab208d8a9bff39f83f75ac1ff15a1460e99808",
+                    "venue": "",
+                    "year": 2002
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "47141782",
+                            "name": "David J. Deming",
+                            "url": "https://www.semanticscholar.org/author/47141782"
+                        }
+                    ],
+                    "doi": "10.1093/qje/qjr036",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "7a858e1bac946dc885a710b14db878ba0ce63a48",
+                    "title": "Better Schools, Less Crime?",
+                    "url": "https://www.semanticscholar.org/paper/7a858e1bac946dc885a710b14db878ba0ce63a48",
+                    "venue": "",
+                    "year": 2011
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "3101008",
+                            "name": "James Heckman",
+                            "url": "https://www.semanticscholar.org/author/3101008"
+                        },
+                        {
+                            "authorId": "4384429",
+                            "name": "Lance J. Lochner",
+                            "url": "https://www.semanticscholar.org/author/4384429"
+                        },
+                        {
+                            "authorId": "47257105",
+                            "name": "Petra E. Todd",
+                            "url": "https://www.semanticscholar.org/author/47257105"
+                        }
+                    ],
+                    "doi": "10.3386/w11544",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "8d895b132c89aec5e2ab9e9bbbeabfbf807635e7",
+                    "title": "Earnings Functions, Rates of Return and Treatment Effects: The Mincer Equation and Beyond",
+                    "url": "https://www.semanticscholar.org/paper/8d895b132c89aec5e2ab9e9bbbeabfbf807635e7",
+                    "venue": "",
+                    "year": 2005
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "2124933",
+                            "name": "Jerry Hausman",
+                            "url": "https://www.semanticscholar.org/author/2124933"
+                        }
+                    ],
+                    "doi": "10.1257/jep.26.4.43",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "66bdd1821b58d3c70bfe17bcdfcd54a0247335f5",
+                    "title": "Contingent Valuation: From Dubious to Hopeless",
+                    "url": "https://www.semanticscholar.org/paper/66bdd1821b58d3c70bfe17bcdfcd54a0247335f5",
+                    "venue": "",
+                    "year": 2012
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "70085405",
+                            "name": "Michael J. Hilmer",
+                            "url": "https://www.semanticscholar.org/author/70085405"
+                        }
+                    ],
+                    "doi": "10.1016/s0047-2727(97)00075-3",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "37245688b7bbdf9e31ba4963073cde0e114f99d0",
+                    "title": "Post-secondary fees and the decision to attend a university or a community college",
+                    "url": "https://www.semanticscholar.org/paper/37245688b7bbdf9e31ba4963073cde0e114f99d0",
+                    "venue": "",
+                    "year": 1998
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "153182561",
+                            "name": "Catherine L. Kling",
+                            "url": "https://www.semanticscholar.org/author/153182561"
+                        },
+                        {
+                            "authorId": "1394020320",
+                            "name": "Daniel J Phaneuf",
+                            "url": "https://www.semanticscholar.org/author/1394020320"
+                        },
+                        {
+                            "authorId": "6531049",
+                            "name": "Jinhua Zhao",
+                            "url": "https://www.semanticscholar.org/author/6531049"
+                        }
+                    ],
+                    "doi": "10.1257/jep.26.4.3",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "6e265c93eb729700c3e9a916624a79ca715de393",
+                    "title": "From Exxon to BP: Has Some Number Become Better Than No Number?",
+                    "url": "https://www.semanticscholar.org/paper/6e265c93eb729700c3e9a916624a79ca715de393",
+                    "venue": "",
+                    "year": 2012
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "79168244",
                             "name": "Kevin Milligan",
                             "url": "https://www.semanticscholar.org/author/79168244"
@@ -1996,131 +2188,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "7896334",
-                            "name": "John Christopher Whitehead",
-                            "url": "https://www.semanticscholar.org/author/7896334"
-                        }
-                    ],
-                    "doi": "10.2307/3147274",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "28ab208d8a9bff39f83f75ac1ff15a1460e99808",
-                    "title": "Incentive Incompatibility and Starting-Point Bias in Iterative Valuation Questions",
-                    "url": "https://www.semanticscholar.org/paper/28ab208d8a9bff39f83f75ac1ff15a1460e99808",
-                    "venue": "",
-                    "year": 2002
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "47141782",
-                            "name": "David J. Deming",
-                            "url": "https://www.semanticscholar.org/author/47141782"
-                        }
-                    ],
-                    "doi": "10.1093/qje/qjr036",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "7a858e1bac946dc885a710b14db878ba0ce63a48",
-                    "title": "Better Schools, Less Crime?",
-                    "url": "https://www.semanticscholar.org/paper/7a858e1bac946dc885a710b14db878ba0ce63a48",
-                    "venue": "",
-                    "year": 2011
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "5700930",
-                            "name": "Philip Oreopoulos",
-                            "url": "https://www.semanticscholar.org/author/5700930"
-                        },
-                        {
-                            "authorId": "3434105",
-                            "name": "Kjell G. Salvanes",
-                            "url": "https://www.semanticscholar.org/author/3434105"
-                        }
-                    ],
-                    "doi": "10.3386/w15339",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "212b2c4a7a7edcccc2797785830df0a7eb7cf18d",
-                    "title": "How Large Are Returns to Schooling? Hint: Money Isn't Everything. NBER Working Paper No. 15339.",
-                    "url": "https://www.semanticscholar.org/paper/212b2c4a7a7edcccc2797785830df0a7eb7cf18d",
-                    "venue": "",
-                    "year": 2009
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "34720893",
-                            "name": "Richard T. Carson",
-                            "url": "https://www.semanticscholar.org/author/34720893"
-                        }
-                    ],
-                    "doi": "10.1257/jep.26.4.27",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "17b9a944cd78fc618fdf784c3046ed7fdbed545f",
-                    "title": "Contingent Valuation: A Practical Alternative when Prices Aren't Available",
-                    "url": "https://www.semanticscholar.org/paper/17b9a944cd78fc618fdf784c3046ed7fdbed545f",
-                    "venue": "",
-                    "year": 2012
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "153182561",
-                            "name": "Catherine L. Kling",
-                            "url": "https://www.semanticscholar.org/author/153182561"
-                        },
-                        {
-                            "authorId": "1394020320",
-                            "name": "Daniel J Phaneuf",
-                            "url": "https://www.semanticscholar.org/author/1394020320"
-                        },
-                        {
-                            "authorId": "6531049",
-                            "name": "Jinhua Zhao",
-                            "url": "https://www.semanticscholar.org/author/6531049"
-                        }
-                    ],
-                    "doi": "10.1257/jep.26.4.3",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "6e265c93eb729700c3e9a916624a79ca715de393",
-                    "title": "From Exxon to BP: Has Some Number Become Better Than No Number?",
-                    "url": "https://www.semanticscholar.org/paper/6e265c93eb729700c3e9a916624a79ca715de393",
-                    "venue": "",
-                    "year": 2012
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "70085405",
-                            "name": "Michael J. Hilmer",
-                            "url": "https://www.semanticscholar.org/author/70085405"
-                        }
-                    ],
-                    "doi": "10.1016/s0047-2727(97)00075-3",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "37245688b7bbdf9e31ba4963073cde0e114f99d0",
-                    "title": "Post-secondary fees and the decision to attend a university or a community college",
-                    "url": "https://www.semanticscholar.org/paper/37245688b7bbdf9e31ba4963073cde0e114f99d0",
-                    "venue": "",
-                    "year": 1998
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "118816003",
                             "name": "Robert M. Haveman",
                             "url": "https://www.semanticscholar.org/author/118816003"
@@ -2144,19 +2211,90 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "2124933",
-                            "name": "Jerry Hausman",
-                            "url": "https://www.semanticscholar.org/author/2124933"
+                            "authorId": "5565314",
+                            "name": "Karen Blumenschein",
+                            "url": "https://www.semanticscholar.org/author/5565314"
+                        },
+                        {
+                            "authorId": "4539752",
+                            "name": "Glenn C. Blomquist",
+                            "url": "https://www.semanticscholar.org/author/4539752"
+                        },
+                        {
+                            "authorId": "145281248",
+                            "name": "Magnus Johannesson",
+                            "url": "https://www.semanticscholar.org/author/145281248"
+                        },
+                        {
+                            "authorId": "31559688",
+                            "name": "Nancy Horn",
+                            "url": "https://www.semanticscholar.org/author/31559688"
+                        },
+                        {
+                            "authorId": "35714748",
+                            "name": "Patricia R. Freeman",
+                            "url": "https://www.semanticscholar.org/author/35714748"
                         }
                     ],
-                    "doi": "10.1257/jep.26.4.43",
+                    "doi": "10.1111/j.1468-0297.2007.02106.x",
+                    "intent": [
+                        "background",
+                        "methodology"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "4324046de95d55aac8d15e9ab3591ddae7e42ee2",
+                    "title": "Eliciting Willingness to Pay Without Bias: Evidence from a Field Experiment",
+                    "url": "https://www.semanticscholar.org/paper/4324046de95d55aac8d15e9ab3591ddae7e42ee2",
+                    "venue": "",
+                    "year": 2008
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "4404412",
+                            "name": "Eric Alan Hanushek",
+                            "url": "https://www.semanticscholar.org/author/4404412"
+                        },
+                        {
+                            "authorId": "46189093",
+                            "name": "Charles Ka Yui Leung",
+                            "url": "https://www.semanticscholar.org/author/46189093"
+                        },
+                        {
+                            "authorId": "46258477",
+                            "name": "Kuzey Yilmaz",
+                            "url": "https://www.semanticscholar.org/author/46258477"
+                        }
+                    ],
+                    "doi": "10.1016/j.jmoneco.2003.01.004",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "3b3b702714b8e21a14dfa8cec136df70a52b294f",
+                    "title": "Redistribution Through Education and Other Transfer Mechanisms",
+                    "url": "https://www.semanticscholar.org/paper/3b3b702714b8e21a14dfa8cec136df70a52b294f",
+                    "venue": "",
+                    "year": 2001
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "47323482",
+                            "name": "Enrico Moretti",
+                            "url": "https://www.semanticscholar.org/author/47323482"
+                        }
+                    ],
+                    "doi": "10.1016/S1574-0080(04)80008-7",
                     "intent": [],
                     "isInfluential": false,
-                    "paperId": "66bdd1821b58d3c70bfe17bcdfcd54a0247335f5",
-                    "title": "Contingent Valuation: From Dubious to Hopeless",
-                    "url": "https://www.semanticscholar.org/paper/66bdd1821b58d3c70bfe17bcdfcd54a0247335f5",
+                    "paperId": "74e0ba69b9c43f64fefe0d1bab7cb15972e8d8b7",
+                    "title": "Human capital externalities in cities",
+                    "url": "https://www.semanticscholar.org/paper/74e0ba69b9c43f64fefe0d1bab7cb15972e8d8b7",
                     "venue": "",
-                    "year": 2012
+                    "year": 2003
                 },
                 {
                     "arxivId": null,
@@ -2221,6 +2359,164 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "5700930",
+                            "name": "Philip Oreopoulos",
+                            "url": "https://www.semanticscholar.org/author/5700930"
+                        },
+                        {
+                            "authorId": "3434105",
+                            "name": "Kjell G. Salvanes",
+                            "url": "https://www.semanticscholar.org/author/3434105"
+                        }
+                    ],
+                    "doi": "10.3386/w15339",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "212b2c4a7a7edcccc2797785830df0a7eb7cf18d",
+                    "title": "How Large Are Returns to Schooling? Hint: Money Isn't Everything. NBER Working Paper No. 15339.",
+                    "url": "https://www.semanticscholar.org/paper/212b2c4a7a7edcccc2797785830df0a7eb7cf18d",
+                    "venue": "",
+                    "year": 2009
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "34720893",
+                            "name": "Richard T. Carson",
+                            "url": "https://www.semanticscholar.org/author/34720893"
+                        }
+                    ],
+                    "doi": "10.1257/jep.26.4.27",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "17b9a944cd78fc618fdf784c3046ed7fdbed545f",
+                    "title": "Contingent Valuation: A Practical Alternative when Prices Aren't Available",
+                    "url": "https://www.semanticscholar.org/paper/17b9a944cd78fc618fdf784c3046ed7fdbed545f",
+                    "venue": "",
+                    "year": 2012
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "66770347",
+                            "name": "Steven Yamarik",
+                            "url": "https://www.semanticscholar.org/author/66770347"
+                        }
+                    ],
+                    "doi": "10.2202/1935-1690.1571",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "19ebc60f3d1ecd7184c18ad2a0941e6769325582",
+                    "title": "Estimating Returns to Schooling from State-Level Data: A Macro-Mincerian Approach",
+                    "url": "https://www.semanticscholar.org/paper/19ebc60f3d1ecd7184c18ad2a0941e6769325582",
+                    "venue": "",
+                    "year": 2008
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "145949931",
+                            "name": "Joseph M. Little",
+                            "url": "https://www.semanticscholar.org/author/145949931"
+                        },
+                        {
+                            "authorId": "7423907",
+                            "name": "Robert P. Berrens",
+                            "url": "https://www.semanticscholar.org/author/7423907"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "bc196e161177ef95b042c48ccfd4154ec279f22e",
+                    "title": "Explaining Disparities between Actual and Hypothetical Stated Values: Further Investigation Using Meta-Analysis",
+                    "url": "https://www.semanticscholar.org/paper/bc196e161177ef95b042c48ccfd4154ec279f22e",
+                    "venue": "",
+                    "year": 2004
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "5565314",
+                            "name": "Karen Blumenschein",
+                            "url": "https://www.semanticscholar.org/author/5565314"
+                        },
+                        {
+                            "authorId": "145281248",
+                            "name": "Magnus Johannesson",
+                            "url": "https://www.semanticscholar.org/author/145281248"
+                        },
+                        {
+                            "authorId": "4539752",
+                            "name": "Glenn C. Blomquist",
+                            "url": "https://www.semanticscholar.org/author/4539752"
+                        },
+                        {
+                            "authorId": "6502039",
+                            "name": "Bengt Liljas",
+                            "url": "https://www.semanticscholar.org/author/6502039"
+                        },
+                        {
+                            "authorId": "40477434",
+                            "name": "Richard M. O'Conor",
+                            "url": "https://www.semanticscholar.org/author/40477434"
+                        }
+                    ],
+                    "doi": "10.1016/s0165-1765(97)81897-6",
+                    "intent": [
+                        "result"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "dc31323e2c07d33f54c6568dc342424e302204a0",
+                    "title": "Hypothetical versus real payments in Vickrey auctions",
+                    "url": "https://www.semanticscholar.org/paper/dc31323e2c07d33f54c6568dc342424e302204a0",
+                    "venue": "",
+                    "year": 1997
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "143840645",
+                            "name": "Milton Friedman",
+                            "url": "https://www.semanticscholar.org/author/143840645"
+                        }
+                    ],
+                    "doi": "10.2307/2601552",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "fa441d72967c2a77823bab6ea219ca1ace066110",
+                    "title": "Capitalism and Freedom.",
+                    "url": "https://www.semanticscholar.org/paper/fa441d72967c2a77823bab6ea219ca1ace066110",
+                    "venue": "",
+                    "year": 1963
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "31046024",
+                            "name": "David Card",
+                            "url": "https://www.semanticscholar.org/author/31046024"
+                        }
+                    ],
+                    "doi": "10.1016/S1573-4463(99)03011-4",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "047dd4821ffdf097e47d735049038c2ce163242e",
+                    "title": "The Causal Effect of Education on Learning",
+                    "url": "https://www.semanticscholar.org/paper/047dd4821ffdf097e47d735049038c2ce163242e",
+                    "venue": "",
+                    "year": 1999
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "46593183",
                             "name": "Richard Allen Epstein",
                             "url": "https://www.semanticscholar.org/author/46593183"
@@ -2270,52 +2566,6 @@
                     "url": "https://www.semanticscholar.org/paper/e5256a6ad53df194dd34bb79737a0a57655624f6",
                     "venue": "",
                     "year": 2011
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "144145230",
-                            "name": "David M. Cutler",
-                            "url": "https://www.semanticscholar.org/author/144145230"
-                        },
-                        {
-                            "authorId": "1397958197",
-                            "name": "Adriana Lleras-Muney",
-                            "url": "https://www.semanticscholar.org/author/1397958197"
-                        }
-                    ],
-                    "doi": "10.3386/w12352",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "062e077c3c901f993b28f33aec4183cb404d6fe4",
-                    "title": "Education and Health: Evaluating Theories and Evidence",
-                    "url": "https://www.semanticscholar.org/paper/062e077c3c901f993b28f33aec4183cb404d6fe4",
-                    "venue": "",
-                    "year": 2006
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "3701289",
-                            "name": "Edward L. Glaeser",
-                            "url": "https://www.semanticscholar.org/author/3701289"
-                        },
-                        {
-                            "authorId": "98248399",
-                            "name": "Raven E. Saks",
-                            "url": "https://www.semanticscholar.org/author/98248399"
-                        }
-                    ],
-                    "doi": "10.2139/ssrn.599042",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "d62252e6a985cdeb576a0ece3c5af59b84adc60b",
-                    "title": "Corruption in America",
-                    "url": "https://www.semanticscholar.org/paper/d62252e6a985cdeb576a0ece3c5af59b84adc60b",
-                    "venue": "",
-                    "year": 2004
                 },
                 {
                     "arxivId": null,
@@ -2437,70 +2687,22 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "5565314",
-                            "name": "Karen Blumenschein",
-                            "url": "https://www.semanticscholar.org/author/5565314"
+                            "authorId": "1798259",
+                            "name": "John A. List",
+                            "url": "https://www.semanticscholar.org/author/1798259"
                         },
                         {
-                            "authorId": "4539752",
-                            "name": "Glenn C. Blomquist",
-                            "url": "https://www.semanticscholar.org/author/4539752"
-                        },
-                        {
-                            "authorId": "145281248",
-                            "name": "Magnus Johannesson",
-                            "url": "https://www.semanticscholar.org/author/145281248"
-                        },
-                        {
-                            "authorId": "31559688",
-                            "name": "Nancy Horn",
-                            "url": "https://www.semanticscholar.org/author/31559688"
-                        },
-                        {
-                            "authorId": "35714748",
-                            "name": "Patricia R. Freeman",
-                            "url": "https://www.semanticscholar.org/author/35714748"
+                            "authorId": "2391537",
+                            "name": "Craig A. Gallet",
+                            "url": "https://www.semanticscholar.org/author/2391537"
                         }
                     ],
-                    "doi": "10.1111/j.1468-0297.2007.02106.x",
-                    "intent": [
-                        "background",
-                        "methodology"
-                    ],
+                    "doi": "10.1023/A:1012791822804",
+                    "intent": [],
                     "isInfluential": false,
-                    "paperId": "4324046de95d55aac8d15e9ab3591ddae7e42ee2",
-                    "title": "Eliciting Willingness to Pay Without Bias: Evidence from a Field Experiment",
-                    "url": "https://www.semanticscholar.org/paper/4324046de95d55aac8d15e9ab3591ddae7e42ee2",
-                    "venue": "",
-                    "year": 2008
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "4404412",
-                            "name": "Eric Alan Hanushek",
-                            "url": "https://www.semanticscholar.org/author/4404412"
-                        },
-                        {
-                            "authorId": "46189093",
-                            "name": "Charles Ka Yui Leung",
-                            "url": "https://www.semanticscholar.org/author/46189093"
-                        },
-                        {
-                            "authorId": "46258477",
-                            "name": "Kuzey Yilmaz",
-                            "url": "https://www.semanticscholar.org/author/46258477"
-                        }
-                    ],
-                    "doi": "10.1016/j.jmoneco.2003.01.004",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "3b3b702714b8e21a14dfa8cec136df70a52b294f",
-                    "title": "Redistribution Through Education and Other Transfer Mechanisms",
-                    "url": "https://www.semanticscholar.org/paper/3b3b702714b8e21a14dfa8cec136df70a52b294f",
+                    "paperId": "0531c19ea8df703fd25006d1232aac0d7378a441",
+                    "title": "What Experimental Protocol Influence Disparities Between Actual and Hypothetical Stated Values?",
+                    "url": "https://www.semanticscholar.org/paper/0531c19ea8df703fd25006d1232aac0d7378a441",
                     "venue": "",
                     "year": 2001
                 },
@@ -2508,19 +2710,37 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "47323482",
-                            "name": "Enrico Moretti",
-                            "url": "https://www.semanticscholar.org/author/47323482"
+                            "authorId": "143819443",
+                            "name": "Michael Grossman",
+                            "url": "https://www.semanticscholar.org/author/143819443"
                         }
                     ],
-                    "doi": "10.1016/S1574-0080(04)80008-7",
+                    "doi": "10.3386/w11582",
                     "intent": [],
                     "isInfluential": false,
-                    "paperId": "74e0ba69b9c43f64fefe0d1bab7cb15972e8d8b7",
-                    "title": "Human capital externalities in cities",
-                    "url": "https://www.semanticscholar.org/paper/74e0ba69b9c43f64fefe0d1bab7cb15972e8d8b7",
+                    "paperId": "7f4530b07f4952c27d53f731c209b8b07fdabe6a",
+                    "title": "Education and Nonmarket Outcomes",
+                    "url": "https://www.semanticscholar.org/paper/7f4530b07f4952c27d53f731c209b8b07fdabe6a",
                     "venue": "",
-                    "year": 2003
+                    "year": 2005
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "4384429",
+                            "name": "Lance J. Lochner",
+                            "url": "https://www.semanticscholar.org/author/4384429"
+                        }
+                    ],
+                    "doi": "10.1016/B978-0-444-53444-6.00002-X",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "b62453468d371cf021c4a4e0b7ce9cfec1beb078",
+                    "title": "Non-Production Benefits of Education: Crime, Health, and Good Citizenship",
+                    "url": "https://www.semanticscholar.org/paper/b62453468d371cf021c4a4e0b7ce9cfec1beb078",
+                    "venue": "",
+                    "year": 2011
                 },
                 {
                     "arxivId": null,
@@ -2608,182 +2828,6 @@
                     "url": "https://www.semanticscholar.org/paper/04a3e964131fc2e7a4522086db61aab99c71f0e0",
                     "venue": "",
                     "year": 2007
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "5565314",
-                            "name": "Karen Blumenschein",
-                            "url": "https://www.semanticscholar.org/author/5565314"
-                        },
-                        {
-                            "authorId": "145281248",
-                            "name": "Magnus Johannesson",
-                            "url": "https://www.semanticscholar.org/author/145281248"
-                        },
-                        {
-                            "authorId": "4539752",
-                            "name": "Glenn C. Blomquist",
-                            "url": "https://www.semanticscholar.org/author/4539752"
-                        },
-                        {
-                            "authorId": "6502039",
-                            "name": "Bengt Liljas",
-                            "url": "https://www.semanticscholar.org/author/6502039"
-                        },
-                        {
-                            "authorId": "40477434",
-                            "name": "Richard M. O'Conor",
-                            "url": "https://www.semanticscholar.org/author/40477434"
-                        }
-                    ],
-                    "doi": "10.1016/s0165-1765(97)81897-6",
-                    "intent": [
-                        "result"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "dc31323e2c07d33f54c6568dc342424e302204a0",
-                    "title": "Hypothetical versus real payments in Vickrey auctions",
-                    "url": "https://www.semanticscholar.org/paper/dc31323e2c07d33f54c6568dc342424e302204a0",
-                    "venue": "",
-                    "year": 1997
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "143840645",
-                            "name": "Milton Friedman",
-                            "url": "https://www.semanticscholar.org/author/143840645"
-                        }
-                    ],
-                    "doi": "10.2307/2601552",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "fa441d72967c2a77823bab6ea219ca1ace066110",
-                    "title": "Capitalism and Freedom.",
-                    "url": "https://www.semanticscholar.org/paper/fa441d72967c2a77823bab6ea219ca1ace066110",
-                    "venue": "",
-                    "year": 1963
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "31046024",
-                            "name": "David Card",
-                            "url": "https://www.semanticscholar.org/author/31046024"
-                        }
-                    ],
-                    "doi": "10.1016/S1573-4463(99)03011-4",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "047dd4821ffdf097e47d735049038c2ce163242e",
-                    "title": "The Causal Effect of Education on Learning",
-                    "url": "https://www.semanticscholar.org/paper/047dd4821ffdf097e47d735049038c2ce163242e",
-                    "venue": "",
-                    "year": 1999
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "66770347",
-                            "name": "Steven Yamarik",
-                            "url": "https://www.semanticscholar.org/author/66770347"
-                        }
-                    ],
-                    "doi": "10.2202/1935-1690.1571",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "19ebc60f3d1ecd7184c18ad2a0941e6769325582",
-                    "title": "Estimating Returns to Schooling from State-Level Data: A Macro-Mincerian Approach",
-                    "url": "https://www.semanticscholar.org/paper/19ebc60f3d1ecd7184c18ad2a0941e6769325582",
-                    "venue": "",
-                    "year": 2008
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "145949931",
-                            "name": "Joseph M. Little",
-                            "url": "https://www.semanticscholar.org/author/145949931"
-                        },
-                        {
-                            "authorId": "7423907",
-                            "name": "Robert P. Berrens",
-                            "url": "https://www.semanticscholar.org/author/7423907"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "bc196e161177ef95b042c48ccfd4154ec279f22e",
-                    "title": "Explaining Disparities between Actual and Hypothetical Stated Values: Further Investigation Using Meta-Analysis",
-                    "url": "https://www.semanticscholar.org/paper/bc196e161177ef95b042c48ccfd4154ec279f22e",
-                    "venue": "",
-                    "year": 2004
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "4384429",
-                            "name": "Lance J. Lochner",
-                            "url": "https://www.semanticscholar.org/author/4384429"
-                        }
-                    ],
-                    "doi": "10.1016/B978-0-444-53444-6.00002-X",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "b62453468d371cf021c4a4e0b7ce9cfec1beb078",
-                    "title": "Non-Production Benefits of Education: Crime, Health, and Good Citizenship. NBER Working Paper No. 16722.",
-                    "url": "https://www.semanticscholar.org/paper/b62453468d371cf021c4a4e0b7ce9cfec1beb078",
-                    "venue": "",
-                    "year": 2011
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "1798259",
-                            "name": "John A. List",
-                            "url": "https://www.semanticscholar.org/author/1798259"
-                        },
-                        {
-                            "authorId": "2391537",
-                            "name": "Craig A. Gallet",
-                            "url": "https://www.semanticscholar.org/author/2391537"
-                        }
-                    ],
-                    "doi": "10.1023/A:1012791822804",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "0531c19ea8df703fd25006d1232aac0d7378a441",
-                    "title": "What Experimental Protocol Influence Disparities Between Actual and Hypothetical Stated Values?",
-                    "url": "https://www.semanticscholar.org/paper/0531c19ea8df703fd25006d1232aac0d7378a441",
-                    "venue": "",
-                    "year": 2001
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "143819443",
-                            "name": "Michael Grossman",
-                            "url": "https://www.semanticscholar.org/author/143819443"
-                        }
-                    ],
-                    "doi": "10.3386/w11582",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "7f4530b07f4952c27d53f731c209b8b07fdabe6a",
-                    "title": "Education and Nonmarket Outcomes",
-                    "url": "https://www.semanticscholar.org/paper/7f4530b07f4952c27d53f731c209b8b07fdabe6a",
-                    "venue": "",
-                    "year": 2005
                 },
                 {
                     "arxivId": null,
@@ -2983,7 +3027,7 @@
                     "license": null,
                     "pmh_id": "oai:researchrepository.ucd.ie:10197/7459",
                     "repository_institution": "University College Dublin - Research Repository at University College Dublin",
-                    "updated": "2019-11-26T08:31:44.865026",
+                    "updated": "2019-12-10T09:59:56.870406",
                     "url": "https://researchrepository.ucd.ie/bitstream/10197/7459/1/Social_Value_of_Higher_Education_JBCA_June_9_2014.pdf",
                     "url_for_landing_page": "http://hdl.handle.net/10197/7459",
                     "url_for_pdf": "https://researchrepository.ucd.ie/bitstream/10197/7459/1/Social_Value_of_Higher_Education_JBCA_June_9_2014.pdf",
@@ -3022,7 +3066,7 @@
             "published_date": "2014-01-01",
             "publisher": "Walter de Gruyter GmbH",
             "title": "Estimating the social value of higher education: willingness to pay for community and technical colleges",
-            "updated": "2019-12-01T10:08:34.828425",
+            "updated": "2019-12-11T05:59:46.284428",
             "year": 2014,
             "z_authors": [
                 {
@@ -4005,7 +4049,7 @@
                     "license": null,
                     "pmh_id": "oai:research.upjohn.org:up_workingpapers-1188",
                     "repository_institution": null,
-                    "updated": "2019-11-27T00:11:12.574786",
+                    "updated": "2019-12-11T00:25:24.263788",
                     "url": "https://research.upjohn.org/cgi/viewcontent.cgi?article=1188&context=up_workingpapers",
                     "url_for_landing_page": "https://research.upjohn.org/cgi/viewcontent.cgi?article=1188&context=up_workingpapers",
                     "url_for_pdf": "https://research.upjohn.org/cgi/viewcontent.cgi?article=1188&context=up_workingpapers",

@@ -412,7 +412,7 @@
             "date": "2015-05-11",
             "date_inserted": "2017-08-31",
             "doi": "10.1371/journal.pone.0124351",
-            "field_citation_ratio": 4.18,
+            "field_citation_ratio": 4.16,
             "funder_countries": [
                 {
                     "id": "US",
@@ -425,7 +425,16 @@
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.419681.3",
-                    "name": "National Institute of Allergy and Infectious Diseases"
+                    "latitude": 39.066647,
+                    "linkout": [
+                        "http://www.niaid.nih.gov/Pages/default.aspx"
+                    ],
+                    "longitude": -77.11183,
+                    "name": "National Institute of Allergy and Infectious Diseases",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1013245967",
@@ -612,27 +621,63 @@
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.419681.3",
-                    "name": "National Institute of Allergy and Infectious Diseases"
+                    "latitude": 39.066647,
+                    "linkout": [
+                        "http://www.niaid.nih.gov/Pages/default.aspx"
+                    ],
+                    "longitude": -77.11183,
+                    "name": "National Institute of Allergy and Infectious Diseases",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "acronym": "ARS",
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.463419.d",
-                    "name": "Agricultural Research Service"
+                    "latitude": 38.8885,
+                    "linkout": [
+                        "http://www.ars.usda.gov/main/main.htm"
+                    ],
+                    "longitude": -77.02999,
+                    "name": "Agricultural Research Service",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "city_name": "San Luis Obispo",
                     "country_name": "United States",
                     "id": "grid.253547.2",
-                    "name": "California Polytechnic State University"
+                    "latitude": 35.301666,
+                    "linkout": [
+                        "http://www.calpoly.edu/"
+                    ],
+                    "longitude": -120.65982,
+                    "name": "California Polytechnic State University",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "USPHS",
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417684.8",
-                    "name": "United States Public Health Service"
+                    "latitude": 38.919567,
+                    "linkout": [
+                        "http://www.usphs.gov/"
+                    ],
+                    "longitude": -77.029,
+                    "name": "United States Public Health Service",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "researchers": [
@@ -677,7 +722,7 @@
                     ]
                 }
             ],
-            "score": 20.051624,
+            "score": 20.046932,
             "supporting_grant_ids": null,
             "terms": [
                 "excessive alcohol consumption",
@@ -777,7 +822,7 @@
         ],
         "doi": "10.1371/journal.pone.0124351",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
+            "date_added": "2019-12-03 10:30:32",
             "doi": "10.1371/journal.pone.0124351",
             "journal": "PLoS One",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4427330/"
@@ -1074,7 +1119,7 @@
             "date": "2016-05-01",
             "date_inserted": "2017-08-31",
             "doi": "10.2105/ajph.2016.303048",
-            "field_citation_ratio": 8.68,
+            "field_citation_ratio": 8.65,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1068848230",
@@ -1128,98 +1173,98 @@
             "publisher": "American Public Health Association",
             "recent_citations": 17,
             "reference_ids": [
-                "pub.1030184708",
-                "pub.1008832731",
-                "pub.1041696976",
-                "pub.1019394759",
-                "pub.1045547889",
-                "pub.1025598241",
-                "pub.1048632086",
-                "pub.1016215361",
-                "pub.1005665003",
-                "pub.1068845127",
-                "pub.1042803319",
-                "pub.1028698070",
-                "pub.1009536059",
-                "pub.1001598272",
-                "pub.1001697317",
-                "pub.1028322435",
-                "pub.1011298217",
-                "pub.1068844135",
-                "pub.1039888124",
-                "pub.1004025116",
-                "pub.1039546374",
-                "pub.1031426507",
-                "pub.1023436338",
-                "pub.1005227941",
-                "pub.1030833770",
-                "pub.1008807760",
-                "pub.1053588993",
-                "pub.1043900022",
-                "pub.1034376173",
-                "pub.1007589441",
-                "pub.1043681462",
-                "pub.1068846317",
-                "pub.1043734203",
-                "pub.1053217847",
-                "pub.1046848745",
-                "pub.1024512609",
-                "pub.1031964331",
-                "pub.1059380037",
                 "pub.1041804681",
-                "pub.1023278055",
-                "pub.1031533149",
-                "pub.1046940572",
-                "pub.1045809050",
+                "pub.1043681462",
+                "pub.1004025116",
+                "pub.1068845127",
+                "pub.1031964331",
+                "pub.1043734203",
+                "pub.1005665003",
+                "pub.1023436338",
+                "pub.1009536059",
+                "pub.1041696976",
+                "pub.1024512609",
+                "pub.1008807760",
+                "pub.1028322435",
+                "pub.1001598272",
+                "pub.1025598241",
+                "pub.1019394759",
                 "pub.1052736744",
-                "pub.1077673081"
+                "pub.1046940572",
+                "pub.1039546374",
+                "pub.1053217847",
+                "pub.1005227941",
+                "pub.1034376173",
+                "pub.1059380037",
+                "pub.1046848745",
+                "pub.1030833770",
+                "pub.1031533149",
+                "pub.1016215361",
+                "pub.1007589441",
+                "pub.1001697317",
+                "pub.1053588993",
+                "pub.1008832731",
+                "pub.1030184708",
+                "pub.1028698070",
+                "pub.1031426507",
+                "pub.1077673081",
+                "pub.1039888124",
+                "pub.1068844135",
+                "pub.1048632086",
+                "pub.1023278055",
+                "pub.1042803319",
+                "pub.1045809050",
+                "pub.1011298217",
+                "pub.1045547889",
+                "pub.1068846317",
+                "pub.1043900022"
             ],
             "references": [
-                "pub.1030184708",
-                "pub.1008832731",
-                "pub.1041696976",
-                "pub.1019394759",
-                "pub.1045547889",
-                "pub.1025598241",
-                "pub.1048632086",
-                "pub.1016215361",
-                "pub.1005665003",
-                "pub.1068845127",
-                "pub.1042803319",
-                "pub.1028698070",
-                "pub.1009536059",
-                "pub.1001598272",
-                "pub.1001697317",
-                "pub.1028322435",
-                "pub.1011298217",
-                "pub.1068844135",
-                "pub.1039888124",
-                "pub.1004025116",
-                "pub.1039546374",
-                "pub.1031426507",
-                "pub.1023436338",
-                "pub.1005227941",
-                "pub.1030833770",
-                "pub.1008807760",
-                "pub.1053588993",
-                "pub.1043900022",
-                "pub.1034376173",
-                "pub.1007589441",
-                "pub.1043681462",
-                "pub.1068846317",
-                "pub.1043734203",
-                "pub.1053217847",
-                "pub.1046848745",
-                "pub.1024512609",
-                "pub.1031964331",
-                "pub.1059380037",
                 "pub.1041804681",
-                "pub.1023278055",
-                "pub.1031533149",
-                "pub.1046940572",
-                "pub.1045809050",
+                "pub.1043681462",
+                "pub.1004025116",
+                "pub.1068845127",
+                "pub.1031964331",
+                "pub.1043734203",
+                "pub.1005665003",
+                "pub.1023436338",
+                "pub.1009536059",
+                "pub.1041696976",
+                "pub.1024512609",
+                "pub.1008807760",
+                "pub.1028322435",
+                "pub.1001598272",
+                "pub.1025598241",
+                "pub.1019394759",
                 "pub.1052736744",
-                "pub.1077673081"
+                "pub.1046940572",
+                "pub.1039546374",
+                "pub.1053217847",
+                "pub.1005227941",
+                "pub.1034376173",
+                "pub.1059380037",
+                "pub.1046848745",
+                "pub.1030833770",
+                "pub.1031533149",
+                "pub.1016215361",
+                "pub.1007589441",
+                "pub.1001697317",
+                "pub.1053588993",
+                "pub.1008832731",
+                "pub.1030184708",
+                "pub.1028698070",
+                "pub.1031426507",
+                "pub.1077673081",
+                "pub.1039888124",
+                "pub.1068844135",
+                "pub.1048632086",
+                "pub.1023278055",
+                "pub.1042803319",
+                "pub.1045809050",
+                "pub.1011298217",
+                "pub.1045547889",
+                "pub.1068846317",
+                "pub.1043900022"
             ],
             "relative_citation_ratio": 2.23,
             "research_org_cities": [
@@ -1251,7 +1296,16 @@
                     "city_name": "San Luis Obispo",
                     "country_name": "United States",
                     "id": "grid.253547.2",
-                    "name": "California Polytechnic State University"
+                    "latitude": 35.301666,
+                    "linkout": [
+                        "http://www.calpoly.edu/"
+                    ],
+                    "longitude": -120.65982,
+                    "name": "California Polytechnic State University",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -1285,7 +1339,7 @@
                     ]
                 }
             ],
-            "score": 22.204037,
+            "score": 22.200014,
             "supporting_grant_ids": null,
             "terms": [
                 "association",
@@ -1360,7 +1414,7 @@
         ],
         "doi": "10.2105/ajph.2016.303048",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
+            "date_added": "2019-12-03 10:30:32",
             "doi": "10.2105/AJPH.2016.303048",
             "journal": "American Journal of Public Health",
             "url": "https://ajph.aphapublications.org/doi/full/10.2105/AJPH.2016.303048?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub%3Dpubmed&"
@@ -1577,7 +1631,7 @@
             "date": "2016-06-01",
             "date_inserted": "2017-08-31",
             "doi": "10.3168/jds.2015-10410",
-            "field_citation_ratio": 1.49,
+            "field_citation_ratio": 1.47,
             "funder_countries": [
                 {
                     "id": "US",
@@ -1590,14 +1644,32 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.482914.2",
-                    "name": "National Institute of Food and Agriculture"
+                    "latitude": 38.880623,
+                    "linkout": [
+                        "https://nifa.usda.gov/"
+                    ],
+                    "longitude": -77.02424,
+                    "name": "National Institute of Food and Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "USDA",
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417548.b",
-                    "name": "United States Department of Agriculture"
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1049283008",
@@ -1647,38 +1719,38 @@
             "publisher": "American Dairy Science Association",
             "recent_citations": 6,
             "reference_ids": [
-                "pub.1069650250",
-                "pub.1051861051",
-                "pub.1069650030",
                 "pub.1070145711",
+                "pub.1069650250",
                 "pub.1053084616",
-                "pub.1047852416",
+                "pub.1009905055",
+                "pub.1028525061",
+                "pub.1051639131",
+                "pub.1059379886",
+                "pub.1069650030",
+                "pub.1061833760",
+                "pub.1006113565",
+                "pub.1027092223",
                 "pub.1054922238",
                 "pub.1010934676",
-                "pub.1009905055",
-                "pub.1051639131",
-                "pub.1061833760",
-                "pub.1027092223",
-                "pub.1028525061",
-                "pub.1006113565",
-                "pub.1059379886"
+                "pub.1047852416",
+                "pub.1051861051"
             ],
             "references": [
-                "pub.1069650250",
-                "pub.1051861051",
-                "pub.1069650030",
                 "pub.1070145711",
+                "pub.1069650250",
                 "pub.1053084616",
-                "pub.1047852416",
+                "pub.1009905055",
+                "pub.1028525061",
+                "pub.1051639131",
+                "pub.1059379886",
+                "pub.1069650030",
+                "pub.1061833760",
+                "pub.1006113565",
+                "pub.1027092223",
                 "pub.1054922238",
                 "pub.1010934676",
-                "pub.1009905055",
-                "pub.1051639131",
-                "pub.1061833760",
-                "pub.1027092223",
-                "pub.1028525061",
-                "pub.1006113565",
-                "pub.1059379886"
+                "pub.1047852416",
+                "pub.1051861051"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -1720,13 +1792,31 @@
                     "city_name": "Laramie",
                     "country_name": "United States",
                     "id": "grid.135963.b",
-                    "name": "University of Wyoming"
+                    "latitude": 41.313057,
+                    "linkout": [
+                        "http://www.uwyo.edu/"
+                    ],
+                    "longitude": -105.58139,
+                    "name": "University of Wyoming",
+                    "state_name": "Wyoming",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Minneapolis",
                     "country_name": "United States",
                     "id": "grid.17635.36",
-                    "name": "University of Minnesota"
+                    "latitude": 44.974194,
+                    "linkout": [
+                        "http://twin-cities.umn.edu/"
+                    ],
+                    "longitude": -93.22776,
+                    "name": "University of Minnesota",
+                    "state_name": "Minnesota",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -1749,7 +1839,7 @@
                     ]
                 }
             ],
-            "score": 19.051256,
+            "score": 19.06529,
             "supporting_grant_ids": [
                 "grant.3827387"
             ],
@@ -1815,7 +1905,7 @@
         ],
         "doi": "10.3168/jds.2015-10410",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
+            "date_added": "2019-12-03 10:30:32",
             "doi": "10.3168/jds.2015-10410",
             "journal": "Journal of Dairy Science",
             "url": "https://www.sciencedirect.com/science/article/pii/S0022030216301369"
@@ -1902,7 +1992,7 @@
             "date": "2016-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1093/erae/jbv032",
-            "field_citation_ratio": 1.59,
+            "field_citation_ratio": 1.57,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1059570493",
@@ -2013,7 +2103,7 @@
                     ]
                 }
             ],
-            "score": 20.206673,
+            "score": 20.207777,
             "supporting_grant_ids": null,
             "terms": [
                 "consumer welfare",
@@ -2031,7 +2121,7 @@
         ],
         "doi": "10.1093/erae/jbv032",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
+            "date_added": "2019-12-03 10:30:32",
             "doi": "10.1093/erae/jbv032",
             "journal": "European Review of Agricultural Economics",
             "url": "https://academic.oup.com/erae/article/43/4/585/2926669"
@@ -2053,10 +2143,10 @@
         ],
         "doi": "10.3386/w21126",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
+            "date_added": "2019-12-03 10:30:32",
             "doi": "10.3386/w21126",
             "journal": "NBER Working Paper",
-            "url": "https://www.nber.org/papers/w21126.pdf"
+            "pdf": "https://www.nber.org/papers/w21126.pdf"
         },
         "title": "Is the Focus on Food Deserts Fruitless? Retail Access and Food Purchases Across the Socioeconomic Spectrum"
     },
@@ -2303,7 +2393,7 @@
             "date": "2016-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1111/agec.12222",
-            "field_citation_ratio": 2.38,
+            "field_citation_ratio": 2.36,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1051767874",
@@ -2421,14 +2511,32 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.482913.5",
-                    "name": "Economic Research Service"
+                    "latitude": 38.88383,
+                    "linkout": [
+                        "https://www.ers.usda.gov/"
+                    ],
+                    "longitude": -77.01658,
+                    "name": "Economic Research Service",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "NMSU",
                     "city_name": "Las Cruces",
                     "country_name": "United States",
                     "id": "grid.24805.3b",
-                    "name": "New Mexico State University"
+                    "latitude": 32.28164,
+                    "linkout": [
+                        "http://www.nmsu.edu/"
+                    ],
+                    "longitude": -106.75365,
+                    "name": "New Mexico State University",
+                    "state_name": "New Mexico",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -2469,7 +2577,7 @@
                     ]
                 }
             ],
-            "score": 21.603767,
+            "score": 21.603268,
             "supporting_grant_ids": null,
             "terms": [
                 "vector error correction model",
@@ -2521,7 +2629,7 @@
         ],
         "doi": "10.1111/agec.12222",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
+            "date_added": "2019-12-03 10:30:32",
             "doi": "10.1111/agec.12222",
             "journal": "Agricultural Economics",
             "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/agec.12222"
@@ -2532,12 +2640,10 @@
         "datasets": [
             "dataset-002"
         ],
-        "doi": "https://aese.psu.edu/nercrd/publications/rdp/describing-US-households-food-purchasing-patterns-efsne-market-basket",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "https://aese.psu.edu/nercrd/publications/rdp/describing-US-households-food-purchasing-patterns-efsne-market-basket",
+            "date_added": "2019-12-03 10:30:32",
             "journal": "Northeast Regional Center for Rural Development",
-            "url": "https://aese.psu.edu/nercrd/publications/rdp/describing-US-households-food-purchasing-patterns-efsne-market-basket"
+            "pdf": "https://aese.psu.edu/nercrd/publications/rdp/describing-US-households-food-purchasing-patterns-efsne-market-basket"
         },
         "title": "Describing U.S. Households' Food Purchasing Patterns across Poverty and Urban Status: The EFSNE project Market Basket"
     },
@@ -2547,7 +2653,7 @@
         ],
         "doi": "10.1016/j.jand.2017.01.011",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
+            "date_added": "2019-12-03 10:30:32",
             "doi": "10.1016/j.jand.2017.01.011",
             "journal": "Journal of the Academy of Nutrition and Dietetics",
             "url": "https://www.sciencedirect.com/science/article/pii/S2212267217300722"
@@ -2903,7 +3009,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417548.b",
-                    "name": "United States Department of Agriculture"
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1105572664",
@@ -3035,20 +3150,47 @@
                     "city_name": "State College",
                     "country_name": "United States",
                     "id": "grid.29857.31",
-                    "name": "Pennsylvania State University"
+                    "latitude": 40.79845,
+                    "linkout": [
+                        "http://www.psu.edu/"
+                    ],
+                    "longitude": -77.85993,
+                    "name": "Pennsylvania State University",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "SHSU",
                     "city_name": "Huntsville",
                     "country_name": "United States",
                     "id": "grid.263046.5",
-                    "name": "Sam Houston State University"
+                    "latitude": 30.713888,
+                    "linkout": [
+                        "http://www.shsu.edu/"
+                    ],
+                    "longitude": -95.54722,
+                    "name": "Sam Houston State University",
+                    "state_name": "Texas",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "San Luis Obispo",
                     "country_name": "United States",
                     "id": "grid.253547.2",
-                    "name": "California Polytechnic State University"
+                    "latitude": 35.301666,
+                    "linkout": [
+                        "http://www.calpoly.edu/"
+                    ],
+                    "longitude": -120.65982,
+                    "name": "California Polytechnic State University",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -3082,7 +3224,7 @@
                     ]
                 }
             ],
-            "score": 21.482065,
+            "score": 21.474361,
             "supporting_grant_ids": null,
             "terms": [
                 "growth of food",
@@ -3165,7 +3307,7 @@
         ],
         "doi": "10.1177/0890117118786871",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
+            "date_added": "2019-12-03 10:30:32",
             "doi": "10.1177/0890117118786871",
             "journal": "American Journal of Health Promotion",
             "url": "https://journals.sagepub.com/doi/abs/10.1177/0890117118786871"
@@ -3546,14 +3688,32 @@
                     "city_name": "State College",
                     "country_name": "United States",
                     "id": "grid.29857.31",
-                    "name": "Pennsylvania State University"
+                    "latitude": 40.79845,
+                    "linkout": [
+                        "http://www.psu.edu/"
+                    ],
+                    "longitude": -77.85993,
+                    "name": "Pennsylvania State University",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "ASU",
                     "city_name": "Tempe",
                     "country_name": "United States",
                     "id": "grid.215654.1",
-                    "name": "Arizona State University"
+                    "latitude": 33.417194,
+                    "linkout": [
+                        "http://www.asu.edu/"
+                    ],
+                    "longitude": -111.93651,
+                    "name": "Arizona State University",
+                    "state_name": "Arizona",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -3576,7 +3736,7 @@
                     ]
                 }
             ],
-            "score": 25.92528,
+            "score": 25.929543,
             "supporting_grant_ids": null,
             "terms": [
                 "food access",
@@ -3610,7 +3770,7 @@
         ],
         "doi": "10.1093/aepp/ppy018",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
+            "date_added": "2019-12-03 10:30:32",
             "doi": "10.1093/aepp/ppy018",
             "journal": "Applied Economic Perspectives and Policy",
             "url": "https://academic.oup.com/aepp/advance-article/doi/10.1093/aepp/ppy018/5105734"
@@ -3621,12 +3781,10 @@
         "datasets": [
             "dataset-001"
         ],
-        "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=90354",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=90354",
+            "date_added": "2019-12-03 10:30:32",
             "journal": "United States Department of Agriculture, Economic Research Service",
-            "url": "https://www.ers.usda.gov/webdocs/publications/45445/54290_err197.pdf?v=0"
+            "pdf": "https://www.ers.usda.gov/webdocs/publications/45445/54290_err197.pdf?v=0"
         },
         "title": "Measuring the Impacts of Off-Season Berry Imports"
     },
@@ -3634,12 +3792,10 @@
         "datasets": [
             "dataset-001"
         ],
-        "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=90354",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=90354",
+            "date_added": "2019-12-03 10:30:32",
             "journal": "United States Department of Agriculture, Economic Research Service",
-            "url": "https://www.ers.usda.gov/webdocs/publications/90355/tb-1949.pdf?v=1369.6"
+            "pdf": "https://www.ers.usda.gov/webdocs/publications/90355/tb-1949.pdf?v=1369.6"
         },
         "title": "Examining Food Store Scanner Data: A Comparison of the IRI InfoSCan Data with Other Data Sets, 2008-2012"
     },
@@ -3647,12 +3803,10 @@
         "datasets": [
             "dataset-001"
         ],
-        "doi": "http://www.ers.usda.gov/publications/pub-details/?pubid=45421",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "http://www.ers.usda.gov/publications/pub-details/?pubid=45421",
+            "date_added": "2019-12-03 10:30:33",
             "journal": "United States Department of Agriculture, Economic Research Service",
-            "url": "https://www.ers.usda.gov/webdocs/publications/45419/53640_err193.pdf?v=0"
+            "pdf": "https://www.ers.usda.gov/webdocs/publications/45419/53640_err193.pdf?v=0"
         },
         "title": "How Much Does It Matter How Sick You Get? Consumers' Responses to Foodborne Disease Outbreaks of Different Severities"
     },
@@ -3660,12 +3814,10 @@
         "datasets": [
             "dataset-001"
         ],
-        "doi": "http://www.ers.usda.gov/publications/pub-details/?pubid=42904",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "http://www.ers.usda.gov/publications/pub-details/?pubid=42904",
+            "date_added": "2019-12-03 10:30:33",
             "journal": "United States Department of Agriculture, Economic Research Service",
-            "url": "https://www.ers.usda.gov/webdocs/publications/42902/56772_eb27.pdf?v=0"
+            "pdf": "https://www.ers.usda.gov/webdocs/publications/42902/56772_eb27.pdf?v=0"
         },
         "title": "The Cost of Satisfying Fruit and Vegetable Recommendations in the Dietary Guidelines"
     },
@@ -3673,12 +3825,10 @@
         "datasets": [
             "dataset-002"
         ],
-        "doi": "http://www.ers.usda.gov/publications/pub-details/?pubid=47636",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "http://www.ers.usda.gov/publications/pub-details/?pubid=47636",
+            "date_added": "2019-12-03 10:30:33",
             "journal": "United States Department of Agriculture, Economic Research Service",
-            "url": "https://www.ers.usda.gov/webdocs/publications/47633/57105_tb-1942.pdf?v=0"
+            "pdf": "https://www.ers.usda.gov/webdocs/publications/47633/57105_tb-1942.pdf?v=0"
         },
         "title": "Understanding IRI Household-Based and Store-Based Scanner Data"
     },
@@ -3686,12 +3836,10 @@
         "datasets": [
             "dataset-001"
         ],
-        "doi": "http://www.ers.usda.gov/publications/pub-details/?pubid=45536",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "http://www.ers.usda.gov/publications/pub-details/?pubid=45536",
+            "date_added": "2019-12-03 10:30:33",
             "journal": "United States Department of Agriculture, Economic Research Service",
-            "url": "https://www.ers.usda.gov/webdocs/publications/45533/57281_err207.pdf?v=0"
+            "pdf": "https://www.ers.usda.gov/webdocs/publications/45533/57281_err207.pdf?v=0"
         },
         "title": "WIC Households' Food Purchases Using WIC Benefits and Paying Out of Pocket: A Case Study of Cold Cereal Purchases"
     },
@@ -3699,12 +3847,10 @@
         "datasets": [
             "dataset-002"
         ],
-        "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=85251",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=85251",
+            "date_added": "2019-12-03 10:30:33",
             "journal": "United States Department of Agriculture, Economic Research Service",
-            "url": "https://www.ers.usda.gov/webdocs/publications/85252/tb-1946.pdf?v=0"
+            "pdf": "https://www.ers.usda.gov/webdocs/publications/85252/tb-1946.pdf?v=0"
         },
         "title": "Food-at-Home Expenditures: Comparing Commercial Household Scanner Data From IRI and Government Survey Data"
     },
@@ -3712,12 +3858,10 @@
         "datasets": [
             "dataset-002"
         ],
-        "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=82928",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=82928",
+            "date_added": "2019-12-03 10:30:33",
             "journal": "United States Department of Agriculture, Economic Research Service",
-            "url": "https://www.ers.usda.gov/webdocs/publications/82929/eib-167.pdf?v=0"
+            "pdf": "https://www.ers.usda.gov/webdocs/publications/82929/eib-167.pdf?v=0"
         },
         "title": "Store Formats and Patterns in Household Grocery Purchases"
     },
@@ -3725,12 +3869,10 @@
         "datasets": [
             "dataset-001"
         ],
-        "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=85760",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=85760",
+            "date_added": "2019-12-03 10:30:33",
             "journal": "United States Department of Agriculture, Economic Research Service",
-            "url": "https://www.ers.usda.gov/webdocs/publications/85761/eib-183.pdf?v=0"
+            "pdf": "https://www.ers.usda.gov/webdocs/publications/85761/eib-183.pdf?v=0"
         },
         "title": "An Assessment of Product Turnover in the U.S. Food Industry and Effects on Nutrient Content"
     },
@@ -3738,12 +3880,10 @@
         "datasets": [
             "dataset-002"
         ],
-        "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=86400",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=86400",
+            "date_added": "2019-12-03 10:30:33",
             "journal": "United States Department of Agriculture, Economic Research Service",
-            "url": "https://www.ers.usda.gov/webdocs/publications/86401/eib-186.pdf?v=0"
+            "pdf": "https://www.ers.usda.gov/webdocs/publications/86401/eib-186.pdf?v=0"
         },
         "title": "Food Purchase Decisions of Millennial Households Compared to Other Generations"
     },
@@ -3751,12 +3891,10 @@
         "datasets": [
             "dataset-001"
         ],
-        "doi": "https://www.ers.usda.gov/webdocs/publications/90228/eib-196.pdf",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "https://www.ers.usda.gov/webdocs/publications/90228/eib-196.pdf",
+            "date_added": "2019-12-03 10:30:33",
             "journal": "United States Department of Agriculture, Economic Research Service",
-            "url": "https://www.ers.usda.gov/webdocs/publications/90228/eib-196.pdf"
+            "pdf": "https://www.ers.usda.gov/webdocs/publications/90228/eib-196.pdf"
         },
         "title": "America's Eating Habits: Food Away From Home"
     },
@@ -4193,7 +4331,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.482913.5",
-                    "name": "Economic Research Service"
+                    "latitude": 38.88383,
+                    "linkout": [
+                        "https://www.ers.usda.gov/"
+                    ],
+                    "longitude": -77.01658,
+                    "name": "Economic Research Service",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "researchers": [
@@ -4230,7 +4377,7 @@
                     ]
                 }
             ],
-            "score": 17.762808,
+            "score": 17.763449,
             "supporting_grant_ids": null,
             "terms": [
                 "diet",
@@ -4289,10 +4436,10 @@
         ],
         "doi": "10.1177/0890117117740935",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
+            "date_added": "2019-12-03 10:30:33",
             "doi": "10.1177/0890117117740935",
             "journal": "American Journal Health Promotion",
-            "url": "http://journals.sagepub.com/doi/pdf/10.1177/0890117117740935"
+            "pdf": "http://journals.sagepub.com/doi/pdf/10.1177/0890117117740935"
         },
         "title": "Chronic Disease, Prescription Medications, and Food Purchases"
     },
@@ -4302,7 +4449,7 @@
         ],
         "doi": "10.1093/ajae/aay002",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
+            "date_added": "2019-12-03 10:30:33",
             "doi": "10.1093/ajae/aay002",
             "journal": "American Journal of Agricultural Economics",
             "url": "https://academic.oup.com/ajae/article/100/3/691/4931098"
@@ -4544,7 +4691,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417548.b",
-                    "name": "United States Department of Agriculture"
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1100622570",
@@ -4579,50 +4735,50 @@
             "publisher": "Taylor & Francis",
             "recent_citations": 3,
             "reference_ids": [
-                "pub.1012130037",
+                "pub.1059570502",
                 "pub.1005313628",
-                "pub.1061936448",
                 "pub.1058528634",
-                "pub.1024358701",
                 "pub.1058573650",
+                "pub.1001932304",
+                "pub.1061936448",
+                "pub.1017671072",
+                "pub.1024061540",
                 "pub.1045621764",
-                "pub.1069659934",
+                "pub.1014100507",
+                "pub.1024358701",
                 "pub.1054921852",
                 "pub.1110903440",
-                "pub.1024061540",
-                "pub.1046728733",
-                "pub.1014100507",
-                "pub.1017671072",
-                "pub.1008872430",
-                "pub.1001932304",
-                "pub.1058253152",
                 "pub.1049490338",
+                "pub.1008872430",
+                "pub.1007717734",
+                "pub.1069659934",
+                "pub.1058253152",
                 "pub.1002235091",
-                "pub.1059570502",
-                "pub.1007717734"
+                "pub.1046728733",
+                "pub.1012130037"
             ],
             "references": [
-                "pub.1012130037",
+                "pub.1059570502",
                 "pub.1005313628",
-                "pub.1061936448",
                 "pub.1058528634",
-                "pub.1024358701",
                 "pub.1058573650",
+                "pub.1001932304",
+                "pub.1061936448",
+                "pub.1017671072",
+                "pub.1024061540",
                 "pub.1045621764",
-                "pub.1069659934",
+                "pub.1014100507",
+                "pub.1024358701",
                 "pub.1054921852",
                 "pub.1110903440",
-                "pub.1024061540",
-                "pub.1046728733",
-                "pub.1014100507",
-                "pub.1017671072",
-                "pub.1008872430",
-                "pub.1001932304",
-                "pub.1058253152",
                 "pub.1049490338",
+                "pub.1008872430",
+                "pub.1007717734",
+                "pub.1069659934",
+                "pub.1058253152",
                 "pub.1002235091",
-                "pub.1059570502",
-                "pub.1007717734"
+                "pub.1046728733",
+                "pub.1012130037"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -4664,13 +4820,31 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.482913.5",
-                    "name": "Economic Research Service"
+                    "latitude": 38.88383,
+                    "linkout": [
+                        "https://www.ers.usda.gov/"
+                    ],
+                    "longitude": -77.01658,
+                    "name": "Economic Research Service",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "city_name": "Durham",
                     "country_name": "United States",
                     "id": "grid.62562.35",
-                    "name": "RTI International"
+                    "latitude": 35.906586,
+                    "linkout": [
+                        "http://www.rti.org/"
+                    ],
+                    "longitude": -78.86394,
+                    "name": "RTI International",
+                    "state_name": "North Carolina",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 }
             ],
             "researchers": [
@@ -4694,7 +4868,7 @@
                     ]
                 }
             ],
-            "score": 24.580095,
+            "score": 24.569242,
             "supporting_grant_ids": null,
             "terms": [
                 "quality of data",
@@ -4740,10 +4914,10 @@
         ],
         "doi": "10.1080/10454446.2018.1428259",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
+            "date_added": "2019-12-03 10:30:33",
             "doi": "10.1080/10454446.2018.1428259",
             "journal": "Journal of Food Products Marketing",
-            "url": "https://www.tandfonline.com/doi/pdf/10.1080/10454446.2018.1428259"
+            "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/10454446.2018.1428259"
         },
         "title": "A comparative analysis of hedonic models of nutrition information and health claims on food products: An application to soup products"
     },
@@ -5057,7 +5231,7 @@
             ],
             "research_orgs": null,
             "researchers": null,
-            "score": 16.258343,
+            "score": 16.24888,
             "supporting_grant_ids": null,
             "terms": [
                 "article",
@@ -5108,10 +5282,10 @@
         ],
         "doi": "10.1080/15140326.2018.1526869",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
+            "date_added": "2019-12-03 10:30:33",
             "doi": "10.1080/15140326.2018.1526869",
             "journal": "Journal of Applied Economics",
-            "url": "https://tandfonline.com/doi/pdf/10.1080/15140326.2018.1526869"
+            "pdf": "https://tandfonline.com/doi/pdf/10.1080/15140326.2018.1526869"
         },
         "title": "A New Approach to Estimate Household Food Demand with Panel Data"
     },
@@ -5406,7 +5580,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417548.b",
-                    "name": "United States Department of Agriculture"
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1110152836",
@@ -5511,7 +5694,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.463419.d",
-                    "name": "Agricultural Research Service"
+                    "latitude": 38.8885,
+                    "linkout": [
+                        "http://www.ars.usda.gov/main/main.htm"
+                    ],
+                    "longitude": -77.02999,
+                    "name": "Agricultural Research Service",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "researchers": [
@@ -5526,7 +5718,7 @@
                     ]
                 }
             ],
-            "score": 25.165163,
+            "score": 25.159407,
             "supporting_grant_ids": null,
             "terms": [
                 "USA",
@@ -5582,10 +5774,10 @@
         ],
         "doi": "10.1007/s10603-018-9396-x",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
+            "date_added": "2019-12-03 10:30:33",
             "doi": "10.1007/s10603-018-9396-x",
             "journal": "Journal of Consumer Policy ",
-            "url": "http://link.springer.com/content/pdf/10.1007/s10603-018-9396-x.pdf"
+            "pdf": "http://link.springer.com/content/pdf/10.1007/s10603-018-9396-x.pdf"
         },
         "title": "Evidence from Retail Food Markets That Consumers Are Confused by Natural and Organic Food Labels"
     },
@@ -5601,12 +5793,10 @@
         "datasets": [
             "dataset-001"
         ],
-        "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=46844",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=46844",
+            "date_added": "2019-12-03 10:30:33",
             "journal": "United States Department of Agriculture, Economic Research Service",
-            "url": "https://www.ers.usda.gov/webdocs/publications/46843/28944_fanrr41.pdf?v=0"
+            "pdf": "https://www.ers.usda.gov/webdocs/publications/46843/28944_fanrr41.pdf?v=0"
         },
         "title": "Interstate Variation in WIC Food Package Costs: The Role of Food Prices, Caseload Composition, and Cost-Containment Practices"
     },
@@ -5614,12 +5804,10 @@
         "datasets": [
             "dataset-001"
         ],
-        "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=43037",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=43037",
+            "date_added": "2019-12-03 10:30:33",
             "journal": "United States Department of Agriculture, Economic Research Service",
-            "url": "https://www.ers.usda.gov/webdocs/publications/43025/35759_efan02001.pdf?v=0"
+            "pdf": "https://www.ers.usda.gov/webdocs/publications/43025/35759_efan02001.pdf?v=0"
         },
         "title": "Infant Formula Prices and Availability: Final Report to Congress"
     },
@@ -5909,7 +6097,7 @@
                     "last_name": "Frazao"
                 }
             ],
-            "score": 15.900659,
+            "score": 15.900835,
             "supporting_grant_ids": null,
             "terms": [
                 "infant formula manufacturers",
@@ -5962,12 +6150,11 @@
         "datasets": [
             "dataset-001"
         ],
-        "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=46808",
+        "doi": "10.2139/ssrn.754926",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=46808",
+            "date_added": "2019-12-03 10:30:33",
             "journal": "United States Department of Agriculture, Economic Research Service",
-            "url": "https://www.ers.usda.gov/webdocs/publications/46787/15976_fanrr39-1_1_.pdf?v=0"
+            "pdf": "https://www.ers.usda.gov/webdocs/publications/46787/15976_fanrr39-1_1_.pdf?v=0"
         },
         "title": "WIC and the Retail Price of Infant Formula"
     },
@@ -5975,12 +6162,10 @@
         "datasets": [
             "dataset-001"
         ],
-        "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=42970",
         "original": {
-            "date_added": "2019-10-10 12:08:29",
-            "doi": "https://www.ers.usda.gov/publications/pub-details/?pubid=42970",
+            "date_added": "2019-12-03 10:30:33",
             "journal": "United States Department of Agriculture, Economic Research Service",
-            "url": "https://www.ers.usda.gov/webdocs/publications/42958/32016_efan01006_002.pdf?v=0"
+            "pdf": "https://www.ers.usda.gov/webdocs/publications/42958/32016_efan01006_002.pdf?v=0"
         },
         "title": "Infant Formula Prices and Availability: An Interim Report to Congress"
     }

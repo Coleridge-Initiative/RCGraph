@@ -388,20 +388,47 @@
                     "city_name": "Blacksburg",
                     "country_name": "United States",
                     "id": "grid.438526.e",
-                    "name": "Virginia Tech"
+                    "latitude": 37.22001,
+                    "linkout": [
+                        "https://www.vt.edu/about/index.html"
+                    ],
+                    "longitude": -80.42409,
+                    "name": "Virginia Tech",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "WSU",
                     "city_name": "Detroit",
                     "country_name": "United States",
                     "id": "grid.254444.7",
-                    "name": "Wayne State University"
+                    "latitude": 42.35936,
+                    "linkout": [
+                        "https://wayne.edu/"
+                    ],
+                    "longitude": -83.06657,
+                    "name": "Wayne State University",
+                    "state_name": "Michigan",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "New York",
                     "country_name": "United States",
                     "id": "grid.256023.0",
-                    "name": "Fordham University"
+                    "latitude": 40.860832,
+                    "linkout": [
+                        "http://www.fordham.edu/"
+                    ],
+                    "longitude": -73.884445,
+                    "name": "Fordham University",
+                    "state_name": "New York",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -420,8 +447,8 @@
                     "id": "ur.01016476053.97",
                     "last_name": "Ernst",
                     "research_orgs": [
-                        "grid.254444.7",
-                        "grid.417604.0"
+                        "grid.417604.0",
+                        "grid.254444.7"
                     ]
                 },
                 {
@@ -433,7 +460,7 @@
                     ]
                 }
             ],
-            "score": 14.776474,
+            "score": 14.775282,
             "supporting_grant_ids": null,
             "terms": [
                 "chapter",
@@ -474,7 +501,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1007/978-981-13-8610-7_3",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1007/978-981-13-8610-7_3"
         },
@@ -543,7 +569,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 15.778786,
+            "score": 15.754011,
             "supporting_grant_ids": null,
             "terms": [
                 "health"
@@ -561,7 +587,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1007/978-3-030-24043-1",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1007/978-3-030-24043-1"
         },
@@ -859,68 +884,68 @@
             "publisher": "Springer Nature",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1083930689",
-                "pub.1051875572",
-                "pub.1002845869",
-                "pub.1002400949",
-                "pub.1100210501",
-                "pub.1047845706",
-                "pub.1072755075",
-                "pub.1050102931",
-                "pub.1104457398",
-                "pub.1032055286",
-                "pub.1009329694",
-                "pub.1009765347",
-                "pub.1029618196",
-                "pub.1029782682",
-                "pub.1049667240",
-                "pub.1100974227",
-                "pub.1013191981",
-                "pub.1008673249",
-                "pub.1050299597",
                 "pub.1018105834",
+                "pub.1092631469",
+                "pub.1067742441",
+                "pub.1100974227",
+                "pub.1051875572",
+                "pub.1008673249",
+                "pub.1002400949",
+                "pub.1050102931",
+                "pub.1002845869",
+                "pub.1009765347",
+                "pub.1083930689",
+                "pub.1050691108",
+                "pub.1100210501",
+                "pub.1072755075",
                 "pub.1009849617",
+                "pub.1104457398",
+                "pub.1047845706",
+                "pub.1029782682",
+                "pub.1073497879",
+                "pub.1029618196",
+                "pub.1009329694",
+                "pub.1032055286",
                 "pub.1051118234",
                 "pub.1032185217",
+                "pub.1013191981",
                 "pub.1105171315",
-                "pub.1067742441",
                 "pub.1020709681",
                 "pub.1092352782",
-                "pub.1050691108",
-                "pub.1073497879",
-                "pub.1092631469"
+                "pub.1049667240",
+                "pub.1050299597"
             ],
             "references": [
-                "pub.1083930689",
-                "pub.1051875572",
-                "pub.1002845869",
-                "pub.1002400949",
-                "pub.1100210501",
-                "pub.1047845706",
-                "pub.1072755075",
-                "pub.1050102931",
-                "pub.1104457398",
-                "pub.1032055286",
-                "pub.1009329694",
-                "pub.1009765347",
-                "pub.1029618196",
-                "pub.1029782682",
-                "pub.1049667240",
-                "pub.1100974227",
-                "pub.1013191981",
-                "pub.1008673249",
-                "pub.1050299597",
                 "pub.1018105834",
+                "pub.1092631469",
+                "pub.1067742441",
+                "pub.1100974227",
+                "pub.1051875572",
+                "pub.1008673249",
+                "pub.1002400949",
+                "pub.1050102931",
+                "pub.1002845869",
+                "pub.1009765347",
+                "pub.1083930689",
+                "pub.1050691108",
+                "pub.1100210501",
+                "pub.1072755075",
                 "pub.1009849617",
+                "pub.1104457398",
+                "pub.1047845706",
+                "pub.1029782682",
+                "pub.1073497879",
+                "pub.1029618196",
+                "pub.1009329694",
+                "pub.1032055286",
                 "pub.1051118234",
                 "pub.1032185217",
+                "pub.1013191981",
                 "pub.1105171315",
-                "pub.1067742441",
                 "pub.1020709681",
                 "pub.1092352782",
-                "pub.1050691108",
-                "pub.1073497879",
-                "pub.1092631469"
+                "pub.1049667240",
+                "pub.1050299597"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -948,7 +973,15 @@
                     "city_name": "Kaliningrad",
                     "country_name": "Russia",
                     "id": "grid.410686.d",
-                    "name": "Immanuel Kant Baltic Federal University"
+                    "latitude": 54.72488,
+                    "linkout": [
+                        "http://www.kantiana.ru/eng/"
+                    ],
+                    "longitude": 20.527887,
+                    "name": "Immanuel Kant Baltic Federal University",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -985,7 +1018,7 @@
                     "last_name": "Gaev"
                 }
             ],
-            "score": 22.769564,
+            "score": 22.7569,
             "supporting_grant_ids": null,
             "terms": [
                 "paper",
@@ -1062,7 +1095,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1007/978-3-030-26759-9_21",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1007/978-3-030-26759-9_21"
         },
@@ -1135,7 +1167,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 18.661013,
+            "score": 18.661789,
             "supporting_grant_ids": null,
             "terms": [
                 "International Handbook",
@@ -1157,7 +1189,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1007/978-981-13-8610-7",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1007/978-981-13-8610-7"
         },
@@ -1301,170 +1332,170 @@
             "publisher": "Springer Nature",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1056400669",
-                "pub.1049799304",
-                "pub.1020505947",
-                "pub.1082860213",
-                "pub.1017561069",
-                "pub.1013720200",
-                "pub.1076610786",
-                "pub.1005435514",
-                "pub.1011120124",
-                "pub.1068876930",
-                "pub.1038326005",
-                "pub.1053663068",
-                "pub.1026168614",
-                "pub.1068844152",
-                "pub.1016433418",
-                "pub.1017576523",
-                "pub.1027178269",
-                "pub.1028704398",
-                "pub.1006724681",
-                "pub.1022954754",
-                "pub.1032784564",
-                "pub.1042555805",
-                "pub.1025589343",
-                "pub.1030462998",
-                "pub.1041983564",
-                "pub.1002296094",
+                "pub.1023565949",
+                "pub.1010671291",
                 "pub.1006755624",
-                "pub.1063545341",
-                "pub.1021667436",
-                "pub.1063806365",
-                "pub.1095899398",
+                "pub.1025589343",
                 "pub.1000194956",
-                "pub.1083844240",
+                "pub.1068875822",
+                "pub.1043137459",
                 "pub.1004622393",
-                "pub.1020124572",
-                "pub.1003106209",
+                "pub.1052613751",
+                "pub.1046881014",
+                "pub.1017698187",
+                "pub.1022954754",
+                "pub.1016433418",
+                "pub.1007604969",
+                "pub.1041983564",
+                "pub.1068844152",
+                "pub.1035481501",
+                "pub.1095866020",
+                "pub.1006724681",
+                "pub.1032784564",
+                "pub.1017561069",
+                "pub.1011472565",
+                "pub.1002122389",
+                "pub.1063545341",
+                "pub.1028466715",
+                "pub.1002424571",
+                "pub.1028716423",
+                "pub.1009578857",
+                "pub.1033763574",
+                "pub.1032263257",
+                "pub.1006010792",
+                "pub.1068847811",
+                "pub.1082860213",
                 "pub.1047166500",
                 "pub.1017694824",
-                "pub.1001321531",
-                "pub.1032497598",
-                "pub.1001289155",
-                "pub.1095866020",
-                "pub.1023565949",
-                "pub.1019988996",
-                "pub.1068842945",
-                "pub.1032263257",
-                "pub.1046651199",
-                "pub.1028466715",
-                "pub.1006010792",
-                "pub.1068875822",
-                "pub.1058534090",
-                "pub.1028716423",
-                "pub.1068844720",
-                "pub.1046881014",
-                "pub.1101955406",
-                "pub.1011472565",
-                "pub.1036491810",
-                "pub.1027589856",
-                "pub.1009578857",
-                "pub.1049165111",
-                "pub.1043137459",
-                "pub.1028656909",
-                "pub.1035604497",
-                "pub.1099325748",
-                "pub.1035481501",
                 "pub.1068297628",
-                "pub.1079548291",
-                "pub.1002424571",
-                "pub.1016126491",
-                "pub.1041950063",
-                "pub.1033678299",
                 "pub.1012699231",
-                "pub.1002122389",
-                "pub.1043244675",
-                "pub.1068847811",
-                "pub.1007604969",
+                "pub.1099325748",
+                "pub.1028704398",
+                "pub.1042555805",
+                "pub.1068844720",
+                "pub.1030462998",
+                "pub.1027589856",
+                "pub.1095899398",
+                "pub.1001321531",
                 "pub.1032862037",
-                "pub.1052613751",
-                "pub.1033763574",
-                "pub.1010671291",
-                "pub.1017698187"
+                "pub.1035604497",
+                "pub.1068842945",
+                "pub.1001289155",
+                "pub.1021667436",
+                "pub.1046651199",
+                "pub.1026168614",
+                "pub.1049165111",
+                "pub.1049799304",
+                "pub.1003106209",
+                "pub.1017576523",
+                "pub.1043244675",
+                "pub.1041950063",
+                "pub.1020505947",
+                "pub.1002296094",
+                "pub.1038326005",
+                "pub.1032497598",
+                "pub.1013720200",
+                "pub.1036491810",
+                "pub.1033678299",
+                "pub.1058534090",
+                "pub.1079548291",
+                "pub.1101955406",
+                "pub.1020124572",
+                "pub.1053663068",
+                "pub.1011120124",
+                "pub.1068876930",
+                "pub.1076610786",
+                "pub.1028656909",
+                "pub.1005435514",
+                "pub.1016126491",
+                "pub.1056400669",
+                "pub.1083844240",
+                "pub.1019988996",
+                "pub.1063806365",
+                "pub.1027178269"
             ],
             "references": [
-                "pub.1056400669",
-                "pub.1049799304",
-                "pub.1020505947",
-                "pub.1082860213",
-                "pub.1017561069",
-                "pub.1013720200",
-                "pub.1076610786",
-                "pub.1005435514",
-                "pub.1011120124",
-                "pub.1068876930",
-                "pub.1038326005",
-                "pub.1053663068",
-                "pub.1026168614",
-                "pub.1068844152",
-                "pub.1016433418",
-                "pub.1017576523",
-                "pub.1027178269",
-                "pub.1028704398",
-                "pub.1006724681",
-                "pub.1022954754",
-                "pub.1032784564",
-                "pub.1042555805",
-                "pub.1025589343",
-                "pub.1030462998",
-                "pub.1041983564",
-                "pub.1002296094",
+                "pub.1023565949",
+                "pub.1010671291",
                 "pub.1006755624",
-                "pub.1063545341",
-                "pub.1021667436",
-                "pub.1063806365",
-                "pub.1095899398",
+                "pub.1025589343",
                 "pub.1000194956",
-                "pub.1083844240",
+                "pub.1068875822",
+                "pub.1043137459",
                 "pub.1004622393",
-                "pub.1020124572",
-                "pub.1003106209",
+                "pub.1052613751",
+                "pub.1046881014",
+                "pub.1017698187",
+                "pub.1022954754",
+                "pub.1016433418",
+                "pub.1007604969",
+                "pub.1041983564",
+                "pub.1068844152",
+                "pub.1035481501",
+                "pub.1095866020",
+                "pub.1006724681",
+                "pub.1032784564",
+                "pub.1017561069",
+                "pub.1011472565",
+                "pub.1002122389",
+                "pub.1063545341",
+                "pub.1028466715",
+                "pub.1002424571",
+                "pub.1028716423",
+                "pub.1009578857",
+                "pub.1033763574",
+                "pub.1032263257",
+                "pub.1006010792",
+                "pub.1068847811",
+                "pub.1082860213",
                 "pub.1047166500",
                 "pub.1017694824",
-                "pub.1001321531",
-                "pub.1032497598",
-                "pub.1001289155",
-                "pub.1095866020",
-                "pub.1023565949",
-                "pub.1019988996",
-                "pub.1068842945",
-                "pub.1032263257",
-                "pub.1046651199",
-                "pub.1028466715",
-                "pub.1006010792",
-                "pub.1068875822",
-                "pub.1058534090",
-                "pub.1028716423",
-                "pub.1068844720",
-                "pub.1046881014",
-                "pub.1101955406",
-                "pub.1011472565",
-                "pub.1036491810",
-                "pub.1027589856",
-                "pub.1009578857",
-                "pub.1049165111",
-                "pub.1043137459",
-                "pub.1028656909",
-                "pub.1035604497",
-                "pub.1099325748",
-                "pub.1035481501",
                 "pub.1068297628",
-                "pub.1079548291",
-                "pub.1002424571",
-                "pub.1016126491",
-                "pub.1041950063",
-                "pub.1033678299",
                 "pub.1012699231",
-                "pub.1002122389",
-                "pub.1043244675",
-                "pub.1068847811",
-                "pub.1007604969",
+                "pub.1099325748",
+                "pub.1028704398",
+                "pub.1042555805",
+                "pub.1068844720",
+                "pub.1030462998",
+                "pub.1027589856",
+                "pub.1095899398",
+                "pub.1001321531",
                 "pub.1032862037",
-                "pub.1052613751",
-                "pub.1033763574",
-                "pub.1010671291",
-                "pub.1017698187"
+                "pub.1035604497",
+                "pub.1068842945",
+                "pub.1001289155",
+                "pub.1021667436",
+                "pub.1046651199",
+                "pub.1026168614",
+                "pub.1049165111",
+                "pub.1049799304",
+                "pub.1003106209",
+                "pub.1017576523",
+                "pub.1043244675",
+                "pub.1041950063",
+                "pub.1020505947",
+                "pub.1002296094",
+                "pub.1038326005",
+                "pub.1032497598",
+                "pub.1013720200",
+                "pub.1036491810",
+                "pub.1033678299",
+                "pub.1058534090",
+                "pub.1079548291",
+                "pub.1101955406",
+                "pub.1020124572",
+                "pub.1053663068",
+                "pub.1011120124",
+                "pub.1068876930",
+                "pub.1076610786",
+                "pub.1028656909",
+                "pub.1005435514",
+                "pub.1016126491",
+                "pub.1056400669",
+                "pub.1083844240",
+                "pub.1019988996",
+                "pub.1063806365",
+                "pub.1027178269"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -1496,11 +1527,20 @@
                     "city_name": "Amherst Center",
                     "country_name": "United States",
                     "id": "grid.266683.f",
-                    "name": "University of Massachusetts Amherst"
+                    "latitude": 42.389004,
+                    "linkout": [
+                        "http://www.umass.edu/"
+                    ],
+                    "longitude": -72.52671,
+                    "name": "University of Massachusetts Amherst",
+                    "state_name": "Massachusetts",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": null,
-            "score": 21.721636,
+            "score": 21.715136,
             "supporting_grant_ids": null,
             "terms": [
                 "acculturation",
@@ -1529,7 +1569,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1007/978-3-030-24043-1_15",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1007/978-3-030-24043-1_15"
         },
@@ -1607,7 +1646,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 15.14249,
+            "score": 15.135462,
             "supporting_grant_ids": null,
             "terms": [
                 "international business",
@@ -1629,7 +1668,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1007/978-3-030-26759-9",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1007/978-3-030-26759-9"
         },
@@ -1735,7 +1773,7 @@
                     ]
                 }
             ],
-            "score": 11.5768,
+            "score": 11.573304,
             "supporting_grant_ids": null,
             "terms": [
                 "welfare",
@@ -1754,7 +1792,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.7591/9781501728891-005",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.7591/9781501728891-005"
         },
@@ -1843,7 +1880,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 6.659176,
+            "score": 6.653633,
             "supporting_grant_ids": null,
             "terms": null,
             "times_cited": 0,
@@ -1851,14 +1888,6 @@
             "type": "chapter",
             "volume": null,
             "year": 2020
-        },
-        "EuropePMC": {
-            "authors": [
-                "Goldman GD."
-            ],
-            "doi": "10.1097/dss.0000000000002256",
-            "journal": "Dermatol Surg",
-            "pmcid": null
         },
         "OpenAIRE": {
             "authors": [
@@ -1871,11 +1900,10 @@
         "datasets": [
             "dataset-071"
         ],
-        "doi": "10.7591/9781501728891-001",
+        "doi": "10.7312/alti19184-002",
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.7591/9781501728891-001",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.7591/9781501728891-001"
         },
@@ -1971,7 +1999,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 20.011618,
+            "score": 20.00729,
             "supporting_grant_ids": null,
             "terms": [
                 "sociology",
@@ -1994,7 +2022,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1525/9780520963474-013",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1525/9780520963474-013"
         },
@@ -2103,7 +2130,7 @@
                     ]
                 }
             ],
-            "score": 19.92888,
+            "score": 19.908463,
             "supporting_grant_ids": null,
             "terms": [
                 "labor"
@@ -2121,7 +2148,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.7591/9781501724077-020",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.7591/9781501724077-020"
         },
@@ -2188,7 +2214,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 8.487909,
+            "score": 8.490015,
             "supporting_grant_ids": null,
             "terms": null,
             "times_cited": 0,
@@ -2208,11 +2234,10 @@
         "datasets": [
             "dataset-071"
         ],
-        "doi": "10.1525/9780520968301-008",
+        "doi": "10.7591/9781501745508-001",
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1525/9780520968301-008",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1525/9780520968301-008"
         },
@@ -2307,7 +2332,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 13.573762,
+            "score": 13.572049,
             "supporting_grant_ids": null,
             "terms": [
                 "politics of economics",
@@ -2329,7 +2354,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.7591/9781501724077-014",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.7591/9781501724077-014"
         },
@@ -2426,7 +2450,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 17.16131,
+            "score": 17.15452,
             "supporting_grant_ids": null,
             "terms": [
                 "Asian immigrant communities",
@@ -2450,7 +2474,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.7591/9781501728891-006",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.7591/9781501728891-006"
         },
@@ -2539,7 +2562,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 15.0507145,
+            "score": 15.050633,
             "supporting_grant_ids": null,
             "terms": null,
             "times_cited": 0,
@@ -2555,7 +2578,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.7591/9781501728891-003",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.7591/9781501728891-003"
         },
@@ -2649,7 +2671,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 14.914692,
+            "score": 14.912851,
             "supporting_grant_ids": null,
             "terms": [
                 "Irresponsible",
@@ -2670,7 +2692,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.7591/9781501724077-015",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.7591/9781501724077-015"
         },
@@ -2773,7 +2794,7 @@
                     ]
                 }
             ],
-            "score": 15.745426,
+            "score": 15.7390995,
             "supporting_grant_ids": null,
             "terms": [
                 "life",
@@ -2793,7 +2814,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1525/9780520960510-033",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1525/9780520960510-033"
         },
@@ -2817,24 +2837,24 @@
             "HRCS_RAC": null,
             "RCDC": [
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
                     "id": "517",
                     "name": "Drug Abuse (NIDA Only)"
-                },
-                {
-                    "id": "507",
-                    "name": "Clinical Research"
                 },
                 {
                     "id": "573",
                     "name": "Substance Abuse"
                 },
                 {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
+                },
+                {
                     "id": "501",
                     "name": "Brain Disorders"
+                },
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
                 }
             ],
             "altmetric": 7.0,
@@ -2951,24 +2971,24 @@
             "category_icrp_ct": null,
             "category_rcdc": [
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
                     "id": "517",
                     "name": "Drug Abuse (NIDA Only)"
-                },
-                {
-                    "id": "507",
-                    "name": "Clinical Research"
                 },
                 {
                     "id": "573",
                     "name": "Substance Abuse"
                 },
                 {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
+                },
+                {
                     "id": "501",
                     "name": "Brain Disorders"
+                },
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
                 }
             ],
             "category_ua": [
@@ -3071,110 +3091,110 @@
             "publisher": "Elsevier",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1085453804",
-                "pub.1101001543",
-                "pub.1085548908",
-                "pub.1022535449",
-                "pub.1021135110",
-                "pub.1029682085",
+                "pub.1101056893",
+                "pub.1002239579",
+                "pub.1068848432",
                 "pub.1052284504",
+                "pub.1106019337",
+                "pub.1045378200",
+                "pub.1101001543",
+                "pub.1084149670",
                 "pub.1083749953",
-                "pub.1012552894",
+                "pub.1011863079",
+                "pub.1084521549",
+                "pub.1085453804",
                 "pub.1008277882",
-                "pub.1003273391",
-                "pub.1063505806",
+                "pub.1098788312",
+                "pub.1084024848",
+                "pub.1040465687",
+                "pub.1085548908",
+                "pub.1099904364",
+                "pub.1023882782",
                 "pub.1014575616",
                 "pub.1004451252",
-                "pub.1023882782",
-                "pub.1084024848",
-                "pub.1040935979",
-                "pub.1110753258",
-                "pub.1107373341",
-                "pub.1032329026",
-                "pub.1002239579",
-                "pub.1092067928",
-                "pub.1048250000",
-                "pub.1085464215",
-                "pub.1021982084",
-                "pub.1068848432",
-                "pub.1093030785",
-                "pub.1099666450",
-                "pub.1084529195",
-                "pub.1092290542",
-                "pub.1101851727",
-                "pub.1099904364",
-                "pub.1045378200",
-                "pub.1105688005",
-                "pub.1011863079",
-                "pub.1106284446",
-                "pub.1051800531",
-                "pub.1034048178",
-                "pub.1070193350",
-                "pub.1040465687",
-                "pub.1042796444",
-                "pub.1106019337",
-                "pub.1047473070",
-                "pub.1068848547",
-                "pub.1084149670",
                 "pub.1068847583",
-                "pub.1084521549",
+                "pub.1063505806",
+                "pub.1084529195",
+                "pub.1029682085",
+                "pub.1085464215",
+                "pub.1003273391",
+                "pub.1107373341",
+                "pub.1092067928",
+                "pub.1068848547",
+                "pub.1093030785",
+                "pub.1106284446",
+                "pub.1034048178",
+                "pub.1101851727",
+                "pub.1110753258",
+                "pub.1021982084",
+                "pub.1051800531",
                 "pub.1045090105",
+                "pub.1012552894",
+                "pub.1099666450",
                 "pub.1072206572",
-                "pub.1101056893",
-                "pub.1098788312"
+                "pub.1048250000",
+                "pub.1105688005",
+                "pub.1070193350",
+                "pub.1042796444",
+                "pub.1092290542",
+                "pub.1040935979",
+                "pub.1032329026",
+                "pub.1022535449",
+                "pub.1047473070",
+                "pub.1021135110"
             ],
             "references": [
-                "pub.1085453804",
-                "pub.1101001543",
-                "pub.1085548908",
-                "pub.1022535449",
-                "pub.1021135110",
-                "pub.1029682085",
+                "pub.1101056893",
+                "pub.1002239579",
+                "pub.1068848432",
                 "pub.1052284504",
+                "pub.1106019337",
+                "pub.1045378200",
+                "pub.1101001543",
+                "pub.1084149670",
                 "pub.1083749953",
-                "pub.1012552894",
+                "pub.1011863079",
+                "pub.1084521549",
+                "pub.1085453804",
                 "pub.1008277882",
-                "pub.1003273391",
-                "pub.1063505806",
+                "pub.1098788312",
+                "pub.1084024848",
+                "pub.1040465687",
+                "pub.1085548908",
+                "pub.1099904364",
+                "pub.1023882782",
                 "pub.1014575616",
                 "pub.1004451252",
-                "pub.1023882782",
-                "pub.1084024848",
-                "pub.1040935979",
-                "pub.1110753258",
-                "pub.1107373341",
-                "pub.1032329026",
-                "pub.1002239579",
-                "pub.1092067928",
-                "pub.1048250000",
-                "pub.1085464215",
-                "pub.1021982084",
-                "pub.1068848432",
-                "pub.1093030785",
-                "pub.1099666450",
-                "pub.1084529195",
-                "pub.1092290542",
-                "pub.1101851727",
-                "pub.1099904364",
-                "pub.1045378200",
-                "pub.1105688005",
-                "pub.1011863079",
-                "pub.1106284446",
-                "pub.1051800531",
-                "pub.1034048178",
-                "pub.1070193350",
-                "pub.1040465687",
-                "pub.1042796444",
-                "pub.1106019337",
-                "pub.1047473070",
-                "pub.1068848547",
-                "pub.1084149670",
                 "pub.1068847583",
-                "pub.1084521549",
+                "pub.1063505806",
+                "pub.1084529195",
+                "pub.1029682085",
+                "pub.1085464215",
+                "pub.1003273391",
+                "pub.1107373341",
+                "pub.1092067928",
+                "pub.1068848547",
+                "pub.1093030785",
+                "pub.1106284446",
+                "pub.1034048178",
+                "pub.1101851727",
+                "pub.1110753258",
+                "pub.1021982084",
+                "pub.1051800531",
                 "pub.1045090105",
+                "pub.1012552894",
+                "pub.1099666450",
                 "pub.1072206572",
-                "pub.1101056893",
-                "pub.1098788312"
+                "pub.1048250000",
+                "pub.1105688005",
+                "pub.1070193350",
+                "pub.1042796444",
+                "pub.1092290542",
+                "pub.1040935979",
+                "pub.1032329026",
+                "pub.1022535449",
+                "pub.1047473070",
+                "pub.1021135110"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -3207,11 +3227,20 @@
                     "city_name": "Buffalo",
                     "country_name": "United States",
                     "id": "grid.273335.3",
-                    "name": "University at Buffalo, State University of New York"
+                    "latitude": 43.001106,
+                    "linkout": [
+                        "https://www.buffalo.edu/"
+                    ],
+                    "longitude": -78.78897,
+                    "name": "University at Buffalo, State University of New York",
+                    "state_name": "New York",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": null,
-            "score": 26.415182,
+            "score": 26.431995,
             "supporting_grant_ids": null,
             "terms": [
                 "response",
@@ -3644,20 +3673,47 @@
                     "city_name": "Valhalla",
                     "country_name": "United States",
                     "id": "grid.260917.b",
-                    "name": "New York Medical College"
+                    "latitude": 41.085327,
+                    "linkout": [
+                        "http://www.nymc.edu/"
+                    ],
+                    "longitude": -73.80975,
+                    "name": "New York Medical College",
+                    "state_name": "New York",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UNLV",
                     "city_name": "Las Vegas",
                     "country_name": "United States",
                     "id": "grid.272362.0",
-                    "name": "University of Nevada, Las Vegas"
+                    "latitude": 36.10779,
+                    "linkout": [
+                        "http://www.unlv.edu/"
+                    ],
+                    "longitude": -115.14376,
+                    "name": "University of Nevada, Las Vegas",
+                    "state_name": "Nevada",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Houston",
                     "country_name": "United States",
                     "id": "grid.267308.8",
-                    "name": "The University of Texas Health Science Center at Houston"
+                    "latitude": 29.703306,
+                    "linkout": [
+                        "https://www.uth.edu/"
+                    ],
+                    "longitude": -95.40305,
+                    "name": "The University of Texas Health Science Center at Houston",
+                    "state_name": "Texas",
+                    "types": [
+                        "Healthcare"
+                    ]
                 }
             ],
             "researchers": [
@@ -3709,7 +3765,7 @@
                     ]
                 }
             ],
-            "score": 21.920021,
+            "score": 21.92573,
             "supporting_grant_ids": null,
             "terms": [
                 "study",
@@ -4010,74 +4066,74 @@
             "publisher": "Springer Nature",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1009792001",
-                "pub.1100995723",
-                "pub.1003930495",
-                "pub.1102717816",
-                "pub.1071225216",
-                "pub.1071225267",
-                "pub.1052168010",
-                "pub.1064530325",
-                "pub.1013299392",
                 "pub.1017973987",
-                "pub.1006790413",
-                "pub.1083393634",
-                "pub.1050307749",
-                "pub.1036330491",
-                "pub.1027767495",
-                "pub.1008317828",
-                "pub.1064532203",
-                "pub.1049923094",
+                "pub.1052168010",
                 "pub.1071225262",
                 "pub.1105269098",
+                "pub.1102717816",
+                "pub.1071225267",
+                "pub.1064532203",
+                "pub.1012745657",
+                "pub.1071225216",
+                "pub.1083393634",
                 "pub.1058573565",
-                "pub.1058573768",
+                "pub.1027767495",
+                "pub.1036330491",
+                "pub.1050307749",
+                "pub.1003930495",
+                "pub.1013299392",
+                "pub.1084029920",
                 "pub.1111930784",
                 "pub.1064530900",
-                "pub.1092927226",
+                "pub.1084257146",
+                "pub.1006790413",
+                "pub.1049923094",
+                "pub.1009792001",
+                "pub.1058573768",
                 "pub.1064528350",
-                "pub.1058638758",
-                "pub.1092619120",
-                "pub.1042589955",
-                "pub.1012745657",
-                "pub.1084029920",
+                "pub.1008317828",
                 "pub.1024748884",
-                "pub.1084257146"
+                "pub.1042589955",
+                "pub.1058638758",
+                "pub.1092927226",
+                "pub.1064530325",
+                "pub.1100995723",
+                "pub.1092619120"
             ],
             "references": [
-                "pub.1009792001",
-                "pub.1100995723",
-                "pub.1003930495",
-                "pub.1102717816",
-                "pub.1071225216",
-                "pub.1071225267",
-                "pub.1052168010",
-                "pub.1064530325",
-                "pub.1013299392",
                 "pub.1017973987",
-                "pub.1006790413",
-                "pub.1083393634",
-                "pub.1050307749",
-                "pub.1036330491",
-                "pub.1027767495",
-                "pub.1008317828",
-                "pub.1064532203",
-                "pub.1049923094",
+                "pub.1052168010",
                 "pub.1071225262",
                 "pub.1105269098",
+                "pub.1102717816",
+                "pub.1071225267",
+                "pub.1064532203",
+                "pub.1012745657",
+                "pub.1071225216",
+                "pub.1083393634",
                 "pub.1058573565",
-                "pub.1058573768",
+                "pub.1027767495",
+                "pub.1036330491",
+                "pub.1050307749",
+                "pub.1003930495",
+                "pub.1013299392",
+                "pub.1084029920",
                 "pub.1111930784",
                 "pub.1064530900",
-                "pub.1092927226",
+                "pub.1084257146",
+                "pub.1006790413",
+                "pub.1049923094",
+                "pub.1009792001",
+                "pub.1058573768",
                 "pub.1064528350",
-                "pub.1058638758",
-                "pub.1092619120",
-                "pub.1042589955",
-                "pub.1012745657",
-                "pub.1084029920",
+                "pub.1008317828",
                 "pub.1024748884",
-                "pub.1084257146"
+                "pub.1042589955",
+                "pub.1058638758",
+                "pub.1092927226",
+                "pub.1064530325",
+                "pub.1100995723",
+                "pub.1092619120"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -4115,16 +4171,34 @@
             ],
             "research_orgs": [
                 {
+                    "acronym": "SWUFE",
                     "city_name": "Chengdu",
                     "country_name": "China",
                     "id": "grid.443347.3",
-                    "name": "Southwestern University of Finance and Economics"
+                    "latitude": 30.663021,
+                    "linkout": [
+                        "https://www.swufe.edu.cn/"
+                    ],
+                    "longitude": 104.01628,
+                    "name": "Southwestern University of Finance and Economics",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Albany",
                     "country_name": "United States",
                     "id": "grid.265850.c",
-                    "name": "University at Albany, State University of New York"
+                    "latitude": 42.68662,
+                    "linkout": [
+                        "http://www.albany.edu/"
+                    ],
+                    "longitude": -73.82302,
+                    "name": "University at Albany, State University of New York",
+                    "state_name": "New York",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -4137,7 +4211,7 @@
                     ]
                 }
             ],
-            "score": 24.424103,
+            "score": 24.413572,
             "supporting_grant_ids": null,
             "terms": [
                 "differences",
@@ -4520,14 +4594,32 @@
                     "city_name": "Rockville",
                     "country_name": "United States",
                     "id": "grid.429651.d",
-                    "name": "National Center for Advancing Translational Sciences"
+                    "latitude": 39.09584,
+                    "linkout": [
+                        "https://ncats.nih.gov/"
+                    ],
+                    "longitude": -77.197174,
+                    "name": "National Center for Advancing Translational Sciences",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "NCI",
                     "city_name": "Rockville",
                     "country_name": "United States",
                     "id": "grid.48336.3a",
-                    "name": "National Cancer Institute"
+                    "latitude": 39.004326,
+                    "linkout": [
+                        "http://www.cancer.gov/"
+                    ],
+                    "longitude": -77.10119,
+                    "name": "National Cancer Institute",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1117614013",
@@ -4758,20 +4850,47 @@
                     "city_name": "Lawrence",
                     "country_name": "United States",
                     "id": "grid.266515.3",
-                    "name": "University of Kansas"
+                    "latitude": 38.954586,
+                    "linkout": [
+                        "http://www.ku.edu/"
+                    ],
+                    "longitude": -95.25585,
+                    "name": "University of Kansas",
+                    "state_name": "Kansas",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "KUMC",
                     "city_name": "Kansas City",
                     "country_name": "United States",
                     "id": "grid.412016.0",
-                    "name": "University of Kansas Medical Center"
+                    "latitude": 39.056286,
+                    "linkout": [
+                        "http://www.kumc.edu/"
+                    ],
+                    "longitude": -94.61077,
+                    "name": "University of Kansas Medical Center",
+                    "state_name": "Kansas",
+                    "types": [
+                        "Healthcare"
+                    ]
                 },
                 {
                     "city_name": "Lexington",
                     "country_name": "United States",
                     "id": "grid.266539.d",
-                    "name": "University of Kentucky"
+                    "latitude": 38.03099,
+                    "linkout": [
+                        "http://www.uky.edu/"
+                    ],
+                    "longitude": -84.504486,
+                    "name": "University of Kentucky",
+                    "state_name": "Kentucky",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -4830,7 +4949,7 @@
                     ]
                 }
             ],
-            "score": 19.426617,
+            "score": 19.418869,
             "supporting_grant_ids": [
                 "grant.2705165",
                 "grant.7909596",

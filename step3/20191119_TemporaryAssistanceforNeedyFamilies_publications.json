@@ -388,20 +388,47 @@
                     "city_name": "Blacksburg",
                     "country_name": "United States",
                     "id": "grid.438526.e",
-                    "name": "Virginia Tech"
+                    "latitude": 37.22001,
+                    "linkout": [
+                        "https://www.vt.edu/about/index.html"
+                    ],
+                    "longitude": -80.42409,
+                    "name": "Virginia Tech",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "WSU",
                     "city_name": "Detroit",
                     "country_name": "United States",
                     "id": "grid.254444.7",
-                    "name": "Wayne State University"
+                    "latitude": 42.35936,
+                    "linkout": [
+                        "https://wayne.edu/"
+                    ],
+                    "longitude": -83.06657,
+                    "name": "Wayne State University",
+                    "state_name": "Michigan",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "New York",
                     "country_name": "United States",
                     "id": "grid.256023.0",
-                    "name": "Fordham University"
+                    "latitude": 40.860832,
+                    "linkout": [
+                        "http://www.fordham.edu/"
+                    ],
+                    "longitude": -73.884445,
+                    "name": "Fordham University",
+                    "state_name": "New York",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -420,8 +447,8 @@
                     "id": "ur.01016476053.97",
                     "last_name": "Ernst",
                     "research_orgs": [
-                        "grid.254444.7",
-                        "grid.417604.0"
+                        "grid.417604.0",
+                        "grid.254444.7"
                     ]
                 },
                 {
@@ -433,7 +460,7 @@
                     ]
                 }
             ],
-            "score": 14.776474,
+            "score": 14.775282,
             "supporting_grant_ids": null,
             "terms": [
                 "chapter",
@@ -591,7 +618,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1007/978-981-13-8610-7_3",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1007/978-981-13-8610-7_3"
         },
@@ -660,7 +686,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 15.778786,
+            "score": 15.754011,
             "supporting_grant_ids": null,
             "terms": [
                 "health"
@@ -731,7 +757,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1007/978-3-030-24043-1",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1007/978-3-030-24043-1"
         },
@@ -1029,68 +1054,68 @@
             "publisher": "Springer Nature",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1083930689",
-                "pub.1051875572",
-                "pub.1002845869",
-                "pub.1002400949",
-                "pub.1100210501",
-                "pub.1047845706",
-                "pub.1072755075",
-                "pub.1050102931",
-                "pub.1104457398",
-                "pub.1032055286",
-                "pub.1009329694",
-                "pub.1009765347",
-                "pub.1029618196",
-                "pub.1029782682",
-                "pub.1049667240",
-                "pub.1100974227",
-                "pub.1013191981",
-                "pub.1008673249",
-                "pub.1050299597",
                 "pub.1018105834",
+                "pub.1092631469",
+                "pub.1067742441",
+                "pub.1100974227",
+                "pub.1051875572",
+                "pub.1008673249",
+                "pub.1002400949",
+                "pub.1050102931",
+                "pub.1002845869",
+                "pub.1009765347",
+                "pub.1083930689",
+                "pub.1050691108",
+                "pub.1100210501",
+                "pub.1072755075",
                 "pub.1009849617",
+                "pub.1104457398",
+                "pub.1047845706",
+                "pub.1029782682",
+                "pub.1073497879",
+                "pub.1029618196",
+                "pub.1009329694",
+                "pub.1032055286",
                 "pub.1051118234",
                 "pub.1032185217",
+                "pub.1013191981",
                 "pub.1105171315",
-                "pub.1067742441",
                 "pub.1020709681",
                 "pub.1092352782",
-                "pub.1050691108",
-                "pub.1073497879",
-                "pub.1092631469"
+                "pub.1049667240",
+                "pub.1050299597"
             ],
             "references": [
-                "pub.1083930689",
-                "pub.1051875572",
-                "pub.1002845869",
-                "pub.1002400949",
-                "pub.1100210501",
-                "pub.1047845706",
-                "pub.1072755075",
-                "pub.1050102931",
-                "pub.1104457398",
-                "pub.1032055286",
-                "pub.1009329694",
-                "pub.1009765347",
-                "pub.1029618196",
-                "pub.1029782682",
-                "pub.1049667240",
-                "pub.1100974227",
-                "pub.1013191981",
-                "pub.1008673249",
-                "pub.1050299597",
                 "pub.1018105834",
+                "pub.1092631469",
+                "pub.1067742441",
+                "pub.1100974227",
+                "pub.1051875572",
+                "pub.1008673249",
+                "pub.1002400949",
+                "pub.1050102931",
+                "pub.1002845869",
+                "pub.1009765347",
+                "pub.1083930689",
+                "pub.1050691108",
+                "pub.1100210501",
+                "pub.1072755075",
                 "pub.1009849617",
+                "pub.1104457398",
+                "pub.1047845706",
+                "pub.1029782682",
+                "pub.1073497879",
+                "pub.1029618196",
+                "pub.1009329694",
+                "pub.1032055286",
                 "pub.1051118234",
                 "pub.1032185217",
+                "pub.1013191981",
                 "pub.1105171315",
-                "pub.1067742441",
                 "pub.1020709681",
                 "pub.1092352782",
-                "pub.1050691108",
-                "pub.1073497879",
-                "pub.1092631469"
+                "pub.1049667240",
+                "pub.1050299597"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -1118,7 +1143,15 @@
                     "city_name": "Kaliningrad",
                     "country_name": "Russia",
                     "id": "grid.410686.d",
-                    "name": "Immanuel Kant Baltic Federal University"
+                    "latitude": 54.72488,
+                    "linkout": [
+                        "http://www.kantiana.ru/eng/"
+                    ],
+                    "longitude": 20.527887,
+                    "name": "Immanuel Kant Baltic Federal University",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -1155,7 +1188,7 @@
                     "last_name": "Gaev"
                 }
             ],
-            "score": 22.769564,
+            "score": 22.7569,
             "supporting_grant_ids": null,
             "terms": [
                 "paper",
@@ -1331,7 +1364,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1007/978-3-030-26759-9_21",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1007/978-3-030-26759-9_21"
         },
@@ -1404,7 +1436,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 18.661013,
+            "score": 18.661789,
             "supporting_grant_ids": null,
             "terms": [
                 "International Handbook",
@@ -1455,7 +1487,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1007/978-981-13-8610-7",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1007/978-981-13-8610-7"
         },
@@ -1599,170 +1630,170 @@
             "publisher": "Springer Nature",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1056400669",
-                "pub.1049799304",
-                "pub.1020505947",
-                "pub.1082860213",
-                "pub.1017561069",
-                "pub.1013720200",
-                "pub.1076610786",
-                "pub.1005435514",
-                "pub.1011120124",
-                "pub.1068876930",
-                "pub.1038326005",
-                "pub.1053663068",
-                "pub.1026168614",
-                "pub.1068844152",
-                "pub.1016433418",
-                "pub.1017576523",
-                "pub.1027178269",
-                "pub.1028704398",
-                "pub.1006724681",
-                "pub.1022954754",
-                "pub.1032784564",
-                "pub.1042555805",
-                "pub.1025589343",
-                "pub.1030462998",
-                "pub.1041983564",
-                "pub.1002296094",
+                "pub.1023565949",
+                "pub.1010671291",
                 "pub.1006755624",
-                "pub.1063545341",
-                "pub.1021667436",
-                "pub.1063806365",
-                "pub.1095899398",
+                "pub.1025589343",
                 "pub.1000194956",
-                "pub.1083844240",
+                "pub.1068875822",
+                "pub.1043137459",
                 "pub.1004622393",
-                "pub.1020124572",
-                "pub.1003106209",
+                "pub.1052613751",
+                "pub.1046881014",
+                "pub.1017698187",
+                "pub.1022954754",
+                "pub.1016433418",
+                "pub.1007604969",
+                "pub.1041983564",
+                "pub.1068844152",
+                "pub.1035481501",
+                "pub.1095866020",
+                "pub.1006724681",
+                "pub.1032784564",
+                "pub.1017561069",
+                "pub.1011472565",
+                "pub.1002122389",
+                "pub.1063545341",
+                "pub.1028466715",
+                "pub.1002424571",
+                "pub.1028716423",
+                "pub.1009578857",
+                "pub.1033763574",
+                "pub.1032263257",
+                "pub.1006010792",
+                "pub.1068847811",
+                "pub.1082860213",
                 "pub.1047166500",
                 "pub.1017694824",
-                "pub.1001321531",
-                "pub.1032497598",
-                "pub.1001289155",
-                "pub.1095866020",
-                "pub.1023565949",
-                "pub.1019988996",
-                "pub.1068842945",
-                "pub.1032263257",
-                "pub.1046651199",
-                "pub.1028466715",
-                "pub.1006010792",
-                "pub.1068875822",
-                "pub.1058534090",
-                "pub.1028716423",
-                "pub.1068844720",
-                "pub.1046881014",
-                "pub.1101955406",
-                "pub.1011472565",
-                "pub.1036491810",
-                "pub.1027589856",
-                "pub.1009578857",
-                "pub.1049165111",
-                "pub.1043137459",
-                "pub.1028656909",
-                "pub.1035604497",
-                "pub.1099325748",
-                "pub.1035481501",
                 "pub.1068297628",
-                "pub.1079548291",
-                "pub.1002424571",
-                "pub.1016126491",
-                "pub.1041950063",
-                "pub.1033678299",
                 "pub.1012699231",
-                "pub.1002122389",
-                "pub.1043244675",
-                "pub.1068847811",
-                "pub.1007604969",
+                "pub.1099325748",
+                "pub.1028704398",
+                "pub.1042555805",
+                "pub.1068844720",
+                "pub.1030462998",
+                "pub.1027589856",
+                "pub.1095899398",
+                "pub.1001321531",
                 "pub.1032862037",
-                "pub.1052613751",
-                "pub.1033763574",
-                "pub.1010671291",
-                "pub.1017698187"
+                "pub.1035604497",
+                "pub.1068842945",
+                "pub.1001289155",
+                "pub.1021667436",
+                "pub.1046651199",
+                "pub.1026168614",
+                "pub.1049165111",
+                "pub.1049799304",
+                "pub.1003106209",
+                "pub.1017576523",
+                "pub.1043244675",
+                "pub.1041950063",
+                "pub.1020505947",
+                "pub.1002296094",
+                "pub.1038326005",
+                "pub.1032497598",
+                "pub.1013720200",
+                "pub.1036491810",
+                "pub.1033678299",
+                "pub.1058534090",
+                "pub.1079548291",
+                "pub.1101955406",
+                "pub.1020124572",
+                "pub.1053663068",
+                "pub.1011120124",
+                "pub.1068876930",
+                "pub.1076610786",
+                "pub.1028656909",
+                "pub.1005435514",
+                "pub.1016126491",
+                "pub.1056400669",
+                "pub.1083844240",
+                "pub.1019988996",
+                "pub.1063806365",
+                "pub.1027178269"
             ],
             "references": [
-                "pub.1056400669",
-                "pub.1049799304",
-                "pub.1020505947",
-                "pub.1082860213",
-                "pub.1017561069",
-                "pub.1013720200",
-                "pub.1076610786",
-                "pub.1005435514",
-                "pub.1011120124",
-                "pub.1068876930",
-                "pub.1038326005",
-                "pub.1053663068",
-                "pub.1026168614",
-                "pub.1068844152",
-                "pub.1016433418",
-                "pub.1017576523",
-                "pub.1027178269",
-                "pub.1028704398",
-                "pub.1006724681",
-                "pub.1022954754",
-                "pub.1032784564",
-                "pub.1042555805",
-                "pub.1025589343",
-                "pub.1030462998",
-                "pub.1041983564",
-                "pub.1002296094",
+                "pub.1023565949",
+                "pub.1010671291",
                 "pub.1006755624",
-                "pub.1063545341",
-                "pub.1021667436",
-                "pub.1063806365",
-                "pub.1095899398",
+                "pub.1025589343",
                 "pub.1000194956",
-                "pub.1083844240",
+                "pub.1068875822",
+                "pub.1043137459",
                 "pub.1004622393",
-                "pub.1020124572",
-                "pub.1003106209",
+                "pub.1052613751",
+                "pub.1046881014",
+                "pub.1017698187",
+                "pub.1022954754",
+                "pub.1016433418",
+                "pub.1007604969",
+                "pub.1041983564",
+                "pub.1068844152",
+                "pub.1035481501",
+                "pub.1095866020",
+                "pub.1006724681",
+                "pub.1032784564",
+                "pub.1017561069",
+                "pub.1011472565",
+                "pub.1002122389",
+                "pub.1063545341",
+                "pub.1028466715",
+                "pub.1002424571",
+                "pub.1028716423",
+                "pub.1009578857",
+                "pub.1033763574",
+                "pub.1032263257",
+                "pub.1006010792",
+                "pub.1068847811",
+                "pub.1082860213",
                 "pub.1047166500",
                 "pub.1017694824",
-                "pub.1001321531",
-                "pub.1032497598",
-                "pub.1001289155",
-                "pub.1095866020",
-                "pub.1023565949",
-                "pub.1019988996",
-                "pub.1068842945",
-                "pub.1032263257",
-                "pub.1046651199",
-                "pub.1028466715",
-                "pub.1006010792",
-                "pub.1068875822",
-                "pub.1058534090",
-                "pub.1028716423",
-                "pub.1068844720",
-                "pub.1046881014",
-                "pub.1101955406",
-                "pub.1011472565",
-                "pub.1036491810",
-                "pub.1027589856",
-                "pub.1009578857",
-                "pub.1049165111",
-                "pub.1043137459",
-                "pub.1028656909",
-                "pub.1035604497",
-                "pub.1099325748",
-                "pub.1035481501",
                 "pub.1068297628",
-                "pub.1079548291",
-                "pub.1002424571",
-                "pub.1016126491",
-                "pub.1041950063",
-                "pub.1033678299",
                 "pub.1012699231",
-                "pub.1002122389",
-                "pub.1043244675",
-                "pub.1068847811",
-                "pub.1007604969",
+                "pub.1099325748",
+                "pub.1028704398",
+                "pub.1042555805",
+                "pub.1068844720",
+                "pub.1030462998",
+                "pub.1027589856",
+                "pub.1095899398",
+                "pub.1001321531",
                 "pub.1032862037",
-                "pub.1052613751",
-                "pub.1033763574",
-                "pub.1010671291",
-                "pub.1017698187"
+                "pub.1035604497",
+                "pub.1068842945",
+                "pub.1001289155",
+                "pub.1021667436",
+                "pub.1046651199",
+                "pub.1026168614",
+                "pub.1049165111",
+                "pub.1049799304",
+                "pub.1003106209",
+                "pub.1017576523",
+                "pub.1043244675",
+                "pub.1041950063",
+                "pub.1020505947",
+                "pub.1002296094",
+                "pub.1038326005",
+                "pub.1032497598",
+                "pub.1013720200",
+                "pub.1036491810",
+                "pub.1033678299",
+                "pub.1058534090",
+                "pub.1079548291",
+                "pub.1101955406",
+                "pub.1020124572",
+                "pub.1053663068",
+                "pub.1011120124",
+                "pub.1068876930",
+                "pub.1076610786",
+                "pub.1028656909",
+                "pub.1005435514",
+                "pub.1016126491",
+                "pub.1056400669",
+                "pub.1083844240",
+                "pub.1019988996",
+                "pub.1063806365",
+                "pub.1027178269"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -1794,11 +1825,20 @@
                     "city_name": "Amherst Center",
                     "country_name": "United States",
                     "id": "grid.266683.f",
-                    "name": "University of Massachusetts Amherst"
+                    "latitude": 42.389004,
+                    "linkout": [
+                        "http://www.umass.edu/"
+                    ],
+                    "longitude": -72.52671,
+                    "name": "University of Massachusetts Amherst",
+                    "state_name": "Massachusetts",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": null,
-            "score": 21.721636,
+            "score": 21.715136,
             "supporting_grant_ids": null,
             "terms": [
                 "acculturation",
@@ -1912,7 +1952,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1007/978-3-030-24043-1_15",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1007/978-3-030-24043-1_15"
         },
@@ -1990,7 +2029,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 15.14249,
+            "score": 15.135462,
             "supporting_grant_ids": null,
             "terms": [
                 "international business",
@@ -2054,7 +2093,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1007/978-3-030-26759-9",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1007/978-3-030-26759-9"
         },
@@ -2160,7 +2198,7 @@
                     ]
                 }
             ],
-            "score": 11.5768,
+            "score": 11.573304,
             "supporting_grant_ids": null,
             "terms": [
                 "welfare",
@@ -2239,7 +2277,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.7591/9781501728891-005",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.7591/9781501728891-005"
         },
@@ -2328,7 +2365,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 6.659176,
+            "score": 6.653633,
             "supporting_grant_ids": null,
             "terms": null,
             "times_cited": 0,
@@ -2336,14 +2373,6 @@
             "type": "chapter",
             "volume": null,
             "year": 2020
-        },
-        "EuropePMC": {
-            "authors": [
-                "Goldman GD."
-            ],
-            "doi": "10.1097/dss.0000000000002256",
-            "journal": "Dermatol Surg",
-            "pmcid": null
         },
         "OpenAIRE": {
             "authors": [
@@ -2420,7 +2449,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.7591/9781501728891-001",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.7591/9781501728891-001"
         },
@@ -2516,7 +2544,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 20.011618,
+            "score": 20.00729,
             "supporting_grant_ids": null,
             "terms": [
                 "sociology",
@@ -2624,7 +2652,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1525/9780520963474-013",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1525/9780520963474-013"
         },
@@ -2733,7 +2760,7 @@
                     ]
                 }
             ],
-            "score": 19.92888,
+            "score": 19.908463,
             "supporting_grant_ids": null,
             "terms": [
                 "labor"
@@ -2756,7 +2783,7 @@
                 "license": null,
                 "pmh_id": "oai:digitalcommons.law.yale.edu:yjlf-1126",
                 "repository_institution": null,
-                "updated": "2019-11-22T12:31:06.792487",
+                "updated": "2019-12-06T12:33:51.357686",
                 "url": "https://digitalcommons.law.yale.edu/cgi/viewcontent.cgi?article=1126&context=yjlf",
                 "url_for_landing_page": "https://digitalcommons.law.yale.edu/cgi/viewcontent.cgi?article=1126&context=yjlf",
                 "url_for_pdf": "https://digitalcommons.law.yale.edu/cgi/viewcontent.cgi?article=1126&context=yjlf",
@@ -2782,7 +2809,7 @@
                     "license": null,
                     "pmh_id": "oai:digitalcommons.law.yale.edu:yjlf-1126",
                     "repository_institution": null,
-                    "updated": "2019-11-22T12:31:06.792487",
+                    "updated": "2019-12-06T12:33:51.357686",
                     "url": "https://digitalcommons.law.yale.edu/cgi/viewcontent.cgi?article=1126&context=yjlf",
                     "url_for_landing_page": "https://digitalcommons.law.yale.edu/cgi/viewcontent.cgi?article=1126&context=yjlf",
                     "url_for_pdf": "https://digitalcommons.law.yale.edu/cgi/viewcontent.cgi?article=1126&context=yjlf",
@@ -2839,7 +2866,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.7591/9781501724077-020",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.7591/9781501724077-020"
         },
@@ -2906,7 +2932,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 8.487909,
+            "score": 8.490015,
             "supporting_grant_ids": null,
             "terms": null,
             "times_cited": 0,
@@ -2929,8 +2955,8 @@
         "Unpaywall": {
             "best_oa_location": null,
             "data_standard": 2,
-            "doi": "10.1525/9780520968301-008",
-            "doi_url": "https://doi.org/10.1525/9780520968301-008",
+            "doi": "10.7591/9781501745508-001",
+            "doi_url": "https://doi.org/10.7591/9781501745508-001",
             "genre": "book-chapter",
             "has_repository_copy": false,
             "is_oa": false,
@@ -2938,35 +2964,27 @@
             "journal_is_oa": false,
             "journal_issn_l": null,
             "journal_issns": null,
-            "journal_name": "Education and Society",
+            "journal_name": "Images of Sainthood in Medieval Europe",
             "oa_locations": [],
             "oa_status": "closed",
             "published_date": "2019-12-31",
-            "publisher": "University of California Press",
-            "title": "EDITORS\u2019 NOTE",
-            "updated": "2019-11-14T21:06:08.631308",
+            "publisher": "Cornell University Press",
+            "title": "Editors' Note",
+            "updated": "2019-11-05T21:03:53.326157",
             "year": 2019,
-            "z_authors": [
-                {
-                    "family": "Pascoe",
-                    "given": "C. J.",
-                    "sequence": "first"
-                },
-                {
-                    "family": "Silva",
-                    "given": "Tony",
-                    "sequence": "additional"
-                }
-            ]
+            "z_authors": null
         },
         "datasets": [
             "dataset-071"
         ],
-        "doi": "10.1525/9780520968301-008",
+        "dissemin": {
+            "error": 404,
+            "message": "The paper you requested could not be found."
+        },
+        "doi": "10.7591/9781501745508-001",
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1525/9780520968301-008",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1525/9780520968301-008"
         },
@@ -3061,7 +3079,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 13.573762,
+            "score": 13.572049,
             "supporting_grant_ids": null,
             "terms": [
                 "politics of economics",
@@ -3162,7 +3180,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.7591/9781501724077-014",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.7591/9781501724077-014"
         },
@@ -3259,7 +3276,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 17.16131,
+            "score": 17.15452,
             "supporting_grant_ids": null,
             "terms": [
                 "Asian immigrant communities",
@@ -3362,7 +3379,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.7591/9781501728891-006",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.7591/9781501728891-006"
         },
@@ -3451,7 +3467,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 15.0507145,
+            "score": 15.050633,
             "supporting_grant_ids": null,
             "terms": null,
             "times_cited": 0,
@@ -3527,7 +3543,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.7591/9781501728891-003",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.7591/9781501728891-003"
         },
@@ -3621,7 +3636,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 14.914692,
+            "score": 14.912851,
             "supporting_grant_ids": null,
             "terms": [
                 "Irresponsible",
@@ -3702,7 +3717,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.7591/9781501724077-015",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.7591/9781501724077-015"
         },
@@ -3805,7 +3819,7 @@
                     ]
                 }
             ],
-            "score": 15.745426,
+            "score": 15.7390995,
             "supporting_grant_ids": null,
             "terms": [
                 "life",
@@ -3910,7 +3924,6 @@
         "original": {
             "date_added": "2019-11-27 11:59:47",
             "doi": "10.1525/9780520960510-033",
-            "journal": NaN,
             "search_term": "Temporary Assistance for Needy Families",
             "url": "https://doi.org10.1525/9780520960510-033"
         },
@@ -3934,24 +3947,24 @@
             "HRCS_RAC": null,
             "RCDC": [
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
                     "id": "517",
                     "name": "Drug Abuse (NIDA Only)"
-                },
-                {
-                    "id": "507",
-                    "name": "Clinical Research"
                 },
                 {
                     "id": "573",
                     "name": "Substance Abuse"
                 },
                 {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
+                },
+                {
                     "id": "501",
                     "name": "Brain Disorders"
+                },
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
                 }
             ],
             "altmetric": 7.0,
@@ -4068,24 +4081,24 @@
             "category_icrp_ct": null,
             "category_rcdc": [
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
                     "id": "517",
                     "name": "Drug Abuse (NIDA Only)"
-                },
-                {
-                    "id": "507",
-                    "name": "Clinical Research"
                 },
                 {
                     "id": "573",
                     "name": "Substance Abuse"
                 },
                 {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
+                },
+                {
                     "id": "501",
                     "name": "Brain Disorders"
+                },
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
                 }
             ],
             "category_ua": [
@@ -4188,110 +4201,110 @@
             "publisher": "Elsevier",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1085453804",
-                "pub.1101001543",
-                "pub.1085548908",
-                "pub.1022535449",
-                "pub.1021135110",
-                "pub.1029682085",
+                "pub.1101056893",
+                "pub.1002239579",
+                "pub.1068848432",
                 "pub.1052284504",
+                "pub.1106019337",
+                "pub.1045378200",
+                "pub.1101001543",
+                "pub.1084149670",
                 "pub.1083749953",
-                "pub.1012552894",
+                "pub.1011863079",
+                "pub.1084521549",
+                "pub.1085453804",
                 "pub.1008277882",
-                "pub.1003273391",
-                "pub.1063505806",
+                "pub.1098788312",
+                "pub.1084024848",
+                "pub.1040465687",
+                "pub.1085548908",
+                "pub.1099904364",
+                "pub.1023882782",
                 "pub.1014575616",
                 "pub.1004451252",
-                "pub.1023882782",
-                "pub.1084024848",
-                "pub.1040935979",
-                "pub.1110753258",
-                "pub.1107373341",
-                "pub.1032329026",
-                "pub.1002239579",
-                "pub.1092067928",
-                "pub.1048250000",
-                "pub.1085464215",
-                "pub.1021982084",
-                "pub.1068848432",
-                "pub.1093030785",
-                "pub.1099666450",
-                "pub.1084529195",
-                "pub.1092290542",
-                "pub.1101851727",
-                "pub.1099904364",
-                "pub.1045378200",
-                "pub.1105688005",
-                "pub.1011863079",
-                "pub.1106284446",
-                "pub.1051800531",
-                "pub.1034048178",
-                "pub.1070193350",
-                "pub.1040465687",
-                "pub.1042796444",
-                "pub.1106019337",
-                "pub.1047473070",
-                "pub.1068848547",
-                "pub.1084149670",
                 "pub.1068847583",
-                "pub.1084521549",
+                "pub.1063505806",
+                "pub.1084529195",
+                "pub.1029682085",
+                "pub.1085464215",
+                "pub.1003273391",
+                "pub.1107373341",
+                "pub.1092067928",
+                "pub.1068848547",
+                "pub.1093030785",
+                "pub.1106284446",
+                "pub.1034048178",
+                "pub.1101851727",
+                "pub.1110753258",
+                "pub.1021982084",
+                "pub.1051800531",
                 "pub.1045090105",
+                "pub.1012552894",
+                "pub.1099666450",
                 "pub.1072206572",
-                "pub.1101056893",
-                "pub.1098788312"
+                "pub.1048250000",
+                "pub.1105688005",
+                "pub.1070193350",
+                "pub.1042796444",
+                "pub.1092290542",
+                "pub.1040935979",
+                "pub.1032329026",
+                "pub.1022535449",
+                "pub.1047473070",
+                "pub.1021135110"
             ],
             "references": [
-                "pub.1085453804",
-                "pub.1101001543",
-                "pub.1085548908",
-                "pub.1022535449",
-                "pub.1021135110",
-                "pub.1029682085",
+                "pub.1101056893",
+                "pub.1002239579",
+                "pub.1068848432",
                 "pub.1052284504",
+                "pub.1106019337",
+                "pub.1045378200",
+                "pub.1101001543",
+                "pub.1084149670",
                 "pub.1083749953",
-                "pub.1012552894",
+                "pub.1011863079",
+                "pub.1084521549",
+                "pub.1085453804",
                 "pub.1008277882",
-                "pub.1003273391",
-                "pub.1063505806",
+                "pub.1098788312",
+                "pub.1084024848",
+                "pub.1040465687",
+                "pub.1085548908",
+                "pub.1099904364",
+                "pub.1023882782",
                 "pub.1014575616",
                 "pub.1004451252",
-                "pub.1023882782",
-                "pub.1084024848",
-                "pub.1040935979",
-                "pub.1110753258",
-                "pub.1107373341",
-                "pub.1032329026",
-                "pub.1002239579",
-                "pub.1092067928",
-                "pub.1048250000",
-                "pub.1085464215",
-                "pub.1021982084",
-                "pub.1068848432",
-                "pub.1093030785",
-                "pub.1099666450",
-                "pub.1084529195",
-                "pub.1092290542",
-                "pub.1101851727",
-                "pub.1099904364",
-                "pub.1045378200",
-                "pub.1105688005",
-                "pub.1011863079",
-                "pub.1106284446",
-                "pub.1051800531",
-                "pub.1034048178",
-                "pub.1070193350",
-                "pub.1040465687",
-                "pub.1042796444",
-                "pub.1106019337",
-                "pub.1047473070",
-                "pub.1068848547",
-                "pub.1084149670",
                 "pub.1068847583",
-                "pub.1084521549",
+                "pub.1063505806",
+                "pub.1084529195",
+                "pub.1029682085",
+                "pub.1085464215",
+                "pub.1003273391",
+                "pub.1107373341",
+                "pub.1092067928",
+                "pub.1068848547",
+                "pub.1093030785",
+                "pub.1106284446",
+                "pub.1034048178",
+                "pub.1101851727",
+                "pub.1110753258",
+                "pub.1021982084",
+                "pub.1051800531",
                 "pub.1045090105",
+                "pub.1012552894",
+                "pub.1099666450",
                 "pub.1072206572",
-                "pub.1101056893",
-                "pub.1098788312"
+                "pub.1048250000",
+                "pub.1105688005",
+                "pub.1070193350",
+                "pub.1042796444",
+                "pub.1092290542",
+                "pub.1040935979",
+                "pub.1032329026",
+                "pub.1022535449",
+                "pub.1047473070",
+                "pub.1021135110"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -4324,11 +4337,20 @@
                     "city_name": "Buffalo",
                     "country_name": "United States",
                     "id": "grid.273335.3",
-                    "name": "University at Buffalo, State University of New York"
+                    "latitude": 43.001106,
+                    "linkout": [
+                        "https://www.buffalo.edu/"
+                    ],
+                    "longitude": -78.78897,
+                    "name": "University at Buffalo, State University of New York",
+                    "state_name": "New York",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": null,
-            "score": 26.415182,
+            "score": 26.431995,
             "supporting_grant_ids": null,
             "terms": [
                 "response",
@@ -4903,20 +4925,47 @@
                     "city_name": "Valhalla",
                     "country_name": "United States",
                     "id": "grid.260917.b",
-                    "name": "New York Medical College"
+                    "latitude": 41.085327,
+                    "linkout": [
+                        "http://www.nymc.edu/"
+                    ],
+                    "longitude": -73.80975,
+                    "name": "New York Medical College",
+                    "state_name": "New York",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UNLV",
                     "city_name": "Las Vegas",
                     "country_name": "United States",
                     "id": "grid.272362.0",
-                    "name": "University of Nevada, Las Vegas"
+                    "latitude": 36.10779,
+                    "linkout": [
+                        "http://www.unlv.edu/"
+                    ],
+                    "longitude": -115.14376,
+                    "name": "University of Nevada, Las Vegas",
+                    "state_name": "Nevada",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Houston",
                     "country_name": "United States",
                     "id": "grid.267308.8",
-                    "name": "The University of Texas Health Science Center at Houston"
+                    "latitude": 29.703306,
+                    "linkout": [
+                        "https://www.uth.edu/"
+                    ],
+                    "longitude": -95.40305,
+                    "name": "The University of Texas Health Science Center at Houston",
+                    "state_name": "Texas",
+                    "types": [
+                        "Healthcare"
+                    ]
                 }
             ],
             "researchers": [
@@ -4968,7 +5017,7 @@
                     ]
                 }
             ],
-            "score": 21.920021,
+            "score": 21.92573,
             "supporting_grant_ids": null,
             "terms": [
                 "study",
@@ -5041,46 +5090,6 @@
             "paperId": "83d742593482f5ef52d4cee561923993d957d580",
             "references": [
                 {
-                    "arxivId": "1003.3894",
-                    "authors": [
-                        {
-                            "authorId": "2954267",
-                            "name": "Mehdi Moussa\u00efd",
-                            "url": "https://www.semanticscholar.org/author/2954267"
-                        },
-                        {
-                            "authorId": "2827720",
-                            "name": "Niriaska Perozo",
-                            "url": "https://www.semanticscholar.org/author/2827720"
-                        },
-                        {
-                            "authorId": "1979968",
-                            "name": "Simon Garnier",
-                            "url": "https://www.semanticscholar.org/author/1979968"
-                        },
-                        {
-                            "authorId": "49487749",
-                            "name": "Dirk Helbing",
-                            "url": "https://www.semanticscholar.org/author/49487749"
-                        },
-                        {
-                            "authorId": "1729346",
-                            "name": "Guy Theraulaz",
-                            "url": "https://www.semanticscholar.org/author/1729346"
-                        }
-                    ],
-                    "doi": "10.1371/journal.pone.0010047",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "b33f38b46dba880b63e35e776c602e4fb8f0c06a",
-                    "title": "The Walking Behaviour of Pedestrian Social Groups and Its Impact on Crowd Dynamics",
-                    "url": "https://www.semanticscholar.org/paper/b33f38b46dba880b63e35e776c602e4fb8f0c06a",
-                    "venue": "PloS one",
-                    "year": 2010
-                },
-                {
                     "arxivId": null,
                     "authors": [
                         {
@@ -5129,41 +5138,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "6158544",
-                            "name": "John C. Fortney",
-                            "url": "https://www.semanticscholar.org/author/6158544"
-                        },
-                        {
-                            "authorId": "1920148",
-                            "name": "Matthew L. Maciejewski",
-                            "url": "https://www.semanticscholar.org/author/1920148"
-                        },
-                        {
-                            "authorId": "144619578",
-                            "name": "James J. Warren",
-                            "url": "https://www.semanticscholar.org/author/144619578"
-                        },
-                        {
-                            "authorId": "145953098",
-                            "name": "James F. Burgess",
-                            "url": "https://www.semanticscholar.org/author/145953098"
-                        }
-                    ],
-                    "doi": "10.5034/inquiryjrnl_42.1.29",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "4b975c4019c48668a28b86292d5a06096eb55e5f",
-                    "title": "Does improving geographic access to VA primary care services impact patients' patterns of utilization and costs?",
-                    "url": "https://www.semanticscholar.org/paper/4b975c4019c48668a28b86292d5a06096eb55e5f",
-                    "venue": "Inquiry : a journal of medical care organization, provision and financing",
-                    "year": 2005
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "5152873",
                             "name": "Pascale A Allotey",
                             "url": "https://www.semanticscholar.org/author/5152873"
@@ -5184,6 +5158,46 @@
                     "url": "https://www.semanticscholar.org/paper/3d6782c7c25cf199b301b82f0099d1a2f7491333",
                     "venue": "Australian and New Zealand journal of public health",
                     "year": 2003
+                },
+                {
+                    "arxivId": "1003.3894",
+                    "authors": [
+                        {
+                            "authorId": "2954267",
+                            "name": "Mehdi Moussa\u00efd",
+                            "url": "https://www.semanticscholar.org/author/2954267"
+                        },
+                        {
+                            "authorId": "2827720",
+                            "name": "Niriaska Perozo",
+                            "url": "https://www.semanticscholar.org/author/2827720"
+                        },
+                        {
+                            "authorId": "1979968",
+                            "name": "Simon Garnier",
+                            "url": "https://www.semanticscholar.org/author/1979968"
+                        },
+                        {
+                            "authorId": "49487749",
+                            "name": "Dirk Helbing",
+                            "url": "https://www.semanticscholar.org/author/49487749"
+                        },
+                        {
+                            "authorId": "1729346",
+                            "name": "Guy Theraulaz",
+                            "url": "https://www.semanticscholar.org/author/1729346"
+                        }
+                    ],
+                    "doi": "10.1371/journal.pone.0010047",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "b33f38b46dba880b63e35e776c602e4fb8f0c06a",
+                    "title": "The Walking Behaviour of Pedestrian Social Groups and Its Impact on Crowd Dynamics",
+                    "url": "https://www.semanticscholar.org/paper/b33f38b46dba880b63e35e776c602e4fb8f0c06a",
+                    "venue": "PloS one",
+                    "year": 2010
                 },
                 {
                     "arxivId": null,
@@ -5216,8 +5230,8 @@
                     ],
                     "doi": "10.1016/j.healthplace.2003.01.001",
                     "intent": [
-                        "methodology",
-                        "background"
+                        "background",
+                        "methodology"
                     ],
                     "isInfluential": false,
                     "paperId": "60c92433e29fe6a11bca03a3f76a8a19591202bb",
@@ -5225,36 +5239,6 @@
                     "url": "https://www.semanticscholar.org/paper/60c92433e29fe6a11bca03a3f76a8a19591202bb",
                     "venue": "Health & place",
                     "year": 2004
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "2284021",
-                            "name": "Minkyong Kim",
-                            "url": "https://www.semanticscholar.org/author/2284021"
-                        },
-                        {
-                            "authorId": "143980068",
-                            "name": "David Kotz",
-                            "url": "https://www.semanticscholar.org/author/143980068"
-                        },
-                        {
-                            "authorId": "2917665",
-                            "name": "Songkuk Kim",
-                            "url": "https://www.semanticscholar.org/author/2917665"
-                        }
-                    ],
-                    "doi": "10.1109/INFOCOM.2006.173",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "927c9a31820eb1e3d2b2d9d39101ceecb1b73477",
-                    "title": "Extracting a Mobility Model from Real User Traces",
-                    "url": "https://www.semanticscholar.org/paper/927c9a31820eb1e3d2b2d9d39101ceecb1b73477",
-                    "venue": "Proceedings IEEE INFOCOM 2006. 25TH IEEE International Conference on Computer Communications",
-                    "year": 2006
                 },
                 {
                     "arxivId": null,
@@ -5404,64 +5388,91 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "89350269",
-                            "name": "Barnes Gw",
-                            "url": "https://www.semanticscholar.org/author/89350269"
+                            "authorId": "6158544",
+                            "name": "John C. Fortney",
+                            "url": "https://www.semanticscholar.org/author/6158544"
                         },
                         {
-                            "authorId": "90268971",
-                            "name": "Stoll Hw",
-                            "url": "https://www.semanticscholar.org/author/90268971"
+                            "authorId": "1920148",
+                            "name": "Matthew L. Maciejewski",
+                            "url": "https://www.semanticscholar.org/author/1920148"
                         },
                         {
-                            "authorId": "89421466",
-                            "name": "Barnes Ms",
-                            "url": "https://www.semanticscholar.org/author/89421466"
+                            "authorId": "144619578",
+                            "name": "James J. Warren",
+                            "url": "https://www.semanticscholar.org/author/144619578"
                         },
                         {
-                            "authorId": "90098130",
-                            "name": "Tiwari Ad",
-                            "url": "https://www.semanticscholar.org/author/90098130"
+                            "authorId": "145953098",
+                            "name": "James F. Burgess",
+                            "url": "https://www.semanticscholar.org/author/145953098"
                         }
                     ],
-                    "doi": null,
+                    "doi": "10.5034/inquiryjrnl_42.1.29",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "f5d7594309b9b14ac9dffdc8083bfee3c21a2e8a",
-                    "title": "The autoimmune response to male reproductive tissues of rabbits. IV. Induction of autosensitization to central accessory tissue by the intraabdominal release of endogenous secretions.",
-                    "url": "https://www.semanticscholar.org/paper/f5d7594309b9b14ac9dffdc8083bfee3c21a2e8a",
-                    "venue": "",
-                    "year": 1976
+                    "paperId": "4b975c4019c48668a28b86292d5a06096eb55e5f",
+                    "title": "Does Improving Geographic Access to VA Primary Care Services Impact Patients' Patterns of Utilization and Costs?",
+                    "url": "https://www.semanticscholar.org/paper/4b975c4019c48668a28b86292d5a06096eb55e5f",
+                    "venue": "Inquiry : a journal of medical care organization, provision and financing",
+                    "year": 2005
                 },
                 {
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "143827353",
-                            "name": "Mina Fazel",
-                            "url": "https://www.semanticscholar.org/author/143827353"
+                            "authorId": "2284021",
+                            "name": "Minkyong Kim",
+                            "url": "https://www.semanticscholar.org/author/2284021"
                         },
                         {
-                            "authorId": "32710331",
-                            "name": "Jeremy Wheeler",
-                            "url": "https://www.semanticscholar.org/author/32710331"
+                            "authorId": "143980068",
+                            "name": "David Kotz",
+                            "url": "https://www.semanticscholar.org/author/143980068"
                         },
                         {
-                            "authorId": "5107306",
-                            "name": "John Danesh",
-                            "url": "https://www.semanticscholar.org/author/5107306"
+                            "authorId": "2917665",
+                            "name": "Songkuk Kim",
+                            "url": "https://www.semanticscholar.org/author/2917665"
                         }
                     ],
-                    "doi": "10.1016/S0140-6736(05)61027-6",
-                    "intent": [],
+                    "doi": "10.1109/INFOCOM.2006.173",
+                    "intent": [
+                        "background"
+                    ],
                     "isInfluential": false,
-                    "paperId": "c3fd1a410a7ca961050da86f99abba208d12c439",
-                    "title": "Prevalence of serious mental disorder in 7000 refugees resettled in western countries: a systematic review",
-                    "url": "https://www.semanticscholar.org/paper/c3fd1a410a7ca961050da86f99abba208d12c439",
-                    "venue": "The Lancet",
-                    "year": 2005
+                    "paperId": "927c9a31820eb1e3d2b2d9d39101ceecb1b73477",
+                    "title": "Extracting a Mobility Model from Real User Traces",
+                    "url": "https://www.semanticscholar.org/paper/927c9a31820eb1e3d2b2d9d39101ceecb1b73477",
+                    "venue": "Proceedings IEEE INFOCOM 2006. 25TH IEEE International Conference on Computer Communications",
+                    "year": 2006
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "14697837",
+                            "name": "Roy Penchansky",
+                            "url": "https://www.semanticscholar.org/author/14697837"
+                        },
+                        {
+                            "authorId": "49001729",
+                            "name": "J William Thomas",
+                            "url": "https://www.semanticscholar.org/author/49001729"
+                        }
+                    ],
+                    "doi": "10.1097/00005650-198102000-00001",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "8c7359a5f7dd9d9692b910b3084b27dc61a4c09d",
+                    "title": "The concept of access: definition and relationship to consumer satisfaction.",
+                    "url": "https://www.semanticscholar.org/paper/8c7359a5f7dd9d9692b910b3084b27dc61a4c09d",
+                    "venue": "Medical care",
+                    "year": 1981
                 },
                 {
                     "arxivId": null,
@@ -5512,26 +5523,64 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "14697837",
-                            "name": "Roy Penchansky",
-                            "url": "https://www.semanticscholar.org/author/14697837"
+                            "authorId": "143827353",
+                            "name": "Mina Fazel",
+                            "url": "https://www.semanticscholar.org/author/143827353"
                         },
                         {
-                            "authorId": "49001729",
-                            "name": "J William Thomas",
-                            "url": "https://www.semanticscholar.org/author/49001729"
+                            "authorId": "32710331",
+                            "name": "Jeremy Wheeler",
+                            "url": "https://www.semanticscholar.org/author/32710331"
+                        },
+                        {
+                            "authorId": "5107306",
+                            "name": "John Danesh",
+                            "url": "https://www.semanticscholar.org/author/5107306"
                         }
                     ],
-                    "doi": "10.1097/00005650-198102000-00001",
+                    "doi": "10.1016/S0140-6736(05)61027-6",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "c3fd1a410a7ca961050da86f99abba208d12c439",
+                    "title": "Prevalence of serious mental disorder in 7000 refugees resettled in western countries: a systematic review",
+                    "url": "https://www.semanticscholar.org/paper/c3fd1a410a7ca961050da86f99abba208d12c439",
+                    "venue": "The Lancet",
+                    "year": 2005
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "89350269",
+                            "name": "Barnes Gw",
+                            "url": "https://www.semanticscholar.org/author/89350269"
+                        },
+                        {
+                            "authorId": "90268971",
+                            "name": "Stoll Hw",
+                            "url": "https://www.semanticscholar.org/author/90268971"
+                        },
+                        {
+                            "authorId": "89421466",
+                            "name": "Barnes Ms",
+                            "url": "https://www.semanticscholar.org/author/89421466"
+                        },
+                        {
+                            "authorId": "90098130",
+                            "name": "Tiwari Ad",
+                            "url": "https://www.semanticscholar.org/author/90098130"
+                        }
+                    ],
+                    "doi": null,
                     "intent": [
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "8c7359a5f7dd9d9692b910b3084b27dc61a4c09d",
-                    "title": "The concept of access: definition and relationship to consumer satisfaction.",
-                    "url": "https://www.semanticscholar.org/paper/8c7359a5f7dd9d9692b910b3084b27dc61a4c09d",
-                    "venue": "Medical care",
-                    "year": 1981
+                    "paperId": "f5d7594309b9b14ac9dffdc8083bfee3c21a2e8a",
+                    "title": "The autoimmune response to male reproductive tissues of rabbits. IV. Induction of autosensitization to central accessory tissue by the intraabdominal release of endogenous secretions.",
+                    "url": "https://www.semanticscholar.org/paper/f5d7594309b9b14ac9dffdc8083bfee3c21a2e8a",
+                    "venue": "",
+                    "year": 1976
                 }
             ],
             "title": "Geospatial Analysis of Refugee Access to Primary Care Physicians in San Antonio, Texas",
@@ -5909,74 +5958,74 @@
             "publisher": "Springer Nature",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1009792001",
-                "pub.1100995723",
-                "pub.1003930495",
-                "pub.1102717816",
-                "pub.1071225216",
-                "pub.1071225267",
-                "pub.1052168010",
-                "pub.1064530325",
-                "pub.1013299392",
                 "pub.1017973987",
-                "pub.1006790413",
-                "pub.1083393634",
-                "pub.1050307749",
-                "pub.1036330491",
-                "pub.1027767495",
-                "pub.1008317828",
-                "pub.1064532203",
-                "pub.1049923094",
+                "pub.1052168010",
                 "pub.1071225262",
                 "pub.1105269098",
+                "pub.1102717816",
+                "pub.1071225267",
+                "pub.1064532203",
+                "pub.1012745657",
+                "pub.1071225216",
+                "pub.1083393634",
                 "pub.1058573565",
-                "pub.1058573768",
+                "pub.1027767495",
+                "pub.1036330491",
+                "pub.1050307749",
+                "pub.1003930495",
+                "pub.1013299392",
+                "pub.1084029920",
                 "pub.1111930784",
                 "pub.1064530900",
-                "pub.1092927226",
+                "pub.1084257146",
+                "pub.1006790413",
+                "pub.1049923094",
+                "pub.1009792001",
+                "pub.1058573768",
                 "pub.1064528350",
-                "pub.1058638758",
-                "pub.1092619120",
-                "pub.1042589955",
-                "pub.1012745657",
-                "pub.1084029920",
+                "pub.1008317828",
                 "pub.1024748884",
-                "pub.1084257146"
+                "pub.1042589955",
+                "pub.1058638758",
+                "pub.1092927226",
+                "pub.1064530325",
+                "pub.1100995723",
+                "pub.1092619120"
             ],
             "references": [
-                "pub.1009792001",
-                "pub.1100995723",
-                "pub.1003930495",
-                "pub.1102717816",
-                "pub.1071225216",
-                "pub.1071225267",
-                "pub.1052168010",
-                "pub.1064530325",
-                "pub.1013299392",
                 "pub.1017973987",
-                "pub.1006790413",
-                "pub.1083393634",
-                "pub.1050307749",
-                "pub.1036330491",
-                "pub.1027767495",
-                "pub.1008317828",
-                "pub.1064532203",
-                "pub.1049923094",
+                "pub.1052168010",
                 "pub.1071225262",
                 "pub.1105269098",
+                "pub.1102717816",
+                "pub.1071225267",
+                "pub.1064532203",
+                "pub.1012745657",
+                "pub.1071225216",
+                "pub.1083393634",
                 "pub.1058573565",
-                "pub.1058573768",
+                "pub.1027767495",
+                "pub.1036330491",
+                "pub.1050307749",
+                "pub.1003930495",
+                "pub.1013299392",
+                "pub.1084029920",
                 "pub.1111930784",
                 "pub.1064530900",
-                "pub.1092927226",
+                "pub.1084257146",
+                "pub.1006790413",
+                "pub.1049923094",
+                "pub.1009792001",
+                "pub.1058573768",
                 "pub.1064528350",
-                "pub.1058638758",
-                "pub.1092619120",
-                "pub.1042589955",
-                "pub.1012745657",
-                "pub.1084029920",
+                "pub.1008317828",
                 "pub.1024748884",
-                "pub.1084257146"
+                "pub.1042589955",
+                "pub.1058638758",
+                "pub.1092927226",
+                "pub.1064530325",
+                "pub.1100995723",
+                "pub.1092619120"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -6014,16 +6063,34 @@
             ],
             "research_orgs": [
                 {
+                    "acronym": "SWUFE",
                     "city_name": "Chengdu",
                     "country_name": "China",
                     "id": "grid.443347.3",
-                    "name": "Southwestern University of Finance and Economics"
+                    "latitude": 30.663021,
+                    "linkout": [
+                        "https://www.swufe.edu.cn/"
+                    ],
+                    "longitude": 104.01628,
+                    "name": "Southwestern University of Finance and Economics",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Albany",
                     "country_name": "United States",
                     "id": "grid.265850.c",
-                    "name": "University at Albany, State University of New York"
+                    "latitude": 42.68662,
+                    "linkout": [
+                        "http://www.albany.edu/"
+                    ],
+                    "longitude": -73.82302,
+                    "name": "University at Albany, State University of New York",
+                    "state_name": "New York",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -6036,7 +6103,7 @@
                     ]
                 }
             ],
-            "score": 24.424103,
+            "score": 24.413572,
             "supporting_grant_ids": null,
             "terms": [
                 "differences",
@@ -6584,14 +6651,32 @@
                     "city_name": "Rockville",
                     "country_name": "United States",
                     "id": "grid.429651.d",
-                    "name": "National Center for Advancing Translational Sciences"
+                    "latitude": 39.09584,
+                    "linkout": [
+                        "https://ncats.nih.gov/"
+                    ],
+                    "longitude": -77.197174,
+                    "name": "National Center for Advancing Translational Sciences",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "NCI",
                     "city_name": "Rockville",
                     "country_name": "United States",
                     "id": "grid.48336.3a",
-                    "name": "National Cancer Institute"
+                    "latitude": 39.004326,
+                    "linkout": [
+                        "http://www.cancer.gov/"
+                    ],
+                    "longitude": -77.10119,
+                    "name": "National Cancer Institute",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1117614013",
@@ -6822,20 +6907,47 @@
                     "city_name": "Lawrence",
                     "country_name": "United States",
                     "id": "grid.266515.3",
-                    "name": "University of Kansas"
+                    "latitude": 38.954586,
+                    "linkout": [
+                        "http://www.ku.edu/"
+                    ],
+                    "longitude": -95.25585,
+                    "name": "University of Kansas",
+                    "state_name": "Kansas",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "KUMC",
                     "city_name": "Kansas City",
                     "country_name": "United States",
                     "id": "grid.412016.0",
-                    "name": "University of Kansas Medical Center"
+                    "latitude": 39.056286,
+                    "linkout": [
+                        "http://www.kumc.edu/"
+                    ],
+                    "longitude": -94.61077,
+                    "name": "University of Kansas Medical Center",
+                    "state_name": "Kansas",
+                    "types": [
+                        "Healthcare"
+                    ]
                 },
                 {
                     "city_name": "Lexington",
                     "country_name": "United States",
                     "id": "grid.266539.d",
-                    "name": "University of Kentucky"
+                    "latitude": 38.03099,
+                    "linkout": [
+                        "http://www.uky.edu/"
+                    ],
+                    "longitude": -84.504486,
+                    "name": "University of Kentucky",
+                    "state_name": "Kentucky",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -6894,7 +7006,7 @@
                     ]
                 }
             ],
-            "score": 19.426617,
+            "score": 19.418869,
             "supporting_grant_ids": [
                 "grant.2705165",
                 "grant.7909596",
@@ -7036,66 +7148,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "5236093",
-                            "name": "Kristy Holtfreter",
-                            "url": "https://www.semanticscholar.org/author/5236093"
-                        },
-                        {
-                            "authorId": "46333010",
-                            "name": "Merry A. Morash",
-                            "url": "https://www.semanticscholar.org/author/46333010"
-                        }
-                    ],
-                    "doi": "10.1300/j012v14n02_07",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "ddefe158910bdc0d8571070d1095ba1e714fa313",
-                    "title": "The Needs of Women Offenders",
-                    "url": "https://www.semanticscholar.org/paper/ddefe158910bdc0d8571070d1095ba1e714fa313",
-                    "venue": "",
-                    "year": 2003
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "9839606",
-                            "name": "Margret E Bell",
-                            "url": "https://www.semanticscholar.org/author/9839606"
-                        },
-                        {
-                            "authorId": "49568494",
-                            "name": "Sara P\u00e9rez",
-                            "url": "https://www.semanticscholar.org/author/49568494"
-                        },
-                        {
-                            "authorId": "1896217",
-                            "name": "Lisa A. Goodman",
-                            "url": "https://www.semanticscholar.org/author/1896217"
-                        },
-                        {
-                            "authorId": "2270857",
-                            "name": "Mary Dutton",
-                            "url": "https://www.semanticscholar.org/author/2270857"
-                        }
-                    ],
-                    "doi": "10.1177/1077801210393924",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "4c151ee710af55f8437d9e0ecd4896eb5fbbba36",
-                    "title": "Battered women's perceptions of civil and criminal court helpfulness: the role of court outcome and process.",
-                    "url": "https://www.semanticscholar.org/paper/4c151ee710af55f8437d9e0ecd4896eb5fbbba36",
-                    "venue": "Violence against women",
-                    "year": 2011
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "5070045",
                             "name": "Erlyana Erlyana",
                             "url": "https://www.semanticscholar.org/author/5070045"
@@ -7124,81 +7176,157 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "6474139",
-                            "name": "Cathleen E Willging",
-                            "url": "https://www.semanticscholar.org/author/6474139"
+                            "authorId": "13564606",
+                            "name": "Katarzyna Celinska",
+                            "url": "https://www.semanticscholar.org/author/13564606"
                         },
                         {
-                            "authorId": "8012867",
-                            "name": "Ethel G. Nicdao",
-                            "url": "https://www.semanticscholar.org/author/8012867"
-                        },
-                        {
-                            "authorId": "4627666",
-                            "name": "Elise M. Trott",
-                            "url": "https://www.semanticscholar.org/author/4627666"
-                        },
-                        {
-                            "authorId": "7762436",
-                            "name": "Nicole Coffey Kellett",
-                            "url": "https://www.semanticscholar.org/author/7762436"
+                            "authorId": "144772381",
+                            "name": "Jane A. Siegel",
+                            "url": "https://www.semanticscholar.org/author/144772381"
                         }
                     ],
-                    "doi": "10.1080/08974454.2015.1067174",
+                    "doi": "10.1177/0032885510382218",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "6c12299fd4bd930104c4ba041a8d49b4850a5204",
-                    "title": "STRUCTURAL INEQUALITY AND SOCIAL SUPPORT FOR WOMEN PRISONERS RELEASED TO RURAL COMMUNITIES.",
-                    "url": "https://www.semanticscholar.org/paper/6c12299fd4bd930104c4ba041a8d49b4850a5204",
-                    "venue": "Women & criminal justice",
-                    "year": 2016
+                    "paperId": "1c3d0a5aaf9b47bd6fedb2924db7d2bb34f277a7",
+                    "title": "Mothers in Trouble: Coping With Actual or Pending Separation From Children due to Incarceration",
+                    "url": "https://www.semanticscholar.org/paper/1c3d0a5aaf9b47bd6fedb2924db7d2bb34f277a7",
+                    "venue": "",
+                    "year": 2010
                 },
                 {
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "12918169",
-                            "name": "Rand E. Rosenblatt",
-                            "url": "https://www.semanticscholar.org/author/12918169"
-                        }
-                    ],
-                    "doi": "10.1215/03616878-18-2-439",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "d59e06e723709e758fc2124dc5af332b046f82ef",
-                    "title": "The courts, health care reform, and the reconstruction of American social legislation.",
-                    "url": "https://www.semanticscholar.org/paper/d59e06e723709e758fc2124dc5af332b046f82ef",
-                    "venue": "Journal of health politics, policy and law",
-                    "year": 1993
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "50408966",
-                            "name": "Douglas A. Smith",
-                            "url": "https://www.semanticscholar.org/author/50408966"
+                            "authorId": "47437187",
+                            "name": "Rebecca J. Walter",
+                            "url": "https://www.semanticscholar.org/author/47437187"
                         },
                         {
-                            "authorId": "5912258",
-                            "name": "Christy A. Visher",
-                            "url": "https://www.semanticscholar.org/author/5912258"
+                            "authorId": "11063146",
+                            "name": "Jill Viglione",
+                            "url": "https://www.semanticscholar.org/author/11063146"
+                        },
+                        {
+                            "authorId": "9637467",
+                            "name": "Marie Skubak Tillyer",
+                            "url": "https://www.semanticscholar.org/author/9637467"
                         }
                     ],
-                    "doi": "10.2307/800422",
+                    "doi": "10.1080/10511482.2017.1309557",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "c274b7502a3546e263e2f3b585f9bb6d317b9d04",
+                    "title": "One Strike to Second Chances: Using Criminal Backgrounds in Admission Decisions for Assisted Housing",
+                    "url": "https://www.semanticscholar.org/paper/c274b7502a3546e263e2f3b585f9bb6d317b9d04",
+                    "venue": "",
+                    "year": 2017
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "6288273",
+                            "name": "Alison M. Colbert",
+                            "url": "https://www.semanticscholar.org/author/6288273"
+                        },
+                        {
+                            "authorId": "5317861",
+                            "name": "L. Kathleen Sekula",
+                            "url": "https://www.semanticscholar.org/author/5317861"
+                        },
+                        {
+                            "authorId": "7754564",
+                            "name": "Rick Zoucha",
+                            "url": "https://www.semanticscholar.org/author/7754564"
+                        },
+                        {
+                            "authorId": "5723868",
+                            "name": "Susan M Cohen",
+                            "url": "https://www.semanticscholar.org/author/5723868"
+                        }
+                    ],
+                    "doi": "10.1111/phn.12034",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "53904351b039c0bef44dba93083bceec1e571e90",
+                    "title": "Health care needs of women immediately post-incarceration: a mixed methods study.",
+                    "url": "https://www.semanticscholar.org/paper/53904351b039c0bef44dba93083bceec1e571e90",
+                    "venue": "Public health nursing",
+                    "year": 2013
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "5079818",
+                            "name": "Joan R. Petersilia",
+                            "url": "https://www.semanticscholar.org/author/5079818"
+                        }
+                    ],
+                    "doi": "10.1177/0032885501081003004",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": true,
-                    "paperId": "18dceacc2082050ed4bd63420c6aca65893706d0",
-                    "title": "Street Level Justice: Situational Determinants of Police Arrest Decisions.",
-                    "url": "https://www.semanticscholar.org/paper/18dceacc2082050ed4bd63420c6aca65893706d0",
+                    "paperId": "da24625f20e3b1ecafcfa6936ac6719b8eb64f19",
+                    "title": "Prisoner Reentry: Public Safety and Reintegration Challenges",
+                    "url": "https://www.semanticscholar.org/paper/da24625f20e3b1ecafcfa6936ac6719b8eb64f19",
                     "venue": "",
-                    "year": 1981
+                    "year": 2001
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "29659306",
+                            "name": "Dan Bloom",
+                            "url": "https://www.semanticscholar.org/author/29659306"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "a3f7a800afd39415e3c88309ddf93478a5cafa2f",
+                    "title": "Employment-Focused Programs for Ex-Prisoners: What Have We Learned, What Are We Learning, and Where Should We Go from Here?.",
+                    "url": "https://www.semanticscholar.org/paper/a3f7a800afd39415e3c88309ddf93478a5cafa2f",
+                    "venue": "",
+                    "year": 2006
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "145192076",
+                            "name": "Leonard A Jason",
+                            "url": "https://www.semanticscholar.org/author/145192076"
+                        },
+                        {
+                            "authorId": "47479236",
+                            "name": "Doreen D Salina",
+                            "url": "https://www.semanticscholar.org/author/47479236"
+                        },
+                        {
+                            "authorId": "1708555",
+                            "name": "Daphna Ram",
+                            "url": "https://www.semanticscholar.org/author/1708555"
+                        }
+                    ],
+                    "doi": "10.1080/08897077.2015.1037946",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "c17401387ca759ecff3074a5561b4d697a7f8a96",
+                    "title": "Oxford recovery housing: Length of stay correlated with improved outcomes for women previously involved with the criminal justice system.",
+                    "url": "https://www.semanticscholar.org/paper/c17401387ca759ecff3074a5561b4d697a7f8a96",
+                    "venue": "Substance abuse",
+                    "year": 2016
                 },
                 {
                     "arxivId": null,
@@ -7259,169 +7387,244 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "13564606",
-                            "name": "Katarzyna Celinska",
-                            "url": "https://www.semanticscholar.org/author/13564606"
+                            "authorId": "5236093",
+                            "name": "Kristy Holtfreter",
+                            "url": "https://www.semanticscholar.org/author/5236093"
                         },
                         {
-                            "authorId": "144772381",
-                            "name": "Jane A. Siegel",
-                            "url": "https://www.semanticscholar.org/author/144772381"
+                            "authorId": "46333010",
+                            "name": "Merry A. Morash",
+                            "url": "https://www.semanticscholar.org/author/46333010"
                         }
                     ],
-                    "doi": "10.1177/0032885510382218",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "1c3d0a5aaf9b47bd6fedb2924db7d2bb34f277a7",
-                    "title": "Mothers in Trouble: Coping With Actual or Pending Separation From Children due to Incarceration",
-                    "url": "https://www.semanticscholar.org/paper/1c3d0a5aaf9b47bd6fedb2924db7d2bb34f277a7",
-                    "venue": "",
-                    "year": 2010
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "47437187",
-                            "name": "Rebecca J. Walter",
-                            "url": "https://www.semanticscholar.org/author/47437187"
-                        },
-                        {
-                            "authorId": "11063146",
-                            "name": "Jill Viglione",
-                            "url": "https://www.semanticscholar.org/author/11063146"
-                        },
-                        {
-                            "authorId": "9637467",
-                            "name": "Marie Skubak Tillyer",
-                            "url": "https://www.semanticscholar.org/author/9637467"
-                        }
-                    ],
-                    "doi": "10.1080/10511482.2017.1309557",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "c274b7502a3546e263e2f3b585f9bb6d317b9d04",
-                    "title": "One Strike to Second Chances: Using Criminal Backgrounds in Admission Decisions for Assisted Housing",
-                    "url": "https://www.semanticscholar.org/paper/c274b7502a3546e263e2f3b585f9bb6d317b9d04",
-                    "venue": "",
-                    "year": 2017
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "29659306",
-                            "name": "Dan Bloom",
-                            "url": "https://www.semanticscholar.org/author/29659306"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "a3f7a800afd39415e3c88309ddf93478a5cafa2f",
-                    "title": "Employment-Focused Programs for Ex-Prisoners: What Have We Learned, What Are We Learning, and Where Should We Go from Here?.",
-                    "url": "https://www.semanticscholar.org/paper/a3f7a800afd39415e3c88309ddf93478a5cafa2f",
-                    "venue": "",
-                    "year": 2006
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "145192076",
-                            "name": "Leonard A Jason",
-                            "url": "https://www.semanticscholar.org/author/145192076"
-                        },
-                        {
-                            "authorId": "47479236",
-                            "name": "Doreen D Salina",
-                            "url": "https://www.semanticscholar.org/author/47479236"
-                        },
-                        {
-                            "authorId": "1708555",
-                            "name": "Daphna Ram",
-                            "url": "https://www.semanticscholar.org/author/1708555"
-                        }
-                    ],
-                    "doi": "10.1080/08897077.2015.1037946",
+                    "doi": "10.1300/j012v14n02_07",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": true,
-                    "paperId": "c17401387ca759ecff3074a5561b4d697a7f8a96",
-                    "title": "Oxford recovery housing: Length of stay correlated with improved outcomes for women previously involved with the criminal justice system.",
-                    "url": "https://www.semanticscholar.org/paper/c17401387ca759ecff3074a5561b4d697a7f8a96",
-                    "venue": "Substance abuse",
-                    "year": 2016
+                    "paperId": "ddefe158910bdc0d8571070d1095ba1e714fa313",
+                    "title": "The Needs of Women Offenders",
+                    "url": "https://www.semanticscholar.org/paper/ddefe158910bdc0d8571070d1095ba1e714fa313",
+                    "venue": "",
+                    "year": 2003
                 },
                 {
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "12425079",
-                            "name": "Hide Yamatani",
-                            "url": "https://www.semanticscholar.org/author/12425079"
+                            "authorId": "9839606",
+                            "name": "Margret E Bell",
+                            "url": "https://www.semanticscholar.org/author/9839606"
                         },
                         {
-                            "authorId": "12745257",
-                            "name": "Solveig Spjeldnes",
-                            "url": "https://www.semanticscholar.org/author/12745257"
+                            "authorId": "49568494",
+                            "name": "Sara P\u00e9rez",
+                            "url": "https://www.semanticscholar.org/author/49568494"
+                        },
+                        {
+                            "authorId": "1896217",
+                            "name": "Lisa A. Goodman",
+                            "url": "https://www.semanticscholar.org/author/1896217"
+                        },
+                        {
+                            "authorId": "2270857",
+                            "name": "Mary Dutton",
+                            "url": "https://www.semanticscholar.org/author/2270857"
                         }
                     ],
-                    "doi": "10.1093/sw/56.1.53",
+                    "doi": "10.1177/1077801210393924",
                     "intent": [
                         "background"
                     ],
-                    "isInfluential": false,
-                    "paperId": "b55141fc4ad7352fe03c24dc4596785089b4d0b5",
-                    "title": "Saving our criminal justice system: the efficacy of a collaborative social service.",
-                    "url": "https://www.semanticscholar.org/paper/b55141fc4ad7352fe03c24dc4596785089b4d0b5",
-                    "venue": "Social work",
+                    "isInfluential": true,
+                    "paperId": "4c151ee710af55f8437d9e0ecd4896eb5fbbba36",
+                    "title": "Battered women's perceptions of civil and criminal court helpfulness: the role of court outcome and process.",
+                    "url": "https://www.semanticscholar.org/paper/4c151ee710af55f8437d9e0ecd4896eb5fbbba36",
+                    "venue": "Violence against women",
                     "year": 2011
                 },
                 {
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "4480377",
-                            "name": "Nicholas Freudenberg",
-                            "url": "https://www.semanticscholar.org/author/4480377"
+                            "authorId": "6101503",
+                            "name": "Walter S. Dekeseredy",
+                            "url": "https://www.semanticscholar.org/author/6101503"
                         },
                         {
-                            "authorId": "46325253",
-                            "name": "Jessie Daniels",
-                            "url": "https://www.semanticscholar.org/author/46325253"
+                            "authorId": "2569512",
+                            "name": "Shahid Alvi",
+                            "url": "https://www.semanticscholar.org/author/2569512"
                         },
                         {
-                            "authorId": "40142765",
-                            "name": "Martha Crum",
-                            "url": "https://www.semanticscholar.org/author/40142765"
-                        },
-                        {
-                            "authorId": "27343242",
-                            "name": "Tiffany Perkins",
-                            "url": "https://www.semanticscholar.org/author/27343242"
-                        },
-                        {
-                            "authorId": "32605489",
-                            "name": "Beth E. Richie",
-                            "url": "https://www.semanticscholar.org/author/32605489"
+                            "authorId": "114930920",
+                            "name": "E. Andreas Tomaszewski",
+                            "url": "https://www.semanticscholar.org/author/114930920"
                         }
                     ],
-                    "doi": "10.2105/ajph.98.supplement_1.s191",
+                    "doi": "10.1177/1466802503003001453",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "a17e8d7e468fc6a6e0c247deadd9439fe01da9f5",
+                    "title": "Perceived collective efficacy and women's victimization in public housing",
+                    "url": "https://www.semanticscholar.org/paper/a17e8d7e468fc6a6e0c247deadd9439fe01da9f5",
+                    "venue": "",
+                    "year": 2003
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "7587783",
+                            "name": "April M Zeoli",
+                            "url": "https://www.semanticscholar.org/author/7587783"
+                        },
+                        {
+                            "authorId": "47867135",
+                            "name": "Echo A. Rivera",
+                            "url": "https://www.semanticscholar.org/author/47867135"
+                        },
+                        {
+                            "authorId": "3784154",
+                            "name": "Cris M Sullivan",
+                            "url": "https://www.semanticscholar.org/author/3784154"
+                        },
+                        {
+                            "authorId": "5058893",
+                            "name": "Sheryl Pimlott Kubiak",
+                            "url": "https://www.semanticscholar.org/author/5058893"
+                        }
+                    ],
+                    "doi": "10.1007/s10896-013-9528-7",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "ad7f35017bfbb500ae01dcc34171a9144dad8448",
+                    "title": "Post-Separation Abuse of Women and their Children: Boundary-Setting and Family Court Utilization among Victimized Mothers",
+                    "url": "https://www.semanticscholar.org/paper/ad7f35017bfbb500ae01dcc34171a9144dad8448",
+                    "venue": "Journal of Family Violence",
+                    "year": 2013
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "16150194",
+                            "name": "Robert E. Worden",
+                            "url": "https://www.semanticscholar.org/author/16150194"
+                        },
+                        {
+                            "authorId": "66270533",
+                            "name": "S. J. Mclean",
+                            "url": "https://www.semanticscholar.org/author/66270533"
+                        }
+                    ],
+                    "doi": "10.1177/0887403417723960",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "a6d2da45723aca208c50e48a640497f84f38b1a0",
+                    "title": "Discretion and Diversion in Albany\u2019s Lead Program:",
+                    "url": "https://www.semanticscholar.org/paper/a6d2da45723aca208c50e48a640497f84f38b1a0",
+                    "venue": "",
+                    "year": 2018
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "6585688",
+                            "name": "Barbara DiPietro",
+                            "url": "https://www.semanticscholar.org/author/6585688"
+                        },
+                        {
+                            "authorId": "14726021",
+                            "name": "Lisa Klingenmaier",
+                            "url": "https://www.semanticscholar.org/author/14726021"
+                        }
+                    ],
+                    "doi": "10.2105/AJPH.2013.301497",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": true,
-                    "paperId": "807df801810723b5430156463f0a9251e3705ba5",
-                    "title": "Coming home from jail: the social and health consequences of community reentry for women, male adolescents, and their families and communities.",
-                    "url": "https://www.semanticscholar.org/paper/807df801810723b5430156463f0a9251e3705ba5",
+                    "paperId": "d500f180df86c508e5f4f4b56367d3a2e6dcd6f6",
+                    "title": "Achieving public health goals through Medicaid expansion: opportunities in criminal justice, homelessness, and behavioral health with the Patient Protection and Affordable Care Act.",
+                    "url": "https://www.semanticscholar.org/paper/d500f180df86c508e5f4f4b56367d3a2e6dcd6f6",
                     "venue": "American journal of public health",
-                    "year": 2008
+                    "year": 2013
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "3278502",
+                            "name": "Sandra A. Springer",
+                            "url": "https://www.semanticscholar.org/author/3278502"
+                        }
+                    ],
+                    "doi": "10.1089/jwh.2009.1786",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "d6cda550dbf363fe659920c7b138daf9ec522220",
+                    "title": "Improving healthcare for incarcerated women.",
+                    "url": "https://www.semanticscholar.org/paper/d6cda550dbf363fe659920c7b138daf9ec522220",
+                    "venue": "Journal of women's health",
+                    "year": 2010
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "47805304",
+                            "name": "Courtenay Sprague",
+                            "url": "https://www.semanticscholar.org/author/47805304"
+                        },
+                        {
+                            "authorId": "5362614",
+                            "name": "Michael L. Scanlon",
+                            "url": "https://www.semanticscholar.org/author/5362614"
+                        },
+                        {
+                            "authorId": "5234686",
+                            "name": "David W Pantalone",
+                            "url": "https://www.semanticscholar.org/author/5234686"
+                        }
+                    ],
+                    "doi": "10.1177/1090198117726573",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "336ea7dd96c97be4f17136e42c35b83da7118b76",
+                    "title": "Qualitative Research Methods to Advance Research on Health Inequities Among Previously Incarcerated Women Living With HIV in Alabama.",
+                    "url": "https://www.semanticscholar.org/paper/336ea7dd96c97be4f17136e42c35b83da7118b76",
+                    "venue": "Health education & behavior : the official publication of the Society for Public Health Education",
+                    "year": 2017
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "144529472",
+                            "name": "Nancy Wolff",
+                            "url": "https://www.semanticscholar.org/author/144529472"
+                        }
+                    ],
+                    "doi": "10.1016/j.ijlp.2004.12.003",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "5357739023182b588fc39615d75e7fa8e48ca616",
+                    "title": "Community reintegration of prisoners with mental illness: a social investment perspective.",
+                    "url": "https://www.semanticscholar.org/paper/5357739023182b588fc39615d75e7fa8e48ca616",
+                    "venue": "International journal of law and psychiatry",
+                    "year": 2005
                 },
                 {
                     "arxivId": null,
@@ -7547,222 +7750,124 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "7488176",
-                            "name": "Stephanie S. Covington",
-                            "url": "https://www.semanticscholar.org/author/7488176"
+                            "authorId": "3101742",
+                            "name": "Lawrence M. Berger",
+                            "url": "https://www.semanticscholar.org/author/3101742"
+                        },
+                        {
+                            "authorId": "3517565",
+                            "name": "Maria Aparecida Eva Cancian",
+                            "url": "https://www.semanticscholar.org/author/3517565"
+                        },
+                        {
+                            "authorId": "2449853",
+                            "name": "Laura Cuesta",
+                            "url": "https://www.semanticscholar.org/author/2449853"
+                        },
+                        {
+                            "authorId": "11790981",
+                            "name": "Jennifer L. Noyes",
+                            "url": "https://www.semanticscholar.org/author/11790981"
                         }
                     ],
-                    "doi": null,
+                    "doi": "10.1177/0002716216633058",
                     "intent": [
                         "background"
                     ],
-                    "isInfluential": true,
-                    "paperId": "4ea833f8a30833b53cd88e454930295a2e98d198",
-                    "title": "A Woman's Journey Home: Challenges for Female Offenders and Their Children",
-                    "url": "https://www.semanticscholar.org/paper/4ea833f8a30833b53cd88e454930295a2e98d198",
-                    "venue": "",
-                    "year": 2002
+                    "isInfluential": false,
+                    "paperId": "e8d07c085f9fda929465eb52390a6c6b5dbc1bfc",
+                    "title": "Families at the Intersection of the Criminal Justice and Child Protective Services Systems.",
+                    "url": "https://www.semanticscholar.org/paper/e8d07c085f9fda929465eb52390a6c6b5dbc1bfc",
+                    "venue": "The Annals of the American Academy of Political and Social Science",
+                    "year": 2016
                 },
                 {
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "5190197",
-                            "name": "Stephen Metraux",
-                            "url": "https://www.semanticscholar.org/author/5190197"
+                            "authorId": "3583820",
+                            "name": "Patricia J Kelly",
+                            "url": "https://www.semanticscholar.org/author/3583820"
                         },
                         {
-                            "authorId": "74508383",
-                            "name": "Dennis P. Culhane",
-                            "url": "https://www.semanticscholar.org/author/74508383"
+                            "authorId": "25149327",
+                            "name": "Jennifer L. Hunter",
+                            "url": "https://www.semanticscholar.org/author/25149327"
+                        },
+                        {
+                            "authorId": "47179301",
+                            "name": "Elizabeth Brett Daily",
+                            "url": "https://www.semanticscholar.org/author/47179301"
+                        },
+                        {
+                            "authorId": "36199780",
+                            "name": "Megha Ramaswamy",
+                            "url": "https://www.semanticscholar.org/author/36199780"
                         }
                     ],
-                    "doi": null,
+                    "doi": "10.1007/s10900-016-0225-3",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "795113be87388cb7cd7dddc5a110ee0f8089c681",
+                    "title": "Challenges to Pap Smear Follow-up among Women in the Criminal Justice System",
+                    "url": "https://www.semanticscholar.org/paper/795113be87388cb7cd7dddc5a110ee0f8089c681",
+                    "venue": "Journal of Community Health",
+                    "year": 2016
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "153111440",
+                            "name": "Penelope Abbott",
+                            "url": "https://www.semanticscholar.org/author/153111440"
+                        },
+                        {
+                            "authorId": "145071385",
+                            "name": "Parker Magin",
+                            "url": "https://www.semanticscholar.org/author/145071385"
+                        },
+                        {
+                            "authorId": "6404722",
+                            "name": "Sanja Lujic",
+                            "url": "https://www.semanticscholar.org/author/6404722"
+                        },
+                        {
+                            "authorId": "34878804",
+                            "name": "Wendy C Y Hu",
+                            "url": "https://www.semanticscholar.org/author/34878804"
+                        }
+                    ],
+                    "doi": "10.1071/AH16007",
                     "intent": [],
                     "isInfluential": false,
-                    "paperId": "aea5f03180526ff6d98ce7b48f5f06593751f76e",
-                    "title": "HOMELESS SHELTER USE AND REINCARCERATION AFTER PRISON RELEASE",
-                    "url": "https://www.semanticscholar.org/paper/aea5f03180526ff6d98ce7b48f5f06593751f76e",
-                    "venue": "",
-                    "year": 2004
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "47450238",
-                            "name": "Beth M. Huebner",
-                            "url": "https://www.semanticscholar.org/author/47450238"
-                        },
-                        {
-                            "authorId": "3884105",
-                            "name": "Christina Dejong",
-                            "url": "https://www.semanticscholar.org/author/3884105"
-                        },
-                        {
-                            "authorId": "50737009",
-                            "name": "Jennifer E. Cobbina",
-                            "url": "https://www.semanticscholar.org/author/50737009"
-                        }
-                    ],
-                    "doi": "10.1080/07418820902870486",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "cf8dc1de9b29d0ffbc4a6946e58dd1410d5c0aa7",
-                    "title": "Women Coming Home: Long\u2010Term Patterns of Recidivism",
-                    "url": "https://www.semanticscholar.org/paper/cf8dc1de9b29d0ffbc4a6946e58dd1410d5c0aa7",
-                    "venue": "",
-                    "year": 2010
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "6585688",
-                            "name": "Barbara DiPietro",
-                            "url": "https://www.semanticscholar.org/author/6585688"
-                        },
-                        {
-                            "authorId": "14726021",
-                            "name": "Lisa Klingenmaier",
-                            "url": "https://www.semanticscholar.org/author/14726021"
-                        }
-                    ],
-                    "doi": "10.2105/AJPH.2013.301497",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "d500f180df86c508e5f4f4b56367d3a2e6dcd6f6",
-                    "title": "Achieving public health goals through Medicaid expansion: opportunities in criminal justice, homelessness, and behavioral health with the Patient Protection and Affordable Care Act.",
-                    "url": "https://www.semanticscholar.org/paper/d500f180df86c508e5f4f4b56367d3a2e6dcd6f6",
-                    "venue": "American journal of public health",
-                    "year": 2013
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "3278502",
-                            "name": "Sandra A. Springer",
-                            "url": "https://www.semanticscholar.org/author/3278502"
-                        }
-                    ],
-                    "doi": "10.1089/jwh.2009.1786",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "d6cda550dbf363fe659920c7b138daf9ec522220",
-                    "title": "Improving healthcare for incarcerated women.",
-                    "url": "https://www.semanticscholar.org/paper/d6cda550dbf363fe659920c7b138daf9ec522220",
-                    "venue": "Journal of women's health",
-                    "year": 2010
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "47805304",
-                            "name": "Courtenay Sprague",
-                            "url": "https://www.semanticscholar.org/author/47805304"
-                        },
-                        {
-                            "authorId": "5362614",
-                            "name": "Michael L. Scanlon",
-                            "url": "https://www.semanticscholar.org/author/5362614"
-                        },
-                        {
-                            "authorId": "5234686",
-                            "name": "David W Pantalone",
-                            "url": "https://www.semanticscholar.org/author/5234686"
-                        }
-                    ],
-                    "doi": "10.1177/1090198117726573",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "336ea7dd96c97be4f17136e42c35b83da7118b76",
-                    "title": "Qualitative Research Methods to Advance Research on Health Inequities Among Previously Incarcerated Women Living With HIV in Alabama.",
-                    "url": "https://www.semanticscholar.org/paper/336ea7dd96c97be4f17136e42c35b83da7118b76",
-                    "venue": "Health education & behavior : the official publication of the Society for Public Health Education",
+                    "paperId": "53208f1624c678b8dc336932491c288dbffb795b",
+                    "title": "Supporting continuity of care between prison and the community for women in prison: a medical record review.",
+                    "url": "https://www.semanticscholar.org/paper/53208f1624c678b8dc336932491c288dbffb795b",
+                    "venue": "Australian health review : a publication of the Australian Hospital Association",
                     "year": 2017
                 },
                 {
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "144529472",
-                            "name": "Nancy Wolff",
-                            "url": "https://www.semanticscholar.org/author/144529472"
+                            "authorId": "5021831",
+                            "name": "Candace Kruttschnitt",
+                            "url": "https://www.semanticscholar.org/author/5021831"
                         }
                     ],
-                    "doi": "10.1016/j.ijlp.2004.12.003",
+                    "doi": "10.1162/DAED_a_00021",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": true,
-                    "paperId": "5357739023182b588fc39615d75e7fa8e48ca616",
-                    "title": "Community reintegration of prisoners with mental illness: a social investment perspective.",
-                    "url": "https://www.semanticscholar.org/paper/5357739023182b588fc39615d75e7fa8e48ca616",
-                    "venue": "International journal of law and psychiatry",
-                    "year": 2005
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "6288273",
-                            "name": "Alison M. Colbert",
-                            "url": "https://www.semanticscholar.org/author/6288273"
-                        },
-                        {
-                            "authorId": "5317861",
-                            "name": "L. Kathleen Sekula",
-                            "url": "https://www.semanticscholar.org/author/5317861"
-                        },
-                        {
-                            "authorId": "7754564",
-                            "name": "Rick Zoucha",
-                            "url": "https://www.semanticscholar.org/author/7754564"
-                        },
-                        {
-                            "authorId": "5723868",
-                            "name": "Susan M Cohen",
-                            "url": "https://www.semanticscholar.org/author/5723868"
-                        }
-                    ],
-                    "doi": "10.1111/phn.12034",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "53904351b039c0bef44dba93083bceec1e571e90",
-                    "title": "Health care needs of women immediately post-incarceration: a mixed methods study.",
-                    "url": "https://www.semanticscholar.org/paper/53904351b039c0bef44dba93083bceec1e571e90",
-                    "venue": "Public health nursing",
-                    "year": 2013
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "5079818",
-                            "name": "Joan R. Petersilia",
-                            "url": "https://www.semanticscholar.org/author/5079818"
-                        }
-                    ],
-                    "doi": "10.1177/0032885501081003004",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "da24625f20e3b1ecafcfa6936ac6719b8eb64f19",
-                    "title": "Prisoner Reentry: Public Safety and Reintegration Challenges",
-                    "url": "https://www.semanticscholar.org/paper/da24625f20e3b1ecafcfa6936ac6719b8eb64f19",
-                    "venue": "",
-                    "year": 2001
+                    "paperId": "ea8e731044c577abafedd391661dcdb537a3ed16",
+                    "title": "The paradox of women's imprisonment",
+                    "url": "https://www.semanticscholar.org/paper/ea8e731044c577abafedd391661dcdb537a3ed16",
+                    "venue": "Daedalus",
+                    "year": 2010
                 },
                 {
                     "arxivId": null,
@@ -7936,257 +8041,74 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "6101503",
-                            "name": "Walter S. Dekeseredy",
-                            "url": "https://www.semanticscholar.org/author/6101503"
-                        },
-                        {
-                            "authorId": "2569512",
-                            "name": "Shahid Alvi",
-                            "url": "https://www.semanticscholar.org/author/2569512"
-                        },
-                        {
-                            "authorId": "114930920",
-                            "name": "E. Andreas Tomaszewski",
-                            "url": "https://www.semanticscholar.org/author/114930920"
+                            "authorId": "7488176",
+                            "name": "Stephanie S. Covington",
+                            "url": "https://www.semanticscholar.org/author/7488176"
                         }
                     ],
-                    "doi": "10.1177/1466802503003001453",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "a17e8d7e468fc6a6e0c247deadd9439fe01da9f5",
-                    "title": "Perceived collective efficacy and women's victimization in public housing",
-                    "url": "https://www.semanticscholar.org/paper/a17e8d7e468fc6a6e0c247deadd9439fe01da9f5",
-                    "venue": "",
-                    "year": 2003
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "7587783",
-                            "name": "April M Zeoli",
-                            "url": "https://www.semanticscholar.org/author/7587783"
-                        },
-                        {
-                            "authorId": "47867135",
-                            "name": "Echo A. Rivera",
-                            "url": "https://www.semanticscholar.org/author/47867135"
-                        },
-                        {
-                            "authorId": "3784154",
-                            "name": "Cris M Sullivan",
-                            "url": "https://www.semanticscholar.org/author/3784154"
-                        },
-                        {
-                            "authorId": "5058893",
-                            "name": "Sheryl Pimlott Kubiak",
-                            "url": "https://www.semanticscholar.org/author/5058893"
-                        }
-                    ],
-                    "doi": "10.1007/s10896-013-9528-7",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "ad7f35017bfbb500ae01dcc34171a9144dad8448",
-                    "title": "Post-Separation Abuse of Women and their Children: Boundary-Setting and Family Court Utilization among Victimized Mothers",
-                    "url": "https://www.semanticscholar.org/paper/ad7f35017bfbb500ae01dcc34171a9144dad8448",
-                    "venue": "Journal of Family Violence",
-                    "year": 2013
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "16150194",
-                            "name": "Robert E. Worden",
-                            "url": "https://www.semanticscholar.org/author/16150194"
-                        },
-                        {
-                            "authorId": "66270533",
-                            "name": "S. J. Mclean",
-                            "url": "https://www.semanticscholar.org/author/66270533"
-                        }
-                    ],
-                    "doi": "10.1177/0887403417723960",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "a6d2da45723aca208c50e48a640497f84f38b1a0",
-                    "title": "Discretion and Diversion in Albany\u2019s Lead Program:",
-                    "url": "https://www.semanticscholar.org/paper/a6d2da45723aca208c50e48a640497f84f38b1a0",
-                    "venue": "",
-                    "year": 2018
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "3101742",
-                            "name": "Lawrence M. Berger",
-                            "url": "https://www.semanticscholar.org/author/3101742"
-                        },
-                        {
-                            "authorId": "3517565",
-                            "name": "Maria Aparecida Eva Cancian",
-                            "url": "https://www.semanticscholar.org/author/3517565"
-                        },
-                        {
-                            "authorId": "2449853",
-                            "name": "Laura Cuesta",
-                            "url": "https://www.semanticscholar.org/author/2449853"
-                        },
-                        {
-                            "authorId": "11790981",
-                            "name": "Jennifer L. Noyes",
-                            "url": "https://www.semanticscholar.org/author/11790981"
-                        }
-                    ],
-                    "doi": "10.1177/0002716216633058",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "e8d07c085f9fda929465eb52390a6c6b5dbc1bfc",
-                    "title": "Families at the Intersection of the Criminal Justice and Child Protective Services Systems.",
-                    "url": "https://www.semanticscholar.org/paper/e8d07c085f9fda929465eb52390a6c6b5dbc1bfc",
-                    "venue": "The Annals of the American Academy of Political and Social Science",
-                    "year": 2016
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "3583820",
-                            "name": "Patricia J Kelly",
-                            "url": "https://www.semanticscholar.org/author/3583820"
-                        },
-                        {
-                            "authorId": "25149327",
-                            "name": "Jennifer L. Hunter",
-                            "url": "https://www.semanticscholar.org/author/25149327"
-                        },
-                        {
-                            "authorId": "47179301",
-                            "name": "Elizabeth Brett Daily",
-                            "url": "https://www.semanticscholar.org/author/47179301"
-                        },
-                        {
-                            "authorId": "36199780",
-                            "name": "Megha Ramaswamy",
-                            "url": "https://www.semanticscholar.org/author/36199780"
-                        }
-                    ],
-                    "doi": "10.1007/s10900-016-0225-3",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "795113be87388cb7cd7dddc5a110ee0f8089c681",
-                    "title": "Challenges to Pap Smear Follow-up among Women in the Criminal Justice System",
-                    "url": "https://www.semanticscholar.org/paper/795113be87388cb7cd7dddc5a110ee0f8089c681",
-                    "venue": "Journal of Community Health",
-                    "year": 2016
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "153111440",
-                            "name": "Penelope Abbott",
-                            "url": "https://www.semanticscholar.org/author/153111440"
-                        },
-                        {
-                            "authorId": "145071385",
-                            "name": "Parker Magin",
-                            "url": "https://www.semanticscholar.org/author/145071385"
-                        },
-                        {
-                            "authorId": "6404722",
-                            "name": "Sanja Lujic",
-                            "url": "https://www.semanticscholar.org/author/6404722"
-                        },
-                        {
-                            "authorId": "34878804",
-                            "name": "Wendy C Y Hu",
-                            "url": "https://www.semanticscholar.org/author/34878804"
-                        }
-                    ],
-                    "doi": "10.1071/AH16007",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "53208f1624c678b8dc336932491c288dbffb795b",
-                    "title": "Supporting continuity of care between prison and the community for women in prison: a medical record review.",
-                    "url": "https://www.semanticscholar.org/paper/53208f1624c678b8dc336932491c288dbffb795b",
-                    "venue": "Australian health review : a publication of the Australian Hospital Association",
-                    "year": 2017
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "5021831",
-                            "name": "Candace Kruttschnitt",
-                            "url": "https://www.semanticscholar.org/author/5021831"
-                        }
-                    ],
-                    "doi": "10.1162/DAED_a_00021",
+                    "doi": null,
                     "intent": [
                         "background"
                     ],
                     "isInfluential": true,
-                    "paperId": "ea8e731044c577abafedd391661dcdb537a3ed16",
-                    "title": "The paradox of women's imprisonment",
-                    "url": "https://www.semanticscholar.org/paper/ea8e731044c577abafedd391661dcdb537a3ed16",
-                    "venue": "Daedalus",
-                    "year": 2010
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "50066934",
-                            "name": "Andrew Coyle",
-                            "url": "https://www.semanticscholar.org/author/50066934"
-                        }
-                    ],
-                    "doi": "10.1093/bjc/azg032",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "98e1be3a258ad0450527432a8716e1e5324238de",
-                    "title": "IMPRISONING COMMUNITIES: HOW MASS INCARCERATION MAKES DISADVANTAGED NEIGHBORHOODS WORSE",
-                    "url": "https://www.semanticscholar.org/paper/98e1be3a258ad0450527432a8716e1e5324238de",
+                    "paperId": "4ea833f8a30833b53cd88e454930295a2e98d198",
+                    "title": "A Woman's Journey Home: Challenges for Female Offenders and Their Children",
+                    "url": "https://www.semanticscholar.org/paper/4ea833f8a30833b53cd88e454930295a2e98d198",
                     "venue": "",
-                    "year": 2010
+                    "year": 2002
                 },
                 {
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "3429407",
-                            "name": "Kimberly R. Enard",
-                            "url": "https://www.semanticscholar.org/author/3429407"
+                            "authorId": "5190197",
+                            "name": "Stephen Metraux",
+                            "url": "https://www.semanticscholar.org/author/5190197"
                         },
                         {
-                            "authorId": "16240688",
-                            "name": "Deborah M Ganelin",
-                            "url": "https://www.semanticscholar.org/author/16240688"
+                            "authorId": "74508383",
+                            "name": "Dennis P. Culhane",
+                            "url": "https://www.semanticscholar.org/author/74508383"
                         }
                     ],
-                    "doi": "10.1097/00115514-201311000-00007",
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "aea5f03180526ff6d98ce7b48f5f06593751f76e",
+                    "title": "HOMELESS SHELTER USE AND REINCARCERATION AFTER PRISON RELEASE",
+                    "url": "https://www.semanticscholar.org/paper/aea5f03180526ff6d98ce7b48f5f06593751f76e",
+                    "venue": "",
+                    "year": 2004
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "47450238",
+                            "name": "Beth M. Huebner",
+                            "url": "https://www.semanticscholar.org/author/47450238"
+                        },
+                        {
+                            "authorId": "3884105",
+                            "name": "Christina Dejong",
+                            "url": "https://www.semanticscholar.org/author/3884105"
+                        },
+                        {
+                            "authorId": "50737009",
+                            "name": "Jennifer E. Cobbina",
+                            "url": "https://www.semanticscholar.org/author/50737009"
+                        }
+                    ],
+                    "doi": "10.1080/07418820902870486",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": true,
-                    "paperId": "019bcd2908334b5af647572c1da1b8076cd3eb1a",
-                    "title": "Reducing preventable emergency department utilization and costs by using community health workers as patient navigators.",
-                    "url": "https://www.semanticscholar.org/paper/019bcd2908334b5af647572c1da1b8076cd3eb1a",
-                    "venue": "Journal of healthcare management / American College of Healthcare Executives",
-                    "year": 2013
+                    "paperId": "cf8dc1de9b29d0ffbc4a6946e58dd1410d5c0aa7",
+                    "title": "Women Coming Home: Long\u2010Term Patterns of Recidivism",
+                    "url": "https://www.semanticscholar.org/paper/cf8dc1de9b29d0ffbc4a6946e58dd1410d5c0aa7",
+                    "venue": "",
+                    "year": 2010
                 },
                 {
                     "arxivId": null,
@@ -8295,97 +8217,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "46871202",
-                            "name": "Helen Lam",
-                            "url": "https://www.semanticscholar.org/author/46871202"
-                        },
-                        {
-                            "authorId": "97170939",
-                            "name": "Mark Harcourt",
-                            "url": "https://www.semanticscholar.org/author/97170939"
-                        }
-                    ],
-                    "doi": "10.1023/A:1026243413175",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "5519bc0cc2067e22a9488901b316a1366fe4a523",
-                    "title": "The Use of Criminal Record in Employment Decisions: The Rights of Ex-offenders, Employers and the Public",
-                    "url": "https://www.semanticscholar.org/paper/5519bc0cc2067e22a9488901b316a1366fe4a523",
-                    "venue": "",
-                    "year": 2003
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "40082943",
-                            "name": "Jocelyn Guyer",
-                            "url": "https://www.semanticscholar.org/author/40082943"
-                        },
-                        {
-                            "authorId": "65774156",
-                            "name": "Kinda Serafi",
-                            "url": "https://www.semanticscholar.org/author/65774156"
-                        },
-                        {
-                            "authorId": "47481945",
-                            "name": "Deborah Bachrach",
-                            "url": "https://www.semanticscholar.org/author/47481945"
-                        },
-                        {
-                            "authorId": "153020002",
-                            "name": "Alixandra Gould",
-                            "url": "https://www.semanticscholar.org/author/153020002"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "fe1dbc94a14ba538ddc36acc0b47d75ed6a8d290",
-                    "title": "State Strategies for Establishing Connections to Health Care for Justice-Involved Populations: The Central Role of Medicaid.",
-                    "url": "https://www.semanticscholar.org/paper/fe1dbc94a14ba538ddc36acc0b47d75ed6a8d290",
-                    "venue": "Issue brief",
-                    "year": 2019
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "32141214",
-                            "name": "Mila Eggers",
-                            "url": "https://www.semanticscholar.org/author/32141214"
-                        },
-                        {
-                            "authorId": "37344228",
-                            "name": "Jaime Phillip Mu\u00f1oz",
-                            "url": "https://www.semanticscholar.org/author/37344228"
-                        },
-                        {
-                            "authorId": "36490794",
-                            "name": "John Sciulli",
-                            "url": "https://www.semanticscholar.org/author/36490794"
-                        },
-                        {
-                            "authorId": "6137406",
-                            "name": "Patricia A. Hickerson Crist",
-                            "url": "https://www.semanticscholar.org/author/6137406"
-                        }
-                    ],
-                    "doi": "10.1080/j003v20n01_02",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "a68ac4afe09a6a0b1ce1258bbe009da9bd1f8eeb",
-                    "title": "The community reintegration project: occupational therapy at work in a county jail.",
-                    "url": "https://www.semanticscholar.org/paper/a68ac4afe09a6a0b1ce1258bbe009da9bd1f8eeb",
-                    "venue": "Occupational therapy in health care",
-                    "year": 2006
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "15190385",
                             "name": "Nancy G. La Vigne",
                             "url": "https://www.semanticscholar.org/author/15190385"
@@ -8482,6 +8313,86 @@
                     "url": "https://www.semanticscholar.org/paper/67b1802b17df573b4ad7bd72d49c54a40d2ef28b",
                     "venue": "Health care financing review",
                     "year": 1994
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "6474139",
+                            "name": "Cathleen E Willging",
+                            "url": "https://www.semanticscholar.org/author/6474139"
+                        },
+                        {
+                            "authorId": "8012867",
+                            "name": "Ethel G. Nicdao",
+                            "url": "https://www.semanticscholar.org/author/8012867"
+                        },
+                        {
+                            "authorId": "4627666",
+                            "name": "Elise M. Trott",
+                            "url": "https://www.semanticscholar.org/author/4627666"
+                        },
+                        {
+                            "authorId": "7762436",
+                            "name": "Nicole Coffey Kellett",
+                            "url": "https://www.semanticscholar.org/author/7762436"
+                        }
+                    ],
+                    "doi": "10.1080/08974454.2015.1067174",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "6c12299fd4bd930104c4ba041a8d49b4850a5204",
+                    "title": "STRUCTURAL INEQUALITY AND SOCIAL SUPPORT FOR WOMEN PRISONERS RELEASED TO RURAL COMMUNITIES.",
+                    "url": "https://www.semanticscholar.org/paper/6c12299fd4bd930104c4ba041a8d49b4850a5204",
+                    "venue": "Women & criminal justice",
+                    "year": 2016
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "12918169",
+                            "name": "Rand E. Rosenblatt",
+                            "url": "https://www.semanticscholar.org/author/12918169"
+                        }
+                    ],
+                    "doi": "10.1215/03616878-18-2-439",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "d59e06e723709e758fc2124dc5af332b046f82ef",
+                    "title": "The courts, health care reform, and the reconstruction of American social legislation.",
+                    "url": "https://www.semanticscholar.org/paper/d59e06e723709e758fc2124dc5af332b046f82ef",
+                    "venue": "Journal of health politics, policy and law",
+                    "year": 1993
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "50408966",
+                            "name": "Douglas A. Smith",
+                            "url": "https://www.semanticscholar.org/author/50408966"
+                        },
+                        {
+                            "authorId": "5912258",
+                            "name": "Christy A. Visher",
+                            "url": "https://www.semanticscholar.org/author/5912258"
+                        }
+                    ],
+                    "doi": "10.2307/800422",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "18dceacc2082050ed4bd63420c6aca65893706d0",
+                    "title": "Street Level Justice: Situational Determinants of Police Arrest Decisions.",
+                    "url": "https://www.semanticscholar.org/paper/18dceacc2082050ed4bd63420c6aca65893706d0",
+                    "venue": "",
+                    "year": 1981
                 },
                 {
                     "arxivId": null,
@@ -8618,6 +8529,357 @@
                     "url": "https://www.semanticscholar.org/paper/f60ce52b9ea01399dd2a8fbdf0bfa8ecf013af78",
                     "venue": "",
                     "year": 2003
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "46871202",
+                            "name": "Helen Lam",
+                            "url": "https://www.semanticscholar.org/author/46871202"
+                        },
+                        {
+                            "authorId": "97170939",
+                            "name": "Mark Harcourt",
+                            "url": "https://www.semanticscholar.org/author/97170939"
+                        }
+                    ],
+                    "doi": "10.1023/A:1026243413175",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "5519bc0cc2067e22a9488901b316a1366fe4a523",
+                    "title": "The Use of Criminal Record in Employment Decisions: The Rights of Ex-offenders, Employers and the Public",
+                    "url": "https://www.semanticscholar.org/paper/5519bc0cc2067e22a9488901b316a1366fe4a523",
+                    "venue": "",
+                    "year": 2003
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "40082943",
+                            "name": "Jocelyn Guyer",
+                            "url": "https://www.semanticscholar.org/author/40082943"
+                        },
+                        {
+                            "authorId": "65774156",
+                            "name": "Kinda Serafi",
+                            "url": "https://www.semanticscholar.org/author/65774156"
+                        },
+                        {
+                            "authorId": "47481945",
+                            "name": "Deborah Bachrach",
+                            "url": "https://www.semanticscholar.org/author/47481945"
+                        },
+                        {
+                            "authorId": "153020002",
+                            "name": "Alixandra Gould",
+                            "url": "https://www.semanticscholar.org/author/153020002"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "fe1dbc94a14ba538ddc36acc0b47d75ed6a8d290",
+                    "title": "State Strategies for Establishing Connections to Health Care for Justice-Involved Populations: The Central Role of Medicaid.",
+                    "url": "https://www.semanticscholar.org/paper/fe1dbc94a14ba538ddc36acc0b47d75ed6a8d290",
+                    "venue": "Issue brief",
+                    "year": 2019
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "32141214",
+                            "name": "Mila Eggers",
+                            "url": "https://www.semanticscholar.org/author/32141214"
+                        },
+                        {
+                            "authorId": "37344228",
+                            "name": "Jaime Phillip Mu\u00f1oz",
+                            "url": "https://www.semanticscholar.org/author/37344228"
+                        },
+                        {
+                            "authorId": "36490794",
+                            "name": "John Sciulli",
+                            "url": "https://www.semanticscholar.org/author/36490794"
+                        },
+                        {
+                            "authorId": "6137406",
+                            "name": "Patricia A. Hickerson Crist",
+                            "url": "https://www.semanticscholar.org/author/6137406"
+                        }
+                    ],
+                    "doi": "10.1080/j003v20n01_02",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "a68ac4afe09a6a0b1ce1258bbe009da9bd1f8eeb",
+                    "title": "The community reintegration project: occupational therapy at work in a county jail.",
+                    "url": "https://www.semanticscholar.org/paper/a68ac4afe09a6a0b1ce1258bbe009da9bd1f8eeb",
+                    "venue": "Occupational therapy in health care",
+                    "year": 2006
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "12425079",
+                            "name": "Hide Yamatani",
+                            "url": "https://www.semanticscholar.org/author/12425079"
+                        },
+                        {
+                            "authorId": "12745257",
+                            "name": "Solveig Spjeldnes",
+                            "url": "https://www.semanticscholar.org/author/12745257"
+                        }
+                    ],
+                    "doi": "10.1093/sw/56.1.53",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "b55141fc4ad7352fe03c24dc4596785089b4d0b5",
+                    "title": "Saving our criminal justice system: the efficacy of a collaborative social service.",
+                    "url": "https://www.semanticscholar.org/paper/b55141fc4ad7352fe03c24dc4596785089b4d0b5",
+                    "venue": "Social work",
+                    "year": 2011
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "4480377",
+                            "name": "Nicholas Freudenberg",
+                            "url": "https://www.semanticscholar.org/author/4480377"
+                        },
+                        {
+                            "authorId": "46325253",
+                            "name": "Jessie Daniels",
+                            "url": "https://www.semanticscholar.org/author/46325253"
+                        },
+                        {
+                            "authorId": "40142765",
+                            "name": "Martha Crum",
+                            "url": "https://www.semanticscholar.org/author/40142765"
+                        },
+                        {
+                            "authorId": "27343242",
+                            "name": "Tiffany Perkins",
+                            "url": "https://www.semanticscholar.org/author/27343242"
+                        },
+                        {
+                            "authorId": "32605489",
+                            "name": "Beth E. Richie",
+                            "url": "https://www.semanticscholar.org/author/32605489"
+                        }
+                    ],
+                    "doi": "10.2105/ajph.98.supplement_1.s191",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "807df801810723b5430156463f0a9251e3705ba5",
+                    "title": "Coming home from jail: the social and health consequences of community reentry for women, male adolescents, and their families and communities.",
+                    "url": "https://www.semanticscholar.org/paper/807df801810723b5430156463f0a9251e3705ba5",
+                    "venue": "American journal of public health",
+                    "year": 2008
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "33547023",
+                            "name": "Sachini N Bandara",
+                            "url": "https://www.semanticscholar.org/author/33547023"
+                        },
+                        {
+                            "authorId": "5495940",
+                            "name": "Haiden A. Huskamp",
+                            "url": "https://www.semanticscholar.org/author/5495940"
+                        },
+                        {
+                            "authorId": "13769204",
+                            "name": "Lauren E. Riedel",
+                            "url": "https://www.semanticscholar.org/author/13769204"
+                        },
+                        {
+                            "authorId": "4617201",
+                            "name": "Emma E. Mcginty",
+                            "url": "https://www.semanticscholar.org/author/4617201"
+                        },
+                        {
+                            "authorId": "4238469",
+                            "name": "Daniel W. Webster",
+                            "url": "https://www.semanticscholar.org/author/4238469"
+                        },
+                        {
+                            "authorId": "12546322",
+                            "name": "Robert E. Toone",
+                            "url": "https://www.semanticscholar.org/author/12546322"
+                        },
+                        {
+                            "authorId": "4880910",
+                            "name": "Colleen L. Barry",
+                            "url": "https://www.semanticscholar.org/author/4880910"
+                        }
+                    ],
+                    "doi": "10.1377/hlthaff.2015.0668",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "45ea6a2b1e1129b69096f7c0066c08cfaeb96de2",
+                    "title": "Leveraging The Affordable Care Act To Enroll Justice-Involved Populations In Medicaid: State And Local Efforts.",
+                    "url": "https://www.semanticscholar.org/paper/45ea6a2b1e1129b69096f7c0066c08cfaeb96de2",
+                    "venue": "Health affairs",
+                    "year": 2015
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1429163013",
+                            "name": "Carmen Warner-Robbins",
+                            "url": "https://www.semanticscholar.org/author/1429163013"
+                        },
+                        {
+                            "authorId": "145338938",
+                            "name": "Mickey L. Parsons",
+                            "url": "https://www.semanticscholar.org/author/145338938"
+                        }
+                    ],
+                    "doi": "10.1080/07347324.2010.488534",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "85518f26bc74e64acc8bb2eb947e83abdba8047c",
+                    "title": "Developing Peer Leaders and Reducing Recidivism Through Long-Term Participation in a Faith-Based Program: The Story of Welcome Home Ministries",
+                    "url": "https://www.semanticscholar.org/paper/85518f26bc74e64acc8bb2eb947e83abdba8047c",
+                    "venue": "",
+                    "year": 2010
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "153868160",
+                            "name": "Natalie Bracken",
+                            "url": "https://www.semanticscholar.org/author/153868160"
+                        },
+                        {
+                            "authorId": "12927531",
+                            "name": "Charles Hilliard",
+                            "url": "https://www.semanticscholar.org/author/12927531"
+                        },
+                        {
+                            "authorId": "3939313",
+                            "name": "W J Mcculler",
+                            "url": "https://www.semanticscholar.org/author/3939313"
+                        },
+                        {
+                            "authorId": "4548426",
+                            "name": "Nina T Harawa",
+                            "url": "https://www.semanticscholar.org/author/4548426"
+                        }
+                    ],
+                    "doi": "10.1521/aeap.2015.27.6.566",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "82553d9f791f646991d136f5e3c24dfebadc227f",
+                    "title": "Facilitators of HIV Medical Care Engagement Among Former Prisoners.",
+                    "url": "https://www.semanticscholar.org/paper/82553d9f791f646991d136f5e3c24dfebadc227f",
+                    "venue": "AIDS education and prevention : official publication of the International Society for AIDS Education",
+                    "year": 2015
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "36199780",
+                            "name": "Megha Ramaswamy",
+                            "url": "https://www.semanticscholar.org/author/36199780"
+                        },
+                        {
+                            "authorId": "12036873",
+                            "name": "Satyasree Upadhyayula",
+                            "url": "https://www.semanticscholar.org/author/12036873"
+                        },
+                        {
+                            "authorId": "4371042",
+                            "name": "Ka Yee Clara Chan",
+                            "url": "https://www.semanticscholar.org/author/4371042"
+                        },
+                        {
+                            "authorId": "16083807",
+                            "name": "Kylie Rhodes",
+                            "url": "https://www.semanticscholar.org/author/16083807"
+                        },
+                        {
+                            "authorId": "15346371",
+                            "name": "April Leonardo",
+                            "url": "https://www.semanticscholar.org/author/15346371"
+                        }
+                    ],
+                    "doi": "10.5993/AJHB.39.2.9",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "62363317e91b2b4e1519c40a119e4e30d7320019",
+                    "title": "Health priorities among women recently released from jail.",
+                    "url": "https://www.semanticscholar.org/paper/62363317e91b2b4e1519c40a119e4e30d7320019",
+                    "venue": "American journal of health behavior",
+                    "year": 2015
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "50066934",
+                            "name": "Andrew Coyle",
+                            "url": "https://www.semanticscholar.org/author/50066934"
+                        }
+                    ],
+                    "doi": "10.1093/bjc/azg032",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "98e1be3a258ad0450527432a8716e1e5324238de",
+                    "title": "IMPRISONING COMMUNITIES: HOW MASS INCARCERATION MAKES DISADVANTAGED NEIGHBORHOODS WORSE",
+                    "url": "https://www.semanticscholar.org/paper/98e1be3a258ad0450527432a8716e1e5324238de",
+                    "venue": "",
+                    "year": 2010
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "3429407",
+                            "name": "Kimberly R. Enard",
+                            "url": "https://www.semanticscholar.org/author/3429407"
+                        },
+                        {
+                            "authorId": "16240688",
+                            "name": "Deborah M Ganelin",
+                            "url": "https://www.semanticscholar.org/author/16240688"
+                        }
+                    ],
+                    "doi": "10.1097/00115514-201311000-00007",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "019bcd2908334b5af647572c1da1b8076cd3eb1a",
+                    "title": "Reducing preventable emergency department utilization and costs by using community health workers as patient navigators.",
+                    "url": "https://www.semanticscholar.org/paper/019bcd2908334b5af647572c1da1b8076cd3eb1a",
+                    "venue": "Journal of healthcare management / American College of Healthcare Executives",
+                    "year": 2013
                 },
                 {
                     "arxivId": null,
@@ -8783,160 +9045,10 @@
                     "intent": [],
                     "isInfluential": false,
                     "paperId": "762815a90a078ff9a4a810da674381d6b2358d3f",
-                    "title": "Health outcomes and retention in care following release from prison for patients of an urban post-incarceration transitions clinic.",
+                    "title": "Health Outcomes and Retention in Care Following Release from Prison for Patients of an Urban Post-incarceration Transitions Clinic",
                     "url": "https://www.semanticscholar.org/paper/762815a90a078ff9a4a810da674381d6b2358d3f",
                     "venue": "Journal of health care for the poor and underserved",
                     "year": 2014
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "33547023",
-                            "name": "Sachini N Bandara",
-                            "url": "https://www.semanticscholar.org/author/33547023"
-                        },
-                        {
-                            "authorId": "5495940",
-                            "name": "Haiden A. Huskamp",
-                            "url": "https://www.semanticscholar.org/author/5495940"
-                        },
-                        {
-                            "authorId": "13769204",
-                            "name": "Lauren E. Riedel",
-                            "url": "https://www.semanticscholar.org/author/13769204"
-                        },
-                        {
-                            "authorId": "4617201",
-                            "name": "Emma E. Mcginty",
-                            "url": "https://www.semanticscholar.org/author/4617201"
-                        },
-                        {
-                            "authorId": "4238469",
-                            "name": "Daniel W. Webster",
-                            "url": "https://www.semanticscholar.org/author/4238469"
-                        },
-                        {
-                            "authorId": "12546322",
-                            "name": "Robert E. Toone",
-                            "url": "https://www.semanticscholar.org/author/12546322"
-                        },
-                        {
-                            "authorId": "4880910",
-                            "name": "Colleen L. Barry",
-                            "url": "https://www.semanticscholar.org/author/4880910"
-                        }
-                    ],
-                    "doi": "10.1377/hlthaff.2015.0668",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "45ea6a2b1e1129b69096f7c0066c08cfaeb96de2",
-                    "title": "Leveraging The Affordable Care Act To Enroll Justice-Involved Populations In Medicaid: State And Local Efforts.",
-                    "url": "https://www.semanticscholar.org/paper/45ea6a2b1e1129b69096f7c0066c08cfaeb96de2",
-                    "venue": "Health affairs",
-                    "year": 2015
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "1429163013",
-                            "name": "Carmen Warner-Robbins",
-                            "url": "https://www.semanticscholar.org/author/1429163013"
-                        },
-                        {
-                            "authorId": "145338938",
-                            "name": "Mickey L. Parsons",
-                            "url": "https://www.semanticscholar.org/author/145338938"
-                        }
-                    ],
-                    "doi": "10.1080/07347324.2010.488534",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "85518f26bc74e64acc8bb2eb947e83abdba8047c",
-                    "title": "Developing Peer Leaders and Reducing Recidivism Through Long-Term Participation in a Faith-Based Program: The Story of Welcome Home Ministries",
-                    "url": "https://www.semanticscholar.org/paper/85518f26bc74e64acc8bb2eb947e83abdba8047c",
-                    "venue": "",
-                    "year": 2010
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "153868160",
-                            "name": "Natalie Bracken",
-                            "url": "https://www.semanticscholar.org/author/153868160"
-                        },
-                        {
-                            "authorId": "12927531",
-                            "name": "Charles Hilliard",
-                            "url": "https://www.semanticscholar.org/author/12927531"
-                        },
-                        {
-                            "authorId": "3939313",
-                            "name": "W J Mcculler",
-                            "url": "https://www.semanticscholar.org/author/3939313"
-                        },
-                        {
-                            "authorId": "4548426",
-                            "name": "Nina T Harawa",
-                            "url": "https://www.semanticscholar.org/author/4548426"
-                        }
-                    ],
-                    "doi": "10.1521/aeap.2015.27.6.566",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "82553d9f791f646991d136f5e3c24dfebadc227f",
-                    "title": "Facilitators of HIV Medical Care Engagement Among Former Prisoners.",
-                    "url": "https://www.semanticscholar.org/paper/82553d9f791f646991d136f5e3c24dfebadc227f",
-                    "venue": "AIDS education and prevention : official publication of the International Society for AIDS Education",
-                    "year": 2015
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "36199780",
-                            "name": "Megha Ramaswamy",
-                            "url": "https://www.semanticscholar.org/author/36199780"
-                        },
-                        {
-                            "authorId": "12036873",
-                            "name": "Satyasree Upadhyayula",
-                            "url": "https://www.semanticscholar.org/author/12036873"
-                        },
-                        {
-                            "authorId": "4371042",
-                            "name": "Ka Yee Clara Chan",
-                            "url": "https://www.semanticscholar.org/author/4371042"
-                        },
-                        {
-                            "authorId": "16083807",
-                            "name": "Kylie Rhodes",
-                            "url": "https://www.semanticscholar.org/author/16083807"
-                        },
-                        {
-                            "authorId": "15346371",
-                            "name": "April Leonardo",
-                            "url": "https://www.semanticscholar.org/author/15346371"
-                        }
-                    ],
-                    "doi": "10.5993/AJHB.39.2.9",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "62363317e91b2b4e1519c40a119e4e30d7320019",
-                    "title": "Health priorities among women recently released from jail.",
-                    "url": "https://www.semanticscholar.org/paper/62363317e91b2b4e1519c40a119e4e30d7320019",
-                    "venue": "American journal of health behavior",
-                    "year": 2015
                 }
             ],
             "title": "The role of the community health delivery system in the health and well-being of justice-involved women: a narrative review",
@@ -8970,7 +9082,7 @@
                 "license": "cc-by",
                 "pmh_id": null,
                 "repository_institution": null,
-                "updated": "2019-10-20T11:46:46.030602",
+                "updated": "2019-12-10T02:31:46.186703",
                 "url": "https://healthandjusticejournal.biomedcentral.com/track/pdf/10.1186/s40352-019-0092-y",
                 "url_for_landing_page": "https://doi.org/10.1186/s40352-019-0092-y",
                 "url_for_pdf": "https://healthandjusticejournal.biomedcentral.com/track/pdf/10.1186/s40352-019-0092-y",
@@ -8996,7 +9108,7 @@
                     "license": "cc-by",
                     "pmh_id": null,
                     "repository_institution": null,
-                    "updated": "2019-10-20T11:46:46.030602",
+                    "updated": "2019-12-10T02:31:46.186703",
                     "url": "https://healthandjusticejournal.biomedcentral.com/track/pdf/10.1186/s40352-019-0092-y",
                     "url_for_landing_page": "https://doi.org/10.1186/s40352-019-0092-y",
                     "url_for_pdf": "https://healthandjusticejournal.biomedcentral.com/track/pdf/10.1186/s40352-019-0092-y",
@@ -9010,7 +9122,7 @@
                     "license": "cc-by",
                     "pmh_id": null,
                     "repository_institution": null,
-                    "updated": "2019-12-02T16:51:31.978651",
+                    "updated": "2019-12-11T18:10:47.781679",
                     "url": "https://doi.org/10.1186/s40352-019-0092-y",
                     "url_for_landing_page": "https://doi.org/10.1186/s40352-019-0092-y",
                     "url_for_pdf": null,
@@ -9024,7 +9136,7 @@
                     "license": "cc-by",
                     "pmh_id": "oai:uknowledge.uky.edu:hsm_facpub-1014",
                     "repository_institution": "University of Kentucky - UKnowledge",
-                    "updated": "2019-11-26T09:06:33.986699",
+                    "updated": "2019-12-10T11:42:06.751730",
                     "url": "https://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1014&context=hsm_facpub",
                     "url_for_landing_page": "https://uknowledge.uky.edu/hsm_facpub/15",
                     "url_for_pdf": "https://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1014&context=hsm_facpub",
@@ -9038,7 +9150,7 @@
                     "license": null,
                     "pmh_id": null,
                     "repository_institution": null,
-                    "updated": "2019-12-02T16:51:31.978864",
+                    "updated": "2019-12-11T18:10:47.781898",
                     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6717968",
                     "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6717968",
                     "url_for_pdf": null,
@@ -9049,7 +9161,7 @@
             "published_date": "2019-06-28",
             "publisher": "Springer Science and Business Media LLC",
             "title": "The role of the community health delivery system in the health and well-being of justice-involved women: a narrative review",
-            "updated": "2019-10-31T17:43:15.850979",
+            "updated": "2019-12-10T02:32:32.195498",
             "year": 2019,
             "z_authors": [
                 {
