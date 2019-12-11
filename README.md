@@ -5,57 +5,88 @@ Manage the Rich Context knowledge graph.
 
 ## Installation
 
-First, use `virtualenv` to create a virtual environment in the
-subdirectory `venv` for Python 3.x as the target.
+First, there are two options for creating an environment.
 
-Then run:
+**Option 1:** use `virtualenv` to create a virtual environment with
+the local Python 3.x as the target binary.
+
+Then activate `virtualenv` and update your `pip` configuration:
 
 ```
 source venv/bin/activate
 pip install setuptools --upgrade
+```
+
+**Option 2:** use `conda` -- see
+<https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html>
+
+Second, clone the repo:
+
+```
+git clone https://github.com/NYU-CI/RCGraph.git
+```
+
+Third, connect into the directory and initialize the local Git
+configuration for the required submodules:
+
+```
+cd RCGraph
+git submodule init
+git submodule update
+git config status.submodulesummary 1
+```
+
+Given that foundation, load the dependencies:
+
+```
 pip install -r requirements.txt
 ```
 
-You'll need to set up your `rc.cfg` configuration file too.
-
-
-## Updates
-
-To update each of the submodules to their latest `master` branch
-commits, be sure to run:
-
-```
-git submodule update
-git pull
-```
-
-For more info about how to use Git submodules, see
-<https://github.blog/2016-02-01-working-with-submodules/> 
+Fourth, set up the local `rc.cfg` configuration file and run unit the
+tests (see below) to confirm that this project has been installed and
+configured properly.
 
 
 ## Submodules
 
-There are GitHub repos for each entity in the KG, linked here as submodules:
+There are Git repos for almost every entity in the KG, linked into
+this project as submodules:
 
-  * <https://github.com/NYU-CI/RCCustomers>
-  * <https://github.com/NYU-CI/RCDatasets>
-  * <https://github.com/NYU-CI/RCHuman>
-  * <https://github.com/NYU-CI/RCProjects>
-  * <https://github.com/NYU-CI/RCPublications>
-  * <https://github.com/NYU-CI/RCStewards>
+  - <https://github.com/NYU-CI/RCCustomers>
+  - <https://github.com/NYU-CI/RCDatasets>
+  - <https://github.com/NYU-CI/RCHuman>
+  - <https://github.com/NYU-CI/RCProjects>
+  - <https://github.com/NYU-CI/RCPublications>
+  - <https://github.com/NYU-CI/RCStewards>
 
-The RCLC leaderboard competition is also linked as a submodule, since
-it's a consumer from this repo for its corpus updates:
+The RCLC leaderboard competition is also linked as a submodule since
+it consumes from this repo for corpus updates:
 
-  * <https://github.com/Coleridge-Initiative/rclc.git>
+  - <https://github.com/Coleridge-Initiative/rclc.git>
+
+
+## Updates
+
+To update the submodules to their latest `HEAD` commit in `master`
+branch, connect into each submodule (subdirectory) and run:
+
+```
+git fetch
+git merge origin/master
+```
+
+For more info about how to use Git submodules, see:
+
+  - <https://git-scm.com/book/en/v2/Git-Tools-Submodules>
+  - <https://github.blog/2016-02-01-working-with-submodules/> 
 
 
 ## Workflow
 
 ### Initial Steps
 
-  * update `datasets.json` -- datasets are the foundation for the KG
-  * add a new partition of publication metadata for each data ingest
+  - update `datasets.json` -- datasets are the foundation for the KG
+  - add a new partition of publication metadata for each data ingest
 
 
 ### Step 1: Graph Consistency Tests
@@ -130,7 +161,10 @@ data quality issues later.
 See the `misses_step4.txt` file which reports the title of each
 publication that doesn't have a journal.
 
-NB: if you don't understand what this step performs, don't run it.
+**Caveats:**
+
+  - If you don't understand what this step performs, don't run it
+  - Do not make manual edits to the `journals.json` file
 
 
 ### Step 5: Reconcile Open Access PDFs
@@ -160,6 +194,15 @@ publications and datasets, then serializes the full output as TTL in
 python gen_ttl.py
 ```
 
-Afterwards, move/rename/test/commit the generated `tmp.*` files as a
-new release for the corpus repo
-<https://github.com/Coleridge-Initiative/rclc>
+Afterwards, move the generated `tmp.*` files into the RCLC repo, then
+rename and test them:
+
+```
+mv tmp.* rclc
+cd rclc
+python corpus.py tmp.ttl
+mv tmp.ttl corpus.ttl
+mv tmp.jsonld corpus.jsonld
+```
+
+Then commit and create a new tagged release for the corpus.
