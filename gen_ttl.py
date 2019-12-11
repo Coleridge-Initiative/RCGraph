@@ -19,6 +19,12 @@ PREAMBLE = """
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
 """
 
+TEMPLATE_JOURNAL = """
+:{}
+  rdf:type :Journal ;
+  dct:title "{}" ;
+"""
+
 TEMPLATE_DATASET = """
 :{}
   rdf:type :Dataset ;
@@ -31,13 +37,41 @@ TEMPLATE_PUBLICATION = """
 :{}
   rdf:type :ResearchPublication ;
   foaf:page "{}"^^xsd:anyURI ;
-  dct:publisher "{}" ;
+  dct:publisher :{} ;
   dct:title "{}" ;
   dct:identifier "{}" ;
   :openAccess "{}"^^xsd:anyURI ;
 """
 
 OVERRIDE = {}
+
+
+def load_journals (graph, out_buf):
+    """
+    load the journals
+    """
+    journals = {}
+
+    for j in graph.journals.known.values():
+        id_list = [ j["titles"][0] ]
+        j["hash"] = RCGraph.get_hash(id_list, prefix="journal-")
+        journals[j["id"]] = j
+
+    for id, j in journals.items():
+        out_buf.append(
+            TEMPLATE_JOURNAL.format(
+                j["hash"],
+                j["titles"][0],
+                ).strip()
+            )
+
+        if len(j["titles"]) > 1:
+            for title in j["titles"][1:]:
+                out_buf.append("  dct:alternative \"{}\" ;".format(title))
+
+        out_buf.append(".\n")
+
+    return journals
 
 
 def load_datasets (out_buf):
@@ -126,7 +160,7 @@ def iter_override_publications (override_path="human/manual/partitions/*.json"):
                 yield elem
 
 
-def load_publications (graph, out_buf, known_datasets):
+def load_publications (graph, out_buf, known_datasets, journals):
     """
     load publications, link to datasets, reshape metadata
     """
@@ -148,11 +182,13 @@ def load_publications (graph, out_buf, known_datasets):
                 sys.exit(0)
 
             # reshape the metadata for corpus output
+            journal_hash = journals[elem["journal"]]["hash"]
+
             out_buf.append(
                 TEMPLATE_PUBLICATION.format(
                     pub_id,
                     elem["url"],
-                    elem["journal"],
+                    journal_hash,
                     elem["title"],
                     elem["doi"],
                     elem["pdf"]
@@ -196,16 +232,18 @@ def write_corpus (out_buf, vocab_file="vocab.json"):
 
 if __name__ == "__main__":
 
-    ## 1. load the metadata for datasets and publications
+    ## 1. load the metadata for journals, datasets, publications
     ## 2. apply manually curated metadata as override per publication, if any
     ## 3. validate the linked data
     ## 4. format output for the corpus as both TTL and JSON-LD
 
     out_buf = [ PREAMBLE.lstrip() ]
-    known_datasets = load_datasets(out_buf)
 
     graph = RCGraph("step5")
     graph.journals.load_entities()
 
-    load_publications(graph, out_buf, known_datasets)
+    journals = load_journals(graph, out_buf)
+    known_datasets = load_datasets(out_buf)
+
+    load_publications(graph, out_buf, known_datasets, journals)
     write_corpus(out_buf)
