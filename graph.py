@@ -208,7 +208,15 @@ class RCGraph:
         enum_dict = {}
 
         for key in keys:
-            enum_dict[trans[key]] = (0 if key in ignores else lower_l.count(key))
+            if key in ignores:
+                enum_dict[trans[key]] = 0 
+            elif "html_ent glyph=" in key:
+                enum_dict[trans[key]] = 0 
+            elif "&amp;" in key:
+                enum_dict[trans[key]] = 0 
+            else:
+                enum_dict[trans[key]] = lower_l.count(key)
+
 
         return sorted(enum_dict.items(), key=operator.itemgetter(1), reverse=True)
 

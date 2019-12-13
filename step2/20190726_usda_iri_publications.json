@@ -223,7 +223,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417548.b",
-                    "name": "United States Department of Agriculture"
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1101248495",
@@ -334,14 +343,32 @@
                     "city_name": "Irvine",
                     "country_name": "United States",
                     "id": "grid.266093.8",
-                    "name": "University of California, Irvine"
+                    "latitude": 33.64535,
+                    "linkout": [
+                        "http://uci.edu/"
+                    ],
+                    "longitude": -117.84264,
+                    "name": "University of California, Irvine",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "ERS",
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.482913.5",
-                    "name": "Economic Research Service"
+                    "latitude": 38.88383,
+                    "linkout": [
+                        "https://www.ers.usda.gov/"
+                    ],
+                    "longitude": -77.01658,
+                    "name": "Economic Research Service",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "researchers": [
@@ -354,7 +381,7 @@
                     ]
                 }
             ],
-            "score": 23.702179,
+            "score": 23.695381,
             "supporting_grant_ids": null,
             "terms": [
                 "efforts",
@@ -666,7 +693,7 @@
             "date": "2016-10-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.ypmed.2016.08.018",
-            "field_citation_ratio": 4.15,
+            "field_citation_ratio": 4.14,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1025607272",
@@ -818,13 +845,23 @@
                     "city_name": "New Haven",
                     "country_name": "United States",
                     "id": "grid.47100.32",
-                    "name": "Yale University"
+                    "latitude": 41.302094,
+                    "linkout": [
+                        "http://www.yale.edu"
+                    ],
+                    "longitude": -72.93066,
+                    "name": "Yale University",
+                    "state_name": "Connecticut",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Falls Church",
                     "country_name": "United States",
                     "id": "grid.429534.d",
-                    "name": "Lewin Group"
+                    "name": "Lewin Group",
+                    "state_name": "Virginia"
                 }
             ],
             "researchers": [
@@ -847,7 +884,7 @@
                     ]
                 }
             ],
-            "score": 26.283327,
+            "score": 26.275522,
             "supporting_grant_ids": null,
             "terms": [
                 "Special Supplemental Nutrition Program",
@@ -1351,7 +1388,7 @@
             "date": "2015-05-11",
             "date_inserted": "2017-08-31",
             "doi": "10.1371/journal.pone.0124351",
-            "field_citation_ratio": 4.18,
+            "field_citation_ratio": 4.16,
             "funder_countries": [
                 {
                     "id": "US",
@@ -1364,7 +1401,16 @@
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.419681.3",
-                    "name": "National Institute of Allergy and Infectious Diseases"
+                    "latitude": 39.066647,
+                    "linkout": [
+                        "http://www.niaid.nih.gov/Pages/default.aspx"
+                    ],
+                    "longitude": -77.11183,
+                    "name": "National Institute of Allergy and Infectious Diseases",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1013245967",
@@ -1551,27 +1597,63 @@
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.419681.3",
-                    "name": "National Institute of Allergy and Infectious Diseases"
+                    "latitude": 39.066647,
+                    "linkout": [
+                        "http://www.niaid.nih.gov/Pages/default.aspx"
+                    ],
+                    "longitude": -77.11183,
+                    "name": "National Institute of Allergy and Infectious Diseases",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "acronym": "ARS",
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.463419.d",
-                    "name": "Agricultural Research Service"
+                    "latitude": 38.8885,
+                    "linkout": [
+                        "http://www.ars.usda.gov/main/main.htm"
+                    ],
+                    "longitude": -77.02999,
+                    "name": "Agricultural Research Service",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "city_name": "San Luis Obispo",
                     "country_name": "United States",
                     "id": "grid.253547.2",
-                    "name": "California Polytechnic State University"
+                    "latitude": 35.301666,
+                    "linkout": [
+                        "http://www.calpoly.edu/"
+                    ],
+                    "longitude": -120.65982,
+                    "name": "California Polytechnic State University",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "USPHS",
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417684.8",
-                    "name": "United States Public Health Service"
+                    "latitude": 38.919567,
+                    "linkout": [
+                        "http://www.usphs.gov/"
+                    ],
+                    "longitude": -77.029,
+                    "name": "United States Public Health Service",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "researchers": [
@@ -1616,7 +1698,7 @@
                     ]
                 }
             ],
-            "score": 20.051624,
+            "score": 20.046932,
             "supporting_grant_ids": null,
             "terms": [
                 "excessive alcohol consumption",
@@ -1959,7 +2041,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417548.b",
-                    "name": "United States Department of Agriculture"
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1100622570",
@@ -1994,50 +2085,50 @@
             "publisher": "Taylor & Francis",
             "recent_citations": 3,
             "reference_ids": [
-                "pub.1012130037",
+                "pub.1059570502",
                 "pub.1005313628",
-                "pub.1061936448",
                 "pub.1058528634",
-                "pub.1024358701",
                 "pub.1058573650",
+                "pub.1001932304",
+                "pub.1061936448",
+                "pub.1017671072",
+                "pub.1024061540",
                 "pub.1045621764",
-                "pub.1069659934",
+                "pub.1014100507",
+                "pub.1024358701",
                 "pub.1054921852",
                 "pub.1110903440",
-                "pub.1024061540",
-                "pub.1046728733",
-                "pub.1014100507",
-                "pub.1017671072",
-                "pub.1008872430",
-                "pub.1001932304",
-                "pub.1058253152",
                 "pub.1049490338",
+                "pub.1008872430",
+                "pub.1007717734",
+                "pub.1069659934",
+                "pub.1058253152",
                 "pub.1002235091",
-                "pub.1059570502",
-                "pub.1007717734"
+                "pub.1046728733",
+                "pub.1012130037"
             ],
             "references": [
-                "pub.1012130037",
+                "pub.1059570502",
                 "pub.1005313628",
-                "pub.1061936448",
                 "pub.1058528634",
-                "pub.1024358701",
                 "pub.1058573650",
+                "pub.1001932304",
+                "pub.1061936448",
+                "pub.1017671072",
+                "pub.1024061540",
                 "pub.1045621764",
-                "pub.1069659934",
+                "pub.1014100507",
+                "pub.1024358701",
                 "pub.1054921852",
                 "pub.1110903440",
-                "pub.1024061540",
-                "pub.1046728733",
-                "pub.1014100507",
-                "pub.1017671072",
-                "pub.1008872430",
-                "pub.1001932304",
-                "pub.1058253152",
                 "pub.1049490338",
+                "pub.1008872430",
+                "pub.1007717734",
+                "pub.1069659934",
+                "pub.1058253152",
                 "pub.1002235091",
-                "pub.1059570502",
-                "pub.1007717734"
+                "pub.1046728733",
+                "pub.1012130037"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -2079,13 +2170,31 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.482913.5",
-                    "name": "Economic Research Service"
+                    "latitude": 38.88383,
+                    "linkout": [
+                        "https://www.ers.usda.gov/"
+                    ],
+                    "longitude": -77.01658,
+                    "name": "Economic Research Service",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "city_name": "Durham",
                     "country_name": "United States",
                     "id": "grid.62562.35",
-                    "name": "RTI International"
+                    "latitude": 35.906586,
+                    "linkout": [
+                        "http://www.rti.org/"
+                    ],
+                    "longitude": -78.86394,
+                    "name": "RTI International",
+                    "state_name": "North Carolina",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 }
             ],
             "researchers": [
@@ -2109,7 +2218,7 @@
                     ]
                 }
             ],
-            "score": 24.580095,
+            "score": 24.569242,
             "supporting_grant_ids": null,
             "terms": [
                 "quality of data",
@@ -2454,7 +2563,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417548.b",
-                    "name": "United States Department of Agriculture"
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1110152836",
@@ -2559,7 +2677,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.463419.d",
-                    "name": "Agricultural Research Service"
+                    "latitude": 38.8885,
+                    "linkout": [
+                        "http://www.ars.usda.gov/main/main.htm"
+                    ],
+                    "longitude": -77.02999,
+                    "name": "Agricultural Research Service",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "researchers": [
@@ -2574,7 +2701,7 @@
                     ]
                 }
             ],
-            "score": 25.165163,
+            "score": 25.159407,
             "supporting_grant_ids": null,
             "terms": [
                 "USA",
@@ -2948,7 +3075,7 @@
             ],
             "research_orgs": null,
             "researchers": null,
-            "score": 16.256973,
+            "score": 16.24888,
             "supporting_grant_ids": null,
             "terms": [
                 "article",
@@ -3217,7 +3344,7 @@
             "date": "2016-06-01",
             "date_inserted": "2017-08-31",
             "doi": "10.3168/jds.2015-10410",
-            "field_citation_ratio": 1.49,
+            "field_citation_ratio": 1.47,
             "funder_countries": [
                 {
                     "id": "US",
@@ -3230,14 +3357,32 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.482914.2",
-                    "name": "National Institute of Food and Agriculture"
+                    "latitude": 38.880623,
+                    "linkout": [
+                        "https://nifa.usda.gov/"
+                    ],
+                    "longitude": -77.02424,
+                    "name": "National Institute of Food and Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "USDA",
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417548.b",
-                    "name": "United States Department of Agriculture"
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1049283008",
@@ -3360,13 +3505,31 @@
                     "city_name": "Laramie",
                     "country_name": "United States",
                     "id": "grid.135963.b",
-                    "name": "University of Wyoming"
+                    "latitude": 41.313057,
+                    "linkout": [
+                        "http://www.uwyo.edu/"
+                    ],
+                    "longitude": -105.58139,
+                    "name": "University of Wyoming",
+                    "state_name": "Wyoming",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Minneapolis",
                     "country_name": "United States",
                     "id": "grid.17635.36",
-                    "name": "University of Minnesota"
+                    "latitude": 44.974194,
+                    "linkout": [
+                        "http://twin-cities.umn.edu/"
+                    ],
+                    "longitude": -93.22776,
+                    "name": "University of Minnesota",
+                    "state_name": "Minnesota",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -3389,7 +3552,7 @@
                     ]
                 }
             ],
-            "score": 19.051441,
+            "score": 19.052803,
             "supporting_grant_ids": [
                 "grant.3827387"
             ],
@@ -3557,7 +3720,7 @@
             "date": "2016-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1093/erae/jbv032",
-            "field_citation_ratio": 1.59,
+            "field_citation_ratio": 1.57,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1059570493",
@@ -3668,7 +3831,7 @@
                     ]
                 }
             ],
-            "score": 20.208807,
+            "score": 20.20899,
             "supporting_grant_ids": null,
             "terms": [
                 "consumer welfare",
@@ -3906,76 +4069,76 @@
             "publisher": "Oxford University Press (OUP)",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1049283008",
-                "pub.1107282951",
-                "pub.1044840988",
-                "pub.1027230162",
-                "pub.1047852416",
-                "pub.1008940044",
-                "pub.1027092223",
-                "pub.1064525633",
-                "pub.1029048240",
-                "pub.1018792308",
-                "pub.1028461414",
                 "pub.1000120024",
-                "pub.1032496801",
-                "pub.1090323199",
-                "pub.1021599152",
-                "pub.1040964871",
-                "pub.1070145711",
-                "pub.1064712856",
-                "pub.1069651300",
-                "pub.1047841409",
-                "pub.1070145884",
-                "pub.1051861051",
-                "pub.1050346116",
-                "pub.1059783716",
-                "pub.1061833760",
-                "pub.1022037067",
-                "pub.1021569442",
-                "pub.1008957798",
-                "pub.1028977375",
-                "pub.1117143142",
-                "pub.1052987443",
+                "pub.1009905055",
                 "pub.1028263557",
+                "pub.1008957798",
+                "pub.1107282951",
+                "pub.1117143142",
+                "pub.1047841409",
+                "pub.1027092223",
+                "pub.1061833760",
+                "pub.1028461414",
+                "pub.1040964871",
+                "pub.1008940044",
+                "pub.1069651300",
+                "pub.1027230162",
                 "pub.1058751402",
-                "pub.1009905055"
+                "pub.1052987443",
+                "pub.1051861051",
+                "pub.1049283008",
+                "pub.1047852416",
+                "pub.1050346116",
+                "pub.1028977375",
+                "pub.1018792308",
+                "pub.1090323199",
+                "pub.1070145711",
+                "pub.1032496801",
+                "pub.1021599152",
+                "pub.1070145884",
+                "pub.1064525633",
+                "pub.1021569442",
+                "pub.1064712856",
+                "pub.1059783716",
+                "pub.1022037067",
+                "pub.1029048240",
+                "pub.1044840988"
             ],
             "references": [
-                "pub.1049283008",
-                "pub.1107282951",
-                "pub.1044840988",
-                "pub.1027230162",
-                "pub.1047852416",
-                "pub.1008940044",
-                "pub.1027092223",
-                "pub.1064525633",
-                "pub.1029048240",
-                "pub.1018792308",
-                "pub.1028461414",
                 "pub.1000120024",
-                "pub.1032496801",
-                "pub.1090323199",
-                "pub.1021599152",
-                "pub.1040964871",
-                "pub.1070145711",
-                "pub.1064712856",
-                "pub.1069651300",
-                "pub.1047841409",
-                "pub.1070145884",
-                "pub.1051861051",
-                "pub.1050346116",
-                "pub.1059783716",
-                "pub.1061833760",
-                "pub.1022037067",
-                "pub.1021569442",
-                "pub.1008957798",
-                "pub.1028977375",
-                "pub.1117143142",
-                "pub.1052987443",
+                "pub.1009905055",
                 "pub.1028263557",
+                "pub.1008957798",
+                "pub.1107282951",
+                "pub.1117143142",
+                "pub.1047841409",
+                "pub.1027092223",
+                "pub.1061833760",
+                "pub.1028461414",
+                "pub.1040964871",
+                "pub.1008940044",
+                "pub.1069651300",
+                "pub.1027230162",
                 "pub.1058751402",
-                "pub.1009905055"
+                "pub.1052987443",
+                "pub.1051861051",
+                "pub.1049283008",
+                "pub.1047852416",
+                "pub.1050346116",
+                "pub.1028977375",
+                "pub.1018792308",
+                "pub.1090323199",
+                "pub.1070145711",
+                "pub.1032496801",
+                "pub.1021599152",
+                "pub.1070145884",
+                "pub.1064525633",
+                "pub.1021569442",
+                "pub.1064712856",
+                "pub.1059783716",
+                "pub.1022037067",
+                "pub.1029048240",
+                "pub.1044840988"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -4025,21 +4188,48 @@
                     "city_name": "Minneapolis",
                     "country_name": "United States",
                     "id": "grid.17635.36",
-                    "name": "University of Minnesota"
+                    "latitude": 44.974194,
+                    "linkout": [
+                        "http://twin-cities.umn.edu/"
+                    ],
+                    "longitude": -93.22776,
+                    "name": "University of Minnesota",
+                    "state_name": "Minnesota",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "USDA",
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417548.b",
-                    "name": "United States Department of Agriculture"
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "UW",
                     "city_name": "Laramie",
                     "country_name": "United States",
                     "id": "grid.135963.b",
-                    "name": "University of Wyoming"
+                    "latitude": 41.313057,
+                    "linkout": [
+                        "http://www.uwyo.edu/"
+                    ],
+                    "longitude": -105.58139,
+                    "name": "University of Wyoming",
+                    "state_name": "Wyoming",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -4062,7 +4252,7 @@
                     ]
                 }
             ],
-            "score": 18.318563,
+            "score": 18.319277,
             "supporting_grant_ids": null,
             "terms": [
                 "relationship",
@@ -4466,14 +4656,32 @@
                     "city_name": "State College",
                     "country_name": "United States",
                     "id": "grid.29857.31",
-                    "name": "Pennsylvania State University"
+                    "latitude": 40.79845,
+                    "linkout": [
+                        "http://www.psu.edu/"
+                    ],
+                    "longitude": -77.85993,
+                    "name": "Pennsylvania State University",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "ASU",
                     "city_name": "Tempe",
                     "country_name": "United States",
                     "id": "grid.215654.1",
-                    "name": "Arizona State University"
+                    "latitude": 33.417194,
+                    "linkout": [
+                        "http://www.asu.edu/"
+                    ],
+                    "longitude": -111.93651,
+                    "name": "Arizona State University",
+                    "state_name": "Arizona",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -4496,7 +4704,7 @@
                     ]
                 }
             ],
-            "score": 25.918758,
+            "score": 25.92853,
             "supporting_grant_ids": null,
             "terms": [
                 "food access",
@@ -4985,7 +5193,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.482913.5",
-                    "name": "Economic Research Service"
+                    "latitude": 38.88383,
+                    "linkout": [
+                        "https://www.ers.usda.gov/"
+                    ],
+                    "longitude": -77.01658,
+                    "name": "Economic Research Service",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "researchers": [
@@ -5022,7 +5239,7 @@
                     ]
                 }
             ],
-            "score": 17.767847,
+            "score": 17.763449,
             "supporting_grant_ids": null,
             "terms": [
                 "diet",
@@ -5438,7 +5655,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417548.b",
-                    "name": "United States Department of Agriculture"
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1105572664",
@@ -5474,52 +5700,52 @@
             "publisher": "SAGE Publications",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1034167124",
-                "pub.1020030521",
-                "pub.1008832731",
-                "pub.1048825320",
-                "pub.1024642627",
-                "pub.1003367470",
-                "pub.1027745371",
-                "pub.1042828085",
-                "pub.1019045693",
-                "pub.1034492150",
-                "pub.1004885949",
-                "pub.1059380331",
                 "pub.1002604954",
-                "pub.1051886435",
-                "pub.1048040900",
-                "pub.1028221300",
-                "pub.1038157134",
-                "pub.1053217847",
-                "pub.1051642205",
-                "pub.1102280525",
                 "pub.1068848230",
-                "pub.1059380037"
+                "pub.1053217847",
+                "pub.1024642627",
+                "pub.1020030521",
+                "pub.1034492150",
+                "pub.1027745371",
+                "pub.1048825320",
+                "pub.1004885949",
+                "pub.1019045693",
+                "pub.1042828085",
+                "pub.1059380037",
+                "pub.1051886435",
+                "pub.1059380331",
+                "pub.1028221300",
+                "pub.1008832731",
+                "pub.1102280525",
+                "pub.1034167124",
+                "pub.1003367470",
+                "pub.1051642205",
+                "pub.1048040900",
+                "pub.1038157134"
             ],
             "references": [
-                "pub.1034167124",
-                "pub.1020030521",
-                "pub.1008832731",
-                "pub.1048825320",
-                "pub.1024642627",
-                "pub.1003367470",
-                "pub.1027745371",
-                "pub.1042828085",
-                "pub.1019045693",
-                "pub.1034492150",
-                "pub.1004885949",
-                "pub.1059380331",
                 "pub.1002604954",
-                "pub.1051886435",
-                "pub.1048040900",
-                "pub.1028221300",
-                "pub.1038157134",
-                "pub.1053217847",
-                "pub.1051642205",
-                "pub.1102280525",
                 "pub.1068848230",
-                "pub.1059380037"
+                "pub.1053217847",
+                "pub.1024642627",
+                "pub.1020030521",
+                "pub.1034492150",
+                "pub.1027745371",
+                "pub.1048825320",
+                "pub.1004885949",
+                "pub.1019045693",
+                "pub.1042828085",
+                "pub.1059380037",
+                "pub.1051886435",
+                "pub.1059380331",
+                "pub.1028221300",
+                "pub.1008832731",
+                "pub.1102280525",
+                "pub.1034167124",
+                "pub.1003367470",
+                "pub.1051642205",
+                "pub.1048040900",
+                "pub.1038157134"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -5570,20 +5796,47 @@
                     "city_name": "State College",
                     "country_name": "United States",
                     "id": "grid.29857.31",
-                    "name": "Pennsylvania State University"
+                    "latitude": 40.79845,
+                    "linkout": [
+                        "http://www.psu.edu/"
+                    ],
+                    "longitude": -77.85993,
+                    "name": "Pennsylvania State University",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "SHSU",
                     "city_name": "Huntsville",
                     "country_name": "United States",
                     "id": "grid.263046.5",
-                    "name": "Sam Houston State University"
+                    "latitude": 30.713888,
+                    "linkout": [
+                        "http://www.shsu.edu/"
+                    ],
+                    "longitude": -95.54722,
+                    "name": "Sam Houston State University",
+                    "state_name": "Texas",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "San Luis Obispo",
                     "country_name": "United States",
                     "id": "grid.253547.2",
-                    "name": "California Polytechnic State University"
+                    "latitude": 35.301666,
+                    "linkout": [
+                        "http://www.calpoly.edu/"
+                    ],
+                    "longitude": -120.65982,
+                    "name": "California Polytechnic State University",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -5617,7 +5870,7 @@
                     ]
                 }
             ],
-            "score": 21.482824,
+            "score": 21.474361,
             "supporting_grant_ids": null,
             "terms": [
                 "growth of food",
@@ -5951,7 +6204,7 @@
             "date": "2016-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1111/agec.12222",
-            "field_citation_ratio": 2.38,
+            "field_citation_ratio": 2.36,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1051767874",
@@ -6069,14 +6322,32 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.482913.5",
-                    "name": "Economic Research Service"
+                    "latitude": 38.88383,
+                    "linkout": [
+                        "https://www.ers.usda.gov/"
+                    ],
+                    "longitude": -77.01658,
+                    "name": "Economic Research Service",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "NMSU",
                     "city_name": "Las Cruces",
                     "country_name": "United States",
                     "id": "grid.24805.3b",
-                    "name": "New Mexico State University"
+                    "latitude": 32.28164,
+                    "linkout": [
+                        "http://www.nmsu.edu/"
+                    ],
+                    "longitude": -106.75365,
+                    "name": "New Mexico State University",
+                    "state_name": "New Mexico",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -6117,7 +6388,7 @@
                     ]
                 }
             ],
-            "score": 21.603151,
+            "score": 21.603268,
             "supporting_grant_ids": null,
             "terms": [
                 "vector error correction model",

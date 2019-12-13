@@ -31,12 +31,12 @@
             ],
             "RCDC": [
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
                     "id": "497",
                     "name": "Basic Behavioral and Social Science"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
             "altmetric": null,
@@ -132,12 +132,12 @@
             "category_icrp_ct": null,
             "category_rcdc": [
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
                     "id": "497",
                     "name": "Basic Behavioral and Social Science"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
             "category_ua": [
@@ -222,7 +222,31 @@
                 "PubMed"
             ],
             "linkout": null,
-            "mesh_terms": null,
+            "mesh_terms": [
+                "Adolescent",
+                "Adult",
+                "Aged",
+                "Aged, 80 and over",
+                "Cost of Illness",
+                "Delivery of Health Care",
+                "Disabled Persons",
+                "Employment",
+                "Ethnic Groups",
+                "Female",
+                "Health Equity",
+                "Health Status",
+                "Health Status Disparities",
+                "Humans",
+                "Income",
+                "Male",
+                "Marital Status",
+                "Middle Aged",
+                "Patient Acceptance of Health Care",
+                "Surveys and Questionnaires",
+                "Time",
+                "United States",
+                "Young Adult"
+            ],
             "open_access": null,
             "open_access_categories": [
                 {
@@ -238,72 +262,72 @@
             "publisher": "Elsevier",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1043954983",
-                "pub.1051268297",
-                "pub.1068847405",
-                "pub.1044808666",
-                "pub.1041687135",
-                "pub.1015259818",
-                "pub.1010943853",
-                "pub.1078965093",
-                "pub.1045674939",
-                "pub.1030989893",
-                "pub.1021743030",
-                "pub.1064753051",
-                "pub.1026159729",
-                "pub.1025846607",
-                "pub.1049157361",
-                "pub.1079137712",
                 "pub.1024112477",
-                "pub.1048111871",
-                "pub.1103362840",
-                "pub.1030488857",
-                "pub.1085217571",
+                "pub.1026159729",
                 "pub.1043958883",
-                "pub.1043344352",
-                "pub.1068568887",
-                "pub.1039538583",
-                "pub.1001453292",
-                "pub.1025234805",
+                "pub.1068847405",
                 "pub.1003396891",
-                "pub.1063924487",
-                "pub.1013369269",
+                "pub.1044808666",
                 "pub.1013455545",
-                "pub.1082824080"
+                "pub.1001453292",
+                "pub.1045674939",
+                "pub.1078965093",
+                "pub.1103362840",
+                "pub.1030989893",
+                "pub.1013369269",
+                "pub.1048111871",
+                "pub.1049157361",
+                "pub.1051268297",
+                "pub.1064753051",
+                "pub.1085217571",
+                "pub.1043954983",
+                "pub.1015259818",
+                "pub.1030488857",
+                "pub.1079137712",
+                "pub.1082824080",
+                "pub.1043344352",
+                "pub.1063924487",
+                "pub.1041687135",
+                "pub.1010943853",
+                "pub.1025846607",
+                "pub.1068568887",
+                "pub.1021743030",
+                "pub.1025234805",
+                "pub.1039538583"
             ],
             "references": [
-                "pub.1043954983",
-                "pub.1051268297",
-                "pub.1068847405",
-                "pub.1044808666",
-                "pub.1041687135",
-                "pub.1015259818",
-                "pub.1010943853",
-                "pub.1078965093",
-                "pub.1045674939",
-                "pub.1030989893",
-                "pub.1021743030",
-                "pub.1064753051",
-                "pub.1026159729",
-                "pub.1025846607",
-                "pub.1049157361",
-                "pub.1079137712",
                 "pub.1024112477",
-                "pub.1048111871",
-                "pub.1103362840",
-                "pub.1030488857",
-                "pub.1085217571",
+                "pub.1026159729",
                 "pub.1043958883",
-                "pub.1043344352",
-                "pub.1068568887",
-                "pub.1039538583",
-                "pub.1001453292",
-                "pub.1025234805",
+                "pub.1068847405",
                 "pub.1003396891",
-                "pub.1063924487",
-                "pub.1013369269",
+                "pub.1044808666",
                 "pub.1013455545",
-                "pub.1082824080"
+                "pub.1001453292",
+                "pub.1045674939",
+                "pub.1078965093",
+                "pub.1103362840",
+                "pub.1030989893",
+                "pub.1013369269",
+                "pub.1048111871",
+                "pub.1049157361",
+                "pub.1051268297",
+                "pub.1064753051",
+                "pub.1085217571",
+                "pub.1043954983",
+                "pub.1015259818",
+                "pub.1030488857",
+                "pub.1079137712",
+                "pub.1082824080",
+                "pub.1043344352",
+                "pub.1063924487",
+                "pub.1041687135",
+                "pub.1010943853",
+                "pub.1025846607",
+                "pub.1068568887",
+                "pub.1021743030",
+                "pub.1025234805",
+                "pub.1039538583"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -336,7 +360,16 @@
                     "city_name": "Stony Brook",
                     "country_name": "United States",
                     "id": "grid.36425.36",
-                    "name": "Stony Brook University"
+                    "latitude": 40.914223,
+                    "linkout": [
+                        "http://www.stonybrook.edu/"
+                    ],
+                    "longitude": -73.11623,
+                    "name": "Stony Brook University",
+                    "state_name": "New York",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -354,7 +387,7 @@
                     ]
                 }
             ],
-            "score": 18.490335,
+            "score": 18.480967,
             "supporting_grant_ids": null,
             "terms": [
                 "population-level estimates",
@@ -509,6 +542,45 @@
         "datasets": [
             "dataset-051"
         ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "name": {
+                            "first": "Carrie L.",
+                            "last": "Shandra"
+                        },
+                        "orcid": "0000-0003-0901-0750"
+                    }
+                ],
+                "classification": "OK",
+                "date": "2019-07-01",
+                "records": [
+                    {
+                        "doi": "10.1016/j.dhjo.2019.01.011",
+                        "identifier": "oai:crossref.org:10.1016/j.dhjo.2019.01.011",
+                        "issn": "1936-6574",
+                        "issue": "3",
+                        "journal": "Disability and Health Journal",
+                        "pages": "394-402",
+                        "policy": {
+                            "postprint": "can",
+                            "preprint": "can",
+                            "published": "cannot",
+                            "romeo_id": "30"
+                        },
+                        "publisher": "Elsevier BV",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.1016/j.dhjo.2019.01.011",
+                        "type": "article-journal",
+                        "volume": "12"
+                    }
+                ],
+                "title": "Disability, self-rated health, and time seeking medical care",
+                "type": "other"
+            },
+            "status": "ok"
+        },
         "doi": "10.1016/j.dhjo.2019.01.011",
         "original": {
             "URL": "https://www.sciencedirect.com/science/article/pii/S1936657419300275",
@@ -713,20 +785,47 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417548.b",
-                    "name": "United States Department of Agriculture"
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "NIFA",
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.482914.2",
-                    "name": "National Institute of Food and Agriculture"
+                    "latitude": 38.880623,
+                    "linkout": [
+                        "https://nifa.usda.gov/"
+                    ],
+                    "longitude": -77.02424,
+                    "name": "National Institute of Food and Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "city_name": "Blacksburg",
                     "country_name": "United States",
                     "id": "grid.438526.e",
-                    "name": "Virginia Tech"
+                    "latitude": 37.22001,
+                    "linkout": [
+                        "https://www.vt.edu/about/index.html"
+                    ],
+                    "longitude": -80.42409,
+                    "name": "Virginia Tech",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "id": "pub.1100790625",
@@ -762,67 +861,67 @@
             "recent_citations": null,
             "reference_ids": [
                 "pub.1069843051",
-                "pub.1011827098",
-                "pub.1005910786",
                 "pub.1025577017",
-                "pub.1022165695",
-                "pub.1000863940",
-                "pub.1039987860",
-                "pub.1019628055",
-                "pub.1041974808",
-                "pub.1061933571",
-                "pub.1047218364",
-                "pub.1023398521",
-                "pub.1032439457",
-                "pub.1008383064",
-                "pub.1006867671",
-                "pub.1001916955",
-                "pub.1036752115",
                 "pub.1008926058",
-                "pub.1022157959",
-                "pub.1000490995",
-                "pub.1109732122",
+                "pub.1041974808",
                 "pub.1006305309",
-                "pub.1013790075",
-                "pub.1010085964",
-                "pub.1041904252",
                 "pub.1036078457",
+                "pub.1023398521",
+                "pub.1006867671",
+                "pub.1102715901",
+                "pub.1061933571",
+                "pub.1013790075",
+                "pub.1011827098",
+                "pub.1022157959",
+                "pub.1008383064",
+                "pub.1041904252",
+                "pub.1047218364",
                 "pub.1042334302",
+                "pub.1019628055",
+                "pub.1010085964",
+                "pub.1001916955",
+                "pub.1032439457",
                 "pub.1037183051",
+                "pub.1022165695",
+                "pub.1039987860",
+                "pub.1036752115",
+                "pub.1109732122",
                 "pub.1041778442",
-                "pub.1102715901"
+                "pub.1005910786",
+                "pub.1000863940",
+                "pub.1000490995"
             ],
             "references": [
                 "pub.1069843051",
-                "pub.1011827098",
-                "pub.1005910786",
                 "pub.1025577017",
-                "pub.1022165695",
-                "pub.1000863940",
-                "pub.1039987860",
-                "pub.1019628055",
-                "pub.1041974808",
-                "pub.1061933571",
-                "pub.1047218364",
-                "pub.1023398521",
-                "pub.1032439457",
-                "pub.1008383064",
-                "pub.1006867671",
-                "pub.1001916955",
-                "pub.1036752115",
                 "pub.1008926058",
-                "pub.1022157959",
-                "pub.1000490995",
-                "pub.1109732122",
+                "pub.1041974808",
                 "pub.1006305309",
-                "pub.1013790075",
-                "pub.1010085964",
-                "pub.1041904252",
                 "pub.1036078457",
+                "pub.1023398521",
+                "pub.1006867671",
+                "pub.1102715901",
+                "pub.1061933571",
+                "pub.1013790075",
+                "pub.1011827098",
+                "pub.1022157959",
+                "pub.1008383064",
+                "pub.1041904252",
+                "pub.1047218364",
                 "pub.1042334302",
+                "pub.1019628055",
+                "pub.1010085964",
+                "pub.1001916955",
+                "pub.1032439457",
                 "pub.1037183051",
+                "pub.1022165695",
+                "pub.1039987860",
+                "pub.1036752115",
+                "pub.1109732122",
                 "pub.1041778442",
-                "pub.1102715901"
+                "pub.1005910786",
+                "pub.1000863940",
+                "pub.1000490995"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -854,7 +953,16 @@
                     "city_name": "Blacksburg",
                     "country_name": "United States",
                     "id": "grid.438526.e",
-                    "name": "Virginia Tech"
+                    "latitude": 37.22001,
+                    "linkout": [
+                        "https://www.vt.edu/about/index.html"
+                    ],
+                    "longitude": -80.42409,
+                    "name": "Virginia Tech",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -879,7 +987,7 @@
                     ]
                 }
             ],
-            "score": 22.165722,
+            "score": 22.152493,
             "supporting_grant_ids": null,
             "terms": [
                 "intrahousehold resource allocation",
@@ -1356,7 +1464,16 @@
                     "city_name": "Baltimore",
                     "country_name": "United States",
                     "id": "grid.419475.a",
-                    "name": "National Institute on Aging"
+                    "latitude": 39.003796,
+                    "linkout": [
+                        "https://www.nia.nih.gov/"
+                    ],
+                    "longitude": -77.101166,
+                    "name": "National Institute on Aging",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1109889182",
@@ -1550,21 +1667,48 @@
                     "city_name": "La Verne",
                     "country_name": "United States",
                     "id": "grid.266583.c",
-                    "name": "University of La Verne"
+                    "latitude": 34.09963,
+                    "linkout": [
+                        "https://laverne.edu/"
+                    ],
+                    "longitude": -117.77216,
+                    "name": "University of La Verne",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "PSU",
                     "city_name": "State College",
                     "country_name": "United States",
                     "id": "grid.29857.31",
-                    "name": "Pennsylvania State University"
+                    "latitude": 40.79845,
+                    "linkout": [
+                        "http://www.psu.edu/"
+                    ],
+                    "longitude": -77.85993,
+                    "name": "Pennsylvania State University",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UCD",
                     "city_name": "Denver",
                     "country_name": "United States",
                     "id": "grid.241116.1",
-                    "name": "University of Colorado Denver"
+                    "latitude": 39.74327,
+                    "linkout": [
+                        "http://www.ucdenver.edu/pages/ucdwelcomepage.aspx"
+                    ],
+                    "longitude": -105.00311,
+                    "name": "University of Colorado Denver",
+                    "state_name": "Colorado",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -1599,7 +1743,7 @@
                     ]
                 }
             ],
-            "score": 20.408468,
+            "score": 20.40573,
             "supporting_grant_ids": [
                 "grant.2448891"
             ],
@@ -2059,72 +2203,6 @@
         "datasets": [
             "dataset-051"
         ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "name": {
-                            "first": "Bernadette P.",
-                            "last": "Marriott"
-                        },
-                        "orcid": "0000-0002-1250-4949"
-                    },
-                    {
-                        "affiliation": "Medical University of South Carolina; Charleston South Carolina USA",
-                        "name": {
-                            "first": "Kelly J.",
-                            "last": "Hunt"
-                        }
-                    },
-                    {
-                        "affiliation": "Medical University of South Carolina; Charleston South Carolina USA",
-                        "name": {
-                            "first": "Angela M.",
-                            "last": "Malek"
-                        }
-                    },
-                    {
-                        "affiliation": "PepsiCo R&D, PepsiCo, Inc.; Purchase New York USA",
-                        "name": {
-                            "first": "John V.",
-                            "last": "St. Peter"
-                        }
-                    },
-                    {
-                        "affiliation": "PepsiCo R&D, PepsiCo, Inc.; Purchase New York USA",
-                        "name": {
-                            "first": "Danielle",
-                            "last": "Greenberg"
-                        }
-                    }
-                ],
-                "classification": "OK",
-                "date": "2018-10-01",
-                "records": [
-                    {
-                        "doi": "10.1002/oby.22261",
-                        "identifier": "oai:crossref.org:10.1002/oby.22261",
-                        "issn": "1930-7381",
-                        "journal": "Obesity",
-                        "pages": "S5-S8",
-                        "policy": {
-                            "postprint": "restricted",
-                            "preprint": "can",
-                            "published": "cannot",
-                            "romeo_id": "2050"
-                        },
-                        "publisher": "Wiley",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1002/oby.22261",
-                        "type": "article-journal",
-                        "volume": "26"
-                    }
-                ],
-                "title": "Low-Calorie Sweeteners: Exploring Underutilized Database Resources to Understand Dietary Patterns and Obesity: Low-Calorie Sweeteners and Dietary Patterns",
-                "type": "other"
-            },
-            "status": "ok"
-        },
         "doi": "10.1002/oby.22261",
         "original": {
             "URL": "https://onlinelibrary.wiley.com/doi/full/10.1002/oby.22261?af=R",
@@ -2360,52 +2438,52 @@
             "publisher": "Elsevier",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1030495097",
-                "pub.1008996326",
-                "pub.1027474247",
-                "pub.1014480866",
-                "pub.1069639794",
-                "pub.1035259483",
-                "pub.1061933860",
-                "pub.1058573803",
-                "pub.1070139880",
-                "pub.1058575306",
-                "pub.1005250718",
+                "pub.1058640343",
                 "pub.1064527622",
-                "pub.1009314263",
-                "pub.1030944841",
-                "pub.1060004764",
+                "pub.1058573803",
+                "pub.1030495097",
                 "pub.1015319969",
-                "pub.1064528039",
-                "pub.1036752115",
+                "pub.1035259483",
+                "pub.1005250718",
+                "pub.1070139880",
+                "pub.1008996326",
+                "pub.1069639794",
+                "pub.1014480866",
+                "pub.1060004764",
+                "pub.1030944841",
                 "pub.1023740837",
+                "pub.1058575306",
+                "pub.1061933860",
+                "pub.1064528039",
                 "pub.1064528029",
-                "pub.1028420340",
-                "pub.1058640343"
+                "pub.1036752115",
+                "pub.1027474247",
+                "pub.1009314263",
+                "pub.1028420340"
             ],
             "references": [
-                "pub.1030495097",
-                "pub.1008996326",
-                "pub.1027474247",
-                "pub.1014480866",
-                "pub.1069639794",
-                "pub.1035259483",
-                "pub.1061933860",
-                "pub.1058573803",
-                "pub.1070139880",
-                "pub.1058575306",
-                "pub.1005250718",
+                "pub.1058640343",
                 "pub.1064527622",
-                "pub.1009314263",
-                "pub.1030944841",
-                "pub.1060004764",
+                "pub.1058573803",
+                "pub.1030495097",
                 "pub.1015319969",
-                "pub.1064528039",
-                "pub.1036752115",
+                "pub.1035259483",
+                "pub.1005250718",
+                "pub.1070139880",
+                "pub.1008996326",
+                "pub.1069639794",
+                "pub.1014480866",
+                "pub.1060004764",
+                "pub.1030944841",
                 "pub.1023740837",
+                "pub.1058575306",
+                "pub.1061933860",
+                "pub.1064528039",
                 "pub.1064528029",
-                "pub.1028420340",
-                "pub.1058640343"
+                "pub.1036752115",
+                "pub.1027474247",
+                "pub.1009314263",
+                "pub.1028420340"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -2436,7 +2514,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 20.20162,
+            "score": 20.204254,
             "supporting_grant_ids": null,
             "terms": [
                 "impact",
@@ -2560,6 +2638,46 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "3228861",
+                            "name": "Christopher J Ruhm",
+                            "url": "https://www.semanticscholar.org/author/3228861"
+                        }
+                    ],
+                    "doi": "10.1016/j.jhealeco.2012.07.004",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "40a29fb2d02dca8007651ba14ca146185a0f0a4e",
+                    "title": "Understanding overeating and obesity.",
+                    "url": "https://www.semanticscholar.org/paper/40a29fb2d02dca8007651ba14ca146185a0f0a4e",
+                    "venue": "Journal of health economics",
+                    "year": 2010
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "2120969",
+                            "name": "Pierre-Andre Chiappori",
+                            "url": "https://www.semanticscholar.org/author/2120969"
+                        }
+                    ],
+                    "doi": "10.1086/261825",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "ef1d104db962c2a8d15ab9112aaf9ca2faab43bc",
+                    "title": "Collective Labor Supply and Welfare",
+                    "url": "https://www.semanticscholar.org/paper/ef1d104db962c2a8d15ab9112aaf9ca2faab43bc",
+                    "venue": "",
+                    "year": 1992
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "145105952",
                             "name": "Gerard van den Berg",
                             "url": "https://www.semanticscholar.org/author/145105952"
@@ -2583,6 +2701,61 @@
                     "url": "https://www.semanticscholar.org/paper/ea1ad8909bc243a893c71a5505b9313db5a25842",
                     "venue": "",
                     "year": 2014
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "145835765",
+                            "name": "D Dimeglio",
+                            "url": "https://www.semanticscholar.org/author/145835765"
+                        },
+                        {
+                            "authorId": "152128524",
+                            "name": "R D Mattes",
+                            "url": "https://www.semanticscholar.org/author/152128524"
+                        }
+                    ],
+                    "doi": "10.1038/sj.ijo.0801229",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "28a10f88855ac10793eb14fdbf90a1c8ef05f448",
+                    "title": "Liquid versus solid carbohydrate: effects on food intake and body weight",
+                    "url": "https://www.semanticscholar.org/paper/28a10f88855ac10793eb14fdbf90a1c8ef05f448",
+                    "venue": "International Journal of Obesity",
+                    "year": 2000
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1944106",
+                            "name": "Matthias B. Schulze",
+                            "url": "https://www.semanticscholar.org/author/1944106"
+                        },
+                        {
+                            "authorId": "3988124",
+                            "name": "Joann E. Manson",
+                            "url": "https://www.semanticscholar.org/author/3988124"
+                        },
+                        {
+                            "authorId": "5357296",
+                            "name": "David S Ludwig",
+                            "url": "https://www.semanticscholar.org/author/5357296"
+                        }
+                    ],
+                    "doi": "10.1016/j.accreview.2004.10.018",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "d77402891c5c190a758403649aef8e5ac347746a",
+                    "title": "Sugar-sweetened beverages, weight gain, and incidence of type 2 diabetes in young and middle-aged women",
+                    "url": "https://www.semanticscholar.org/paper/d77402891c5c190a758403649aef8e5ac347746a",
+                    "venue": "",
+                    "year": 2004
                 },
                 {
                     "arxivId": null,
@@ -2636,127 +2809,65 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "2120969",
-                            "name": "Pierre-Andre Chiappori",
-                            "url": "https://www.semanticscholar.org/author/2120969"
-                        }
-                    ],
-                    "doi": "10.1086/261825",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "ef1d104db962c2a8d15ab9112aaf9ca2faab43bc",
-                    "title": "Collective Labor Supply and Welfare",
-                    "url": "https://www.semanticscholar.org/paper/ef1d104db962c2a8d15ab9112aaf9ca2faab43bc",
-                    "venue": "",
-                    "year": 1992
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "1944106",
-                            "name": "Matthias B. Schulze",
-                            "url": "https://www.semanticscholar.org/author/1944106"
+                            "authorId": "47027218",
+                            "name": "Chen Zhen",
+                            "url": "https://www.semanticscholar.org/author/47027218"
                         },
                         {
-                            "authorId": "3988124",
-                            "name": "Joann E. Manson",
-                            "url": "https://www.semanticscholar.org/author/3988124"
+                            "authorId": "2832500",
+                            "name": "Ian F Brissette",
+                            "url": "https://www.semanticscholar.org/author/2832500"
                         },
                         {
-                            "authorId": "5357296",
-                            "name": "David S Ludwig",
-                            "url": "https://www.semanticscholar.org/author/5357296"
+                            "authorId": "3555512",
+                            "name": "Ryan Richard Ruff",
+                            "url": "https://www.semanticscholar.org/author/3555512"
                         }
                     ],
-                    "doi": "10.1016/j.accreview.2004.10.018",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "d77402891c5c190a758403649aef8e5ac347746a",
-                    "title": "Sugar-sweetened beverages, weight gain, and incidence of type 2 diabetes in young and middle-aged women",
-                    "url": "https://www.semanticscholar.org/paper/d77402891c5c190a758403649aef8e5ac347746a",
-                    "venue": "",
-                    "year": 2004
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "3228861",
-                            "name": "Christopher J Ruhm",
-                            "url": "https://www.semanticscholar.org/author/3228861"
-                        }
-                    ],
-                    "doi": "10.1016/j.jhealeco.2012.07.004",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "40a29fb2d02dca8007651ba14ca146185a0f0a4e",
-                    "title": "Understanding overeating and obesity.",
-                    "url": "https://www.semanticscholar.org/paper/40a29fb2d02dca8007651ba14ca146185a0f0a4e",
-                    "venue": "Journal of health economics",
-                    "year": 2010
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "145835765",
-                            "name": "D Dimeglio",
-                            "url": "https://www.semanticscholar.org/author/145835765"
-                        },
-                        {
-                            "authorId": "152128524",
-                            "name": "R D Mattes",
-                            "url": "https://www.semanticscholar.org/author/152128524"
-                        }
-                    ],
-                    "doi": "10.1038/sj.ijo.0801229",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "28a10f88855ac10793eb14fdbf90a1c8ef05f448",
-                    "title": "Liquid versus solid carbohydrate: effects on food intake and body weight",
-                    "url": "https://www.semanticscholar.org/paper/28a10f88855ac10793eb14fdbf90a1c8ef05f448",
-                    "venue": "International Journal of Obesity",
-                    "year": 2000
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "46290467",
-                            "name": "Kevin M. Murphy",
-                            "url": "https://www.semanticscholar.org/author/46290467"
-                        },
-                        {
-                            "authorId": "50663140",
-                            "name": "Robert H. Topel",
-                            "url": "https://www.semanticscholar.org/author/50663140"
-                        }
-                    ],
-                    "doi": "10.1198/073500102753410417",
+                    "doi": "10.1093/ajae/aau052",
                     "intent": [],
                     "isInfluential": false,
-                    "paperId": "ffa632fb57449d84d61757895e574e09b24ab1c4",
-                    "title": "Estimation and Inference in Two-Step Econometric Models",
-                    "url": "https://www.semanticscholar.org/paper/ffa632fb57449d84d61757895e574e09b24ab1c4",
-                    "venue": "",
-                    "year": 1985
+                    "paperId": "44d3b4841088f63c98356d0e408b75186525e6bf",
+                    "title": "By Ounce or By Calorie: The Differential Effects of Alternative Sugar-Sweetened Beverage Tax Strategies.",
+                    "url": "https://www.semanticscholar.org/paper/44d3b4841088f63c98356d0e408b75186525e6bf",
+                    "venue": "American journal of agricultural economics",
+                    "year": 2013
                 },
                 {
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "14577269",
-                            "name": "Arthur Lewbel",
-                            "url": "https://www.semanticscholar.org/author/14577269"
+                            "authorId": "39415862",
+                            "name": "Douglas M. Larson",
+                            "url": "https://www.semanticscholar.org/author/39415862"
+                        },
+                        {
+                            "authorId": "46186046",
+                            "name": "Sabina L. Shaikh",
+                            "url": "https://www.semanticscholar.org/author/46186046"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "9f710357bf89849868db685376b2a1426796526e",
+                    "title": "Empirical Specification Requirements For Two-Constraint Models Of Recreation Demand",
+                    "url": "https://www.semanticscholar.org/paper/9f710357bf89849868db685376b2a1426796526e",
+                    "venue": "",
+                    "year": 1999
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1770403",
+                            "name": "Anders Bj\u00f6rklund",
+                            "url": "https://www.semanticscholar.org/author/1770403"
+                        },
+                        {
+                            "authorId": "2080341",
+                            "name": "Markus J\u00e4ntti",
+                            "url": "https://www.semanticscholar.org/author/2080341"
                         }
                     ],
                     "doi": null,
@@ -2764,11 +2875,11 @@
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "b6357c31a22cb735b2d6e83a76fa1814864f2da5",
-                    "title": "Aggregation without Separability: A Generalized Composite Commodity Theorem",
-                    "url": "https://www.semanticscholar.org/paper/b6357c31a22cb735b2d6e83a76fa1814864f2da5",
+                    "paperId": "2b29256d9d2bbfc733e35231ed6b435d053105ad",
+                    "title": "Intergenerational Income Mobility in Sweden Compared to the United States",
+                    "url": "https://www.semanticscholar.org/paper/2b29256d9d2bbfc733e35231ed6b435d053105ad",
                     "venue": "",
-                    "year": 1996
+                    "year": 1997
                 },
                 {
                     "arxivId": null,
@@ -2824,37 +2935,9 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "39415862",
-                            "name": "Douglas M. Larson",
-                            "url": "https://www.semanticscholar.org/author/39415862"
-                        },
-                        {
-                            "authorId": "46186046",
-                            "name": "Sabina L. Shaikh",
-                            "url": "https://www.semanticscholar.org/author/46186046"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "9f710357bf89849868db685376b2a1426796526e",
-                    "title": "Empirical Specification Requirements For Two-Constraint Models Of Recreation Demand",
-                    "url": "https://www.semanticscholar.org/paper/9f710357bf89849868db685376b2a1426796526e",
-                    "venue": "",
-                    "year": 1999
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "1770403",
-                            "name": "Anders Bj\u00f6rklund",
-                            "url": "https://www.semanticscholar.org/author/1770403"
-                        },
-                        {
-                            "authorId": "2080341",
-                            "name": "Markus J\u00e4ntti",
-                            "url": "https://www.semanticscholar.org/author/2080341"
+                            "authorId": "14577269",
+                            "name": "Arthur Lewbel",
+                            "url": "https://www.semanticscholar.org/author/14577269"
                         }
                     ],
                     "doi": null,
@@ -2862,112 +2945,11 @@
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "2b29256d9d2bbfc733e35231ed6b435d053105ad",
-                    "title": "Intergenerational Income Mobility in Sweden Compared to the United States",
-                    "url": "https://www.semanticscholar.org/paper/2b29256d9d2bbfc733e35231ed6b435d053105ad",
+                    "paperId": "b6357c31a22cb735b2d6e83a76fa1814864f2da5",
+                    "title": "Aggregation without Separability: A Generalized Composite Commodity Theorem",
+                    "url": "https://www.semanticscholar.org/paper/b6357c31a22cb735b2d6e83a76fa1814864f2da5",
                     "venue": "",
-                    "year": 1997
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "50435937",
-                            "name": "Richard Blundell",
-                            "url": "https://www.semanticscholar.org/author/50435937"
-                        },
-                        {
-                            "authorId": "6397541",
-                            "name": "Xiaohong Chen",
-                            "url": "https://www.semanticscholar.org/author/6397541"
-                        },
-                        {
-                            "authorId": "145464398",
-                            "name": "Dennis Kristensen",
-                            "url": "https://www.semanticscholar.org/author/145464398"
-                        }
-                    ],
-                    "doi": "10.1111/j.1468-0262.2007.00808.x",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "cd9076a2ba2e42bccdcb488330a776a203128b5a",
-                    "title": "Semi-Nonparametric IV Estimation of Shape-Invariant Engel Curves",
-                    "url": "https://www.semanticscholar.org/paper/cd9076a2ba2e42bccdcb488330a776a203128b5a",
-                    "venue": "",
-                    "year": 2003
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "4609516",
-                            "name": "Karen H. Morin",
-                            "url": "https://www.semanticscholar.org/author/4609516"
-                        }
-                    ],
-                    "doi": "10.1097/NMC.0b013e3182856d9f",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "8fe7cd32b838cb6cec74927ed62e604b0636a661",
-                    "title": "Sugar-sweetened beverages: why the fuss?",
-                    "url": "https://www.semanticscholar.org/paper/8fe7cd32b838cb6cec74927ed62e604b0636a661",
-                    "venue": "MCN. The American journal of maternal child nursing",
-                    "year": 2013
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "119096927",
-                            "name": "Patricia Apps",
-                            "url": "https://www.semanticscholar.org/author/119096927"
-                        },
-                        {
-                            "authorId": "101878927",
-                            "name": "Ray Rees",
-                            "url": "https://www.semanticscholar.org/author/101878927"
-                        }
-                    ],
-                    "doi": "10.1016/0047-2727(95)01524-8",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "1952d271123be66c09b4195b61805fdbcb071188",
-                    "title": "Labour Supply, Household Production and Intra-Family Welfare Distribution",
-                    "url": "https://www.semanticscholar.org/paper/1952d271123be66c09b4195b61805fdbcb071188",
-                    "venue": "",
-                    "year": 1993
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "50976894",
-                            "name": "Raj Chetty",
-                            "url": "https://www.semanticscholar.org/author/50976894"
-                        },
-                        {
-                            "authorId": "18336703",
-                            "name": "Adam Looney",
-                            "url": "https://www.semanticscholar.org/author/18336703"
-                        },
-                        {
-                            "authorId": "11479134",
-                            "name": "Kory Kroft",
-                            "url": "https://www.semanticscholar.org/author/11479134"
-                        }
-                    ],
-                    "doi": "10.17016/feds.2009.11",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "9336f4cc217d336f6db748fedfc9fe8ab4698d1d",
-                    "title": "Salience and taxation: theory and evidence",
-                    "url": "https://www.semanticscholar.org/paper/9336f4cc217d336f6db748fedfc9fe8ab4698d1d",
-                    "venue": "",
-                    "year": 2008
+                    "year": 1996
                 },
                 {
                     "arxivId": null,
@@ -3036,8 +3018,8 @@
                     ],
                     "doi": "10.1016/0095-0696(92)90031-q",
                     "intent": [
-                        "methodology",
-                        "background"
+                        "background",
+                        "methodology"
                     ],
                     "isInfluential": false,
                     "paperId": "411b39bbdb249156d9b9c67759f2f9068ae782eb",
@@ -3045,34 +3027,6 @@
                     "url": "https://www.semanticscholar.org/paper/411b39bbdb249156d9b9c67759f2f9068ae782eb",
                     "venue": "",
                     "year": 1992
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "47027218",
-                            "name": "Chen Zhen",
-                            "url": "https://www.semanticscholar.org/author/47027218"
-                        },
-                        {
-                            "authorId": "2832500",
-                            "name": "Ian F Brissette",
-                            "url": "https://www.semanticscholar.org/author/2832500"
-                        },
-                        {
-                            "authorId": "3555512",
-                            "name": "Ryan Richard Ruff",
-                            "url": "https://www.semanticscholar.org/author/3555512"
-                        }
-                    ],
-                    "doi": "10.1093/ajae/aau052",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "44d3b4841088f63c98356d0e408b75186525e6bf",
-                    "title": "By Ounce or By Calorie: The Differential Effects of Alternative Sugar-Sweetened Beverage Tax Strategies.",
-                    "url": "https://www.semanticscholar.org/paper/44d3b4841088f63c98356d0e408b75186525e6bf",
-                    "venue": "American journal of agricultural economics",
-                    "year": 2013
                 },
                 {
                     "arxivId": null,
@@ -3163,6 +3117,155 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "50976894",
+                            "name": "Raj Chetty",
+                            "url": "https://www.semanticscholar.org/author/50976894"
+                        },
+                        {
+                            "authorId": "18336703",
+                            "name": "Adam Looney",
+                            "url": "https://www.semanticscholar.org/author/18336703"
+                        },
+                        {
+                            "authorId": "11479134",
+                            "name": "Kory Kroft",
+                            "url": "https://www.semanticscholar.org/author/11479134"
+                        }
+                    ],
+                    "doi": "10.17016/feds.2009.11",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "9336f4cc217d336f6db748fedfc9fe8ab4698d1d",
+                    "title": "Salience and taxation: theory and evidence",
+                    "url": "https://www.semanticscholar.org/paper/9336f4cc217d336f6db748fedfc9fe8ab4698d1d",
+                    "venue": "",
+                    "year": 2008
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "50435937",
+                            "name": "Richard Blundell",
+                            "url": "https://www.semanticscholar.org/author/50435937"
+                        },
+                        {
+                            "authorId": "6397541",
+                            "name": "Xiaohong Chen",
+                            "url": "https://www.semanticscholar.org/author/6397541"
+                        },
+                        {
+                            "authorId": "145464398",
+                            "name": "Dennis Kristensen",
+                            "url": "https://www.semanticscholar.org/author/145464398"
+                        }
+                    ],
+                    "doi": "10.1111/j.1468-0262.2007.00808.x",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "cd9076a2ba2e42bccdcb488330a776a203128b5a",
+                    "title": "Semi-Nonparametric IV Estimation of Shape-Invariant Engel Curves",
+                    "url": "https://www.semanticscholar.org/paper/cd9076a2ba2e42bccdcb488330a776a203128b5a",
+                    "venue": "",
+                    "year": 2003
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "46290467",
+                            "name": "Kevin M. Murphy",
+                            "url": "https://www.semanticscholar.org/author/46290467"
+                        },
+                        {
+                            "authorId": "50663140",
+                            "name": "Robert H. Topel",
+                            "url": "https://www.semanticscholar.org/author/50663140"
+                        }
+                    ],
+                    "doi": "10.1198/073500102753410417",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "ffa632fb57449d84d61757895e574e09b24ab1c4",
+                    "title": "Estimation and Inference in Two-Step Econometric Models",
+                    "url": "https://www.semanticscholar.org/paper/ffa632fb57449d84d61757895e574e09b24ab1c4",
+                    "venue": "",
+                    "year": 1985
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "143990353",
+                            "name": "Atsushi Inoue",
+                            "url": "https://www.semanticscholar.org/author/143990353"
+                        },
+                        {
+                            "authorId": "11324707",
+                            "name": "Gary Solon",
+                            "url": "https://www.semanticscholar.org/author/11324707"
+                        }
+                    ],
+                    "doi": "10.1162/REST_a_00011",
+                    "intent": [
+                        "methodology"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "9d4e437554272f2699e502252188f4336b8f59b2",
+                    "title": "Two-Sample Instrumental Variables Estimators",
+                    "url": "https://www.semanticscholar.org/paper/9d4e437554272f2699e502252188f4336b8f59b2",
+                    "venue": "The Review of Economics and Statistics",
+                    "year": 2005
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "4609516",
+                            "name": "Karen H. Morin",
+                            "url": "https://www.semanticscholar.org/author/4609516"
+                        }
+                    ],
+                    "doi": "10.1097/NMC.0b013e3182856d9f",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "8fe7cd32b838cb6cec74927ed62e604b0636a661",
+                    "title": "Sugar-sweetened beverages: why the fuss?",
+                    "url": "https://www.semanticscholar.org/paper/8fe7cd32b838cb6cec74927ed62e604b0636a661",
+                    "venue": "MCN. The American journal of maternal child nursing",
+                    "year": 2013
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "119096927",
+                            "name": "Patricia Apps",
+                            "url": "https://www.semanticscholar.org/author/119096927"
+                        },
+                        {
+                            "authorId": "101878927",
+                            "name": "Ray Rees",
+                            "url": "https://www.semanticscholar.org/author/101878927"
+                        }
+                    ],
+                    "doi": "10.1016/0047-2727(95)01524-8",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "1952d271123be66c09b4195b61805fdbcb071188",
+                    "title": "Labour Supply, Household Production and Intra-Family Welfare Distribution",
+                    "url": "https://www.semanticscholar.org/paper/1952d271123be66c09b4195b61805fdbcb071188",
+                    "venue": "",
+                    "year": 1993
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "1826374",
                             "name": "Krishna Pendakur",
                             "url": "https://www.semanticscholar.org/author/1826374"
@@ -3246,31 +3349,6 @@
                     "url": "https://www.semanticscholar.org/paper/f0804ae41734ca679420148e01a77d9ff5ce4620",
                     "venue": "",
                     "year": 2014
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "143990353",
-                            "name": "Atsushi Inoue",
-                            "url": "https://www.semanticscholar.org/author/143990353"
-                        },
-                        {
-                            "authorId": "11324707",
-                            "name": "Gary Solon",
-                            "url": "https://www.semanticscholar.org/author/11324707"
-                        }
-                    ],
-                    "doi": "10.1162/REST_a_00011",
-                    "intent": [
-                        "methodology"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "9d4e437554272f2699e502252188f4336b8f59b2",
-                    "title": "Two-Sample Instrumental Variables Estimators",
-                    "url": "https://www.semanticscholar.org/paper/9d4e437554272f2699e502252188f4336b8f59b2",
-                    "venue": "The Review of Economics and Statistics",
-                    "year": 2005
                 }
             ],
             "title": "A Reconsideration of the Sugar Sweetened Beverage Tax in a Household Production Model",
@@ -3292,17 +3370,17 @@
         },
         "Unpaywall": {
             "best_oa_location": {
-                "endpoint_id": null,
-                "evidence": "oa repository (semantic scholar lookup)",
+                "endpoint_id": "8da803012a7aa37d990",
+                "evidence": "oa repository (via OAI-PMH title and first author match)",
                 "host_type": "repository",
                 "is_best": true,
                 "license": null,
-                "pmh_id": null,
+                "pmh_id": "oai:RePEc:ces:ceswps:_7087",
                 "repository_institution": null,
-                "updated": "2019-10-01T00:00:00",
-                "url": "http://pdfs.semanticscholar.org/a827/227cd6cc6980a442c5927ac0e99e60850984.pdf",
-                "url_for_landing_page": "https://semanticscholar.org/paper/a827227cd6cc6980a442c5927ac0e99e60850984",
-                "url_for_pdf": "http://pdfs.semanticscholar.org/a827/227cd6cc6980a442c5927ac0e99e60850984.pdf",
+                "updated": "2019-08-19T07:07:22.658878",
+                "url": "https://www.cesifo-group.de/DocDL/cesifo1_wp7087.pdf",
+                "url_for_landing_page": "https://www.cesifo-group.de/DocDL/cesifo1_wp7087.pdf",
+                "url_for_pdf": "https://www.cesifo-group.de/DocDL/cesifo1_wp7087.pdf",
                 "version": "submittedVersion"
             },
             "data_standard": 2,
@@ -3318,24 +3396,10 @@
             "journal_name": "SSRN Electronic Journal",
             "oa_locations": [
                 {
-                    "endpoint_id": null,
-                    "evidence": "oa repository (semantic scholar lookup)",
-                    "host_type": "repository",
-                    "is_best": true,
-                    "license": null,
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2019-10-01T00:00:00",
-                    "url": "http://pdfs.semanticscholar.org/a827/227cd6cc6980a442c5927ac0e99e60850984.pdf",
-                    "url_for_landing_page": "https://semanticscholar.org/paper/a827227cd6cc6980a442c5927ac0e99e60850984",
-                    "url_for_pdf": "http://pdfs.semanticscholar.org/a827/227cd6cc6980a442c5927ac0e99e60850984.pdf",
-                    "version": "submittedVersion"
-                },
-                {
                     "endpoint_id": "8da803012a7aa37d990",
                     "evidence": "oa repository (via OAI-PMH title and first author match)",
                     "host_type": "repository",
-                    "is_best": false,
+                    "is_best": true,
                     "license": null,
                     "pmh_id": "oai:RePEc:ces:ceswps:_7087",
                     "repository_institution": null,
@@ -3353,7 +3417,7 @@
                     "license": null,
                     "pmh_id": "oai:econstor.eu:10419/180349",
                     "repository_institution": "Econstor - Econstor",
-                    "updated": "2019-11-20T06:32:53.338038",
+                    "updated": "2019-12-07T21:30:15.942685",
                     "url": "https://www.econstor.eu/bitstream/10419/180349/1/cesifo1_wp7087.pdf",
                     "url_for_landing_page": "http://hdl.handle.net/10419/180349",
                     "url_for_pdf": "https://www.econstor.eu/bitstream/10419/180349/1/cesifo1_wp7087.pdf",
@@ -3364,7 +3428,7 @@
             "published_date": "2018-01-01",
             "publisher": "Elsevier BV",
             "title": "A Reconsideration of the Sugar Sweetened Beverage Tax in a Household Production Model",
-            "updated": "2019-11-17T03:18:40.629761",
+            "updated": "2019-12-07T11:34:30.835514",
             "year": 2018,
             "z_authors": [
                 {
@@ -3737,7 +3801,7 @@
             "date": "2017-07-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.appet.2017.03.032",
-            "field_citation_ratio": 11.04,
+            "field_citation_ratio": 10.92,
             "funder_countries": [
                 {
                     "id": "US",
@@ -3750,28 +3814,64 @@
                     "city_name": "Baltimore",
                     "country_name": "United States",
                     "id": "grid.419475.a",
-                    "name": "National Institute on Aging"
+                    "latitude": 39.003796,
+                    "linkout": [
+                        "https://www.nia.nih.gov/"
+                    ],
+                    "longitude": -77.101166,
+                    "name": "National Institute on Aging",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "acronym": "NICHD",
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.420089.7",
-                    "name": "National Institute of Child Health and Human Development"
+                    "latitude": 39.001095,
+                    "linkout": [
+                        "http://www.nichd.nih.gov/Pages/index.aspx"
+                    ],
+                    "longitude": -77.10042,
+                    "name": "National Institute of Child Health and Human Development",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "acronym": "NHLBI",
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.279885.9",
-                    "name": "National Heart Lung and Blood Institute"
+                    "latitude": 39.00428,
+                    "linkout": [
+                        "http://www.nhlbi.nih.gov/"
+                    ],
+                    "longitude": -77.100945,
+                    "name": "National Heart Lung and Blood Institute",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "acronym": "NCATS",
                     "city_name": "Rockville",
                     "country_name": "United States",
                     "id": "grid.429651.d",
-                    "name": "National Center for Advancing Translational Sciences"
+                    "latitude": 39.09584,
+                    "linkout": [
+                        "https://ncats.nih.gov/"
+                    ],
+                    "longitude": -77.197174,
+                    "name": "National Center for Advancing Translational Sciences",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1084058931",
@@ -3998,28 +4098,64 @@
                     "city_name": "Oakland",
                     "country_name": "United States",
                     "id": "grid.280062.e",
-                    "name": "Kaiser Permanente"
+                    "latitude": 37.80611,
+                    "linkout": [
+                        "https://healthy.kaiserpermanente.org/html/kaiser/index.shtml"
+                    ],
+                    "longitude": -122.26466,
+                    "name": "Kaiser Permanente",
+                    "state_name": "California",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 },
                 {
                     "acronym": "UVA",
                     "city_name": "Charlottesville",
                     "country_name": "United States",
                     "id": "grid.27755.32",
-                    "name": "University of Virginia"
+                    "latitude": 38.035,
+                    "linkout": [
+                        "http://www.virginia.edu/"
+                    ],
+                    "longitude": -78.505,
+                    "name": "University of Virginia",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UCI",
                     "city_name": "Irvine",
                     "country_name": "United States",
                     "id": "grid.266093.8",
-                    "name": "University of California, Irvine"
+                    "latitude": 33.64535,
+                    "linkout": [
+                        "http://uci.edu/"
+                    ],
+                    "longitude": -117.84264,
+                    "name": "University of California, Irvine",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UCLA",
                     "city_name": "Los Angeles",
                     "country_name": "United States",
                     "id": "grid.19006.3e",
-                    "name": "University of California Los Angeles"
+                    "latitude": 34.072224,
+                    "linkout": [
+                        "http://www.ucla.edu/"
+                    ],
+                    "longitude": -118.4441,
+                    "name": "University of California, Los Angeles",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -4053,7 +4189,7 @@
                     ]
                 }
             ],
-            "score": 25.372204,
+            "score": 25.378107,
             "supporting_grant_ids": [
                 "grant.2623610",
                 "grant.4241633",
@@ -4191,7 +4327,7 @@
                 "license": null,
                 "pmh_id": null,
                 "repository_institution": null,
-                "updated": "2019-12-02T15:25:10.946972",
+                "updated": "2019-12-11T18:03:50.346581",
                 "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5926186",
                 "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5926186",
                 "url_for_pdf": null,
@@ -4217,7 +4353,7 @@
                     "license": null,
                     "pmh_id": null,
                     "repository_institution": null,
-                    "updated": "2019-12-02T15:25:10.946972",
+                    "updated": "2019-12-11T18:03:50.346581",
                     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5926186",
                     "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5926186",
                     "url_for_pdf": null,
@@ -4689,7 +4825,16 @@
                     "city_name": "Nashville",
                     "country_name": "United States",
                     "id": "grid.152326.1",
-                    "name": "Vanderbilt University"
+                    "latitude": 36.144936,
+                    "linkout": [
+                        "http://www.vanderbilt.edu/"
+                    ],
+                    "longitude": -86.80269,
+                    "name": "Vanderbilt University",
+                    "state_name": "Tennessee",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -4706,7 +4851,7 @@
                     ]
                 }
             ],
-            "score": 16.770184,
+            "score": 16.766611,
             "supporting_grant_ids": null,
             "terms": [
                 "Congress",
@@ -4767,29 +4912,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "3562897",
-                            "name": "Kathleen G. Beegle",
-                            "url": "https://www.semanticscholar.org/author/3562897"
-                        },
-                        {
-                            "authorId": "46521169",
-                            "name": "Wendy A. Stock",
-                            "url": "https://www.semanticscholar.org/author/46521169"
-                        }
-                    ],
-                    "doi": "10.3368/jhr.xxxviii.4.806",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "815af8610014ba4acd03cdde465fb37cd83af979",
-                    "title": "The Labor Market Effects of Disability Discrimination Laws",
-                    "url": "https://www.semanticscholar.org/paper/815af8610014ba4acd03cdde465fb37cd83af979",
-                    "venue": "",
-                    "year": 2003
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "6912623",
                             "name": "John Cawley",
                             "url": "https://www.semanticscholar.org/author/6912623"
@@ -4813,6 +4935,29 @@
                     "url": "https://www.semanticscholar.org/paper/d056e8c4e18dbc277ffc8b7f05169a251c3f1cd7",
                     "venue": "Journal of occupational and environmental medicine",
                     "year": 2007
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "3562897",
+                            "name": "Kathleen G. Beegle",
+                            "url": "https://www.semanticscholar.org/author/3562897"
+                        },
+                        {
+                            "authorId": "46521169",
+                            "name": "Wendy A. Stock",
+                            "url": "https://www.semanticscholar.org/author/46521169"
+                        }
+                    ],
+                    "doi": "10.3368/jhr.xxxviii.4.806",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "815af8610014ba4acd03cdde465fb37cd83af979",
+                    "title": "The Labor Market Effects of Disability Discrimination Laws",
+                    "url": "https://www.semanticscholar.org/paper/815af8610014ba4acd03cdde465fb37cd83af979",
+                    "venue": "",
+                    "year": 2003
                 },
                 {
                     "arxivId": null,
@@ -4970,31 +5115,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "69992938",
-                            "name": "Kevin M. Clermont",
-                            "url": "https://www.semanticscholar.org/author/69992938"
-                        },
-                        {
-                            "authorId": "24889224",
-                            "name": "Stewart J. Schwab",
-                            "url": "https://www.semanticscholar.org/author/24889224"
-                        }
-                    ],
-                    "doi": "10.1111/j.1740-1461.2004.00013.x",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "916e674c7e97186838de1923e78f27c92f94efe5",
-                    "title": "How Employment Discrimination Plaintiffs Fare in Federal Court",
-                    "url": "https://www.semanticscholar.org/paper/916e674c7e97186838de1923e78f27c92f94efe5",
-                    "venue": "",
-                    "year": 2004
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "4375836",
                             "name": "Susan L Averett",
                             "url": "https://www.semanticscholar.org/author/4375836"
@@ -5015,6 +5135,31 @@
                     "url": "https://www.semanticscholar.org/paper/28d526e70cf9c0fe3767619e3fc4b490d4b276dc",
                     "venue": "",
                     "year": 1993
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "69992938",
+                            "name": "Kevin M. Clermont",
+                            "url": "https://www.semanticscholar.org/author/69992938"
+                        },
+                        {
+                            "authorId": "24889224",
+                            "name": "Stewart J. Schwab",
+                            "url": "https://www.semanticscholar.org/author/24889224"
+                        }
+                    ],
+                    "doi": "10.1111/j.1740-1461.2004.00013.x",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "916e674c7e97186838de1923e78f27c92f94efe5",
+                    "title": "How Employment Discrimination Plaintiffs Fare in Federal Court",
+                    "url": "https://www.semanticscholar.org/paper/916e674c7e97186838de1923e78f27c92f94efe5",
+                    "venue": "",
+                    "year": 2004
                 }
             ],
             "title": "What happens when the definition of disability changes? The case of obesity",
@@ -5103,7 +5248,7 @@
                     "license": "cc-by",
                     "pmh_id": null,
                     "repository_institution": null,
-                    "updated": "2019-12-02T15:25:14.441388",
+                    "updated": "2019-12-11T18:03:52.950433",
                     "url": "https://doi.org/10.1186/s40172-016-0041-0",
                     "url_for_landing_page": "https://doi.org/10.1186/s40172-016-0041-0",
                     "url_for_pdf": null,
@@ -5413,7 +5558,7 @@
             "date": "2016-10-01",
             "date_inserted": "2017-12-01",
             "doi": "10.1080/15528014.2016.1243766",
-            "field_citation_ratio": 2.16,
+            "field_citation_ratio": 2.14,
             "funder_countries": [
                 {
                     "id": "GB",
@@ -5426,7 +5571,15 @@
                     "city_name": "Swindon",
                     "country_name": "United Kingdom",
                     "id": "grid.434257.3",
-                    "name": "Economic and Social Research Council"
+                    "latitude": 51.56685,
+                    "linkout": [
+                        "http://www.esrc.ac.uk/"
+                    ],
+                    "longitude": -1.785952,
+                    "name": "Economic and Social Research Council",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1093083894",
@@ -5578,7 +5731,7 @@
                     ]
                 }
             ],
-            "score": 23.724876,
+            "score": 23.721745,
             "supporting_grant_ids": [
                 "grant.3560794",
                 "grant.2778037"
@@ -5639,26 +5792,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "46647123",
-                            "name": "E Jarosz",
-                            "url": "https://www.semanticscholar.org/author/46647123"
-                        }
-                    ],
-                    "doi": "10.1016/j.appet.2017.05.047",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "8c6fbfc70f9090feda48d23d17b0fa1ad076ff6a",
-                    "title": "Class and eating: Family meals in Britain",
-                    "url": "https://www.semanticscholar.org/paper/8c6fbfc70f9090feda48d23d17b0fa1ad076ff6a",
-                    "venue": "Appetite",
-                    "year": 2017
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "9113064",
                             "name": "Mingqi Li",
                             "url": "https://www.semanticscholar.org/author/9113064"
@@ -5692,6 +5825,26 @@
                     "url": "https://www.semanticscholar.org/paper/4e3ac748f5dc0c830abbcac8f2d6b1f5da96daeb",
                     "venue": "Eating and Weight Disorders - Studies on Anorexia, Bulimia and Obesity",
                     "year": 2019
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "46647123",
+                            "name": "E Jarosz",
+                            "url": "https://www.semanticscholar.org/author/46647123"
+                        }
+                    ],
+                    "doi": "10.1016/j.appet.2017.05.047",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "8c6fbfc70f9090feda48d23d17b0fa1ad076ff6a",
+                    "title": "Class and eating: Family meals in Britain",
+                    "url": "https://www.semanticscholar.org/paper/8c6fbfc70f9090feda48d23d17b0fa1ad076ff6a",
+                    "venue": "Appetite",
+                    "year": 2017
                 }
             ],
             "doi": "10.1080/15528014.2016.1243766",
@@ -6119,14 +6272,32 @@
                     "city_name": "Rockville",
                     "country_name": "United States",
                     "id": "grid.48336.3a",
-                    "name": "National Cancer Institute"
+                    "latitude": 39.004326,
+                    "linkout": [
+                        "http://www.cancer.gov/"
+                    ],
+                    "longitude": -77.10119,
+                    "name": "National Cancer Institute",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "NINR",
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.280738.6",
-                    "name": "National Institute of Nursing Research"
+                    "latitude": 38.996788,
+                    "linkout": [
+                        "https://www.ninr.nih.gov/"
+                    ],
+                    "longitude": -77.09921,
+                    "name": "National Institute of Nursing Research",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1033725233",
@@ -6188,82 +6359,82 @@
             "publisher": "Wiley",
             "recent_citations": 3,
             "reference_ids": [
+                "pub.1051808636",
                 "pub.1014545162",
-                "pub.1040319107",
-                "pub.1001060460",
-                "pub.1028440350",
-                "pub.1051190609",
-                "pub.1022630734",
-                "pub.1013269363",
-                "pub.1024387101",
-                "pub.1053207907",
-                "pub.1037753603",
-                "pub.1073065811",
-                "pub.1004602892",
-                "pub.1058302878",
-                "pub.1077493563",
-                "pub.1002406581",
-                "pub.1000017496",
-                "pub.1024207529",
-                "pub.1016630038",
-                "pub.1112535417",
-                "pub.1031497763",
+                "pub.1073065750",
+                "pub.1023779639",
                 "pub.1062427748",
                 "pub.1077644696",
-                "pub.1013136288",
-                "pub.1059948246",
-                "pub.1037628624",
-                "pub.1062447269",
-                "pub.1006945770",
-                "pub.1032429476",
+                "pub.1077493563",
                 "pub.1004474218",
-                "pub.1079102408",
+                "pub.1059948246",
+                "pub.1040319107",
                 "pub.1015218698",
-                "pub.1023779639",
-                "pub.1042793515",
+                "pub.1004602892",
+                "pub.1016630038",
+                "pub.1062447269",
+                "pub.1032429476",
+                "pub.1051190609",
+                "pub.1053207907",
+                "pub.1024387101",
+                "pub.1013269363",
+                "pub.1073065811",
                 "pub.1020626655",
-                "pub.1051808636",
+                "pub.1006945770",
+                "pub.1058302878",
+                "pub.1013136288",
+                "pub.1079102408",
+                "pub.1037628624",
+                "pub.1001060460",
+                "pub.1024207529",
+                "pub.1037753603",
+                "pub.1031497763",
+                "pub.1028440350",
+                "pub.1112535417",
+                "pub.1000017496",
+                "pub.1022630734",
+                "pub.1042793515",
                 "pub.1010885723",
-                "pub.1073065750"
+                "pub.1002406581"
             ],
             "references": [
+                "pub.1051808636",
                 "pub.1014545162",
-                "pub.1040319107",
-                "pub.1001060460",
-                "pub.1028440350",
-                "pub.1051190609",
-                "pub.1022630734",
-                "pub.1013269363",
-                "pub.1024387101",
-                "pub.1053207907",
-                "pub.1037753603",
-                "pub.1073065811",
-                "pub.1004602892",
-                "pub.1058302878",
-                "pub.1077493563",
-                "pub.1002406581",
-                "pub.1000017496",
-                "pub.1024207529",
-                "pub.1016630038",
-                "pub.1112535417",
-                "pub.1031497763",
+                "pub.1073065750",
+                "pub.1023779639",
                 "pub.1062427748",
                 "pub.1077644696",
-                "pub.1013136288",
-                "pub.1059948246",
-                "pub.1037628624",
-                "pub.1062447269",
-                "pub.1006945770",
-                "pub.1032429476",
+                "pub.1077493563",
                 "pub.1004474218",
-                "pub.1079102408",
+                "pub.1059948246",
+                "pub.1040319107",
                 "pub.1015218698",
-                "pub.1023779639",
-                "pub.1042793515",
+                "pub.1004602892",
+                "pub.1016630038",
+                "pub.1062447269",
+                "pub.1032429476",
+                "pub.1051190609",
+                "pub.1053207907",
+                "pub.1024387101",
+                "pub.1013269363",
+                "pub.1073065811",
                 "pub.1020626655",
-                "pub.1051808636",
+                "pub.1006945770",
+                "pub.1058302878",
+                "pub.1013136288",
+                "pub.1079102408",
+                "pub.1037628624",
+                "pub.1001060460",
+                "pub.1024207529",
+                "pub.1037753603",
+                "pub.1031497763",
+                "pub.1028440350",
+                "pub.1112535417",
+                "pub.1000017496",
+                "pub.1022630734",
+                "pub.1042793515",
                 "pub.1010885723",
-                "pub.1073065750"
+                "pub.1002406581"
             ],
             "relative_citation_ratio": 0.65,
             "research_org_cities": [
@@ -6304,14 +6475,32 @@
                     "city_name": "Philadelphia",
                     "country_name": "United States",
                     "id": "grid.25879.31",
-                    "name": "University of Pennsylvania"
+                    "latitude": 39.952457,
+                    "linkout": [
+                        "http://www.upenn.edu/"
+                    ],
+                    "longitude": -75.19322,
+                    "name": "University of Pennsylvania",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "CWRU",
                     "city_name": "Cleveland",
                     "country_name": "United States",
                     "id": "grid.67105.35",
-                    "name": "Case Western Reserve University"
+                    "latitude": 41.50442,
+                    "linkout": [
+                        "http://www.case.edu/"
+                    ],
+                    "longitude": -81.60838,
+                    "name": "Case Western Reserve University",
+                    "state_name": "Ohio",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -6329,18 +6518,18 @@
                     "id": "ur.01235773767.25",
                     "last_name": "Basner",
                     "research_orgs": [
-                        "grid.7551.6",
-                        "grid.35403.31",
-                        "grid.47100.32",
                         "grid.413103.4",
+                        "grid.35403.31",
                         "grid.25879.31",
-                        "grid.419491.0",
                         "grid.168010.e",
-                        "grid.32224.35"
+                        "grid.47100.32",
+                        "grid.7551.6",
+                        "grid.32224.35",
+                        "grid.419491.0"
                     ]
                 }
             ],
-            "score": 15.542027,
+            "score": 15.537497,
             "supporting_grant_ids": [
                 "grant.2553336"
             ],
@@ -6443,62 +6632,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "47087908",
-                            "name": "Michael J. Mcfarland",
-                            "url": "https://www.semanticscholar.org/author/47087908"
-                        },
-                        {
-                            "authorId": "144364157",
-                            "name": "John Taylor",
-                            "url": "https://www.semanticscholar.org/author/144364157"
-                        },
-                        {
-                            "authorId": "51172756",
-                            "name": "Cheryl A.S. McFarland",
-                            "url": "https://www.semanticscholar.org/author/51172756"
-                        }
-                    ],
-                    "doi": "10.1016/j.ssmph.2018.07.002",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "d6c5f3fc1c1bb9919468c0a3da6be7db93bb0a95",
-                    "title": "Weighed down by discriminatory policing: Perceived unfair treatment and black-white disparities in waist circumference",
-                    "url": "https://www.semanticscholar.org/paper/d6c5f3fc1c1bb9919468c0a3da6be7db93bb0a95",
-                    "venue": "SSM - population health",
-                    "year": 2018
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "50203710",
-                            "name": "Daniel Kim",
-                            "url": "https://www.semanticscholar.org/author/50203710"
-                        },
-                        {
-                            "authorId": "1712890",
-                            "name": "Fusheng Wang",
-                            "url": "https://www.semanticscholar.org/author/1712890"
-                        },
-                        {
-                            "authorId": "3576322",
-                            "name": "Chrisa Arcan",
-                            "url": "https://www.semanticscholar.org/author/3576322"
-                        }
-                    ],
-                    "doi": "10.5888/pcd15.180217",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "edac15b8d860405b33092faee3cde122aec9dcaa",
-                    "title": "Geographic Association Between Income Inequality and Obesity Among Adults in New York State",
-                    "url": "https://www.semanticscholar.org/paper/edac15b8d860405b33092faee3cde122aec9dcaa",
-                    "venue": "Preventing chronic disease",
-                    "year": 2018
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "11447014",
                             "name": "Jinfeng Zhao",
                             "url": "https://www.semanticscholar.org/author/11447014"
@@ -6549,6 +6682,62 @@
                     "url": "https://www.semanticscholar.org/paper/9e4b4db041b170af41bf55fd8f19652db6b06c75",
                     "venue": "International journal of environmental research and public health",
                     "year": 2019
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "50203710",
+                            "name": "Daniel Kim",
+                            "url": "https://www.semanticscholar.org/author/50203710"
+                        },
+                        {
+                            "authorId": "1712890",
+                            "name": "Fusheng Wang",
+                            "url": "https://www.semanticscholar.org/author/1712890"
+                        },
+                        {
+                            "authorId": "3576322",
+                            "name": "Chrisa Arcan",
+                            "url": "https://www.semanticscholar.org/author/3576322"
+                        }
+                    ],
+                    "doi": "10.5888/pcd15.180217",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "edac15b8d860405b33092faee3cde122aec9dcaa",
+                    "title": "Geographic Association Between Income Inequality and Obesity Among Adults in New York State",
+                    "url": "https://www.semanticscholar.org/paper/edac15b8d860405b33092faee3cde122aec9dcaa",
+                    "venue": "Preventing chronic disease",
+                    "year": 2018
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "47087908",
+                            "name": "Michael J. Mcfarland",
+                            "url": "https://www.semanticscholar.org/author/47087908"
+                        },
+                        {
+                            "authorId": "144364157",
+                            "name": "John Taylor",
+                            "url": "https://www.semanticscholar.org/author/144364157"
+                        },
+                        {
+                            "authorId": "51172756",
+                            "name": "Cheryl A.S. McFarland",
+                            "url": "https://www.semanticscholar.org/author/51172756"
+                        }
+                    ],
+                    "doi": "10.1016/j.ssmph.2018.07.002",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "d6c5f3fc1c1bb9919468c0a3da6be7db93bb0a95",
+                    "title": "Weighed down by discriminatory policing: Perceived unfair treatment and black-white disparities in waist circumference",
+                    "url": "https://www.semanticscholar.org/paper/d6c5f3fc1c1bb9919468c0a3da6be7db93bb0a95",
+                    "venue": "SSM - population health",
+                    "year": 2018
                 }
             ],
             "doi": "10.1002/oby.21596",
@@ -6656,7 +6845,7 @@
                     "license": null,
                     "pmh_id": null,
                     "repository_institution": null,
-                    "updated": "2019-12-02T15:25:18.277428",
+                    "updated": "2019-12-11T18:03:55.554813",
                     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5039068",
                     "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5039068",
                     "url_for_pdf": null,
@@ -6808,77 +6997,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "119850522",
-                            "name": "Tatiana Tchouankam",
-                            "url": "https://www.semanticscholar.org/author/119850522"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "648c7a1f8cce2f621fa2e6dee345cbb899c2a1dc",
-                    "title": "Analysis of food security, SNAP benefit duration, income level and the relationship with depression in households with children in Omaha.",
-                    "url": "https://www.semanticscholar.org/paper/648c7a1f8cce2f621fa2e6dee345cbb899c2a1dc",
-                    "venue": "",
-                    "year": 2017
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "14092194",
-                            "name": "Rajan A Sonik",
-                            "url": "https://www.semanticscholar.org/author/14092194"
-                        },
-                        {
-                            "authorId": "145576387",
-                            "name": "Susan L Parish",
-                            "url": "https://www.semanticscholar.org/author/145576387"
-                        },
-                        {
-                            "authorId": "81396485",
-                            "name": "Monika Mitra",
-                            "url": "https://www.semanticscholar.org/author/81396485"
-                        }
-                    ],
-                    "doi": "10.5888/pcd15.180185",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "725a80cd2d48adadc8a904bb7784f1506a3c7abd",
-                    "title": "Inpatient Medicaid Usage and Expenditure Patterns After Changes in Supplemental Nutrition Assistance Program Benefit Levels",
-                    "url": "https://www.semanticscholar.org/paper/725a80cd2d48adadc8a904bb7784f1506a3c7abd",
-                    "venue": "Preventing chronic disease",
-                    "year": 2018
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "25263002",
-                            "name": "Jillian Beaugez Carr",
-                            "url": "https://www.semanticscholar.org/author/25263002"
-                        },
-                        {
-                            "authorId": "7172171",
-                            "name": "Analisa Packham",
-                            "url": "https://www.semanticscholar.org/author/7172171"
-                        }
-                    ],
-                    "doi": "10.1162/rest_a_00757",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "8f9848ea79131d94ed02e88b0dd34862e7de2e10",
-                    "title": "SNAP Benefits and Crime: Evidence from Changing Disbursement Schedules",
-                    "url": "https://www.semanticscholar.org/paper/8f9848ea79131d94ed02e88b0dd34862e7de2e10",
-                    "venue": "Review of Economics and Statistics",
-                    "year": 2017
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "15349080",
                             "name": "Eliza Davenport Whiteman",
                             "url": "https://www.semanticscholar.org/author/15349080"
@@ -6920,6 +7038,127 @@
                     "paperId": "37f349e198f43ca53623e0b9dec6c12472954cf8",
                     "title": "Food Stamps, Income Shocks, and Crime: Evidence from California",
                     "url": "https://www.semanticscholar.org/paper/37f349e198f43ca53623e0b9dec6c12472954cf8",
+                    "venue": "",
+                    "year": 2018
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "25263002",
+                            "name": "Jillian Beaugez Carr",
+                            "url": "https://www.semanticscholar.org/author/25263002"
+                        },
+                        {
+                            "authorId": "7172171",
+                            "name": "Analisa Packham",
+                            "url": "https://www.semanticscholar.org/author/7172171"
+                        }
+                    ],
+                    "doi": "10.1162/rest_a_00757",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "8f9848ea79131d94ed02e88b0dd34862e7de2e10",
+                    "title": "SNAP Benefits and Crime: Evidence from Changing Disbursement Schedules",
+                    "url": "https://www.semanticscholar.org/paper/8f9848ea79131d94ed02e88b0dd34862e7de2e10",
+                    "venue": "Review of Economics and Statistics",
+                    "year": 2017
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "119850522",
+                            "name": "Tatiana Tchouankam",
+                            "url": "https://www.semanticscholar.org/author/119850522"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "648c7a1f8cce2f621fa2e6dee345cbb899c2a1dc",
+                    "title": "Analysis of food security, SNAP benefit duration, income level and the relationship with depression in households with children in Omaha.",
+                    "url": "https://www.semanticscholar.org/paper/648c7a1f8cce2f621fa2e6dee345cbb899c2a1dc",
+                    "venue": "",
+                    "year": 2017
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "120741135",
+                            "name": "Bita Fayaz Farkhad",
+                            "url": "https://www.semanticscholar.org/author/120741135"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "08109fc8f4214bc4a112c087d2913ad120147a30",
+                    "title": "The Within-Month Pattern of Medical Care Utilization among SNAP Households",
+                    "url": "https://www.semanticscholar.org/paper/08109fc8f4214bc4a112c087d2913ad120147a30",
+                    "venue": "",
+                    "year": 2019
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "14092194",
+                            "name": "Rajan A Sonik",
+                            "url": "https://www.semanticscholar.org/author/14092194"
+                        },
+                        {
+                            "authorId": "145576387",
+                            "name": "Susan L Parish",
+                            "url": "https://www.semanticscholar.org/author/145576387"
+                        },
+                        {
+                            "authorId": "81396485",
+                            "name": "Monika Mitra",
+                            "url": "https://www.semanticscholar.org/author/81396485"
+                        }
+                    ],
+                    "doi": "10.5888/pcd15.180185",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "725a80cd2d48adadc8a904bb7784f1506a3c7abd",
+                    "title": "Inpatient Medicaid Usage and Expenditure Patterns After Changes in Supplemental Nutrition Assistance Program Benefit Levels",
+                    "url": "https://www.semanticscholar.org/paper/725a80cd2d48adadc8a904bb7784f1506a3c7abd",
+                    "venue": "Preventing chronic disease",
+                    "year": 2018
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "9701463",
+                            "name": "Chad Cotti",
+                            "url": "https://www.semanticscholar.org/author/9701463"
+                        },
+                        {
+                            "authorId": "11356461",
+                            "name": "John Gordanier",
+                            "url": "https://www.semanticscholar.org/author/11356461"
+                        },
+                        {
+                            "authorId": "7629925",
+                            "name": "Orgul Demet Ozturk",
+                            "url": "https://www.semanticscholar.org/author/7629925"
+                        }
+                    ],
+                    "doi": "10.2139/ssrn.3284673",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "54992b507557306c786c8942040a6b88e64da447",
+                    "title": "Hunger Pains? SNAP Timing, and Emergency Room Visits",
+                    "url": "https://www.semanticscholar.org/paper/54992b507557306c786c8942040a6b88e64da447",
                     "venue": "",
                     "year": 2018
                 },
@@ -6974,8 +7213,8 @@
                     ],
                     "doi": "10.1016/j.ssmph.2019.100393",
                     "intent": [
-                        "methodology",
-                        "background"
+                        "background",
+                        "methodology"
                     ],
                     "isInfluential": true,
                     "paperId": "6a4d3840ca983a032ac88b59c09c23c56635ace3",
@@ -6983,157 +7222,12 @@
                     "url": "https://www.semanticscholar.org/paper/6a4d3840ca983a032ac88b59c09c23c56635ace3",
                     "venue": "SSM - population health",
                     "year": 2019
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "120741135",
-                            "name": "Bita Fayaz Farkhad",
-                            "url": "https://www.semanticscholar.org/author/120741135"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "08109fc8f4214bc4a112c087d2913ad120147a30",
-                    "title": "The Within-Month Pattern of Medical Care Utilization among SNAP Households",
-                    "url": "https://www.semanticscholar.org/paper/08109fc8f4214bc4a112c087d2913ad120147a30",
-                    "venue": "",
-                    "year": 2019
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "9701463",
-                            "name": "Chad Cotti",
-                            "url": "https://www.semanticscholar.org/author/9701463"
-                        },
-                        {
-                            "authorId": "11356461",
-                            "name": "John Gordanier",
-                            "url": "https://www.semanticscholar.org/author/11356461"
-                        },
-                        {
-                            "authorId": "7629925",
-                            "name": "Orgul Demet Ozturk",
-                            "url": "https://www.semanticscholar.org/author/7629925"
-                        }
-                    ],
-                    "doi": "10.2139/ssrn.3284673",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "54992b507557306c786c8942040a6b88e64da447",
-                    "title": "Hunger Pains? SNAP Timing, and Emergency Room Visits",
-                    "url": "https://www.semanticscholar.org/paper/54992b507557306c786c8942040a6b88e64da447",
-                    "venue": "",
-                    "year": 2018
                 }
             ],
             "doi": "10.1371/journal.pone.0158422",
             "influentialCitationCount": 1,
             "paperId": "fc979e992a993386312fb49662bba63200b55069",
             "references": [
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "50160011",
-                            "name": "Lorenzo Almada",
-                            "url": "https://www.semanticscholar.org/author/50160011"
-                        },
-                        {
-                            "authorId": "2801131",
-                            "name": "Ian P. McCarthy",
-                            "url": "https://www.semanticscholar.org/author/2801131"
-                        },
-                        {
-                            "authorId": "6555296",
-                            "name": "Rusty Tchernis",
-                            "url": "https://www.semanticscholar.org/author/6555296"
-                        }
-                    ],
-                    "doi": "10.2139/ssrn.2563822",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "8b20e9f1eac12dff17d77a75a0b35103611e051e",
-                    "title": "What Can We Learn About the Effects of Food Stamps on Obesity in the Presence of Misreporting",
-                    "url": "https://www.semanticscholar.org/paper/8b20e9f1eac12dff17d77a75a0b35103611e051e",
-                    "venue": "",
-                    "year": 2015
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "4337373",
-                            "name": "Eric E. Calloway",
-                            "url": "https://www.semanticscholar.org/author/4337373"
-                        },
-                        {
-                            "authorId": "6089338",
-                            "name": "Hollyanne E. Fricke",
-                            "url": "https://www.semanticscholar.org/author/6089338"
-                        },
-                        {
-                            "authorId": "123395083",
-                            "name": "Courtney A. Pinard",
-                            "url": "https://www.semanticscholar.org/author/123395083"
-                        },
-                        {
-                            "authorId": "47146141",
-                            "name": "Teresa M. Smith",
-                            "url": "https://www.semanticscholar.org/author/47146141"
-                        },
-                        {
-                            "authorId": "34992386",
-                            "name": "Amy L. Yaroch",
-                            "url": "https://www.semanticscholar.org/author/34992386"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "27405d4cb903491de846e0ae033faa36bd7ad7fd",
-                    "title": "Monthly SNAP benefit duration and its association with food security, hunger-coping, and physiological hunger symptoms among low-income families",
-                    "url": "https://www.semanticscholar.org/paper/27405d4cb903491de846e0ae033faa36bd7ad7fd",
-                    "venue": "",
-                    "year": 2015
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "144787519",
-                            "name": "Timothy K. M. Beatty",
-                            "url": "https://www.semanticscholar.org/author/144787519"
-                        },
-                        {
-                            "authorId": "3719945",
-                            "name": "Lisa J. Harnack",
-                            "url": "https://www.semanticscholar.org/author/3719945"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "180f850ea2d5854e88e4e8a78fb46a26867a621a",
-                    "title": "Supplemental Nutrition Assistance Program (SNAP) and Family Nutrition",
-                    "url": "https://www.semanticscholar.org/paper/180f850ea2d5854e88e4e8a78fb46a26867a621a",
-                    "venue": "",
-                    "year": 2013
-                },
                 {
                     "arxivId": null,
                     "authors": [
@@ -7145,8 +7239,8 @@
                     ],
                     "doi": "10.1093/aepp/ppu039",
                     "intent": [
-                        "methodology",
-                        "background"
+                        "background",
+                        "methodology"
                     ],
                     "isInfluential": false,
                     "paperId": "eafd42c40e6832c61806bc4a456f6767773296b4",
@@ -7194,39 +7288,29 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "36814216",
-                            "name": "James L. Weinstein",
-                            "url": "https://www.semanticscholar.org/author/36814216"
+                            "authorId": "4337373",
+                            "name": "Eric E. Calloway",
+                            "url": "https://www.semanticscholar.org/author/4337373"
                         },
                         {
-                            "authorId": "144657927",
-                            "name": "Katie S. Martin",
-                            "url": "https://www.semanticscholar.org/author/144657927"
+                            "authorId": "6089338",
+                            "name": "Hollyanne E. Fricke",
+                            "url": "https://www.semanticscholar.org/author/6089338"
                         },
                         {
-                            "authorId": "2848432",
-                            "name": "Ann Marie Ferris",
-                            "url": "https://www.semanticscholar.org/author/2848432"
-                        }
-                    ],
-                    "doi": "10.1080/19320240802706833",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "70f79a79a313e9aa7fb214ac83bb58c7c935460f",
-                    "title": "Household Food Security Varies Within Month and is Related to Childhood Anemia",
-                    "url": "https://www.semanticscholar.org/paper/70f79a79a313e9aa7fb214ac83bb58c7c935460f",
-                    "venue": "",
-                    "year": 2009
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
+                            "authorId": "123395083",
+                            "name": "Courtney A. Pinard",
+                            "url": "https://www.semanticscholar.org/author/123395083"
+                        },
                         {
-                            "authorId": "20440067",
-                            "name": "G. W. Bickel",
-                            "url": "https://www.semanticscholar.org/author/20440067"
+                            "authorId": "47146141",
+                            "name": "Teresa M. Smith",
+                            "url": "https://www.semanticscholar.org/author/47146141"
+                        },
+                        {
+                            "authorId": "34992386",
+                            "name": "Amy L. Yaroch",
+                            "url": "https://www.semanticscholar.org/author/34992386"
                         }
                     ],
                     "doi": null,
@@ -7234,39 +7318,66 @@
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "74ca5ca37feee9e2ed8a77cc3940bbfe187e4a3c",
-                    "title": "Guide to Measuring Household Food Security",
-                    "url": "https://www.semanticscholar.org/paper/74ca5ca37feee9e2ed8a77cc3940bbfe187e4a3c",
+                    "paperId": "27405d4cb903491de846e0ae033faa36bd7ad7fd",
+                    "title": "Monthly SNAP benefit duration and its association with food security, hunger-coping, and physiological hunger symptoms among low-income families",
+                    "url": "https://www.semanticscholar.org/paper/27405d4cb903491de846e0ae033faa36bd7ad7fd",
                     "venue": "",
-                    "year": 2000
+                    "year": 2015
                 },
                 {
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "48706472",
-                            "name": "Valerie S. Tarasuk",
-                            "url": "https://www.semanticscholar.org/author/48706472"
+                            "authorId": "50160011",
+                            "name": "Lorenzo Almada",
+                            "url": "https://www.semanticscholar.org/author/50160011"
                         },
                         {
-                            "authorId": "144939157",
-                            "name": "Lynn Mcintyre",
-                            "url": "https://www.semanticscholar.org/author/144939157"
+                            "authorId": "2801131",
+                            "name": "Ian P. McCarthy",
+                            "url": "https://www.semanticscholar.org/author/2801131"
                         },
                         {
-                            "authorId": "2677616",
-                            "name": "Jinguang Li",
-                            "url": "https://www.semanticscholar.org/author/2677616"
+                            "authorId": "6555296",
+                            "name": "Rusty Tchernis",
+                            "url": "https://www.semanticscholar.org/author/6555296"
                         }
                     ],
-                    "doi": "10.1093/jn/137.8.1980",
-                    "intent": [],
+                    "doi": "10.2139/ssrn.2563822",
+                    "intent": [
+                        "background"
+                    ],
                     "isInfluential": false,
-                    "paperId": "2d982163440b20ee37e909c00beaceed80e37bf9",
-                    "title": "Low-income women's dietary intakes are sensitive to the depletion of household resources in one month.",
-                    "url": "https://www.semanticscholar.org/paper/2d982163440b20ee37e909c00beaceed80e37bf9",
-                    "venue": "The Journal of nutrition",
-                    "year": 2007
+                    "paperId": "8b20e9f1eac12dff17d77a75a0b35103611e051e",
+                    "title": "What Can We Learn About the Effects of Food Stamps on Obesity in the Presence of Misreporting",
+                    "url": "https://www.semanticscholar.org/paper/8b20e9f1eac12dff17d77a75a0b35103611e051e",
+                    "venue": "",
+                    "year": 2015
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "144787519",
+                            "name": "Timothy K. M. Beatty",
+                            "url": "https://www.semanticscholar.org/author/144787519"
+                        },
+                        {
+                            "authorId": "3719945",
+                            "name": "Lisa J. Harnack",
+                            "url": "https://www.semanticscholar.org/author/3719945"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "180f850ea2d5854e88e4e8a78fb46a26867a621a",
+                    "title": "Supplemental Nutrition Assistance Program (SNAP) and Family Nutrition",
+                    "url": "https://www.semanticscholar.org/paper/180f850ea2d5854e88e4e8a78fb46a26867a621a",
+                    "venue": "",
+                    "year": 2013
                 },
                 {
                     "arxivId": null,
@@ -7332,6 +7443,114 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "1390124412",
+                            "name": "P Karaca-Mandic",
+                            "url": "https://www.semanticscholar.org/author/1390124412"
+                        },
+                        {
+                            "authorId": "7464698",
+                            "name": "Edward C Norton",
+                            "url": "https://www.semanticscholar.org/author/7464698"
+                        },
+                        {
+                            "authorId": "3392279",
+                            "name": "Bryan E Dowd",
+                            "url": "https://www.semanticscholar.org/author/3392279"
+                        }
+                    ],
+                    "doi": "10.1111/j.1475-6773.2011.01314.x",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "3b3f09b1a7aa057147c423d98f5a1b7cfc9184de",
+                    "title": "Interaction terms in nonlinear models.",
+                    "url": "https://www.semanticscholar.org/paper/3b3f09b1a7aa057147c423d98f5a1b7cfc9184de",
+                    "venue": "Health services research",
+                    "year": 2002
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "115731089",
+                            "name": "Gary Dean Jaworski",
+                            "url": "https://www.semanticscholar.org/author/115731089"
+                        },
+                        {
+                            "authorId": "120003719",
+                            "name": "John P. Robinson",
+                            "url": "https://www.semanticscholar.org/author/120003719"
+                        },
+                        {
+                            "authorId": "117330573",
+                            "name": "Geoffrey Godbey",
+                            "url": "https://www.semanticscholar.org/author/117330573"
+                        }
+                    ],
+                    "doi": "10.2307/3005725",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "7fa5e42200a47f711e78a917ae2cab54ea1f57a3",
+                    "title": "Time for life: The surprising ways Americans use",
+                    "url": "https://www.semanticscholar.org/paper/7fa5e42200a47f711e78a917ae2cab54ea1f57a3",
+                    "venue": "",
+                    "year": 1997
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "20440067",
+                            "name": "G. W. Bickel",
+                            "url": "https://www.semanticscholar.org/author/20440067"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "74ca5ca37feee9e2ed8a77cc3940bbfe187e4a3c",
+                    "title": "Guide to Measuring Household Food Security",
+                    "url": "https://www.semanticscholar.org/paper/74ca5ca37feee9e2ed8a77cc3940bbfe187e4a3c",
+                    "venue": "",
+                    "year": 2000
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "48706472",
+                            "name": "Valerie S. Tarasuk",
+                            "url": "https://www.semanticscholar.org/author/48706472"
+                        },
+                        {
+                            "authorId": "144939157",
+                            "name": "Lynn Mcintyre",
+                            "url": "https://www.semanticscholar.org/author/144939157"
+                        },
+                        {
+                            "authorId": "2677616",
+                            "name": "Jinguang Li",
+                            "url": "https://www.semanticscholar.org/author/2677616"
+                        }
+                    ],
+                    "doi": "10.1093/jn/137.8.1980",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "2d982163440b20ee37e909c00beaceed80e37bf9",
+                    "title": "Low-income women's dietary intakes are sensitive to the depletion of household resources in one month.",
+                    "url": "https://www.semanticscholar.org/paper/2d982163440b20ee37e909c00beaceed80e37bf9",
+                    "venue": "The Journal of nutrition",
+                    "year": 2007
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "4054425",
                             "name": "Hilary Kessler Seligman",
                             "url": "https://www.semanticscholar.org/author/4054425"
@@ -7372,51 +7591,31 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "6089928",
-                            "name": "M. Nord",
-                            "url": "https://www.semanticscholar.org/author/6089928"
+                            "authorId": "36814216",
+                            "name": "James L. Weinstein",
+                            "url": "https://www.semanticscholar.org/author/36814216"
+                        },
+                        {
+                            "authorId": "144657927",
+                            "name": "Katie S. Martin",
+                            "url": "https://www.semanticscholar.org/author/144657927"
+                        },
+                        {
+                            "authorId": "2848432",
+                            "name": "Ann Marie Ferris",
+                            "url": "https://www.semanticscholar.org/author/2848432"
                         }
                     ],
-                    "doi": null,
+                    "doi": "10.1080/19320240802706833",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "89d24dd75834e0f92d6b7cea6acc5fe169566f87",
-                    "title": "Food Insecurity in Households with Children",
-                    "url": "https://www.semanticscholar.org/paper/89d24dd75834e0f92d6b7cea6acc5fe169566f87",
+                    "paperId": "70f79a79a313e9aa7fb214ac83bb58c7c935460f",
+                    "title": "Household Food Security Varies Within Month and is Related to Childhood Anemia",
+                    "url": "https://www.semanticscholar.org/paper/70f79a79a313e9aa7fb214ac83bb58c7c935460f",
                     "venue": "",
-                    "year": 2003
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "48354940",
-                            "name": "Zhuo Adam Chen",
-                            "url": "https://www.semanticscholar.org/author/48354940"
-                        },
-                        {
-                            "authorId": "35115203",
-                            "name": "Steven T. Yen",
-                            "url": "https://www.semanticscholar.org/author/35115203"
-                        },
-                        {
-                            "authorId": "3303343",
-                            "name": "David B. Eastwood",
-                            "url": "https://www.semanticscholar.org/author/3303343"
-                        }
-                    ],
-                    "doi": "10.1111/j.1467-8276.2005.00803.x",
-                    "intent": [
-                        "methodology"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "adb60d03c8bc88a4056b0b5a235e40a0e7882ac4",
-                    "title": "Effects of Food Stamp Participation on Body Weight and Obesity",
-                    "url": "https://www.semanticscholar.org/paper/adb60d03c8bc88a4056b0b5a235e40a0e7882ac4",
-                    "venue": "",
-                    "year": 2005
+                    "year": 2009
                 },
                 {
                     "arxivId": null,
@@ -7515,61 +7714,107 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "1390124412",
-                            "name": "P Karaca-Mandic",
-                            "url": "https://www.semanticscholar.org/author/1390124412"
-                        },
-                        {
-                            "authorId": "7464698",
-                            "name": "Edward C Norton",
-                            "url": "https://www.semanticscholar.org/author/7464698"
-                        },
-                        {
-                            "authorId": "3392279",
-                            "name": "Bryan E Dowd",
-                            "url": "https://www.semanticscholar.org/author/3392279"
+                            "authorId": "6089928",
+                            "name": "M. Nord",
+                            "url": "https://www.semanticscholar.org/author/6089928"
                         }
                     ],
-                    "doi": "10.1111/j.1475-6773.2011.01314.x",
+                    "doi": null,
                     "intent": [
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "3b3f09b1a7aa057147c423d98f5a1b7cfc9184de",
-                    "title": "Interaction terms in nonlinear models.",
-                    "url": "https://www.semanticscholar.org/paper/3b3f09b1a7aa057147c423d98f5a1b7cfc9184de",
-                    "venue": "Health services research",
-                    "year": 2002
+                    "paperId": "89d24dd75834e0f92d6b7cea6acc5fe169566f87",
+                    "title": "Food Insecurity in Households with Children",
+                    "url": "https://www.semanticscholar.org/paper/89d24dd75834e0f92d6b7cea6acc5fe169566f87",
+                    "venue": "",
+                    "year": 2003
                 },
                 {
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "115731089",
-                            "name": "Gary Dean Jaworski",
-                            "url": "https://www.semanticscholar.org/author/115731089"
+                            "authorId": "48354940",
+                            "name": "Zhuo Adam Chen",
+                            "url": "https://www.semanticscholar.org/author/48354940"
                         },
                         {
-                            "authorId": "120003719",
-                            "name": "John P. Robinson",
-                            "url": "https://www.semanticscholar.org/author/120003719"
+                            "authorId": "35115203",
+                            "name": "Steven T. Yen",
+                            "url": "https://www.semanticscholar.org/author/35115203"
                         },
                         {
-                            "authorId": "117330573",
-                            "name": "Geoffrey Godbey",
-                            "url": "https://www.semanticscholar.org/author/117330573"
+                            "authorId": "3303343",
+                            "name": "David B. Eastwood",
+                            "url": "https://www.semanticscholar.org/author/3303343"
                         }
                     ],
-                    "doi": "10.2307/3005725",
+                    "doi": "10.1111/j.1467-8276.2005.00803.x",
+                    "intent": [
+                        "methodology"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "adb60d03c8bc88a4056b0b5a235e40a0e7882ac4",
+                    "title": "Effects of Food Stamp Participation on Body Weight and Obesity",
+                    "url": "https://www.semanticscholar.org/paper/adb60d03c8bc88a4056b0b5a235e40a0e7882ac4",
+                    "venue": "",
+                    "year": 2005
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1421844933",
+                            "name": "Alisha Coleman-Jensen",
+                            "url": "https://www.semanticscholar.org/author/1421844933"
+                        },
+                        {
+                            "authorId": "103910218",
+                            "name": "Christian Gregory",
+                            "url": "https://www.semanticscholar.org/author/103910218"
+                        },
+                        {
+                            "authorId": "50286289",
+                            "name": "Anita Singh",
+                            "url": "https://www.semanticscholar.org/author/50286289"
+                        }
+                    ],
+                    "doi": "10.2139/ssrn.2504067",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "7fa5e42200a47f711e78a917ae2cab54ea1f57a3",
-                    "title": "Time for life: The surprising ways Americans use",
-                    "url": "https://www.semanticscholar.org/paper/7fa5e42200a47f711e78a917ae2cab54ea1f57a3",
+                    "paperId": "0dad35dbbc643e973f5acd39aa1f0588960537dd",
+                    "title": "Household Food Security in the United States in 2013",
+                    "url": "https://www.semanticscholar.org/paper/0dad35dbbc643e973f5acd39aa1f0588960537dd",
                     "venue": "",
-                    "year": 1997
+                    "year": 2014
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "66444177",
+                            "name": "Laura A. Castner",
+                            "url": "https://www.semanticscholar.org/author/66444177"
+                        },
+                        {
+                            "authorId": "69954572",
+                            "name": "Juliette Henke",
+                            "url": "https://www.semanticscholar.org/author/69954572"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background",
+                        "methodology"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "1a551b752c3a4769c359f9223d39a477ddd7f647",
+                    "title": "Benefit Redemption Patterns in the Supplemental Nutrition Assistance Program. Alexandria, VA: U.S. Department of Agriculture, Food and Nutrition Service, Office of Research and Analysis",
+                    "url": "https://www.semanticscholar.org/paper/1a551b752c3a4769c359f9223d39a477ddd7f647",
+                    "venue": "",
+                    "year": 2011
                 },
                 {
                     "arxivId": null,
@@ -7689,62 +7934,6 @@
                     "url": "https://www.semanticscholar.org/paper/99b293beefc48ba12990ebdb2fd3c5bbe0f095b9",
                     "venue": "Epidemiologic perspectives & innovations : EP+I",
                     "year": 2006
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "66444177",
-                            "name": "Laura A. Castner",
-                            "url": "https://www.semanticscholar.org/author/66444177"
-                        },
-                        {
-                            "authorId": "69954572",
-                            "name": "Juliette Henke",
-                            "url": "https://www.semanticscholar.org/author/69954572"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "methodology",
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "1a551b752c3a4769c359f9223d39a477ddd7f647",
-                    "title": "Benefit Redemption Patterns in the Supplemental Nutrition Assistance Program",
-                    "url": "https://www.semanticscholar.org/paper/1a551b752c3a4769c359f9223d39a477ddd7f647",
-                    "venue": "",
-                    "year": 2011
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "1421844933",
-                            "name": "Alisha Coleman-Jensen",
-                            "url": "https://www.semanticscholar.org/author/1421844933"
-                        },
-                        {
-                            "authorId": "103910218",
-                            "name": "Christian Gregory",
-                            "url": "https://www.semanticscholar.org/author/103910218"
-                        },
-                        {
-                            "authorId": "50286289",
-                            "name": "Anita Singh",
-                            "url": "https://www.semanticscholar.org/author/50286289"
-                        }
-                    ],
-                    "doi": "10.2139/ssrn.2504067",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "0dad35dbbc643e973f5acd39aa1f0588960537dd",
-                    "title": "Household Food Security in the United States in 2013",
-                    "url": "https://www.semanticscholar.org/paper/0dad35dbbc643e973f5acd39aa1f0588960537dd",
-                    "venue": "",
-                    "year": 2014
                 },
                 {
                     "arxivId": null,
@@ -7996,7 +8185,7 @@
                     "license": "cc-by",
                     "pmh_id": null,
                     "repository_institution": null,
-                    "updated": "2019-12-02T15:25:20.398117",
+                    "updated": "2019-12-11T18:03:57.036855",
                     "url": "https://doi.org/10.1371/journal.pone.0158422",
                     "url_for_landing_page": "https://doi.org/10.1371/journal.pone.0158422",
                     "url_for_pdf": null,
@@ -8024,32 +8213,18 @@
                     "license": null,
                     "pmh_id": null,
                     "repository_institution": null,
-                    "updated": "2019-12-02T15:25:20.398331",
+                    "updated": "2019-12-11T18:03:57.037149",
                     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943850",
                     "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4943850",
                     "url_for_pdf": null,
                     "version": "publishedVersion"
-                },
-                {
-                    "endpoint_id": null,
-                    "evidence": "oa repository (semantic scholar lookup)",
-                    "host_type": "repository",
-                    "is_best": false,
-                    "license": null,
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2019-10-01T00:00:00",
-                    "url": "http://pdfs.semanticscholar.org/fc97/9e992a993386312fb49662bba63200b55069.pdf",
-                    "url_for_landing_page": "https://semanticscholar.org/paper/fc979e992a993386312fb49662bba63200b55069",
-                    "url_for_pdf": "http://pdfs.semanticscholar.org/fc97/9e992a993386312fb49662bba63200b55069.pdf",
-                    "version": "submittedVersion"
                 }
             ],
             "oa_status": "gold",
             "published_date": "2016-07-13",
             "publisher": "Public Library of Science (PLoS)",
             "title": "SNAP Participants\u2019 Eating Patterns over the Benefit Month: A Time Use Perspective",
-            "updated": "2019-11-19T08:27:45.224788",
+            "updated": "2019-12-04T18:46:50.765773",
             "year": 2016,
             "z_authors": [
                 {
@@ -8291,7 +8466,7 @@
             "date": "2016-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/s11150-014-9267-4",
-            "field_citation_ratio": 3.32,
+            "field_citation_ratio": 3.28,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1008460118",
@@ -8436,7 +8611,16 @@
                     "city_name": "Suitland",
                     "country_name": "United States",
                     "id": "grid.432923.d",
-                    "name": "United States Census Bureau"
+                    "latitude": 38.846096,
+                    "linkout": [
+                        "http://www.census.gov/"
+                    ],
+                    "longitude": -76.92876,
+                    "name": "United States Census Bureau",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "researchers": [
@@ -8449,7 +8633,7 @@
                     ]
                 }
             ],
-            "score": 24.13357,
+            "score": 24.130266,
             "supporting_grant_ids": null,
             "terms": [
                 "decades",
@@ -8560,6 +8744,31 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "35264088",
+                            "name": "Karen S Hamrick",
+                            "url": "https://www.semanticscholar.org/author/35264088"
+                        },
+                        {
+                            "authorId": "90695224",
+                            "name": "Ket McClelland",
+                            "url": "https://www.semanticscholar.org/author/90695224"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "f71dfb4a9c9a9d7b12d9acd83544a554550c0d08",
+                    "title": "Americans' Eating Patterns and Time Spent on Food: The 2014 Eating & Health Module Data",
+                    "url": "https://www.semanticscholar.org/paper/f71dfb4a9c9a9d7b12d9acd83544a554550c0d08",
+                    "venue": "",
+                    "year": 2016
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "153465738",
                             "name": "Archana Dang",
                             "url": "https://www.semanticscholar.org/author/153465738"
@@ -8610,31 +8819,6 @@
                     "url": "https://www.semanticscholar.org/paper/c12b9565f97b2e37c14963f0f1863403da305bfd",
                     "venue": "",
                     "year": 2017
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "35264088",
-                            "name": "Karen S Hamrick",
-                            "url": "https://www.semanticscholar.org/author/35264088"
-                        },
-                        {
-                            "authorId": "90695224",
-                            "name": "Ket McClelland",
-                            "url": "https://www.semanticscholar.org/author/90695224"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "f71dfb4a9c9a9d7b12d9acd83544a554550c0d08",
-                    "title": "Americans' Eating Patterns and Time Spent on Food: The 2014 Eating & Health Module Data",
-                    "url": "https://www.semanticscholar.org/paper/f71dfb4a9c9a9d7b12d9acd83544a554550c0d08",
-                    "venue": "",
-                    "year": 2016
                 }
             ],
             "doi": "10.1007/s11150-014-9267-4",
@@ -9102,7 +9286,16 @@
                     "city_name": "Gainesville",
                     "country_name": "United States",
                     "id": "grid.15276.37",
-                    "name": "University of Florida"
+                    "latitude": 29.643902,
+                    "linkout": [
+                        "http://www.ufl.edu/"
+                    ],
+                    "longitude": -82.35495,
+                    "name": "University of Florida",
+                    "state_name": "Florida",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -9116,7 +9309,7 @@
                     ]
                 }
             ],
-            "score": 17.646568,
+            "score": 17.633453,
             "supporting_grant_ids": null,
             "terms": [
                 "feasibility",
@@ -9180,22 +9373,11 @@
             "citations": [],
             "doi": "10.3141/2598-05",
             "influentialCitationCount": 0,
-            "paperId": "8d502aeaf6450917ebbf11b94f9c8ccfb1e53875",
+            "paperId": "fa1066faec36c990e6300df003dde5caf9e3ea5a",
             "references": [],
-            "title": "Multi-modal Transportation Choices and Health: An Exploratory Analysis Using Data Fusion Techniques",
-            "topics": [
-                {
-                    "topic": "Modal logic",
-                    "topicId": "61528",
-                    "url": "https://www.semanticscholar.org/topic/61528"
-                },
-                {
-                    "topic": "Exploratory testing",
-                    "topicId": "275997",
-                    "url": "https://www.semanticscholar.org/topic/275997"
-                }
-            ],
-            "url": "https://www.semanticscholar.org/paper/8d502aeaf6450917ebbf11b94f9c8ccfb1e53875",
+            "title": "Multimodal Transportation Choices and Health: Exploratory Analysis Using Data Fusion Techniques",
+            "topics": [],
+            "url": "https://www.semanticscholar.org/paper/fa1066faec36c990e6300df003dde5caf9e3ea5a",
             "venue": "",
             "year": 2016
         },

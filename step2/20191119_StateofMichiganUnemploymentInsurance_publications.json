@@ -228,7 +228,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.419881.d",
-                    "name": "United States Department of Education"
+                    "latitude": 38.886513,
+                    "linkout": [
+                        "http://www.ed.gov/"
+                    ],
+                    "longitude": -77.01885,
+                    "name": "United States Department of Education",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1107202506",
@@ -341,14 +350,32 @@
                     "city_name": "Atlanta",
                     "country_name": "United States",
                     "id": "grid.256304.6",
-                    "name": "Georgia State University"
+                    "latitude": 33.75278,
+                    "linkout": [
+                        "http://www.gsu.edu/"
+                    ],
+                    "longitude": -84.38611,
+                    "name": "Georgia State University",
+                    "state_name": "Georgia",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UM",
                     "city_name": "Ann Arbor",
                     "country_name": "United States",
                     "id": "grid.214458.e",
-                    "name": "University of Michigan"
+                    "latitude": 42.278305,
+                    "linkout": [
+                        "https://www.umich.edu/"
+                    ],
+                    "longitude": -83.73822,
+                    "name": "University of Michigan",
+                    "state_name": "Michigan",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -379,7 +406,7 @@
                     ]
                 }
             ],
-            "score": 28.5448,
+            "score": 28.540562,
             "supporting_grant_ids": [
                 "grant.4054407"
             ],
@@ -631,7 +658,7 @@
             "date": "2017-01-01",
             "date_inserted": "2018-06-15",
             "doi": "10.2139/ssrn.3175945",
-            "field_citation_ratio": 0.93,
+            "field_citation_ratio": 0.92,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1104589468",
@@ -733,14 +760,32 @@
                     "city_name": "Ann Arbor",
                     "country_name": "United States",
                     "id": "grid.214458.e",
-                    "name": "University of Michigan"
+                    "latitude": 42.278305,
+                    "linkout": [
+                        "https://www.umich.edu/"
+                    ],
+                    "longitude": -83.73822,
+                    "name": "University of Michigan",
+                    "state_name": "Michigan",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "GSU",
                     "city_name": "Atlanta",
                     "country_name": "United States",
                     "id": "grid.256304.6",
-                    "name": "Georgia State University"
+                    "latitude": 33.75278,
+                    "linkout": [
+                        "http://www.gsu.edu/"
+                    ],
+                    "longitude": -84.38611,
+                    "name": "Georgia State University",
+                    "state_name": "Georgia",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -771,7 +816,7 @@
                     ]
                 }
             ],
-            "score": 30.074978,
+            "score": 30.077358,
             "supporting_grant_ids": null,
             "terms": [
                 "literature",
@@ -1052,12 +1097,12 @@
             "publisher": "Elsevier",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1099498252",
-                "pub.1041068281"
+                "pub.1041068281",
+                "pub.1099498252"
             ],
             "references": [
-                "pub.1099498252",
-                "pub.1041068281"
+                "pub.1041068281",
+                "pub.1099498252"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -1093,7 +1138,16 @@
                     "city_name": "Kalamazoo",
                     "country_name": "United States",
                     "id": "grid.438996.9",
-                    "name": "W.E. Upjohn Institute for Employment Research"
+                    "latitude": 42.28943,
+                    "linkout": [
+                        "http://www.upjohn.org/"
+                    ],
+                    "longitude": -85.59019,
+                    "name": "W.E. Upjohn Institute for Employment Research",
+                    "state_name": "Michigan",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 }
             ],
             "researchers": [
@@ -1111,7 +1165,7 @@
                     ]
                 }
             ],
-            "score": 29.774975,
+            "score": 29.768019,
             "supporting_grant_ids": null,
             "terms": [
                 "jobs",

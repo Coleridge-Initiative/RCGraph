@@ -101,62 +101,11 @@
         "datasets": [
             "dataset-220"
         ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "name": {
-                            "first": "Eric",
-                            "last": "Chyn"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "Joshua",
-                            "last": "Hyman"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "Max",
-                            "last": "Kapustin"
-                        }
-                    }
-                ],
-                "classification": "OK",
-                "date": "2018-11-05",
-                "records": [
-                    {
-                        "doi": "10.1002/pam.22104",
-                        "identifier": "oai:crossref.org:10.1002/pam.22104",
-                        "issn": "0276-8739",
-                        "issue": "1",
-                        "journal": "Journal of Policy Analysis and Management",
-                        "pages": "65-98",
-                        "policy": {
-                            "postprint": "restricted",
-                            "preprint": "can",
-                            "published": "cannot",
-                            "romeo_id": "2052"
-                        },
-                        "publisher": "Wiley",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1002/pam.22104",
-                        "type": "article-journal",
-                        "volume": "38"
-                    }
-                ],
-                "title": "Housing Voucher Take\u2010Up and Labor Market Impacts",
-                "type": "other"
-            },
-            "status": "ok"
-        },
         "doi": "10.1002/pam.22104",
         "original": {
             "date_added": "2019-11-27 12:20:38",
             "doi": "10.1002/pam.22104",
             "journal": "Journal of Policy Analysis and Management",
-            "notes": NaN,
             "search_term": "Illinois Unemployment Insurance"
         },
         "title": "Housing Voucher TakeUp and Labor Market Impacts"
@@ -530,14 +479,32 @@
                     "city_name": "Baltimore",
                     "country_name": "United States",
                     "id": "grid.21107.35",
-                    "name": "Johns Hopkins University"
+                    "latitude": 39.328888,
+                    "linkout": [
+                        "https://www.jhu.edu/"
+                    ],
+                    "longitude": -76.62028,
+                    "name": "Johns Hopkins University",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "NU",
                     "city_name": "Evanston",
                     "country_name": "United States",
                     "id": "grid.16753.36",
-                    "name": "Northwestern University"
+                    "latitude": 42.05485,
+                    "linkout": [
+                        "http://www.northwestern.edu/"
+                    ],
+                    "longitude": -87.67394,
+                    "name": "Northwestern University",
+                    "state_name": "Illinois",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -570,7 +537,7 @@
                     ]
                 }
             ],
-            "score": 26.123775,
+            "score": 26.117615,
             "supporting_grant_ids": null,
             "terms": [
                 "residential mobility programs",
@@ -636,34 +603,44 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "117918607",
-                            "name": "Patrick Sharkey",
-                            "url": "https://www.semanticscholar.org/author/117918607"
+                            "authorId": "34102287",
+                            "name": "Carol Ann Johnston",
+                            "url": "https://www.semanticscholar.org/author/34102287"
                         },
                         {
-                            "authorId": "31413065",
-                            "name": "Amy Ellen Schwartz",
-                            "url": "https://www.semanticscholar.org/author/31413065"
-                        },
-                        {
-                            "authorId": "2612672",
-                            "name": "Ingrid Gould Ellen",
-                            "url": "https://www.semanticscholar.org/author/2612672"
-                        },
-                        {
-                            "authorId": "103997375",
-                            "name": "Johanna Lacoe",
-                            "url": "https://www.semanticscholar.org/author/103997375"
+                            "authorId": "38646986",
+                            "name": "Anne C. Fletcher",
+                            "url": "https://www.semanticscholar.org/author/38646986"
                         }
                     ],
-                    "doi": "10.15195/v1.a14",
+                    "doi": "10.1177/0265407514554518",
                     "intent": [],
                     "isInfluential": false,
-                    "paperId": "d382069e7d385aacf1f8181ccb636b67a03a6d5b",
-                    "title": "High stakes in the classroom, high stakes on the street: The effects of community violence on students\u00e2\u20ac\u2122 standardized test performance",
-                    "url": "https://www.semanticscholar.org/paper/d382069e7d385aacf1f8181ccb636b67a03a6d5b",
+                    "paperId": "7a0e52ea2c64d69858891c491311c28ac23c9e50",
+                    "title": "Prediction of maternal use of friendship facilitation strategies in middle childhood",
+                    "url": "https://www.semanticscholar.org/paper/7a0e52ea2c64d69858891c491311c28ac23c9e50",
                     "venue": "",
-                    "year": 2014
+                    "year": 2015
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "151142072",
+                            "name": "Matthew Casey Weissman-Vermeulen",
+                            "url": "https://www.semanticscholar.org/author/151142072"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "ff7b43cf6b2d10c154a26468434f9bad6581f53c",
+                    "title": "Moving to opportunity redux: an assessment of Section 8 voucher holder locations and neighborhood opportunity in Charlotte, North Carolina",
+                    "url": "https://www.semanticscholar.org/paper/ff7b43cf6b2d10c154a26468434f9bad6581f53c",
+                    "venue": "",
+                    "year": 2012
                 },
                 {
                     "arxivId": null,
@@ -689,6 +666,61 @@
                     "url": "https://www.semanticscholar.org/paper/23034a1ad6b14fd62e0a31150b7059dd49ca617a",
                     "venue": "Criminology : an interdisciplinary journal",
                     "year": 2010
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "47637038",
+                            "name": "Ruby Mendenhall",
+                            "url": "https://www.semanticscholar.org/author/47637038"
+                        },
+                        {
+                            "authorId": "153131923",
+                            "name": "Nicole M. Brown",
+                            "url": "https://www.semanticscholar.org/author/153131923"
+                        },
+                        {
+                            "authorId": "37887514",
+                            "name": "Michael L. Black",
+                            "url": "https://www.semanticscholar.org/author/37887514"
+                        },
+                        {
+                            "authorId": "143845794",
+                            "name": "Mark Van Moer",
+                            "url": "https://www.semanticscholar.org/author/143845794"
+                        },
+                        {
+                            "authorId": "2099420",
+                            "name": "Ismini Lourentzou",
+                            "url": "https://www.semanticscholar.org/author/2099420"
+                        },
+                        {
+                            "authorId": "6251799",
+                            "name": "Karen Flynn",
+                            "url": "https://www.semanticscholar.org/author/6251799"
+                        },
+                        {
+                            "authorId": "47135328",
+                            "name": "Malaika Mckee",
+                            "url": "https://www.semanticscholar.org/author/47135328"
+                        },
+                        {
+                            "authorId": "37270016",
+                            "name": "Assata Zerai",
+                            "url": "https://www.semanticscholar.org/author/37270016"
+                        }
+                    ],
+                    "doi": "10.1145/2949550.2949642",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "ae11d72259254c7a0c6eb57a6bddba3b24fce963",
+                    "title": "Rescuing Lost History: Using Big Data to Recover Black Women's Lived Experiences",
+                    "url": "https://www.semanticscholar.org/paper/ae11d72259254c7a0c6eb57a6bddba3b24fce963",
+                    "venue": "XSEDE",
+                    "year": 2016
                 },
                 {
                     "arxivId": null,
@@ -762,6 +794,203 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "117918607",
+                            "name": "Patrick Sharkey",
+                            "url": "https://www.semanticscholar.org/author/117918607"
+                        },
+                        {
+                            "authorId": "31413065",
+                            "name": "Amy Ellen Schwartz",
+                            "url": "https://www.semanticscholar.org/author/31413065"
+                        },
+                        {
+                            "authorId": "2612672",
+                            "name": "Ingrid Gould Ellen",
+                            "url": "https://www.semanticscholar.org/author/2612672"
+                        },
+                        {
+                            "authorId": "103997375",
+                            "name": "Johanna Lacoe",
+                            "url": "https://www.semanticscholar.org/author/103997375"
+                        }
+                    ],
+                    "doi": "10.15195/v1.a14",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "d382069e7d385aacf1f8181ccb636b67a03a6d5b",
+                    "title": "High stakes in the classroom, high stakes on the street: The effects of community violence on students\u00e2\u20ac\u2122 standardized test performance",
+                    "url": "https://www.semanticscholar.org/paper/d382069e7d385aacf1f8181ccb636b67a03a6d5b",
+                    "venue": "",
+                    "year": 2014
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "144990493",
+                            "name": "David Manley",
+                            "url": "https://www.semanticscholar.org/author/144990493"
+                        },
+                        {
+                            "authorId": "40233507",
+                            "name": "Maarten van Ham",
+                            "url": "https://www.semanticscholar.org/author/40233507"
+                        }
+                    ],
+                    "doi": "10.1007/978-94-007-2309-2_7",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "78332ca68551d69b4cb533bcdd3fec7963683318",
+                    "title": "Neighbourhood Effects, Housing Tenure and Individual Employment Outcomes",
+                    "url": "https://www.semanticscholar.org/paper/78332ca68551d69b4cb533bcdd3fec7963683318",
+                    "venue": "",
+                    "year": 2010
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "6177108",
+                            "name": "Leslie Echols",
+                            "url": "https://www.semanticscholar.org/author/6177108"
+                        },
+                        {
+                            "authorId": "81339437",
+                            "name": "Sandra Graham",
+                            "url": "https://www.semanticscholar.org/author/81339437"
+                        }
+                    ],
+                    "doi": "10.1353/mpq.2013.0020",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "b7044f0b3f54f2ebc97b4ee58542656093631928",
+                    "title": "Birds of a Different Feather: How Do Cross-Ethnic Friends Flock Together?",
+                    "url": "https://www.semanticscholar.org/paper/b7044f0b3f54f2ebc97b4ee58542656093631928",
+                    "venue": "",
+                    "year": 2013
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "50197963",
+                            "name": "Jens Ludwig",
+                            "url": "https://www.semanticscholar.org/author/50197963"
+                        },
+                        {
+                            "authorId": "37482118",
+                            "name": "Jeffrey B. Liebman",
+                            "url": "https://www.semanticscholar.org/author/37482118"
+                        },
+                        {
+                            "authorId": "5661685",
+                            "name": "Jeffrey R. Kling",
+                            "url": "https://www.semanticscholar.org/author/5661685"
+                        },
+                        {
+                            "authorId": "2877017",
+                            "name": "Greg J Duncan",
+                            "url": "https://www.semanticscholar.org/author/2877017"
+                        },
+                        {
+                            "authorId": "32277840",
+                            "name": "Lawrence F. Katz",
+                            "url": "https://www.semanticscholar.org/author/32277840"
+                        },
+                        {
+                            "authorId": "2350669",
+                            "name": "Ronald C Kessler",
+                            "url": "https://www.semanticscholar.org/author/2350669"
+                        },
+                        {
+                            "authorId": "4830566",
+                            "name": "Lisa Sanbonmatsu",
+                            "url": "https://www.semanticscholar.org/author/4830566"
+                        }
+                    ],
+                    "doi": "10.1086/588741",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "5bc84717abe2e1808a48e175f2397089dc6dc44f",
+                    "title": "What Can We Learn about Neighborhood Effects from the Moving to Opportunity Experiment",
+                    "url": "https://www.semanticscholar.org/paper/5bc84717abe2e1808a48e175f2397089dc6dc44f",
+                    "venue": "",
+                    "year": 2008
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "40148857",
+                            "name": "Deven Carlson",
+                            "url": "https://www.semanticscholar.org/author/40148857"
+                        },
+                        {
+                            "authorId": "118816003",
+                            "name": "Robert M. Haveman",
+                            "url": "https://www.semanticscholar.org/author/118816003"
+                        },
+                        {
+                            "authorId": "48998641",
+                            "name": "Thomas A. Kaplan",
+                            "url": "https://www.semanticscholar.org/author/48998641"
+                        },
+                        {
+                            "authorId": "38598572",
+                            "name": "Barbara L. Wolfe",
+                            "url": "https://www.semanticscholar.org/author/38598572"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "dd4e440ef5101c2d3b41a288884c1d7a564696e1",
+                    "title": "Long-Term Effects of Public Low-Income Housing Vouchers on Work, Earnings, and Neighborhood Quality",
+                    "url": "https://www.semanticscholar.org/paper/dd4e440ef5101c2d3b41a288884c1d7a564696e1",
+                    "venue": "",
+                    "year": 2008
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "95136026",
+                            "name": "Tito Michele Boeri",
+                            "url": "https://www.semanticscholar.org/author/95136026"
+                        },
+                        {
+                            "authorId": "108757958",
+                            "name": "Marta de Philippis",
+                            "url": "https://www.semanticscholar.org/author/108757958"
+                        },
+                        {
+                            "authorId": "1747091",
+                            "name": "Eleonora Patacchini",
+                            "url": "https://www.semanticscholar.org/author/1747091"
+                        },
+                        {
+                            "authorId": "4264497",
+                            "name": "Michele Pellizzari",
+                            "url": "https://www.semanticscholar.org/author/4264497"
+                        }
+                    ],
+                    "doi": "10.1111/ecoj.12232",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "6263406e18c63c4107e13ed934aa4196db42c793",
+                    "title": "Immigration, Housing Discrimination and Employment",
+                    "url": "https://www.semanticscholar.org/paper/6263406e18c63c4107e13ed934aa4196db42c793",
+                    "venue": "",
+                    "year": 2015
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "34609986",
                             "name": "Dionissi Aliprantis",
                             "url": "https://www.semanticscholar.org/author/34609986"
@@ -777,104 +1006,6 @@
                     "url": "https://www.semanticscholar.org/paper/5c55b7b220a33b094b6fb0cd429fb8faf7ba93ec",
                     "venue": "",
                     "year": 2017
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "151142072",
-                            "name": "Matthew Casey Weissman-Vermeulen",
-                            "url": "https://www.semanticscholar.org/author/151142072"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "ff7b43cf6b2d10c154a26468434f9bad6581f53c",
-                    "title": "Moving to opportunity redux: an assessment of Section 8 voucher holder locations and neighborhood opportunity in Charlotte, North Carolina",
-                    "url": "https://www.semanticscholar.org/paper/ff7b43cf6b2d10c154a26468434f9bad6581f53c",
-                    "venue": "",
-                    "year": 2012
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "34102287",
-                            "name": "Carol Ann Johnston",
-                            "url": "https://www.semanticscholar.org/author/34102287"
-                        },
-                        {
-                            "authorId": "38646986",
-                            "name": "Anne C. Fletcher",
-                            "url": "https://www.semanticscholar.org/author/38646986"
-                        }
-                    ],
-                    "doi": "10.1177/0265407514554518",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "7a0e52ea2c64d69858891c491311c28ac23c9e50",
-                    "title": "Prediction of maternal use of friendship facilitation strategies in middle childhood",
-                    "url": "https://www.semanticscholar.org/paper/7a0e52ea2c64d69858891c491311c28ac23c9e50",
-                    "venue": "",
-                    "year": 2015
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "47637038",
-                            "name": "Ruby Mendenhall",
-                            "url": "https://www.semanticscholar.org/author/47637038"
-                        },
-                        {
-                            "authorId": "153131923",
-                            "name": "Nicole M. Brown",
-                            "url": "https://www.semanticscholar.org/author/153131923"
-                        },
-                        {
-                            "authorId": "37887514",
-                            "name": "Michael L. Black",
-                            "url": "https://www.semanticscholar.org/author/37887514"
-                        },
-                        {
-                            "authorId": "143845794",
-                            "name": "Mark Van Moer",
-                            "url": "https://www.semanticscholar.org/author/143845794"
-                        },
-                        {
-                            "authorId": "2099420",
-                            "name": "Ismini Lourentzou",
-                            "url": "https://www.semanticscholar.org/author/2099420"
-                        },
-                        {
-                            "authorId": "6251799",
-                            "name": "Karen Flynn",
-                            "url": "https://www.semanticscholar.org/author/6251799"
-                        },
-                        {
-                            "authorId": "47135328",
-                            "name": "Malaika Mckee",
-                            "url": "https://www.semanticscholar.org/author/47135328"
-                        },
-                        {
-                            "authorId": "37270016",
-                            "name": "Assata Zerai",
-                            "url": "https://www.semanticscholar.org/author/37270016"
-                        }
-                    ],
-                    "doi": "10.1145/2949550.2949642",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "ae11d72259254c7a0c6eb57a6bddba3b24fce963",
-                    "title": "Rescuing Lost History: Using Big Data to Recover Black Women's Lived Experiences",
-                    "url": "https://www.semanticscholar.org/paper/ae11d72259254c7a0c6eb57a6bddba3b24fce963",
-                    "venue": "XSEDE",
-                    "year": 2016
                 },
                 {
                     "arxivId": null,
@@ -961,102 +1092,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "50197963",
-                            "name": "Jens Ludwig",
-                            "url": "https://www.semanticscholar.org/author/50197963"
-                        },
-                        {
-                            "authorId": "37482118",
-                            "name": "Jeffrey B. Liebman",
-                            "url": "https://www.semanticscholar.org/author/37482118"
-                        },
-                        {
-                            "authorId": "5661685",
-                            "name": "Jeffrey R. Kling",
-                            "url": "https://www.semanticscholar.org/author/5661685"
-                        },
-                        {
-                            "authorId": "2877017",
-                            "name": "Greg J Duncan",
-                            "url": "https://www.semanticscholar.org/author/2877017"
-                        },
-                        {
-                            "authorId": "32277840",
-                            "name": "Lawrence F. Katz",
-                            "url": "https://www.semanticscholar.org/author/32277840"
-                        },
-                        {
-                            "authorId": "2350669",
-                            "name": "Ronald C Kessler",
-                            "url": "https://www.semanticscholar.org/author/2350669"
-                        },
-                        {
-                            "authorId": "4830566",
-                            "name": "Lisa Sanbonmatsu",
-                            "url": "https://www.semanticscholar.org/author/4830566"
-                        }
-                    ],
-                    "doi": "10.1086/588741",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "5bc84717abe2e1808a48e175f2397089dc6dc44f",
-                    "title": "What Can We Learn about Neighborhood Effects from the Moving to Opportunity Experiment",
-                    "url": "https://www.semanticscholar.org/paper/5bc84717abe2e1808a48e175f2397089dc6dc44f",
-                    "venue": "",
-                    "year": 2008
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "6177108",
-                            "name": "Leslie Echols",
-                            "url": "https://www.semanticscholar.org/author/6177108"
-                        },
-                        {
-                            "authorId": "81339437",
-                            "name": "Sandra Graham",
-                            "url": "https://www.semanticscholar.org/author/81339437"
-                        }
-                    ],
-                    "doi": "10.1353/mpq.2013.0020",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "b7044f0b3f54f2ebc97b4ee58542656093631928",
-                    "title": "Birds of a Different Feather: How Do Cross-Ethnic Friends Flock Together?",
-                    "url": "https://www.semanticscholar.org/paper/b7044f0b3f54f2ebc97b4ee58542656093631928",
-                    "venue": "",
-                    "year": 2013
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "144990493",
-                            "name": "David Manley",
-                            "url": "https://www.semanticscholar.org/author/144990493"
-                        },
-                        {
-                            "authorId": "40233507",
-                            "name": "Maarten van Ham",
-                            "url": "https://www.semanticscholar.org/author/40233507"
-                        }
-                    ],
-                    "doi": "10.1007/978-94-007-2309-2_7",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "78332ca68551d69b4cb533bcdd3fec7963683318",
-                    "title": "Neighbourhood Effects, Housing Tenure and Individual Employment Outcomes",
-                    "url": "https://www.semanticscholar.org/paper/78332ca68551d69b4cb533bcdd3fec7963683318",
-                    "venue": "",
-                    "year": 2010
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "40308095",
                             "name": "Sukumar Ganapati",
                             "url": "https://www.semanticscholar.org/author/40308095"
@@ -1131,74 +1166,6 @@
                 },
                 {
                     "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "40148857",
-                            "name": "Deven Carlson",
-                            "url": "https://www.semanticscholar.org/author/40148857"
-                        },
-                        {
-                            "authorId": "118816003",
-                            "name": "Robert M. Haveman",
-                            "url": "https://www.semanticscholar.org/author/118816003"
-                        },
-                        {
-                            "authorId": "48998641",
-                            "name": "Thomas A. Kaplan",
-                            "url": "https://www.semanticscholar.org/author/48998641"
-                        },
-                        {
-                            "authorId": "38598572",
-                            "name": "Barbara L. Wolfe",
-                            "url": "https://www.semanticscholar.org/author/38598572"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "dd4e440ef5101c2d3b41a288884c1d7a564696e1",
-                    "title": "Long-Term Effects of Public Low-Income Housing Vouchers on Work, Earnings, and Neighborhood Quality",
-                    "url": "https://www.semanticscholar.org/paper/dd4e440ef5101c2d3b41a288884c1d7a564696e1",
-                    "venue": "",
-                    "year": 2008
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "95136026",
-                            "name": "Tito Michele Boeri",
-                            "url": "https://www.semanticscholar.org/author/95136026"
-                        },
-                        {
-                            "authorId": "108757958",
-                            "name": "Marta de Philippis",
-                            "url": "https://www.semanticscholar.org/author/108757958"
-                        },
-                        {
-                            "authorId": "1747091",
-                            "name": "Eleonora Patacchini",
-                            "url": "https://www.semanticscholar.org/author/1747091"
-                        },
-                        {
-                            "authorId": "4264497",
-                            "name": "Michele Pellizzari",
-                            "url": "https://www.semanticscholar.org/author/4264497"
-                        }
-                    ],
-                    "doi": "10.1111/ecoj.12232",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "6263406e18c63c4107e13ed934aa4196db42c793",
-                    "title": "Immigration, Housing Discrimination and Employment",
-                    "url": "https://www.semanticscholar.org/paper/6263406e18c63c4107e13ed934aa4196db42c793",
-                    "venue": "",
-                    "year": 2015
-                },
-                {
-                    "arxivId": null,
                     "authors": [],
                     "doi": null,
                     "intent": [],
@@ -1254,26 +1221,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "50879904",
-                            "name": "Francisca G.-C. Richter",
-                            "url": "https://www.semanticscholar.org/author/50879904"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "53e5344ad8a145bb9a6bff116bbd9f79fa344d40",
-                    "title": "Marginal Neighborhood Effects from Moving to Opportunity Marginal Neighborhood Effects from Moving to Opportunity",
-                    "url": "https://www.semanticscholar.org/paper/53e5344ad8a145bb9a6bff116bbd9f79fa344d40",
-                    "venue": "",
-                    "year": 2011
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "33283238",
                             "name": "Xiaoqi Feng",
                             "url": "https://www.semanticscholar.org/author/33283238"
@@ -1297,19 +1244,21 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "9886584",
-                            "name": "Mary E. Brown",
-                            "url": "https://www.semanticscholar.org/author/9886584"
+                            "authorId": "50879904",
+                            "name": "Francisca G.-C. Richter",
+                            "url": "https://www.semanticscholar.org/author/50879904"
                         }
                     ],
                     "doi": null,
-                    "intent": [],
+                    "intent": [
+                        "background"
+                    ],
                     "isInfluential": false,
-                    "paperId": "24d545fc7936608ec8aae183e418bf07c51c69b3",
-                    "title": "Investing in the Civic Economy: Social Capital and Choice Neighborhoods",
-                    "url": "https://www.semanticscholar.org/paper/24d545fc7936608ec8aae183e418bf07c51c69b3",
+                    "paperId": "53e5344ad8a145bb9a6bff116bbd9f79fa344d40",
+                    "title": "Marginal Neighborhood Effects from Moving to Opportunity Marginal Neighborhood Effects from Moving to Opportunity",
+                    "url": "https://www.semanticscholar.org/paper/53e5344ad8a145bb9a6bff116bbd9f79fa344d40",
                     "venue": "",
-                    "year": 2015
+                    "year": 2011
                 },
                 {
                     "arxivId": null,
@@ -1333,6 +1282,24 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "9886584",
+                            "name": "Mary E. Brown",
+                            "url": "https://www.semanticscholar.org/author/9886584"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "24d545fc7936608ec8aae183e418bf07c51c69b3",
+                    "title": "Investing in the Civic Economy: Social Capital and Choice Neighborhoods",
+                    "url": "https://www.semanticscholar.org/paper/24d545fc7936608ec8aae183e418bf07c51c69b3",
+                    "venue": "",
+                    "year": 2015
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "49287562",
                             "name": "Lanlan Xu",
                             "url": "https://www.semanticscholar.org/author/49287562"
@@ -1346,116 +1313,6 @@
                     "url": "https://www.semanticscholar.org/paper/3685caf752d82c57c48e7676dfed2504ffb91bbf",
                     "venue": "",
                     "year": 2012
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "6589396",
-                            "name": "Susan E. Clampet-Lundquist",
-                            "url": "https://www.semanticscholar.org/author/6589396"
-                        },
-                        {
-                            "authorId": "3907059",
-                            "name": "Douglas s. Massey",
-                            "url": "https://www.semanticscholar.org/author/3907059"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "a84ac562c72312f59c31957ed842f89caf074150",
-                    "title": "MOVING TO OPPORTUNITY: A SYMPOSIUM Neighborhood Effects on Economic Self- Sufficiency: A Reconsideration of the Moving to Opportunity Experiment 1",
-                    "url": "https://www.semanticscholar.org/paper/a84ac562c72312f59c31957ed842f89caf074150",
-                    "venue": "",
-                    "year": 2008
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "46181575",
-                            "name": "James E. Rosenbaum",
-                            "url": "https://www.semanticscholar.org/author/46181575"
-                        },
-                        {
-                            "authorId": "119605549",
-                            "name": "Stefanie DeLuca",
-                            "url": "https://www.semanticscholar.org/author/119605549"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "f7c078cc7e18b06d5807c088762103975d06bae8",
-                    "title": "Does Changing Neighborhoods Change Lives? The Chicago Gautreaux Housing Program and Recent Mobility Programs (WP-09-01)",
-                    "url": "https://www.semanticscholar.org/paper/f7c078cc7e18b06d5807c088762103975d06bae8",
-                    "venue": "",
-                    "year": 2009
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "48971678",
-                            "name": "Xiaoqi Feng",
-                            "url": "https://www.semanticscholar.org/author/48971678"
-                        },
-                        {
-                            "authorId": "145592782",
-                            "name": "Robin Flowerdew",
-                            "url": "https://www.semanticscholar.org/author/145592782"
-                        },
-                        {
-                            "authorId": "123268716",
-                            "name": "Zhiqiang Feng",
-                            "url": "https://www.semanticscholar.org/author/123268716"
-                        }
-                    ],
-                    "doi": "10.1093/jeg/lbt036",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "fadcd15d0fb0170b1c21460618dfc63d1e242281",
-                    "title": "Does neighbourhood influence ethnic inequalities in economic activity? : findings from the ONS Longitudinal Study",
-                    "url": "https://www.semanticscholar.org/paper/fadcd15d0fb0170b1c21460618dfc63d1e242281",
-                    "venue": "",
-                    "year": 2015
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "8548200",
-                            "name": "Thomas P. Vartanian",
-                            "url": "https://www.semanticscholar.org/author/8548200"
-                        },
-                        {
-                            "authorId": "38841518",
-                            "name": "Page Walker Buck",
-                            "url": "https://www.semanticscholar.org/author/38841518"
-                        },
-                        {
-                            "authorId": "40502516",
-                            "name": "Philip Gleason",
-                            "url": "https://www.semanticscholar.org/author/40502516"
-                        }
-                    ],
-                    "doi": "10.1080/02673030701474792",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "b22fea4dd00102d8b0d4182374268c51cb925470",
-                    "title": "Intergenerational Neighborhood-Type Mobility: Examining Differences between Blacks and Whites",
-                    "url": "https://www.semanticscholar.org/paper/b22fea4dd00102d8b0d4182374268c51cb925470",
-                    "venue": "",
-                    "year": 2007
                 },
                 {
                     "arxivId": null,
@@ -1557,8 +1414,8 @@
                     ],
                     "doi": null,
                     "intent": [
-                        "methodology",
-                        "background"
+                        "background",
+                        "methodology"
                     ],
                     "isInfluential": false,
                     "paperId": "7a0b6619272d6dc83956c108263ea2f5b0d7041a",
@@ -1566,6 +1423,116 @@
                     "url": "https://www.semanticscholar.org/paper/7a0b6619272d6dc83956c108263ea2f5b0d7041a",
                     "venue": "",
                     "year": 2018
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "46181575",
+                            "name": "James E. Rosenbaum",
+                            "url": "https://www.semanticscholar.org/author/46181575"
+                        },
+                        {
+                            "authorId": "119605549",
+                            "name": "Stefanie DeLuca",
+                            "url": "https://www.semanticscholar.org/author/119605549"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "f7c078cc7e18b06d5807c088762103975d06bae8",
+                    "title": "Does Changing Neighborhoods Change Lives? The Chicago Gautreaux Housing Program and Recent Mobility Programs (WP-09-01)",
+                    "url": "https://www.semanticscholar.org/paper/f7c078cc7e18b06d5807c088762103975d06bae8",
+                    "venue": "",
+                    "year": 2009
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "48971678",
+                            "name": "Xiaoqi Feng",
+                            "url": "https://www.semanticscholar.org/author/48971678"
+                        },
+                        {
+                            "authorId": "145592782",
+                            "name": "Robin Flowerdew",
+                            "url": "https://www.semanticscholar.org/author/145592782"
+                        },
+                        {
+                            "authorId": "123268716",
+                            "name": "Zhiqiang Feng",
+                            "url": "https://www.semanticscholar.org/author/123268716"
+                        }
+                    ],
+                    "doi": "10.1093/jeg/lbt036",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "fadcd15d0fb0170b1c21460618dfc63d1e242281",
+                    "title": "Does neighbourhood influence ethnic inequalities in economic activity? : findings from the ONS Longitudinal Study",
+                    "url": "https://www.semanticscholar.org/paper/fadcd15d0fb0170b1c21460618dfc63d1e242281",
+                    "venue": "",
+                    "year": 2015
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "8548200",
+                            "name": "Thomas P. Vartanian",
+                            "url": "https://www.semanticscholar.org/author/8548200"
+                        },
+                        {
+                            "authorId": "38841518",
+                            "name": "Page Walker Buck",
+                            "url": "https://www.semanticscholar.org/author/38841518"
+                        },
+                        {
+                            "authorId": "40502516",
+                            "name": "Philip Gleason",
+                            "url": "https://www.semanticscholar.org/author/40502516"
+                        }
+                    ],
+                    "doi": "10.1080/02673030701474792",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "b22fea4dd00102d8b0d4182374268c51cb925470",
+                    "title": "Intergenerational Neighborhood-Type Mobility: Examining Differences between Blacks and Whites",
+                    "url": "https://www.semanticscholar.org/paper/b22fea4dd00102d8b0d4182374268c51cb925470",
+                    "venue": "",
+                    "year": 2007
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1403625461",
+                            "name": "Susan Clampet-Lundquist",
+                            "url": "https://www.semanticscholar.org/author/1403625461"
+                        },
+                        {
+                            "authorId": "3907059",
+                            "name": "Douglas s. Massey",
+                            "url": "https://www.semanticscholar.org/author/3907059"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "a84ac562c72312f59c31957ed842f89caf074150",
+                    "title": "MOVING TO OPPORTUNITY: A SYMPOSIUM Neighborhood Effects on Economic Self- Sufficiency: A Reconsideration of the Moving to Opportunity Experiment 1",
+                    "url": "https://www.semanticscholar.org/paper/a84ac562c72312f59c31957ed842f89caf074150",
+                    "venue": "",
+                    "year": 2008
                 }
             ],
             "doi": "10.1016/j.ssresearch.2005.06.007",
@@ -1588,8 +1555,8 @@
                     ],
                     "doi": "10.1080/10511482.1997.9521280",
                     "intent": [
-                        "result",
-                        "background"
+                        "background",
+                        "result"
                     ],
                     "isInfluential": false,
                     "paperId": "225c045365e6c0d993184f4d148c88484dac1ccf",
@@ -1645,151 +1612,36 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "118997481",
-                            "name": "Gayle Epp",
-                            "url": "https://www.semanticscholar.org/author/118997481"
-                        }
-                    ],
-                    "doi": "10.1080/10511482.1996.9521233",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "c70783d59dd114e9048cb3cb16ccbc2d3efe8d62",
-                    "title": "Emerging strategies for revitalizing public housing communities",
-                    "url": "https://www.semanticscholar.org/paper/c70783d59dd114e9048cb3cb16ccbc2d3efe8d62",
-                    "venue": "",
-                    "year": 1996
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "4383522",
-                            "name": "Lincoln Quillian",
-                            "url": "https://www.semanticscholar.org/author/4383522"
-                        }
-                    ],
-                    "doi": "10.1023/A:1026077008571",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "c3169f84a49c8def2f57156e90d0379249af88c4",
-                    "title": "How Long are Exposures to Poor Neighborhoods? The Long-Term Dynamics of Entry and Exit from Poor Neighborhoods",
-                    "url": "https://www.semanticscholar.org/paper/c3169f84a49c8def2f57156e90d0379249af88c4",
-                    "venue": "",
-                    "year": 2003
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "66675742",
-                            "name": "Sandra J. Newman",
-                            "url": "https://www.semanticscholar.org/author/66675742"
+                            "authorId": "5661685",
+                            "name": "Jeffrey R. Kling",
+                            "url": "https://www.semanticscholar.org/author/5661685"
                         },
                         {
-                            "authorId": "1817116",
-                            "name": "Joseph Harkness",
-                            "url": "https://www.semanticscholar.org/author/1817116"
-                        }
-                    ],
-                    "doi": "10.1002/pam.1038",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "fc623eb72fe69d5503c7a335f92f6af3e1b748af",
-                    "title": "The long\u2010term effects of public housing on self\u2010sufficiency",
-                    "url": "https://www.semanticscholar.org/paper/fc623eb72fe69d5503c7a335f92f6af3e1b748af",
-                    "venue": "",
-                    "year": 2002
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "152661795",
-                            "name": "David T. Ellwood",
-                            "url": "https://www.semanticscholar.org/author/152661795"
-                        }
-                    ],
-                    "doi": "10.3386/w1188",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "397a7e59078c7d0d6e5c4213d720bc49861ca42d",
-                    "title": "The Spatial Mismatch Hypothesis: Are There Teenage Jobs Missing in the Ghetto?",
-                    "url": "https://www.semanticscholar.org/paper/397a7e59078c7d0d6e5c4213d720bc49861ca42d",
-                    "venue": "",
-                    "year": 1983
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "2877017",
-                            "name": "Greg J Duncan",
-                            "url": "https://www.semanticscholar.org/author/2877017"
+                            "authorId": "37482118",
+                            "name": "Jeffrey B. Liebman",
+                            "url": "https://www.semanticscholar.org/author/37482118"
                         },
                         {
-                            "authorId": "5527740",
-                            "name": "Stephen W. Raudenbush",
-                            "url": "https://www.semanticscholar.org/author/5527740"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "8013926ef805b9446a79b7388f3ddaf97e47a677",
-                    "title": "Neighborhoods and Adolescent Development: How Can We Determine the Links?",
-                    "url": "https://www.semanticscholar.org/paper/8013926ef805b9446a79b7388f3ddaf97e47a677",
-                    "venue": "",
-                    "year": 1998
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
+                            "authorId": "32277840",
+                            "name": "Lawrence F. Katz",
+                            "url": "https://www.semanticscholar.org/author/32277840"
+                        },
                         {
-                            "authorId": "5964400",
-                            "name": "Urie Bronfenbrenner",
-                            "url": "https://www.semanticscholar.org/author/5964400"
+                            "authorId": "4830566",
+                            "name": "Lisa Sanbonmatsu",
+                            "url": "https://www.semanticscholar.org/author/4830566"
                         }
                     ],
-                    "doi": "10.1037/10176-018",
+                    "doi": "10.2139/ssrn.588942",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "4e60859fda1819b5c308d70b8b958a082bc13057",
-                    "title": "Developmental ecology through space and time: A future perspective.",
-                    "url": "https://www.semanticscholar.org/paper/4e60859fda1819b5c308d70b8b958a082bc13057",
+                    "paperId": "02b65e6340a3c38bd8a10000efd75e6e48937427",
+                    "title": "Moving to Opportunity and Tranquility: Neighborhood Effects on Adult Economic Self-Sufficiency and Health from a Randomized Housing Voucher Experiment",
+                    "url": "https://www.semanticscholar.org/paper/02b65e6340a3c38bd8a10000efd75e6e48937427",
                     "venue": "",
-                    "year": 1995
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "51361953",
-                            "name": "Harry J. Holzer",
-                            "url": "https://www.semanticscholar.org/author/51361953"
-                        }
-                    ],
-                    "doi": "10.1080/00420989120080071",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "cfc384058c0b64d296262aa869e77acb6273f450",
-                    "title": "The Spatial Mismatch Hypothesis: What Has the Evidence Shown?",
-                    "url": "https://www.semanticscholar.org/paper/cfc384058c0b64d296262aa869e77acb6273f450",
-                    "venue": "",
-                    "year": 1991
+                    "year": 2004
                 },
                 {
                     "arxivId": null,
@@ -1855,105 +1707,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "74119997",
-                            "name": "Mahshid Jalilvand",
-                            "url": "https://www.semanticscholar.org/author/74119997"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "d02cb68480b3aac399f6c4a458f40c7b32d9378f",
-                    "title": "Married Women, Work, and Values.",
-                    "url": "https://www.semanticscholar.org/paper/d02cb68480b3aac399f6c4a458f40c7b32d9378f",
-                    "venue": "",
-                    "year": 2000
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "69052332",
-                            "name": "Gary A. Dymski",
-                            "url": "https://www.semanticscholar.org/author/69052332"
-                        }
-                    ],
-                    "doi": "10.1007/978-1-4615-6157-6_8",
-                    "intent": [
-                        "result",
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "6efe51d5fc9f53ed41fcc4d5d99ca7f50e52f22c",
-                    "title": "Why Does Race Matter in Housing and Credit Markets? Current Research and Future Directions",
-                    "url": "https://www.semanticscholar.org/paper/6efe51d5fc9f53ed41fcc4d5d99ca7f50e52f22c",
-                    "venue": "",
-                    "year": 1997
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "5661685",
-                            "name": "Jeffrey R. Kling",
-                            "url": "https://www.semanticscholar.org/author/5661685"
-                        },
-                        {
-                            "authorId": "37482118",
-                            "name": "Jeffrey B. Liebman",
-                            "url": "https://www.semanticscholar.org/author/37482118"
-                        },
-                        {
-                            "authorId": "32277840",
-                            "name": "Lawrence F. Katz",
-                            "url": "https://www.semanticscholar.org/author/32277840"
-                        },
-                        {
-                            "authorId": "4830566",
-                            "name": "Lisa Sanbonmatsu",
-                            "url": "https://www.semanticscholar.org/author/4830566"
-                        }
-                    ],
-                    "doi": "10.2139/ssrn.588942",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "02b65e6340a3c38bd8a10000efd75e6e48937427",
-                    "title": "Moving to Opportunity and Tranquility: Neighborhood Effects on Adult Economic Self-Sufficiency and Health from a Randomized Housing Voucher Experiment",
-                    "url": "https://www.semanticscholar.org/paper/02b65e6340a3c38bd8a10000efd75e6e48937427",
-                    "venue": "",
-                    "year": 2004
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "66371285",
-                            "name": "Keith Ray Ihlanfeldt",
-                            "url": "https://www.semanticscholar.org/author/66371285"
-                        },
-                        {
-                            "authorId": "144456224",
-                            "name": "David L. Sjoquist",
-                            "url": "https://www.semanticscholar.org/author/144456224"
-                        }
-                    ],
-                    "doi": "10.1080/10511482.1998.9521321",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "fe41c0528eaa63e2e4cacdb0f006fd6fa7fa0412",
-                    "title": "The Spatial Mismatch Hypothesis : A Review of Recent Studies and Their Implications for Welfare Reform",
-                    "url": "https://www.semanticscholar.org/paper/fe41c0528eaa63e2e4cacdb0f006fd6fa7fa0412",
-                    "venue": "",
-                    "year": 1998
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "65899797",
                             "name": "James E. Rosenbaum",
                             "url": "https://www.semanticscholar.org/author/65899797"
@@ -1984,6 +1737,275 @@
                     "url": "https://www.semanticscholar.org/paper/2552daba30139fda718d6e91d8d7ab8e115d7814",
                     "venue": "",
                     "year": 1999
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "74119997",
+                            "name": "Mahshid Jalilvand",
+                            "url": "https://www.semanticscholar.org/author/74119997"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "d02cb68480b3aac399f6c4a458f40c7b32d9378f",
+                    "title": "Married Women, Work, and Values.",
+                    "url": "https://www.semanticscholar.org/paper/d02cb68480b3aac399f6c4a458f40c7b32d9378f",
+                    "venue": "",
+                    "year": 2000
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "69052332",
+                            "name": "Gary A. Dymski",
+                            "url": "https://www.semanticscholar.org/author/69052332"
+                        }
+                    ],
+                    "doi": "10.1007/978-1-4615-6157-6_8",
+                    "intent": [
+                        "background",
+                        "result"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "6efe51d5fc9f53ed41fcc4d5d99ca7f50e52f22c",
+                    "title": "Why Does Race Matter in Housing and Credit Markets? Current Research and Future Directions",
+                    "url": "https://www.semanticscholar.org/paper/6efe51d5fc9f53ed41fcc4d5d99ca7f50e52f22c",
+                    "venue": "",
+                    "year": 1997
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "5964400",
+                            "name": "Urie Bronfenbrenner",
+                            "url": "https://www.semanticscholar.org/author/5964400"
+                        }
+                    ],
+                    "doi": "10.1037/10176-018",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "4e60859fda1819b5c308d70b8b958a082bc13057",
+                    "title": "Developmental ecology through space and time: A future perspective.",
+                    "url": "https://www.semanticscholar.org/paper/4e60859fda1819b5c308d70b8b958a082bc13057",
+                    "venue": "",
+                    "year": 1995
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "51361953",
+                            "name": "Harry J. Holzer",
+                            "url": "https://www.semanticscholar.org/author/51361953"
+                        }
+                    ],
+                    "doi": "10.1080/00420989120080071",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "cfc384058c0b64d296262aa869e77acb6273f450",
+                    "title": "The Spatial Mismatch Hypothesis: What Has the Evidence Shown?",
+                    "url": "https://www.semanticscholar.org/paper/cfc384058c0b64d296262aa869e77acb6273f450",
+                    "venue": "",
+                    "year": 1991
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "118997481",
+                            "name": "Gayle Epp",
+                            "url": "https://www.semanticscholar.org/author/118997481"
+                        }
+                    ],
+                    "doi": "10.1080/10511482.1996.9521233",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "c70783d59dd114e9048cb3cb16ccbc2d3efe8d62",
+                    "title": "Emerging strategies for revitalizing public housing communities",
+                    "url": "https://www.semanticscholar.org/paper/c70783d59dd114e9048cb3cb16ccbc2d3efe8d62",
+                    "venue": "",
+                    "year": 1996
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "66675742",
+                            "name": "Sandra J. Newman",
+                            "url": "https://www.semanticscholar.org/author/66675742"
+                        },
+                        {
+                            "authorId": "1817116",
+                            "name": "Joseph Harkness",
+                            "url": "https://www.semanticscholar.org/author/1817116"
+                        }
+                    ],
+                    "doi": "10.1002/pam.1038",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "fc623eb72fe69d5503c7a335f92f6af3e1b748af",
+                    "title": "The long\u2010term effects of public housing on self\u2010sufficiency",
+                    "url": "https://www.semanticscholar.org/paper/fc623eb72fe69d5503c7a335f92f6af3e1b748af",
+                    "venue": "",
+                    "year": 2002
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "4383522",
+                            "name": "Lincoln Quillian",
+                            "url": "https://www.semanticscholar.org/author/4383522"
+                        }
+                    ],
+                    "doi": "10.1023/A:1026077008571",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "c3169f84a49c8def2f57156e90d0379249af88c4",
+                    "title": "How Long are Exposures to Poor Neighborhoods? The Long-Term Dynamics of Entry and Exit from Poor Neighborhoods",
+                    "url": "https://www.semanticscholar.org/paper/c3169f84a49c8def2f57156e90d0379249af88c4",
+                    "venue": "",
+                    "year": 2003
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "66371285",
+                            "name": "Keith Ray Ihlanfeldt",
+                            "url": "https://www.semanticscholar.org/author/66371285"
+                        },
+                        {
+                            "authorId": "144456224",
+                            "name": "David L. Sjoquist",
+                            "url": "https://www.semanticscholar.org/author/144456224"
+                        }
+                    ],
+                    "doi": "10.1080/10511482.1998.9521321",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "fe41c0528eaa63e2e4cacdb0f006fd6fa7fa0412",
+                    "title": "The Spatial Mismatch Hypothesis : A Review of Recent Studies and Their Implications for Welfare Reform",
+                    "url": "https://www.semanticscholar.org/paper/fe41c0528eaa63e2e4cacdb0f006fd6fa7fa0412",
+                    "venue": "",
+                    "year": 1998
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "3539181",
+                            "name": "Susan J. Popkin",
+                            "url": "https://www.semanticscholar.org/author/3539181"
+                        },
+                        {
+                            "authorId": "100605600",
+                            "name": "James E. Rosenbaum",
+                            "url": "https://www.semanticscholar.org/author/100605600"
+                        },
+                        {
+                            "authorId": "49487987",
+                            "name": "Patricia M. Meaden",
+                            "url": "https://www.semanticscholar.org/author/49487987"
+                        }
+                    ],
+                    "doi": "10.2307/3325306",
+                    "intent": [
+                        "background",
+                        "methodology",
+                        "result"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "057e7140ac6cd832e1598445d35a928874715bd4",
+                    "title": "Labor market experiences of low-income black women in middle-class suburbs: Evidence from a survey of gautreaux program participants",
+                    "url": "https://www.semanticscholar.org/paper/057e7140ac6cd832e1598445d35a928874715bd4",
+                    "venue": "",
+                    "year": 1993
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "115839169",
+                            "name": "George Galster",
+                            "url": "https://www.semanticscholar.org/author/115839169"
+                        },
+                        {
+                            "authorId": "119486677",
+                            "name": "Sean P. Killen",
+                            "url": "https://www.semanticscholar.org/author/119486677"
+                        }
+                    ],
+                    "doi": "10.1080/10511482.1995.9521180",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "62d8fa45c304d9fc5584129e457d52db5e9a5fb9",
+                    "title": "The geography of metropolitan opportunity: A reconnaissance and conceptual framework",
+                    "url": "https://www.semanticscholar.org/paper/62d8fa45c304d9fc5584129e457d52db5e9a5fb9",
+                    "venue": "",
+                    "year": 1995
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "31416225",
+                            "name": "Alex Schwartz",
+                            "url": "https://www.semanticscholar.org/author/31416225"
+                        },
+                        {
+                            "authorId": "116417197",
+                            "name": "Kian Tajbakhsh",
+                            "url": "https://www.semanticscholar.org/author/116417197"
+                        }
+                    ],
+                    "doi": "10.2139/ssrn.157188",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "aa07741b9b77d28f6c34b3641ce973270f610443",
+                    "title": "Mixed-Income Housing: Unanswered Questions",
+                    "url": "https://www.semanticscholar.org/paper/aa07741b9b77d28f6c34b3641ce973270f610443",
+                    "venue": "",
+                    "year": 1999
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "100605600",
+                            "name": "James E. Rosenbaum",
+                            "url": "https://www.semanticscholar.org/author/100605600"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "69b541e46257bea7ca63f17177d6fde618e97b8b",
+                    "title": "New capabilities in new places: low income black families in suburbia: race and housing choice and metropolitan America",
+                    "url": "https://www.semanticscholar.org/paper/69b541e46257bea7ca63f17177d6fde618e97b8b",
+                    "venue": "",
+                    "year": 2005
                 },
                 {
                     "arxivId": null,
@@ -2026,8 +2048,8 @@
                     ],
                     "doi": "10.2307/2074502",
                     "intent": [
-                        "result",
-                        "background"
+                        "background",
+                        "result"
                     ],
                     "isInfluential": true,
                     "paperId": "c57b1c58d539cb809a62e17fbd8d517ff0fb7873",
@@ -2040,24 +2062,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "100605600",
-                            "name": "James E. Rosenbaum",
-                            "url": "https://www.semanticscholar.org/author/100605600"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "69b541e46257bea7ca63f17177d6fde618e97b8b",
-                    "title": "New capabilities in new places: low income black families in suburbia: race and housing choice and metropolitan America",
-                    "url": "https://www.semanticscholar.org/paper/69b541e46257bea7ca63f17177d6fde618e97b8b",
-                    "venue": "",
-                    "year": 2005
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "101513489",
                             "name": "Erica R. Edwards",
                             "url": "https://www.semanticscholar.org/author/101513489"
@@ -2065,8 +2069,8 @@
                     ],
                     "doi": "10.1525/tran.2002.11.1.69",
                     "intent": [
-                        "result",
-                        "background"
+                        "background",
+                        "result"
                     ],
                     "isInfluential": true,
                     "paperId": "679dc836c8220ab369a4a3668d2c9e70be0f5983",
@@ -2079,158 +2083,44 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "31416225",
-                            "name": "Alex Schwartz",
-                            "url": "https://www.semanticscholar.org/author/31416225"
-                        },
-                        {
-                            "authorId": "116417197",
-                            "name": "Kian Tajbakhsh",
-                            "url": "https://www.semanticscholar.org/author/116417197"
-                        }
-                    ],
-                    "doi": "10.2139/ssrn.157188",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "aa07741b9b77d28f6c34b3641ce973270f610443",
-                    "title": "Mixed-Income Housing: Unanswered Questions",
-                    "url": "https://www.semanticscholar.org/paper/aa07741b9b77d28f6c34b3641ce973270f610443",
-                    "venue": "",
-                    "year": 1999
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "3539181",
                             "name": "Susan J. Popkin",
                             "url": "https://www.semanticscholar.org/author/3539181"
                         },
                         {
-                            "authorId": "100605600",
-                            "name": "James E. Rosenbaum",
-                            "url": "https://www.semanticscholar.org/author/100605600"
+                            "authorId": "152439127",
+                            "name": "Diane K. Levy",
+                            "url": "https://www.semanticscholar.org/author/152439127"
                         },
                         {
-                            "authorId": "49487987",
-                            "name": "Patricia M. Meaden",
-                            "url": "https://www.semanticscholar.org/author/49487987"
-                        }
-                    ],
-                    "doi": "10.2307/3325306",
-                    "intent": [
-                        "methodology",
-                        "result",
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "057e7140ac6cd832e1598445d35a928874715bd4",
-                    "title": "Labor market experiences of low-income black women in middle-class suburbs: Evidence from a survey of gautreaux program participants",
-                    "url": "https://www.semanticscholar.org/paper/057e7140ac6cd832e1598445d35a928874715bd4",
-                    "venue": "",
-                    "year": 1993
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "115839169",
-                            "name": "George Galster",
-                            "url": "https://www.semanticscholar.org/author/115839169"
+                            "authorId": "31466211",
+                            "name": "Laura E. Harris",
+                            "url": "https://www.semanticscholar.org/author/31466211"
                         },
                         {
-                            "authorId": "119486677",
-                            "name": "Sean P. Killen",
-                            "url": "https://www.semanticscholar.org/author/119486677"
+                            "authorId": "114639067",
+                            "name": "Jennifer T. Comey",
+                            "url": "https://www.semanticscholar.org/author/114639067"
+                        },
+                        {
+                            "authorId": "114741977",
+                            "name": "Mary R A Cunningham",
+                            "url": "https://www.semanticscholar.org/author/114741977"
+                        },
+                        {
+                            "authorId": "66873304",
+                            "name": "Larry Buron",
+                            "url": "https://www.semanticscholar.org/author/66873304"
                         }
                     ],
-                    "doi": "10.1080/10511482.1995.9521180",
+                    "doi": "10.1080/10511482.2004.9521506",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "62d8fa45c304d9fc5584129e457d52db5e9a5fb9",
-                    "title": "The geography of metropolitan opportunity: A reconnaissance and conceptual framework",
-                    "url": "https://www.semanticscholar.org/paper/62d8fa45c304d9fc5584129e457d52db5e9a5fb9",
-                    "venue": "",
-                    "year": 1995
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "46181575",
-                            "name": "James E. Rosenbaum",
-                            "url": "https://www.semanticscholar.org/author/46181575"
-                        },
-                        {
-                            "authorId": "119605549",
-                            "name": "Stefanie DeLuca",
-                            "url": "https://www.semanticscholar.org/author/119605549"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "methodology",
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "c7da7d13a576a63aa4ce37a192dacd3a1372076d",
-                    "title": "Is Housing Mobility the Key to Welfare Reform? Lessons from Chicago's Gautreaux Program",
-                    "url": "https://www.semanticscholar.org/paper/c7da7d13a576a63aa4ce37a192dacd3a1372076d",
-                    "venue": "",
-                    "year": 2000
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "5661685",
-                            "name": "Jeffrey R. Kling",
-                            "url": "https://www.semanticscholar.org/author/5661685"
-                        },
-                        {
-                            "authorId": "37482118",
-                            "name": "Jeffrey B. Liebman",
-                            "url": "https://www.semanticscholar.org/author/37482118"
-                        },
-                        {
-                            "authorId": "32277840",
-                            "name": "Lawrence F. Katz",
-                            "url": "https://www.semanticscholar.org/author/32277840"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "143645d020585736ead38f5a3352b3272eb50f28",
-                    "title": "Bullets Don't Got No Name: Consequences of Fear in the Ghetto. JCPR Working Paper.",
-                    "url": "https://www.semanticscholar.org/paper/143645d020585736ead38f5a3352b3272eb50f28",
-                    "venue": "",
-                    "year": 2001
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "48024594",
-                            "name": "Thomas M. Shapiro",
-                            "url": "https://www.semanticscholar.org/author/48024594"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "result",
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "7f55c04eab5c7ceabd9e1e068e9ec7582c6427b7",
-                    "title": "The Hidden Cost of Being African American: How Wealth Perpetuates Inequality",
-                    "url": "https://www.semanticscholar.org/paper/7f55c04eab5c7ceabd9e1e068e9ec7582c6427b7",
+                    "paperId": "9d3ba24e5506d4d87ce05f49ca2534d9fbc2bb06",
+                    "title": "The HOPE VI Program: What about the residents?",
+                    "url": "https://www.semanticscholar.org/paper/9d3ba24e5506d4d87ce05f49ca2534d9fbc2bb06",
                     "venue": "",
                     "year": 2004
                 },
@@ -2283,44 +2173,137 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "3539181",
-                            "name": "Susan J. Popkin",
-                            "url": "https://www.semanticscholar.org/author/3539181"
-                        },
-                        {
-                            "authorId": "152439127",
-                            "name": "Diane K. Levy",
-                            "url": "https://www.semanticscholar.org/author/152439127"
-                        },
-                        {
-                            "authorId": "31466211",
-                            "name": "Laura E. Harris",
-                            "url": "https://www.semanticscholar.org/author/31466211"
-                        },
-                        {
-                            "authorId": "114639067",
-                            "name": "Jennifer T. Comey",
-                            "url": "https://www.semanticscholar.org/author/114639067"
-                        },
-                        {
-                            "authorId": "114741977",
-                            "name": "Mary R A Cunningham",
-                            "url": "https://www.semanticscholar.org/author/114741977"
-                        },
-                        {
-                            "authorId": "66873304",
-                            "name": "Larry Buron",
-                            "url": "https://www.semanticscholar.org/author/66873304"
+                            "authorId": "115203144",
+                            "name": "Michael N. Danielson",
+                            "url": "https://www.semanticscholar.org/author/115203144"
                         }
                     ],
-                    "doi": "10.1080/10511482.2004.9521506",
+                    "doi": "10.1002/1520-6688(200124)20:1<183::aid-pam2015>3.0.co;2-e",
+                    "intent": [
+                        "background",
+                        "methodology"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "fe2d0e34196b621a4856f098bce7b500872e7b8d",
+                    "title": "Crossing the class and color lines: From public housing to white suburbia",
+                    "url": "https://www.semanticscholar.org/paper/fe2d0e34196b621a4856f098bce7b500872e7b8d",
+                    "venue": "",
+                    "year": 2001
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "51361953",
+                            "name": "Harry J. Holzer",
+                            "url": "https://www.semanticscholar.org/author/51361953"
+                        },
+                        {
+                            "authorId": "119030862",
+                            "name": "J. Scott Reaser",
+                            "url": "https://www.semanticscholar.org/author/119030862"
+                        }
+                    ],
+                    "doi": "10.1006/juec.2000.2171",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "9d3ba24e5506d4d87ce05f49ca2534d9fbc2bb06",
-                    "title": "The HOPE VI Program: What about the residents?",
-                    "url": "https://www.semanticscholar.org/paper/9d3ba24e5506d4d87ce05f49ca2534d9fbc2bb06",
+                    "paperId": "9adf4ef94f471be322b67e01b0bc143cca995d23",
+                    "title": "Black Applicants, Black Employees, and Urban Labor Market Policy",
+                    "url": "https://www.semanticscholar.org/paper/9adf4ef94f471be322b67e01b0bc143cca995d23",
+                    "venue": "",
+                    "year": 2000
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "152661795",
+                            "name": "David T. Ellwood",
+                            "url": "https://www.semanticscholar.org/author/152661795"
+                        }
+                    ],
+                    "doi": "10.3386/w1188",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "397a7e59078c7d0d6e5c4213d720bc49861ca42d",
+                    "title": "The Spatial Mismatch Hypothesis: Are There Teenage Jobs Missing in the Ghetto?",
+                    "url": "https://www.semanticscholar.org/paper/397a7e59078c7d0d6e5c4213d720bc49861ca42d",
+                    "venue": "",
+                    "year": 1983
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "2877017",
+                            "name": "Greg J Duncan",
+                            "url": "https://www.semanticscholar.org/author/2877017"
+                        },
+                        {
+                            "authorId": "5527740",
+                            "name": "Stephen W. Raudenbush",
+                            "url": "https://www.semanticscholar.org/author/5527740"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "8013926ef805b9446a79b7388f3ddaf97e47a677",
+                    "title": "Neighborhoods and Adolescent Development: How Can We Determine the Links?",
+                    "url": "https://www.semanticscholar.org/paper/8013926ef805b9446a79b7388f3ddaf97e47a677",
+                    "venue": "",
+                    "year": 1998
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "46181575",
+                            "name": "James E. Rosenbaum",
+                            "url": "https://www.semanticscholar.org/author/46181575"
+                        },
+                        {
+                            "authorId": "119605549",
+                            "name": "Stefanie DeLuca",
+                            "url": "https://www.semanticscholar.org/author/119605549"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background",
+                        "methodology"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "c7da7d13a576a63aa4ce37a192dacd3a1372076d",
+                    "title": "Is Housing Mobility the Key to Welfare Reform? Lessons from Chicago's Gautreaux Program",
+                    "url": "https://www.semanticscholar.org/paper/c7da7d13a576a63aa4ce37a192dacd3a1372076d",
+                    "venue": "",
+                    "year": 2000
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "48024594",
+                            "name": "Thomas M. Shapiro",
+                            "url": "https://www.semanticscholar.org/author/48024594"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background",
+                        "result"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "7f55c04eab5c7ceabd9e1e068e9ec7582c6427b7",
+                    "title": "The Hidden Cost of Being African American: How Wealth Perpetuates Inequality",
+                    "url": "https://www.semanticscholar.org/paper/7f55c04eab5c7ceabd9e1e068e9ec7582c6427b7",
                     "venue": "",
                     "year": 2004
                 },
@@ -2328,41 +2311,31 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "12443152",
-                            "name": "Micere Keels",
-                            "url": "https://www.semanticscholar.org/author/12443152"
+                            "authorId": "5661685",
+                            "name": "Jeffrey R. Kling",
+                            "url": "https://www.semanticscholar.org/author/5661685"
                         },
                         {
-                            "authorId": "2877017",
-                            "name": "Greg J Duncan",
-                            "url": "https://www.semanticscholar.org/author/2877017"
+                            "authorId": "37482118",
+                            "name": "Jeffrey B. Liebman",
+                            "url": "https://www.semanticscholar.org/author/37482118"
                         },
                         {
-                            "authorId": "47795139",
-                            "name": "Stefanie Deluca",
-                            "url": "https://www.semanticscholar.org/author/47795139"
-                        },
-                        {
-                            "authorId": "47637038",
-                            "name": "Ruby Mendenhall",
-                            "url": "https://www.semanticscholar.org/author/47637038"
-                        },
-                        {
-                            "authorId": "113440289",
-                            "name": "James M. Rosenbaum",
-                            "url": "https://www.semanticscholar.org/author/113440289"
+                            "authorId": "32277840",
+                            "name": "Lawrence F. Katz",
+                            "url": "https://www.semanticscholar.org/author/32277840"
                         }
                     ],
-                    "doi": "10.1353/dem.2005.0005",
+                    "doi": null,
                     "intent": [
                         "background"
                     ],
-                    "isInfluential": false,
-                    "paperId": "6e14cb3deb6acb3e9c6529a7f93b27f1de99a06f",
-                    "title": "Fifteen years later: Can residential mobility programs provide a long-term escape from neighborhood segregation, crime, and poverty",
-                    "url": "https://www.semanticscholar.org/paper/6e14cb3deb6acb3e9c6529a7f93b27f1de99a06f",
-                    "venue": "Demography",
-                    "year": 2005
+                    "isInfluential": true,
+                    "paperId": "143645d020585736ead38f5a3352b3272eb50f28",
+                    "title": "Bullets Don't Got No Name: Consequences of Fear in the Ghetto",
+                    "url": "https://www.semanticscholar.org/paper/143645d020585736ead38f5a3352b3272eb50f28",
+                    "venue": "",
+                    "year": 2001
                 },
                 {
                     "arxivId": null,
@@ -2443,67 +2416,41 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "115203144",
-                            "name": "Michael N. Danielson",
-                            "url": "https://www.semanticscholar.org/author/115203144"
-                        }
-                    ],
-                    "doi": "10.1002/1520-6688(200124)20:1<183::aid-pam2015>3.0.co;2-e",
-                    "intent": [
-                        "methodology",
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "fe2d0e34196b621a4856f098bce7b500872e7b8d",
-                    "title": "Crossing the class and color lines: From public housing to white suburbia",
-                    "url": "https://www.semanticscholar.org/paper/fe2d0e34196b621a4856f098bce7b500872e7b8d",
-                    "venue": "",
-                    "year": 2001
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "51361953",
-                            "name": "Harry J. Holzer",
-                            "url": "https://www.semanticscholar.org/author/51361953"
+                            "authorId": "12443152",
+                            "name": "Micere Keels",
+                            "url": "https://www.semanticscholar.org/author/12443152"
                         },
                         {
-                            "authorId": "119030862",
-                            "name": "J. Scott Reaser",
-                            "url": "https://www.semanticscholar.org/author/119030862"
-                        }
-                    ],
-                    "doi": "10.1006/juec.2000.2171",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "9adf4ef94f471be322b67e01b0bc143cca995d23",
-                    "title": "Black Applicants, Black Employees, and Urban Labor Market Policy",
-                    "url": "https://www.semanticscholar.org/paper/9adf4ef94f471be322b67e01b0bc143cca995d23",
-                    "venue": "",
-                    "year": 2000
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
+                            "authorId": "2877017",
+                            "name": "Greg J Duncan",
+                            "url": "https://www.semanticscholar.org/author/2877017"
+                        },
                         {
-                            "authorId": "2278547",
-                            "name": "Ted Mouw",
-                            "url": "https://www.semanticscholar.org/author/2278547"
+                            "authorId": "47795139",
+                            "name": "Stefanie Deluca",
+                            "url": "https://www.semanticscholar.org/author/47795139"
+                        },
+                        {
+                            "authorId": "47637038",
+                            "name": "Ruby Mendenhall",
+                            "url": "https://www.semanticscholar.org/author/47637038"
+                        },
+                        {
+                            "authorId": "113440289",
+                            "name": "James M. Rosenbaum",
+                            "url": "https://www.semanticscholar.org/author/113440289"
                         }
                     ],
-                    "doi": "10.1353/dem.2002.0030",
+                    "doi": "10.1353/dem.2005.0005",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "08eb11404dcc1eab5e5db04b5c0721c72ac9f348",
-                    "title": "Are black workers missing the connection? The effect of spatial distance and employee referrals on interfirm racial segregation",
-                    "url": "https://www.semanticscholar.org/paper/08eb11404dcc1eab5e5db04b5c0721c72ac9f348",
+                    "paperId": "6e14cb3deb6acb3e9c6529a7f93b27f1de99a06f",
+                    "title": "Fifteen years later: Can residential mobility programs provide a long-term escape from neighborhood segregation, crime, and poverty",
+                    "url": "https://www.semanticscholar.org/paper/6e14cb3deb6acb3e9c6529a7f93b27f1de99a06f",
                     "venue": "Demography",
-                    "year": 2002
+                    "year": 2005
                 },
                 {
                     "arxivId": null,
@@ -2516,8 +2463,8 @@
                     ],
                     "doi": "10.1086/229654",
                     "intent": [
-                        "result",
-                        "background"
+                        "background",
+                        "result"
                     ],
                     "isInfluential": false,
                     "paperId": "af8e37a8897901c9a4c3baff6dc8abb830f7206f",
@@ -2565,8 +2512,8 @@
                     ],
                     "doi": "10.5860/choice.41-1251",
                     "intent": [
-                        "result",
-                        "background"
+                        "background",
+                        "result"
                     ],
                     "isInfluential": true,
                     "paperId": "8d5fd8b2e5f8783056fc8c35e4b355633721451c",
@@ -2599,6 +2546,26 @@
                     "url": "https://www.semanticscholar.org/paper/78cffa3f10423724110a751ad8fc9c7df3529e35",
                     "venue": "",
                     "year": 1995
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "2278547",
+                            "name": "Ted Mouw",
+                            "url": "https://www.semanticscholar.org/author/2278547"
+                        }
+                    ],
+                    "doi": "10.1353/dem.2002.0030",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "08eb11404dcc1eab5e5db04b5c0721c72ac9f348",
+                    "title": "Are black workers missing the connection? The effect of spatial distance and employee referrals on interfirm racial segregation",
+                    "url": "https://www.semanticscholar.org/paper/08eb11404dcc1eab5e5db04b5c0721c72ac9f348",
+                    "venue": "Demography",
+                    "year": 2002
                 }
             ],
             "title": "Neighborhood resources, racial segregation, and economic mobility: Results from the Gautreaux program \u2606",
@@ -2743,7 +2710,6 @@
             "date_added": "2019-11-27 12:20:38",
             "doi": "10.1016/j.ssresearch.2005.06.007",
             "journal": "Social Science Research",
-            "notes": NaN,
             "search_term": "Illinois Unemployment Insurance"
         },
         "title": "Neighborhood resources, racial segregation, and economic mobility: Results from the Gautreaux program"
@@ -2952,7 +2918,11 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.431402.0",
-                    "name": "United States Government Accountability Office"
+                    "name": "United States Government Accountability Office",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "researchers": [
@@ -2965,7 +2935,7 @@
                     ]
                 }
             ],
-            "score": 19.585833,
+            "score": 19.584568,
             "supporting_grant_ids": null,
             "terms": [
                 "recession",
@@ -3096,7 +3066,6 @@
             "date_added": "2019-11-27 12:20:38",
             "doi": "10.1080/01900699708525267",
             "journal": "International Journal of Public Administration",
-            "notes": NaN,
             "search_term": "Illinois Unemployment Insurance"
         },
         "title": "The performance of Illinois' unemployment insurance system over business cycles"

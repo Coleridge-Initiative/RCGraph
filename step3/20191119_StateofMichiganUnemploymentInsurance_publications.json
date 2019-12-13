@@ -228,7 +228,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.419881.d",
-                    "name": "United States Department of Education"
+                    "latitude": 38.886513,
+                    "linkout": [
+                        "http://www.ed.gov/"
+                    ],
+                    "longitude": -77.01885,
+                    "name": "United States Department of Education",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1107202506",
@@ -341,14 +350,32 @@
                     "city_name": "Atlanta",
                     "country_name": "United States",
                     "id": "grid.256304.6",
-                    "name": "Georgia State University"
+                    "latitude": 33.75278,
+                    "linkout": [
+                        "http://www.gsu.edu/"
+                    ],
+                    "longitude": -84.38611,
+                    "name": "Georgia State University",
+                    "state_name": "Georgia",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UM",
                     "city_name": "Ann Arbor",
                     "country_name": "United States",
                     "id": "grid.214458.e",
-                    "name": "University of Michigan"
+                    "latitude": 42.278305,
+                    "linkout": [
+                        "https://www.umich.edu/"
+                    ],
+                    "longitude": -83.73822,
+                    "name": "University of Michigan",
+                    "state_name": "Michigan",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -379,7 +406,7 @@
                     ]
                 }
             ],
-            "score": 28.5448,
+            "score": 28.540562,
             "supporting_grant_ids": [
                 "grant.4054407"
             ],
@@ -475,107 +502,26 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "4465744",
-                            "name": "Susan M. Dynarski",
-                            "url": "https://www.semanticscholar.org/author/4465744"
+                            "authorId": "5675796",
+                            "name": "Clive R. Belfield",
+                            "url": "https://www.semanticscholar.org/author/5675796"
                         },
                         {
-                            "authorId": "31823847",
-                            "name": "Brian A. Jacob",
-                            "url": "https://www.semanticscholar.org/author/31823847"
-                        },
-                        {
-                            "authorId": "3809303",
-                            "name": "Daniel Kreisman",
-                            "url": "https://www.semanticscholar.org/author/3809303"
+                            "authorId": "95538781",
+                            "name": "Thomas Bailey",
+                            "url": "https://www.semanticscholar.org/author/95538781"
                         }
                     ],
-                    "doi": null,
+                    "doi": "10.7916/D8SB4C2K",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "02eddb57b3f03a625828f8aa20982acf3cd33650",
-                    "title": "The Fixed-Effects Model in Returns to Schooling and Its Application to Community Colleges: A Methodological Note.",
-                    "url": "https://www.semanticscholar.org/paper/02eddb57b3f03a625828f8aa20982acf3cd33650",
+                    "paperId": "b2bc316ca7faf7388aab2bc37f4565cd145de3ab",
+                    "title": "The Labor Market Returns to Sub-Baccalaureate College: A Review. A CAPSEE Working Paper.",
+                    "url": "https://www.semanticscholar.org/paper/b2bc316ca7faf7388aab2bc37f4565cd145de3ab",
                     "venue": "",
-                    "year": 2016
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "11275907",
-                            "name": "Peter Riley Bahr",
-                            "url": "https://www.semanticscholar.org/author/11275907"
-                        },
-                        {
-                            "authorId": "4465744",
-                            "name": "Susan M. Dynarski",
-                            "url": "https://www.semanticscholar.org/author/4465744"
-                        },
-                        {
-                            "authorId": "31823847",
-                            "name": "Brian A. Jacob",
-                            "url": "https://www.semanticscholar.org/author/31823847"
-                        },
-                        {
-                            "authorId": "3809303",
-                            "name": "Daniel Kreisman",
-                            "url": "https://www.semanticscholar.org/author/3809303"
-                        },
-                        {
-                            "authorId": "144440333",
-                            "name": "A. Lastre Sosa",
-                            "url": "https://www.semanticscholar.org/author/144440333"
-                        },
-                        {
-                            "authorId": "114345390",
-                            "name": "Mark Wiederspan",
-                            "url": "https://www.semanticscholar.org/author/114345390"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "methodology",
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "39189d3e446708397c2507f3afb63f55c30315c7",
-                    "title": "Labor Market Returns to Community College Awards: Evidence from Michigan. A CAPSEE Working Paper.",
-                    "url": "https://www.semanticscholar.org/paper/39189d3e446708397c2507f3afb63f55c30315c7",
-                    "venue": "",
-                    "year": 2015
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "32301181",
-                            "name": "Ann Huff Stevens",
-                            "url": "https://www.semanticscholar.org/author/32301181"
-                        },
-                        {
-                            "authorId": "11335426",
-                            "name": "Michal Kurlaender",
-                            "url": "https://www.semanticscholar.org/author/11335426"
-                        },
-                        {
-                            "authorId": "66120890",
-                            "name": "Michel Grosz",
-                            "url": "https://www.semanticscholar.org/author/66120890"
-                        }
-                    ],
-                    "doi": "10.3368/jhr.54.4.1015.7449R2",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "b4b600a970e1e015da9c9950d7774b326d7629b5",
-                    "title": "Career-Technical Education and Labor Market Outcomes: Evidence from California Community Colleges. A CAPSEE Working Paper.",
-                    "url": "https://www.semanticscholar.org/paper/b4b600a970e1e015da9c9950d7774b326d7629b5",
-                    "venue": "",
-                    "year": 2015
+                    "year": 2017
                 },
                 {
                     "arxivId": null,
@@ -636,26 +582,53 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "5675796",
-                            "name": "Clive R. Belfield",
-                            "url": "https://www.semanticscholar.org/author/5675796"
-                        },
-                        {
-                            "authorId": "95538781",
-                            "name": "Thomas Bailey",
-                            "url": "https://www.semanticscholar.org/author/95538781"
+                            "authorId": "51064058",
+                            "name": "Jushan Bai",
+                            "url": "https://www.semanticscholar.org/author/51064058"
                         }
                     ],
-                    "doi": "10.7916/D8SB4C2K",
+                    "doi": "10.3982/ECTA6135",
+                    "intent": [
+                        "result",
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "c89cec14e26cb94a5e0acb7048295f9ce72553cf",
+                    "title": "Panel Data Models With Interactive Fixed Effects",
+                    "url": "https://www.semanticscholar.org/paper/c89cec14e26cb94a5e0acb7048295f9ce72553cf",
+                    "venue": "",
+                    "year": 2009
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "4465744",
+                            "name": "Susan M. Dynarski",
+                            "url": "https://www.semanticscholar.org/author/4465744"
+                        },
+                        {
+                            "authorId": "31823847",
+                            "name": "Brian A. Jacob",
+                            "url": "https://www.semanticscholar.org/author/31823847"
+                        },
+                        {
+                            "authorId": "3809303",
+                            "name": "Daniel Kreisman",
+                            "url": "https://www.semanticscholar.org/author/3809303"
+                        }
+                    ],
+                    "doi": null,
                     "intent": [
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "b2bc316ca7faf7388aab2bc37f4565cd145de3ab",
-                    "title": "The Labor Market Returns to Sub-Baccalaureate College: A Review. A CAPSEE Working Paper.",
-                    "url": "https://www.semanticscholar.org/paper/b2bc316ca7faf7388aab2bc37f4565cd145de3ab",
+                    "paperId": "02eddb57b3f03a625828f8aa20982acf3cd33650",
+                    "title": "The Fixed-Effects Model in Returns to Schooling and Its Application to Community Colleges: A Methodological Note.",
+                    "url": "https://www.semanticscholar.org/paper/02eddb57b3f03a625828f8aa20982acf3cd33650",
                     "venue": "",
-                    "year": 2017
+                    "year": 2016
                 },
                 {
                     "arxivId": null,
@@ -691,50 +664,47 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "144298798",
-                            "name": "Halbert White",
-                            "url": "https://www.semanticscholar.org/author/144298798"
-                        }
-                    ],
-                    "doi": "10.2307/1912934",
-                    "intent": [],
-                    "isInfluential": true,
-                    "paperId": "f9cce2ca192180e1a404a7577752a9c8ea8259ed",
-                    "title": "A HETEROSKEDASTICITY-CONSISTENT COVARIANCE MATRIX ESTIMATOR AND A DIRECT TEST",
-                    "url": "https://www.semanticscholar.org/paper/f9cce2ca192180e1a404a7577752a9c8ea8259ed",
-                    "venue": "",
-                    "year": 1980
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "48098024",
-                            "name": "Louis S. Jacobson",
-                            "url": "https://www.semanticscholar.org/author/48098024"
+                            "authorId": "11275907",
+                            "name": "Peter Riley Bahr",
+                            "url": "https://www.semanticscholar.org/author/11275907"
                         },
                         {
-                            "authorId": "7287740",
-                            "name": "Robert J. Lalonde",
-                            "url": "https://www.semanticscholar.org/author/7287740"
+                            "authorId": "4465744",
+                            "name": "Susan M. Dynarski",
+                            "url": "https://www.semanticscholar.org/author/4465744"
                         },
                         {
-                            "authorId": "50058860",
-                            "name": "Daniel G. Sullivan",
-                            "url": "https://www.semanticscholar.org/author/50058860"
+                            "authorId": "31823847",
+                            "name": "Brian A. Jacob",
+                            "url": "https://www.semanticscholar.org/author/31823847"
+                        },
+                        {
+                            "authorId": "3809303",
+                            "name": "Daniel Kreisman",
+                            "url": "https://www.semanticscholar.org/author/3809303"
+                        },
+                        {
+                            "authorId": "144440333",
+                            "name": "A. Lastre Sosa",
+                            "url": "https://www.semanticscholar.org/author/144440333"
+                        },
+                        {
+                            "authorId": "114345390",
+                            "name": "Mark Wiederspan",
+                            "url": "https://www.semanticscholar.org/author/114345390"
                         }
                     ],
-                    "doi": "10.1016/j.jeconom.2004.04.010",
+                    "doi": null,
                     "intent": [
                         "methodology",
                         "background"
                     ],
-                    "isInfluential": true,
-                    "paperId": "433900f10fcfd8ef4a20cbfaa2b590c072b3dce3",
-                    "title": "Estimating the Returns to Community College Schooling for Displaced Workers",
-                    "url": "https://www.semanticscholar.org/paper/433900f10fcfd8ef4a20cbfaa2b590c072b3dce3",
+                    "isInfluential": false,
+                    "paperId": "39189d3e446708397c2507f3afb63f55c30315c7",
+                    "title": "Labor Market Returns to Community College Awards: Evidence from Michigan. A CAPSEE Working Paper.",
+                    "url": "https://www.semanticscholar.org/paper/39189d3e446708397c2507f3afb63f55c30315c7",
                     "venue": "",
-                    "year": 2001
+                    "year": 2015
                 },
                 {
                     "arxivId": null,
@@ -797,28 +767,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "51064058",
-                            "name": "Jushan Bai",
-                            "url": "https://www.semanticscholar.org/author/51064058"
-                        }
-                    ],
-                    "doi": "10.3982/ECTA6135",
-                    "intent": [
-                        "methodology",
-                        "result",
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "c89cec14e26cb94a5e0acb7048295f9ce72553cf",
-                    "title": "Panel Data Models With Interactive Fixed Effects",
-                    "url": "https://www.semanticscholar.org/paper/c89cec14e26cb94a5e0acb7048295f9ce72553cf",
-                    "venue": "",
-                    "year": 2009
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "47671340",
                             "name": "Celeste K. Carruthers",
                             "url": "https://www.semanticscholar.org/author/47671340"
@@ -839,6 +787,36 @@
                     "url": "https://www.semanticscholar.org/paper/3d3070a687cd0d6816f95731a0c6082d4205eea6",
                     "venue": "",
                     "year": 2018
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "32301181",
+                            "name": "Ann Huff Stevens",
+                            "url": "https://www.semanticscholar.org/author/32301181"
+                        },
+                        {
+                            "authorId": "1446799528",
+                            "name": "Ann Huff Michal Michel Kurlaender",
+                            "url": "https://www.semanticscholar.org/author/1446799528"
+                        },
+                        {
+                            "authorId": "1446799369",
+                            "name": "Ann Huff Michal Michel Grosz",
+                            "url": "https://www.semanticscholar.org/author/1446799369"
+                        }
+                    ],
+                    "doi": "10.3368/jhr.54.4.1015.7449R2",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "b4b600a970e1e015da9c9950d7774b326d7629b5",
+                    "title": "Career Technical Education and Labor Market Outcomes: Evidence from California Community Colleges",
+                    "url": "https://www.semanticscholar.org/paper/b4b600a970e1e015da9c9950d7774b326d7629b5",
+                    "venue": "",
+                    "year": 2015
                 },
                 {
                     "arxivId": null,
@@ -885,6 +863,55 @@
                     "url": "https://www.semanticscholar.org/paper/6ebd3a91fcdbb083e8910eb384a927a279f752fd",
                     "venue": "",
                     "year": 2008
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "144298798",
+                            "name": "Halbert White",
+                            "url": "https://www.semanticscholar.org/author/144298798"
+                        }
+                    ],
+                    "doi": "10.2307/1912934",
+                    "intent": [],
+                    "isInfluential": true,
+                    "paperId": "f9cce2ca192180e1a404a7577752a9c8ea8259ed",
+                    "title": "A HETEROSKEDASTICITY-CONSISTENT COVARIANCE MATRIX ESTIMATOR AND A DIRECT TEST",
+                    "url": "https://www.semanticscholar.org/paper/f9cce2ca192180e1a404a7577752a9c8ea8259ed",
+                    "venue": "",
+                    "year": 1980
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "48098024",
+                            "name": "Louis S. Jacobson",
+                            "url": "https://www.semanticscholar.org/author/48098024"
+                        },
+                        {
+                            "authorId": "7287740",
+                            "name": "Robert J. Lalonde",
+                            "url": "https://www.semanticscholar.org/author/7287740"
+                        },
+                        {
+                            "authorId": "50058860",
+                            "name": "Daniel G. Sullivan",
+                            "url": "https://www.semanticscholar.org/author/50058860"
+                        }
+                    ],
+                    "doi": "10.1016/j.jeconom.2004.04.010",
+                    "intent": [
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "433900f10fcfd8ef4a20cbfaa2b590c072b3dce3",
+                    "title": "Estimating the Returns to Community College Schooling for Displaced Workers",
+                    "url": "https://www.semanticscholar.org/paper/433900f10fcfd8ef4a20cbfaa2b590c072b3dce3",
+                    "venue": "",
+                    "year": 2001
                 },
                 {
                     "arxivId": null,
@@ -951,17 +978,17 @@
         },
         "Unpaywall": {
             "best_oa_location": {
-                "endpoint_id": null,
-                "evidence": "oa repository (semantic scholar lookup)",
+                "endpoint_id": "84d9e3e5b89b788a65e",
+                "evidence": "oa repository (via OAI-PMH title and first author match)",
                 "host_type": "repository",
                 "is_best": true,
                 "license": null,
-                "pmh_id": null,
-                "repository_institution": null,
-                "updated": "2019-10-01T00:00:00",
-                "url": "http://pdfs.semanticscholar.org/8cf7/c59fde74d91fd18833907941bf9e6f2b0035.pdf",
-                "url_for_landing_page": "https://semanticscholar.org/paper/8cf7c59fde74d91fd18833907941bf9e6f2b0035",
-                "url_for_pdf": "http://pdfs.semanticscholar.org/8cf7/c59fde74d91fd18833907941bf9e6f2b0035.pdf",
+                "pmh_id": "oai:econstor.eu:10419/193229",
+                "repository_institution": "Econstor - Econstor",
+                "updated": "2019-12-05T15:20:06.966238",
+                "url": "https://www.econstor.eu/bitstream/10419/193229/1/dp11935.pdf",
+                "url_for_landing_page": "http://hdl.handle.net/10419/193229",
+                "url_for_pdf": "https://www.econstor.eu/bitstream/10419/193229/1/dp11935.pdf",
                 "version": "submittedVersion"
             },
             "data_standard": 2,
@@ -977,28 +1004,14 @@
             "journal_name": "Journal of Applied Econometrics",
             "oa_locations": [
                 {
-                    "endpoint_id": null,
-                    "evidence": "oa repository (semantic scholar lookup)",
-                    "host_type": "repository",
-                    "is_best": true,
-                    "license": null,
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2019-10-01T00:00:00",
-                    "url": "http://pdfs.semanticscholar.org/8cf7/c59fde74d91fd18833907941bf9e6f2b0035.pdf",
-                    "url_for_landing_page": "https://semanticscholar.org/paper/8cf7c59fde74d91fd18833907941bf9e6f2b0035",
-                    "url_for_pdf": "http://pdfs.semanticscholar.org/8cf7/c59fde74d91fd18833907941bf9e6f2b0035.pdf",
-                    "version": "submittedVersion"
-                },
-                {
                     "endpoint_id": "84d9e3e5b89b788a65e",
                     "evidence": "oa repository (via OAI-PMH title and first author match)",
                     "host_type": "repository",
-                    "is_best": false,
+                    "is_best": true,
                     "license": null,
                     "pmh_id": "oai:econstor.eu:10419/193229",
                     "repository_institution": "Econstor - Econstor",
-                    "updated": "2019-11-18T08:18:48.881864",
+                    "updated": "2019-12-05T15:20:06.966238",
                     "url": "https://www.econstor.eu/bitstream/10419/193229/1/dp11935.pdf",
                     "url_for_landing_page": "http://hdl.handle.net/10419/193229",
                     "url_for_pdf": "https://www.econstor.eu/bitstream/10419/193229/1/dp11935.pdf",
@@ -1009,7 +1022,7 @@
             "published_date": "2018-09-24",
             "publisher": "Wiley",
             "title": "How important are fixed effects and time trends in estimating returns to schooling? Evidence from a replication of Jacobson, Lalonde, and Sullivan, 2005",
-            "updated": "2019-11-16T00:12:11.945213",
+            "updated": "2019-12-06T07:19:54.250280",
             "year": 2018,
             "z_authors": [
                 {
@@ -1309,7 +1322,7 @@
             "date": "2017-01-01",
             "date_inserted": "2018-06-15",
             "doi": "10.2139/ssrn.3175945",
-            "field_citation_ratio": 0.93,
+            "field_citation_ratio": 0.92,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1104589468",
@@ -1411,14 +1424,32 @@
                     "city_name": "Ann Arbor",
                     "country_name": "United States",
                     "id": "grid.214458.e",
-                    "name": "University of Michigan"
+                    "latitude": 42.278305,
+                    "linkout": [
+                        "https://www.umich.edu/"
+                    ],
+                    "longitude": -83.73822,
+                    "name": "University of Michigan",
+                    "state_name": "Michigan",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "GSU",
                     "city_name": "Atlanta",
                     "country_name": "United States",
                     "id": "grid.256304.6",
-                    "name": "Georgia State University"
+                    "latitude": 33.75278,
+                    "linkout": [
+                        "http://www.gsu.edu/"
+                    ],
+                    "longitude": -84.38611,
+                    "name": "Georgia State University",
+                    "state_name": "Georgia",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -1449,7 +1480,7 @@
                     ]
                 }
             ],
-            "score": 30.074978,
+            "score": 30.077358,
             "supporting_grant_ids": null,
             "terms": [
                 "literature",
@@ -1536,6 +1567,52 @@
         "datasets": [
             "dataset-075"
         ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "name": {
+                            "first": "Susan M.",
+                            "last": "Dynarski"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Brian A.",
+                            "last": "Jacob"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Daniel",
+                            "last": "Kreisman"
+                        }
+                    }
+                ],
+                "classification": "OK",
+                "date": "2017-01-01",
+                "records": [
+                    {
+                        "doi": "10.2139/ssrn.3175945",
+                        "identifier": "oai:crossref.org:10.2139/ssrn.3175945",
+                        "journal": "SSRN Electronic Journal ",
+                        "policy": {
+                            "postprint": "can",
+                            "preprint": "can",
+                            "published": "cannot",
+                            "romeo_id": "30"
+                        },
+                        "publisher": "Elsevier BV",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.2139/ssrn.3175945",
+                        "type": "journal-article"
+                    }
+                ],
+                "title": "How Important are Fixed Effects and Time Trends in Estimating Returns to Schooling? Evidence Froma Replication of Jacobson, Lalonde and Sullivan, 2005",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
         "doi": "10.2139/ssrn.3175945",
         "original": {
             "date_added": "2019-11-26 12:56:59",
@@ -1771,12 +1848,12 @@
             "publisher": "Elsevier",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1099498252",
-                "pub.1041068281"
+                "pub.1041068281",
+                "pub.1099498252"
             ],
             "references": [
-                "pub.1099498252",
-                "pub.1041068281"
+                "pub.1041068281",
+                "pub.1099498252"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -1812,7 +1889,16 @@
                     "city_name": "Kalamazoo",
                     "country_name": "United States",
                     "id": "grid.438996.9",
-                    "name": "W.E. Upjohn Institute for Employment Research"
+                    "latitude": 42.28943,
+                    "linkout": [
+                        "http://www.upjohn.org/"
+                    ],
+                    "longitude": -85.59019,
+                    "name": "W.E. Upjohn Institute for Employment Research",
+                    "state_name": "Michigan",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 }
             ],
             "researchers": [
@@ -1830,7 +1916,7 @@
                     ]
                 }
             ],
-            "score": 29.774975,
+            "score": 29.768019,
             "supporting_grant_ids": null,
             "terms": [
                 "jobs",
@@ -1922,7 +2008,7 @@
                     "license": null,
                     "pmh_id": "oai:dspace.mit.edu:1721.1/63439",
                     "repository_institution": "Massachusetts Institute of Technology - DSpace@MIT",
-                    "updated": "2019-11-23T13:03:06.898043",
+                    "updated": "2019-12-07T13:09:04.774230",
                     "url": "https://dspace.mit.edu/bitstream/1721.1/63439/1/dotemporaryhelpj00auto2.pdf",
                     "url_for_landing_page": "http://hdl.handle.net/1721.1/63439",
                     "url_for_pdf": "https://dspace.mit.edu/bitstream/1721.1/63439/1/dotemporaryhelpj00auto2.pdf",

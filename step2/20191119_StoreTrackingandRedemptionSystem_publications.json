@@ -158,46 +158,46 @@
             "publisher": "Wiley",
             "recent_citations": null,
             "reference_ids": [
-                "pub.1113784425",
-                "pub.1113876790",
-                "pub.1021088929",
-                "pub.1113784424",
-                "pub.1103997323",
-                "pub.1113901635",
-                "pub.1064524046",
-                "pub.1114522527",
                 "pub.1091503790",
-                "pub.1049725094",
-                "pub.1113754358",
                 "pub.1064530799",
-                "pub.1105106855",
-                "pub.1007167093",
-                "pub.1002690572",
-                "pub.1016861043",
-                "pub.1114306168",
+                "pub.1113784424",
+                "pub.1064524046",
                 "pub.1106251405",
-                "pub.1113754359"
+                "pub.1113901635",
+                "pub.1049725094",
+                "pub.1016861043",
+                "pub.1113754358",
+                "pub.1113784425",
+                "pub.1007167093",
+                "pub.1105106855",
+                "pub.1113876790",
+                "pub.1113754359",
+                "pub.1002690572",
+                "pub.1103997323",
+                "pub.1021088929",
+                "pub.1114306168",
+                "pub.1114522527"
             ],
             "references": [
-                "pub.1113784425",
-                "pub.1113876790",
-                "pub.1021088929",
-                "pub.1113784424",
-                "pub.1103997323",
-                "pub.1113901635",
-                "pub.1064524046",
-                "pub.1114522527",
                 "pub.1091503790",
-                "pub.1049725094",
-                "pub.1113754358",
                 "pub.1064530799",
-                "pub.1105106855",
-                "pub.1007167093",
-                "pub.1002690572",
-                "pub.1016861043",
-                "pub.1114306168",
+                "pub.1113784424",
+                "pub.1064524046",
                 "pub.1106251405",
-                "pub.1113754359"
+                "pub.1113901635",
+                "pub.1049725094",
+                "pub.1016861043",
+                "pub.1113754358",
+                "pub.1113784425",
+                "pub.1007167093",
+                "pub.1105106855",
+                "pub.1113876790",
+                "pub.1113754359",
+                "pub.1002690572",
+                "pub.1103997323",
+                "pub.1021088929",
+                "pub.1114306168",
+                "pub.1114522527"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -234,7 +234,7 @@
                     ]
                 }
             ],
-            "score": 22.111082,
+            "score": 22.148945,
             "supporting_grant_ids": null,
             "terms": [
                 "food access",
@@ -610,7 +610,7 @@
             "date": "2017-09-27",
             "date_inserted": "2017-09-28",
             "doi": "10.3390/ijerph14101133",
-            "field_citation_ratio": 3.59,
+            "field_citation_ratio": 3.56,
             "funder_countries": [
                 {
                     "id": "US",
@@ -623,7 +623,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.417548.b",
-                    "name": "United States Department of Agriculture"
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1091927167",
@@ -779,14 +788,32 @@
                     "city_name": "Philadelphia",
                     "country_name": "United States",
                     "id": "grid.25879.31",
-                    "name": "University of Pennsylvania"
+                    "latitude": 39.952457,
+                    "linkout": [
+                        "http://www.upenn.edu/"
+                    ],
+                    "longitude": -75.19322,
+                    "name": "University of Pennsylvania",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "SU",
                     "city_name": "Stanford",
                     "country_name": "United States",
                     "id": "grid.168010.e",
-                    "name": "Stanford University"
+                    "latitude": 37.43,
+                    "linkout": [
+                        "http://www.stanford.edu/"
+                    ],
+                    "longitude": -122.17,
+                    "name": "Stanford University",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -829,14 +856,14 @@
                         "0000-0002-1480-6481"
                     ],
                     "research_orgs": [
+                        "grid.168010.e",
                         "grid.25879.31",
-                        "grid.4991.5",
                         "grid.414123.1",
-                        "grid.168010.e"
+                        "grid.4991.5"
                     ]
                 }
             ],
-            "score": 29.624632,
+            "score": 29.623749,
             "supporting_grant_ids": null,
             "terms": [
                 "households",
@@ -1140,7 +1167,7 @@
             "date": "2017-09-01",
             "date_inserted": "2017-09-15",
             "doi": "10.1016/j.jneb.2016.12.001",
-            "field_citation_ratio": 4.26,
+            "field_citation_ratio": 4.23,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1091497525",
@@ -1239,7 +1266,16 @@
                     "city_name": "Princeton",
                     "country_name": "United States",
                     "id": "grid.419482.2",
-                    "name": "Mathematica Policy Research"
+                    "latitude": 40.32583,
+                    "linkout": [
+                        "http://www.mathematica-mpr.com/"
+                    ],
+                    "longitude": -74.63507,
+                    "name": "Mathematica Policy Research",
+                    "state_name": "New Jersey",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "researchers": [
@@ -1260,7 +1296,7 @@
                     ]
                 }
             ],
-            "score": 26.418531,
+            "score": 26.410885,
             "supporting_grant_ids": null,
             "terms": [
                 "association",
@@ -1477,7 +1513,7 @@
             "date": "2015-01-02",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/19320248.2015.1004221",
-            "field_citation_ratio": 1.79,
+            "field_citation_ratio": 1.78,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1016850570",
@@ -1551,7 +1587,7 @@
                     ]
                 }
             ],
-            "score": 19.04789,
+            "score": 19.043085,
             "supporting_grant_ids": null,
             "terms": [
                 "study",
@@ -1833,7 +1869,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 29.266228,
+            "score": 29.26967,
             "supporting_grant_ids": null,
             "terms": [
                 "study",
@@ -2212,7 +2248,7 @@
             "date": "2007-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.jneb.2006.10.007",
-            "field_citation_ratio": 7.2,
+            "field_citation_ratio": 7.19,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1005729068",
@@ -2365,21 +2401,48 @@
                     "city_name": "Baton Rouge",
                     "country_name": "United States",
                     "id": "grid.263880.7",
-                    "name": "Southern University and Agricultural and Mechanical College"
+                    "latitude": 30.524673,
+                    "linkout": [
+                        "http://www.subr.edu/"
+                    ],
+                    "longitude": -91.19003,
+                    "name": "Southern University and Agricultural and Mechanical College",
+                    "state_name": "Louisiana",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "USM",
                     "city_name": "Hattiesburg",
                     "country_name": "United States",
                     "id": "grid.267193.8",
-                    "name": "University of Southern Mississippi"
+                    "latitude": 31.329638,
+                    "linkout": [
+                        "http://www.usm.edu/about"
+                    ],
+                    "longitude": -89.33385,
+                    "name": "University of Southern Mississippi",
+                    "state_name": "Mississippi",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UAMS",
                     "city_name": "Little Rock",
                     "country_name": "United States",
                     "id": "grid.241054.6",
-                    "name": "University of Arkansas for Medical Sciences"
+                    "latitude": 34.749886,
+                    "linkout": [
+                        "http://www.uams.edu/"
+                    ],
+                    "longitude": -92.32316,
+                    "name": "University of Arkansas for Medical Sciences",
+                    "state_name": "Arkansas",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -2410,24 +2473,24 @@
                     "id": "ur.01060544002.57",
                     "last_name": "Simpson",
                     "research_orgs": [
-                        "grid.414154.1",
-                        "grid.239305.e",
-                        "grid.463419.d",
                         "grid.280427.b",
-                        "grid.266623.5",
-                        "grid.194632.b",
-                        "grid.414086.f",
-                        "grid.254444.7",
-                        "grid.239281.3",
-                        "grid.266539.d",
+                        "grid.463419.d",
                         "grid.17635.36",
-                        "grid.241054.6",
+                        "grid.266539.d",
+                        "grid.11630.35",
+                        "grid.194632.b",
                         "grid.266756.6",
-                        "grid.16753.36",
+                        "grid.239305.e",
                         "grid.67105.35",
+                        "grid.241054.6",
+                        "grid.239281.3",
                         "grid.15276.37",
+                        "grid.16753.36",
+                        "grid.414086.f",
+                        "grid.266623.5",
+                        "grid.414154.1",
                         "grid.30760.32",
-                        "grid.11630.35"
+                        "grid.254444.7"
                     ]
                 },
                 {
@@ -2465,7 +2528,7 @@
                     ]
                 }
             ],
-            "score": 17.166718,
+            "score": 17.16445,
             "supporting_grant_ids": null,
             "terms": [
                 "adequacy",

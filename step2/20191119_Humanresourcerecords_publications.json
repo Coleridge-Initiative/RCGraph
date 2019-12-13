@@ -767,14 +767,30 @@
                     "city_name": "Riyadh",
                     "country_name": "Saudi Arabia",
                     "id": "grid.415696.9",
-                    "name": "Ministry of Health"
+                    "latitude": 24.657778,
+                    "linkout": [
+                        "http://www.moh.gov.sa/en/Pages/Sitemap.aspx"
+                    ],
+                    "longitude": 46.715557,
+                    "name": "Ministry of Health",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "KKU",
                     "city_name": "Abh\u0101",
                     "country_name": "Saudi Arabia",
                     "id": "grid.412144.6",
-                    "name": "King Khalid University"
+                    "latitude": 18.2495,
+                    "linkout": [
+                        "http://www.kku.edu.sa/"
+                    ],
+                    "longitude": 42.5597,
+                    "name": "King Khalid University",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -809,7 +825,7 @@
                     ]
                 }
             ],
-            "score": 21.637236,
+            "score": 21.634459,
             "supporting_grant_ids": null,
             "terms": [
                 "vaccination",
@@ -1343,7 +1359,16 @@
                     "city_name": "Seattle",
                     "country_name": "United States",
                     "id": "grid.418309.7",
-                    "name": "Bill & Melinda Gates Foundation"
+                    "latitude": 47.62361,
+                    "linkout": [
+                        "http://www.gatesfoundation.org/"
+                    ],
+                    "longitude": -122.34556,
+                    "name": "Bill & Melinda Gates Foundation",
+                    "state_name": "Washington",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 }
             ],
             "id": "pub.1121471896",
@@ -1513,28 +1538,63 @@
                     "city_name": "York",
                     "country_name": "United Kingdom",
                     "id": "grid.5685.e",
-                    "name": "University of York"
+                    "latitude": 53.9457,
+                    "linkout": [
+                        "http://www.york.ac.uk/"
+                    ],
+                    "longitude": -1.056188,
+                    "name": "University of York",
+                    "state_name": "York",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UoN",
                     "city_name": "Newcastle",
                     "country_name": "Australia",
                     "id": "grid.266842.c",
-                    "name": "University of Newcastle Australia"
+                    "latitude": -32.892776,
+                    "linkout": [
+                        "http://www.newcastle.edu.au/"
+                    ],
+                    "longitude": 151.70444,
+                    "name": "University of Newcastle Australia",
+                    "state_name": "New South Wales",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "INSP",
                     "city_name": "Cuernavaca",
                     "country_name": "Mexico",
                     "id": "grid.415771.1",
-                    "name": "National Institute of Public Health of Mexico"
+                    "latitude": 18.976358,
+                    "linkout": [
+                        "http://www.insp.mx/home.html"
+                    ],
+                    "longitude": -99.24606,
+                    "name": "National Institute of Public Health of Mexico",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "UCB",
                     "city_name": "Berkeley",
                     "country_name": "United States",
                     "id": "grid.47840.3f",
-                    "name": "University of California, Berkeley"
+                    "latitude": 37.87216,
+                    "linkout": [
+                        "http://www.berkeley.edu/"
+                    ],
+                    "longitude": -122.258575,
+                    "name": "University of California, Berkeley",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -1560,7 +1620,7 @@
                     ]
                 }
             ],
-            "score": 26.953018,
+            "score": 26.955482,
             "supporting_grant_ids": [
                 "grant.6584051"
             ],
@@ -2181,26 +2241,62 @@
                     "city_name": "Sydney",
                     "country_name": "Australia",
                     "id": "grid.427695.b",
-                    "name": "Cancer Institute of New South Wales"
+                    "latitude": -33.89641,
+                    "linkout": [
+                        "https://www.cancerinstitute.org.au/"
+                    ],
+                    "longitude": 151.19319,
+                    "name": "Cancer Institute of New South Wales",
+                    "state_name": "New South Wales",
+                    "types": [
+                        "Other"
+                    ]
                 },
                 {
                     "city_name": "Melbourne",
                     "country_name": "Australia",
                     "id": "grid.453005.7",
-                    "name": "National Heart Foundation of Australia"
+                    "latitude": -37.8176,
+                    "linkout": [
+                        "http://www.heartfoundation.org.au/"
+                    ],
+                    "longitude": 144.95746,
+                    "name": "National Heart Foundation of Australia",
+                    "state_name": "Victoria",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 },
                 {
                     "acronym": "NHMRC",
                     "city_name": "Canberra",
                     "country_name": "Australia",
                     "id": "grid.431143.0",
-                    "name": "National Health and Medical Research Council"
+                    "latitude": -35.28124,
+                    "linkout": [
+                        "https://www.nhmrc.gov.au/"
+                    ],
+                    "longitude": 149.12373,
+                    "name": "National Health and Medical Research Council",
+                    "state_name": "Australian Capital Territory",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "city_name": "Hawthorn East",
                     "country_name": "Australia",
                     "id": "grid.453422.6",
-                    "name": "Beyondblue"
+                    "latitude": -37.822525,
+                    "linkout": [
+                        "https://www.beyondblue.org.au/"
+                    ],
+                    "longitude": 145.03311,
+                    "name": "Beyondblue",
+                    "state_name": "Victoria",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 }
             ],
             "id": "pub.1117299714",
@@ -2360,20 +2456,47 @@
                     "city_name": "Sydney",
                     "country_name": "Australia",
                     "id": "grid.1005.4",
-                    "name": "UNSW Sydney"
+                    "latitude": -33.917732,
+                    "linkout": [
+                        "https://www.unsw.edu.au/"
+                    ],
+                    "longitude": 151.23096,
+                    "name": "UNSW Sydney",
+                    "state_name": "New South Wales",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Camperdown",
                     "country_name": "Australia",
                     "id": "grid.419783.0",
-                    "name": "Chris O\u2019Brien Lifehouse"
+                    "latitude": -33.8905,
+                    "linkout": [
+                        "http://www.mylifehouse.org.au/"
+                    ],
+                    "longitude": 151.18219,
+                    "name": "Chris O\u2019Brien Lifehouse",
+                    "state_name": "New South Wales",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 },
                 {
                     "acronym": "USYD",
                     "city_name": "Sydney",
                     "country_name": "Australia",
                     "id": "grid.1013.3",
-                    "name": "University of Sydney"
+                    "latitude": -33.88858,
+                    "linkout": [
+                        "http://sydney.edu.au/"
+                    ],
+                    "longitude": 151.1873,
+                    "name": "University of Sydney",
+                    "state_name": "New South Wales",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -2424,8 +2547,8 @@
                     "last_name": "Costa",
                     "research_orgs": [
                         "grid.412703.3",
-                        "grid.1013.3",
-                        "grid.7107.1"
+                        "grid.7107.1",
+                        "grid.1013.3"
                     ]
                 },
                 {
@@ -2521,15 +2644,15 @@
                     ],
                     "research_orgs": [
                         "grid.431143.0",
-                        "grid.492285.0",
-                        "grid.419690.3",
-                        "grid.1029.a",
                         "grid.1013.3",
-                        "grid.4991.5"
+                        "grid.1029.a",
+                        "grid.4991.5",
+                        "grid.419690.3",
+                        "grid.492285.0"
                     ]
                 }
             ],
-            "score": 25.32877,
+            "score": 25.319468,
             "supporting_grant_ids": [
                 "grant.6735336",
                 "grant.6736172",
@@ -2739,7 +2862,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 17.091831,
+            "score": 17.086632,
             "supporting_grant_ids": null,
             "terms": [
                 "occupational health",
@@ -3064,7 +3187,16 @@
                     "city_name": "Hong Kong",
                     "country_name": "China",
                     "id": "grid.194645.b",
-                    "name": "University of Hong Kong"
+                    "latitude": 22.283287,
+                    "linkout": [
+                        "http://www.hku.hk/"
+                    ],
+                    "longitude": 114.13708,
+                    "name": "University of Hong Kong",
+                    "state_name": "Hong Kong",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -3077,7 +3209,7 @@
                     ]
                 }
             ],
-            "score": 30.771568,
+            "score": 30.772642,
             "supporting_grant_ids": null,
             "terms": [
                 "over\u2010exploitation",
@@ -3422,7 +3554,15 @@
                     "city_name": "York",
                     "country_name": "United Kingdom",
                     "id": "grid.450892.2",
-                    "name": "Higher Education Academy"
+                    "latitude": 54.004314,
+                    "linkout": [
+                        "https://www.heacademy.ac.uk"
+                    ],
+                    "longitude": -1.070277,
+                    "name": "Higher Education Academy",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "id": "pub.1101003487",
@@ -3548,7 +3688,15 @@
                     "city_name": "Poole",
                     "country_name": "United Kingdom",
                     "id": "grid.17236.31",
-                    "name": "Bournemouth University"
+                    "latitude": 50.74325,
+                    "linkout": [
+                        "https://www1.bournemouth.ac.uk/"
+                    ],
+                    "longitude": -1.897244,
+                    "name": "Bournemouth University",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -3585,7 +3733,7 @@
                     ]
                 }
             ],
-            "score": 29.04001,
+            "score": 29.041512,
             "supporting_grant_ids": null,
             "terms": [
                 "opportunities",
@@ -4177,11 +4325,20 @@
                     "city_name": "Portland",
                     "country_name": "United States",
                     "id": "grid.5288.7",
-                    "name": "Oregon Health & Science University"
+                    "latitude": 45.499397,
+                    "linkout": [
+                        "http://www.ohsu.edu/xd/"
+                    ],
+                    "longitude": -122.685905,
+                    "name": "Oregon Health & Science University",
+                    "state_name": "Oregon",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": null,
-            "score": 18.441572,
+            "score": 18.436382,
             "supporting_grant_ids": null,
             "terms": [
                 "research note",
@@ -4487,7 +4644,16 @@
                     "city_name": "McLean",
                     "country_name": "United States",
                     "id": "grid.488591.9",
-                    "name": "Office of the Director of National Intelligence"
+                    "latitude": 38.932842,
+                    "linkout": [
+                        "https://www.odni.gov/index.php"
+                    ],
+                    "longitude": -77.2055,
+                    "name": "Office of the Director of National Intelligence",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1113882524",
@@ -4520,18 +4686,18 @@
             "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1094875722",
+                "pub.1021372251",
                 "pub.1013590698",
-                "pub.1113132661",
                 "pub.1105874216",
-                "pub.1021372251"
+                "pub.1113132661",
+                "pub.1094875722"
             ],
             "references": [
-                "pub.1094875722",
+                "pub.1021372251",
                 "pub.1013590698",
-                "pub.1113132661",
                 "pub.1105874216",
-                "pub.1021372251"
+                "pub.1113132661",
+                "pub.1094875722"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -4574,7 +4740,16 @@
                     "city_name": "Alexandria",
                     "country_name": "United States",
                     "id": "grid.420777.1",
-                    "name": "Human Resources Research Organization"
+                    "latitude": 38.8137,
+                    "linkout": [
+                        "https://www.humrro.org/corpsite/"
+                    ],
+                    "longitude": -77.039,
+                    "name": "Human Resources Research Organization",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 }
             ],
             "researchers": [
@@ -4614,7 +4789,7 @@
                     ]
                 }
             ],
-            "score": 21.58447,
+            "score": 21.593435,
             "supporting_grant_ids": null,
             "terms": [
                 "insider threats",
@@ -5521,39 +5696,86 @@
                     "city_name": "Butare",
                     "country_name": "Rwanda",
                     "id": "grid.10818.30",
-                    "name": "University of Rwanda"
+                    "latitude": -2.616111,
+                    "linkout": [
+                        "http://www.ur.ac.rw/"
+                    ],
+                    "longitude": 29.742779,
+                    "name": "University of Rwanda",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "PIH",
                     "city_name": "Boston",
                     "country_name": "United States",
                     "id": "grid.417182.9",
-                    "name": "Partners In Health"
+                    "latitude": 42.35048,
+                    "linkout": [
+                        "http://www.pih.org/"
+                    ],
+                    "longitude": -71.11435,
+                    "name": "Partners In Health",
+                    "state_name": "Massachusetts",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 },
                 {
                     "city_name": "Cambridge",
                     "country_name": "United States",
                     "id": "grid.38142.3c",
-                    "name": "Harvard University"
+                    "latitude": 42.377052,
+                    "linkout": [
+                        "http://www.harvard.edu/"
+                    ],
+                    "longitude": -71.11665,
+                    "name": "Harvard University",
+                    "state_name": "Massachusetts",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Kigali",
                     "country_name": "Rwanda",
                     "id": "grid.421714.5",
-                    "name": "Ministry of Health"
+                    "name": "Ministry of Health",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "city_name": "Boston",
                     "country_name": "United States",
                     "id": "grid.39479.30",
-                    "name": "Massachusetts Eye and Ear Infirmary"
+                    "latitude": 42.363754,
+                    "linkout": [
+                        "http://www.masseyeandear.org/"
+                    ],
+                    "longitude": -71.07078,
+                    "name": "Massachusetts Eye and Ear Infirmary",
+                    "state_name": "Massachusetts",
+                    "types": [
+                        "Healthcare"
+                    ]
                 },
                 {
                     "acronym": "BWH",
                     "city_name": "Boston",
                     "country_name": "United States",
                     "id": "grid.62560.37",
-                    "name": "Brigham and Women's Hospital"
+                    "latitude": 42.3356,
+                    "linkout": [
+                        "http://www.brighamandwomens.org/"
+                    ],
+                    "longitude": -71.106415,
+                    "name": "Brigham and Women's Hospital",
+                    "state_name": "Massachusetts",
+                    "types": [
+                        "Healthcare"
+                    ]
                 }
             ],
             "researchers": [
@@ -5647,9 +5869,9 @@
                     "id": "ur.014120222767.69",
                     "last_name": "Rusangwa",
                     "research_orgs": [
-                        "grid.10818.30",
+                        "grid.10698.36",
                         "grid.410711.2",
-                        "grid.10698.36"
+                        "grid.10818.30"
                     ]
                 },
                 {
@@ -5682,17 +5904,17 @@
                     "id": "ur.0671633324.27",
                     "last_name": "Mpunga",
                     "research_orgs": [
-                        "grid.62560.37",
-                        "grid.10698.36",
-                        "grid.412701.1",
                         "grid.421714.5",
-                        "grid.28046.38",
-                        "grid.10818.30",
-                        "grid.282968.f",
-                        "grid.410711.2",
-                        "grid.25879.31",
                         "grid.239585.0",
-                        "grid.25867.3e"
+                        "grid.62560.37",
+                        "grid.28046.38",
+                        "grid.25867.3e",
+                        "grid.25879.31",
+                        "grid.410711.2",
+                        "grid.412701.1",
+                        "grid.282968.f",
+                        "grid.10698.36",
+                        "grid.10818.30"
                     ]
                 },
                 {
@@ -5711,7 +5933,7 @@
                     ]
                 }
             ],
-            "score": 28.438404,
+            "score": 28.44673,
             "supporting_grant_ids": null,
             "terms": [
                 "health facility costs",
@@ -6373,14 +6595,32 @@
                     "city_name": "New Hyde Park",
                     "country_name": "United States",
                     "id": "grid.416477.7",
-                    "name": "Northwell Health"
+                    "latitude": 40.753017,
+                    "linkout": [
+                        "https://www.northwell.edu/"
+                    ],
+                    "longitude": -73.69851,
+                    "name": "Northwell Health",
+                    "state_name": "New York",
+                    "types": [
+                        "Healthcare"
+                    ]
                 },
                 {
                     "acronym": "JHU",
                     "city_name": "Baltimore",
                     "country_name": "United States",
                     "id": "grid.21107.35",
-                    "name": "Johns Hopkins University"
+                    "latitude": 39.328888,
+                    "linkout": [
+                        "https://www.jhu.edu/"
+                    ],
+                    "longitude": -76.62028,
+                    "name": "Johns Hopkins University",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -6433,7 +6673,7 @@
                     ]
                 }
             ],
-            "score": 18.055908,
+            "score": 18.049711,
             "supporting_grant_ids": null,
             "terms": [
                 "study",
@@ -6950,7 +7190,16 @@
                     "city_name": "Pittsburgh",
                     "country_name": "United States",
                     "id": "grid.21925.3d",
-                    "name": "University of Pittsburgh"
+                    "latitude": 40.443504,
+                    "linkout": [
+                        "http://www.pitt.edu/"
+                    ],
+                    "longitude": -79.961525,
+                    "name": "University of Pittsburgh",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -6959,17 +7208,17 @@
                     "id": "ur.01004560174.72",
                     "last_name": "Marsh",
                     "research_orgs": [
-                        "grid.410343.1",
-                        "grid.185648.6",
+                        "grid.21925.3d",
                         "grid.59734.3c",
                         "grid.15895.30",
-                        "grid.30760.32",
-                        "grid.257413.6",
-                        "grid.433683.9",
-                        "grid.21925.3d",
-                        "grid.420017.0",
                         "grid.8993.b",
-                        "grid.22937.3d"
+                        "grid.410343.1",
+                        "grid.433683.9",
+                        "grid.22937.3d",
+                        "grid.420017.0",
+                        "grid.185648.6",
+                        "grid.257413.6",
+                        "grid.30760.32"
                     ]
                 },
                 {
@@ -6977,17 +7226,17 @@
                     "id": "ur.0770507444.93",
                     "last_name": "Buchanich",
                     "research_orgs": [
-                        "grid.410343.1",
-                        "grid.185648.6",
+                        "grid.21925.3d",
                         "grid.15895.30",
                         "grid.8993.b",
+                        "grid.410343.1",
                         "grid.417046.0",
-                        "grid.257413.6",
                         "grid.433683.9",
-                        "grid.21925.3d",
-                        "grid.418737.e",
+                        "grid.22937.3d",
                         "grid.420017.0",
-                        "grid.22937.3d"
+                        "grid.418737.e",
+                        "grid.185648.6",
+                        "grid.257413.6"
                     ]
                 },
                 {
@@ -7003,13 +7252,13 @@
                     "id": "ur.011535111343.55",
                     "last_name": "Zimmerman",
                     "research_orgs": [
-                        "grid.410343.1",
-                        "grid.185648.6",
-                        "grid.15895.30",
                         "grid.21925.3d",
-                        "grid.420017.0",
+                        "grid.15895.30",
                         "grid.8993.b",
-                        "grid.22937.3d"
+                        "grid.410343.1",
+                        "grid.22937.3d",
+                        "grid.420017.0",
+                        "grid.185648.6"
                     ]
                 },
                 {
@@ -7021,7 +7270,7 @@
                     ]
                 }
             ],
-            "score": 17.96104,
+            "score": 17.954023,
             "supporting_grant_ids": null,
             "terms": [
                 "long-term mortality rates",

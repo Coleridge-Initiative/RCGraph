@@ -544,14 +544,32 @@
                     "city_name": "Rockville",
                     "country_name": "United States",
                     "id": "grid.48336.3a",
-                    "name": "National Cancer Institute"
+                    "latitude": 39.004326,
+                    "linkout": [
+                        "http://www.cancer.gov/"
+                    ],
+                    "longitude": -77.10119,
+                    "name": "National Cancer Institute",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "NIDDK",
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.419635.c",
-                    "name": "National Institute of Diabetes and Digestive and Kidney Diseases"
+                    "latitude": 39.003628,
+                    "linkout": [
+                        "http://www.niddk.nih.gov/"
+                    ],
+                    "longitude": -77.10107,
+                    "name": "National Institute of Diabetes and Digestive and Kidney Diseases",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1099929056",
@@ -737,28 +755,64 @@
                     "city_name": "Houston",
                     "country_name": "United States",
                     "id": "grid.267308.8",
-                    "name": "The University of Texas Health Science Center at Houston"
+                    "latitude": 29.703306,
+                    "linkout": [
+                        "https://www.uth.edu/"
+                    ],
+                    "longitude": -95.40305,
+                    "name": "The University of Texas Health Science Center at Houston",
+                    "state_name": "Texas",
+                    "types": [
+                        "Healthcare"
+                    ]
                 },
                 {
                     "acronym": "UTMB",
                     "city_name": "Galveston",
                     "country_name": "United States",
                     "id": "grid.176731.5",
-                    "name": "The University of Texas Medical Branch at Galveston"
+                    "latitude": 29.311201,
+                    "linkout": [
+                        "http://www.utmb.edu/"
+                    ],
+                    "longitude": -94.77607,
+                    "name": "The University of Texas Medical Branch at Galveston",
+                    "state_name": "Texas",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "BCM",
                     "city_name": "Houston",
                     "country_name": "United States",
                     "id": "grid.39382.33",
-                    "name": "Baylor College of Medicine"
+                    "latitude": 29.711039,
+                    "linkout": [
+                        "https://www.bcm.edu/"
+                    ],
+                    "longitude": -95.39631,
+                    "name": "Baylor College of Medicine",
+                    "state_name": "Texas",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "ASU",
                     "city_name": "Tempe",
                     "country_name": "United States",
                     "id": "grid.215654.1",
-                    "name": "Arizona State University"
+                    "latitude": 33.417194,
+                    "linkout": [
+                        "http://www.asu.edu/"
+                    ],
+                    "longitude": -111.93651,
+                    "name": "Arizona State University",
+                    "state_name": "Arizona",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -808,9 +862,9 @@
                         "0000-0002-1981-4245"
                     ],
                     "research_orgs": [
-                        "grid.280247.b",
+                        "grid.215654.1",
                         "grid.47840.3f",
-                        "grid.215654.1"
+                        "grid.280247.b"
                     ]
                 },
                 {
@@ -834,7 +888,7 @@
                     ]
                 }
             ],
-            "score": 19.68452,
+            "score": 19.67185,
             "supporting_grant_ids": [
                 "grant.2500729"
             ],

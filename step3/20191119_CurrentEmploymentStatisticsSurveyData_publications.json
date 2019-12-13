@@ -218,38 +218,38 @@
             "publisher": "Wiley",
             "recent_citations": 1,
             "reference_ids": [
+                "pub.1062859272",
+                "pub.1100454670",
+                "pub.1071056716",
+                "pub.1053514421",
+                "pub.1034655845",
+                "pub.1064394078",
+                "pub.1064405927",
                 "pub.1064390926",
-                "pub.1085538502",
                 "pub.1064388985",
-                "pub.1046034891",
                 "pub.1047679650",
+                "pub.1046034891",
                 "pub.1022031926",
                 "pub.1040028208",
                 "pub.1052383685",
-                "pub.1053514421",
-                "pub.1034655845",
-                "pub.1064405927",
-                "pub.1064394078",
-                "pub.1062859272",
-                "pub.1071056716",
-                "pub.1100454670"
+                "pub.1085538502"
             ],
             "references": [
+                "pub.1062859272",
+                "pub.1100454670",
+                "pub.1071056716",
+                "pub.1053514421",
+                "pub.1034655845",
+                "pub.1064394078",
+                "pub.1064405927",
                 "pub.1064390926",
-                "pub.1085538502",
                 "pub.1064388985",
-                "pub.1046034891",
                 "pub.1047679650",
+                "pub.1046034891",
                 "pub.1022031926",
                 "pub.1040028208",
                 "pub.1052383685",
-                "pub.1053514421",
-                "pub.1034655845",
-                "pub.1064405927",
-                "pub.1064394078",
-                "pub.1062859272",
-                "pub.1071056716",
-                "pub.1100454670"
+                "pub.1085538502"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -286,7 +286,16 @@
                     "city_name": "Iowa City",
                     "country_name": "United States",
                     "id": "grid.214572.7",
-                    "name": "University of Iowa"
+                    "latitude": 41.662952,
+                    "linkout": [
+                        "http://www.uiowa.edu/"
+                    ],
+                    "longitude": -91.554924,
+                    "name": "University of Iowa",
+                    "state_name": "Iowa",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -309,7 +318,7 @@
                     ]
                 }
             ],
-            "score": 19.26693,
+            "score": 19.25544,
             "supporting_grant_ids": null,
             "terms": [
                 "Bayesian hierarchical formulation",
@@ -431,47 +440,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "71547266",
-                            "name": "J. N. K. Rao",
-                            "url": "https://www.semanticscholar.org/author/71547266"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "8c798e7a8f1d50fa795fed8034c3f1749f7597b3",
-                    "title": "Bayesian pseudo-empirical-likelihood intervals for complex surveys",
-                    "url": "https://www.semanticscholar.org/paper/8c798e7a8f1d50fa795fed8034c3f1749f7597b3",
-                    "venue": "",
-                    "year": 2009
-                },
-                {
-                    "arxivId": "1008.2169",
-                    "authors": [
-                        {
-                            "authorId": "145519771",
-                            "name": "Peter L De Hoff",
-                            "url": "https://www.semanticscholar.org/author/145519771"
-                        }
-                    ],
-                    "doi": "10.1214/11-BA606",
-                    "intent": [
-                        "methodology",
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "1c95d6d11a6d620c0ef5685d1d42e14f24dc6816",
-                    "title": "Separable covariance arrays via the Tucker product, with applications to multivariate relational data",
-                    "url": "https://www.semanticscholar.org/paper/1c95d6d11a6d620c0ef5685d1d42e14f24dc6816",
-                    "venue": "",
-                    "year": 2010
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "49393373",
                             "name": "Alan Guoming Huang",
                             "url": "https://www.semanticscholar.org/author/49393373"
@@ -492,6 +460,51 @@
                     "url": "https://www.semanticscholar.org/paper/3b118b29d7f1498a8e12051d0d88e7c3403aa48e",
                     "venue": "",
                     "year": 2013
+                },
+                {
+                    "arxivId": "1407.1079",
+                    "authors": [
+                        {
+                            "authorId": "152561576",
+                            "name": "Daniell Toth",
+                            "url": "https://www.semanticscholar.org/author/152561576"
+                        },
+                        {
+                            "authorId": "65774475",
+                            "name": "John L. Eltinge",
+                            "url": "https://www.semanticscholar.org/author/65774475"
+                        }
+                    ],
+                    "doi": "10.1198/jasa.2011.tm10383",
+                    "intent": [
+                        "methodology"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "e9e915ded22af1097a5e0f5677006b42f0f4eccb",
+                    "title": "Building Consistent Regression Trees From Complex Sample Data",
+                    "url": "https://www.semanticscholar.org/paper/e9e915ded22af1097a5e0f5677006b42f0f4eccb",
+                    "venue": "",
+                    "year": 2011
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "71547266",
+                            "name": "J. N. K. Rao",
+                            "url": "https://www.semanticscholar.org/author/71547266"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "8c798e7a8f1d50fa795fed8034c3f1749f7597b3",
+                    "title": "Bayesian pseudo-empirical-likelihood intervals for complex surveys",
+                    "url": "https://www.semanticscholar.org/paper/8c798e7a8f1d50fa795fed8034c3f1749f7597b3",
+                    "venue": "",
+                    "year": 2009
                 },
                 {
                     "arxivId": "0811.1729",
@@ -515,6 +528,27 @@
                     "paperId": "6518e884787ccc0b51da188171ad19dc210d4485",
                     "title": "Batch means and spectral variance estimators in Markov chain Monte Carlo",
                     "url": "https://www.semanticscholar.org/paper/6518e884787ccc0b51da188171ad19dc210d4485",
+                    "venue": "",
+                    "year": 2010
+                },
+                {
+                    "arxivId": "1008.2169",
+                    "authors": [
+                        {
+                            "authorId": "145519771",
+                            "name": "Peter L De Hoff",
+                            "url": "https://www.semanticscholar.org/author/145519771"
+                        }
+                    ],
+                    "doi": "10.1214/11-BA606",
+                    "intent": [
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "1c95d6d11a6d620c0ef5685d1d42e14f24dc6816",
+                    "title": "Separable covariance arrays via the Tucker product, with applications to multivariate relational data",
+                    "url": "https://www.semanticscholar.org/paper/1c95d6d11a6d620c0ef5685d1d42e14f24dc6816",
                     "venue": "",
                     "year": 2010
                 },
@@ -548,62 +582,6 @@
                     "url": "https://www.semanticscholar.org/paper/293b14d6f5bf8c0ac754e0472207b880ec06e770",
                     "venue": "J. Mach. Learn. Res.",
                     "year": 2015
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "3226094",
-                            "name": "Pascal Massart",
-                            "url": "https://www.semanticscholar.org/author/3226094"
-                        },
-                        {
-                            "authorId": "144853651",
-                            "name": "Jean Picard",
-                            "url": "https://www.semanticscholar.org/author/144853651"
-                        },
-                        {
-                            "authorId": "103211573",
-                            "name": "\u00c9cole d'\u00e9t\u00e9 de probabilit\u00e9s de Saint-Flour",
-                            "url": "https://www.semanticscholar.org/author/103211573"
-                        }
-                    ],
-                    "doi": "10.1007/978-3-540-48503-2",
-                    "intent": [
-                        "methodology",
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "9c41fe875e10e6ef08b610a5fbc2587783b6dab8",
-                    "title": "Concentration inequalities and model selection",
-                    "url": "https://www.semanticscholar.org/paper/9c41fe875e10e6ef08b610a5fbc2587783b6dab8",
-                    "venue": "",
-                    "year": 2007
-                },
-                {
-                    "arxivId": "1407.1079",
-                    "authors": [
-                        {
-                            "authorId": "152561576",
-                            "name": "Daniell Toth",
-                            "url": "https://www.semanticscholar.org/author/152561576"
-                        },
-                        {
-                            "authorId": "65774475",
-                            "name": "John L. Eltinge",
-                            "url": "https://www.semanticscholar.org/author/65774475"
-                        }
-                    ],
-                    "doi": "10.1198/jasa.2011.tm10383",
-                    "intent": [
-                        "methodology"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "e9e915ded22af1097a5e0f5677006b42f0f4eccb",
-                    "title": "Building Consistent Regression Trees From Complex Sample Data",
-                    "url": "https://www.semanticscholar.org/paper/e9e915ded22af1097a5e0f5677006b42f0f4eccb",
-                    "venue": "",
-                    "year": 2011
                 },
                 {
                     "arxivId": "1309.1799",
@@ -728,6 +706,37 @@
                     "year": 2014
                 },
                 {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "3226094",
+                            "name": "Pascal Massart",
+                            "url": "https://www.semanticscholar.org/author/3226094"
+                        },
+                        {
+                            "authorId": "144853651",
+                            "name": "Jean Picard",
+                            "url": "https://www.semanticscholar.org/author/144853651"
+                        },
+                        {
+                            "authorId": "1403570089",
+                            "name": "\u00c9cole d'\u00e9t\u00e9 de probabilit\u00e9s de Saint-Flour",
+                            "url": "https://www.semanticscholar.org/author/1403570089"
+                        }
+                    ],
+                    "doi": "10.1007/978-3-540-48503-2",
+                    "intent": [
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "9c41fe875e10e6ef08b610a5fbc2587783b6dab8",
+                    "title": "Concentration inequalities and model selection",
+                    "url": "https://www.semanticscholar.org/paper/9c41fe875e10e6ef08b610a5fbc2587783b6dab8",
+                    "venue": "",
+                    "year": 2007
+                },
+                {
                     "arxivId": "1001.0175",
                     "authors": [
                         {
@@ -829,9 +838,9 @@
                             "url": "https://www.semanticscholar.org/author/1678641"
                         },
                         {
-                            "authorId": "2354934",
+                            "authorId": "1452772582",
                             "name": "Quoc Tran-Dinh",
-                            "url": "https://www.semanticscholar.org/author/2354934"
+                            "url": "https://www.semanticscholar.org/author/1452772582"
                         },
                         {
                             "authorId": "39775017",
@@ -885,31 +894,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "4247470",
-                            "name": "Terrance D. Savitsky",
-                            "url": "https://www.semanticscholar.org/author/4247470"
-                        },
-                        {
-                            "authorId": "1707056",
-                            "name": "Siddhartha R. Dalal",
-                            "url": "https://www.semanticscholar.org/author/1707056"
-                        }
-                    ],
-                    "doi": "10.1111/rssc.12049",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "11c6d4318a675ec6373d36bbfb35b27c02fdffdc",
-                    "title": "Bayesian non-parametric analysis of multirater ordinal data, with application to prioritizing research goals for prevention of suicide",
-                    "url": "https://www.semanticscholar.org/paper/11c6d4318a675ec6373d36bbfb35b27c02fdffdc",
-                    "venue": "",
-                    "year": 2014
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "2291789",
                             "name": "Subhashis Ghosal",
                             "url": "https://www.semanticscholar.org/author/2291789"
@@ -958,6 +942,31 @@
                     "url": "https://www.semanticscholar.org/paper/751ee5e11cb826a315d8737f6a5f34423d95fae9",
                     "venue": "SIAM J. Math. Analysis",
                     "year": 2011
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "4247470",
+                            "name": "Terrance D. Savitsky",
+                            "url": "https://www.semanticscholar.org/author/4247470"
+                        },
+                        {
+                            "authorId": "1707056",
+                            "name": "Siddhartha R. Dalal",
+                            "url": "https://www.semanticscholar.org/author/1707056"
+                        }
+                    ],
+                    "doi": "10.1111/rssc.12049",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "11c6d4318a675ec6373d36bbfb35b27c02fdffdc",
+                    "title": "Bayesian non-parametric analysis of multirater ordinal data, with application to prioritizing research goals for prevention of suicide",
+                    "url": "https://www.semanticscholar.org/paper/11c6d4318a675ec6373d36bbfb35b27c02fdffdc",
+                    "venue": "",
+                    "year": 2014
                 }
             ],
             "title": "Scalable Bayes under Informative Sampling",
@@ -1087,27 +1096,13 @@
                     "url_for_landing_page": "http://arxiv.org/abs/1606.07488",
                     "url_for_pdf": "http://arxiv.org/pdf/1606.07488",
                     "version": "submittedVersion"
-                },
-                {
-                    "endpoint_id": null,
-                    "evidence": "oa repository (semantic scholar lookup)",
-                    "host_type": "repository",
-                    "is_best": false,
-                    "license": null,
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2019-10-01T00:00:00",
-                    "url": "http://pdfs.semanticscholar.org/4a55/4546c96ad9dc7fe3e2df79f6ea9681556c11.pdf",
-                    "url_for_landing_page": "https://semanticscholar.org/paper/4a554546c96ad9dc7fe3e2df79f6ea9681556c11",
-                    "url_for_pdf": "http://pdfs.semanticscholar.org/4a55/4546c96ad9dc7fe3e2df79f6ea9681556c11.pdf",
-                    "version": "submittedVersion"
                 }
             ],
             "oa_status": "green",
             "published_date": "2018-02-20",
             "publisher": "Wiley-Blackwell",
             "title": "Scalable Bayes under Informative Sampling",
-            "updated": "2019-11-26T03:19:06.437421",
+            "updated": "2019-12-06T07:44:40.486752",
             "year": 2018,
             "z_authors": [
                 {
@@ -1195,7 +1190,6 @@
             "date_added": "2019-11-27 13:23:24",
             "doi": "10.1111/sjos.12312",
             "journal": "Scandinavian Journal of Statistics",
-            "notes": NaN,
             "search_term": "Current Employment Statistics Survey Data"
         },
         "title": "Scalable Bayes under Informative Sampling"
@@ -1217,6 +1211,48 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "50689654",
+                            "name": "Zheng Tian",
+                            "url": "https://www.semanticscholar.org/author/50689654"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "3480c0d00f598aea7c6f5364609806c3ec54d3d1",
+                    "title": "Testing the Role of Input-Output Linkages in Industry Agglomeration with the Spatial Econometric and Input-Output Model",
+                    "url": "https://www.semanticscholar.org/paper/3480c0d00f598aea7c6f5364609806c3ec54d3d1",
+                    "venue": "",
+                    "year": 2013
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "152307789",
+                            "name": "Zheng Tian",
+                            "url": "https://www.semanticscholar.org/author/152307789"
+                        }
+                    ],
+                    "doi": "10.33915/etd.227",
+                    "intent": [
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "9816eee58bd8488445c4b6194a742476068dc9e1",
+                    "title": "Essays on Industrial Agglomeration and Input-Output Linkages",
+                    "url": "https://www.semanticscholar.org/paper/9816eee58bd8488445c4b6194a742476068dc9e1",
+                    "venue": "",
+                    "year": 2014
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "145542405",
                             "name": "Paul Courtney",
                             "url": "https://www.semanticscholar.org/author/145542405"
@@ -1234,8 +1270,8 @@
                     ],
                     "doi": null,
                     "intent": [
-                        "background",
-                        "result"
+                        "result",
+                        "background"
                     ],
                     "isInfluential": false,
                     "paperId": "2479bfe17c78d5cec7f6282b5242d247f8aedce0",
@@ -1243,181 +1279,12 @@
                     "url": "https://www.semanticscholar.org/paper/2479bfe17c78d5cec7f6282b5242d247f8aedce0",
                     "venue": "",
                     "year": 2005
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "152307789",
-                            "name": "Zheng Tian",
-                            "url": "https://www.semanticscholar.org/author/152307789"
-                        }
-                    ],
-                    "doi": "10.33915/etd.227",
-                    "intent": [
-                        "background",
-                        "methodology"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "9816eee58bd8488445c4b6194a742476068dc9e1",
-                    "title": "Essays on Industrial Agglomeration and Input-Output Linkages",
-                    "url": "https://www.semanticscholar.org/paper/9816eee58bd8488445c4b6194a742476068dc9e1",
-                    "venue": "",
-                    "year": 2014
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "50689654",
-                            "name": "Zheng Tian",
-                            "url": "https://www.semanticscholar.org/author/50689654"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background",
-                        "methodology"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "3480c0d00f598aea7c6f5364609806c3ec54d3d1",
-                    "title": "Testing the Role of Input-Output Linkages in Industry Agglomeration with the Spatial Econometric and Input-Output Model",
-                    "url": "https://www.semanticscholar.org/paper/3480c0d00f598aea7c6f5364609806c3ec54d3d1",
-                    "venue": "",
-                    "year": 2013
                 }
             ],
             "doi": "10.1007/978-3-642-33395-8_12",
             "influentialCitationCount": 2,
             "paperId": "44d0309177d44a9b20af5b6eed444979e84a3cc6",
             "references": [
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "50778112",
-                            "name": "Stuart S. Rosenthal",
-                            "url": "https://www.semanticscholar.org/author/50778112"
-                        },
-                        {
-                            "authorId": "46252581",
-                            "name": "William C. Strange",
-                            "url": "https://www.semanticscholar.org/author/46252581"
-                        }
-                    ],
-                    "doi": "10.1162/003465303765299882",
-                    "intent": [
-                        "background",
-                        "methodology",
-                        "result"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "914e6ca3caff9d512ce50119001e79201a7db120",
-                    "title": "Geography, Industrial Organization, and Agglomeration",
-                    "url": "https://www.semanticscholar.org/paper/914e6ca3caff9d512ce50119001e79201a7db120",
-                    "venue": "Review of Economics and Statistics",
-                    "year": 2003
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "2410911",
-                            "name": "Thomas J. Holmes",
-                            "url": "https://www.semanticscholar.org/author/2410911"
-                        },
-                        {
-                            "authorId": "50568716",
-                            "name": "John J. Stevens",
-                            "url": "https://www.semanticscholar.org/author/50568716"
-                        }
-                    ],
-                    "doi": "10.1016/s1574-0080(04)80020-8",
-                    "intent": [
-                        "background",
-                        "methodology",
-                        "result"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "75ed67abd26e8f708634fc057869a1fde1edb3b1",
-                    "title": "Spatial distribution of economic activities in North America",
-                    "url": "https://www.semanticscholar.org/paper/75ed67abd26e8f708634fc057869a1fde1edb3b1",
-                    "venue": "",
-                    "year": 2004
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "50778112",
-                            "name": "Stuart S. Rosenthal",
-                            "url": "https://www.semanticscholar.org/author/50778112"
-                        },
-                        {
-                            "authorId": "46252581",
-                            "name": "William C. Strange",
-                            "url": "https://www.semanticscholar.org/author/46252581"
-                        }
-                    ],
-                    "doi": "10.1006/juec.2001.2230",
-                    "intent": [
-                        "background",
-                        "methodology",
-                        "result"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "f3c53bda5ec3e0dbdf6853dc2fcc9c71dd10d7a9",
-                    "title": "The Determinants of Agglomeration",
-                    "url": "https://www.semanticscholar.org/paper/f3c53bda5ec3e0dbdf6853dc2fcc9c71dd10d7a9",
-                    "venue": "",
-                    "year": 2001
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "118833908",
-                            "name": "Giordano Mion",
-                            "url": "https://www.semanticscholar.org/author/118833908"
-                        }
-                    ],
-                    "doi": "10.1016/j.jue.2004.03.004",
-                    "intent": [
-                        "background",
-                        "methodology"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "387b3a7a17180404c8420f030d495f4bd8555f40",
-                    "title": "Spatial Externalities and Empirical Analysis : The Case of Italy",
-                    "url": "https://www.semanticscholar.org/paper/387b3a7a17180404c8420f030d495f4bd8555f40",
-                    "venue": "",
-                    "year": 2002
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "35947044",
-                            "name": "Glenn Ellison",
-                            "url": "https://www.semanticscholar.org/author/35947044"
-                        },
-                        {
-                            "authorId": "3701289",
-                            "name": "Edward L. Glaeser",
-                            "url": "https://www.semanticscholar.org/author/3701289"
-                        }
-                    ],
-                    "doi": "10.1257/aer.89.2.311",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "25bb78444857d22e8cd4cdf7b1437b77de714f5d",
-                    "title": "The Geographic Concentration of Industry: Does Natural Advantage Explain Agglomeration?",
-                    "url": "https://www.semanticscholar.org/paper/25bb78444857d22e8cd4cdf7b1437b77de714f5d",
-                    "venue": "",
-                    "year": 1999
-                },
                 {
                     "arxivId": null,
                     "authors": [
@@ -1437,6 +1304,87 @@
                     "url": "https://www.semanticscholar.org/paper/539742910b4716387f313528adc98406bfa91f66",
                     "venue": "",
                     "year": 1998
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "50778112",
+                            "name": "Stuart S. Rosenthal",
+                            "url": "https://www.semanticscholar.org/author/50778112"
+                        },
+                        {
+                            "authorId": "46252581",
+                            "name": "William C. Strange",
+                            "url": "https://www.semanticscholar.org/author/46252581"
+                        }
+                    ],
+                    "doi": "10.1162/003465303765299882",
+                    "intent": [
+                        "methodology",
+                        "result",
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "914e6ca3caff9d512ce50119001e79201a7db120",
+                    "title": "Geography, Industrial Organization, and Agglomeration",
+                    "url": "https://www.semanticscholar.org/paper/914e6ca3caff9d512ce50119001e79201a7db120",
+                    "venue": "Review of Economics and Statistics",
+                    "year": 2003
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "50778112",
+                            "name": "Stuart S. Rosenthal",
+                            "url": "https://www.semanticscholar.org/author/50778112"
+                        },
+                        {
+                            "authorId": "46252581",
+                            "name": "William C. Strange",
+                            "url": "https://www.semanticscholar.org/author/46252581"
+                        }
+                    ],
+                    "doi": "10.1006/juec.2001.2230",
+                    "intent": [
+                        "result",
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "f3c53bda5ec3e0dbdf6853dc2fcc9c71dd10d7a9",
+                    "title": "The Determinants of Agglomeration",
+                    "url": "https://www.semanticscholar.org/paper/f3c53bda5ec3e0dbdf6853dc2fcc9c71dd10d7a9",
+                    "venue": "",
+                    "year": 2001
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "2410911",
+                            "name": "Thomas J. Holmes",
+                            "url": "https://www.semanticscholar.org/author/2410911"
+                        },
+                        {
+                            "authorId": "47455078",
+                            "name": "John J. Stevens",
+                            "url": "https://www.semanticscholar.org/author/47455078"
+                        }
+                    ],
+                    "doi": "10.17016/feds.2002.17",
+                    "intent": [
+                        "result",
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "20f6bd4b9b8e68ede03a38dcce819bbe60050554",
+                    "title": "Geographic concentration and establishment size: analysis in an alternative economic geography model",
+                    "url": "https://www.semanticscholar.org/paper/20f6bd4b9b8e68ede03a38dcce819bbe60050554",
+                    "venue": "",
+                    "year": 2002
                 },
                 {
                     "arxivId": null,
@@ -1470,6 +1418,31 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "35947044",
+                            "name": "Glenn Ellison",
+                            "url": "https://www.semanticscholar.org/author/35947044"
+                        },
+                        {
+                            "authorId": "3701289",
+                            "name": "Edward L. Glaeser",
+                            "url": "https://www.semanticscholar.org/author/3701289"
+                        }
+                    ],
+                    "doi": "10.1257/aer.89.2.311",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "25bb78444857d22e8cd4cdf7b1437b77de714f5d",
+                    "title": "The Geographic Concentration of Industry: Does Natural Advantage Explain Agglomeration?",
+                    "url": "https://www.semanticscholar.org/paper/25bb78444857d22e8cd4cdf7b1437b77de714f5d",
+                    "venue": "",
+                    "year": 1999
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "5646466",
                             "name": "Donald R. Davis",
                             "url": "https://www.semanticscholar.org/author/5646466"
@@ -1482,8 +1455,8 @@
                     ],
                     "doi": "10.1016/S0014-2921(98)00063-4",
                     "intent": [
-                        "background",
-                        "result"
+                        "result",
+                        "background"
                     ],
                     "isInfluential": true,
                     "paperId": "68014007dfbf5cba5c0d31aa6f0c08d61f7d8f24",
@@ -1491,33 +1464,6 @@
                     "url": "https://www.semanticscholar.org/paper/68014007dfbf5cba5c0d31aa6f0c08d61f7d8f24",
                     "venue": "",
                     "year": 1997
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "2410911",
-                            "name": "Thomas J. Holmes",
-                            "url": "https://www.semanticscholar.org/author/2410911"
-                        },
-                        {
-                            "authorId": "47455078",
-                            "name": "John J. Stevens",
-                            "url": "https://www.semanticscholar.org/author/47455078"
-                        }
-                    ],
-                    "doi": "10.17016/feds.2002.17",
-                    "intent": [
-                        "background",
-                        "methodology",
-                        "result"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "20f6bd4b9b8e68ede03a38dcce819bbe60050554",
-                    "title": "Geographic concentration and establishment size: analysis in an alternative economic geography model",
-                    "url": "https://www.semanticscholar.org/paper/20f6bd4b9b8e68ede03a38dcce819bbe60050554",
-                    "venue": "",
-                    "year": 2002
                 },
                 {
                     "arxivId": null,
@@ -1538,6 +1484,104 @@
                     "url": "https://www.semanticscholar.org/paper/f03efeafdb89c650ad478e44b0b57691d0af281a",
                     "venue": "",
                     "year": 1996
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "2410911",
+                            "name": "Thomas J. Holmes",
+                            "url": "https://www.semanticscholar.org/author/2410911"
+                        },
+                        {
+                            "authorId": "50568716",
+                            "name": "John J. Stevens",
+                            "url": "https://www.semanticscholar.org/author/50568716"
+                        }
+                    ],
+                    "doi": "10.1016/s1574-0080(04)80020-8",
+                    "intent": [
+                        "result",
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "75ed67abd26e8f708634fc057869a1fde1edb3b1",
+                    "title": "Spatial distribution of economic activities in North America",
+                    "url": "https://www.semanticscholar.org/paper/75ed67abd26e8f708634fc057869a1fde1edb3b1",
+                    "venue": "",
+                    "year": 2004
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "118833908",
+                            "name": "Giordano Mion",
+                            "url": "https://www.semanticscholar.org/author/118833908"
+                        }
+                    ],
+                    "doi": "10.1016/j.jue.2004.03.004",
+                    "intent": [
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "387b3a7a17180404c8420f030d495f4bd8555f40",
+                    "title": "Spatial Externalities and Empirical Analysis : The Case of Italy",
+                    "url": "https://www.semanticscholar.org/paper/387b3a7a17180404c8420f030d495f4bd8555f40",
+                    "venue": "",
+                    "year": 2002
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "98876342",
+                            "name": "Giuseppe Folloni",
+                            "url": "https://www.semanticscholar.org/author/98876342"
+                        },
+                        {
+                            "authorId": "69576245",
+                            "name": "Gianluigi Gorla",
+                            "url": "https://www.semanticscholar.org/author/69576245"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "b5ba315911a1aa1f9ed8f61ab8708c504aa419d1",
+                    "title": "Increasing Returns and Externalities: Introducing Spatial Diffusion into Krugman's Economic Geography",
+                    "url": "https://www.semanticscholar.org/paper/b5ba315911a1aa1f9ed8f61ab8708c504aa419d1",
+                    "venue": "",
+                    "year": 1995
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "50778112",
+                            "name": "Stuart S. Rosenthal",
+                            "url": "https://www.semanticscholar.org/author/50778112"
+                        },
+                        {
+                            "authorId": "46252581",
+                            "name": "William C. Strange",
+                            "url": "https://www.semanticscholar.org/author/46252581"
+                        }
+                    ],
+                    "doi": "10.1016/s1574-0080(04)80006-3",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "4c71d1fa5d1c4cae618f16703bbddb55d9b5cf69",
+                    "title": "Evidence on the Nature and Sources of Agglomeration Economies",
+                    "url": "https://www.semanticscholar.org/paper/4c71d1fa5d1c4cae618f16703bbddb55d9b5cf69",
+                    "venue": "",
+                    "year": 2004
                 },
                 {
                     "arxivId": null,
@@ -1596,8 +1640,8 @@
                     ],
                     "doi": "10.1162/0034653043125257",
                     "intent": [
-                        "background",
-                        "methodology"
+                        "methodology",
+                        "background"
                     ],
                     "isInfluential": true,
                     "paperId": "24cff09d452f9f932b017d89bbafd2c86ecd97c2",
@@ -1635,56 +1679,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "98876342",
-                            "name": "Giuseppe Folloni",
-                            "url": "https://www.semanticscholar.org/author/98876342"
-                        },
-                        {
-                            "authorId": "69576245",
-                            "name": "Gianluigi Gorla",
-                            "url": "https://www.semanticscholar.org/author/69576245"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "b5ba315911a1aa1f9ed8f61ab8708c504aa419d1",
-                    "title": "Increasing Returns and Externalities: Introducing Spatial Diffusion into Krugman's Economic Geography",
-                    "url": "https://www.semanticscholar.org/paper/b5ba315911a1aa1f9ed8f61ab8708c504aa419d1",
-                    "venue": "",
-                    "year": 1995
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "50778112",
-                            "name": "Stuart S. Rosenthal",
-                            "url": "https://www.semanticscholar.org/author/50778112"
-                        },
-                        {
-                            "authorId": "46252581",
-                            "name": "William C. Strange",
-                            "url": "https://www.semanticscholar.org/author/46252581"
-                        }
-                    ],
-                    "doi": "10.1016/s1574-0080(04)80006-3",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "4c71d1fa5d1c4cae618f16703bbddb55d9b5cf69",
-                    "title": "Evidence on the Nature and Sources of Agglomeration Economies",
-                    "url": "https://www.semanticscholar.org/paper/4c71d1fa5d1c4cae618f16703bbddb55d9b5cf69",
-                    "venue": "",
-                    "year": 2004
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "1704412",
                             "name": "J. Vernon Henderson",
                             "url": "https://www.semanticscholar.org/author/1704412"
@@ -1692,8 +1686,8 @@
                     ],
                     "doi": "10.1016/S0094-1190(02)00505-3",
                     "intent": [
-                        "background",
-                        "methodology"
+                        "methodology",
+                        "background"
                     ],
                     "isInfluential": true,
                     "paperId": "692f14364f672f4356500d526caa7efeae208a51",
@@ -1718,8 +1712,8 @@
                     ],
                     "doi": "10.1016/j.jinteco.2003.07.001",
                     "intent": [
-                        "background",
-                        "methodology"
+                        "methodology",
+                        "background"
                     ],
                     "isInfluential": false,
                     "paperId": "16c04165449a73b297e69f58c1a65fd069212deb",
@@ -1857,52 +1851,24 @@
             "year": 2004
         },
         "Unpaywall": {
-            "best_oa_location": {
-                "endpoint_id": null,
-                "evidence": "oa repository (semantic scholar lookup)",
-                "host_type": "repository",
-                "is_best": true,
-                "license": null,
-                "pmh_id": null,
-                "repository_institution": null,
-                "updated": "2019-10-01T00:00:00",
-                "url": "http://pdfs.semanticscholar.org/44d0/309177d44a9b20af5b6eed444979e84a3cc6.pdf",
-                "url_for_landing_page": "https://semanticscholar.org/paper/44d0309177d44a9b20af5b6eed444979e84a3cc6",
-                "url_for_pdf": "http://pdfs.semanticscholar.org/44d0/309177d44a9b20af5b6eed444979e84a3cc6.pdf",
-                "version": "submittedVersion"
-            },
+            "best_oa_location": null,
             "data_standard": 2,
             "doi": "10.1007/978-3-642-33395-8_12",
             "doi_url": "https://doi.org/10.1007/978-3-642-33395-8_12",
             "genre": "book-chapter",
-            "has_repository_copy": true,
-            "is_oa": true,
+            "has_repository_copy": false,
+            "is_oa": false,
             "journal_is_in_doaj": false,
             "journal_is_oa": false,
             "journal_issn_l": "1430-9602",
             "journal_issns": "1430-9602",
             "journal_name": "Advances in Spatial Science",
-            "oa_locations": [
-                {
-                    "endpoint_id": null,
-                    "evidence": "oa repository (semantic scholar lookup)",
-                    "host_type": "repository",
-                    "is_best": true,
-                    "license": null,
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2019-10-01T00:00:00",
-                    "url": "http://pdfs.semanticscholar.org/44d0/309177d44a9b20af5b6eed444979e84a3cc6.pdf",
-                    "url_for_landing_page": "https://semanticscholar.org/paper/44d0309177d44a9b20af5b6eed444979e84a3cc6",
-                    "url_for_pdf": "http://pdfs.semanticscholar.org/44d0/309177d44a9b20af5b6eed444979e84a3cc6.pdf",
-                    "version": "submittedVersion"
-                }
-            ],
-            "oa_status": "green",
+            "oa_locations": [],
+            "oa_status": "closed",
             "published_date": "2012-09-22",
             "publisher": "Springer Berlin Heidelberg",
             "title": "Input\u2013Output Linkages, Proximity to Final Demand and the Location of Manufacturing Industries",
-            "updated": "2019-11-20T05:09:24.828826",
+            "updated": "2019-12-05T15:34:06.721607",
             "year": 2012,
             "z_authors": [
                 {
@@ -2067,7 +2033,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 14.432737,
+            "score": 14.426264,
             "supporting_grant_ids": null,
             "terms": [
                 "geography",
@@ -2128,62 +2094,30 @@
             "year": 2013
         },
         "Unpaywall": {
-            "best_oa_location": {
-                "endpoint_id": null,
-                "evidence": "oa repository (semantic scholar lookup)",
-                "host_type": "repository",
-                "is_best": true,
-                "license": null,
-                "pmh_id": null,
-                "repository_institution": null,
-                "updated": "2019-10-01T00:00:00",
-                "url": "http://pdfs.semanticscholar.org/11c0/6250be1f81bcb5c0666a17f506d3bfd5d55a.pdf",
-                "url_for_landing_page": "https://semanticscholar.org/paper/11c06250be1f81bcb5c0666a17f506d3bfd5d55a",
-                "url_for_pdf": "http://pdfs.semanticscholar.org/11c0/6250be1f81bcb5c0666a17f506d3bfd5d55a.pdf",
-                "version": "submittedVersion"
-            },
+            "best_oa_location": null,
             "data_standard": 2,
             "doi": "10.1007/978-3-642-33395-8",
             "doi_url": "https://doi.org/10.1007/978-3-642-33395-8",
             "genre": "book",
-            "has_repository_copy": true,
-            "is_oa": true,
+            "has_repository_copy": false,
+            "is_oa": false,
             "journal_is_in_doaj": false,
             "journal_is_oa": false,
             "journal_issn_l": "1430-9602",
             "journal_issns": "1430-9602",
             "journal_name": "Advances in Spatial Science",
-            "oa_locations": [
-                {
-                    "endpoint_id": null,
-                    "evidence": "oa repository (semantic scholar lookup)",
-                    "host_type": "repository",
-                    "is_best": true,
-                    "license": null,
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2019-10-01T00:00:00",
-                    "url": "http://pdfs.semanticscholar.org/11c0/6250be1f81bcb5c0666a17f506d3bfd5d55a.pdf",
-                    "url_for_landing_page": "https://semanticscholar.org/paper/11c06250be1f81bcb5c0666a17f506d3bfd5d55a",
-                    "url_for_pdf": "http://pdfs.semanticscholar.org/11c0/6250be1f81bcb5c0666a17f506d3bfd5d55a.pdf",
-                    "version": "submittedVersion"
-                }
-            ],
-            "oa_status": "green",
+            "oa_locations": [],
+            "oa_status": "closed",
             "published_date": "2013-01-01",
             "publisher": "Springer Berlin Heidelberg",
             "title": "Geography, Institutions and Regional Economic Performance",
-            "updated": "2019-11-16T12:30:53.655278",
+            "updated": "2019-12-06T20:15:14.855142",
             "year": 2013,
             "z_authors": null
         },
         "datasets": [
             "dataset-345"
         ],
-        "dissemin": {
-            "error": 404,
-            "message": "The paper you requested could not be found."
-        },
         "doi": "10.1007/978-3-642-33395-8",
         "original": {
             "date_added": "2019-11-27 13:23:24",
@@ -2279,6 +2213,27 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "87329542",
+                            "name": "Jonathan Gendron",
+                            "url": "https://www.semanticscholar.org/author/87329542"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "result",
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "d0cbedf5d364c2d273ce1167e5cc9746b74e16a2",
+                    "title": "Maine's Forestry and Logging Industry: Building a Model for Forecasting",
+                    "url": "https://www.semanticscholar.org/paper/d0cbedf5d364c2d273ce1167e5cc9746b74e16a2",
+                    "venue": "",
+                    "year": 2019
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "95600787",
                             "name": "Arash Kialashaki",
                             "url": "https://www.semanticscholar.org/author/95600787"
@@ -2292,27 +2247,6 @@
                     "url": "https://www.semanticscholar.org/paper/59369841f28f5f6808b9df8e621d4b1fe140a334",
                     "venue": "",
                     "year": 2014
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "87329542",
-                            "name": "Jonathan Gendron",
-                            "url": "https://www.semanticscholar.org/author/87329542"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background",
-                        "result"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "d0cbedf5d364c2d273ce1167e5cc9746b74e16a2",
-                    "title": "Maine's Forestry and Logging Industry: Building a Model for Forecasting",
-                    "url": "https://www.semanticscholar.org/paper/d0cbedf5d364c2d273ce1167e5cc9746b74e16a2",
-                    "venue": "",
-                    "year": 2019
                 }
             ],
             "doi": "10.1016/j.eneco.2012.03.004",
@@ -2438,7 +2372,6 @@
             "date_added": "2019-11-27 13:23:24",
             "doi": "10.1016/j.eneco.2012.03.004",
             "journal": "Energy Economics",
-            "notes": NaN,
             "search_term": "Current Employment Statistics Survey Data"
         },
         "title": "Analysis of U.S. residential wood energy consumption: 1967-2009"
@@ -2563,7 +2496,7 @@
             "date": "2009-03-04",
             "date_inserted": "2017-08-31",
             "doi": "10.4324/9781410614407",
-            "field_citation_ratio": 7.39,
+            "field_citation_ratio": 7.37,
             "funder_countries": null,
             "funders": null,
             "id": "pub.1028745521",
@@ -2597,7 +2530,7 @@
             "research_org_state_names": null,
             "research_orgs": null,
             "researchers": null,
-            "score": 14.65855,
+            "score": 14.647698,
             "supporting_grant_ids": null,
             "terms": [
                 "questions",
@@ -2669,21 +2602,29 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "39277002",
-                            "name": "Philip M. Napoli",
-                            "url": "https://www.semanticscholar.org/author/39277002"
+                            "authorId": "36991351",
+                            "name": "R. Lance Holbert",
+                            "url": "https://www.semanticscholar.org/author/36991351"
+                        },
+                        {
+                            "authorId": "144648517",
+                            "name": "R. Kelly Garrett",
+                            "url": "https://www.semanticscholar.org/author/144648517"
+                        },
+                        {
+                            "authorId": "113343688",
+                            "name": "Laurel S. Gleason",
+                            "url": "https://www.semanticscholar.org/author/113343688"
                         }
                     ],
-                    "doi": "10.1002/9781444340525.ch14",
-                    "intent": [
-                        "background"
-                    ],
+                    "doi": "10.1111/j.1460-2466.2009.01470.x",
+                    "intent": [],
                     "isInfluential": false,
-                    "paperId": "ca69c2d228d7ab6849db8a2af0c5113afeb42085",
-                    "title": "Ratings and Audience Measurement",
-                    "url": "https://www.semanticscholar.org/paper/ca69c2d228d7ab6849db8a2af0c5113afeb42085",
+                    "paperId": "a601dad248f6de8634953444d06c9ea667b11900",
+                    "title": "A New Era of Minimal Effects? A Response to Bennett and Iyengar",
+                    "url": "https://www.semanticscholar.org/paper/a601dad248f6de8634953444d06c9ea667b11900",
                     "venue": "",
-                    "year": 2011
+                    "year": 2010
                 },
                 {
                     "arxivId": null,
@@ -2694,16 +2635,16 @@
                             "url": "https://www.semanticscholar.org/author/39277002"
                         }
                     ],
-                    "doi": null,
+                    "doi": "10.4337/9780857931344.00013",
                     "intent": [
                         "background"
                     ],
-                    "isInfluential": true,
-                    "paperId": "14073bd66fa6433ff67862201dcec15399c6824c",
-                    "title": "DIVERSITY AS AN EMERGING PRINCIPLE OF INTERNET GOVERNANCE",
-                    "url": "https://www.semanticscholar.org/paper/14073bd66fa6433ff67862201dcec15399c6824c",
+                    "isInfluential": false,
+                    "paperId": "a4db7338e2a46ffb305e3d00884ebd27bf3bd253",
+                    "title": "Diminished, Enduring, and Emergent Diversity Policy Concerns in an Evolving Media Environment",
+                    "url": "https://www.semanticscholar.org/paper/a4db7338e2a46ffb305e3d00884ebd27bf3bd253",
                     "venue": "",
-                    "year": 2008
+                    "year": 2011
                 },
                 {
                     "arxivId": null,
@@ -2724,34 +2665,6 @@
                     "url": "https://www.semanticscholar.org/paper/56b9bc31cc0cb8bc0e34ead280bdc7787f60ecc0",
                     "venue": "",
                     "year": 2008
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "145448909",
-                            "name": "Pere Masip",
-                            "url": "https://www.semanticscholar.org/author/145448909"
-                        },
-                        {
-                            "authorId": "1405486203",
-                            "name": "Carlos Ruiz-Caballero",
-                            "url": "https://www.semanticscholar.org/author/1405486203"
-                        },
-                        {
-                            "authorId": "69963272",
-                            "name": "Jaume Suau",
-                            "url": "https://www.semanticscholar.org/author/69963272"
-                        }
-                    ],
-                    "doi": "10.3145/epi.2019.mar.04",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "338bf37b97a6133c1a12cc918d1d2d16fe1d1878",
-                    "title": "Audiencias activas y discusi\u00f3n social en la esfera p\u00fablica digital. Art\u00edculo de revisi\u00f3n",
-                    "url": "https://www.semanticscholar.org/paper/338bf37b97a6133c1a12cc918d1d2d16fe1d1878",
-                    "venue": "",
-                    "year": 2019
                 },
                 {
                     "arxivId": null,
@@ -2806,6 +2719,54 @@
                     "intent": [
                         "background"
                     ],
+                    "isInfluential": true,
+                    "paperId": "14073bd66fa6433ff67862201dcec15399c6824c",
+                    "title": "DIVERSITY AS AN EMERGING PRINCIPLE OF INTERNET GOVERNANCE",
+                    "url": "https://www.semanticscholar.org/paper/14073bd66fa6433ff67862201dcec15399c6824c",
+                    "venue": "",
+                    "year": 2008
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "145448909",
+                            "name": "Pere Masip",
+                            "url": "https://www.semanticscholar.org/author/145448909"
+                        },
+                        {
+                            "authorId": "1405486203",
+                            "name": "Carlos Ruiz-Caballero",
+                            "url": "https://www.semanticscholar.org/author/1405486203"
+                        },
+                        {
+                            "authorId": "69963272",
+                            "name": "Jaume Suau",
+                            "url": "https://www.semanticscholar.org/author/69963272"
+                        }
+                    ],
+                    "doi": "10.3145/epi.2019.mar.04",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "338bf37b97a6133c1a12cc918d1d2d16fe1d1878",
+                    "title": "Audiencias activas y discusi\u00f3n social en la esfera p\u00fablica digital. Art\u00edculo de revisi\u00f3n",
+                    "url": "https://www.semanticscholar.org/paper/338bf37b97a6133c1a12cc918d1d2d16fe1d1878",
+                    "venue": "",
+                    "year": 2019
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "39277002",
+                            "name": "Philip M. Napoli",
+                            "url": "https://www.semanticscholar.org/author/39277002"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
                     "isInfluential": false,
                     "paperId": "7d3e6a3f4c14e57eeb7a5efa8a3a68c9a96702e2",
                     "title": "Navigating Producer-Consumer Convergence: Media Policy Priorities in the Era of User- Generated and User-Distributed Content",
@@ -2817,47 +2778,19 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "36991351",
-                            "name": "R. Lance Holbert",
-                            "url": "https://www.semanticscholar.org/author/36991351"
-                        },
-                        {
-                            "authorId": "144648517",
-                            "name": "R. Kelly Garrett",
-                            "url": "https://www.semanticscholar.org/author/144648517"
-                        },
-                        {
-                            "authorId": "113343688",
-                            "name": "Laurel S. Gleason",
-                            "url": "https://www.semanticscholar.org/author/113343688"
-                        }
-                    ],
-                    "doi": "10.1111/j.1460-2466.2009.01470.x",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "a601dad248f6de8634953444d06c9ea667b11900",
-                    "title": "A New Era of Minimal Effects? A Response to Bennett and Iyengar",
-                    "url": "https://www.semanticscholar.org/paper/a601dad248f6de8634953444d06c9ea667b11900",
-                    "venue": "",
-                    "year": 2010
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "39277002",
                             "name": "Philip M. Napoli",
                             "url": "https://www.semanticscholar.org/author/39277002"
                         }
                     ],
-                    "doi": "10.4337/9780857931344.00013",
+                    "doi": "10.1002/9781444340525.ch14",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "a4db7338e2a46ffb305e3d00884ebd27bf3bd253",
-                    "title": "Diminished, Enduring, and Emergent Diversity Policy Concerns in an Evolving Media Environment",
-                    "url": "https://www.semanticscholar.org/paper/a4db7338e2a46ffb305e3d00884ebd27bf3bd253",
+                    "paperId": "ca69c2d228d7ab6849db8a2af0c5113afeb42085",
+                    "title": "Ratings and Audience Measurement",
+                    "url": "https://www.semanticscholar.org/paper/ca69c2d228d7ab6849db8a2af0c5113afeb42085",
                     "venue": "",
                     "year": 2011
                 }
@@ -2866,6 +2799,57 @@
             "influentialCitationCount": 3,
             "paperId": "730b4f15db1b8b82147bfe4f0ba1b8772a8bf5a9",
             "references": [
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1994992",
+                            "name": "James G. Webster",
+                            "url": "https://www.semanticscholar.org/author/1994992"
+                        },
+                        {
+                            "authorId": "70531118",
+                            "name": "Patricia F. Phalen",
+                            "url": "https://www.semanticscholar.org/author/70531118"
+                        },
+                        {
+                            "authorId": "69359550",
+                            "name": "Lawrence Wilson Lichty",
+                            "url": "https://www.semanticscholar.org/author/69359550"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background",
+                        "methodology"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "670bf1023b82b092fb52eebcbeeb458b220d92f0",
+                    "title": "Ratings analysis: The theory and practice of audience research",
+                    "url": "https://www.semanticscholar.org/paper/670bf1023b82b092fb52eebcbeeb458b220d92f0",
+                    "venue": "",
+                    "year": 2006
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1994992",
+                            "name": "James G. Webster",
+                            "url": "https://www.semanticscholar.org/author/1994992"
+                        }
+                    ],
+                    "doi": "10.1111/j.1460-2466.1986.tb01439.x",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "88be3d6bbe7404e0620b1765fbb86aba53e8fedb",
+                    "title": "Audience Behavior in the New Media Environment",
+                    "url": "https://www.semanticscholar.org/paper/88be3d6bbe7404e0620b1765fbb86aba53e8fedb",
+                    "venue": "",
+                    "year": 1986
+                },
                 {
                     "arxivId": null,
                     "authors": [
@@ -2890,6 +2874,24 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "35836722",
+                            "name": "Nancy H. Fraser",
+                            "url": "https://www.semanticscholar.org/author/35836722"
+                        }
+                    ],
+                    "doi": "10.2307/466240",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "b3d083906255e6dbaa4c401027cfce6f24af393e",
+                    "title": "Rethinking the Public Sphere: A Contribution to the Critique of Actually Existing Democracy",
+                    "url": "https://www.semanticscholar.org/paper/b3d083906255e6dbaa4c401027cfce6f24af393e",
+                    "venue": "",
+                    "year": 1990
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "1994992",
                             "name": "James G. Webster",
                             "url": "https://www.semanticscholar.org/author/1994992"
@@ -2898,24 +2900,18 @@
                             "authorId": "70531118",
                             "name": "Patricia F. Phalen",
                             "url": "https://www.semanticscholar.org/author/70531118"
-                        },
-                        {
-                            "authorId": "69359550",
-                            "name": "Lawrence Wilson Lichty",
-                            "url": "https://www.semanticscholar.org/author/69359550"
                         }
                     ],
-                    "doi": null,
+                    "doi": "10.5860/choice.35-4920",
                     "intent": [
-                        "methodology",
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "670bf1023b82b092fb52eebcbeeb458b220d92f0",
-                    "title": "Ratings analysis: The theory and practice of audience research",
-                    "url": "https://www.semanticscholar.org/paper/670bf1023b82b092fb52eebcbeeb458b220d92f0",
+                    "paperId": "3a6fb3d43be9559372f4a38a22255bc6d10e47a7",
+                    "title": "The Mass Audience: Rediscovering the Dominant Model",
+                    "url": "https://www.semanticscholar.org/paper/3a6fb3d43be9559372f4a38a22255bc6d10e47a7",
                     "venue": "",
-                    "year": 2006
+                    "year": 1997
                 },
                 {
                     "arxivId": null,
@@ -2966,64 +2962,72 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "1994992",
-                            "name": "James G. Webster",
-                            "url": "https://www.semanticscholar.org/author/1994992"
+                            "authorId": "52030032",
+                            "name": "Robert M. Entman",
+                            "url": "https://www.semanticscholar.org/author/52030032"
                         },
                         {
-                            "authorId": "70531118",
-                            "name": "Patricia F. Phalen",
-                            "url": "https://www.semanticscholar.org/author/70531118"
+                            "authorId": "46210026",
+                            "name": "Steven S. Wildman",
+                            "url": "https://www.semanticscholar.org/author/46210026"
                         }
                     ],
-                    "doi": "10.5860/choice.35-4920",
+                    "doi": "10.1111/j.1460-2466.1992.tb00765.x",
                     "intent": [
                         "background"
                     ],
                     "isInfluential": false,
-                    "paperId": "3a6fb3d43be9559372f4a38a22255bc6d10e47a7",
-                    "title": "The Mass Audience: Rediscovering the Dominant Model",
-                    "url": "https://www.semanticscholar.org/paper/3a6fb3d43be9559372f4a38a22255bc6d10e47a7",
+                    "paperId": "6e40292cfcf622048aeae0dbf03354b14cb131da",
+                    "title": "Reconciling Economic and Non-Economic Perspectives on Media Policy: Transcending the \u201cMarketplace of Ideas\u201d",
+                    "url": "https://www.semanticscholar.org/paper/6e40292cfcf622048aeae0dbf03354b14cb131da",
+                    "venue": "",
+                    "year": 1992
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "65777885",
+                            "name": "Elihu Katz",
+                            "url": "https://www.semanticscholar.org/author/65777885"
+                        }
+                    ],
+                    "doi": "10.1177/0002716296546001003",
+                    "intent": [
+                        "background",
+                        "methodology"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "b2e792ceb624f5836a343b6c4f109d9ee6eafda7",
+                    "title": "And Deliver Us from Segmentation",
+                    "url": "https://www.semanticscholar.org/paper/b2e792ceb624f5836a343b6c4f109d9ee6eafda7",
+                    "venue": "",
+                    "year": 1996
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "101683679",
+                            "name": "G. Dean Barry",
+                            "url": "https://www.semanticscholar.org/author/101683679"
+                        },
+                        {
+                            "authorId": "66687418",
+                            "name": "Joseph Turow",
+                            "url": "https://www.semanticscholar.org/author/66687418"
+                        }
+                    ],
+                    "doi": "10.2307/2654433",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "ef50b45d1bf6104e34b65216c947f8207617ff8c",
+                    "title": "Breaking Up America: Advertisers and the New Media World",
+                    "url": "https://www.semanticscholar.org/paper/ef50b45d1bf6104e34b65216c947f8207617ff8c",
                     "venue": "",
                     "year": 1997
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "1994992",
-                            "name": "James G. Webster",
-                            "url": "https://www.semanticscholar.org/author/1994992"
-                        }
-                    ],
-                    "doi": "10.1111/j.1460-2466.1986.tb01439.x",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "88be3d6bbe7404e0620b1765fbb86aba53e8fedb",
-                    "title": "Audience Behavior in the New Media Environment",
-                    "url": "https://www.semanticscholar.org/paper/88be3d6bbe7404e0620b1765fbb86aba53e8fedb",
-                    "venue": "",
-                    "year": 1986
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "35836722",
-                            "name": "Nancy H. Fraser",
-                            "url": "https://www.semanticscholar.org/author/35836722"
-                        }
-                    ],
-                    "doi": "10.2307/466240",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "b3d083906255e6dbaa4c401027cfce6f24af393e",
-                    "title": "Rethinking the Public Sphere: A Contribution to the Critique of Actually Existing Democracy",
-                    "url": "https://www.semanticscholar.org/paper/b3d083906255e6dbaa4c401027cfce6f24af393e",
-                    "venue": "",
-                    "year": 1990
                 },
                 {
                     "arxivId": null,
@@ -3072,77 +3076,6 @@
                     "url": "https://www.semanticscholar.org/paper/7e59c283a7680b895a2964e2ad6c6d83813b86b4",
                     "venue": "",
                     "year": 1996
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "65777885",
-                            "name": "Elihu Katz",
-                            "url": "https://www.semanticscholar.org/author/65777885"
-                        }
-                    ],
-                    "doi": "10.1177/0002716296546001003",
-                    "intent": [
-                        "methodology",
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "b2e792ceb624f5836a343b6c4f109d9ee6eafda7",
-                    "title": "And Deliver Us from Segmentation",
-                    "url": "https://www.semanticscholar.org/paper/b2e792ceb624f5836a343b6c4f109d9ee6eafda7",
-                    "venue": "",
-                    "year": 1996
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "101683679",
-                            "name": "G. Dean Barry",
-                            "url": "https://www.semanticscholar.org/author/101683679"
-                        },
-                        {
-                            "authorId": "66687418",
-                            "name": "Joseph Turow",
-                            "url": "https://www.semanticscholar.org/author/66687418"
-                        }
-                    ],
-                    "doi": "10.2307/2654433",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "ef50b45d1bf6104e34b65216c947f8207617ff8c",
-                    "title": "Breaking Up America: Advertisers and the New Media World",
-                    "url": "https://www.semanticscholar.org/paper/ef50b45d1bf6104e34b65216c947f8207617ff8c",
-                    "venue": "",
-                    "year": 1997
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "52030032",
-                            "name": "Robert M. Entman",
-                            "url": "https://www.semanticscholar.org/author/52030032"
-                        },
-                        {
-                            "authorId": "46210026",
-                            "name": "Steven S. Wildman",
-                            "url": "https://www.semanticscholar.org/author/46210026"
-                        }
-                    ],
-                    "doi": "10.1111/j.1460-2466.1992.tb00765.x",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "6e40292cfcf622048aeae0dbf03354b14cb131da",
-                    "title": "Reconciling Economic and Non-Economic Perspectives on Media Policy: Transcending the \u201cMarketplace of Ideas\u201d",
-                    "url": "https://www.semanticscholar.org/paper/6e40292cfcf622048aeae0dbf03354b14cb131da",
-                    "venue": "",
-                    "year": 1992
                 },
                 {
                     "arxivId": null,
@@ -3233,77 +3166,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "2008742",
-                            "name": "Kimberly A. Neuendorf",
-                            "url": "https://www.semanticscholar.org/author/2008742"
-                        },
-                        {
-                            "authorId": "2030949",
-                            "name": "David J. Atkin",
-                            "url": "https://www.semanticscholar.org/author/2030949"
-                        },
-                        {
-                            "authorId": "2568036",
-                            "name": "Leo W. Jeffres",
-                            "url": "https://www.semanticscholar.org/author/2568036"
-                        }
-                    ],
-                    "doi": "10.1207/s15506878jobem4503_6",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "ce3fb0628280324972d43c9cdf62534e230b5717",
-                    "title": "Reconceptualizing Channel Repertoire in the Urban Cable Environment",
-                    "url": "https://www.semanticscholar.org/paper/ce3fb0628280324972d43c9cdf62534e230b5717",
-                    "venue": "",
-                    "year": 2001
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "1778398",
-                            "name": "Lada A. Adamic",
-                            "url": "https://www.semanticscholar.org/author/1778398"
-                        },
-                        {
-                            "authorId": "72915013",
-                            "name": "Bernardo A. Huberman",
-                            "url": "https://www.semanticscholar.org/author/72915013"
-                        }
-                    ],
-                    "doi": "10.2139/ssrn.166108",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "89fa416865f96dc04a2d31461aeede159eebbb5e",
-                    "title": "The Nature of Markets in the World Wide Web",
-                    "url": "https://www.semanticscholar.org/paper/89fa416865f96dc04a2d31461aeede159eebbb5e",
-                    "venue": "",
-                    "year": 1999
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "1973091",
-                            "name": "John A. Knote",
-                            "url": "https://www.semanticscholar.org/author/1973091"
-                        }
-                    ],
-                    "doi": "10.1016/j.jacr.2004.03.019",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "d13b05019b9e7e5736bda1bec76a59ac05ec2944",
-                    "title": "Bowling alone: The collapse and revival of American community",
-                    "url": "https://www.semanticscholar.org/paper/d13b05019b9e7e5736bda1bec76a59ac05ec2944",
-                    "venue": "",
-                    "year": 2004
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "10048538",
                             "name": "Jr. Oscar H. Gandy",
                             "url": "https://www.semanticscholar.org/author/10048538"
@@ -3379,6 +3241,77 @@
                     "url": "https://www.semanticscholar.org/paper/cb57cdd6a4e3a9642230fa44a64b5ccd58588ed9",
                     "venue": "",
                     "year": 2002
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "2008742",
+                            "name": "Kimberly A. Neuendorf",
+                            "url": "https://www.semanticscholar.org/author/2008742"
+                        },
+                        {
+                            "authorId": "2030949",
+                            "name": "David J. Atkin",
+                            "url": "https://www.semanticscholar.org/author/2030949"
+                        },
+                        {
+                            "authorId": "2568036",
+                            "name": "Leo W. Jeffres",
+                            "url": "https://www.semanticscholar.org/author/2568036"
+                        }
+                    ],
+                    "doi": "10.1207/s15506878jobem4503_6",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "ce3fb0628280324972d43c9cdf62534e230b5717",
+                    "title": "Reconceptualizing Channel Repertoire in the Urban Cable Environment",
+                    "url": "https://www.semanticscholar.org/paper/ce3fb0628280324972d43c9cdf62534e230b5717",
+                    "venue": "",
+                    "year": 2001
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1778398",
+                            "name": "Lada A. Adamic",
+                            "url": "https://www.semanticscholar.org/author/1778398"
+                        },
+                        {
+                            "authorId": "72915013",
+                            "name": "Bernardo A. Huberman",
+                            "url": "https://www.semanticscholar.org/author/72915013"
+                        }
+                    ],
+                    "doi": "10.2139/ssrn.166108",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "89fa416865f96dc04a2d31461aeede159eebbb5e",
+                    "title": "The Nature of Markets in the World Wide Web",
+                    "url": "https://www.semanticscholar.org/paper/89fa416865f96dc04a2d31461aeede159eebbb5e",
+                    "venue": "",
+                    "year": 1999
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1973091",
+                            "name": "John A. Knote",
+                            "url": "https://www.semanticscholar.org/author/1973091"
+                        }
+                    ],
+                    "doi": "10.1016/j.jacr.2004.03.019",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "d13b05019b9e7e5736bda1bec76a59ac05ec2944",
+                    "title": "Bowling alone: The collapse and revival of American community",
+                    "url": "https://www.semanticscholar.org/paper/d13b05019b9e7e5736bda1bec76a59ac05ec2944",
+                    "venue": "",
+                    "year": 2004
                 }
             ],
             "title": "Diversity of exposure",
@@ -3708,14 +3641,14 @@
             "publisher": "Health Affairs",
             "recent_citations": null,
             "reference_ids": [
+                "pub.1030433811",
                 "pub.1031010685",
-                "pub.1075327440",
-                "pub.1030433811"
+                "pub.1075327440"
             ],
             "references": [
+                "pub.1030433811",
                 "pub.1031010685",
-                "pub.1075327440",
-                "pub.1030433811"
+                "pub.1075327440"
             ],
             "relative_citation_ratio": null,
             "research_org_cities": [
@@ -3771,7 +3704,7 @@
                     "last_name": "The Health Accounts Team"
                 }
             ],
-            "score": 15.05941,
+            "score": 15.06019,
             "supporting_grant_ids": null,
             "terms": [
                 "pace",
@@ -4018,7 +3951,6 @@
             "date_added": "2019-11-27 13:23:24",
             "doi": "10.1377/hlthaff.w5.185",
             "journal": "Health Affairs",
-            "notes": NaN,
             "search_term": "Current Employment Statistics Survey Data"
         },
         "title": "Health Spending Growth Slows In 2003"
@@ -4368,7 +4300,7 @@
                     "last_name": "The Health Accounts Team"
                 }
             ],
-            "score": 15.05941,
+            "score": 15.061302,
             "supporting_grant_ids": null,
             "terms": [
                 "pace",
@@ -4484,62 +4416,6 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "4317093",
-                            "name": "Brenda E. Sirovich",
-                            "url": "https://www.semanticscholar.org/author/4317093"
-                        },
-                        {
-                            "authorId": "3096517",
-                            "name": "Rebecca S. Lipner",
-                            "url": "https://www.semanticscholar.org/author/3096517"
-                        },
-                        {
-                            "authorId": "47034427",
-                            "name": "Mary M. Johnston",
-                            "url": "https://www.semanticscholar.org/author/47034427"
-                        },
-                        {
-                            "authorId": "5629212",
-                            "name": "Eric Holmboe",
-                            "url": "https://www.semanticscholar.org/author/5629212"
-                        }
-                    ],
-                    "doi": "10.1001/jamainternmed.2014.3337",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "e8928d064695653416e0751a1afd60dd7951f9b5",
-                    "title": "The association between residency training and internists' ability to practice conservatively.",
-                    "url": "https://www.semanticscholar.org/paper/e8928d064695653416e0751a1afd60dd7951f9b5",
-                    "venue": "JAMA internal medicine",
-                    "year": 2014
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "1740724",
-                            "name": "Leslie S Wilson",
-                            "url": "https://www.semanticscholar.org/author/1740724"
-                        },
-                        {
-                            "authorId": "49306174",
-                            "name": "Matthew Gitlin",
-                            "url": "https://www.semanticscholar.org/author/49306174"
-                        }
-                    ],
-                    "doi": "10.1002/ajim.20208",
-                    "intent": [],
-                    "isInfluential": true,
-                    "paperId": "fd406cab57446d4aa9821b6e7654d0a1d52e7773",
-                    "title": "New workers' compensation legislation: expected pharmaceutical cost savings.",
-                    "url": "https://www.semanticscholar.org/paper/fd406cab57446d4aa9821b6e7654d0a1d52e7773",
-                    "venue": "American journal of industrial medicine",
-                    "year": 2005
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
                             "authorId": "147052493",
                             "name": "John Mark Defoggi",
                             "url": "https://www.semanticscholar.org/author/147052493"
@@ -4568,74 +4444,34 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "3907568",
-                            "name": "Genevieve M. Kenney",
-                            "url": "https://www.semanticscholar.org/author/3907568"
+                            "authorId": "4317093",
+                            "name": "Brenda E. Sirovich",
+                            "url": "https://www.semanticscholar.org/author/4317093"
                         },
                         {
-                            "authorId": "34991085",
-                            "name": "Stan Dorn",
-                            "url": "https://www.semanticscholar.org/author/34991085"
+                            "authorId": "3096517",
+                            "name": "Rebecca S. Lipner",
+                            "url": "https://www.semanticscholar.org/author/3096517"
+                        },
+                        {
+                            "authorId": "47034427",
+                            "name": "Mary M. Johnston",
+                            "url": "https://www.semanticscholar.org/author/47034427"
+                        },
+                        {
+                            "authorId": "5629212",
+                            "name": "Eric Holmboe",
+                            "url": "https://www.semanticscholar.org/author/5629212"
                         }
                     ],
-                    "doi": null,
+                    "doi": "10.1001/jamainternmed.2014.3337",
                     "intent": [],
                     "isInfluential": false,
-                    "paperId": "e23be8b8a6012c8e347e35c9cc5fe57752cd9ae9",
-                    "title": "Health Care Reform for Children with Public Coverage : How Can Policymakers Maximize Gains and Prevent Harm ? Timely Analysis of Immediate Health Policy Issues June 2009",
-                    "url": "https://www.semanticscholar.org/paper/e23be8b8a6012c8e347e35c9cc5fe57752cd9ae9",
-                    "venue": "",
-                    "year": 2009
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "46743811",
-                            "name": "Kelly B Filipkowski",
-                            "url": "https://www.semanticscholar.org/author/46743811"
-                        },
-                        {
-                            "authorId": "3325452",
-                            "name": "Joshua M. Smyth",
-                            "url": "https://www.semanticscholar.org/author/3325452"
-                        },
-                        {
-                            "authorId": "6431015",
-                            "name": "Abraham M. Rutchick",
-                            "url": "https://www.semanticscholar.org/author/6431015"
-                        },
-                        {
-                            "authorId": "2323199",
-                            "name": "Alecia M. Santuzzi",
-                            "url": "https://www.semanticscholar.org/author/2323199"
-                        },
-                        {
-                            "authorId": "1965155",
-                            "name": "Meera Adya",
-                            "url": "https://www.semanticscholar.org/author/1965155"
-                        },
-                        {
-                            "authorId": "3708869",
-                            "name": "Keith J Petrie",
-                            "url": "https://www.semanticscholar.org/author/3708869"
-                        },
-                        {
-                            "authorId": "144629298",
-                            "name": "Ad A Kaptein",
-                            "url": "https://www.semanticscholar.org/author/144629298"
-                        }
-                    ],
-                    "doi": "10.1007/s12529-009-9058-0",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "3ddec7b2b32592b1775630e67e4b80880ae61a47",
-                    "title": "Do Healthy People Worry? Modern Health Worries, Subjective Health Complaints, Perceived Health, and Health Care Utilization",
-                    "url": "https://www.semanticscholar.org/paper/3ddec7b2b32592b1775630e67e4b80880ae61a47",
-                    "venue": "International journal of behavioral medicine",
-                    "year": 2010
+                    "paperId": "e8928d064695653416e0751a1afd60dd7951f9b5",
+                    "title": "The association between residency training and internists' ability to practice conservatively.",
+                    "url": "https://www.semanticscholar.org/paper/e8928d064695653416e0751a1afd60dd7951f9b5",
+                    "venue": "JAMA internal medicine",
+                    "year": 2014
                 },
                 {
                     "arxivId": null,
@@ -4674,110 +4510,24 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "1910756",
-                            "name": "Sabrina Terrizzi",
-                            "url": "https://www.semanticscholar.org/author/1910756"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "8fdd6836e1d4787645aca170a821e7bf06b7aa27",
-                    "title": "Essays in Health Economics and Health Information Systems.",
-                    "url": "https://www.semanticscholar.org/paper/8fdd6836e1d4787645aca170a821e7bf06b7aa27",
-                    "venue": "",
-                    "year": 2013
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "2191169",
-                            "name": "Ronald J. Lagoe",
-                            "url": "https://www.semanticscholar.org/author/2191169"
+                            "authorId": "1740724",
+                            "name": "Leslie S Wilson",
+                            "url": "https://www.semanticscholar.org/author/1740724"
                         },
                         {
-                            "authorId": "4154860",
-                            "name": "Deborah L. Aspling",
-                            "url": "https://www.semanticscholar.org/author/4154860"
-                        },
-                        {
-                            "authorId": "143624722",
-                            "name": "Gert P. Westert",
-                            "url": "https://www.semanticscholar.org/author/143624722"
+                            "authorId": "49306174",
+                            "name": "Matthew Gitlin",
+                            "url": "https://www.semanticscholar.org/author/49306174"
                         }
                     ],
-                    "doi": "10.1186/1478-4505-3-4",
+                    "doi": "10.1002/ajim.20208",
                     "intent": [],
-                    "isInfluential": false,
-                    "paperId": "2e341061110445460752cccd8e3a6c5bbdeb341b",
-                    "title": "Current and future developments in managed care in the United States and implications for Europe",
-                    "url": "https://www.semanticscholar.org/paper/2e341061110445460752cccd8e3a6c5bbdeb341b",
-                    "venue": "Health research policy and systems",
+                    "isInfluential": true,
+                    "paperId": "fd406cab57446d4aa9821b6e7654d0a1d52e7773",
+                    "title": "New workers' compensation legislation: expected pharmaceutical cost savings.",
+                    "url": "https://www.semanticscholar.org/paper/fd406cab57446d4aa9821b6e7654d0a1d52e7773",
+                    "venue": "American journal of industrial medicine",
                     "year": 2005
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "8165782",
-                            "name": "R Tamara Konetzka",
-                            "url": "https://www.semanticscholar.org/author/8165782"
-                        },
-                        {
-                            "authorId": "47438233",
-                            "name": "William Spector",
-                            "url": "https://www.semanticscholar.org/author/47438233"
-                        },
-                        {
-                            "authorId": "9001138",
-                            "name": "M. Rhona Limcangco",
-                            "url": "https://www.semanticscholar.org/author/9001138"
-                        }
-                    ],
-                    "doi": "10.1177/1077558707307569",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "375989d7b703e10c5f2a85737a8aa8bea408393f",
-                    "title": "Reducing hospitalizations from long-term care settings.",
-                    "url": "https://www.semanticscholar.org/paper/375989d7b703e10c5f2a85737a8aa8bea408393f",
-                    "venue": "Medical care research and review : MCRR",
-                    "year": 2008
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "30144410",
-                            "name": "Jewel Goodman Shepherd",
-                            "url": "https://www.semanticscholar.org/author/30144410"
-                        },
-                        {
-                            "authorId": "47030430",
-                            "name": "Elizabeth Locke",
-                            "url": "https://www.semanticscholar.org/author/47030430"
-                        },
-                        {
-                            "authorId": "144056241",
-                            "name": "Qi Zhang",
-                            "url": "https://www.semanticscholar.org/author/144056241"
-                        },
-                        {
-                            "authorId": "3558288",
-                            "name": "George Maihafer",
-                            "url": "https://www.semanticscholar.org/author/3558288"
-                        }
-                    ],
-                    "doi": "10.1007/s10900-013-9799-1",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "c056829c71dc4815c8f423bb3518a61dafbde791",
-                    "title": "Health Services Use and Prescription Access Among Uninsured Patients Managing Chronic Diseases",
-                    "url": "https://www.semanticscholar.org/paper/c056829c71dc4815c8f423bb3518a61dafbde791",
-                    "venue": "Journal of Community Health",
-                    "year": 2013
                 },
                 {
                     "arxivId": null,
@@ -4859,6 +4609,188 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "1910756",
+                            "name": "Sabrina Terrizzi",
+                            "url": "https://www.semanticscholar.org/author/1910756"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "8fdd6836e1d4787645aca170a821e7bf06b7aa27",
+                    "title": "Essays in Health Economics and Health Information Systems.",
+                    "url": "https://www.semanticscholar.org/paper/8fdd6836e1d4787645aca170a821e7bf06b7aa27",
+                    "venue": "",
+                    "year": 2013
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "2191169",
+                            "name": "Ronald J. Lagoe",
+                            "url": "https://www.semanticscholar.org/author/2191169"
+                        },
+                        {
+                            "authorId": "4154860",
+                            "name": "Deborah L. Aspling",
+                            "url": "https://www.semanticscholar.org/author/4154860"
+                        },
+                        {
+                            "authorId": "143624722",
+                            "name": "Gert P. Westert",
+                            "url": "https://www.semanticscholar.org/author/143624722"
+                        }
+                    ],
+                    "doi": "10.1186/1478-4505-3-4",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "2e341061110445460752cccd8e3a6c5bbdeb341b",
+                    "title": "Current and future developments in managed care in the United States and implications for Europe",
+                    "url": "https://www.semanticscholar.org/paper/2e341061110445460752cccd8e3a6c5bbdeb341b",
+                    "venue": "Health research policy and systems",
+                    "year": 2005
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "3907568",
+                            "name": "Genevieve M. Kenney",
+                            "url": "https://www.semanticscholar.org/author/3907568"
+                        },
+                        {
+                            "authorId": "34991085",
+                            "name": "Stan Dorn",
+                            "url": "https://www.semanticscholar.org/author/34991085"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "e23be8b8a6012c8e347e35c9cc5fe57752cd9ae9",
+                    "title": "Health Care Reform for Children with Public Coverage : How Can Policymakers Maximize Gains and Prevent Harm ? Timely Analysis of Immediate Health Policy Issues June 2009",
+                    "url": "https://www.semanticscholar.org/paper/e23be8b8a6012c8e347e35c9cc5fe57752cd9ae9",
+                    "venue": "",
+                    "year": 2009
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "46743811",
+                            "name": "Kelly B Filipkowski",
+                            "url": "https://www.semanticscholar.org/author/46743811"
+                        },
+                        {
+                            "authorId": "3325452",
+                            "name": "Joshua M. Smyth",
+                            "url": "https://www.semanticscholar.org/author/3325452"
+                        },
+                        {
+                            "authorId": "6431015",
+                            "name": "Abraham M. Rutchick",
+                            "url": "https://www.semanticscholar.org/author/6431015"
+                        },
+                        {
+                            "authorId": "2323199",
+                            "name": "Alecia M. Santuzzi",
+                            "url": "https://www.semanticscholar.org/author/2323199"
+                        },
+                        {
+                            "authorId": "1965155",
+                            "name": "Meera Adya",
+                            "url": "https://www.semanticscholar.org/author/1965155"
+                        },
+                        {
+                            "authorId": "3708869",
+                            "name": "Keith J Petrie",
+                            "url": "https://www.semanticscholar.org/author/3708869"
+                        },
+                        {
+                            "authorId": "144629298",
+                            "name": "Ad A Kaptein",
+                            "url": "https://www.semanticscholar.org/author/144629298"
+                        }
+                    ],
+                    "doi": "10.1007/s12529-009-9058-0",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "3ddec7b2b32592b1775630e67e4b80880ae61a47",
+                    "title": "Do Healthy People Worry? Modern Health Worries, Subjective Health Complaints, Perceived Health, and Health Care Utilization",
+                    "url": "https://www.semanticscholar.org/paper/3ddec7b2b32592b1775630e67e4b80880ae61a47",
+                    "venue": "International journal of behavioral medicine",
+                    "year": 2010
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "30144410",
+                            "name": "Jewel Goodman Shepherd",
+                            "url": "https://www.semanticscholar.org/author/30144410"
+                        },
+                        {
+                            "authorId": "47030430",
+                            "name": "Elizabeth Locke",
+                            "url": "https://www.semanticscholar.org/author/47030430"
+                        },
+                        {
+                            "authorId": "144056241",
+                            "name": "Qi Zhang",
+                            "url": "https://www.semanticscholar.org/author/144056241"
+                        },
+                        {
+                            "authorId": "3558288",
+                            "name": "George Maihafer",
+                            "url": "https://www.semanticscholar.org/author/3558288"
+                        }
+                    ],
+                    "doi": "10.1007/s10900-013-9799-1",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "c056829c71dc4815c8f423bb3518a61dafbde791",
+                    "title": "Health Services Use and Prescription Access Among Uninsured Patients Managing Chronic Diseases",
+                    "url": "https://www.semanticscholar.org/paper/c056829c71dc4815c8f423bb3518a61dafbde791",
+                    "venue": "Journal of Community Health",
+                    "year": 2013
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "8165782",
+                            "name": "R Tamara Konetzka",
+                            "url": "https://www.semanticscholar.org/author/8165782"
+                        },
+                        {
+                            "authorId": "47438233",
+                            "name": "William Spector",
+                            "url": "https://www.semanticscholar.org/author/47438233"
+                        },
+                        {
+                            "authorId": "9001138",
+                            "name": "M. Rhona Limcangco",
+                            "url": "https://www.semanticscholar.org/author/9001138"
+                        }
+                    ],
+                    "doi": "10.1177/1077558707307569",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "375989d7b703e10c5f2a85737a8aa8bea408393f",
+                    "title": "Reducing Hospitalizations From Long-Term Care Settings",
+                    "url": "https://www.semanticscholar.org/paper/375989d7b703e10c5f2a85737a8aa8bea408393f",
+                    "venue": "Medical care research and review : MCRR",
+                    "year": 2008
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "143895717",
                             "name": "Jens J. Holst",
                             "url": "https://www.semanticscholar.org/author/143895717"
@@ -4888,9 +4820,9 @@
                     ],
                     "isInfluential": false,
                     "paperId": "db8705b9db3cbbf962c85974c5cc047dd8ebbb02",
-                    "title": "High and rising health care costs. Part 1: seeking an explanation.",
+                    "title": "High and Rising Health Care Costs. Part 1: Seeking an Explanation",
                     "url": "https://www.semanticscholar.org/paper/db8705b9db3cbbf962c85974c5cc047dd8ebbb02",
-                    "venue": "Annals of internal medicine",
+                    "venue": "Annals of Internal Medicine",
                     "year": 2005
                 },
                 {
@@ -4998,6 +4930,136 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "46492993",
+                            "name": "Hao Yu",
+                            "url": "https://www.semanticscholar.org/author/46492993"
+                        },
+                        {
+                            "authorId": "18204236",
+                            "name": "Andrew W. Dick",
+                            "url": "https://www.semanticscholar.org/author/18204236"
+                        },
+                        {
+                            "authorId": "3282472",
+                            "name": "Peter G Szilagyi",
+                            "url": "https://www.semanticscholar.org/author/3282472"
+                        }
+                    ],
+                    "doi": "10.1097/MLR.0b013e318185cdf2",
+                    "intent": [
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "d348c05fe87fc18255ded917a200450c2959cb3e",
+                    "title": "Does public insurance provide better financial protection against rising health care costs for families of children with special health care needs?",
+                    "url": "https://www.semanticscholar.org/paper/d348c05fe87fc18255ded917a200450c2959cb3e",
+                    "venue": "Medical care",
+                    "year": 2008
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "4744063",
+                            "name": "Christine S Vogeli",
+                            "url": "https://www.semanticscholar.org/author/4744063"
+                        },
+                        {
+                            "authorId": "5880190",
+                            "name": "Alexandra E. Shields",
+                            "url": "https://www.semanticscholar.org/author/5880190"
+                        },
+                        {
+                            "authorId": "32647304",
+                            "name": "Todd A. Lee",
+                            "url": "https://www.semanticscholar.org/author/32647304"
+                        },
+                        {
+                            "authorId": "37803418",
+                            "name": "Teresa B Gibson",
+                            "url": "https://www.semanticscholar.org/author/37803418"
+                        },
+                        {
+                            "authorId": "3807292",
+                            "name": "William D. Marder",
+                            "url": "https://www.semanticscholar.org/author/3807292"
+                        },
+                        {
+                            "authorId": "1732321",
+                            "name": "Kevin B. Weiss",
+                            "url": "https://www.semanticscholar.org/author/1732321"
+                        },
+                        {
+                            "authorId": "144182860",
+                            "name": "David Blumenthal",
+                            "url": "https://www.semanticscholar.org/author/144182860"
+                        }
+                    ],
+                    "doi": "10.1007/s11606-007-0322-1",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "64d627a9212e9fdca34146ec19af15c3f179391e",
+                    "title": "Multiple Chronic Conditions: Prevalence, Health Consequences, and Implications for Quality, Care Management, and Costs",
+                    "url": "https://www.semanticscholar.org/paper/64d627a9212e9fdca34146ec19af15c3f179391e",
+                    "venue": "Journal of General Internal Medicine",
+                    "year": 2007
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "40299926",
+                            "name": "Ruiping Fan",
+                            "url": "https://www.semanticscholar.org/author/40299926"
+                        }
+                    ],
+                    "doi": "10.1017/S0963180108080341",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "9b9910e31e8601dee5754f84317454d7201bbb2e",
+                    "title": "Toward a directed benevolent market polity: rethinking medical morality in transitional China.",
+                    "url": "https://www.semanticscholar.org/paper/9b9910e31e8601dee5754f84317454d7201bbb2e",
+                    "venue": "Cambridge quarterly of healthcare ethics : CQ : the international journal of healthcare ethics committees",
+                    "year": 2008
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1957986",
+                            "name": "Derek M Griffith",
+                            "url": "https://www.semanticscholar.org/author/1957986"
+                        },
+                        {
+                            "authorId": "3705847",
+                            "name": "Ernest Moy",
+                            "url": "https://www.semanticscholar.org/author/3705847"
+                        },
+                        {
+                            "authorId": "5910071",
+                            "name": "Thomas M Reischl",
+                            "url": "https://www.semanticscholar.org/author/5910071"
+                        },
+                        {
+                            "authorId": "47228321",
+                            "name": "Elizabeth Dayton",
+                            "url": "https://www.semanticscholar.org/author/47228321"
+                        }
+                    ],
+                    "doi": "10.1177/1090198106287923",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "742ff1bd21b09dba264df067d66e26fb558ba10a",
+                    "title": "National Data for Monitoring and Evaluating Racial and Ethnic Health Inequities: Where Do We Go From Here?",
+                    "url": "https://www.semanticscholar.org/paper/742ff1bd21b09dba264df067d66e26fb558ba10a",
+                    "venue": "Health education & behavior : the official publication of the Society for Public Health Education",
+                    "year": 2006
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "70507772",
                             "name": "Christopher Bonastia",
                             "url": "https://www.semanticscholar.org/author/70507772"
@@ -5011,24 +5073,6 @@
                     "url": "https://www.semanticscholar.org/paper/6ed2059d30a73f6d10888ced1e18c1be681df699",
                     "venue": "",
                     "year": 2006
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "28145225",
-                            "name": "Diane Salvador",
-                            "url": "https://www.semanticscholar.org/author/28145225"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "46a2b5827fd9acfacca10a29b5e0bb685f4234c8",
-                    "title": "Registered nurses perceptions and practices related to health policy",
-                    "url": "https://www.semanticscholar.org/paper/46a2b5827fd9acfacca10a29b5e0bb685f4234c8",
-                    "venue": "",
-                    "year": 2010
                 },
                 {
                     "arxivId": null,
@@ -5057,6 +5101,24 @@
                     "arxivId": null,
                     "authors": [
                         {
+                            "authorId": "28145225",
+                            "name": "Diane Salvador",
+                            "url": "https://www.semanticscholar.org/author/28145225"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "46a2b5827fd9acfacca10a29b5e0bb685f4234c8",
+                    "title": "Registered nurses perceptions and practices related to health policy",
+                    "url": "https://www.semanticscholar.org/paper/46a2b5827fd9acfacca10a29b5e0bb685f4234c8",
+                    "venue": "",
+                    "year": 2010
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
                             "authorId": "6509722",
                             "name": "Lindsey N Hornung",
                             "url": "https://www.semanticscholar.org/author/6509722"
@@ -5072,9 +5134,9 @@
                             "url": "https://www.semanticscholar.org/author/4709335"
                         },
                         {
-                            "authorId": "11045328",
-                            "name": "Maisam Abu-El-Haija",
-                            "url": "https://www.semanticscholar.org/author/11045328"
+                            "authorId": "1401648146",
+                            "name": "Maisam Abu\u2010El\u2010Haija",
+                            "url": "https://www.semanticscholar.org/author/1401648146"
                         }
                     ],
                     "doi": "10.1097/MPA.0000000000000918",
@@ -5244,136 +5306,6 @@
                     "url": "https://www.semanticscholar.org/paper/a8f38ee3eba06df1d9e22f8d98891ffe76efb96b",
                     "venue": "Journal of the American College of Cardiology",
                     "year": 2005
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "46492993",
-                            "name": "Hao Yu",
-                            "url": "https://www.semanticscholar.org/author/46492993"
-                        },
-                        {
-                            "authorId": "18204236",
-                            "name": "Andrew W. Dick",
-                            "url": "https://www.semanticscholar.org/author/18204236"
-                        },
-                        {
-                            "authorId": "3282472",
-                            "name": "Peter G Szilagyi",
-                            "url": "https://www.semanticscholar.org/author/3282472"
-                        }
-                    ],
-                    "doi": "10.1097/MLR.0b013e318185cdf2",
-                    "intent": [
-                        "methodology",
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "d348c05fe87fc18255ded917a200450c2959cb3e",
-                    "title": "Does public insurance provide better financial protection against rising health care costs for families of children with special health care needs?",
-                    "url": "https://www.semanticscholar.org/paper/d348c05fe87fc18255ded917a200450c2959cb3e",
-                    "venue": "Medical care",
-                    "year": 2008
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "1957986",
-                            "name": "Derek M Griffith",
-                            "url": "https://www.semanticscholar.org/author/1957986"
-                        },
-                        {
-                            "authorId": "3705847",
-                            "name": "Ernest Moy",
-                            "url": "https://www.semanticscholar.org/author/3705847"
-                        },
-                        {
-                            "authorId": "5910071",
-                            "name": "Thomas M Reischl",
-                            "url": "https://www.semanticscholar.org/author/5910071"
-                        },
-                        {
-                            "authorId": "47228321",
-                            "name": "Elizabeth Dayton",
-                            "url": "https://www.semanticscholar.org/author/47228321"
-                        }
-                    ],
-                    "doi": "10.1177/1090198106287923",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "742ff1bd21b09dba264df067d66e26fb558ba10a",
-                    "title": "National data for monitoring and evaluating racial and ethnic health inequities: where do we go from here?",
-                    "url": "https://www.semanticscholar.org/paper/742ff1bd21b09dba264df067d66e26fb558ba10a",
-                    "venue": "Health education & behavior : the official publication of the Society for Public Health Education",
-                    "year": 2006
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "40299926",
-                            "name": "Ruiping Fan",
-                            "url": "https://www.semanticscholar.org/author/40299926"
-                        }
-                    ],
-                    "doi": "10.1017/S0963180108080341",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "9b9910e31e8601dee5754f84317454d7201bbb2e",
-                    "title": "Toward a directed benevolent market polity: rethinking medical morality in transitional China.",
-                    "url": "https://www.semanticscholar.org/paper/9b9910e31e8601dee5754f84317454d7201bbb2e",
-                    "venue": "Cambridge quarterly of healthcare ethics : CQ : the international journal of healthcare ethics committees",
-                    "year": 2008
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "4744063",
-                            "name": "Christine S Vogeli",
-                            "url": "https://www.semanticscholar.org/author/4744063"
-                        },
-                        {
-                            "authorId": "5880190",
-                            "name": "Alexandra E. Shields",
-                            "url": "https://www.semanticscholar.org/author/5880190"
-                        },
-                        {
-                            "authorId": "32647304",
-                            "name": "Todd A. Lee",
-                            "url": "https://www.semanticscholar.org/author/32647304"
-                        },
-                        {
-                            "authorId": "37803418",
-                            "name": "Teresa B Gibson",
-                            "url": "https://www.semanticscholar.org/author/37803418"
-                        },
-                        {
-                            "authorId": "3807292",
-                            "name": "William D. Marder",
-                            "url": "https://www.semanticscholar.org/author/3807292"
-                        },
-                        {
-                            "authorId": "1732321",
-                            "name": "Kevin B. Weiss",
-                            "url": "https://www.semanticscholar.org/author/1732321"
-                        },
-                        {
-                            "authorId": "144182860",
-                            "name": "David Blumenthal",
-                            "url": "https://www.semanticscholar.org/author/144182860"
-                        }
-                    ],
-                    "doi": "10.1007/s11606-007-0322-1",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "64d627a9212e9fdca34146ec19af15c3f179391e",
-                    "title": "Multiple Chronic Conditions: Prevalence, Health Consequences, and Implications for Quality, Care Management, and Costs",
-                    "url": "https://www.semanticscholar.org/paper/64d627a9212e9fdca34146ec19af15c3f179391e",
-                    "venue": "Journal of General Internal Medicine",
-                    "year": 2007
                 }
             ],
             "doi": "10.1377/hlthaff.24.1.185",
@@ -5558,7 +5490,6 @@
             "date_added": "2019-11-27 13:23:24",
             "doi": "10.1377/hlthaff.24.1.185",
             "journal": "Health Affairs",
-            "notes": NaN,
             "search_term": "Current Employment Statistics Survey Data"
         },
         "title": "Health Spending Growth Slows In 2003"
@@ -5791,7 +5722,7 @@
                     ]
                 }
             ],
-            "score": 20.79026,
+            "score": 20.783964,
             "supporting_grant_ids": null,
             "terms": [
                 "paper I",
