@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-from graph import RCGraph
+from richcontext import graph as rc_graph
 from richcontext import scholapi as rc_scholapi
 import glob
 import json
@@ -89,8 +89,7 @@ def propagate_view (pub, graph, override):
 if __name__ == "__main__":
     # initialize the federated API access
     schol = rc_scholapi.ScholInfraAPI(config_file="rc.cfg", logger=None)
-
-    graph = RCGraph("step5")
+    graph = rc_graph.RCGraph("step5")
     graph.journals.load_entities()
 
     # for each partition, finalize the metadata corrections for each

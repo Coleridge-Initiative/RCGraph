@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-from graph import RCGraph
+from richcontext import graph as rc_graph
+from richcontext import scholapi as rc_scholapi
 from rdflib.serializer import Serializer
 import json
 import pprint
@@ -51,7 +52,7 @@ def load_journals (graph, out_buf):
 
     for j in graph.journals.known.values():
         id_list = [ j["titles"][0] ]
-        j["hash"] = RCGraph.get_hash(id_list, prefix="journal-")
+        j["hash"] = rc_graph.RCGraph.get_hash(id_list, prefix="journal-")
         journals[j["id"]] = j
 
     for id, j in journals.items():
@@ -82,7 +83,7 @@ def load_datasets (out_buf):
         for d in json.load(f):
             dat_id = d["id"]
             id_list = [d["provider"], d["title"]]
-            known_datasets[dat_id] = RCGraph.get_hash(id_list, prefix="dataset-")
+            known_datasets[dat_id] = rc_graph.RCGraph.get_hash(id_list, prefix="dataset-")
 
             if "url" in d:
                 url = d["url"]
@@ -124,7 +125,7 @@ def load_publications (graph, out_buf, known_datasets, known_journals):
                     url = pub["url"]
 
                     id_list = [pub["journal"], pub["title"]]
-                    pub_id = RCGraph.get_hash(id_list, prefix="publication-")
+                    pub_id = rc_graph.RCGraph.get_hash(id_list, prefix="publication-")
 
                     # ensure uniqueness
                     if pub_id in seen:
@@ -195,7 +196,7 @@ if __name__ == "__main__":
 
     out_buf = [ PREAMBLE.lstrip() ]
 
-    graph = RCGraph("corpus")
+    graph = rc_graph.RCGraph("corpus")
     graph.journals.load_entities()
 
     known_journals = load_journals(graph, out_buf)

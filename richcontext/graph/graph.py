@@ -173,6 +173,7 @@ class RCJournals:
 
 class RCPublications:
     def __init__ (self):
+        self.doi_hits = 0
         self.pdf_hits = 0
 
 

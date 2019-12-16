@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-from graph import RCGraph
+from richcontext import graph as rc_graph
 import json
 import sys
 
 
 if __name__ == "__main__":
-    graph = RCGraph(step_name="step4")
+    graph = rc_graph.RCGraph(step_name="step4")
     graph.journals.load_entities()
 
     # for each publication: reconcile journal names
@@ -18,7 +18,7 @@ if __name__ == "__main__":
             journal_list = graph.journals.extract_journals(pub)
 
             if len(journal_list) > 0:
-                tally = RCGraph.tally_list(journal_list, ignores=graph.journals.IGNORE_JOURNALS)
+                tally = rc_graph.RCGraph.tally_list(journal_list, ignores=graph.journals.IGNORE_JOURNALS)
                 journals.append(tally)
             else:
                 graph.misses.append(pub["title"])
