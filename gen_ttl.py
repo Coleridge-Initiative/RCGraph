@@ -3,7 +3,6 @@
 
 from graph import RCGraph
 from rdflib.serializer import Serializer
-import glob
 import json
 import pprint
 import rdflib
@@ -43,8 +42,6 @@ TEMPLATE_PUBLICATION = """
   :openAccess "{}"^^xsd:anyURI ;
 """
 
-OVERRIDE = {}
-
 
 def load_journals (graph, out_buf):
     """
@@ -82,13 +79,13 @@ def load_datasets (out_buf):
     dataset_path = "datasets/datasets.json"
 
     with open(dataset_path, "r") as f:
-        for elem in json.load(f):
-            dat_id = elem["id"]
-            id_list = [elem["provider"], elem["title"]]
+        for d in json.load(f):
+            dat_id = d["id"]
+            id_list = [d["provider"], d["title"]]
             known_datasets[dat_id] = RCGraph.get_hash(id_list, prefix="dataset-")
 
-            if "url" in elem:
-                url = elem["url"]
+            if "url" in d:
+                url = d["url"]
             else:
                 url = "http://example.com"
 
@@ -96,13 +93,13 @@ def load_datasets (out_buf):
                 TEMPLATE_DATASET.format(
                     known_datasets[dat_id],
                     url,
-                    elem["provider"],
-                    elem["title"]
+                    d["provider"],
+                    d["title"]
                     ).strip()
                 )
 
-            if "alt_title" in elem:
-                for alt_title in elem["alt_title"]:
+            if "alt_title" in d:
+                for alt_title in d["alt_title"]:
                     out_buf.append("  dct:alternative \"{}\" ;".format(alt_title))
 
             out_buf.append(".\n")
@@ -110,95 +107,55 @@ def load_datasets (out_buf):
     return known_datasets
 
 
-def iter_override_publications (override_path="human/manual/partitions/*.json"):
-    """
-    load the publications metadata, apply the manually curated
-    override metadata, then yield an iterator
-    """
-    # load the manual override metadata
-    for filename in glob.glob(override_path):
-        print("override:", filename)
-
-        with open(filename) as f:
-            for elem in json.load(f):
-                OVERRIDE[elem["title"]] = elem["manual"]
-
-    # load the metadata stream
-    for partition, pub_iter in graph.iter_publications(path="step5"):
-        for elem in pub_iter:
-            title = elem["title"]
-
-            if title in OVERRIDE:
-                OVERRIDE[title]["used"] = True
-
-                if "omit-corpus" in OVERRIDE[title] and OVERRIDE[title]["omit-corpus"]:
-                    # omit this publication from the corpus
-                    continue
-
-                for key in ["doi", "pdf", "journal", "url"]:
-                    if key in OVERRIDE[title]:
-                        elem[key] = OVERRIDE[title][key]
-
-                if "datasets" not in elem:
-                    elem["datasets"] = []
-
-                if "datasets" in OVERRIDE[title]:
-                    for dataset in OVERRIDE[title]["datasets"]:
-                        if not dataset in elem["datasets"]:
-                            elem["datasets"].append(dataset)
-
-            # yield corrected metadata for one publication
-            yield elem
-
-    # did we miss any of the manual entries?
-    for title, elem in OVERRIDE.items():
-        if "used" not in elem:
-            if "omit-corpus" in elem and elem["omit-corpus"]:
-                continue
-            else:
-                elem["title"] = title
-                yield elem
-
-
-def load_publications (graph, out_buf, known_datasets, journals):
+def load_publications (graph, out_buf, known_datasets, known_journals):
     """
     load publications, link to datasets, reshape metadata
     """
-    for elem in iter_override_publications():
-        link_map = elem["datasets"]
+    seen = set([])
 
-        if "pdf" in elem and elem["pdf"] and (len(link_map) > 0):
-            # generate UUID
-            try:
-                elem["title"] = elem["title"].replace('"', "'")
-                url = elem["url"]
+    for partition, pub_iter in graph.iter_publications(path="step5"):
+        for pub in pub_iter:
+            link_map = pub["datasets"]
 
-                id_list = [elem["journal"], elem["title"]]
-                pub_id = RCGraph.get_hash(id_list, prefix="publication-")
-            except:
-                print("MISSING JOURNAL or URL")
-                pprint.pprint(elem)
-                print(len(out_buf))
-                sys.exit(0)
+            if "pdf" in pub and pub["pdf"] and (len(link_map) > 0):
+                # generate UUID
+                try:
+                    pub["title"] = pub["title"].replace('"', "'")
+                    url = pub["url"]
 
-            # reshape the metadata for corpus output
-            journal_hash = journals[elem["journal"]]["hash"]
+                    id_list = [pub["journal"], pub["title"]]
+                    pub_id = RCGraph.get_hash(id_list, prefix="publication-")
 
-            out_buf.append(
-                TEMPLATE_PUBLICATION.format(
-                    pub_id,
-                    elem["url"],
-                    journal_hash,
-                    elem["title"],
-                    elem["doi"],
-                    elem["pdf"]
-                    ).strip()
-                )
+                    # ensure uniqueness
+                    if pub_id in seen:
+                        continue
+                    else:
+                        seen.add(pub_id)
+                except:
+                    print("MISSING JOURNAL or URL")
+                    pprint.pprint(pub)
 
-            # link to datasets
-            dat_list = [ ":{}".format(known_datasets[dat_id]) for dat_id in link_map ]
-            out_buf.append("  cito:citesAsDataSource {} ;".format(", ".join(dat_list)))
-            out_buf.append(".\n")
+                # reshape the metadata for corpus output
+                journal_hash = known_journals[pub["journal"]]["hash"]
+
+                out_buf.append(
+                    TEMPLATE_PUBLICATION.format(
+                        pub_id,
+                        pub["url"],
+                        journal_hash,
+                        pub["title"],
+                        pub["doi"],
+                        pub["pdf"]
+                        ).strip()
+                    )
+
+                # link to datasets
+                dat_list = [ ":{}".format(known_datasets[dat_id]) for dat_id in link_map ]
+                out_buf.append("  cito:citesAsDataSource {} ;".format(", ".join(dat_list)))
+                out_buf.append(".\n")
+
+    # return the unique count
+    return len(seen)
 
 
 def write_corpus (out_buf, vocab_file="vocab.json"):
@@ -233,17 +190,20 @@ def write_corpus (out_buf, vocab_file="vocab.json"):
 if __name__ == "__main__":
 
     ## 1. load the metadata for journals, datasets, publications
-    ## 2. apply manually curated metadata as override per publication, if any
-    ## 3. validate the linked data
-    ## 4. format output for the corpus as both TTL and JSON-LD
+    ## 2. validate the linked data
+    ## 3. format output for the corpus as both TTL and JSON-LD
 
     out_buf = [ PREAMBLE.lstrip() ]
 
-    graph = RCGraph("step5")
+    graph = RCGraph("corpus")
     graph.journals.load_entities()
 
-    journals = load_journals(graph, out_buf)
+    known_journals = load_journals(graph, out_buf)
     known_datasets = load_datasets(out_buf)
+    num_pubs = load_publications(graph, out_buf, known_datasets, known_journals)
 
-    load_publications(graph, out_buf, known_datasets, journals)
+    print("{} journals".format(len(known_journals)))
+    print("{} datasets".format(len(known_datasets)))
+    print("{} publications".format(num_pubs))
+
     write_corpus(out_buf)

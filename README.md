@@ -167,11 +167,11 @@ publication that doesn't have a journal.
   - Do not make manual edits to the `journals.json` file
 
 
-### Step 5: Reconcile Open Access PDFs
+### Step 5: Finalize Metadata Corrections
 
-Scan results from the calls to scholarly infrastructure APIs, then
-apply business logic to identify each publication's open access PDFs,
-etc.
+This workflow step finalizes the metadata corrections for each
+publication, including selection of a URL, open access PDF, etc.,
+along with the manual override.
 
 ```
 python run_step5.py
