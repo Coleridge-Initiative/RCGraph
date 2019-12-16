@@ -11,6 +11,8 @@ import traceback
 
 
 class RCJournals:
+    # these get dumped into other journal definitions -- unless they
+    # are the only option
     IGNORE_JOURNALS = set([
             "ssrn electronic journal"
             ])
@@ -169,6 +171,121 @@ class RCJournals:
             return self.known["unknown"]
 
 
+class RCPublications:
+    def __init__ (self):
+        self.pdf_hits = 0
+
+
+    def extract_urls (self, pub):
+        """
+        scan results from scholarly infrastructure APIs, apply
+        business logic to extract a list of candidate open access PDF
+        links for this publication
+        """
+        url_list = []
+
+        # Unpaywall has mostly reliable metadata, except for PDFs
+        if "Unpaywall" in pub:
+            meta = pub["Unpaywall"]
+
+            if "is_oa" in meta:
+                if meta["is_oa"]:
+                    best_meta = meta["best_oa_location"]
+
+                    url = best_meta["url_for_landing_page"]
+
+                    if url and isinstance(url, str):
+                        url_list.append(url)
+
+        # dissem.in is somewhat sparse / seems iffy
+        if "dissemin" in pub and "paper" in pub["dissemin"]:
+            records = pub["dissemin"]["paper"]["records"]
+
+            if len(records) > 0:
+                meta = records[0]
+        
+                if "splash_url" in meta:
+                    url = meta["splash_url"]
+
+                    if url and isinstance(url, str):
+                        url_list.append(url)
+
+        # OpenAIRE is generally good
+        if "OpenAIRE" in pub:
+            meta = pub["OpenAIRE"]
+
+            if "url" in meta:
+                url = meta["url"]
+
+                if url and isinstance(url, str):
+                    url_list.append(url)
+
+        # Semantic Scholar -- could be better, has good open access but doesn't share it
+        if "Semantic Scholar" in pub:
+            meta = pub["Semantic Scholar"]
+
+            if "url" in meta:
+                url = meta["url"]
+
+                if url and isinstance(url, str):
+                    url_list.append(url)
+
+        # original metadata from data ingest
+        if "original" in pub:
+            meta = pub["original"]
+
+            if "url" in meta:
+                url = meta["url"]
+
+                if url and isinstance(url, str):
+                    url_list.append(url)
+
+        return url_list
+
+
+    def extract_pdfs (self, pub):
+        """
+        scan results from scholarly infrastructure APIs, apply
+        business logic to extract a list of candidate open access PDF
+        links for this publication
+        """
+        pdf_list = []
+
+        # EuropePMC has the best PDFs
+        if "EuropePMC" in pub:
+            meta = pub["EuropePMC"]
+
+            if "pdf" in meta:
+                pdf = meta["pdf"]
+
+                if pdf:
+                    pdf_list.append(pdf)
+
+        # Unpaywall has mostly reliable metadata, except for PDFs
+        if "Unpaywall" in pub:
+            meta = pub["Unpaywall"]
+
+            if "is_oa" in meta:
+                if meta["is_oa"]:
+                    best_meta = meta["best_oa_location"]
+                    pdf = best_meta["url_for_pdf"]
+
+                    if pdf:
+                        pdf_list.append(pdf)
+
+        # Dimensions metadata is verbose, if there
+        if "Dimensions" in pub:
+            meta = pub["Dimensions"]
+
+            if "linkout" in meta:
+                pdf = meta["linkout"]
+
+                if pdf:
+                    pdf_list.append(pdf)
+
+        return pdf_list
+
+
 class RCGraph:
     """
     methods for managing the Rich Context knowledge grapgh
@@ -177,6 +294,7 @@ class RCGraph:
         self.step_name = step_name
         self.misses = []
         self.journals = RCJournals()
+        self.publications = RCPublications()
 
 
     @classmethod
@@ -233,6 +351,14 @@ class RCGraph:
                     except Exception:
                         traceback.print_exc()
                         print(partition)
+
+
+    def write_partition (self, bucket, partition, pub_list):
+        """
+        write one partition to a bucket
+        """
+        with open(bucket + partition, "w") as f:
+            json.dump(pub_list, f, indent=4, sort_keys=True)
 
 
     def report_misses (self):

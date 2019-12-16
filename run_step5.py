@@ -3,133 +3,87 @@
 
 from graph import RCGraph
 from richcontext import scholapi as rc_scholapi
+import glob
 import json
 import pprint
 import sys
 
 
-def gather_pdf (pub, partition, pub_list, graph):
+def load_override (path="human/manual/partitions/*.json"):
     """
-    scan results from scholarly infrastructure APIs, apply business
-    logic to identify this publication's open access PDFs, etc.
+    load the publications metadata, apply the manually curated
+    override metadata, then yield an iterator
     """
-    url_list = []
+    override = {}
 
+    for filename in glob.glob(path):
+        print("override:", filename)
+
+        with open(filename) as f:
+            for elem in json.load(f):
+                override[elem["title"]] = elem["manual"]
+
+    return override
+
+
+def propagate_view (pub, graph, override):
+    """
+    propagate a view of this publication -- now with its
+    enhanced/corrected metadata -- into the workflow stream
+    """
     title = pub["title"]
-    pdf_match = False
 
-    # EuropePMC has the best PDFs
-    if "EuropePMC" in pub:
-        meta = pub["EuropePMC"]
-
-        if "pdf" in meta:
-            pdf = meta["pdf"]
-
-            if pdf:
-                pub["pdf"] = pdf
-                pdf_match = True
-
-    # Unpaywall has mostly reliable metadata, except for PDFs
-    if "Unpaywall" in pub:
-        meta = pub["Unpaywall"]
-
-        if "is_oa" in meta:
-            if meta["is_oa"]:
-                best_meta = meta["best_oa_location"]
-
-                url = best_meta["url_for_landing_page"]
-
-                if url and isinstance(url, str):
-                    url_list.append(url)
-
-                pdf = best_meta["url_for_pdf"]
-
-                if pdf and not "pdf" in pub:
-                    pub["pdf"] = pdf
-                    pdf_match = True
-
-    # dissem.in is somewhat sparse / seems iffy
-    if "dissemin" in pub and "paper" in pub["dissemin"]:
-        records = pub["dissemin"]["paper"]["records"]
-
-        if len(records) > 0:
-            meta = records[0]
-        
-            if "splash_url" in meta:
-                url = meta["splash_url"]
-
-                if url and isinstance(url, str):
-                    url_list.append(url)
-
-    # Dimensions metadata is verbose, if there
-    if "Dimensions" in pub:
-        meta = pub["Dimensions"]
-
-        if "linkout" in meta:
-            pdf = meta["linkout"]
-
-            if pdf and not "pdf" in pub:
-                pub["pdf"] = pdf
-                pdf_match = True
-
-    # OpenAIRE is generally good
-    if "OpenAIRE" in pub:
-        meta = pub["OpenAIRE"]
-
-        if "url" in meta:
-            url = meta["url"]
-
-            if url and isinstance(url, str):
-                url_list.append(url)
-
-    # Semantic Scholar -- could be better, has good open access but doesn't share it
-    if "Semantic Scholar" in pub:
-        meta = pub["Semantic Scholar"]
-
-        if "url" in meta:
-            url = meta["url"]
-
-            if url and isinstance(url, str):
-                url_list.append(url)
-
-    # original metadata from data ingest
-    if "original" in pub:
-        meta = pub["original"]
-
-        if "url" in meta:
-            url = meta["url"]
-
-            if url and isinstance(url, str):
-                url_list.append(url)
-
-    # keep track of the titles that had no open access PDF
-    if not pdf_match:
-        graph.misses.append(title)
-
-    # send a view of this publication along into the workflow stream
     view = {
         "title": title,
         "datasets": pub["datasets"]
         }
 
-    if "doi" in pub:
-        view["doi"] = pub["doi"]
-
-    if pdf_match:
-        view["pdf"] = pub["pdf"]
+    # pick the best URls
+    url_list = graph.publications.extract_urls(pub)
 
     if len(url_list) > 0:
         tally = graph.tally_list(url_list)
         url, count = tally[0]
         view["url"] = url
 
+    # add the PDF, if available
+    pdf_list = graph.publications.extract_pdfs(pub)
+
+    if len(pdf_list) > 0:
+        view["pdf"] = pdf_list[0]
+
+    # add the DOI, if available
+    if "doi" in pub:
+        view["doi"] = pub["doi"]
+
     # select the best journal
     journal_list = graph.journals.extract_journals(pub)
     journal = graph.journals.select_best_entity(journal_list)
     view["journal"] = journal["id"]
 
+    # apply the manual override
+    if title in override:
+        override[title]["used"] = True
+
+        if "omit-corpus" in override[title] and override[title]["omit-corpus"]:
+            # omit this publication from the public corpus
+            view["omit"] = True
+
+        for key in ["doi", "pdf", "journal", "url"]:
+            if key in override[title]:
+                view[key] = override[title][key]
+
+                # special case for known null values
+                if not view[key]:
+                    del view[key]
+
+            if "datasets" in override[title]:
+                for dataset in override[title]["datasets"]:
+                    if not dataset in view["datasets"]:
+                        view["datasets"].append(dataset)
+
     #pprint.pprint(view)
-    pub_list.append(view)
+    return view
 
 
 if __name__ == "__main__":
@@ -139,24 +93,43 @@ if __name__ == "__main__":
     graph = RCGraph("step5")
     graph.journals.load_entities()
 
-    # for each publication: gather the open access PDFs, etc.
-    pdf_hits = 0
+    # for each partition, finalize the metadata corrections for each
+    # publication
+    override = load_override()
 
     for partition, pub_iter in graph.iter_publications(path="step3"):
-        print("working: {}".format(partition))
         pub_list = []
+        print("working: {}".format(partition))
 
         for pub in pub_iter:
-            gather_pdf(pub, partition, pub_list, graph)
+            view = propagate_view(pub, graph, override)
+            pub_list.append(view)
 
-        for pub in pub_list:
-            if "pdf" in pub:
-                pdf_hits += 1
+            if "pdf" in view:
+                graph.publications.pdf_hits += 1
+            else:
+                graph.misses.append(view["title"])
 
-        with open("step5/" + partition, "w") as f:
-            json.dump(pub_list, f, indent=4, sort_keys=True)
+        graph.write_partition("step5/", partition, pub_list)
 
-    print("PDFs: {}".format(pdf_hits))
+    # did we miss any of the manual entries?
+    pub_list = []
 
-    # report titles for publications that failed every API lookup
+    for title, pub in override.items():
+        if "used" not in pub:
+            if "omit-corpus" in pub and pub["omit-corpus"]:
+                continue
+            else:
+                pub["title"] = title
+                pub_list.append(pub)
+
+                if "pdf" in pub:
+                    graph.publications.pdf_hits += 1
+                else:
+                    graph.misses.append(title)
+
+    graph.write_partition("step5/", "_manual.json", pub_list)
+
+    # keep track of the titles that had no open access PDF
     graph.report_misses()
+    print("PDFs: {}".format(graph.publications.pdf_hits))
