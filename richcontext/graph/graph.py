@@ -295,9 +295,11 @@ class RCGraph:
     """
     methods for managing the Rich Context knowledge grapgh
     """
-    BUCKET_FINAL = "bucket_final"
-    PATH_DATASETS = "datasets/datasets.json"
-    PATH_MANUAL = "human/manual/partitions"
+    BUCKET_FINAL = Path("bucket_final")
+    PATH_DATASETS = Path("datasets/datasets.json")
+    PATH_JOURNALS = Path("journals.json")
+    PATH_MANUAL = Path("human/manual/partitions")
+    PATH_PUBLICATIONS = Path("publications/partitions")
 
 
     def __init__ (self, step_name="generic"):

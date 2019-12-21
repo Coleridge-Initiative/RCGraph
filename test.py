@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+from pathlib import Path
+from richcontext import graph as rc_graph
 from urllib.parse import urlparse
 import json
 import os
@@ -31,8 +33,8 @@ class TestRCGraph (unittest.TestCase):
         self.journals = {}
 
         # load the publications
-        subdir = "publications/partitions"
-        partitions = [ "/".join([subdir, name]) for name in os.listdir(subdir) ]
+        subdir = rc_graph.RCGraph.PATH_PUBLICATIONS
+        partitions = [ subdir / name for name in os.listdir(subdir) ]
 
         for partition in partitions:
             with open(partition, "r") as f:
@@ -49,14 +51,12 @@ class TestRCGraph (unittest.TestCase):
                     self.partition_map[pub["title"]] = partition
 
         # load the datasets
-        subdir = "datasets/datasets.json"
-
-        with open(subdir, "r") as f:
+        with open(rc_graph.RCGraph.PATH_DATASETS, "r") as f:
             for d in json.load(f):
                 self.datasets[d["id"]] = d
 
         # load the journals
-        with open("journals.json", "r") as f:
+        with open(rc_graph.RCGraph.PATH_JOURNALS, "r") as f:
             for j in json.load(f):
                 self.journals[j["id"]] = j
 

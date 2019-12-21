@@ -177,8 +177,9 @@ along with the manual override.
 python run_step5.py
 ```
 
-Results are organized in partitions in the `step5` subdirectory, using
-the same partition names from the previous workflow step.
+Results are organized in partitions in the `bucket_final`
+subdirectory, using the same partition names from the previous
+workflow step.
 
 See the `misses_step5.txt` file which reports the title of each
 publication that failed every API lookup.

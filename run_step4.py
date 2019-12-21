@@ -14,6 +14,8 @@ import sys
 import traceback
 import xmltodict
 
+ALREADY_REPORTED = set([])
+
 
 def find_issn (pub, graph):
     issn_list = []
@@ -41,10 +43,12 @@ def find_issn (pub, graph):
         return 0, None, None
 
 
-def ncbi_lookup_issn (journal, issn):
+def ncbi_lookup_issn (pub, journal, issn):
     """
     use the NCBI discovery service for ISSN lookup
     """
+    global ALREADY_REPORTED
+
     try:
         url = "https://www.ncbi.nlm.nih.gov/nlmcatalog/?report=xml&format=text&term={}".format(issn)
         response = requests.get(url).text
@@ -68,7 +72,12 @@ def ncbi_lookup_issn (journal, issn):
                     elif len(ncbi) > 1 and "JrXml" in ncbi[1]:
                         ncbi = ncbi[1]
                     else:
-                        print("ERROR: {}".format(issn))
+                        status = "NCBI bad XML format - no JrXML: {}".format(issn)
+
+                        if status not in ALREADY_REPORTED:
+                            ALREADY_REPORTED.add(status)
+                            print(status)
+
                         return
 
                 meta = ncbi["JrXml"]["Serial"]
@@ -76,7 +85,7 @@ def ncbi_lookup_issn (journal, issn):
                 journal["NCBI"] = meta
     except:
         print(traceback.format_exc())
-        print("ERROR: {}".format(issn))
+        print("NCBI failed lookup: {} {}".format(issn, pub["title"]))
 
 
 def gather_issn (journal):
@@ -178,7 +187,14 @@ if __name__ == "__main__":
                     if len(old_set.intersection(new_set)) < 1:
                         # there's a dispute: check for overlapping
                         # journal definitions?
-                        disputed["{} {}".format(issn_tally, journal["issn"])] = journal
+                        if (len(issn_tally) == 1) and (issn_tally[0][0] == "1556-5068"):
+                            # ignore the singleton cases of SSRN journal attributes
+                            pass
+                        elif (len(journal["issn"]) == 1) and (journal["issn"][0] == "0000-0000"):
+                            # ignore adding to the "unknown" caseb
+                            pass
+                        else:
+                            disputed["{} {}".format(issn_tally, journal["issn"])] = journal
                     else:
                         # add other ISSNs to an existing entry
                         for issn in new_issns:
@@ -194,7 +210,7 @@ if __name__ == "__main__":
 
             if not "NCBI" in journal:
                 # DO NOT RUN IF JOUNAL ALREADY HAS AN "NCBI" ENTRY
-                ncbi_lookup_issn(journal, new_issns[0])
+                ncbi_lookup_issn(pub, journal, new_issns[0])
                 gather_issn(journal)
 
     # report results
