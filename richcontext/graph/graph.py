@@ -1,11 +1,15 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-import glob
+from pathlib import Path
+from tqdm import tqdm  # type: ignore
+from typing import Any, Dict, List, Tuple
 import hashlib
 import json
+import logging  # type: ignore
 import operator
 import os
+import ray  # type: ignore
 import re
 import traceback
 
@@ -344,7 +348,7 @@ class RCGraph:
         """
         iterate through the publication partitions
         """
-        for partition in glob.glob(path + "/*.json"):
+        for partition in Path(path).glob("*.json"):
             if not filter or partition.endswith(filter):
                 with open(partition) as f:
                     try:
