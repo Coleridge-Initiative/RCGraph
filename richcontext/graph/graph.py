@@ -295,6 +295,11 @@ class RCGraph:
     """
     methods for managing the Rich Context knowledge grapgh
     """
+    BUCKET_FINAL = "bucket_final"
+    PATH_DATASETS = "datasets/datasets.json"
+    PATH_MANUAL = "human/manual/partitions"
+
+
     def __init__ (self, step_name="generic"):
         self.step_name = step_name
         self.misses = []
@@ -362,7 +367,7 @@ class RCGraph:
         """
         write one partition to a bucket
         """
-        with open(bucket + partition, "w") as f:
+        with open(Path(bucket) / partition, "w") as f:
             json.dump(pub_list, f, indent=4, sort_keys=True)
 
 

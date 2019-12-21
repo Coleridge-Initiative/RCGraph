@@ -1,13 +1,20 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+from pathlib import Path
 from richcontext import graph as rc_graph
 from richcontext import scholapi as rc_scholapi
 from rdflib.serializer import Serializer
+from tqdm import tqdm  # type: ignore
+from typing import Any, Dict, List, Tuple
 import json
 import pprint
 import rdflib
 import sys
+
+CORPUS_TTL_FILENAME = "tmp.ttl"
+CORPUS_JSONLD_FILENAME = "tmp.jsonld"
+
 
 PREAMBLE = """
 @base <https://github.com/Coleridge-Initiative/adrf-onto/wiki/Vocabulary> .
@@ -67,6 +74,14 @@ def load_journals (graph, out_buf):
             for title in j["titles"][1:]:
                 out_buf.append("  dct:alternative \"{}\" ;".format(title))
 
+        if "issn" in j:
+            # select the first element as the Linking ISSN
+            issn_l = j["issn"][0]
+            out_buf.append("  dct:identifier \"{}\" ;".format(issn_l))
+
+        if "url" in j:
+            out_buf.append("  foaf:page \"{}\"^^xsd:anyURI ;".format(j["url"]))
+
         out_buf.append(".\n")
 
     return journals
@@ -77,9 +92,8 @@ def load_datasets (out_buf):
     load the datasets
     """
     known_datasets = {}
-    dataset_path = "datasets/datasets.json"
 
-    with open(dataset_path, "r") as f:
+    with open(rc_graph.RCGraph.PATH_DATASETS, "r") as f:
         for d in json.load(f):
             dat_id = d["id"]
             id_list = [d["provider"], d["title"]]
@@ -114,7 +128,7 @@ def load_publications (graph, out_buf, known_datasets, known_journals):
     """
     seen = set([])
 
-    for partition, pub_iter in graph.iter_publications(path="step5"):
+    for partition, pub_iter in graph.iter_publications(path=graph.BUCKET_FINAL):
         for pub in pub_iter:
             link_map = pub["datasets"]
 
@@ -163,33 +177,33 @@ def write_corpus (out_buf, vocab_file="vocab.json"):
     """
     output the corpus in TTL and JSON-LD
     """
-    corpus_ttl_filename = "tmp.ttl"
-    corpus_jsonld_filename = "tmp.jsonld"
-
     ## write the TTL output
-    with open(corpus_ttl_filename, "w") as f:
-        for text in out_buf:
+    with open(CORPUS_TTL_FILENAME, "w") as f:
+        for text in tqdm(out_buf, ascii=True, desc="write corpus"):
             f.write(text)
             f.write("\n")
 
     ## load the TTL output as a graph
+    print("load and parse the corpus file")
     g = rdflib.Graph()
-    g.parse(corpus_ttl_filename, format="n3")
+    g.parse(CORPUS_TTL_FILENAME, format="n3")
 
     ## transform graph into JSON-LD
+    print("transform graph into JSON-LD")
+
     with open(vocab_file, "r") as f:
         context = json.load(f)
 
-    with open(corpus_jsonld_filename, "wb") as f:
+    with open(CORPUS_JSONLD_FILENAME, "wb") as f:
         f.write(g.serialize(format="json-ld", context=context, indent=2))
 
     ## read back, to confirm formatting
+    print("confirm formatting")
     g = rdflib.Graph()
-    g.parse(corpus_jsonld_filename, format="json-ld")
+    g.parse(CORPUS_JSONLD_FILENAME, format="json-ld")
 
 
-if __name__ == "__main__":
-
+def main ():
     ## 1. load the metadata for journals, datasets, publications
     ## 2. validate the linked data
     ## 3. format output for the corpus as both TTL and JSON-LD
@@ -208,3 +222,7 @@ if __name__ == "__main__":
     print("{} publications".format(num_pubs))
 
     write_corpus(out_buf)
+
+
+if __name__ == "__main__":
+    main()

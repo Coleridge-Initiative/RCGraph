@@ -1,22 +1,23 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+from pathlib import Path
 from richcontext import graph as rc_graph
 from richcontext import scholapi as rc_scholapi
-import glob
+from typing import Any, Dict, List, Tuple
 import json
 import pprint
 import sys
 
 
-def load_override (path="human/manual/partitions/*.json"):
+def load_override (path=rc_graph.RCGraph.PATH_MANUAL):
     """
     load the publications metadata, apply the manually curated
     override metadata, then yield an iterator
     """
     override = {}
 
-    for filename in glob.glob(path):
+    for filename in Path(path).glob("*.json"):
         print("override:", filename)
 
         with open(filename) as f:
@@ -92,8 +93,8 @@ if __name__ == "__main__":
     graph = rc_graph.RCGraph("step5")
     graph.journals.load_entities()
 
-    # for each partition, finalize the metadata corrections for each
-    # publication
+    # for each partition, for each publication
+    # finalize the metadata corrections 
     override = load_override()
 
     for partition, pub_iter in graph.iter_publications(path="step3"):
@@ -109,9 +110,10 @@ if __name__ == "__main__":
             else:
                 graph.misses.append(view["title"])
 
-        graph.write_partition("step5/", partition, pub_list)
+        graph.write_partition(graph.BUCKET_FINAL, partition, pub_list)
 
     # did we miss any of the manual entries?
+    # TODO: refactor these into a partition in RCPublications
     pub_list = []
 
     for title, pub in override.items():
@@ -127,7 +129,7 @@ if __name__ == "__main__":
                 else:
                     graph.misses.append(title)
 
-    graph.write_partition("step5/", "_manual.json", pub_list)
+    graph.write_partition(graph.BUCKET_FINAL, "_manual.json", pub_list)
 
     # keep track of the titles that had no open access PDF
     graph.report_misses()
