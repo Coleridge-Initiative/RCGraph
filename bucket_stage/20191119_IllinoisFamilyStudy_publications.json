@@ -19,7 +19,6 @@
                     "name": "Generic Health Relevance"
                 }
             ],
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "332",
@@ -254,9 +253,6 @@
                     "researcher_id": "ur.01366602064.92"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -289,16 +285,12 @@
                     "name": "1607 Social Work"
                 }
             ],
-            "category_hra": null,
             "category_hrcs_hc": [
                 {
                     "id": "890",
                     "name": "Generic Health Relevance"
                 }
             ],
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "332",
@@ -365,7 +357,6 @@
             "date": "2019-11-01",
             "date_inserted": "2019-02-13",
             "doi": "10.1111/cfs.12635",
-            "field_citation_ratio": null,
             "funder_countries": [
                 {
                     "id": "US",
@@ -378,7 +369,16 @@
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
                     "id": "grid.27235.31",
-                    "name": "United States Department of Health and Human Services"
+                    "latitude": 38.886665,
+                    "linkout": [
+                        "http://www.hhs.gov/"
+                    ],
+                    "longitude": -77.01444,
+                    "name": "United States Department of Health and Human Services",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1112067607",
@@ -396,9 +396,6 @@
                 "Norwegian register level 2",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -407,11 +404,7 @@
                 }
             ],
             "pages": "547-554",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Wiley",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1001450743",
                 "pub.1106881119",
@@ -484,7 +477,6 @@
                 "pub.1008719325",
                 "pub.1077890632"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 4509177,
@@ -533,21 +525,48 @@
                     "city_name": "Columbus",
                     "country_name": "United States",
                     "id": "grid.261331.4",
-                    "name": "The Ohio State University"
+                    "latitude": 40.0,
+                    "linkout": [
+                        "http://www.osu.edu/"
+                    ],
+                    "longitude": -83.0145,
+                    "name": "The Ohio State University",
+                    "state_name": "Ohio",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "LSU",
                     "city_name": "Baton Rouge",
                     "country_name": "United States",
                     "id": "grid.64337.35",
-                    "name": "Louisiana State University"
+                    "latitude": 30.413998,
+                    "linkout": [
+                        "http://www.lsu.edu/"
+                    ],
+                    "longitude": -91.18103,
+                    "name": "Louisiana State University",
+                    "state_name": "Louisiana",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UW",
                     "city_name": "Madison",
                     "country_name": "United States",
                     "id": "grid.14003.36",
-                    "name": "University of Wisconsin\u2013Madison"
+                    "latitude": 43.076694,
+                    "linkout": [
+                        "http://www.wisc.edu/"
+                    ],
+                    "longitude": -89.41244,
+                    "name": "University of Wisconsin\u2013Madison",
+                    "state_name": "Wisconsin",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -568,9 +587,9 @@
                     "id": "ur.01224534616.55",
                     "last_name": "Maguire-Jack",
                     "research_orgs": [
+                        "grid.261331.4",
                         "grid.14003.36",
-                        "grid.214458.e",
-                        "grid.261331.4"
+                        "grid.214458.e"
                     ]
                 },
                 {
@@ -610,8 +629,7 @@
                     ]
                 }
             ],
-            "score": 16.377716,
-            "supporting_grant_ids": null,
+            "score": 16.37512,
             "terms": [
                 "study",
                 "relationship",
@@ -643,7 +661,6 @@
                 "child maltreatment",
                 "maltreatment"
             ],
-            "times_cited": 0,
             "title": "Child care subsidy and child maltreatment",
             "type": "article",
             "volume": "24",
@@ -652,7 +669,6 @@
         "datasets": [
             "dataset-219"
         ],
-        "doi": "10.1111/cfs.12635",
         "original": {
             "URL": "https://onlinelibrary.wiley.com/doi/full/10.1111/cfs.12635",
             "Validation": "Yes",
@@ -677,8 +693,6 @@
                     "name": "17 Psychology and Cognitive Sciences"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "507",
@@ -693,8 +707,6 @@
                     "name": "Behavioral and Social Science"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -753,9 +765,6 @@
                     "researcher_id": ""
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -778,10 +787,6 @@
                     "name": "Health services & systems"
                 }
             ],
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "507",
@@ -864,15 +869,11 @@
             "date": "2019-05-08",
             "date_inserted": "2019-05-12",
             "doi": "10.1080/0145935x.2019.1605895",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1114001879",
             "issn": [
                 "0145-935X",
                 "1545-2298"
             ],
-            "issue": null,
             "journal": {
                 "id": "jour.1087298",
                 "title": "Child & Youth Services"
@@ -881,9 +882,6 @@
                 "ERA 2015",
                 "Norwegian register level 1"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -892,11 +890,7 @@
                 }
             ],
             "pages": "1-23",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Taylor & Francis",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1026139704",
                 "pub.1019813931",
@@ -975,7 +969,6 @@
                 "pub.1045983356",
                 "pub.1098751205"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 4315588,
@@ -991,14 +984,10 @@
             "research_org_country_names": [
                 "United States"
             ],
-            "research_org_state_codes": null,
             "research_org_state_names": [
                 "Louisiana"
             ],
-            "research_orgs": null,
-            "researchers": null,
-            "score": 24.208906,
-            "supporting_grant_ids": null,
+            "score": 24.21218,
             "terms": [
                 "family service providers",
                 "service providers",
@@ -1058,16 +1047,13 @@
                 "HOME Inventory",
                 "Inventory"
             ],
-            "times_cited": 0,
             "title": "Brief in-Home Assessments of Low-Income Mothers and Children using a New Affection Subscale of the HOME Inventory",
             "type": "article",
-            "volume": null,
             "year": 2019
         },
         "datasets": [
             "dataset-219"
         ],
-        "doi": "10.1080/0145935x.2019.1605895",
         "original": {
             "URL": "https://www.tandfonline.com/doi/full/10.1080/0145935X.2019.1605895",
             "Validation": "Yes",
@@ -1100,7 +1086,6 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
-            "HRCS_HC": null,
             "HRCS_RAC": [
                 {
                     "id": "10801",
@@ -1293,9 +1278,6 @@
                     "researcher_id": "ur.01335035201.96"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -1318,15 +1300,12 @@
                     "name": "Population & Society"
                 }
             ],
-            "category_hrcs_hc": null,
             "category_hrcs_rac": [
                 {
                     "id": "10801",
                     "name": "8.1 Organisation and delivery of services"
                 }
             ],
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "380",
@@ -1400,7 +1379,6 @@
             "date": "2019-05-01",
             "date_inserted": "2018-10-18",
             "doi": "10.1007/s10896-018-0009-x",
-            "field_citation_ratio": null,
             "funder_countries": [
                 {
                     "id": "US",
@@ -1413,7 +1391,16 @@
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.420089.7",
-                    "name": "National Institute of Child Health and Human Development"
+                    "latitude": 39.001095,
+                    "linkout": [
+                        "http://www.nichd.nih.gov/Pages/index.aspx"
+                    ],
+                    "longitude": -77.10042,
+                    "name": "National Institute of Child Health and Human Development",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1107670310",
@@ -1432,9 +1419,6 @@
                 "ERIH PLUS",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -1443,11 +1427,7 @@
                 }
             ],
             "pages": "299-308",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Springer Nature",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1063965078",
                 "pub.1022943501",
@@ -1532,7 +1512,6 @@
                 "pub.1015525292",
                 "pub.1063859609"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 4509177,
@@ -1572,14 +1551,32 @@
                     "city_name": "Columbus",
                     "country_name": "United States",
                     "id": "grid.261331.4",
-                    "name": "The Ohio State University"
+                    "latitude": 40.0,
+                    "linkout": [
+                        "http://www.osu.edu/"
+                    ],
+                    "longitude": -83.0145,
+                    "name": "The Ohio State University",
+                    "state_name": "Ohio",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "LSU",
                     "city_name": "Baton Rouge",
                     "country_name": "United States",
                     "id": "grid.64337.35",
-                    "name": "Louisiana State University"
+                    "latitude": 30.413998,
+                    "linkout": [
+                        "http://www.lsu.edu/"
+                    ],
+                    "longitude": -91.18103,
+                    "name": "Louisiana State University",
+                    "state_name": "Louisiana",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -1600,9 +1597,9 @@
                     "id": "ur.01224534616.55",
                     "last_name": "Maguire-Jack",
                     "research_orgs": [
+                        "grid.261331.4",
                         "grid.14003.36",
-                        "grid.214458.e",
-                        "grid.261331.4"
+                        "grid.214458.e"
                     ]
                 },
                 {
@@ -1632,7 +1629,7 @@
                     ]
                 }
             ],
-            "score": 26.010101,
+            "score": 26.016176,
             "supporting_grant_ids": [
                 "grant.2623491",
                 "grant.3804280",
@@ -1684,7 +1681,6 @@
                 "assistance",
                 "buffering effects"
             ],
-            "times_cited": 0,
             "title": "Work Outcomes for Mothers Experiencing Intimate Partner Violence: the Buffering Effect of Child Care Subsidy",
             "type": "article",
             "volume": "34",
@@ -1693,7 +1689,6 @@
         "datasets": [
             "dataset-219"
         ],
-        "doi": "10.1007/s10896-018-0009-x",
         "original": {
             "URL": "https://link.springer.com/article/10.1007/s10896-018-0009-x",
             "Validation": "Yes",
@@ -1718,7 +1713,6 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
-            "HRCS_HC": null,
             "HRCS_RAC": [
                 {
                     "id": "10203",
@@ -1775,8 +1769,6 @@
                     "name": "Child Abuse and Neglect Research"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -1943,9 +1935,6 @@
                     "researcher_id": "ur.07637355455.75"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -1968,15 +1957,12 @@
                     "name": "Clinical"
                 }
             ],
-            "category_hrcs_hc": null,
             "category_hrcs_rac": [
                 {
                     "id": "10203",
                     "name": "2.3 Psychological, social and economic factors"
                 }
             ],
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "314",
@@ -2075,9 +2061,6 @@
             "date": "2018-08-01",
             "date_inserted": "2018-06-29",
             "doi": "10.1016/j.childyouth.2018.06.036",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1105170737",
             "issn": [
                 "0190-7409",
@@ -2093,9 +2076,6 @@
                 "Norwegian register level 1",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -2104,9 +2084,6 @@
                 }
             ],
             "pages": "364-371",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Elsevier",
             "recent_citations": 6,
             "reference_ids": [
@@ -2213,7 +2190,6 @@
                 "pub.1036635217",
                 "pub.1021038442"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 5213681,
@@ -2253,14 +2229,32 @@
                     "city_name": "Baton Rouge",
                     "country_name": "United States",
                     "id": "grid.64337.35",
-                    "name": "Louisiana State University"
+                    "latitude": 30.413998,
+                    "linkout": [
+                        "http://www.lsu.edu/"
+                    ],
+                    "longitude": -91.18103,
+                    "name": "Louisiana State University",
+                    "state_name": "Louisiana",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "PSU",
                     "city_name": "State College",
                     "country_name": "United States",
                     "id": "grid.29857.31",
-                    "name": "Pennsylvania State University"
+                    "latitude": 40.79845,
+                    "linkout": [
+                        "http://www.psu.edu/"
+                    ],
+                    "longitude": -77.85993,
+                    "name": "Pennsylvania State University",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -2302,8 +2296,7 @@
                     ]
                 }
             ],
-            "score": 21.907888,
-            "supporting_grant_ids": null,
+            "score": 21.903934,
             "terms": [
                 "parental history",
                 "history",
@@ -2352,7 +2345,6 @@
         "datasets": [
             "dataset-219"
         ],
-        "doi": "10.1016/j.childyouth.2018.06.036",
         "original": {
             "URL": "https://www.sciencedirect.com/science/article/pii/S019074091830255X?via%3Dihub",
             "Validation": "Yes",
@@ -2377,8 +2369,6 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "588",
@@ -2509,9 +2499,6 @@
                     "researcher_id": "ur.01224534616.55"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -2542,10 +2529,6 @@
                     "name": "Clinical"
                 }
             ],
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "588",
@@ -2645,9 +2628,6 @@
             "date": "2018-04-01",
             "date_inserted": "2018-03-12",
             "doi": "10.1111/fare.12310",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1101386164",
             "issn": [
                 "0197-6664",
@@ -2665,7 +2645,6 @@
                 "VABB-SHW"
             ],
             "linkout": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/fare.12310",
-            "mesh_terms": null,
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -2684,11 +2663,8 @@
                 }
             ],
             "pages": "287-301",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Wiley",
-            "recent_citations": 2,
+            "recent_citations": 4,
             "reference_ids": [
                 "pub.1014508041",
                 "pub.1052163739",
@@ -2763,7 +2739,6 @@
                 "pub.1092160977",
                 "pub.1034377848"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 4509177,
@@ -2803,14 +2778,32 @@
                     "city_name": "Columbus",
                     "country_name": "United States",
                     "id": "grid.261331.4",
-                    "name": "The Ohio State University"
+                    "latitude": 40.0,
+                    "linkout": [
+                        "http://www.osu.edu/"
+                    ],
+                    "longitude": -83.0145,
+                    "name": "The Ohio State University",
+                    "state_name": "Ohio",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "LSU",
                     "city_name": "Baton Rouge",
                     "country_name": "United States",
                     "id": "grid.64337.35",
-                    "name": "Louisiana State University"
+                    "latitude": 30.413998,
+                    "linkout": [
+                        "http://www.lsu.edu/"
+                    ],
+                    "longitude": -91.18103,
+                    "name": "Louisiana State University",
+                    "state_name": "Louisiana",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -2831,14 +2824,13 @@
                     "id": "ur.01224534616.55",
                     "last_name": "Maguire-Jack",
                     "research_orgs": [
+                        "grid.261331.4",
                         "grid.14003.36",
-                        "grid.214458.e",
-                        "grid.261331.4"
+                        "grid.214458.e"
                     ]
                 }
             ],
-            "score": 17.282318,
-            "supporting_grant_ids": null,
+            "score": 17.279055,
             "terms": [
                 "present study",
                 "study",
@@ -2887,7 +2879,7 @@
                 "child abuse",
                 "neglect"
             ],
-            "times_cited": 2,
+            "times_cited": 4,
             "title": "Individual and Cumulative Risks for Child Abuse and Neglect",
             "type": "article",
             "volume": "67",
@@ -2896,7 +2888,6 @@
         "datasets": [
             "dataset-219"
         ],
-        "doi": "10.1111/fare.12310",
         "original": {
             "URL": "https://onlinelibrary.wiley.com/doi/full/10.1111/fare.12310",
             "Validation": "Yes",
@@ -3087,9 +3078,6 @@
                     "researcher_id": "ur.0613251070.10"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -3124,8 +3112,6 @@
                     "name": "2.3 Psychological, social and economic factors"
                 }
             ],
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "590",
@@ -3236,9 +3222,7 @@
             "date": "2017-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1037/ort0000260",
-            "field_citation_ratio": 1.7,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 1.65,
             "id": "pub.1084127041",
             "issn": [
                 "0002-9432",
@@ -3256,7 +3240,6 @@
                 "VABB-SHW",
                 "PubMed"
             ],
-            "linkout": null,
             "mesh_terms": [
                 "Adolescent",
                 "Child",
@@ -3267,7 +3250,6 @@
                 "Internal-External Control",
                 "Male"
             ],
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -3276,9 +3258,7 @@
                 }
             ],
             "pages": "474",
-            "pmcid": null,
             "pmid": "28287778",
-            "proceedings_title": null,
             "publisher": "American Psychological Association (APA)",
             "recent_citations": 3,
             "reference_ids": [
@@ -3333,13 +3313,31 @@
                     "city_name": "Tallahassee",
                     "country_name": "United States",
                     "id": "grid.255986.5",
-                    "name": "Florida State University"
+                    "latitude": 30.442247,
+                    "linkout": [
+                        "https://www.fsu.edu/"
+                    ],
+                    "longitude": -84.29918,
+                    "name": "Florida State University",
+                    "state_name": "Florida",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Minneapolis",
                     "country_name": "United States",
                     "id": "grid.17635.36",
-                    "name": "University of Minnesota"
+                    "latitude": 44.974194,
+                    "linkout": [
+                        "http://twin-cities.umn.edu/"
+                    ],
+                    "longitude": -93.22776,
+                    "name": "University of Minnesota",
+                    "state_name": "Minnesota",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -3365,8 +3363,7 @@
                     ]
                 }
             ],
-            "score": 27.802942,
-            "supporting_grant_ids": null,
+            "score": 27.797857,
             "terms": [
                 "family violence",
                 "violence",
@@ -3422,13 +3419,11 @@
                 "Boel-Studt S."
             ],
             "doi": "10.1037/ort0000260",
-            "journal": "Am J Orthopsychiatry",
-            "pmcid": null
+            "journal": "Am J Orthopsychiatry"
         },
         "datasets": [
             "dataset-219"
         ],
-        "doi": "10.1037/ort0000260",
         "original": {
             "URL": "https://psycnet.apa.org/fulltext/2017-11231-001.html",
             "Validation": "Yes",

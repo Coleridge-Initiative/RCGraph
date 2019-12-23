@@ -29,8 +29,6 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "547",
@@ -209,10 +207,6 @@
                     "researcher_id": "ur.01313106750.25"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3416",
@@ -229,10 +223,6 @@
                     "name": "Population & Society"
                 }
             ],
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "547",
@@ -300,7 +290,6 @@
             "date": "2018-08-01",
             "date_inserted": "2018-07-09",
             "doi": "10.1177/0003122418781791",
-            "field_citation_ratio": null,
             "funder_countries": [
                 {
                     "id": "US",
@@ -313,7 +302,16 @@
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.420089.7",
-                    "name": "National Institute of Child Health and Human Development"
+                    "latitude": 39.001095,
+                    "linkout": [
+                        "http://www.nichd.nih.gov/Pages/index.aspx"
+                    ],
+                    "longitude": -77.10042,
+                    "name": "National Institute of Child Health and Human Development",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1105354697",
@@ -330,9 +328,6 @@
                 "ERA 2015",
                 "Norwegian register level 2"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -341,9 +336,6 @@
                 }
             ],
             "pages": "716-743",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "SAGE Publications",
             "recent_citations": 5,
             "reference_ids": [
@@ -460,7 +452,6 @@
                 "pub.1069561143",
                 "pub.1047145105"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 5213681,
@@ -500,14 +491,32 @@
                     "city_name": "State College",
                     "country_name": "United States",
                     "id": "grid.29857.31",
-                    "name": "Pennsylvania State University"
+                    "latitude": 40.79845,
+                    "linkout": [
+                        "http://www.psu.edu/"
+                    ],
+                    "longitude": -77.85993,
+                    "name": "Pennsylvania State University",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UW",
                     "city_name": "Madison",
                     "country_name": "United States",
                     "id": "grid.14003.36",
-                    "name": "University of Wisconsin\u2013Madison"
+                    "latitude": 43.076694,
+                    "linkout": [
+                        "http://www.wisc.edu/"
+                    ],
+                    "longitude": -89.41244,
+                    "name": "University of Wisconsin\u2013Madison",
+                    "state_name": "Wisconsin",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -540,9 +549,9 @@
                     "id": "ur.0650305152.28",
                     "last_name": "Cancian",
                     "research_orgs": [
+                        "grid.28803.31",
                         "grid.213910.8",
-                        "grid.14003.36",
-                        "grid.28803.31"
+                        "grid.14003.36"
                     ]
                 },
                 {
@@ -554,7 +563,7 @@
                     ]
                 }
             ],
-            "score": 22.327562,
+            "score": 22.322674,
             "supporting_grant_ids": [
                 "grant.6377442",
                 "grant.6618769"
@@ -624,7 +633,6 @@
             "dataset-067",
             "dataset-068"
         ],
-        "doi": "10.1177/0003122418781791",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://journals.sagepub.com/doi/10.1177/0003122418781791"
@@ -656,9 +664,6 @@
                     "name": "14 Economics"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
             "altmetric": 2.0,
             "altmetric_id": 50120235,
             "author_affiliations": [
@@ -711,10 +716,6 @@
                     "researcher_id": ""
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3292",
@@ -731,11 +732,6 @@
                     "name": "Population & Society"
                 }
             ],
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
             "category_ua": [
                 {
                     "id": "30020",
@@ -800,7 +796,6 @@
             "date": "2018-10-01",
             "date_inserted": "2018-07-27",
             "doi": "10.1177/0019793918790220",
-            "field_citation_ratio": null,
             "funder_countries": [
                 {
                     "id": "US",
@@ -813,13 +808,31 @@
                     "city_name": "New York",
                     "country_name": "United States",
                     "id": "grid.421621.2",
-                    "name": "Russell Sage Foundation"
+                    "latitude": 40.76565,
+                    "linkout": [
+                        "http://www.russellsage.org/"
+                    ],
+                    "longitude": -73.96678,
+                    "name": "Russell Sage Foundation",
+                    "state_name": "New York",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 },
                 {
                     "city_name": "New York",
                     "country_name": "United States",
                     "id": "grid.453006.4",
-                    "name": "Alfred P. Sloan Foundation"
+                    "latitude": 40.75918,
+                    "linkout": [
+                        "http://www.sloan.org/"
+                    ],
+                    "longitude": -73.977356,
+                    "name": "Alfred P. Sloan Foundation",
+                    "state_name": "New York",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 }
             ],
             "id": "pub.1105836970",
@@ -837,9 +850,6 @@
                 "Norwegian register level 1",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -848,9 +858,6 @@
                 }
             ],
             "pages": "1106-1153",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "SAGE Publications",
             "recent_citations": 3,
             "reference_ids": [
@@ -963,7 +970,6 @@
                 "pub.1012948324",
                 "pub.1101738063"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 5024719,
@@ -979,12 +985,7 @@
             "research_org_country_names": [
                 "United States"
             ],
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
-            "researchers": null,
-            "score": 18.489668,
-            "supporting_grant_ids": null,
+            "score": 18.49282,
             "terms": [
                 "article",
                 "anniversary",
@@ -1056,7 +1057,6 @@
             "dataset-073",
             "dataset-074"
         ],
-        "doi": "10.1177/0019793918790220",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.nber.org/papers/w24567.pdf"
@@ -1075,11 +1075,6 @@
     },
     {
         "Dimensions": {
-            "FOR": null,
-            "FOR_first": null,
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
             "altmetric": 5.0,
             "altmetric_id": 7591012,
             "author_affiliations": [
@@ -1142,10 +1137,6 @@
                     "researcher_id": "ur.01214345421.41"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3292",
@@ -1156,13 +1147,6 @@
                     "name": "14 Economics"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
-            "category_ua": null,
             "concepts": [
                 "job placement",
                 "distribution of earnings",
@@ -1174,9 +1158,7 @@
             "date": "2017-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1086/687522",
-            "field_citation_ratio": 4.06,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 3.94,
             "id": "pub.1058868732",
             "issn": [
                 "0734-306X",
@@ -1193,7 +1175,6 @@
                 "VABB-SHW"
             ],
             "linkout": "http://dspace.mit.edu/bitstream/1721.1/113706/1/w17972.pdf",
-            "mesh_terms": null,
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -1212,20 +1193,8 @@
                 }
             ],
             "pages": "149-190",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "University of Chicago Press",
             "recent_citations": 3,
-            "reference_ids": null,
-            "references": null,
-            "relative_citation_ratio": null,
-            "research_org_cities": null,
-            "research_org_countries": null,
-            "research_org_country_names": null,
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
             "researchers": [
                 {
                     "first_name": "David H",
@@ -1245,14 +1214,13 @@
                     "id": "ur.01214345421.41",
                     "last_name": "Kerr",
                     "research_orgs": [
+                        "grid.7737.4",
                         "grid.268091.4",
-                        "grid.250279.b",
-                        "grid.7737.4"
+                        "grid.250279.b"
                     ]
                 }
             ],
-            "score": 23.101007,
-            "supporting_grant_ids": null,
+            "score": 23.091955,
             "terms": [
                 "job placement",
                 "distribution of earnings",
@@ -1280,7 +1248,6 @@
             "dataset-075",
             "dataset-076"
         ],
-        "doi": "10.1086/687522",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.journals.uchicago.edu/doi/pdfplus/10.1086/687522"
@@ -1299,13 +1266,6 @@
     },
     {
         "Dimensions": {
-            "FOR": null,
-            "FOR_first": null,
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -1403,17 +1363,7 @@
                 }
             ],
             "book_doi": "10.4324/9781315100340",
-            "book_series_title": null,
             "book_title": "Administrative Data and Child Welfare Research",
-            "category_bra": null,
-            "category_for": null,
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
-            "category_ua": null,
             "concepts": [
                 "family",
                 "child welfare",
@@ -1422,16 +1372,8 @@
             "date": "2018-12-07",
             "date_inserted": "2019-07-11",
             "doi": "10.4324/9781315100340-4",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1117905206",
-            "issn": null,
-            "issue": null,
-            "journal": null,
-            "journal_lists": null,
             "linkout": "http://europepmc.org/articles/pmc5336326?pdf=render",
-            "mesh_terms": null,
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -1450,24 +1392,13 @@
                 }
             ],
             "pages": "23-46",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Taylor & Francis",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1058548993"
             ],
             "references": [
                 "pub.1058548993"
             ],
-            "relative_citation_ratio": null,
-            "research_org_cities": null,
-            "research_org_countries": null,
-            "research_org_country_names": null,
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
             "researchers": [
                 {
                     "first_name": "Jiyoung",
@@ -1523,17 +1454,14 @@
                     ]
                 }
             ],
-            "score": 20.424023,
-            "supporting_grant_ids": null,
+            "score": 20.422846,
             "terms": [
                 "family",
                 "child welfare",
                 "welfare"
             ],
-            "times_cited": 0,
             "title": "Dual-System Families: Cash Assistance Sequences of Households Involved With Child Welfare",
             "type": "chapter",
-            "volume": null,
             "year": 2018
         },
         "EuropePMC": {
@@ -1564,7 +1492,6 @@
             "dataset-077",
             "dataset-078"
         ],
-        "doi": "10.4324/9781315100340-4",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5336326/"
@@ -1593,16 +1520,12 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "498",
                     "name": "Behavioral and Social Science"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -1661,9 +1584,6 @@
                     "researcher_id": "ur.015463163155.67"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -1694,10 +1614,6 @@
                     "name": "Population & Society"
                 }
             ],
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "498",
@@ -1790,14 +1706,10 @@
             "date": "2015-01-01",
             "date_inserted": "2018-04-06",
             "doi": "10.2139/ssrn.2692632",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1102444239",
             "issn": [
                 "1556-5068"
             ],
-            "issue": null,
             "journal": {
                 "id": "jour.1276748",
                 "title": "SSRN Electronic Journal"
@@ -1806,7 +1718,6 @@
                 "Norwegian register level 0"
             ],
             "linkout": "http://www.nber.org/papers/w21676.pdf",
-            "mesh_terms": null,
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -1824,41 +1735,35 @@
                     "name": "Green, Published"
                 }
             ],
-            "pages": null,
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Elsevier",
-            "recent_citations": null,
             "reference_ids": [
-                "pub.1102379284",
+                "pub.1024617522",
+                "pub.1064200927",
                 "pub.1058303366",
-                "pub.1003869641",
                 "pub.1078176909",
-                "pub.1000621545",
+                "pub.1003869641",
+                "pub.1059978922",
+                "pub.1109111163",
                 "pub.1058788881",
+                "pub.1000621545",
                 "pub.1064527858",
                 "pub.1102718405",
-                "pub.1109111163",
-                "pub.1059978922",
-                "pub.1024617522",
-                "pub.1064200927"
+                "pub.1102379284"
             ],
             "references": [
-                "pub.1102379284",
+                "pub.1024617522",
+                "pub.1064200927",
                 "pub.1058303366",
-                "pub.1003869641",
                 "pub.1078176909",
-                "pub.1000621545",
+                "pub.1003869641",
+                "pub.1059978922",
+                "pub.1109111163",
                 "pub.1058788881",
+                "pub.1000621545",
                 "pub.1064527858",
                 "pub.1102718405",
-                "pub.1109111163",
-                "pub.1059978922",
-                "pub.1024617522",
-                "pub.1064200927"
+                "pub.1102379284"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 4931972,
@@ -1878,9 +1783,6 @@
             "research_org_country_names": [
                 "United States"
             ],
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
             "researchers": [
                 {
                     "first_name": "Bruce D",
@@ -1902,8 +1804,7 @@
                     ]
                 }
             ],
-            "score": 24.854046,
-            "supporting_grant_ids": null,
+            "score": 24.844322,
             "terms": [
                 "consequences",
                 "underreporting",
@@ -1981,10 +1882,8 @@
                 "program effectiveness",
                 "effectiveness"
             ],
-            "times_cited": 0,
             "title": "Using Linked Survey and Administrative Data to Better Measure Income: Implications for Poverty, Program Effectiveness and Holes in the Safety Net",
             "type": "preprint",
-            "volume": null,
             "year": 2015
         },
         "OpenAIRE": {
@@ -2002,7 +1901,6 @@
             "dataset-073",
             "dataset-080"
         ],
-        "doi": "10.2139/ssrn.2692632",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.econstor.eu/bitstream/10419/140639/1/843539461.pdf"
@@ -2031,8 +1929,6 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "547",
@@ -2127,9 +2023,6 @@
                     "researcher_id": "ur.0650305152.28"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -2160,10 +2053,6 @@
                     "name": "Population & Society"
                 }
             ],
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "547",
@@ -2231,15 +2120,12 @@
             "date": "2015-07-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.childyouth.2015.05.006",
-            "field_citation_ratio": 2.54,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 2.5,
             "id": "pub.1039037951",
             "issn": [
                 "0190-7409",
                 "1873-7765"
             ],
-            "issue": null,
             "journal": {
                 "id": "jour.1092724",
                 "title": "Children and Youth Services Review"
@@ -2249,9 +2135,6 @@
                 "Norwegian register level 1",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -2260,9 +2143,6 @@
                 }
             ],
             "pages": "49-56",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Elsevier",
             "recent_citations": 3,
             "reference_ids": [
@@ -2291,7 +2171,6 @@
                 "pub.1058739039",
                 "pub.1102717798"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 5261457,
@@ -2322,7 +2201,16 @@
                     "city_name": "Madison",
                     "country_name": "United States",
                     "id": "grid.14003.36",
-                    "name": "University of Wisconsin\u2013Madison"
+                    "latitude": 43.076694,
+                    "linkout": [
+                        "http://www.wisc.edu/"
+                    ],
+                    "longitude": -89.41244,
+                    "name": "University of Wisconsin\u2013Madison",
+                    "state_name": "Wisconsin",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -2340,14 +2228,13 @@
                     "id": "ur.0650305152.28",
                     "last_name": "Cancian",
                     "research_orgs": [
+                        "grid.28803.31",
                         "grid.213910.8",
-                        "grid.14003.36",
-                        "grid.28803.31"
+                        "grid.14003.36"
                     ]
                 }
             ],
-            "score": 25.25997,
-            "supporting_grant_ids": null,
+            "score": 25.265667,
             "terms": [
                 "child support",
                 "support",
@@ -2409,7 +2296,6 @@
         "datasets": [
             "dataset-081"
         ],
-        "doi": "10.1016/j.childyouth.2015.05.006",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.sciencedirect.com/science/article/pii/S0190740915001553"
@@ -2418,11 +2304,6 @@
     },
     {
         "Dimensions": {
-            "FOR": null,
-            "FOR_first": null,
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
             "altmetric": 6.0,
             "altmetric_id": 8135963,
             "author_affiliations": [
@@ -2485,10 +2366,6 @@
                     "researcher_id": "ur.0725450237.44"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "2216",
@@ -2499,13 +2376,6 @@
                     "name": "1607 Social Work"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
-            "category_ua": null,
             "concepts": [
                 "relationship",
                 "state welfare rules",
@@ -2519,9 +2389,7 @@
             "date": "2015-12-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1086/684530",
-            "field_citation_ratio": 1.88,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 1.85,
             "id": "pub.1058865872",
             "issn": [
                 "0037-7961",
@@ -2537,9 +2405,6 @@
                 "Norwegian register level 1",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -2548,20 +2413,8 @@
                 }
             ],
             "pages": "653-685",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "University of Chicago Press",
             "recent_citations": 2,
-            "reference_ids": null,
-            "references": null,
-            "relative_citation_ratio": null,
-            "research_org_cities": null,
-            "research_org_countries": null,
-            "research_org_country_names": null,
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
             "researchers": [
                 {
                     "first_name": "Andrea",
@@ -2591,8 +2444,7 @@
                     ]
                 }
             ],
-            "score": 22.507214,
-            "supporting_grant_ids": null,
+            "score": 22.4989,
             "terms": [
                 "relationship",
                 "state welfare rules",
@@ -2613,7 +2465,6 @@
             "dataset-027",
             "dataset-082"
         ],
-        "doi": "10.1086/684530",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.journals.uchicago.edu/doi/pdfplus/10.1086/684530"
@@ -2632,13 +2483,6 @@
     },
     {
         "Dimensions": {
-            "FOR": null,
-            "FOR_first": null,
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -2663,18 +2507,6 @@
                     "researcher_id": ""
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
-            "category_for": null,
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
-            "category_ua": null,
             "concepts": [
                 "unemployment insurance",
                 "insurance",
@@ -2686,14 +2518,10 @@
             "date": "2015-01-01",
             "date_inserted": "2018-04-06",
             "doi": "10.2139/ssrn.2660341",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1102440163",
             "issn": [
                 "1556-5068"
             ],
-            "issue": null,
             "journal": {
                 "id": "jour.1276748",
                 "title": "SSRN Electronic Journal"
@@ -2702,7 +2530,6 @@
                 "Norwegian register level 0"
             ],
             "linkout": "https://www.econstor.eu/bitstream/10419/126264/1/835458822.pdf",
-            "mesh_terms": null,
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -2720,24 +2547,8 @@
                     "name": "Green, Submitted"
                 }
             ],
-            "pages": null,
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Elsevier",
-            "recent_citations": null,
-            "reference_ids": null,
-            "references": null,
-            "relative_citation_ratio": null,
-            "research_org_cities": null,
-            "research_org_countries": null,
-            "research_org_country_names": null,
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
-            "researchers": null,
-            "score": 18.356321,
-            "supporting_grant_ids": null,
+            "score": 18.345701,
             "terms": [
                 "unemployment insurance",
                 "insurance",
@@ -2746,10 +2557,8 @@
                 "services",
                 "welfare"
             ],
-            "times_cited": 0,
             "title": "Use of Unemployment Insurance and Public Employment Services after Leaving Welfare",
             "type": "preprint",
-            "volume": null,
             "year": 2015
         },
         "OpenAIRE": {
@@ -2769,7 +2578,6 @@
             "dataset-089",
             "dataset-090"
         ],
-        "doi": "10.2139/ssrn.2660341",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://research.upjohn.org/cgi/viewcontent.cgi?referer=https://scholar.google.com/&httpsredir=1&article=1253&context=up_workingpapers"
@@ -3062,9 +2870,6 @@
                     "researcher_id": "ur.01125140161.73"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -3111,8 +2916,6 @@
                     "name": "7.1 Individual care needs"
                 }
             ],
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "558",
@@ -3241,15 +3044,12 @@
             "date": "2015-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.chiabu.2015.07.006",
-            "field_citation_ratio": 3.76,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 3.7,
             "id": "pub.1003041892",
             "issn": [
                 "0145-2134",
                 "1873-7757"
             ],
-            "issue": null,
             "journal": {
                 "id": "jour.1087229",
                 "title": "Child Abuse & Neglect"
@@ -3261,7 +3061,6 @@
                 "VABB-SHW",
                 "PubMed"
             ],
-            "linkout": null,
             "mesh_terms": [
                 "Adolescent",
                 "Child",
@@ -3281,7 +3080,6 @@
                 "Substance-Related Disorders",
                 "United States"
             ],
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -3290,9 +3088,7 @@
                 }
             ],
             "pages": "48-58",
-            "pmcid": null,
             "pmid": "26234784",
-            "proceedings_title": null,
             "publisher": "Elsevier",
             "recent_citations": 8,
             "reference_ids": [
@@ -3398,7 +3194,16 @@
                     "city_name": "Olympia",
                     "country_name": "United States",
                     "id": "grid.422519.9",
-                    "name": "Washington Department of Social and Health Services"
+                    "latitude": 47.038376,
+                    "linkout": [
+                        "https://www.dshs.wa.gov/"
+                    ],
+                    "longitude": -122.901764,
+                    "name": "Washington Department of Social and Health Services",
+                    "state_name": "Washington",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "researchers": [
@@ -3439,8 +3244,7 @@
                     ]
                 }
             ],
-            "score": 23.96507,
-            "supporting_grant_ids": null,
+            "score": 23.956827,
             "terms": [
                 "study",
                 "contribution",
@@ -3529,13 +3333,11 @@
                 "Mancuso D."
             ],
             "doi": "10.1016/j.chiabu.2015.07.006",
-            "journal": "Child Abuse Negl",
-            "pmcid": null
+            "journal": "Child Abuse Negl"
         },
         "datasets": [
             "dataset-091"
         ],
-        "doi": "10.1016/j.chiabu.2015.07.006",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.sciencedirect.com/science/article/pii/S0145213415002355?via%3Dihub"
@@ -3544,11 +3346,6 @@
     },
     {
         "Dimensions": {
-            "FOR": null,
-            "FOR_first": null,
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
             "altmetric": 51.0,
             "altmetric_id": 2359266,
             "author_affiliations": [
@@ -3689,10 +3486,6 @@
                     "researcher_id": "ur.01237226226.02"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "2214",
@@ -3703,13 +3496,6 @@
                     "name": "15 Commerce, Management, Tourism and Services"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
-            "category_ua": null,
             "concepts": [
                 "impact of Medicaid",
                 "impact",
@@ -3725,7 +3511,6 @@
             "date": "2014-05-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1257/aer.104.5.322",
-            "field_citation_ratio": null,
             "funder_countries": [
                 {
                     "id": "US",
@@ -3738,7 +3523,16 @@
                     "city_name": "Baltimore",
                     "country_name": "United States",
                     "id": "grid.419475.a",
-                    "name": "National Institute on Aging"
+                    "latitude": 39.003796,
+                    "linkout": [
+                        "https://www.nia.nih.gov/"
+                    ],
+                    "longitude": -77.101166,
+                    "name": "National Institute on Aging",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1064526281",
@@ -3788,24 +3582,23 @@
             "pages": "322-328",
             "pmcid": "PMC4145849",
             "pmid": "25177042",
-            "proceedings_title": null,
             "publisher": "American Economic Association",
-            "recent_citations": 31,
+            "recent_citations": 33,
             "reference_ids": [
-                "pub.1006686297",
-                "pub.1070143933",
-                "pub.1022890087",
-                "pub.1026491548",
                 "pub.1062469099",
-                "pub.1059983339"
+                "pub.1022890087",
+                "pub.1006686297",
+                "pub.1026491548",
+                "pub.1059983339",
+                "pub.1070143933"
             ],
             "references": [
-                "pub.1006686297",
-                "pub.1070143933",
-                "pub.1022890087",
-                "pub.1026491548",
                 "pub.1062469099",
-                "pub.1059983339"
+                "pub.1022890087",
+                "pub.1006686297",
+                "pub.1026491548",
+                "pub.1059983339",
+                "pub.1070143933"
             ],
             "relative_citation_ratio": 1.93,
             "research_org_cities": [
@@ -3862,14 +3655,32 @@
                     "city_name": "Cambridge",
                     "country_name": "United States",
                     "id": "grid.250279.b",
-                    "name": "National Bureau of Economic Research"
+                    "latitude": 42.37206,
+                    "linkout": [
+                        "http://www.nber.org/"
+                    ],
+                    "longitude": -71.11575,
+                    "name": "National Bureau of Economic Research",
+                    "state_name": "Massachusetts",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 },
                 {
                     "acronym": "MIT",
                     "city_name": "Cambridge",
                     "country_name": "United States",
                     "id": "grid.116068.8",
-                    "name": "Massachusetts Institute of Technology"
+                    "latitude": 42.35982,
+                    "linkout": [
+                        "http://web.mit.edu/"
+                    ],
+                    "longitude": -71.09211,
+                    "name": "Massachusetts Institute of Technology",
+                    "state_name": "Massachusetts",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -3878,25 +3689,25 @@
                     "id": "ur.01326162467.15",
                     "last_name": "Baicker",
                     "research_orgs": [
-                        "grid.189504.1",
-                        "grid.250279.b",
-                        "grid.38142.3c",
-                        "grid.19006.3e",
                         "grid.254880.3",
+                        "grid.38142.3c",
                         "grid.170205.1",
-                        "grid.116068.8"
+                        "grid.189504.1",
+                        "grid.116068.8",
+                        "grid.19006.3e",
+                        "grid.250279.b"
                     ]
                 },
                 {
-                    "first_name": "Amy N",
+                    "first_name": "Amy Nadya",
                     "id": "ur.01200276476.40",
                     "last_name": "Finkelstein",
                     "research_orgs": [
-                        "grid.38142.3c",
-                        "grid.168010.e",
-                        "grid.205975.c",
                         "grid.116068.8",
-                        "grid.250279.b"
+                        "grid.168010.e",
+                        "grid.38142.3c",
+                        "grid.250279.b",
+                        "grid.205975.c"
                     ]
                 },
                 {
@@ -3911,7 +3722,7 @@
                     ]
                 }
             ],
-            "score": 26.356928,
+            "score": 26.345915,
             "supporting_grant_ids": [
                 "grant.2438599",
                 "grant.2448588",
@@ -3929,7 +3740,7 @@
                 "Oregon Health Insurance Experiment",
                 "Health Insurance Experiment"
             ],
-            "times_cited": 69,
+            "times_cited": 71,
             "title": "The Impact of Medicaid on Labor Market Activity and Program Participation: Evidence from the Oregon Health Insurance Experiment.",
             "type": "article",
             "volume": "104",
@@ -3963,7 +3774,6 @@
             "dataset-093",
             "dataset-094"
         ],
-        "doi": "10.1257/aer.104.5.322",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://pubs.aeaweb.org/doi/pdfplus/10.1257/aer.104.5.322"
@@ -4003,8 +3813,6 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "507",
@@ -4139,10 +3947,6 @@
                     "researcher_id": "ur.013176512605.51"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3416",
@@ -4167,10 +3971,6 @@
                     "name": "Population & Society"
                 }
             ],
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "507",
@@ -4251,15 +4051,12 @@
             "date": "2014-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.childyouth.2013.10.022",
-            "field_citation_ratio": 4.34,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 4.3,
             "id": "pub.1042652837",
             "issn": [
                 "0190-7409",
                 "1873-7765"
             ],
-            "issue": null,
             "journal": {
                 "id": "jour.1092724",
                 "title": "Children and Youth Services Review"
@@ -4269,9 +4066,6 @@
                 "Norwegian register level 1",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -4280,9 +4074,6 @@
                 }
             ],
             "pages": "1-14",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Elsevier",
             "recent_citations": 3,
             "reference_ids": [
@@ -4317,7 +4108,6 @@
                 "pub.1060042664",
                 "pub.1058801414"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 5261457,
@@ -4357,14 +4147,32 @@
                     "city_name": "Madison",
                     "country_name": "United States",
                     "id": "grid.14003.36",
-                    "name": "University of Wisconsin\u2013Madison"
+                    "latitude": 43.076694,
+                    "linkout": [
+                        "http://www.wisc.edu/"
+                    ],
+                    "longitude": -89.41244,
+                    "name": "University of Wisconsin\u2013Madison",
+                    "state_name": "Wisconsin",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UIUC",
                     "city_name": "Urbana",
                     "country_name": "United States",
                     "id": "grid.35403.31",
-                    "name": "University of Illinois at Urbana Champaign"
+                    "latitude": 40.10218,
+                    "linkout": [
+                        "http://illinois.edu/"
+                    ],
+                    "longitude": -88.227196,
+                    "name": "University of Illinois at Urbana Champaign",
+                    "state_name": "Illinois",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -4373,8 +4181,8 @@
                     "id": "ur.016341345607.12",
                     "last_name": "Wu",
                     "research_orgs": [
-                        "grid.14003.36",
-                        "grid.35403.31"
+                        "grid.35403.31",
+                        "grid.14003.36"
                     ]
                 },
                 {
@@ -4382,9 +4190,9 @@
                     "id": "ur.0650305152.28",
                     "last_name": "Cancian",
                     "research_orgs": [
+                        "grid.28803.31",
                         "grid.213910.8",
-                        "grid.14003.36",
-                        "grid.28803.31"
+                        "grid.14003.36"
                     ]
                 },
                 {
@@ -4396,8 +4204,7 @@
                     ]
                 }
             ],
-            "score": 20.480335,
-            "supporting_grant_ids": null,
+            "score": 20.477571,
             "terms": [
                 "longitudinal administrative data",
                 "administrative data",
@@ -4472,7 +4279,6 @@
         "datasets": [
             "dataset-101"
         ],
-        "doi": "10.1016/j.childyouth.2013.10.022",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.sciencedirect.com/science/article/pii/S0190740913003356"
@@ -4518,16 +4324,12 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "547",
                     "name": "Pediatric"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -4586,10 +4388,6 @@
                     "researcher_id": ""
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3416",
@@ -4608,11 +4406,6 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "547",
@@ -4670,14 +4463,10 @@
             "date": "2011-01-01",
             "date_inserted": "2018-04-06",
             "doi": "10.2139/ssrn.2019759",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1102334094",
             "issn": [
                 "1556-5068"
             ],
-            "issue": null,
             "journal": {
                 "id": "jour.1276748",
                 "title": "SSRN Electronic Journal"
@@ -4685,9 +4474,6 @@
             "journal_lists": [
                 "Norwegian register level 0"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "Article is freely available",
@@ -4700,15 +4486,7 @@
                     "name": "Green, Submitted"
                 }
             ],
-            "pages": null,
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Elsevier",
-            "recent_citations": null,
-            "reference_ids": null,
-            "references": null,
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 2965768,
@@ -4724,12 +4502,7 @@
             "research_org_country_names": [
                 "Ireland"
             ],
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
-            "researchers": null,
-            "score": 28.7076,
-            "supporting_grant_ids": null,
+            "score": 28.694145,
             "terms": [
                 "report",
                 "Four-year results",
@@ -4772,10 +4545,8 @@
                 "TANF recipients",
                 "test"
             ],
-            "times_cited": 0,
             "title": "Alternative Employment Strategies for Hard-to-Employ TANF Recipients: Final Results from a Test of Transitional Jobs and Preemployment Services in Philadelphia",
             "type": "preprint",
-            "volume": null,
             "year": 2011
         },
         "datasets": [
@@ -4783,7 +4554,6 @@
             "dataset-111",
             "dataset-274"
         ],
-        "doi": "10.2139/ssrn.2019759",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.mdrc.org/sites/default/files/full_18.pdf"
@@ -4830,16 +4600,12 @@
                     "name": "14 Economics"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "507",
                     "name": "Clinical Research"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -4926,10 +4692,6 @@
                     "researcher_id": ""
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3292",
@@ -4940,11 +4702,6 @@
                     "name": "14 Economics"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "507",
@@ -5007,9 +4764,7 @@
             "date": "2011-05-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.childyouth.2010.10.009",
-            "field_citation_ratio": 3.81,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 3.79,
             "id": "pub.1014486305",
             "issn": [
                 "0190-7409",
@@ -5025,9 +4780,6 @@
                 "Norwegian register level 1",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -5036,9 +4788,6 @@
                 }
             ],
             "pages": "588-597",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Elsevier",
             "recent_citations": 3,
             "reference_ids": [
@@ -5107,7 +4856,6 @@
                 "pub.1045112046",
                 "pub.1034856015"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 5261457,
@@ -5138,12 +4886,19 @@
                     "city_name": "Madison",
                     "country_name": "United States",
                     "id": "grid.14003.36",
-                    "name": "University of Wisconsin\u2013Madison"
+                    "latitude": 43.076694,
+                    "linkout": [
+                        "http://www.wisc.edu/"
+                    ],
+                    "longitude": -89.41244,
+                    "name": "University of Wisconsin\u2013Madison",
+                    "state_name": "Wisconsin",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
-            "researchers": null,
-            "score": 20.932611,
-            "supporting_grant_ids": null,
+            "score": 20.93414,
             "terms": [
                 "reform research",
                 "research",
@@ -5201,7 +4956,6 @@
             "dataset-063",
             "dataset-120"
         ],
-        "doi": "10.1016/j.childyouth.2010.10.009",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.sciencedirect.com/science/article/pii/S0190740910003439"
@@ -5233,8 +4987,6 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "507",
@@ -5245,8 +4997,6 @@
                     "name": "Pediatric"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -5307,9 +5057,6 @@
                     "researcher_id": ""
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -5332,10 +5079,6 @@
                     "name": "Population & Society"
                 }
             ],
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "507",
@@ -5400,8 +5143,6 @@
             "date_inserted": "2017-08-31",
             "doi": "10.1080/0145935x.2011.605305",
             "field_citation_ratio": 0.19,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1017636882",
             "issn": [
                 "0145-935X",
@@ -5416,9 +5157,6 @@
                 "ERA 2015",
                 "Norwegian register level 1"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -5427,11 +5165,7 @@
                 }
             ],
             "pages": "180-199",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Taylor & Francis",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1048620458",
                 "pub.1058639622",
@@ -5472,16 +5206,7 @@
                 "pub.1058790610",
                 "pub.1007524993"
             ],
-            "relative_citation_ratio": null,
-            "research_org_cities": null,
-            "research_org_countries": null,
-            "research_org_country_names": null,
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
-            "researchers": null,
-            "score": 17.889816,
-            "supporting_grant_ids": null,
+            "score": 17.89674,
             "terms": [
                 "most research",
                 "research",
@@ -5536,7 +5261,6 @@
             "dataset-128",
             "dataset-129"
         ],
-        "doi": "10.1080/0145935x.2011.605305",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.tandfonline.com/doi/full/10.1080/0145935X.2011.605305"
@@ -5557,11 +5281,6 @@
                     "name": "15 Commerce, Management, Tourism and Services"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -5622,10 +5341,6 @@
                     "researcher_id": "ur.010520460760.94"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "2216",
@@ -5636,12 +5351,6 @@
                     "name": "1607 Social Work"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
             "category_ua": [
                 {
                     "id": "30023",
@@ -5689,9 +5398,7 @@
             "date": "2011-04-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/15588742.2011.555324",
-            "field_citation_ratio": 1.09,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 1.1,
             "id": "pub.1004265725",
             "issn": [
                 "1558-8742",
@@ -5705,9 +5412,6 @@
             "journal_lists": [
                 "ERA 2015"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -5716,11 +5420,7 @@
                 }
             ],
             "pages": "108-127",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Taylor & Francis",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1043695021",
                 "pub.1058784375",
@@ -5751,13 +5451,6 @@
                 "pub.1019507765",
                 "pub.1046962950"
             ],
-            "relative_citation_ratio": null,
-            "research_org_cities": null,
-            "research_org_countries": null,
-            "research_org_country_names": null,
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
             "researchers": [
                 {
                     "first_name": "Belinda Creel",
@@ -5773,7 +5466,8 @@
                     "id": "ur.014256072375.12",
                     "last_name": "Lim",
                     "research_orgs": [
-                        "grid.64337.35"
+                        "grid.64337.35",
+                        "grid.251313.7"
                     ]
                 },
                 {
@@ -5785,8 +5479,7 @@
                     ]
                 }
             ],
-            "score": 31.93637,
-            "supporting_grant_ids": null,
+            "score": 31.940514,
             "terms": [
                 "study",
                 "work activities",
@@ -5834,7 +5527,6 @@
         "datasets": [
             "dataset-130"
         ],
-        "doi": "10.1080/15588742.2011.555324",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.tandfonline.com/doi/abs/10.1080/15588742.2011.555324"
@@ -5895,11 +5587,6 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -5972,10 +5659,6 @@
                     "researcher_id": "ur.014071106546.37"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "2214",
@@ -6002,12 +5685,6 @@
                     "name": "1402 Applied Economics"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
             "category_ua": [
                 {
                     "id": "30016",
@@ -6050,13 +5727,10 @@
             "date_inserted": "2018-04-06",
             "doi": "10.2139/ssrn.830905",
             "field_citation_ratio": 0.65,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1102213373",
             "issn": [
                 "1556-5068"
             ],
-            "issue": null,
             "journal": {
                 "id": "jour.1276748",
                 "title": "SSRN Electronic Journal"
@@ -6065,7 +5739,6 @@
                 "Norwegian register level 0"
             ],
             "linkout": "http://econ-www.mit.edu/files/596/",
-            "mesh_terms": null,
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -6083,12 +5756,7 @@
                     "name": "Green, Submitted"
                 }
             ],
-            "pages": null,
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Elsevier",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1099498252",
                 "pub.1041068281"
@@ -6097,7 +5765,6 @@
                 "pub.1099498252",
                 "pub.1041068281"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 4997787,
@@ -6131,7 +5798,16 @@
                     "city_name": "Kalamazoo",
                     "country_name": "United States",
                     "id": "grid.438996.9",
-                    "name": "W.E. Upjohn Institute for Employment Research"
+                    "latitude": 42.28943,
+                    "linkout": [
+                        "http://www.upjohn.org/"
+                    ],
+                    "longitude": -85.59019,
+                    "name": "W.E. Upjohn Institute for Employment Research",
+                    "state_name": "Michigan",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 }
             ],
             "researchers": [
@@ -6149,8 +5825,7 @@
                     ]
                 }
             ],
-            "score": 29.774975,
-            "supporting_grant_ids": null,
+            "score": 29.767523,
             "terms": [
                 "jobs",
                 "rapid entry",
@@ -6186,14 +5861,12 @@
             "times_cited": 2,
             "title": "Do Temporary-Help Jobs Improve Labor Market Outcomes for Low-Skilled Workers? Evidence from 'Work First'",
             "type": "preprint",
-            "volume": null,
             "year": 2009
         },
         "datasets": [
             "dataset-076",
             "dataset-075"
         ],
-        "doi": "10.2139/ssrn.830905",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://economics.mit.edu/files/596"
@@ -6280,11 +5953,6 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -6357,10 +6025,6 @@
                     "researcher_id": "ur.07765270647.15"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3416",
@@ -6371,12 +6035,6 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
             "category_ua": [
                 {
                     "id": "30016",
@@ -6405,9 +6063,6 @@
             "date": "2009-04-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1111/j.1465-7287.2008.00122.x",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1033463401",
             "issn": [
                 "1074-3529",
@@ -6423,9 +6078,6 @@
                 "ERA 2015",
                 "Norwegian register level 1"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -6434,11 +6086,7 @@
                 }
             ],
             "pages": "137-146",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Wiley",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1069640134",
                 "pub.1069972416",
@@ -6479,7 +6127,6 @@
                 "pub.1058791597",
                 "pub.1004701676"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 4174715,
@@ -6515,7 +6162,16 @@
                     "city_name": "Atlanta",
                     "country_name": "United States",
                     "id": "grid.256304.6",
-                    "name": "Georgia State University"
+                    "latitude": 33.75278,
+                    "linkout": [
+                        "http://www.gsu.edu/"
+                    ],
+                    "longitude": -84.38611,
+                    "name": "Georgia State University",
+                    "state_name": "Georgia",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -6528,8 +6184,7 @@
                     ]
                 }
             ],
-            "score": 23.675615,
-            "supporting_grant_ids": null,
+            "score": 23.67495,
             "terms": [
                 "article",
                 "state administrative data",
@@ -6549,7 +6204,6 @@
                 "insights",
                 "personnel"
             ],
-            "times_cited": 0,
             "title": "JOB SEPARATION OUTCOMES OF WELFARE HIRES: INSIGHT FROM LINKED PERSONNEL AND STATE ADMINISTRATIVE DATA",
             "type": "article",
             "volume": "27",
@@ -6559,7 +6213,6 @@
             "dataset-138",
             "dataset-139"
         ],
-        "doi": "10.1111/j.1465-7287.2008.00122.x",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1465-7287.2008.00122.x"
@@ -6618,8 +6271,6 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "507",
@@ -6630,8 +6281,6 @@
                     "name": "Aging"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -6758,10 +6407,6 @@
                     "researcher_id": "ur.01076052262.74"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3177",
@@ -6778,10 +6423,6 @@
                     "name": "Population & Society"
                 }
             ],
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "507",
@@ -6853,9 +6494,7 @@
             "date": "2008-06-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1093/swr/32.2.89",
-            "field_citation_ratio": 2.74,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 2.72,
             "id": "pub.1060043814",
             "issn": [
                 "1070-5309",
@@ -6870,9 +6509,6 @@
                 "Norwegian register level 2",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -6881,9 +6517,6 @@
                 }
             ],
             "pages": "89-103",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Oxford University Press (OUP)",
             "recent_citations": 1,
             "reference_ids": [
@@ -6916,7 +6549,6 @@
                 "pub.1063348858",
                 "pub.1058712377"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 5261457,
@@ -6956,14 +6588,32 @@
                     "city_name": "Urbana",
                     "country_name": "United States",
                     "id": "grid.35403.31",
-                    "name": "University of Illinois at Urbana Champaign"
+                    "latitude": 40.10218,
+                    "linkout": [
+                        "http://illinois.edu/"
+                    ],
+                    "longitude": -88.227196,
+                    "name": "University of Illinois at Urbana Champaign",
+                    "state_name": "Illinois",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UW",
                     "city_name": "Madison",
                     "country_name": "United States",
                     "id": "grid.14003.36",
-                    "name": "University of Wisconsin\u2013Madison"
+                    "latitude": 43.076694,
+                    "linkout": [
+                        "http://www.wisc.edu/"
+                    ],
+                    "longitude": -89.41244,
+                    "name": "University of Wisconsin\u2013Madison",
+                    "state_name": "Wisconsin",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -6972,8 +6622,8 @@
                     "id": "ur.016341345607.12",
                     "last_name": "Wu",
                     "research_orgs": [
-                        "grid.14003.36",
-                        "grid.35403.31"
+                        "grid.35403.31",
+                        "grid.14003.36"
                     ]
                 },
                 {
@@ -6981,9 +6631,9 @@
                     "id": "ur.0650305152.28",
                     "last_name": "Cancian",
                     "research_orgs": [
+                        "grid.28803.31",
                         "grid.213910.8",
-                        "grid.14003.36",
-                        "grid.28803.31"
+                        "grid.14003.36"
                     ]
                 },
                 {
@@ -6991,14 +6641,13 @@
                     "id": "ur.01076052262.74",
                     "last_name": "Meyer",
                     "research_orgs": [
+                        "grid.89336.37",
                         "grid.35403.31",
-                        "grid.14003.36",
-                        "grid.89336.37"
+                        "grid.14003.36"
                     ]
                 }
             ],
-            "score": 26.494677,
-            "supporting_grant_ids": null,
+            "score": 26.495245,
             "terms": [
                 "study",
                 "employment",
@@ -7061,7 +6710,6 @@
             "dataset-065",
             "dataset-063"
         ],
-        "doi": "10.1093/swr/32.2.89",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://watermark.silverchair.com/32-2-89.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAnkwggJ1BgkqhkiG9w0BBwagggJmMIICYgIBADCCAlsGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMLu2aWfPC-li0xw3rAgEQgIICLJ9QXpCQM5L3e3Fy8DQfzunG3vbjlt9Dwrdr8akP7pxatuGDWxXay96zpHrRpXgOrpOEOzectRTsgZwDTQz7Xy3XtpqDmRILx4AYm9X83ts4uiDUKrw9kJNnrhic3UhLqTAxqtiXmBcO984_HtnBj3phY4uE18gJuQ9V5WuJYU_rZNyAUprcfyJVDiYsBGVYacJ2v10HwEeGOh33hXvdn4e2ofA7RVxiwYVd2jGVM9qd6NeuG4Jw52jad-2YMIL6iOdTnWD7VwsACzX5dVlD1cH2OR-X7J7yFAw8Cg0-l1srNqHI2jtYcvLxA60XqBUp0zDMGg12G2h9WKq_9CjFWAHgU1aBJIAGMqPfyb2lHl87r24ySXARpZhpFt9cdLHcmfAfSZWcIaN1ataZgEuHZ_lyFPGKuwo7nY6Z_c1t_408ydypKEDrbCbsQ9k_JydVf-J-tdKF4XiD51xiSfbjJawfgdwANZHwCD6EI2wG0Y144wHRSJovyNWBx5s8xPlfemyEg9B-z4dNDQtcotebpdUUcdW2UDjfID_QAQASu-VxVy-3j0QeiqaxfdgP7RdQr9G5GLtrUG9dQ5VdCCp5C6c-e4yvavcEKF4vDxf7ec4U8DQqd9tINH9IHJ9jw--Mbb-OpW2n2IAHeWT3j-Cl3x53lbhUojYOYr2Un8rc5u4R0PfXTUyXLQkLyaVstRbLRGJSOdES_n-u8nnqWsT70yXbaBCIjaeQHsT-HzQ"
@@ -7114,11 +6762,6 @@
                     "name": "14 Economics"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -7245,9 +6888,6 @@
                     "researcher_id": ""
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -7278,11 +6918,6 @@
                     "name": "Population & Society"
                 }
             ],
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
             "category_ua": [
                 {
                     "id": "30020",
@@ -7333,9 +6968,7 @@
             "date": "2008-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1002/pam.20328",
-            "field_citation_ratio": 8.85,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 8.83,
             "id": "pub.1037312614",
             "issn": [
                 "0276-8739",
@@ -7352,9 +6985,6 @@
                 "Norwegian register level 2",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -7363,9 +6993,6 @@
                 }
             ],
             "pages": "354-375",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Wiley",
             "recent_citations": 5,
             "reference_ids": [
@@ -7402,7 +7029,6 @@
                 "pub.1102718301",
                 "pub.1102717798"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 5261457,
@@ -7433,7 +7059,16 @@
                     "city_name": "Madison",
                     "country_name": "United States",
                     "id": "grid.14003.36",
-                    "name": "University of Wisconsin\u2013Madison"
+                    "latitude": 43.076694,
+                    "linkout": [
+                        "http://www.wisc.edu/"
+                    ],
+                    "longitude": -89.41244,
+                    "name": "University of Wisconsin\u2013Madison",
+                    "state_name": "Wisconsin",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -7442,9 +7077,9 @@
                     "id": "ur.0650305152.28",
                     "last_name": "Cancian",
                     "research_orgs": [
+                        "grid.28803.31",
                         "grid.213910.8",
-                        "grid.14003.36",
-                        "grid.28803.31"
+                        "grid.14003.36"
                     ]
                 },
                 {
@@ -7452,14 +7087,13 @@
                     "id": "ur.01076052262.74",
                     "last_name": "Meyer",
                     "research_orgs": [
+                        "grid.89336.37",
                         "grid.35403.31",
-                        "grid.14003.36",
-                        "grid.89336.37"
+                        "grid.14003.36"
                     ]
                 }
             ],
-            "score": 18.483877,
-            "supporting_grant_ids": null,
+            "score": 18.480133,
             "terms": [
                 "most states",
                 "state",
@@ -7511,7 +7145,6 @@
             "dataset-101",
             "dataset-149"
         ],
-        "doi": "10.1002/pam.20328",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/pam.20328"
@@ -7544,8 +7177,6 @@
                     "name": "14 Economics"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "443",
@@ -7564,8 +7195,6 @@
                     "name": "Behavioral and Social Science"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -7644,10 +7273,6 @@
                     "researcher_id": "ur.015176740611.46"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3292",
@@ -7658,11 +7283,6 @@
                     "name": "14 Economics"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "443",
@@ -7738,9 +7358,7 @@
             "date": "2007-05-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/00036840500461865",
-            "field_citation_ratio": 2.92,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 2.91,
             "id": "pub.1028939445",
             "issn": [
                 "0003-6846",
@@ -7755,9 +7373,6 @@
                 "ERA 2015",
                 "Norwegian register level 1"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -7766,11 +7381,7 @@
                 }
             ],
             "pages": "1021-1036",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Taylor & Francis",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1064523886",
                 "pub.1071225288",
@@ -7847,13 +7458,6 @@
                 "pub.1058668703",
                 "pub.1029221288"
             ],
-            "relative_citation_ratio": null,
-            "research_org_cities": null,
-            "research_org_countries": null,
-            "research_org_country_names": null,
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
             "researchers": [
                 {
                     "first_name": "Dan",
@@ -7893,8 +7497,7 @@
                     ]
                 }
             ],
-            "score": 17.110052,
-            "supporting_grant_ids": null,
+            "score": 17.109617,
             "terms": [
                 "work choices",
                 "choice",
@@ -7956,7 +7559,6 @@
             "dataset-159",
             "dataset-160"
         ],
-        "doi": "10.1080/00036840500461865",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.tandfonline.com/doi/full/10.1080/00036840500461865"
@@ -7977,16 +7579,12 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "507",
                     "name": "Clinical Research"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -8045,9 +7643,6 @@
                     "researcher_id": "ur.0624660065.94"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -8070,10 +7665,6 @@
                     "name": "Population & Society"
                 }
             ],
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "507",
@@ -8116,9 +7707,7 @@
             "date": "2007-07-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1606/1044-3894.3647",
-            "field_citation_ratio": 8.29,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 8.26,
             "id": "pub.1051422838",
             "issn": [
                 "1044-3894",
@@ -8133,9 +7722,6 @@
                 "Norwegian register level 1",
                 "ERA 2015"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -8144,9 +7730,6 @@
                 }
             ],
             "pages": "379-389",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "SAGE Publications",
             "recent_citations": 5,
             "reference_ids": [
@@ -8165,7 +7748,6 @@
                 "pub.1025396515",
                 "pub.1064523790"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 4887398,
@@ -8181,9 +7763,6 @@
             "research_org_country_names": [
                 "United States"
             ],
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
             "researchers": [
                 {
                     "first_name": "Amy Lynn",
@@ -8206,8 +7785,7 @@
                     ]
                 }
             ],
-            "score": 21.686659,
-            "supporting_grant_ids": null,
+            "score": 21.688807,
             "terms": [
                 "article",
                 "potential barrier",
@@ -8245,7 +7823,6 @@
             "dataset-065",
             "dataset-063"
         ],
-        "doi": "10.1606/1044-3894.3647",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://pdfs.semanticscholar.org/53bd/a61381108bb196ada4e6be37dc186c424e60.pdf"
@@ -8298,8 +7875,6 @@
                     "name": "14 Economics"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "497",
@@ -8310,8 +7885,6 @@
                     "name": "Behavioral and Social Science"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -8398,10 +7971,6 @@
                     "researcher_id": ""
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "2216",
@@ -8412,11 +7981,6 @@
                     "name": "1603 Demography"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "497",
@@ -8489,8 +8053,6 @@
             "date_inserted": "2017-08-31",
             "doi": "10.1007/s11113-009-9152-7",
             "field_citation_ratio": 0.68,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1011039857",
             "issn": [
                 "0167-5923",
@@ -8507,7 +8069,6 @@
                 "VABB-SHW"
             ],
             "linkout": "http://www.ubalt.edu/jfi/jfi/reports/Herbst_StevensFINAL111307.pdf",
-            "mesh_terms": null,
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -8526,9 +8087,6 @@
                 }
             ],
             "pages": "453-479",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Springer Nature",
             "recent_citations": 2,
             "reference_ids": [
@@ -8599,7 +8157,6 @@
                 "pub.1014402333",
                 "pub.1031746796"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 5317058,
@@ -8639,14 +8196,32 @@
                     "city_name": "Baltimore",
                     "country_name": "United States",
                     "id": "grid.265990.1",
-                    "name": "University of Baltimore"
+                    "latitude": 39.305557,
+                    "linkout": [
+                        "http://www.ubalt.edu/index.cfm"
+                    ],
+                    "longitude": -76.61694,
+                    "name": "University of Baltimore",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "ASU",
                     "city_name": "Tempe",
                     "country_name": "United States",
                     "id": "grid.215654.1",
-                    "name": "Arizona State University"
+                    "latitude": 33.417194,
+                    "linkout": [
+                        "http://www.asu.edu/"
+                    ],
+                    "longitude": -111.93651,
+                    "name": "Arizona State University",
+                    "state_name": "Arizona",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -8659,8 +8234,7 @@
                     ]
                 }
             ],
-            "score": 25.627031,
-            "supporting_grant_ids": null,
+            "score": 25.61857,
             "terms": [
                 "administrative data",
                 "data",
@@ -8724,7 +8298,6 @@
             "dataset-166",
             "dataset-170"
         ],
-        "doi": "10.1007/s11113-009-9152-7",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "http://www.ubalt.edu/jfi/jfi/reports/Herbst_StevensFINAL111307.pdf"
@@ -8780,8 +8353,6 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "507",
@@ -8796,8 +8367,6 @@
                     "name": "Health Services"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -8870,10 +8439,6 @@
                     "researcher_id": "ur.013747777422.69"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3416",
@@ -8892,11 +8457,6 @@
                     "name": "14 Economics"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "507",
@@ -8947,8 +8507,6 @@
             "date_inserted": "2017-08-31",
             "doi": "10.1002/pam.20230",
             "field_citation_ratio": 0.63,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1012916037",
             "issn": [
                 "0276-8739",
@@ -8965,9 +8523,6 @@
                 "Norwegian register level 2",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -8976,11 +8531,7 @@
                 }
             ],
             "pages": "125-148",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Wiley",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1063348817",
                 "pub.1037091841",
@@ -9001,7 +8552,6 @@
                 "pub.1068328835",
                 "pub.1058668703"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 5037649,
@@ -9040,7 +8590,16 @@
                     "city_name": "Minneapolis",
                     "country_name": "United States",
                     "id": "grid.437349.e",
-                    "name": "University of Minnesota System"
+                    "latitude": 44.974747,
+                    "linkout": [
+                        "http://twin-cities.umn.edu/"
+                    ],
+                    "longitude": -93.23535,
+                    "name": "University of Minnesota System",
+                    "state_name": "Minnesota",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -9059,8 +8618,7 @@
                     ]
                 }
             ],
-            "score": 33.840424,
-            "supporting_grant_ids": null,
+            "score": 33.830544,
             "terms": [
                 "paper",
                 "utilization",
@@ -9097,7 +8655,6 @@
             "dataset-107",
             "dataset-176"
         ],
-        "doi": "10.1002/pam.20230",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/pam.20230"
@@ -9160,7 +8717,6 @@
                     "name": "Generic Health Relevance"
                 }
             ],
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "507",
@@ -9171,8 +8727,6 @@
                     "name": "Health Services"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -9339,9 +8893,6 @@
                     "researcher_id": ""
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -9382,9 +8933,6 @@
                     "name": "Generic Health Relevance"
                 }
             ],
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "507",
@@ -9475,7 +9023,7 @@
             "date": "2006-11-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.jhealeco.2005.12.005",
-            "field_citation_ratio": 1.51,
+            "field_citation_ratio": 1.5,
             "funder_countries": [
                 {
                     "id": "US",
@@ -9488,14 +9036,32 @@
                     "city_name": "Baltimore",
                     "country_name": "United States",
                     "id": "grid.478258.4",
-                    "name": "Annie E. Casey Foundation"
+                    "latitude": 39.297794,
+                    "linkout": [
+                        "http://www.aecf.org/"
+                    ],
+                    "longitude": -76.61376,
+                    "name": "Annie E. Casey Foundation",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 },
                 {
                     "acronym": "RWJF",
                     "city_name": "Princeton",
                     "country_name": "United States",
                     "id": "grid.419213.c",
-                    "name": "Robert Wood Johnson Foundation"
+                    "latitude": 40.353897,
+                    "linkout": [
+                        "http://www.rwjf.org/"
+                    ],
+                    "longitude": -74.606094,
+                    "name": "Robert Wood Johnson Foundation",
+                    "state_name": "New Jersey",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 }
             ],
             "id": "pub.1013832383",
@@ -9549,11 +9115,8 @@
                 }
             ],
             "pages": "1170-1192",
-            "pmcid": null,
             "pmid": "16516989",
-            "proceedings_title": null,
             "publisher": "Elsevier",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1004554405",
                 "pub.1025597086",
@@ -9603,7 +9166,16 @@
                     "city_name": "Madison",
                     "country_name": "United States",
                     "id": "grid.14003.36",
-                    "name": "University of Wisconsin\u2013Madison"
+                    "latitude": 43.076694,
+                    "linkout": [
+                        "http://www.wisc.edu/"
+                    ],
+                    "longitude": -89.41244,
+                    "name": "University of Wisconsin\u2013Madison",
+                    "state_name": "Wisconsin",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -9639,8 +9211,7 @@
                     ]
                 }
             ],
-            "score": 24.771149,
-            "supporting_grant_ids": null,
+            "score": 24.776495,
             "terms": [
                 "program",
                 "public health insurance eligibility",
@@ -9726,14 +9297,12 @@
                 "Cho Y."
             ],
             "doi": "10.1016/j.jhealeco.2005.12.005",
-            "journal": "J Health Econ",
-            "pmcid": null
+            "journal": "J Health Econ"
         },
         "datasets": [
             "dataset-120",
             "dataset-063"
         ],
-        "doi": "10.1016/j.jhealeco.2005.12.005",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167629606000063"
@@ -9754,11 +9323,6 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -9945,10 +9509,6 @@
                     "researcher_id": "ur.013176512605.51"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3177",
@@ -9959,12 +9519,6 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
             "category_ua": [
                 {
                     "id": "30020",
@@ -10008,9 +9562,7 @@
             "date": "2006-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1093/swr/30.1.33",
-            "field_citation_ratio": 3.46,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 3.45,
             "id": "pub.1060043756",
             "issn": [
                 "1070-5309",
@@ -10025,9 +9577,6 @@
                 "Norwegian register level 2",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -10036,9 +9585,6 @@
                 }
             ],
             "pages": "33-50",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Oxford University Press (OUP)",
             "recent_citations": 4,
             "reference_ids": [
@@ -10063,7 +9609,6 @@
                 "pub.1015993061",
                 "pub.1058638928"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 5261457,
@@ -10103,14 +9648,32 @@
                     "city_name": "Madison",
                     "country_name": "United States",
                     "id": "grid.14003.36",
-                    "name": "University of Wisconsin\u2013Madison"
+                    "latitude": 43.076694,
+                    "linkout": [
+                        "http://www.wisc.edu/"
+                    ],
+                    "longitude": -89.41244,
+                    "name": "University of Wisconsin\u2013Madison",
+                    "state_name": "Wisconsin",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UIUC",
                     "city_name": "Urbana",
                     "country_name": "United States",
                     "id": "grid.35403.31",
-                    "name": "University of Illinois at Urbana Champaign"
+                    "latitude": 40.10218,
+                    "linkout": [
+                        "http://illinois.edu/"
+                    ],
+                    "longitude": -88.227196,
+                    "name": "University of Illinois at Urbana Champaign",
+                    "state_name": "Illinois",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -10119,8 +9682,8 @@
                     "id": "ur.016341345607.12",
                     "last_name": "Wu",
                     "research_orgs": [
-                        "grid.14003.36",
-                        "grid.35403.31"
+                        "grid.35403.31",
+                        "grid.14003.36"
                     ]
                 },
                 {
@@ -10128,9 +9691,9 @@
                     "id": "ur.0650305152.28",
                     "last_name": "Cancian",
                     "research_orgs": [
+                        "grid.28803.31",
                         "grid.213910.8",
-                        "grid.14003.36",
-                        "grid.28803.31"
+                        "grid.14003.36"
                     ]
                 },
                 {
@@ -10138,9 +9701,9 @@
                     "id": "ur.01076052262.74",
                     "last_name": "Meyer",
                     "research_orgs": [
+                        "grid.89336.37",
                         "grid.35403.31",
-                        "grid.14003.36",
-                        "grid.89336.37"
+                        "grid.14003.36"
                     ]
                 },
                 {
@@ -10152,8 +9715,7 @@
                     ]
                 }
             ],
-            "score": 16.930658,
-            "supporting_grant_ids": null,
+            "score": 16.929203,
             "terms": [
                 "Temporary Assistance",
                 "assistance",
@@ -10198,7 +9760,6 @@
             "dataset-063",
             "dataset-120"
         ],
-        "doi": "10.1093/swr/30.1.33",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://watermark.silverchair.com/30-1-33.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAnkwggJ1BgkqhkiG9w0BBwagggJmMIICYgIBADCCAlsGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM8f4sc-MpOdKQgHJhAgEQgIICLB1d2mj82oc2Dy6BgdeFknCfqRWwR9U6_owXMTXwfqZ1xuxjiiN7N_kx9mvlRlijnJUEkUUhKY36W2ZAgMb4dts_wv2Q7c8pvREuKwlb642N9UE0vyRFUPczGIhE0iM6qL3tJuwoEl5WOMMunz4oZ6YlnYCfcrOEu423wAk1_0q1CwsEvNiMwe86WM6VEVAwJMmKW7Mx4dYMd7EKwkU_MdE0WgYvSQcpMOwMlWViEOsJMeoZ1prtTKKIIp3ziEG5KHZHgVn_EDtgVnbnjhxe6kmi7dZDSpgSTkmNko5lAeqDr8aYJq72WKs8q-QEZ3Dk3uQz5MkCLsqp7z2mGS8Ao4B0ouQIL9glnAiry2_AK0GpSQwU9N78Ng7huwoOvyEAetkQLdUD2q9zyKjMg9TinLmk_ej6ysfwZgIylQQ8uZfleXLsd5q0imTe8_iEPuUc8eCh2CxMVJ_mSjzGsZ_AwZ2YZZURwAuziuyMsYsrVRu5yFpyU6QBSMFfK4gQzvBypFGL4b5qDz5-DRPyGKQG40e_0fghNkgA_JiEBQF7kl0_YPucoYcWWv8Uu3mnzyU2UDv1gs9NBtMnOd-uH_N71hTWmMroHcvQkZ-OjPhogUBaxJYBOaU4k61EvBgs5MgzTphNOh9lLUfJnPMk2AsX5OqF9Ti9qu5afowi_Hc17Dph80sf1ES1UIZznMSIrJH4xQB4bxbT1QK9-dj6_p4_ScEyppH-L-8qVM1Utp4"
@@ -10302,7 +9863,6 @@
                     "name": "Other"
                 }
             ],
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "380",
@@ -10317,8 +9877,6 @@
                     "name": "Violence Research"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -10383,9 +9941,6 @@
                     "researcher_id": "ur.016176663043.55"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -10422,9 +9977,6 @@
                     "name": "Other"
                 }
             ],
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "380",
@@ -10486,8 +10038,6 @@
             "date_inserted": "2017-08-31",
             "doi": "10.1177/1049731504272908",
             "field_citation_ratio": 2.23,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1010197483",
             "issn": [
                 "1049-7315",
@@ -10503,9 +10053,6 @@
                 "Norwegian register level 1",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -10514,11 +10061,7 @@
                 }
             ],
             "pages": "143-153",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "SAGE Publications",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1035491145",
                 "pub.1079762928",
@@ -10545,7 +10088,6 @@
                 "pub.1053833407",
                 "pub.1008458792"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 4347778,
@@ -10576,7 +10118,16 @@
                     "city_name": "Baltimore",
                     "country_name": "United States",
                     "id": "grid.411024.2",
-                    "name": "University of Maryland, Baltimore"
+                    "latitude": 39.287724,
+                    "linkout": [
+                        "http://www.umaryland.edu/"
+                    ],
+                    "longitude": -76.62358,
+                    "name": "University of Maryland, Baltimore",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -10600,8 +10151,7 @@
                     ]
                 }
             ],
-            "score": 20.60091,
-            "supporting_grant_ids": null,
+            "score": 20.596754,
             "terms": [
                 "establishment",
                 "Family Violence Option",
@@ -10648,7 +10198,6 @@
         "datasets": [
             "dataset-208"
         ],
-        "doi": "10.1177/1049731504272908",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "http://journals.sagepub.com/doi/pdf/10.1177/1049731504272908"
@@ -10657,11 +10206,6 @@
     },
     {
         "Dimensions": {
-            "FOR": null,
-            "FOR_first": null,
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
             "altmetric": 15.0,
             "altmetric_id": 6864006,
             "author_affiliations": [
@@ -10742,10 +10286,6 @@
                     "researcher_id": "ur.016422746051.29"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "2216",
@@ -10756,13 +10296,6 @@
                     "name": "1607 Social Work"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
-            "category_ua": null,
             "concepts": [
                 "involvement",
                 "applicant families",
@@ -10774,9 +10307,7 @@
             "date": "2005-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1086/426720",
-            "field_citation_ratio": 8.84,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 8.8,
             "id": "pub.1058714842",
             "issn": [
                 "0037-7961",
@@ -10792,9 +10323,6 @@
                 "Norwegian register level 1",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -10803,20 +10331,8 @@
                 }
             ],
             "pages": "119-157",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "University of Chicago Press",
             "recent_citations": 3,
-            "reference_ids": null,
-            "references": null,
-            "relative_citation_ratio": null,
-            "research_org_cities": null,
-            "research_org_countries": null,
-            "research_org_country_names": null,
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
             "researchers": [
                 {
                     "first_name": "Mark E",
@@ -10861,8 +10377,7 @@
                     ]
                 }
             ],
-            "score": 20.833033,
-            "supporting_grant_ids": null,
+            "score": 20.839245,
             "terms": [
                 "involvement",
                 "applicant families",
@@ -10882,7 +10397,6 @@
             "dataset-120",
             "dataset-063"
         ],
-        "doi": "10.1086/426720",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.journals.uchicago.edu/doi/full/10.1086/426720?mobileUi=0"
@@ -10985,11 +10499,6 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -11048,9 +10557,6 @@
                     "researcher_id": ""
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -11085,11 +10591,6 @@
                     "name": "Population & Society"
                 }
             ],
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
             "category_ua": [
                 {
                     "id": "30017",
@@ -11143,9 +10644,7 @@
             "date": "2004-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1002/pam.20025",
-            "field_citation_ratio": 11.65,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 11.61,
             "id": "pub.1006507598",
             "issn": [
                 "0276-8739",
@@ -11161,9 +10660,6 @@
                 "Norwegian register level 2",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -11172,9 +10668,6 @@
                 }
             ],
             "pages": "531-548",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Wiley",
             "recent_citations": 6,
             "reference_ids": [
@@ -11213,7 +10706,6 @@
                 "pub.1060042671",
                 "pub.1060043645"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 5261457,
@@ -11229,12 +10721,7 @@
             "research_org_country_names": [
                 "United States"
             ],
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
-            "researchers": null,
-            "score": 29.968887,
-            "supporting_grant_ids": null,
+            "score": 29.959358,
             "terms": [
                 "current debate",
                 "debate",
@@ -11288,7 +10775,6 @@
         "datasets": [
             "dataset-101"
         ],
-        "doi": "10.1002/pam.20025",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "http://web.a.ebscohost.com/ehost/pdfviewer/pdfviewer?vid=1&sid=af96e302-2701-4ce2-a6c5-e8794b65e718%40sessionmgr4006"
@@ -11339,11 +10825,6 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -11442,10 +10923,6 @@
                     "researcher_id": ""
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3432",
@@ -11456,12 +10933,6 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
             "category_ua": [
                 {
                     "id": "30016",
@@ -11504,9 +10975,7 @@
             "date": "2004-04-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1111/j.0092-5853.2004.00072.x",
-            "field_citation_ratio": 30.56,
-            "funder_countries": null,
-            "funders": null,
+            "field_citation_ratio": 30.78,
             "id": "pub.1052628051",
             "issn": [
                 "0092-5853",
@@ -11523,7 +10992,6 @@
                 "VABB-SHW"
             ],
             "linkout": "https://mospace.umsystem.edu/xmlui/bitstream/10355/2719/1/RaceBureaucraticDiscretion.pdf",
-            "mesh_terms": null,
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -11542,11 +11010,8 @@
                 }
             ],
             "pages": "314-327",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Wiley",
-            "recent_citations": 17,
+            "recent_citations": 18,
             "reference_ids": [
                 "pub.1069776052",
                 "pub.1052646987",
@@ -11607,7 +11072,6 @@
                 "pub.1069668307",
                 "pub.1070166966"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 6094817,
@@ -11642,7 +11106,16 @@
                     "city_name": "Ottawa",
                     "country_name": "Canada",
                     "id": "grid.34428.39",
-                    "name": "Carleton University"
+                    "latitude": 45.3831,
+                    "linkout": [
+                        "http://www.carleton.ca/"
+                    ],
+                    "longitude": -75.6976,
+                    "name": "Carleton University",
+                    "state_name": "Ontario",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -11656,8 +11129,7 @@
                     ]
                 }
             ],
-            "score": 18.978994,
-            "supporting_grant_ids": null,
+            "score": 18.980495,
             "terms": [
                 "article",
                 "impact",
@@ -11691,7 +11163,7 @@
                 "welfare reform",
                 "reform"
             ],
-            "times_cited": 75,
+            "times_cited": 76,
             "title": "Race, Bureaucratic Discretion, and the Implementation of Welfare Reform",
             "type": "article",
             "volume": "48",
@@ -11711,7 +11183,6 @@
             "dataset-169",
             "dataset-224"
         ],
-        "doi": "10.1111/j.0092-5853.2004.00072.x",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.jstor.org/stable/pdf/1519885.pdf"
@@ -11891,8 +11362,7 @@
                 "Davis BC."
             ],
             "doi": "10.1300/j045v17n01_03",
-            "journal": "J Health Soc Policy",
-            "pmcid": null
+            "journal": "J Health Soc Policy"
         },
         "datasets": [
             "dataset-089",
@@ -11900,7 +11370,6 @@
             "dataset-084",
             "dataset-240"
         ],
-        "doi": "10.1300/j045v17n01_03",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://www.tandfonline.com/doi/pdf/10.1300/J045v17n01_03?needAccess=true"
@@ -12282,7 +11751,6 @@
                     "name": "Other"
                 }
             ],
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "332",
@@ -12305,8 +11773,6 @@
                     "name": "Health Services"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -12473,10 +11939,6 @@
                     "researcher_id": "ur.010514161623.15"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3416",
@@ -12507,9 +11969,6 @@
                     "name": "Other"
                 }
             ],
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "332",
@@ -12588,9 +12047,6 @@
             "date": "1999-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/s0190-7409(99)00055-9",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1042505305",
             "issn": [
                 "0190-7409",
@@ -12606,9 +12062,6 @@
                 "Norwegian register level 1",
                 "VABB-SHW"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -12617,9 +12070,6 @@
                 }
             ],
             "pages": "815-841",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Elsevier",
             "recent_citations": 1,
             "reference_ids": [
@@ -12702,7 +12152,6 @@
                 "pub.1034377848",
                 "pub.1063547818"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 5327684,
@@ -12733,7 +12182,16 @@
                     "city_name": "Berkeley",
                     "country_name": "United States",
                     "id": "grid.47840.3f",
-                    "name": "University of California, Berkeley"
+                    "latitude": 37.87216,
+                    "linkout": [
+                        "http://www.berkeley.edu/"
+                    ],
+                    "longitude": -122.258575,
+                    "name": "University of California, Berkeley",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -12762,8 +12220,7 @@
                     ]
                 }
             ],
-            "score": 16.820873,
-            "supporting_grant_ids": null,
+            "score": 16.810425,
             "terms": [
                 "history",
                 "children",
@@ -12822,7 +12279,6 @@
             "dataset-311",
             "dataset-290"
         ],
-        "doi": "10.1016/s0190-7409(99)00055-9",
         "original": {
             "date_added": "2019-11-25 17:42:29",
             "url": "https://reader.elsevier.com/reader/sd/pii/S0190740999000559?token=67B2E1950AE7406A219FD2CFB3EA71D1066F8490628F3396DD8C38DD506193FE86A0CC9089DEAC8B777AF05E4176130A"
@@ -12916,8 +12372,7 @@
             "dataset-166"
         ],
         "original": {
-            "date_added": "2019-11-25 17:42:29",
-            "url": NaN
+            "date_added": "2019-11-25 17:42:29"
         },
         "title": "Life After Welfare: Regional Patterns"
     },

@@ -13,24 +13,22 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
+                {
+                    "id": "388",
+                    "name": "Nutrition"
+                },
                 {
                     "id": "558",
                     "name": "Prevention"
-                },
-                {
-                    "id": "526",
-                    "name": "Genetics"
                 },
                 {
                     "id": "507",
                     "name": "Clinical Research"
                 },
                 {
-                    "id": "388",
-                    "name": "Nutrition"
+                    "id": "526",
+                    "name": "Genetics"
                 }
             ],
             "altmetric": 8.0,
@@ -201,9 +199,6 @@
                     "researcher_id": "ur.01350205267.20"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -220,27 +215,22 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
+                {
+                    "id": "388",
+                    "name": "Nutrition"
+                },
                 {
                     "id": "558",
                     "name": "Prevention"
-                },
-                {
-                    "id": "526",
-                    "name": "Genetics"
                 },
                 {
                     "id": "507",
                     "name": "Clinical Research"
                 },
                 {
-                    "id": "388",
-                    "name": "Nutrition"
+                    "id": "526",
+                    "name": "Genetics"
                 }
             ],
             "category_ua": [
@@ -340,7 +330,6 @@
             "date": "2020-02-01",
             "date_inserted": "2019-09-21",
             "doi": "10.1016/j.nut.2019.110596",
-            "field_citation_ratio": null,
             "funder_countries": [
                 {
                     "id": "BR",
@@ -353,7 +342,15 @@
                     "city_name": "S\u00e3o Paulo",
                     "country_name": "Brazil",
                     "id": "grid.452907.d",
-                    "name": "S\u00e3o Paulo Research Foundation"
+                    "latitude": -23.53633,
+                    "linkout": [
+                        "http://www.fapesp.br/en/"
+                    ],
+                    "longitude": -46.713993,
+                    "name": "S\u00e3o Paulo Research Foundation",
+                    "types": [
+                        "Other"
+                    ]
                 }
             ],
             "id": "pub.1121113399",
@@ -361,7 +358,6 @@
                 "0899-9007",
                 "1873-1244"
             ],
-            "issue": null,
             "journal": {
                 "id": "jour.1096945",
                 "title": "Nutrition"
@@ -372,9 +368,6 @@
                 "VABB-SHW",
                 "PubMed"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -383,118 +376,114 @@
                 }
             ],
             "pages": "110596",
-            "pmcid": null,
             "pmid": "31743813",
-            "proceedings_title": null,
             "publisher": "Elsevier",
-            "recent_citations": null,
             "reference_ids": [
-                "pub.1103186946",
-                "pub.1026115630",
-                "pub.1040736067",
-                "pub.1091108817",
-                "pub.1018023344",
-                "pub.1016713248",
-                "pub.1022021239",
-                "pub.1002663715",
-                "pub.1064286085",
-                "pub.1023601772",
-                "pub.1011528827",
-                "pub.1112025000",
-                "pub.1079089256",
-                "pub.1012022996",
-                "pub.1006842081",
-                "pub.1019089535",
-                "pub.1112604912",
-                "pub.1028574446",
-                "pub.1077446592",
-                "pub.1062427996",
-                "pub.1108734090",
-                "pub.1028044042",
-                "pub.1011029623",
-                "pub.1010952609",
-                "pub.1035336412",
-                "pub.1046079080",
-                "pub.1028976081",
-                "pub.1050182936",
-                "pub.1012912024",
-                "pub.1004627832",
-                "pub.1027902786",
-                "pub.1002404375",
-                "pub.1039317424",
-                "pub.1044696015",
                 "pub.1016557593",
-                "pub.1106475911",
-                "pub.1041095568",
-                "pub.1077687179",
-                "pub.1007861246",
-                "pub.1109781779",
-                "pub.1023314152",
-                "pub.1002814759",
-                "pub.1042166283",
-                "pub.1106679115",
-                "pub.1083851232",
-                "pub.1041558509",
-                "pub.1037442196",
+                "pub.1028574446",
                 "pub.1028682623",
-                "pub.1020671887",
+                "pub.1041095568",
+                "pub.1011029623",
+                "pub.1077687179",
+                "pub.1012912024",
+                "pub.1007861246",
+                "pub.1022021239",
+                "pub.1006842081",
+                "pub.1064286085",
+                "pub.1079089256",
+                "pub.1083851232",
+                "pub.1028044042",
+                "pub.1044696015",
+                "pub.1041558509",
+                "pub.1039317424",
+                "pub.1011528827",
+                "pub.1018023344",
+                "pub.1050182936",
                 "pub.1024779939",
-                "pub.1029883142"
+                "pub.1046079080",
+                "pub.1026115630",
+                "pub.1035336412",
+                "pub.1109781779",
+                "pub.1020671887",
+                "pub.1023314152",
+                "pub.1042166283",
+                "pub.1037442196",
+                "pub.1040736067",
+                "pub.1112025000",
+                "pub.1002404375",
+                "pub.1062427996",
+                "pub.1012022996",
+                "pub.1016713248",
+                "pub.1004627832",
+                "pub.1010952609",
+                "pub.1112604912",
+                "pub.1002663715",
+                "pub.1106475911",
+                "pub.1027902786",
+                "pub.1002814759",
+                "pub.1077446592",
+                "pub.1106679115",
+                "pub.1091108817",
+                "pub.1029883142",
+                "pub.1023601772",
+                "pub.1028976081",
+                "pub.1019089535",
+                "pub.1103186946",
+                "pub.1108734090"
             ],
             "references": [
-                "pub.1103186946",
-                "pub.1026115630",
-                "pub.1040736067",
-                "pub.1091108817",
-                "pub.1018023344",
-                "pub.1016713248",
-                "pub.1022021239",
-                "pub.1002663715",
-                "pub.1064286085",
-                "pub.1023601772",
-                "pub.1011528827",
-                "pub.1112025000",
-                "pub.1079089256",
-                "pub.1012022996",
-                "pub.1006842081",
-                "pub.1019089535",
-                "pub.1112604912",
-                "pub.1028574446",
-                "pub.1077446592",
-                "pub.1062427996",
-                "pub.1108734090",
-                "pub.1028044042",
-                "pub.1011029623",
-                "pub.1010952609",
-                "pub.1035336412",
-                "pub.1046079080",
-                "pub.1028976081",
-                "pub.1050182936",
-                "pub.1012912024",
-                "pub.1004627832",
-                "pub.1027902786",
-                "pub.1002404375",
-                "pub.1039317424",
-                "pub.1044696015",
                 "pub.1016557593",
-                "pub.1106475911",
-                "pub.1041095568",
-                "pub.1077687179",
-                "pub.1007861246",
-                "pub.1109781779",
-                "pub.1023314152",
-                "pub.1002814759",
-                "pub.1042166283",
-                "pub.1106679115",
-                "pub.1083851232",
-                "pub.1041558509",
-                "pub.1037442196",
+                "pub.1028574446",
                 "pub.1028682623",
-                "pub.1020671887",
+                "pub.1041095568",
+                "pub.1011029623",
+                "pub.1077687179",
+                "pub.1012912024",
+                "pub.1007861246",
+                "pub.1022021239",
+                "pub.1006842081",
+                "pub.1064286085",
+                "pub.1079089256",
+                "pub.1083851232",
+                "pub.1028044042",
+                "pub.1044696015",
+                "pub.1041558509",
+                "pub.1039317424",
+                "pub.1011528827",
+                "pub.1018023344",
+                "pub.1050182936",
                 "pub.1024779939",
-                "pub.1029883142"
+                "pub.1046079080",
+                "pub.1026115630",
+                "pub.1035336412",
+                "pub.1109781779",
+                "pub.1020671887",
+                "pub.1023314152",
+                "pub.1042166283",
+                "pub.1037442196",
+                "pub.1040736067",
+                "pub.1112025000",
+                "pub.1002404375",
+                "pub.1062427996",
+                "pub.1012022996",
+                "pub.1016713248",
+                "pub.1004627832",
+                "pub.1010952609",
+                "pub.1112604912",
+                "pub.1002663715",
+                "pub.1106475911",
+                "pub.1027902786",
+                "pub.1002814759",
+                "pub.1077446592",
+                "pub.1106679115",
+                "pub.1091108817",
+                "pub.1029883142",
+                "pub.1023601772",
+                "pub.1028976081",
+                "pub.1019089535",
+                "pub.1103186946",
+                "pub.1108734090"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 3448439,
@@ -510,15 +499,21 @@
             "research_org_country_names": [
                 "Brazil"
             ],
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
             "research_orgs": [
                 {
                     "acronym": "USP",
                     "city_name": "S\u00e3o Paulo",
                     "country_name": "Brazil",
                     "id": "grid.11899.38",
-                    "name": "University of Sao Paulo"
+                    "latitude": -23.563051,
+                    "linkout": [
+                        "http://www5.usp.br/en/"
+                    ],
+                    "longitude": -46.730103,
+                    "name": "University of Sao Paulo",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -530,13 +525,13 @@
                         "0000-0002-4490-9035"
                     ],
                     "research_orgs": [
-                        "grid.410543.7",
-                        "grid.411252.1",
-                        "grid.411249.b",
-                        "grid.419716.c",
                         "grid.11899.38",
+                        "grid.411087.b",
+                        "grid.411252.1",
                         "grid.414644.7",
-                        "grid.411087.b"
+                        "grid.419716.c",
+                        "grid.411249.b",
+                        "grid.410543.7"
                     ]
                 },
                 {
@@ -547,8 +542,8 @@
                         "0000-0002-6810-5779"
                     ],
                     "research_orgs": [
-                        "grid.456932.f",
-                        "grid.11899.38"
+                        "grid.11899.38",
+                        "grid.456932.f"
                     ]
                 },
                 {
@@ -559,16 +554,16 @@
                         "0000-0003-0517-1645"
                     ],
                     "research_orgs": [
-                        "grid.452907.d",
                         "grid.11899.38",
-                        "grid.410543.7"
+                        "grid.410543.7",
+                        "grid.452907.d"
                     ]
                 }
             ],
-            "score": 24.491125,
+            "score": 24.50419,
             "supporting_grant_ids": [
-                "grant.4474816",
-                "grant.4493946"
+                "grant.4493946",
+                "grant.4474816"
             ],
             "terms": [
                 "systemic low-grade inflammation",
@@ -658,7 +653,6 @@
                 "sectional study",
                 "study"
             ],
-            "times_cited": 0,
             "title": "Systemic low-grade inflammation associated lifestyle, diet and genetic factors, a population-based cross-sectional study",
             "type": "article",
             "volume": "70",
@@ -667,7 +661,6 @@
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1016/j.nut.2019.110596",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1016/j.nut.2019.110596",
@@ -691,8 +684,6 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "388",
@@ -703,8 +694,6 @@
                     "name": "Prevention"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -1137,10 +1126,6 @@
                     "researcher_id": ""
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3136",
@@ -1151,11 +1136,6 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "388",
@@ -1216,9 +1196,6 @@
             "date": "2020-01-01",
             "date_inserted": "2019-08-22",
             "doi": "10.1016/j.jesf.2019.08.004",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1120448365",
             "issn": [
                 "1728-869X",
@@ -1235,9 +1212,6 @@
                 "Norwegian register level 1",
                 "PubMed"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -1248,9 +1222,7 @@
             "pages": "1-6",
             "pmcid": "PMC6796798",
             "pmid": "31641361",
-            "proceedings_title": null,
             "publisher": "Elsevier",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1062422002",
                 "pub.1012725427",
@@ -1357,7 +1329,6 @@
                 "pub.1079392699",
                 "pub.1083100775"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 5074472,
@@ -1411,31 +1382,62 @@
                     "city_name": "Omaha",
                     "country_name": "United States",
                     "id": "grid.266813.8",
-                    "name": "University of Nebraska Medical Center"
+                    "latitude": 41.255505,
+                    "linkout": [
+                        "http://www.unmc.edu/"
+                    ],
+                    "longitude": -95.97682,
+                    "name": "University of Nebraska Medical Center",
+                    "state_name": "Nebraska",
+                    "types": [
+                        "Healthcare"
+                    ]
                 },
                 {
                     "city_name": "Guiyang",
                     "country_name": "China",
                     "id": "grid.443382.a",
-                    "name": "Guizhou University"
+                    "latitude": 26.420439,
+                    "linkout": [
+                        "http://www.gzu.edu.cn/en/"
+                    ],
+                    "longitude": 106.671104,
+                    "name": "Guizhou University",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Shanghai",
                     "country_name": "China",
                     "id": "grid.412543.5",
-                    "name": "Shanghai University of Sport"
+                    "latitude": 31.312918,
+                    "linkout": [
+                        "http://eng.sus.edu.cn/"
+                    ],
+                    "longitude": 121.524155,
+                    "name": "Shanghai University of Sport",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "BSU",
                     "city_name": "Beijing",
                     "country_name": "China",
                     "id": "grid.411614.7",
-                    "name": "Beijing Sport University"
+                    "latitude": 40.024136,
+                    "linkout": [
+                        "http://en.bsu.edu.cn/"
+                    ],
+                    "longitude": 116.31777,
+                    "name": "Beijing Sport University",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
-            "researchers": null,
-            "score": 25.86702,
-            "supporting_grant_ids": null,
+            "score": 25.862617,
             "terms": [
                 "effects",
                 "nutrition education",
@@ -1477,7 +1479,6 @@
                 "nutrition",
                 "evaluation"
             ],
-            "times_cited": 0,
             "title": "Evaluation for the effects of nutritional education on Chinese elite male young soccer players: The application of adjusted dietary balance index (DBI)",
             "type": "article",
             "volume": "18",
@@ -1522,7 +1523,6 @@
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1016/j.jesf.2019.08.004",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1016/j.jesf.2019.08.004",
@@ -1560,28 +1560,26 @@
             ],
             "RCDC": [
                 {
-                    "id": "388",
-                    "name": "Nutrition"
+                    "id": "547",
+                    "name": "Pediatric"
                 },
                 {
                     "id": "558",
                     "name": "Prevention"
                 },
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
+                    "id": "388",
+                    "name": "Nutrition"
                 },
                 {
                     "id": "550",
                     "name": "Pediatric Research Initiative"
                 },
                 {
-                    "id": "547",
-                    "name": "Pediatric"
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -1768,9 +1766,6 @@
                     "researcher_id": "ur.01066074334.50"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -1819,24 +1814,24 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "388",
-                    "name": "Nutrition"
+                    "id": "547",
+                    "name": "Pediatric"
                 },
                 {
                     "id": "558",
                     "name": "Prevention"
                 },
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
+                    "id": "388",
+                    "name": "Nutrition"
                 },
                 {
                     "id": "550",
                     "name": "Pediatric Research Initiative"
                 },
                 {
-                    "id": "547",
-                    "name": "Pediatric"
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
             "category_ua": [
@@ -1909,7 +1904,6 @@
             "date": "2020-01-01",
             "date_inserted": "2019-11-11",
             "doi": "10.1016/j.ypmed.2019.105892",
-            "field_citation_ratio": null,
             "funder_countries": [
                 {
                     "id": "US",
@@ -1922,7 +1916,16 @@
                     "city_name": "Philadelphia",
                     "country_name": "United States",
                     "id": "grid.239552.a",
-                    "name": "Children's Hospital of Philadelphia"
+                    "latitude": 39.948982,
+                    "linkout": [
+                        "http://www.chop.edu/"
+                    ],
+                    "longitude": -75.194176,
+                    "name": "Children's Hospital of Philadelphia",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Healthcare"
+                    ]
                 }
             ],
             "id": "pub.1122456379",
@@ -1930,7 +1933,6 @@
                 "0091-7435",
                 "1096-0260"
             ],
-            "issue": null,
             "journal": {
                 "id": "jour.1015263",
                 "title": "Preventive Medicine"
@@ -1941,9 +1943,6 @@
                 "VABB-SHW",
                 "PubMed"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -1952,28 +1951,24 @@
                 }
             ],
             "pages": "105892",
-            "pmcid": null,
             "pmid": "31715216",
-            "proceedings_title": null,
             "publisher": "Elsevier",
-            "recent_citations": null,
             "reference_ids": [
-                "pub.1046587926",
-                "pub.1005049830",
                 "pub.1033137194",
+                "pub.1005049830",
                 "pub.1101147081",
-                "pub.1052885574",
-                "pub.1036293014"
+                "pub.1046587926",
+                "pub.1036293014",
+                "pub.1052885574"
             ],
             "references": [
-                "pub.1046587926",
-                "pub.1005049830",
                 "pub.1033137194",
+                "pub.1005049830",
                 "pub.1101147081",
-                "pub.1052885574",
-                "pub.1036293014"
+                "pub.1046587926",
+                "pub.1036293014",
+                "pub.1052885574"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 4560349,
@@ -2004,13 +1999,31 @@
                     "city_name": "Philadelphia",
                     "country_name": "United States",
                     "id": "grid.239552.a",
-                    "name": "Children's Hospital of Philadelphia"
+                    "latitude": 39.948982,
+                    "linkout": [
+                        "http://www.chop.edu/"
+                    ],
+                    "longitude": -75.194176,
+                    "name": "Children's Hospital of Philadelphia",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Healthcare"
+                    ]
                 },
                 {
                     "city_name": "Philadelphia",
                     "country_name": "United States",
                     "id": "grid.25879.31",
-                    "name": "University of Pennsylvania"
+                    "latitude": 39.952457,
+                    "linkout": [
+                        "http://www.upenn.edu/"
+                    ],
+                    "longitude": -75.19322,
+                    "name": "University of Pennsylvania",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -2042,26 +2055,25 @@
                     "id": "ur.01066074334.50",
                     "last_name": "Fiks",
                     "research_orgs": [
-                        "grid.428618.1",
                         "grid.25879.31",
-                        "grid.239552.a",
-                        "grid.414148.c",
-                        "grid.42327.30",
-                        "grid.25152.31",
-                        "grid.472715.2",
-                        "grid.281084.7",
-                        "grid.430503.1",
-                        "grid.413957.d",
-                        "grid.257413.6",
-                        "grid.17063.33",
                         "grid.239573.9",
+                        "grid.24827.3b",
+                        "grid.42327.30",
+                        "grid.281084.7",
+                        "grid.239552.a",
+                        "grid.472715.2",
+                        "grid.25152.31",
+                        "grid.430503.1",
+                        "grid.17063.33",
+                        "grid.413957.d",
                         "grid.214458.e",
-                        "grid.24827.3b"
+                        "grid.428618.1",
+                        "grid.257413.6",
+                        "grid.414148.c"
                     ]
                 }
             ],
-            "score": 22.861578,
-            "supporting_grant_ids": null,
+            "score": 22.860296,
             "terms": [
                 "poor diet",
                 "diet",
@@ -2123,7 +2135,6 @@
                 "representative sample",
                 "samples"
             ],
-            "times_cited": 0,
             "title": "Clustering of unhealthy behaviors in a nationally representative sample of U.S. children and adolescents",
             "type": "article",
             "volume": "130",
@@ -2136,13 +2147,11 @@
                 "Fiks AG."
             ],
             "doi": "10.1016/j.ypmed.2019.105892",
-            "journal": "Prev Med",
-            "pmcid": null
+            "journal": "Prev Med"
         },
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1016/j.ypmed.2019.105892",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1016/j.ypmed.2019.105892",
@@ -2166,8 +2175,6 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "388",
@@ -2178,8 +2185,6 @@
                     "name": "Prevention"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -2426,10 +2431,6 @@
                     "researcher_id": ""
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3136",
@@ -2440,11 +2441,6 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "388",
@@ -2507,7 +2503,6 @@
             "date": "2020-01-01",
             "date_inserted": "2019-09-13",
             "doi": "10.1016/j.appet.2019.104451",
-            "field_citation_ratio": null,
             "funder_countries": [
                 {
                     "id": "US",
@@ -2520,7 +2515,16 @@
                     "city_name": "Rockville",
                     "country_name": "United States",
                     "id": "grid.48336.3a",
-                    "name": "National Cancer Institute"
+                    "latitude": 39.004326,
+                    "linkout": [
+                        "http://www.cancer.gov/"
+                    ],
+                    "longitude": -77.10119,
+                    "name": "National Cancer Institute",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1120975856",
@@ -2528,7 +2532,6 @@
                 "0195-6663",
                 "1095-8304"
             ],
-            "issue": null,
             "journal": {
                 "id": "jour.1091386",
                 "title": "Appetite"
@@ -2539,9 +2542,6 @@
                 "VABB-SHW",
                 "PubMed"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -2552,60 +2552,57 @@
             "pages": "104451",
             "pmcid": "PMC6875636",
             "pmid": "31521771",
-            "proceedings_title": null,
             "publisher": "Elsevier",
-            "recent_citations": null,
             "reference_ids": [
-                "pub.1063162929",
-                "pub.1027535152",
-                "pub.1032638146",
+                "pub.1061518392",
+                "pub.1106290210",
                 "pub.1078978381",
+                "pub.1061157130",
                 "pub.1027021231",
                 "pub.1078949400",
-                "pub.1101394208",
-                "pub.1028042677",
                 "pub.1091840646",
-                "pub.1038641969",
-                "pub.1042572366",
-                "pub.1074778576",
-                "pub.1008585963",
-                "pub.1003246605",
-                "pub.1061518392",
-                "pub.1002692657",
-                "pub.1106321610",
-                "pub.1034733830",
-                "pub.1051525157",
-                "pub.1008067612",
-                "pub.1061157130",
+                "pub.1063162929",
                 "pub.1092405072",
-                "pub.1106290210"
+                "pub.1074778576",
+                "pub.1027535152",
+                "pub.1042572366",
+                "pub.1002692657",
+                "pub.1008067612",
+                "pub.1034733830",
+                "pub.1008585963",
+                "pub.1028042677",
+                "pub.1038641969",
+                "pub.1051525157",
+                "pub.1032638146",
+                "pub.1101394208",
+                "pub.1106321610",
+                "pub.1003246605"
             ],
             "references": [
-                "pub.1063162929",
-                "pub.1027535152",
-                "pub.1032638146",
+                "pub.1061518392",
+                "pub.1106290210",
                 "pub.1078978381",
+                "pub.1061157130",
                 "pub.1027021231",
                 "pub.1078949400",
-                "pub.1101394208",
-                "pub.1028042677",
                 "pub.1091840646",
-                "pub.1038641969",
-                "pub.1042572366",
-                "pub.1074778576",
-                "pub.1008585963",
-                "pub.1003246605",
-                "pub.1061518392",
-                "pub.1002692657",
-                "pub.1106321610",
-                "pub.1034733830",
-                "pub.1051525157",
-                "pub.1008067612",
-                "pub.1061157130",
+                "pub.1063162929",
                 "pub.1092405072",
-                "pub.1106290210"
+                "pub.1074778576",
+                "pub.1027535152",
+                "pub.1042572366",
+                "pub.1002692657",
+                "pub.1008067612",
+                "pub.1034733830",
+                "pub.1008585963",
+                "pub.1028042677",
+                "pub.1038641969",
+                "pub.1051525157",
+                "pub.1032638146",
+                "pub.1101394208",
+                "pub.1106321610",
+                "pub.1003246605"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 4928096,
@@ -2635,7 +2632,16 @@
                     "city_name": "West Lafayette",
                     "country_name": "United States",
                     "id": "grid.169077.e",
-                    "name": "Purdue University West Lafayette"
+                    "latitude": 40.42395,
+                    "linkout": [
+                        "http://www.purdue.edu/"
+                    ],
+                    "longitude": -86.9212,
+                    "name": "Purdue University West Lafayette",
+                    "state_name": "Indiana",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -2657,19 +2663,19 @@
                         "0000-0002-2909-7323"
                     ],
                     "research_orgs": [
-                        "grid.6835.8",
-                        "grid.257413.6",
                         "grid.214458.e",
-                        "grid.502801.e",
-                        "grid.417284.c",
-                        "grid.301036.7",
-                        "grid.411031.6",
+                        "grid.6835.8",
                         "grid.24827.3b",
-                        "grid.169077.e"
+                        "grid.417284.c",
+                        "grid.169077.e",
+                        "grid.502801.e",
+                        "grid.411031.6",
+                        "grid.301036.7",
+                        "grid.257413.6"
                     ]
                 }
             ],
-            "score": 22.967802,
+            "score": 22.96221,
             "supporting_grant_ids": [
                 "grant.7570126"
             ],
@@ -2716,7 +2722,6 @@
                 "U.S. adults",
                 "adults"
             ],
-            "times_cited": 0,
             "title": "Distance metrics optimized for clustering temporal dietary patterning among U.S. adults",
             "type": "article",
             "volume": "144",
@@ -2732,13 +2737,11 @@
                 "Guo J."
             ],
             "doi": "10.1016/j.appet.2019.104451",
-            "journal": "Appetite",
-            "pmcid": null
+            "journal": "Appetite"
         },
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1016/j.appet.2019.104451",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1016/j.appet.2019.104451",
@@ -2760,13 +2763,11 @@
                 "Bailey MT."
             ],
             "doi": "10.1016/j.psyneuen.2019.104469",
-            "journal": "Psychoneuroendocrinology",
-            "pmcid": null
+            "journal": "Psychoneuroendocrinology"
         },
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1016/j.psyneuen.2019.104469",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1016/j.psyneuen.2019.104469",
@@ -2778,13 +2779,6 @@
     },
     {
         "Dimensions": {
-            "FOR": null,
-            "FOR_first": null,
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -3480,15 +3474,6 @@
             "book_doi": "10.1007/978-3-319-95681-7",
             "book_series_title": "Encyclopedia of the UN Sustainable Development Goals",
             "book_title": "Good Health and Well-Being",
-            "category_bra": null,
-            "category_for": null,
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
-            "category_ua": null,
             "concepts": [
                 "good health",
                 "health",
@@ -3498,7 +3483,6 @@
             "date": "2020-01-01",
             "date_inserted": "2019-09-27",
             "doi": "10.1007/978-3-319-95681-7_64",
-            "field_citation_ratio": null,
             "funder_countries": [
                 {
                     "id": "US",
@@ -3511,14 +3495,32 @@
                     "city_name": "Arlington",
                     "country_name": "United States",
                     "id": "grid.457898.f",
-                    "name": "Office of the Director"
+                    "latitude": 38.880566,
+                    "linkout": [
+                        "http://www.nsf.gov/od/"
+                    ],
+                    "longitude": -77.11099,
+                    "name": "Office of the Director",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "NIGMS",
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.280785.0",
-                    "name": "National Institute of General Medical Sciences"
+                    "latitude": 38.997833,
+                    "linkout": [
+                        "http://www.nigms.nih.gov/Pages/default.aspx"
+                    ],
+                    "longitude": -77.09938,
+                    "name": "National Institute of General Medical Sciences",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1121262215",
@@ -3526,12 +3528,6 @@
                 "2523-7403",
                 "2523-7411"
             ],
-            "issue": null,
-            "journal": null,
-            "journal_lists": null,
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -3540,54 +3536,49 @@
                 }
             ],
             "pages": "629-636",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Springer Nature",
-            "recent_citations": null,
             "reference_ids": [
-                "pub.1040890613",
                 "pub.1048242709",
-                "pub.1040758404",
-                "pub.1028575403",
-                "pub.1052108716",
                 "pub.1085469962",
-                "pub.1112556049",
-                "pub.1029725511",
-                "pub.1004989466",
-                "pub.1052267631",
-                "pub.1043424456",
-                "pub.1019655662",
-                "pub.1108858118",
-                "pub.1032233941",
-                "pub.1109092343",
                 "pub.1064528860",
+                "pub.1032233941",
+                "pub.1040758404",
+                "pub.1040890613",
+                "pub.1004989466",
+                "pub.1029725511",
+                "pub.1109092343",
+                "pub.1043424456",
+                "pub.1117152914",
+                "pub.1052267631",
+                "pub.1019655662",
+                "pub.1112556049",
+                "pub.1052108716",
                 "pub.1032407914",
+                "pub.1028575403",
                 "pub.1018933649",
-                "pub.1117152914"
+                "pub.1108858118"
             ],
             "references": [
-                "pub.1040890613",
                 "pub.1048242709",
-                "pub.1040758404",
-                "pub.1028575403",
-                "pub.1052108716",
                 "pub.1085469962",
-                "pub.1112556049",
-                "pub.1029725511",
-                "pub.1004989466",
-                "pub.1052267631",
-                "pub.1043424456",
-                "pub.1019655662",
-                "pub.1108858118",
-                "pub.1032233941",
-                "pub.1109092343",
                 "pub.1064528860",
+                "pub.1032233941",
+                "pub.1040758404",
+                "pub.1040890613",
+                "pub.1004989466",
+                "pub.1029725511",
+                "pub.1109092343",
+                "pub.1043424456",
+                "pub.1117152914",
+                "pub.1052267631",
+                "pub.1019655662",
+                "pub.1112556049",
+                "pub.1052108716",
                 "pub.1032407914",
+                "pub.1028575403",
                 "pub.1018933649",
-                "pub.1117152914"
+                "pub.1108858118"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 2147714,
@@ -3628,14 +3619,6 @@
             ],
             "research_org_countries": [
                 {
-                    "id": "US",
-                    "name": "United States"
-                },
-                {
-                    "id": "NZ",
-                    "name": "New Zealand"
-                },
-                {
                     "id": "MY",
                     "name": "Malaysia"
                 },
@@ -3644,16 +3627,24 @@
                     "name": "United Kingdom"
                 },
                 {
+                    "id": "NZ",
+                    "name": "New Zealand"
+                },
+                {
+                    "id": "US",
+                    "name": "United States"
+                },
+                {
                     "id": "AU",
                     "name": "Australia"
                 }
             ],
             "research_org_country_names": [
-                "Malaysia",
                 "Australia",
                 "New Zealand",
-                "United Kingdom",
-                "United States"
+                "Malaysia",
+                "United States",
+                "United Kingdom"
             ],
             "research_org_state_codes": [
                 {
@@ -3661,72 +3652,139 @@
                     "name": "Montana"
                 },
                 {
-                    "id": "US-IA",
-                    "name": "Iowa"
-                },
-                {
                     "id": "AU-NSW",
                     "name": "New South Wales"
+                },
+                {
+                    "id": "US-IA",
+                    "name": "Iowa"
                 }
             ],
             "research_org_state_names": [
-                "New South Wales",
+                "England",
                 "Iowa",
-                "Montana",
-                "England"
+                "New South Wales",
+                "Montana"
             ],
             "research_orgs": [
-                {
-                    "acronym": "ACAP",
-                    "city_name": "Sydney",
-                    "country_name": "Australia",
-                    "id": "grid.459318.2",
-                    "name": "Australian College of Applied Psychology"
-                },
-                {
-                    "acronym": "MSU",
-                    "city_name": "Bozeman",
-                    "country_name": "United States",
-                    "id": "grid.41891.35",
-                    "name": "Montana State University"
-                },
-                {
-                    "city_name": "Chester",
-                    "country_name": "United Kingdom",
-                    "id": "grid.43710.31",
-                    "name": "University of Chester"
-                },
                 {
                     "acronym": "LJMU",
                     "city_name": "Liverpool",
                     "country_name": "United Kingdom",
                     "id": "grid.4425.7",
-                    "name": "Liverpool John Moores University"
+                    "latitude": 53.403,
+                    "linkout": [
+                        "https://www.ljmu.ac.uk/"
+                    ],
+                    "longitude": -2.97,
+                    "name": "Liverpool John Moores University",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
-                    "city_name": "Dunedin",
-                    "country_name": "New Zealand",
-                    "id": "grid.29980.3a",
-                    "name": "University of Otago"
+                    "acronym": "ACAP",
+                    "city_name": "Sydney",
+                    "country_name": "Australia",
+                    "id": "grid.459318.2",
+                    "latitude": -33.865334,
+                    "linkout": [
+                        "http://www.acap.edu.au/"
+                    ],
+                    "longitude": 151.20532,
+                    "name": "Australian College of Applied Psychology",
+                    "state_name": "New South Wales",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UNU-IIGH",
                     "city_name": "Kuala Lumpur",
                     "country_name": "Malaysia",
                     "id": "grid.460097.c",
-                    "name": "United Nations University-International Institute for Global Health"
+                    "latitude": 3.098824,
+                    "linkout": [
+                        "http://iigh.unu.edu/"
+                    ],
+                    "longitude": 101.727875,
+                    "name": "United Nations University-International Institute for Global Health",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "city_name": "Des Moines",
                     "country_name": "United States",
                     "id": "grid.255228.a",
-                    "name": "Drake University"
+                    "latitude": 41.601715,
+                    "linkout": [
+                        "http://www.drake.edu/"
+                    ],
+                    "longitude": -93.658066,
+                    "name": "Drake University",
+                    "state_name": "Iowa",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Leeds",
                     "country_name": "United Kingdom",
                     "id": "grid.10346.30",
-                    "name": "Leeds Beckett University"
+                    "latitude": 53.80417,
+                    "linkout": [
+                        "http://www.leedsbeckett.ac.uk/"
+                    ],
+                    "longitude": -1.549444,
+                    "name": "Leeds Beckett University",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
+                    "acronym": "MSU",
+                    "city_name": "Bozeman",
+                    "country_name": "United States",
+                    "id": "grid.41891.35",
+                    "latitude": 45.66833,
+                    "linkout": [
+                        "http://www.montana.edu/"
+                    ],
+                    "longitude": -111.05,
+                    "name": "Montana State University",
+                    "state_name": "Montana",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
+                    "city_name": "Dunedin",
+                    "country_name": "New Zealand",
+                    "id": "grid.29980.3a",
+                    "latitude": -45.864895,
+                    "linkout": [
+                        "http://www.otago.ac.nz/"
+                    ],
+                    "longitude": 170.51468,
+                    "name": "University of Otago",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
+                    "city_name": "Chester",
+                    "country_name": "United Kingdom",
+                    "id": "grid.43710.31",
+                    "latitude": 53.200325,
+                    "linkout": [
+                        "http://www.chester.ac.uk/"
+                    ],
+                    "longitude": -2.898073,
+                    "name": "University of Chester",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -3834,14 +3892,14 @@
                         "0000-0001-5779-0697"
                     ],
                     "research_orgs": [
-                        "grid.411077.4",
-                        "grid.253482.a",
+                        "grid.288223.1",
+                        "grid.458460.b",
                         "grid.460394.c",
+                        "grid.411077.4",
                         "grid.259030.d",
                         "grid.429997.8",
                         "grid.41891.35",
-                        "grid.458460.b",
-                        "grid.288223.1"
+                        "grid.253482.a"
                     ]
                 },
                 {
@@ -3877,11 +3935,11 @@
                     ]
                 }
             ],
-            "score": 24.67003,
+            "score": 24.546867,
             "supporting_grant_ids": [
-                "grant.3805664",
+                "grant.2437908",
                 "grant.5545433",
-                "grant.2437908"
+                "grant.3805664"
             ],
             "terms": [
                 "good health",
@@ -3889,20 +3947,16 @@
                 "well-being",
                 "being"
             ],
-            "times_cited": 0,
             "title": "SDG3 Good Health and Well-Being: Integration and Connection with Other SDGs",
             "type": "chapter",
-            "volume": null,
             "year": 2020
         },
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1007/978-3-319-95681-7_64",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1007/978-3-319-95681-7_64",
-            "journal": NaN,
             "search_term": "The Healthy Eating Index",
             "url": "https://doi.org/10.1007/978-3-319-95681-7_64"
         },
@@ -3910,27 +3964,6 @@
     },
     {
         "Dimensions": {
-            "FOR": null,
-            "FOR_first": null,
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
-            "altmetric": null,
-            "altmetric_id": null,
-            "author_affiliations": null,
-            "authors": null,
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
-            "category_for": null,
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
-            "category_ua": null,
             "concepts": [
                 "inequality",
                 "uncertainty",
@@ -3941,17 +3974,7 @@
             "date": "2020-01-01",
             "date_inserted": "2019-11-15",
             "doi": "10.1007/978-981-32-9162-1",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1122556975",
-            "issn": null,
-            "issue": null,
-            "journal": null,
-            "journal_lists": null,
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -3959,24 +3982,8 @@
                     "name": "Closed"
                 }
             ],
-            "pages": null,
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Springer Nature",
-            "recent_citations": null,
-            "reference_ids": null,
-            "references": null,
-            "relative_citation_ratio": null,
-            "research_org_cities": null,
-            "research_org_countries": null,
-            "research_org_country_names": null,
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
-            "researchers": null,
-            "score": 15.500504,
-            "supporting_grant_ids": null,
+            "score": 15.494448,
             "terms": [
                 "inequality",
                 "uncertainty",
@@ -3984,20 +3991,16 @@
                 "challenges",
                 "city"
             ],
-            "times_cited": 0,
             "title": "Inequality and Uncertainty, Current Challenges for Cities",
             "type": "book",
-            "volume": null,
             "year": 2020
         },
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1007/978-981-32-9162-1",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1007/978-981-32-9162-1",
-            "journal": NaN,
             "search_term": "The Healthy Eating Index",
             "url": "https://doi.org/10.1007/978-981-32-9162-1"
         },
@@ -4031,10 +4034,6 @@
                     "name": "Generic Health Relevance"
                 }
             ],
-            "HRCS_RAC": null,
-            "RCDC": null,
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -4162,9 +4161,7 @@
                 }
             ],
             "book_doi": "10.1007/978-981-32-9162-1",
-            "book_series_title": null,
             "book_title": "Inequality and Uncertainty",
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3448",
@@ -4195,10 +4192,6 @@
                     "name": "Generic Health Relevance"
                 }
             ],
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
             "category_ua": [
                 {
                     "id": "30020",
@@ -4256,17 +4249,7 @@
             "date": "2020-01-01",
             "date_inserted": "2019-11-15",
             "doi": "10.1007/978-981-32-9162-1_14",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1122558256",
-            "issn": null,
-            "issue": null,
-            "journal": null,
-            "journal_lists": null,
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -4275,11 +4258,7 @@
                 }
             ],
             "pages": "273-296",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Springer Nature",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1042122662",
                 "pub.1011641452",
@@ -4340,7 +4319,6 @@
                 "pub.1065050248",
                 "pub.1020772226"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 2510911,
@@ -4356,15 +4334,22 @@
             "research_org_country_names": [
                 "Spain"
             ],
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
             "research_orgs": [
                 {
                     "acronym": "UPO",
                     "city_name": "Seville",
                     "country_name": "Spain",
                     "id": "grid.15449.3d",
-                    "name": "Pablo de Olavide University"
+                    "latitude": 37.355,
+                    "linkout": [
+                        "http://www.upo.es/portal/impe/web/portada"
+                    ],
+                    "longitude": -5.938,
+                    "name": "Pablo de Olavide University",
+                    "state_name": "Andaluc\u00eda",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -4382,14 +4367,13 @@
                 {
                     "first_name": "Clemente J",
                     "id": "ur.07404742025.87",
-                    "last_name": "Navarro Y\u00e1\u00f1ez",
+                    "last_name": "Navarro-Y\u00e1\u00f1ez",
                     "research_orgs": [
                         "grid.15449.3d"
                     ]
                 }
             ],
-            "score": 24.587791,
-            "supporting_grant_ids": null,
+            "score": 24.56216,
             "terms": [
                 "health",
                 "lifestyle",
@@ -4438,20 +4422,16 @@
                 "analysis",
                 "municipal area"
             ],
-            "times_cited": 0,
             "title": "Urban Scenes, Cultural Context Exposure and Contemporary Health Lifestyles: A Multilevel Analysis of Spanish Sub-municipal Areas",
             "type": "chapter",
-            "volume": null,
             "year": 2020
         },
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1007/978-981-32-9162-1_14",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1007/978-981-32-9162-1_14",
-            "journal": NaN,
             "search_term": "The Healthy Eating Index",
             "url": "https://doi.org/10.1007/978-981-32-9162-1_14"
         },
@@ -4477,7 +4457,6 @@
                     "name": "Metabolic and Endocrine"
                 }
             ],
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "389",
@@ -4488,8 +4467,6 @@
                     "name": "Nutrition"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -4568,8 +4545,6 @@
                     "researcher_id": "ur.0641227054.40"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
             "book_title": "Using Scanner Data for Food Policy Research",
             "category_bra": [
                 {
@@ -4599,9 +4574,6 @@
                     "name": "Metabolic and Endocrine"
                 }
             ],
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "389",
@@ -4656,17 +4628,7 @@
             "date": "2020-01-01",
             "date_inserted": "2019-10-19",
             "doi": "10.1016/b978-0-12-814507-4.00005-5",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1121880931",
-            "issn": null,
-            "issue": null,
-            "journal": null,
-            "journal_lists": null,
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -4675,492 +4637,481 @@
                 }
             ],
             "pages": "59-140",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Elsevier",
-            "recent_citations": null,
             "reference_ids": [
-                "pub.1013697600",
-                "pub.1019002739",
-                "pub.1005440118",
-                "pub.1007823484",
-                "pub.1064527622",
-                "pub.1026894480",
-                "pub.1004973721",
-                "pub.1059379648",
-                "pub.1005940865",
-                "pub.1064526217",
-                "pub.1030341927",
-                "pub.1058575039",
-                "pub.1017241595",
-                "pub.1000696039",
-                "pub.1021818282",
-                "pub.1014059417",
-                "pub.1001680830",
-                "pub.1036018838",
-                "pub.1018980181",
-                "pub.1020889730",
-                "pub.1008186255",
-                "pub.1110841877",
-                "pub.1091278111",
-                "pub.1033196099",
-                "pub.1054922136",
-                "pub.1054921740",
-                "pub.1009849443",
-                "pub.1064531982",
-                "pub.1054921667",
-                "pub.1034825324",
-                "pub.1059379696",
-                "pub.1016865795",
-                "pub.1083408294",
-                "pub.1024056430",
-                "pub.1091148002",
-                "pub.1009935822",
-                "pub.1061833745",
-                "pub.1064530438",
-                "pub.1039262000",
-                "pub.1041064057",
-                "pub.1059380217",
-                "pub.1029549037",
-                "pub.1054922130",
-                "pub.1110008358",
-                "pub.1027012162",
-                "pub.1077985532",
-                "pub.1064713505",
-                "pub.1043025566",
-                "pub.1059570354",
-                "pub.1061936287",
-                "pub.1007756971",
-                "pub.1052112400",
-                "pub.1059380041",
-                "pub.1098700693",
-                "pub.1083859024",
-                "pub.1115024809",
-                "pub.1061934224",
-                "pub.1058385962",
-                "pub.1010141903",
-                "pub.1085925214",
-                "pub.1061936448",
-                "pub.1011776601",
-                "pub.1052223235",
-                "pub.1023890585",
-                "pub.1061933558",
-                "pub.1007029359",
-                "pub.1059380355",
-                "pub.1020918130",
-                "pub.1005313628",
-                "pub.1084192211",
-                "pub.1069411263",
-                "pub.1047802819",
-                "pub.1045235331",
-                "pub.1041903869",
-                "pub.1030944841",
-                "pub.1059379863",
-                "pub.1021771939",
-                "pub.1009234665",
-                "pub.1007350322",
-                "pub.1061936359",
-                "pub.1100671969",
-                "pub.1041698252",
-                "pub.1010369866",
-                "pub.1022628633",
-                "pub.1001895674",
-                "pub.1017843956",
-                "pub.1015553229",
-                "pub.1100868526",
-                "pub.1058752118",
-                "pub.1054921830",
-                "pub.1059569738",
-                "pub.1012375134",
-                "pub.1054922131",
-                "pub.1020740277",
-                "pub.1059379657",
-                "pub.1051364716",
-                "pub.1068848230",
                 "pub.1024539852",
-                "pub.1024061540",
-                "pub.1042447201",
-                "pub.1061833744",
-                "pub.1061934118",
-                "pub.1059354137",
-                "pub.1017122316",
-                "pub.1053544478",
-                "pub.1098671021",
-                "pub.1050424037",
-                "pub.1010885645",
-                "pub.1071753695",
-                "pub.1061933730",
-                "pub.1069410771",
-                "pub.1047055674",
-                "pub.1054921852",
-                "pub.1023463315",
-                "pub.1049446209",
-                "pub.1052383040",
-                "pub.1061933715",
-                "pub.1061934032",
-                "pub.1017671072",
-                "pub.1061922075",
-                "pub.1012470905",
-                "pub.1091655247",
-                "pub.1028509279",
-                "pub.1110631946",
-                "pub.1064526119",
-                "pub.1085885866",
-                "pub.1084094502",
-                "pub.1005429627",
-                "pub.1059570359",
-                "pub.1058921582",
-                "pub.1047619789",
-                "pub.1084084892",
-                "pub.1025677760",
-                "pub.1022583249",
-                "pub.1009867280",
-                "pub.1059379993",
-                "pub.1071753775",
-                "pub.1048079499",
-                "pub.1083802748",
-                "pub.1030439355",
-                "pub.1054942261",
-                "pub.1005477919",
-                "pub.1005761411",
-                "pub.1032218834",
-                "pub.1069409212",
-                "pub.1103533679",
-                "pub.1025074246",
-                "pub.1032482997",
-                "pub.1016810918",
-                "pub.1020941320",
-                "pub.1059379715",
-                "pub.1010422727",
-                "pub.1101040995",
-                "pub.1037698240",
-                "pub.1004398819",
-                "pub.1059379934",
-                "pub.1033542946",
-                "pub.1028653245",
-                "pub.1064530439",
-                "pub.1068748893",
-                "pub.1014420222",
-                "pub.1052891215",
-                "pub.1100622570",
-                "pub.1007025244",
-                "pub.1059570502",
-                "pub.1017325012",
-                "pub.1032125054",
-                "pub.1084088466",
-                "pub.1010498161",
-                "pub.1028602735",
-                "pub.1105930273",
-                "pub.1033612391",
-                "pub.1019135509",
-                "pub.1019381475",
-                "pub.1012882626",
-                "pub.1059380037",
-                "pub.1004885949",
-                "pub.1061936533",
-                "pub.1028536360",
-                "pub.1035569277",
-                "pub.1025607272",
-                "pub.1079318964",
-                "pub.1053075871",
-                "pub.1007062148",
-                "pub.1069375470",
-                "pub.1084526341",
-                "pub.1014100507",
-                "pub.1031559038",
-                "pub.1052307702",
-                "pub.1012765498",
-                "pub.1084027859",
-                "pub.1009314263",
-                "pub.1031583913",
-                "pub.1031372750",
-                "pub.1103478290",
-                "pub.1034901349",
-                "pub.1007189556",
-                "pub.1054921953",
-                "pub.1000495017",
-                "pub.1035732785",
-                "pub.1011816231",
-                "pub.1074211218",
-                "pub.1061833805",
-                "pub.1010802594",
-                "pub.1083534471",
-                "pub.1059380397",
-                "pub.1022241259",
-                "pub.1037344245",
-                "pub.1047955832",
-                "pub.1064525181",
-                "pub.1036735025",
-                "pub.1102297094",
-                "pub.1058529188",
-                "pub.1051717143",
-                "pub.1059379745",
-                "pub.1044249988",
-                "pub.1018058153",
-                "pub.1064526773",
+                "pub.1017241595",
+                "pub.1020918130",
                 "pub.1026422703",
-                "pub.1047004715",
-                "pub.1033428939",
-                "pub.1032688313",
-                "pub.1011234425",
-                "pub.1044725430",
-                "pub.1026422292",
+                "pub.1036735025",
+                "pub.1084084892",
+                "pub.1059379993",
+                "pub.1110008358",
+                "pub.1064525181",
                 "pub.1046014804",
-                "pub.1018608579",
-                "pub.1014582478",
-                "pub.1102347133",
-                "pub.1061933839",
-                "pub.1052138015",
-                "pub.1102828266",
-                "pub.1004650889",
+                "pub.1018058153",
+                "pub.1054942261",
+                "pub.1061936533",
+                "pub.1054922136",
+                "pub.1015553229",
+                "pub.1012765498",
+                "pub.1054922131",
+                "pub.1059570502",
+                "pub.1039262000",
+                "pub.1028509279",
+                "pub.1064713505",
+                "pub.1084094502",
+                "pub.1042447201",
+                "pub.1059380217",
+                "pub.1059570359",
+                "pub.1054921953",
+                "pub.1025677760",
+                "pub.1061934032",
                 "pub.1091418092",
-                "pub.1032934803"
+                "pub.1059379715",
+                "pub.1029549037",
+                "pub.1031559038",
+                "pub.1045235331",
+                "pub.1014582478",
+                "pub.1007823484",
+                "pub.1059379863",
+                "pub.1052891215",
+                "pub.1084192211",
+                "pub.1010498161",
+                "pub.1103533679",
+                "pub.1100671969",
+                "pub.1022241259",
+                "pub.1059379657",
+                "pub.1061934118",
+                "pub.1059379745",
+                "pub.1041698252",
+                "pub.1105930273",
+                "pub.1054921830",
+                "pub.1019381475",
+                "pub.1053075871",
+                "pub.1013697600",
+                "pub.1016865795",
+                "pub.1017122316",
+                "pub.1058575039",
+                "pub.1010141903",
+                "pub.1028602735",
+                "pub.1030341927",
+                "pub.1004650889",
+                "pub.1053544478",
+                "pub.1014100507",
+                "pub.1047619789",
+                "pub.1005761411",
+                "pub.1059354137",
+                "pub.1017671072",
+                "pub.1010885645",
+                "pub.1026894480",
+                "pub.1023890585",
+                "pub.1052223235",
+                "pub.1071753695",
+                "pub.1037698240",
+                "pub.1032482997",
+                "pub.1005313628",
+                "pub.1032125054",
+                "pub.1005940865",
+                "pub.1014420222",
+                "pub.1007025244",
+                "pub.1061833805",
+                "pub.1009867280",
+                "pub.1048079499",
+                "pub.1101040995",
+                "pub.1054922130",
+                "pub.1100868526",
+                "pub.1059379696",
+                "pub.1036018838",
+                "pub.1044725430",
+                "pub.1020740277",
+                "pub.1028653245",
+                "pub.1083408294",
+                "pub.1059570354",
+                "pub.1041903869",
+                "pub.1033542946",
+                "pub.1052112400",
+                "pub.1051717143",
+                "pub.1102828266",
+                "pub.1100622570",
+                "pub.1004398819",
+                "pub.1023463315",
+                "pub.1009849443",
+                "pub.1033428939",
+                "pub.1061933558",
+                "pub.1059380397",
+                "pub.1007189556",
+                "pub.1064530438",
+                "pub.1007062148",
+                "pub.1032934803",
+                "pub.1091148002",
+                "pub.1035732785",
+                "pub.1068848230",
+                "pub.1051364716",
+                "pub.1018980181",
+                "pub.1005429627",
+                "pub.1064531982",
+                "pub.1010802594",
+                "pub.1091655247",
+                "pub.1084027859",
+                "pub.1061936448",
+                "pub.1024061540",
+                "pub.1059380041",
+                "pub.1059380355",
+                "pub.1010422727",
+                "pub.1022583249",
+                "pub.1011816231",
+                "pub.1012470905",
+                "pub.1059379934",
+                "pub.1012375134",
+                "pub.1098700693",
+                "pub.1016810918",
+                "pub.1103478290",
+                "pub.1004973721",
+                "pub.1061936359",
+                "pub.1021771939",
+                "pub.1059380037",
+                "pub.1007350322",
+                "pub.1032218834",
+                "pub.1005477919",
+                "pub.1009314263",
+                "pub.1014059417",
+                "pub.1058385962",
+                "pub.1077985532",
+                "pub.1011234425",
+                "pub.1069375470",
+                "pub.1052138015",
+                "pub.1049446209",
+                "pub.1043025566",
+                "pub.1079318964",
+                "pub.1024056430",
+                "pub.1083802748",
+                "pub.1047055674",
+                "pub.1084088466",
+                "pub.1009234665",
+                "pub.1025074246",
+                "pub.1110631946",
+                "pub.1058921582",
+                "pub.1083859024",
+                "pub.1061922075",
+                "pub.1069410771",
+                "pub.1001895674",
+                "pub.1000495017",
+                "pub.1064526119",
+                "pub.1031583913",
+                "pub.1059379648",
+                "pub.1059569738",
+                "pub.1110841877",
+                "pub.1007756971",
+                "pub.1084526341",
+                "pub.1021818282",
+                "pub.1018608579",
+                "pub.1085925214",
+                "pub.1115024809",
+                "pub.1011776601",
+                "pub.1047955832",
+                "pub.1058752118",
+                "pub.1069411263",
+                "pub.1020889730",
+                "pub.1034825324",
+                "pub.1064526773",
+                "pub.1020941320",
+                "pub.1034901349",
+                "pub.1054921667",
+                "pub.1004885949",
+                "pub.1047004715",
+                "pub.1068748893",
+                "pub.1085885866",
+                "pub.1061933839",
+                "pub.1005440118",
+                "pub.1001680830",
+                "pub.1033196099",
+                "pub.1026422292",
+                "pub.1032688313",
+                "pub.1027012162",
+                "pub.1061833744",
+                "pub.1047802819",
+                "pub.1019135509",
+                "pub.1050424037",
+                "pub.1083534471",
+                "pub.1010369866",
+                "pub.1044249988",
+                "pub.1098671021",
+                "pub.1019002739",
+                "pub.1008186255",
+                "pub.1033612391",
+                "pub.1028536360",
+                "pub.1030439355",
+                "pub.1061936287",
+                "pub.1052383040",
+                "pub.1012882626",
+                "pub.1000696039",
+                "pub.1064526217",
+                "pub.1102347133",
+                "pub.1091278111",
+                "pub.1035569277",
+                "pub.1022628633",
+                "pub.1054921852",
+                "pub.1031372750",
+                "pub.1017843956",
+                "pub.1054921740",
+                "pub.1074211218",
+                "pub.1030944841",
+                "pub.1041064057",
+                "pub.1058529188",
+                "pub.1052307702",
+                "pub.1061933715",
+                "pub.1061933730",
+                "pub.1025607272",
+                "pub.1037344245",
+                "pub.1064530439",
+                "pub.1061833745",
+                "pub.1009935822",
+                "pub.1064527622",
+                "pub.1007029359",
+                "pub.1017325012",
+                "pub.1061934224",
+                "pub.1069409212",
+                "pub.1071753775",
+                "pub.1102297094"
             ],
             "references": [
-                "pub.1013697600",
-                "pub.1019002739",
-                "pub.1005440118",
-                "pub.1007823484",
-                "pub.1064527622",
-                "pub.1026894480",
-                "pub.1004973721",
-                "pub.1059379648",
-                "pub.1005940865",
-                "pub.1064526217",
-                "pub.1030341927",
-                "pub.1058575039",
-                "pub.1017241595",
-                "pub.1000696039",
-                "pub.1021818282",
-                "pub.1014059417",
-                "pub.1001680830",
-                "pub.1036018838",
-                "pub.1018980181",
-                "pub.1020889730",
-                "pub.1008186255",
-                "pub.1110841877",
-                "pub.1091278111",
-                "pub.1033196099",
-                "pub.1054922136",
-                "pub.1054921740",
-                "pub.1009849443",
-                "pub.1064531982",
-                "pub.1054921667",
-                "pub.1034825324",
-                "pub.1059379696",
-                "pub.1016865795",
-                "pub.1083408294",
-                "pub.1024056430",
-                "pub.1091148002",
-                "pub.1009935822",
-                "pub.1061833745",
-                "pub.1064530438",
-                "pub.1039262000",
-                "pub.1041064057",
-                "pub.1059380217",
-                "pub.1029549037",
-                "pub.1054922130",
-                "pub.1110008358",
-                "pub.1027012162",
-                "pub.1077985532",
-                "pub.1064713505",
-                "pub.1043025566",
-                "pub.1059570354",
-                "pub.1061936287",
-                "pub.1007756971",
-                "pub.1052112400",
-                "pub.1059380041",
-                "pub.1098700693",
-                "pub.1083859024",
-                "pub.1115024809",
-                "pub.1061934224",
-                "pub.1058385962",
-                "pub.1010141903",
-                "pub.1085925214",
-                "pub.1061936448",
-                "pub.1011776601",
-                "pub.1052223235",
-                "pub.1023890585",
-                "pub.1061933558",
-                "pub.1007029359",
-                "pub.1059380355",
-                "pub.1020918130",
-                "pub.1005313628",
-                "pub.1084192211",
-                "pub.1069411263",
-                "pub.1047802819",
-                "pub.1045235331",
-                "pub.1041903869",
-                "pub.1030944841",
-                "pub.1059379863",
-                "pub.1021771939",
-                "pub.1009234665",
-                "pub.1007350322",
-                "pub.1061936359",
-                "pub.1100671969",
-                "pub.1041698252",
-                "pub.1010369866",
-                "pub.1022628633",
-                "pub.1001895674",
-                "pub.1017843956",
-                "pub.1015553229",
-                "pub.1100868526",
-                "pub.1058752118",
-                "pub.1054921830",
-                "pub.1059569738",
-                "pub.1012375134",
-                "pub.1054922131",
-                "pub.1020740277",
-                "pub.1059379657",
-                "pub.1051364716",
-                "pub.1068848230",
                 "pub.1024539852",
-                "pub.1024061540",
-                "pub.1042447201",
-                "pub.1061833744",
-                "pub.1061934118",
-                "pub.1059354137",
-                "pub.1017122316",
-                "pub.1053544478",
-                "pub.1098671021",
-                "pub.1050424037",
-                "pub.1010885645",
-                "pub.1071753695",
-                "pub.1061933730",
-                "pub.1069410771",
-                "pub.1047055674",
-                "pub.1054921852",
-                "pub.1023463315",
-                "pub.1049446209",
-                "pub.1052383040",
-                "pub.1061933715",
-                "pub.1061934032",
-                "pub.1017671072",
-                "pub.1061922075",
-                "pub.1012470905",
-                "pub.1091655247",
-                "pub.1028509279",
-                "pub.1110631946",
-                "pub.1064526119",
-                "pub.1085885866",
-                "pub.1084094502",
-                "pub.1005429627",
-                "pub.1059570359",
-                "pub.1058921582",
-                "pub.1047619789",
-                "pub.1084084892",
-                "pub.1025677760",
-                "pub.1022583249",
-                "pub.1009867280",
-                "pub.1059379993",
-                "pub.1071753775",
-                "pub.1048079499",
-                "pub.1083802748",
-                "pub.1030439355",
-                "pub.1054942261",
-                "pub.1005477919",
-                "pub.1005761411",
-                "pub.1032218834",
-                "pub.1069409212",
-                "pub.1103533679",
-                "pub.1025074246",
-                "pub.1032482997",
-                "pub.1016810918",
-                "pub.1020941320",
-                "pub.1059379715",
-                "pub.1010422727",
-                "pub.1101040995",
-                "pub.1037698240",
-                "pub.1004398819",
-                "pub.1059379934",
-                "pub.1033542946",
-                "pub.1028653245",
-                "pub.1064530439",
-                "pub.1068748893",
-                "pub.1014420222",
-                "pub.1052891215",
-                "pub.1100622570",
-                "pub.1007025244",
-                "pub.1059570502",
-                "pub.1017325012",
-                "pub.1032125054",
-                "pub.1084088466",
-                "pub.1010498161",
-                "pub.1028602735",
-                "pub.1105930273",
-                "pub.1033612391",
-                "pub.1019135509",
-                "pub.1019381475",
-                "pub.1012882626",
-                "pub.1059380037",
-                "pub.1004885949",
-                "pub.1061936533",
-                "pub.1028536360",
-                "pub.1035569277",
-                "pub.1025607272",
-                "pub.1079318964",
-                "pub.1053075871",
-                "pub.1007062148",
-                "pub.1069375470",
-                "pub.1084526341",
-                "pub.1014100507",
-                "pub.1031559038",
-                "pub.1052307702",
-                "pub.1012765498",
-                "pub.1084027859",
-                "pub.1009314263",
-                "pub.1031583913",
-                "pub.1031372750",
-                "pub.1103478290",
-                "pub.1034901349",
-                "pub.1007189556",
-                "pub.1054921953",
-                "pub.1000495017",
-                "pub.1035732785",
-                "pub.1011816231",
-                "pub.1074211218",
-                "pub.1061833805",
-                "pub.1010802594",
-                "pub.1083534471",
-                "pub.1059380397",
-                "pub.1022241259",
-                "pub.1037344245",
-                "pub.1047955832",
-                "pub.1064525181",
-                "pub.1036735025",
-                "pub.1102297094",
-                "pub.1058529188",
-                "pub.1051717143",
-                "pub.1059379745",
-                "pub.1044249988",
-                "pub.1018058153",
-                "pub.1064526773",
+                "pub.1017241595",
+                "pub.1020918130",
                 "pub.1026422703",
-                "pub.1047004715",
-                "pub.1033428939",
-                "pub.1032688313",
-                "pub.1011234425",
-                "pub.1044725430",
-                "pub.1026422292",
+                "pub.1036735025",
+                "pub.1084084892",
+                "pub.1059379993",
+                "pub.1110008358",
+                "pub.1064525181",
                 "pub.1046014804",
-                "pub.1018608579",
-                "pub.1014582478",
-                "pub.1102347133",
-                "pub.1061933839",
-                "pub.1052138015",
-                "pub.1102828266",
-                "pub.1004650889",
+                "pub.1018058153",
+                "pub.1054942261",
+                "pub.1061936533",
+                "pub.1054922136",
+                "pub.1015553229",
+                "pub.1012765498",
+                "pub.1054922131",
+                "pub.1059570502",
+                "pub.1039262000",
+                "pub.1028509279",
+                "pub.1064713505",
+                "pub.1084094502",
+                "pub.1042447201",
+                "pub.1059380217",
+                "pub.1059570359",
+                "pub.1054921953",
+                "pub.1025677760",
+                "pub.1061934032",
                 "pub.1091418092",
-                "pub.1032934803"
+                "pub.1059379715",
+                "pub.1029549037",
+                "pub.1031559038",
+                "pub.1045235331",
+                "pub.1014582478",
+                "pub.1007823484",
+                "pub.1059379863",
+                "pub.1052891215",
+                "pub.1084192211",
+                "pub.1010498161",
+                "pub.1103533679",
+                "pub.1100671969",
+                "pub.1022241259",
+                "pub.1059379657",
+                "pub.1061934118",
+                "pub.1059379745",
+                "pub.1041698252",
+                "pub.1105930273",
+                "pub.1054921830",
+                "pub.1019381475",
+                "pub.1053075871",
+                "pub.1013697600",
+                "pub.1016865795",
+                "pub.1017122316",
+                "pub.1058575039",
+                "pub.1010141903",
+                "pub.1028602735",
+                "pub.1030341927",
+                "pub.1004650889",
+                "pub.1053544478",
+                "pub.1014100507",
+                "pub.1047619789",
+                "pub.1005761411",
+                "pub.1059354137",
+                "pub.1017671072",
+                "pub.1010885645",
+                "pub.1026894480",
+                "pub.1023890585",
+                "pub.1052223235",
+                "pub.1071753695",
+                "pub.1037698240",
+                "pub.1032482997",
+                "pub.1005313628",
+                "pub.1032125054",
+                "pub.1005940865",
+                "pub.1014420222",
+                "pub.1007025244",
+                "pub.1061833805",
+                "pub.1009867280",
+                "pub.1048079499",
+                "pub.1101040995",
+                "pub.1054922130",
+                "pub.1100868526",
+                "pub.1059379696",
+                "pub.1036018838",
+                "pub.1044725430",
+                "pub.1020740277",
+                "pub.1028653245",
+                "pub.1083408294",
+                "pub.1059570354",
+                "pub.1041903869",
+                "pub.1033542946",
+                "pub.1052112400",
+                "pub.1051717143",
+                "pub.1102828266",
+                "pub.1100622570",
+                "pub.1004398819",
+                "pub.1023463315",
+                "pub.1009849443",
+                "pub.1033428939",
+                "pub.1061933558",
+                "pub.1059380397",
+                "pub.1007189556",
+                "pub.1064530438",
+                "pub.1007062148",
+                "pub.1032934803",
+                "pub.1091148002",
+                "pub.1035732785",
+                "pub.1068848230",
+                "pub.1051364716",
+                "pub.1018980181",
+                "pub.1005429627",
+                "pub.1064531982",
+                "pub.1010802594",
+                "pub.1091655247",
+                "pub.1084027859",
+                "pub.1061936448",
+                "pub.1024061540",
+                "pub.1059380041",
+                "pub.1059380355",
+                "pub.1010422727",
+                "pub.1022583249",
+                "pub.1011816231",
+                "pub.1012470905",
+                "pub.1059379934",
+                "pub.1012375134",
+                "pub.1098700693",
+                "pub.1016810918",
+                "pub.1103478290",
+                "pub.1004973721",
+                "pub.1061936359",
+                "pub.1021771939",
+                "pub.1059380037",
+                "pub.1007350322",
+                "pub.1032218834",
+                "pub.1005477919",
+                "pub.1009314263",
+                "pub.1014059417",
+                "pub.1058385962",
+                "pub.1077985532",
+                "pub.1011234425",
+                "pub.1069375470",
+                "pub.1052138015",
+                "pub.1049446209",
+                "pub.1043025566",
+                "pub.1079318964",
+                "pub.1024056430",
+                "pub.1083802748",
+                "pub.1047055674",
+                "pub.1084088466",
+                "pub.1009234665",
+                "pub.1025074246",
+                "pub.1110631946",
+                "pub.1058921582",
+                "pub.1083859024",
+                "pub.1061922075",
+                "pub.1069410771",
+                "pub.1001895674",
+                "pub.1000495017",
+                "pub.1064526119",
+                "pub.1031583913",
+                "pub.1059379648",
+                "pub.1059569738",
+                "pub.1110841877",
+                "pub.1007756971",
+                "pub.1084526341",
+                "pub.1021818282",
+                "pub.1018608579",
+                "pub.1085925214",
+                "pub.1115024809",
+                "pub.1011776601",
+                "pub.1047955832",
+                "pub.1058752118",
+                "pub.1069411263",
+                "pub.1020889730",
+                "pub.1034825324",
+                "pub.1064526773",
+                "pub.1020941320",
+                "pub.1034901349",
+                "pub.1054921667",
+                "pub.1004885949",
+                "pub.1047004715",
+                "pub.1068748893",
+                "pub.1085885866",
+                "pub.1061933839",
+                "pub.1005440118",
+                "pub.1001680830",
+                "pub.1033196099",
+                "pub.1026422292",
+                "pub.1032688313",
+                "pub.1027012162",
+                "pub.1061833744",
+                "pub.1047802819",
+                "pub.1019135509",
+                "pub.1050424037",
+                "pub.1083534471",
+                "pub.1010369866",
+                "pub.1044249988",
+                "pub.1098671021",
+                "pub.1019002739",
+                "pub.1008186255",
+                "pub.1033612391",
+                "pub.1028536360",
+                "pub.1030439355",
+                "pub.1061936287",
+                "pub.1052383040",
+                "pub.1012882626",
+                "pub.1000696039",
+                "pub.1064526217",
+                "pub.1102347133",
+                "pub.1091278111",
+                "pub.1035569277",
+                "pub.1022628633",
+                "pub.1054921852",
+                "pub.1031372750",
+                "pub.1017843956",
+                "pub.1054921740",
+                "pub.1074211218",
+                "pub.1030944841",
+                "pub.1041064057",
+                "pub.1058529188",
+                "pub.1052307702",
+                "pub.1061933715",
+                "pub.1061933730",
+                "pub.1025607272",
+                "pub.1037344245",
+                "pub.1064530439",
+                "pub.1061833745",
+                "pub.1009935822",
+                "pub.1064527622",
+                "pub.1007029359",
+                "pub.1017325012",
+                "pub.1061934224",
+                "pub.1069409212",
+                "pub.1071753775",
+                "pub.1102297094"
             ],
-            "relative_citation_ratio": null,
-            "research_org_cities": null,
-            "research_org_countries": null,
-            "research_org_country_names": null,
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
             "researchers": [
                 {
                     "first_name": "Mary Katherine",
@@ -5205,8 +5156,7 @@
                     ]
                 }
             ],
-            "score": 18.149496,
-            "supporting_grant_ids": null,
+            "score": 18.148365,
             "terms": [
                 "numerous studies",
                 "study",
@@ -5242,20 +5192,16 @@
                 "insights",
                 "research"
             ],
-            "times_cited": 0,
             "title": "5 Insights from past food research using scanner data",
             "type": "chapter",
-            "volume": null,
             "year": 2020
         },
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1016/b978-0-12-814507-4.00005-5",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1016/b978-0-12-814507-4.00005-5",
-            "journal": NaN,
             "search_term": "The Healthy Eating Index",
             "url": "https://doi.org/10.1016/b978-0-12-814507-4.00005-5"
         },
@@ -5263,27 +5209,7 @@
     },
     {
         "Dimensions": {
-            "FOR": null,
-            "FOR_first": null,
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
-            "altmetric": null,
-            "altmetric_id": null,
-            "author_affiliations": null,
-            "authors": null,
-            "book_doi": null,
             "book_series_title": "Encyclopedia of the UN Sustainable Development Goals",
-            "book_title": null,
-            "category_bra": null,
-            "category_for": null,
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
-            "category_ua": null,
             "concepts": [
                 "good health",
                 "health",
@@ -5293,20 +5219,11 @@
             "date": "2020-01-01",
             "date_inserted": "2019-09-27",
             "doi": "10.1007/978-3-319-95681-7",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1121263650",
             "issn": [
                 "2523-7403",
                 "2523-7411"
             ],
-            "issue": null,
-            "journal": null,
-            "journal_lists": null,
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -5314,44 +5231,24 @@
                     "name": "Closed"
                 }
             ],
-            "pages": null,
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Springer Nature",
-            "recent_citations": null,
-            "reference_ids": null,
-            "references": null,
-            "relative_citation_ratio": null,
-            "research_org_cities": null,
-            "research_org_countries": null,
-            "research_org_country_names": null,
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
-            "research_orgs": null,
-            "researchers": null,
-            "score": 13.476585,
-            "supporting_grant_ids": null,
+            "score": 13.475054,
             "terms": [
                 "good health",
                 "health",
                 "well-being",
                 "being"
             ],
-            "times_cited": 0,
             "title": "Good Health and Well-Being",
             "type": "book",
-            "volume": null,
             "year": 2020
         },
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1007/978-3-319-95681-7",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1007/978-3-319-95681-7",
-            "journal": NaN,
             "search_term": "The Healthy Eating Index",
             "url": "https://doi.org/10.1007/978-3-319-95681-7"
         },
@@ -5371,8 +5268,6 @@
                     "name": "20 Language, Communication and Culture"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "558",
@@ -5383,8 +5278,6 @@
                     "name": "Nutrition"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -5443,10 +5336,7 @@
                     "researcher_id": "ur.01355137211.97"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
             "book_title": "Nutritional and Health Aspects of Food in Western Europe",
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3577",
@@ -5463,10 +5353,6 @@
                     "name": "Population & Society"
                 }
             ],
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "558",
@@ -5527,17 +5413,7 @@
             "date": "2020-01-01",
             "date_inserted": "2019-10-27",
             "doi": "10.1016/b978-0-12-813171-8.00005-6",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1122096032",
-            "issn": null,
-            "issue": null,
-            "journal": null,
-            "journal_lists": null,
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -5546,11 +5422,7 @@
                 }
             ],
             "pages": "65-83",
-            "pmcid": null,
-            "pmid": null,
-            "proceedings_title": null,
             "publisher": "Elsevier",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1038259426",
                 "pub.1007021152",
@@ -5597,7 +5469,6 @@
                 "pub.1081892418",
                 "pub.1012848974"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 2644688,
@@ -5622,12 +5493,10 @@
                 "Kuwait",
                 "United Kingdom"
             ],
-            "research_org_state_codes": null,
             "research_org_state_names": [
                 "England",
                 "Al Asimah"
             ],
-            "research_orgs": null,
             "researchers": [
                 {
                     "first_name": "Sara Diana",
@@ -5650,8 +5519,7 @@
                     ]
                 }
             ],
-            "score": 14.647757,
-            "supporting_grant_ids": null,
+            "score": 14.651303,
             "terms": [
                 "history",
                 "daily meals",
@@ -5693,20 +5561,16 @@
                 "health",
                 "UK"
             ],
-            "times_cited": 0,
             "title": "Chapter 4 Food, nutrition and health in the UK",
             "type": "chapter",
-            "volume": null,
             "year": 2020
         },
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1016/b978-0-12-813171-8.00005-6",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1016/b978-0-12-813171-8.00005-6",
-            "journal": NaN,
             "search_term": "The Healthy Eating Index",
             "url": "https://doi.org/10.1016/b978-0-12-813171-8.00005-6"
         },
@@ -6302,9 +6166,6 @@
                     "researcher_id": ""
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4001",
@@ -6363,8 +6224,6 @@
                     "name": "3.1 Primary prevention interventions to modify behaviours or promote well-being"
                 }
             ],
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "508",
@@ -6467,7 +6326,6 @@
             "date": "2019-12-01",
             "date_inserted": "2019-02-03",
             "doi": "10.1186/s12966-019-0771-z",
-            "field_citation_ratio": null,
             "funder_countries": [
                 {
                     "id": "US",
@@ -6480,28 +6338,64 @@
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.420089.7",
-                    "name": "National Institute of Child Health and Human Development"
+                    "latitude": 39.001095,
+                    "linkout": [
+                        "http://www.nichd.nih.gov/Pages/index.aspx"
+                    ],
+                    "longitude": -77.10042,
+                    "name": "National Institute of Child Health and Human Development",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "acronym": "NIDDK",
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.419635.c",
-                    "name": "National Institute of Diabetes and Digestive and Kidney Diseases"
+                    "latitude": 39.003628,
+                    "linkout": [
+                        "http://www.niddk.nih.gov/"
+                    ],
+                    "longitude": -77.10107,
+                    "name": "National Institute of Diabetes and Digestive and Kidney Diseases",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "acronym": "NCATS",
                     "city_name": "Rockville",
                     "country_name": "United States",
                     "id": "grid.429651.d",
-                    "name": "National Center for Advancing Translational Sciences"
+                    "latitude": 39.09584,
+                    "linkout": [
+                        "https://ncats.nih.gov/"
+                    ],
+                    "longitude": -77.197174,
+                    "name": "National Center for Advancing Translational Sciences",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "NHLBI",
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.279885.9",
-                    "name": "National Heart Lung and Blood Institute"
+                    "latitude": 39.00428,
+                    "linkout": [
+                        "http://www.nhlbi.nih.gov/"
+                    ],
+                    "longitude": -77.100945,
+                    "name": "National Heart Lung and Blood Institute",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1111829793",
@@ -6563,9 +6457,7 @@
             "pages": "14",
             "pmcid": "PMC6357348",
             "pmid": "30704533",
-            "proceedings_title": null,
             "publisher": "Springer Nature",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1030043320",
                 "pub.1031783097",
@@ -6634,7 +6526,6 @@
                 "pub.1037823423",
                 "pub.1041739046"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 4460162,
@@ -6704,46 +6595,109 @@
                     "city_name": "Providence",
                     "country_name": "United States",
                     "id": "grid.240267.5",
-                    "name": "Miriam Hospital"
+                    "latitude": 41.852325,
+                    "linkout": [
+                        "http://www.miriamhospital.org/"
+                    ],
+                    "longitude": -71.39767,
+                    "name": "Miriam Hospital",
+                    "state_name": "Rhode Island",
+                    "types": [
+                        "Healthcare"
+                    ]
                 },
                 {
                     "city_name": "Providence",
                     "country_name": "United States",
                     "id": "grid.40263.33",
-                    "name": "Brown University"
+                    "latitude": 41.8262,
+                    "linkout": [
+                        "http://www.brown.edu/"
+                    ],
+                    "longitude": -71.4032,
+                    "name": "Brown University",
+                    "state_name": "Rhode Island",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Winston-Salem",
                     "country_name": "United States",
                     "id": "grid.241167.7",
-                    "name": "Wake Forest University"
+                    "latitude": 36.13012,
+                    "linkout": [
+                        "http://www.wfu.edu/"
+                    ],
+                    "longitude": -80.28146,
+                    "name": "Wake Forest University",
+                    "state_name": "North Carolina",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Storrs",
                     "country_name": "United States",
                     "id": "grid.63054.34",
-                    "name": "University of Connecticut"
+                    "latitude": 41.807167,
+                    "linkout": [
+                        "http://uconn.edu/"
+                    ],
+                    "longitude": -72.2525,
+                    "name": "University of Connecticut",
+                    "state_name": "Connecticut",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UAB",
                     "city_name": "Birmingham",
                     "country_name": "United States",
                     "id": "grid.265892.2",
-                    "name": "University of Alabama at Birmingham"
+                    "latitude": 33.500675,
+                    "linkout": [
+                        "http://www.uab.edu/"
+                    ],
+                    "longitude": -86.805824,
+                    "name": "University of Alabama at Birmingham",
+                    "state_name": "Alabama",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "VCU",
                     "city_name": "Richmond",
                     "country_name": "United States",
                     "id": "grid.224260.0",
-                    "name": "Virginia Commonwealth University"
+                    "latitude": 37.548782,
+                    "linkout": [
+                        "http://www.vcu.edu/"
+                    ],
+                    "longitude": -77.45394,
+                    "name": "Virginia Commonwealth University",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "UNC",
                     "city_name": "Chapel Hill",
                     "country_name": "United States",
                     "id": "grid.10698.36",
-                    "name": "University of North Carolina at Chapel Hill"
+                    "latitude": 35.905163,
+                    "linkout": [
+                        "http://www.unc.edu/"
+                    ],
+                    "longitude": -79.04694,
+                    "name": "University of North Carolina at Chapel Hill",
+                    "state_name": "North Carolina",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -6786,15 +6740,15 @@
                     "id": "ur.01205315661.13",
                     "last_name": "Tate",
                     "research_orgs": [
-                        "grid.26009.3d",
-                        "grid.62562.35",
                         "grid.410711.2",
+                        "grid.253547.2",
+                        "grid.438526.e",
+                        "grid.40263.33",
+                        "grid.10698.36",
+                        "grid.62562.35",
                         "grid.21925.3d",
                         "grid.240267.5",
-                        "grid.10698.36",
-                        "grid.40263.33",
-                        "grid.438526.e",
-                        "grid.253547.2"
+                        "grid.26009.3d"
                     ]
                 },
                 {
@@ -6802,27 +6756,27 @@
                     "id": "ur.0720205351.12",
                     "last_name": "Espeland",
                     "research_orgs": [
+                        "grid.419475.a",
+                        "grid.7372.1",
+                        "grid.279885.9",
+                        "grid.267301.1",
+                        "grid.94365.3d",
+                        "grid.16416.34",
+                        "grid.267169.d",
+                        "grid.266100.3",
                         "grid.16753.36",
-                        "grid.412750.5",
-                        "grid.241167.7",
+                        "grid.419971.3",
+                        "grid.411461.7",
                         "grid.66875.3a",
+                        "grid.240267.5",
+                        "grid.268294.3",
+                        "grid.412860.9",
                         "grid.8991.9",
                         "grid.30760.32",
-                        "grid.7372.1",
-                        "grid.94365.3d",
-                        "grid.419971.3",
-                        "grid.240267.5",
-                        "grid.419475.a",
-                        "grid.268294.3",
-                        "grid.16416.34",
-                        "grid.279885.9",
-                        "grid.267169.d",
                         "grid.430387.b",
-                        "grid.267301.1",
-                        "grid.266100.3",
-                        "grid.419390.6",
-                        "grid.412860.9",
-                        "grid.411461.7"
+                        "grid.241167.7",
+                        "grid.412750.5",
+                        "grid.419390.6"
                     ]
                 },
                 {
@@ -6833,13 +6787,13 @@
                         "0000-0002-1033-7163"
                     ],
                     "research_orgs": [
-                        "grid.289438.c",
-                        "grid.266102.1",
-                        "grid.266686.a",
                         "grid.63054.34",
+                        "grid.266102.1",
                         "grid.36425.36",
-                        "grid.240267.5",
-                        "grid.40263.33"
+                        "grid.266686.a",
+                        "grid.289438.c",
+                        "grid.40263.33",
+                        "grid.240267.5"
                     ]
                 },
                 {
@@ -6870,51 +6824,51 @@
                     "id": "ur.012525005212.10",
                     "last_name": "Lewis",
                     "research_orgs": [
-                        "grid.412689.0",
-                        "grid.17866.3e",
-                        "grid.27860.3b",
-                        "grid.1013.3",
-                        "grid.265219.b",
-                        "grid.415980.1",
-                        "grid.147455.6",
-                        "grid.475010.7",
-                        "grid.34477.33",
-                        "grid.10698.36",
-                        "grid.261112.7",
-                        "grid.265892.2",
-                        "grid.280062.e",
                         "grid.267153.4",
-                        "grid.214572.7",
-                        "grid.416781.d",
-                        "grid.16753.36",
-                        "grid.21925.3d",
-                        "grid.15276.37",
-                        "grid.266539.d",
                         "grid.21729.3f",
-                        "grid.414021.2",
-                        "grid.279885.9",
-                        "grid.189504.1",
+                        "grid.280625.b",
                         "grid.21107.35",
+                        "grid.265219.b",
+                        "grid.412689.0",
                         "grid.241116.1",
-                        "grid.480845.5",
-                        "grid.280122.b",
-                        "grid.417319.9",
-                        "grid.62560.37",
-                        "grid.266100.3",
                         "grid.6572.6",
+                        "grid.280122.b",
+                        "grid.480845.5",
+                        "grid.27860.3b",
+                        "grid.34477.33",
+                        "grid.214572.7",
+                        "grid.16753.36",
+                        "grid.416781.d",
+                        "grid.417319.9",
+                        "grid.475010.7",
                         "grid.17635.36",
+                        "grid.5288.7",
+                        "grid.266102.1",
+                        "grid.10698.36",
                         "grid.241167.7",
+                        "grid.415980.1",
+                        "grid.15276.37",
+                        "grid.33489.35",
+                        "grid.147455.6",
+                        "grid.17866.3e",
+                        "grid.266100.3",
+                        "grid.270240.3",
+                        "grid.414021.2",
+                        "grid.214458.e",
+                        "grid.189504.1",
+                        "grid.1013.3",
+                        "grid.279885.9",
+                        "grid.261112.7",
                         "grid.4367.6",
                         "grid.134563.6",
-                        "grid.270240.3",
-                        "grid.5288.7",
-                        "grid.280625.b",
+                        "grid.266539.d",
                         "grid.240267.5",
-                        "grid.252546.2",
                         "grid.152326.1",
-                        "grid.266102.1",
-                        "grid.214458.e",
-                        "grid.33489.35"
+                        "grid.21925.3d",
+                        "grid.252546.2",
+                        "grid.62560.37",
+                        "grid.280062.e",
+                        "grid.265892.2"
                     ]
                 },
                 {
@@ -6926,35 +6880,35 @@
                     ]
                 },
                 {
-                    "first_name": "Rina R",
+                    "first_name": "Rena R",
                     "id": "ur.01261243347.98",
                     "last_name": "Wing",
                     "research_orgs": [
-                        "grid.240267.5",
-                        "grid.168010.e",
-                        "grid.40263.33",
                         "grid.411461.7",
+                        "grid.255414.3",
+                        "grid.417684.8",
+                        "grid.239553.b",
+                        "grid.240267.5",
+                        "grid.412689.0",
+                        "grid.17635.36",
+                        "grid.40263.33",
                         "grid.241116.1",
                         "grid.21925.3d",
-                        "grid.414123.1",
-                        "grid.12650.30",
-                        "grid.255414.3",
-                        "grid.17635.36",
-                        "grid.289438.c",
-                        "grid.67033.31",
-                        "grid.417993.1",
-                        "grid.412689.0",
-                        "grid.239553.b",
-                        "grid.417684.8",
+                        "grid.168010.e",
                         "grid.253615.6",
                         "grid.410711.2",
-                        "grid.59734.3c",
                         "grid.253547.2",
-                        "grid.266102.1"
+                        "grid.266102.1",
+                        "grid.12650.30",
+                        "grid.417993.1",
+                        "grid.67033.31",
+                        "grid.289438.c",
+                        "grid.414123.1",
+                        "grid.59734.3c"
                     ]
                 }
             ],
-            "score": 26.937466,
+            "score": 26.965513,
             "supporting_grant_ids": [
                 "grant.2691931",
                 "grant.2439050",
@@ -7025,7 +6979,6 @@
                 "gain prevention",
                 "prevention"
             ],
-            "times_cited": 0,
             "title": "Dietary outcomes within the study of novel approaches to weight gain prevention (SNAP) randomized controlled trial",
             "type": "article",
             "volume": "16",
@@ -7072,11 +7025,10 @@
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1186/s12966-019-0771-z",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1186/s12966-019-0771-z",
-            "journal": "{'id': 'jour.1033801', 'title': 'International Journal of Behavioral Nutrition and Physical Activity'}",
+            "journal": "International Journal of Behavioral Nutrition and Physical Activity",
             "search_term": "The Healthy Eating Index",
             "url": "https://doi.org/10.1186/s12966-019-0771-z"
         },
@@ -7097,11 +7049,10 @@
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1186/s12937-019-0460-4",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1186/s12937-019-0460-4",
-            "journal": "{'id': 'jour.1031283', 'title': 'Nutrition Journal'}",
+            "journal": "Nutrition Journal",
             "search_term": "The Healthy Eating Index",
             "url": "https://doi.org/10.1186/s12937-019-0460-4"
         },
@@ -7143,7 +7094,6 @@
                     "name": "Cancer"
                 }
             ],
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "388",
@@ -7378,9 +7328,6 @@
                     "researcher_id": "ur.0713731500.32"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -7425,9 +7372,6 @@
                     "name": "Cancer"
                 }
             ],
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "388",
@@ -7519,7 +7463,6 @@
             "date": "2019-12-01",
             "date_inserted": "2019-07-08",
             "doi": "10.1111/ijpo.12562",
-            "field_citation_ratio": null,
             "funder_countries": [
                 {
                     "id": "US",
@@ -7532,21 +7475,48 @@
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.419635.c",
-                    "name": "National Institute of Diabetes and Digestive and Kidney Diseases"
+                    "latitude": 39.003628,
+                    "linkout": [
+                        "http://www.niddk.nih.gov/"
+                    ],
+                    "longitude": -77.10107,
+                    "name": "National Institute of Diabetes and Digestive and Kidney Diseases",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "acronym": "NIGMS",
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.280785.0",
-                    "name": "National Institute of General Medical Sciences"
+                    "latitude": 38.997833,
+                    "linkout": [
+                        "http://www.nigms.nih.gov/Pages/default.aspx"
+                    ],
+                    "longitude": -77.09938,
+                    "name": "National Institute of General Medical Sciences",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "acronym": "NCATS",
                     "city_name": "Rockville",
                     "country_name": "United States",
                     "id": "grid.429651.d",
-                    "name": "National Center for Advancing Translational Sciences"
+                    "latitude": 39.09584,
+                    "linkout": [
+                        "https://ncats.nih.gov/"
+                    ],
+                    "longitude": -77.197174,
+                    "name": "National Center for Advancing Translational Sciences",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1117785291",
@@ -7564,9 +7534,6 @@
                 "Norwegian register level 1",
                 "PubMed"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -7577,104 +7544,102 @@
             "pages": "e12562",
             "pmcid": "PMC6844624",
             "pmid": "31274243",
-            "proceedings_title": null,
             "publisher": "Wiley",
-            "recent_citations": 1,
+            "recent_citations": 2,
             "reference_ids": [
-                "pub.1070733421",
-                "pub.1083305807",
-                "pub.1020998874",
-                "pub.1017948192",
-                "pub.1064291250",
-                "pub.1070734722",
                 "pub.1070746707",
-                "pub.1046998766",
-                "pub.1033804067",
-                "pub.1112605171",
-                "pub.1029100300",
-                "pub.1052958789",
                 "pub.1009252242",
-                "pub.1050627549",
-                "pub.1046225713",
-                "pub.1027484007",
-                "pub.1074355278",
-                "pub.1005226271",
-                "pub.1013151520",
-                "pub.1049028839",
-                "pub.1074186710",
-                "pub.1025622529",
-                "pub.1106943198",
-                "pub.1022258591",
-                "pub.1040003160",
-                "pub.1070733602",
-                "pub.1013875519",
-                "pub.1019673076",
-                "pub.1070730397",
-                "pub.1023546840",
-                "pub.1001735150",
-                "pub.1004093946",
-                "pub.1106858803",
-                "pub.1019626248",
-                "pub.1041735155",
-                "pub.1009664310",
-                "pub.1018626398",
-                "pub.1012445965",
-                "pub.1043735741",
-                "pub.1092747617",
-                "pub.1050504456",
-                "pub.1005625975",
-                "pub.1038186759",
                 "pub.1020085941",
-                "pub.1023751407"
+                "pub.1083305807",
+                "pub.1013875519",
+                "pub.1112605171",
+                "pub.1005226271",
+                "pub.1070733421",
+                "pub.1040003160",
+                "pub.1005625975",
+                "pub.1064291250",
+                "pub.1004093946",
+                "pub.1052958789",
+                "pub.1019626248",
+                "pub.1019673076",
+                "pub.1009664310",
+                "pub.1070734722",
+                "pub.1070733602",
+                "pub.1017948192",
+                "pub.1023751407",
+                "pub.1049028839",
+                "pub.1020998874",
+                "pub.1043735741",
+                "pub.1027484007",
+                "pub.1046225713",
+                "pub.1001735150",
+                "pub.1050504456",
+                "pub.1050627549",
+                "pub.1038186759",
+                "pub.1106858803",
+                "pub.1029100300",
+                "pub.1074355278",
+                "pub.1013151520",
+                "pub.1092747617",
+                "pub.1018626398",
+                "pub.1022258591",
+                "pub.1025622529",
+                "pub.1046998766",
+                "pub.1041735155",
+                "pub.1012445965",
+                "pub.1033804067",
+                "pub.1106943198",
+                "pub.1023546840",
+                "pub.1074186710",
+                "pub.1070730397"
             ],
             "references": [
-                "pub.1070733421",
-                "pub.1083305807",
-                "pub.1020998874",
-                "pub.1017948192",
-                "pub.1064291250",
-                "pub.1070734722",
                 "pub.1070746707",
-                "pub.1046998766",
-                "pub.1033804067",
-                "pub.1112605171",
-                "pub.1029100300",
-                "pub.1052958789",
                 "pub.1009252242",
-                "pub.1050627549",
-                "pub.1046225713",
-                "pub.1027484007",
-                "pub.1074355278",
-                "pub.1005226271",
-                "pub.1013151520",
-                "pub.1049028839",
-                "pub.1074186710",
-                "pub.1025622529",
-                "pub.1106943198",
-                "pub.1022258591",
-                "pub.1040003160",
-                "pub.1070733602",
-                "pub.1013875519",
-                "pub.1019673076",
-                "pub.1070730397",
-                "pub.1023546840",
-                "pub.1001735150",
-                "pub.1004093946",
-                "pub.1106858803",
-                "pub.1019626248",
-                "pub.1041735155",
-                "pub.1009664310",
-                "pub.1018626398",
-                "pub.1012445965",
-                "pub.1043735741",
-                "pub.1092747617",
-                "pub.1050504456",
-                "pub.1005625975",
-                "pub.1038186759",
                 "pub.1020085941",
-                "pub.1023751407"
+                "pub.1083305807",
+                "pub.1013875519",
+                "pub.1112605171",
+                "pub.1005226271",
+                "pub.1070733421",
+                "pub.1040003160",
+                "pub.1005625975",
+                "pub.1064291250",
+                "pub.1004093946",
+                "pub.1052958789",
+                "pub.1019626248",
+                "pub.1019673076",
+                "pub.1009664310",
+                "pub.1070734722",
+                "pub.1070733602",
+                "pub.1017948192",
+                "pub.1023751407",
+                "pub.1049028839",
+                "pub.1020998874",
+                "pub.1043735741",
+                "pub.1027484007",
+                "pub.1046225713",
+                "pub.1001735150",
+                "pub.1050504456",
+                "pub.1050627549",
+                "pub.1038186759",
+                "pub.1106858803",
+                "pub.1029100300",
+                "pub.1074355278",
+                "pub.1013151520",
+                "pub.1092747617",
+                "pub.1018626398",
+                "pub.1022258591",
+                "pub.1025622529",
+                "pub.1046998766",
+                "pub.1041735155",
+                "pub.1012445965",
+                "pub.1033804067",
+                "pub.1106943198",
+                "pub.1023546840",
+                "pub.1074186710",
+                "pub.1070730397"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 5412347,
@@ -7704,7 +7669,16 @@
                     "city_name": "Aurora",
                     "country_name": "United States",
                     "id": "grid.430503.1",
-                    "name": "University of Colorado Anschutz Medical Campus"
+                    "latitude": 39.745148,
+                    "linkout": [
+                        "http://www.ucdenver.edu/anschutz/Pages/landing.aspx"
+                    ],
+                    "longitude": -104.83715,
+                    "name": "University of Colorado Anschutz Medical Campus",
+                    "state_name": "Colorado",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -7752,8 +7726,8 @@
                     "id": "ur.01133222656.48",
                     "last_name": "Glueck",
                     "research_orgs": [
-                        "grid.430387.b",
                         "grid.414594.9",
+                        "grid.430387.b",
                         "grid.241116.1",
                         "grid.430503.1"
                     ]
@@ -7763,25 +7737,25 @@
                     "id": "ur.0713731500.32",
                     "last_name": "Dabelea",
                     "research_orgs": [
-                        "grid.241167.7",
-                        "grid.416781.d",
-                        "grid.214458.e",
-                        "grid.32224.35",
-                        "grid.254567.7",
-                        "grid.417341.4",
-                        "grid.427645.6",
-                        "grid.430588.2",
-                        "grid.414594.9",
-                        "grid.241116.1",
-                        "grid.265436.0",
-                        "grid.430503.1",
-                        "grid.410711.2",
                         "grid.419635.c",
-                        "grid.239573.9"
+                        "grid.416781.d",
+                        "grid.427645.6",
+                        "grid.410711.2",
+                        "grid.430503.1",
+                        "grid.241167.7",
+                        "grid.254567.7",
+                        "grid.239573.9",
+                        "grid.417341.4",
+                        "grid.32224.35",
+                        "grid.241116.1",
+                        "grid.414594.9",
+                        "grid.265436.0",
+                        "grid.214458.e",
+                        "grid.430588.2"
                     ]
                 }
             ],
-            "score": 27.293911,
+            "score": 27.308525,
             "supporting_grant_ids": [
                 "grant.2498362",
                 "grant.2683264",
@@ -7847,7 +7821,7 @@
                 "epoch study",
                 "study"
             ],
-            "times_cited": 1,
+            "times_cited": 2,
             "title": "Gestational diabetes exposure and adiposity outcomes in childhood and adolescence: An analysis of effect modification by breastfeeding, diet quality, and physical activity in the EPOCH study",
             "type": "article",
             "volume": "14",
@@ -7862,17 +7836,15 @@
                 "Dabelea D."
             ],
             "doi": "10.1111/ijpo.12562",
-            "journal": "Pediatr Obes",
-            "pmcid": null
+            "journal": "Pediatr Obes"
         },
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1111/ijpo.12562",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1111/ijpo.12562",
-            "journal": "{'id': 'jour.1035853', 'title': 'Pediatric Obesity'}",
+            "journal": "Pediatric Obesity",
             "search_term": "The Healthy Eating Index",
             "url": "https://doi.org/10.1111/ijpo.12562"
         },
@@ -7892,9 +7864,6 @@
                     "name": "09 Engineering"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
-            "RCDC": null,
             "altmetric": 3.0,
             "altmetric_id": 62966485,
             "author_affiliations": [
@@ -7983,10 +7952,6 @@
                     "researcher_id": "ur.01241053402.31"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "2209",
@@ -7997,12 +7962,6 @@
                     "name": "0908 Food Sciences"
                 }
             ],
-            "category_hra": null,
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
-            "category_rcdc": null,
             "category_ua": [
                 {
                     "id": "30005",
@@ -8029,15 +7988,11 @@
             "date": "2019-12-01",
             "date_inserted": "2019-07-03",
             "doi": "10.1016/j.foodchem.2019.125106",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1117672984",
             "issn": [
                 "0308-8146",
                 "1873-7072"
             ],
-            "issue": null,
             "journal": {
                 "id": "jour.1086261",
                 "title": "Food Chemistry"
@@ -8048,7 +8003,6 @@
                 "VABB-SHW",
                 "PubMed"
             ],
-            "linkout": null,
             "mesh_terms": [
                 "Canada",
                 "Carbohydrates",
@@ -8058,7 +8012,6 @@
                 "Sugars",
                 "Sweetening Agents"
             ],
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -8067,11 +8020,8 @@
                 }
             ],
             "pages": "125106",
-            "pmcid": null,
             "pmid": "31336277",
-            "proceedings_title": null,
             "publisher": "Elsevier",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1031642141",
                 "pub.1031709681",
@@ -8128,7 +8078,6 @@
                 "pub.1055907833",
                 "pub.1004642633"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 6094817,
@@ -8159,7 +8108,16 @@
                     "city_name": "Ottawa",
                     "country_name": "Canada",
                     "id": "grid.24433.32",
-                    "name": "National Research Council Canada"
+                    "latitude": 45.44623,
+                    "linkout": [
+                        "http://www.nrc-cnrc.gc.ca/eng/#"
+                    ],
+                    "longitude": -75.61698,
+                    "name": "National Research Council Canada",
+                    "state_name": "Ontario",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "researchers": [
@@ -8168,9 +8126,9 @@
                     "id": "ur.0740350656.74",
                     "last_name": "Chartrand",
                     "research_orgs": [
+                        "grid.24433.32",
                         "grid.34429.38",
                         "grid.17063.33",
-                        "grid.24433.32",
                         "grid.28046.38"
                     ]
                 },
@@ -8182,16 +8140,15 @@
                         "0000-0002-2377-2615"
                     ],
                     "research_orgs": [
-                        "grid.17127.32",
-                        "grid.24433.32",
-                        "grid.46078.3d",
                         "grid.129553.9",
-                        "grid.5196.b"
+                        "grid.46078.3d",
+                        "grid.5196.b",
+                        "grid.24433.32",
+                        "grid.17127.32"
                     ]
                 }
             ],
-            "score": 16.598877,
-            "supporting_grant_ids": null,
+            "score": 16.608318,
             "terms": [
                 "content foods",
                 "alternative products",
@@ -8209,7 +8166,6 @@
                 "content",
                 "measurements"
             ],
-            "times_cited": 0,
             "title": "Carbon isotope measurements of foods containing sugar: A survey",
             "type": "article",
             "volume": "300",
@@ -8221,17 +8177,15 @@
                 "Mester Z."
             ],
             "doi": "10.1016/j.foodchem.2019.125106",
-            "journal": "Food Chem",
-            "pmcid": null
+            "journal": "Food Chem"
         },
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1016/j.foodchem.2019.125106",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1016/j.foodchem.2019.125106",
-            "journal": "{'id': 'jour.1086261', 'title': 'Food Chemistry'}",
+            "journal": "Food Chemistry",
             "search_term": "The Healthy Eating Index",
             "url": "https://doi.org/10.1016/j.foodchem.2019.125106"
         },
@@ -8251,11 +8205,10 @@
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1038/s41598-019-44632-2",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1038/s41598-019-44632-2",
-            "journal": "{'id': 'jour.1045337', 'title': 'Scientific Reports'}",
+            "journal": "Scientific Reports",
             "search_term": "The Healthy Eating Index",
             "url": "https://doi.org/10.1038/s41598-019-44632-2"
         },
@@ -8281,7 +8234,6 @@
                     "name": "Cardiovascular"
                 }
             ],
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "388",
@@ -8292,8 +8244,6 @@
                     "name": "Clinical Research"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -8500,9 +8450,6 @@
                     "researcher_id": "ur.01157432362.24"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -8531,9 +8478,6 @@
                     "name": "Cardiovascular"
                 }
             ],
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "388",
@@ -8607,9 +8551,6 @@
             "date": "2019-12-01",
             "date_inserted": "2019-09-04",
             "doi": "10.1016/j.numecd.2019.08.014",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1120792011",
             "issn": [
                 "0939-4753",
@@ -8626,9 +8567,6 @@
                 "VABB-SHW",
                 "PubMed"
             ],
-            "linkout": null,
-            "mesh_terms": null,
-            "open_access": null,
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -8637,11 +8575,8 @@
                 }
             ],
             "pages": "1273-1287",
-            "pmcid": null,
             "pmid": "31669106",
-            "proceedings_title": null,
             "publisher": "Elsevier",
-            "recent_citations": null,
             "reference_ids": [
                 "pub.1034441792",
                 "pub.1034486297",
@@ -8658,7 +8593,6 @@
                 "pub.1074883877",
                 "pub.1085433046"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 2653941,
@@ -8678,28 +8612,50 @@
             "research_org_country_names": [
                 "United Kingdom"
             ],
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
             "research_orgs": [
                 {
                     "acronym": "KCL",
                     "city_name": "London",
                     "country_name": "United Kingdom",
                     "id": "grid.13097.3c",
-                    "name": "King's College London"
+                    "latitude": 51.511417,
+                    "linkout": [
+                        "http://www.kcl.ac.uk/index.aspx"
+                    ],
+                    "longitude": -0.116727,
+                    "name": "King's College London",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "HNR",
                     "city_name": "Cambridge",
                     "country_name": "United Kingdom",
                     "id": "grid.415055.0",
-                    "name": "MRC Human Nutrition Research"
+                    "latitude": 52.1825,
+                    "linkout": [
+                        "http://www.mrc-hnr.cam.ac.uk/"
+                    ],
+                    "longitude": 0.180833,
+                    "name": "MRC Human Nutrition Research",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "city_name": "Cambridge",
                     "country_name": "United Kingdom",
                     "id": "grid.5335.0",
-                    "name": "University of Cambridge"
+                    "latitude": 52.204453,
+                    "linkout": [
+                        "http://www.cam.ac.uk/"
+                    ],
+                    "longitude": 0.114908,
+                    "name": "University of Cambridge",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -8724,19 +8680,18 @@
                     "last_name": "Ray",
                     "research_orgs": [
                         "grid.14105.31",
-                        "grid.29857.31",
-                        "grid.8273.e",
+                        "grid.415055.0",
+                        "grid.120073.7",
+                        "grid.478468.1",
                         "grid.24029.3d",
                         "grid.459374.8",
-                        "grid.120073.7",
-                        "grid.415055.0",
+                        "grid.8273.e",
                         "grid.5335.0",
-                        "grid.478468.1"
+                        "grid.29857.31"
                     ]
                 }
             ],
-            "score": 20.670073,
-            "supporting_grant_ids": null,
+            "score": 20.66633,
             "terms": [
                 "dietary pattern analysis",
                 "effects",
@@ -8791,7 +8746,6 @@
                 "patterns",
                 "current evidence"
             ],
-            "times_cited": 0,
             "title": "The Association of Dietary Patterns and Carotid Intima-Media Thickness: A Synthesis of Current Evidence",
             "type": "article",
             "volume": "29",
@@ -8804,17 +8758,15 @@
                 "Ray S."
             ],
             "doi": "10.1016/j.numecd.2019.08.014",
-            "journal": "Nutr Metab Cardiovasc Dis",
-            "pmcid": null
+            "journal": "Nutr Metab Cardiovasc Dis"
         },
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1016/j.numecd.2019.08.014",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1016/j.numecd.2019.08.014",
-            "journal": "{'id': 'jour.1101564', 'title': 'NMCD - Nutrition,Metabolism and Cardiovascular Diseases'}",
+            "journal": "NMCD - Nutrition,Metabolism and Cardiovascular Diseases",
             "search_term": "The Healthy Eating Index",
             "url": "https://doi.org/10.1016/j.numecd.2019.08.014"
         },
@@ -8834,13 +8786,7 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "HRCS_HC": null,
-            "HRCS_RAC": null,
             "RCDC": [
-                {
-                    "id": "367",
-                    "name": "Hypertension"
-                },
                 {
                     "id": "388",
                     "name": "Nutrition"
@@ -8848,6 +8794,10 @@
                 {
                     "id": "331",
                     "name": "Cardiovascular"
+                },
+                {
+                    "id": "367",
+                    "name": "Hypertension"
                 },
                 {
                     "id": "507",
@@ -9102,9 +9052,6 @@
                     "researcher_id": "ur.014711315317.82"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -9127,15 +9074,7 @@
                     "name": "Population & Society"
                 }
             ],
-            "category_hrcs_hc": null,
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
-                {
-                    "id": "367",
-                    "name": "Hypertension"
-                },
                 {
                     "id": "388",
                     "name": "Nutrition"
@@ -9143,6 +9082,10 @@
                 {
                     "id": "331",
                     "name": "Cardiovascular"
+                },
+                {
+                    "id": "367",
+                    "name": "Hypertension"
                 },
                 {
                     "id": "507",
@@ -9213,7 +9156,6 @@
             "date": "2019-12-01",
             "date_inserted": "2018-11-19",
             "doi": "10.1007/s00394-018-1857-0",
-            "field_citation_ratio": null,
             "funder_countries": [
                 {
                     "id": "NL",
@@ -9226,14 +9168,30 @@
                     "city_name": "The Hague",
                     "country_name": "Netherlands",
                     "id": "grid.420488.2",
-                    "name": "Netherlands Organisation for Scientific Research"
+                    "latitude": 52.08048,
+                    "linkout": [
+                        "http://www.nwo.nl/"
+                    ],
+                    "longitude": 4.344407,
+                    "name": "Netherlands Organisation for Scientific Research",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "ZonMw",
                     "city_name": "The Hague",
                     "country_name": "Netherlands",
                     "id": "grid.438427.e",
-                    "name": "Netherlands Organisation for Health Research and Development"
+                    "latitude": 52.080486,
+                    "linkout": [
+                        "http://www.zonmw.nl/en/"
+                    ],
+                    "longitude": 4.344438,
+                    "name": "Netherlands Organisation for Health Research and Development",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 }
             ],
             "id": "pub.1109886957",
@@ -9253,7 +9211,6 @@
                 "PubMed"
             ],
             "linkout": "https://link.springer.com/content/pdf/10.1007%2Fs00394-018-1857-0.pdf",
-            "mesh_terms": null,
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -9274,76 +9231,74 @@
             "pages": "3129-3134",
             "pmcid": "PMC6842338",
             "pmid": "30426195",
-            "proceedings_title": null,
             "publisher": "Springer Nature",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1026184546",
-                "pub.1042618416",
                 "pub.1028451281",
-                "pub.1063993287",
-                "pub.1084306903",
-                "pub.1035103358",
-                "pub.1014561728",
-                "pub.1019902424",
-                "pub.1101820762",
-                "pub.1019269211",
-                "pub.1044309167",
-                "pub.1092405072",
                 "pub.1098760740",
-                "pub.1030653166",
+                "pub.1084306903",
+                "pub.1026184546",
+                "pub.1035103358",
+                "pub.1092405072",
                 "pub.1037524046",
-                "pub.1053969483",
-                "pub.1091209509",
-                "pub.1029116088",
-                "pub.1035047192",
-                "pub.1036265515",
+                "pub.1044309167",
+                "pub.1003260420",
+                "pub.1063993287",
                 "pub.1034546180",
+                "pub.1069777102",
+                "pub.1035047192",
+                "pub.1101820762",
+                "pub.1091209509",
+                "pub.1005707104",
+                "pub.1077015756",
+                "pub.1019269211",
+                "pub.1044984594",
+                "pub.1035239762",
+                "pub.1019902424",
+                "pub.1030653166",
+                "pub.1109489390",
+                "pub.1029116088",
+                "pub.1036265515",
                 "pub.1020937984",
                 "pub.1037270914",
-                "pub.1077015756",
-                "pub.1003260420",
-                "pub.1035239762",
-                "pub.1069777102",
-                "pub.1044984594",
+                "pub.1053969483",
+                "pub.1014561728",
                 "pub.1020405371",
-                "pub.1109489390",
-                "pub.1005707104"
+                "pub.1042618416"
             ],
             "references": [
-                "pub.1026184546",
-                "pub.1042618416",
                 "pub.1028451281",
-                "pub.1063993287",
-                "pub.1084306903",
-                "pub.1035103358",
-                "pub.1014561728",
-                "pub.1019902424",
-                "pub.1101820762",
-                "pub.1019269211",
-                "pub.1044309167",
-                "pub.1092405072",
                 "pub.1098760740",
-                "pub.1030653166",
+                "pub.1084306903",
+                "pub.1026184546",
+                "pub.1035103358",
+                "pub.1092405072",
                 "pub.1037524046",
-                "pub.1053969483",
-                "pub.1091209509",
-                "pub.1029116088",
-                "pub.1035047192",
-                "pub.1036265515",
+                "pub.1044309167",
+                "pub.1003260420",
+                "pub.1063993287",
                 "pub.1034546180",
+                "pub.1069777102",
+                "pub.1035047192",
+                "pub.1101820762",
+                "pub.1091209509",
+                "pub.1005707104",
+                "pub.1077015756",
+                "pub.1019269211",
+                "pub.1044984594",
+                "pub.1035239762",
+                "pub.1019902424",
+                "pub.1030653166",
+                "pub.1109489390",
+                "pub.1029116088",
+                "pub.1036265515",
                 "pub.1020937984",
                 "pub.1037270914",
-                "pub.1077015756",
-                "pub.1003260420",
-                "pub.1035239762",
-                "pub.1069777102",
-                "pub.1044984594",
+                "pub.1053969483",
+                "pub.1014561728",
                 "pub.1020405371",
-                "pub.1109489390",
-                "pub.1005707104"
+                "pub.1042618416"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 2759794,
@@ -9359,15 +9314,22 @@
             "research_org_country_names": [
                 "Netherlands"
             ],
-            "research_org_state_codes": null,
-            "research_org_state_names": null,
             "research_orgs": [
                 {
                     "acronym": "VUMC",
                     "city_name": "Amsterdam",
                     "country_name": "Netherlands",
                     "id": "grid.16872.3a",
-                    "name": "VU University Medical Center"
+                    "latitude": 52.33516,
+                    "linkout": [
+                        "http://www.vumc.nl/"
+                    ],
+                    "longitude": 4.859905,
+                    "name": "VU University Medical Center",
+                    "state_name": "Noord-Holland",
+                    "types": [
+                        "Healthcare"
+                    ]
                 }
             ],
             "researchers": [
@@ -9432,32 +9394,32 @@
                     "id": "ur.011235144537.09",
                     "last_name": "Penninx",
                     "research_orgs": [
-                        "grid.5012.6",
-                        "grid.420193.d",
-                        "grid.10417.33",
-                        "grid.5132.5",
-                        "grid.4830.f",
-                        "grid.5645.2",
-                        "grid.484519.5",
-                        "grid.491215.a",
-                        "grid.5335.0",
                         "grid.241167.7",
-                        "grid.16872.3a",
-                        "grid.411024.2",
-                        "grid.412860.9",
-                        "grid.450025.6",
-                        "grid.94365.3d",
-                        "grid.454868.3",
-                        "grid.9681.6",
-                        "grid.34477.33",
-                        "grid.10419.3d",
                         "grid.419475.a",
-                        "grid.4494.d",
-                        "grid.7692.a",
-                        "grid.4817.a",
-                        "grid.466632.3",
                         "grid.7177.6",
-                        "grid.12380.38"
+                        "grid.420193.d",
+                        "grid.454868.3",
+                        "grid.94365.3d",
+                        "grid.5645.2",
+                        "grid.10417.33",
+                        "grid.7692.a",
+                        "grid.450025.6",
+                        "grid.12380.38",
+                        "grid.4830.f",
+                        "grid.5012.6",
+                        "grid.9681.6",
+                        "grid.491215.a",
+                        "grid.4494.d",
+                        "grid.34477.33",
+                        "grid.5132.5",
+                        "grid.16872.3a",
+                        "grid.484519.5",
+                        "grid.412860.9",
+                        "grid.5335.0",
+                        "grid.10419.3d",
+                        "grid.466632.3",
+                        "grid.411024.2",
+                        "grid.4817.a"
                     ]
                 },
                 {
@@ -9465,22 +9427,22 @@
                     "id": "ur.014711315317.82",
                     "last_name": "Beulens",
                     "research_orgs": [
-                        "grid.16872.3a",
-                        "grid.48336.3a",
-                        "grid.418035.b",
-                        "grid.12380.38",
-                        "grid.31147.30",
-                        "grid.4818.5",
-                        "grid.4858.1",
-                        "grid.38142.3c",
-                        "grid.466632.3",
-                        "grid.7177.6",
                         "grid.7692.a",
-                        "grid.4494.d"
+                        "grid.12380.38",
+                        "grid.48336.3a",
+                        "grid.31147.30",
+                        "grid.38142.3c",
+                        "grid.418035.b",
+                        "grid.16872.3a",
+                        "grid.466632.3",
+                        "grid.4494.d",
+                        "grid.7177.6",
+                        "grid.4858.1",
+                        "grid.4818.5"
                     ]
                 }
             ],
-            "score": 19.94562,
+            "score": 19.936947,
             "supporting_grant_ids": [
                 "grant.6946665"
             ],
@@ -9574,11 +9536,10 @@
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1007/s00394-018-1857-0",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1007/s00394-018-1857-0",
-            "journal": "{'id': 'jour.1294989', 'title': 'European Journal of Nutrition'}",
+            "journal": "European Journal of Nutrition",
             "search_term": "The Healthy Eating Index",
             "url": "https://doi.org/10.1007/s00394-018-1857-0"
         },
@@ -9612,7 +9573,6 @@
                     "name": "Oral and Gastrointestinal"
                 }
             ],
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "507",
@@ -10283,9 +10243,6 @@
                     "researcher_id": "ur.015041070302.04"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -10322,9 +10279,6 @@
                     "name": "Oral and Gastrointestinal"
                 }
             ],
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "507",
@@ -10416,7 +10370,6 @@
             "date": "2019-12-01",
             "date_inserted": "2019-02-01",
             "doi": "10.1038/s41598-018-37183-5",
-            "field_citation_ratio": null,
             "funder_countries": [
                 {
                     "id": "GB",
@@ -10433,28 +10386,60 @@
                     "city_name": "London",
                     "country_name": "United Kingdom",
                     "id": "grid.14105.31",
-                    "name": "Medical Research Council"
+                    "latitude": 51.514755,
+                    "linkout": [
+                        "http://www.mrc.ac.uk/"
+                    ],
+                    "longitude": -0.119432,
+                    "name": "Medical Research Council",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "BHF",
                     "city_name": "London",
                     "country_name": "United Kingdom",
                     "id": "grid.452924.c",
-                    "name": "British Heart Foundation"
+                    "latitude": 51.58257,
+                    "linkout": [
+                        "https://www.bhf.org.uk/"
+                    ],
+                    "longitude": -0.025979,
+                    "name": "British Heart Foundation",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 },
                 {
                     "acronym": "NMRC",
                     "city_name": "Helios",
                     "country_name": "Singapore",
                     "id": "grid.452975.8",
-                    "name": "National Medical Research Council"
+                    "latitude": 1.304519,
+                    "linkout": [
+                        "http://www.nmrc.gov.sg/content/nmrc_internet/home.html"
+                    ],
+                    "longitude": 103.79145,
+                    "name": "National Medical Research Council",
+                    "types": [
+                        "Government"
+                    ]
                 },
                 {
                     "acronym": "NIHR",
                     "city_name": "London",
                     "country_name": "United Kingdom",
                     "id": "grid.451056.3",
-                    "name": "National Institute for Health Research"
+                    "latitude": 51.502705,
+                    "linkout": [
+                        "http://www.nihr.ac.uk/"
+                    ],
+                    "longitude": -0.12535,
+                    "name": "National Institute for Health Research",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1111765514",
@@ -10474,7 +10459,6 @@
                 "PubMed"
             ],
             "linkout": "https://www.nature.com/articles/s41598-018-37183-5.pdf",
-            "mesh_terms": null,
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -10495,78 +10479,76 @@
             "pages": "852",
             "pmcid": "PMC6351619",
             "pmid": "30696871",
-            "proceedings_title": null,
             "publisher": "Springer Nature",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1013889785",
+                "pub.1001662747",
                 "pub.1045072518",
-                "pub.1074740209",
-                "pub.1039124114",
-                "pub.1035429366",
-                "pub.1001260475",
-                "pub.1059675614",
-                "pub.1000812232",
-                "pub.1045811634",
-                "pub.1030902162",
-                "pub.1009725185",
                 "pub.1054959199",
+                "pub.1056353370",
+                "pub.1000812232",
+                "pub.1053634037",
+                "pub.1033103246",
+                "pub.1035544337",
+                "pub.1063629617",
+                "pub.1009725185",
                 "pub.1009369371",
                 "pub.1016692613",
-                "pub.1038900658",
-                "pub.1033103246",
-                "pub.1048337783",
-                "pub.1077446122",
-                "pub.1085583762",
-                "pub.1075276220",
+                "pub.1077889420",
                 "pub.1024237909",
-                "pub.1045002868",
-                "pub.1056353370",
-                "pub.1053634037",
-                "pub.1028843181",
-                "pub.1001662747",
                 "pub.1051020822",
-                "pub.1020548437",
-                "pub.1035544337",
+                "pub.1035429366",
+                "pub.1001260475",
                 "pub.1021154984",
-                "pub.1063629617",
-                "pub.1077889420"
+                "pub.1085583762",
+                "pub.1013889785",
+                "pub.1028843181",
+                "pub.1045002868",
+                "pub.1039124114",
+                "pub.1020548437",
+                "pub.1045811634",
+                "pub.1074740209",
+                "pub.1038900658",
+                "pub.1030902162",
+                "pub.1075276220",
+                "pub.1077446122",
+                "pub.1059675614",
+                "pub.1048337783"
             ],
             "references": [
-                "pub.1013889785",
+                "pub.1001662747",
                 "pub.1045072518",
-                "pub.1074740209",
-                "pub.1039124114",
-                "pub.1035429366",
-                "pub.1001260475",
-                "pub.1059675614",
-                "pub.1000812232",
-                "pub.1045811634",
-                "pub.1030902162",
-                "pub.1009725185",
                 "pub.1054959199",
+                "pub.1056353370",
+                "pub.1000812232",
+                "pub.1053634037",
+                "pub.1033103246",
+                "pub.1035544337",
+                "pub.1063629617",
+                "pub.1009725185",
                 "pub.1009369371",
                 "pub.1016692613",
-                "pub.1038900658",
-                "pub.1033103246",
-                "pub.1048337783",
-                "pub.1077446122",
-                "pub.1085583762",
-                "pub.1075276220",
+                "pub.1077889420",
                 "pub.1024237909",
-                "pub.1045002868",
-                "pub.1056353370",
-                "pub.1053634037",
-                "pub.1028843181",
-                "pub.1001662747",
                 "pub.1051020822",
-                "pub.1020548437",
-                "pub.1035544337",
+                "pub.1035429366",
+                "pub.1001260475",
                 "pub.1021154984",
-                "pub.1063629617",
-                "pub.1077889420"
+                "pub.1085583762",
+                "pub.1013889785",
+                "pub.1028843181",
+                "pub.1045002868",
+                "pub.1039124114",
+                "pub.1020548437",
+                "pub.1045811634",
+                "pub.1074740209",
+                "pub.1038900658",
+                "pub.1030902162",
+                "pub.1075276220",
+                "pub.1077446122",
+                "pub.1059675614",
+                "pub.1048337783"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 1880252,
@@ -10591,7 +10573,6 @@
                 "Singapore",
                 "United Kingdom"
             ],
-            "research_org_state_codes": null,
             "research_org_state_names": [
                 "England",
                 "Central Singapore"
@@ -10602,41 +10583,89 @@
                     "city_name": "Singapore",
                     "country_name": "Singapore",
                     "id": "grid.412106.0",
-                    "name": "National University Hospital"
+                    "latitude": 1.29448,
+                    "linkout": [
+                        "https://www.nuh.com.sg/"
+                    ],
+                    "longitude": 103.783356,
+                    "name": "National University Hospital",
+                    "types": [
+                        "Healthcare"
+                    ]
                 },
                 {
                     "acronym": "KKH",
                     "city_name": "Singapore",
                     "country_name": "Singapore",
                     "id": "grid.414963.d",
-                    "name": "KK Women's and Children's Hospital"
+                    "latitude": 1.310684,
+                    "linkout": [
+                        "http://www.kkh.com.sg/"
+                    ],
+                    "longitude": 103.84684,
+                    "name": "KK Women's and Children's Hospital",
+                    "types": [
+                        "Healthcare"
+                    ]
                 },
                 {
                     "acronym": "SICS",
                     "city_name": "Singapore",
                     "country_name": "Singapore",
                     "id": "grid.452264.3",
-                    "name": "Singapore Institute for Clinical Sciences"
+                    "latitude": 1.294975,
+                    "linkout": [
+                        "http://www.a-star.edu.sg/sics/"
+                    ],
+                    "longitude": 103.78035,
+                    "name": "Singapore Institute for Clinical Sciences",
+                    "types": [
+                        "Facility"
+                    ]
                 },
                 {
                     "acronym": "NUS",
                     "city_name": "Singapore",
                     "country_name": "Singapore",
                     "id": "grid.4280.e",
-                    "name": "National University of Singapore"
+                    "latitude": 1.295556,
+                    "linkout": [
+                        "http://www.nus.edu.sg/"
+                    ],
+                    "longitude": 103.776665,
+                    "name": "National University of Singapore",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "NTU",
                     "city_name": "Singapore",
                     "country_name": "Singapore",
                     "id": "grid.59025.3b",
-                    "name": "Nanyang Technological University"
+                    "latitude": 1.344722,
+                    "linkout": [
+                        "http://www.ntu.edu.sg/Pages/home.aspx"
+                    ],
+                    "longitude": 103.68139,
+                    "name": "Nanyang Technological University",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Singapore",
                     "country_name": "Singapore",
                     "id": "grid.428397.3",
-                    "name": "Duke NUS Graduate Medical School"
+                    "latitude": 1.282566,
+                    "linkout": [
+                        "https://www.duke-nus.edu.sg/"
+                    ],
+                    "longitude": 103.83402,
+                    "name": "Duke NUS Graduate Medical School",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -10677,20 +10706,20 @@
                     "last_name": "Saw",
                     "research_orgs": [
                         "grid.410759.e",
+                        "grid.21729.3f",
+                        "grid.4280.e",
+                        "grid.240988.f",
+                        "grid.21107.35",
                         "grid.1024.7",
-                        "grid.412106.0",
+                        "grid.1013.3",
+                        "grid.414963.d",
                         "grid.189509.c",
+                        "grid.418002.f",
                         "grid.419272.b",
                         "grid.16872.3a",
-                        "grid.414963.d",
-                        "grid.240988.f",
-                        "grid.4280.e",
                         "grid.428397.3",
-                        "grid.21729.3f",
-                        "grid.1013.3",
-                        "grid.272555.2",
-                        "grid.418002.f",
-                        "grid.21107.35"
+                        "grid.412106.0",
+                        "grid.272555.2"
                     ]
                 },
                 {
@@ -10701,23 +10730,23 @@
                         "0000-0002-4643-0618"
                     ],
                     "research_orgs": [
-                        "grid.5491.9",
-                        "grid.14105.31",
-                        "grid.4991.5",
-                        "grid.451056.3",
-                        "grid.1012.2",
-                        "grid.415598.4",
-                        "grid.452264.3",
-                        "grid.454385.b",
                         "grid.5337.2",
-                        "grid.430506.4",
-                        "grid.416094.e",
-                        "grid.451069.f",
-                        "grid.451052.7",
                         "grid.214409.a",
+                        "grid.416038.8",
+                        "grid.14105.31",
+                        "grid.454385.b",
+                        "grid.451069.f",
+                        "grid.5491.9",
+                        "grid.452264.3",
                         "grid.265892.2",
-                        "grid.123047.3",
-                        "grid.416038.8"
+                        "grid.416094.e",
+                        "grid.1012.2",
+                        "grid.430506.4",
+                        "grid.4991.5",
+                        "grid.451052.7",
+                        "grid.415598.4",
+                        "grid.451056.3",
+                        "grid.123047.3"
                     ]
                 },
                 {
@@ -10728,14 +10757,14 @@
                         "0000-0002-1253-0557"
                     ],
                     "research_orgs": [
-                        "grid.428397.3",
-                        "grid.490025.a",
-                        "grid.410759.e",
-                        "grid.185448.4",
-                        "grid.452264.3",
-                        "grid.5335.0",
                         "grid.412106.0",
-                        "grid.4280.e"
+                        "grid.410759.e",
+                        "grid.5335.0",
+                        "grid.185448.4",
+                        "grid.428397.3",
+                        "grid.4280.e",
+                        "grid.452264.3",
+                        "grid.490025.a"
                     ]
                 },
                 {
@@ -10761,30 +10790,30 @@
                         "0000-0003-1945-0266"
                     ],
                     "research_orgs": [
+                        "grid.4280.e",
                         "grid.59025.3b",
-                        "grid.428397.3",
                         "grid.414963.d",
-                        "grid.4280.e"
+                        "grid.428397.3"
                     ]
                 },
                 {
-                    "first_name": "Mary Foong Fong",
+                    "first_name": "Mary Foong-Fong",
                     "id": "ur.0655107271.92",
                     "last_name": "Chong",
                     "orcid_id": [
                         "0000-0003-0587-2505"
                     ],
                     "research_orgs": [
-                        "grid.4991.5",
-                        "grid.452264.3",
-                        "grid.490025.a",
-                        "grid.185448.4",
                         "grid.415719.f",
-                        "grid.9654.e",
-                        "grid.410759.e",
+                        "grid.4991.5",
                         "grid.428397.3",
-                        "grid.9435.b",
-                        "grid.4280.e"
+                        "grid.9654.e",
+                        "grid.452264.3",
+                        "grid.410759.e",
+                        "grid.490025.a",
+                        "grid.4280.e",
+                        "grid.185448.4",
+                        "grid.9435.b"
                     ]
                 },
                 {
@@ -10801,7 +10830,7 @@
                     ]
                 }
             ],
-            "score": 20.387806,
+            "score": 20.378601,
             "supporting_grant_ids": [
                 "grant.3559814",
                 "grant.6797987",
@@ -10907,11 +10936,10 @@
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1038/s41598-018-37183-5",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1038/s41598-018-37183-5",
-            "journal": "{'id': 'jour.1045337', 'title': 'Scientific Reports'}",
+            "journal": "Scientific Reports",
             "search_term": "The Healthy Eating Index",
             "url": "https://doi.org/10.1038/s41598-018-37183-5"
         },
@@ -10941,7 +10969,6 @@
                     "name": "Oral and Gastrointestinal"
                 }
             ],
-            "HRCS_RAC": null,
             "RCDC": [
                 {
                     "id": "558",
@@ -11310,10 +11337,6 @@
                     "researcher_id": "ur.0626522471.72"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
-            "category_bra": null,
             "category_for": [
                 {
                     "id": "3177",
@@ -11324,7 +11347,6 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "category_hra": null,
             "category_hrcs_hc": [
                 {
                     "id": "906",
@@ -11335,9 +11357,6 @@
                     "name": "Oral and Gastrointestinal"
                 }
             ],
-            "category_hrcs_rac": null,
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "558",
@@ -11407,9 +11426,6 @@
             "date": "2019-12-01",
             "date_inserted": "2019-07-28",
             "doi": "10.1186/s12877-019-1206-z",
-            "field_citation_ratio": null,
-            "funder_countries": null,
-            "funders": null,
             "id": "pub.1119864641",
             "issn": [
                 "1471-2318"
@@ -11427,7 +11443,6 @@
                 "PubMed"
             ],
             "linkout": "http://dx.doi.org/10.1186/s12877-019-1206-z",
-            "mesh_terms": null,
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher"
@@ -11447,110 +11462,107 @@
             "pages": "197",
             "pmcid": "PMC6659217",
             "pmid": "31349800",
-            "proceedings_title": null,
             "publisher": "Springer Nature",
-            "recent_citations": null,
             "reference_ids": [
-                "pub.1007089730",
-                "pub.1013720651",
-                "pub.1048304016",
-                "pub.1033729959",
-                "pub.1006991950",
                 "pub.1046965669",
-                "pub.1006819687",
-                "pub.1077340156",
-                "pub.1083900961",
-                "pub.1009054097",
-                "pub.1019367172",
-                "pub.1017522804",
-                "pub.1108854321",
-                "pub.1025126980",
-                "pub.1021269424",
-                "pub.1038774904",
-                "pub.1023580537",
-                "pub.1005967578",
-                "pub.1017986276",
-                "pub.1014527669",
-                "pub.1047886852",
-                "pub.1009092747",
-                "pub.1114764724",
-                "pub.1004069978",
-                "pub.1115443516",
-                "pub.1079365005",
-                "pub.1079358341",
-                "pub.1026270207",
-                "pub.1029040255",
-                "pub.1077586338",
-                "pub.1021452417",
-                "pub.1063745430",
                 "pub.1020988115",
-                "pub.1079141745",
-                "pub.1082783880",
-                "pub.1077340157",
-                "pub.1076631644",
-                "pub.1025164294",
-                "pub.1114759205",
-                "pub.1074857601",
+                "pub.1005967578",
+                "pub.1025126980",
+                "pub.1017986276",
+                "pub.1021269424",
+                "pub.1083900961",
                 "pub.1036431631",
-                "pub.1001554048",
-                "pub.1046749094",
-                "pub.1013067652",
+                "pub.1019367172",
                 "pub.1022791687",
+                "pub.1026270207",
+                "pub.1014527669",
+                "pub.1077340157",
+                "pub.1001554048",
+                "pub.1063745430",
                 "pub.1014171807",
+                "pub.1013067652",
                 "pub.1078213238",
-                "pub.1020146871"
+                "pub.1007089730",
+                "pub.1029040255",
+                "pub.1046749094",
+                "pub.1079358341",
+                "pub.1082783880",
+                "pub.1004069978",
+                "pub.1006991950",
+                "pub.1006819687",
+                "pub.1076631644",
+                "pub.1021452417",
+                "pub.1079365005",
+                "pub.1013720651",
+                "pub.1077586338",
+                "pub.1115443516",
+                "pub.1009054097",
+                "pub.1077340156",
+                "pub.1074857601",
+                "pub.1114759205",
+                "pub.1047886852",
+                "pub.1079141745",
+                "pub.1108854321",
+                "pub.1009092747",
+                "pub.1033729959",
+                "pub.1038774904",
+                "pub.1025164294",
+                "pub.1017522804",
+                "pub.1048304016",
+                "pub.1114764724",
+                "pub.1020146871",
+                "pub.1023580537"
             ],
             "references": [
-                "pub.1007089730",
-                "pub.1013720651",
-                "pub.1048304016",
-                "pub.1033729959",
-                "pub.1006991950",
                 "pub.1046965669",
-                "pub.1006819687",
-                "pub.1077340156",
-                "pub.1083900961",
-                "pub.1009054097",
-                "pub.1019367172",
-                "pub.1017522804",
-                "pub.1108854321",
-                "pub.1025126980",
-                "pub.1021269424",
-                "pub.1038774904",
-                "pub.1023580537",
-                "pub.1005967578",
-                "pub.1017986276",
-                "pub.1014527669",
-                "pub.1047886852",
-                "pub.1009092747",
-                "pub.1114764724",
-                "pub.1004069978",
-                "pub.1115443516",
-                "pub.1079365005",
-                "pub.1079358341",
-                "pub.1026270207",
-                "pub.1029040255",
-                "pub.1077586338",
-                "pub.1021452417",
-                "pub.1063745430",
                 "pub.1020988115",
-                "pub.1079141745",
-                "pub.1082783880",
-                "pub.1077340157",
-                "pub.1076631644",
-                "pub.1025164294",
-                "pub.1114759205",
-                "pub.1074857601",
+                "pub.1005967578",
+                "pub.1025126980",
+                "pub.1017986276",
+                "pub.1021269424",
+                "pub.1083900961",
                 "pub.1036431631",
-                "pub.1001554048",
-                "pub.1046749094",
-                "pub.1013067652",
+                "pub.1019367172",
                 "pub.1022791687",
+                "pub.1026270207",
+                "pub.1014527669",
+                "pub.1077340157",
+                "pub.1001554048",
+                "pub.1063745430",
                 "pub.1014171807",
+                "pub.1013067652",
                 "pub.1078213238",
-                "pub.1020146871"
+                "pub.1007089730",
+                "pub.1029040255",
+                "pub.1046749094",
+                "pub.1079358341",
+                "pub.1082783880",
+                "pub.1004069978",
+                "pub.1006991950",
+                "pub.1006819687",
+                "pub.1076631644",
+                "pub.1021452417",
+                "pub.1079365005",
+                "pub.1013720651",
+                "pub.1077586338",
+                "pub.1115443516",
+                "pub.1009054097",
+                "pub.1077340156",
+                "pub.1074857601",
+                "pub.1114759205",
+                "pub.1047886852",
+                "pub.1079141745",
+                "pub.1108854321",
+                "pub.1009092747",
+                "pub.1033729959",
+                "pub.1038774904",
+                "pub.1025164294",
+                "pub.1017522804",
+                "pub.1048304016",
+                "pub.1114764724",
+                "pub.1020146871",
+                "pub.1023580537"
             ],
-            "relative_citation_ratio": null,
             "research_org_cities": [
                 {
                     "id": 2112923,
@@ -11574,7 +11586,6 @@
             "research_org_country_names": [
                 "Japan"
             ],
-            "research_org_state_codes": null,
             "research_org_state_names": [
                 "Hyogo"
             ],
@@ -11583,21 +11594,45 @@
                     "city_name": "Nara",
                     "country_name": "Japan",
                     "id": "grid.444443.7",
-                    "name": "Tezukayama University"
+                    "latitude": 34.685997,
+                    "linkout": [
+                        "http://www.tezukayama-u.ac.jp/"
+                    ],
+                    "longitude": 135.72202,
+                    "name": "Tezukayama University",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "OCU",
                     "city_name": "Osaka",
                     "country_name": "Japan",
                     "id": "grid.261445.0",
-                    "name": "Osaka City University"
+                    "latitude": 34.591904,
+                    "linkout": [
+                        "http://www.osaka-cu.ac.jp/en"
+                    ],
+                    "longitude": 135.50542,
+                    "name": "Osaka City University",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "acronym": "FMU",
                     "city_name": "Fukushima",
                     "country_name": "Japan",
                     "id": "grid.411582.b",
-                    "name": "Fukushima Medical University"
+                    "latitude": 37.689262,
+                    "linkout": [
+                        "http://www.fmu.ac.jp/"
+                    ],
+                    "longitude": 140.4704,
+                    "name": "Fukushima Medical University",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -11630,8 +11665,7 @@
                     ]
                 }
             ],
-            "score": 26.015951,
-            "supporting_grant_ids": null,
+            "score": 26.000376,
             "terms": [
                 "nutritional status",
                 "status",
@@ -11678,7 +11712,6 @@
                 "lower dietary variety",
                 "relevant factors"
             ],
-            "times_cited": 0,
             "title": "Lower dietary variety is a relevant factor for malnutrition in older Japanese home-care recipients: a cross-sectional study",
             "type": "article",
             "volume": "19",
@@ -11719,11 +11752,10 @@
         "datasets": [
             "dataset-057"
         ],
-        "doi": "10.1186/s12877-019-1206-z",
         "original": {
             "date_added": "2019-11-27 12:49:39",
             "doi": "10.1186/s12877-019-1206-z",
-            "journal": "{'id': 'jour.1024943', 'title': 'BMC Geriatrics'}",
+            "journal": "BMC Geriatrics",
             "search_term": "The Healthy Eating Index",
             "url": "https://doi.org/10.1186/s12877-019-1206-z"
         },

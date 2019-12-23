@@ -21,7 +21,6 @@
                     "name": "14 Economics"
                 }
             ],
-            "HRCS_HC": null,
             "HRCS_RAC": [
                 {
                     "id": "10801",
@@ -50,8 +49,6 @@
                     "name": "Behavioral and Social Science"
                 }
             ],
-            "altmetric": null,
-            "altmetric_id": null,
             "author_affiliations": [
                 [
                     {
@@ -218,9 +215,6 @@
                     "researcher_id": "ur.01045415620.32"
                 }
             ],
-            "book_doi": null,
-            "book_series_title": null,
-            "book_title": null,
             "category_bra": [
                 {
                     "id": "4003",
@@ -243,15 +237,12 @@
                     "name": "Population & Society"
                 }
             ],
-            "category_hrcs_hc": null,
             "category_hrcs_rac": [
                 {
                     "id": "10801",
                     "name": "8.1 Organisation and delivery of services"
                 }
             ],
-            "category_icrp_cso": null,
-            "category_icrp_ct": null,
             "category_rcdc": [
                 {
                     "id": "507",
@@ -334,7 +325,7 @@
             "date": "2015-10-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/s11524-015-9971-2",
-            "field_citation_ratio": 0.6,
+            "field_citation_ratio": 0.59,
             "funder_countries": [
                 {
                     "id": "US",
@@ -347,7 +338,16 @@
                     "city_name": "Bethesda",
                     "country_name": "United States",
                     "id": "grid.416868.5",
-                    "name": "National Institute of Mental Health"
+                    "latitude": 39.003693,
+                    "linkout": [
+                        "https://www.nimh.nih.gov/index.shtml"
+                    ],
+                    "longitude": -77.10457,
+                    "name": "National Institute of Mental Health",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1004158146",
@@ -399,7 +399,6 @@
             "pages": "853-863",
             "pmcid": "PMC4608945",
             "pmid": "26264235",
-            "proceedings_title": null,
             "publisher": "Springer Nature",
             "recent_citations": 1,
             "reference_ids": [
@@ -511,19 +510,46 @@
                     "city_name": "Cambridge",
                     "country_name": "United States",
                     "id": "grid.38142.3c",
-                    "name": "Harvard University"
+                    "latitude": 42.377052,
+                    "linkout": [
+                        "http://www.harvard.edu/"
+                    ],
+                    "longitude": -71.11665,
+                    "name": "Harvard University",
+                    "state_name": "Massachusetts",
+                    "types": [
+                        "Education"
+                    ]
                 },
                 {
                     "city_name": "Boston",
                     "country_name": "United States",
                     "id": "grid.2515.3",
-                    "name": "Boston Children's Hospital"
+                    "latitude": 42.33754,
+                    "linkout": [
+                        "http://www.childrenshospital.org/"
+                    ],
+                    "longitude": -71.10551,
+                    "name": "Boston Children's Hospital",
+                    "state_name": "Massachusetts",
+                    "types": [
+                        "Healthcare"
+                    ]
                 },
                 {
                     "city_name": "Oakland",
                     "country_name": "United States",
                     "id": "grid.30389.31",
-                    "name": "University of California System"
+                    "latitude": 37.80217,
+                    "linkout": [
+                        "http://www.universityofcalifornia.edu/"
+                    ],
+                    "longitude": -122.27128,
+                    "name": "University of California System",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -575,8 +601,7 @@
                     ]
                 }
             ],
-            "score": 18.932823,
-            "supporting_grant_ids": null,
+            "score": 18.923546,
             "terms": [
                 "geographic location",
                 "important factor",
@@ -657,12 +682,10 @@
         "datasets": [
             "dataset-221"
         ],
-        "doi": "10.1007/s11524-015-9971-2",
         "original": {
             "date_added": "2019-11-27 12:22:48",
             "doi": "10.1007/s11524-015-9971-2",
             "journal": "Journal of Urban Health",
-            "notes": NaN,
             "search_term": "Massachusetts Temporary Assistance for Needy Families"
         },
         "title": "Geographic Disparities in Access to Agencies Providing Income-Related Social Services"

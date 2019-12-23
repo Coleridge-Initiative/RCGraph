@@ -110,8 +110,8 @@ python run_step2.py
 ```
 
 Results are organized in partitions within the `bucket_stage`
-subdirectory, using the same partition names from the previous
-workflow step, to make errors easier to trace and troubleshoot.
+subdirectory, using the same partition names from the preceding
+workflow steps, to make errors easier to trace and troubleshoot.
 
 See the `misses_step2.txt` file which reports the title of each
 publication that failed every API lookup.
@@ -126,8 +126,9 @@ APIs to identify open access PDFs, journals, authors, keywords, etc.
 python run_step3.py
 ```
 
-Results are organized in partitions in the `step3` subdirectory, using
-the same partition names from the previous workflow step.
+Results are organized in partitions in the `bucket_stage`
+subdirectory, using the same partition names from the preceding
+workflow steps.
 
 See the `misses_step3.txt` file which reports the title of each
 publication that failed every API lookup.
@@ -145,13 +146,26 @@ business logic to reconcile the journal for each publication with the
 python run_step4.py
 ```
 
-Results are written to standard output, for suggested additions to the
-`journals.json` entity listing. A person running this step must
-inspect each suggestion, then determine whether to add the suggested
-journal to the file -- or make other changes to previously described
-journal entities. For example, sometimes the metadata returned from
-discovery APIs has errors and would cause data quality issues within
-the KG.
+Disputed entity defintions are written to standard output, and
+suggested additions are written to a new `update_journals.json` file.
+
+The person running this step must review each suggestion, then
+determine whether to add the suggested journals to the `journals.json`
+entities file -- or make other changes to previously described journal
+entities. For example, sometimes the metadata returned from discovery
+APIs has errors and would cause data quality issues within the KG.
+
+Some good tools for manually checking journal metadata via ISSNs
+include ISSN.org, Crossref, and NCBI. For example, using the ISSN
+"1531-3204" to lookup journal metadata:
+
+  - <https://portal.issn.org/api/search?search[]=MUST=allissnbis="1531-3204">
+  - <http://api.crossref.org/journals/1531-3204>
+  - <https://www.ncbi.nlm.nih.gov/nlmcatalog/?term=1531-3204>
+
+Often there will be outdated/invalidated ISSNs or low-info-content
+defaults (e.g., substituting SSRN) included in API results, which
+could derail our KG development.
 
 Journal names get used later in the workflow to construct UUIDs for
 publications, prior to generating the public corpus. This step
@@ -195,15 +209,19 @@ publications and datasets, then serializes the full output as TTL in
 python gen_ttl.py
 ```
 
-Afterwards, move the generated `tmp.*` files into the RCLC repo, then
-rename and test them:
+Afterwards, move the generated `tmp.*` files into the RCLC repo and
+rename them:
 
 ```
 mv tmp.* rclc
 cd rclc
-python corpus.py tmp.ttl
 mv tmp.ttl corpus.ttl
 mv tmp.jsonld corpus.jsonld
 ```
 
-Then commit and create a new tagged release for the corpus.
+Then to publish the corpus:
+
+  1. commit and create a new tagged release
+  2. run `bin/download_resources.py` to download PDFs
+  3. extract text from PDFs
+  4. upload to the public S3 bucket and write manifest
