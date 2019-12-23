@@ -1,30 +1,12 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-from pathlib import Path
 from richcontext import graph as rc_graph
 from richcontext import scholapi as rc_scholapi
 from typing import Any, Dict, List, Tuple
 import json
 import pprint
 import sys
-
-
-def load_override (path=rc_graph.RCGraph.PATH_MANUAL):
-    """
-    load the publications metadata, apply the manually curated
-    override metadata, then yield an iterator
-    """
-    override = {}
-
-    for filename in Path(path).glob("*.json"):
-        print("override:", filename)
-
-        with open(filename) as f:
-            for elem in json.load(f):
-                override[elem["title"]] = elem["manual"]
-
-    return override
 
 
 def propagate_view (pub, graph, override):
@@ -91,11 +73,10 @@ if __name__ == "__main__":
     # initialize the federated API access
     schol = rc_scholapi.ScholInfraAPI(config_file="rc.cfg", logger=None)
     graph = rc_graph.RCGraph("step5")
-    graph.journals.load_entities()
 
-    # for each partition, for each publication
-    # finalize the metadata corrections 
-    override = load_override()
+    # finalize the metadata corrections for each publication
+    graph.journals.load_entities()
+    override = graph.load_override()
 
     for partition, pub_iter in graph.iter_publications(path="step3"):
         pub_list = []
@@ -127,10 +108,10 @@ if __name__ == "__main__":
                 if "pdf" in pub:
                     graph.publications.pdf_hits += 1
                 else:
-                    graph.misses.append(title)
+                    graph.misses.append(pub["title"])
 
     graph.write_partition(graph.BUCKET_FINAL, "_manual.json", pub_list)
 
     # keep track of the titles that had no open access PDF
-    graph.report_misses()
-    print("PDFs: {}".format(graph.publications.pdf_hits))
+    status = "{} open access PDFs identified".format(graph.publications.pdf_hits)
+    graph.report_misses(status)

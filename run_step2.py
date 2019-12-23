@@ -14,7 +14,7 @@ import traceback
 DEFAULT_PARTITION = None
 
 
-def gather_doi (pub, partition, schol, graph):
+def gather_doi (schol, graph, partition, pub):
     """
     use `title_search()` across scholarly infrastructure APIs to
     identify this publication's DOI, etc.
@@ -22,60 +22,23 @@ def gather_doi (pub, partition, schol, graph):
     title = pub["title"]
     title_match = False
 
-    doi_list = []
-
-    if "doi" in pub["original"]:
-        possible_doi = pub["original"]["doi"]
-
-        if possible_doi:
-            doi = graph.publications.verify_doi(possible_doi)
-
-            if doi:
-                doi_list.append(doi)
-            else:
-                message = "BAD DOI: |{}| in {} -- {}".format(doi, "original", pub["title"])
-                report_error(message)
-
     for api in [schol.openaire, schol.europepmc, schol.dimensions]:
         try:
             meta = api.title_search(title)
         except Exception:
-            # debugging an edge case
+            # debug this as an edge case
             traceback.print_exc()
             print(title)
             print(api.name)
-            pprint.pprint(pub)
             continue
 
         if meta and len(meta) > 0:
             title_match = True
             meta = dict(meta)
-            #pprint.pprint(meta)
-
-            if "doi" in meta:
-                doi = graph.publications.verify_doi(meta["doi"])
-
-                if doi:
-                    doi_list.append(doi)
-                else:
-                    message = "BAD DOI: |{}| in {} -- {}".format(doi, api.name, pub["title"])
-                    report_error(message)
-
             pub[api.name] = meta
 
-    # keep track of the titles that fail all API lookups
-    if not title_match:
-        graph.misses.append(title)
-
-    # select the most frequently reported DOI -- to avoid secondary
-    # DOIs, such as SSRN, dominating the metadata
-    if len(doi_list) > 0:
-        tally = graph.tally_list(doi_list)
-        doi, count = tally[0]
-        pub["doi"] = doi
-
     # send this publication along into the workflow stream
-    return pub
+    return title_match
 
 
 def main (args):
@@ -88,15 +51,18 @@ def main (args):
         pub_list = []
 
         for pub in tqdm(pub_iter, ascii=True, desc=partition[:30]):
-            pub_list.append(gather_doi(pub, partition, schol, graph))
+            pub_list.append(pub)
+            title_match = gather_doi(schol, graph, partition, pub)
 
-            if "doi" in pub:
-                graph.publications.doi_hits += 1
+            if title_match:
+                graph.publications.title_hits += 1
+            else:
+                graph.misses.append(pub["title"])
 
         graph.write_partition(graph.BUCKET_STAGE, partition, pub_list)
 
     # report titles for publications that failed every API lookup
-    status = "{} found DOIs".format(graph.publications.doi_hits)
+    status = "{} found titles in API calls".format(graph.publications.title_hits)
     graph.report_misses(status)
 
 
