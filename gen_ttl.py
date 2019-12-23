@@ -7,13 +7,21 @@ from richcontext import scholapi as rc_scholapi
 from rdflib.serializer import Serializer
 from tqdm import tqdm  # type: ignore
 from typing import Any, Dict, List, Tuple
+import argparse
 import json
 import pprint
 import rdflib
+import skosify
 import sys
+import traceback
 
-CORPUS_TTL_FILENAME = "tmp.ttl"
-CORPUS_JSONLD_FILENAME = "tmp.jsonld"
+DEFAULT_FULL_GRAPH = False
+
+PATH_CORPUS_TTL = Path("tmp.ttl")
+PATH_VOCAB_JSONLD = Path("vocab.json")
+PATH_SKOSIFY_CFG = Path("adrf-onto/skosify.cfg")
+PATH_ADRF_TTL = Path("adrf-onto/adrf.ttl")
+PATH_VOC_TTL = Path("voc.ttl")
 
 
 PREAMBLE = """
@@ -35,7 +43,6 @@ TEMPLATE_JOURNAL = """
 TEMPLATE_DATASET = """
 :{}
   rdf:type :Dataset ;
-  foaf:page "{}"^^xsd:anyURI ;
   dct:publisher "{}" ;
   dct:title "{}" ;
 """
@@ -43,11 +50,8 @@ TEMPLATE_DATASET = """
 TEMPLATE_PUBLICATION = """
 :{}
   rdf:type :ResearchPublication ;
-  foaf:page "{}"^^xsd:anyURI ;
   dct:publisher :{} ;
   dct:title "{}" ;
-  dct:identifier "{}" ;
-  :openAccess "{}"^^xsd:anyURI ;
 """
 
 
@@ -59,7 +63,11 @@ def load_journals (graph, out_buf):
 
     for j in graph.journals.known.values():
         id_list = [ j["titles"][0] ]
-        j["hash"] = rc_graph.RCGraph.get_hash(id_list, prefix="journal-")
+
+        if "issn" in j:
+            id_list.append(j["issn"][0])
+
+        j["hash"] = graph.get_hash(id_list, prefix="journal-")
         journals[j["id"]] = j
 
     for id, j in journals.items():
@@ -87,27 +95,21 @@ def load_journals (graph, out_buf):
     return journals
 
 
-def load_datasets (out_buf):
+def load_datasets (graph, out_buf):
     """
     load the datasets
     """
     known_datasets = {}
 
-    with open(rc_graph.RCGraph.PATH_DATASETS, "r") as f:
+    with open(graph.PATH_DATASETS, "r") as f:
         for d in json.load(f):
             dat_id = d["id"]
             id_list = [d["provider"], d["title"]]
-            known_datasets[dat_id] = rc_graph.RCGraph.get_hash(id_list, prefix="dataset-")
-
-            if "url" in d:
-                url = d["url"]
-            else:
-                url = "http://example.com"
+            known_datasets[dat_id] = graph.get_hash(id_list, prefix="dataset-")
 
             out_buf.append(
                 TEMPLATE_DATASET.format(
                     known_datasets[dat_id],
-                    url,
                     d["provider"],
                     d["title"]
                     ).strip()
@@ -117,12 +119,56 @@ def load_datasets (out_buf):
                 for alt_title in d["alt_title"]:
                     out_buf.append("  dct:alternative \"{}\" ;".format(alt_title))
 
+            if "url" in d:
+                out_buf.append("  foaf:page \"{}\"^^xsd:anyURI ;".format(d["url"]))
+
             out_buf.append(".\n")
 
     return known_datasets
 
 
-def load_publications (graph, out_buf, known_datasets, known_journals):
+def format_pub (out_buf, pub, pub_id, known_journals, known_datasets, link_map, full_graph):
+    """
+    format one publication in TTL
+    """
+    # test for open access PDF
+    if "pdf" in pub and pub["pdf"]:
+        pdf = pub["pdf"]
+    elif full_graph:
+        pdf = None
+    else:
+        # do not output this publication
+        return False
+
+    # reshape the metadata for corpus output
+    journal_id = known_journals[pub["journal"]]["hash"]
+
+    out_buf.append(
+        TEMPLATE_PUBLICATION.format(
+            pub_id,
+            journal_id,
+            pub["title"]
+            ).strip()
+        )
+
+    if "doi" in pub:
+        out_buf.append("  dct:identifier \"{}\" ;".format(pub["doi"]))
+
+    if "url" in pub:
+        out_buf.append("  foaf:page \"{}\"^^xsd:anyURI ;".format(pub["url"]))
+
+    if pdf:
+        out_buf.append("  :openAccess \"{}\"^^xsd:anyURI ;".format(pdf))
+
+    # link to datasets
+    dat_list = [ ":{}".format(known_datasets[dat_id]) for dat_id in link_map ]
+    out_buf.append("  cito:citesAsDataSource {} ;".format(", ".join(dat_list)))
+    out_buf.append(".\n")
+
+    return True
+
+
+def load_publications (graph, out_buf, known_datasets, known_journals, full_graph):
     """
     load publications, link to datasets, reshape metadata
     """
@@ -132,78 +178,98 @@ def load_publications (graph, out_buf, known_datasets, known_journals):
         for pub in pub_iter:
             link_map = pub["datasets"]
 
-            if "pdf" in pub and pub["pdf"] and (len(link_map) > 0):
+            if len(link_map) > 0:
                 # generate UUID
                 try:
-                    pub["title"] = pub["title"].replace('"', "'")
-                    url = pub["url"]
+                    pub["title"] = pub["title"].replace('"', "'").replace("\\", "-")
 
                     id_list = [pub["journal"], pub["title"]]
-                    pub_id = rc_graph.RCGraph.get_hash(id_list, prefix="publication-")
+                    pub_id = graph.get_hash(id_list, prefix="publication-")
 
                     # ensure uniqueness
-                    if pub_id in seen:
-                        continue
-                    else:
-                        seen.add(pub_id)
+                    if pub_id not in seen:
+                        if format_pub(out_buf, pub, pub_id, known_journals, known_datasets, link_map, full_graph):
+                            seen.add(pub_id)
                 except:
+                    traceback.print_exc()
                     print("MISSING JOURNAL or URL")
                     pprint.pprint(pub)
-
-                # reshape the metadata for corpus output
-                journal_hash = known_journals[pub["journal"]]["hash"]
-
-                out_buf.append(
-                    TEMPLATE_PUBLICATION.format(
-                        pub_id,
-                        pub["url"],
-                        journal_hash,
-                        pub["title"],
-                        pub["doi"],
-                        pub["pdf"]
-                        ).strip()
-                    )
-
-                # link to datasets
-                dat_list = [ ":{}".format(known_datasets[dat_id]) for dat_id in link_map ]
-                out_buf.append("  cito:citesAsDataSource {} ;".format(", ".join(dat_list)))
-                out_buf.append(".\n")
 
     # return the unique count
     return len(seen)
 
 
-def write_corpus (out_buf, vocab_file="vocab.json"):
+def write_corpus (out_buf, path):
     """
     output the corpus in TTL and JSON-LD
     """
     ## write the TTL output
-    with open(CORPUS_TTL_FILENAME, "w") as f:
+    with open(path, "w") as f:
         for text in tqdm(out_buf, ascii=True, desc="write corpus"):
             f.write(text)
             f.write("\n")
 
     ## load the TTL output as a graph
     print("load and parse the corpus file")
+
     g = rdflib.Graph()
-    g.parse(CORPUS_TTL_FILENAME, format="n3")
+    g.parse(str(path), format="n3")
 
     ## transform graph into JSON-LD
     print("transform graph into JSON-LD")
 
-    with open(vocab_file, "r") as f:
+    path_jsonld = Path(path.stem + ".json")
+
+    with open(PATH_VOCAB_JSONLD, "r") as f:
         context = json.load(f)
 
-    with open(CORPUS_JSONLD_FILENAME, "wb") as f:
+    with open(path_jsonld, "wb") as f:
         f.write(g.serialize(format="json-ld", context=context, indent=2))
 
     ## read back, to confirm formatting
     print("confirm formatting")
+
     g = rdflib.Graph()
-    g.parse(CORPUS_JSONLD_FILENAME, format="json-ld")
+    g.parse(str(path_jsonld), format="json-ld")
 
 
-def main ():
+def test_corpus (path):
+    """
+    see docs:
+    https://semantic-web.com/2017/08/21/standard-build-knowledge-graphs-12-facts-skos/
+    https://skosify.readthedocs.io/en/latest/
+    """
+    # load the graph
+    g = rdflib.Graph()
+
+    for ttl_path in [ str(PATH_ADRF_TTL), str(path) ]:
+        print("loading TTL file: {}".format(ttl_path))
+        g.parse(ttl_path, format="n3")
+
+    # an example lookup
+    # https://github.com/Coleridge-Initiative/adrf-onto/wiki/Vocabulary#Catalog
+    print("lookup `NHANES` ...")
+    print(list(g[::rdflib.Literal("NHANES")]))
+
+    # convert, extend, and check the SKOS vocabulary used
+    config = skosify.config(PATH_SKOSIFY_CFG)
+    voc = skosify.skosify(g, **config)
+    voc.serialize(destination=str(PATH_VOC_TTL), format="n3")
+
+    # validate the inference rules
+    skosify.infer.skos_related(g)
+    skosify.infer.skos_topConcept(g)
+    skosify.infer.skos_hierarchical(g, narrower=True)
+    skosify.infer.skos_transitive(g, narrower=True)
+
+    skosify.infer.rdfs_classes(g)
+    skosify.infer.rdfs_properties(g)
+
+    # for the humans watching, print a note that all steps completed
+    print("OK")
+
+
+def main (args):
     ## 1. load the metadata for journals, datasets, publications
     ## 2. validate the linked data
     ## 3. format output for the corpus as both TTL and JSON-LD
@@ -214,15 +280,28 @@ def main ():
     graph.journals.load_entities()
 
     known_journals = load_journals(graph, out_buf)
-    known_datasets = load_datasets(out_buf)
-    num_pubs = load_publications(graph, out_buf, known_datasets, known_journals)
+    known_datasets = load_datasets(graph, out_buf)
+    num_pubs = load_publications(graph, out_buf, known_datasets, known_journals, args.full_graph)
 
-    print("{} journals".format(len(known_journals)))
-    print("{} datasets".format(len(known_datasets)))
-    print("{} publications".format(num_pubs))
+    print("loaded {} journals".format(len(known_journals)))
+    print("loaded {} datasets".format(len(known_datasets)))
+    print("loaded {} publications".format(num_pubs))
 
-    write_corpus(out_buf)
+    write_corpus(out_buf, PATH_CORPUS_TTL)
+    test_corpus(PATH_CORPUS_TTL)
 
 
 if __name__ == "__main__":
-    main()
+    # parse the command line arguments, if any
+    parser = argparse.ArgumentParser(
+        description="generate a corpus update in TTL and JSON-LD"
+        )
+
+    parser.add_argument(
+        "--full_graph",
+        type=bool,
+        default=DEFAULT_FULL_GRAPH,
+        help="generate the full graph, not just the open source subset"
+        )
+
+    main(parser.parse_args())

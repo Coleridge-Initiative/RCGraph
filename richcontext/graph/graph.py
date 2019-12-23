@@ -10,6 +10,7 @@ import json
 import logging  # type: ignore
 import operator
 import re
+import string
 import traceback
 
 
@@ -309,6 +310,7 @@ class RCJournals:
 
 class RCPublications:
     def __init__ (self):
+        self.title_hits = 0
         self.doi_hits = 0
         self.pdf_hits = 0
 
@@ -493,7 +495,7 @@ class RCGraph:
         else:
             id = m.hexdigest()
 
-        return id
+        return "".join(filter(lambda x: x in string.printable, id))
 
 
     @classmethod
@@ -587,6 +589,23 @@ class RCGraph:
                         print(partition)
 
 
+    def load_override (self, path=PATH_MANUAL):
+        """
+        load the publications metadata, apply the manually curated
+        override metadata, then yield an iterator
+        """
+        override = {}
+
+        for filename in Path(path).glob("*.json"):
+            print("override:", filename)
+
+            with open(filename) as f:
+                for elem in json.load(f):
+                    override[elem["title"]] = elem["manual"]
+
+        return override
+
+
     def write_partition (self, bucket, partition, pub_list):
         """
         write one partition to a bucket
@@ -595,7 +614,7 @@ class RCGraph:
             json.dump(pub_list, f, indent=4, sort_keys=True)
 
 
-    def report_misses (self, status):
+    def report_misses (self, status=None):
         """
         report the titles of publications that have metadata error
         conditions related to the current workflow step
