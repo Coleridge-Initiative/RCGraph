@@ -1,2 +1,2 @@
-from .graph import RCGraph
+from .graph import RCGraph, RCPublications, RCJournals
 

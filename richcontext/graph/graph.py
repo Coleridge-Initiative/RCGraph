@@ -4,24 +4,34 @@
 from pathlib import Path
 from tqdm import tqdm  # type: ignore
 from typing import Any, Dict, List, Tuple
+from urllib.parse import urlparse
 import hashlib
 import json
 import logging  # type: ignore
 import operator
-import os
-import ray  # type: ignore
 import re
 import traceback
 
 
 class RCJournals:
-    # these get dumped into other journal definitions -- unless they
-    # are the only option
+    PATH_JOURNALS = Path("journals.json")
+    PATH_UPDATE = Path("update_journals.json") 
+
+    # these get dumped into other journal definitions -- 
+    # unless they are the only option
     IGNORE_JOURNALS = set([
             "ssrn electronic journal"
             ])
 
+    # both "unknown" and SSRN get used as placeholders
+    IGNORE_ISSNS = set([
+            "0000-0000",
+            "1556-5068"
+            ])
+
+
     def __init__ (self):
+        self.issn_hits = 0
         self.next_id = 0
         self.known = {}
 
@@ -50,7 +60,7 @@ class RCJournals:
             return None
 
 
-    def load_entities (self, path="journals.json"):
+    def load_entities (self, path=PATH_JOURNALS):
         """
         load the list of journal entities
         """
@@ -74,6 +84,114 @@ class RCJournals:
                     print("DUPLICATE JOURNAL: {}".format(title))
                 else:
                     self.known[title_key] = journal
+
+
+    def extract_issn (self, pub):
+        """
+        extract the ISSNs from metadata about the given publication
+        """
+        issn_list = []
+
+        if "Dimensions" in pub:
+            meta = pub["Dimensions"]
+
+            if ("issn" in meta) and meta["issn"]:
+                issn_list.extend(meta["issn"])
+
+        if "Unpaywall" in pub:
+            meta = pub["Unpaywall"]
+
+            if ("journal_issns" in meta) and meta["journal_issns"]:
+                issn_list.extend(meta["journal_issns"].split(","))
+
+            if ("journal_issn_l" in meta) and meta["journal_issn_l"]:
+                issn_list.append(meta["journal_issn_l"])
+
+        if len(issn_list) > 0:
+            issn_tally = RCGraph.tally_list(issn_list)
+            freq_issn, count = issn_tally[0]
+            return 1, freq_issn, issn_tally
+        else:
+            return 0, None, None
+
+
+    def gather_issn (self, journal):
+        """
+        gather the ISSN metadata from the results of API calls
+        """
+        if "issn" in journal:
+            old_issn = journal["issn"]
+        else:
+            old_issn = []
+
+        if "NCBI" in journal:
+            meta = journal["NCBI"]
+
+            ## arrange the ISSN list
+            if "ISSNLinking" in meta:
+                issn_link = meta["ISSNLinking"]
+            else:
+                issn_link = None
+
+            if "ISSN" in meta:
+                l = meta["ISSN"]
+                new_issn = [ i["#text"] for i in (l if isinstance(l, list) else [l]) ]
+
+                journal["issn"] = RCGraph.make_ordered_list(
+                    old_issn,
+                    new_issn,
+                    issn_link
+                    )
+
+            ## add the URL
+            if "IndexingSelectedURL" in meta:
+                journal["url"] = meta["IndexingSelectedURL"]
+
+            ## arrange the title list
+            journal["titles"] = RCGraph.make_ordered_list(
+                journal["titles"],
+                [ meta["Title"], meta["MedlineTA"] ],
+                meta["ISOAbbreviation"]
+                )
+
+
+    def add_issns (self, journal, issn_tally, disputed):
+        """
+        add ISSNs to the given journal
+        """
+        new_issns = [ i for i, c in issn_tally ]
+
+        if "issn" in journal:
+            old_set = set(journal["issn"])
+            new_set = set(new_issns)
+
+            # got dispute? check for overlapping definitions
+            if len(old_set.intersection(new_set)) < 1:
+                if (len(issn_tally) == 1) and (issn_tally[0][0] in self.IGNORE_ISSNS):
+                    # ignore the singleton cases of SSRN journal attributes
+                    pass
+                elif (len(journal["issn"]) == 1) and (journal["issn"][0] in self.IGNORE_ISSNS):
+                    # ignore adding to the "unknown" case
+                    pass
+                else:
+                    disputed["{} {}".format(issn_tally, journal["issn"])] = journal
+
+            # add other ISSNs to an existing entry
+            else:
+                for issn in new_issns:
+                    if issn not in journal["issn"]:
+                        if "-" in issn:
+                            journal["issn"].append(issn)
+        else:
+            # add ISSNs to a journal that had none before
+            journal["issn"] = []
+
+            for issn in new_issns:
+                if "-" in issn:
+                    journal["issn"].append(issn)
+
+        best_issn = new_issns[0]
+        return best_issn
 
 
     def extract_journals (self, pub):
@@ -175,10 +293,59 @@ class RCJournals:
             return self.known["unknown"]
 
 
+    def suggest_updates (self):
+        """
+        suggest an updated journal list
+        """
+        j_dict = {}
+
+        for j in self.known.values():
+            j_dict[j["id"]] = j
+
+        with open(self.PATH_UPDATE, "w") as f:
+            j_list = list(j_dict.values())
+            json.dump(j_list, f, indent=4, sort_keys=True)
+
+
 class RCPublications:
     def __init__ (self):
         self.doi_hits = 0
         self.pdf_hits = 0
+
+
+    def verify_doi (self, doi):
+        """
+        attempt to verify a DOI, and clean up the value if needed
+        """
+        try:
+            if not doi:
+                # a `None` value is valid (== DOI is unknown)
+                return None
+            else:
+                assert isinstance(doi, str)
+
+                if doi.startswith("DOI:"):
+                    doi = doi.replace("DOI:", "")
+                elif doi.startswith("doi:"):
+                    doi = doi.replace("doi:", "")
+
+                doi = doi.strip()
+
+                if doi.startswith("http://dx.doi.org/"):
+                    doi = doi.replace("http://dx.doi.org/", "")
+                elif doi.startswith("https://doi.org/"):
+                    doi = doi.replace("https://doi.org/", "")
+                elif doi.startswith("doi.org/"):
+                    doi = doi.replace("doi.org/", "")
+
+                assert len(doi) > 0
+                assert doi.startswith("10.")
+
+                # success
+                return doi
+        except:
+            # failure
+            return None
 
 
     def extract_urls (self, pub):
@@ -296,14 +463,16 @@ class RCGraph:
     methods for managing the Rich Context knowledge grapgh
     """
     BUCKET_FINAL = Path("bucket_final")
+    BUCKET_STAGE = Path("bucket_stage")
+
     PATH_DATASETS = Path("datasets/datasets.json")
-    PATH_JOURNALS = Path("journals.json")
     PATH_MANUAL = Path("human/manual/partitions")
     PATH_PUBLICATIONS = Path("publications/partitions")
 
 
     def __init__ (self, step_name="generic"):
         self.step_name = step_name
+        self.already_reported = set([])
         self.misses = []
         self.journals = RCJournals()
         self.publications = RCPublications()
@@ -351,15 +520,68 @@ class RCGraph:
         return sorted(enum_dict.items(), key=operator.itemgetter(1), reverse=True)
 
 
+    @classmethod
+    def make_ordered_list (cls, old_list, new_list, lead_elem):
+        """
+        preserve the order of a list, prepending a lead element if it is
+        not already a member
+        """
+        elf_list = list(map(lambda x: x.lower().strip(), old_list))
+
+        for elem in new_list:
+            elf_elem = elem.lower().strip()
+
+            if elf_elem not in elf_list:
+                old_list.append(elem)
+                elf_list.append(elf_elem)
+
+        if lead_elem:
+            lead_elf = lead_elem.lower().strip()
+
+            if lead_elf == elf_list[0]:
+                # already good
+                pass
+            elif lead_elf not in elf_list:
+                old_list.insert(0, lead_elem)
+            else:
+                idx = elf_list.index(lead_elf)
+                del old_list[idx]
+
+                old_list.insert(0, lead_elem)
+
+        return old_list
+
+
+    @classmethod
+    def url_validator (cls, url):
+        """
+        validate the format of a URL
+        """
+        try:
+            result = urlparse(url)
+            return all([result.scheme, result.netloc, result.path])
+        except:
+            return False
+
+
+    def report_error (self, message):
+        """
+        avoid reporting the same error repeatedly
+        """
+        if message and not message in self.already_reported:
+            self.already_reported.add(message)
+            print(message)
+
+
     def iter_publications (self, path, filter=None):
         """
         iterate through the publication partitions
         """
         for partition in Path(path).glob("*.json"):
-            if not filter or partition.endswith(filter):
-                with open(partition) as f:
+            if not filter or filter == partition.name:
+                with partition.open() as f:
                     try:
-                        yield os.path.basename(partition), json.load(f)
+                        yield partition.name, json.load(f)
                     except Exception:
                         traceback.print_exc()
                         print(partition)
@@ -373,7 +595,7 @@ class RCGraph:
             json.dump(pub_list, f, indent=4, sort_keys=True)
 
 
-    def report_misses (self):
+    def report_misses (self, status):
         """
         report the titles of publications that have metadata error
         conditions related to the current workflow step
@@ -381,6 +603,10 @@ class RCGraph:
         filename = "misses_{}.txt".format(self.step_name)
 
         with open(filename, "w") as f:
+            if status:
+                f.write("{}\n".format(status))
+                f.write("---\n")
+
             for title in self.misses:
                 f.write("{}\n".format(title))
 
