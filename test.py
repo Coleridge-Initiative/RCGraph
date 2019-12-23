@@ -3,21 +3,10 @@
 
 from pathlib import Path
 from richcontext import graph as rc_graph
-from urllib.parse import urlparse
 import json
-import os
 import sys
 import traceback
 import unittest
-
-
-def url_validator (url):
-    """validate the format of a URL"""
-    try:
-        result = urlparse(url)
-        return all([result.scheme, result.netloc, result.path])
-    except:
-        return False
 
 
 class TestRCGraph (unittest.TestCase):
@@ -33,10 +22,7 @@ class TestRCGraph (unittest.TestCase):
         self.journals = {}
 
         # load the publications
-        subdir = rc_graph.RCGraph.PATH_PUBLICATIONS
-        partitions = [ subdir / name for name in os.listdir(subdir) ]
-
-        for partition in partitions:
+        for partition in rc_graph.RCGraph.PATH_PUBLICATIONS.iterdir():
             with open(partition, "r") as f:
                 try:
                     pub_list = json.load(f)
@@ -48,7 +34,7 @@ class TestRCGraph (unittest.TestCase):
                 self.publications.extend(pub_list)
 
                 for pub in pub_list:
-                    self.partition_map[pub["title"]] = partition
+                    self.partition_map[pub["title"].lower()] = partition
 
         # load the datasets
         with open(rc_graph.RCGraph.PATH_DATASETS, "r") as f:
@@ -56,7 +42,7 @@ class TestRCGraph (unittest.TestCase):
                 self.datasets[d["id"]] = d
 
         # load the journals
-        with open(rc_graph.RCGraph.PATH_JOURNALS, "r") as f:
+        with open(rc_graph.RCJournals.PATH_JOURNALS, "r") as f:
             for j in json.load(f):
                 self.journals[j["id"]] = j
 
@@ -64,6 +50,7 @@ class TestRCGraph (unittest.TestCase):
     def test_resources_loaded (self):
         print("\n{} publications loaded".format(len(self.publications)))
         self.assertTrue(len(self.publications) > 0)
+        print("{} unique titles".format(len(self.partition_map)))
 
         print("\n{} datasets loaded".format(len(self.datasets)))
         self.assertTrue(len(self.datasets) > 0)
@@ -78,7 +65,7 @@ class TestRCGraph (unittest.TestCase):
                 if d not in self.datasets.keys():
                     print("dataset `{}` not found".format(d))
                     print("```\n{}\n```".format(pub))
-                    print("from partition `{}`\n".format(self.partition_map[pub["title"]]))
+                    print("from partition `{}`\n".format(self.partition_map[pub["title"].lower()]))
 
         for pub in self.publications:
             for d in pub["datasets"]:

@@ -109,9 +109,9 @@ identify a DOI and other metadata for each publication.
 python run_step2.py
 ```
 
-Results are organized in partitions in the `step2` subdirectory, using
-the same partition names from the previous workflow step, to make
-errors easier to trace and troubleshoot.
+Results are organized in partitions within the `bucket_stage`
+subdirectory, using the same partition names from the previous
+workflow step, to make errors easier to trace and troubleshoot.
 
 See the `misses_step2.txt` file which reports the title of each
 publication that failed every API lookup.
