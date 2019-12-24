@@ -218,7 +218,7 @@ def write_corpus (out_buf, path):
     ## transform graph into JSON-LD
     print("transform graph into JSON-LD")
 
-    path_jsonld = Path(path.stem + ".json")
+    path_jsonld = Path(path.stem + ".jsonld")
 
     with open(PATH_VOCAB_JSONLD, "r") as f:
         context = json.load(f)
