@@ -71,9 +71,9 @@ def reconcile_journal (graph, pub, disputed):
 
     if freq_issn:
         journal = graph.journals.select_best_entity(journal_list)
-        best_issn = graph.journals.add_issns(journal, issn_tally, disputed)
+        best_issn = graph.journals.add_issns(pub, journal, issn_tally, disputed)
 
-        if not "NCBI" in journal:
+        if best_issn and not "NCBI" in journal:
             # DO NOT RUN IF JOUNAL ALREADY HAS AN "NCBI" ENTRY
             meta, message = ncbi_lookup_issn(best_issn)
 
@@ -95,7 +95,7 @@ def main (args):
     proposed = []
     disputed = {}
 
-    for partition, pub_iter in graph.iter_publications(path="step3", filter=args.partition):
+    for partition, pub_iter in graph.iter_publications(graph.BUCKET_STAGE, filter=args.partition):
         for pub in tqdm(pub_iter, ascii=True, desc=partition[:30]):
             journal_list, message = reconcile_journal(graph, pub, disputed)
 
@@ -123,7 +123,7 @@ def main (args):
 
     # suggest updates to the journal entities and report titles
     # for publications that don't have a journal
-    graph.journals.suggest_updates()
+    #graph.journals.suggest_updates()
 
     status = f"{graph.journals.issn_hits} publications had ISSNs found for their journals"
     graph.report_misses(status)

@@ -49,8 +49,13 @@ configured properly.
 
 ## Submodules
 
-There are Git repos for almost every entity in the KG, linked into
-this project as submodules:
+Ontology definitions used for the KG are linked into this project as a
+submodule:
+
+  - <https://github.com/Coleridge-Initiative/adrf-onto>
+
+Git repos exist for almost every entity in the KG, also linked as
+submodules:
 
   - <https://github.com/NYU-CI/RCCustomers>
   - <https://github.com/NYU-CI/RCDatasets>
@@ -62,7 +67,7 @@ this project as submodules:
 The RCLC leaderboard competition is also linked as a submodule since
 it consumes from this repo for corpus updates:
 
-  - <https://github.com/Coleridge-Initiative/rclc.git>
+  - <https://github.com/Coleridge-Initiative/rclc>
 
 
 ## Updates
