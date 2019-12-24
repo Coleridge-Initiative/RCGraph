@@ -4,9 +4,12 @@
 from richcontext import graph as rc_graph
 from richcontext import scholapi as rc_scholapi
 from typing import Any, Dict, List, Tuple
+import argparse
 import json
 import pprint
 import sys
+
+DEFAULT_PARTITION = None
 
 
 def propagate_view (pub, graph, override):
@@ -27,6 +30,14 @@ def propagate_view (pub, graph, override):
     if len(url_list) > 0:
         tally = graph.tally_list(url_list)
         url, count = tally[0]
+
+        # fix these common errors in DOI-based URLs
+        if url.startswith("www.doi"):
+            url = url.replace("www.doi", "https://doi")
+
+        if "doi.org10" in url:
+            url = url.replace("doi.org10", "doi.org/10")
+
         view["url"] = url
 
     # add the PDF, if available
@@ -69,7 +80,7 @@ def propagate_view (pub, graph, override):
     return view
 
 
-if __name__ == "__main__":
+def main (args):
     # initialize the federated API access
     schol = rc_scholapi.ScholInfraAPI(config_file="rc.cfg", logger=None)
     graph = rc_graph.RCGraph("step5")
@@ -78,7 +89,7 @@ if __name__ == "__main__":
     graph.journals.load_entities()
     override = graph.load_override()
 
-    for partition, pub_iter in graph.iter_publications(path="step3"):
+    for partition, pub_iter in graph.iter_publications(graph.BUCKET_STAGE, filter=args.partition):
         pub_list = []
         print("working: {}".format(partition))
 
@@ -115,3 +126,19 @@ if __name__ == "__main__":
     # keep track of the titles that had no open access PDF
     status = "{} open access PDFs identified".format(graph.publications.pdf_hits)
     graph.report_misses(status)
+
+
+if __name__ == "__main__":
+    # parse the command line arguments, if any
+    parser = argparse.ArgumentParser(
+        description="finalize metadata corrections, along with manual override"
+        )
+
+    parser.add_argument(
+        "--partition",
+        type=str,
+        default=DEFAULT_PARTITION,
+        help="limit processing to a specified partition"
+        )
+
+    main(parser.parse_args())

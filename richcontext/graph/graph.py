@@ -11,6 +11,7 @@ import logging  # type: ignore
 import operator
 import re
 import string
+import sys
 import traceback
 
 
@@ -27,11 +28,14 @@ class RCJournals:
     # both "unknown" and SSRN get used as placeholders
     IGNORE_ISSNS = set([
             "0000-0000",
-            "1556-5068"
+            "1556-5068",
+            "1945-7731",
+            "1945-774X"
             ])
 
 
     def __init__ (self):
+        self.seen_issn = self.IGNORE_ISSNS
         self.issn_hits = 0
         self.next_id = 0
         self.known = {}
@@ -69,15 +73,17 @@ class RCJournals:
             journals = json.load(f)
 
         # find the next ID to use
-        ids = sorted([j["id"] for j in journals])
-        m = re.search("journal\-(\d+)", ids[-1])
-
-        self.next_id = int(m.group(1))
+        ids = sorted([int(j["id"].replace("journal-", "")) for j in journals])
+        self.next_id = ids[-1]
 
         # scan for duplicates
         self.known = {}
 
         for journal in journals:
+            if "issn" in journal:
+                for issn in journal["issn"]:
+                    self.seen_issn.add(issn)
+
             for title in journal["titles"]:
                 title_key = title.strip().lower()
 
@@ -156,43 +162,49 @@ class RCJournals:
                 )
 
 
-    def add_issns (self, journal, issn_tally, disputed):
+    def add_issns (self, pub, journal, issn_tally, disputed):
         """
         add ISSNs to the given journal
         """
-        new_issns = [ i for i, c in issn_tally ]
+        new_issns = []
 
-        if "issn" in journal:
-            old_set = set(journal["issn"])
-            new_set = set(new_issns)
+        for issn, count in issn_tally:
+            if ("-" in issn) and (issn not in self.seen_issn):
+                new_issns.append(issn)
 
-            # got dispute? check for overlapping definitions
-            if len(old_set.intersection(new_set)) < 1:
-                if (len(issn_tally) == 1) and (issn_tally[0][0] in self.IGNORE_ISSNS):
-                    # ignore the singleton cases of SSRN journal attributes
-                    pass
-                elif (len(journal["issn"]) == 1) and (journal["issn"][0] in self.IGNORE_ISSNS):
-                    # ignore adding to the "unknown" case
-                    pass
+        if len(new_issns) > 0:
+            if "issn" in journal:
+                old_set = set(journal["issn"])
+                new_set = set(new_issns)
+
+                # got dispute? check for overlapping definitions
+                if len(old_set.intersection(new_set)) < 1:
+                    disputed["{} {}".format(old_set, new_set)] = journal
+
+                # add other ISSNs to an existing entry
                 else:
-                    disputed["{} {}".format(issn_tally, journal["issn"])] = journal
-
-            # add other ISSNs to an existing entry
-            else:
-                for issn in new_issns:
-                    if issn not in journal["issn"]:
-                        if "-" in issn:
+                    for issn in new_issns:
+                        if issn not in journal["issn"]:
                             journal["issn"].append(issn)
-        else:
-            # add ISSNs to a journal that had none before
-            journal["issn"] = []
+                            self.seen_issn.add(issn)
 
-            for issn in new_issns:
-                if "-" in issn:
+                # invariant: already performed ISSN lookup for this journal
+                return None
+
+            else:
+                # add ISSNs to a journal that had none before
+                journal["issn"] = []
+
+                for issn in new_issns:
                     journal["issn"].append(issn)
+                    self.seen_issn.add(issn)
 
-        best_issn = new_issns[0]
-        return best_issn
+                best_issn = new_issns[0]
+                return best_issn
+
+        else:
+            # there were no new ISSNs to add
+            return None
 
 
     def extract_journals (self, pub):
@@ -619,11 +631,15 @@ class RCGraph:
         report the titles of publications that have metadata error
         conditions related to the current workflow step
         """
-        filename = "misses_{}.txt".format(self.step_name)
+        filename = Path("misses_{}.txt".format(self.step_name))
 
         with open(filename, "w") as f:
             if status:
                 f.write("{}\n".format(status))
+                f.write("---\n")
+
+            for message in self.already_reported:
+                f.write("{}\n".format(message))
                 f.write("---\n")
 
             for title in self.misses:
