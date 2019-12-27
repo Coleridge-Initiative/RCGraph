@@ -47,12 +47,78 @@ TEMPLATE_DATASET = """
   dct:title "{}" ;
 """
 
+TEMPLATE_PROVIDER = """
+:{}
+  rdf:type :Provider ;
+  dct:title "{}" ;
+"""
+
 TEMPLATE_PUBLICATION = """
 :{}
   rdf:type :ResearchPublication ;
   dct:publisher :{} ;
   dct:title "{}" ;
 """
+
+
+def load_providers (graph, out_buf):
+    """
+    load the providers
+    """
+    known_providers = {}
+
+    with open(graph.PATH_PROVIDERS, "r") as f:
+        for p in json.load(f):
+            prov_id = p["id"]
+            id_list = [p["title"]]
+            known_providers[prov_id] = graph.get_hash(id_list, prefix="provider-")
+
+            out_buf.append(
+                TEMPLATE_PROVIDER.format(
+                    known_providers[prov_id],
+                    p["title"]
+                    ).strip()
+                )
+
+            if "url" in p:
+                out_buf.append("  foaf:page \"{}\"^^xsd:anyURI ;".format(p["url"]))
+
+            out_buf.append(".\n")
+
+    return known_providers
+
+
+def load_datasets (graph, out_buf, known_providers):
+    """
+    load the datasets
+    """
+    known_datasets = {}
+
+    with open(graph.PATH_DATASETS, "r") as f:
+        for d in json.load(f):
+            dat_id = d["id"]
+            prov_id = d["provider"]
+            id_list = [prov_id, d["title"]]
+            known_datasets[dat_id] = graph.get_hash(id_list, prefix="dataset-")
+
+            out_buf.append(
+                TEMPLATE_DATASET.format(
+                    known_datasets[dat_id],
+                    known_providers[prov_id],
+                    d["title"]
+                    ).strip()
+                )
+
+            if "alt_title" in d:
+                for alt_title in d["alt_title"]:
+                    out_buf.append("  dct:alternative \"{}\" ;".format(alt_title))
+
+            if "url" in d:
+                out_buf.append("  foaf:page \"{}\"^^xsd:anyURI ;".format(d["url"]))
+
+            out_buf.append(".\n")
+
+    return known_datasets
 
 
 def load_journals (graph, out_buf):
@@ -93,38 +159,6 @@ def load_journals (graph, out_buf):
         out_buf.append(".\n")
 
     return journals
-
-
-def load_datasets (graph, out_buf):
-    """
-    load the datasets
-    """
-    known_datasets = {}
-
-    with open(graph.PATH_DATASETS, "r") as f:
-        for d in json.load(f):
-            dat_id = d["id"]
-            id_list = [d["provider"], d["title"]]
-            known_datasets[dat_id] = graph.get_hash(id_list, prefix="dataset-")
-
-            out_buf.append(
-                TEMPLATE_DATASET.format(
-                    known_datasets[dat_id],
-                    d["provider"],
-                    d["title"]
-                    ).strip()
-                )
-
-            if "alt_title" in d:
-                for alt_title in d["alt_title"]:
-                    out_buf.append("  dct:alternative \"{}\" ;".format(alt_title))
-
-            if "url" in d:
-                out_buf.append("  foaf:page \"{}\"^^xsd:anyURI ;".format(d["url"]))
-
-            out_buf.append(".\n")
-
-    return known_datasets
 
 
 def format_pub (out_buf, pub, pub_id, known_journals, known_datasets, link_map, full_graph):
@@ -270,7 +304,7 @@ def test_corpus (path):
 
 
 def main (args):
-    ## 1. load the metadata for journals, datasets, publications
+    ## 1. load the metadata for providers, datasets, journals, publications
     ## 2. validate the linked data
     ## 3. format output for the corpus as both TTL and JSON-LD
 
@@ -279,12 +313,14 @@ def main (args):
     graph = rc_graph.RCGraph("corpus")
     graph.journals.load_entities()
 
+    known_providers = load_providers(graph, out_buf)
+    known_datasets = load_datasets(graph, out_buf, known_providers)
     known_journals = load_journals(graph, out_buf)
-    known_datasets = load_datasets(graph, out_buf)
     num_pubs = load_publications(graph, out_buf, known_datasets, known_journals, args.full_graph)
 
-    print("loaded {} journals".format(len(known_journals)))
+    print("loaded {} providers".format(len(known_providers)))
     print("loaded {} datasets".format(len(known_datasets)))
+    print("loaded {} journals".format(len(known_journals)))
     print("loaded {} publications".format(num_pubs))
 
     write_corpus(out_buf, PATH_CORPUS_TTL)
