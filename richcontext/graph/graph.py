@@ -480,6 +480,8 @@ class RCGraph:
     BUCKET_STAGE = Path("bucket_stage")
 
     PATH_DATASETS = Path("datasets/datasets.json")
+    PATH_PROVIDERS = Path("datasets/providers.json")
+
     PATH_MANUAL = Path("human/manual/partitions")
     PATH_PUBLICATIONS = Path("publications/partitions")
 

@@ -19,6 +19,7 @@ class TestRCGraph (unittest.TestCase):
         self.partition_map = {}
         self.publications = []
         self.datasets = {}
+        self.providers = {}
         self.journals = {}
 
         # load the publications
@@ -41,6 +42,11 @@ class TestRCGraph (unittest.TestCase):
             for d in json.load(f):
                 self.datasets[d["id"]] = d
 
+        # load the data providers
+        with open(rc_graph.RCGraph.PATH_PROVIDERS, "r") as f:
+            for p in json.load(f):
+                self.providers[p["id"]] = d
+
         # load the journals
         with open(rc_graph.RCJournals.PATH_JOURNALS, "r") as f:
             for j in json.load(f):
@@ -54,6 +60,9 @@ class TestRCGraph (unittest.TestCase):
 
         print("\n{} datasets loaded".format(len(self.datasets)))
         self.assertTrue(len(self.datasets) > 0)
+
+        print("\n{} providers loaded".format(len(self.providers)))
+        self.assertTrue(len(self.providers) > 0)
 
         print("\n{} journals loaded".format(len(self.journals)))
         self.assertTrue(len(self.journals) > 0)
