@@ -124,9 +124,9 @@ def main (args):
 
     graph.write_partition(graph.BUCKET_FINAL, "_manual.json", pub_list)
 
-    # keep track of the titles that had no open access PDF
+    # report errors
     status = "{} open access PDFs identified".format(graph.publications.pdf_hits)
-    graph.report_misses(status)
+    graph.report_misses(status, "titles that had no open access PDF")
 
 
 if __name__ == "__main__":
