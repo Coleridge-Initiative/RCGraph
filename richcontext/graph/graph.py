@@ -179,8 +179,12 @@ class RCJournals:
                 old_set = set(journal["issn"])
                 new_set = set(new_issns)
 
+                # don't care conditions
+                if old_set == set(["0000-0000"]):
+                    pass
+                
                 # got dispute? check for overlapping definitions
-                if len(old_set.intersection(new_set)) < 1:
+                elif len(old_set.intersection(new_set)) < 1:
                     disputed["{} {}".format(old_set, new_set)] = journal
 
                 # add other ISSNs to an existing entry
@@ -595,7 +599,7 @@ class RCGraph:
         """
         iterate through the publication partitions
         """
-        for partition in Path(path).glob("*.json"):
+        for partition in sorted(Path(path).glob("*.json")):
             if not filter or filter == partition.name:
                 with codecs.open(partition, "r", encoding="utf8") as f:
                     try:
@@ -612,10 +616,10 @@ class RCGraph:
         """
         override = {}
 
-        for filename in Path(path).glob("*.json"):
-            print("override:", filename)
+        for partition in sorted(Path(path).glob("*.json")):
+            print("override:", partition)
 
-            with codecs.open(filename, "r", encoding="utf8") as f:
+            with codecs.open(partition, "r", encoding="utf8") as f:
                 for elem in json.load(f):
                     override[elem["title"]] = elem["manual"]
 
@@ -630,7 +634,7 @@ class RCGraph:
             json.dump(pub_list, f, indent=4, sort_keys=True, ensure_ascii=False)
 
 
-    def report_misses (self, status=None):
+    def report_misses (self, status=None, trouble=None):
         """
         report the titles of publications that have metadata error
         conditions related to the current workflow step
@@ -645,6 +649,9 @@ class RCGraph:
             for message in self.already_reported:
                 f.write("{}\n".format(message))
                 f.write("---\n")
+
+            if trouble:
+                f.write("{}:\n".format(trouble))
 
             for title in self.misses:
                 f.write("{}\n".format(title))
