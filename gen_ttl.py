@@ -80,6 +80,9 @@ def load_providers (graph, out_buf):
                     ).strip()
                 )
 
+            if "ror" in p:
+                out_buf.append("  dct:identifier \"https://ror.org/{}\"^^xsd:anyURI ;".format(p["ror"]))
+
             if "url" in p:
                 out_buf.append("  foaf:page \"{}\"^^xsd:anyURI ;".format(p["url"]))
 
@@ -151,7 +154,7 @@ def load_journals (graph, out_buf):
         if "issn" in j:
             # select the first element as the Linking ISSN
             issn_l = j["issn"][0]
-            out_buf.append("  dct:identifier \"{}\" ;".format(issn_l))
+            out_buf.append("  dct:identifier \"https://portal.issn.org/resource/ISSN/{}\"^^xsd:anyURI ;".format(issn_l))
 
         if "url" in j:
             out_buf.append("  foaf:page \"{}\"^^xsd:anyURI ;".format(j["url"]))
@@ -186,7 +189,7 @@ def format_pub (out_buf, pub, pub_id, known_journals, known_datasets, link_map, 
         )
 
     if "doi" in pub:
-        out_buf.append("  dct:identifier \"{}\" ;".format(pub["doi"]))
+        out_buf.append("  dct:identifier \"https://doi.org/{}\"^^xsd:anyURI ;".format(pub["doi"]))
 
     if "url" in pub:
         out_buf.append("  foaf:page \"{}\"^^xsd:anyURI ;".format(pub["url"]))
