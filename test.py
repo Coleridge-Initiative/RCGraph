@@ -3,6 +3,7 @@
 
 from pathlib import Path
 from richcontext import graph as rc_graph
+import codecs
 import json
 import sys
 import traceback
@@ -24,7 +25,7 @@ class TestRCGraph (unittest.TestCase):
 
         # load the publications
         for partition in rc_graph.RCGraph.PATH_PUBLICATIONS.iterdir():
-            with open(partition, "r") as f:
+            with codecs.open(partition, "r", encoding="utf8") as f:
                 try:
                     pub_list = json.load(f)
                 except Exception:
@@ -38,17 +39,17 @@ class TestRCGraph (unittest.TestCase):
                     self.partition_map[pub["title"].lower()] = partition
 
         # load the datasets
-        with open(rc_graph.RCGraph.PATH_DATASETS, "r") as f:
+        with codecs.open(rc_graph.RCGraph.PATH_DATASETS, "r", encoding="utf8") as f:
             for d in json.load(f):
                 self.datasets[d["id"]] = d
 
         # load the data providers
-        with open(rc_graph.RCGraph.PATH_PROVIDERS, "r") as f:
+        with codecs.open(rc_graph.RCGraph.PATH_PROVIDERS, "r", encoding="utf8") as f:
             for p in json.load(f):
                 self.providers[p["id"]] = d
 
         # load the journals
-        with open(rc_graph.RCJournals.PATH_JOURNALS, "r") as f:
+        with codecs.open(rc_graph.RCJournals.PATH_JOURNALS, "r", encoding="utf8") as f:
             for j in json.load(f):
                 self.journals[j["id"]] = j
 

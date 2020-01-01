@@ -8,6 +8,7 @@ import argparse
 import json
 import pprint
 import sys
+import unicodedata
 
 DEFAULT_PARTITION = None
 
@@ -20,7 +21,7 @@ def propagate_view (pub, graph, override):
     title = pub["title"]
 
     view = {
-        "title": title,
+        "title": unicodedata.normalize("NFKD", title),
         "datasets": pub["datasets"]
         }
 

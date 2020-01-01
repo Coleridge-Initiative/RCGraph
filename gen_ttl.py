@@ -70,7 +70,13 @@ def load_providers (graph, out_buf):
     with open(graph.PATH_PROVIDERS, "r") as f:
         for p in json.load(f):
             prov_id = p["id"]
-            id_list = [p["title"]]
+
+            # use persistent identifiers where possible
+            if "ror" in p:
+                id_list = [p["ror"]]
+            else:
+                id_list = [p["title"]]
+
             known_providers[prov_id] = graph.get_hash(id_list, prefix="provider-")
 
             out_buf.append(
@@ -101,6 +107,9 @@ def load_datasets (graph, out_buf, known_providers):
         for d in json.load(f):
             dat_id = d["id"]
             prov_id = d["provider"]
+
+            # use persistent identifiers where possible
+            # for datasets, the ADRF ontology is the ID
             id_list = [prov_id, d["title"]]
             known_datasets[dat_id] = graph.get_hash(id_list, prefix="dataset-")
 
@@ -131,10 +140,11 @@ def load_journals (graph, out_buf):
     journals = {}
 
     for j in graph.journals.known.values():
-        id_list = [ j["titles"][0] ]
-
+        # use persistent identifiers where possible
         if "issn" in j:
-            id_list.append(j["issn"][0])
+            id_list = [ j["issn"][0] ]
+        else:
+            id_list = [ j["titles"][0] ]
 
         j["hash"] = graph.get_hash(id_list, prefix="journal-")
         journals[j["id"]] = j
@@ -216,11 +226,18 @@ def load_publications (graph, out_buf, known_datasets, known_journals, full_grap
             link_map = pub["datasets"]
 
             if len(link_map) > 0:
+                # prep titles for generating TTL
+                pub["title"] = pub["title"].replace('"', "'").replace("\\", "-")
+
                 # generate UUID
                 try:
-                    pub["title"] = pub["title"].replace('"', "'").replace("\\", "-")
+                    # use persistent identifiers where possible
+                    if "doi" in pub:
+                        id_list = pub["doi"]
+                    else:
+                        title = pub["title"].replace(".", "").replace(" ", "")
+                        id_list = [pub["journal"], title]
 
-                    id_list = [pub["journal"], pub["title"]]
                     pub_id = graph.get_hash(id_list, prefix="publication-")
 
                     # ensure uniqueness
