@@ -5,6 +5,7 @@ from pathlib import Path
 from tqdm import tqdm  # type: ignore
 from typing import Any, Dict, List, Tuple
 from urllib.parse import urlparse
+import codecs
 import hashlib
 import json
 import logging  # type: ignore
@@ -13,6 +14,7 @@ import re
 import string
 import sys
 import traceback
+import unicodedata
 
 
 class RCJournals:
@@ -69,7 +71,7 @@ class RCJournals:
         """
         load the list of journal entities
         """
-        with open(path, "r") as f:
+        with codecs.open(path, "r", encoding="utf8") as f:
             journals = json.load(f)
 
         # find the next ID to use
@@ -315,9 +317,9 @@ class RCJournals:
         for j in self.known.values():
             j_dict[j["id"]] = j
 
-        with open(self.PATH_UPDATE, "w") as f:
+        with codecs.open(self.PATH_UPDATE, "wb", encoding="utf8") as f:
             j_list = list(j_dict.values())
-            json.dump(j_list, f, indent=4, sort_keys=True)
+            json.dump(j_list, f, indent=4, sort_keys=True, ensure_ascii=False)
 
 
 class RCPublications:
@@ -595,7 +597,7 @@ class RCGraph:
         """
         for partition in Path(path).glob("*.json"):
             if not filter or filter == partition.name:
-                with partition.open() as f:
+                with codecs.open(partition, "r", encoding="utf8") as f:
                     try:
                         yield partition.name, json.load(f)
                     except Exception:
@@ -613,7 +615,7 @@ class RCGraph:
         for filename in Path(path).glob("*.json"):
             print("override:", filename)
 
-            with open(filename) as f:
+            with codecs.open(filename, "r", encoding="utf8") as f:
                 for elem in json.load(f):
                     override[elem["title"]] = elem["manual"]
 
@@ -624,8 +626,8 @@ class RCGraph:
         """
         write one partition to a bucket
         """
-        with open(Path(bucket) / partition, "w") as f:
-            json.dump(pub_list, f, indent=4, sort_keys=True)
+        with codecs.open(Path(bucket) / partition, "wb", encoding="utf8") as f:
+            json.dump(pub_list, f, indent=4, sort_keys=True, ensure_ascii=False)
 
 
     def report_misses (self, status=None):
@@ -635,7 +637,7 @@ class RCGraph:
         """
         filename = Path("misses_{}.txt".format(self.step_name))
 
-        with open(filename, "w") as f:
+        with codecs.open(filename, "wb", encoding="utf8") as f:
             if status:
                 f.write("{}\n".format(status))
                 f.write("---\n")
