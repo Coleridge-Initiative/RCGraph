@@ -9,14 +9,17 @@ import argparse
 import sys
 import traceback
 
+DEFAULT_FORCE = False
 DEFAULT_PARTITION = None
 
 
-def gather_pdf (schol, graph, partition, pub):
+def lookup_doi (schol, graph, partition, pub):
     """
     use `publication_lookup()` across scholarly infrastructure APIs to
     identify this publication's open access PDFs, etc.
     """
+    global DEFAULT_FORCE
+
     doi_list = []
     doi_match = False
 
@@ -37,7 +40,13 @@ def gather_pdf (schol, graph, partition, pub):
 
         for api in [schol.semantic, schol.unpaywall, schol.dissemin]:
             try:
-                meta = api.publication_lookup(doi)
+                if api.name in pub and not DEFAULT_FORCE:
+                    # skip an API lookup that was performed previously
+                    doi_match = True
+                    continue
+                else:
+                    meta = api.publication_lookup(doi)
+
             except Exception:
                 # debug this as an edge case
                 traceback.print_exc()
@@ -66,21 +75,18 @@ def main (args):
 
         for pub in tqdm(pub_iter, ascii=True, desc=partition[:30]):
             pub_list.append(pub)
-            doi_match = gather_pdf(schol, graph, partition, pub)
+            doi_match = lookup_doi(schol, graph, partition, pub)
 
             if doi_match:
                 graph.publications.doi_hits += 1
             else:
                 graph.misses.append(pub["title"])
 
-            if "pdf" in pub:
-                graph.publications.pdf_hits += 1
-
         graph.write_partition(graph.BUCKET_STAGE, partition, pub_list)
 
-    # report titles for publications that failed every API lookup
-    status = "{} successful DOI lookups / {} found PDFs".format(graph.publications.doi_hits, graph.publications.pdf_hits)
-    graph.report_misses(status)
+    # report errors
+    status = "{} successful DOI lookups".format(graph.publications.doi_hits)
+    graph.report_misses(status, "publications that failed every DOI lookup")
 
 
 if __name__ == "__main__":
@@ -94,6 +100,13 @@ if __name__ == "__main__":
         type=str,
         default=DEFAULT_PARTITION,
         help="limit processing to a specified partition"
+        )
+
+    parser.add_argument(
+        "--force",
+        type=bool,
+        default=DEFAULT_FORCE,
+        help="force API lookups, even if performed previously"
         )
 
     main(parser.parse_args())

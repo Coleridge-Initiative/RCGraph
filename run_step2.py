@@ -10,6 +10,7 @@ import json
 import pprint
 import sys
 import traceback
+import unicodedata
 
 DEFAULT_PARTITION = None
 
@@ -51,7 +52,9 @@ def main (args):
         pub_list = []
 
         for pub in tqdm(pub_iter, ascii=True, desc=partition[:30]):
+            pub["title"] = unicodedata.normalize("NFKD", pub["title"]).strip()
             pub_list.append(pub)
+
             title_match = gather_doi(schol, graph, partition, pub)
 
             if title_match:
@@ -61,9 +64,10 @@ def main (args):
 
         graph.write_partition(graph.BUCKET_STAGE, partition, pub_list)
 
-    # report titles for publications that failed every API lookup
+    # report errors
     status = "{} found titles in API calls".format(graph.publications.title_hits)
-    graph.report_misses(status)
+    trouble = "publications that failed every API lookup"
+    graph.report_misses(status, trouble)
 
 
 if __name__ == "__main__":

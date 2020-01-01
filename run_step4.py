@@ -125,8 +125,9 @@ def main (args):
     # for publications that don't have a journal
     #graph.journals.suggest_updates()
 
+    # report errors
     status = f"{graph.journals.issn_hits} publications had ISSNs found for their journals"
-    graph.report_misses(status)
+    graph.report_misses(status, "publications that had no ISSN metadata")
 
 
 if __name__ == "__main__":
