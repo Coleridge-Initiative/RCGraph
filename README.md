@@ -73,12 +73,14 @@ it consumes from this repo for corpus updates:
 ## Updates
 
 To update the submodules to their latest `HEAD` commit in `master`
-branch, connect into each submodule (subdirectory) and run:
+branch run:
 
 ```
-git fetch
-git merge origin/master
+git submodule foreach "(git fetch; git merge origin/master; cd ..;)"
 ```
+
+Then add the submodule and commit.
+
 
 For more info about how to use Git submodules, see:
 
