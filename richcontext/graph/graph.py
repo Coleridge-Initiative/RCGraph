@@ -43,7 +43,7 @@ class RCJournals:
         self.known = {}
 
 
-    def add_entity (self, tally):
+    def add_entity (self, tally, freq_issn):
         """
         add the tally for this (apparently) new journal
         """
@@ -55,6 +55,7 @@ class RCJournals:
 
             entity = {
                 "id": "journal-{:03d}".format(self.next_id),
+                "issn": [ freq_issn ],
                 "titles": [j for j, c in tally]
                 }
 
