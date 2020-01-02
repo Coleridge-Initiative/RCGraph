@@ -8,6 +8,7 @@ from rdflib.serializer import Serializer
 from tqdm import tqdm  # type: ignore
 from typing import Any, Dict, List, Tuple
 import argparse
+import codecs
 import json
 import pprint
 import rdflib
@@ -61,14 +62,15 @@ TEMPLATE_PUBLICATION = """
 """
 
 
-def load_providers (graph, out_buf):
+def load_providers (graph, frags):
     """
     load the providers
     """
     known_providers = {}
 
-    with open(graph.PATH_PROVIDERS, "r") as f:
+    with codecs.open(graph.PATH_PROVIDERS, "r", encoding="utf8") as f:
         for p in json.load(f):
+            buf = []
             prov_id = p["id"]
 
             # use persistent identifiers where possible
@@ -77,67 +79,74 @@ def load_providers (graph, out_buf):
             else:
                 id_list = [p["title"]]
 
-            known_providers[prov_id] = graph.get_hash(id_list, prefix="provider-")
+            p["uuid"] = graph.get_hash(id_list, prefix="provider-")
+            known_providers[prov_id] = p
 
-            out_buf.append(
+            buf.append(
                 TEMPLATE_PROVIDER.format(
-                    known_providers[prov_id],
+                    p["uuid"],
                     p["title"]
                     ).strip()
                 )
 
             if "ror" in p:
-                out_buf.append("  dct:identifier \"https://ror.org/{}\"^^xsd:anyURI ;".format(p["ror"]))
+                buf.append("  dct:identifier \"https://ror.org/{}\"^^xsd:anyURI ;".format(p["ror"]))
 
             if "url" in p:
-                out_buf.append("  foaf:page \"{}\"^^xsd:anyURI ;".format(p["url"]))
+                buf.append("  foaf:page \"{}\"^^xsd:anyURI ;".format(p["url"]))
 
-            out_buf.append(".\n")
+            buf.append(".\n")
+            frags[p["uuid"]] = buf
 
     return known_providers
 
 
-def load_datasets (graph, out_buf, known_providers):
+def load_datasets (graph, frags, used, known_providers):
     """
     load the datasets
     """
     known_datasets = {}
 
-    with open(graph.PATH_DATASETS, "r") as f:
+    with codecs.open(graph.PATH_DATASETS, "r", encoding="utf8") as f:
         for d in json.load(f):
+            buf = []
             dat_id = d["id"]
+
             prov_id = d["provider"]
+            used.add(known_providers[prov_id]["uuid"])
 
             # use persistent identifiers where possible
             # for datasets, the ADRF ontology is the ID
             id_list = [prov_id, d["title"]]
-            known_datasets[dat_id] = graph.get_hash(id_list, prefix="dataset-")
+            d["uuid"] = graph.get_hash(id_list, prefix="dataset-")
+            known_datasets[dat_id] = d
 
-            out_buf.append(
+            buf.append(
                 TEMPLATE_DATASET.format(
-                    known_datasets[dat_id],
-                    known_providers[prov_id],
+                    d["uuid"],
+                    known_providers[prov_id]["uuid"],
                     d["title"]
                     ).strip()
                 )
 
             if "alt_title" in d:
                 for alt_title in d["alt_title"]:
-                    out_buf.append("  dct:alternative \"{}\" ;".format(alt_title))
+                    buf.append("  dct:alternative \"{}\" ;".format(alt_title))
 
             if "url" in d:
-                out_buf.append("  foaf:page \"{}\"^^xsd:anyURI ;".format(d["url"]))
+                buf.append("  foaf:page \"{}\"^^xsd:anyURI ;".format(d["url"]))
 
-            out_buf.append(".\n")
+            buf.append(".\n")
+            frags[d["uuid"]] = buf
 
     return known_datasets
 
 
-def load_journals (graph, out_buf):
+def load_journals (graph, frags):
     """
     load the journals
     """
-    journals = {}
+    known_journals = {}
 
     for j in graph.journals.known.values():
         # use persistent identifiers where possible
@@ -146,49 +155,55 @@ def load_journals (graph, out_buf):
         else:
             id_list = [ j["titles"][0] ]
 
-        j["hash"] = graph.get_hash(id_list, prefix="journal-")
-        journals[j["id"]] = j
+        j["uuid"] = graph.get_hash(id_list, prefix="journal-")
+        known_journals[j["id"]] = j
 
-    for id, j in journals.items():
-        out_buf.append(
+    for id, j in known_journals.items():
+        buf = []
+
+        buf.append(
             TEMPLATE_JOURNAL.format(
-                j["hash"],
+                j["uuid"],
                 j["titles"][0],
                 ).strip()
             )
 
         if len(j["titles"]) > 1:
             for title in j["titles"][1:]:
-                out_buf.append("  dct:alternative \"{}\" ;".format(title))
+                buf.append("  dct:alternative \"{}\" ;".format(title))
 
         if "issn" in j:
             # select the first element as the Linking ISSN
             issn_l = j["issn"][0]
-            out_buf.append("  dct:identifier \"https://portal.issn.org/resource/ISSN/{}\"^^xsd:anyURI ;".format(issn_l))
+            buf.append("  dct:identifier \"https://portal.issn.org/resource/ISSN/{}\"^^xsd:anyURI ;".format(issn_l))
 
         if "url" in j:
-            out_buf.append("  foaf:page \"{}\"^^xsd:anyURI ;".format(j["url"]))
+            buf.append("  foaf:page \"{}\"^^xsd:anyURI ;".format(j["url"]))
 
-        out_buf.append(".\n")
+        buf.append(".\n")
+        frags[j["uuid"]] = buf
 
-    return journals
+    return known_journals
 
 
-def format_pub (out_buf, pub, pub_id, known_journals, known_datasets, link_map, full_graph):
+def format_pub (out_buf, pub, pub_id, used, known_journals, known_datasets, link_map, full_graph):
     """
-    format one publication in TTL
+    format one publication, serialized as TTL
     """
     # test for open access PDF
     if "pdf" in pub and pub["pdf"]:
+        # has an open access PDF
         pdf = pub["pdf"]
     elif full_graph:
+        # publish the full graph anyway
         pdf = None
     else:
         # do not output this publication
         return False
 
     # reshape the metadata for corpus output
-    journal_id = known_journals[pub["journal"]]["hash"]
+    journal_id = known_journals[pub["journal"]]["uuid"]
+    used.add(journal_id)
 
     out_buf.append(
         TEMPLATE_PUBLICATION.format(
@@ -208,14 +223,19 @@ def format_pub (out_buf, pub, pub_id, known_journals, known_datasets, link_map, 
         out_buf.append("  :openAccess \"{}\"^^xsd:anyURI ;".format(pdf))
 
     # link to datasets
-    dat_list = [ ":{}".format(known_datasets[dat_id]) for dat_id in link_map ]
+    dat_list = []
+
+    for dat_id in link_map:
+        dat_list.append(":{}".format(known_datasets[dat_id]["uuid"]))
+        used.add(known_datasets[dat_id]["uuid"])
+
     out_buf.append("  cito:citesAsDataSource {} ;".format(", ".join(dat_list)))
     out_buf.append(".\n")
 
     return True
 
 
-def load_publications (graph, out_buf, known_datasets, known_journals, full_graph):
+def load_publications (graph, used, out_buf, known_datasets, known_journals, full_graph):
     """
     load publications, link to datasets, reshape metadata
     """
@@ -242,7 +262,7 @@ def load_publications (graph, out_buf, known_datasets, known_journals, full_grap
 
                     # ensure uniqueness
                     if pub_id not in seen:
-                        if format_pub(out_buf, pub, pub_id, known_journals, known_datasets, link_map, full_graph):
+                        if format_pub(out_buf, pub, pub_id, used, known_journals, known_datasets, link_map, full_graph):
                             seen.add(pub_id)
                 except:
                     traceback.print_exc()
@@ -253,12 +273,17 @@ def load_publications (graph, out_buf, known_datasets, known_journals, full_grap
     return len(seen)
 
 
-def write_corpus (out_buf, path):
+def write_corpus (frags, used, out_buf, path):
     """
     output the corpus in TTL and JSON-LD
     """
+    ## add the used fragments
+    for id, buf in sorted(frags.items()):
+        if id in used:
+            out_buf.extend(buf)
+
     ## write the TTL output
-    with open(path, "w") as f:
+    with codecs.open(path, "wb", encoding="utf8") as f:
         for text in tqdm(out_buf, ascii=True, desc="write corpus"):
             f.write(text)
             f.write("\n")
@@ -274,11 +299,12 @@ def write_corpus (out_buf, path):
 
     path_jsonld = Path(path.stem + ".jsonld")
 
-    with open(PATH_VOCAB_JSONLD, "r") as f:
+    with codecs.open(PATH_VOCAB_JSONLD, "r", encoding="utf8") as f:
         context = json.load(f)
 
-    with open(path_jsonld, "wb") as f:
-        f.write(g.serialize(format="json-ld", context=context, indent=2))
+    with codecs.open(path_jsonld, "wb", encoding="utf8") as f:
+        buf = g.serialize(format="json-ld", context=context, indent=2).decode("utf8")
+        f.write(buf)
 
     ## read back, to confirm formatting
     print("confirm formatting")
@@ -328,22 +354,24 @@ def main (args):
     ## 2. validate the linked data
     ## 3. format output for the corpus as both TTL and JSON-LD
 
+    frags = {}
+    used = set([])
     out_buf = [ PREAMBLE.lstrip() ]
 
     graph = rc_graph.RCGraph("corpus")
     graph.journals.load_entities()
 
-    known_providers = load_providers(graph, out_buf)
-    known_datasets = load_datasets(graph, out_buf, known_providers)
-    known_journals = load_journals(graph, out_buf)
-    num_pubs = load_publications(graph, out_buf, known_datasets, known_journals, args.full_graph)
+    known_providers = load_providers(graph, frags)
+    known_datasets = load_datasets(graph, frags, used, known_providers)
+    known_journals = load_journals(graph, frags)
+    num_pubs = load_publications(graph, used, out_buf, known_datasets, known_journals, args.full_graph)
 
     print("loaded {} providers".format(len(known_providers)))
     print("loaded {} datasets".format(len(known_datasets)))
     print("loaded {} journals".format(len(known_journals)))
     print("loaded {} publications".format(num_pubs))
 
-    write_corpus(out_buf, PATH_CORPUS_TTL)
+    write_corpus(frags, used, out_buf, PATH_CORPUS_TTL)
     test_corpus(PATH_CORPUS_TTL)
 
 
