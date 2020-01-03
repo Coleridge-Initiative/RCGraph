@@ -354,24 +354,29 @@ def main (args):
     ## 2. validate the linked data
     ## 3. format output for the corpus as both TTL and JSON-LD
 
-    frags = {}
-    used = set([])
-    out_buf = [ PREAMBLE.lstrip() ]
-
     graph = rc_graph.RCGraph("corpus")
     graph.journals.load_entities()
+
+    frags = {}
+    used = set([])
 
     known_providers = load_providers(graph, frags)
     known_datasets = load_datasets(graph, frags, used, known_providers)
     known_journals = load_journals(graph, frags)
+
+    out_buf = [ PREAMBLE.lstrip() ]
     num_pubs = load_publications(graph, used, out_buf, known_datasets, known_journals, args.full_graph)
-
-    print("loaded {} providers".format(len(known_providers)))
-    print("loaded {} datasets".format(len(known_datasets)))
-    print("loaded {} journals".format(len(known_journals)))
-    print("loaded {} publications".format(num_pubs))
-
     write_corpus(frags, used, out_buf, PATH_CORPUS_TTL)
+
+    num_prov = len(used.intersection(set([p["uuid"] for p in known_providers.values()])))
+    num_data = len(used.intersection(set([d["uuid"] for d in known_datasets.values()])))
+    num_jour = len(used.intersection(set([j["uuid"] for j in known_journals.values()])))
+
+    print(f"{num_prov} providers written")
+    print(f"{num_data} datasets written")
+    print(f"{num_jour} journals written")
+    print(f"{num_pubs} publications written")
+
     test_corpus(PATH_CORPUS_TTL)
 
 
