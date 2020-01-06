@@ -23,7 +23,7 @@ pip install setuptools --upgrade
 Second, clone the repo:
 
 ```
-git clone https://github.com/NYU-CI/RCGraph.git
+git clone https://github.com/Coleridge-Initiative/RCGraph.git
 ```
 
 Third, connect into the directory and initialize the local Git
@@ -57,12 +57,10 @@ submodule:
 Git repos exist for almost every entity in the KG, also linked as
 submodules:
 
-  - <https://github.com/NYU-CI/RCCustomers>
-  - <https://github.com/NYU-CI/RCDatasets>
-  - <https://github.com/NYU-CI/RCHuman>
-  - <https://github.com/NYU-CI/RCProjects>
-  - <https://github.com/NYU-CI/RCPublications>
-  - <https://github.com/NYU-CI/RCStewards>
+  - <https://github.com/Coleridge-Initiative/RCDatasets>
+  - <https://github.com/Coleridge-Initiative/RCPublications>
+  - <https://github.com/Coleridge-Initiative/RCHuman>
+
 
 The RCLC leaderboard competition is also linked as a submodule since
 it consumes from this repo for corpus updates:
