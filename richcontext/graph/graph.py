@@ -640,7 +640,7 @@ class RCGraph:
         report the titles of publications that have metadata error
         conditions related to the current workflow step
         """
-        filename = Path("misses_{}.txt".format(self.step_name))
+        filename = Path("error/misses_{}.txt".format(self.step_name))
 
         with codecs.open(filename, "wb", encoding="utf8") as f:
             if status:
