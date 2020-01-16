@@ -84,7 +84,7 @@ def propagate_view (pub, graph, override):
 def main (args):
     # initialize the federated API access
     schol = rc_scholapi.ScholInfraAPI(config_file="rc.cfg", logger=None)
-    graph = rc_graph.RCGraph("step5")
+    graph = rc_graph.RCGraph("final")
 
     # finalize the metadata corrections for each publication
     graph.journals.load_entities()

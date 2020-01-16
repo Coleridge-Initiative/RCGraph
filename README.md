@@ -186,21 +186,53 @@ publication that doesn't have a journal.
   - Do not make manual edits to the `journals.json` file
 
 
-### Step 5: Finalize Metadata Corrections
+### Step N: Reconcile Author Lists
+
+**This is a manual step.**
+
+Scan results from calls to scholarly infrastructure APIs, then
+apply business logic to reconcile (disambiguate) the author lists
+for each publication with the `authors.json` entity listing.
+
+```
+python run_author.py
+```
+
+Lists of authors are parsed from metadata in the `bucket_stage` then
+disambiguated. 
+
+Results are organized in partitions in the `bucket_stage`
+subdirectory, using the same partition names from the preceding
+workflow steps.
+
+The stage produces two files:
+
+  - `authors.json` -- list of known authors
+  - `auth_train.tsv` -- training set for self-supervised model
+
+See the `misses_author.txt` file which reports the title of each
+publication that doesn't any authors.
+
+**Caveats:**
+
+  - Do not make manual edits to `authors.json` or `auth_train.tsv`
+
+
+### Step N: Finalize Metadata Corrections
 
 This workflow step finalizes the metadata corrections for each
 publication, including selection of a URL, open access PDF, etc.,
 along with the manual override.
 
 ```
-python run_step5.py
+python run_final.py
 ```
 
 Results are organized in partitions in the `bucket_final`
 subdirectory, using the same partition names from the previous
 workflow step.
 
-See the `misses_step5.txt` file which reports the title of each
+See the `misses_final.txt` file which reports the title of each
 publication that failed every API lookup.
 
 
