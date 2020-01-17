@@ -21,12 +21,12 @@
             ],
             "RCDC": [
                 {
-                    "id": "388",
-                    "name": "Nutrition"
-                },
-                {
                     "id": "547",
                     "name": "Pediatric"
+                },
+                {
+                    "id": "388",
+                    "name": "Nutrition"
                 },
                 {
                     "id": "507",
@@ -51,11 +51,11 @@
                             }
                         ],
                         "corresponding": "",
-                        "current_organization_id": "",
+                        "current_organization_id": "grid.280561.8",
                         "first_name": "Tracy C.",
                         "last_name": "Vericker",
                         "orcid": "",
-                        "researcher_id": ""
+                        "researcher_id": "ur.01106171124.52"
                     },
                     {
                         "affiliations": [
@@ -114,11 +114,11 @@
                         }
                     ],
                     "corresponding": "",
-                    "current_organization_id": "",
+                    "current_organization_id": "grid.280561.8",
                     "first_name": "Tracy C.",
                     "last_name": "Vericker",
                     "orcid": "",
-                    "researcher_id": ""
+                    "researcher_id": "ur.01106171124.52"
                 },
                 {
                     "affiliations": [
@@ -191,12 +191,12 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "388",
-                    "name": "Nutrition"
-                },
-                {
                     "id": "547",
                     "name": "Pediatric"
+                },
+                {
+                    "id": "388",
+                    "name": "Nutrition"
                 },
                 {
                     "id": "507",
@@ -313,52 +313,52 @@
             "pmid": "31478203",
             "publisher": "Wiley",
             "reference_ids": [
-                "pub.1037209227",
-                "pub.1048083798",
-                "pub.1026695234",
-                "pub.1006340194",
-                "pub.1044774526",
-                "pub.1036514154",
-                "pub.1077363409",
-                "pub.1091240472",
-                "pub.1027870698",
-                "pub.1010262416",
-                "pub.1050974154",
-                "pub.1003824068",
-                "pub.1012401862",
-                "pub.1061833852",
-                "pub.1053803271",
+                "pub.1082527521",
                 "pub.1039899628",
+                "pub.1037209227",
+                "pub.1027870698",
+                "pub.1077363409",
+                "pub.1003824068",
+                "pub.1050974154",
+                "pub.1044774526",
+                "pub.1053803271",
+                "pub.1003154944",
+                "pub.1091240472",
                 "pub.1079188993",
                 "pub.1026622663",
+                "pub.1010262416",
+                "pub.1026695234",
+                "pub.1012401862",
                 "pub.1049528989",
-                "pub.1003154944",
-                "pub.1082527521",
-                "pub.1009830899"
+                "pub.1009830899",
+                "pub.1061833852",
+                "pub.1048083798",
+                "pub.1036514154",
+                "pub.1006340194"
             ],
             "references": [
-                "pub.1037209227",
-                "pub.1048083798",
-                "pub.1026695234",
-                "pub.1006340194",
-                "pub.1044774526",
-                "pub.1036514154",
-                "pub.1077363409",
-                "pub.1091240472",
-                "pub.1027870698",
-                "pub.1010262416",
-                "pub.1050974154",
-                "pub.1003824068",
-                "pub.1012401862",
-                "pub.1061833852",
-                "pub.1053803271",
+                "pub.1082527521",
                 "pub.1039899628",
+                "pub.1037209227",
+                "pub.1027870698",
+                "pub.1077363409",
+                "pub.1003824068",
+                "pub.1050974154",
+                "pub.1044774526",
+                "pub.1053803271",
+                "pub.1003154944",
+                "pub.1091240472",
                 "pub.1079188993",
                 "pub.1026622663",
+                "pub.1010262416",
+                "pub.1026695234",
+                "pub.1012401862",
                 "pub.1049528989",
-                "pub.1003154944",
-                "pub.1082527521",
-                "pub.1009830899"
+                "pub.1009830899",
+                "pub.1061833852",
+                "pub.1048083798",
+                "pub.1036514154",
+                "pub.1006340194"
             ],
             "research_org_cities": [
                 {
@@ -381,26 +381,19 @@
             ],
             "research_org_state_codes": [
                 {
-                    "id": "US-VA",
-                    "name": "Virginia"
-                },
-                {
                     "id": "US-MD",
                     "name": "Maryland"
+                },
+                {
+                    "id": "US-VA",
+                    "name": "Virginia"
                 }
             ],
             "research_org_state_names": [
-                "Virginia",
-                "Maryland"
+                "Maryland",
+                "Virginia"
             ],
             "research_orgs": [
-                {
-                    "city_name": "Falls Church",
-                    "country_name": "United States",
-                    "id": "grid.429534.d",
-                    "name": "Lewin Group",
-                    "state_name": "Virginia"
-                },
                 {
                     "city_name": "Rockville",
                     "country_name": "United States",
@@ -415,9 +408,27 @@
                     "types": [
                         "Company"
                     ]
+                },
+                {
+                    "city_name": "Falls Church",
+                    "country_name": "United States",
+                    "id": "grid.429534.d",
+                    "name": "Lewin Group",
+                    "state_name": "Virginia"
                 }
             ],
-            "score": 25.513409,
+            "researchers": [
+                {
+                    "first_name": "Tracy C",
+                    "id": "ur.01106171124.52",
+                    "last_name": "Vericker",
+                    "research_orgs": [
+                        "grid.56362.34",
+                        "grid.280561.8"
+                    ]
+                }
+            ],
+            "score": 25.496546,
             "supporting_grant_ids": [
                 "grant.3806886"
             ],
@@ -652,7 +663,7 @@
         },
         "doi": "10.1111/josh.12828",
         "original": {
-            "date_added": "2019-11-27 12:19:36",
+            "date_added": "2020-01-02 16:59:59",
             "doi": "10.1111/josh.12828",
             "journal": "Journal of School Health",
             "search_term": "Food and Nutrition Service Program Data"
@@ -886,7 +897,7 @@
             "date": "2016-05-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.foodpol.2016.01.009",
-            "field_citation_ratio": 1.07,
+            "field_citation_ratio": 1.06,
             "funder_countries": [
                 {
                     "id": "US",
@@ -1113,17 +1124,17 @@
                     "id": "ur.012433310605.84",
                     "last_name": "Alston",
                     "research_orgs": [
-                        "grid.30389.31",
                         "grid.49481.30",
+                        "grid.27860.3b",
+                        "grid.47840.3f",
+                        "grid.1680.f",
                         "grid.5386.8",
                         "grid.40803.3f",
-                        "grid.1680.f",
-                        "grid.47840.3f",
-                        "grid.27860.3b"
+                        "grid.30389.31"
                     ]
                 }
             ],
-            "score": 23.281755,
+            "score": 23.27019,
             "terms": [
                 "women",
                 "Supplemental Nutrition Assistance Program",
@@ -1381,7 +1392,7 @@
         },
         "doi": "10.1016/j.foodpol.2016.01.009",
         "original": {
-            "date_added": "2019-11-27 12:19:36",
+            "date_added": "2020-01-02 16:59:59",
             "doi": "10.1016/j.foodpol.2016.01.009",
             "journal": "Food Policy",
             "search_term": "Food and Nutrition Service Program Data"
@@ -1668,7 +1679,7 @@
             "date": "2014-02-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.jand.2013.08.003",
-            "field_citation_ratio": 3.92,
+            "field_citation_ratio": 3.89,
             "funder_countries": [
                 {
                     "id": "US",
@@ -1927,17 +1938,17 @@
                     "id": "ur.01003622220.24",
                     "last_name": "Fitzgibbon",
                     "research_orgs": [
-                        "grid.411417.6",
-                        "grid.185648.6",
-                        "grid.280893.8",
-                        "grid.412973.a",
-                        "grid.35403.31",
-                        "grid.259828.c",
-                        "grid.417161.4",
                         "grid.437726.3",
+                        "grid.417161.4",
+                        "grid.259828.c",
                         "grid.16753.36",
-                        "grid.420871.8",
-                        "grid.280892.9"
+                        "grid.280893.8",
+                        "grid.280892.9",
+                        "grid.185648.6",
+                        "grid.412973.a",
+                        "grid.411417.6",
+                        "grid.35403.31",
+                        "grid.420871.8"
                     ]
                 },
                 {
@@ -1957,7 +1968,7 @@
                     ]
                 }
             ],
-            "score": 27.447172,
+            "score": 27.416222,
             "supporting_grant_ids": [
                 "grant.2440209",
                 "grant.2441295",
@@ -3830,7 +3841,7 @@
         },
         "doi": "10.1016/j.jand.2013.08.003",
         "original": {
-            "date_added": "2019-11-27 12:19:36",
+            "date_added": "2020-01-02 16:59:59",
             "doi": "10.1016/j.jand.2013.08.003",
             "journal": "Journal of the Academy of Nutrition and Dietetics",
             "search_term": "Food and Nutrition Service Program Data"
@@ -4076,7 +4087,7 @@
                     ]
                 }
             ],
-            "score": 27.095877,
+            "score": 27.073486,
             "terms": [
                 "people",
                 "food decisions",
@@ -4230,7 +4241,7 @@
         },
         "doi": "10.1080/19320248.2013.840551",
         "original": {
-            "date_added": "2019-11-27 12:19:36",
+            "date_added": "2020-01-02 16:59:59",
             "doi": "10.1080/19320248.2013.840551",
             "journal": "Journal of Hunger & Environmental Nutrition",
             "search_term": "Food and Nutrition Service Program Data"
@@ -4253,12 +4264,12 @@
             ],
             "RCDC": [
                 {
-                    "id": "388",
-                    "name": "Nutrition"
-                },
-                {
                     "id": "547",
                     "name": "Pediatric"
+                },
+                {
+                    "id": "388",
+                    "name": "Nutrition"
                 }
             ],
             "author_affiliations": [
@@ -4337,12 +4348,12 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "388",
-                    "name": "Nutrition"
-                },
-                {
                     "id": "547",
                     "name": "Pediatric"
+                },
+                {
+                    "id": "388",
+                    "name": "Nutrition"
                 }
             ],
             "category_ua": [
@@ -4432,7 +4443,7 @@
             "research_org_country_names": [
                 "United States"
             ],
-            "score": 25.159641,
+            "score": 25.122715,
             "terms": [
                 "study",
                 "data",
@@ -5588,7 +5599,7 @@
         },
         "doi": "10.2139/ssrn.2176939",
         "original": {
-            "date_added": "2019-11-27 12:19:36",
+            "date_added": "2020-01-02 16:59:59",
             "doi": "10.2139/ssrn.2176939",
             "journal": "SSRN Electronic Journal",
             "search_term": "Food and Nutrition Service Program Data"
@@ -5751,7 +5762,7 @@
             "date": "2011-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/19320248.2011.549358",
-            "field_citation_ratio": 0.58,
+            "field_citation_ratio": 0.57,
             "id": "pub.1017056280",
             "issn": [
                 "1932-0248",
@@ -5828,7 +5839,7 @@
                     ]
                 }
             ],
-            "score": 19.733263,
+            "score": 19.704721,
             "terms": [
                 "Commodity Supplemental Food Program",
                 "Supplemental Food Program",
@@ -5977,7 +5988,7 @@
         },
         "doi": "10.1080/19320248.2011.549358",
         "original": {
-            "date_added": "2019-11-27 12:19:36",
+            "date_added": "2020-01-02 16:59:59",
             "doi": "10.1080/19320248.2011.549358",
             "journal": "Journal of Hunger & Environmental Nutrition",
             "search_term": "Food and Nutrition Service Program Data"
@@ -6194,7 +6205,7 @@
                     ]
                 }
             ],
-            "score": 16.782751,
+            "score": 16.75059,
             "terms": [
                 "food environment",
                 "schools",
@@ -6906,7 +6917,7 @@
         },
         "doi": "10.1016/j.jada.2010.04.014",
         "original": {
-            "date_added": "2019-11-27 12:19:36",
+            "date_added": "2020-01-02 16:59:59",
             "doi": "10.1016/j.jada.2010.04.014",
             "journal": "Journal of the Academy of Nutrition and Dietetics",
             "search_term": "Food and Nutrition Service Program Data"
@@ -7126,7 +7137,7 @@
             "date": "2009-10-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1606/1044-3894.3930",
-            "field_citation_ratio": 3.02,
+            "field_citation_ratio": 3.01,
             "id": "pub.1019771388",
             "issn": [
                 "1044-3894",
@@ -7267,9 +7278,9 @@
                         "0000-0002-3055-6291"
                     ],
                     "research_orgs": [
-                        "grid.134936.a",
+                        "grid.4367.6",
                         "grid.24434.35",
-                        "grid.4367.6"
+                        "grid.134936.a"
                     ]
                 },
                 {
@@ -7283,7 +7294,7 @@
                     ]
                 }
             ],
-            "score": 28.122116,
+            "score": 28.076443,
             "terms": [
                 "Food Stamp Program",
                 "program",
@@ -7551,7 +7562,7 @@
         },
         "doi": "10.1606/1044-3894.3930",
         "original": {
-            "date_added": "2019-11-27 12:19:36",
+            "date_added": "2020-01-02 16:59:59",
             "doi": "10.1606/1044-3894.3930",
             "journal": "Families in Society",
             "search_term": "Food and Nutrition Service Program Data"
@@ -7789,9 +7800,9 @@
                         "0000-0002-3055-6291"
                     ],
                     "research_orgs": [
-                        "grid.134936.a",
+                        "grid.4367.6",
                         "grid.24434.35",
-                        "grid.4367.6"
+                        "grid.134936.a"
                     ]
                 },
                 {
@@ -7805,7 +7816,7 @@
                     ]
                 }
             ],
-            "score": 28.344267,
+            "score": 28.304256,
             "terms": [
                 "Food Stamp Program",
                 "program",
@@ -8097,7 +8108,7 @@
         },
         "doi": "10.1080/15588740903176278",
         "original": {
-            "date_added": "2019-11-27 12:19:36",
+            "date_added": "2020-01-02 16:59:59",
             "doi": "10.1080/15588740903176278",
             "journal": "Journal of Policy Practice",
             "search_term": "Food and Nutrition Service Program Data"
@@ -8222,7 +8233,7 @@
                     ]
                 }
             ],
-            "score": 14.705608,
+            "score": 14.683431,
             "terms": [
                 "research",
                 "advance understanding",
@@ -8490,7 +8501,7 @@
         },
         "doi": "10.1016/j.jada.2007.08.035",
         "original": {
-            "date_added": "2019-11-27 12:19:36",
+            "date_added": "2020-01-02 16:59:59",
             "doi": "10.1016/j.jada.2007.08.035",
             "journal": "Journal of the Academy of Nutrition and Dietetics",
             "search_term": "Food and Nutrition Service Program Data"
@@ -8759,7 +8770,7 @@
             "date": "2006-11-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.jada.2006.08.013",
-            "field_citation_ratio": 8.53,
+            "field_citation_ratio": 8.52,
             "funder_countries": [
                 {
                     "id": "US",
@@ -8916,7 +8927,7 @@
                     ]
                 }
             ],
-            "score": 25.424139,
+            "score": 25.397058,
             "terms": [
                 "school breakfast",
                 "breakfast",
@@ -10708,7 +10719,7 @@
         },
         "doi": "10.1016/j.jada.2006.08.013",
         "original": {
-            "date_added": "2019-11-27 12:19:36",
+            "date_added": "2020-01-02 16:59:59",
             "doi": "10.1016/j.jada.2006.08.013",
             "journal": "Journal of the Academy of Nutrition and Dietetics",
             "search_term": "Food and Nutrition Service Program Data"
@@ -10974,7 +10985,7 @@
                     ]
                 }
             ],
-            "score": 16.620144,
+            "score": 16.613787,
             "terms": [
                 "rental assistance",
                 "assistance",
@@ -11367,7 +11378,7 @@
         },
         "doi": "10.1080/10511482.2004.9521522",
         "original": {
-            "date_added": "2019-11-27 12:19:36",
+            "date_added": "2020-01-02 16:59:59",
             "doi": "10.1080/10511482.2004.9521522",
             "journal": "Housing Policy Debate",
             "search_term": "Food and Nutrition Service Program Data"
@@ -11375,6 +11386,19 @@
         "title": "Section 8: The time for fundamental program change?"
     },
     {
+        "EuropePMC": {
+            "authors": [
+                "Weinreb L",
+                "Wehler C",
+                "Perloff J",
+                "Scott R",
+                "Hosmer D",
+                "Sagor L",
+                "Gundersen C."
+            ],
+            "doi": "10.1542/peds.110.4.e41",
+            "journal": "Pediatrics"
+        },
         "Semantic Scholar": {
             "abstract": "OBJECTIVE\nHunger, with its adverse consequences for children, continues to be an important national problem. Previous studies that document the deleterious effects of hunger among children cannot distinguish child from family hunger and do not take into account some critical environmental, maternal, and child variables that may influence child outcomes. This study examines the independent contribution of child hunger on children's physical and mental health and academic functioning, when controlling for a range of environmental, maternal, and child factors that have also been associated with poor outcomes among children.\n\n\nMETHODS\nWith the use of standardized tools, comprehensive demographic, psychosocial, and health data were collected in Worcester, Massachusetts, from homeless and low-income housed mothers and their children (180 preschool-aged children and 228 school-aged children). Mothers and children were part of a larger unmatched case-control study of homelessness among female-headed households. Hunger was measured by a set of 7 dichotomous items, each asking the mother whether she has or her children have experienced a particular aspect of hunger during the past year--1 concerns food insecurity for the entire family, 2 concern adult hunger, and 4 involve child hunger. The items, taken from the Childhood Hunger Identification Project measure, are summed to classify the family and divided into 3 categories: no hunger, adult or moderate child hunger, or severe child hunger (indicating multiple signs of child hunger). Outcome measures included children's chronic health condition count using questions adapted from the National Health Interview Survey, Child Health Supplement, and internalizing behavior problems and anxiety/depression, measured by the Child Behavior Checklist. Additional covariates included demographic variables (ie, age, gender, ethnicity, housing status, number of moves, family size, income), low birth weight, child life events (ie, care and protection order, out of home placement, abuse, severe life events count), developmental problems (ie, developmental delay, learning disability, emotional problems), and mother's distress and psychiatric illness. Multivariate regression analyses examined the effect of child hunger on physical and mental health outcomes.\n\n\nRESULTS\nThe average family size for both preschoolers and school-aged children was 3; about one third of both groups were white and 40% Puerto Rican. The average income of families was approximately $11 000. Among the school-aged children, on average 10 years old, 50% experienced moderate child hunger and 16% severe child hunger. Compared with those with no hunger, school-aged children with severe hunger were more likely to be homeless (56% vs 29%), have low birth weights (23% vs 6%), and have more stressful life events (9 vs 6) when compared with those with no hunger. School-aged children with severe hunger scores had parent-reported anxiety scores that were more than double the scores for children with no hunger and significantly higher chronic illness counts (3.4 vs 1.8) and internalizing behavior problems when compared with children with no hunger. There was no relationship between hunger and academic achievement. Among preschool-aged children, who averaged 4 years of age, 51% experienced moderate child hunger and 8% severe child hunger. For preschoolers, compared with children with no hunger, severe hunger was associated with homelessness (75% vs 48%), more traumatic life events (8.5 vs 6), low birth weight (23% vs 6%), and higher levels of chronic illness and internalizing behavior problems. Mothers of both preschoolers and school-aged children who reported severe hunger were more likely to have a lifetime diagnosis of posttraumatic stress disorder. For school-aged children, severe hunger was a significant predictor of chronic illness after controlling for housing status, mother's distress, low birth weight, and child live events. For preschoolers, moderate hunger was a significant predictor of health conditions while controlling for potenns while controlling for potential explanatory factors. For both preschoolers and school-aged children, severe child hunger was associated with higher levels of internalizing behavior problems. After controlling for housing status, mother's distress, and stressful life events, severe child hunger was also associated with higher reported anxiety/depression among school-aged children.\n\n\nCONCLUSION\nThis study goes beyond previous research and highlights the independent relationship between severe child hunger and adverse physical health and mental health outcomes among low-income children. Study findings underscore the importance of clinical recognition of child hunger and its outcomes, allowing for preventive interventions and efforts to increase access to food-related resources for families.",
             "arxivId": null,
@@ -19343,12 +19367,12 @@
         },
         "doi": "10.1542/peds.110.4.e41",
         "original": {
-            "date_added": "2019-11-27 12:19:36",
+            "date_added": "2020-01-02 16:59:59",
             "doi": "10.1542/peds.110.4.e41",
             "journal": "Pediatrics",
             "search_term": "Food and Nutrition Service Program Data"
         },
-        "title": "Hunger: Its Impact on ChildrenaTMs Health and Mental Health"
+        "title": "Hunger: Its Impact on Children's Health and Mental Health"
     },
     {
         "Dimensions": {
@@ -19634,7 +19658,7 @@
             "date": "2001-02-01",
             "date_inserted": "2017-08-31",
             "doi": "10.14219/jada.archive.2001.0158",
-            "field_citation_ratio": 12.52,
+            "field_citation_ratio": 12.51,
             "id": "pub.1010349192",
             "issn": [
                 "0002-8177",
@@ -19792,7 +19816,7 @@
                     ]
                 }
             ],
-            "score": 16.325747,
+            "score": 16.309732,
             "terms": [
                 "substantial decline",
                 "decline",
@@ -22310,7 +22334,7 @@
         },
         "doi": "10.14219/jada.archive.2001.0158",
         "original": {
-            "date_added": "2019-11-27 12:19:36",
+            "date_added": "2020-01-02 16:59:59",
             "doi": "10.14219/jada.archive.2001.0158",
             "journal": "The Journal of the American Dental Association",
             "search_term": "Food and Nutrition Service Program Data"
