@@ -22,8 +22,13 @@ def propagate_view (pub, graph, override):
 
     view = {
         "title": unicodedata.normalize("NFKD", title),
-        "datasets": pub["datasets"]
+        "datasets": pub["datasets"],
+        "authors": pub["authors"]
         }
+
+    # add the DOI, if available
+    if "doi" in pub:
+        view["doi"] = pub["doi"]
 
     # pick the best URls
     url_list = graph.publications.extract_urls(pub)
@@ -46,10 +51,6 @@ def propagate_view (pub, graph, override):
 
     if len(pdf_list) > 0:
         view["pdf"] = pdf_list[0]
-
-    # add the DOI, if available
-    if "doi" in pub:
-        view["doi"] = pub["doi"]
 
     # select the best journal
     journal_list = graph.journals.extract_journals(pub)
@@ -76,6 +77,15 @@ def propagate_view (pub, graph, override):
                 for dataset in override[title]["datasets"]:
                     if not dataset in view["datasets"]:
                         view["datasets"].append(dataset)
+            elif "datasets" not in view:
+                view["datasets"] = []
+
+            if "authors" in override[title]:
+                for author in override[title]["authors"]:
+                    if not author in view["authors"]:
+                        view["authors"].append(author)
+            elif "authors" not in view:
+                view["authors"] = []
 
     #pprint.pprint(view)
     return view
@@ -116,6 +126,9 @@ def main (args):
             else:
                 pub["title"] = title
                 pub_list.append(pub)
+
+                if "authors" not in pub:
+                    pub["authors"] = []
 
                 if "pdf" in pub:
                     graph.publications.pdf_hits += 1

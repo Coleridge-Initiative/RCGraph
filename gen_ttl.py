@@ -61,6 +61,12 @@ TEMPLATE_PUBLICATION = """
   dct:title "{}" ;
 """
 
+TEMPLATE_AUTHOR = """
+:{}
+  rdf:type :Author ;
+  dct:title "{}" ;
+"""
+
 
 def load_providers (graph, frags):
     """
@@ -186,7 +192,36 @@ def load_journals (graph, frags):
     return known_journals
 
 
-def format_pub (out_buf, pub, pub_id, used, known_journals, known_datasets, link_map, full_graph):
+def load_authors (graph, frags):
+    """
+    load the authors
+    """
+    known_authors = {}
+
+    for a in graph.authors.iter_authors():
+        known_authors[a["uuid"]] = a
+
+    for id, a in known_authors.items():
+        buf = []
+
+        buf.append(
+            TEMPLATE_AUTHOR.format(
+                a["uuid"],
+                a["surname"] + ", " + a["given"],
+                ).strip()
+            )
+
+        if "orcid" in a:
+            orcid = a["orcid"]
+            buf.append("  dct:identifier \"https://orcid.org/{}\"^^xsd:anyURI ;".format(orcid))
+
+        buf.append(".\n")
+        frags[a["uuid"]] = buf
+
+    return known_authors
+
+
+def format_pub (out_buf, pub, pub_id, used, known_journals, known_datasets, known_authors, data_map, auth_map, full_graph):
     """
     format one publication, serialized as TTL
     """
@@ -223,29 +258,42 @@ def format_pub (out_buf, pub, pub_id, used, known_journals, known_datasets, link
         out_buf.append("  :openAccess \"{}\"^^xsd:anyURI ;".format(pdf))
 
     # link to datasets
-    dat_list = []
+    data_list = []
 
-    for dat_id in link_map:
-        dat_list.append(":{}".format(known_datasets[dat_id]["uuid"]))
-        used.add(known_datasets[dat_id]["uuid"])
+    for data_id in data_map:
+        data_list.append(":{}".format(known_datasets[data_id]["uuid"]))
+        used.add(known_datasets[data_id]["uuid"])
 
-    out_buf.append("  cito:citesAsDataSource {} ;".format(", ".join(dat_list)))
+    out_buf.append("  cito:citesAsDataSource {} ;".format(", ".join(data_list)))
+
+    # link to authors
+    auth_list = []
+
+    for auth_id in auth_map:
+        auth_list.append(":{}".format(known_authors[auth_id]["uuid"]))
+        used.add(known_authors[auth_id]["uuid"])
+
+    if len(auth_list) > 0:
+        out_buf.append("  dct:creator {} ;".format(", ".join(auth_list)))
+
     out_buf.append(".\n")
 
     return True
 
 
-def load_publications (graph, used, out_buf, known_datasets, known_journals, full_graph):
+def load_publications (graph, used, out_buf, known_datasets, known_journals, known_authors, full_graph):
     """
-    load publications, link to datasets, reshape metadata
+    load publications, link to datasets, link to authors, then reshape
+    the metadata as TTL
     """
     seen = set([])
 
     for partition, pub_iter in graph.iter_publications(path=graph.BUCKET_FINAL):
         for pub in pub_iter:
-            link_map = pub["datasets"]
+            data_map = pub["datasets"]
+            auth_map = pub["authors"]
 
-            if len(link_map) > 0:
+            if len(data_map) > 0:
                 # prep titles for generating TTL
                 pub["title"] = pub["title"].replace('"', "'").replace("\\", "-")
 
@@ -262,12 +310,19 @@ def load_publications (graph, used, out_buf, known_datasets, known_journals, ful
 
                     # ensure uniqueness
                     if pub_id not in seen:
-                        if format_pub(out_buf, pub, pub_id, used, known_journals, known_datasets, link_map, full_graph):
+                        result = format_pub(
+                            out_buf, pub, pub_id, used, 
+                            known_journals, known_datasets, known_authors, 
+                            data_map, auth_map, full_graph
+                            )
+
+                        if result:
                             seen.add(pub_id)
                 except:
                     traceback.print_exc()
                     print("MISSING JOURNAL or URL")
                     pprint.pprint(pub)
+                    sys.exit(-1)
 
     # return the unique count
     return len(seen)
@@ -356,6 +411,7 @@ def main (args):
 
     graph = rc_graph.RCGraph("corpus")
     graph.journals.load_entities()
+    graph.authors.load_entities()
 
     frags = {}
     used = set([])
@@ -363,18 +419,27 @@ def main (args):
     known_providers = load_providers(graph, frags)
     known_datasets = load_datasets(graph, frags, used, known_providers)
     known_journals = load_journals(graph, frags)
+    known_authors = load_authors(graph, frags)
 
     out_buf = [ PREAMBLE.lstrip() ]
-    num_pubs = load_publications(graph, used, out_buf, known_datasets, known_journals, args.full_graph)
+
+    num_pubs = load_publications(
+        graph, used, out_buf, 
+        known_datasets, known_journals, known_authors, 
+        args.full_graph
+        )
+
     write_corpus(frags, used, out_buf, PATH_CORPUS_TTL)
 
     num_prov = len(used.intersection(set([p["uuid"] for p in known_providers.values()])))
     num_data = len(used.intersection(set([d["uuid"] for d in known_datasets.values()])))
     num_jour = len(used.intersection(set([j["uuid"] for j in known_journals.values()])))
+    num_auth = len(used.intersection(set([a["uuid"] for a in known_authors.values()])))
 
     print(f"{num_prov} providers written")
     print(f"{num_data} datasets written")
     print(f"{num_jour} journals written")
+    print(f"{num_auth} authors written")
     print(f"{num_pubs} publications written")
 
     test_corpus(PATH_CORPUS_TTL)
