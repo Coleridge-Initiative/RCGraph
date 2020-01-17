@@ -22,6 +22,9 @@ class TestRCGraph (unittest.TestCase):
         self.datasets = {}
         self.providers = {}
         self.journals = {}
+        self.authors = {}
+
+        graph = rc_graph.RCGraph("test")
 
         # load the publications
         for partition in rc_graph.RCGraph.PATH_PUBLICATIONS.iterdir():
@@ -53,6 +56,12 @@ class TestRCGraph (unittest.TestCase):
             for j in json.load(f):
                 self.journals[j["id"]] = j
 
+        # load the authors
+        graph.authors.load_entities()
+
+        for a in graph.authors.iter_authors():
+            self.authors[a["uuid"]] = a
+
 
     def test_resources_loaded (self):
         print("\n{} publications loaded".format(len(self.publications)))
@@ -67,6 +76,9 @@ class TestRCGraph (unittest.TestCase):
 
         print("\n{} journals loaded".format(len(self.journals)))
         self.assertTrue(len(self.journals) > 0)
+
+        print("\n{} authors loaded".format(len(self.authors)))
+        self.assertTrue(len(self.authors) > 0)
 
 
     def test_publication_dataset_links (self):
