@@ -35,7 +35,7 @@
                         "first_name": "Daniel",
                         "last_name": "Aaronson",
                         "orcid": "",
-                        "researcher_id": "ur.010727133037.18"
+                        "researcher_id": "ur.012034064707.86"
                     },
                     {
                         "affiliations": [
@@ -138,7 +138,7 @@
                     "first_name": "Daniel",
                     "last_name": "Aaronson",
                     "orcid": "",
-                    "researcher_id": "ur.010727133037.18"
+                    "researcher_id": "ur.012034064707.86"
                 },
                 {
                     "affiliations": [
@@ -294,32 +294,32 @@
             "publisher": "Elsevier",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1011176059",
-                "pub.1064525091",
-                "pub.1092346988",
-                "pub.1101796488",
-                "pub.1100173703",
-                "pub.1035094666",
                 "pub.1088418724",
                 "pub.1009600516",
-                "pub.1102297899",
                 "pub.1064526192",
+                "pub.1102297899",
+                "pub.1011176059",
                 "pub.1064525851",
-                "pub.1013618561"
+                "pub.1064525091",
+                "pub.1013618561",
+                "pub.1092346988",
+                "pub.1100173703",
+                "pub.1101796488",
+                "pub.1035094666"
             ],
             "references": [
-                "pub.1011176059",
-                "pub.1064525091",
-                "pub.1092346988",
-                "pub.1101796488",
-                "pub.1100173703",
-                "pub.1035094666",
                 "pub.1088418724",
                 "pub.1009600516",
-                "pub.1102297899",
                 "pub.1064526192",
+                "pub.1102297899",
+                "pub.1011176059",
                 "pub.1064525851",
-                "pub.1013618561"
+                "pub.1064525091",
+                "pub.1013618561",
+                "pub.1092346988",
+                "pub.1100173703",
+                "pub.1101796488",
+                "pub.1035094666"
             ],
             "research_org_cities": [
                 {
@@ -351,12 +351,12 @@
             ],
             "research_org_state_codes": [
                 {
-                    "id": "US-IL",
-                    "name": "Illinois"
-                },
-                {
                     "id": "US-GA",
                     "name": "Georgia"
+                },
+                {
+                    "id": "US-IL",
+                    "name": "Illinois"
                 }
             ],
             "research_org_state_names": [
@@ -364,6 +364,21 @@
                 "Illinois"
             ],
             "research_orgs": [
+                {
+                    "acronym": "NUS",
+                    "city_name": "Singapore",
+                    "country_name": "Singapore",
+                    "id": "grid.4280.e",
+                    "latitude": 1.295556,
+                    "linkout": [
+                        "http://www.nus.edu.sg/"
+                    ],
+                    "longitude": 103.776665,
+                    "name": "National University of Singapore",
+                    "types": [
+                        "Education"
+                    ]
+                },
                 {
                     "acronym": "GSU",
                     "city_name": "Atlanta",
@@ -394,27 +409,12 @@
                     "types": [
                         "Other"
                     ]
-                },
-                {
-                    "acronym": "NUS",
-                    "city_name": "Singapore",
-                    "country_name": "Singapore",
-                    "id": "grid.4280.e",
-                    "latitude": 1.295556,
-                    "linkout": [
-                        "http://www.nus.edu.sg/"
-                    ],
-                    "longitude": 103.776665,
-                    "name": "National University of Singapore",
-                    "types": [
-                        "Education"
-                    ]
                 }
             ],
             "researchers": [
                 {
                     "first_name": "Daniel",
-                    "id": "ur.010727133037.18",
+                    "id": "ur.012034064707.86",
                     "last_name": "Aaronson",
                     "research_orgs": [
                         "grid.431372.0"
@@ -447,7 +447,7 @@
                     ]
                 }
             ],
-            "score": 14.2488,
+            "score": 14.2193575,
             "terms": [
                 "proprietary dataset",
                 "dataset",
@@ -482,28 +482,94 @@
             "year": 2019
         },
         "Semantic Scholar": {
-            "error": "Paper not found"
+            "abstract": "Using two proprietary datasets on earnings and credit outcomes, this paper finds that both high- and low-earners take a significant and persistent hit to income after job displacement. But these losses only translate into worse credit conditions – higher credit card utilization, lower FICO scores, and a pick up in the rate of card accounts that are delinquent or over limit – among low- earners. We observe no negative implications among higher income households, providing novel empirical evidence of the economically disparate impact of job loss.",
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "37156484",
+                    "name": "Daniel Aaronson",
+                    "url": "https://www.semanticscholar.org/author/37156484"
+                },
+                {
+                    "authorId": "48719445",
+                    "name": "Sumit Agarwal",
+                    "url": "https://www.semanticscholar.org/author/48719445"
+                },
+                {
+                    "authorId": "40595085",
+                    "name": "Julie L. Hotchkiss",
+                    "url": "https://www.semanticscholar.org/author/40595085"
+                },
+                {
+                    "authorId": "37358802",
+                    "name": "Taylor Kelley",
+                    "url": "https://www.semanticscholar.org/author/37358802"
+                }
+            ],
+            "citationVelocity": 0,
+            "citations": [
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "40595085",
+                            "name": "Julie L. Hotchkiss",
+                            "url": "https://www.semanticscholar.org/author/40595085"
+                        },
+                        {
+                            "authorId": "114991809",
+                            "name": "Robert E. Moore",
+                            "url": "https://www.semanticscholar.org/author/114991809"
+                        },
+                        {
+                            "authorId": "1403615427",
+                            "name": "Fernando Rios-Avila",
+                            "url": "https://www.semanticscholar.org/author/1403615427"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "519343f9acaf981389a3fedd5108531794230132",
+                    "title": "Family Welfare and the Cost of Unemployment",
+                    "url": "https://www.semanticscholar.org/paper/519343f9acaf981389a3fedd5108531794230132",
+                    "venue": "",
+                    "year": 2017
+                }
+            ],
+            "doi": "10.1016/j.econlet.2019.01.014",
+            "influentialCitationCount": 0,
+            "paperId": "11d5fdaa5c8401f8e4f12ee0c2c90044a601aeb7",
+            "references": [],
+            "title": "Job displacement and financial outcomes",
+            "topics": [],
+            "url": "https://www.semanticscholar.org/paper/11d5fdaa5c8401f8e4f12ee0c2c90044a601aeb7",
+            "venue": "",
+            "year": 2019
         },
         "Unpaywall": {
             "best_oa_location": null,
             "data_standard": 2,
-            "doi": "10.2139/ssrn.3305169",
-            "doi_url": "https://doi.org/10.2139/ssrn.3305169",
+            "doi": "10.1016/j.econlet.2019.01.014",
+            "doi_url": "https://doi.org/10.1016/j.econlet.2019.01.014",
             "genre": "journal-article",
             "has_repository_copy": false,
             "is_oa": false,
             "journal_is_in_doaj": false,
             "journal_is_oa": false,
-            "journal_issn_l": "1556-5068",
-            "journal_issns": "1556-5068",
-            "journal_name": "SSRN Electronic Journal",
+            "journal_issn_l": "0165-1765",
+            "journal_issns": "0165-1765",
+            "journal_name": "Economics Letters",
             "oa_locations": [],
             "oa_status": "closed",
-            "published_date": "2018-01-01",
+            "published_date": "2019-01-01",
             "publisher": "Elsevier BV",
-            "title": "Job Displacement and Financial Outcomes",
-            "updated": "2019-01-09T21:04:00.794713",
-            "year": 2018,
+            "title": "Job displacement and financial outcomes",
+            "updated": "2019-08-05T09:51:02.404717",
+            "year": 2019,
             "z_authors": [
                 {
                     "family": "Aaronson",
@@ -568,6 +634,27 @@
                 "date": "2018-01-01",
                 "records": [
                     {
+                        "abstract": "",
+                        "doi": "10.1016/j.econlet.2019.01.014",
+                        "identifier": "oai:crossref.org:10.1016/j.econlet.2019.01.014",
+                        "issn": "0165-1765",
+                        "issue": "",
+                        "journal": "Economics Letters",
+                        "pages": "18-21",
+                        "pdf_url": "",
+                        "policy": {
+                            "postprint": "can",
+                            "preprint": "can",
+                            "published": "cannot",
+                            "romeo_id": "30"
+                        },
+                        "publisher": "Elsevier BV",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.1016/j.econlet.2019.01.014",
+                        "type": "journal-article",
+                        "volume": "177"
+                    },
+                    {
                         "doi": "10.2139/ssrn.3305169",
                         "identifier": "oai:crossref.org:10.2139/ssrn.3305169",
                         "journal": "SSRN Electronic Journal",
@@ -580,15 +667,15 @@
                         "publisher": "Elsevier BV",
                         "source": "crossref",
                         "splash_url": "https://doi.org/10.2139/ssrn.3305169",
-                        "type": "article-journal"
+                        "type": "journal-article"
                     }
                 ],
                 "title": "Job Displacement and Financial Outcomes",
-                "type": "other"
+                "type": "journal-article"
             },
             "status": "ok"
         },
-        "doi": "10.2139/ssrn.3305169",
+        "doi": "10.1016/j.econlet.2019.01.014",
         "original": {
             "date_added": "2019-11-26 12:50:05",
             "doi": "10.2139/ssrn.3305169",
