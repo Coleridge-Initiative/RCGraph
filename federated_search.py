@@ -28,17 +28,18 @@ def api_implements_full_text_search(api):
     Returns True if api has a method named "full_text_search".
     Returns False if not.
     """
+    implements = False
     try: #__getattribute__ raises an exception when "full_text_search" is missing
 
         #checks if api.full_text_search is defined and is a method.
         if callable(api.__getattribute__("full_text_search")):
             print(api.name, "implements full_text_search")
-            return True
+            implements = True
     except Exception:
-        pass
-    finally:
         print(api.name, "does NOT implement full_text_search")
-        return False
+        implements = False
+
+    return implements
 
 def main(search_terms, limit):
     print("terms", search_terms)
