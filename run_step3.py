@@ -45,7 +45,8 @@ def lookup_doi (schol, graph, partition, pub):
                     doi_match = True
                     continue
                 else:
-                    meta = api.publication_lookup(doi)
+                    message = None
+                    meta, timing, message = api.publication_lookup(doi)
 
             except Exception:
                 # debug this as an edge case
@@ -53,6 +54,7 @@ def lookup_doi (schol, graph, partition, pub):
                 print(pub["title"])
                 print(doi)
                 print(api.name)
+                print(message)
                 continue
 
             if meta and len(meta) > 0:

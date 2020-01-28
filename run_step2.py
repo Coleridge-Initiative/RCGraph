@@ -25,12 +25,14 @@ def gather_doi (schol, graph, partition, pub):
 
     for api in [schol.openaire, schol.europepmc, schol.dimensions]:
         try:
-            meta = api.title_search(title)
+            message = None
+            meta, timing, message = api.title_search(title)
         except Exception:
             # debug this as an edge case
             traceback.print_exc()
             print(title)
             print(api.name)
+            print(message)
             continue
 
         if meta and len(meta) > 0:

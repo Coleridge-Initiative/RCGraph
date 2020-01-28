@@ -3,7 +3,6 @@
 
 from pathlib import Path
 from richcontext import graph as rc_graph
-from richcontext import scholapi as rc_scholapi
 from rdflib.serializer import Serializer
 from tqdm import tqdm  # type: ignore
 from typing import Any, Dict, List, Tuple
