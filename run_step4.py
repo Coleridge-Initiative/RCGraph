@@ -31,7 +31,7 @@ def reconcile_journal (schol, graph, pub, disputed):
         if best_issn and not "NCBI" in journal:
             # DO NOT RUN IF JOUNAL ALREADY HAS AN "NCBI" ENTRY
             #meta, message = ncbi_lookup_issn(best_issn)
-            meta, message = schol.pubmed.journal_lookup(best_issn)
+            meta, timing, message = schol.pubmed.journal_lookup(best_issn)
 
             if meta:
                 # add the NCBI metadata into this journal

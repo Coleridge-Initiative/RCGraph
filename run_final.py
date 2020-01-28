@@ -2,7 +2,6 @@
 # encoding: utf-8
 
 from richcontext import graph as rc_graph
-from richcontext import scholapi as rc_scholapi
 from typing import Any, Dict, List, Tuple
 import argparse
 import json
@@ -93,7 +92,6 @@ def propagate_view (pub, graph, override):
 
 def main (args):
     # initialize the federated API access
-    schol = rc_scholapi.ScholInfraAPI(config_file="rc.cfg", logger=None)
     graph = rc_graph.RCGraph("final")
 
     # finalize the metadata corrections for each publication
