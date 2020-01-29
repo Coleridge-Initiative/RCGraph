@@ -4,7 +4,26 @@ import traceback
 from richcontext import graph as rc_graph
 from richcontext import scholapi as rc_scholapi
 from collections import OrderedDict
+from collections import defaultdict
+import re
 
+# TODO I copied this form shcolapi.py class _ScholInfra
+def _clean_title(title):
+    """
+    minimal set of string transformations so that a title can be
+    compared consistently across API providers
+    """
+    return re.sub("\s+", " ", title.strip(" \"'?!.,")).lower()
+
+# TODO I copied this form shcolapi.py class _ScholInfra
+def title_match (title0, title1):
+    """
+    within reason, do the two titles match?
+    """
+    if not title0 or not title1:
+        return False
+    else:
+        return _clean_title(title0) == _clean_title(title1)
 
 def get_xml_node_value(root, name):
     """
@@ -22,7 +41,7 @@ def get_xml_node_value(root, name):
 def parse_oa (results):
     meta_list = []
     for result in results:
-        if result.find("instancetype")["classname"] in ["Other literature type", "Article"]: ## TODO review this IF
+        if result.find("instancetype")["classname"] in ["Other literature type", "Article"]: ## TODO review this decision
             meta = OrderedDict()
             result_title = get_xml_node_value(result, "title")
             meta["title"] = result_title
@@ -131,6 +150,27 @@ def parse_results(apiName,results):
         search_hits = results
     return search_hits
 
+
+def is_new(graph,known_dois, known_titles, item):
+
+    new = False
+    #if both doi and title are empty, I dont want to procees it #TODO: review this decision
+    if item["doi"] == None and item["title"] == None:
+        return False
+
+    #lookup of doi
+    if item["doi"] != None and graph.publications.verify_doi(item["doi"]) in known_dois:
+        return False
+
+    #lookup of title
+    if item["title"] != None:
+        for title in known_titles:
+            if title_match(title,item["title"]):
+                return False
+
+    #in any other case, is a new article
+    return True
+
 def main(search_terms, limit):
     print("terms", search_terms)
     print("limit",limit)
@@ -153,16 +193,26 @@ def main(search_terms, limit):
     hit_titles = set()
     hit_dois = set()
 
-    for api in [schol.openaire, schol.europepmc, schol.dimensions,schol.pubmed, schol.repec]: #TODO get a list of all APIs implemented
+    new_hits = defaultdict(list)
+    repeated_hits = defaultdict(list)
+
+    for api in [schol.pubmed, schol.openaire, schol.europepmc, schol.dimensions, schol.repec]: #TODO get a list of all APIs implemented
         if api_implements_full_text_search(api):
             try:
-                meta, timing, message = api.full_text_search(search_term=search_terms, limit=limit)
+                meta, timing, message = api.full_text_search(search_term=search_terms, limit=int(limit))
 
-                # parse the result and get a list of elements returned by the API
+                # if not empty, parse the result and get a list of elements returned by the API
                 if meta:
                     search_hits = parse_results(api.name, meta)
 
                     for item in search_hits:
+                        #compare item title and doi with known dois and known titles
+                        if is_new(graph,known_dois,known_titles,item):
+                            new_hits[item['doi']].append(item)
+                        else:
+                            repeated_hits[item['doi']].append(item)
+
+                        ##I'm using these for debugging
                         if item["title"] is not None:
                             hit_titles.add(item["title"])
                         if item["doi"] is not None:
@@ -172,9 +222,9 @@ def main(search_terms, limit):
 
             except Exception:
                 # debug this as an edge case
-                traceback.print_exc()
-                #print(search_terms)
                 print(api.name,'exception calling full_text_search')
+                if message: print(message)
+                traceback.print_exc()
                 continue
 
     #show articles that already exists in the Knowledge Graph
@@ -183,6 +233,9 @@ def main(search_terms, limit):
 
     print("repeated DOIs:\n",(repeated_dois))
     print("repeated titles\n",(reapeated_titles))
+    print('# new hits', len(new_hits))
+    print('# repeated hits', len(repeated_hits))
+
     # TODO: aggregate search hits which have the same DOI or similar title.
 
     return
