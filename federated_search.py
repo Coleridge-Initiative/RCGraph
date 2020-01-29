@@ -20,10 +20,16 @@ def title_match (title0, title1):
     """
     within reason, do the two titles match?
     """
-    if not title0 or not title1:
+    try:
+        if not title0 or not title1:
+            return False
+        else:
+            return _clean_title(title0) == _clean_title(title1)
+    except Exception:
+        # debug this as an edge case
+        print('exception calling title_match')
+        traceback.print_exc()
         return False
-    else:
-        return _clean_title(title0) == _clean_title(title1)
 
 def get_xml_node_value(root, name):
     """
@@ -82,24 +88,30 @@ def parse_dimensions(results):
     elif meta_list == []:
         return None
 
-def parse_pubmed(result):
-    article_meta = result["MedlineCitation"]["Article"]
-    meta = OrderedDict()
-    meta["title"] = article_meta["ArticleTitle"]
-    meta["journal"] = article_meta["Journal"]["Title"]
-    meta["api"] = "pubmed"
-    try:
-        pid_list = article_meta["ELocationID"]
-        if isinstance(pid_list,list):
-                doi_test = [d["#text"] for d in pid_list if d["@EIdType"] == "doi"]
-                if len(doi_test) > 0:
-                    meta["doi"] = doi_test[0]
-        if isinstance(pid_list,dict):
-            if pid_list["@EIdType"] == "doi":
-                meta["doi"] = pid_list["#text"]
-    except:
-        pass
-    return meta
+def parse_pubmed(results):
+    meta_list = []
+    for result in results:
+        article_meta = result["MedlineCitation"]["Article"]
+        meta = OrderedDict()
+        meta["title"] = article_meta["ArticleTitle"] #TODO: sometimes the ArticleTitle is a list with more than 1 title.
+        meta["journal"] = article_meta["Journal"]["Title"]
+        meta["api"] = "pubmed"
+        try:
+            pid_list = article_meta["ELocationID"]
+            if isinstance(pid_list,list):
+                    doi_test = [d["#text"] for d in pid_list if d["@EIdType"] == "doi"]
+                    if len(doi_test) > 0:
+                        meta["doi"] = doi_test[0]
+            if isinstance(pid_list,dict):
+                if pid_list["@EIdType"] == "doi":
+                    meta["doi"] = pid_list["#text"]
+        except:
+            pass
+        meta_list.append(meta)
+    if len(meta_list) > 0:
+        return meta_list
+    elif meta_list == []:
+        return None
 
 def load_publications (graph):
     """
@@ -153,7 +165,6 @@ def parse_results(apiName,results):
 
 def is_new(graph,known_dois, known_titles, item):
 
-    new = False
     #if both doi and title are empty, I dont want to procees it #TODO: review this decision
     if item["doi"] == None and item["title"] == None:
         return False
