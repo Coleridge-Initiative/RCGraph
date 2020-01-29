@@ -159,12 +159,14 @@ def main(search_terms, limit):
                 meta, timing, message = api.full_text_search(search_term=search_terms, limit=limit)
 
                 # parse the result and get a list of elements returned by the API
-                search_hits = parse_results(api.name,meta)
-                for item in search_hits:
-                    if item["title"] is not None:
-                        hit_titles.add(item["title"])
-                    if item["doi"] is not None:
-                        hit_dois.add( graph.publications.verify_doi(item["doi"]) ) ## TODO: remove None value from hit_dois set since verify_doi sometimes returns None
+                if meta:
+                    search_hits = parse_results(api.name, meta)
+
+                    for item in search_hits:
+                        if item["title"] is not None:
+                            hit_titles.add(item["title"])
+                        if item["doi"] is not None:
+                            hit_dois.add( graph.publications.verify_doi(item["doi"]) ) ## TODO: remove None value from hit_dois set since verify_doi sometimes returns None
 
                 print('#hits',len(search_hits),'titles',len(hit_titles),'DOIs',len(hit_dois))
 
