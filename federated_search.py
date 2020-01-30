@@ -93,7 +93,23 @@ def parse_pubmed(results):
     for result in results:
         article_meta = result["MedlineCitation"]["Article"]
         meta = OrderedDict()
-        meta["title"] = article_meta["ArticleTitle"] #TODO: sometimes the ArticleTitle is a list with more than 1 title.
+        meta['doi'] = None #to enforce having a 'doi' key
+
+        try:
+            # sometimes the ArticleTitle is a dict.
+            if type(article_meta["ArticleTitle"]) is str:
+                meta["title"] = article_meta["ArticleTitle"]
+            else:
+                meta["title"] = article_meta["ArticleTitle"]['#text']
+        except Exception:
+            # debug this as an edge case
+            print('exception handling parse_pubmed ArticleTitle field')
+            print('***** type(article_meta["ArticleTitle"]):', type(article_meta["ArticleTitle"]))
+            print('*****', article_meta["ArticleTitle"])
+            traceback.print_exc()
+            meta["title"] = None
+            continue
+
         meta["journal"] = article_meta["Journal"]["Title"]
         meta["api"] = "pubmed"
         try:
