@@ -75,11 +75,11 @@ def parse_dimensions(results):
             try:
                 meta["journal"] = result["journal"]["title"]
             except:
-                pass
+                meta["journal"] = None
             try:
                 meta["doi"] = result["doi"]
             except:
-                pass
+                meta["doi"] = None
             meta_list.append(meta)
         else:
             pass
@@ -106,7 +106,7 @@ def parse_pubmed(results):
                 if pid_list["@EIdType"] == "doi":
                     meta["doi"] = pid_list["#text"]
         except:
-            pass
+            meta["doi"] = None
         meta_list.append(meta)
     if len(meta_list) > 0:
         return meta_list
