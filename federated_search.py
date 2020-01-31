@@ -198,6 +198,23 @@ def is_new(graph,known_dois, known_titles, item):
     #in any other case, is a new article
     return True
 
+def get_api_list(schol):
+    # TODO get a list of all APIs implemented without hardcoding it
+    api_list = []
+
+    #api_list.append(schol.crossref) # TODO: without limit, without parser
+
+    api_list.append(schol.pubmed)
+    api_list.append(schol.openaire)
+    api_list.append(schol.dimensions)
+
+    api_list.append(schol.semantic)
+    api_list.append(schol.dissemin)
+    api_list.append(schol.ssrn)
+    api_list.append(schol.europepmc)
+    api_list.append(schol.repec)
+    return api_list
+
 def main(search_terms, limit):
     print("terms", search_terms)
     print("limit",limit)
@@ -223,7 +240,8 @@ def main(search_terms, limit):
     new_hits = defaultdict(list)
     repeated_hits = defaultdict(list)
 
-    for api in [schol.pubmed, schol.openaire, schol.europepmc, schol.dimensions, schol.repec]: #TODO get a list of all APIs implemented
+
+    for api in get_api_list(schol):
         if api_implements_full_text_search(api):
             try:
                 meta, timing, message = api.full_text_search(search_term=search_terms, limit=int(limit))
@@ -235,7 +253,7 @@ def main(search_terms, limit):
                     for item in search_hits:
                         #compare item title and doi with known dois and known titles
                         if is_new(graph,known_dois,known_titles,item):
-                            new_hits[item['doi']].append(item)
+                            new_hits[item['doi']].append(item) # TODO: this aggregates all articles without DOI in one entry
                         else:
                             repeated_hits[item['doi']].append(item)
 
@@ -245,7 +263,7 @@ def main(search_terms, limit):
                         if item["doi"] is not None:
                             hit_dois.add( graph.publications.verify_doi(item["doi"]) ) ## TODO: remove None value from hit_dois set since verify_doi sometimes returns None
 
-                print('#hits',len(search_hits),'titles',len(hit_titles),'DOIs',len(hit_dois))
+                    print('#hits',len(search_hits),'titles',len(hit_titles),'DOIs',len(hit_dois))
 
             except Exception:
                 # debug this as an edge case
@@ -262,6 +280,11 @@ def main(search_terms, limit):
     print("repeated titles\n",(reapeated_titles))
     print('# new hits', len(new_hits))
     print('# repeated hits', len(repeated_hits))
+
+    #exploring duplicated DOIs aggregated
+    for key,value in new_hits.items():
+        if len(value)>1:
+            print(key,value)
 
     # TODO: aggregate search hits which have the same DOI or similar title.
 
