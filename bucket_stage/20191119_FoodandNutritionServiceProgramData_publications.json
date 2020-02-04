@@ -25,12 +25,12 @@
                     "name": "Pediatric"
                 },
                 {
-                    "id": "388",
-                    "name": "Nutrition"
-                },
-                {
                     "id": "507",
                     "name": "Clinical Research"
+                },
+                {
+                    "id": "388",
+                    "name": "Nutrition"
                 }
             ],
             "altmetric": 5.0,
@@ -195,12 +195,12 @@
                     "name": "Pediatric"
                 },
                 {
-                    "id": "388",
-                    "name": "Nutrition"
-                },
-                {
                     "id": "507",
                     "name": "Clinical Research"
+                },
+                {
+                    "id": "388",
+                    "name": "Nutrition"
                 }
             ],
             "category_ua": [
@@ -313,52 +313,52 @@
             "pmid": "31478203",
             "publisher": "Wiley",
             "reference_ids": [
-                "pub.1082527521",
-                "pub.1039899628",
-                "pub.1037209227",
-                "pub.1027870698",
-                "pub.1077363409",
-                "pub.1003824068",
-                "pub.1050974154",
-                "pub.1044774526",
-                "pub.1053803271",
-                "pub.1003154944",
-                "pub.1091240472",
-                "pub.1079188993",
-                "pub.1026622663",
-                "pub.1010262416",
-                "pub.1026695234",
                 "pub.1012401862",
-                "pub.1049528989",
-                "pub.1009830899",
-                "pub.1061833852",
                 "pub.1048083798",
+                "pub.1091240472",
+                "pub.1027870698",
+                "pub.1079188993",
                 "pub.1036514154",
-                "pub.1006340194"
+                "pub.1009830899",
+                "pub.1049528989",
+                "pub.1082527521",
+                "pub.1006340194",
+                "pub.1003154944",
+                "pub.1050974154",
+                "pub.1061833852",
+                "pub.1003824068",
+                "pub.1010262416",
+                "pub.1026622663",
+                "pub.1053803271",
+                "pub.1026695234",
+                "pub.1044774526",
+                "pub.1077363409",
+                "pub.1039899628",
+                "pub.1037209227"
             ],
             "references": [
-                "pub.1082527521",
-                "pub.1039899628",
-                "pub.1037209227",
-                "pub.1027870698",
-                "pub.1077363409",
-                "pub.1003824068",
-                "pub.1050974154",
-                "pub.1044774526",
-                "pub.1053803271",
-                "pub.1003154944",
-                "pub.1091240472",
-                "pub.1079188993",
-                "pub.1026622663",
-                "pub.1010262416",
-                "pub.1026695234",
                 "pub.1012401862",
-                "pub.1049528989",
-                "pub.1009830899",
-                "pub.1061833852",
                 "pub.1048083798",
+                "pub.1091240472",
+                "pub.1027870698",
+                "pub.1079188993",
                 "pub.1036514154",
-                "pub.1006340194"
+                "pub.1009830899",
+                "pub.1049528989",
+                "pub.1082527521",
+                "pub.1006340194",
+                "pub.1003154944",
+                "pub.1050974154",
+                "pub.1061833852",
+                "pub.1003824068",
+                "pub.1010262416",
+                "pub.1026622663",
+                "pub.1053803271",
+                "pub.1026695234",
+                "pub.1044774526",
+                "pub.1077363409",
+                "pub.1039899628",
+                "pub.1037209227"
             ],
             "research_org_cities": [
                 {
@@ -381,19 +381,26 @@
             ],
             "research_org_state_codes": [
                 {
-                    "id": "US-MD",
-                    "name": "Maryland"
-                },
-                {
                     "id": "US-VA",
                     "name": "Virginia"
+                },
+                {
+                    "id": "US-MD",
+                    "name": "Maryland"
                 }
             ],
             "research_org_state_names": [
-                "Maryland",
-                "Virginia"
+                "Virginia",
+                "Maryland"
             ],
             "research_orgs": [
+                {
+                    "city_name": "Falls Church",
+                    "country_name": "United States",
+                    "id": "grid.429534.d",
+                    "name": "Lewin Group",
+                    "state_name": "Virginia"
+                },
                 {
                     "city_name": "Rockville",
                     "country_name": "United States",
@@ -408,13 +415,6 @@
                     "types": [
                         "Company"
                     ]
-                },
-                {
-                    "city_name": "Falls Church",
-                    "country_name": "United States",
-                    "id": "grid.429534.d",
-                    "name": "Lewin Group",
-                    "state_name": "Virginia"
                 }
             ],
             "researchers": [
@@ -428,7 +428,7 @@
                     ]
                 }
             ],
-            "score": 25.496546,
+            "score": 25.485558,
             "supporting_grant_ids": [
                 "grant.3806886"
             ],
@@ -600,11 +600,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-9e725aa9bc4e38172488",
-            "author-95ff9bbf25e804ec0914",
-            "author-a2e121c7293d75a1b290"
-        ],
         "datasets": [
             "dataset-032"
         ],
@@ -897,7 +892,7 @@
             "date": "2016-05-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.foodpol.2016.01.009",
-            "field_citation_ratio": 1.06,
+            "field_citation_ratio": 1.04,
             "funder_countries": [
                 {
                     "id": "US",
@@ -1124,17 +1119,17 @@
                     "id": "ur.012433310605.84",
                     "last_name": "Alston",
                     "research_orgs": [
-                        "grid.49481.30",
-                        "grid.27860.3b",
                         "grid.47840.3f",
-                        "grid.1680.f",
-                        "grid.5386.8",
+                        "grid.27860.3b",
                         "grid.40803.3f",
+                        "grid.5386.8",
+                        "grid.49481.30",
+                        "grid.1680.f",
                         "grid.30389.31"
                     ]
                 }
             ],
-            "score": 23.27019,
+            "score": 23.260706,
             "terms": [
                 "women",
                 "Supplemental Nutrition Assistance Program",
@@ -1318,11 +1313,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-7436930af796559c7ee3",
-            "author-9e7b0ca57b29f527224c",
-            "author-19e99e2c07ab625e936c"
-        ],
         "datasets": [
             "dataset-032"
         ],
@@ -1679,7 +1669,7 @@
             "date": "2014-02-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.jand.2013.08.003",
-            "field_citation_ratio": 3.89,
+            "field_citation_ratio": 4.09,
             "funder_countries": [
                 {
                     "id": "US",
@@ -1745,7 +1735,7 @@
                         "http://nimhd.nih.gov/"
                     ],
                     "longitude": -77.137665,
-                    "name": "National Institute On Minority Health and Health Disparities",
+                    "name": "National Institute on Minority Health and Health Disparities",
                     "state_name": "Maryland",
                     "types": [
                         "Government"
@@ -1830,7 +1820,7 @@
             "pmcid": "PMC4084875",
             "pmid": "24183996",
             "publisher": "Elsevier",
-            "recent_citations": 5,
+            "recent_citations": 6,
             "reference_ids": [
                 "pub.1047980294",
                 "pub.1078370629",
@@ -1908,9 +1898,9 @@
                     "id": "ur.01060342625.58",
                     "last_name": "Powell",
                     "research_orgs": [
+                        "grid.185648.6",
                         "grid.215654.1",
-                        "grid.422418.9",
-                        "grid.185648.6"
+                        "grid.422418.9"
                     ]
                 },
                 {
@@ -1968,7 +1958,7 @@
                     ]
                 }
             ],
-            "score": 27.416222,
+            "score": 27.400604,
             "supporting_grant_ids": [
                 "grant.2440209",
                 "grant.2441295",
@@ -2031,7 +2021,7 @@
                 "policy",
                 "vegetable prices"
             ],
-            "times_cited": 16,
+            "times_cited": 17,
             "title": "Impact of the Revised Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) Food Package Policy on Fruit and Vegetable Prices",
             "type": "article",
             "volume": "114",
@@ -3725,15 +3715,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-730b43c9256188f2e823",
-            "author-51946277dc45d05a6e59",
-            "author-3c3ce635f86a1c7de5bc",
-            "author-a4ab9f68e288cc0b847e",
-            "author-1c6a31873edd604d8be1",
-            "author-1f4b6b5600b4ea1788b7",
-            "author-e93e2e0b2bca214d9c64"
-        ],
         "datasets": [
             "dataset-032"
         ],
@@ -4087,7 +4068,7 @@
                     ]
                 }
             ],
-            "score": 27.073486,
+            "score": 27.058367,
             "terms": [
                 "people",
                 "food decisions",
@@ -4188,10 +4169,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-d64e99ab26f5a54e41bf",
-            "author-2314d58aa546f1a08379"
-        ],
         "datasets": [
             "dataset-032"
         ],
@@ -4402,7 +4379,7 @@
             "date": "2012-01-01",
             "date_inserted": "2018-04-06",
             "doi": "10.2139/ssrn.2176939",
-            "field_citation_ratio": 1.35,
+            "field_citation_ratio": 1.34,
             "id": "pub.1102359497",
             "issn": [
                 "1556-5068"
@@ -4443,7 +4420,7 @@
             "research_org_country_names": [
                 "United States"
             ],
-            "score": 25.122715,
+            "score": 25.097666,
             "terms": [
                 "study",
                 "data",
@@ -5538,10 +5515,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-72ea49ccd75d5c253627",
-            "author-903baedc925e84012fd7"
-        ],
         "datasets": [
             "dataset-032"
         ],
@@ -5839,7 +5812,7 @@
                     ]
                 }
             ],
-            "score": 19.704721,
+            "score": 19.687855,
             "terms": [
                 "Commodity Supplemental Food Program",
                 "Supplemental Food Program",
@@ -5878,9 +5851,6 @@
             "type": "article",
             "volume": "6",
             "year": 2011
-        },
-        "Semantic Scholar": {
-            "error": "Paper not found"
         },
         "Unpaywall": {
             "best_oa_location": null,
@@ -5921,12 +5891,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-924b5aae5ba42f8a5b70",
-            "author-73c2484540034335e6c4",
-            "author-cd9807dba25d10bf0c30",
-            "author-f4beb98e4c491174f4f5"
-        ],
         "datasets": [
             "dataset-032"
         ],
@@ -6205,7 +6169,7 @@
                     ]
                 }
             ],
-            "score": 16.75059,
+            "score": 16.726593,
             "terms": [
                 "food environment",
                 "schools",
@@ -6871,9 +6835,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-e05d0520338bd5be7e83"
-        ],
         "datasets": [
             "dataset-032"
         ],
@@ -7137,7 +7098,7 @@
             "date": "2009-10-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1606/1044-3894.3930",
-            "field_citation_ratio": 3.01,
+            "field_citation_ratio": 2.97,
             "id": "pub.1019771388",
             "issn": [
                 "1044-3894",
@@ -7264,10 +7225,10 @@
                     "id": "ur.0666534674.22",
                     "last_name": "Lombe",
                     "research_orgs": [
-                        "grid.7836.a",
-                        "grid.12984.36",
                         "grid.208226.c",
-                        "grid.4367.6"
+                        "grid.4367.6",
+                        "grid.12984.36",
+                        "grid.7836.a"
                     ]
                 },
                 {
@@ -7294,7 +7255,7 @@
                     ]
                 }
             ],
-            "score": 28.076443,
+            "score": 28.059774,
             "terms": [
                 "Food Stamp Program",
                 "program",
@@ -7502,11 +7463,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-15c07b29307ed776c4f6",
-            "author-0a1e8f27340d1880fa83",
-            "author-a714d7952d508c093f12"
-        ],
         "datasets": [
             "dataset-032"
         ],
@@ -7724,7 +7680,7 @@
             "date": "2009-09-15",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/15588740903176278",
-            "field_citation_ratio": 2.64,
+            "field_citation_ratio": 2.6,
             "id": "pub.1021110966",
             "issn": [
                 "1558-8742",
@@ -7786,10 +7742,10 @@
                     "id": "ur.0666534674.22",
                     "last_name": "Lombe",
                     "research_orgs": [
-                        "grid.7836.a",
-                        "grid.12984.36",
                         "grid.208226.c",
-                        "grid.4367.6"
+                        "grid.4367.6",
+                        "grid.12984.36",
+                        "grid.7836.a"
                     ]
                 },
                 {
@@ -7816,7 +7772,7 @@
                     ]
                 }
             ],
-            "score": 28.304256,
+            "score": 28.276388,
             "terms": [
                 "Food Stamp Program",
                 "program",
@@ -8048,11 +8004,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-15c07b29307ed776c4f6",
-            "author-0a1e8f27340d1880fa83",
-            "author-a714d7952d508c093f12"
-        ],
         "datasets": [
             "dataset-032"
         ],
@@ -8191,7 +8142,7 @@
             "pages": "1882-1885",
             "pmid": "17964306",
             "publisher": "Elsevier",
-            "recent_citations": 1,
+            "recent_citations": 2,
             "reference_ids": [
                 "pub.1045074097",
                 "pub.1098663660",
@@ -8233,7 +8184,7 @@
                     ]
                 }
             ],
-            "score": 14.683431,
+            "score": 14.672022,
             "terms": [
                 "research",
                 "advance understanding",
@@ -8241,7 +8192,7 @@
                 "interrelationships",
                 "poverty"
             ],
-            "times_cited": 8,
+            "times_cited": 9,
             "title": "Research to Advance Understanding of the Interrelationship of Poverty and Nutrition",
             "type": "article",
             "volume": "107",
@@ -8455,9 +8406,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-6ee59e6b258d81f847c7"
-        ],
         "datasets": [
             "dataset-032"
         ],
@@ -8770,7 +8718,7 @@
             "date": "2006-11-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.jada.2006.08.013",
-            "field_citation_ratio": 8.52,
+            "field_citation_ratio": 8.46,
             "funder_countries": [
                 {
                     "id": "US",
@@ -8927,7 +8875,7 @@
                     ]
                 }
             ],
-            "score": 25.397058,
+            "score": 25.385696,
             "terms": [
                 "school breakfast",
                 "breakfast",
@@ -10642,12 +10590,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-086853e79723cccb0705",
-            "author-c9179b9a8867beae82fb",
-            "author-f76c95c92fc64897a4bd",
-            "author-ba6408bd4324990ac05a"
-        ],
         "datasets": [
             "dataset-032"
         ],
@@ -10871,7 +10813,7 @@
             "date": "2004-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/10511482.2004.9521522",
-            "field_citation_ratio": 5.55,
+            "field_citation_ratio": 5.51,
             "id": "pub.1028147707",
             "issn": [
                 "1051-1482",
@@ -10985,7 +10927,7 @@
                     ]
                 }
             ],
-            "score": 16.613787,
+            "score": 16.612858,
             "terms": [
                 "rental assistance",
                 "assistance",
@@ -11315,10 +11257,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-fa498f90073a3a77a714",
-            "author-de5c9bec9db04329975a"
-        ],
         "datasets": [
             "dataset-032"
         ],
@@ -19234,15 +19172,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-b662fca5558e4c070956",
-            "author-ad3cb7ed4768881f87ac",
-            "author-f9bd11d5b964dbb725a6",
-            "author-fdb645a4415073b045a8",
-            "author-2d6443c0c6f9b04a20cb",
-            "author-08d82ab7c6b10cd566df",
-            "author-464680a1aa7130578f84"
-        ],
         "datasets": [
             "dataset-032"
         ],
@@ -19658,7 +19587,7 @@
             "date": "2001-02-01",
             "date_inserted": "2017-08-31",
             "doi": "10.14219/jada.archive.2001.0158",
-            "field_citation_ratio": 12.51,
+            "field_citation_ratio": 12.68,
             "id": "pub.1010349192",
             "issn": [
                 "0002-8177",
@@ -19810,13 +19739,13 @@
                     "last_name": "Blackford",
                     "research_orgs": [
                         "grid.413806.8",
-                        "grid.152326.1",
                         "grid.418356.d",
+                        "grid.152326.1",
                         "grid.412807.8"
                     ]
                 }
             ],
-            "score": 16.309732,
+            "score": 16.295929,
             "terms": [
                 "substantial decline",
                 "decline",
@@ -19888,7 +19817,7 @@
                 "high risk",
                 "risk"
             ],
-            "times_cited": 61,
+            "times_cited": 62,
             "title": "Community socioeconomic status and children's dental health",
             "type": "article",
             "volume": "132",
@@ -22274,11 +22203,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-24b81921ba9c64796e3d",
-            "author-561a7a3e50b8ba1285a9",
-            "author-b8fc86920f41b82be8c3"
-        ],
         "datasets": [
             "dataset-032"
         ],
