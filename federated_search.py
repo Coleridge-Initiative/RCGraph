@@ -233,19 +233,11 @@ def main(search_terms, limit):
 
     schol = rc_scholapi.ScholInfraAPI(config_file="rc.cfg", logger=None)
 
-    # will use these to aggregate results from the federated search
-    hit_titles = set()
-    hit_dois = set()
-
-    new_hits = defaultdict(list)
-    repeated_hits = defaultdict(list)
-
     known_hits = list()
     new_overlapped_hits = list()
     new_unique_hits = list()
 
     search_hits = defaultdict(list)
-
 
     for api in get_api_list(schol):
         if api_implements_full_text_search(api):
@@ -267,40 +259,12 @@ def main(search_terms, limit):
 
                         search_hits[item['doi']].append(article)
 
-                        #compare item title and doi with known dois and known titles
-                        if is_new(graph,known_dois,known_titles,item):
-                            new_hits[item['doi']].append(item) # TODO: this aggregates all articles without DOI in one entry
-                        else:
-                            repeated_hits[item['doi']].append(item)
-
-                        ##I'm using these for debugging
-                        if item["title"] is not None:
-                            hit_titles.add(item["title"])
-                        if item["doi"] is not None:
-                            hit_dois.add( graph.publications.verify_doi(item["doi"]) ) ## TODO: remove None value from hit_dois set since verify_doi sometimes returns None
-
-                    print('#hits',len(results),'titles',len(hit_titles),'DOIs',len(hit_dois))
-
             except Exception:
                 # debug this as an edge case
                 print(api.name,'exception calling full_text_search')
                 if message: print(message)
                 traceback.print_exc()
                 continue
-
-    #show articles that already exists in the Knowledge Graph
-    repeated_dois = known_dois.intersection(hit_dois)
-    reapeated_titles = known_titles.intersection(hit_titles)
-
-    print("repeated DOIs:\n",(repeated_dois))
-    print("repeated titles\n",(reapeated_titles))
-    print('# new hits', len(new_hits))
-    print('# repeated hits', len(repeated_hits))
-
-    #exploring duplicated DOIs aggregated
-    for key,value in new_hits.items():
-        if len(value)>1:
-            print(key,value)
 
     #exploring aggregated search hits
     for doi,aggregated_hits in search_hits.items():
@@ -344,8 +308,6 @@ def main(search_terms, limit):
     # print(json_string1)
     # print(json_string2)
     # print(json_string3)
-
-    # TODO: aggregate search hits which have the same DOI or similar title.
 
     return
 
