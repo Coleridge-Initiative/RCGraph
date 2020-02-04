@@ -1,4 +1,4 @@
-
+import json
 import sys
 import traceback
 from richcontext import graph as rc_graph
@@ -240,6 +240,12 @@ def main(search_terms, limit):
     new_hits = defaultdict(list)
     repeated_hits = defaultdict(list)
 
+    known_hits = list()
+    new_overlapped_hits = list()
+    new_unique_hits = list()
+
+    search_hits = defaultdict(list)
+
 
     for api in get_api_list(schol):
         if api_implements_full_text_search(api):
@@ -248,9 +254,19 @@ def main(search_terms, limit):
 
                 # if not empty, parse the result and get a list of elements returned by the API
                 if meta:
-                    search_hits = parse_results(api.name, meta)
+                    results = parse_results(api.name, meta)
 
-                    for item in search_hits:
+                    for item in results:
+
+                        article = dict()
+                        #assuming that all articles have a Title but not all articles have a DOI
+                        if item['doi'] != None:
+                            article['doi']=item['doi']
+                        article['title']=item['title']
+                        article['api']=item['api']
+
+                        search_hits[item['doi']].append(article)
+
                         #compare item title and doi with known dois and known titles
                         if is_new(graph,known_dois,known_titles,item):
                             new_hits[item['doi']].append(item) # TODO: this aggregates all articles without DOI in one entry
@@ -263,7 +279,7 @@ def main(search_terms, limit):
                         if item["doi"] is not None:
                             hit_dois.add( graph.publications.verify_doi(item["doi"]) ) ## TODO: remove None value from hit_dois set since verify_doi sometimes returns None
 
-                    print('#hits',len(search_hits),'titles',len(hit_titles),'DOIs',len(hit_dois))
+                    print('#hits',len(results),'titles',len(hit_titles),'DOIs',len(hit_dois))
 
             except Exception:
                 # debug this as an edge case
@@ -285,6 +301,49 @@ def main(search_terms, limit):
     for key,value in new_hits.items():
         if len(value)>1:
             print(key,value)
+
+    #exploring aggregated search hits
+    for doi,aggregated_hits in search_hits.items():
+
+        if doi == None:
+            #when DOI is None, I assume that all articles are different. #TODO Review this decision
+            #for each article title, look up in the known_titles
+            for i in aggregated_hits:
+                found = False
+                for known_title in known_titles:
+                    if title_match(known_title, i["title"]):
+                        known_hits.append(i)
+                        found = True
+                        break
+                if not found:
+                    new_unique_hits.append(i)
+
+        #first, create a list of search hits that are already in the KG
+        elif graph.publications.verify_doi(doi) in known_dois:
+            #create one entry per doi-title-api
+            for hit in aggregated_hits:
+                known_hits.append(hit)
+        else:
+            # second, create a list of search hits returned by more than one API
+            if len(aggregated_hits)>1:
+
+                for hit in aggregated_hits:
+                    new_overlapped_hits.append(hit)
+            else:
+                #finally, create a list of search hits returned only by one API
+                new_unique_hits.append(aggregated_hits[0])
+
+    json_string1 = json.dumps(known_hits)
+    json_string2 = json.dumps(new_overlapped_hits)
+    json_string3 = json.dumps(new_unique_hits)
+
+    print("#known_hits", len(known_hits))
+    print("#new_overlapped_hits", len(new_overlapped_hits))
+    print("#new_unique_hits", len(new_unique_hits))
+
+    # print(json_string1)
+    # print(json_string2)
+    # print(json_string3)
 
     # TODO: aggregate search hits which have the same DOI or similar title.
 
