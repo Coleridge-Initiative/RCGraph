@@ -319,7 +319,10 @@ def main(search_terms, limit):
             # second, create a list of search hits returned by more than one API
             if len(aggregated_hits)>1:
 
-                for hit in aggregated_hits:
+                #transform the list of dict into a set of tuples to remove duplicated entries and back into a list of dictionaries
+                de_duplicated_hits = [dict(t) for t in {tuple(d.items()) for d in aggregated_hits}]
+
+                for hit in de_duplicated_hits:
                     new_overlapped_hits.append(hit)
             else:
                 #finally, create a list of search hits returned only by one API
