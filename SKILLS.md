@@ -137,7 +137,7 @@ OTOH, to be clear, we don't need to waste any time discussing...
   - JVM-based environments
   - social networks
   - React/Redux
-  - Sparql
+  - SPARQL
   - gamification
   - "Yeah, but Google already solved Knowledge Graph"
   - ways to increase the frequency and length of scheduled meetings
@@ -147,4 +147,5 @@ OTOH, to be clear, we don't need to waste any time discussing...
 ## Contact
 
  - <https://coleridgeinitiative.org/richcontext>
- - <https://twitter/NYU-CI>
+ - <https://twitter.com/NYUColeridge>
+ - <mailto:dataanalytics@coleridgeinitiative.org>
