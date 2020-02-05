@@ -1,13 +1,19 @@
-import json
-import sys
-import traceback
+#!/usr/bin/env python
+# encoding: utf-8
+
+from collections import OrderedDict, defaultdict
+from pathlib import Path
 from richcontext import graph as rc_graph
 from richcontext import scholapi as rc_scholapi
-from collections import OrderedDict
-from collections import defaultdict
+import codecs
+import json
 import re
+import sys
+import traceback
+import urllib.parse
 
-# TODO I copied this form shcolapi.py class _ScholInfra
+
+# TODO I copied this from shcolapi.py class _ScholInfra
 def _clean_title(title):
     """
     minimal set of string transformations so that a title can be
@@ -15,7 +21,7 @@ def _clean_title(title):
     """
     return re.sub("\s+", " ", title.strip(" \"'?!.,")).lower()
 
-# TODO I copied this form shcolapi.py class _ScholInfra
+# TODO I copied this from shcolapi.py class _ScholInfra
 def title_match (title0, title1):
     """
     within reason, do the two titles match?
@@ -46,13 +52,16 @@ def get_xml_node_value(root, name):
 
 def parse_oa (results):
     meta_list = []
+
     for result in results:
         if result.find("instancetype")["classname"] in ["Other literature type", "Article"]: ## TODO review this decision
             meta = OrderedDict()
             result_title = get_xml_node_value(result, "title")
             meta["title"] = result_title
+
             if get_xml_node_value(result, "journal"):
                 meta["journal"] = get_xml_node_value(result, "journal")
+
             meta["url"] = get_xml_node_value(result, "url")
             meta["doi"] = get_xml_node_value(result, "pid") ##TODO not all information in pid field is a DOI reference, see https://www.openaire.eu/schema/1.0/doc/oaf-result-1_0_xsd.html#result_pid
             meta["open"] = len(result.find_all("bestaccessright",  {"classid": "OPEN"})) > 0
@@ -60,6 +69,7 @@ def parse_oa (results):
             meta_list.append(meta)
         else:
             pass
+
     if len(meta_list) > 0:
         return meta_list
     elif meta_list == []:
@@ -67,19 +77,25 @@ def parse_oa (results):
 
 def parse_dimensions(results):
     meta_list = []
+
     for result in results:
         if result["type"] in ["article","preprint"]:
             meta = OrderedDict()
             meta["title"] = result["title"]
             meta["api"] = "dimensions"
+
             try:
                 meta["journal"] = result["journal"]["title"]
             except:
                 meta["journal"] = None
+
             try:
                 meta["doi"] = result["doi"]
             except:
                 meta["doi"] = None
+
+            meta["url"] = "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text={}".format(urllib.parse.quote(meta["title"]))
+
             meta_list.append(meta)
         else:
             pass
@@ -90,10 +106,14 @@ def parse_dimensions(results):
 
 def parse_pubmed(results):
     meta_list = []
+
     for result in results:
         article_meta = result["MedlineCitation"]["Article"]
         meta = OrderedDict()
         meta['doi'] = None #to enforce having a 'doi' key
+
+        pmid = result["MedlineCitation"]["PMID"]["#text"]
+        meta["url"] = f"https://www.ncbi.nlm.nih.gov/pubmed/{pmid}"
 
         try:
             # sometimes the ArticleTitle is a dict.
@@ -112,18 +132,23 @@ def parse_pubmed(results):
 
         meta["journal"] = article_meta["Journal"]["Title"]
         meta["api"] = "pubmed"
+
         try:
             pid_list = article_meta["ELocationID"]
+
             if isinstance(pid_list,list):
                     doi_test = [d["#text"] for d in pid_list if d["@EIdType"] == "doi"]
                     if len(doi_test) > 0:
                         meta["doi"] = doi_test[0]
+
             if isinstance(pid_list,dict):
                 if pid_list["@EIdType"] == "doi":
                     meta["doi"] = pid_list["#text"]
         except:
             meta["doi"] = None
+
         meta_list.append(meta)
+
     if len(meta_list) > 0:
         return meta_list
     elif meta_list == []:
@@ -165,7 +190,7 @@ def api_implements_full_text_search(api):
 
     return implements
 
-def parse_results(apiName,results):
+def parse_results(apiName, results):
     # TODO handle all APIs
 
     if apiName == "OpenAIRE":
@@ -176,6 +201,7 @@ def parse_results(apiName,results):
         search_hits = parse_pubmed(results)
     else:
         search_hits = results
+
     return search_hits
 
 
@@ -249,13 +275,15 @@ def main(search_terms, limit):
                     results = parse_results(api.name, meta)
 
                     for item in results:
-
                         article = dict()
+
                         #assuming that all articles have a Title but not all articles have a DOI
                         if item['doi'] != None:
                             article['doi']=item['doi']
+
                         article['title']=item['title']
                         article['api']=item['api']
+                        article["url"] = item["url"]
 
                         search_hits[item['doi']].append(article)
 
@@ -297,20 +325,22 @@ def main(search_terms, limit):
                 #finally, create a list of search hits returned only by one API
                 new_unique_hits.append(aggregated_hits[0])
 
-    json_string1 = json.dumps(known_hits)
-    json_string2 = json.dumps(new_overlapped_hits)
-    json_string3 = json.dumps(new_unique_hits)
-
+    # report about the results
     print("#known_hits", len(known_hits))
     print("#new_overlapped_hits", len(new_overlapped_hits))
     print("#new_unique_hits", len(new_unique_hits))
 
-    # print(json_string1)
-    # print(json_string2)
-    # print(json_string3)
+    # write the output file
+    view = {
+        "known": known_hits,
+        "overlap": new_overlapped_hits,
+        "unique": new_unique_hits
+        }
 
-    return
+    out_path = "federated.json"
 
+    with codecs.open(Path(out_path), "wb", encoding="utf8") as f:
+        json.dump(view, f, indent=4, sort_keys=True, ensure_ascii=False)
 
 
 if __name__ == '__main__':
