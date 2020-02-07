@@ -11,6 +11,7 @@ import re
 import sys
 import traceback
 import urllib.parse
+import pandas as pd
 
 
 # TODO I copied this from shcolapi.py class _ScholInfra
@@ -241,6 +242,29 @@ def get_api_list(schol):
     api_list.append(schol.repec)
     return api_list
 
+def create_datadrop(view, search_terms, file_path='federated.csv'):
+
+    dfKnown = pd.DataFrame(view["known"])
+    dfKnown["category"] = "known hits in KG"
+
+    dfOverlap = pd.DataFrame(view["overlap"])
+    dfOverlap["category"] = "overlap between APIs"
+
+    dfUnique = pd.DataFrame(view["unique"])
+    dfUnique["category"] = "unique hits"
+
+
+    dfAll = pd.DataFrame()
+    dfAll = dfAll.append(dfKnown)
+    dfAll = dfAll.append(dfOverlap)
+    dfAll = dfAll.append(dfUnique)
+
+    dfAll = dfAll[["category","api","doi","title","url"]]
+    dfAll["search_term"]= search_terms
+
+    dfAll.to_csv(file_path, index=False)
+
+
 def main(search_terms, limit):
     print("terms", search_terms)
     print("limit",limit)
@@ -355,6 +379,7 @@ def main(search_terms, limit):
     with codecs.open(Path(out_path), "wb", encoding="utf8") as f:
         json.dump(view, f, indent=4, sort_keys=True, ensure_ascii=False)
 
+    create_datadrop(view,search_terms,'federated.csv')
 
 if __name__ == '__main__':
 
