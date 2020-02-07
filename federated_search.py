@@ -228,7 +228,7 @@ def get_api_list(schol):
     # TODO get a list of all APIs implemented without hardcoding it
     api_list = []
 
-    #api_list.append(schol.crossref) # TODO: without limit, without parser
+    #api_list.append(schol.crossref) # TODO: without parser
 
     api_list.append(schol.pubmed)
     api_list.append(schol.openaire)
@@ -268,7 +268,7 @@ def main(search_terms, limit):
     for api in get_api_list(schol):
         if api_implements_full_text_search(api):
             try:
-                meta, timing, message = api.full_text_search(search_term=search_terms, limit=int(limit))
+                meta, timing, message = api.full_text_search(search_term=search_terms, limit=limit)
 
                 # if not empty, parse the result and get a list of elements returned by the API
                 if meta:
@@ -277,8 +277,11 @@ def main(search_terms, limit):
                     for item in results:
                         article = dict()
 
+                        #make sure DOI field is a valid DOI
+                        doi = graph.publications.verify_doi(item['doi'])
+
                         #assuming that all articles have a Title but not all articles have a DOI
-                        if item['doi'] != None:
+                        if doi != None:
                             article['doi']=item['doi']
 
                         article['title']=item['title']
@@ -324,9 +327,16 @@ def main(search_terms, limit):
 
                 for hit in de_duplicated_hits:
                     new_overlapped_hits.append(hit)
+                    # TODO: this is not catching an operlapping case when one API returns a DOI and the other does not
+
             else:
                 #finally, create a list of search hits returned only by one API
                 new_unique_hits.append(aggregated_hits[0])
+
+    # order results by title to help the user spot duplicated hits
+    known_hits = sorted(known_hits, key=lambda k: k['title'])
+    new_unique_hits = sorted(new_unique_hits, key=lambda k: k['title'])
+    #new_overlapped_hits = sorted(new_overlapped_hits, key=lambda k: k['title']) ##not sorting this results to keep it ordered by DOI
 
     # report about the results
     print("#known_hits", len(known_hits))
