@@ -262,7 +262,7 @@ def create_datadrop(view, search_terms, file_path='federated.csv'):
     dfAll = dfAll[["category","api","doi","title","url"]]
     dfAll["search_term"]= search_terms
 
-    dfAll.to_csv(file_path, index=False)
+    dfAll.to_csv(file_path, index=False, encoding="utf-8-sig")
 
 
 def main(search_terms, limit):
@@ -302,10 +302,10 @@ def main(search_terms, limit):
                         article = dict()
 
                         #make sure DOI field is a valid DOI
-                        doi = graph.publications.verify_doi(item['doi'])
+                        item["doi"] = graph.publications.verify_doi(item['doi'])
 
                         #assuming that all articles have a Title but not all articles have a DOI
-                        if doi != None:
+                        if item["doi"] != None:
                             article['doi']=item['doi']
 
                         article['title']=item['title']
@@ -320,6 +320,22 @@ def main(search_terms, limit):
                 if message: print(message)
                 traceback.print_exc()
                 continue
+
+    #after getting all the federated results, try to match search hits with unknown DOI comparing by title.
+    for non_doi_article in search_hits[None]:
+        for doi, aggregated_hits in search_hits.items():
+
+            if not doi:
+                #TODO: case where two hits have same title and no DOI
+                continue
+
+            if title_match(non_doi_article["title"],aggregated_hits[0]["title"]):
+
+                #move the article from the None doi list to the matched doi list
+                search_hits[doi].append(non_doi_article)
+                search_hits[None].remove(non_doi_article)
+                #once found, no need to continue the search
+                break
 
     #exploring aggregated search hits
     for doi,aggregated_hits in search_hits.items():
