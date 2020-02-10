@@ -166,6 +166,8 @@ def load_publications (graph):
             aPublication = dict()
             if "doi" in pub:
                 aPublication["doi"] = pub["doi"]
+            else:
+                aPublication["doi"] = None
             aPublication["title"] = pub["title"]
             publications.append(aPublication)
     return publications
@@ -255,6 +257,7 @@ def main(search_terms, limit):
 
     # known DOIs and Titles already present in the Knoledge Graph
     known_dois = set([p["doi"] for p in pubs])
+    known_dois.remove(None)
     known_titles = set([p["title"] for p in pubs])
 
     print(len(known_dois),"known DOIs")
