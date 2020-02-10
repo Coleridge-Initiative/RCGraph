@@ -361,8 +361,8 @@ def main(search_terms, limit):
                 new_unique_hits.append(aggregated_hits[0])
 
     # order results by title to help the user spot duplicated hits
-    known_hits = sorted(known_hits, key=lambda k: k['title'])
-    new_unique_hits = sorted(new_unique_hits, key=lambda k: k['title'])
+    known_hits = sorted(known_hits, key=lambda k: k['title'].lower())
+    new_unique_hits = sorted(new_unique_hits, key=lambda k: k['title'].lower())
     #new_overlapped_hits = sorted(new_overlapped_hits, key=lambda k: k['title']) ##not sorting this results to keep it ordered by DOI
 
     # report about the results
