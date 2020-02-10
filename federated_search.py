@@ -14,15 +14,7 @@ import urllib.parse
 import pandas as pd
 
 
-# TODO I copied this from shcolapi.py class _ScholInfra
-def _clean_title(title):
-    """
-    minimal set of string transformations so that a title can be
-    compared consistently across API providers
-    """
-    return re.sub("\s+", " ", title.strip(" \"'?!.,")).lower()
-
-# TODO I copied this from shcolapi.py class _ScholInfra
+# TODO This is a modified copy of title_match from shcolapi.py class _ScholInfra
 def title_match (title0, title1):
     """
     within reason, do the two titles match?
@@ -31,7 +23,7 @@ def title_match (title0, title1):
         if not title0 or not title1:
             return False
         else:
-            return _clean_title(title0) == _clean_title(title1)
+            return re.sub("\W+","",title0).lower() == re.sub("\W+","",title1).lower()
     except Exception:
         # debug this as an edge case
         print('exception calling title_match')
@@ -307,7 +299,7 @@ def main(search_terms, limit):
     #after getting all the federated results, try to match search hits with unknown DOI comparing by title to search hits with known DOI.
 
     # iterate through articles grouped on missing DOI (doi == None)
-    for non_doi_article in search_hits[None]:
+    for non_doi_article in search_hits[None].copy(): # using copy since I will remove items from the list, and that would make the iterator to miss elements
         # iterate through each DOI in the search hits
         for doi, aggregated_hits in search_hits.items():
 
