@@ -157,19 +157,16 @@ def parse_pubmed(results):
 
 def load_publications (graph):
     """
-    load publications. Only DOI and Title
+    Load publications from knowledge graph. Only DOI and Title fields
     """
     publications = []
 
     for partition, pub_iter in graph.iter_publications(path=graph.BUCKET_FINAL):
         for pub in pub_iter:
-            if "doi" in pub:
-                doi = pub["doi"]
-            title = pub["title"]
             aPublication = dict()
-            aPublication["doi"]=doi
-            aPublication["title"]=title
-
+            if "doi" in pub:
+                aPublication["doi"] = pub["doi"]
+            aPublication["title"] = pub["title"]
             publications.append(aPublication)
     return publications
 
@@ -205,25 +202,6 @@ def parse_results(apiName, results):
 
     return search_hits
 
-
-def is_new(graph,known_dois, known_titles, item):
-
-    #if both doi and title are empty, I dont want to procees it #TODO: review this decision
-    if item["doi"] == None and item["title"] == None:
-        return False
-
-    #lookup of doi
-    if item["doi"] != None and graph.publications.verify_doi(item["doi"]) in known_dois:
-        return False
-
-    #lookup of title
-    if item["title"] != None:
-        for title in known_titles:
-            if title_match(title,item["title"]):
-                return False
-
-    #in any other case, is a new article
-    return True
 
 def get_api_list(schol):
     # TODO get a list of all APIs implemented without hardcoding it
@@ -271,6 +249,7 @@ def main(search_terms, limit):
 
     graph = rc_graph.RCGraph("corpus")
 
+    # get known publications from knowledge graph
     pubs = load_publications(graph)
     print(len(pubs),"publications")
 
@@ -289,6 +268,7 @@ def main(search_terms, limit):
 
     search_hits = defaultdict(list)
 
+    # call full_text_search on all APIs that implement it
     for api in get_api_list(schol):
         if api_implements_full_text_search(api):
             try:
@@ -321,14 +301,18 @@ def main(search_terms, limit):
                 traceback.print_exc()
                 continue
 
-    #after getting all the federated results, try to match search hits with unknown DOI comparing by title.
+    #after getting all the federated results, try to match search hits with unknown DOI comparing by title to search hits with known DOI.
+
+    # iterate through articles grouped on missing DOI (doi == None)
     for non_doi_article in search_hits[None]:
+        # iterate through each DOI in the search hits
         for doi, aggregated_hits in search_hits.items():
 
             if not doi:
                 #TODO: case where two hits have same title and no DOI
                 continue
 
+            # here I use only the first item on the aggregated_hits since all titles in that list should match.
             if title_match(non_doi_article["title"],aggregated_hits[0]["title"]):
 
                 #move the article from the None doi list to the matched doi list
@@ -337,11 +321,11 @@ def main(search_terms, limit):
                 #once found, no need to continue the search
                 break
 
-    #exploring aggregated search hits
+    #now, explore the aggregated search hits and group in 3 kinds: Already known in Knowledge Graph, Overlap results among APIs, and unique hits.
     for doi,aggregated_hits in search_hits.items():
 
         if doi == None:
-            #when DOI is None, I assume that all articles are different. #TODO Review this decision
+            #when DOI is None, I assume that all articles are different.
             #for each article title, look up in the known_titles
             for i in aggregated_hits:
                 found = False
@@ -352,6 +336,7 @@ def main(search_terms, limit):
                         break
                 if not found:
                     new_unique_hits.append(i)
+                    # TODO: case where two hits have same title and no DOI, now are cataloged as unique hits
 
         #first, create a list of search hits that are already in the KG
         elif graph.publications.verify_doi(doi) in known_dois:
@@ -367,7 +352,6 @@ def main(search_terms, limit):
 
                 for hit in de_duplicated_hits:
                     new_overlapped_hits.append(hit)
-                    # TODO: this is not catching an operlapping case when one API returns a DOI and the other does not
 
             else:
                 #finally, create a list of search hits returned only by one API
@@ -392,9 +376,11 @@ def main(search_terms, limit):
 
     out_path = "federated.json"
 
+    # write json file
     with codecs.open(Path(out_path), "wb", encoding="utf8") as f:
         json.dump(view, f, indent=4, sort_keys=True, ensure_ascii=False)
 
+    # write a cvs file
     create_datadrop(view,search_terms,'federated.csv')
 
 if __name__ == '__main__':
