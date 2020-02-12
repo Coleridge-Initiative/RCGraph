@@ -14,7 +14,7 @@ import urllib.parse
 import pandas as pd
 
 
-# TODO This is a modified copy of title_match from shcolapi.py class _ScholInfra
+# TODO This is a modified copy of title_match from scholapi.py class _ScholInfra
 def title_match (title0, title1):
     """
     within reason, do the two titles match?
@@ -30,7 +30,8 @@ def title_match (title0, title1):
         traceback.print_exc()
         return False
 
-def get_xml_node_value(root, name):
+
+def get_xml_node_value (root, name):
     """
     return the named value from an XML node, if it exists
     """
@@ -42,6 +43,7 @@ def get_xml_node_value(root, name):
         return None
     else:
         return node.text.strip()
+
 
 def parse_oa (results):
     meta_list = []
@@ -68,7 +70,8 @@ def parse_oa (results):
     elif meta_list == []:
         return None
 
-def parse_dimensions(results):
+
+def parse_dimensions (results):
     meta_list = []
 
     for result in results:
@@ -97,55 +100,60 @@ def parse_dimensions(results):
     elif meta_list == []:
         return None
 
-def parse_pubmed(results):
+
+def parse_pubmed (results):
     meta_list = []
 
     for result in results:
-        article_meta = result["MedlineCitation"]["Article"]
-        meta = OrderedDict()
-        meta['doi'] = None #to enforce having a 'doi' key
+        if isinstance(result, dict) and "MedlineCitation" in result:
+            article_meta = result["MedlineCitation"]["Article"]
 
-        pmid = result["MedlineCitation"]["PMID"]["#text"]
-        meta["url"] = f"https://www.ncbi.nlm.nih.gov/pubmed/{pmid}"
+            meta = OrderedDict()
+            meta['doi'] = None #to enforce having a 'doi' key
 
-        try:
-            # sometimes the ArticleTitle is a dict.
-            if type(article_meta["ArticleTitle"]) is str:
-                meta["title"] = article_meta["ArticleTitle"]
-            else:
-                meta["title"] = article_meta["ArticleTitle"]['#text']
-        except Exception:
-            # debug this as an edge case
-            print('exception handling parse_pubmed ArticleTitle field')
-            print('***** type(article_meta["ArticleTitle"]):', type(article_meta["ArticleTitle"]))
-            print('*****', article_meta["ArticleTitle"])
-            traceback.print_exc()
-            meta["title"] = None
-            continue
+            pmid = result["MedlineCitation"]["PMID"]["#text"]
+            meta["url"] = f"https://www.ncbi.nlm.nih.gov/pubmed/{pmid}"
 
-        meta["journal"] = article_meta["Journal"]["Title"]
-        meta["api"] = "pubmed"
+            try:
+                # sometimes the ArticleTitle is a dict.
+                if type(article_meta["ArticleTitle"]) is str:
+                    meta["title"] = article_meta["ArticleTitle"]
+                else:
+                    meta["title"] = article_meta["ArticleTitle"]['#text']
+            except Exception:
+                # debug this as an edge case
+                print('exception handling parse_pubmed ArticleTitle field')
+                print('***** type(article_meta["ArticleTitle"]):', type(article_meta["ArticleTitle"]))
+                print('*****', article_meta["ArticleTitle"])
+                traceback.print_exc()
+                meta["title"] = None
+                continue
 
-        try:
-            pid_list = article_meta["ELocationID"]
+            meta["journal"] = article_meta["Journal"]["Title"]
+            meta["api"] = "pubmed"
 
-            if isinstance(pid_list,list):
+            try:
+                pid_list = article_meta["ELocationID"]
+
+                if isinstance(pid_list,list):
                     doi_test = [d["#text"] for d in pid_list if d["@EIdType"] == "doi"]
+
                     if len(doi_test) > 0:
                         meta["doi"] = doi_test[0]
 
-            if isinstance(pid_list,dict):
-                if pid_list["@EIdType"] == "doi":
-                    meta["doi"] = pid_list["#text"]
-        except:
-            meta["doi"] = None
+                if isinstance(pid_list,dict):
+                    if pid_list["@EIdType"] == "doi":
+                        meta["doi"] = pid_list["#text"]
+            except:
+                meta["doi"] = None
 
-        meta_list.append(meta)
+            meta_list.append(meta)
 
     if len(meta_list) > 0:
         return meta_list
     elif meta_list == []:
         return None
+
 
 def load_publications (graph):
     """
@@ -156,22 +164,26 @@ def load_publications (graph):
     for partition, pub_iter in graph.iter_publications(path=graph.BUCKET_FINAL):
         for pub in pub_iter:
             aPublication = dict()
+
             if "doi" in pub:
                 aPublication["doi"] = pub["doi"]
             else:
                 aPublication["doi"] = None
+
             aPublication["title"] = pub["title"]
             publications.append(aPublication)
+
     return publications
 
-def api_implements_full_text_search(api):
+
+def api_implements_full_text_search (api):
     """
     Returns True if api has a method named "full_text_search".
     Returns False if not.
     """
     implements = False
-    try: #__getattribute__ raises an exception when "full_text_search" is missing
 
+    try: #__getattribute__ raises an exception when "full_text_search" is missing
         #checks if api.full_text_search is defined and is a method.
         if callable(api.__getattribute__("full_text_search")):
             print(api.name, "implements full_text_search")
@@ -182,9 +194,9 @@ def api_implements_full_text_search(api):
 
     return implements
 
-def parse_results(apiName, results):
-    # TODO handle all APIs
 
+def parse_results (apiName, results):
+    # TODO handle all APIs
     if apiName == "OpenAIRE":
         search_hits = parse_oa(results)
     elif apiName == "Dimensions":
@@ -197,12 +209,11 @@ def parse_results(apiName, results):
     return search_hits
 
 
-def get_api_list(schol):
+def get_api_list (schol):
     # TODO get a list of all APIs implemented without hardcoding it
     api_list = []
 
     #api_list.append(schol.crossref) # TODO: without parser
-
     api_list.append(schol.pubmed)
     api_list.append(schol.openaire)
     api_list.append(schol.dimensions)
@@ -212,10 +223,11 @@ def get_api_list(schol):
     api_list.append(schol.ssrn)
     api_list.append(schol.europepmc)
     api_list.append(schol.repec)
+
     return api_list
 
-def create_datadrop(view, search_terms, file_path='federated.csv'):
 
+def create_datadrop (view, search_terms, file_path='federated.csv'):
     dfKnown = pd.DataFrame(view["known"])
     dfKnown["category"] = "known hits in KG"
 
@@ -224,7 +236,6 @@ def create_datadrop(view, search_terms, file_path='federated.csv'):
 
     dfUnique = pd.DataFrame(view["unique"])
     dfUnique["category"] = "unique hits"
-
 
     dfAll = pd.DataFrame()
     dfAll = dfAll.append(dfKnown)
@@ -237,7 +248,7 @@ def create_datadrop(view, search_terms, file_path='federated.csv'):
     dfAll.to_csv(file_path, index=False, encoding="utf-8-sig")
 
 
-def main(search_terms, limit):
+def main (search_terms, limit):
     print("terms", search_terms)
     print("limit",limit)
 
@@ -265,7 +276,7 @@ def main(search_terms, limit):
 
     # call full_text_search on all APIs that implement it
     for api in get_api_list(schol):
-        if api_implements_full_text_search(api):
+        if api.has_credentials() and api_implements_full_text_search(api):
             try:
                 meta, timing, message = api.full_text_search(search_term=search_terms, limit=limit)
 
@@ -273,50 +284,57 @@ def main(search_terms, limit):
                 if meta:
                     results = parse_results(api.name, meta)
 
-                    for item in results:
-                        article = dict()
+                    if results:
+                        for item in results:
+                            article = dict()
 
-                        #make sure DOI field is a valid DOI
-                        item["doi"] = graph.publications.verify_doi(item['doi'])
+                            #make sure DOI field is a valid DOI
+                            item["doi"] = graph.publications.verify_doi(item['doi'])
 
-                        #assuming that all articles have a Title but not all articles have a DOI
-                        if item["doi"] != None:
-                            article['doi']=item['doi']
+                            #assuming that all articles have a Title but not all articles have a DOI
+                            if item["doi"] != None:
+                                article['doi']=item['doi']
 
-                        article['title']=item['title']
-                        article['api']=item['api']
-                        article["url"] = item["url"]
+                            article['title']=item['title']
+                            article['api']=item['api']
+                            article["url"] = item["url"]
 
-                        search_hits[item['doi']].append(article)
+                            search_hits[item['doi']].append(article)
 
             except Exception:
                 # debug this as an edge case
-                print(api.name,'exception calling full_text_search')
-                if message: print(message)
+                print(api.name, 'exception calling full_text_search')
+
+                if message:
+                    print(message)
+
                 traceback.print_exc()
                 continue
 
-    #after getting all the federated results, try to match search hits with unknown DOI comparing by title to search hits with known DOI.
+    # after getting all the federated results, try to match search
+    # hits with unknown DOI comparing by title to search hits with
+    # known DOI.
 
     # iterate through articles grouped on missing DOI (doi == None)
     for non_doi_article in search_hits[None].copy(): # using copy since I will remove items from the list, and that would make the iterator to miss elements
         # iterate through each DOI in the search hits
         for doi, aggregated_hits in search_hits.items():
-
             if not doi:
                 #TODO: case where two hits have same title and no DOI
                 continue
 
             # here I use only the first item on the aggregated_hits since all titles in that list should match.
             if title_match(non_doi_article["title"],aggregated_hits[0]["title"]):
-
                 #move the article from the None doi list to the matched doi list
                 search_hits[doi].append(non_doi_article)
                 search_hits[None].remove(non_doi_article)
                 #once found, no need to continue the search
                 break
 
-    #now, explore the aggregated search hits and group in 3 kinds: Already known in Knowledge Graph, Overlap results among APIs, and unique hits.
+    #now, explore the aggregated search hits and group in 3 kinds:
+    #Already known in Knowledge Graph, Overlap results among APIs, and
+    #unique hits.
+
     for doi,aggregated_hits in search_hits.items():
 
         if doi == None:
@@ -324,11 +342,13 @@ def main(search_terms, limit):
             #for each article title, look up in the known_titles
             for i in aggregated_hits:
                 found = False
+
                 for known_title in known_titles:
                     if title_match(known_title, i["title"]):
                         known_hits.append(i)
                         found = True
                         break
+
                 if not found:
                     new_unique_hits.append(i)
                     # TODO: case where two hits have same title and no DOI, now are cataloged as unique hits
@@ -340,9 +360,10 @@ def main(search_terms, limit):
                 known_hits.append(hit)
         else:
             # second, create a list of search hits returned by more than one API
-            if len(aggregated_hits)>1:
-
-                #transform the list of dict into a set of tuples to remove duplicated entries and back into a list of dictionaries
+            if len(aggregated_hits) > 1:
+                #transform the list of dict into a set of tuples to
+                #remove duplicated entries and back into a list of
+                #dictionaries
                 de_duplicated_hits = [dict(t) for t in {tuple(d.items()) for d in aggregated_hits}]
 
                 for hit in de_duplicated_hits:
@@ -355,6 +376,7 @@ def main(search_terms, limit):
     # order results by title to help the user spot duplicated hits
     known_hits = sorted(known_hits, key=lambda k: k['title'].lower())
     new_unique_hits = sorted(new_unique_hits, key=lambda k: k['title'].lower())
+
     #new_overlapped_hits = sorted(new_overlapped_hits, key=lambda k: k['title']) ##not sorting this results to keep it ordered by DOI
 
     # report about the results
@@ -378,12 +400,13 @@ def main(search_terms, limit):
     # write a cvs file
     create_datadrop(view,search_terms,'federated.csv')
 
-if __name__ == '__main__':
 
+if __name__ == '__main__':
     #Enforcing only 2 parameters.
-    if(len(sys.argv[1:]) != 2):
+    if (len(sys.argv[1:]) != 2):
         print("Only 2 parameters allowed: 'search terms' and 'limit'")
-        exit(1)
+        sys.exit(1)
+
     terms = sys.argv[1]
     limit = sys.argv[2]
 
