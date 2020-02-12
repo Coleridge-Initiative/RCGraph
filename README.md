@@ -60,6 +60,7 @@ submodules:
   - <https://github.com/Coleridge-Initiative/RCDatasets>
   - <https://github.com/Coleridge-Initiative/RCPublications>
   - <https://github.com/Coleridge-Initiative/RCHuman>
+  - <https://github.com/Coleridge-Initiative/RCServer>
 
 
 The RCLC leaderboard competition is also linked as a submodule since
