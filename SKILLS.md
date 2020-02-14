@@ -111,8 +111,8 @@ It helps especially if you've been involved with open source projects:
 committing code, developing tutorials, improving the documentation,
 participating in community forums and events, etc.
 
-Also, would you like to contribute here? For example, how would you
-enhance or extend the following projects?
+Also, what would you like to contribute here? For example, how would 
+you enhance or extend the following projects?
 
   - <https://github.com/Coleridge-Initiative/RCGraph>
   - <https://github.com/Coleridge-Initiative/RCServer>
@@ -126,7 +126,7 @@ We enjoy meeting with people who are eager to get busy working with
 real data, who are interested in practical approaches for machine
 learning and knowledge graph representation.
 
-OTOH, to be clear, we don't need to waste any time discussing...
+OTOH, to be clear, we don't need to spend time discussing...
 
   - GraphQL
   - preferred commercial software vendors
@@ -141,6 +141,8 @@ OTOH, to be clear, we don't need to waste any time discussing...
   - gamification
   - "Yeah, but Google already solved Knowledge Graph"
   - ways to increase the frequency and length of scheduled meetings
+
+Thank you very much.
 
 ---
 
