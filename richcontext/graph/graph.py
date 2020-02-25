@@ -337,6 +337,7 @@ class RCPublications:
         self.doi_hits = 0
         self.pdf_hits = 0
         self.auth_hits = 0
+        self.ab_hits = 0
 
 
     def verify_doi (self, doi):
