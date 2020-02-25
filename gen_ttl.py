@@ -256,6 +256,10 @@ def format_pub (out_buf, pub, pub_id, used, known_journals, known_datasets, know
     if pdf:
         out_buf.append("  :openAccess \"{}\"^^xsd:anyURI ;".format(pdf))
 
+    if "abstract" in pub:
+        abs = pub["abstract"].replace('"', "'").replace("\\", "-").replace("\n", " ")
+        out_buf.append("  cito:description \"{}\" ;".format(abs))
+
     # link to datasets
     data_list = []
 

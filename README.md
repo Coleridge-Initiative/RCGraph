@@ -219,6 +219,23 @@ publication that doesn't any authors.
   - Do not make manual edits to `authors.json` or `auth_train.tsv`
 
 
+### Step N: Pull Abstracts
+
+This workflow step pulls the abstracts from the results of
+API calls in previous steps.
+
+```
+python run_abstract.py
+```
+
+Results are organized in partitions in the `bucket_stage`
+subdirectory, using the same partition names from the preceding
+workflow steps.
+
+See the `misses_abstract.txt` file which reports the title of each
+publication that had no abstract.
+
+
 ### Step N: Finalize Metadata Corrections
 
 This workflow step finalizes the metadata corrections for each
