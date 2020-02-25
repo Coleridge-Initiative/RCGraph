@@ -242,10 +242,13 @@ def create_datadrop (view, search_terms, file_path='federated.csv'):
     dfAll = dfAll.append(dfOverlap)
     dfAll = dfAll.append(dfUnique)
 
-    dfAll = dfAll[["category","api","doi","title","url"]]
-    dfAll["search_term"]= search_terms
+    if len(dfAll) > 0:
 
-    dfAll.to_csv(file_path, index=False, encoding="utf-8-sig")
+        dfAll = dfAll[["category","api","doi","title","url"]]
+        dfAll["search_term"]= search_terms
+
+        dfAll.to_csv(file_path, index=False, encoding="utf-8-sig")
+
 
 
 def main (search_terms, limit):
