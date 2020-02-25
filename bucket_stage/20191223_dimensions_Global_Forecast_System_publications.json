@@ -1229,6 +1229,7 @@
                 }
             ]
         },
+        "abstract": "Abstract A sensitivity-based initial condition (IC) perturbation method for convection-permitting ensemble forecasts (CPEFs) is presented and preliminarily tested. The distribution of the perturbations is based on the sensitivity patterns from the ensemble sensitivity analysis (ESA) and the fast-growing perturbations calculated by the breeding growth mode (BGM). Two convective precipitation cases are used to quantitatively and qualitatively evaluate the impacts of the perturbation schemes on the ensemble forecast skill based on the Weather Research and Forecasting (WRF) model. To generate the sensitivity-based IC perturbations, ESA is applied to the short-term convective precipitation cases to calculate the sensitivity patterns. The analysis reveals the influential factors related to the evolution of weather situations that impact the strength of the forecast precipitation. The sensitivity patterns are introduced to the IC perturbations by a sensitivity-based BGM (SeBGM) method proposed in this research, and the response of the forecast skill to different perturbation magnitudes is examined. Ensemble forecasts with sensitivity-based IC perturbations can adapt to changes in the weather regime and provide accurate simulations of the placement and strength of convective systems, leading to improvements in the precipitation forecast skill.",
         "authors": [
             "author-0c5a8b0615ca7ffca6cc",
             "author-d77d25a287ac77568740",
@@ -1881,6 +1882,7 @@
                 }
             ]
         },
+        "abstract": "Abstract This study is aimed to assess the performance of Numerical Weather Predication (NWP) model Weather Research and Forecasting (WRF) in simulating the season long rainfall pattern over the North-West Himalayan (NWH) region. For this purpose, two experiments are designed with identical initial conditions but varying cumulus physics options viz.; Kain-Fritsch (KF) and Multi-scale Kain-Fritsch (MSKF). WRF simulations have been carried out for multiple nested domains (45, 15 and 5 km) configuration for monsoon season of 2017. Model derived rainfall corresponding to two experiments has been evaluated against the gridded rainfall data prepared by India Meteorological Department (IMD) and satellite based GPM-IMERGE and INSAT-3D HE-rain. Present results unveiled that the KF scheme overestimates the amount of rainfall over the entire study domain; whereas, MSKF scheme is capable to simulate the magnitude of rainfall comparable to the observations. Model simulated rainfall corresponding to both the experiments yields stronger correlation with satellite based GPM-IMERG as compared to the IMD data. It is noted based on statistically robust Chow test that the WRF simulation with KF scheme estimates break point in the rainfall pattern at 1200 m whereas WRF simulation with MSKF scheme resolves break point at 2000 m which is in close agreement with the previous studies. Categorical statistics metrics and qualitative analysis of WRF simulations suggest that the scale aware cumulus scheme MSKF performs better in resolving monsoon season rainfall pattern over the rugged topography of the NWH region. Present study has implications for improved understanding of spatial pattern of monsoon rainfall over the NWH region.",
         "authors": [
             "author-f4b24fb146a7a13a6b85",
             "author-f01f12e76ca9c6419fb3",
@@ -3234,6 +3236,7 @@
                 }
             ]
         },
+        "abstract": "Abstract Coastal forecast systems are used for many purposes, including harbor management, search and rescue operations, and response to extreme events. However, the generation and operation of these systems is time-consuming, requires expertise in both information technologies and modeling of coastal processes, and needs dedicated computational power. The new service OPENCoastS overcomes these difficulties by generating on-demand coastal circulation forecast systems through a web platform with minimal user intervention. Using a web platform, the user is guided through seven simple steps to generate an operational forecast system for any coastal region. The only requirements are an unstructured grid of the study area and information on river flow, if applicable. The platform provides ocean and atmospheric forcings and data for model validation, and includes interfaces for results visualization and forecasts management. Forecasts are generated with the community model SCHISM, and computing resources are provided through the European Open Science Cloud.",
         "authors": [
             "author-cf93f17a1dbd7418024e",
             "author-b49b4f57a56dcad66630",
@@ -3900,6 +3903,7 @@
                 }
             ]
         },
+        "abstract": "Abstract On July 7th, 2017 numerous supercells affected the south – western part of Poland. Significant hail, severe wind gusts and one – tornado of estimated F2 intensity on the Fujita scale were reported. Thunderstorms developed in a warm sector within the low pressure trough. Moderate to high – shear and low to moderate buoyant environmental conditions led to rapid formation of supercells. The main aim of the study was to examine meteorological conditions which result in severe storms and to validate their projections in meteorological models. Supercells were detected with the use of the Polish radar system “POLRAD” run by the Institute of Meteorology and Water Management – National Research Institute (IMGW). Additionally, geostationary and polar satellite data were used in the study. The data were provided by NOAA and METEOSAT. Surface and upper air meteorological conditions were obtained from hourly observations from synoptic stations in Poland and atmospheric soundings from Lindenberg, Prague, Wroclaw and Prostejov. High – resolution models AROME, COSMO and the mesoscale model ALARO were analysed. The examination of the radar and satellite data yielded an abundance of sharp and classic severe convection signatures as a bounded weak echo region (BWER), hook echo and radial velocity couplets. The most intensive supercells lasted >2.5 h, with tops reaching 12 km, and reflectivity up to 67 dBz. Operational runs of ALARO, AROME and COSMO showed favourable for severe convection values of instability and wind shear. However, the models incorrectly simulated convection as multicellular and displaced it significantly.",
         "authors": [
             "author-ccef04eae9897eb08820",
             "author-fc11c4a7d07a199d82b1"
@@ -4504,6 +4508,7 @@
                 }
             ]
         },
+        "abstract": "Abstract This study explores the maximization of hydropower generation by optimizing reservoir operations based on short-term inflow forecasts derived from publicly available numerical weather prediction (NWP) models. Forecast fields from the NWP model of Global Forecast System (GFS) were used to force the Variable Infiltration Capacity (VIC) hydrologic model to forecast reservoir inflow for 1–16 days lead time. The optimization of reservoir operations was performed based on the forecast of inflow. The concept was demonstrated for two dams in the United States. Results showed that a significantly greater amount additional hydroelectric energy benefit can be derived consistently than the traditional operations without optimization and weather forecasts. Goals of flood control and dam safety were also not compromised when exploring opportunities for hydropower maximization. An alternate data-based technique was also demonstrated to improve the forecasting skill and efficiency. The study clearly underscores the additional value of weather forecasts that are available publicly and globally from NWP models for any dam location for hydropower maximization. Given the on-going effort to coordinate strategies for sustainable energy production from renewable energy sources, it is timely that this concept be expanded further to current hydropower dam sites around the world.",
         "authors": [
             "author-e7da6a9a9cfb6b3bdb39",
             "author-3aae06390b268fb5f455"
@@ -7395,6 +7400,7 @@
                 }
             ]
         },
+        "abstract": "Abstract Wind power forecast uncertainty exposes wind farms to volatile real-time electricity prices and increases wind power integration costs. Wind power forecast uncertainty could address these challenges and facilitate the process of siting suitable wind farm locations. In this study, the Analog Ensemble (AnEn) is employed to generate probabilistic wind speed forecasts at 80-m height using past forecast and analysis fields from the Global Forecast System (GFS). The AnEn predictions are used as proxy measurements for how difficult it is to estimate wind speed at different locations in the contiguous United States. The results show significant spatial variations in the wind speed error over the domain. This measure of uncertainty is paramount when determining the most suitable locations for large wind farms. We observed that locations with higher average wind speed are associated with larger degrees of forecast uncertainty which increases the difficulty to predict wind speed at these locations. Our analysis showed high correlation between forecast uncertainty and wind power output volatility which indicates higher risk of operating in real time electricity markets for wind farms located in areas with higher wind speeds. Further, a simple risk analysis using Sharpe ratio was performed to evaluate the riskiness of wind farms in the U.S.",
         "authors": [
             "author-8b693599cbaf5f6dfdb0",
             "author-2dd627ea807dd4c0a588",
@@ -9541,6 +9547,7 @@
                 }
             ]
         },
+        "abstract": "To better understand how model resolution affects the formation of Arctic boundary layer clouds, we investigated the influence of grid spacing on simulating cloud streets that occurred near Utqiagvik (formerly Barrow), Alaska, on 2 May 2013 and were observed by MODIS (the Moderate Resolution Imaging Spectroradiometer). The Weather Research and Forecasting model was used to simulate the clouds using nested domains with increasingly fine resolution ranging from a horizontal grid spacing of 27 km in the boundary-layer-parameterized mesoscale domain to a grid spacing of 0.111 km in the large-eddy-permitting domain. We investigated the model-simulated mesoscale environment, horizontal and vertical cloud structures, boundary layer stability, and cloud properties, all of which were subsequently used to interpret the observed roll-cloud case. Increasing model resolution led to a transition from a more buoyant boundary layer to a more shear-driven turbulent boundary layer. The clouds were stratiform-like in the mesoscale domain, but as the model resolution increased, roll-like structures, aligned along the wind field, appeared with ever smaller wavelengths. A stronger vertical water vapor gradient occurred above the cloud layers with decreasing grid spacing. With fixed model grid spacing at 0.333 km, changing the model configuration from a boundary layer parameterization to a large-eddy-permitting scheme produced a more shear-driven and less unstable environment, a stronger vertical water vapor gradient below the cloud layers, and the wavelengths of the rolls decreased slightly. In this study, only the large-eddy-permitting simulation with gird spacing of 0.111 km was sufficient to model the observed roll clouds.摘要为了更好地了解模型分辨率如何影响北极边界层云的形成,我们以MODIS(中分辨率成像光谱仪)的观测为参考研究了网格间距对模拟 2013 年 5 月 2 日发生在阿拉斯加 Utqiaġvik(原巴罗)附近的云街道的影响。天气研究和预报模型WRF被用于用嵌套区域模拟云,其分辨率从边界层参数化中尺度区域的水平网格间距27公里到大涡允许区域的网格间距0.111公里不等。我们研究了模型模拟的中尺度环境、水平和垂直云结构、边界层稳定性和云属性,所有这些特性后来都用于解释观察到的卷云案例。模型分辨率的提高导致从浮力驱动为主的边界层过渡到剪切驱动主导的湍流边界层。云在中尺度域中以层云出现,但随着模型分辨率的提高,向风场看齐的卷状结构呈越来越短的波长。伴随着网格间距的减小,云层上方出现更强的垂直水汽梯度。当模型网格间距固定在0.333km时,将模型配置从边界层参数化改为大涡允许方案时,产生了更大的切变驱动和更少的不稳定环境,云层下方的垂直水汽梯度更强,卷波波长略有减小。在本研究中,只有网格间距为0.111km的大涡模拟才足以模拟观测到的卷云。",
         "authors": [
             "author-2b86ac7ae5d4775c73ca",
             "author-3b51814de052fbcf958d",
@@ -10496,6 +10503,7 @@
                 }
             ]
         },
+        "abstract": "Abstract An understanding of the growth in surface concentration of ozone and its adverse health effects are important for environmental departments to make sensible decisions for future. Our hybrid model CEEMD+CRJ+MLR is the first attempt to improve CRJ in the field of air pollution prediction and ozone forecasting. For this novel framework, CEEMD has been adopted to decompose original MDA8_O3 history into several sub-series. After that, for each IMF, CRJ is used to extract time-series features. These time-series features are fed into appropriate machine learning methods for prediction. In addition to that, residual is also predicted through normal methods. A model, which is trained with data from 1 May 2014 to 31 May 2017, is validated with data from 1 June 2017 to 30 May 2018, obtained from four stations of Beijing, China. The hybrid model has input variables which are combined with related pollutants, meteorological forecasts and UV index, and predict maximum daily 8-h average ozone (MDA8_O3) concentration in different time intervals. Our experimental results show that the CEEMD+CRJ+MLR model exhibits the best performance compared with other benchmark models generally. For four stations, IA, MAE, RMSE and MAPE average of +1 (forecasting 1 day in advance) are 0.9763, 12.84, 17.81 and 18.5% respectively and of +2 are 0.9679, 15.17, 20.15 and 23.86% respectively. Especially in the case of forecasting heavy ozone concentration (Level III), a critical issue in air pollution predictions, the classification rate of our hybrid model has improved from 29.4% (for CRJ) to 83.4% in +1 and from 38% (for CRJ) to 73% in +2. For long time forecasting, the CEEMD+CRJ+MLR also shows its outstanding performance in whole levels and level III ozone concentration. Our hybrid model, with accurate and stable results, is highly effective for MDA8_O3 concentration prediction and can efficiently be applied in other regions.",
         "authors": [
             "author-bf16da39bab3b903eaf3",
             "author-e29ecec7e4d17d6ab3e9",
@@ -11173,6 +11181,7 @@
                 }
             ]
         },
+        "abstract": "Anomalies in local weather cause inaccuracies in daily predictions using meso-scale numerical models. Statistical methods using historical data can adapt the forecasts to specific local conditions. Differential polynomial network is a recent machine learning technique used to develop post-processing models. It decomposes and substitutes for the general linear Partial Differential Equation being able to describe the local atmospheric dynamics which is too complex to be modelled by standard soft-computing. The complete derivative formula is decomposed, using a multi-layer polynomial network structure, into specific sub-PDE solutions of the unknown node sum functions. The sum PDE models, using a polynomial PDE substitution based on Operational Calculus, represent spatial data relations between the relevant meteorological inputs->output quantities. The proposed forecasts post-processing is based on the 2-stage approach of the Perfect Prog method used routinely in meteorology. The original procedure is extended with initial estimations of the optimal numbers of training days whose latest data observations are used to elicit daily prediction models in the 1st stage. Determination of the optimal models initialization time allows for improvements in the middle-term numerical forecasts of wind speed in prevailing more or less settled weather. In the 2nd stage the correction model is applied to forecasts of the training input variables to calculate 24-h prediction series of the target wind speed at the corresponding time.",
         "authors": [
             "author-da31be2e5cd13d71129d",
             "author-4a970883a744818909cc",
@@ -15551,6 +15560,7 @@
                 }
             ]
         },
+        "abstract": "Over the last decade, near real-time analysis of GPS data has become a well-established atmospheric observing tool, primarily coordinated by the EIG EUMETNET GPS Water Vapour Programme (E-GVAP) in Europe. In the near future, four operational GNSS will be available for commercial and scientific applications with atmospheric science benefiting from new signals from up to 60 satellites observed at any one place and time, however, many challenges remain regarding their optimal combined utilization. Besides raw data streaming, recent availability of precise real-time orbit and clock corrections enable wide utilization of autonomous Precise Point Positioning (PPP), which is particularly efficient for high-rate, real-time and multi-GNSS analyses.",
         "authors": [
             "author-130af5c56ff17754fd09",
             "author-f0b34edc9d15ef5affe5",
@@ -17839,6 +17849,7 @@
                 }
             ]
         },
+        "abstract": null,
         "authors": [
             "author-7adae16322956027b7a7",
             "author-d1b15a1c402c9e10ae4f",
@@ -22131,6 +22142,7 @@
                 }
             ]
         },
+        "abstract": "Using hindcast and forecast data from the National Centers for Environmental Prediction (NCEP) climate forecast system version 2 (CFSv2) for the period 1982–2017, we comprehensively assess the predictability of the climatology, interannual variability, and dominant modes of the wintertime 500 hPa height over Ural-Siberia (40–80° N and 30–100° E). Although the climatic mean 500 hPa height over Ural-Siberia simulated by NCEP CFSv2 has a negative bias, especially over the eastern part of the region, NCEP CFSv2 well predicts the spatial distribution of the two major modes (EOF1 and EOF2) over this region 2 months in advance. The forecasting skill of the principal component (PC) of the two major modes, PC1 (PC2), is highest 1 (0) month in advance, where the linear correlation coefficient between the predicted and observed time series reaches + 0.36 (+ 0.67), exceeding the 95% confidence level. Conversely, the forecasting skill of PC1 (PC2) is very low 0 (1) month in advance. The main reason for the poorer (better) prediction of PC1 0 (1) month in advance is associated with a less (more) accurate response of the Eurasian pattern to SST anomalies over the southwestern Atlantic. For PC2, the better (poorer) prediction of PC2 0 (1) month in advance may be due to more (less) accurate responses of the stratospheric polar vortex and the Scandinavian pattern to the dipole SST anomalies over the North Pacific. These results are useful for evaluating the predictability of the East Asian winter climate.",
         "authors": [
             "author-150396315c5b90dae048",
             "author-85281bde0c0eccf1e43a",
@@ -22380,6 +22392,7 @@
                 }
             ]
         },
+        "abstract": null,
         "authors": [
             "author-0939892ff6d671eecf5e",
             "author-7be1885dd0c151de379d",
@@ -24119,6 +24132,7 @@
                 }
             ]
         },
+        "abstract": null,
         "authors": [
             "author-852e4929467002aed546",
             "author-ab894ae6747f36822fbe",
@@ -24388,6 +24402,7 @@
                 }
             ]
         },
+        "abstract": null,
         "authors": [
             "author-343f8d36587cbd25d009",
             "author-e29ecec7e4d17d6ab3e9",
@@ -24867,6 +24882,7 @@
                 }
             ]
         },
+        "abstract": "A scheme for wind-speed simulation during typhoons in Taiwan is highly desirable, considering the effects of the powerful winds accompanying the severe typhoons. The developed combination of deep learning (DL) algorithms with a weather-forecasting numerical model can be used to determine wind speed in a rapid simulation process. Here, the Weather Research and Forecasting (WRF) numerical model was employed as the numerical simulation-based model for precomputing solutions to determine the wind velocity at arbitrary positions where the wind cannot be measured. The deep neural network (DNN) was used for constructing the DL-based wind-velocity simulation model. The experimental area of Northern Taiwan was used for the simulation. Regarding the complex typhoon system, the collected data comprised the typhoon tracks, FNL (Final) Operational Global Analysis Data for the WRF model, typhoon characteristics, and ground weather data. This study included 47 typhoon events that occurred over 2000–2017. Three measures were used to analyze the models for identifying optimal performance levels: Mean absolute error, root mean squared error, and correlation coefficient. This study compared observations with the WRF numerical model and DNN model. The results revealed that (1) simulations by using the WRF-based models were satisfactorily consistent with the observed data and (2) simulations by using the DNN model were considerably consistent with those of the WRF-based model. Consequently, the proposed DNN combined with WRF model can be effectively used in simulations of wind velocity at arbitrary positions of study area.",
         "authors": [
             "author-6161586a14355af63c01"
         ],
@@ -26504,6 +26520,7 @@
                 }
             ]
         },
+        "abstract": "ABSTRACTAnimations have become a frequently utilized illustration technique on maps but changes in their graphical loading remain understudied in empirical geovisualization and cartographic researc...",
         "authors": [
             "author-1d093316e84b9171fa87",
             "author-c668f6073c5f2124d010"
@@ -28501,6 +28518,7 @@
                 }
             ]
         },
+        "abstract": "Contrails are one of the driving contributors to global warming, induced by aviation. The quantification of the impact of contrails on global warming is nontrivial and requires further in-depth investigation. In detail, condensation trails might even change the algebraic sign between a cooling and a warming effect in an order of magnitude, which is comparable to the impact of aviation-emitted carbon dioxides and nitrogen oxides. This implies the necessity to granularly consider the environmental impact of condensation trails in single-trajectory optimization tools. The intent of this study is the elaboration of all significant factors influencing on the net effect of single condensation trails. Possible simplifications will be proposed for a consideration in single-trajectory optimization tools. Finally, the effects of the most important impact factors, such as latitude, time of the year, and time of the day, wind shear, and atmospheric turbulence as well as their consideration in a multi-criteria trajectory optimization tool are exemplified. The results can be used for an arbitrary trajectory optimization tool with environmental optimization intents.",
         "authors": [
             "author-4604c87d8fd6fbc5e9c3",
             "author-134b76cfa5c630222fe4"
@@ -32982,6 +33000,7 @@
                 }
             ]
         },
+        "abstract": "KORUS-AQ was an international cooperative air quality field study in South Korea that measured local and 30 remote sources of air pollution affecting the Korean peninsula during May-June 2016. Some of the largest aerosol mass concentrations were measured during a Chinese haze transport event (May 24). Air quality forecasts using the WRF-Chem model with aerosol optical depth (AOD) data assimilation captured AOD during this pollution episode but over-predicted surface particulate matter concentrations, especially PM2.5 often by a factor of 2 or larger. Analysis revealed multiple sources of model deficiency related to the calculation of optical properties from aerosol mass that explain these discrepancies. Using 35 in-situ observations of aerosol size and composition as inputs to the optical properties calculations showed that using a low resolution size bin representation under-estimates the efficiency at which aerosols scatter and absorb light (mass extinction https://doi.org/10.5194/acp-2019-1022 Preprint. Discussion started: 25 November 2019 c © Author(s) 2019. CC BY 4.0 License.",
         "authors": [
             "author-6f4171b678f0da78a616",
             "author-d8ce55337bff5f49e175",
@@ -36294,6 +36313,7 @@
                 }
             ]
         },
+        "abstract": "The coevolution of the Indian Ocean dipole (IOD) and El Niño-Southern Oscillation (ENSO) is examined using both observational data and coupled global climate model simulations. The covariability of IOD and ENSO is analyzed by applying the extended empirical orthogonal function (EEOF) method to the surface and subsurface ocean temperatures in the tropical Indian Ocean and western Pacific. The first EEOF mode shows the evolution of IOD that lags ENSO, whereas the second mode exhibits the transition from a dipole mode to a basin-wide mode in the tropical Indian Ocean that leads ENSO. The lead-lag relationships between IOD and ENSO are consistent with two-way interactions between them. A comparison between two 500-year model simulations with and without ENSO shows that ENSO can enhance the variability of IOD at interannual time scale. The influence of ENSO on the IOD intensity is larger for the eastern pole than for the western pole, and further, is stronger in the negative IOD phase than in the positive phase. The influence of IOD on ENSO is demonstrated by the improvement of ENSO prediction using sea surface temperature (SST) in the tropical Indian Ocean as an ENSO precursor. The improvement of the ENSO forecast skill is found at both a short lead time (0 month) and long leads (10–15 months). The SST in the western pole has more predictive value than in the eastern pole. The eastward propagation of surface and subsurface temperature signals from the western Indian Ocean that precedes the development of heat content anomaly in the tropical western Pacific is the key for extending the lead time for ENSO prediction. Our results are consistent with previously reported findings but highlight the spatial–temporal evolution of the ENSO-IOD system. It is also illustrated that IOD would have been more helpful in predicting the 1997/98 El Niño than the 2015/16 El Niño.",
         "authors": [
             "author-5be73e7d804efd768bf2",
             "author-4fd5041adf1c930d369c",
@@ -40990,6 +41010,7 @@
                 }
             ]
         },
+        "abstract": "Atmospheric chemistry transport models (ACTMs) are extensively used to provide scientific support for the development of policies to mitigate the detrimental effects of air pollution on human health and ecosystems. Therefore, it is essential to quantitatively assess the level of model uncertainty and to identify the model input parameters that contribute the most to the uncertainty. For complex process-based models, such as ACTMs, uncertainty and global sensitivity analyses are still challenging and are often limited by computational constraints due to the requirement of a large number of model runs. In this work, we demonstrate an emulator-based approach to uncertainty quantification and variance-based sensitivity analysis for the EMEP4UK model (regional application of the European Monitoring and Evaluation Programme Meteorological Synthesizing Centre-West). A separate Gaussian process emulator was used to estimate model predictions at unsampled points in the space of the uncertain model inputs for every modelled grid cell. The training points for the emulator were chosen using an optimised Latin hypercube sampling design. The uncertainties in surface concentrations of O3, NO2, and PM2.5 were propagated from the uncertainties in the anthropogenic emissions of NOx , SO2, NH3, VOC, and primary PM2.5 reported by the UK National Atmospheric Emissions Inventory. The results of the EMEP4UK uncertainty analysis for the annually averaged model predictions indicate that modelled surface concentrations of O3, NO2, and PM2.5 have the highest level of uncertainty in the grid cells comprising urban areas (up to ±7 %, ±9 %, and ±9 %, respectively). The uncertainty in the surface concentrations of O3 and NO2 were dominated by uncertainties in NOx emissions combined from non-dominant sectors (i.e. all sectors excluding energy production and road transport) and shipping emissions. Additionally, uncertainty in O3 was driven by uncertainty in VOC emissions combined from sectors excluding solvent use. Uncertainties in the modelled PM2.5 concentrations were mainly driven by uncertainties in primary PM2.5 emissions and NH3 emissions from the agricultural sector. Uncertainty and sensitivity analyses were also performed for five selected grid cells for monthly averaged model predictions to illustrate the seasonal change in the magnitude of uncertainty and change in the contribution of different model inputs to the overall uncertainty. Our study demonstrates the viability of a Gaussian process emulator-based approach for uncertainty and global sensitivity analyses, which can be applied to other ACTMs. Conducting these analyses helps to increase the confidence in model predictions. Additionally, the emulators created for these analyses can be used to predict the ACTM response for any other combination of perturbed input emissions within the ranges set for the original Latin hypercube sampling design without the need to rerun the ACTM, thus allowing for fast exploratory assessments at significantly reduced computational costs.",
         "authors": [
             "author-af060a34cc51ca186319",
             "author-202d954f373fb5b96c50",
@@ -42567,6 +42588,7 @@
                 }
             ]
         },
+        "abstract": "Abstract. In this paper we compare two different methods of estimating the error\nvariances of two or more independent data sets. One method, called the\n“three-cornered hat” (3CH) method, requires three data sets. Another\nmethod, which we call the “two-cornered hat” (2CH) method, requires only\ntwo data sets. Both methods have been used in previous studies to estimate\nthe error variances associated with a number of physical and geophysical data\nsets. A key assumption in both methods is that the errors of the data sets\nare not correlated, although some studies have considered the effect of the\npartial correlation of representativeness errors in two or more of the data\nsets. We compare the 3CH and 2CH methods using a simple model to simulate\nthree and two data sets with various error correlations and\nbiases. With this model, we know the exact error variances and\ncovariances, which we use to assess the accuracy of the 3CH and 2CH\nestimates. We examine the sensitivity of the estimated error variances\nto the degree of error correlation between two of the data sets as\nwell as the sample size. We find that the 3CH method is less sensitive\nto these factors than the 2CH method and hence is more accurate. We\nalso find that biases in one of the data sets has a minimal effect on\nthe 3CH method, but can produce large errors in the 2CH method.",
         "authors": [
             "author-5368e98a4fdd0e9cca60",
             "author-3d0b475bddb417b1b2ce"
@@ -44525,6 +44547,7 @@
                 }
             ]
         },
+        "abstract": "In this paper we show how multiple data sets, including observations and models, can be combined using the N -cornered hat method to estimate vertical profiles of the errors of each system. Using data from 2007, we estimate the error variances of radio occultation, radiosondes, ERA-Interim and GFS model data sets at four radiosonde locations in the tropics and subtropics. A key assumption is the neglect of error covariances among the different data sets, and we examine the consequences of this assumption on the resulting error estimates.",
         "authors": [
             "author-3d0b475bddb417b1b2ce",
             "author-5368e98a4fdd0e9cca60"
@@ -48412,6 +48435,7 @@
                 }
             ]
         },
+        "abstract": "A semi analytic framework for simulating the effects of atmospheric seeing in Adaptive Optics systems on an 8-m telescope is developed with the intention of understanding the origin of the wind-butterfly, a characteristic twolobed halo in the PSF of AO imaging. Simulations show that errors in the compensated phase on the aperture due to servo-lag have preferential direction orthogonal to the direction of wind propagation which, when Fourier Transformed into the image plane, appear with their characteristic lemniscate shape along the wind direction. We develop a metric to quantify the effect of this aberration with the fractional standard deviation in an annulus centered around the PSF, and use telescope pointing to correlate this effect with data from an atmospheric models, the NOAA GFS. Our results show that the jet stream at altitudes of 100-200 hPa (equivalently 10-15 km above sea level) is highly correlated (13.2σ) with the strong butterfly, while the ground wind and other layers are more or less uncorrelated.",
         "authors": [
             "author-5137ffce51a462069268",
             "author-731246fd372e3f3ba8ea",
@@ -54487,6 +54511,7 @@
                 }
             ]
         },
+        "abstract": "Carbon monoxide, CO, and fine atmospheric particulate matter, PM 2.5 , are analyzed over the Guinean Gulf coastal region using the WRF-CHIMERE modeling system and observations during the beginning of the monsoon 2006 (from May to July), corresponding to the Africa Multidisciplinary Monsoon Analysis (AMMA) campaign period. Along the Guinean Gulf coast, the contribution of long-range pollution transport to CO or PM 2.5 concentrations is important. The contribution of desert dust PM 2.5 concentration decreases from  ∼ 38 % in May to  ∼ 5 % in July. The contribution of biomass burning PM 2.5 concentration from Central Africa increases from  ∼ 10 % in May to  ∼ 52 % in July. The anthropogenic contribution is  ∼ 30 % for CO and  ∼ 10 % for PM 2.5 during the whole period. When focusing only on anthropogenic pollution, frequent northward transport events from the coast to the Sahel are associated with periods of low wind and no precipitation. In June, anthropogenic PM 2.5 and CO concentrations are higher than in May or July over the Guinean coastal region. Air mass dynamics concentrate pollutants emitted in the Sahel due to a meridional atmospheric cell. Moreover, a part of the pollution emitted remotely at the coast is transported and accumulated over the Sahel. Focusing the analysis on the period 8–15 June, anthropogenic pollutants emitted along the coastline are exported toward the north especially at the beginning of the night (18:00 to 00:00 UTC) with the establishment of the nocturnal low level jet. Plumes originating from different cities are mixed for some hours at the coast, leading to high pollution concentration, because of specific disturbed meteorological conditions.",
         "authors": [
             "author-2effb65ac8f9f4cf4fcd",
             "author-fa217d12b2625bafe9aa",
@@ -57114,6 +57139,7 @@
                 }
             ]
         },
+        "abstract": "Discharge events induced by mixture of snowmelt and rainfall are strongly nonlinear due to consequences of rain-on-snow phenomena and snowmelt dependence on energy balance. However, they received relatively little attention, especially in high-resolution discharge forecasting. In this study, we use Random Forests models for 24 h discharge forecasting in 1 h resolution in a 105.9 km 2 urbanized catchment in NE Poland: Biala River. The forcing data are delivered by Weather Research and Forecasting (WRF) model in 1 h temporal and 4 × 4 km spatial resolutions. The discharge forecasting models are set in two scenarios with snowmelt and rainfall and rainfall only predictors in order to highlight the effect of snowmelt on the results (both scenarios use also pre-forecast discharge based predictors). We show that inclusion of snowmelt decrease the forecast errors for longer forecasts’ lead times. Moreover, importance of discharge based predictors is higher in the rainfall only models then in the snowmelt and rainfall models. We conclude that the role of snowmelt for discharge forecasting in mixed snowmelt and rainfall environments is in accounting for nonlinear physical processes, such as initial wetting and rain on snow, which cannot be properly modelled by rainfall only.",
         "authors": [
             "author-3a5132d241bbf0926ce7",
             "author-c6292b8ab643b725a6fc"
@@ -59730,6 +59756,7 @@
                 }
             ]
         },
+        "abstract": "This study investigates the roles played by model resolution and microphysics parameterizations in the well-known uncertainties or errors in simulations of clouds, precipitation, and their interactions with aerosols by the numerical weather prediction (NWP) models. For this investigation, we used cloud-system-resolving model (CSRM) simulations as benchmark simulations that adopt high-resolution and full-fledged microphysical processes. These simulations were evaluated against observations, and this evaluation demonstrated that the CSRM simulations can function as benchmark simulations. Comparisons between the CSRM simulations and the simulations at the coarse resolutions that are generally adopted by current NWP models indicate that the use of coarse resolutions as in the NWP models can lower not only updrafts and other cloud variables (e.g., cloud mass, condensation, deposition, and evaporation) but also their sensitivity to increasing aerosol concentration. The parameterization of the saturation process plays an important role in the sensitivity of cloud variables to aerosol concentrations. while the parameterization of the sedimentation process has a substantial impact on how cloud variables are distributed vertically. The variation in cloud variables with resolution is much greater than what happens with varying microphysics parameterizations, which suggests that the uncertainties in the NWP simulations are associated with resolution much more than microphysics parameterizations.",
         "authors": [
             "author-7bcc1430cbc6230bf67b",
             "author-7d968b8c89a1fe448952",
@@ -61705,6 +61732,7 @@
                 }
             ]
         },
+        "abstract": "ABSTRACTRemote monitoring of krypton-85 from undeclared reprocessing of spent nuclear fuel could be part of a fissile material cut-off treaty, could serve as an additional measure for the IAEA safeguards system to monitor compliance with the Non-Proliferation of Nuclear Weapons Treaty, and could be an important verification tool of a reprocessing moratorium or Nuclear Weapon Free Zone in the Middle East or East Asia. Atmospheric transport modelling is applied to determine the area over which krypton-85 emissions from undeclared reprocessing activities at various levels in the Middle East would still be detectable against the high krypton-85 background from reprocessing in historical weapon programs in the United States and USSR as well as more recent and ongoing commercial reprocessing in France and the U.K. Analysis of annual wind flow over Israel's Dimona facility, the only operating reprocessing site in the region, suggests that a known reprocessing plant could be monitored with one or a few fixed moni...",
         "authors": [
             "author-d987d4556c2584bd4cd2"
         ],

@@ -51,6 +51,11 @@ def propagate_view (pub, graph, override):
     if len(pdf_list) > 0:
         view["pdf"] = pdf_list[0]
 
+    # add the abstract, if available
+    if "abstract" in pub:
+        if pub["abstract"] and len(pub["abstract"]) > 0:
+            view["abstract"] = pub["abstract"]
+
     # select the best journal
     journal_list = graph.journals.extract_journals(pub)
     journal = graph.journals.select_best_entity(journal_list)
@@ -64,7 +69,7 @@ def propagate_view (pub, graph, override):
             # omit this publication from the public corpus
             view["omit"] = True
 
-        for key in ["doi", "pdf", "journal", "url"]:
+        for key in ["abstract", "doi", "pdf", "journal", "url"]:
             if key in override[title]:
                 view[key] = override[title][key]
 
