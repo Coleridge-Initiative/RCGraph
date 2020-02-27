@@ -186,10 +186,10 @@ def api_implements_full_text_search (api):
     try: #__getattribute__ raises an exception when "full_text_search" is missing
         #checks if api.full_text_search is defined and is a method.
         if callable(api.__getattribute__("full_text_search")):
-            print(api.name, "implements full_text_search")
+            # print(api.name, "implements full_text_search")
             implements = True
     except Exception:
-        print(api.name, "does NOT implement full_text_search")
+        # print(api.name, "does NOT implement full_text_search")
         implements = False
 
     return implements
@@ -204,25 +204,22 @@ def parse_results (apiName, results):
     elif apiName == "PubMed":
         search_hits = parse_pubmed(results)
     else:
-        search_hits = results
+        search_hits = None
+        print(apiName, "without a parser...skipping results")
 
     return search_hits
 
 
-def get_api_list (schol):
-    # TODO get a list of all APIs implemented without hardcoding it
+def get_api_list_with_full_text_search (schol):
+
     api_list = []
 
-    #api_list.append(schol.crossref) # TODO: without parser
-    api_list.append(schol.pubmed)
-    api_list.append(schol.openaire)
-    api_list.append(schol.dimensions)
+    #get all atributes of schol object
+    dict = schol.__dict__
 
-    api_list.append(schol.semantic)
-    api_list.append(schol.dissemin)
-    api_list.append(schol.ssrn)
-    api_list.append(schol.europepmc)
-    api_list.append(schol.repec)
+    for key, value in dict.items():
+        if api_implements_full_text_search(value):
+            api_list.append(value)
 
     return api_list
 
@@ -278,13 +275,14 @@ def main (search_terms, limit):
     search_hits = defaultdict(list)
 
     # call full_text_search on all APIs that implement it
-    for api in get_api_list(schol):
-        if api.has_credentials() and api_implements_full_text_search(api):
+    for api in get_api_list_with_full_text_search(schol):
+        if api.has_credentials():
             try:
                 meta, timing, message = api.full_text_search(search_term=search_terms, limit=limit)
 
                 # if not empty, parse the result and get a list of elements returned by the API
                 if meta:
+                    print(api.name, "returned",len(meta),"hits")
                     results = parse_results(api.name, meta)
 
                     if results:
