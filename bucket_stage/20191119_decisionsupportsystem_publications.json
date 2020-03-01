@@ -785,6 +785,14 @@
                 }
             ]
         },
+        "abstract": "Abstract This paper proposes a novel model to cluster similar load consumption patterns and identify time periods with similar consumption levels. The model represents the customer’s load pattern as an image and takes into account the load variation and uncertainty by using exponential intuitionistic fuzzy entropy. The advantage is that the proposed method can handle the uncertain nature of customer’s load, by adding a hesitation index to the membership and non-membership functions. A multi-level representation of the load patterns is then provided by creating specific bands for the load pattern amplitudes using intuitionistic fuzzy divergence-based thresholding. The typical load pattern is then determined for each customer. In order to reduce the number of features to represent each load pattern with respect to the time-domain data, the discrete wavelet transform is used to extract some spectral features. To cope with the data representation with fuzzy rules, the fuzzy c-means is implemented as the clustering algorithm. The proposed approach also identifies the time periods associated to different load pattern levels, providing useful hints for demand side management policies. The proposed method has been tested on ninety low voltage distribution grid customers, and its superior effectiveness with respect to the classical k-means algorithm has been represented by showing the better values obtained for a set of clustering validity indicators. The combination of load pattern clusters and time periods associated with the segmented load pattern amplitudes provides exploitable information for the efficient design and implementation of innovative energy services such as demand response for different customer categories.",
+        "authors": [
+            "author-f1473ba6c8f6ae9a9be8",
+            "author-314fc68f12bd6cc79650",
+            "author-2699a1acc1f33f26a2fe",
+            "author-f0faed81f6af47e1e7a5",
+            "author-0a6914f666f1150244ad"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -1540,6 +1548,14 @@
                 }
             ]
         },
+        "abstract": "Abstract In this paper, a post-disaster restoration planning (PDRP) model for critical power system infrastructure is proposed. The model intends to find the optimal repair and activation schedule for damaged components so that the system load accommodation capability is maximized and the makespan of restoration process is minimized. The model takes into account the effect of adverse weather on the component repair process and a time-varying repair velocity function model is proposed to obtain the time-varying repair duration (TVRD) of the damaged component. The sequence-dependent repairing period (SDRP) of damaged components can be formed by combining TVRD and the transportation time of resources, and embedded into the PDRP model. The proposed model also allows the repair units to perform repair work on arbitrary damage component, not just the damage components in their routine service area. As a result, the maintenance efficiency is maximized. A two-stage bi-pheromone heuristic method is developed to efficiently solve the proposed PDRP model. The sequence position adherence information of each repair task and the relationship between two adjacent tasks are used in the search so that the solution time of the PDRP model is avoided from increasing exponentially with the problem size. The IEEE-118 and IEEE-30 bus test system are used for case studies to validate the proposed model and method. In addition, advantages of considering the sequence dependent repairing period are presented.",
+        "authors": [
+            "author-8951f77515d8d76fbc0e",
+            "author-5e99211d52b86a0be5f8",
+            "author-4dda7f4c4f6fc0b3a741",
+            "author-e3d41bdc3fbf5cc54713",
+            "author-c968fb52f9fd47cb4cff"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -1717,6 +1733,11 @@
                 }
             ]
         },
+        "abstract": null,
+        "authors": [
+            "author-6ff4c3d8232c2e05b7ee",
+            "author-8c6ac1b3ac43af8e6ad4"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -8427,6 +8448,14 @@
                 }
             ]
         },
+        "abstract": "Despite significant successes achieved in knowledge discovery, traditional machine learning methods may fail to obtain satisfactory performances when dealing with complex data, such as imbalanced, high-dimensional, noisy data, etc. The reason behind is that it is difficult for these methods to capture multiple characteristics and underlying structure of data. In this context, it becomes an important topic in the data mining field that how to effectively construct an efficient knowledge discovery and mining model. Ensemble learning, as one research hot spot, aims to integrate data fusion, data modeling, and data mining into a unified framework. Specifically, ensemble learning firstly extracts a set of features with a variety of transformations. Based on these learned features, multiple learning algorithms are utilized to produce weak predictive results. Finally, ensemble learning fuses the informative knowledge from the above results obtained to achieve knowledge discovery and better predictive performance via voting schemes in an adaptive way. In this paper, we review the research progress of the mainstream approaches of ensemble learning and classify them based on different characteristics. In addition, we present challenges and possible research directions for each mainstream approach of ensemble learning, and we also give an extra introduction for the combination of ensemble learning with other machine learning hot spots such as deep learning, reinforcement learning, etc.",
+        "authors": [
+            "author-dc629845cab5e4d559c1",
+            "author-f10afafa75f75c705f30",
+            "author-a052c7067cedb1100421",
+            "author-367dd569528dbafed242",
+            "author-4f0d502600300d0c7574"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -9198,6 +9227,13 @@
                 }
             ]
         },
+        "abstract": "Abstract Portfolio theory is an important foundation for portfolio management which is a well-studied subject yet not fully conquered territory. This paper proposes a mixed method consisting of long short-term memory networks and mean-variance model for optimal portfolio formation in conjunction with the asset preselection, in which long-term dependences of financial time-series data can be captured. The experiment uses a large volume of sample data from the UK Stock Exchange 100 Index between March 1994 and March 2019. In the first stage, long short-term memory networks are used to forecast the return of assets and select assets with higher potential returns. After comparing the outcomes of the long short-term memory networks against support vector machine, random forest, deep neural networks, and autoregressive integrated moving average model, we discover that long short-term memory networks are appropriate for financial time-series forecasting, to beat the other benchmark models by a very clear margin. In the second stage, based on selected assets with higher returns, the mean-variance model is applied for portfolio optimisation. The validation of this methodology is carried out by comparing the proposed model with the other five baseline strategies, to which the proposed model clearly outperforms others in terms of the cumulative return per year, Sharpe ratio per triennium as well as average return to the risk per month of each triennium. i.e. potential returns and risks.",
+        "authors": [
+            "author-6394e6c5394edc910f6c",
+            "author-c968fb52f9fd47cb4cff",
+            "author-cc379baae31e6782669d",
+            "author-9947ca5d7bdcc1dac187"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -9927,6 +9963,13 @@
                 }
             ]
         },
+        "abstract": null,
+        "authors": [
+            "author-c4ed17238fa1b2a99017",
+            "author-6344bec2db37748b2b1d",
+            "author-54ea7ff2f81b38309437",
+            "author-67201694fb3ed06debfc"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -10658,6 +10701,13 @@
                 }
             ]
         },
+        "abstract": "Abstract The purpose of this study is to explore factors contributing to users' reviewing effort in the online review platform and understand the mechanism behind the effect. Based on a mixed method including secondary data analysis and experimental data analysis, the results indicate the following. (1) A user receiving more managerial responses tends to exert more reviewing effort. (2) The number of high-quality user opinions (i.e., expert reviews) for a hotel negatively moderates the influence of the number of managerial responses on user reviewing effort. (3) The sense of reciprocity mediates the influence of the number of managerial responses on future reviewing effort. (4) The mediation process is attenuated amongst users facing numerous high-quality user opinions. This study contributes to the literature of managerial response and online user engagement in the context of travel websites.",
+        "authors": [
+            "author-0b131d2aad0d75fff72e",
+            "author-2b86ac7ae5d4775c73ca",
+            "author-d34a6e695521e22b5818",
+            "author-6ca41c255438271f487a"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -11354,6 +11404,13 @@
                 }
             ]
         },
+        "abstract": "Abstract Portfolio management is a series of processes that maximize returns and minimize risk by allocating assets efficiently. Along with the developments in machine learning technology, it has been studied to apply machine learning methods to prediction-based portfolio management. However, such methods have a few limitations. First, they do not consider the relations between assets for the prediction. In addition, the studies commonly focus on the prediction accuracy, neglecting the construction of portfolios. Furthermore, the methods have usually been evaluated with index data, which hardly represent actual prices to buy or sell an asset. To overcome these problems, Exchange Traded Funds (ETFs) are employed for base assets for the evaluation, and we propose a two-stage deep learning framework, called Grouped-ETFs Model (GEM), with a joint cost function. The GEM is designed to learn the features of inter-asset and groups in each stage. Also, the proposed joint cost can consider relative returns for the training while the relative returns are a crucial factor to construct a portfolio. The results of a rigorous evaluation with global ETF data indicate that the proposed GEM with the joint cost outperforms the equally weighted portfolio and the ordinary deep learning model by 33.7% and 30.1%, respectively. An additional experiment using sector ETFs verifies the generality of the proposed model where the results accord with those of the previous experiment.",
+        "authors": [
+            "author-b9955317c29c3e7a067c",
+            "author-bb9a0864cd96347c61ee",
+            "author-04c070e4da7c7b8720bf",
+            "author-c62ad1aac7ac9869f76a"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -13450,6 +13507,16 @@
                 }
             ]
         },
+        "abstract": "Recently, many online Karaoke (KTV) platforms have been released, where music lovers sing songs on these platforms. In the meantime, the system automatically evaluates user proficiency according to their singing behavior. Recommending approximate songs to users can initialize singers’ participation and improve users’ loyalty to these platforms. However, this is not an easy task due to the unique characteristics of these platforms. First, since users may be not achieving high scores evaluated by the system on their favorite songs, how to balance user preferences with user proficiency on singing for song recommendation is still open. Second, the sparsity of the user-song interaction behavior may greatly impact the recommendation task. To solve the above two challenges, in this paper, we propose an informationfused song recommendationmodel by considering the unique characteristics of the singing data. Specifically, we first devise a pseudo-rating matrix by combing users’ singing behavior and the system evaluations, thus users’ preferences and proficiency are leveraged. Then wemitigate the data sparsity problem by fusing users’ and songs’ rich information in the matrix factorization process of the pseudo-ratingmatrix. Finally, extensive experimental results on a real-world dataset show the effectiveness of our proposed model.",
+        "authors": [
+            "author-5cefa8570551b042ebbc",
+            "author-f9c91f21c877dfa6e489",
+            "author-9fd61ec7db701d3593ff",
+            "author-57998ef0e44582254acb",
+            "author-ebb987e1193548552cc1",
+            "author-98a6f77ef2349b194c32",
+            "author-181ac48d75b6ec64c124"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -14118,6 +14185,12 @@
                 }
             ]
         },
+        "abstract": "Abstract Using spatial panel data comprising a cross section of 1,461 continuously active Airbnb listings obtained from AirDNA, as well as time series data from NYC and Company and the OECD covering the time period September 2014 to June 2016, the present study quantifies own price, cross price, and income elasticities of Airbnb demand to New York City within an empirical tourism demand framework. The particular goal of the study is to establish whether the relationship between Airbnb and the traditional accommodation industry is of a substitutional or of a complementary nature. Employing a one-way fixed-effects spatial Durbin model, it can be concluded that demand is price-inelastic for Airbnb accommodation in New York City, which is a luxury good, and that the city's traditional accommodation industry as well as neighboring Airbnb listings are substitutes for the investigated Airbnb listings. The estimation results are robust against several alternative specifications of the regression equation.",
+        "authors": [
+            "author-f4d12a42581c5ee01b33",
+            "author-4aa379868f95d16db19d",
+            "author-220a18e838849c14781c"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -15069,6 +15142,12 @@
                 }
             ]
         },
+        "abstract": "Abstract Advanced manufacturing is one of the core national strategies in the US (AMP), Germany (Industry 4.0) and China (Made-in China 2025). The emergence of the concept of Cyber Physical System (CPS) and big data imperatively enable manufacturing to become smarter and more competitive among nations. Many researchers have proposed new solutions with big data enabling tools for manufacturing applications in three directions: product, production and business. Big data has been a fast-changing research area with many new opportunities for applications in manufacturing. This paper presents a systematic literature review of the state-of-the-art of big data in manufacturing. Six key drivers of big data applications in manufacturing have been identified. The key drivers are system integration, data, prediction, sustainability, resource sharing and hardware. Based on the requirements of manufacturing, nine essential components of big data ecosystem are captured. They are data ingestion, storage, computing, analytics, visualization, management, workflow, infrastructure and security. Several research domains are identified that are driven by available capabilities of big data ecosystem. Five future directions of big data applications in manufacturing are presented from modelling and simulation to real-time big data analytics and cybersecurity.",
+        "authors": [
+            "author-56cf8f21408315cb7f79",
+            "author-f8d081a64210d26b7660",
+            "author-cb5946c0562cca41862e"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -15755,6 +15834,11 @@
                 }
             ]
         },
+        "abstract": "Abstract The early-phase design of complex systems is a challenging task, as a decision maker has to take into account the intricate relationships among different design variables. A popular way to help decision makers easily identify important design features is to use data mining. However, many of the existing algorithms output design features that are too complex (e.g., conjunction of many literals with unrelated predicates), making it difficult for a user to understand, remember, and apply these features to find better designs. In this paper, we introduce a new data mining method that extracts compact design features through knowledge generalization. The proposed method performs a search over the space of features using a multi-objective evolutionary algorithm that contains a set of generalization operators in addition to conventional evolutionary operators. Both variables and feature types are generalized by using an ontology defining a set of domain-specific concepts and relationships. Generalization leads to more compact and insightful features, as generalized knowledge encompasses wider concepts. A comparative experiment is conducted on a real-world system architecting problem to demonstrate the gain in compactness of the extracted features without significant reductions in predictive power.",
+        "authors": [
+            "author-650f921336fa2a005b03",
+            "author-b94f1c20ef973a026bd9"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -16435,6 +16519,14 @@
                 }
             ]
         },
+        "abstract": "Abstract In this study, an expert system is presented for analyzing the mental workload of interacting with a mobile phone while facing common daily tasks. Psychophysiological signals were collected from various devices, each characterized by a different cost and obtrusiveness. To deal with user-level signal data, a support vector machine-based feature selection approach is proposed. Given the limited person-level information available, our goal was to construct robust models by pooling population-level information across users (as a heterogeneity control). A single optimization problem that combines four objectives is proposed: model, margin maximization, feature selection, and heterogeneity control. The costs of using the devices were estimated, leading to a decision tool that allowed experiment designers to evaluate the marginal benefit of using a given device in terms of performance and its cost.",
+        "authors": [
+            "author-72391572f0dd5970fcec",
+            "author-d12c2bfffea2786ed701",
+            "author-5d10bfbd60db3eb6f9c5",
+            "author-69b3e3abce4d58a86212",
+            "author-d7123c46e6dd6b14e6cb"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -17977,6 +18069,13 @@
                 }
             ]
         },
+        "abstract": "Abstract Diagnosing Parkinson’s disease is a complex task that requires the evaluation of several motor and non-motor symptoms. During diagnosis, gait abnormalities are among the important symptoms that physicians should consider. However, gait evaluation is challenging and relies on the expertise and subjectivity of clinicians. In this context, the use of an intelligent gait analysis algorithm may assist physicians in order to facilitate the diagnosis process. This paper proposes a novel intelligent Parkinson detection system based on deep learning techniques to analyze gait information. We used 1D convolutional neural network (1D-Convnet) to build a Deep Neural Network (DNN) classifier. The proposed model processes 18 1D-signals coming from foot sensors measuring the vertical ground reaction force (VGRF). The first part of the network consists of 18 parallel 1D-Convnet corresponding to system inputs. The second part is a fully connected network that connects the concatenated outputs of the 1D-Convnets to obtain a final classification. We tested our algorithm in Parkinson’s detection and in the prediction of the severity of the disease with the Unified Parkinson’s Disease Rating Scale (UPDRS). Our experiments demonstrate the high efficiency of the proposed method in the detection of Parkinson disease based on gait data. The proposed algorithm achieved an accuracy of 98.7%. To our knowledge, this is the state-of-the-start performance in Parkinson’s gait recognition. Furthermore, we achieved an accuracy of 85.3% in Parkinson’s severity prediction. To the best of our knowledge, this is the first algorithm to perform a severity prediction based on the UPDRS. These results show that the model is able to learn intrinsic characteristics from gait data and to generalize to unseen subjects, which could be helpful in a clinical diagnosis.",
+        "authors": [
+            "author-5e2db6963d1aa349e044",
+            "author-afa483027663652fc58d",
+            "author-045325e9effde285827c",
+            "author-2abc95007c3c0cc240dd"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -18356,6 +18455,10 @@
                 }
             ]
         },
+        "abstract": null,
+        "authors": [
+            "author-7c563e1765f8bdba3072"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -19449,6 +19552,17 @@
                 }
             ]
         },
+        "abstract": "Abstract This study aimed to resolve a real-world traffic problem in a large-scale plant. Autonomous vehicle systems (AVSs), which are designed to use multiple vehicles to transfer materials, are widely used to transfer wafers in semiconductor manufacturing. Traffic control is a significant challenge with AVSs because all vehicles must be monitored and controlled in real time, to cope with uncertainties such as congestion. However, existing traffic control systems, which are primarily designed and controlled by human experts, are insufficient to prevent heavy congestion that impedes production. In this study, we developed a traffic control system based on machine learning predictions, and a routing method that dynamically determines AVS routes with reduced congestion rates. We predicted congestion for critical bottleneck areas, and utilized the predictions for adaptive routing control of all vehicles to avoid congestion. We conducted an experimental evaluation to compare the predictive performance of four popular algorithms. We performed a simulation study based on data from semiconductor fabrication to demonstrate the utility and superiority of the proposed method. The experimental results showed that AVSs with the proposed approach outperformed the existing approach in terms of delivery time, transfer time, and queuing time. We found that adopting machine learning-based traffic control can enhance the performance of existing AVSs and reduce the burden on the human experts who monitor and control AVSs.",
+        "authors": [
+            "author-7bcc1430cbc6230bf67b",
+            "author-9d54211485f9a4c8c4f2",
+            "author-05459de06675aa79a07d",
+            "author-f6c163e748fb41836610",
+            "author-48410ee3bb0d78deb9cf",
+            "author-554112a21b22d9f3bd51",
+            "author-a62731f6122dda19d3c2",
+            "author-e5111f9a77826789f97c"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -20161,6 +20275,17 @@
                 }
             ]
         },
+        "abstract": "Abstract Bangladesh is a riverine country, but its north-western part, popularly known as Barind Tract, is mostly drought-prone and faces scarcity of water. Because of very limited surface water resource, groundwater is the main source of water for drinking and irrigation purposes. The increasing demand and withdrawal of groundwater result permanent depletion of groundwater level (GWL). Due to low infiltration capacity the monsoon rainwater cannot percolate through thick surface clay layer (Barind Clay of Pleistocene age). So an attempt is made in the present study for artificial recharge of aquifer by adopting Managed Aquifer Recharge (MAR) model through recharge well (RW) and recharge shaft (RS) installed in Khari (canal) bed for infiltrating flowing rainy season storm water. The study also compares performance and effectiveness of application of conventional MAR model with the modified engineering model as viable adaptive menu to restore the depleting GWL. The conventional MAR model has functioned well initially, but recharge rate (RR) has gradually reduced (1.5–2.5 L/min) from the initial stage (28.64–48.0 L/min) due to clogging of the recharge units with clay (Barind Clay). To improve the recharge capacity, modification of the engineering design in MAR model has been adopted and their performance have been assessed. In modified MAR model, it is possible to replace clogged sand layer any time even during storm water surge in the Khari. Performance was more effective with increased amount of recharge than that of conventional one in the long run. Moreover, the groundwater quality has improved due to dilution process, and found suitable for drinking purpose within acceptable and allowable limits of BDWS (2005) and WHO (2008). Finally, in-depth research activities and regular monitoring and maintenance are necessary for fruitful operation of MAR model to elevate the water scarcity for drinking and irrigation purposes in the area.",
+        "authors": [
+            "author-cf7c0e2831198e79a45e",
+            "author-c50a758be2debff20641",
+            "author-64e912d37f49102ef1bc",
+            "author-3d18010a576f7f01b892",
+            "author-aeb51603c073c7b03337",
+            "author-1171b5e62177eef6f09c",
+            "author-6b48f3a20f0998a8e499",
+            "author-af34aacfa1b533628ecc"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -20851,6 +20976,14 @@
                 }
             ]
         },
+        "abstract": null,
+        "authors": [
+            "author-45610297e98c6f42e35a",
+            "author-44a2eec0abf1e8b79a00",
+            "author-3d6dd2caab6e86a89895",
+            "author-37c4fe0cc4dd6cf2fc42",
+            "author-37eb4a27f17dd69c8c18"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -21699,6 +21832,14 @@
                 }
             ]
         },
+        "abstract": "Abstract Personalized itinerary recommendation is a complicated and challenging task, which aims to construct and recommend a visit sequence consists of multiple Points of Interest (POIs) with the constraints that maximizing user satisfaction while adhering time budget. User interests, therefore, becomes the most crucial element in the recommendation task, determining the POIs and their visit durations in the itinerary. In this paper, we propose a novel framework named DCC-PersIRE to infer the user interests and recommend personalized itinerary consists of POIs, visit durations and visit sequence. Specifically, we employ an unsupervised deep learning model to embed the POI textual contents, and then propose a DCC model, which seamlessly integrates the embedded POI textual contents with the traditional and widely used user-POI visits and POI categories, to predict the user interests as well as the visit durations. Then, after formulating itinerary construction as a variant of the Orienteering Problem, an Iterated Local Search based algorithm is proposed to calculate the visit sequence with maximized satisfaction consists of multiple POIs and personalized POI visit durations, i.e., the optimal itinerary. Extensive experiments on eight real-world datasets validate the effectiveness of DCC-PersIRE. The experimental results show that our algorithm delivers a more fine-grained prediction of user interests and outperforms various state-of-the-art baselines in tour itinerary recommendation.",
+        "authors": [
+            "author-ff9bbc3162609202ae4b",
+            "author-54ea7ff2f81b38309437",
+            "author-1d7608b69b298132a519",
+            "author-8f975969f412ae476c94",
+            "author-b769b7ba1e9232bd01db"
+        ],
         "datasets": [
             "dataset-154"
         ],
@@ -22312,6 +22453,12 @@
                 }
             ]
         },
+        "abstract": "Abstract This article analyzes the relationship between ratings and review sentiment by introducing, for the first time, the tenets of prospect theory. Specifically, we test loss aversion and diminishing sensitivity on a sample of 132,486 reviews and find that: first, negative deviations in ratings (receiving a service with worse performance than expected) bring about a higher impact on review sentiment than positive deviations of equal magnitude (receiving a service with better performance than expected), thus, confirming loss aversion; and second, regardless of whether the service received is better or worse than expected, variations in ratings closer to the reference point result in higher marginal impacts on sentiment than equivalent variations further away from the reference point, thus, proving diminishing sensitivity. These results have relevant theoretical implications related to the use of relative vs absolute measures and the cognitive bias involved, and managerial implications linked to meeting expectations and service recovery.",
+        "authors": [
+            "author-d1b98854cb90d60b8ea7",
+            "author-699ce36994f04f990c02",
+            "author-61516b4d0e099da764be"
+        ],
         "datasets": [
             "dataset-154"
         ],

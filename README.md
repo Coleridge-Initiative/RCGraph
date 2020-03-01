@@ -101,10 +101,16 @@ To perform these tests:
 
 ```
 coverage run -m unittest discover
-coverage report
 ```
 
 Then create GitHub issues among the submodules for any failed tests.
+
+Also, you can generate a coverage report and upload that via:
+
+```
+coverage report
+bash <(curl -s https://codecov.io/bash) -t @.cc_token
+```
 
 Test coverage reports can be viewed at
 <https://codecov.io/gh/Coleridge-Initiative/RCGraph>
@@ -191,7 +197,7 @@ publication that doesn't have a journal.
   - Do not make manual edits to the `journals.json` file
 
 
-### Step N: Reconcile Author Lists
+### Step 5: Reconcile Author Lists
 
 **This is a manual step.**
 
@@ -223,7 +229,7 @@ publication that doesn't any authors.
   - Do not make manual edits to `authors.json` or `auth_train.tsv`
 
 
-### Step N: Pull Abstracts
+### Step 6: Pull Abstracts
 
 This workflow step pulls the abstracts from the results of
 API calls in previous steps.
@@ -240,7 +246,7 @@ See the `misses_abstract.txt` file which reports the title of each
 publication that had no abstract.
 
 
-### Step N: Finalize Metadata Corrections
+### Step 7: Finalize Metadata Corrections
 
 This workflow step finalizes the metadata corrections for each
 publication, including selection of a URL, open access PDF, etc.,
@@ -258,7 +264,7 @@ See the `misses_final.txt` file which reports the title of each
 publication that failed every API lookup.
 
 
-### Step N: Generate Corpus Update
+### Step 8: Generate Corpus Update
 
 This workflow step generates `uuid` values (late binding) for both
 publications and datasets, then serializes the full output as TTL in
@@ -278,9 +284,21 @@ mv tmp.ttl corpus.ttl
 mv tmp.jsonld corpus.jsonld
 ```
 
-Then to publish the corpus:
+To publish the corpus:
 
   1. commit and create a new tagged release
   2. run `bin/download_resources.py` to download PDFs
   3. extract text from PDFs
   4. upload to the public S3 bucket and write manifest
+
+
+### Step 9: Generate UI Web App Update
+
+To update the UI web app:
+
+```
+./gen_ttl.py --full_graph true
+cp tmp.jsonld full.jsonld 
+cp tmp.ttl full.ttl 
+gsutil cp full.jsonld gs://rich-context/
+```
