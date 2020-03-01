@@ -233,6 +233,12 @@
                     "name": "C13 Architecture, Built Environment and Planning"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30013",
+                    "name": "C13 Architecture, Built Environment and Planning"
+                }
+            ],
             "concepts": [
                 "diverse characteristics",
                 "human mobility",
@@ -275,7 +281,7 @@
                 "human mobility data",
                 "mobility data"
             ],
-            "date": "2019-10-23",
+            "date": "2020-02-01",
             "date_inserted": "2019-10-25",
             "doi": "10.1111/tgis.12590",
             "funder_countries": [
@@ -307,6 +313,7 @@
                 "1361-1682",
                 "1467-9671"
             ],
+            "issue": "1",
             "journal": {
                 "id": "jour.1048960",
                 "title": "Transactions in GIS"
@@ -323,85 +330,96 @@
                     "name": "Closed"
                 }
             ],
+            "pages": "104-122",
             "publisher": "Wiley",
             "recent_citations": 1,
             "reference_ids": [
+                "pub.1006085518",
+                "pub.1014579661",
+                "pub.1094151709",
+                "pub.1002954565",
+                "pub.1007125951",
                 "pub.1100752638",
                 "pub.1083778688",
-                "pub.1036230514",
-                "pub.1016406918",
-                "pub.1092601317",
-                "pub.1007125951",
-                "pub.1024345749",
-                "pub.1006085518",
-                "pub.1046074279",
+                "pub.1000954332",
+                "pub.1020378297",
+                "pub.1073463311",
+                "pub.1069863319",
+                "pub.1042095807",
+                "pub.1058385969",
+                "pub.1091508855",
                 "pub.1069491267",
-                "pub.1031601211",
+                "pub.1003142772",
                 "pub.1085420432",
+                "pub.1032273138",
+                "pub.1036230514",
+                "pub.1040245104",
+                "pub.1061643038",
+                "pub.1024345749",
+                "pub.1052530275",
+                "pub.1031601211",
+                "pub.1003128015",
+                "pub.1016406918",
+                "pub.1090926336",
+                "pub.1012894299",
+                "pub.1041567678",
+                "pub.1009074405",
+                "pub.1025939891",
+                "pub.1058336383",
+                "pub.1036977859",
+                "pub.1061640964",
+                "pub.1049388052",
+                "pub.1026705408",
+                "pub.1008859783",
+                "pub.1092601317",
                 "pub.1041886671",
                 "pub.1035710749",
-                "pub.1003128015",
-                "pub.1020378297",
-                "pub.1061643038",
-                "pub.1036977859",
-                "pub.1009074405",
-                "pub.1049388052",
-                "pub.1041567678",
-                "pub.1032273138",
-                "pub.1026705408",
-                "pub.1120017241",
-                "pub.1002954565",
-                "pub.1091508855",
-                "pub.1058336383",
-                "pub.1012894299",
-                "pub.1003142772",
-                "pub.1061640964",
                 "pub.1048718365",
-                "pub.1090926336",
-                "pub.1052530275",
-                "pub.1058385969",
-                "pub.1073463311",
-                "pub.1014579661",
-                "pub.1008859783"
+                "pub.1046074279"
             ],
             "references": [
+                "pub.1006085518",
+                "pub.1014579661",
+                "pub.1094151709",
+                "pub.1002954565",
+                "pub.1007125951",
                 "pub.1100752638",
                 "pub.1083778688",
-                "pub.1036230514",
-                "pub.1016406918",
-                "pub.1092601317",
-                "pub.1007125951",
-                "pub.1024345749",
-                "pub.1006085518",
-                "pub.1046074279",
+                "pub.1000954332",
+                "pub.1020378297",
+                "pub.1073463311",
+                "pub.1069863319",
+                "pub.1042095807",
+                "pub.1058385969",
+                "pub.1091508855",
                 "pub.1069491267",
-                "pub.1031601211",
+                "pub.1003142772",
                 "pub.1085420432",
+                "pub.1032273138",
+                "pub.1036230514",
+                "pub.1040245104",
+                "pub.1061643038",
+                "pub.1024345749",
+                "pub.1052530275",
+                "pub.1031601211",
+                "pub.1003128015",
+                "pub.1016406918",
+                "pub.1090926336",
+                "pub.1012894299",
+                "pub.1041567678",
+                "pub.1009074405",
+                "pub.1025939891",
+                "pub.1058336383",
+                "pub.1036977859",
+                "pub.1061640964",
+                "pub.1049388052",
+                "pub.1026705408",
+                "pub.1008859783",
+                "pub.1092601317",
                 "pub.1041886671",
                 "pub.1035710749",
-                "pub.1003128015",
-                "pub.1020378297",
-                "pub.1061643038",
-                "pub.1036977859",
-                "pub.1009074405",
-                "pub.1049388052",
-                "pub.1041567678",
-                "pub.1032273138",
-                "pub.1026705408",
-                "pub.1120017241",
-                "pub.1002954565",
-                "pub.1091508855",
-                "pub.1058336383",
-                "pub.1012894299",
-                "pub.1003142772",
-                "pub.1061640964",
                 "pub.1048718365",
-                "pub.1090926336",
-                "pub.1052530275",
-                "pub.1058385969",
-                "pub.1073463311",
-                "pub.1014579661",
-                "pub.1008859783"
+                "pub.1046074279"
             ],
             "research_org_cities": [
                 {
@@ -433,6 +451,22 @@
             ],
             "research_orgs": [
                 {
+                    "acronym": "SDSU",
+                    "city_name": "San Diego",
+                    "country_name": "United States",
+                    "id": "grid.263081.e",
+                    "latitude": 32.77504,
+                    "linkout": [
+                        "http://www.sdsu.edu/"
+                    ],
+                    "longitude": -117.07168,
+                    "name": "San Diego State University",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
                     "acronym": "UCSB",
                     "city_name": "Santa Barbara",
                     "country_name": "United States",
@@ -459,22 +493,6 @@
                     ],
                     "longitude": -117.238,
                     "name": "University of California, San Diego",
-                    "state_name": "California",
-                    "types": [
-                        "Education"
-                    ]
-                },
-                {
-                    "acronym": "SDSU",
-                    "city_name": "San Diego",
-                    "country_name": "United States",
-                    "id": "grid.263081.e",
-                    "latitude": 32.77504,
-                    "linkout": [
-                        "http://www.sdsu.edu/"
-                    ],
-                    "longitude": -117.07168,
-                    "name": "San Diego State University",
                     "state_name": "California",
                     "types": [
                         "Education"
@@ -531,7 +549,6 @@
                     ]
                 }
             ],
-            "score": 23.881607,
             "supporting_grant_ids": [
                 "grant.5541741"
             ],
@@ -580,7 +597,8 @@
             "times_cited": 1,
             "title": "Similarity measurement on human mobility data with spatially weighted structural similarity index (SpSSIM)",
             "type": "article",
-            "year": 2019
+            "volume": "24",
+            "year": 2020
         },
         "Semantic Scholar": {
             "abstract": null,
@@ -708,13 +726,6 @@
                 }
             ]
         },
-        "abstract": null,
-        "authors": [
-            "author-e82c1d3aef81100d0f4c",
-            "author-e4598c087309067b3d1a",
-            "author-8951f77515d8d76fbc0e",
-            "author-f84611f45ec8c20e9711"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -858,6 +869,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "paper",
                 "effects",
@@ -925,7 +942,6 @@
             ],
             "pages": "103460",
             "publisher": "Elsevier",
-            "score": 31.896465,
             "terms": [
                 "paper",
                 "effects",
@@ -1197,11 +1213,6 @@
                 }
             ]
         },
-        "abstract": "This paper studies the effects of marijuana legalization on neighborhood crime using unique geospatial data from Denver, Colorado. We construct a highly local panel data set that includes changes in the location of marijuana dispensaries and changes in neighborhood crime. To account for endogenous retail dispensary locations, we use a novel identification strategy that exploits exogenous changes in demand across different locations. The change in geographic demand arises from the increased importance of access to external markets caused by a change in state and local policy. The results imply that retail dispensaries lead to reduced crime in the neighborhoods where they are located. Reductions in crime are highly localized, with no evidence of benefits for adjacent neighborhoods. The spatial extent of these effects are consistent with a policing or security response, and analysis of detailed crime categories provides indirect evidence that the reduction in crime arises from a disruption of illicit markets.",
-        "authors": [
-            "author-fc4757841efa151d1baf",
-            "author-7a2e9d1b1ec96d305307"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -1369,6 +1380,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30013",
+                    "name": "C13 Architecture, Built Environment and Planning"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30013",
                     "name": "C13 Architecture, Built Environment and Planning"
@@ -1618,7 +1635,6 @@
                     ]
                 }
             ],
-            "score": 27.138254,
             "terms": [
                 "paper",
                 "debate",
@@ -3447,11 +3463,6 @@
                 }
             ]
         },
-        "abstract": "This paper contributes to the existing debate on the co-location hypothesis, by devising a proximity measure and controlling for a set of other urban form measures. Utilizing the LEHD (Longitudinal Employer–Household Dynamics) Origin-Destination Employment Statistics (LODES) data that provide the number of jobs by a finer geography, this paper measured the degree of centralization, proximity, and job–housing mismatch. Multiple regression analysis revealed that the job–worker proximity leads to a shorter commuting time. In addition, the results focusing on suburban areas revealed that the impact of the job–worker imbalance and the impact of job–worker mismatch on the commuting time are greater in the suburb in comparison with the city center.",
-        "authors": [
-            "author-2023e8a5aea87817777d",
-            "author-d3c2196a94e60ac10a5e"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -3787,6 +3798,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "chapter",
                 "relationship",
@@ -3938,10 +3955,10 @@
                     "id": "ur.010643532775.41",
                     "last_name": "Boarnet",
                     "research_orgs": [
-                        "grid.266093.8",
                         "grid.42505.36",
-                        "grid.419085.1",
+                        "grid.266093.8",
                         "grid.264756.4",
+                        "grid.419085.1",
                         "grid.16750.35"
                     ]
                 },
@@ -3952,8 +3969,8 @@
                     "research_orgs": [
                         "grid.12136.37",
                         "grid.266093.8",
-                        "grid.505675.4",
-                        "grid.42505.36"
+                        "grid.42505.36",
+                        "grid.505675.4"
                     ]
                 },
                 {
@@ -3979,7 +3996,6 @@
                     ]
                 }
             ],
-            "score": 25.09974,
             "terms": [
                 "chapter",
                 "relationship",
@@ -4076,14 +4092,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-c48fd1d3bb8ab41fb26b",
-            "author-0821185b38ea0566cfe0",
-            "author-44c5994df9d30088dc4f",
-            "author-5d61b1fca4919f4d2b47",
-            "author-b2f83c1adfa52ba46237",
-            "author-141da183ec1f89e5a4c6"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -4299,6 +4307,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30013",
+                    "name": "C13 Architecture, Built Environment and Planning"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30013",
                     "name": "C13 Architecture, Built Environment and Planning"
@@ -4556,7 +4570,6 @@
                     ]
                 }
             ],
-            "score": 21.888878,
             "terms": [
                 "pedestrian behavior",
                 "behavior",
@@ -4736,11 +4749,6 @@
                 }
             ]
         },
-        "abstract": "Abstract Understanding pedestrian behavior is critical for many aspects of city planning, design, and management, including transportation, public health, emergency response, and economic development. This study bridges in-situ observations of pedestrian activity and urban computing by integrating high-resolution, large-scale, and heterogeneous urban datasets and analyzing both fixed attributes of the urban landscape (e.g. physical and transit infrastructure) with dynamic environmental and socio-psychological factors, such as weather, air quality, and perceived crime risk. We use local pedestrian count data collected by the New York City (NYC) Department of Transportation (DOT) and an extensive array of open datasets from NYC to test how pedestrian volumes relate to land use, building density, streetscape quality, transportation infrastructure, and other factors typically associated with urban walkability. We quantify, classify, and analyze place dynamics, including contextual and situational factors that influence pedestrian activity at high spatial–temporal resolution. The quantification process measures the urban context by extracting rich, yet initially fragmented and siloed, urban data for individual geolocations. Based on these features, we then construct contextual indicators by selecting and combining features relevant to pedestrian activity, and develop a typology of place to support the generalizability of our analysis. Finally, we use multivariate regression models with panel-corrected standard errors to estimate how specific contextual features and time-varying situational indicators impact pedestrian activity across time of day, day of the week, season, and year. The results provide insights into the key drivers of local pedestrian activity and highlight the importance accounting for the immediate urban environment and socio-spatial dynamics in pedestrian behavior modeling.",
-        "authors": [
-            "author-b31b7e78d19fd3febeed",
-            "author-c6d37a8c9566910ddca8"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -5061,6 +5069,12 @@
                     "name": "B12 Engineering"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
+                }
+            ],
             "concepts": [
                 "fatality risk",
                 "risk",
@@ -5091,7 +5105,7 @@
             "date": "2018-12-01",
             "date_inserted": "2018-09-25",
             "doi": "10.1016/j.aap.2018.06.018",
-            "field_citation_ratio": 1.78,
+            "field_citation_ratio": 1.71,
             "id": "pub.1107183866",
             "issn": [
                 "0001-4575",
@@ -5243,7 +5257,6 @@
                     ]
                 }
             ],
-            "score": 26.629648,
             "terms": [
                 "fatality risk",
                 "risk",
@@ -5406,14 +5419,6 @@
                 }
             ]
         },
-        "abstract": "Characteristics of the transportation system and built environment contribute to pedestrian fatality risks, including vehicular traffic and land-use characteristics associated with higher pedestrian activity. We combined data from FHWA, NHTSA, EPA, and the Census Bureau and performed regression modeling to explore associations between transportation system and built environment characteristics and pedestrian fatalities between 2012 and 2016 at the Census tract scale across the United States. In urban tracts, we found especially strong associations between traffic on non-access-controlled principal arterial and minor arterial roadways and pedestrian fatalities (0.91 and 0.68 additional annual pedestrian fatalities per 100,000 persons per 10,000 VMT/mi2 increase in traffic density, respectively). In both urban and rural tracts, we also found strong associations between employment density in the retail sector and pedestrian fatalities. Finally, we compared our model to the High Injury Network in Los Angeles, CA. Nearly half (43%) of observed fatalities were identified by both methods, while some fatalities were identified by only one (19% by our model and 23% by the High Injury Network). This work shows that traffic on certain roadway facility types and employment in certain sectors have especially strong associations with pedestrian fatality risk. More broadly, we illustrate how leveraging cross-disciplinary data in novel ways can support prospective, risk-based assessments of pedestrian fatality risks and support integrated and systemic approaches to transportation safety.",
-        "authors": [
-            "author-2f6e6a5a45508e97eb98",
-            "author-493bbe6c6d5170ceea80",
-            "author-921661d61d1cfd511e73",
-            "author-09cc1fa7970a3d38f971",
-            "author-8a32d93574a690401825"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -5922,6 +5927,12 @@
                     "name": "B12 Engineering"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
+                }
+            ],
             "concepts": [
                 "development",
                 "large scale agent",
@@ -5982,6 +5993,7 @@
             "date": "2018-11-01",
             "date_inserted": "2018-12-14",
             "doi": "10.1109/itsc.2018.8569541",
+            "field_citation_ratio": 1.31,
             "id": "pub.1110562382",
             "issn": [
                 "2153-0009",
@@ -6004,6 +6016,7 @@
             "pages": "2277-2282",
             "proceedings_title": "2018 21st International Conference on Intelligent Transportation Systems (ITSC)",
             "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "recent_citations": 1,
             "reference_ids": [
                 "pub.1094803828",
                 "pub.1091304230",
@@ -6126,6 +6139,8 @@
                         "0000-0002-4722-4138"
                     ],
                     "research_orgs": [
+                        "grid.1002.3",
+                        "grid.47840.3f",
                         "grid.266683.f"
                     ]
                 },
@@ -6134,11 +6149,11 @@
                     "id": "ur.011411052675.87",
                     "last_name": "Ben-Akiva",
                     "research_orgs": [
-                        "grid.189504.1",
-                        "grid.116068.8",
-                        "grid.8051.c",
                         "grid.6451.6",
-                        "grid.429485.6"
+                        "grid.8051.c",
+                        "grid.116068.8",
+                        "grid.429485.6",
+                        "grid.189504.1"
                     ]
                 },
                 {
@@ -6175,13 +6190,13 @@
                         "0000-0003-3902-6569"
                     ],
                     "research_orgs": [
-                        "grid.16326.30",
-                        "grid.6936.a",
-                        "grid.5292.c",
                         "grid.5170.3",
-                        "grid.10516.33",
+                        "grid.5292.c",
+                        "grid.6936.a",
                         "grid.429485.6",
-                        "grid.116068.8"
+                        "grid.116068.8",
+                        "grid.10516.33",
+                        "grid.16326.30"
                     ]
                 },
                 {
@@ -6194,7 +6209,6 @@
                     ]
                 }
             ],
-            "score": 19.558567,
             "terms": [
                 "development",
                 "large scale agent",
@@ -6252,6 +6266,7 @@
                 "supply",
                 "energy assessment"
             ],
+            "times_cited": 1,
             "title": "Integrated simulation of activity-based demand and multi-modal dynamic supply for energy assessment",
             "type": "proceeding",
             "year": 2018
@@ -6334,20 +6349,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-0972d71d6982dd0a49d3",
-            "author-c429759d237c59757af2",
-            "author-7c239051eb238165f204",
-            "author-6bcc231223a91d450aa9",
-            "author-cbd4a29e2a759b1b3028",
-            "author-bb332310d6f517728df6",
-            "author-40de5ad1aeb3a4cd3efc",
-            "author-01c4524146308808db35",
-            "author-64fec5944cd54e2afea5",
-            "author-2947bf60609694bd281f",
-            "author-53e6282ad347856f1431",
-            "author-88507fcc4a2f18349147"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -6624,6 +6625,12 @@
                     "name": "C13 Architecture, Built Environment and Planning"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30013",
+                    "name": "C13 Architecture, Built Environment and Planning"
+                }
+            ],
             "concepts": [
                 "key goal",
                 "goal",
@@ -6669,7 +6676,7 @@
             "date": "2018-07-04",
             "date_inserted": "2018-03-12",
             "doi": "10.1080/10511482.2017.1413584",
-            "field_citation_ratio": 6.17,
+            "field_citation_ratio": 5.97,
             "id": "pub.1101393958",
             "issn": [
                 "1051-1482",
@@ -6856,7 +6863,6 @@
                     ]
                 }
             ],
-            "score": 28.296192,
             "terms": [
                 "key goal",
                 "goal",
@@ -6989,12 +6995,6 @@
                 }
             ]
         },
-        "abstract": "A key goal of housing assistance programs is to help lower income households reach neighborhoods of opportunity. Studies have described the degree to which Low-Income Housing Tax Credit (LIHTC) developments are located in high-opportunity neighborhoods, but our focus is on how neighborhood outcomes vary across different subsets of LIHTC residents. We also examine whether LIHTC households are better able to reach certain types of neighborhood opportunities. Specifically, we use new data on LIHTC tenants in 12 states along with eight measures of neighborhood opportunity. We find that compared with other rental units, LIHTC units are located in neighborhoods with higher poverty rates, weaker labor markets, more polluted environments, and lower performing schools, but better transit access. We also find that compared with other LIHTC tenants, poor and minority tenants live in neighborhoods that are significantly more disadvantaged.",
-        "authors": [
-            "author-63b21d45e8e2849395e9",
-            "author-b11adfc1d099569bf9e1",
-            "author-7e8470ddd57bba3fdae3"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -7114,6 +7114,12 @@
                     "name": "C13 Architecture, Built Environment and Planning"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30013",
+                    "name": "C13 Architecture, Built Environment and Planning"
+                }
+            ],
             "concepts": [
                 "urban planners",
                 "planners",
@@ -7147,7 +7153,6 @@
                 }
             ],
             "resulting_publication_doi": "10.1080/21681376.2018.1455535",
-            "score": 22.939777,
             "terms": [
                 "urban planners",
                 "planners",
@@ -7559,10 +7564,6 @@
                 }
             ]
         },
-        "abstract": "Daytime population density reflects where people commute and spend their waking hours. It carries significant weight as urban planners and engineers site transportation infrastructure and utilities, plan for disaster recovery, and assess urban vitality. Various methods with various drawbacks exist to estimate daytime population density across a metropolitan area, such as using census data, travel diaries, GPS traces, or publicly available payroll data. This study estimates the San Francisco Bay Area's tract-level daytime population density from US Census and LEHD LODES data. Estimated daytime densities are substantially more concentrated than corresponding night-time population densities, reflecting regional land use patterns. We conclude with a discussion of biases, limitations, and implications of this methodology.",
-        "authors": [
-            "author-816369302cbc9ad1cbab"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -8139,12 +8140,6 @@
                 }
             ]
         },
-        "abstract": "In this paper we examine the effect of light rail transit on the residential real estate market in Hampton Roads, Virginia. The Norfolk Tide light rail began operations in August 2011 and has experienced disappointing levels of ridership over its first four years of operations. We estimate the effect of the Tide using a difference-in-differences model and consider several outcome variables for the residential housing market, including sales price, sales-list price spread and the time-on-market. Our identification strategy exploits a proposed rail line in neighboring Virginia Beach, Virginia, that was rejected by a referendum in 1999. Overall, the results show negative consequences from the constructed light rail line. Properties within 1,500 meters experienced a decline in sales price of nearly 8 percent, while the sale-list price spread declined by approximately 2 percent. Our results highlight the potential negative effects of light rail, when potential accessibility benefits do not outweigh apparent local costs.",
-        "authors": [
-            "author-92413b350124d33935da",
-            "author-06a4767672a046644058",
-            "author-6de1d9d06cfb35e3ba9f"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -8326,26 +8321,26 @@
             "publisher": "American Institute of Aeronautics and Astronautics (AIAA)",
             "recent_citations": 7,
             "reference_ids": [
-                "pub.1022221413",
-                "pub.1071045812",
-                "pub.1031831351",
-                "pub.1034823586",
-                "pub.1037050318",
-                "pub.1110630008",
+                "pub.1046660164",
                 "pub.1034276084",
+                "pub.1022221413",
                 "pub.1045997253",
-                "pub.1046660164"
+                "pub.1034823586",
+                "pub.1110630008",
+                "pub.1031831351",
+                "pub.1071045812",
+                "pub.1037050318"
             ],
             "references": [
-                "pub.1022221413",
-                "pub.1071045812",
-                "pub.1031831351",
-                "pub.1034823586",
-                "pub.1037050318",
-                "pub.1110630008",
+                "pub.1046660164",
                 "pub.1034276084",
+                "pub.1022221413",
                 "pub.1045997253",
-                "pub.1046660164"
+                "pub.1034823586",
+                "pub.1110630008",
+                "pub.1031831351",
+                "pub.1071045812",
+                "pub.1037050318"
             ],
             "research_org_cities": [
                 {
@@ -8408,7 +8403,6 @@
                     ]
                 }
             ],
-            "score": 23.82246,
             "terms": [
                 "mobility",
                 "study",
@@ -9366,11 +9360,6 @@
                 }
             ]
         },
-        "abstract": null,
-        "authors": [
-            "author-bf413bb06e6f10e12bc5",
-            "author-cb75c3bf7e6fb06c9d6d"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -9541,6 +9530,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "advances",
                 "computational power",
@@ -9689,6 +9684,8 @@
                         "0000-0002-4722-4138"
                     ],
                     "research_orgs": [
+                        "grid.1002.3",
+                        "grid.47840.3f",
                         "grid.266683.f"
                     ]
                 },
@@ -9702,7 +9699,6 @@
                     ]
                 }
             ],
-            "score": 19.31109,
             "terms": [
                 "advances",
                 "computational power",
@@ -10231,11 +10227,6 @@
                 }
             ]
         },
-        "abstract": "With advances in computational power and larger sample data sources, destination choices can be determined from the disaggregated data itself using logit models rather than from aggregated gravity models. Unfortunately, larger sample data are required as spatial resolution increases in such models, which is often limited due to privacy restrictions or survey costs. This makes higher spatial resolution work trip OD assignment inaccurate due to over-aggregation from limited sample data. Alternatively, high resolution aggregated OD employment data are available through Census sources, making detailed OD assignment possible with the gravity model. The challenge now becomes how to assign destinations to disaggregated individuals using spatially aggregated sources. This paper explores a method of assigning disaggregated destinations using aggregated sources, constrained by individual travel time using OD travel time matrices. This process was performed on a synthetic population of 4.1-million individuals in the Boston, Massachusetts area distributed across 2,727 traffic analysis zones. Travel times by mode from an origin zone were used to create a zonal radius around the origin, greatly reducing the number of possible destinations for individuals. From this subset, the possibilities were then further stratified using individual criteria of age and industry. This added travel time constraint reduces the possibility of individuals being assigned to impossible destinations where random assignment is used.",
-        "authors": [
-            "author-0972d71d6982dd0a49d3",
-            "author-53e6282ad347856f1431"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -10369,6 +10360,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30013",
+                    "name": "C13 Architecture, Built Environment and Planning"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30013",
                     "name": "C13 Architecture, Built Environment and Planning"
@@ -10539,7 +10536,6 @@
                     ]
                 }
             ],
-            "score": 20.591354,
             "terms": [
                 "policy makers",
                 "makers",
@@ -10645,10 +10641,6 @@
                 }
             ]
         },
-        "abstract": "Policy makers in urban areas throughout the United States are interested in managing parking provision and minimizing the negative impacts of excess parking, yet those policy makers often lack an understanding of how much the existing parking is used and how different factors affect its use. This paper presents a study of multifamily residential parking use and related factors at 80 sites in Madison, Wisconsin. Twenty-two factors, including neighborhood and building characteristics, are considered. During the evening peak, parking use ranges from 0 to 1.4 spaces per residential unit, and the existing supply is 67% occupied. This paper presents three simple models of parking occupancy that require only two neighborhood characteristics and three building characteristics. These models explain roughly two-thirds of the variation in occupancy. Neighborhood characteristics are highly collinear and explain roughly 40% of the variation. Building characteristics explain more than 50% of the variation. This work va...",
-        "authors": [
-            "author-c53c966f738ebd185295"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -10813,6 +10805,12 @@
                     "name": "C16 Economics and Econometrics"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30016",
+                    "name": "C16 Economics and Econometrics"
+                }
+            ],
             "concepts": [
                 "minimum wage",
                 "wages",
@@ -10930,7 +10928,6 @@
                     "last_name": "Flaming"
                 }
             ],
-            "score": 20.220411,
             "terms": [
                 "minimum wage",
                 "wages",
@@ -11103,12 +11100,6 @@
                 }
             ]
         },
-        "abstract": null,
-        "authors": [
-            "author-e0519690e7f999414aec",
-            "author-fe9aa8cdd63aea8cb98a",
-            "author-152e3dc7f27b39628a1f"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -11175,7 +11166,7 @@
                     "name": "14 Economics"
                 }
             ],
-            "altmetric": 848.0,
+            "altmetric": 842.0,
             "altmetric_id": 14192019,
             "author_affiliations": [
                 [
@@ -11279,6 +11270,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "emergence",
                 "United States",
@@ -11326,7 +11323,7 @@
             "date": "2016-11-30",
             "date_inserted": "2017-08-31",
             "doi": "10.1371/journal.pone.0166083",
-            "field_citation_ratio": 29.48,
+            "field_citation_ratio": 29.8,
             "id": "pub.1044992699",
             "issn": [
                 "1932-6203"
@@ -11377,7 +11374,7 @@
             "pmcid": "PMC5130203",
             "pmid": "27902707",
             "publisher": "Public Library of Science (PLoS)",
-            "recent_citations": 35,
+            "recent_citations": 36,
             "reference_ids": [
                 "pub.1027317694",
                 "pub.1006934105",
@@ -11548,7 +11545,6 @@
                     ]
                 }
             ],
-            "score": 17.789068,
             "terms": [
                 "emergence",
                 "United States",
@@ -11593,7 +11589,7 @@
                 "areal units",
                 "commute"
             ],
-            "times_cited": 39,
+            "times_cited": 40,
             "title": "An Economic Geography of the United States: From Commutes to Megaregions",
             "type": "article",
             "volume": "11",
@@ -13556,12 +13552,6 @@
                 }
             ]
         },
-        "abstract": "The emergence in the United States of large-scale \"megaregions\" centered on major metropolitan areas is a phenomenon often taken for granted in both scholarly studies and popular accounts of contemporary economic geography. This paper uses a data set of more than 4,000,000 commuter flows as the basis for an empirical approach to the identification of such megaregions. We compare a method which uses a visual heuristic for understanding areal aggregation to a method which uses a computational partitioning algorithm, and we reflect upon the strengths and limitations of both. We discuss how choices about input parameters and scale of analysis can lead to different results, and stress the importance of comparing computational results with \"common sense\" interpretations of geographic coherence. The results provide a new perspective on the functional economic geography of the United States from a megaregion perspective, and shed light on the old geographic problem of the division of space into areal units.",
-        "authors": [
-            "author-4b36792d55103bd92183",
-            "author-159741f35ed911649de8",
-            "author-910275ee0a3178ea5bcb"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -13773,6 +13763,12 @@
                     "name": "C13 Architecture, Built Environment and Planning"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30013",
+                    "name": "C13 Architecture, Built Environment and Planning"
+                }
+            ],
             "concepts": [
                 "affordability",
                 "key factor",
@@ -13823,7 +13819,7 @@
             "date": "2016-09-02",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/10511482.2016.1163276",
-            "field_citation_ratio": 4.48,
+            "field_citation_ratio": 4.41,
             "id": "pub.1029211580",
             "issn": [
                 "1051-1482",
@@ -13849,108 +13845,107 @@
             "publisher": "Taylor & Francis",
             "recent_citations": 5,
             "reference_ids": [
-                "pub.1020026809",
-                "pub.1015058734",
-                "pub.1033103089",
-                "pub.1020094297",
-                "pub.1038253120",
-                "pub.1010293927",
-                "pub.1037593304",
-                "pub.1000383820",
-                "pub.1058154941",
-                "pub.1034568778",
-                "pub.1032701614",
-                "pub.1002875905",
-                "pub.1021345385",
-                "pub.1068877229",
-                "pub.1068879275",
-                "pub.1042259227",
-                "pub.1023314631",
-                "pub.1069561091",
-                "pub.1047230437",
-                "pub.1043753351",
-                "pub.1038672461",
-                "pub.1102424877",
-                "pub.1070365259",
-                "pub.1004884241",
-                "pub.1098495672",
-                "pub.1030753853",
-                "pub.1073446987",
-                "pub.1031229870",
-                "pub.1036823430",
-                "pub.1013180717",
-                "pub.1048992883",
-                "pub.1070399498",
-                "pub.1063965608",
-                "pub.1002169642",
                 "pub.1023578798",
-                "pub.1008641454",
+                "pub.1010293927",
+                "pub.1032701614",
                 "pub.1015730893",
-                "pub.1013099519",
-                "pub.1011189099",
-                "pub.1040967727",
-                "pub.1016165449",
-                "pub.1027485650",
-                "pub.1063966555",
-                "pub.1073410000",
-                "pub.1053909185",
+                "pub.1020094297",
+                "pub.1008641454",
                 "pub.1071041872",
-                "pub.1003462481",
+                "pub.1058154941",
+                "pub.1011189099",
+                "pub.1063965608",
+                "pub.1013099519",
+                "pub.1030753853",
+                "pub.1098495672",
+                "pub.1068879275",
+                "pub.1063966555",
+                "pub.1033103089",
+                "pub.1034568778",
+                "pub.1047230437",
+                "pub.1073410000",
+                "pub.1048992883",
                 "pub.1022926036",
-                "pub.1063965803"
+                "pub.1069561091",
+                "pub.1003462481",
+                "pub.1000383820",
+                "pub.1102424877",
+                "pub.1004884241",
+                "pub.1038253120",
+                "pub.1036823430",
+                "pub.1031229870",
+                "pub.1068877229",
+                "pub.1037593304",
+                "pub.1020026809",
+                "pub.1040967727",
+                "pub.1023314631",
+                "pub.1027485650",
+                "pub.1015058734",
+                "pub.1038672461",
+                "pub.1042259227",
+                "pub.1021345385",
+                "pub.1013180717",
+                "pub.1073446987",
+                "pub.1063965803",
+                "pub.1043753351",
+                "pub.1070399498",
+                "pub.1016165449",
+                "pub.1053909185",
+                "pub.1002169642",
+                "pub.1070365259",
+                "pub.1002875905"
             ],
             "references": [
-                "pub.1020026809",
-                "pub.1015058734",
-                "pub.1033103089",
-                "pub.1020094297",
-                "pub.1038253120",
-                "pub.1010293927",
-                "pub.1037593304",
-                "pub.1000383820",
-                "pub.1058154941",
-                "pub.1034568778",
-                "pub.1032701614",
-                "pub.1002875905",
-                "pub.1021345385",
-                "pub.1068877229",
-                "pub.1068879275",
-                "pub.1042259227",
-                "pub.1023314631",
-                "pub.1069561091",
-                "pub.1047230437",
-                "pub.1043753351",
-                "pub.1038672461",
-                "pub.1102424877",
-                "pub.1070365259",
-                "pub.1004884241",
-                "pub.1098495672",
-                "pub.1030753853",
-                "pub.1073446987",
-                "pub.1031229870",
-                "pub.1036823430",
-                "pub.1013180717",
-                "pub.1048992883",
-                "pub.1070399498",
-                "pub.1063965608",
-                "pub.1002169642",
                 "pub.1023578798",
-                "pub.1008641454",
+                "pub.1010293927",
+                "pub.1032701614",
                 "pub.1015730893",
-                "pub.1013099519",
-                "pub.1011189099",
-                "pub.1040967727",
-                "pub.1016165449",
-                "pub.1027485650",
-                "pub.1063966555",
-                "pub.1073410000",
-                "pub.1053909185",
+                "pub.1020094297",
+                "pub.1008641454",
                 "pub.1071041872",
-                "pub.1003462481",
+                "pub.1058154941",
+                "pub.1011189099",
+                "pub.1063965608",
+                "pub.1013099519",
+                "pub.1030753853",
+                "pub.1098495672",
+                "pub.1068879275",
+                "pub.1063966555",
+                "pub.1033103089",
+                "pub.1034568778",
+                "pub.1047230437",
+                "pub.1073410000",
+                "pub.1048992883",
                 "pub.1022926036",
-                "pub.1063965803"
+                "pub.1069561091",
+                "pub.1003462481",
+                "pub.1000383820",
+                "pub.1102424877",
+                "pub.1004884241",
+                "pub.1038253120",
+                "pub.1036823430",
+                "pub.1031229870",
+                "pub.1068877229",
+                "pub.1037593304",
+                "pub.1020026809",
+                "pub.1040967727",
+                "pub.1023314631",
+                "pub.1027485650",
+                "pub.1015058734",
+                "pub.1038672461",
+                "pub.1042259227",
+                "pub.1021345385",
+                "pub.1013180717",
+                "pub.1073446987",
+                "pub.1063965803",
+                "pub.1043753351",
+                "pub.1070399498",
+                "pub.1016165449",
+                "pub.1053909185",
+                "pub.1002169642",
+                "pub.1070365259",
+                "pub.1002875905"
             ],
-            "score": 22.922504,
             "terms": [
                 "affordability",
                 "key factor",
@@ -14167,11 +14162,6 @@
                 }
             ]
         },
-        "abstract": "AbstractAffordability, a key factor in the housing search process, becomes critical when locating rental housing in opportunity-rich areas. The Housing Choice Voucher (HCV) program accommodates low-income households searching for housing and encourages recipients to reside in low-poverty areas. Affordable neighborhoods that are accessible to public transportation are often found in distressed areas, and not all HCV recipients succeed in locating qualified housing. To address these challenges, a housing search framework is developed to assist HCV households in the housing search process. This framework builds on the methodology of the U.S. Department of Housing and Urban Development (HUD) for the Location Affordability Index and Affirmatively Furthering Fair Housing assessment tool by creating multivariate indices that incorporate housing supply, accessibility to opportunity, and neighborhood conditions. The framework serves as a foundation for an online housing search application for public housing author...",
-        "authors": [
-            "author-fef7a5f0c05aa0d7f738",
-            "author-f6868fc7de6acfea8a0d"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -14320,6 +14310,12 @@
                     "name": "C13 Architecture, Built Environment and Planning"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30013",
+                    "name": "C13 Architecture, Built Environment and Planning"
+                }
+            ],
             "concepts": [
                 "South Florida",
                 "Florida",
@@ -14369,7 +14365,7 @@
             "date": "2016-01-02",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/10511482.2014.1003190",
-            "field_citation_ratio": 2.31,
+            "field_citation_ratio": 2.27,
             "id": "pub.1038672461",
             "issn": [
                 "1051-1482",
@@ -14517,7 +14513,6 @@
                     ]
                 }
             ],
-            "score": 31.020813,
             "terms": [
                 "South Florida",
                 "Florida",
@@ -14676,12 +14671,6 @@
                 }
             ]
         },
-        "abstract": "South Florida is experiencing an affordable rental crisis that is especially burdensome on those most vulnerable in society, low-income households. Rapid urbanization has resulted in inequitable land-use patterns that are a barrier to housing for the poor. As a solution to the crisis, local housing agencies seek to expand their affordable housing stock for vulnerable renters in opportunity-rich neighborhoods, but there is no standard framework for identifying properties for acquisition. Broward County serves as a case study to develop a housing acquisition tool. Using a combination of spatial statistics and principal components analysis, neighborhoods in which housing agencies may consider acquiring property are identified through the creation of an affordability surface in ArcGIS. Affordability is overlain by an opportunity surface derived from neighborhood quality and accessibility rankings. The results identify neighborhoods in Broward County that are both affordable and opportunity-rich, to better serve the county's most vulnerable renters.",
-        "authors": [
-            "author-fef7a5f0c05aa0d7f738",
-            "author-ecf5dee6dd1349085fdc",
-            "author-9b564091cb9d31ca292c"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -14828,6 +14817,12 @@
                     "name": "C16 Economics and Econometrics"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30016",
+                    "name": "C16 Economics and Econometrics"
+                }
+            ],
             "concepts": [
                 "boom",
                 "United States",
@@ -14902,7 +14897,7 @@
             "date": "2016-01-01",
             "date_inserted": "2018-04-06",
             "doi": "10.2139/ssrn.2814147",
-            "field_citation_ratio": 2.27,
+            "field_citation_ratio": 2.98,
             "id": "pub.1102463741",
             "issn": [
                 "1556-5068"
@@ -14927,7 +14922,7 @@
                 }
             ],
             "publisher": "Elsevier",
-            "recent_citations": 3,
+            "recent_citations": 4,
             "research_org_cities": [
                 {
                     "id": 5780026,
@@ -14970,7 +14965,6 @@
                     ]
                 }
             ],
-            "score": 17.460659,
             "terms": [
                 "boom",
                 "United States",
@@ -15042,7 +15036,7 @@
                 "lack",
                 "economic opportunities"
             ],
-            "times_cited": 3,
+            "times_cited": 4,
             "title": "Moving to Economic Opportunity: The Migration Response to the Fracking Boom",
             "type": "preprint",
             "year": 2016
@@ -15245,10 +15239,6 @@
                 }
             ]
         },
-        "abstract": "In recent years, internal migration rates have fallen to all-time lows, raising questions about why more individuals do not appear to move to encounter more favorable labor market conditions. The fracking oil and gas boom has recently created large, localized economic shocks and corresponding wage increases for men with all levels of education. Fracking can only occur in certain areas exogenously determined by geology, creating a unique situation to identify wage-induced labor migration. In this paper, I first characterize the reduced form migration response to localized fracking booms. The data indicate that migration has been concentrated in North Dakota, with the largest population growth seen among men who are young, unmarried, or moderately educated. Using an instrumental variables (IV) approach to estimate the elasticity of in-migration with respect to wages, I find that a one percent increase in local average wages increased the in-migration rate by 4.6 percent in North Dakota, but only by 3.1 percent in other states. The elasticity in North Dakota is consistently larger across specifications. I find that initial labor market conditions, potential differences in commuting feasibility, and potential non-linear relationships between wages and migration do not seem to explain the geographic difference, while information might play a role. In combination these results suggest that in limited circumstances, there is still substantial migration to potential wage gains, although the magnitude of this response might be severely dampened by external non-market factors, such as the lack of information.",
-        "authors": [
-            "author-0b1b005d7df8b86811b1"
-        ],
         "datasets": [
             "dataset-410"
         ],
@@ -15406,6 +15396,12 @@
                     "name": "C13 Architecture, Built Environment and Planning"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30013",
+                    "name": "C13 Architecture, Built Environment and Planning"
+                }
+            ],
             "concepts": [
                 "global concern",
                 "concern",
@@ -15455,7 +15451,7 @@
             "date": "2015-10-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.retrec.2015.10.008",
-            "field_citation_ratio": 4.93,
+            "field_citation_ratio": 5.13,
             "funder_countries": [
                 {
                     "id": "US",
@@ -15503,7 +15499,7 @@
             ],
             "pages": "34-45",
             "publisher": "Elsevier",
-            "recent_citations": 15,
+            "recent_citations": 16,
             "reference_ids": [
                 "pub.1008680535",
                 "pub.1042842570",
@@ -15595,7 +15591,6 @@
                     ]
                 }
             ],
-            "score": 23.88684,
             "terms": [
                 "global concern",
                 "concern",
@@ -15642,7 +15637,7 @@
                 "trip types",
                 "focus"
             ],
-            "times_cited": 18,
+            "times_cited": 19,
             "title": "Heterogeneity in the relationship between the built environment and driving: Focus on neighborhood type and travel purpose",
             "type": "article",
             "volume": "52",
@@ -16030,10 +16025,6 @@
                 }
             ]
         },
-        "abstract": "Global concern about fossil fuel use and associated environmental externalities has led many governments to consider actions that encourage their residents to drive less. This research uses empirical analysis of travel survey data to estimate the relationship between built environment characteristics and vehicle miles traveled (VMT) in California. The work improves upon past research in two key ways. First, it employs a novel approach to control for residential self-selection, categorizing neighborhoods into types and using these as the alternatives in a predictive model of neighborhood type choice. Second, it focuses on exploring and understanding heterogeneity in the relationship between the built environment and VMT across two dimensions – neighborhood type and travel purpose.",
-        "authors": [
-            "author-43bf5df27f1207faad33"
-        ],
         "datasets": [
             "dataset-410"
         ],

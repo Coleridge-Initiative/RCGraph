@@ -1467,13 +1467,6 @@
                 }
             ]
         },
-        "abstract": "Recurrent, tidally driven coastal flooding is one of the most visible signs of sea level rise. Recent studies have shown that such flooding will become more frequent and extensive as sea level continues to rise, potentially altering the landscape and livability of coastal communities decades before sea level rise causes coastal land to be permanently inundated. In this study, we identify US communities that will face effective inundation—defined as having 10% or more of livable land area flooded at least 26 times per year—with three localized sea level rise scenarios based on projections for the 3 rd US National Climate Assessment. We present these results in a new, online interactive tool that allows users to explore when and how effective inundation will impact their communities. In addition, we identify communities facing effective inundation within the next 30 years that contain areas of high socioeconomic vulnerability today using a previously published vulnerability index. With the Intermediate-High and Highest sea level rise scenarios, 489 and 668 communities, respectively, would face effective inundation by the year 2100. With these two scenarios, more than half of communities facing effective inundation by 2045 contain areas of current high socioeconomic vulnerability. These results highlight the timeframes that US coastal communities have to respond to disruptive future inundation. The results also underscore the importance of limiting future warming and sea level rise: under the Intermediate-Low scenario, used as a proxy for sea level rise under the Paris Climate Agreement, 199 fewer communities would be effectively inundated by 2100.",
-        "authors": [
-            "author-51f0bad86d4636acbb59",
-            "author-9eb9c1d4d05add26abf2",
-            "author-4704f73991bc40e273ca",
-            "author-faa6318238cc3f725839"
-        ],
         "datasets": [
             "dataset-614",
             "dataset-631"
@@ -1553,6 +1546,18 @@
     },
     {
         "Dimensions": {
+            "FOR": [
+                {
+                    "id": "2534",
+                    "name": "0405 Oceanography"
+                }
+            ],
+            "FOR_first": [
+                {
+                    "id": "2204",
+                    "name": "04 Earth Sciences"
+                }
+            ],
             "author_affiliations": [
                 [
                     {
@@ -1681,35 +1686,70 @@
             ],
             "category_for": [
                 {
-                    "id": "2913",
-                    "name": "0911 Maritime Engineering"
-                },
-                {
-                    "id": "2209",
-                    "name": "09 Engineering"
-                },
-                {
-                    "id": "2856",
-                    "name": "0905 Civil Engineering"
-                },
-                {
-                    "id": "2509",
-                    "name": "0403 Geology"
-                },
-                {
                     "id": "2204",
                     "name": "04 Earth Sciences"
+                },
+                {
+                    "id": "2534",
+                    "name": "0405 Oceanography"
+                }
+            ],
+            "category_ua": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
+                }
+            ],
+            "category_uoa": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
                 }
             ],
             "concepts": [
                 "data statistics",
-                "statistics",
-                "tide range"
+                "tide",
+                "National Oceanic",
+                "Oceanic",
+                "Atmospheric Administration",
+                "long-term stations",
+                "stations",
+                "tide gauge network",
+                "gauge network",
+                "network",
+                "trends",
+                "tide range",
+                "range",
+                "higher high water",
+                "high water",
+                "water",
+                "low water",
+                "mean tide range",
+                "example",
+                "Wilmington",
+                "N.C.",
+                "rate",
+                "analysis",
+                "future water levels",
+                "water level",
+                "account",
+                "sea level",
+                "coastal flooding",
+                "flooding",
+                "damage studies",
+                "high water levels",
+                "peak value",
+                "values",
+                "design",
+                "coastal structures",
+                "structure",
+                "restoration planning",
+                "range changes"
             ],
             "date": "2003-07-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1061/(asce)0733-950x(2003)129:4(155)",
-            "field_citation_ratio": 14.09,
+            "field_citation_ratio": 6.07,
             "id": "pub.1057607635",
             "issn": [
                 "0733-950X",
@@ -1735,24 +1775,24 @@
             "publisher": "American Society of Civil Engineers (ASCE)",
             "recent_citations": 14,
             "reference_ids": [
-                "pub.1025616039",
-                "pub.1039769422",
+                "pub.1057606623",
                 "pub.1018507698",
+                "pub.1039769422",
                 "pub.1051077857",
-                "pub.1048746988",
                 "pub.1019803884",
+                "pub.1048746988",
                 "pub.1021073909",
-                "pub.1057606623"
+                "pub.1025616039"
             ],
             "references": [
-                "pub.1025616039",
-                "pub.1039769422",
+                "pub.1057606623",
                 "pub.1018507698",
+                "pub.1039769422",
                 "pub.1051077857",
-                "pub.1048746988",
                 "pub.1019803884",
+                "pub.1048746988",
                 "pub.1021073909",
-                "pub.1057606623"
+                "pub.1025616039"
             ],
             "research_org_cities": [
                 {
@@ -1837,11 +1877,45 @@
                     ]
                 }
             ],
-            "score": 22.062357,
             "terms": [
                 "data statistics",
-                "statistics",
-                "tide range"
+                "tide",
+                "National Oceanic",
+                "Oceanic",
+                "Atmospheric Administration",
+                "long-term stations",
+                "stations",
+                "tide gauge network",
+                "gauge network",
+                "network",
+                "trends",
+                "tide range",
+                "range",
+                "higher high water",
+                "high water",
+                "water",
+                "low water",
+                "mean tide range",
+                "example",
+                "Wilmington",
+                "N.C.",
+                "rate",
+                "analysis",
+                "future water levels",
+                "water level",
+                "account",
+                "sea level",
+                "coastal flooding",
+                "flooding",
+                "damage studies",
+                "high water levels",
+                "peak value",
+                "values",
+                "design",
+                "coastal structures",
+                "structure",
+                "restoration planning",
+                "range changes"
             ],
             "times_cited": 84,
             "title": "Trends in United States Tidal Datum Statistics and Tide Range",
@@ -1858,11 +1932,6 @@
             "open": true,
             "url": "https://escholarship.org/uc/item/5846m8hm"
         },
-        "authors": [
-            "author-3ddb4d766363cf2d52d6",
-            "author-4f40092fc6da2228169b",
-            "author-38424c7a5c1ef287ca16"
-        ],
         "datasets": [
             "dataset-614"
         ],
@@ -2344,7 +2413,7 @@
             "date": "2018-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1175/bams-d-16-0021.1",
-            "field_citation_ratio": 9.91,
+            "field_citation_ratio": 9.59,
             "id": "pub.1085148661",
             "issn": [
                 "0003-0007",
@@ -2546,14 +2615,13 @@
                     "last_name": "Lakshmanan",
                     "research_orgs": [
                         "grid.420451.6",
-                        "grid.213917.f",
+                        "grid.266900.b",
                         "grid.487736.9",
                         "grid.417969.4",
-                        "grid.266900.b"
+                        "grid.213917.f"
                     ]
                 }
             ],
-            "score": 20.22633,
             "terms": [
                 "data partnerships",
                 "unprecedented access",
@@ -3340,23 +3408,6 @@
                 }
             ]
         },
-        "abstract": "CapsuleNOAA’s Big Data Partnership (BDP) has facilitated unprecedented access to NEXRAD real-time and archive data, enabling cloud computing that is accessible, efficient and innovative.",
-        "authors": [
-            "author-f5c1a9f094d63696fa91",
-            "author-ee29c9e7f0b4c1e4efa5",
-            "author-c76b05d4cb583e541946",
-            "author-9b29aeca6afe888cb1cc",
-            "author-8296341882ec313966cb",
-            "author-8fdb26d949e4990ac72c",
-            "author-9ba9d5b092e9523b9f30",
-            "author-159597b745b103e79f9c",
-            "author-817693226998833f906f",
-            "author-4b1f317ba27d131e7435",
-            "author-fc75cf03ad0e6d5b5595",
-            "author-c1695628c32e0823905c",
-            "author-750dbefe46ea4d2a1327",
-            "author-60fc3552f2b970ec3305"
-        ],
         "datasets": [
             "dataset-612"
         ],
@@ -3598,6 +3649,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "climate monitoring",
                 "monitoring",
@@ -3649,7 +3706,7 @@
             "date": "2009-07-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1175/2008bams2613.1",
-            "field_citation_ratio": 24.53,
+            "field_citation_ratio": 24.72,
             "id": "pub.1017401254",
             "issn": [
                 "0003-0007",
@@ -3747,7 +3804,6 @@
                     ]
                 }
             ],
-            "score": 21.569073,
             "terms": [
                 "climate monitoring",
                 "monitoring",
@@ -3838,11 +3894,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-5a766130bca66892147d",
-            "author-6fa2fbc5e2ca557ce847",
-            "author-4ccd61f4e78ff0862ca3"
-        ],
         "datasets": [
             "dataset-638"
         ],
@@ -4001,6 +4052,12 @@
                     "name": "D28 History"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30028",
+                    "name": "D28 History"
+                }
+            ],
             "concepts": [
                 "history",
                 "climatic divisions",
@@ -4074,7 +4131,6 @@
                     "last_name": "Quayle"
                 }
             ],
-            "score": 15.706167,
             "terms": [
                 "history",
                 "climatic divisions",
@@ -4098,7 +4154,7 @@
                 "U.S. climate divisions",
                 "climate divisions"
             ],
-            "times_cited": 178,
+            "times_cited": 179,
             "title": "A Historical Perspective of U.S. Climate Divisions",
             "type": "article",
             "volume": "77",
@@ -4135,10 +4191,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-6eb3df1304883d404171",
-            "author-2fb4954d8883b52f18ac"
-        ],
         "datasets": [
             "dataset-640"
         ],
@@ -4317,6 +4369,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "science",
                 "method",
@@ -4377,7 +4435,7 @@
             "date": "2008-06-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1175/2007waf2007042.1",
-            "field_citation_ratio": 3.96,
+            "field_citation_ratio": 3.97,
             "id": "pub.1027959479",
             "issn": [
                 "0882-8156",
@@ -4507,7 +4565,6 @@
                     "last_name": "Pelman"
                 }
             ],
-            "score": 18.949211,
             "terms": [
                 "science",
                 "method",
@@ -4610,12 +4667,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-d4a3670bb1f6fe05c18f",
-            "author-81009aa7b3dd64d740f2",
-            "author-46b3f27908f630ac2eb9",
-            "author-c72b416362e2e8a4d089"
-        ],
         "datasets": [
             "dataset-639"
         ],
@@ -5137,12 +5188,6 @@
                 }
             ]
         },
-        "abstract": null,
-        "authors": [
-            "author-5481370ff468c3d91c56",
-            "author-78690ce5983ee40e83b6",
-            "author-e1da3fe30c91ad3f8387"
-        ],
         "datasets": [
             "dataset-642"
         ],
@@ -5346,6 +5391,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "climate analysis tool",
                 "analysis tools",
@@ -5506,7 +5557,6 @@
                     ]
                 }
             ],
-            "score": 22.693882,
             "terms": [
                 "climate analysis tool",
                 "analysis tools",
@@ -5744,14 +5794,6 @@
                 }
             ]
         },
-        "abstract": "AbstractNOAA’s NWS implemented the new Local Climate Analysis Tool (LCAT) on 1 July 2013. The tool supports the delivery of climate services by quickly providing information to help with climate-sensitive decisions and to facilitate the development of local climate studies and assessments. LCAT provides its users with the ability to conduct local climate variability and change analyses using scientific techniques and the most trusted data, identified through consultation and approval with NOAA subject matter experts. LCAT data include climate-relevant surface observations for individual stations, regional divisions, and gridded reanalysis output. LCAT methods include trend-fitting techniques to assess the local rate of climate change, frequency and conditional probability analyses, and correlation studies to identify existing relationships between local climate and modes of climate variability, such as El Nino Southern Oscillation (ENSO). The tool produces customized output for individual users through a ...",
-        "authors": [
-            "author-c615e8c53b8570ee3f0a",
-            "author-977b2acb7759c0384f83",
-            "author-a0711ed56ba7f6243855",
-            "author-179c491d261404a7cf88",
-            "author-059feeab4ea4337a2e5a"
-        ],
         "datasets": [
             "dataset-637",
             "dataset-638",
@@ -5923,6 +5965,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "National Weather Service",
                 "Weather Service",
@@ -5969,7 +6017,7 @@
             "date": "2003-02-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1175/bams-84-2-195",
-            "field_citation_ratio": 5.17,
+            "field_citation_ratio": 5.2,
             "id": "pub.1004809299",
             "issn": [
                 "0003-0007",
@@ -6011,7 +6059,6 @@
             "references": [
                 "pub.1034602514"
             ],
-            "score": 17.700455,
             "terms": [
                 "National Weather Service",
                 "Weather Service",
@@ -6134,10 +6181,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-a18b1ab051d89bd5200f",
-            "author-d7192248737ae91657f4"
-        ],
         "datasets": [
             "dataset-643"
         ],
@@ -6208,7 +6251,6 @@
         "title": "The New Digital Forecast Database of the National Weather Service"
     },
     {
-        "authors": [],
         "datasets": [
             "dataset-610"
         ],
@@ -6219,7 +6261,6 @@
         "title": "Mapping Coastal Risks and Social Vulnerability: Current Tools and Legal Risks"
     },
     {
-        "authors": [],
         "datasets": [
             "dataset-613",
             "dataset-644"
@@ -6230,7 +6271,6 @@
         "title": "A lifeline and social vulnerability analysis of sea level rise impacts on rural coastal communities"
     },
     {
-        "authors": [],
         "datasets": [
             "dataset-617",
             "dataset-328",
@@ -6256,7 +6296,7 @@
                     "name": "09 Engineering"
                 }
             ],
-            "altmetric": 7145.0,
+            "altmetric": 7103.0,
             "altmetric_id": 69467830,
             "author_affiliations": [
                 [
@@ -6355,6 +6395,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30007",
                     "name": "B07 Earth Systems and Environmental Sciences"
@@ -6475,7 +6521,7 @@
             "pmcid": "PMC6820795",
             "pmid": "31664024",
             "publisher": "Springer Nature",
-            "recent_citations": 10,
+            "recent_citations": 13,
             "reference_ids": [
                 "pub.1061613208",
                 "pub.1004316067",
@@ -6642,8 +6688,6 @@
                     ]
                 }
             ],
-            "score": 24.398726,
-            "sf01": "SN",
             "supporting_grant_ids": [
                 "grant.6934406"
             ],
@@ -6681,7 +6725,7 @@
                 "coastal flooding",
                 "flooding"
             ],
-            "times_cited": 10,
+            "times_cited": 13,
             "title": "New elevation data triple estimates of global vulnerability to sea-level rise and coastal flooding",
             "type": "article",
             "volume": "10",
@@ -8744,11 +8788,6 @@
                 }
             ]
         },
-        "abstract": "Most estimates of global mean sea-level rise this century fall below 2 m. This quantity is comparable to the positive vertical bias of the principle digital elevation model (DEM) used to assess global and national population exposures to extreme coastal water levels, NASA’s SRTM. CoastalDEM is a new DEM utilizing neural networks to reduce SRTM error. Here we show – employing CoastalDEM—that 190 M people (150–250 M, 90% CI) currently occupy global land below projected high tide lines for 2100 under low carbon emissions, up from 110 M today, for a median increase of 80 M. These figures triple SRTM-based values. Under high emissions, CoastalDEM indicates up to 630 M people live on land below projected annual flood levels for 2100, and up to 340 M for mid-century, versus roughly 250 M at present. We estimate one billion people now occupy land less than 10 m above current high tide lines, including 230 M below 1 m. Accurate estimates of global mean sea-level rise are important. Here the authors employ a new digital elevation model (DEM) utilizing neural networks and show that the new DEM more than triples the NASA SRTM-based estimates of current global population occupying land below projected sea levels in 2100, with more than 200 million people could be affected based on RCP4.5 and 2 degC of warming.",
-        "authors": [
-            "author-caf3044fbe73eceeba58",
-            "author-d52e6e6e001e3b1a3e1b"
-        ],
         "datasets": [
             "dataset-618",
             "dataset-646",
@@ -9567,6 +9606,12 @@
                     "name": "B12 Engineering"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
+                }
+            ],
             "concepts": [
                 "Shuttle Radar Topography Mission",
                 "mission",
@@ -9600,7 +9645,7 @@
             "date": "2007-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1029/2005rg000183",
-            "field_citation_ratio": 423.06,
+            "field_citation_ratio": 427.19,
             "id": "pub.1018802378",
             "issn": [
                 "8755-1209",
@@ -9635,7 +9680,7 @@
                 }
             ],
             "publisher": "American Geophysical Union (AGU)",
-            "recent_citations": 823,
+            "recent_citations": 846,
             "reference_ids": [
                 "pub.1095045905",
                 "pub.1043185444",
@@ -9960,9 +10005,9 @@
                         "0000-0003-4723-5280"
                     ],
                     "research_orgs": [
-                        "grid.211367.0",
                         "grid.20861.3d",
-                        "grid.134563.6"
+                        "grid.134563.6",
+                        "grid.211367.0"
                     ]
                 },
                 {
@@ -10052,10 +10097,10 @@
                         "0000-0002-6631-5326"
                     ],
                     "research_orgs": [
-                        "grid.20861.3d",
                         "grid.10698.36",
-                        "grid.27860.3b",
                         "grid.133342.4",
+                        "grid.27860.3b",
+                        "grid.20861.3d",
                         "grid.410711.2"
                     ]
                 },
@@ -10067,13 +10112,13 @@
                         "0000-0001-8497-3296"
                     ],
                     "research_orgs": [
-                        "grid.133342.4",
-                        "grid.42505.36",
                         "grid.254880.3",
-                        "grid.30389.31",
-                        "grid.29857.31",
                         "grid.5734.5",
-                        "grid.9909.9"
+                        "grid.9909.9",
+                        "grid.133342.4",
+                        "grid.29857.31",
+                        "grid.30389.31",
+                        "grid.42505.36"
                     ]
                 },
                 {
@@ -10088,7 +10133,6 @@
                     ]
                 }
             ],
-            "score": 16.930016,
             "terms": [
                 "Shuttle Radar Topography Mission",
                 "mission",
@@ -10119,7 +10163,7 @@
                 "products",
                 "revolutionary data"
             ],
-            "times_cited": 2655,
+            "times_cited": 2678,
             "title": "The Shuttle Radar Topography Mission",
             "type": "article",
             "volume": "45",
@@ -10272,26 +10316,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-cbcf385676314b5c7bb9",
-            "author-d3ba6a74d52f6ce10728",
-            "author-7df7dc2793166676a415",
-            "author-7925aebb25350fd9a07b",
-            "author-11effc31c3d36642db87",
-            "author-66f8995d2ec5ccfec197",
-            "author-792565495f08b44d6d05",
-            "author-788bdc6bbabaa818fcd2",
-            "author-77a2f427b6f313fd44dc",
-            "author-ffb29aefd5b6a8f11c45",
-            "author-6e55230179c2aa6d3cf9",
-            "author-cb6c6439cffaf23728b9",
-            "author-817d2db136498fc4f80d",
-            "author-bbe5ee0b2c8898254029",
-            "author-983c7863752a4f7d2a9c",
-            "author-b2b10d147d1b02b0fd99",
-            "author-a27d4b55aaac416336c2",
-            "author-e0ee02fa1b75dd2aefea"
-        ],
         "datasets": [
             "dataset-646"
         ],
@@ -10669,6 +10693,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "vertical bias",
                 "elevation data",
@@ -10724,7 +10754,7 @@
             "date": "2018-03-01",
             "date_inserted": "2018-01-02",
             "doi": "10.1016/j.rse.2017.12.026",
-            "field_citation_ratio": 2.7,
+            "field_citation_ratio": 2.6,
             "funder_countries": [
                 {
                     "id": "US",
@@ -10897,7 +10927,6 @@
                     ]
                 }
             ],
-            "score": 24.726948,
             "terms": [
                 "vertical bias",
                 "elevation data",
@@ -11226,11 +11255,6 @@
                 }
             ]
         },
-        "abstract": "Abstract Positive vertical bias in elevation data derived from NASA's Shuttle Radar Topography Mission (SRTM) is known to cause substantial underestimation of coastal flood risks and exposure. Previous attempts to correct SRTM elevations have used regression to predict vertical error from a small number of auxiliary data products, but these efforts have been focused on reducing error introduced solely by vegetative land cover. Here, we employ a multilayer perceptron artificial neural network to perform a 23-dimensional vertical error regression analyses, where in addition to vegetation cover indices, we use variables including neighborhood elevation values, population density, land slope, and local SRTM deviations from ICESat altitude observations. Using lidar data as ground truth, we train the neural network on samples of US data from 1–20 m of elevation according to SRTM, and assess outputs with extensive testing sets in the US and Australia. Our adjustment system reduces mean vertical bias in the coastal US from 3.67 m to less than 0.01 m, and in Australia from 2.49 m to 0.11 m. RMSE is cut by roughly one-half at both locations, from 5.36 m to 2.39 m in the US, and from 4.15 m to 2.46 in Australia. Using ICESat data as a reference, we estimate that global bias falls from 1.88 m to −0.29 m, and RMSE from 4.28 m and 3.08 m. The methods presented here are flexible and effective, and can be effectively applied to land cover of all types, including dense urban development. The resulting enhanced global coastal DEM (CoastalDEM) promises to greatly improve the accuracy of sea level rise and coastal flood analyses worldwide.",
-        "authors": [
-            "author-caf3044fbe73eceeba58",
-            "author-d52e6e6e001e3b1a3e1b"
-        ],
         "datasets": [
             "dataset-646"
         ],
@@ -11301,7 +11325,7 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
-            "altmetric": 124.0,
+            "altmetric": 123.0,
             "altmetric_id": 57840823,
             "author_affiliations": [
                 [
@@ -11453,6 +11477,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "sea level rise",
                 "level rise",
@@ -11497,82 +11527,82 @@
             ],
             "pages": "253-272",
             "publisher": "Elsevier",
-            "recent_citations": 8,
+            "recent_citations": 13,
             "reference_ids": [
-                "pub.1054522610",
-                "pub.1030582831",
-                "pub.1010974893",
-                "pub.1006537101",
-                "pub.1045190996",
-                "pub.1039391341",
-                "pub.1062469287",
-                "pub.1046822783",
-                "pub.1064527938",
-                "pub.1064527327",
-                "pub.1102421699",
-                "pub.1064527448",
-                "pub.1045540895",
-                "pub.1099761019",
-                "pub.1028637998",
-                "pub.1059983437",
-                "pub.1025380952",
-                "pub.1033472693",
-                "pub.1064531567",
-                "pub.1015836221",
                 "pub.1064528937",
-                "pub.1063352797",
-                "pub.1021885645",
-                "pub.1037163784",
-                "pub.1058800674",
-                "pub.1064714388",
-                "pub.1063348871",
-                "pub.1049431819",
-                "pub.1062457814",
-                "pub.1097145202",
-                "pub.1047061196",
-                "pub.1071159158",
                 "pub.1107646172",
+                "pub.1045190996",
+                "pub.1030582831",
+                "pub.1062457814",
+                "pub.1102421699",
+                "pub.1028637998",
+                "pub.1071159158",
+                "pub.1046822783",
+                "pub.1099761019",
+                "pub.1059983437",
+                "pub.1037163784",
+                "pub.1062469287",
+                "pub.1010974893",
+                "pub.1015836221",
+                "pub.1064527938",
                 "pub.1006471453",
+                "pub.1006537101",
+                "pub.1021885645",
+                "pub.1054522610",
                 "pub.1018751764",
-                "pub.1043044372"
+                "pub.1063348871",
+                "pub.1064531567",
+                "pub.1045540895",
+                "pub.1049431819",
+                "pub.1047061196",
+                "pub.1033472693",
+                "pub.1064714388",
+                "pub.1097145202",
+                "pub.1043044372",
+                "pub.1025380952",
+                "pub.1039391341",
+                "pub.1064527327",
+                "pub.1058800674",
+                "pub.1063352797",
+                "pub.1064527448"
             ],
             "references": [
-                "pub.1054522610",
-                "pub.1030582831",
-                "pub.1010974893",
-                "pub.1006537101",
-                "pub.1045190996",
-                "pub.1039391341",
-                "pub.1062469287",
-                "pub.1046822783",
-                "pub.1064527938",
-                "pub.1064527327",
-                "pub.1102421699",
-                "pub.1064527448",
-                "pub.1045540895",
-                "pub.1099761019",
-                "pub.1028637998",
-                "pub.1059983437",
-                "pub.1025380952",
-                "pub.1033472693",
-                "pub.1064531567",
-                "pub.1015836221",
                 "pub.1064528937",
-                "pub.1063352797",
-                "pub.1021885645",
-                "pub.1037163784",
-                "pub.1058800674",
-                "pub.1064714388",
-                "pub.1063348871",
-                "pub.1049431819",
-                "pub.1062457814",
-                "pub.1097145202",
-                "pub.1047061196",
-                "pub.1071159158",
                 "pub.1107646172",
+                "pub.1045190996",
+                "pub.1030582831",
+                "pub.1062457814",
+                "pub.1102421699",
+                "pub.1028637998",
+                "pub.1071159158",
+                "pub.1046822783",
+                "pub.1099761019",
+                "pub.1059983437",
+                "pub.1037163784",
+                "pub.1062469287",
+                "pub.1010974893",
+                "pub.1015836221",
+                "pub.1064527938",
                 "pub.1006471453",
+                "pub.1006537101",
+                "pub.1021885645",
+                "pub.1054522610",
                 "pub.1018751764",
-                "pub.1043044372"
+                "pub.1063348871",
+                "pub.1064531567",
+                "pub.1045540895",
+                "pub.1049431819",
+                "pub.1047061196",
+                "pub.1033472693",
+                "pub.1064714388",
+                "pub.1097145202",
+                "pub.1043044372",
+                "pub.1025380952",
+                "pub.1039391341",
+                "pub.1064527327",
+                "pub.1058800674",
+                "pub.1063352797",
+                "pub.1064527448"
             ],
             "research_org_cities": [
                 {
@@ -11651,7 +11681,6 @@
                     ]
                 }
             ],
-            "score": 14.981497,
             "terms": [
                 "sea level rise",
                 "level rise",
@@ -11669,7 +11698,7 @@
                 "disasters",
                 "horizon"
             ],
-            "times_cited": 8,
+            "times_cited": 13,
             "title": "Disaster on the Horizon: The Price Effect of Sea Level Rise",
             "type": "article",
             "volume": "134",
@@ -11713,11 +11742,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-1e26a100b53a4d9d7469",
-            "author-019fd12dd1ba46c01e4f",
-            "author-5fcb4e12703fc9737207"
-        ],
         "datasets": [
             "dataset-647",
             "dataset-610"

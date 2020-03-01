@@ -115,7 +115,6 @@
                 "Missouri",
                 "California"
             ],
-            "score": 19.492182,
             "terms": [
                 "care program",
                 "program",
@@ -221,10 +220,6 @@
                 }
             ]
         },
-        "abstract": "Under California's Whole Person Care program, Sacramento is using Medicaid funds to help its homeless population find housing.",
-        "authors": [
-            "author-68eda6ec601d76926e70"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -570,6 +565,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30011",
+                    "name": "B11 Computer Science and Informatics"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30011",
                     "name": "B11 Computer Science and Informatics"
@@ -969,10 +970,10 @@
                         "0000-0002-9697-2108"
                     ],
                     "research_orgs": [
-                        "grid.5373.2",
+                        "grid.440736.2",
                         "grid.43169.39",
-                        "grid.6533.3",
-                        "grid.440736.2"
+                        "grid.5373.2",
+                        "grid.6533.3"
                     ]
                 },
                 {
@@ -983,8 +984,8 @@
                         "0000-0002-5302-1150"
                     ],
                     "research_orgs": [
-                        "grid.459615.a",
-                        "grid.263333.4"
+                        "grid.263333.4",
+                        "grid.459615.a"
                     ]
                 },
                 {
@@ -995,8 +996,8 @@
                         "0000-0003-0992-7948"
                     ],
                     "research_orgs": [
-                        "grid.98913.3a",
                         "grid.469991.a",
+                        "grid.98913.3a",
                         "grid.6292.f",
                         "grid.17635.36"
                     ]
@@ -1012,7 +1013,6 @@
                     ]
                 }
             ],
-            "score": 18.009085,
             "supporting_grant_ids": [
                 "grant.8306501"
             ],
@@ -1329,14 +1329,6 @@
                 }
             ]
         },
-        "abstract": "Abstract Privacy preservation has become a prerequisite for modern applications in the cloud, social media, Internet of things (IoT), and E- healthcare systems. In general, health and medical data contain images and medical information about the patients and such personal data should be kept confidential in order to maintain the patients’ privacy. Due to limitations in digital data properties, traditional encryption schemes over textual and structural one-dimension data cannot be applied directly to e-health data. In addition, when personal data are sent over the open channels, patients may lose privacy of data contents. Hence, a secure lightweight keyframe extraction method is highly required to ensure timely, correct, and privacy-preserving e-health services. Besides this, it is inherently difficult to achieve a satisfied level of security in a cost-effective way while considering the constraints of real-time e-health applications. In this paper, we propose a privacy preserving chaos-based encryption cryptosystem for patients’ privacy protection. The proposed cryptosystem can protect patient’s images from a compromised broker. In particular, we propose a fast probabilistic cryptosystem to secure medical keyframes that are extracted from wireless capsule endoscopy procedure using a prioritization method. The encrypted images produced by our cryptosystem exhibits randomness behavior, which guarantee computational efficiency as well as a highest level of security for the keyframes against various attacks. Furthermore, it processes the medical data without leaking any information, thus preserving patient’s privacy by allowing only authorized users for decryption. The experimental results and security analysis from different perspectives verify the excellent performance of our encryption cryptosystem compared to other recent encryption schemes.",
-        "authors": [
-            "author-b62f4315314197d8caa8",
-            "author-222a0f1297bf954a3277",
-            "author-7532429aaa9840c4258f",
-            "author-84ba78d4777c219a8548",
-            "author-a5b86044bef20a65f8f5"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -1547,6 +1539,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30011",
+                    "name": "B11 Computer Science and Informatics"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30011",
                     "name": "B11 Computer Science and Informatics"
@@ -1773,7 +1771,6 @@
                     ]
                 }
             ],
-            "score": 29.568584,
             "terms": [
                 "rapid technology advances",
                 "technology advances",
@@ -1994,10 +1991,6 @@
                 }
             ]
         },
-        "abstract": "Abstract The rapid technology advances in medical devices make possible the generation of vast amounts of data, which contain massive quantities of diagnostic information. Interactively accessing and sharing the acquired data on the Internet is critically important in telemedicine. However, due to the lack of efficient algorithms and high computational cost, collaborative medical data exploration on the Internet is still a challenging task in clinical settings. Therefore, we develop a web-based medical image rendering and visual synchronization software platform, in which novel algorithms are created for parallel data computing and image feature enhancement, where Node.js and Socket.IO libraries are utilized to establish bidirectional connections between server and clients in real time. In addition, we design a new methodology to stream medical information among all connected users, whose identities and input messages can be automatically stored in database and extracted in web browsers. The presented software framework will provide multiple medical practitioners with immediate visual feedback and interactive information in applications such as collaborative therapy planning, distributed treatment, and remote clinical health care.",
-        "authors": [
-            "author-e473b8ba2c0044fda02d"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -2421,6 +2414,12 @@
                     "name": "A02 Public Health, Health Services and Primary Care"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30002",
+                    "name": "A02 Public Health, Health Services and Primary Care"
+                }
+            ],
             "concepts": [
                 "frequency",
                 "changes",
@@ -2527,7 +2526,7 @@
             "date": "2018-07-10",
             "date_inserted": "2018-07-13",
             "doi": "10.1371/journal.pmed.1002601",
-            "field_citation_ratio": 10.68,
+            "field_citation_ratio": 11.08,
             "funder_countries": [
                 {
                     "id": "US",
@@ -2636,86 +2635,86 @@
             "pmcid": "PMC6038982",
             "pmid": "29990362",
             "publisher": "Public Library of Science (PLoS)",
-            "recent_citations": 12,
+            "recent_citations": 13,
             "reference_ids": [
-                "pub.1015930358",
-                "pub.1021406470",
-                "pub.1022897555",
-                "pub.1077673152",
-                "pub.1031866590",
-                "pub.1033507787",
-                "pub.1009945528",
+                "pub.1045434961",
+                "pub.1042756119",
+                "pub.1029571926",
                 "pub.1047727130",
-                "pub.1042495505",
-                "pub.1027798917",
-                "pub.1055496425",
-                "pub.1005774483",
-                "pub.1048767623",
-                "pub.1014671102",
+                "pub.1006314852",
+                "pub.1103211950",
                 "pub.1033852414",
+                "pub.1022897555",
+                "pub.1031866590",
+                "pub.1005774483",
+                "pub.1032514544",
+                "pub.1053399979",
+                "pub.1029704315",
+                "pub.1038734999",
+                "pub.1077673152",
+                "pub.1017579651",
+                "pub.1064741792",
+                "pub.1028095055",
                 "pub.1029211831",
+                "pub.1021406470",
+                "pub.1043985034",
+                "pub.1033443168",
+                "pub.1011772925",
+                "pub.1048767623",
+                "pub.1009945528",
                 "pub.1077813434",
+                "pub.1055496425",
+                "pub.1010507013",
+                "pub.1014671102",
+                "pub.1015930358",
+                "pub.1042495505",
+                "pub.1043297354",
+                "pub.1027798917",
                 "pub.1055507272",
                 "pub.1049800947",
-                "pub.1020256376",
-                "pub.1042756119",
-                "pub.1038734999",
-                "pub.1006314852",
-                "pub.1029704315",
-                "pub.1103211950",
-                "pub.1045434961",
-                "pub.1033443168",
-                "pub.1028095055",
-                "pub.1029571926",
-                "pub.1032514544",
-                "pub.1010507013",
-                "pub.1043985034",
-                "pub.1053399979",
+                "pub.1033507787",
                 "pub.1018353734",
-                "pub.1064741792",
-                "pub.1017579651",
-                "pub.1011772925",
-                "pub.1043297354"
+                "pub.1020256376"
             ],
             "references": [
-                "pub.1015930358",
-                "pub.1021406470",
-                "pub.1022897555",
-                "pub.1077673152",
-                "pub.1031866590",
-                "pub.1033507787",
-                "pub.1009945528",
+                "pub.1045434961",
+                "pub.1042756119",
+                "pub.1029571926",
                 "pub.1047727130",
-                "pub.1042495505",
-                "pub.1027798917",
-                "pub.1055496425",
-                "pub.1005774483",
-                "pub.1048767623",
-                "pub.1014671102",
+                "pub.1006314852",
+                "pub.1103211950",
                 "pub.1033852414",
+                "pub.1022897555",
+                "pub.1031866590",
+                "pub.1005774483",
+                "pub.1032514544",
+                "pub.1053399979",
+                "pub.1029704315",
+                "pub.1038734999",
+                "pub.1077673152",
+                "pub.1017579651",
+                "pub.1064741792",
+                "pub.1028095055",
                 "pub.1029211831",
+                "pub.1021406470",
+                "pub.1043985034",
+                "pub.1033443168",
+                "pub.1011772925",
+                "pub.1048767623",
+                "pub.1009945528",
                 "pub.1077813434",
+                "pub.1055496425",
+                "pub.1010507013",
+                "pub.1014671102",
+                "pub.1015930358",
+                "pub.1042495505",
+                "pub.1043297354",
+                "pub.1027798917",
                 "pub.1055507272",
                 "pub.1049800947",
-                "pub.1020256376",
-                "pub.1042756119",
-                "pub.1038734999",
-                "pub.1006314852",
-                "pub.1029704315",
-                "pub.1103211950",
-                "pub.1045434961",
-                "pub.1033443168",
-                "pub.1028095055",
-                "pub.1029571926",
-                "pub.1032514544",
-                "pub.1010507013",
-                "pub.1043985034",
-                "pub.1053399979",
+                "pub.1033507787",
                 "pub.1018353734",
-                "pub.1064741792",
-                "pub.1017579651",
-                "pub.1011772925",
-                "pub.1043297354"
+                "pub.1020256376"
             ],
             "research_org_cities": [
                 {
@@ -2866,7 +2865,6 @@
                     ]
                 }
             ],
-            "score": 31.610184,
             "supporting_grant_ids": [
                 "grant.2668692"
             ],
@@ -2973,7 +2971,7 @@
                 "case-crossover analysis",
                 "crossover analysis"
             ],
-            "times_cited": 12,
+            "times_cited": 13,
             "title": "The San Diego 2007 wildfires and Medi-Cal emergency department presentations, inpatient hospitalizations, and outpatient visits: An observational study of smoke exposure periods and a bidirectional case-crossover analysis",
             "type": "article",
             "volume": "15",
@@ -5280,16 +5278,6 @@
                 }
             ]
         },
-        "abstract": "BACKGROUND\nThe frequency and intensity of wildfires is anticipated to increase as climate change creates longer, warmer, and drier seasons. Particulate matter (PM) from wildfire smoke has been linked to adverse respiratory and possibly cardiovascular outcomes. Children, older adults, and persons with underlying respiratory and cardiovascular conditions are thought to be particularly vulnerable. This study examines the healthcare utilization of Medi-Cal recipients during the fall 2007 San Diego wildfires, which exposed millions of persons to wildfire smoke.\n\n\nMETHODS AND FINDINGS\nRespiratory and cardiovascular International Classification of Diseases (ICD)-9 codes were identified from Medi-Cal fee-for-service claims for emergency department presentations, inpatient hospitalizations, and outpatient visits. For a respiratory index and a cardiovascular index of key diagnoses and individual diagnoses, we calculated rate ratios (RRs) for the study population and different age groups for 3 consecutive 5-day exposure periods (P1 [October 22-26], P2 [October 27-31], and P3 [November 1-5]) versus pre-fire comparison periods matched on day of week (5-day periods starting 3, 4, 5, 6, 8, and 9 weeks before each exposed period). We used a bidirectional symmetric case-crossover design to examine emergency department presentations with any respiratory diagnosis and asthma specifically, with exposure based on modeled wildfire-derived fine inhalable particles that are 2.5 micrometers and smaller (PM2.5). We used conditional logistic regression to estimate odds ratios (ORs), adjusting for temperature and relative humidity, to assess same-day and moving averages. We also evaluated the United States Environmental Protection Agency (EPA)'s Air Quality Index (AQI) with this conditional logistic regression method. We identified 21,353 inpatient hospitalizations, 25,922 emergency department presentations, and 297,698 outpatient visits between August 16 and December 15, 2007. During P1, total emergency department presentations were no different than the reference periods (1,071 versus 1,062.2; RR 1.01; 95% confidence interval [CI] 0.95-1.08), those for respiratory diagnoses increased by 34% (288 versus 215.3; RR 1.34; 95% CI 1.18-1.52), and those for asthma increased by 112% (58 versus 27.3; RR 2.12; 95% CI 1.57-2.86). Some visit types continued to be elevated in later time frames, e.g., a 72% increase in outpatient visits for acute bronchitis in P2. Among children aged 0-4, emergency department presentations for respiratory diagnoses increased by 70% in P1, and very young children (0-1) experienced a 243% increase for asthma diagnoses. Associated with a 10 μg/m3 increase in PM2.5 (72-hour moving average), we found 1.08 (95% CI 1.04-1.13) times greater odds of an emergency department presentation for asthma. The AQI level \"unhealthy for sensitive groups\" was associated with significantly elevated odds of an emergency department presentation for respiratory conditions the day following exposure, compared to the AQI level \"good\" (OR 1.73; 95% CI 1.18-2.53). Study limitations include the use of patient home address to estimate exposures and demographic differences between Medi-Cal beneficiaries and the general population.\n\n\nCONCLUSIONS\nRespiratory diagnoses, especially asthma, were elevated during the wildfires in the vulnerable population of Medi-Cal beneficiaries. Wildfire-related healthcare utilization appeared to persist beyond the initial high-exposure period. Increased adverse health events were apparent even at mildly degraded AQI levels. Significant increases in health events, especially for respiratory conditions and among young children, are expected based on projected climate scenarios of wildfire frequency in California and globally.",
-        "authors": [
-            "author-33bfffbe1ef014f09c7f",
-            "author-d7d0e78418357d7e0a37",
-            "author-0aaa5bb46ad47198cf9f",
-            "author-84023c7256077b447268",
-            "author-49e20ec3085a53229e36",
-            "author-302a0d400aa69b377fa8",
-            "author-44a55694c7f36d26e786"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -5556,6 +5544,16 @@
                     "name": "A02 Public Health, Health Services and Primary Care"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30003",
+                    "name": "A03 Allied Health Professions, Dentistry, Nursing and Pharmacy"
+                },
+                {
+                    "id": "30002",
+                    "name": "A02 Public Health, Health Services and Primary Care"
+                }
+            ],
             "concepts": [
                 "primary care",
                 "care",
@@ -5624,7 +5622,7 @@
             "date": "2018-07-03",
             "date_inserted": "2018-07-08",
             "doi": "10.5334/ijic.3719",
-            "field_citation_ratio": 0.89,
+            "field_citation_ratio": 0.85,
             "id": "pub.1105293593",
             "issn": [
                 "1568-4156"
@@ -5802,7 +5800,6 @@
                     ]
                 }
             ],
-            "score": 25.952261,
             "terms": [
                 "primary care",
                 "care",
@@ -6124,12 +6121,6 @@
                 }
             ]
         },
-        "abstract": "Introduction\nIntegrating primary care and behavioural health services improves access to services and health outcomes among individuals with serious mental illness. Integrated care is particularly promising for racial and ethnic minority individuals given higher rates of chronic illnesses and poorer access to and quality of care compared to Whites. However, little is known about integrated care implementation in non-White populations. The aim of this study is to identify facilitators and barriers to successful implementation of primary care-behavioural health integration in a multilingual behavioural healthcare setting.\n\n\nMethods\nSeven focus groups and five semi-structured interviews were conducted with 41 patients and 5 providers participating in integrated care in a community mental health clinic in California serving Asian immigrants.\n\n\nResults\nThemes generated from constant comparative analysis suggest limited system-level preconditions and cross-organisational dynamics challenged integrated care. At the same time, changing organisational culture and practice, improving patient-provider and provider-provider communication, and increasing patient involvement enhanced clinical outcomes and facilitated successful implementation.\n\n\nDiscussion and conclusions\nFindings highlight the importance of patient involvement, peer services and interdisciplinary communication to successfully implement integrated care in the face of linguistic and operational challenges in settings serving multilingual and multicultural patients.",
-        "authors": [
-            "author-821cc4d6858f13c35809",
-            "author-e5e3a88dc3755a98567d",
-            "author-25bef318ab268b621c8d"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -6583,6 +6574,12 @@
                     "name": "A03 Allied Health Professions, Dentistry, Nursing and Pharmacy"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30003",
+                    "name": "A03 Allied Health Professions, Dentistry, Nursing and Pharmacy"
+                }
+            ],
             "concepts": [
                 "incidence",
                 "oropharyngeal cancer",
@@ -6647,7 +6644,7 @@
             "date": "2017-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1158/1055-9965.epi-17-0220",
-            "field_citation_ratio": 4.94,
+            "field_citation_ratio": 4.82,
             "funder_countries": [
                 {
                     "id": "US",
@@ -6723,66 +6720,66 @@
             "publisher": "American Association for Cancer Research (AACR)",
             "recent_citations": 10,
             "reference_ids": [
-                "pub.1064391139",
-                "pub.1009778043",
-                "pub.1037593685",
-                "pub.1001390597",
-                "pub.1010727000",
-                "pub.1014368621",
-                "pub.1051051026",
-                "pub.1067984393",
-                "pub.1029034331",
-                "pub.1006606739",
-                "pub.1005834376",
-                "pub.1041822594",
-                "pub.1033682400",
-                "pub.1051291299",
-                "pub.1046170033",
-                "pub.1034690746",
-                "pub.1001651093",
-                "pub.1010891776",
-                "pub.1000211089",
-                "pub.1059821622",
-                "pub.1035266225",
-                "pub.1027371837",
-                "pub.1053476203",
-                "pub.1059821561",
-                "pub.1009443310",
-                "pub.1020762076",
                 "pub.1059821537",
+                "pub.1009443310",
+                "pub.1067984340",
+                "pub.1033682400",
+                "pub.1046170033",
+                "pub.1009778043",
+                "pub.1053476203",
+                "pub.1014368621",
+                "pub.1020762076",
+                "pub.1010891776",
+                "pub.1027371837",
+                "pub.1059821622",
+                "pub.1001651093",
+                "pub.1041822594",
+                "pub.1010727000",
+                "pub.1059821561",
+                "pub.1000211089",
+                "pub.1029034331",
+                "pub.1064391139",
+                "pub.1051051026",
+                "pub.1035266225",
+                "pub.1051291299",
+                "pub.1005834376",
+                "pub.1034690746",
                 "pub.1078962721",
-                "pub.1067984340"
+                "pub.1067984393",
+                "pub.1001390597",
+                "pub.1037593685",
+                "pub.1006606739"
             ],
             "references": [
-                "pub.1064391139",
-                "pub.1009778043",
-                "pub.1037593685",
-                "pub.1001390597",
-                "pub.1010727000",
-                "pub.1014368621",
-                "pub.1051051026",
-                "pub.1067984393",
-                "pub.1029034331",
-                "pub.1006606739",
-                "pub.1005834376",
-                "pub.1041822594",
-                "pub.1033682400",
-                "pub.1051291299",
-                "pub.1046170033",
-                "pub.1034690746",
-                "pub.1001651093",
-                "pub.1010891776",
-                "pub.1000211089",
-                "pub.1059821622",
-                "pub.1035266225",
-                "pub.1027371837",
-                "pub.1053476203",
-                "pub.1059821561",
-                "pub.1009443310",
-                "pub.1020762076",
                 "pub.1059821537",
+                "pub.1009443310",
+                "pub.1067984340",
+                "pub.1033682400",
+                "pub.1046170033",
+                "pub.1009778043",
+                "pub.1053476203",
+                "pub.1014368621",
+                "pub.1020762076",
+                "pub.1010891776",
+                "pub.1027371837",
+                "pub.1059821622",
+                "pub.1001651093",
+                "pub.1041822594",
+                "pub.1010727000",
+                "pub.1059821561",
+                "pub.1000211089",
+                "pub.1029034331",
+                "pub.1064391139",
+                "pub.1051051026",
+                "pub.1035266225",
+                "pub.1051291299",
+                "pub.1005834376",
+                "pub.1034690746",
                 "pub.1078962721",
-                "pub.1067984340"
+                "pub.1067984393",
+                "pub.1001390597",
+                "pub.1037593685",
+                "pub.1006606739"
             ],
             "relative_citation_ratio": 1.0,
             "research_org_cities": [
@@ -6850,13 +6847,13 @@
                         "0000-0003-2285-0527"
                     ],
                     "research_orgs": [
-                        "grid.416470.0",
                         "grid.240145.6",
+                        "grid.267308.8",
+                        "grid.17063.33",
+                        "grid.416470.0",
                         "grid.266539.d",
                         "grid.468222.8",
-                        "grid.267309.9",
-                        "grid.267308.8",
-                        "grid.17063.33"
+                        "grid.267309.9"
                     ]
                 },
                 {
@@ -6933,7 +6930,6 @@
                     ]
                 }
             ],
-            "score": 17.456047,
             "supporting_grant_ids": [
                 "grant.2438826"
             ],
@@ -9293,15 +9289,6 @@
                 }
             ]
         },
-        "abstract": "Background: The incidence of oropharyngeal cancer is rising rapidly, with the majority of cases being attributable to human papillomavirus (HPV). Despite the availability of a vaccine, rates of HPV vaccination among Texas youth are low. The healthcare cost of oropharyngeal cancer in Texas is unknown. The aims of this study were to estimate the first 2-year cost of treating new cases of oropharyngeal cancer and determine the predictors of oropharyngeal cancer treatment cost in Texas.Methods: This study included a retrospective cohort of 467 Texas patients with commercial insurance claims data with oropharyngeal cancer diagnosed from 2011 to 2014 and a control group of 467 noncancer patients obtained with propensity score matching. Total healthcare cost during the first 2 years after the index date was measured. A generalized linear model was used to identify predictors of monthly cost during the 2 years after the index date.Results: The mean differential adjusted healthcare cost for oropharyngeal cancer cases was $139,749 in the first 2 years. The mean adjusted monthly cost in the first 2 years was $6,693 for cases and $870 for controls. Age, comorbidity, mental health, prediagnostic healthcare cost, and time index were significant predictors of monthly cost.Conclusions: Medical care cost was about $140,000 in the first 2 years after diagnosis of oropharyngeal cancer among commercially insured patients in Texas.Impact: The cost estimates provide important parameters for development of decision-analytic models to inform decision makers about the potential value of initiatives for increasing the HPV immunization rate in the state. Cancer Epidemiol Biomarkers Prev; 26(9); 1443-9. ©2017 AACR.",
-        "authors": [
-            "author-fbbf7c5660ffe772adbd",
-            "author-bd1262352f4ad4a5139c",
-            "author-50e8874e63921ed49a23",
-            "author-a9fb9d7718181654107e",
-            "author-e7e1827efd39a6f17430",
-            "author-69cd95b55c0fa8efff6d"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -9619,6 +9606,12 @@
                     "name": "A02 Public Health, Health Services and Primary Care"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30002",
+                    "name": "A02 Public Health, Health Services and Primary Care"
+                }
+            ],
             "concepts": [
                 "association",
                 "abortion",
@@ -9674,7 +9667,7 @@
             "date": "2017-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1097/aog.0000000000002188",
-            "field_citation_ratio": 3.46,
+            "field_citation_ratio": 3.38,
             "id": "pub.1091217808",
             "issn": [
                 "1099-3630",
@@ -9826,16 +9819,15 @@
                     "id": "ur.01077061163.12",
                     "last_name": "Kerns",
                     "research_orgs": [
-                        "grid.415235.4",
                         "grid.266102.1",
-                        "grid.21729.3f",
-                        "grid.240473.6",
                         "grid.251993.5",
+                        "grid.240473.6",
+                        "grid.21729.3f",
+                        "grid.415235.4",
                         "grid.239585.0"
                     ]
                 }
             ],
-            "score": 20.178165,
             "terms": [
                 "association",
                 "abortion",
@@ -9943,12 +9935,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-1e96d5e3e172856be88e",
-            "author-4c57412d0cc8d6d01760",
-            "author-f12e1ebfab438017711a",
-            "author-582fbc582dfdc9c1da64"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -10170,6 +10156,12 @@
                     "name": "B11 Computer Science and Informatics"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30011",
+                    "name": "B11 Computer Science and Informatics"
+                }
+            ],
             "concepts": [
                 "data mining",
                 "mining",
@@ -10291,7 +10283,6 @@
                     ]
                 }
             ],
-            "score": 12.331413,
             "terms": [
                 "data mining",
                 "mining",
@@ -10977,11 +10968,6 @@
                 }
             ]
         },
-        "abstract": "In today's era data mining plays important role for prediction of diseases in medical field. With the growing research on disease predicting system, it has become important to discover hidden patterns and relationships from medical databases. In classical clinical diagnosis, it requires lots of tests which could complicate the disease prediction. Hence the data mining techniques can help medical expertise to take the decision about the disease using computer aided decision support system. In this paper comprehensive survey on various data mining techniques used for disease prediction is presented.",
-        "authors": [
-            "author-66e84be7145ec3fdea88",
-            "author-8bbc5dd2bff566730a0b"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -11310,6 +11296,12 @@
                     "name": "A01 Clinical Medicine"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30001",
+                    "name": "A01 Clinical Medicine"
+                }
+            ],
             "concepts": [
                 "comparative data",
                 "data",
@@ -11376,7 +11368,7 @@
             "date": "2017-08-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/s12325-017-0582-z",
-            "field_citation_ratio": 10.38,
+            "field_citation_ratio": 10.16,
             "funder_countries": [
                 {
                     "id": "US",
@@ -11472,86 +11464,86 @@
             "publisher": "Springer Nature",
             "recent_citations": 16,
             "reference_ids": [
-                "pub.1053547877",
-                "pub.1003735543",
-                "pub.1011571164",
-                "pub.1020595986",
-                "pub.1021360538",
-                "pub.1011289665",
-                "pub.1050837121",
-                "pub.1077632852",
-                "pub.1020525216",
-                "pub.1049939737",
-                "pub.1021035388",
-                "pub.1000139345",
-                "pub.1020988115",
-                "pub.1036406366",
-                "pub.1003359813",
-                "pub.1016794339",
-                "pub.1034300733",
-                "pub.1034003663",
-                "pub.1034810717",
-                "pub.1040717744",
-                "pub.1014892934",
-                "pub.1079040629",
-                "pub.1068660289",
-                "pub.1048499146",
-                "pub.1007998927",
-                "pub.1044811695",
-                "pub.1041769658",
-                "pub.1044097853",
-                "pub.1021464207",
-                "pub.1092655869",
-                "pub.1004142797",
-                "pub.1008682251",
-                "pub.1078342473",
-                "pub.1035570484",
-                "pub.1020294783",
                 "pub.1029595124",
-                "pub.1050845946",
+                "pub.1079040629",
+                "pub.1044811695",
+                "pub.1016794339",
+                "pub.1021035388",
+                "pub.1068660289",
+                "pub.1048175380",
+                "pub.1053547877",
+                "pub.1078342473",
+                "pub.1000139345",
+                "pub.1021360538",
+                "pub.1011571164",
+                "pub.1020525216",
+                "pub.1003359813",
+                "pub.1034810717",
+                "pub.1036406366",
+                "pub.1020294783",
+                "pub.1034003663",
+                "pub.1041769658",
                 "pub.1036612259",
-                "pub.1048175380"
+                "pub.1021464207",
+                "pub.1020988115",
+                "pub.1048499146",
+                "pub.1011289665",
+                "pub.1003735543",
+                "pub.1049939737",
+                "pub.1014892934",
+                "pub.1035570484",
+                "pub.1007998927",
+                "pub.1077632852",
+                "pub.1008682251",
+                "pub.1044097853",
+                "pub.1050837121",
+                "pub.1020595986",
+                "pub.1004142797",
+                "pub.1050845946",
+                "pub.1040717744",
+                "pub.1034300733",
+                "pub.1092655869"
             ],
             "references": [
-                "pub.1053547877",
-                "pub.1003735543",
-                "pub.1011571164",
-                "pub.1020595986",
-                "pub.1021360538",
-                "pub.1011289665",
-                "pub.1050837121",
-                "pub.1077632852",
-                "pub.1020525216",
-                "pub.1049939737",
-                "pub.1021035388",
-                "pub.1000139345",
-                "pub.1020988115",
-                "pub.1036406366",
-                "pub.1003359813",
-                "pub.1016794339",
-                "pub.1034300733",
-                "pub.1034003663",
-                "pub.1034810717",
-                "pub.1040717744",
-                "pub.1014892934",
-                "pub.1079040629",
-                "pub.1068660289",
-                "pub.1048499146",
-                "pub.1007998927",
-                "pub.1044811695",
-                "pub.1041769658",
-                "pub.1044097853",
-                "pub.1021464207",
-                "pub.1092655869",
-                "pub.1004142797",
-                "pub.1008682251",
-                "pub.1078342473",
-                "pub.1035570484",
-                "pub.1020294783",
                 "pub.1029595124",
-                "pub.1050845946",
+                "pub.1079040629",
+                "pub.1044811695",
+                "pub.1016794339",
+                "pub.1021035388",
+                "pub.1068660289",
+                "pub.1048175380",
+                "pub.1053547877",
+                "pub.1078342473",
+                "pub.1000139345",
+                "pub.1021360538",
+                "pub.1011571164",
+                "pub.1020525216",
+                "pub.1003359813",
+                "pub.1034810717",
+                "pub.1036406366",
+                "pub.1020294783",
+                "pub.1034003663",
+                "pub.1041769658",
                 "pub.1036612259",
-                "pub.1048175380"
+                "pub.1021464207",
+                "pub.1020988115",
+                "pub.1048499146",
+                "pub.1011289665",
+                "pub.1003735543",
+                "pub.1049939737",
+                "pub.1014892934",
+                "pub.1035570484",
+                "pub.1007998927",
+                "pub.1077632852",
+                "pub.1008682251",
+                "pub.1044097853",
+                "pub.1050837121",
+                "pub.1020595986",
+                "pub.1004142797",
+                "pub.1050845946",
+                "pub.1040717744",
+                "pub.1034300733",
+                "pub.1092655869"
             ],
             "relative_citation_ratio": 2.65,
             "research_org_cities": [
@@ -11667,10 +11659,10 @@
                     "id": "ur.01053215665.29",
                     "last_name": "Wang",
                     "research_orgs": [
-                        "grid.214458.e",
-                        "grid.459967.0",
                         "grid.265892.2",
                         "grid.418412.a",
+                        "grid.214458.e",
+                        "grid.459967.0",
                         "grid.452829.0",
                         "grid.260911.d"
                     ]
@@ -11694,15 +11686,15 @@
                     "id": "ur.01210143452.39",
                     "last_name": "Yuce",
                     "research_orgs": [
-                        "grid.65456.34",
-                        "grid.419971.3",
-                        "grid.262273.0",
-                        "grid.214458.e",
-                        "grid.212340.6",
-                        "grid.410513.2",
-                        "grid.459967.0",
+                        "grid.418412.a",
                         "grid.260911.d",
-                        "grid.418412.a"
+                        "grid.419971.3",
+                        "grid.212340.6",
+                        "grid.65456.34",
+                        "grid.459967.0",
+                        "grid.262273.0",
+                        "grid.410513.2",
+                        "grid.214458.e"
                     ]
                 },
                 {
@@ -11721,8 +11713,6 @@
                     ]
                 }
             ],
-            "score": 24.274166,
-            "sf01": "SN",
             "terms": [
                 "comparative data",
                 "data",
@@ -14214,15 +14204,6 @@
                 }
             ]
         },
-        "abstract": "IntroductionComparative data on the burden of atopic dermatitis (AD) in adults relative to the general population are limited. We performed a large-scale evaluation of the burden of disease among US adults with AD relative to matched non-AD controls, encompassing comorbidities, healthcare resource utilization (HCRU), and costs, using healthcare claims data. The impact of AD disease severity on these outcomes was also evaluated.MethodsAdult AD patients in the Commercial (n = 83,106), Medicare (n = 31,060), and Medi-Cal (n = 5550) databases were matched (1:1) to non-AD controls by demographic characteristics. AD patients were stratified by disease severity (higher, lower) using treatment as a surrogate measure of severity. The comorbidity burden, HCRU, and costs were evaluated during a 12-month follow-up period.ResultsIn the Commercial, Medicare, and Medi-Cal populations, patients with AD had a significantly higher overall comorbidity burden (P < 0.0001), an increased risk of asthma and allergic rhinitis (both P < 0.0001), higher HCRU (P < 0.05), and higher mean total per patient costs (Commercial: US$10,461 versus US$7187; Medicare: US$16,914 versus US$13,714; Medi-Cal; US$19,462 versus US$10,408; all P < 0.0001), compared with matched non-AD controls. Higher disease severity was associated with an increased comorbidity burden (P < 0.0001), HCRU (P < 0.05), and total costs (Commercial: US$14,580 versus US$7192; Medicare: US$21,779 versus US$12,490; Medi-Cal; US$22,123 versus US$16,639; all P < 0.0001) relative to lower severity disease.ConclusionIn this large-scale, healthcare claims database analysis, AD patients had a significantly higher comorbidity burden, HCRU, and costs compared with matched non-AD controls. Higher disease severity was associated with an even greater comorbidity and economic burden.FundingSanofi and Regeneron Pharmaceuticals, Inc.",
-        "authors": [
-            "author-4946460699e9a7370758",
-            "author-0612602a3ea97a15a9d4",
-            "author-9bd58695c5f6895a7249",
-            "author-b769b7ba1e9232bd01db",
-            "author-ece2574790741bc6d124",
-            "author-849bd21bd385512871f0"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -14444,6 +14425,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "big data technology",
                 "data technology",
@@ -14483,7 +14470,7 @@
             "date": "2017-06-13",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/0267257x.2017.1313301",
-            "field_citation_ratio": 4.35,
+            "field_citation_ratio": 4.69,
             "id": "pub.1084822219",
             "issn": [
                 "0267-257X",
@@ -14508,7 +14495,7 @@
             ],
             "pages": "1-23",
             "publisher": "Taylor & Francis",
-            "recent_citations": 10,
+            "recent_citations": 11,
             "reference_ids": [
                 "pub.1102514610",
                 "pub.1041564221",
@@ -14696,7 +14683,6 @@
                     ]
                 }
             ],
-            "score": 22.048845,
             "terms": [
                 "big data technology",
                 "data technology",
@@ -14733,7 +14719,7 @@
                 "challenges",
                 "consumers"
             ],
-            "times_cited": 10,
+            "times_cited": 11,
             "title": "Big Data is watching YOU: opportunities and challenges from the perspective of young adult consumers in Russia",
             "type": "article",
             "volume": "33",
@@ -14898,12 +14884,6 @@
                 }
             ]
         },
-        "abstract": "ABSTRACTThe extent to which Big Data technologies are integrated into a society is a reflection of national progress, showcasing political and economic modernity. In the data-driven world, individuals are required to divulge private and financial information in order to ‘consume’ the Internet. While sharing information is a tolerated yet undesirable facet of modern society, netizens are alarmed by the recent release to third parties of sensitive personal data. The (mis)use of Big Data is affecting perceptions of new technologies by heightening uncertainty. Using a mixed methods approach, the authors explore the factors that influence consumer perceptions of Big Data, from the perspective of the individual Web user in an overtly censored society. The study contributes the literature on the Big Data phenomenon by presenting the viewpoint of the individual.",
-        "authors": [
-            "author-0cb20ef66f1c13f5b899",
-            "author-e13cacdb8cc77372d36b",
-            "author-788b28a7a7c8a3a2a550"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -15364,6 +15344,12 @@
                     "name": "B12 Engineering"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
+                }
+            ],
             "concepts": [
                 "biological evaluation",
                 "erythroaggregameter",
@@ -15393,7 +15379,7 @@
             "date": "2016-12-09",
             "date_inserted": "2017-08-31",
             "doi": "10.3233/ch-1989-9505",
-            "field_citation_ratio": 0.95,
+            "field_citation_ratio": 0.94,
             "id": "pub.1004699054",
             "issn": [
                 "1386-0291",
@@ -15572,7 +15558,6 @@
                     ]
                 }
             ],
-            "score": 17.036297,
             "terms": [
                 "biological evaluation",
                 "erythroaggregameter",
@@ -15709,17 +15694,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-9066f91ce690aa6eb4f1",
-            "author-e4e9329f50fc48f81342",
-            "author-2d42c57d00e9109c535a",
-            "author-40781ea9197b677d6cb3",
-            "author-c024b76e5e8597d66846",
-            "author-220f684e86e87de29405",
-            "author-069c0dd5f9bcc132ae39",
-            "author-4c33df3706225d3be998",
-            "author-19c56e7ba8a083336dcf"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -16076,6 +16050,12 @@
                     "name": "A01 Clinical Medicine"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30001",
+                    "name": "A01 Clinical Medicine"
+                }
+            ],
             "concepts": [
                 "intention",
                 "outcomes",
@@ -16119,7 +16099,7 @@
             "date": "2016-12-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.fertnstert.2016.08.050",
-            "field_citation_ratio": 1.87,
+            "field_citation_ratio": 1.85,
             "id": "pub.1040494714",
             "issn": [
                 "0015-0282",
@@ -16292,7 +16272,6 @@
                     ]
                 }
             ],
-            "score": 23.144005,
             "terms": [
                 "intention",
                 "outcomes",
@@ -16635,13 +16614,6 @@
                 }
             ]
         },
-        "abstract": "OBJECTIVE\nTo describe intentions and outcomes of lesbian couples requesting reproductive assistance; and report number of cycles needed to achieve a live birth.\n\n\nDESIGN\nRetrospective chart review.\n\n\nSETTING\nUniversity-based fertility center.\n\n\nPATIENT(S)\nA total of 306 lesbian couples who sought reproductive assistance between 2004 and 2015.\n\n\nINTERVENTION(S)\nIntrauterine insemination or IVF using donor sperm.\n\n\nMAIN OUTCOME MEASURE(S)\nMean age, relationship status, family size, preconception goals, conception attempts, number of cycles to achieve a live birth.\n\n\nRESULT(S)\nPreconception plans were available for 233 couples: 76.4% planned for one partner to conceive and carry (single partner conception); 23.6% planned for both partners to eventually conceive and carry (dual partner conception). Of 306 couples who presented, 85.1% attempted single partner conception, and 68% of these achieved a live birth. Dual partner conception was attempted by 14.9% of couples, and 88.9% achieved a live birth. Of those who conceived with IUI, a mean (±SD) of 3 ± 1.1 cycles were completed. Of those who conceived with IVF, a mean of 6 ± 1.4 IUI and 1.7 ± 0.3 IVF cycles were completed.\n\n\nCONCLUSION(S)\nLesbian couples may improve their likelihood of a live birth if both partners attempt conception. Further studies are needed to understand why one-fifth of patients did not pursue treatment.",
-        "authors": [
-            "author-b8abfa7d4f586843ace3",
-            "author-33f2301eff791b98cf07",
-            "author-f55f0f487af19f841fcb",
-            "author-f8fa351d58f37064e876"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -16868,6 +16840,12 @@
                     "name": "A01 Clinical Medicine"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30001",
+                    "name": "A01 Clinical Medicine"
+                }
+            ],
             "concepts": [
                 "stem cells",
                 "cells",
@@ -16921,7 +16899,6 @@
                     ]
                 }
             ],
-            "score": 23.47605,
             "terms": [
                 "stem cells",
                 "cells",
@@ -20557,13 +20534,6 @@
                 }
             ]
         },
-        "abstract": "Mesenchymal stem cells (MSCs) are multipotent cells that can be expanded and manipulated ex vivo. These cells demonstrated three biological characteristics that qualify them for the use in cellular therapy: (1) potential of differentiation, (2) secretion of trophic factors and (3) immunoregulatory properties. The bone marrow (BM) has been considered as the traditional source of MSCs and much knowledge for potential clinical applications has been obtained from studies using MSCs derived from adult bone marrow. MSCs need to be expanded in vitro for the purpose of cell therapy. However, sometimes, the culture expansion could generate cytogenetic and molecu‐ lar alterations. Accumulation of these alterations during many passages of culture could lead to malignant cell transformation. So, it is important to perform a rigorous control using different methods to test the safety and efficacy of MSCs for cell therapies. BMMSCs have potential clinical applications in haematopoietic stem cell transplantation (HSCT) as an adjuvant cellular therapy. This chapter reviews the advances in the study of MSCs and the potential clinical applications of MSCs in haematopoietic stem cell transplantation (HSCT). We also describe the importance of statistical methods to aid the analysis of the efficacy and safety for the clinical use of MSCs for HSCT.",
-        "authors": [
-            "author-6fd06964fc5df9001281",
-            "author-00ccfaed46a8ae35222c",
-            "author-6a244390142d9dbccf90",
-            "author-2e9b3b98e14dffde25b6"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -21250,21 +21220,6 @@
                 }
             ]
         },
-        "abstract": "Objective (1) Integrate practice-based patient encounters using the Dartmouth Atlas Medicare database to understand practice treatments for Ménière’s disease (MD). (2) Describe differences in the practice patterns between academic and community providers for MD. Study Design Practice-based research database review. Setting CHEER (Creating Healthcare Excellence through Education and Research) network academic and community providers. Subjects and Methods MD patient data were identified with ICD-9 and CPT codes. Demographics, unique visits, and procedures per patient were tabulated. The Dartmouth Atlas of Health Care was used to reference regional health care utilization. Statistical analysis included 1-way analyses of variance, bivariate linear regression, and Student’s t tests, with significance set at P < .05. Results A total of 2071 unique patients with MD were identified from 8 academic and 10 community otolaryngology–head and neck surgery provider centers nationally. Average age was 56.5 years; 63.9% were female; and 91.4% self-reported white ethnicity. There was an average of 3.2 visits per patient. Western providers had the highest average visits per patient. Midwest providers had the highest average procedures per patient. Community providers had more visits per site and per patient than did academic providers. Academic providers had significantly more operative procedures per site (P = .0002) when compared with community providers. Health care service areas with higher total Medicare reimbursements per enrollee did not report significantly more operative procedures being performed. Conclusion This is the first practice-based clinical research database study to describe MD practice patterns. We demonstrate that academic otolaryngology–head and neck surgery providers perform significantly more operative procedures than do community providers for MD, and we validate these data with an independent Medicare spending database.",
-        "authors": [
-            "author-1fc266de2a8b5d256bad",
-            "author-1357f5b8273ac7521249",
-            "author-222071ce8fa95a8a6590",
-            "author-69104ff5207e742a18b9",
-            "author-12a39ff53606b151bcf4",
-            "author-68d463f8dd9cf8227765",
-            "author-1759efd18e999f6b198b",
-            "author-3b18a95eddb0bbbc90ef",
-            "author-d5521820b98064177309",
-            "author-049af5d50c91a902c115",
-            "author-092b28a8a40078041b47",
-            "author-9cf6c0727c0ff09ac218"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -21598,7 +21553,7 @@
             "date": "2016-05-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.jval.2016.03.104",
-            "field_citation_ratio": 1.01,
+            "field_citation_ratio": 1.0,
             "id": "pub.1009215843",
             "issn": [
                 "1098-3015",
@@ -21707,12 +21662,12 @@
                     "id": "ur.01076543247.78",
                     "last_name": "Bonafede",
                     "research_orgs": [
+                        "grid.420183.c",
                         "grid.417886.4",
-                        "grid.415235.4",
                         "grid.410484.d",
-                        "grid.460065.1",
+                        "grid.415235.4",
                         "grid.413555.3",
-                        "grid.420183.c"
+                        "grid.460065.1"
                     ]
                 },
                 {
@@ -21749,7 +21704,6 @@
                     ]
                 }
             ],
-            "score": 27.673096,
             "terms": [
                 "adults",
                 "United States",
@@ -21946,13 +21900,6 @@
                 }
             ]
         },
-        "abstract": null,
-        "authors": [
-            "author-fdbff36a848a7813167c",
-            "author-998232b772ec6da2f562",
-            "author-da568a2823fa98168f35",
-            "author-f86bc1bd994b30f718e5"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -22456,8 +22403,8 @@
                     "id": "ur.01077236553.32",
                     "last_name": "Xie",
                     "research_orgs": [
-                        "grid.260911.d",
                         "grid.459967.0",
+                        "grid.260911.d",
                         "grid.214458.e"
                     ]
                 },
@@ -22466,15 +22413,15 @@
                     "id": "ur.01210143452.39",
                     "last_name": "Yuce",
                     "research_orgs": [
-                        "grid.65456.34",
-                        "grid.419971.3",
-                        "grid.262273.0",
-                        "grid.214458.e",
-                        "grid.212340.6",
-                        "grid.410513.2",
-                        "grid.459967.0",
+                        "grid.418412.a",
                         "grid.260911.d",
-                        "grid.418412.a"
+                        "grid.419971.3",
+                        "grid.212340.6",
+                        "grid.65456.34",
+                        "grid.459967.0",
+                        "grid.262273.0",
+                        "grid.410513.2",
+                        "grid.214458.e"
                     ]
                 },
                 {
@@ -22498,7 +22445,6 @@
                     ]
                 }
             ],
-            "score": 25.943275,
             "terms": [
                 "retrospective analysis",
                 "economic burden",
@@ -22664,15 +22610,6 @@
                 }
             ]
         },
-        "abstract": null,
-        "authors": [
-            "author-665963fd556d5a14c21b",
-            "author-c4ed17238fa1b2a99017",
-            "author-480e5b336e04cfc277e4",
-            "author-543f96f23da8c632a7f4",
-            "author-ece2574790741bc6d124",
-            "author-b4d1713531687c70ac4f"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -23198,7 +23135,6 @@
                     ]
                 }
             ],
-            "score": 25.542706,
             "terms": [
                 "world costs",
                 "cost"
@@ -23678,16 +23614,6 @@
                 }
             ]
         },
-        "abstract": null,
-        "authors": [
-            "author-78852cdaec6eedad104c",
-            "author-da22de453b503ff507fe",
-            "author-13201d7e49c19d80fee1",
-            "author-04f3f35d37b21aeee174",
-            "author-15115d18cb6fabc925df",
-            "author-d33d9ca03307eb4f1456",
-            "author-c20431daeac4ea7d6778"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -24125,7 +24051,7 @@
             "date": "2016-05-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.jval.2016.03.102",
-            "field_citation_ratio": 0.51,
+            "field_citation_ratio": 0.5,
             "id": "pub.1051104730",
             "issn": [
                 "1098-3015",
@@ -24311,21 +24237,20 @@
                     "id": "ur.01202421024.34",
                     "last_name": "Lefebvre",
                     "research_orgs": [
-                        "grid.25055.37",
-                        "grid.418547.b",
-                        "grid.134563.6",
-                        "grid.65499.37",
-                        "grid.62560.37",
                         "grid.137628.9",
-                        "grid.47100.32",
-                        "grid.21925.3d",
+                        "grid.134563.6",
+                        "grid.497530.c",
+                        "grid.418547.b",
+                        "grid.62560.37",
+                        "grid.65499.37",
                         "grid.417986.5",
+                        "grid.25055.37",
+                        "grid.21925.3d",
                         "grid.415235.4",
-                        "grid.497530.c"
+                        "grid.47100.32"
                     ]
                 }
             ],
-            "score": 32.022556,
             "terms": [
                 "health care",
                 "care",
@@ -24576,17 +24501,6 @@
                 }
             ]
         },
-        "abstract": null,
-        "authors": [
-            "author-62f8d7336e4630e96341",
-            "author-492f5c42bf862713c4bd",
-            "author-26b28773c4ea5369e9cd",
-            "author-313652b79b90df11aa58",
-            "author-fde1168d190dd4320e21",
-            "author-245c62b1c88da4076b96",
-            "author-3b18a95eddb0bbbc90ef",
-            "author-4e6c905bc68470e627a6"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -25108,8 +25022,8 @@
                     "research_orgs": [
                         "grid.419971.3",
                         "grid.262273.0",
-                        "grid.459967.0",
-                        "grid.410513.2"
+                        "grid.410513.2",
+                        "grid.459967.0"
                     ]
                 },
                 {
@@ -25117,8 +25031,8 @@
                     "id": "ur.01077236553.32",
                     "last_name": "Xie",
                     "research_orgs": [
-                        "grid.260911.d",
                         "grid.459967.0",
+                        "grid.260911.d",
                         "grid.214458.e"
                     ]
                 },
@@ -25127,15 +25041,15 @@
                     "id": "ur.01210143452.39",
                     "last_name": "Yuce",
                     "research_orgs": [
-                        "grid.65456.34",
-                        "grid.419971.3",
-                        "grid.262273.0",
-                        "grid.214458.e",
-                        "grid.212340.6",
-                        "grid.410513.2",
-                        "grid.459967.0",
+                        "grid.418412.a",
                         "grid.260911.d",
-                        "grid.418412.a"
+                        "grid.419971.3",
+                        "grid.212340.6",
+                        "grid.65456.34",
+                        "grid.459967.0",
+                        "grid.262273.0",
+                        "grid.410513.2",
+                        "grid.214458.e"
                     ]
                 },
                 {
@@ -25159,7 +25073,6 @@
                     ]
                 }
             ],
-            "score": 29.204443,
             "terms": [
                 "economic burden",
                 "burden",
@@ -25319,15 +25232,6 @@
                 }
             ]
         },
-        "abstract": null,
-        "authors": [
-            "author-e473b8ba2c0044fda02d",
-            "author-c4ed17238fa1b2a99017",
-            "author-69986ca463dbdfc4700d",
-            "author-543f96f23da8c632a7f4",
-            "author-ece2574790741bc6d124",
-            "author-b4d1713531687c70ac4f"
-        ],
         "datasets": [
             "dataset-311"
         ],
@@ -25715,8 +25619,8 @@
                     "research_orgs": [
                         "grid.419971.3",
                         "grid.262273.0",
-                        "grid.459967.0",
-                        "grid.410513.2"
+                        "grid.410513.2",
+                        "grid.459967.0"
                     ]
                 },
                 {
@@ -25732,8 +25636,8 @@
                     "id": "ur.01077236553.32",
                     "last_name": "Xie",
                     "research_orgs": [
-                        "grid.260911.d",
                         "grid.459967.0",
+                        "grid.260911.d",
                         "grid.214458.e"
                     ]
                 },
@@ -25758,7 +25662,6 @@
                     ]
                 }
             ],
-            "score": 21.882387,
             "terms": [
                 "examination",
                 "economic burden",
@@ -25901,13 +25804,6 @@
                 }
             ]
         },
-        "abstract": null,
-        "authors": [
-            "author-69986ca463dbdfc4700d",
-            "author-006fd4f161aa898455e2",
-            "author-543f96f23da8c632a7f4",
-            "author-b4d1713531687c70ac4f"
-        ],
         "datasets": [
             "dataset-311"
         ],

@@ -253,6 +253,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "impact",
                 "digital elevation model (DEM) data",
@@ -354,71 +360,72 @@
             "pages": "136162",
             "pmid": "31918185",
             "publisher": "Elsevier",
+            "recent_citations": 1,
             "reference_ids": [
-                "pub.1014664681",
-                "pub.1042552798",
-                "pub.1004301446",
-                "pub.1014296156",
-                "pub.1041408153",
-                "pub.1003023956",
-                "pub.1033242940",
-                "pub.1106083440",
-                "pub.1009740841",
-                "pub.1084006324",
-                "pub.1002622600",
-                "pub.1022348266",
-                "pub.1051125750",
-                "pub.1104575295",
-                "pub.1052855088",
-                "pub.1006724203",
-                "pub.1017453481",
-                "pub.1041259882",
-                "pub.1061358190",
-                "pub.1048438911",
-                "pub.1051145379",
-                "pub.1021705837",
                 "pub.1009084680",
                 "pub.1005984807",
-                "pub.1031494768",
-                "pub.1085728160",
-                "pub.1016985218",
-                "pub.1019212969",
+                "pub.1033242940",
                 "pub.1032668184",
+                "pub.1085728160",
+                "pub.1041259882",
+                "pub.1031494768",
+                "pub.1106083440",
+                "pub.1006724203",
+                "pub.1009740841",
+                "pub.1061358190",
+                "pub.1002622600",
+                "pub.1051125750",
+                "pub.1021705837",
+                "pub.1004282656",
+                "pub.1041408153",
+                "pub.1019212969",
+                "pub.1051145379",
+                "pub.1048438911",
+                "pub.1014664681",
+                "pub.1016985218",
+                "pub.1022348266",
+                "pub.1042552798",
+                "pub.1084006324",
+                "pub.1052855088",
                 "pub.1028056478",
-                "pub.1004282656"
+                "pub.1104575295",
+                "pub.1017453481",
+                "pub.1003023956",
+                "pub.1014296156",
+                "pub.1004301446"
             ],
             "references": [
-                "pub.1014664681",
-                "pub.1042552798",
-                "pub.1004301446",
-                "pub.1014296156",
-                "pub.1041408153",
-                "pub.1003023956",
-                "pub.1033242940",
-                "pub.1106083440",
-                "pub.1009740841",
-                "pub.1084006324",
-                "pub.1002622600",
-                "pub.1022348266",
-                "pub.1051125750",
-                "pub.1104575295",
-                "pub.1052855088",
-                "pub.1006724203",
-                "pub.1017453481",
-                "pub.1041259882",
-                "pub.1061358190",
-                "pub.1048438911",
-                "pub.1051145379",
-                "pub.1021705837",
                 "pub.1009084680",
                 "pub.1005984807",
-                "pub.1031494768",
-                "pub.1085728160",
-                "pub.1016985218",
-                "pub.1019212969",
+                "pub.1033242940",
                 "pub.1032668184",
+                "pub.1085728160",
+                "pub.1041259882",
+                "pub.1031494768",
+                "pub.1106083440",
+                "pub.1006724203",
+                "pub.1009740841",
+                "pub.1061358190",
+                "pub.1002622600",
+                "pub.1051125750",
+                "pub.1021705837",
+                "pub.1004282656",
+                "pub.1041408153",
+                "pub.1019212969",
+                "pub.1051145379",
+                "pub.1048438911",
+                "pub.1014664681",
+                "pub.1016985218",
+                "pub.1022348266",
+                "pub.1042552798",
+                "pub.1084006324",
+                "pub.1052855088",
                 "pub.1028056478",
-                "pub.1004282656"
+                "pub.1104575295",
+                "pub.1017453481",
+                "pub.1003023956",
+                "pub.1014296156",
+                "pub.1004301446"
             ],
             "research_org_cities": [
                 {
@@ -445,17 +452,17 @@
                 }
             ],
             "research_org_country_names": [
-                "Italy",
-                "United States"
+                "United States",
+                "Italy"
             ],
             "research_org_state_codes": [
                 {
-                    "id": "US-RI",
-                    "name": "Rhode Island"
-                },
-                {
                     "id": "US-NJ",
                     "name": "New Jersey"
+                },
+                {
+                    "id": "US-RI",
+                    "name": "Rhode Island"
                 }
             ],
             "research_org_state_names": [
@@ -464,21 +471,6 @@
                 "New Jersey"
             ],
             "research_orgs": [
-                {
-                    "city_name": "Princeton",
-                    "country_name": "United States",
-                    "id": "grid.426747.4",
-                    "latitude": 40.350067,
-                    "linkout": [
-                        "http://www.climatecentral.org/"
-                    ],
-                    "longitude": -74.660866,
-                    "name": "Climate Central",
-                    "state_name": "New Jersey",
-                    "types": [
-                        "Nonprofit"
-                    ]
-                },
                 {
                     "acronym": "URI",
                     "city_name": "Kingston",
@@ -493,6 +485,21 @@
                     "state_name": "Rhode Island",
                     "types": [
                         "Education"
+                    ]
+                },
+                {
+                    "city_name": "Princeton",
+                    "country_name": "United States",
+                    "id": "grid.426747.4",
+                    "latitude": 40.350067,
+                    "linkout": [
+                        "http://www.climatecentral.org/"
+                    ],
+                    "longitude": -74.660866,
+                    "name": "Climate Central",
+                    "state_name": "New Jersey",
+                    "types": [
+                        "Nonprofit"
                     ]
                 }
             ],
@@ -535,7 +542,6 @@
                     ]
                 }
             ],
-            "score": 24.06889,
             "terms": [
                 "impact",
                 "digital elevation model (DEM) data",
@@ -609,6 +615,7 @@
                 "change exposure",
                 "influence"
             ],
+            "times_cited": 1,
             "title": "A method for regional estimation of climate change exposure of coastal infrastructure: Case of USVI and the influence of digital elevation models on assessments",
             "type": "article",
             "volume": "710",
@@ -758,14 +765,6 @@
                 }
             ]
         },
-        "abstract": "OBJECTIVE\nThis study tests the impacts of Digital Elevation Model (DEM) data on an exposure assessment methodology developed to quantify flooding of coastal infrastructure from storms and sea level rise on a regional scale. The approach is piloted on the United States Virgin Islands (USVI) for a one-hundred-year storm event in 2050 under the IPCC's 8.5 emission scenario (RCP 8,5).\n\n\nMETHOD\nFlooding of individual infrastructure was tested against three different digital elevation models using a GIS-based coastal infrastructure database created specifically for the project using aerial images. Inundation for extreme sea levels is based on dynamic simulations using Lisflood-ACC (LFP).\n\n\nRESULTS\nThe model indicates transport and utility infrastructure in the USVI are considerably exposed to sea level rise and modeled storm impacts from climate change. Prediction of flood extent was improved with a neural network processed SRTM, versus publicly available SRTM (~30 m) seamless C-band DEM but both SRTM based models underestimate flooding compared to LIDAR DEM. The modeled scenario, although conservative, showed significant flood exposure to a large number of access roads to facilities, 113/176 transportation related buildings, and 29/66 electric utility and water treatment buildings including six electric power transformers and six waste water treatment clarifiers.\n\n\nCONCLUSION\nThe method bridges a gap between large-scale non-specific flood assessments and single-facility detailed assessments and can be used to efficiently quantify and prioritize parcels and large structures in need of further assessment for regions that lack detailed data to assess climate exposure to sea level rise and flooding caused by waves. The method should prove particularly useful for assessment of Small Island Developing State regions that lack LIDAR data, such as the Caribbean.",
-        "authors": [
-            "author-1983d404605caa7bace2",
-            "author-f8e0ddcf7b861b88c6c1",
-            "author-dbec3d69acffe2683eff",
-            "author-65c8627178305ff35fe8",
-            "author-caf3044fbe73eceeba58"
-        ],
         "datasets": [
             "dataset-618"
         ],
@@ -1010,6 +1009,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "estuary",
                 "land-surface",
@@ -1093,7 +1098,7 @@
             "date": "2018-08-01",
             "date_inserted": "2018-03-20",
             "doi": "10.1007/s11852-018-0605-1",
-            "field_citation_ratio": 0.64,
+            "field_citation_ratio": 0.62,
             "funder_countries": [
                 {
                     "id": "US",
@@ -1310,8 +1315,6 @@
                     ]
                 }
             ],
-            "score": 18.948732,
-            "sf01": "SN",
             "terms": [
                 "estuary",
                 "land-surface",
@@ -2633,12 +2636,6 @@
                 }
             ]
         },
-        "abstract": "In estuaries, land-surface and tidal elevation conspire to influence the amount of salt-water inundation in a specific location, ultimately affecting the distribution of estuary vegetation. Plants vary in their tolerances to salinity and inundation. Understanding even small changes in land-surface elevation at a site scale provides relevant information to managers seeking to design effective long-term restoration projects. Restoration of estuary habitats has been identified as a tool to mediate some anticipated effects of climate change, including flooding from sea-level rise, precipitation regimes, and storminess. Further, habitat restoration that is effective in the face of climate uncertainty is critical to the sustainable production of seafood and maintenance of ecosystem functions. We offer a simple method that links tidal elevations to upslope topography, allowing managers to determine where tidal inundation of upslope areas may occur. This method does not require complex modeling, rather we combine existing high-accuracy tide-gage information with LiDAR imagery. However, we found that if LiDAR is not flown at low tide, or at consistent tidal heights, it poses significant challenges in the interpretation of tidal elevations. Where LiDAR is consistently collected at low tide, this method of linking the tidal datum to upslope topography is not data-intensive, and does not require long-term data collection. Along with locally specific information, the types of map products that can be developed using this method should identify places that may be potentially vulnerable to salt-water inundation, along with places that may be effective migration corridors for marshes and other habitats.",
-        "authors": [
-            "author-1c626af7c8986d311a9d",
-            "author-32e27ab48559973fe103",
-            "author-0a3c92763fd986e277ed"
-        ],
         "datasets": [
             "dataset-610",
             "dataset-614"
@@ -3015,6 +3012,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "estuarine system",
                 "system",
@@ -3089,7 +3092,7 @@
             "date": "2018-10-12",
             "date_inserted": "2018-10-14",
             "doi": "10.1371/journal.pone.0205176",
-            "field_citation_ratio": 3.92,
+            "field_citation_ratio": 4.24,
             "funder_countries": [
                 {
                     "id": "US",
@@ -3233,7 +3236,7 @@
             "pmcid": "PMC6185723",
             "pmid": "30312304",
             "publisher": "Public Library of Science (PLoS)",
-            "recent_citations": 8,
+            "recent_citations": 9,
             "reference_ids": [
                 "pub.1031449768",
                 "pub.1038126518",
@@ -3500,10 +3503,10 @@
                         "0000-0002-9174-0164"
                     ],
                     "research_orgs": [
-                        "grid.170430.1",
-                        "grid.266097.c",
+                        "grid.64337.35",
                         "grid.254567.7",
-                        "grid.64337.35"
+                        "grid.170430.1",
+                        "grid.266097.c"
                     ]
                 },
                 {
@@ -3511,11 +3514,10 @@
                     "id": "ur.014224543147.24",
                     "last_name": "Hagen",
                     "research_orgs": [
+                        "grid.64337.35",
                         "grid.170430.1",
                         "grid.250060.1",
-                        "grid.433693.8",
-                        "grid.427253.5",
-                        "grid.64337.35"
+                        "grid.427253.5"
                     ]
                 },
                 {
@@ -3526,8 +3528,8 @@
                         "0000-0003-0264-5868"
                     ],
                     "research_orgs": [
-                        "grid.255501.6",
-                        "grid.170430.1"
+                        "grid.170430.1",
+                        "grid.255501.6"
                     ]
                 },
                 {
@@ -3547,9 +3549,9 @@
                     "id": "ur.01071546653.31",
                     "last_name": "Morris",
                     "research_orgs": [
-                        "grid.144532.5",
                         "grid.10698.36",
-                        "grid.254567.7"
+                        "grid.254567.7",
+                        "grid.144532.5"
                     ]
                 },
                 {
@@ -3567,7 +3569,6 @@
                     "last_name": "Buckel"
                 }
             ],
-            "score": 22.05861,
             "supporting_grant_ids": [
                 "grant.3000154",
                 "grant.4040239",
@@ -3645,7 +3646,7 @@
                 "wetlands",
                 "region"
             ],
-            "times_cited": 8,
+            "times_cited": 9,
             "title": "Dynamic responses and implications to coastal wetlands and the surrounding regions under sea level rise",
             "type": "article",
             "volume": "13",
@@ -6193,16 +6194,6 @@
                 }
             ]
         },
-        "abstract": "Two distinct microtidal estuarine systems were assessed to advance the understanding of the coastal dynamics of sea level rise in salt marshes. A coupled hydrodynamic-marsh model (Hydro-MEM) was applied to both a marine-dominated (Grand Bay, Mississippi) and a mixed fluvial/marine (Weeks Bay, Alabama) system to compute marsh productivity, marsh migration, and potential tidal inundation from the year 2000 to 2100 under four sea level rise scenarios. Characteristics of the estuaries such as geometry, sediment availability, and topography, were compared to understand their role in the dynamic response to sea level rise. The results show that the low sea level rise scenario (20 cm) approximately doubled high-productivity marsh coverage in the marine-dominated estuary by the year 2100 due to an equilibrium between the rates of sea level rise and marsh platform accretion. Under intermediate-low sea level rise (50 cm), high-productivity marsh coverage in the year 2100 increased (doubled in the marine-dominated estuary and a seven-fold increase in the mixed estuary) by expanding into higher lands followed by the creation of interior ponds. The results also indicate that marine-dominated estuaries are vulnerable to collapse as a result of low, relatively uniform topography and lack of sediment sources, whereas mixed estuaries are able to expand due to higher elevations and sediment inputs. The results from the higher sea level rise scenarios (the intermediate-high (120 cm) and high (200 cm)) showed expansion of the bays along with marsh migration to higher land, producing a five-fold increase in wetland coverage for the mixed estuary and virtually no net change for the marine-dominated estuary. Additionally, hurricane storm surge simulations showed that under higher sea level rise scenarios, the marine-dominated estuary demonstrated weaker peak stage attenuation indicating that the marsh's ability to dissipate storm surge is sensitive to productivity changes and bay expansion / marsh loss.",
-        "authors": [
-            "author-55c350eea7b2097753a7",
-            "author-ae4bfee018ddf7f3ef97",
-            "author-fd6ae1a205c9609268fe",
-            "author-9b800cc81de0b79924ef",
-            "author-52a5d2011ca22e91d9a8",
-            "author-342e0fdff6208e397130",
-            "author-4d8bb0180e39b5d67606"
-        ],
         "datasets": [
             "dataset-614"
         ],
@@ -6603,6 +6594,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "community resilience",
                 "resilience",
@@ -6667,7 +6664,7 @@
             "date": "2018-12-01",
             "date_inserted": "2018-09-25",
             "doi": "10.1038/s41598-018-32658-x",
-            "field_citation_ratio": 3.51,
+            "field_citation_ratio": 3.93,
             "funder_countries": [
                 {
                     "id": "US",
@@ -6737,106 +6734,106 @@
             "pmcid": "PMC6160426",
             "pmid": "30262891",
             "publisher": "Springer Nature",
-            "recent_citations": 6,
+            "recent_citations": 7,
             "reference_ids": [
-                "pub.1083859973",
-                "pub.1025099749",
-                "pub.1004768055",
-                "pub.1021632863",
-                "pub.1046980662",
-                "pub.1101627730",
-                "pub.1002480244",
-                "pub.1032539613",
                 "pub.1011710457",
-                "pub.1091375916",
-                "pub.1092049861",
-                "pub.1086163870",
-                "pub.1052855088",
-                "pub.1101020364",
-                "pub.1007881667",
-                "pub.1027831091",
+                "pub.1044456383",
                 "pub.1031132687",
-                "pub.1084514812",
-                "pub.1040289670",
-                "pub.1035385029",
                 "pub.1042735757",
-                "pub.1047351361",
-                "pub.1025118867",
+                "pub.1013016817",
+                "pub.1084514812",
+                "pub.1090858130",
+                "pub.1099667227",
+                "pub.1002480244",
+                "pub.1086163870",
                 "pub.1002641007",
+                "pub.1101020364",
+                "pub.1047351361",
+                "pub.1099588706",
+                "pub.1014380658",
+                "pub.1046980662",
+                "pub.1040289670",
+                "pub.1092049861",
+                "pub.1021632863",
                 "pub.1049071528",
-                "pub.1045240450",
-                "pub.1042894172",
-                "pub.1011656427",
-                "pub.1015700853",
+                "pub.1063815738",
                 "pub.1000069426",
-                "pub.1032375939",
+                "pub.1043150394",
+                "pub.1035559187",
+                "pub.1027831091",
                 "pub.1085277205",
-                "pub.1101148863",
-                "pub.1033198389",
+                "pub.1035385029",
+                "pub.1023970172",
+                "pub.1052855088",
+                "pub.1032375939",
+                "pub.1101627730",
+                "pub.1025099749",
+                "pub.1025118867",
+                "pub.1083859973",
                 "pub.1046831143",
                 "pub.1036624029",
-                "pub.1063815738",
-                "pub.1090858130",
-                "pub.1036663381",
-                "pub.1023970172",
-                "pub.1035559187",
-                "pub.1099667227",
-                "pub.1014380658",
+                "pub.1015700853",
+                "pub.1007881667",
+                "pub.1032539613",
+                "pub.1042894172",
+                "pub.1101148863",
+                "pub.1004768055",
                 "pub.1012309720",
-                "pub.1044456383",
-                "pub.1013016817",
-                "pub.1043150394",
-                "pub.1099588706"
+                "pub.1011656427",
+                "pub.1091375916",
+                "pub.1036663381",
+                "pub.1033198389",
+                "pub.1045240450"
             ],
             "references": [
-                "pub.1083859973",
-                "pub.1025099749",
-                "pub.1004768055",
-                "pub.1021632863",
-                "pub.1046980662",
-                "pub.1101627730",
-                "pub.1002480244",
-                "pub.1032539613",
                 "pub.1011710457",
-                "pub.1091375916",
-                "pub.1092049861",
-                "pub.1086163870",
-                "pub.1052855088",
-                "pub.1101020364",
-                "pub.1007881667",
-                "pub.1027831091",
+                "pub.1044456383",
                 "pub.1031132687",
-                "pub.1084514812",
-                "pub.1040289670",
-                "pub.1035385029",
                 "pub.1042735757",
-                "pub.1047351361",
-                "pub.1025118867",
+                "pub.1013016817",
+                "pub.1084514812",
+                "pub.1090858130",
+                "pub.1099667227",
+                "pub.1002480244",
+                "pub.1086163870",
                 "pub.1002641007",
+                "pub.1101020364",
+                "pub.1047351361",
+                "pub.1099588706",
+                "pub.1014380658",
+                "pub.1046980662",
+                "pub.1040289670",
+                "pub.1092049861",
+                "pub.1021632863",
                 "pub.1049071528",
-                "pub.1045240450",
-                "pub.1042894172",
-                "pub.1011656427",
-                "pub.1015700853",
+                "pub.1063815738",
                 "pub.1000069426",
-                "pub.1032375939",
+                "pub.1043150394",
+                "pub.1035559187",
+                "pub.1027831091",
                 "pub.1085277205",
-                "pub.1101148863",
-                "pub.1033198389",
+                "pub.1035385029",
+                "pub.1023970172",
+                "pub.1052855088",
+                "pub.1032375939",
+                "pub.1101627730",
+                "pub.1025099749",
+                "pub.1025118867",
+                "pub.1083859973",
                 "pub.1046831143",
                 "pub.1036624029",
-                "pub.1063815738",
-                "pub.1090858130",
-                "pub.1036663381",
-                "pub.1023970172",
-                "pub.1035559187",
-                "pub.1099667227",
-                "pub.1014380658",
+                "pub.1015700853",
+                "pub.1007881667",
+                "pub.1032539613",
+                "pub.1042894172",
+                "pub.1101148863",
+                "pub.1004768055",
                 "pub.1012309720",
-                "pub.1044456383",
-                "pub.1013016817",
-                "pub.1043150394",
-                "pub.1099588706"
+                "pub.1011656427",
+                "pub.1091375916",
+                "pub.1036663381",
+                "pub.1033198389",
+                "pub.1045240450"
             ],
             "research_org_cities": [
                 {
@@ -6974,8 +6971,6 @@
                     ]
                 }
             ],
-            "score": 31.649345,
-            "sf01": "SN",
             "terms": [
                 "community resilience",
                 "resilience",
@@ -7037,7 +7032,7 @@
                 "planning",
                 "flooding method"
             ],
-            "times_cited": 6,
+            "times_cited": 7,
             "title": "Modeling multiple sea level rise stresses reveals up to twice the land at risk compared to strictly passive flooding methods",
             "type": "article",
             "volume": "8",
@@ -9129,15 +9124,6 @@
                 }
             ]
         },
-        "abstract": "Planning community resilience to sea level rise (SLR) requires information about where, when, and how SLR hazards will impact the coastal zone. We augment passive flood mapping (the so-called “bathtub” approach) by simulating physical processes posing recurrent threats to coastal infrastructure, communities, and ecosystems in Hawai‘i (including tidally-forced direct marine and groundwater flooding, seasonal wave inundation, and chronic coastal erosion). We find that the “bathtub” approach, alone, ignores 35–54 percent of the total land area exposed to one or more of these hazards, depending on location and SLR scenario. We conclude that modeling dynamic processes, including waves and erosion, is essential to robust SLR vulnerability assessment. Results also indicate that as sea level rises, coastal lands are exposed to higher flood depths and water velocities. The prevalence of low-lying coastal plains leads to a rapid increase in land exposure to hazards when sea level exceeds a critical elevation of ~0.3 or 0.6 m, depending on location. At ~1 m of SLR, land that is roughly seven times the total modern beach area is exposed to one or more hazards. Projected increases in extent, magnitude, and rate of persistent SLR impacts suggest an urgency to engage in long-term planning immediately.",
-        "authors": [
-            "author-a88e41b9174d5192445d",
-            "author-355e5a7f6215264f4479",
-            "author-a068fb419284058e8a43",
-            "author-c5488e2edfb04cbe5a98",
-            "author-9f25185b51e5badffe42",
-            "author-a1f1d35de50bc164829f"
-        ],
         "datasets": [
             "dataset-610",
             "dataset-614"
@@ -9608,6 +9594,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "salt marsh vegetation",
                 "marsh vegetation",
@@ -9692,7 +9684,7 @@
             "date": "2018-05-30",
             "date_inserted": "2018-06-01",
             "doi": "10.7717/peerj.4876",
-            "field_citation_ratio": 4.32,
+            "field_citation_ratio": 4.14,
             "funder_countries": [
                 {
                     "id": "US",
@@ -10001,9 +9993,9 @@
                     "id": "ur.0722604675.05",
                     "last_name": "Wigand",
                     "research_orgs": [
-                        "grid.285538.1",
-                        "grid.251789.0",
                         "grid.418698.a",
+                        "grid.251789.0",
+                        "grid.285538.1",
                         "grid.291951.7"
                     ]
                 },
@@ -10051,16 +10043,15 @@
                         "0000-0002-8496-1647"
                     ],
                     "research_orgs": [
+                        "grid.27860.3b",
                         "grid.448309.2",
                         "grid.418698.a",
-                        "grid.462226.6",
                         "grid.47840.3f",
-                        "grid.27860.3b",
-                        "grid.166341.7"
+                        "grid.166341.7",
+                        "grid.462226.6"
                     ]
                 }
             ],
-            "score": 23.991179,
             "terms": [
                 "salt marsh vegetation",
                 "marsh vegetation",
@@ -12112,22 +12103,6 @@
                 }
             ]
         },
-        "abstract": "Southern New England salt marsh vegetation and habitats are changing rapidly in response to sea-level rise. At the same time, fiddler crab (Uca spp.) distributions have expanded and purple marsh crab (Sesarma reticulatum) grazing on creekbank vegetation has increased. Sea-level rise and reduced predation pressure drive these changing crab populations but most studies focus on one species; there is a need for community-level assessments of impacts from multiple crab species. There is also a need to identify additional factors that can affect crab populations. We sampled crabs and environmental parameters in four Rhode Island salt marshes in 2014 and compiled existing data to quantify trends in crab abundance and multiple factors that potentially affect crabs. Crab communities were dominated by fiddler and green crabs (Carcinus maenas); S. reticulatum was much less abundant. Burrow sizes suggest that Uca is responsible for most burrows. On the marsh platform, burrows and Carcinus abundance were negatively correlated with elevation, soil moisture, and soil percent organic matter and positively correlated with soil bulk density. Uca abundance was negatively correlated with Spartina patens cover and height and positively correlated with Spartina alterniflora cover and soil shear strength. Creekbank burrow density increased dramatically between 1998 and 2016. During the same time, fishing effort and the abundance of birds that prey on crabs decreased, and water levels increased. Unlike in other southern New England marshes where recreational overfishing is hypothesized to drive increasing marsh crab abundance, we propose that changes in crab abundance were likely unrelated to recreational finfish over-harvest; instead, they better track sea-level rise and changing abundances of alternate predators, such as birds. We predict that marsh crab abundance will continue to expand with ongoing sea-level rise, at least until inundation thresholds for crab survival are exceeded.",
-        "authors": [
-            "author-0b0cde240596bb08f01c",
-            "author-929bafd3a60b2fc3a153",
-            "author-0b268dba18546a8c2771",
-            "author-8b8881fd41c7df58c01d",
-            "author-1bf8f708d89f3cf282af",
-            "author-28bedebb46b6d2def0e9",
-            "author-dbac5fb6f2c4f2476569",
-            "author-39d9160ce67033351ebf",
-            "author-04b919bf729649b0b916",
-            "author-8432c1f0f656185cb52d",
-            "author-02a70a79759b9527a29e",
-            "author-1e0eab9a0cbc406e0a89",
-            "author-3c013778ad32e52fbc92"
-        ],
         "datasets": [
             "dataset-614",
             "dataset-726"
@@ -12377,6 +12352,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "sea level rise",
                 "level rise",
@@ -12460,7 +12441,7 @@
             "date": "2016-04-04",
             "date_inserted": "2017-08-31",
             "doi": "10.1371/journal.pone.0152437",
-            "field_citation_ratio": 1.36,
+            "field_citation_ratio": 1.34,
             "id": "pub.1003791964",
             "issn": [
                 "1932-6203"
@@ -12510,102 +12491,102 @@
             "publisher": "Public Library of Science (PLoS)",
             "recent_citations": 5,
             "reference_ids": [
-                "pub.1073469699",
-                "pub.1021849977",
-                "pub.1020772842",
-                "pub.1024725904",
-                "pub.1035586576",
-                "pub.1069781734",
-                "pub.1042781636",
-                "pub.1026968847",
                 "pub.1003341672",
-                "pub.1044875030",
-                "pub.1006939059",
-                "pub.1022111804",
-                "pub.1052697993",
-                "pub.1041104008",
-                "pub.1031288925",
-                "pub.1044336795",
-                "pub.1043005105",
-                "pub.1030131536",
-                "pub.1015228264",
-                "pub.1033816396",
-                "pub.1036298075",
-                "pub.1073452970",
-                "pub.1069663351",
-                "pub.1045428050",
-                "pub.1021905843",
-                "pub.1008978221",
-                "pub.1008871616",
-                "pub.1047150162",
-                "pub.1020554070",
-                "pub.1046350253",
-                "pub.1026362584",
-                "pub.1033932642",
-                "pub.1018866108",
-                "pub.1026130903",
+                "pub.1026625524",
+                "pub.1024646079",
+                "pub.1035267919",
+                "pub.1022624635",
+                "pub.1036449593",
                 "pub.1004454084",
                 "pub.1024665575",
-                "pub.1024646079",
-                "pub.1026625524",
-                "pub.1036449593",
-                "pub.1005926643",
-                "pub.1029654051",
-                "pub.1022624635",
-                "pub.1000941005",
                 "pub.1109699510",
-                "pub.1000804020",
-                "pub.1035267919",
-                "pub.1018828975"
+                "pub.1006939059",
+                "pub.1031288925",
+                "pub.1033816396",
+                "pub.1073469699",
+                "pub.1052697993",
+                "pub.1024725904",
+                "pub.1046350253",
+                "pub.1021905843",
+                "pub.1036298075",
+                "pub.1026362584",
+                "pub.1018866108",
+                "pub.1069781734",
+                "pub.1029654051",
+                "pub.1020772842",
+                "pub.1041104008",
+                "pub.1042781636",
+                "pub.1005926643",
+                "pub.1047150162",
+                "pub.1073452970",
+                "pub.1035586576",
+                "pub.1069663351",
+                "pub.1018828975",
+                "pub.1021849977",
+                "pub.1022111804",
+                "pub.1033932642",
+                "pub.1026968847",
+                "pub.1044336795",
+                "pub.1026130903",
+                "pub.1045428050",
+                "pub.1044875030",
+                "pub.1008871616",
+                "pub.1015228264",
+                "pub.1043005105",
+                "pub.1020554070",
+                "pub.1000941005",
+                "pub.1030131536",
+                "pub.1008978221",
+                "pub.1000804020"
             ],
             "references": [
-                "pub.1073469699",
-                "pub.1021849977",
-                "pub.1020772842",
-                "pub.1024725904",
-                "pub.1035586576",
-                "pub.1069781734",
-                "pub.1042781636",
-                "pub.1026968847",
                 "pub.1003341672",
-                "pub.1044875030",
-                "pub.1006939059",
-                "pub.1022111804",
-                "pub.1052697993",
-                "pub.1041104008",
-                "pub.1031288925",
-                "pub.1044336795",
-                "pub.1043005105",
-                "pub.1030131536",
-                "pub.1015228264",
-                "pub.1033816396",
-                "pub.1036298075",
-                "pub.1073452970",
-                "pub.1069663351",
-                "pub.1045428050",
-                "pub.1021905843",
-                "pub.1008978221",
-                "pub.1008871616",
-                "pub.1047150162",
-                "pub.1020554070",
-                "pub.1046350253",
-                "pub.1026362584",
-                "pub.1033932642",
-                "pub.1018866108",
-                "pub.1026130903",
+                "pub.1026625524",
+                "pub.1024646079",
+                "pub.1035267919",
+                "pub.1022624635",
+                "pub.1036449593",
                 "pub.1004454084",
                 "pub.1024665575",
-                "pub.1024646079",
-                "pub.1026625524",
-                "pub.1036449593",
-                "pub.1005926643",
-                "pub.1029654051",
-                "pub.1022624635",
-                "pub.1000941005",
                 "pub.1109699510",
-                "pub.1000804020",
-                "pub.1035267919",
-                "pub.1018828975"
+                "pub.1006939059",
+                "pub.1031288925",
+                "pub.1033816396",
+                "pub.1073469699",
+                "pub.1052697993",
+                "pub.1024725904",
+                "pub.1046350253",
+                "pub.1021905843",
+                "pub.1036298075",
+                "pub.1026362584",
+                "pub.1018866108",
+                "pub.1069781734",
+                "pub.1029654051",
+                "pub.1020772842",
+                "pub.1041104008",
+                "pub.1042781636",
+                "pub.1005926643",
+                "pub.1047150162",
+                "pub.1073452970",
+                "pub.1035586576",
+                "pub.1069663351",
+                "pub.1018828975",
+                "pub.1021849977",
+                "pub.1022111804",
+                "pub.1033932642",
+                "pub.1026968847",
+                "pub.1044336795",
+                "pub.1026130903",
+                "pub.1045428050",
+                "pub.1044875030",
+                "pub.1008871616",
+                "pub.1015228264",
+                "pub.1043005105",
+                "pub.1020554070",
+                "pub.1000941005",
+                "pub.1030131536",
+                "pub.1008978221",
+                "pub.1000804020"
             ],
             "research_org_cities": [
                 {
@@ -12668,7 +12649,6 @@
                     ]
                 }
             ],
-            "score": 24.26498,
             "terms": [
                 "sea level rise",
                 "level rise",
@@ -14782,12 +14762,6 @@
                 }
             ]
         },
-        "abstract": "Sea Level Rise (SLR) caused by climate change is impacting coastal wetlands around the globe. Due to their distinctive biophysical characteristics and unique plant communities, freshwater tidal wetlands are expected to exhibit a different response to SLR as compared with the better studied salt marshes. In this study we employed the Sea Level Affecting Marshes Model (SLAMM), which simulates regional- or local-scale changes in tidal wetland habitats in response to SLR, and adapted it for application in a freshwater-dominated tidal river system, the Hudson River Estuary. Using regionally-specific estimated ranges of SLR and accretion rates, we produced simulations for a spectrum of possible future wetland distributions and quantified the projected wetland resilience, migration or loss in the HRE through the end of the 21st century. Projections of total wetland extent and migration were more strongly determined by the rate of SLR than the rate of accretion. Surprisingly, an increase in net tidal wetland area was projected under all scenarios, with newly-formed tidal wetlands expected to comprise at least 33% of the HRE's wetland area by year 2100. Model simulations with high rates of SLR and/or low rates of accretion resulted in broad shifts in wetland composition with widespread conversion of high marsh habitat to low marsh, tidal flat or permanent inundation. Wetland expansion and resilience were not equally distributed through the estuary, with just three of 48 primary wetland areas encompassing >50% of projected new wetland by the year 2100. Our results open an avenue for improving predictive models of the response of freshwater tidal wetlands to sea level rise, and broadly inform the planning of conservation measures of this critical resource in the Hudson River Estuary.",
-        "authors": [
-            "author-d191b2a6ed3d50933706",
-            "author-e7b59db4145506401119",
-            "author-25536a8ba5b5cea4f129"
-        ],
         "datasets": [
             "dataset-614"
         ],
