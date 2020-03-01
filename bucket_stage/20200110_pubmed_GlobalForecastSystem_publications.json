@@ -141,6 +141,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "marine boundary layer height",
                 "boundary layer height",
@@ -423,14 +429,13 @@
                     "id": "ur.01075402050.75",
                     "last_name": "Kuo",
                     "research_orgs": [
-                        "grid.57828.30",
-                        "grid.413455.2",
                         "grid.6190.e",
-                        "grid.29857.31"
+                        "grid.29857.31",
+                        "grid.413455.2",
+                        "grid.57828.30"
                     ]
                 }
             ],
-            "score": 28.700434,
             "terms": [
                 "marine boundary layer height",
                 "boundary layer height",
@@ -1216,12 +1221,6 @@
                 }
             ]
         },
-        "abstract": "This paper estimates marine boundary layer height (MBLH) over the western North Pacific (WNP) based on Global Positioning System Radio Occultation (GPS-RO) profiles from the Formosa Satellite Mission 3 (FORMOSAT-3)/Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC) satellites, island soundings, and numerical models. The seasonally-averaged MBLHs computed from nine years (2007⁻2015) of GPS-RO data are inter-compared with those obtained from sounding observations at 15 island stations and from the European Centre for Medium-Range Weather Forecasts (ECMWF) Reanalysis (ERA-Interim) and National Centers for Environmental Prediction Global Forecast System (NCEP GFS) data over the WNP from 2012 to 2015. It is found that the MBLH using nine years of GPS-RO data is smoother and more consistent with that obtained from sounding observations than is the MBLH using four years of GPS-RO data in a previous study. In winter, higher MBLHs are found around the subtropical latitudes and over oceans east of Japan, which are approximately located within the paths of the North Equatorial Current and the Kuroshio Current. The MBLH is also significantly higher in winter than in summer over the WNP. The above MBLH pattern is generally similar to those obtained from the analysis data of the ERA-Interim and NCEP GFS, but the heights are about 200 m higher. The verification with soundings suggests that the ERA-Interim has a better MBLH estimation than the NCEP GFS. Thus, the MBLH distributions obtained from both the nine-year GPS-RO and the ERA-Interim data can represent well the climatological MBLH over the WNP, but the heights should be adjusted about 30 m lower for the former and ~200 m higher for the latter. A positive correlation between the MBLH and the instability of the lower atmosphere exists over large near-shore areas of the WNP, where cold air can move over warm oceans from the land in winter, resulting in an increase in lower-atmospheric instability and providing favorable conditions for convection to yield a higher MBLH. During summer, the lower-atmospheric instability becomes smaller and the MBLH is thus lower over near-shore oceans.",
-        "authors": [
-            "author-8f4d44986c63f1fbe8cc",
-            "author-a970e77b7f40c196c120",
-            "author-198b2d831678224ae318"
-        ],
         "datasets": [
             "dataset-620"
         ],
@@ -1731,6 +1730,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "atmosphere-ocean",
                 "Ocean",
@@ -1776,7 +1781,7 @@
             "date": "2016-10-18",
             "date_inserted": "2017-08-31",
             "doi": "10.1073/pnas.1613800113",
-            "field_citation_ratio": 0.58,
+            "field_citation_ratio": 0.57,
             "funder_countries": [
                 {
                     "id": "US",
@@ -2019,8 +2024,8 @@
                         "0000-0003-4255-897X"
                     ],
                     "research_orgs": [
-                        "grid.3532.7",
                         "grid.238398.b",
+                        "grid.3532.7",
                         "grid.473673.2"
                     ]
                 },
@@ -2057,8 +2062,11 @@
                     "id": "ur.013130640357.36",
                     "last_name": "Sippel",
                     "research_orgs": [
-                        "grid.473673.2",
-                        "grid.284601.9"
+                        "grid.436459.9",
+                        "grid.284601.9",
+                        "grid.133275.1",
+                        "grid.264756.4",
+                        "grid.473673.2"
                     ]
                 },
                 {
@@ -2080,7 +2088,6 @@
                     ]
                 }
             ],
-            "score": 27.160492,
             "terms": [
                 "atmosphere-ocean",
                 "Ocean",
@@ -2827,17 +2834,6 @@
                 }
             ]
         },
-        "abstract": "The atmosphere-ocean coupled Hurricane Weather Research and Forecast model (HWRF) developed at the National Centers for Environmental Prediction (NCEP) is used as an example to illustrate the impact of model vertical resolution on track forecasts of tropical cyclones. A number of HWRF forecasting experiments were carried out at different vertical resolutions for Hurricane Joaquin, which occurred from September 27 to October 8, 2015, in the Atlantic Basin. The results show that the track prediction for Hurricane Joaquin is much more accurate with higher vertical resolution. The positive impacts of higher vertical resolution on hurricane track forecasts suggest that National Oceanic and Atmospheric Administration/NCEP should upgrade both HWRF and the Global Forecast System to have more vertical levels.",
-        "authors": [
-            "author-91f65de483a43af2341f",
-            "author-5d9cc0235bde76b4e778",
-            "author-79a03d48e1d6f692ebad",
-            "author-50ee9a87e617dc1b8c25",
-            "author-e29ecec7e4d17d6ab3e9",
-            "author-eb3673bb670089743652",
-            "author-bb47e6d9b834df49f41c",
-            "author-971dd9130a95ba3c8d7d"
-        ],
         "datasets": [
             "dataset-620"
         ],
@@ -3287,6 +3283,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "air quality forecasting system",
                 "forecasting system",
@@ -3416,7 +3418,7 @@
             "pages": "896-911",
             "pmid": "27450767",
             "publisher": "Taylor & Francis",
-            "recent_citations": 5,
+            "recent_citations": 6,
             "reference_ids": [
                 "pub.1035189549",
                 "pub.1039675999",
@@ -3561,7 +3563,6 @@
                     ]
                 }
             ],
-            "score": 15.841995,
             "terms": [
                 "air quality forecasting system",
                 "forecasting system",
@@ -3640,7 +3641,7 @@
                 "current forecasting",
                 "availability"
             ],
-            "times_cited": 7,
+            "times_cited": 8,
             "title": "Human-model hybrid Korean air quality forecasting system",
             "type": "article",
             "volume": "66",
@@ -5178,16 +5179,6 @@
                 }
             ]
         },
-        "abstract": "UNLABELLED\nThe Korean national air quality forecasting system, consisting of the Weather Research and Forecasting, the Sparse Matrix Operator Kernel Emissions, and the Community Modeling and Analysis (CMAQ), commenced from August 31, 2013 with target pollutants of particulate matters (PM) and ozone. Factors contributing to PM forecasting accuracy include CMAQ inputs of meteorological field and emissions, forecasters' capacity, and inherent CMAQ limit. Four numerical experiments were conducted including two global meteorological inputs from the Global Forecast System (GFS) and the Unified Model (UM), two emissions from the Model Intercomparison Study Asia (MICS-Asia) and the Intercontinental Chemical Transport Experiment (INTEX-B) for the Northeast Asia with Clear Air Policy Support System (CAPSS) for South Korea, and data assimilation of the Monitoring Atmospheric Composition and Climate (MACC). Significant PM underpredictions by using both emissions were found for PM mass and major components (sulfate and organic carbon). CMAQ predicts PM2.5 much better than PM10 (NMB of PM2.5: -20~-25%, PM10: -43~-47%). Forecasters' error usually occurred at the next day of high PM event. Once CMAQ fails to predict high PM event the day before, forecasters are likely to dismiss the model predictions on the next day which turns out to be true. The best combination of CMAQ inputs is the set of UM global meteorological field, MICS-Asia and CAPSS 2010 emissions with the NMB of -12.3%, the RMSE of 16.6μ/m(3) and the R(2) of 0.68. By using MACC data as an initial and boundary condition, the performance skill of CMAQ would be improved, especially in the case of undefined coarse emission. A variety of methods such as ensemble and data assimilation are considered to improve further the accuracy of air quality forecasting, especially for high PM events to be comparable to for all cases.\n\n\nIMPLICATIONS\nThe growing utilization of the air quality forecast induced the public strongly to demand that the accuracy of the national forecasting be improved. In this study, we investigated the problems in the current forecasting as well as various alternatives to solve the problems. Such efforts to improve the accuracy of the forecast are expected to contribute to the protection of public health by increasing the availability of the forecast system.",
-        "authors": [
-            "author-51a93f1e73a2809ad295",
-            "author-741e8dc3f895a4ecf282",
-            "author-30954bdf4b5ea80a735d",
-            "author-edc9b20103755200ade5",
-            "author-70ac52191e2112c1fd6d",
-            "author-a970e77b7f40c196c120",
-            "author-c2e4f68ba12b6fd1e663"
-        ],
         "datasets": [
             "dataset-620"
         ],
@@ -5545,6 +5536,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "Lagrangian flexible particle dispersion model",
                 "FLEXible PARTicle (FLEXPART) dispersion model",
@@ -5835,18 +5832,18 @@
                         "0000-0003-0487-4242"
                     ],
                     "research_orgs": [
+                        "grid.263864.d",
+                        "grid.49606.3d",
+                        "grid.258676.8",
+                        "grid.412417.5",
+                        "grid.440944.9",
+                        "grid.480377.f",
                         "grid.164295.d",
                         "grid.447547.1",
                         "grid.256155.0",
-                        "grid.440944.9",
-                        "grid.255986.5",
-                        "grid.258676.8",
-                        "grid.49606.3d",
-                        "grid.480377.f",
                         "grid.108266.b",
-                        "grid.412417.5",
-                        "grid.263864.d",
                         "grid.263333.4",
+                        "grid.255986.5",
                         "grid.135519.a"
                     ]
                 },
@@ -5882,7 +5879,6 @@
                     ]
                 }
             ],
-            "score": 29.925594,
             "supporting_grant_ids": [
                 "grant.7472632"
             ],
@@ -6114,14 +6110,6 @@
                 }
             ]
         },
-        "abstract": "The Lagrangian FLEXible PARTicle (FLEXPART) dispersion model and National Centers for Environmental Prediction/Global Forecast System (NCEP/GFS) meteorological data were used to simulate the long range transport pathways of three artificial radionuclides: (131)I, (137)Cs, and (133)Xe, coming into Korean Peninsula during the Fukushima Dai-ichi nuclear accident. Using emission rates of these radionuclides estimated from previous studies, three distinctive transport routes of these radionuclides toward the Korean Peninsula for a period from 10 March to 20 April 2011 were exploited by three spatial scales: 1) intercontinental scale - plume released since mid-March 2011 and transported to the North to arrive Korea on 23 March 2011, 2) global (hemispherical) scale - plume traveling over the whole northern hemisphere passing through the Pacific Ocean/Europe to reach the Korean Peninsula with relatively low concentrations in late March 2011 and, 3) regional scale - plume released on early April 2011 arrived at the Korean Peninsula via southwest sea of Japan influenced directly by veering mesoscale wind circulations. Our identification of these transport routes at three different scales of meteorological circulations suggests the feasibility of a multi-scale approach for more accurate prediction of radionuclide transport in the study area. In light of the fact that the observed arrival/duration time of peaks were explained well by the FLEXPART model coupled with NCEP/GFS input data, our approach can be used meaningfully as a decision support model for radiation emergency situations.",
-        "authors": [
-            "author-172a6fa2fcbe4e28c8e3",
-            "author-25b3bc701f215770f9bd",
-            "author-3a59ff1c411d0d5704e3",
-            "author-bcc25dd1690fb736c6a8",
-            "author-2023e8a5aea87817777d"
-        ],
         "datasets": [
             "dataset-620"
         ],

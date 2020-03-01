@@ -2227,11 +2227,6 @@
                 }
             ]
         },
-        "abstract": "Urban expansion is one of the most dramatic forms of land transformation in the world and it is one of the greatest challenges in achieving sustainable development in the 21st century. Previous studies analyzed urbanization patterns in areas with rapid urban expansion while urban areas with low to moderate expansion have been overlooked, especially in developed countries. In this study, we examined the spatiotemporal dynamics of urban expansion patterns in South Florida, United States (US) over the last 25 years (1992–2016) using Remote Sensing and GIS techniques. The main goal of this paper was to investigate the degree and spatiotemporal patterns of urban expansion at different administrative level in the study area and how spatiotemporal variance in different explanatory factors influence urban expansion in this region. More specifically, this research quantifies the rates, types, intensity, and landscape metrics of urban expansion in Miami-Fort Lauderdale-Palm Beach, Florida Metropolitan Statistical Area (Miami MSA) which is the 7th largest MSA and 4th largest urbanized area in the US using remote sensing (satellite imageries) data from National Land Cover Datasets (NLCD) and Coastal Change Analysis Program (C-CAP) at 30 m spatial resolution. We further investigated the urban growth patterns at the county and city areas that are located within this MSA to portray the local ‘picture’ of urban growth in this region. Urban expansion in this region can be divided into two time periods: pre-2001 and post-2001 where the former experienced rapid urban expansion and the later had comparatively slow urban expansion. Results suggest that infilling was the dominant type of urban expansion followed by edge-expansion and outlying. Results from landscape metrics represent that newly developed urban lands became more aggregated and simplified in form as the time progressed in the study region. Also, new urban lands were generated away from the east coast and historic cities which eventually created new urban cores. We also used correlation analysis and multiple linear stepwise regression to address major explanatory factors of spatiotemporal change in urban expansion during the study period. Although the influence of factors on urban expansion varied temporally, Population and Distance to Coast were the strongest variables followed by Distance to Roads and Median Income that influence overall urban expansion in the study area.",
-        "authors": [
-            "author-f8f2dd04512ecc6e377e",
-            "author-efbc792e4e1c4be0b94f"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -3098,6 +3093,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "coastal ecosystems",
                 "ecosystems",
@@ -3207,124 +3208,126 @@
             "pages": "511",
             "publisher": "Frontiers",
             "reference_ids": [
-                "pub.1042789461",
-                "pub.1022118697",
-                "pub.1045472079",
-                "pub.1083530595",
-                "pub.1047654924",
-                "pub.1027742766",
-                "pub.1048825699",
-                "pub.1001844577",
-                "pub.1016452594",
                 "pub.1029838544",
-                "pub.1043695416",
-                "pub.1043666824",
-                "pub.1041984799",
-                "pub.1053785446",
-                "pub.1008232832",
-                "pub.1006087509",
-                "pub.1021570259",
-                "pub.1021239460",
-                "pub.1030751027",
-                "pub.1091106730",
-                "pub.1015406570",
-                "pub.1002222406",
-                "pub.1006883206",
-                "pub.1062574870",
-                "pub.1005926643",
-                "pub.1035638539",
-                "pub.1037719829",
-                "pub.1098744061",
-                "pub.1111649911",
-                "pub.1013530241",
-                "pub.1000331188",
-                "pub.1037375185",
-                "pub.1051312538",
-                "pub.1005761633",
-                "pub.1029437750",
-                "pub.1009055467",
-                "pub.1015599597",
-                "pub.1051492842",
-                "pub.1070492917",
                 "pub.1013250454",
-                "pub.1045428050",
-                "pub.1025112117",
+                "pub.1005761633",
                 "pub.1107207930",
-                "pub.1024969863",
+                "pub.1070492917",
+                "pub.1005926643",
+                "pub.1000941005",
+                "pub.1020567642",
+                "pub.1006087509",
+                "pub.1000331188",
+                "pub.1027742766",
+                "pub.1002222406",
+                "pub.1062666345",
+                "pub.1021570259",
+                "pub.1045472079",
+                "pub.1043666824",
+                "pub.1015599597",
+                "pub.1101138151",
+                "pub.1016452594",
+                "pub.1008232832",
+                "pub.1030751027",
+                "pub.1007239275",
+                "pub.1014455293",
+                "pub.1001844577",
+                "pub.1053785446",
+                "pub.1062574870",
+                "pub.1029437750",
+                "pub.1015406570",
                 "pub.1106681154",
                 "pub.1021687668",
+                "pub.1013530241",
+                "pub.1051312538",
                 "pub.1040628345",
-                "pub.1007239275",
-                "pub.1020908610",
-                "pub.1014455293",
-                "pub.1052545918",
-                "pub.1091143046",
-                "pub.1101138151",
-                "pub.1053379664",
                 "pub.1033204575",
-                "pub.1020567642",
-                "pub.1062666345",
-                "pub.1000941005"
+                "pub.1091143046",
+                "pub.1025112117",
+                "pub.1021239460",
+                "pub.1022118697",
+                "pub.1006883206",
+                "pub.1035638539",
+                "pub.1024969863",
+                "pub.1048825699",
+                "pub.1083530595",
+                "pub.1098744061",
+                "pub.1051492842",
+                "pub.1091106730",
+                "pub.1008123327",
+                "pub.1042789461",
+                "pub.1020908610",
+                "pub.1009055467",
+                "pub.1047654924",
+                "pub.1111649911",
+                "pub.1037375185",
+                "pub.1052545918",
+                "pub.1045428050",
+                "pub.1043695416",
+                "pub.1041984799",
+                "pub.1037719829",
+                "pub.1053379664"
             ],
             "references": [
-                "pub.1042789461",
-                "pub.1022118697",
-                "pub.1045472079",
-                "pub.1083530595",
-                "pub.1047654924",
-                "pub.1027742766",
-                "pub.1048825699",
-                "pub.1001844577",
-                "pub.1016452594",
                 "pub.1029838544",
-                "pub.1043695416",
-                "pub.1043666824",
-                "pub.1041984799",
-                "pub.1053785446",
-                "pub.1008232832",
-                "pub.1006087509",
-                "pub.1021570259",
-                "pub.1021239460",
-                "pub.1030751027",
-                "pub.1091106730",
-                "pub.1015406570",
-                "pub.1002222406",
-                "pub.1006883206",
-                "pub.1062574870",
-                "pub.1005926643",
-                "pub.1035638539",
-                "pub.1037719829",
-                "pub.1098744061",
-                "pub.1111649911",
-                "pub.1013530241",
-                "pub.1000331188",
-                "pub.1037375185",
-                "pub.1051312538",
-                "pub.1005761633",
-                "pub.1029437750",
-                "pub.1009055467",
-                "pub.1015599597",
-                "pub.1051492842",
-                "pub.1070492917",
                 "pub.1013250454",
-                "pub.1045428050",
-                "pub.1025112117",
+                "pub.1005761633",
                 "pub.1107207930",
-                "pub.1024969863",
+                "pub.1070492917",
+                "pub.1005926643",
+                "pub.1000941005",
+                "pub.1020567642",
+                "pub.1006087509",
+                "pub.1000331188",
+                "pub.1027742766",
+                "pub.1002222406",
+                "pub.1062666345",
+                "pub.1021570259",
+                "pub.1045472079",
+                "pub.1043666824",
+                "pub.1015599597",
+                "pub.1101138151",
+                "pub.1016452594",
+                "pub.1008232832",
+                "pub.1030751027",
+                "pub.1007239275",
+                "pub.1014455293",
+                "pub.1001844577",
+                "pub.1053785446",
+                "pub.1062574870",
+                "pub.1029437750",
+                "pub.1015406570",
                 "pub.1106681154",
                 "pub.1021687668",
+                "pub.1013530241",
+                "pub.1051312538",
                 "pub.1040628345",
-                "pub.1007239275",
-                "pub.1020908610",
-                "pub.1014455293",
-                "pub.1052545918",
-                "pub.1091143046",
-                "pub.1101138151",
-                "pub.1053379664",
                 "pub.1033204575",
-                "pub.1020567642",
-                "pub.1062666345",
-                "pub.1000941005"
+                "pub.1091143046",
+                "pub.1025112117",
+                "pub.1021239460",
+                "pub.1022118697",
+                "pub.1006883206",
+                "pub.1035638539",
+                "pub.1024969863",
+                "pub.1048825699",
+                "pub.1083530595",
+                "pub.1098744061",
+                "pub.1051492842",
+                "pub.1091106730",
+                "pub.1008123327",
+                "pub.1042789461",
+                "pub.1020908610",
+                "pub.1009055467",
+                "pub.1047654924",
+                "pub.1111649911",
+                "pub.1037375185",
+                "pub.1052545918",
+                "pub.1045428050",
+                "pub.1043695416",
+                "pub.1041984799",
+                "pub.1037719829",
+                "pub.1053379664"
             ],
             "research_org_cities": [
                 {
@@ -3403,6 +3406,18 @@
             ],
             "research_org_state_codes": [
                 {
+                    "id": "US-MA",
+                    "name": "Massachusetts"
+                },
+                {
+                    "id": "US-WA",
+                    "name": "Washington"
+                },
+                {
+                    "id": "US-RI",
+                    "name": "Rhode Island"
+                },
+                {
                     "id": "US-LA",
                     "name": "Louisiana"
                 },
@@ -3411,94 +3426,35 @@
                     "name": "Maryland"
                 },
                 {
-                    "id": "US-NC",
-                    "name": "North Carolina"
+                    "id": "US-VA",
+                    "name": "Virginia"
+                },
+                {
+                    "id": "US-DC",
+                    "name": "District of Columbia"
                 },
                 {
                     "id": "US-CA",
                     "name": "California"
                 },
                 {
-                    "id": "US-RI",
-                    "name": "Rhode Island"
-                },
-                {
-                    "id": "US-VA",
-                    "name": "Virginia"
-                },
-                {
-                    "id": "US-WA",
-                    "name": "Washington"
-                },
-                {
-                    "id": "US-MA",
-                    "name": "Massachusetts"
-                },
-                {
-                    "id": "US-DC",
-                    "name": "District of Columbia"
+                    "id": "US-NC",
+                    "name": "North Carolina"
                 }
             ],
             "research_org_state_names": [
-                "District of Columbia",
                 "Massachusetts",
-                "Louisiana",
+                "Maryland",
                 "Washington",
+                "North Carolina",
+                "Louisiana",
+                "District of Columbia",
                 "Rhode Island",
                 "Mississippi",
-                "Maryland",
                 "Virginia",
-                "North Carolina",
                 "California"
             ],
             "research_orgs": [
-                {
-                    "acronym": "NOAA",
-                    "city_name": "Washington D.C.",
-                    "country_name": "United States",
-                    "id": "grid.3532.7",
-                    "latitude": 38.894806,
-                    "linkout": [
-                        "http://www.noaa.gov/"
-                    ],
-                    "longitude": -77.03173,
-                    "name": "National Oceanic and Atmospheric Administration",
-                    "state_name": "District of Columbia",
-                    "types": [
-                        "Government"
-                    ]
-                },
-                {
-                    "city_name": "Silver Spring",
-                    "country_name": "United States",
-                    "id": "grid.467652.4",
-                    "latitude": 38.99153,
-                    "linkout": [
-                        "https://coast.noaa.gov/"
-                    ],
-                    "longitude": -77.03024,
-                    "name": "Office for Coastal Management",
-                    "state_name": "Maryland",
-                    "types": [
-                        "Facility"
-                    ]
-                },
-                {
-                    "acronym": "NU",
-                    "city_name": "Boston",
-                    "country_name": "United States",
-                    "id": "grid.261112.7",
-                    "latitude": 42.33983,
-                    "linkout": [
-                        "http://www.northeastern.edu/"
-                    ],
-                    "longitude": -71.08918,
-                    "name": "Northeastern University",
-                    "state_name": "Massachusetts",
-                    "types": [
-                        "Education"
-                    ]
-                },
                 {
                     "acronym": "UMCP",
                     "city_name": "College Park",
@@ -3516,35 +3472,50 @@
                     ]
                 },
                 {
-                    "acronym": "UCSB",
-                    "city_name": "Santa Barbara",
+                    "acronym": "UW",
+                    "city_name": "Seattle",
                     "country_name": "United States",
-                    "id": "grid.133342.4",
-                    "latitude": 34.414227,
+                    "id": "grid.34477.33",
+                    "latitude": 47.655537,
                     "linkout": [
-                        "http://www.ucsb.edu/"
+                        "http://www.washington.edu/"
                     ],
-                    "longitude": -119.84912,
-                    "name": "University of California, Santa Barbara",
-                    "state_name": "California",
+                    "longitude": -122.30353,
+                    "name": "University of Washington",
+                    "state_name": "Washington",
                     "types": [
                         "Education"
                     ]
                 },
                 {
-                    "acronym": "SU",
-                    "city_name": "Stanford",
+                    "acronym": "NFWF",
+                    "city_name": "Washington D.C.",
                     "country_name": "United States",
-                    "id": "grid.168010.e",
-                    "latitude": 37.43,
+                    "id": "grid.448416.b",
+                    "latitude": 38.9048,
                     "linkout": [
-                        "http://www.stanford.edu/"
+                        "http://www.nfwf.org/Pages/default.aspx#.VeQe-iWqqko"
                     ],
-                    "longitude": -122.17,
-                    "name": "Stanford University",
-                    "state_name": "California",
+                    "longitude": -77.034,
+                    "name": "National Fish and Wildlife Foundation",
+                    "state_name": "District of Columbia",
                     "types": [
-                        "Education"
+                        "Nonprofit"
+                    ]
+                },
+                {
+                    "city_name": "Silver Spring",
+                    "country_name": "United States",
+                    "id": "grid.467652.4",
+                    "latitude": 38.99153,
+                    "linkout": [
+                        "https://coast.noaa.gov/"
+                    ],
+                    "longitude": -77.03024,
+                    "name": "Office for Coastal Management",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
                     ]
                 },
                 {
@@ -3596,22 +3567,6 @@
                     ]
                 },
                 {
-                    "acronym": "UW",
-                    "city_name": "Seattle",
-                    "country_name": "United States",
-                    "id": "grid.34477.33",
-                    "latitude": 47.655537,
-                    "linkout": [
-                        "http://www.washington.edu/"
-                    ],
-                    "longitude": -122.30353,
-                    "name": "University of Washington",
-                    "state_name": "Washington",
-                    "types": [
-                        "Education"
-                    ]
-                },
-                {
                     "acronym": "RAE",
                     "city_name": "Arlington",
                     "country_name": "United States",
@@ -3628,19 +3583,67 @@
                     ]
                 },
                 {
-                    "acronym": "NFWF",
+                    "acronym": "SU",
+                    "city_name": "Stanford",
+                    "country_name": "United States",
+                    "id": "grid.168010.e",
+                    "latitude": 37.43,
+                    "linkout": [
+                        "http://www.stanford.edu/"
+                    ],
+                    "longitude": -122.17,
+                    "name": "Stanford University",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
+                    "acronym": "NU",
+                    "city_name": "Boston",
+                    "country_name": "United States",
+                    "id": "grid.261112.7",
+                    "latitude": 42.33983,
+                    "linkout": [
+                        "http://www.northeastern.edu/"
+                    ],
+                    "longitude": -71.08918,
+                    "name": "Northeastern University",
+                    "state_name": "Massachusetts",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
+                    "acronym": "NOAA",
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
-                    "id": "grid.448416.b",
-                    "latitude": 38.9048,
+                    "id": "grid.3532.7",
+                    "latitude": 38.894806,
                     "linkout": [
-                        "http://www.nfwf.org/Pages/default.aspx#.VeQe-iWqqko"
+                        "http://www.noaa.gov/"
                     ],
-                    "longitude": -77.034,
-                    "name": "National Fish and Wildlife Foundation",
+                    "longitude": -77.03173,
+                    "name": "National Oceanic and Atmospheric Administration",
                     "state_name": "District of Columbia",
                     "types": [
-                        "Nonprofit"
+                        "Government"
+                    ]
+                },
+                {
+                    "acronym": "UCSB",
+                    "city_name": "Santa Barbara",
+                    "country_name": "United States",
+                    "id": "grid.133342.4",
+                    "latitude": 34.414227,
+                    "linkout": [
+                        "http://www.ucsb.edu/"
+                    ],
+                    "longitude": -119.84912,
+                    "name": "University of California, Santa Barbara",
+                    "state_name": "California",
+                    "types": [
+                        "Education"
                     ]
                 },
                 {
@@ -3802,13 +3805,12 @@
                     "id": "ur.01226441502.24",
                     "last_name": "Grabowski",
                     "research_orgs": [
-                        "grid.434948.6",
                         "grid.10698.36",
-                        "grid.261112.7"
+                        "grid.261112.7",
+                        "grid.434948.6"
                     ]
                 }
             ],
-            "score": 26.842754,
             "terms": [
                 "coastal ecosystems",
                 "ecosystems",
@@ -6635,29 +6637,6 @@
                 }
             ]
         },
-        "abstract": "Coastal ecosystems are under pressure from a vast array of anthropogenic stressors, including development and climate change, resulting in significant habitat losses globally. Conservation policies are often implemented with the intent of reducing habitat loss. However, losses already incurred will require restoration if ecosystem functions and services are to be recovered. The United States has a long history of wetland loss and recognizes that averting loss requires a multi-pronged approach including mitigation for regulated activities and non-mitigation (voluntary herein) restoration. The 1989 “No Net Loss” (NNL) policy stated the Federal government’s intent that losses of wetlands would be offset by at least as many gains of wetlands. However, coastal wetlands losses result from both regulated and non-regulated activities. We examined the effectiveness of Federally funded, voluntary restoration efforts in helping avert losses of coastal wetlands by assessing: (1) What are the current and past trends in coastal wetland change in the U.S.?; and (2) How much and where are voluntary restoration efforts occurring? First, we calculated palustrine and estuarine wetland change in U.S. coastal shoreline counties using data from NOAA’s Coastal Change Analysis Program, which integrates both types of potential losses and gains. We then synthesized available data on Federally funded, voluntary restoration of coastal wetlands. We found that from 1996 to 2010, the U.S. lost 139,552 acres (~565 km2) of estuarine wetlands (2.5% of 1996 area) and 336,922 acres (~1,363 km2) of palustrine wetlands (1.4%). From 2006 to 2015, restoration of 145,442 acres (~589 km2) of estuarine wetlands and 154,772 acres (~626 km2) of palustrine wetlands occurred. Further, wetland losses and restoration were not always geographically aligned, resulting in local and regional “winners” and “losers”. While these restoration efforts have been considerable, restoration and mitigation collectively have not been able to keep pace with wetland losses; thus, reversing this trend will likely require greater investment in coastal habitat conservation and restoration efforts. We further conclude that “area restored”, the most prevalent metric used to assess progress, is inadequate, as it does not necessarily equate to restoration of functions.",
-        "authors": [
-            "author-2aeda23a919ba0030d8a",
-            "author-9f31a3e21e4b205552c8",
-            "author-6d2c209efb1301e4b02f",
-            "author-fda5eb5823ef32ba66dd",
-            "author-627bc70227409da50b6a",
-            "author-abe85bcd58b20a194902",
-            "author-34c1138e4b2be9ffb5af",
-            "author-3129323c2bf4c7c85dae",
-            "author-2f0bf3b576a3abf96314",
-            "author-843ef8ea174920cf201e",
-            "author-4337632c746d3149a8b4",
-            "author-dda850c865aa9009e385",
-            "author-216730fe0d63f289075a",
-            "author-ac66702924af18c5e116",
-            "author-5cc6466341f543f5e01a",
-            "author-ef9f88cc8dd74e64a028",
-            "author-d39ece412e0461c3c8c8",
-            "author-43171da41556a3fabafe",
-            "author-e8ddac0fbc80234e9963",
-            "author-8ccbf920540d8cb9df33"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -7457,16 +7436,15 @@
                         "0000-0002-6173-6033"
                     ],
                     "research_orgs": [
-                        "grid.266621.7",
-                        "grid.504449.8",
                         "grid.467460.7",
-                        "grid.64337.35",
+                        "grid.291951.7",
+                        "grid.504449.8",
                         "grid.300180.a",
-                        "grid.291951.7"
+                        "grid.64337.35",
+                        "grid.266621.7"
                     ]
                 }
             ],
-            "score": 25.46955,
             "supporting_grant_ids": [
                 "grant.3021004",
                 "grant.3848442",
@@ -7646,16 +7624,6 @@
                 }
             ]
         },
-        "abstract": null,
-        "authors": [
-            "author-2c31335327d5dcd63c8d",
-            "author-d3c2ec5ddf5815c6c94b",
-            "author-072f80378c30c2e0ea52",
-            "author-f23f0b87e2039207e761",
-            "author-80f70a6c03ccf2ab3ffb",
-            "author-31428a9b83a56a59419b",
-            "author-fd76d98570731bb9a7c2"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -7917,6 +7885,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "phosphorus",
                 "land use change",
@@ -8138,7 +8112,6 @@
                     ]
                 }
             ],
-            "score": 21.474924,
             "terms": [
                 "phosphorus",
                 "land use change",
@@ -8306,13 +8279,6 @@
                 }
             ]
         },
-        "abstract": "AbstractWelch EB, Bouchard D, Frodge J, Jacoby JM. Stability of Lake Sammamish phosphorus despite land use changes. Lake Reserv Manage. 35:167–180.Total phosphorus (TP) concentration in Lake Sammamish has not changed significantly following recovery in the 1970s from wastewater diversion, despite increases in developed land and impervious area of 100% and 60%, respectively, from 1980 to 2011. Annual mean, whole-lake TP has remained constant at about 18 µg/L. Summer mean TP and chlorophyll a (Chl-a) have not changed either, and transparency increased from 3.8 m in the 1970s to consistently around 5 m since the 1980s. Reasons for the stability of annual mean TP through the 1980s were (1) hypolimnetic TP had declined by nearly 50% since the 1970s, due to 60% less internal loading; (2) water residence time increased slightly since the 1970s, allowing more settling of particulate matter; and (3) hypolimnetic TP content at turnover did not persist. In 1992, annual TP was predicted to increase from 18 to 28 µg/L...",
-        "authors": [
-            "author-c9f8236f6817b92fe420",
-            "author-67ce8f78d208d75211e7",
-            "author-b5e7d2064888c154f308",
-            "author-3b4408a2efed454e11ae"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -8554,6 +8520,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30014",
                     "name": "C14 Geography and Environmental Studies"
@@ -8903,7 +8875,6 @@
                     ]
                 }
             ],
-            "score": 25.8577,
             "terms": [
                 "governance literature",
                 "literature",
@@ -9050,12 +9021,6 @@
                 }
             ]
         },
-        "abstract": "Abstract Specialized governance literature tends to approach special district differences at a surface level, rarely delving into consequential distinctions between districts types or their implications for policy outcomes. This article offers a step towards addressing these limitations by examining the land use impacts of an innovation in local government form referred to as “multipurpose development districts.” The article builds from a theory of local government formation to examine how Florida development districts – formally referred to within the state as community development districts (CDDs) – impact regional development patterns. Combining spatial data on land-cover change and CDD boundaries with nonparametric and Bayesian modeling approaches, the article provides a novel examination of CDDs’ influence on urban sprawl over a 15-year period. The results suggest that private developers’ use of development district formation to finance development infrastructure contributes to development in unincorporated areas. However, because within-district sprawl is disincentivized and overall district siting remains subject to regional planning and zoning restrictions, CDDs cluster this growth in ways which mitigate the negative effects of urban sprawl. The findings hold important implications for understanding regional growth and development processes, as well as the realization of state-level growth management policy goals.",
-        "authors": [
-            "author-b492d47ffa204178e22b",
-            "author-29f449071e3d9b2e2514",
-            "author-5c21d02265fb295945c8"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -9417,6 +9382,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "ducks",
                 "South Carolina Department",
@@ -9505,48 +9476,48 @@
             "pages": "478-486",
             "publisher": "Wiley",
             "reference_ids": [
-                "pub.1070461777",
-                "pub.1025025325",
-                "pub.1011995172",
-                "pub.1004271421",
-                "pub.1000566318",
-                "pub.1070461616",
-                "pub.1034445769",
-                "pub.1026172399",
-                "pub.1030210498",
-                "pub.1034006259",
-                "pub.1042894635",
-                "pub.1001438002",
-                "pub.1090910010",
-                "pub.1050407890",
-                "pub.1070455943",
-                "pub.1069661156",
                 "pub.1038142243",
-                "pub.1031032736",
+                "pub.1021078537",
+                "pub.1050407890",
+                "pub.1042894635",
+                "pub.1034445769",
+                "pub.1025025325",
+                "pub.1070461616",
+                "pub.1026172399",
+                "pub.1011995172",
+                "pub.1030210498",
+                "pub.1000566318",
                 "pub.1070457961",
-                "pub.1021078537"
+                "pub.1090910010",
+                "pub.1070461777",
+                "pub.1034006259",
+                "pub.1004271421",
+                "pub.1031032736",
+                "pub.1001438002",
+                "pub.1069661156",
+                "pub.1070455943"
             ],
             "references": [
-                "pub.1070461777",
-                "pub.1025025325",
-                "pub.1011995172",
-                "pub.1004271421",
-                "pub.1000566318",
-                "pub.1070461616",
-                "pub.1034445769",
-                "pub.1026172399",
-                "pub.1030210498",
-                "pub.1034006259",
-                "pub.1042894635",
-                "pub.1001438002",
-                "pub.1090910010",
-                "pub.1050407890",
-                "pub.1070455943",
-                "pub.1069661156",
                 "pub.1038142243",
-                "pub.1031032736",
+                "pub.1021078537",
+                "pub.1050407890",
+                "pub.1042894635",
+                "pub.1034445769",
+                "pub.1025025325",
+                "pub.1070461616",
+                "pub.1026172399",
+                "pub.1011995172",
+                "pub.1030210498",
+                "pub.1000566318",
                 "pub.1070457961",
-                "pub.1021078537"
+                "pub.1090910010",
+                "pub.1070461777",
+                "pub.1034006259",
+                "pub.1004271421",
+                "pub.1031032736",
+                "pub.1001438002",
+                "pub.1069661156",
+                "pub.1070455943"
             ],
             "research_org_cities": [
                 {
@@ -9695,7 +9666,6 @@
                     ]
                 }
             ],
-            "score": 18.676464,
             "terms": [
                 "ducks",
                 "South Carolina Department",
@@ -10285,15 +10255,6 @@
                 }
             ]
         },
-        "abstract": "Mottled ducks (Anas fulvigula) were released by the South Carolina Department of Natural Resources (SCDNR) in South Carolina, USA, during 1975–1983 and expanded into Georgia, USA, in the 1990s. Banding data suggest that birds marked in Georgia are often harvested in other states. Because the South Carolina reintroduced population was able to expand into Georgia via long-distance dispersal, a more thorough understanding of mottled duck spatial ecology in Georgia and South Carolina is needed to direct future management decisions to accommodate expanding duck populations. We used global positioning system (GPS) telemetry to investigate movements and habitat selection by 47 mottled ducks (17 males, 30 females) during 4 seasons from 2013–2016. Mean seasonal home ranges varied from 2,002–4,598 ha across sexes and seasons. We found mean distances moved within seasonal ranges varied from 3.5–11.3 km/day for birds captured in Georgia, and 1.3–5.6 km/day for those captured in South Carolina. We observed 23 excursions, in which individuals left established seasonal ranges for >6 hours and moved 5 km; these excursions ranged from 5 km to 139.5 km. We documented 5 dispersals ranging from 52.6 km to 245.8 km. We also documented several long-distance movements, with 7 birds captured in Georgia moving to South Carolina and 2 moving to Florida, USA. These movements suggest mottled ducks in South Carolina and Georgia may constitute a single population. Notably, we observed dispersal and long-distance movements only from birds marked in Georgia, suggesting that habitat may be a limiting factor along the Georgia coast. We quantified third-order selection for mottled ducks and found seasonal selection for managed impoundments and avoidance of palustrine emergent marsh during breeding and teal seasons. Managed impoundments were limited to 4 river systems along coastal Georgia and South Carolina, resulting in much of the coastal wetlands in both states being unused by mottled ducks.We suggest the Georgia Department of Natural Resources (GADNR) and SCDNR work cooperatively to manage mottled ducks and their habitats by focusing efforts to create and manage impoundments throughout the Santee, Savannah, Altamaha, and Ashepoo-Combahe-Edisto (ACE) river basins in coastal Georgia and South Carolina where we documented use. 2018 The Wildlife Society.",
-        "authors": [
-            "author-be59413651cfa49c5a1a",
-            "author-a52187bbec916f7c5cec",
-            "author-8c57a13cac801b9c19d9",
-            "author-4ca73cce72fe71608724",
-            "author-7fe5e8dc60ced9507f86",
-            "author-470153ea380285fd1e10"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -10664,6 +10625,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "urban development",
                 "development",
@@ -10782,84 +10749,84 @@
             "publisher": "Elsevier",
             "recent_citations": 10,
             "reference_ids": [
-                "pub.1013267247",
-                "pub.1011888174",
                 "pub.1010561986",
-                "pub.1051865960",
-                "pub.1052896144",
-                "pub.1052330828",
-                "pub.1004271421",
-                "pub.1032466158",
-                "pub.1058156969",
-                "pub.1000147083",
-                "pub.1047016460",
-                "pub.1000534505",
-                "pub.1073096153",
-                "pub.1069977481",
-                "pub.1045094901",
-                "pub.1001174611",
-                "pub.1051859425",
-                "pub.1028663326",
                 "pub.1052109431",
+                "pub.1073096272",
+                "pub.1032466158",
+                "pub.1073096213",
+                "pub.1003920452",
+                "pub.1045094901",
+                "pub.1028663326",
+                "pub.1013267247",
+                "pub.1052330828",
+                "pub.1045548260",
+                "pub.1083548155",
+                "pub.1058156969",
+                "pub.1052896144",
+                "pub.1011888174",
+                "pub.1051865960",
+                "pub.1051859425",
+                "pub.1042915259",
+                "pub.1050226871",
+                "pub.1036120496",
+                "pub.1000534505",
                 "pub.1017086818",
-                "pub.1007799969",
-                "pub.1014539561",
+                "pub.1010272861",
+                "pub.1073096153",
+                "pub.1036510488",
+                "pub.1004271421",
+                "pub.1001174611",
+                "pub.1069977481",
                 "pub.1051587222",
                 "pub.1026906580",
-                "pub.1042915259",
-                "pub.1010272861",
-                "pub.1003920452",
-                "pub.1045548260",
-                "pub.1073096272",
-                "pub.1036510488",
+                "pub.1053798761",
                 "pub.1071167322",
+                "pub.1007799969",
+                "pub.1000147083",
                 "pub.1024197313",
-                "pub.1036120496",
-                "pub.1083548155",
-                "pub.1073096213",
+                "pub.1047016460",
                 "pub.1037681375",
-                "pub.1050226871",
-                "pub.1053798761"
+                "pub.1014539561"
             ],
             "references": [
-                "pub.1013267247",
-                "pub.1011888174",
                 "pub.1010561986",
-                "pub.1051865960",
-                "pub.1052896144",
-                "pub.1052330828",
-                "pub.1004271421",
-                "pub.1032466158",
-                "pub.1058156969",
-                "pub.1000147083",
-                "pub.1047016460",
-                "pub.1000534505",
-                "pub.1073096153",
-                "pub.1069977481",
-                "pub.1045094901",
-                "pub.1001174611",
-                "pub.1051859425",
-                "pub.1028663326",
                 "pub.1052109431",
+                "pub.1073096272",
+                "pub.1032466158",
+                "pub.1073096213",
+                "pub.1003920452",
+                "pub.1045094901",
+                "pub.1028663326",
+                "pub.1013267247",
+                "pub.1052330828",
+                "pub.1045548260",
+                "pub.1083548155",
+                "pub.1058156969",
+                "pub.1052896144",
+                "pub.1011888174",
+                "pub.1051865960",
+                "pub.1051859425",
+                "pub.1042915259",
+                "pub.1050226871",
+                "pub.1036120496",
+                "pub.1000534505",
                 "pub.1017086818",
-                "pub.1007799969",
-                "pub.1014539561",
+                "pub.1010272861",
+                "pub.1073096153",
+                "pub.1036510488",
+                "pub.1004271421",
+                "pub.1001174611",
+                "pub.1069977481",
                 "pub.1051587222",
                 "pub.1026906580",
-                "pub.1042915259",
-                "pub.1010272861",
-                "pub.1003920452",
-                "pub.1045548260",
-                "pub.1073096272",
-                "pub.1036510488",
+                "pub.1053798761",
                 "pub.1071167322",
+                "pub.1007799969",
+                "pub.1000147083",
                 "pub.1024197313",
-                "pub.1036120496",
-                "pub.1083548155",
-                "pub.1073096213",
+                "pub.1047016460",
                 "pub.1037681375",
-                "pub.1050226871",
-                "pub.1053798761"
+                "pub.1014539561"
             ],
             "research_org_cities": [
                 {
@@ -10960,7 +10927,6 @@
                     ]
                 }
             ],
-            "score": 21.227104,
             "terms": [
                 "urban development",
                 "development",
@@ -13062,15 +13028,6 @@
                 }
             ]
         },
-        "abstract": "Abstract Urban development is a principal driver of landscape change affecting the integrity of ecological systems and the capacity of the landscape to support species. We developed an urban growth model (SPRAWL), evaluated it with hindcasting, and used it to simulate urban growth across the northeastern United States between 2010 and 2080 under four alternative scenarios. In the model, urban growth is constrained by demand for new development for each time step at the subregional scale. Demand is subsequently allocated to local application panes (5 km on a side within 15 km window) using a unique landscape context matching algorithm, such that the more historical development that occurred in the matched training windows the higher the proportion of future demand assigned to the pane. Lastly, demand in each pane is allocated among development types and then allocated to individual patches based on suitability surfaces unique to that landscape context. SPRAWL has a multi-level, multi-scale structure that captures urban growth drivers operating at multiple scales and, when combined with the unique matching and suitability algorithms, induces non-stationarity in urban growth across time and space. Our evaluation indicated that SPRAWL was highly discriminatory, well-calibrated, and highly predictive of new development, but performed weakly for redevelopment transitions. We evaluated the ecological impacts of four alternative urban growth scenarios varying in total demand for new development and “sprawliness” of new development relative to historical patterns using an ecological integrity index. The results were consistent with expectations and demonstrated the potential of SPRAWL for scenario analysis.",
-        "authors": [
-            "author-d6ef6a023364d3d054d8",
-            "author-836bc106e630f89fd0e2",
-            "author-95c84e770305178b1c7a",
-            "author-b7c9f62cedfc1033b6b0",
-            "author-64a9b29f2fe33e8087b6",
-            "author-725f663fbbbfda55cb6a"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -13392,6 +13349,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "variation",
                 "bed friction",
@@ -13461,7 +13424,7 @@
             "date": "2018-02-01",
             "date_inserted": "2017-12-22",
             "doi": "10.1016/j.coastaleng.2017.11.005",
-            "field_citation_ratio": 3.06,
+            "field_citation_ratio": 2.96,
             "id": "pub.1099604785",
             "issn": [
                 "0378-3839",
@@ -13488,56 +13451,56 @@
             "publisher": "Elsevier",
             "recent_citations": 6,
             "reference_ids": [
-                "pub.1002545808",
-                "pub.1010507520",
-                "pub.1057889954",
-                "pub.1017962397",
-                "pub.1002497420",
-                "pub.1030874770",
-                "pub.1030514950",
-                "pub.1017814328",
-                "pub.1033576140",
-                "pub.1048407856",
                 "pub.1047714569",
-                "pub.1010851802",
-                "pub.1027692089",
-                "pub.1034302603",
-                "pub.1026361281",
-                "pub.1010941479",
+                "pub.1002545808",
                 "pub.1010466598",
+                "pub.1057889954",
+                "pub.1048407856",
                 "pub.1008262784",
-                "pub.1002815071",
                 "pub.1007456388",
-                "pub.1001659499",
-                "pub.1046980662",
+                "pub.1027692089",
+                "pub.1002815071",
+                "pub.1024572460",
+                "pub.1017962397",
                 "pub.1014791554",
-                "pub.1024572460"
+                "pub.1026361281",
+                "pub.1010851802",
+                "pub.1030514950",
+                "pub.1033576140",
+                "pub.1010941479",
+                "pub.1046980662",
+                "pub.1034302603",
+                "pub.1030874770",
+                "pub.1017814328",
+                "pub.1001659499",
+                "pub.1002497420",
+                "pub.1010507520"
             ],
             "references": [
-                "pub.1002545808",
-                "pub.1010507520",
-                "pub.1057889954",
-                "pub.1017962397",
-                "pub.1002497420",
-                "pub.1030874770",
-                "pub.1030514950",
-                "pub.1017814328",
-                "pub.1033576140",
-                "pub.1048407856",
                 "pub.1047714569",
-                "pub.1010851802",
-                "pub.1027692089",
-                "pub.1034302603",
-                "pub.1026361281",
-                "pub.1010941479",
+                "pub.1002545808",
                 "pub.1010466598",
+                "pub.1057889954",
+                "pub.1048407856",
                 "pub.1008262784",
-                "pub.1002815071",
                 "pub.1007456388",
-                "pub.1001659499",
-                "pub.1046980662",
+                "pub.1027692089",
+                "pub.1002815071",
+                "pub.1024572460",
+                "pub.1017962397",
                 "pub.1014791554",
-                "pub.1024572460"
+                "pub.1026361281",
+                "pub.1010851802",
+                "pub.1030514950",
+                "pub.1033576140",
+                "pub.1010941479",
+                "pub.1046980662",
+                "pub.1034302603",
+                "pub.1030874770",
+                "pub.1017814328",
+                "pub.1001659499",
+                "pub.1002497420",
+                "pub.1010507520"
             ],
             "research_org_cities": [
                 {
@@ -13659,15 +13622,13 @@
                     "id": "ur.014224543147.24",
                     "last_name": "Hagen",
                     "research_orgs": [
+                        "grid.64337.35",
                         "grid.170430.1",
                         "grid.250060.1",
-                        "grid.433693.8",
-                        "grid.427253.5",
-                        "grid.64337.35"
+                        "grid.427253.5"
                     ]
                 }
             ],
-            "score": 26.554266,
             "terms": [
                 "variation",
                 "bed friction",
@@ -13940,14 +13901,6 @@
                 }
             ]
         },
-        "abstract": "Abstract Variations in bed friction due to land cover type have the potential to influence morphologic change during storm events; the importance of these variations can be studied through numerical simulation and experimentation at locations with sufficient observational data to initialize realistic scenarios, evaluate model accuracy and guide interpretations. Two-dimensional in the horizontal plane (2DH) morphodynamic (XBeach) simulations were conducted to assess morphodynamic sensitivity to spatially varying bed friction at Dauphin Island, AL using hurricanes Ivan (2004) and Katrina (2005) as experimental test cases. For each storm, three bed friction scenarios were simulated: (1) a constant Chezy coefficient across land and water, (2) a constant Chezy coefficient across land and depth-dependent Chezy coefficients across water, and (3) spatially varying Chezy coefficients across land based on land use/land cover (LULC) data and depth-dependent Chezy coefficients across water. Modeled post-storm bed elevations were compared qualitatively and quantitatively with post-storm lidar data. Results showed that implementing spatially varying bed friction influenced the ability of XBeach to accurately simulate morphologic change during both storms. Accounting for frictional effects due to large-scale variations in vegetation and development reduced cross-barrier sediment transport and captured overwash and breaching more accurately. Model output from the spatially varying friction scenarios was used to examine the need for an existing sediment transport limiter, the influence of pre-storm topography and the effects of water level gradients on storm-driven morphodynamics.",
-        "authors": [
-            "author-74c8966afac12acae025",
-            "author-f4eb878f0297c9018b9c",
-            "author-d7b758c709951a3a2e3b",
-            "author-9b800cc81de0b79924ef",
-            "author-ae4bfee018ddf7f3ef97"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -14101,6 +14054,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "transboundary problems",
                 "nonpoint source water pollution",
@@ -14138,7 +14097,7 @@
             "date": "2018-01-28",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/09640568.2017.1301896",
-            "field_citation_ratio": 1.93,
+            "field_citation_ratio": 1.85,
             "funder_countries": [
                 {
                     "id": "US",
@@ -14189,98 +14148,98 @@
             "publisher": "Taylor & Francis",
             "recent_citations": 3,
             "reference_ids": [
-                "pub.1021117251",
-                "pub.1053021991",
-                "pub.1098741388",
-                "pub.1002467794",
-                "pub.1005242164",
-                "pub.1098675208",
-                "pub.1047335860",
-                "pub.1021028696",
-                "pub.1047288536",
-                "pub.1069666796",
                 "pub.1001173254",
-                "pub.1059823227",
-                "pub.1019273418",
-                "pub.1029979335",
-                "pub.1032335121",
-                "pub.1052893673",
-                "pub.1000652240",
-                "pub.1012086281",
-                "pub.1043796447",
-                "pub.1116618054",
-                "pub.1040292590",
-                "pub.1073097364",
-                "pub.1007468045",
-                "pub.1028367322",
-                "pub.1005553346",
-                "pub.1003512464",
-                "pub.1023616649",
-                "pub.1005480589",
-                "pub.1051153717",
-                "pub.1045999565",
-                "pub.1020717849",
-                "pub.1006486788",
-                "pub.1051417696",
-                "pub.1063731024",
-                "pub.1107021519",
-                "pub.1011031134",
-                "pub.1050655248",
                 "pub.1052427975",
-                "pub.1041821886",
+                "pub.1045999565",
+                "pub.1012086281",
                 "pub.1053904847",
-                "pub.1050863685",
-                "pub.1016814283",
+                "pub.1052893673",
+                "pub.1021117251",
+                "pub.1041821886",
+                "pub.1043796447",
                 "pub.1099569929",
+                "pub.1047335860",
+                "pub.1073097364",
+                "pub.1000652240",
+                "pub.1006486788",
+                "pub.1011031134",
+                "pub.1002467794",
+                "pub.1029979335",
+                "pub.1020717849",
+                "pub.1050863685",
+                "pub.1051153717",
+                "pub.1003512464",
+                "pub.1007468045",
+                "pub.1040292590",
+                "pub.1050655248",
+                "pub.1028367322",
+                "pub.1047288536",
+                "pub.1023616649",
+                "pub.1011100128",
+                "pub.1021028696",
+                "pub.1019273418",
+                "pub.1107021519",
+                "pub.1098741388",
+                "pub.1005480589",
+                "pub.1098675208",
+                "pub.1059823227",
+                "pub.1016814283",
+                "pub.1005553346",
+                "pub.1069666796",
+                "pub.1063731024",
+                "pub.1051417696",
+                "pub.1005242164",
                 "pub.1023180422",
-                "pub.1011100128"
+                "pub.1116618054",
+                "pub.1053021991",
+                "pub.1032335121"
             ],
             "references": [
-                "pub.1021117251",
-                "pub.1053021991",
-                "pub.1098741388",
-                "pub.1002467794",
-                "pub.1005242164",
-                "pub.1098675208",
-                "pub.1047335860",
-                "pub.1021028696",
-                "pub.1047288536",
-                "pub.1069666796",
                 "pub.1001173254",
-                "pub.1059823227",
-                "pub.1019273418",
-                "pub.1029979335",
-                "pub.1032335121",
-                "pub.1052893673",
-                "pub.1000652240",
-                "pub.1012086281",
-                "pub.1043796447",
-                "pub.1116618054",
-                "pub.1040292590",
-                "pub.1073097364",
-                "pub.1007468045",
-                "pub.1028367322",
-                "pub.1005553346",
-                "pub.1003512464",
-                "pub.1023616649",
-                "pub.1005480589",
-                "pub.1051153717",
-                "pub.1045999565",
-                "pub.1020717849",
-                "pub.1006486788",
-                "pub.1051417696",
-                "pub.1063731024",
-                "pub.1107021519",
-                "pub.1011031134",
-                "pub.1050655248",
                 "pub.1052427975",
-                "pub.1041821886",
+                "pub.1045999565",
+                "pub.1012086281",
                 "pub.1053904847",
-                "pub.1050863685",
-                "pub.1016814283",
+                "pub.1052893673",
+                "pub.1021117251",
+                "pub.1041821886",
+                "pub.1043796447",
                 "pub.1099569929",
+                "pub.1047335860",
+                "pub.1073097364",
+                "pub.1000652240",
+                "pub.1006486788",
+                "pub.1011031134",
+                "pub.1002467794",
+                "pub.1029979335",
+                "pub.1020717849",
+                "pub.1050863685",
+                "pub.1051153717",
+                "pub.1003512464",
+                "pub.1007468045",
+                "pub.1040292590",
+                "pub.1050655248",
+                "pub.1028367322",
+                "pub.1047288536",
+                "pub.1023616649",
+                "pub.1011100128",
+                "pub.1021028696",
+                "pub.1019273418",
+                "pub.1107021519",
+                "pub.1098741388",
+                "pub.1005480589",
+                "pub.1098675208",
+                "pub.1059823227",
+                "pub.1016814283",
+                "pub.1005553346",
+                "pub.1069666796",
+                "pub.1063731024",
+                "pub.1051417696",
+                "pub.1005242164",
                 "pub.1023180422",
-                "pub.1011100128"
+                "pub.1116618054",
+                "pub.1053021991",
+                "pub.1032335121"
             ],
             "research_org_cities": [
                 {
@@ -14324,7 +14283,6 @@
                     ]
                 }
             ],
-            "score": 23.90836,
             "terms": [
                 "transboundary problems",
                 "nonpoint source water pollution",
@@ -14419,10 +14377,6 @@
                 }
             ]
         },
-        "abstract": "Flexibility and collaboration are a common prescription for complex, transboundary problems such as nonpoint source (NPS) water pollution. This paper examines the case of the United States Coastal Nonpoint Pollution Control Program (CNPCP), under which all 28 coastal states must develop comprehensive NPS management programs. The CNPCP allows states to satisfy requirements using voluntary, non-regulatory measures, and grants considerable flexibility in terms of institutional coordination and public participation. Thus, it is unclear whether compliance – which is incentivized with Federal funds – should be associated with improved environmental outcomes. Using a remotely sensed land cover census of 800 coastal counties from 1996 to 2010, this paper tests whether compliant programs – and particular participation and coordination mechanisms – are associated with different rates of forest and wetlands conversion. Approved states are associated with decreased rates of forest and wetlands conversion, but minimal...",
-        "authors": [
-            "author-29f449071e3d9b2e2514"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -14592,6 +14546,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "lightning",
                 "weather phenomena",
@@ -14657,7 +14617,7 @@
             "date": "2018-01-01",
             "date_inserted": "2017-11-27",
             "doi": "10.1016/j.apgeog.2017.11.003",
-            "field_citation_ratio": 0.9,
+            "field_citation_ratio": 0.87,
             "id": "pub.1093015064",
             "issn": [
                 "0143-6228",
@@ -14777,12 +14737,11 @@
                     "last_name": "Rohli",
                     "research_orgs": [
                         "grid.64337.35",
-                        "grid.410428.b",
-                        "grid.258518.3"
+                        "grid.258518.3",
+                        "grid.410428.b"
                     ]
                 }
             ],
-            "score": 23.512564,
             "terms": [
                 "lightning",
                 "weather phenomena",
@@ -14985,11 +14944,6 @@
                 }
             ]
         },
-        "abstract": "• Assessment of Lightning over Southern Louisiana based on Land Use and Land Change (LULC), and turbulentfluxes.",
-        "authors": [
-            "author-6a673561076ee0d53864",
-            "author-fade75062dcff278b6fa"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -15271,6 +15225,12 @@
                     "name": "B12 Engineering"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
+                }
+            ],
             "concepts": [
                 "economic losses",
                 "loss",
@@ -15321,7 +15281,7 @@
             "date": "2017-11-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.landurbplan.2017.07.003",
-            "field_citation_ratio": 3.06,
+            "field_citation_ratio": 3.09,
             "id": "pub.1090593690",
             "issn": [
                 "0169-2046",
@@ -15489,9 +15449,9 @@
                     "id": "ur.01226447030.82",
                     "last_name": "Brody",
                     "research_orgs": [
-                        "grid.264764.5",
                         "grid.264763.2",
-                        "grid.264756.4"
+                        "grid.264756.4",
+                        "grid.264764.5"
                     ]
                 },
                 {
@@ -15499,8 +15459,8 @@
                     "id": "ur.01236072235.80",
                     "last_name": "Highfield",
                     "research_orgs": [
-                        "grid.264764.5",
                         "grid.264763.2",
+                        "grid.264764.5",
                         "grid.264756.4"
                     ]
                 },
@@ -15526,7 +15486,6 @@
                     ]
                 }
             ],
-            "score": 22.096228,
             "terms": [
                 "economic losses",
                 "loss",
@@ -15696,14 +15655,6 @@
                 }
             ]
         },
-        "abstract": "Abstract Economic losses from floods along the Gulf of Mexico have triggered much debate on different strategies to reduce risk and future adverse impacts from storm events. While much of the discussion has focused on structural engineering approaches to flood mitigation, increasing emphasis is being placed on avoidance strategies, such as the protection of undeveloped open spaces. This study leverage previous work to examine undeveloped lands across approximately 2600 watersheds along the Gulf of Mexico. Different types and spatial configurations of naturally-occurring open spaces are statistically evaluated across landscapes for their effects on reducing observed flood losses (economic damage to building and/or contents) under the National Flood Insurance Program (NFIP) occurring from 2008 through 2014. Statistical models isolate the influence of natural open spaces, while controlling for multiple socioeconomic, environmental, and development-based local conditions. Results estimate the dollar-savings in flood losses by maintaining open spaces over time. This study provides quantitative guidance on which types and spatial characteristics of open spaces are most effective in reducing the adverse impacts from floods. Findings indicate that large, expansive, and continuous patches of naturally-occurring open spaces most effectively reduce losses from flood events.",
-        "authors": [
-            "author-65aaf7dd6726e2ab4586",
-            "author-c2dc7730720dd043bbed",
-            "author-6c0e4f4a30697fc0b157",
-            "author-0cfc6bc84bb0ebcb655e",
-            "author-4f0f7f148c50485f2bb9"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -15937,6 +15888,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "global sea level rise",
                 "sea level rise",
@@ -16009,7 +15966,7 @@
             "date": "2017-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/s12237-017-0209-2",
-            "field_citation_ratio": 3.15,
+            "field_citation_ratio": 3.48,
             "funder_countries": [
                 {
                     "id": "US",
@@ -16089,70 +16046,70 @@
             ],
             "pages": "1502-1515",
             "publisher": "Springer Nature",
-            "recent_citations": 8,
+            "recent_citations": 9,
             "reference_ids": [
-                "pub.1003962274",
-                "pub.1024036314",
-                "pub.1016072677",
-                "pub.1015223862",
-                "pub.1046274557",
-                "pub.1046033185",
-                "pub.1044586532",
-                "pub.1048381488",
-                "pub.1041783140",
-                "pub.1042555634",
-                "pub.1035216763",
-                "pub.1011660557",
-                "pub.1018866313",
-                "pub.1069498286",
-                "pub.1001037418",
-                "pub.1048115271",
-                "pub.1005926643",
-                "pub.1030648456",
                 "pub.1020772842",
-                "pub.1013374950",
-                "pub.1009466761",
-                "pub.1035496317",
-                "pub.1021501858",
-                "pub.1045547863",
-                "pub.1002973932",
                 "pub.1017927737",
-                "pub.1019011322",
-                "pub.1031437790",
+                "pub.1048381488",
+                "pub.1046274557",
+                "pub.1013374950",
+                "pub.1044586532",
+                "pub.1024036314",
+                "pub.1041783140",
                 "pub.1069927839",
-                "pub.1006699887"
+                "pub.1005926643",
+                "pub.1015223862",
+                "pub.1069498286",
+                "pub.1006699887",
+                "pub.1045547863",
+                "pub.1003962274",
+                "pub.1031437790",
+                "pub.1021501858",
+                "pub.1011660557",
+                "pub.1002973932",
+                "pub.1016072677",
+                "pub.1035496317",
+                "pub.1042555634",
+                "pub.1009466761",
+                "pub.1001037418",
+                "pub.1019011322",
+                "pub.1046033185",
+                "pub.1018866313",
+                "pub.1030648456",
+                "pub.1035216763",
+                "pub.1048115271"
             ],
             "references": [
-                "pub.1003962274",
-                "pub.1024036314",
-                "pub.1016072677",
-                "pub.1015223862",
-                "pub.1046274557",
-                "pub.1046033185",
-                "pub.1044586532",
-                "pub.1048381488",
-                "pub.1041783140",
-                "pub.1042555634",
-                "pub.1035216763",
-                "pub.1011660557",
-                "pub.1018866313",
-                "pub.1069498286",
-                "pub.1001037418",
-                "pub.1048115271",
-                "pub.1005926643",
-                "pub.1030648456",
                 "pub.1020772842",
-                "pub.1013374950",
-                "pub.1009466761",
-                "pub.1035496317",
-                "pub.1021501858",
-                "pub.1045547863",
-                "pub.1002973932",
                 "pub.1017927737",
-                "pub.1019011322",
-                "pub.1031437790",
+                "pub.1048381488",
+                "pub.1046274557",
+                "pub.1013374950",
+                "pub.1044586532",
+                "pub.1024036314",
+                "pub.1041783140",
                 "pub.1069927839",
-                "pub.1006699887"
+                "pub.1005926643",
+                "pub.1015223862",
+                "pub.1069498286",
+                "pub.1006699887",
+                "pub.1045547863",
+                "pub.1003962274",
+                "pub.1031437790",
+                "pub.1021501858",
+                "pub.1011660557",
+                "pub.1002973932",
+                "pub.1016072677",
+                "pub.1035496317",
+                "pub.1042555634",
+                "pub.1009466761",
+                "pub.1001037418",
+                "pub.1019011322",
+                "pub.1046033185",
+                "pub.1018866313",
+                "pub.1030648456",
+                "pub.1035216763",
+                "pub.1048115271"
             ],
             "research_org_cities": [
                 {
@@ -16228,8 +16185,8 @@
                     "last_name": "Woodland",
                     "research_orgs": [
                         "grid.1002.3",
-                        "grid.265703.5",
-                        "grid.291951.7"
+                        "grid.291951.7",
+                        "grid.265703.5"
                     ]
                 },
                 {
@@ -16240,11 +16197,11 @@
                         "0000-0001-9502-9225"
                     ],
                     "research_orgs": [
-                        "grid.291951.7",
-                        "grid.267033.3",
                         "grid.410443.6",
+                        "grid.267033.3",
                         "grid.213876.9",
-                        "grid.29857.31"
+                        "grid.29857.31",
+                        "grid.291951.7"
                     ]
                 },
                 {
@@ -16256,8 +16213,6 @@
                     ]
                 }
             ],
-            "score": 29.44685,
-            "sf01": "SN",
             "terms": [
                 "global sea level rise",
                 "sea level rise",
@@ -16327,7 +16282,7 @@
                 "habitat availability",
                 "response"
             ],
-            "times_cited": 8,
+            "times_cited": 9,
             "title": "Changes in Habitat Availability for Multiple Life Stages of Diamondback Terrapins (Malaclemys terrapin) in Chesapeake Bay in Response to Sea Level Rise",
             "type": "article",
             "volume": "40",
@@ -17978,12 +17933,6 @@
                 }
             ]
         },
-        "abstract": "Global sea level rise (SLR) will significantly alter coastal landscapes through inundation and erosion of low-lying areas. Animals that display area fidelity and rely on fringing coastal habitats during multiple life stages, such as diamondback terrapins (Malaclemys terrapin Schoepff 1793), are likely to be particularly vulnerable to SLR-induced changes. We used a combination of empirical nest survey data and results from a regional SLR model to explore the long-term availability of known nesting locations and the modeled availability of fringing coastal habitats under multiple SLR scenarios for diamondback terrapin in the MD portion of Chesapeake Bay and the MD coastal bays. All SLR scenarios projected the rapid inundation of historically used nesting locations of diamondback terrapins with 25%–55% loss within the next 10 years and over 80% loss by the end of the century. Model trajectories of habitat losses or gains depended on habitat type and location. A key foraging habitat, brackish marsh, was projected to decline 6%–94%, with projections varying spatially and among scenarios. Despite predicted losses of extant beach habitats, future gains in beach habitat due to erosion and overwash were projected to reach 40%–600%. These results demonstrate the potential vulnerability of diamondback terrapins to SLR in Chesapeake Bay and underscore the possibility of compounding negative effects of SLR on animals whose habitat requirements differ among life stages. More broadly, this study highlights the vulnerability of species dependent on fringing coastal habitats and emphasizes the need for a long-term perspective for coastal development in the face of SLR.",
-        "authors": [
-            "author-53216a5a083ec3a88e91",
-            "author-936fbf472871199ca050",
-            "author-b974360ce462b73d9b6a"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -18246,6 +18195,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "Federal",
                 "state",
@@ -18358,7 +18313,7 @@
             "date": "2017-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.ocecoaman.2016.12.014",
-            "field_citation_ratio": 4.73,
+            "field_citation_ratio": 4.63,
             "id": "pub.1020651838",
             "issn": [
                 "0964-5691",
@@ -18555,7 +18510,6 @@
                     ]
                 }
             ],
-            "score": 22.49548,
             "terms": [
                 "Federal",
                 "state",
@@ -20760,13 +20714,6 @@
                 }
             ]
         },
-        "abstract": "Abstract Federal, state, and local governments in the United States, along with land trusts and other nonprofit organizations, have invested significant financial resources in protection of natural lands in coastal areas. As the climate changes, protected lands could provide increased resilience to coastal communities, yet climate change also poses a threat to the continued existence and healthy functioning of these ecosystems. The objectives of this research are to characterize the distribution and types of coastal protected lands in the eastern United States, estimate their exposure to sea level rise, evaluate the potential impact of this exposure on associated ecosystem services, and then discuss appropriate adaptation measures. For this, we construct an inventory of coastal protected lands in shoreline counties of US states along the Atlantic. We summarize their ownership and land cover and evaluate their exposure to a 3-foot (0.91 m) rise in sea level. We find substantial variation in the amount of lands protected in coastal shoreline counties, from a high of 34 percent in Florida to a low of 7 percent in Pennsylvania. Federal ownership is greatest in the South, whereas state ownership dominates in the Mid-Atlantic. Private groups own large shares of protected lands in Maine, New Hampshire, Delaware, and Maryland. Moving south, dominant land covers in protected areas shift from forests to wetlands. We find that one quarter of protected lands in shoreline counties will be affected by 3 feet of sea level rise, with substantial heterogeneity in exposure across states and greater impacts in southern states. Almost 50 percent of federal lands and around 25 percent of state lands will be affected. While substantial proportions of estuarine wetlands and unconsolidated shore (beaches and dunes) are currently protected and provide key coastal ecosystem services, 95 and 91 percent of these protected systems, respectively, will be affected by 3 feet of sea level rise. We discuss the potential consequences and the associated reductions in ecosystem service provisioning from sea level rise in the context of current funding and adaptation planning for conservation. We find that some of the states facing the greatest challenges are those lacking plans and funding. The large heterogeneity in ownership, land covers, and funding across states suggests that adaptation policies for coastal protected lands will need to be tailored to the local context; a one-size-fits-all approach is unlikely to be as effective.",
-        "authors": [
-            "author-51fdc658df5f728780d5",
-            "author-37c1947ad0ad8ee1d072",
-            "author-7ac71c9043fa8282d116",
-            "author-a3a44650270ad40336e6"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -21074,6 +21021,12 @@
                     "name": "B12 Engineering"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
+                }
+            ],
             "concepts": [
                 "loss of life",
                 "hurricanes",
@@ -21139,7 +21092,7 @@
             "date": "2017-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1175/mwr-d-16-0149.1",
-            "field_citation_ratio": 1.64,
+            "field_citation_ratio": 1.61,
             "funder_countries": [
                 {
                     "id": "US",
@@ -21480,29 +21433,28 @@
                     "last_name": "Dawson",
                     "research_orgs": [
                         "grid.26790.3a",
-                        "grid.89336.37",
                         "grid.410711.2",
-                        "grid.55460.32",
-                        "grid.170205.1",
                         "grid.7384.8",
+                        "grid.55460.32",
+                        "grid.21940.3e",
+                        "grid.170205.1",
                         "grid.421234.2",
-                        "grid.21940.3e"
+                        "grid.89336.37"
                     ]
                 },
                 {
-                    "first_name": "J Joannes",
+                    "first_name": "Joannes J",
                     "id": "ur.014417456250.29",
                     "last_name": "Westerink",
                     "research_orgs": [
+                        "grid.264763.2",
                         "grid.264756.4",
-                        "grid.89336.37",
                         "grid.64337.35",
-                        "grid.131063.6",
-                        "grid.264763.2"
+                        "grid.89336.37",
+                        "grid.131063.6"
                     ]
                 }
             ],
-            "score": 27.800995,
             "supporting_grant_ids": [
                 "grant.3142086",
                 "grant.4319485",
@@ -21646,13 +21598,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-517e13d18c0f41d83193",
-            "author-658533e68064f4e44bc8",
-            "author-76f251257814b097cf88",
-            "author-8b93776d2c56d1067b02",
-            "author-1482714d2c31888cb828"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -21842,6 +21787,12 @@
                     "name": "B12 Engineering"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
+                }
+            ],
             "concepts": [
                 "units",
                 "land cover accuracy",
@@ -21873,7 +21824,7 @@
             "date": "2016-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.14358/pers.82.9.711",
-            "field_citation_ratio": 1.95,
+            "field_citation_ratio": 1.92,
             "id": "pub.1045472079",
             "issn": [
                 "0099-1112"
@@ -21926,7 +21877,6 @@
                     "last_name": "Robinson"
                 }
             ],
-            "score": 26.10048,
             "terms": [
                 "units",
                 "land cover accuracy",
@@ -22000,12 +21950,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-455b61ef3685f6fb70aa",
-            "author-dda850c865aa9009e385",
-            "author-6f87e7c3722f5ac195cd",
-            "author-2741fb50786c92f9f521"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -22204,6 +22148,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "dynamics",
                 "data",
@@ -22220,7 +22170,7 @@
             "date": "2016-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/13658816.2016.1144886",
-            "field_citation_ratio": 4.55,
+            "field_citation_ratio": 4.48,
             "funder_countries": [
                 {
                     "id": "US",
@@ -22438,7 +22388,6 @@
                     ]
                 }
             ],
-            "score": 22.327633,
             "supporting_grant_ids": [
                 "grant.3139163",
                 "grant.3848442"
@@ -23773,11 +23722,6 @@
                 }
             ]
         },
-        "abstract": "Understanding human dynamics after a major disaster is important to the region’s sustainable development. This study utilized land cover data to examine how Hurricane Katrina has affected the urban growth pattern in the Mississippi Delta in Louisiana. The study analyzed land cover changes from non-urban to urban in three metropolitan areas, Baton Rouge, New Orleans-Metairie, and Hammond, for two time periods, pre-Katrina 2001–2006 and post-Katrina 2006–2010. The study first applied a focal filter to extract continuous urban areas from the scattered urban pixels in the original remote sensing images. Statistical analyses were applied to develop initial functions between urban growth probability and several driving factors. A genetic algorithm was then used to calibrate the transition function, and cellular automata simulation based on the transition function was conducted to evaluate future urban growth patterns with and without the impact of Hurricane Katrina. The results show that elevation has become a much more important factor after Hurricane Katrina, and urban growth has shifted to higher elevation regions. The elevation most probable for new urban growth increased from 10.84 to 11.90 meters. Moreover, simulated future urban growth in this region indicates a decentralized trend, with more growth occurring in more distant regions with higher elevation. In the New Orleans metropolitan area, urban growth will continue to spill across Lake Pontchartrain to the satellite towns that are more than 50 minutes away by driving from the city center.",
-        "authors": [
-            "author-434801c1e83815a4d804",
-            "author-a488b51b6cc2447a6b9f"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -24022,6 +23966,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "land use",
                 "use",
@@ -24092,7 +24042,7 @@
             "date": "2016-07-28",
             "date_inserted": "2017-08-31",
             "doi": "10.3390/land5030025",
-            "field_citation_ratio": 4.68,
+            "field_citation_ratio": 4.9,
             "funder_countries": [
                 {
                     "id": "US",
@@ -24152,7 +24102,7 @@
             ],
             "pages": "25",
             "publisher": "MDPI",
-            "recent_citations": 12,
+            "recent_citations": 13,
             "reference_ids": [
                 "pub.1012963194",
                 "pub.1039636287",
@@ -24269,11 +24219,11 @@
                         "0000-0001-5249-141X"
                     ],
                     "research_orgs": [
-                        "grid.258518.3",
-                        "grid.63054.34",
-                        "grid.267468.9",
                         "grid.28803.31",
-                        "grid.267484.b"
+                        "grid.63054.34",
+                        "grid.267484.b",
+                        "grid.267468.9",
+                        "grid.258518.3"
                     ]
                 },
                 {
@@ -24294,12 +24244,13 @@
                         "0000-0002-4558-3292"
                     ],
                     "research_orgs": [
-                        "grid.63054.34",
-                        "grid.22935.3f",
+                        "grid.14003.36",
+                        "grid.258518.3",
                         "grid.35155.37",
                         "grid.28803.31",
                         "grid.9227.e",
-                        "grid.258518.3"
+                        "grid.63054.34",
+                        "grid.22935.3f"
                     ]
                 },
                 {
@@ -24333,7 +24284,6 @@
                     ]
                 }
             ],
-            "score": 22.92172,
             "supporting_grant_ids": [
                 "grant.3581716"
             ],
@@ -24404,7 +24354,7 @@
                 "state of Connecticut",
                 "state"
             ],
-            "times_cited": 16,
+            "times_cited": 17,
             "title": "Analysis and Prediction of Land Use Changes Related to Invasive Species and Major Driving Forces in the State of Connecticut",
             "type": "article",
             "volume": "5",
@@ -26816,16 +26766,6 @@
                 }
             ]
         },
-        "abstract": "Land use and land cover (LULC) patterns play an important role in the establishment and spread of invasive plants. Understanding LULC changes is useful for early detection and management of land-use change to reduce the spread of invasive species. The primary objective of this study is to analyze and predict LULC changes in Connecticut. LULC maps for 1996, 2001 and 2006 were selected to analyze past land cover changes, and then potential LULC distribution in 2018 was predicted using the Multi-Layer Perceptron Markov Chain (MLP_MC) model. This study shows that the total area of forest has been decreasing, mainly caused by urban development and other human activity in Connecticut. The model predicts that the study area will lose 5535 ha of deciduous forest and gain 3502 ha of built-up area from 2006 to 2018. Moreover, forests near built-up areas and agriculture lands appear to be more vulnerable to conversion. Changes in LULC may result in subtle spatial shifts in invasion risk by an abundant invasive shrub, Japanese barberry (Berberis thunbergii). The gain of developed areas at the landscape scale was most closely linked to increased future invasion risk. Our findings suggest that the forest conversion needs to be controlled and well managed to help mitigate future invasion risk.",
-        "authors": [
-            "author-6394e6c5394edc910f6c",
-            "author-39a42e0228c8ec0c56dc",
-            "author-27019edf9399fa16951d",
-            "author-c968fb52f9fd47cb4cff",
-            "author-31b96fa92a66d7101eac",
-            "author-df03917ba8c3dd4a8491",
-            "author-4ca635602452d8b5965f"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -27019,6 +26959,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "coastal inundation",
                 "inundation",
@@ -27076,7 +27022,7 @@
             "date": "2015-09-14",
             "date_inserted": "2017-08-31",
             "doi": "10.3390/rs70911695",
-            "field_citation_ratio": 0.45,
+            "field_citation_ratio": 0.44,
             "id": "pub.1008200479",
             "issn": [
                 "2315-4675",
@@ -27210,7 +27156,6 @@
                     ]
                 }
             ],
-            "score": 25.776516,
             "terms": [
                 "coastal inundation",
                 "inundation",
@@ -28230,11 +28175,6 @@
                 }
             ]
         },
-        "abstract": "Detailed information about coastal inundation is vital to understanding dynamic and populated areas that are impacted by storm surge and flooding. To understand these natural hazard risks, lidar elevation surfaces are frequently used to model inundation in coastal areas. A single-value surface method is sometimes used to inundate areas in lidar elevation surfaces that are below a specified elevation value. However, such an approach does not take into consideration hydrologic connectivity between elevation grids cells resulting in inland areas that should be hydrologically connected to the ocean, but are not. Because inland areas that should drain to the ocean are hydrologically disconnected by raised features in a lidar elevation surface, simply raising the water level to propagate coastal inundation will lead to inundation uncertainties. We took advantage of this problem to identify hydrologically disconnected inland areas to point out that they should be considered for coastal inundation, and that a lidar-based hydrologic surface should be developed with hydrologic connectivity prior to inundation analysis. The process of achieving hydrologic connectivity with hydrologic-enforcement is not new, however, the application of hydrologically-enforced lidar elevation surfaces for improved coastal inundation mapping as approached in this research is innovative. In this article, we propagated a high-resolution lidar elevation surface in coastal Staten Island, New York to demonstrate that inland areas lacking hydrologic connectivity to the ocean could potentially be included in inundation delineations. For inland areas that were hydrologically disconnected, we evaluated if drainage to the ocean was evident, and calculated an area exceeding 11 ha (~0.11 km2) that could be considered in inundation delineations. We also assessed land cover for each inland area to determine the type of physical surfaces that would be potentially impacted if the inland areas were considered as part of a coastal inundation. A visual analysis indicated that developed, medium intensity and palustrine forested wetland land cover types would be impacted for those locations. This article demonstrates that hydrologic connectivity is an important factor to consider when inundating a lidar elevation surface. This information is needed for inundation monitoring and management in sensitive coastal regions.",
-        "authors": [
-            "author-b057cf19b58e12976a72",
-            "author-308b3a31e271cdd8fe54"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -28552,6 +28492,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "estuary",
                 "vital habitat",
@@ -28624,7 +28570,7 @@
             "date": "2015-05-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/s12237-014-9855-9",
-            "field_citation_ratio": 3.29,
+            "field_citation_ratio": 3.26,
             "funder_countries": [
                 {
                     "id": "US",
@@ -28916,8 +28862,6 @@
                     ]
                 }
             ],
-            "score": 20.213017,
-            "sf01": "SN",
             "terms": [
                 "estuary",
                 "vital habitat",
@@ -31293,14 +31237,6 @@
                 }
             ]
         },
-        "abstract": "Estuaries provide vital habitat to a wide variety of fish species, so understanding how human activities impact estuarine habitats has important implications for management and conservation of fish stocks. We used nationwide datasets on anthropogenic disturbance to perform a quantitative assessment of habitat stressors in US estuaries. Habitat stressors were characterized by four categories of indicator datasets: (1) land cover/land use, (2) alteration of river flows, (3) pollution sources, and (4) eutrophication. These datasets were combined using a multiscale hierarchical spatial framework to provide a composite stressor index for 196 estuaries throughout the contiguous USA. Investigation of indicator patterns among 13 defined USA coastal subregions revealed clear differences across the USA attributable to both natural variation as well as differences in anthropogenic activities. We compared the mean composite scores for each subregion and found the lowest stressor index scores in the Downeast Maine and the Oregon Coast subregions. Subregions with the highest stressor index scores were the Southern California Bight (due to land cover changes, river flow alteration, and pollution) and Mid-Atlantic Bight (due to land cover changes, pollution, and eutrophication). Inland-based measures of pollutants, river flow, and land use all showed strong correlations with eutrophication measured within estuaries. Our approach provides an indicator-based assessment for a larger number of estuaries than has been possible in previous assessments, and in the case of river flow, for variables which previously have not been evaluated at a broad spatial scale. The results of this assessment can be applied to help prioritize watershed and estuarine restoration and protection across the contiguous USA.",
-        "authors": [
-            "author-8bb550ce62d076d314c0",
-            "author-06d8b7d1a365550e0f5f",
-            "author-40ac14a3a54b9341443b",
-            "author-4e0808e36707f4842ed4",
-            "author-4ec63f95fe35a54d7d96"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -31477,6 +31413,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "National Ocean Service",
                 "Ocean Service",
@@ -31598,7 +31540,6 @@
             "pages": "10-22",
             "publisher": "Marine Technology Society",
             "recent_citations": 1,
-            "score": 16.023746,
             "terms": [
                 "National Ocean Service",
                 "Ocean Service",
@@ -31729,10 +31670,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-4da9ace901cc54077875",
-            "author-6f2e950cafc5a19171a6"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -31906,6 +31843,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "vulnerable coasts",
                 "coast",
@@ -31974,7 +31917,7 @@
             "date": "2015-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/s10661-015-4298-8",
-            "field_citation_ratio": 6.12,
+            "field_citation_ratio": 6.11,
             "funder_countries": [
                 {
                     "id": "US",
@@ -32187,8 +32130,6 @@
                     ]
                 }
             ],
-            "score": 26.708158,
-            "sf01": "SN",
             "supporting_grant_ids": [
                 "grant.3139163"
             ],
@@ -34840,11 +34781,6 @@
                 }
             ]
         },
-        "abstract": "As one of the most vulnerable coasts in the continental USA, the Lower Mississippi River Basin (LMRB) region has endured numerous hazards over the past decades. The sustainability of this region has drawn great attention from the international, national, and local communities, wanting to understand how the region as a system develops under intense interplay between the natural and human factors. A major problem in this deltaic region is significant land loss over the years due to a combination of natural and human factors. The main scientific and management questions are what factors contribute to the land use land cover (LULC) changes in this region, can we model the changes, and how would the LULC look like in the future given the current factors? This study analyzed the LULC changes of the region between 1996 and 2006 by utilizing an artificial neural network (ANN) to derive the LULC change rules from 15 human and natural variables. The rules were then used to simulate future scenarios in a cellular automation model. A stochastic element was added in the model to represent factors that were not included in the current model. The analysis was conducted for two sub-regions in the study area for comparison. The results show that the derived ANN models could simulate the LULC changes with a high degree of accuracy (above 92 % on average). A total loss of 263 km2 in wetlands from 2006 to 2016 was projected, whereas the trend of forest loss will cease. These scenarios provide useful information to decision makers for better planning and management of the region.",
-        "authors": [
-            "author-434801c1e83815a4d804",
-            "author-a488b51b6cc2447a6b9f"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -35170,6 +35106,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "goal",
                 "study",
@@ -35214,7 +35156,7 @@
             "date": "2015-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/s12237-013-9647-7",
-            "field_citation_ratio": 2.47,
+            "field_citation_ratio": 2.45,
             "id": "pub.1033089706",
             "issn": [
                 "1559-2723",
@@ -35377,8 +35319,6 @@
                     ]
                 }
             ],
-            "score": 18.514366,
-            "sf01": "SN",
             "terms": [
                 "goal",
                 "study",
@@ -36240,14 +36180,6 @@
                 }
             ]
         },
-        "abstract": "The goal of the current study was to document local stakeholder perceptions of ecosystem services provided by coastal habitats and to incorporate values of ecosystem services into an ecosystem-based management plan. A second goal was to identify and quantify ecosystem service supply at the local level, which is a knowledge gap identified by the Millennium Ecosystem Assessment. Ecosystem services were quantified as stakeholder perceptions of values. To identify local stakeholder perceptions of coastal habitat ecosystem services, a workshop was conducted at which stakeholders were asked to complete surveys. Data from the surveys were used to create a spatial representation of the number of ecosystem services provided by habitats in the form of a heat map. Results of the study were incorporated into an ecosystem-based management plan to enable stakeholders and managers to make better-informed decisions regarding priority areas for conservation, preservation, and restoration. The methods used in this study can be expanded to develop future ecosystem-based management plans.",
-        "authors": [
-            "author-c5b375ad8daf6f1e1313",
-            "author-c21bc24e77ab9f7a2b7c",
-            "author-f63b9deceeaa9fb467ef",
-            "author-2bbc42c334d5cf32f12b",
-            "author-9434214df76b07918ca1"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -38843,16 +38775,6 @@
                 }
             ]
         },
-        "abstract": "The Multi-Resolution Land Characteristics (MRLC) Consortium demonstrates the national benefits of USA Federal collaboration. Starting in the mid-1990s as a small group with the straightforward goal of compiling a comprehensive national Landsat dataset that could be used to meet agencies' needs, MRLC has grown into a group of 10 USA Federal Agencies that coordinate the production of five different products, including the National Land Cover Database (NLCD), the Coastal Change Analysis Program (C-CAP), the Cropland Data Layer (CDL), the Gap Analysis Program (GAP), and the Landscape Fire and Resource Management Planning Tools (LANDFIRE). As a set, the products include almost every aspect of land cover from impervious surface to detailed crop and vegetation types to fire fuel classes. Some products can be used for land cover change assessments",
-        "authors": [
-            "author-92b265d5385317ae59e6",
-            "author-46cfaf9a5e142160a8ad",
-            "author-b3ed1c361aada1dc7425",
-            "author-9576049c51ba46fad868",
-            "author-61263cde51c1ee563db8",
-            "author-dda850c865aa9009e385",
-            "author-b278238b989621f3eee4"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -39088,6 +39010,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "implementation",
                 "method",
@@ -39213,64 +39141,64 @@
             "publisher": "Taylor & Francis",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1034859946",
-                "pub.1021438625",
-                "pub.1050988642",
-                "pub.1009307877",
-                "pub.1037741843",
-                "pub.1032632591",
-                "pub.1033042342",
-                "pub.1038886586",
-                "pub.1031449768",
-                "pub.1012924399",
                 "pub.1040242044",
+                "pub.1028068112",
+                "pub.1012924399",
+                "pub.1034859946",
+                "pub.1052058685",
+                "pub.1000782631",
+                "pub.1058294384",
+                "pub.1037741843",
+                "pub.1099452061",
+                "pub.1021438625",
                 "pub.1057616687",
                 "pub.1047795480",
-                "pub.1099452061",
-                "pub.1018645064",
-                "pub.1000693685",
-                "pub.1001158239",
-                "pub.1050266637",
-                "pub.1052058685",
-                "pub.1006616798",
-                "pub.1058294384",
-                "pub.1061608959",
-                "pub.1028068112",
-                "pub.1020023202",
                 "pub.1021458565",
+                "pub.1033042342",
+                "pub.1009307877",
+                "pub.1004418873",
+                "pub.1000693685",
+                "pub.1061608959",
+                "pub.1020023202",
+                "pub.1001158239",
+                "pub.1031449768",
+                "pub.1050266637",
+                "pub.1032632591",
                 "pub.1096044085",
-                "pub.1000782631",
-                "pub.1004418873"
+                "pub.1018645064",
+                "pub.1038886586",
+                "pub.1006616798",
+                "pub.1050988642"
             ],
             "references": [
-                "pub.1034859946",
-                "pub.1021438625",
-                "pub.1050988642",
-                "pub.1009307877",
-                "pub.1037741843",
-                "pub.1032632591",
-                "pub.1033042342",
-                "pub.1038886586",
-                "pub.1031449768",
-                "pub.1012924399",
                 "pub.1040242044",
+                "pub.1028068112",
+                "pub.1012924399",
+                "pub.1034859946",
+                "pub.1052058685",
+                "pub.1000782631",
+                "pub.1058294384",
+                "pub.1037741843",
+                "pub.1099452061",
+                "pub.1021438625",
                 "pub.1057616687",
                 "pub.1047795480",
-                "pub.1099452061",
-                "pub.1018645064",
-                "pub.1000693685",
-                "pub.1001158239",
-                "pub.1050266637",
-                "pub.1052058685",
-                "pub.1006616798",
-                "pub.1058294384",
-                "pub.1061608959",
-                "pub.1028068112",
-                "pub.1020023202",
                 "pub.1021458565",
+                "pub.1033042342",
+                "pub.1009307877",
+                "pub.1004418873",
+                "pub.1000693685",
+                "pub.1061608959",
+                "pub.1020023202",
+                "pub.1001158239",
+                "pub.1031449768",
+                "pub.1050266637",
+                "pub.1032632591",
                 "pub.1096044085",
-                "pub.1000782631",
-                "pub.1004418873"
+                "pub.1018645064",
+                "pub.1038886586",
+                "pub.1006616798",
+                "pub.1050988642"
             ],
             "researchers": [
                 {
@@ -39306,7 +39234,6 @@
                     "last_name": "Swann"
                 }
             ],
-            "score": 29.395908,
             "supporting_grant_ids": [
                 "grant.3827082"
             ],
@@ -40632,14 +40559,6 @@
                 }
             ]
         },
-        "abstract": "This paper discusses the development and implementation of a method that can be used with multi-decadal Landsat data for computing general coastal US land use and land cover (LULC) maps consisting of seven classes. With Mobile Bay, Alabama as the study region, the method that was applied to derive LULC products for nine dates across a 34-year time span. Classifications were computed and refined using decision rules in conjunction with unsupervised classification of Landsat data and Coastal Change and Analysis Program value-added products. Each classification’s overall accuracy was assessed by comparing stratified random locations to available high spatial resolution satellite and aerial imagery, field survey data and raw Landsat RGBs. Overall classification accuracies ranged from 83 to 91% with overall κ statistics ranging from 0.78 to 0.89. Accurate classifications were computed for all nine dates, yielding effective results regardless of season and Landsat sensor. This classification method provided use...",
-        "authors": [
-            "author-04404671bfcfd4ae2b6b",
-            "author-980beb938734c81b8b19",
-            "author-7aa9bdfd11b789b18867",
-            "author-84c257c8b5fbd34817f3",
-            "author-eaff23eaa4f8ed67a586"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -40918,6 +40837,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30014",
                     "name": "C14 Geography and Environmental Studies"
@@ -41209,8 +41134,6 @@
                     ]
                 }
             ],
-            "score": 24.255226,
-            "sf01": "SN",
             "terms": [
                 "assessment strategies",
                 "strategies",
@@ -42870,13 +42793,6 @@
                 }
             ]
         },
-        "abstract": "A multi-level coastal wetland assessment strategy was applied to wetlands in the northern Gulf of Mexico (GOM) to evaluate the feasibility of this approach for a broad national scale wetland condition assessment (US Environmental Protection Agency’s National Wetlands Condition Assessment). Landscape-scale assessment indicators (tier 1) were developed and applied at the sub-watershed (12-digit hydrologic unit code (HUC)) level within the GOM coastal wetland sample frame with scores calculated using land-use maps and geographic information system. Rapid assessment protocols (tier 2), using a combination of data analysis and field work, evaluated metrics associated with landscape context, hydrology, physical structure, and biological structure. Intensive site monitoring (tier 3) included measures of soil chemistry and composition, water column and pore-water chemistry, and dominant macrophyte community composition and tissue chemistry. Relationships within and among assessment levels were evaluated using multivariate analyses with few significant correlations found. More detailed measures of hydrology, soils, and macrophyte species composition from sites across a known condition gradient, in conjunction with validation of standardized rapid assessment method, may be necessary to fully characterize coastal wetlands across the region.",
-        "authors": [
-            "author-e82c96633e841deff155",
-            "author-d1292d9dc82c635daa68",
-            "author-8898c9af3c63bd25a869",
-            "author-c12a45592d55275325b9"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -48407,12 +48323,6 @@
                 }
             ]
         },
-        "abstract": "The study analyzes the spatial persistence and temporal patterns in vegetation cover across Florida by utilizing the Normalized Difference Vegetation Index (NDVI) time-series data derived from the Advanced Very High Resolution Radiometer from 1982 to 2006. Specifically, mean-variance analysis and persistence metrics are used to discern the significance of vegetation patterns, the significance of land cover and land-use change, and the relevance of climate variability across time and space. Results demonstrate a consistent, increasing pattern in the mean NDVI and its variance, especially during the late fall and winter season. A possible explanation of this increasing pattern is based on the Atlantic Multidecadal Oscillation, which switched from cold to warm phase after 1995 and is associated with increased winter precipitation. Additionally, the impacts of the El Nino Southern Oscillation can be detected through the decreased spatial variances of NDVI in warm-phase events, compared to cold-phase events, a...",
-        "authors": [
-            "author-e3d41bdc3fbf5cc54713",
-            "author-a4c68b11f5a7b74f1153",
-            "author-f19a0b8998dff19f27b6"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -48650,6 +48560,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30014",
                     "name": "C14 Geography and Environmental Studies"
@@ -49004,13 +48920,13 @@
                     ],
                     "research_orgs": [
                         "grid.6385.8",
-                        "grid.448373.f",
+                        "grid.438526.e",
                         "grid.116068.8",
-                        "grid.264756.4",
-                        "grid.431335.3",
+                        "grid.448373.f",
                         "grid.131063.6",
                         "grid.417553.1",
-                        "grid.438526.e"
+                        "grid.431335.3",
+                        "grid.264756.4"
                     ]
                 },
                 {
@@ -49021,15 +48937,14 @@
                         "0000-0003-0919-6815"
                     ],
                     "research_orgs": [
+                        "grid.412172.3",
                         "grid.461183.9",
-                        "grid.169077.e",
                         "grid.89336.37",
-                        "grid.264756.4",
-                        "grid.412172.3"
+                        "grid.169077.e",
+                        "grid.264756.4"
                     ]
                 }
             ],
-            "score": 22.090252,
             "supporting_grant_ids": [
                 "grant.4120326",
                 "grant.4048509",
@@ -49166,11 +49081,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-a47dccae02abf1da540b",
-            "author-01d1492431a109ebf5c7",
-            "author-01a59bebd4dc71f48737"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -49402,6 +49312,12 @@
                     "name": "A06 Agriculture, Veterinary and Food Science"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30006",
+                    "name": "A06 Agriculture, Veterinary and Food Science"
+                }
+            ],
             "concepts": [
                 "Worldwide",
                 "urbanization",
@@ -49494,7 +49410,7 @@
             "date": "2013-10-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.landurbplan.2013.05.004",
-            "field_citation_ratio": 1.98,
+            "field_citation_ratio": 1.97,
             "id": "pub.1030683080",
             "issn": [
                 "0169-2046",
@@ -49661,7 +49577,6 @@
                     ]
                 }
             ],
-            "score": 21.413204,
             "terms": [
                 "Worldwide",
                 "urbanization",
@@ -50013,13 +49928,6 @@
                 }
             ]
         },
-        "abstract": "Abstract Worldwide, urbanization is causing a loss of agricultural land as residential and commercial development expands. In many parts of the US, this land use conversion has in some cases resulted in subdivision of farms into large residential parcels. Some of these residential parcels may retain sizeable areas of undeveloped prime agricultural soil. In an uncertain future challenged by population growth, climate change, food insecurity, water shortages, and energy limitations, communities are beginning to explore their ability to feed themselves from local supplies. Addressing this issue will require additional tools for planning land use in a way that could support greater food self-sufficiency at the community level. In this study, a process was developed to identify, quantify and classify agricultural opportunities (AO). AO are simply open lands suitable for some level of agricultural production. The methods outlined here were developed in Chittenden County, Vermont but they can be applied elsewhere. While individual ancillary datasets may be unique to each study area, the general process can be replicated as long as some basic datasets such as classified land cover imagery and prime soils are available. The tools described herein, if employed by planners or geospatial analysts, can generate actionable information. The results of the analyses, as well as the associated participatory community discussions, can aid decision makers when drafting new or revising old policies. Because of their widespread applicability, these tools can serve as decision support aids for policy makers and planners tasked with developing strategies to increase food self-sufficiency.",
-        "authors": [
-            "author-720be0502eaa05e8ae44",
-            "author-3d55d03bca8cf20f4a3a",
-            "author-0446955ce09c8e37de7b",
-            "author-13a9d1693bf7dcf9b995"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -50290,6 +50198,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "unprecedented ecological change",
                 "ecological changes",
@@ -50363,7 +50277,7 @@
             "date": "2013-05-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1111/gcb.12126",
-            "field_citation_ratio": 22.36,
+            "field_citation_ratio": 22.8,
             "id": "pub.1040905932",
             "issn": [
                 "1354-1013",
@@ -50397,7 +50311,7 @@
             "pages": "1482-1494",
             "pmid": "23504931",
             "publisher": "Wiley",
-            "recent_citations": 65,
+            "recent_citations": 69,
             "reference_ids": [
                 "pub.1007367663",
                 "pub.1027758335",
@@ -50591,7 +50505,6 @@
                     ]
                 }
             ],
-            "score": 27.324585,
             "terms": [
                 "unprecedented ecological change",
                 "ecological changes",
@@ -50662,7 +50575,7 @@
                 "ecosystem goods",
                 "Winter climate change"
             ],
-            "times_cited": 150,
+            "times_cited": 154,
             "title": "Winter climate change and coastal wetland foundation species: salt marshes vs. mangrove forests in the southeastern United States",
             "type": "article",
             "volume": "19",
@@ -57401,13 +57314,6 @@
                 }
             ]
         },
-        "abstract": "We live in an era of unprecedented ecological change in which ecologists and natural resource managers are increasingly challenged to anticipate and prepare for the ecological effects of future global change. In this study, we investigated the potential effect of winter climate change upon salt marsh and mangrove forest foundation species in the southeastern United States. Our research addresses the following three questions: (1) What is the relationship between winter climate and the presence and abundance of mangrove forests relative to salt marshes; (2) How vulnerable are salt marshes to winter climate change-induced mangrove forest range expansion; and (3) What is the potential future distribution and relative abundance of mangrove forests under alternative winter climate change scenarios? We developed simple winter climate-based models to predict mangrove forest distribution and relative abundance using observed winter temperature data (1970-2000) and mangrove forest and salt marsh habitat data. Our results identify winter climate thresholds for salt marsh-mangrove forest interactions and highlight coastal areas in the southeastern United States (e.g., Texas, Louisiana, and parts of Florida) where relatively small changes in the intensity and frequency of extreme winter events could cause relatively dramatic landscape-scale ecosystem structural and functional change in the form of poleward mangrove forest migration and salt marsh displacement. The ecological implications of these marsh-to-mangrove forest conversions are poorly understood, but would likely include changes for associated fish and wildlife populations and for the supply of some ecosystem goods and services.",
-        "authors": [
-            "author-a560806b37f87a36ec07",
-            "author-695d1b1f0b5b5ea9378a",
-            "author-3bf6f03fbe5cbec11eb4",
-            "author-3f88121fb37b5e399953"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -57698,6 +57604,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "ecological processes",
                 "process",
@@ -57783,7 +57695,7 @@
             "date": "2013-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.ecohyd.2013.03.003",
-            "field_citation_ratio": 0.68,
+            "field_citation_ratio": 0.67,
             "id": "pub.1020978082",
             "issn": [
                 "1642-3593",
@@ -57953,10 +57865,10 @@
                     "id": "ur.011001771625.03",
                     "last_name": "Ke",
                     "research_orgs": [
-                        "grid.253663.7",
                         "grid.264257.0",
                         "grid.451303.0",
-                        "grid.419897.a"
+                        "grid.419897.a",
+                        "grid.253663.7"
                     ]
                 },
                 {
@@ -57981,7 +57893,6 @@
                     ]
                 }
             ],
-            "score": 16.699032,
             "terms": [
                 "ecological processes",
                 "process",
@@ -58226,12 +58137,6 @@
                 }
             ]
         },
-        "abstract": "Abstract Although ecological processes at landscape scales can drive ecosystem structure and function at local sites, the monitoring and assessment of restoration projects and programs rarely incorporates changes in landscapes. Riverscapes naturally have a high level of hydrologic connectivity so when floodplain habitats are reconnected to the main stem river to restore function, it is especially important to consider the potential effects of watershed processes on outcomes. This study demonstrates a method for selecting relevant indicators, identifying appropriate spatial scales, and measuring trends to inform assessment of a large-river restoration program. We identified eight major watersheds contributing to river reaches within the 1468 km2 historical floodplain of the lower Columbia River and estuary. We assessed land-cover change at the watershed, reach, and restoration site scales by reclassifying remote-sensing data from the NOAA Coastal Change Analysis Program's land cover/change product into forest, wetland, and urban categories. The watershed analysis showed a 361.6 km2 total and 198.3 km2 net forest loss during the first six years of the Columbia Estuary Ecosystem Restoration Program, 2001–2006. Total urbanization in the watersheds during 1996–2006 was 48.4 km2. Trends in forest gain/loss and urbanization differed between watersheds. Wetland gains and losses were within the margin of error of the satellite imagery analysis. These findings are important to restoration planning and assessment, e.g., floodplain restoration sites in reaches downstream of watersheds with decreasing forest cover may be subject to increased sediment loads and those downstream of urbanization may experience altered hydrological processes caused by increased impervious surface.",
-        "authors": [
-            "author-35018a4cf223da4c5527",
-            "author-c120110dd04cb8e31bfb",
-            "author-8ef29feb10724b4edc8a"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -58492,6 +58397,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "extent",
                 "changes",
@@ -58546,7 +58457,7 @@
             "date": "2012-06-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/s11270-011-1007-2",
-            "field_citation_ratio": 1.75,
+            "field_citation_ratio": 1.76,
             "funder_countries": [
                 {
                     "id": "US",
@@ -58814,8 +58725,6 @@
                     ]
                 }
             ],
-            "score": 30.450676,
-            "sf01": "SN",
             "terms": [
                 "extent",
                 "changes",
@@ -61228,14 +61137,6 @@
                 }
             ]
         },
-        "abstract": "The extent and change of land cover/land use (LCLU) across the Tampa Bay watershed, Florida, was characterized for the time period between 1996 and 2006. Likewise, the water turbidity trend was determined at a site near the Bay for each of four major tributaries to Tampa Bay (Hillsborough River, the Alafia River, the Little Manatee River, and the Manatee River). This study identifies consistent changes in LCLU across the Tampa Bay watershed and a decrease in water turbidity. LCLU change analysis as a percent of the total Tampa Bay watershed revealed an increase of 2.6% in developed area followed by a 0.9% in bare land and a 0.6% in water cover. A decrease of 1.8% of the total Tampa Bay watershed was found in agriculture, followed in order by 1.1% in wetland and 1.4% in scrub/shrub. Other land classes changed less than 0.2% of the total watershed. A linear mixed model (SAS procedure PROC MIXED) revealed an overall decreasing trend in water turbidity (p = 0.003, slope estimate = −0.02) across the four major Tampa Bay tributaries considered. This study suggests that development (urbanization) could be associated with decreasing water turbidity in Tampa Bay. Finally, although these results may help explain similar effects on other water bodies with similar conditions of adjacent urbanization and low slope, more analysis are needed considering a larger number of watersheds with similar scales and longer time period in order to confirm that the findings of this study are generally evident.",
-        "authors": [
-            "author-acd7b80b5ffd8679fa36",
-            "author-612a9e8bb1d2b9076ef0",
-            "author-421103bf5b172b539577",
-            "author-578b17b0ba48528da978",
-            "author-a2451af492274cb4a84b"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -61454,6 +61355,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "hurricanes",
                 "surge impact",
@@ -61485,7 +61392,7 @@
             "date": "2012-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.2747/1548-1603.49.2.202",
-            "field_citation_ratio": 1.47,
+            "field_citation_ratio": 1.55,
             "id": "pub.1036148881",
             "issn": [
                 "1548-1603",
@@ -61510,72 +61417,72 @@
             "publisher": "Taylor & Francis",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1026145073",
-                "pub.1021573777",
-                "pub.1006072549",
+                "pub.1037317138",
                 "pub.1001228831",
                 "pub.1030647020",
-                "pub.1025609808",
-                "pub.1050446527",
-                "pub.1062491159",
-                "pub.1048793306",
-                "pub.1018268330",
+                "pub.1035586576",
                 "pub.1000091235",
-                "pub.1058304198",
-                "pub.1027694404",
-                "pub.1063452715",
                 "pub.1058303774",
-                "pub.1047486258",
-                "pub.1069749252",
-                "pub.1057621075",
-                "pub.1057620897",
-                "pub.1032874738",
-                "pub.1069856971",
                 "pub.1000075574",
+                "pub.1069856971",
+                "pub.1047486258",
+                "pub.1025609808",
+                "pub.1027694404",
+                "pub.1021573777",
+                "pub.1006539851",
                 "pub.1027473643",
                 "pub.1012011888",
-                "pub.1035586576",
+                "pub.1069749252",
+                "pub.1006072549",
+                "pub.1050446527",
+                "pub.1063452715",
+                "pub.1033198389",
+                "pub.1057620897",
                 "pub.1003972056",
-                "pub.1037317138",
-                "pub.1017079291",
-                "pub.1063454327",
-                "pub.1006539851",
+                "pub.1026145073",
+                "pub.1032874738",
                 "pub.1045855425",
-                "pub.1033198389"
+                "pub.1062491159",
+                "pub.1048793306",
+                "pub.1057621075",
+                "pub.1058304198",
+                "pub.1018268330",
+                "pub.1017079291",
+                "pub.1063454327"
             ],
             "references": [
-                "pub.1026145073",
-                "pub.1021573777",
-                "pub.1006072549",
+                "pub.1037317138",
                 "pub.1001228831",
                 "pub.1030647020",
-                "pub.1025609808",
-                "pub.1050446527",
-                "pub.1062491159",
-                "pub.1048793306",
-                "pub.1018268330",
+                "pub.1035586576",
                 "pub.1000091235",
-                "pub.1058304198",
-                "pub.1027694404",
-                "pub.1063452715",
                 "pub.1058303774",
-                "pub.1047486258",
-                "pub.1069749252",
-                "pub.1057621075",
-                "pub.1057620897",
-                "pub.1032874738",
-                "pub.1069856971",
                 "pub.1000075574",
+                "pub.1069856971",
+                "pub.1047486258",
+                "pub.1025609808",
+                "pub.1027694404",
+                "pub.1021573777",
+                "pub.1006539851",
                 "pub.1027473643",
                 "pub.1012011888",
-                "pub.1035586576",
+                "pub.1069749252",
+                "pub.1006072549",
+                "pub.1050446527",
+                "pub.1063452715",
+                "pub.1033198389",
+                "pub.1057620897",
                 "pub.1003972056",
-                "pub.1037317138",
-                "pub.1017079291",
-                "pub.1063454327",
-                "pub.1006539851",
+                "pub.1026145073",
+                "pub.1032874738",
                 "pub.1045855425",
-                "pub.1033198389"
+                "pub.1062491159",
+                "pub.1048793306",
+                "pub.1057621075",
+                "pub.1058304198",
+                "pub.1018268330",
+                "pub.1017079291",
+                "pub.1063454327"
             ],
             "research_org_cities": [
                 {
@@ -61652,8 +61559,8 @@
                         "0000-0002-0510-658X"
                     ],
                     "research_orgs": [
-                        "grid.241116.1",
                         "grid.135519.a",
+                        "grid.241116.1",
                         "grid.267193.8"
                     ]
                 },
@@ -61667,7 +61574,6 @@
                     ]
                 }
             ],
-            "score": 21.763105,
             "terms": [
                 "hurricanes",
                 "surge impact",
@@ -62532,11 +62438,6 @@
                 }
             ]
         },
-        "abstract": "Two geographically related questions with regard to hurricane-induced storm-surge impacts were investigated: (1) What observational scale of analysis is appropriate? (2) Is the effect of observational scale on model results predictable? These two research questions were investigated in the context of storm surge-induced impacts to single-family residential structures in Florida. The study was conducted for 21 coastal counties in Florida at five spatial scales of analysis: parcel, block, block group, tract, and county. The research findings reveal a monotonically decreasing relationship between predicted standardized residential loss (the ratio of predicted loss at scale X and the predicted loss at parcel scale) and the observational scale of analysis. This monotonic relationship was consistent for most Florida counties, primarily due to the notable spatial distribution of housing units and proximity to the coastline.",
-        "authors": [
-            "author-bf25cb7431696714b264",
-            "author-73783053539890414316"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -62739,6 +62640,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30012",
                     "name": "B12 Engineering"
@@ -63065,7 +62972,6 @@
                     ]
                 }
             ],
-            "score": 17.37227,
             "terms": [
                 "Distributed Hydrology Soil Vegetation Model",
                 "Hydrology Soil Vegetation Model",
@@ -63249,11 +63155,6 @@
                 }
             ]
         },
-        "abstract": "Summary Distributed Hydrology Soil Vegetation Model (DHSVM) was successfully applied in Mākaha watershed to investigate the hydrologic impact of groundwater pumping on the streamflow. DHSVM was calibrated (1971–1980) and validated (1981–1990) against observed streamflow during pre-development conditions. Monthly observed and simulated streamflows after the development (after 1990) were compared to quantify the decline in streamflow. Simulation results indicate that declines in streamflow could be attributed to: (i) an increase in the fraction of gross rainfall converted into evapotranspiration ( ET ); and (ii) groundwater pumping. Groundwater pumping from additional groundwater development in the form of new pumping wells starting in 1991 has significantly reduced the streamflow, especially during the summer. The fraction of gross rainfall converted into ET has significantly increased by 7% during 1991–2009 compared to the pre-development period. Based on the model results, in the absence of the groundwater development in the upper part of Mākaha watershed, the observed cumulative streamflow could have been 11% higher than its current level. On an annual basis, total additional groundwater pumping accounts for 26% of the recharge with a significant seasonal variability (12% in wet and 180% in dry season). Relative to recharge, higher groundwater pumping during the dry season could have been the reason behind the significant streamflow decline during the summer. This study clearly emphasizes the importance of temporal patterns in groundwater withdrawal which are often ignored while determining safe yield.",
-        "authors": [
-            "author-6f98e0adc2eaa07786fd",
-            "author-cd220cb652a5dbbc491e"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -63391,6 +63292,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "unit problem",
                 "problem",
@@ -63491,8 +63398,8 @@
                         "0000-0002-0510-658X"
                     ],
                     "research_orgs": [
-                        "grid.241116.1",
                         "grid.135519.a",
+                        "grid.241116.1",
                         "grid.267193.8"
                     ]
                 },
@@ -63506,7 +63413,6 @@
                     ]
                 }
             ],
-            "score": 22.131405,
             "terms": [
                 "unit problem",
                 "problem",
@@ -64286,11 +64192,6 @@
                 }
             ]
         },
-        "abstract": "The Modifiable Areal Unit Problem (MAUP) is the classic term for describing different totals observed from spatially different aggregation units. In a typical analytical problem (e.g. estimating total population within a watershed from census unit totals) the spatial distribution of populations within the census units are modeled. To minimize MAUP errors, areal interpolation techniques are used to model such sub-unit population distributions. Areal interpolation techniques are highly dependent on ancillary data (e.g. land use/cover data) and typically do not include “intelligent” relations about where people choose to live, other than a weighted association between nominal land cover/use and population density. The purpose of this research was to design and implement an “intelligent” areal interpolation method for housing data in coastal environments, validate the accuracy, and compare to other techniques. This study was conducted for Miami-Dade County in Florida at census scales from county to block. Par...",
-        "authors": [
-            "author-bf25cb7431696714b264",
-            "author-73783053539890414316"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -65402,17 +65303,6 @@
                 }
             ]
         },
-        "abstract": "Sea-level rise (SLR) is a projected consequence of global climate change that will result in complex changes in coastal ecosystems. These changes will cause transitions among coastal habitat types, which will be compounded by human-made barriers to the gradual inland migration of these habitat types. The effect of these changes on the future viability of coastal species will depend on the habitat requirements and population dynamics of these species. Thus, realistic assessments of the impact of SLR require linking geomorphological models with habitat and population models. In this study, we implemented a framework that allows this linkage, and demonstrated its feasibility to assess the effect of SLR on the viability of the Snowy Plover population in Florida. The results indicate that SLR will cause a decline in suitable habitat and carrying capacity for this species, and an increase in the risk of its extinction and decline. The model projected that the population size will decline faster than the area of habitat or carrying capacity, demonstrating the necessity of incorporating population dynamics in assessing the impacts of SLR on coastal species. The results were most sensitive to uncertainties in survival rate and fecundity, and suggested that future studies on this species should focus on the average and variability of these demographic rates and their dependence on population density. The effect of SLR on this species’ viability was qualitatively similar with most alternative models that used the extreme values of each uncertain parameter, indicating that the results are robust to uncertainties in the model.",
-        "authors": [
-            "author-d60344c1675e3ad1205a",
-            "author-d44baa7d5771d8d81211",
-            "author-3c50bf9493ab981ba656",
-            "author-4f4a351316b27369a958",
-            "author-6c6c6fb2e3840b38a57e",
-            "author-c0106444ed418c14a3ce",
-            "author-2738f0839a3a44c52f33",
-            "author-723d1604084b1e5529f6"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -65662,6 +65552,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30007",
                     "name": "B07 Earth Systems and Environmental Sciences"
@@ -65991,13 +65887,13 @@
                     ],
                     "research_orgs": [
                         "grid.418698.a",
+                        "grid.483274.e",
+                        "grid.27324.30",
                         "grid.469914.7",
+                        "grid.214458.e",
                         "grid.1016.6",
                         "grid.21729.3f",
-                        "grid.483274.e",
-                        "grid.1003.2",
-                        "grid.27324.30",
-                        "grid.214458.e"
+                        "grid.1003.2"
                     ]
                 },
                 {
@@ -66009,8 +65905,6 @@
                     ]
                 }
             ],
-            "score": 19.670334,
-            "sf01": "SN",
             "terms": [
                 "diversity",
                 "abundance of information",
@@ -68352,11 +68246,6 @@
                 }
             ]
         },
-        "abstract": "The diversity and abundance of information available for vulnerability assessments can present a challenge to decision-makers. Here we propose a framework to aggregate and present socioeconomic and environmental data in a visual vulnerability assessment that will help prioritize management options for communities vulnerable to environmental change. Socioeconomic and environmental data are aggregated into distinct categorical indices across three dimensions and arranged in a cube, so that individual communities can be plotted in a three-dimensional space to assess the type and relative magnitude of the communities’ vulnerabilities based on their position in the cube. We present an example assessment using a subset of the USEPA National Estuary Program (NEP) estuaries: coastal communities vulnerable to the effects of environmental change on ecosystem health and water quality. Using three categorical indices created from a pool of publicly available data (socioeconomic index, land use index, estuary condition index), the estuaries were ranked based on their normalized averaged scores and then plotted along the three axes to form a vulnerability cube. The position of each community within the three-dimensional space communicates both the types of vulnerability endemic to each estuary and allows for the clustering of estuaries with like-vulnerabilities to be classified into typologies. The typologies highlight specific vulnerability descriptions that may be helpful in creating specific management strategies. The data used to create the categorical indices are flexible depending on the goals of the decision makers, as different data should be chosen based on availability or importance to the system. Therefore, the analysis can be tailored to specific types of communities, allowing a data rich process to inform decision-making.",
-        "authors": [
-            "author-bc21dafc3faf77785a80",
-            "author-5fab840fa0ca71cdaafe"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -68516,6 +68405,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "USA",
                 "drastic landscape change",
@@ -68611,7 +68506,6 @@
                 "pub.1068706608",
                 "pub.1051757308"
             ],
-            "score": 21.61247,
             "terms": [
                 "USA",
                 "drastic landscape change",
@@ -68677,9 +68571,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-c3d682a3c6506c6b2b4f"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -69199,14 +69090,6 @@
                 }
             ]
         },
-        "abstract": "The purpose of this research is to quantify and assess geospatial land-use and land-cover (LULC) changes in the coastal counties of Mobile and Baldwin, Alabama using nine Landsat images from 1974–2008. A study-specific classification scheme was devised comprising upland herbaceous, upland forest, non-woody and woody wetlands, open water, and urban categories. Upland forest was the most dominant terrestrial cover type. Wetlands averaged 17% and urban averaged 7%. A majority of the urban expansion occurred between 1974 and 1979 (26%). Thirty-four percent of the 2008 urban areas were upland forest in 1974. Watershed-scale analysis of Three Mile Creek and D’Olive Bay highlights the temporal and spatial differences of urbanization for watersheds found within the same region. This study is a Gulf of Mexico Alliance (GOMA) Application Pilot project that uses NASA data products to benefit coastal environmental managers and community members. Results have led to increased effectiveness of coastal conservation decision-making, increased understanding of post-hurricane LULC change, continued research on habitat change impacts, and contributed to timely conservation planning efforts. This study has benefited the development of watershed management plans by the Mobile Bay National Estuary Program, which is especially important given projected climate change.",
-        "authors": [
-            "author-7aa9bdfd11b789b18867",
-            "author-04404671bfcfd4ae2b6b",
-            "author-980beb938734c81b8b19",
-            "author-eaff23eaa4f8ed67a586",
-            "author-84c257c8b5fbd34817f3"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -69464,6 +69347,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "limnological survey",
                 "survey",
@@ -69582,82 +69471,82 @@
             "publisher": "Springer Nature",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1068052046",
-                "pub.1069432339",
-                "pub.1023238086",
-                "pub.1047095005",
-                "pub.1001599419",
-                "pub.1068061176",
-                "pub.1093126295",
-                "pub.1018223060",
-                "pub.1098733849",
-                "pub.1062694670",
-                "pub.1034763263",
-                "pub.1037930159",
-                "pub.1050792240",
-                "pub.1053321227",
-                "pub.1020003466",
-                "pub.1018354923",
-                "pub.1001768736",
-                "pub.1025335354",
-                "pub.1013158785",
-                "pub.1032385493",
-                "pub.1008805634",
-                "pub.1020297259",
-                "pub.1030148772",
-                "pub.1069008722",
-                "pub.1019260540",
-                "pub.1046172463",
-                "pub.1068864381",
-                "pub.1045262775",
-                "pub.1044161170",
-                "pub.1004457233",
-                "pub.1069009577",
                 "pub.1014270283",
-                "pub.1068060972",
+                "pub.1032385493",
+                "pub.1069432339",
+                "pub.1050792240",
+                "pub.1019260540",
+                "pub.1001768736",
+                "pub.1037930159",
+                "pub.1047095005",
+                "pub.1069008722",
+                "pub.1053321227",
                 "pub.1009060623",
                 "pub.1028929229",
+                "pub.1062694670",
+                "pub.1098733849",
+                "pub.1034763263",
+                "pub.1018223060",
                 "pub.1022059292",
-                "pub.1046371627"
+                "pub.1004457233",
+                "pub.1001599419",
+                "pub.1046172463",
+                "pub.1068060972",
+                "pub.1068061176",
+                "pub.1045262775",
+                "pub.1020297259",
+                "pub.1023238086",
+                "pub.1068052046",
+                "pub.1093126295",
+                "pub.1030148772",
+                "pub.1013158785",
+                "pub.1068864381",
+                "pub.1018354923",
+                "pub.1008805634",
+                "pub.1069009577",
+                "pub.1046371627",
+                "pub.1020003466",
+                "pub.1044161170",
+                "pub.1025335354"
             ],
             "references": [
-                "pub.1068052046",
-                "pub.1069432339",
-                "pub.1023238086",
-                "pub.1047095005",
-                "pub.1001599419",
-                "pub.1068061176",
-                "pub.1093126295",
-                "pub.1018223060",
-                "pub.1098733849",
-                "pub.1062694670",
-                "pub.1034763263",
-                "pub.1037930159",
-                "pub.1050792240",
-                "pub.1053321227",
-                "pub.1020003466",
-                "pub.1018354923",
-                "pub.1001768736",
-                "pub.1025335354",
-                "pub.1013158785",
-                "pub.1032385493",
-                "pub.1008805634",
-                "pub.1020297259",
-                "pub.1030148772",
-                "pub.1069008722",
-                "pub.1019260540",
-                "pub.1046172463",
-                "pub.1068864381",
-                "pub.1045262775",
-                "pub.1044161170",
-                "pub.1004457233",
-                "pub.1069009577",
                 "pub.1014270283",
-                "pub.1068060972",
+                "pub.1032385493",
+                "pub.1069432339",
+                "pub.1050792240",
+                "pub.1019260540",
+                "pub.1001768736",
+                "pub.1037930159",
+                "pub.1047095005",
+                "pub.1069008722",
+                "pub.1053321227",
                 "pub.1009060623",
                 "pub.1028929229",
+                "pub.1062694670",
+                "pub.1098733849",
+                "pub.1034763263",
+                "pub.1018223060",
                 "pub.1022059292",
-                "pub.1046371627"
+                "pub.1004457233",
+                "pub.1001599419",
+                "pub.1046172463",
+                "pub.1068060972",
+                "pub.1068061176",
+                "pub.1045262775",
+                "pub.1020297259",
+                "pub.1023238086",
+                "pub.1068052046",
+                "pub.1093126295",
+                "pub.1030148772",
+                "pub.1013158785",
+                "pub.1068864381",
+                "pub.1018354923",
+                "pub.1008805634",
+                "pub.1069009577",
+                "pub.1046371627",
+                "pub.1020003466",
+                "pub.1044161170",
+                "pub.1025335354"
             ],
             "relative_citation_ratio": 0.29,
             "research_org_cities": [
@@ -69741,8 +69630,6 @@
                     ]
                 }
             ],
-            "score": 28.432732,
-            "sf01": "SN",
             "terms": [
                 "limnological survey",
                 "survey",
@@ -70152,12 +70039,6 @@
                 }
             ]
         },
-        "abstract": "A limnological survey was conducted of Little Black Lake, MI, and its tributaries during summer 2007. This small, shallow lake is located in a rapidly developing area of west Michigan. As such, our analytical approach and recommendations can serve as a model for other similar systems threatened by urbanization. Soluble reactive phosphorus and nitrate concentrations in both the inflows to (during baseflow) and Little Black Lake itself were low (≤0.007 and ≤270 mg/L, respectively). Nutrient concentrations increased during stormflow conditions, although the magnitude of the increase depended on the nutrient and sampling location. Macrophyte growth was extensive throughout most parts of the lake, with Chara and Potamogeton spp. present in most sites; based on the coefficient of conservatism, plant composition was indicative of good water quality conditions. Chlorophyll a concentration averaged 1.7 μg/L in Little Black Lake, with cryptophytes and cyanobacteria being the most dominant members (by biovolume) of the phytoplankton community. The fish community in Little Black Lake was dominated by bluegill (Lepomis macrochirus) and pumpkinseed (L. gibbosus), with no invasive species observed. Overall, abiotic and biotic conditions indicate that Little Black Lake is in good ecological health despite increasing pressures of urbanization in its watershed. To maintain this status, it is recommended that the local municipalities develop a comprehensive watershed management plan and implement best management practices to limit nonpoint source pollutant loading to Little Black Lake.",
-        "authors": [
-            "author-82d545463000bcd9309b",
-            "author-36d4f2ebe72371aecc14",
-            "author-55df283f57a4b9868854"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -70350,6 +70231,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "data",
                 "arsenic",
@@ -70403,7 +70290,7 @@
             "date": "2010-07-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.jhydrol.2010.06.002",
-            "field_citation_ratio": 1.21,
+            "field_citation_ratio": 1.25,
             "funder_countries": [
                 {
                     "id": "US",
@@ -70539,7 +70426,6 @@
                     ]
                 }
             ],
-            "score": 23.828402,
             "terms": [
                 "data",
                 "arsenic",
@@ -70916,12 +70802,6 @@
                 }
             ]
         },
-        "abstract": "Summary Data for arsenic, vanadium, nitrate, and boron contamination were obtained from groundwater monitoring samples of the Gulf Coast aquifer of Texas. Using water samples from 1990 to 2006 from 1270 wells, results were spatially and statistically analyzed. The aquifer was divided into two regions based on annual precipitation, high precipitation in the north and lower to the south. All constituents were found to exceed the established maximum contaminant levels (MCL) or Health Risk Limits (HRL) in some samples from the study area. High boron and arsenic values were found to be significantly more common in the southern region, with 60% of boron samples over the HRL and 40% of arsenic samples over the MCL. Statistically significant negative correlation between nitrate and well depth suggests a surface source for the constituent. Statistically significant correlations between vanadium and arsenic suggest a geologic source. Analysis of oil/gas wells in the region suggests that oilfield discharge is not a source for boron.",
-        "authors": [
-            "author-b02aa236f28e584356f9",
-            "author-f443d6684f118c183ea1",
-            "author-8a015d7a71d7a22460ae"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -71092,6 +70972,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30007",
                     "name": "B07 Earth Systems and Environmental Sciences"
@@ -71396,8 +71282,6 @@
                     ]
                 }
             ],
-            "score": 16.354424,
-            "sf01": "SN",
             "supporting_grant_ids": [
                 "grant.3012225"
             ],
@@ -71858,11 +71742,6 @@
                 }
             ]
         },
-        "abstract": "Non-point-source (NPS) pollution remains the primary source of stream impairment in the United States. Many problems such as eutrophication, sedimentation, and hypoxia are linked with NPS pollution which reduces the water quality for aquatic and terrestrial organisms. Increasingly, NPS pollution models have been used for landscape-scale pollution assessment and conservation strategy development. Our modeling approach functions at a scale between simple landscape-level assessments and complex, data-intensive modeling by providing a rapid, landscape-scale geographic information system (GIS) model with minimal data requirements and widespread applicability. Our model relies on curve numbers, literature-derived pollution concentrations, and land status to evaluate total phosphorus (TP), total nitrogen (TN), and suspended solids (SS) at the reach scale. Model testing in the Chesapeake Bay watershed indicated that predicted distributions of water quality classes were realistic at the reach scale, but precise estimates of pollution concentrations at the local scale can have errors. Application of our model in the tributary watersheds along Lake Ontario suggested that it is useful to managers in watershed planning by rapidly providing important information about NPS pollution conditions in areas where large data gaps exist, comparisons among stream reaches across numerous watersheds are required, or regional assessments are sought.",
-        "authors": [
-            "author-6b125d74352843412e24",
-            "author-f303fb75cd4a687a6a85"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -72017,6 +71896,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "subduction-zone earthquakes",
                 "earthquake",
@@ -72082,7 +71967,7 @@
             "date": "2009-04-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.apgeog.2008.08.009",
-            "field_citation_ratio": 3.44,
+            "field_citation_ratio": 3.49,
             "id": "pub.1011758984",
             "issn": [
                 "0143-6228",
@@ -72195,7 +72080,6 @@
                     ]
                 }
             ],
-            "score": 23.079138,
             "terms": [
                 "subduction-zone earthquakes",
                 "earthquake",
@@ -72818,10 +72702,6 @@
                 }
             ]
         },
-        "abstract": "Abstract A Cascadia subduction-zone earthquake has the potential to generate tsunami waves which would impact more than 1000 km of coastline on the west coast of the United States and Canada. Although the predictable extent of tsunami inundation is similar for low-lying land throughout the region, human use of tsunami-prone land varies, creating variations in community exposure and potential impacts. To better understand such variations, land-cover information derived from midresolution remotely-sensed imagery (e.g., 30-m-resolution Landsat Thematic Mapper imagery) was coupled with tsunami-hazard information to describe tsunami-prone land along the Oregon coast. Land-cover data suggest that 95% of the tsunami-prone land in Oregon is undeveloped and is primarily wetlands and unconsolidated shores. Based on Spearman rank correlation coefficients ( r s ), correlative relationships are strong and statistically significant ( p p",
-        "authors": [
-            "author-eb94e83bc05f5c648280"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -72986,6 +72866,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30014",
                     "name": "C14 Geography and Environmental Studies"
@@ -73187,7 +73073,6 @@
                     ]
                 }
             ],
-            "score": 24.341026,
             "terms": [
                 "impervious cover",
                 "cover",
@@ -73677,11 +73562,6 @@
                 }
             ]
         },
-        "abstract": ":  Impervious cover is a commonly used metric to help explain or predict anthropogenic impacts on aquatic resources; often it is used as a surrogate for intensity of human impacts when evaluating effects on aquatic resources. The most common way to estimate imperviousness is based on relationships with land use. Few studies have evaluated how the relationship between impervious surface and land use varies among geographies with different levels of development and between types of imagery used to assign land use type. In this study, we assess variability in estimates of imperviousness based on two locally available land use datasets: one based on aerial imagery (2-m resolution) and another based on satellite imagery (30-m resolution). The ranges and variability in imperviousness within land use categories were assessed at several spatial scales, including within counties, between counties, and between watersheds. Results indicate that there was considerable variability for all developed land use types. Estimated impervious cover often varied over a range of 20-40% points within a land use category. Furthermore, there were clear spatial patterns both between and within counties, with impervious cover for a given land use type being higher near the urban centers and lower at the margins of development. Estimates of imperviousness for 12 study watersheds indicated that variability increased with increasing watershed development, making it difficult to confidently set management or regulatory targets based on impervious cover. This study suggests that locally derived, high resolution satellite or aerial imagery should be used to estimate imperviousness when a high level of accuracy and precision is required for regulatory or management decisions. Furthermore, the error associated with impervious land use relationships should be accounted for when using impervious cover in runoff or water quality models, or when making management decisions regarding stream health.",
-        "authors": [
-            "author-69206e2696fa613bdeb4",
-            "author-90d226718c585a6cbd53"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -73908,6 +73788,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "pace",
                 "land use/land cover change",
@@ -73982,7 +73868,7 @@
             "date": "2006-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.3394/0380-1330(2006)32[607:lulcci]2.0.co;2",
-            "field_citation_ratio": 6.63,
+            "field_citation_ratio": 6.68,
             "funder_countries": [
                 {
                     "id": "US",
@@ -74190,12 +74076,12 @@
                         "0000-0002-9663-5048"
                     ],
                     "research_orgs": [
-                        "grid.17635.36",
-                        "grid.34477.33",
                         "grid.437349.e",
+                        "grid.34477.33",
+                        "grid.17635.36",
+                        "grid.266744.5",
                         "grid.170202.6",
                         "grid.431093.c",
-                        "grid.266744.5",
                         "grid.263791.8"
                     ]
                 },
@@ -74209,7 +74095,6 @@
                     ]
                 }
             ],
-            "score": 22.432577,
             "supporting_grant_ids": [
                 "grant.4593658"
             ],
@@ -74325,11 +74210,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-57880947da969491ee65",
-            "author-afda37289bcae7e62f09",
-            "author-ae43284984c63517854f"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -74543,6 +74423,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "National Oceanic",
                 "Oceanic",
@@ -74638,7 +74524,6 @@
             "research_org_state_names": [
                 "South Carolina"
             ],
-            "score": 24.123783,
             "terms": [
                 "National Oceanic",
                 "Oceanic",
@@ -74741,11 +74626,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-317c513b548deccbb982",
-            "author-ca84609e5a343f752d3e",
-            "author-3936605a5241852d41a2"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -74920,6 +74800,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "National Oceanic",
                 "Oceanic",
@@ -75022,7 +74908,6 @@
             "research_org_state_names": [
                 "South Carolina"
             ],
-            "score": 22.48371,
             "terms": [
                 "National Oceanic",
                 "Oceanic",
@@ -75132,11 +75017,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-6f87e7c3722f5ac195cd",
-            "author-dda850c865aa9009e385",
-            "author-2741fb50786c92f9f521"
-        ],
         "datasets": [
             "dataset-623"
         ],
@@ -75251,6 +75131,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "land cover maps",
                 "cover maps",
@@ -75316,7 +75202,6 @@
             "pages": "727-744",
             "publisher": "Taylor & Francis",
             "recent_citations": 3,
-            "score": 20.970037,
             "terms": [
                 "land cover maps",
                 "cover maps",
@@ -75572,10 +75457,6 @@
                 }
             ]
         },
-        "abstract": "A nine category land cover map of over 5500 sq.km of Long Island, New York was produced from TM imagery using protocols established for the Coastwatch Change Analysis Program (C-CAP). The adjustments made to the protocol to conform to local environmental conditions and the methodology employed to map five upland and four wetland land cover types are described. Initial classification accuracy using only TM imagery fell below acceptable levels for some categories, with one wetland land cover being particularly troublesome. Spectral confusion among land cover was reduced by the incorporation of ancillary data sets, and an accuracy of over 90% was achieved. Three accuracy assessments through confusion matrices and kappa statistics provided data on individual points of spectral mix and the effect of area-weighting the accuracy evaluation.",
-        "authors": [
-            "author-f040c7e4568c7426f677"
-        ],
         "datasets": [
             "dataset-623"
         ],

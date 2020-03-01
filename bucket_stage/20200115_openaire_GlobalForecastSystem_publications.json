@@ -189,6 +189,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "numerical weather prediction system",
                 "weather prediction system",
@@ -254,7 +260,7 @@
             "date": "2016-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1155/2016/8152413",
-            "field_citation_ratio": 0.94,
+            "field_citation_ratio": 0.93,
             "funder_countries": [
                 {
                     "id": "VN",
@@ -399,7 +405,6 @@
                     ]
                 }
             ],
-            "score": 24.21782,
             "terms": [
                 "numerical weather prediction system",
                 "weather prediction system",
@@ -991,18 +996,6 @@
                 }
             ]
         },
-        "abstract": "The national numerical weather prediction system of Vietnam is presented and evaluated. The system is based on three main models, namely, the Japanese Global Spectral Model, the US Global Forecast System, and the US Weather Research and Forecasting (WRF) model. The global forecast products have been received at 0.25- and 0.5-degree horizontal resolution, respectively, and the WRF model has been run locally with 16 km horizontal resolution at the National Center for Hydro-Meteorological Forecasting using lateral conditions from GSM and GFS. The model performance is evaluated by comparing model output against observations of precipitation, wind speed, and temperature at 168 weather stations, with daily data from 2010 to 2014. In general, the global models provide more accurate forecasts than the regional models, probably due to the low horizontal resolution in the regional model. Also, the model performance is poorer for stations with altitudes greater than 500 meters above sea level (masl). For tropical cyclone performance validations, the maximum wind surface forecast from global and regional models is also verified against the best track of Joint Typhoon Warning Center. Finally, the model forecast skill during a recent extreme rain event in northeast Vietnam is evaluated.",
-        "authors": [
-            "author-b98be18016b91544e694",
-            "author-24d03fde6956d47101c7",
-            "author-3cef98f39edd2af0afc7",
-            "author-d9a745a03fe08d0ae51e",
-            "author-e8231ccc2c16f308bcd2",
-            "author-802aeda50c8129ee458b",
-            "author-b825cd4c771e80570844",
-            "author-13aa80f520562c2cc59c",
-            "author-17f440ffb3fbff48bd4b"
-        ],
         "datasets": [
             "dataset-620"
         ],
@@ -1248,6 +1241,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "forecast performance",
                 "data assimilation",
@@ -1350,30 +1349,30 @@
             "publisher": "Copernicus Publications",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1098730668",
-                "pub.1030202373",
-                "pub.1007388941",
-                "pub.1050287008",
-                "pub.1030933308",
-                "pub.1040857163",
-                "pub.1004128599",
-                "pub.1027094245",
-                "pub.1063452861",
                 "pub.1013067728",
-                "pub.1002281996"
+                "pub.1040857163",
+                "pub.1098730668",
+                "pub.1002281996",
+                "pub.1007388941",
+                "pub.1004128599",
+                "pub.1063452861",
+                "pub.1030933308",
+                "pub.1027094245",
+                "pub.1030202373",
+                "pub.1050287008"
             ],
             "references": [
-                "pub.1098730668",
-                "pub.1030202373",
-                "pub.1007388941",
-                "pub.1050287008",
-                "pub.1030933308",
-                "pub.1040857163",
-                "pub.1004128599",
-                "pub.1027094245",
-                "pub.1063452861",
                 "pub.1013067728",
-                "pub.1002281996"
+                "pub.1040857163",
+                "pub.1098730668",
+                "pub.1002281996",
+                "pub.1007388941",
+                "pub.1004128599",
+                "pub.1063452861",
+                "pub.1030933308",
+                "pub.1027094245",
+                "pub.1030202373",
+                "pub.1050287008"
             ],
             "research_org_cities": [
                 {
@@ -1451,12 +1450,12 @@
                         "0000-0002-3749-3027"
                     ],
                     "research_orgs": [
-                        "grid.413455.2",
-                        "grid.5591.8",
-                        "grid.473673.2",
                         "grid.264756.4",
-                        "grid.164295.d",
                         "grid.215654.1",
+                        "grid.164295.d",
+                        "grid.5591.8",
+                        "grid.413455.2",
+                        "grid.473673.2",
                         "grid.264763.2"
                     ]
                 },
@@ -1465,24 +1464,23 @@
                     "id": "ur.01126615405.17",
                     "last_name": "Ott",
                     "research_orgs": [
-                        "grid.22448.38",
-                        "grid.474428.9",
                         "grid.257127.4",
-                        "grid.254672.0",
+                        "grid.254509.f",
                         "grid.5386.8",
                         "grid.419669.5",
-                        "grid.164295.d",
-                        "grid.89170.37",
-                        "grid.133342.4",
-                        "grid.252546.2",
-                        "grid.254509.f",
-                        "grid.5591.8",
                         "grid.410443.6",
+                        "grid.474428.9",
+                        "grid.89170.37",
+                        "grid.164295.d",
+                        "grid.133342.4",
+                        "grid.5591.8",
+                        "grid.254672.0",
+                        "grid.22448.38",
+                        "grid.252546.2",
                         "grid.474430.0"
                     ]
                 }
             ],
-            "score": 23.047604,
             "terms": [
                 "forecast performance",
                 "data assimilation",
@@ -2694,12 +2692,6 @@
                 }
             ]
         },
-        "abstract": "This paper compares the forecast performance of four strategies for coupling global and limited area data as- similation: three strategies propagate information from the global to the limited area process, while the fourth strategy feeds back information from the limited area to the global process. All four strategies are formulated in the Local En- semble Transform Kalman Filter (LETKF) framework. Numerical experiments are carried out with the model component of the National Centers for Environmental Pre- diction (NCEP) Global Forecast System (GFS) and the NCEP Regional Spectral Model (RSM). The limited area do- main is an extended North-America region that includes part of the north-east Pacific. The GFS is integrated at horizon- tal resolution T62 (about 150 km in the mid-latitudes), while the RSM is integrated at horizontal resolution 48 km. Exper- iments are carried out both under the perfect model hypothe- sis and in a realistic setting. The coupling strategies are eval- uated by comparing their deterministic forecast performance at 12-h and 48-h lead times. The results suggest that the limited area data assimilation system has the potential to enhance the forecasts at 12-h lead time in the limited area domain at the synoptic and sub- synoptic scales (in the global wave number range of about 10 to 40). There is a clear indication that between the forecast performance of the different coupling strategies those that cy- cle the limited area assimilation process produce the most ac- curate forecasts. In the realistic setting, at 12-h forecast time the limited area systems produce more modest improvements compared to the global system than under the perfect model hypothesis, and at 48-h forecast time the global forecasts are more accurate than the limited area forecasts.",
-        "authors": [
-            "author-652922fe14700641c038",
-            "author-8f056affbbe80de9f15e",
-            "author-5ee4858f8b19b080432b"
-        ],
         "datasets": [
             "dataset-620"
         ],
@@ -2948,6 +2940,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "intensification",
                 "hydrological cycle",
@@ -3188,7 +3186,6 @@
                     ]
                 }
             ],
-            "score": 24.94891,
             "terms": [
                 "intensification",
                 "hydrological cycle",
@@ -3402,13 +3399,6 @@
                 }
             ]
         },
-        "abstract": "The intensification of the hydrological cycle because of global warming raises concerns about future floods and their impact on large cities where exposure to these events has also increased. The development of adequate adaptation solutions such as early warning systems is crucial. Here, we used deep learning (DL) for weather-runoff forecasting in region Metropolitana of Chile, a large urban area in a valley at the foot of the Andes Mountains, with more than 7 million inhabitants. The final goal of this research is to develop an effective forecasting system to provide timely information and support in real-time decision making. For this purpose, we implemented a coupled model of a near-future global meteorological forecast with a short-range runoff forecasting system. Starting from a traditional hydrological conceptual model, we defined the hydro-meteorological and geomorphological variables that were used in the data-driven weather-runoff forecast models. The meteorological variables were obtained through statistical scaling of the Global Forecast System (GFS), thus enabling near-future prediction, and two data-driven approaches were implemented for predicting the entire hourly flow time-series in the near future (3 days), a simple Artificial Neural Networks (ANN) and a Deep Learning (DL) approach based on Long-Short Term Memory (LSTM) cells. We show that the coupling between meteorological forecasts and data-driven weather-runoff forecast models are able to satisfy two basic requirements that any early warning system should have: The forecast should be given in advance, and it should be accurate and reliable. In this context, DL significantly improves runoff forecast when compared with a traditional data-driven approach such as ANN, being accurate in predicting time-evolution of output variables, with an error of 5% for DL, measured in terms of the root mean square error (RMSE) for predicting the peak flow, compared to 15.5% error for ANN, which is adequate to warn communities at risk and initiate disaster response operations.",
-        "authors": [
-            "author-730a8a3c348d655e3fbb",
-            "author-c06bef2a508ef4fb9d05",
-            "author-6c0de8fb52834e57c910",
-            "author-f3712b49f0b2a9b92861"
-        ],
         "datasets": [
             "dataset-620"
         ],
@@ -3761,6 +3751,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "simulation experiment system",
                 "system",
@@ -4032,7 +4028,6 @@
                     ]
                 }
             ],
-            "score": 18.38818,
             "terms": [
                 "simulation experiment system",
                 "system",
@@ -4338,15 +4333,6 @@
                 }
             ]
         },
-        "abstract": "An Observing System Simulation Experiment (OSSE) system has been implemented at the National Oceanographic and Atmospheric Administration Earth Systems Research Laboratory in the US as part of an international Joint OSSE effort. The setup of the OSSE consists of a Nature Run from a 13-month free run of the European Center for Medium-Range Weather Forecasts operational model, synthetic observations developed at the National Centers for Environmental Prediction (NCEP) and the National Aeronautics and Space Administration Global Modelling and Assimilation Office, and an operational version of the NCEP Gridpoint Statistical Interpolation data assimilation and Global Forecast System numerical weather prediction model. Synthetic observations included both conventional observations and the following radiance observations: AIRS, AMSU-A, AMSU-B, HIRS2, HIRS3, MSU, GOES radiance and OSBUV. Calibration was performed by modifying the error added to the conventional synthetic observations to achieve a match between data denial impacts on the analysis state in the OSSE system and in the real data system. Following calibration, the performance of the OSSE system was evaluated in terms of forecast skill scores and impact of observations on forecast fields. Keywords: observing system simulation experiment, data assimilation, numerical weather prediction (Published: 18 March 2013) Citation: Tellus A 2013, 65 , 19011, http://dx.doi.org/10.3402/tellusa.v65i0.19011",
-        "authors": [
-            "author-c9bea197222a31f2dbf4",
-            "author-f261f24979d67042471b",
-            "author-5326b9b6b58891da3361",
-            "author-86a9fe2d33f2b3d132b7",
-            "author-e44260b451d26d1b1151",
-            "author-b89f8f2267550e2fe80a"
-        ],
         "datasets": [
             "dataset-620"
         ],
@@ -4560,6 +4546,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "model archive",
                 "archives",
@@ -4697,24 +4689,24 @@
             "publisher": "Taylor & Francis",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1053320950",
-                "pub.1049014631",
-                "pub.1028995614",
                 "pub.1025723089",
                 "pub.1049387626",
                 "pub.1035046582",
+                "pub.1034744231",
                 "pub.1063452528",
-                "pub.1034744231"
+                "pub.1028995614",
+                "pub.1053320950",
+                "pub.1049014631"
             ],
             "references": [
-                "pub.1053320950",
-                "pub.1049014631",
-                "pub.1028995614",
                 "pub.1025723089",
                 "pub.1049387626",
                 "pub.1035046582",
+                "pub.1034744231",
                 "pub.1063452528",
-                "pub.1034744231"
+                "pub.1028995614",
+                "pub.1053320950",
+                "pub.1049014631"
             ],
             "research_org_cities": [
                 {
@@ -4794,7 +4786,6 @@
                     ]
                 }
             ],
-            "score": 26.072731,
             "terms": [
                 "model archive",
                 "archives",
@@ -5070,11 +5061,6 @@
                 }
             ]
         },
-        "abstract": "A multi-model archive of global deterministic forecasts and analyses from three operational systems is constructed to analyse recent Northern Hemisphere mid-latitude forecast skill from 2007 to 2012 and its relation to large-scale atmospheric flow anomalies defined by the Arctic Oscillation (AO) index. We find that the anomaly correlation coefficient (ACC) in 120-hr forecasts of 500 hPa geopotential height has similar variability on synoptic, monthly, and seasonal time scales in each of the three forecast systems examined here: the European Centre for Medium-Range Weather Forecasts, the National Centers for Environmental Prediction Global Forecast System, and the U.S. Navy Operational Global Atmospheric Prediction System. The results indicate that forecast skill as measured by the ACC is significantly correlated with the AO index and its transitions between negative and positive phase. Intervals of exceptionally high ACC skill during the 2009–2010 and 2010–2011 winters are associated with periods in which the AO remained in a persistent negative phase pattern. Episodes of low ACC, including so-called ‘forecast skill dropouts’ most frequently occur during transitions between negative and positive AO index and with positive AO index. The root mean square error (RMSE) of 120-hr forecast 500 hPa height is also modulated by the AO index, but to a lesser extent than the ACC. In two recent winters, the RMSE indicates lower 120-hr forecast accuracy during periods with negative AO index, which is opposite to ‘skill’ patterns provided by the ACC. These results suggest that the ACC is not in all situations an optimal metric with which to quantify model forecast skill, since the ACC can be higher when the large-scale atmospheric flow contains strong anomalies even if there is no actual improvement in model forecasts of that atmospheric state. Keywords: numerical weather prediction, anomaly correlation coefficient, forecast skill, Arctic Oscillation (Published: 14 November 2012) Citation: Tellus A 2012, 64 , 17531, http://dx.doi.org/10.3402/tellusa.v64i0.17531",
-        "authors": [
-            "author-acc269ef1cd178405309",
-            "author-dab736d7cd4586d9e820"
-        ],
         "datasets": [
             "dataset-620"
         ],

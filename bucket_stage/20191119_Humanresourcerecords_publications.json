@@ -545,6 +545,12 @@
                     "name": "A03 Allied Health Professions, Dentistry, Nursing and Pharmacy"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30003",
+                    "name": "A03 Allied Health Professions, Dentistry, Nursing and Pharmacy"
+                }
+            ],
             "concepts": [
                 "vaccination",
                 "spread of influenza",
@@ -805,7 +811,6 @@
                     ]
                 }
             ],
-            "score": 21.595821,
             "terms": [
                 "vaccination",
                 "spread of influenza",
@@ -1149,20 +1154,6 @@
                 }
             ]
         },
-        "abstract": "BACKGROUND\nVaccination of primary healthcare workers (PHCWs) help to prevent the spread of influenza among at-risk patients.\n\n\nOBJECTIVES\nTo assesses seasonal influenza vaccination (SIV) coverage and the factors affecting SIV's utilization among PHCWs in Abha city, southwestern Saudi Arabia.\n\n\nMETHODS\nA cross-sectional survey was carried out between June 2018 and August 2018 in all primary healthcare centers in Abha city. It targeted physicians, nurses, technicians, and pharmacists. A self-administered questionnaire was used to collect data regarding SIV status during the 2017-2018 season, obtain knowledge regarding SIV and influenza disease, and identify potential motivators for and barriers to SIV.\n\n\nRESULTS\nOf 312 PHCWs, the SIV coverage rate was 45.5% in the 2017-2018 vaccination season. A multivariable logistic regression model showed that the risk groups for non-vaccination were PHCWs less than 40 years old (adjusted Odds Ratio (aOR) = 4.07, 95% CI: 1.50-11.03), technicians (aOR = 3.73, 95% CI: 1.20-11.54), single PHCWs (aOR = 2.36, 95% CI:1.20-4.62), and PHCWs lacking adequate influenza vaccine knowledge (aOR = 4.22, 95% CI: 2.13-8.35). Approximately 23% and 32% of PHCWs were found to have inadequate knowledge about SIV and influenza disease, respectively. PHCWs' awareness about their risk of infection and their need for protection was found to be the most common motivator (77.5%), and a fear of side effects was found to be the most frequent barrier (40%).\n\n\nCONCLUSION\nSIV coverage rate is suboptimal. Knowledge gaps and misconceptions about the influenza vaccine are the main barriers to an adequate coverage. Running head: Influenza vaccination in primary healthcare workers in Saudi Arabia.",
-        "authors": [
-            "author-6b81a80eb2a098af45f9",
-            "author-413cad3cfa0252793fba",
-            "author-1481f6b842c33d879ca4",
-            "author-d0c9309355543538db32",
-            "author-459ebd9b4e02e83e5920",
-            "author-98e94ddc54e18ea7aa1a",
-            "author-e177c986169ee75a8b3c",
-            "author-faf9f6f3ac6e81966d60",
-            "author-6ab7fbb5300e5d48784f",
-            "author-07c8cc9b390512066e3d",
-            "author-cf43cdd1e44384b88cec"
-        ],
         "datasets": [
             "dataset-138"
         ],
@@ -1650,6 +1641,12 @@
                     "name": "A02 Public Health, Health Services and Primary Care"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30002",
+                    "name": "A02 Public Health, Health Services and Primary Care"
+                }
+            ],
             "concepts": [
                 "virus programs",
                 "program",
@@ -1947,8 +1944,9 @@
                     "id": "ur.015564207547.45",
                     "last_name": "Nance",
                     "research_orgs": [
+                        "grid.415771.1",
                         "grid.47840.3f",
-                        "grid.415771.1"
+                        "grid.280062.e"
                     ]
                 },
                 {
@@ -1964,7 +1962,6 @@
                     ]
                 }
             ],
-            "score": 26.908678,
             "supporting_grant_ids": [
                 "grant.6584051"
             ],
@@ -3602,14 +3599,6 @@
                 }
             ]
         },
-        "abstract": "INTRODUCTION\nGiven constrained funding for Human Immunodeficiency Virus (HIV) programs across Sub-Saharan Africa, delivering services efficiently is paramount. Voluntary medical male circumcision (VMMC) is a key intervention that can substantially reduce heterosexual transmission-the primary mode of transmission across the continent. There is limited research, however, on what factors may contribute to the efficient and high-quality execution of such programs.\n\n\nMETHODS\nWe analyzed a multi-country, multi-stage random sample of 108 health facilities providing VMMC services in sub-Saharan Africa in 2012 and 2013. The survey collected information on inputs, outputs, process quality and management practices from facilities providing VMMC services. We analyzed the relationship between management practices, quality (measured through provider vignettes) and efficiency (estimated through data envelopment analysis) using Generalized Linear Models and Mixed-effects Models. Applying multivariate regression models, we assessed the relationship between management indices and efficiency and quality of VMMC services.\n\n\nRESULTS\nAcross countries, both efficiency and quality varied widely. After adjusting for type of facility, country and scale, performance-base funding was negatively correlated with efficiency -0.156 (p < 0.05). In our analysis, we did not find any significant relationships between quality and management practices.\n\n\nCONCLUSIONS\nNo significant relationship was found between process quality and management practices across 108 VMMC facilities. This study is the first to analyze the potential relationships between management and service quality and efficiency among a sample of VMMC health facilities in sub-Saharan Africa and can potentially inform policy-relevant hypotheses to later test through prospective experimental studies.",
-        "authors": [
-            "author-57d8d7f8660ecc7c7f65",
-            "author-1e55ad3a0a695813b6cf",
-            "author-a50d5193b288339e4ada",
-            "author-839fa93ce2f336bbf33f",
-            "author-14b0dbdf82e18236cfd8"
-        ],
         "datasets": [
             "dataset-138"
         ],
@@ -3732,20 +3721,20 @@
                     "name": "Cancer"
                 },
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
+                    "id": "508",
+                    "name": "Clinical Trials and Supportive Activities"
                 },
                 {
                     "id": "509",
                     "name": "Comparative Effectiveness Research"
                 },
                 {
-                    "id": "508",
-                    "name": "Clinical Trials and Supportive Activities"
-                },
-                {
                     "id": "433",
                     "name": "Cost Effectiveness Research"
+                },
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
                 }
             ],
             "altmetric": 15.0,
@@ -4118,23 +4107,29 @@
                     "name": "Cancer"
                 },
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
+                    "id": "508",
+                    "name": "Clinical Trials and Supportive Activities"
                 },
                 {
                     "id": "509",
                     "name": "Comparative Effectiveness Research"
                 },
                 {
-                    "id": "508",
-                    "name": "Clinical Trials and Supportive Activities"
-                },
-                {
                     "id": "433",
                     "name": "Cost Effectiveness Research"
+                },
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30002",
+                    "name": "A02 Public Health, Health Services and Primary Care"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30002",
                     "name": "A02 Public Health, Health Services and Primary Care"
@@ -4220,6 +4215,21 @@
             ],
             "funders": [
                 {
+                    "city_name": "Hawthorn East",
+                    "country_name": "Australia",
+                    "id": "grid.453422.6",
+                    "latitude": -37.822525,
+                    "linkout": [
+                        "https://www.beyondblue.org.au/"
+                    ],
+                    "longitude": 145.03311,
+                    "name": "Beyondblue",
+                    "state_name": "Victoria",
+                    "types": [
+                        "Nonprofit"
+                    ]
+                },
+                {
                     "acronym": "Cancer Institute of New South Wales",
                     "city_name": "Sydney",
                     "country_name": "Australia",
@@ -4233,21 +4243,6 @@
                     "state_name": "New South Wales",
                     "types": [
                         "Other"
-                    ]
-                },
-                {
-                    "city_name": "Melbourne",
-                    "country_name": "Australia",
-                    "id": "grid.453005.7",
-                    "latitude": -37.8176,
-                    "linkout": [
-                        "http://www.heartfoundation.org.au/"
-                    ],
-                    "longitude": 144.95746,
-                    "name": "National Heart Foundation of Australia",
-                    "state_name": "Victoria",
-                    "types": [
-                        "Nonprofit"
                     ]
                 },
                 {
@@ -4267,15 +4262,15 @@
                     ]
                 },
                 {
-                    "city_name": "Hawthorn East",
+                    "city_name": "Melbourne",
                     "country_name": "Australia",
-                    "id": "grid.453422.6",
-                    "latitude": -37.822525,
+                    "id": "grid.453005.7",
+                    "latitude": -37.8176,
                     "linkout": [
-                        "https://www.beyondblue.org.au/"
+                        "http://www.heartfoundation.org.au/"
                     ],
-                    "longitude": 145.03311,
-                    "name": "Beyondblue",
+                    "longitude": 144.95746,
+                    "name": "National Heart Foundation of Australia",
                     "state_name": "Victoria",
                     "types": [
                         "Nonprofit"
@@ -4310,86 +4305,86 @@
             "publisher": "Springer Nature",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1010512544",
-                "pub.1010523894",
-                "pub.1011310423",
-                "pub.1006408378",
-                "pub.1009054813",
-                "pub.1042644270",
-                "pub.1041325571",
                 "pub.1000081242",
-                "pub.1039873940",
-                "pub.1004916010",
-                "pub.1014000266",
-                "pub.1042480094",
-                "pub.1001248622",
-                "pub.1002374890",
-                "pub.1044575480",
-                "pub.1046833016",
-                "pub.1043014045",
-                "pub.1092185596",
-                "pub.1043710829",
-                "pub.1013784810",
-                "pub.1033008295",
-                "pub.1079393169",
-                "pub.1064199340",
-                "pub.1016929851",
-                "pub.1000198927",
-                "pub.1021173238",
-                "pub.1034759587",
-                "pub.1029934031",
-                "pub.1017293438",
                 "pub.1017150334",
-                "pub.1058304632",
-                "pub.1006675080",
-                "pub.1016715806",
+                "pub.1002374890",
                 "pub.1022566771",
-                "pub.1027208464",
-                "pub.1093074790",
+                "pub.1016715806",
+                "pub.1017293438",
+                "pub.1010512544",
+                "pub.1021173238",
+                "pub.1044575480",
                 "pub.1022366588",
+                "pub.1013784810",
+                "pub.1042480094",
+                "pub.1011310423",
                 "pub.1035883088",
-                "pub.1090923507"
+                "pub.1043710829",
+                "pub.1014000266",
+                "pub.1006408378",
+                "pub.1092185596",
+                "pub.1058304632",
+                "pub.1027208464",
+                "pub.1004916010",
+                "pub.1064199340",
+                "pub.1006675080",
+                "pub.1029934031",
+                "pub.1079393169",
+                "pub.1090923507",
+                "pub.1093074790",
+                "pub.1009054813",
+                "pub.1033008295",
+                "pub.1001248622",
+                "pub.1042644270",
+                "pub.1034759587",
+                "pub.1043014045",
+                "pub.1039873940",
+                "pub.1041325571",
+                "pub.1010523894",
+                "pub.1000198927",
+                "pub.1016929851",
+                "pub.1046833016"
             ],
             "references": [
-                "pub.1010512544",
-                "pub.1010523894",
-                "pub.1011310423",
-                "pub.1006408378",
-                "pub.1009054813",
-                "pub.1042644270",
-                "pub.1041325571",
                 "pub.1000081242",
-                "pub.1039873940",
-                "pub.1004916010",
-                "pub.1014000266",
-                "pub.1042480094",
-                "pub.1001248622",
-                "pub.1002374890",
-                "pub.1044575480",
-                "pub.1046833016",
-                "pub.1043014045",
-                "pub.1092185596",
-                "pub.1043710829",
-                "pub.1013784810",
-                "pub.1033008295",
-                "pub.1079393169",
-                "pub.1064199340",
-                "pub.1016929851",
-                "pub.1000198927",
-                "pub.1021173238",
-                "pub.1034759587",
-                "pub.1029934031",
-                "pub.1017293438",
                 "pub.1017150334",
-                "pub.1058304632",
-                "pub.1006675080",
-                "pub.1016715806",
+                "pub.1002374890",
                 "pub.1022566771",
-                "pub.1027208464",
-                "pub.1093074790",
+                "pub.1016715806",
+                "pub.1017293438",
+                "pub.1010512544",
+                "pub.1021173238",
+                "pub.1044575480",
                 "pub.1022366588",
+                "pub.1013784810",
+                "pub.1042480094",
+                "pub.1011310423",
                 "pub.1035883088",
-                "pub.1090923507"
+                "pub.1043710829",
+                "pub.1014000266",
+                "pub.1006408378",
+                "pub.1092185596",
+                "pub.1058304632",
+                "pub.1027208464",
+                "pub.1004916010",
+                "pub.1064199340",
+                "pub.1006675080",
+                "pub.1029934031",
+                "pub.1079393169",
+                "pub.1090923507",
+                "pub.1093074790",
+                "pub.1009054813",
+                "pub.1033008295",
+                "pub.1001248622",
+                "pub.1042644270",
+                "pub.1034759587",
+                "pub.1043014045",
+                "pub.1039873940",
+                "pub.1041325571",
+                "pub.1010523894",
+                "pub.1000198927",
+                "pub.1016929851",
+                "pub.1046833016"
             ],
             "research_org_cities": [
                 {
@@ -4445,21 +4440,6 @@
                     ]
                 },
                 {
-                    "city_name": "Camperdown",
-                    "country_name": "Australia",
-                    "id": "grid.419783.0",
-                    "latitude": -33.8905,
-                    "linkout": [
-                        "http://www.mylifehouse.org.au/"
-                    ],
-                    "longitude": 151.18219,
-                    "name": "Chris O’Brien Lifehouse",
-                    "state_name": "New South Wales",
-                    "types": [
-                        "Nonprofit"
-                    ]
-                },
-                {
                     "acronym": "USYD",
                     "city_name": "Sydney",
                     "country_name": "Australia",
@@ -4473,6 +4453,21 @@
                     "state_name": "New South Wales",
                     "types": [
                         "Education"
+                    ]
+                },
+                {
+                    "city_name": "Camperdown",
+                    "country_name": "Australia",
+                    "id": "grid.419783.0",
+                    "latitude": -33.8905,
+                    "linkout": [
+                        "http://www.mylifehouse.org.au/"
+                    ],
+                    "longitude": 151.18219,
+                    "name": "Chris O’Brien Lifehouse",
+                    "state_name": "New South Wales",
+                    "types": [
+                        "Nonprofit"
                     ]
                 }
             ],
@@ -4603,13 +4598,13 @@
                         "0000-0002-5331-6370"
                     ],
                     "research_orgs": [
-                        "grid.1008.9",
-                        "grid.419690.3",
+                        "grid.410711.2",
                         "grid.1013.3",
-                        "grid.7849.2",
-                        "grid.427695.b",
                         "grid.17703.32",
-                        "grid.410711.2"
+                        "grid.1008.9",
+                        "grid.427695.b",
+                        "grid.419690.3",
+                        "grid.7849.2"
                     ]
                 },
                 {
@@ -4629,13 +4624,11 @@
                     ]
                 }
             ],
-            "score": 25.262627,
-            "sf01": "SN",
             "supporting_grant_ids": [
-                "grant.6735336",
-                "grant.6736172",
                 "grant.6736807",
-                "grant.7676720"
+                "grant.6736172",
+                "grant.7676720",
+                "grant.6735336"
             ],
             "terms": [
                 "study",
@@ -6708,18 +6701,6 @@
                 }
             ]
         },
-        "abstract": "ObjectiveThis study aimed to evaluate the cost effectiveness of a newly developed psycho-educational intervention to reduce fear of cancer recurrence (FCR) in early-stage melanoma patients.MethodsA within-trial cost-effectiveness and cost-utility analysis was conducted from the Australian health system perspective using data from linked Medicare records. Outcomes included FCR, measured with the severity subscale of the FCR Inventory; quality-adjusted life years (QALYs) measured using the preference-based instrument, Assessment of Quality of Life-8 Dimensions (AQoL-8D) and 12-month survival. An incremental cost-effectiveness ratio (ICER) was calculated for two economic outcomes: (1) cost per additional case of ‘high’ FCR avoided and (2) cost per QALY gained. Means and 95% CIs around the ICER were generated from non-parametric bootstrapping with 1000 replications.ResultsA total of 151 trial participants were included in the economic evaluation. The mean cost of the psycho-educational intervention was AU$1614 per participant, including intervention development costs. The ICER per case of high FCR avoided was AU$12,903. The cost-effectiveness acceptability curve demonstrated a 78% probability of the intervention being cost effective relative to the control at a threshold of AU$50,000 per extra person avoiding FCR. The ICER per QALY gained was AU$116,126 and the probability of the intervention being cost effective for this outcome was 36% at a willingness to pay of AU$50,000 per QALY.ConclusionThe psycho-educational intervention reduced FCR at 12 months for people at high risk of developing another melanoma and may represent good value for money. For the QALY outcome, the psycho-educational intervention is unlikely to be cost effective at standard government willingness-to-pay levels. The trial was prospectively registered in the Australian and New Zealand Clinical Trials Registry (CTRN12613000304730).",
-        "authors": [
-            "author-385f7abaef63a07663ca",
-            "author-60d878a1c82d781d993d",
-            "author-14c79c56de18d80b0251",
-            "author-9a5fe006bdfe3fcdb68e",
-            "author-92552fbb6060d539eeb3",
-            "author-036203f43e39026d0171",
-            "author-586da9de04ac4714b1df",
-            "author-0fcbcce671e0e80cbd41",
-            "author-6ab319e06a4333e5ae94"
-        ],
         "datasets": [
             "dataset-138"
         ],
@@ -6996,13 +6977,6 @@
                 }
             ]
         },
-        "abstract": "Phenomenon: Many researchers have difficulty transforming raw data into publishable full-length manuscripts. Among studies presented at professional meetings, registered as clinical trials, or declined from specific journals, nonpublication rates are estimated to range from 25% to 60%. We aimed to characterize major barriers to manuscript preparation, beyond lack of time, for academics from a broad range of specialties at a tertiary academic medical institution. We explored whether major barriers evolved with increasing publishing experience. Approach: We surveyed registrants of 12 noncompulsory workshops on scientific publishing (April 2009-November 2015). Survey respondents indicated how many of their coauthored papers were accepted for publication in peer-reviewed journals in the past 5 years and stated what they found most difficult about preparing a manuscript, other than lack of time. Two investigators performed a content analysis of the reported barriers; mean agreement between coders was 98% (SD = 2%), and the mean Scott π coefficient for interrater reliability was 0.81 (SD = 0.26). We used a multimethod analytic approach to determine whether the perceived barriers varied with level of publishing experience. Findings: Surveys were returned by 201 of 256 registrants (79%). Thirty-eight percent of respondents had lower publishing experience (0-4 papers published in peer-reviewed journals in the past 5 years), 26% had medium experience (5-10 papers), and 35% had higher experience (>10 papers). Many respondents (57%) listed multiple barriers, but 5% listed zero barriers. The content analysis of the 370 reported barrier items identified 8 categories covering 38 concepts. The most common concerns (i.e., organization, writing, following journal format, defining the article scope, disliking writing, responding to reviewers) were not affected by author experience level. However, significantly more academics with higher experience expressed concerns about data presentation. Insights: Academics commonly reported barriers such as uncertainty about how to organize content, difficulty with developing succinct text, and frustration about meeting journal-specific formatting requirements. Greater experience in scientific publishing did not appear to mitigate these barriers. Academic institutions can provide targeted support for persistent challenges to scholarly productivity.",
-        "authors": [
-            "author-9478424cecd294ff7d83",
-            "author-0a15a561d68a220f1403",
-            "author-2d6d5004b14bec7fac46",
-            "author-e2cddbcee177608a962e"
-        ],
         "datasets": [
             "dataset-138"
         ],
@@ -7123,7 +7097,6 @@
             "pmcid": "PMC6711337",
             "pmid": "31497364",
             "publisher": "Blacksmith Institute",
-            "score": 17.033981,
             "terms": [
                 "occupational health",
                 "health",
@@ -7240,8 +7213,6 @@
             "year": 2019,
             "z_authors": null
         },
-        "abstract": null,
-        "authors": [],
         "datasets": [
             "dataset-138"
         ],
@@ -7369,6 +7340,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30007",
                     "name": "B07 Earth Systems and Environmental Sciences"
@@ -7544,7 +7521,6 @@
                     ]
                 }
             ],
-            "score": 30.63599,
             "terms": [
                 "over‐exploitation",
                 "Hong Kong",
@@ -7682,12 +7658,6 @@
                 }
             ]
         },
-        "abstract": null,
-        "authors": [
-            "author-3b7b9eb12e9eaceeba2d",
-            "author-ac2f3d281c902c26a11d",
-            "author-c25130cf1d2c6e71602c"
-        ],
         "datasets": [
             "dataset-138"
         ],
@@ -7916,6 +7886,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30023",
+                    "name": "C23 Education"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30023",
                     "name": "C23 Education"
@@ -8163,7 +8139,6 @@
                     ]
                 }
             ],
-            "score": 28.992233,
             "terms": [
                 "opportunities",
                 "University",
@@ -8347,12 +8322,6 @@
                 }
             ]
         },
-        "abstract": "AbstractAmidst opportunities for universities to consider international academic staff in supporting internationalisation and innovation in academic practice, there is very little research to provide insights into their attitudes towards institutional approaches and frameworks in place to enable this. This article focuses on this research gap, suggesting that this academic community might enhance the development of internationally-informed and innovative pedagogic practice. The research reported within the article constitutes a preliminary study, set within a UK higher education case study setting. Methods included focus groups and themed in-depth interviews with a sample of 34 international academic staff from over 15 countries. The findings and discussion provide insights into the perspectives and experiences of international academic staff in relation to the Postgraduate Certificate in Teaching and Learning and other institutional practice. Innovative pedagogic practice as enabled by international acad...",
-        "authors": [
-            "author-726bae1e182c599f5e5a",
-            "author-1aa35bdc47cf22310315",
-            "author-ecb54f8ce7ce69e3b42b"
-        ],
         "datasets": [
             "dataset-138"
         ],
@@ -8732,6 +8701,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "research note",
                 "note",
@@ -8799,6 +8774,7 @@
             ],
             "pages": "512-526",
             "publisher": "Taylor & Francis",
+            "recent_citations": 1,
             "reference_ids": [
                 "pub.1029134789",
                 "pub.1058341079",
@@ -8909,7 +8885,6 @@
                     ]
                 }
             ],
-            "score": 18.40656,
             "terms": [
                 "research note",
                 "note",
@@ -8950,6 +8925,7 @@
                 "multiple-method approach",
                 "method approach"
             ],
+            "times_cited": 1,
             "title": "Understanding parental leave experiences: connecting the dots with a multiple-methods approach",
             "type": "article",
             "volume": "22",
@@ -9103,16 +9079,6 @@
                 }
             ]
         },
-        "abstract": "ABSTRACTThis research note draws selected findings from a multiple-methods study conducted in partnership with a large public-sector employer in Portland, OR to describe the added value of this app...",
-        "authors": [
-            "author-a3b50ac8e13eb98d6e20",
-            "author-20e90cf07e367669e0ff",
-            "author-b98c6159d802e0e77d32",
-            "author-4265d2c0e5fa5fac782e",
-            "author-e38f9d8f0221857aad15",
-            "author-48e0348924c98c7ca016",
-            "author-4ea491e42e2294473347"
-        ],
         "datasets": [
             "dataset-138"
         ],
@@ -9382,6 +9348,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "insider threats",
                 "threat",
@@ -9473,18 +9445,18 @@
             "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1021372251",
+                "pub.1094875722",
                 "pub.1013590698",
-                "pub.1105874216",
                 "pub.1113132661",
-                "pub.1094875722"
+                "pub.1105874216",
+                "pub.1021372251"
             ],
             "references": [
-                "pub.1021372251",
+                "pub.1094875722",
                 "pub.1013590698",
-                "pub.1105874216",
                 "pub.1113132661",
-                "pub.1094875722"
+                "pub.1105874216",
+                "pub.1021372251"
             ],
             "research_org_cities": [
                 {
@@ -9547,9 +9519,9 @@
                         "0000-0003-0687-1774"
                     ],
                     "research_orgs": [
-                        "grid.19006.3e",
+                        "grid.256859.5",
                         "grid.451303.0",
-                        "grid.256859.5"
+                        "grid.19006.3e"
                     ]
                 },
                 {
@@ -9575,7 +9547,6 @@
                     ]
                 }
             ],
-            "score": 21.571867,
             "terms": [
                 "insider threats",
                 "threat",
@@ -9665,12 +9636,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-80ab3aca6df776e3482e",
-            "author-7e75df8e06d4cfbbb57b",
-            "author-3fedfecbacee81575eea",
-            "author-85ba8ceabc9e7d5925d5"
-        ],
         "datasets": [
             "dataset-138"
         ],
@@ -9778,7 +9743,7 @@
                     "name": "Health Services"
                 }
             ],
-            "altmetric": 17.0,
+            "altmetric": 16.0,
             "altmetric_id": 53649124,
             "author_affiliations": [
                 [
@@ -10352,6 +10317,12 @@
                     "name": "A02 Public Health, Health Services and Primary Care"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30002",
+                    "name": "A02 Public Health, Health Services and Primary Care"
+                }
+            ],
             "concepts": [
                 "health facility costs",
                 "facility costs",
@@ -10450,76 +10421,76 @@
             "pmid": "30600515",
             "publisher": "Springer Nature",
             "reference_ids": [
-                "pub.1021903556",
-                "pub.1099101400",
-                "pub.1100857700",
-                "pub.1003533591",
-                "pub.1040113295",
-                "pub.1026472279",
-                "pub.1037282731",
-                "pub.1036557292",
-                "pub.1001634456",
-                "pub.1051082889",
-                "pub.1021284627",
-                "pub.1045310806",
-                "pub.1005944413",
-                "pub.1037568388",
-                "pub.1027735919",
-                "pub.1013873560",
-                "pub.1014234749",
+                "pub.1046100882",
                 "pub.1019400454",
-                "pub.1001141931",
-                "pub.1070838080",
-                "pub.1007965750",
-                "pub.1045323416",
+                "pub.1036557292",
                 "pub.1062809769",
                 "pub.1051229364",
-                "pub.1046100882",
-                "pub.1085900836",
-                "pub.1048825882",
-                "pub.1007837977",
+                "pub.1043054350",
+                "pub.1007965750",
+                "pub.1070838080",
                 "pub.1021544237",
-                "pub.1031562789",
+                "pub.1001634456",
+                "pub.1027735919",
                 "pub.1018764644",
+                "pub.1045323416",
+                "pub.1037568388",
+                "pub.1003533591",
+                "pub.1045310806",
+                "pub.1085900836",
+                "pub.1013873560",
+                "pub.1099101400",
+                "pub.1021284627",
+                "pub.1026472279",
+                "pub.1040113295",
+                "pub.1031562789",
+                "pub.1037282731",
+                "pub.1051082889",
+                "pub.1100857700",
+                "pub.1005944413",
+                "pub.1001141931",
+                "pub.1007837977",
                 "pub.1049730895",
-                "pub.1037818183",
-                "pub.1043054350"
+                "pub.1021903556",
+                "pub.1048825882",
+                "pub.1014234749",
+                "pub.1037818183"
             ],
             "references": [
-                "pub.1021903556",
-                "pub.1099101400",
-                "pub.1100857700",
-                "pub.1003533591",
-                "pub.1040113295",
-                "pub.1026472279",
-                "pub.1037282731",
-                "pub.1036557292",
-                "pub.1001634456",
-                "pub.1051082889",
-                "pub.1021284627",
-                "pub.1045310806",
-                "pub.1005944413",
-                "pub.1037568388",
-                "pub.1027735919",
-                "pub.1013873560",
-                "pub.1014234749",
+                "pub.1046100882",
                 "pub.1019400454",
-                "pub.1001141931",
-                "pub.1070838080",
-                "pub.1007965750",
-                "pub.1045323416",
+                "pub.1036557292",
                 "pub.1062809769",
                 "pub.1051229364",
-                "pub.1046100882",
-                "pub.1085900836",
-                "pub.1048825882",
-                "pub.1007837977",
+                "pub.1043054350",
+                "pub.1007965750",
+                "pub.1070838080",
                 "pub.1021544237",
-                "pub.1031562789",
+                "pub.1001634456",
+                "pub.1027735919",
                 "pub.1018764644",
+                "pub.1045323416",
+                "pub.1037568388",
+                "pub.1003533591",
+                "pub.1045310806",
+                "pub.1085900836",
+                "pub.1013873560",
+                "pub.1099101400",
+                "pub.1021284627",
+                "pub.1026472279",
+                "pub.1040113295",
+                "pub.1031562789",
+                "pub.1037282731",
+                "pub.1051082889",
+                "pub.1100857700",
+                "pub.1005944413",
+                "pub.1001141931",
+                "pub.1007837977",
                 "pub.1049730895",
-                "pub.1037818183",
-                "pub.1043054350"
+                "pub.1021903556",
+                "pub.1048825882",
+                "pub.1014234749",
+                "pub.1037818183"
             ],
             "research_org_cities": [
                 {
@@ -10744,8 +10715,8 @@
                     "last_name": "Rusangwa",
                     "research_orgs": [
                         "grid.10698.36",
-                        "grid.410711.2",
-                        "grid.10818.30"
+                        "grid.10818.30",
+                        "grid.410711.2"
                     ]
                 },
                 {
@@ -10778,17 +10749,17 @@
                     "id": "ur.0671633324.27",
                     "last_name": "Mpunga",
                     "research_orgs": [
-                        "grid.421714.5",
-                        "grid.239585.0",
-                        "grid.62560.37",
-                        "grid.28046.38",
-                        "grid.25867.3e",
-                        "grid.25879.31",
-                        "grid.410711.2",
+                        "grid.10818.30",
                         "grid.412701.1",
+                        "grid.62560.37",
                         "grid.282968.f",
                         "grid.10698.36",
-                        "grid.10818.30"
+                        "grid.421714.5",
+                        "grid.25867.3e",
+                        "grid.28046.38",
+                        "grid.25879.31",
+                        "grid.239585.0",
+                        "grid.410711.2"
                     ]
                 },
                 {
@@ -10796,19 +10767,17 @@
                     "id": "ur.0762746345.88",
                     "last_name": "Hedt-Gauthier",
                     "research_orgs": [
-                        "grid.14003.36",
-                        "grid.417747.6",
-                        "grid.10818.30",
                         "grid.38142.3c",
-                        "grid.62560.37",
-                        "grid.189504.1",
+                        "grid.417747.6",
                         "grid.417182.9",
-                        "grid.32224.35"
+                        "grid.14003.36",
+                        "grid.32224.35",
+                        "grid.189504.1",
+                        "grid.62560.37",
+                        "grid.10818.30"
                     ]
                 }
             ],
-            "score": 28.39449,
-            "sf01": "SN",
             "terms": [
                 "health facility costs",
                 "facility costs",
@@ -12691,21 +12660,6 @@
                 }
             ]
         },
-        "abstract": "Objective To determine the health facility cost of cesarean section at a rural district hospital in Rwanda. Methods Using time-driven activity-based costing, this study calculated capacity cost rates (cost per minute) for personnel, infrastructure and hospital indirect costs, and estimated the costs of medical consumables and medicines based on purchase prices, all for the pre-, intra- and post-operative periods. We estimated copay (10% of total cost) for women with community-based health insurance and conducted sensitivity analysis to estimate total cost range. Results The total cost of a cesarean delivery was US$339 including US$118 (35%) for intra-operative costs and US$221 (65%) for pre- and post-operative costs. Costs per category included US$46 (14%) for personnel, US$37 (11%) for infrastructure, US$109 (32%) for medicines, US$122 (36%) for medical consumables, and US$25 (7%) for hospital indirect costs. The estimated copay for women with community-based health insurance was US$34 and the total cost ranged from US$320 to US$380. Duration of hospital stay was the main marginal cost variable increasing overall cost by US$27 (8%). Conclusions for Practice The cost of cesarean delivery and the cost drivers (medicines and medical consumables) in our setting were similar to previous estimates in sub-Saharan Africa but higher than earlier average estimate in Rwanda. The estimated copay is potentially catastrophic for poor rural women. Investigation on the impact of true out of pocket costs on women’s health outcomes, and strategies for reducing duration of hospital stay while maintaining high quality care are recommended.",
-        "authors": [
-            "author-c4035ba4ccd10ba8f27b",
-            "author-c02d61232870d44554bf",
-            "author-a617b47e9f453bfcc277",
-            "author-2eadbdb4bfee1fa0d770",
-            "author-b21a8871b0cf840d8a51",
-            "author-94fedfb18c730a980de3",
-            "author-a2c48c8b12c4e703db85",
-            "author-42fe617b1bf7a03a8cf5",
-            "author-2070bf142f92ec9aa30f",
-            "author-85b2224273955462038f",
-            "author-a5f4c773c2ebb5bdf989",
-            "author-5a75ff430cc1ed450a14"
-        ],
         "datasets": [
             "dataset-138"
         ],
@@ -13213,6 +13167,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "study",
                 "multistage approach",
@@ -13279,50 +13239,50 @@
             "pmid": "30855210",
             "publisher": "Mary Ann Liebert",
             "reference_ids": [
-                "pub.1030834520",
-                "pub.1033009950",
                 "pub.1020559563",
-                "pub.1017071453",
-                "pub.1082656985",
-                "pub.1079391226",
-                "pub.1021804427",
                 "pub.1104270542",
-                "pub.1049760700",
-                "pub.1007693553",
-                "pub.1041798412",
-                "pub.1030036382",
-                "pub.1105705135",
-                "pub.1035449166",
-                "pub.1019543460",
-                "pub.1028700472",
-                "pub.1028235588",
-                "pub.1078894149",
-                "pub.1081003372",
+                "pub.1082656985",
                 "pub.1084194979",
-                "pub.1107819095"
+                "pub.1030036382",
+                "pub.1079391226",
+                "pub.1017071453",
+                "pub.1105705135",
+                "pub.1007693553",
+                "pub.1030834520",
+                "pub.1078894149",
+                "pub.1028700472",
+                "pub.1041798412",
+                "pub.1107819095",
+                "pub.1035449166",
+                "pub.1021804427",
+                "pub.1049760700",
+                "pub.1028235588",
+                "pub.1033009950",
+                "pub.1081003372",
+                "pub.1019543460"
             ],
             "references": [
-                "pub.1030834520",
-                "pub.1033009950",
                 "pub.1020559563",
-                "pub.1017071453",
-                "pub.1082656985",
-                "pub.1079391226",
-                "pub.1021804427",
                 "pub.1104270542",
-                "pub.1049760700",
-                "pub.1007693553",
-                "pub.1041798412",
-                "pub.1030036382",
-                "pub.1105705135",
-                "pub.1035449166",
-                "pub.1019543460",
-                "pub.1028700472",
-                "pub.1028235588",
-                "pub.1078894149",
-                "pub.1081003372",
+                "pub.1082656985",
                 "pub.1084194979",
-                "pub.1107819095"
+                "pub.1030036382",
+                "pub.1079391226",
+                "pub.1017071453",
+                "pub.1105705135",
+                "pub.1007693553",
+                "pub.1030834520",
+                "pub.1078894149",
+                "pub.1028700472",
+                "pub.1041798412",
+                "pub.1107819095",
+                "pub.1035449166",
+                "pub.1021804427",
+                "pub.1049760700",
+                "pub.1028235588",
+                "pub.1033009950",
+                "pub.1081003372",
+                "pub.1019543460"
             ],
             "research_org_cities": [
                 {
@@ -13349,17 +13309,17 @@
             ],
             "research_org_state_codes": [
                 {
-                    "id": "US-NY",
-                    "name": "New York"
-                },
-                {
                     "id": "US-MD",
                     "name": "Maryland"
+                },
+                {
+                    "id": "US-NY",
+                    "name": "New York"
                 }
             ],
             "research_org_state_names": [
-                "Maryland",
-                "New York"
+                "New York",
+                "Maryland"
             ],
             "research_orgs": [
                 {
@@ -13400,20 +13360,20 @@
                     "id": "ur.01303041426.02",
                     "last_name": "Goetzel",
                     "research_orgs": [
-                        "grid.5386.8",
-                        "grid.499166.5",
-                        "grid.21107.35",
-                        "grid.420183.c",
-                        "grid.34477.33",
-                        "grid.460065.1",
-                        "grid.7836.a",
                         "grid.430503.1",
-                        "grid.213876.9",
-                        "grid.419474.b",
-                        "grid.189967.8",
                         "grid.152326.1",
+                        "grid.499166.5",
+                        "grid.213876.9",
+                        "grid.417291.8",
+                        "grid.189967.8",
+                        "grid.419474.b",
+                        "grid.21107.35",
+                        "grid.460065.1",
+                        "grid.5386.8",
+                        "grid.7836.a",
+                        "grid.34477.33",
                         "grid.266623.5",
-                        "grid.417291.8"
+                        "grid.420183.c"
                     ]
                 },
                 {
@@ -13437,14 +13397,13 @@
                     "id": "ur.01323610437.16",
                     "last_name": "Roemer",
                     "research_orgs": [
-                        "grid.266623.5",
-                        "grid.189967.8",
                         "grid.21107.35",
-                        "grid.5386.8"
+                        "grid.266623.5",
+                        "grid.5386.8",
+                        "grid.189967.8"
                     ]
                 }
             ],
-            "score": 18.011303,
             "terms": [
                 "study",
                 "multistage approach",
@@ -13685,17 +13644,6 @@
                 }
             ]
         },
-        "abstract": "This case study describes a multistage approach applied to evaluation of an employee wellness program at Northwell Health. The paper describes a framework that other large employers may adopt in their wellness program evaluations. Evaluators worked with Northwell to develop, tailor, and apply a structure-process-outcome framework aligned with the organization's specific goals. Analyses of structural, process, and outcome variables will provide Northwell with valuable information about strengths and weaknesses of its wellness program. The measurement and evaluation framework can serve as a model for businesses aspiring to improve their workplace programs. This framework provides businesses with the opportunity to analyze key elements that need to be addressed collectively to gain a complete picture of program implementation processes and subsequent health and business outcomes.",
-        "authors": [
-            "author-adb7a530f078dcfbf949",
-            "author-3442b3a1a74fcef558e4",
-            "author-82efb04e0c8c84749480",
-            "author-22f0a0c8424c439389a5",
-            "author-f936e328907d8852ffee",
-            "author-29b79425c25005e12094",
-            "author-2fd80bc8d028fde6d52f",
-            "author-8a54efdc824078b509c3"
-        ],
         "datasets": [
             "dataset-138"
         ],
@@ -14103,6 +14051,12 @@
                     "name": "A03 Allied Health Professions, Dentistry, Nursing and Pharmacy"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30003",
+                    "name": "A03 Allied Health Professions, Dentistry, Nursing and Pharmacy"
+                }
+            ],
             "concepts": [
                 "long-term mortality rates",
                 "term mortality rates",
@@ -14302,7 +14256,6 @@
                     ]
                 }
             ],
-            "score": 17.934956,
             "terms": [
                 "long-term mortality rates",
                 "term mortality rates",
@@ -14779,14 +14732,6 @@
                 }
             ]
         },
-        "abstract": "OBJECTIVES\nTo evaluate long-term mortality rates among aerospace material manufacturing workers as follow-up to an earlier observed excess of nephritis/nephrosis.\n\n\nMETHODS\nSubjects were 2020 workers ever employed in the facility during 1963-2014. Vital status through 2014 was determined for all subjects and cause of death for 99.2% of 492 deaths. We computed standard mortality ratios (SMR) and internal relative risks.\n\n\nRESULTS\nSMRs for nephritis/nephrosis were unremarkable. We observed statistically significant elevated SMRs for kidney cancer among all workers and for the category \"other lymphatic hematopoietic tissue cancer\" (4/5 deaths from multiple myeloma) among long-term workers with potential plant exposure.\n\n\nCONCLUSIONS\nWe found no evidence of elevated mortality rates for nephritis/nephrosis. Study limitations precluded robust evaluation of whether the elevated rates for kidney cancer and other lymphatic hematopoietic tissue cancer were related to occupational factors at the study site. Our findings for these two cancers warrant continued mortality follow-up.",
-        "authors": [
-            "author-a1061a04b63d835c2f03",
-            "author-954469cf66b31f5288f9",
-            "author-75b5fabfcb69a6817d05",
-            "author-a67353b25c4b7d2a77cf",
-            "author-2c12acfa6c60fb2715d5"
-        ],
         "datasets": [
             "dataset-138"
         ],

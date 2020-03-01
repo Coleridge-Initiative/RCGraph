@@ -195,6 +195,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "entry",
                 "growth",
@@ -223,7 +229,7 @@
             "date": "2017-12-02",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/00343404.2016.1244333",
-            "field_citation_ratio": 1.89,
+            "field_citation_ratio": 1.86,
             "funder_countries": [
                 {
                     "id": "US",
@@ -285,58 +291,58 @@
             "publisher": "Taylor & Francis",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1070139581",
-                "pub.1041861280",
-                "pub.1049818572",
-                "pub.1017141786",
                 "pub.1069768945",
-                "pub.1000096065",
-                "pub.1026378896",
-                "pub.1058575494",
                 "pub.1029464043",
-                "pub.1009804239",
-                "pub.1058575267",
-                "pub.1033042961",
-                "pub.1059380418",
                 "pub.1046690993",
-                "pub.1069991244",
-                "pub.1042439884",
-                "pub.1007623422",
-                "pub.1064525319",
-                "pub.1041156702",
+                "pub.1033042961",
+                "pub.1000096065",
+                "pub.1059380418",
                 "pub.1027427783",
-                "pub.1051303100",
+                "pub.1009804239",
                 "pub.1058575337",
-                "pub.1049972457",
+                "pub.1058575494",
+                "pub.1069640764",
+                "pub.1049818572",
+                "pub.1041156702",
+                "pub.1041861280",
+                "pub.1017141786",
+                "pub.1070139581",
                 "pub.1050338165",
-                "pub.1069640764"
+                "pub.1064525319",
+                "pub.1069991244",
+                "pub.1058575267",
+                "pub.1042439884",
+                "pub.1049972457",
+                "pub.1051303100",
+                "pub.1026378896",
+                "pub.1007623422"
             ],
             "references": [
-                "pub.1070139581",
-                "pub.1041861280",
-                "pub.1049818572",
-                "pub.1017141786",
                 "pub.1069768945",
-                "pub.1000096065",
-                "pub.1026378896",
-                "pub.1058575494",
                 "pub.1029464043",
-                "pub.1009804239",
-                "pub.1058575267",
-                "pub.1033042961",
-                "pub.1059380418",
                 "pub.1046690993",
-                "pub.1069991244",
-                "pub.1042439884",
-                "pub.1007623422",
-                "pub.1064525319",
-                "pub.1041156702",
+                "pub.1033042961",
+                "pub.1000096065",
+                "pub.1059380418",
                 "pub.1027427783",
-                "pub.1051303100",
+                "pub.1009804239",
                 "pub.1058575337",
-                "pub.1049972457",
+                "pub.1058575494",
+                "pub.1069640764",
+                "pub.1049818572",
+                "pub.1041156702",
+                "pub.1041861280",
+                "pub.1017141786",
+                "pub.1070139581",
                 "pub.1050338165",
-                "pub.1069640764"
+                "pub.1064525319",
+                "pub.1069991244",
+                "pub.1058575267",
+                "pub.1042439884",
+                "pub.1049972457",
+                "pub.1051303100",
+                "pub.1026378896",
+                "pub.1007623422"
             ],
             "research_org_cities": [
                 {
@@ -386,6 +392,20 @@
             ],
             "research_orgs": [
                 {
+                    "city_name": "Dundee",
+                    "country_name": "United Kingdom",
+                    "id": "grid.8241.f",
+                    "latitude": 56.457222,
+                    "linkout": [
+                        "http://www.dundee.ac.uk/"
+                    ],
+                    "longitude": -2.980278,
+                    "name": "University of Dundee",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
                     "city_name": "Waterville",
                     "country_name": "United States",
                     "id": "grid.254333.0",
@@ -396,21 +416,6 @@
                     "longitude": -69.66209,
                     "name": "Colby College",
                     "state_name": "Maine",
-                    "types": [
-                        "Education"
-                    ]
-                },
-                {
-                    "city_name": "Lancaster",
-                    "country_name": "United Kingdom",
-                    "id": "grid.9835.7",
-                    "latitude": 54.010746,
-                    "linkout": [
-                        "http://www.lancaster.ac.uk/"
-                    ],
-                    "longitude": -2.790304,
-                    "name": "Lancaster University",
-                    "state_name": "Lancashire",
                     "types": [
                         "Education"
                     ]
@@ -432,15 +437,16 @@
                     ]
                 },
                 {
-                    "city_name": "Dundee",
+                    "city_name": "Lancaster",
                     "country_name": "United Kingdom",
-                    "id": "grid.8241.f",
-                    "latitude": 56.457222,
+                    "id": "grid.9835.7",
+                    "latitude": 54.010746,
                     "linkout": [
-                        "http://www.dundee.ac.uk/"
+                        "http://www.lancaster.ac.uk/"
                     ],
-                    "longitude": -2.980278,
-                    "name": "University of Dundee",
+                    "longitude": -2.790304,
+                    "name": "Lancaster University",
+                    "state_name": "Lancashire",
                     "types": [
                         "Education"
                     ]
@@ -497,7 +503,6 @@
                     ]
                 }
             ],
-            "score": 13.210848,
             "terms": [
                 "entry",
                 "growth",
@@ -890,13 +895,6 @@
                 }
             ]
         },
-        "abstract": "ABSTRACTEntry, growth and survival in the green industry. Regional Studies. Economists are interested in the factors that induce firm entry, lead to growth and help firms succeed in various markets. Such information can be helpful to policy-makers, but, unfortunately, such patterns have not been considered for ‘green industries’. This paper takes advantage of a recent definition of green industries proposed by the US Bureau of Labor Statistics (BLS) to investigate patterns characterizing these industries within the State of Texas.",
-        "authors": [
-            "author-218d7b4f19d014053307",
-            "author-dde0ca009d0d0f236f0c",
-            "author-54ddd95820f38987319f",
-            "author-9444da4a7ddbe3d0df9c"
-        ],
         "datasets": [
             "dataset-099"
         ],
@@ -1219,6 +1217,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "paper",
                 "part",
@@ -1260,7 +1264,7 @@
             "date": "2017-05-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.jebo.2017.02.016",
-            "field_citation_ratio": 1.89,
+            "field_citation_ratio": 1.86,
             "id": "pub.1084087124",
             "issn": [
                 "0167-2681",
@@ -1512,7 +1516,6 @@
                     ]
                 }
             ],
-            "score": 23.24795,
             "terms": [
                 "paper",
                 "part",
@@ -2676,12 +2679,6 @@
                 }
             ]
         },
-        "abstract": "This paper investigates how subcontracting parts of contracted work shapes entrants’ success and survival. We find that newly developed quantile regression approaches can be adapted to study survival of firms competing for government contracts in road construction. The method is applied on a data set that includes patterns of firm entry, exit and auction related information. We find an apparent increase in the business life of firms who subcontract out part of their projects. In Texas, these subcontracting effects appear to be more pronounced for firms with few or no options outside the industry, and among firms who contract out part of their work to Disadvantaged Business Enterprises.",
-        "authors": [
-            "author-218d7b4f19d014053307",
-            "author-e0e242f4446e683a5566",
-            "author-2b671503eef053f5f51c"
-        ],
         "datasets": [
             "dataset-099"
         ],
@@ -2820,6 +2817,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "higher education",
                 "education",
@@ -2859,7 +2862,7 @@
             "date": "2017-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.2139/ssrn.2921914",
-            "field_citation_ratio": 2.84,
+            "field_citation_ratio": 2.79,
             "id": "pub.1090425113",
             "issn": [
                 "1556-5068"
@@ -3005,7 +3008,6 @@
                     ]
                 }
             ],
-            "score": 27.689613,
             "terms": [
                 "higher education",
                 "education",
@@ -3597,10 +3599,6 @@
                 }
             ]
         },
-        "abstract": null,
-        "authors": [
-            "author-a073c1a3cffae97ffe98"
-        ],
         "datasets": [
             "dataset-099"
         ],
@@ -3686,7 +3684,7 @@
     },
     {
         "Dimensions": {
-            "altmetric": 102.0,
+            "altmetric": 101.0,
             "altmetric_id": 62769496,
             "author_affiliations": [
                 [
@@ -4033,12 +4031,12 @@
                     "id": "ur.0623256560.57",
                     "last_name": "Turner",
                     "research_orgs": [
-                        "grid.164295.d",
-                        "grid.250279.b"
+                        "grid.250279.b",
+                        "grid.152326.1",
+                        "grid.164295.d"
                     ]
                 }
             ],
-            "score": 19.7024,
             "terms": [
                 "effect of grants",
                 "grants",
@@ -4061,6 +4059,1050 @@
             "open": true,
             "url": "http://hdl.handle.net/10419/185252"
         },
+        "Semantic Scholar": {
+            "abstract": "We estimate the effect of grant aid on poor college students’ attainment and earnings using student-level administrative data from four-year public colleges in Texas. To identify these effects, we exploit a discontinuity in grant generosity as a function of family income. Eligibility for the maximum Pell Grant significantly increases degree receipt and earnings beginning four years after entry. Within 10 years, imputed taxes on eligible students’ earnings gains fully recoup total government expenditures generated by initial eligibility. To clarify how these estimates relate to social welfare, we develop a general theoretical model and derive sufficient statistics for the welfare implications of changes in the price of college. Whether additional grant aid increases welfare depends on (1) net externalities from recipients’ behavioral responses and (2) a direct effect of mitigating credit constraints or other frictions that inflate students’ in-school marginal utility. Calibrating our model using nationally representative consumption data suggests that increasing grant aid for the average college student by $1 could generate negative externalities as high as $0.50 and still improve welfare. Applying our welfare formula and estimated direct effects to our setting and others suggests considerable welfare gains from grants that target low-income students.",
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "119170358",
+                    "name": "Jeffrey T. Denning",
+                    "url": "https://www.semanticscholar.org/author/119170358"
+                },
+                {
+                    "authorId": "143891985",
+                    "name": "Benjamin M. Marx",
+                    "url": "https://www.semanticscholar.org/author/143891985"
+                },
+                {
+                    "authorId": "50414638",
+                    "name": "Lesley J. Turner",
+                    "url": "https://www.semanticscholar.org/author/50414638"
+                }
+            ],
+            "citationVelocity": 0,
+            "citations": [
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "145159488",
+                            "name": "José Montalbán",
+                            "url": "https://www.semanticscholar.org/author/145159488"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "b3857de6470c780ebd301c7b0983f3ff14803319",
+                    "title": "Countering moral hazard in higher education: The role of performance incentives in need-based grants",
+                    "url": "https://www.semanticscholar.org/paper/b3857de6470c780ebd301c7b0983f3ff14803319",
+                    "venue": "",
+                    "year": 2019
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "37264288",
+                            "name": "Abigail Wozniak",
+                            "url": "https://www.semanticscholar.org/author/37264288"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "d439f49ff3bc075ef1ddd31a5c8de68067c3f425",
+                    "title": "Coming and Going: Encouraging Geographic Mobility at College Entry and Exit to Lift Wages. Policy Proposal 2018-02.",
+                    "url": "https://www.semanticscholar.org/paper/d439f49ff3bc075ef1ddd31a5c8de68067c3f425",
+                    "venue": "",
+                    "year": 2018
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "29821418",
+                            "name": "Zachary A. Mabel",
+                            "url": "https://www.semanticscholar.org/author/29821418"
+                        }
+                    ],
+                    "doi": "10.2139/ssrn.3054789",
+                    "intent": [
+                        "result"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "05358f294fe618e11b5e7012c9b19ca66ed7ef44",
+                    "title": "Aiding or Dissuading? The Effects of Exhausting Eligibility for Need-Based Aid on Bachelor's Degree Attainment and Time to Completion",
+                    "url": "https://www.semanticscholar.org/paper/05358f294fe618e11b5e7012c9b19ca66ed7ef44",
+                    "venue": "",
+                    "year": 2017
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "145442953",
+                            "name": "Elise Swanson",
+                            "url": "https://www.semanticscholar.org/author/145442953"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "d2c1098f45fe0193e3e8d867c714d2a1538b004f",
+                    "title": "To and Through College: Investigating Attitudes Towards, Enrollment in, and Graduation from College",
+                    "url": "https://www.semanticscholar.org/paper/d2c1098f45fe0193e3e8d867c714d2a1538b004f",
+                    "venue": "",
+                    "year": 2019
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "102356154",
+                            "name": "Valerie K. Bostwick",
+                            "url": "https://www.semanticscholar.org/author/102356154"
+                        },
+                        {
+                            "authorId": "47611705",
+                            "name": "Stefanie Fischer",
+                            "url": "https://www.semanticscholar.org/author/47611705"
+                        },
+                        {
+                            "authorId": "13186581",
+                            "name": "Matthew Lang",
+                            "url": "https://www.semanticscholar.org/author/13186581"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background",
+                        "methodology"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "21b2d43a3fc3e7dfe9ea55e53add5a1571025fd9",
+                    "title": "Semesters or Quarters? The Effect of the Academic Calendar on Postsecondary Student Outcomes",
+                    "url": "https://www.semanticscholar.org/paper/21b2d43a3fc3e7dfe9ea55e53add5a1571025fd9",
+                    "venue": "",
+                    "year": 2019
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "152900412",
+                            "name": "Drew M. Anderson",
+                            "url": "https://www.semanticscholar.org/author/152900412"
+                        }
+                    ],
+                    "doi": "10.7249/wr1307",
+                    "intent": [
+                        "background",
+                        "methodology"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "ac101b1406f7af8e601efb80985e6c6e08324a9b",
+                    "title": "When Financial Aid is Scarce: The Challenge of Allocating College Aid Where it is Needed Most",
+                    "url": "https://www.semanticscholar.org/paper/ac101b1406f7af8e601efb80985e6c6e08324a9b",
+                    "venue": "",
+                    "year": 2019
+                }
+            ],
+            "corpusId": 198729945,
+            "doi": "10.1257/app.20180100",
+            "fieldsOfStudy": [
+                "Economics"
+            ],
+            "influentialCitationCount": 2,
+            "is_open_access": true,
+            "is_publisher_licensed": false,
+            "paperId": "f2c21ec7da41b3f06f7b86d3cbd494974f4fbf73",
+            "references": [
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "49503025",
+                            "name": "Dr. Klaus Sachs",
+                            "url": "https://www.semanticscholar.org/author/49503025"
+                        },
+                        {
+                            "authorId": "41219862",
+                            "name": "Sebastian Findeisen",
+                            "url": "https://www.semanticscholar.org/author/41219862"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "0c37b4ab0972d8d52f590f7b591a3fb7c09ce098",
+                    "title": "Optimal Financial Aid Policies for Students",
+                    "url": "https://www.semanticscholar.org/paper/0c37b4ab0972d8d52f590f7b591a3fb7c09ce098",
+                    "venue": "",
+                    "year": 2016
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "70014176",
+                            "name": "Daniel R. Feenberg",
+                            "url": "https://www.semanticscholar.org/author/70014176"
+                        },
+                        {
+                            "authorId": "2744014",
+                            "name": "Elisabeth Coutts",
+                            "url": "https://www.semanticscholar.org/author/2744014"
+                        }
+                    ],
+                    "doi": "10.2307/3325474",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "a8469c7a45343d299c488ec6efad3172c01d2377",
+                    "title": "An introduction to the TAXSIM model",
+                    "url": "https://www.semanticscholar.org/paper/a8469c7a45343d299c488ec6efad3172c01d2377",
+                    "venue": "",
+                    "year": 1993
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "144477373",
+                            "name": "Eric Bettinger",
+                            "url": "https://www.semanticscholar.org/author/144477373"
+                        },
+                        {
+                            "authorId": "15556584",
+                            "name": "Oded Gurantz",
+                            "url": "https://www.semanticscholar.org/author/15556584"
+                        },
+                        {
+                            "authorId": "121348256",
+                            "name": "Laura Kawano",
+                            "url": "https://www.semanticscholar.org/author/121348256"
+                        },
+                        {
+                            "authorId": "3687504",
+                            "name": "Bruce I. Sacerdote",
+                            "url": "https://www.semanticscholar.org/author/3687504"
+                        }
+                    ],
+                    "doi": "10.3386/w22347",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "cae2f8399ca329fbbdcf4265c6ab73de43302f5e",
+                    "title": "The Long Run Impacts of Merit Aid: Evidence from California’s Cal Grant",
+                    "url": "https://www.semanticscholar.org/paper/cae2f8399ca329fbbdcf4265c6ab73de43302f5e",
+                    "venue": "",
+                    "year": 2016
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "47538728",
+                            "name": "Alan I. Barreca",
+                            "url": "https://www.semanticscholar.org/author/47538728"
+                        },
+                        {
+                            "authorId": "20145959",
+                            "name": "Jason M. Lindo",
+                            "url": "https://www.semanticscholar.org/author/20145959"
+                        },
+                        {
+                            "authorId": "49521986",
+                            "name": "Glen R. Waddell",
+                            "url": "https://www.semanticscholar.org/author/49521986"
+                        }
+                    ],
+                    "doi": "10.1111/ecin.12225",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "5b1bf4109a2e4dab1a6acb65b11d0eb0f09938f5",
+                    "title": "Heaping-Induced Bias in Regression-Discontinuity Designs",
+                    "url": "https://www.semanticscholar.org/paper/5b1bf4109a2e4dab1a6acb65b11d0eb0f09938f5",
+                    "venue": "",
+                    "year": 2011
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "65758607",
+                            "name": "Sarah R. Cohodes",
+                            "url": "https://www.semanticscholar.org/author/65758607"
+                        },
+                        {
+                            "authorId": "17446277",
+                            "name": "Joshua Goodman",
+                            "url": "https://www.semanticscholar.org/author/17446277"
+                        }
+                    ],
+                    "doi": "10.1257/app.6.4.251",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "31a526bf1a20941bf2aa1a6b8d60f1f2100f065f",
+                    "title": "Merit Aid, College Quality and College Completion: Massachusetts’ Adams Scholarship as an In-Kind Subsidy",
+                    "url": "https://www.semanticscholar.org/paper/31a526bf1a20941bf2aa1a6b8d60f1f2100f065f",
+                    "venue": "",
+                    "year": 2014
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "48893178",
+                            "name": "David S Lee",
+                            "url": "https://www.semanticscholar.org/author/48893178"
+                        }
+                    ],
+                    "doi": "10.3386/w11721",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "de2fd353758d955d128445a65ead77d389d1117e",
+                    "title": "Training, Wages, and Sample Selection: Estimating Sharp Bounds on Treatment Effects",
+                    "url": "https://www.semanticscholar.org/paper/de2fd353758d955d128445a65ead77d389d1117e",
+                    "venue": "",
+                    "year": 2005
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "6056019",
+                            "name": "Eric P. Bettinger",
+                            "url": "https://www.semanticscholar.org/author/6056019"
+                        },
+                        {
+                            "authorId": "3630975",
+                            "name": "Betsy Anne Williams",
+                            "url": "https://www.semanticscholar.org/author/3630975"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background",
+                        "methodology"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "21d01cbafec68fab1c2c2e607601c364e19c8af9",
+                    "title": "Federal and State Financial Aid during the Great Recession",
+                    "url": "https://www.semanticscholar.org/paper/21d01cbafec68fab1c2c2e607601c364e19c8af9",
+                    "venue": "",
+                    "year": 2013
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "50414638",
+                            "name": "Lesley J. Turner",
+                            "url": "https://www.semanticscholar.org/author/50414638"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "fffadd0aa0eeb1ad8fffebe7cad4e75c0d6208d1",
+                    "title": "The Economic Incidence of Federal Student Grant Aid",
+                    "url": "https://www.semanticscholar.org/paper/fffadd0aa0eeb1ad8fffebe7cad4e75c0d6208d1",
+                    "venue": "",
+                    "year": 2017
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "119170358",
+                            "name": "Jeffrey T. Denning",
+                            "url": "https://www.semanticscholar.org/author/119170358"
+                        },
+                        {
+                            "authorId": "1455051656",
+                            "name": "Jeffrey T. Patrick Turley",
+                            "url": "https://www.semanticscholar.org/author/1455051656"
+                        }
+                    ],
+                    "doi": "10.3368/jhr.52.1.0414-6340R1",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "51c3c3abeec1a349ae0e692cb67198efaf28ba35",
+                    "title": "Was That SMART?: Institutional Financial Incentives and Field of Study",
+                    "url": "https://www.semanticscholar.org/paper/51c3c3abeec1a349ae0e692cb67198efaf28ba35",
+                    "venue": "",
+                    "year": 2017
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "4272813",
+                            "name": "Ofer Malamud",
+                            "url": "https://www.semanticscholar.org/author/4272813"
+                        },
+                        {
+                            "authorId": "37264288",
+                            "name": "Abigail Wozniak",
+                            "url": "https://www.semanticscholar.org/author/37264288"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "1aaf26401406afc8dc53b1c48aaa90b5361d7fa2",
+                    "title": "The Impact of College Education on Geographic Mobility: Evidence from the Vietnam Generation",
+                    "url": "https://www.semanticscholar.org/paper/1aaf26401406afc8dc53b1c48aaa90b5361d7fa2",
+                    "venue": "",
+                    "year": 2006
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "3938354",
+                            "name": "Jesse Rothstein",
+                            "url": "https://www.semanticscholar.org/author/3938354"
+                        },
+                        {
+                            "authorId": "32677881",
+                            "name": "Cecilia Elena Rouse",
+                            "url": "https://www.semanticscholar.org/author/32677881"
+                        }
+                    ],
+                    "doi": "10.2139/ssrn.1713398",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "9ac96f3d8da1995862586b25c29f9279fcc4e044",
+                    "title": "Constrained After College: Student Loans and Early Career Occupational Choices",
+                    "url": "https://www.semanticscholar.org/paper/9ac96f3d8da1995862586b25c29f9279fcc4e044",
+                    "venue": "",
+                    "year": 2007
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "66759865",
+                            "name": "Joshua David Angrist",
+                            "url": "https://www.semanticscholar.org/author/66759865"
+                        },
+                        {
+                            "authorId": "47166531",
+                            "name": "Guido W. Imbens",
+                            "url": "https://www.semanticscholar.org/author/47166531"
+                        }
+                    ],
+                    "doi": "10.2307/2291054",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "4727b71f63a7fdfb482124755a118189e0d40d08",
+                    "title": "Two-Stage Least Squares Estimation of Average Causal Effects in Models with Variable Treatment Intensity",
+                    "url": "https://www.semanticscholar.org/paper/4727b71f63a7fdfb482124755a118189e0d40d08",
+                    "venue": "",
+                    "year": 1995
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1399664667",
+                            "name": "Judith E. Scott-Clayton",
+                            "url": "https://www.semanticscholar.org/author/1399664667"
+                        },
+                        {
+                            "authorId": "51295836",
+                            "name": "Basit Zafar",
+                            "url": "https://www.semanticscholar.org/author/51295836"
+                        }
+                    ],
+                    "doi": "10.1016/j.jpubeco.2019.01.006",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "f4e227e607ec11017bddb7669960ed9cb50551bf",
+                    "title": "Financial aid, debt management, and socioeconomic outcomes: Post-college effects of merit-based aid",
+                    "url": "https://www.semanticscholar.org/paper/f4e227e607ec11017bddb7669960ed9cb50551bf",
+                    "venue": "",
+                    "year": 2019
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "47640583",
+                            "name": "Stephen V. Cameron",
+                            "url": "https://www.semanticscholar.org/author/47640583"
+                        },
+                        {
+                            "authorId": "145476059",
+                            "name": "Christopher R. Taber",
+                            "url": "https://www.semanticscholar.org/author/145476059"
+                        }
+                    ],
+                    "doi": "10.1086/379937",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "f4664ebe6adf59aa22fd92667b3afba585c7738b",
+                    "title": "Estimation of Educational Borrowing Con-straints Using Returns to Schooling",
+                    "url": "https://www.semanticscholar.org/paper/f4664ebe6adf59aa22fd92667b3afba585c7738b",
+                    "venue": "",
+                    "year": 2004
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "37058937",
+                            "name": "P. Andrew Diamond",
+                            "url": "https://www.semanticscholar.org/author/37058937"
+                        }
+                    ],
+                    "doi": "10.1016/j.jpubeco.2005.06.001",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "c14f22534e58396210255711a18726da3074b9b8",
+                    "title": "Optimal tax treatment of private contributions for public goods with and without warm glow preferences",
+                    "url": "https://www.semanticscholar.org/paper/c14f22534e58396210255711a18726da3074b9b8",
+                    "venue": "",
+                    "year": 2006
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "143891985",
+                            "name": "Benjamin M. Marx",
+                            "url": "https://www.semanticscholar.org/author/143891985"
+                        },
+                        {
+                            "authorId": "50414638",
+                            "name": "Lesley J. Turner",
+                            "url": "https://www.semanticscholar.org/author/50414638"
+                        }
+                    ],
+                    "doi": "10.1257/pol.20180279",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "ddd10d7ca4f9367af9185b115be80239274b2e1f",
+                    "title": "Student Loan Nudges: Experimental Evidence on Borrowing and Educational Attainment",
+                    "url": "https://www.semanticscholar.org/paper/ddd10d7ca4f9367af9185b115be80239274b2e1f",
+                    "venue": "",
+                    "year": 2017
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "4384429",
+                            "name": "Lance J. Lochner",
+                            "url": "https://www.semanticscholar.org/author/4384429"
+                        }
+                    ],
+                    "doi": "10.1016/B978-0-444-53444-6.00002-X",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "b62453468d371cf021c4a4e0b7ce9cfec1beb078",
+                    "title": "Non-Production Benefits of Education: Crime, Health, and Good Citizenship",
+                    "url": "https://www.semanticscholar.org/paper/b62453468d371cf021c4a4e0b7ce9cfec1beb078",
+                    "venue": "",
+                    "year": 2011
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "3767606",
+                            "name": "Lisa Barrow",
+                            "url": "https://www.semanticscholar.org/author/3767606"
+                        },
+                        {
+                            "authorId": "4272813",
+                            "name": "Ofer Malamud",
+                            "url": "https://www.semanticscholar.org/author/4272813"
+                        }
+                    ],
+                    "doi": "10.1146/annurev-economics-080614-115510",
+                    "intent": [
+                        "background",
+                        "result"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "52296d7abbe8bbacc0f8a6b81bf1613d98bf7320",
+                    "title": "Is College a Worthwhile Investment",
+                    "url": "https://www.semanticscholar.org/paper/52296d7abbe8bbacc0f8a6b81bf1613d98bf7320",
+                    "venue": "",
+                    "year": 2015
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "32236046",
+                            "name": "Brent J. Evans",
+                            "url": "https://www.semanticscholar.org/author/32236046"
+                        }
+                    ],
+                    "doi": "10.1162/EDFP_a_00199",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "c74b9b972b36a4214e8b460046eb2965cc72a728",
+                    "title": "SMART Money: Do Financial Incentives Encourage College Students to Study Science?",
+                    "url": "https://www.semanticscholar.org/paper/c74b9b972b36a4214e8b460046eb2965cc72a728",
+                    "venue": "Education Finance and Policy",
+                    "year": 2012
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "39104315",
+                            "name": "Seth D. Zimmerman",
+                            "url": "https://www.semanticscholar.org/author/39104315"
+                        }
+                    ],
+                    "doi": "10.1086/676661",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "a202712ccbc0a5d7feff3583513056bc46d60598",
+                    "title": "The Returns to College Admission for Academically Marginal Students",
+                    "url": "https://www.semanticscholar.org/paper/a202712ccbc0a5d7feff3583513056bc46d60598",
+                    "venue": "",
+                    "year": 2014
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "39978874",
+                            "name": "Dan A. Black",
+                            "url": "https://www.semanticscholar.org/author/39978874"
+                        },
+                        {
+                            "authorId": "48600314",
+                            "name": "Jeffrey Alan Smith",
+                            "url": "https://www.semanticscholar.org/author/48600314"
+                        }
+                    ],
+                    "doi": "10.1086/505067",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "abb61f57d044f644786b880bce1c6aef2f89ab16",
+                    "title": "Estimating the Returns to College Quality with Multiple Proxies for Quality",
+                    "url": "https://www.semanticscholar.org/paper/abb61f57d044f644786b880bce1c6aef2f89ab16",
+                    "venue": "",
+                    "year": 2006
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "20635451",
+                            "name": "Angela Boatman",
+                            "url": "https://www.semanticscholar.org/author/20635451"
+                        },
+                        {
+                            "authorId": "32236046",
+                            "name": "Brent J. Evans",
+                            "url": "https://www.semanticscholar.org/author/32236046"
+                        },
+                        {
+                            "authorId": "65957684",
+                            "name": "Adela Soliz",
+                            "url": "https://www.semanticscholar.org/author/65957684"
+                        }
+                    ],
+                    "doi": "10.1177/2332858416683649",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "24cd0483a96d1920b1fc9765f531d5fc570657cf",
+                    "title": "Understanding Loan Aversion in Education: Evidence from High School Seniors, Community College Students, and Adults. CEPA Working Paper No. 16-15.",
+                    "url": "https://www.semanticscholar.org/paper/24cd0483a96d1920b1fc9765f531d5fc570657cf",
+                    "venue": "",
+                    "year": 2016
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "50370438",
+                            "name": "Nicholas Lawson",
+                            "url": "https://www.semanticscholar.org/author/50370438"
+                        }
+                    ],
+                    "doi": "10.2139/ssrn.2585062",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "4d54bc4a16f1f9e2ff28c66c406bfa93167199f3",
+                    "title": "Liquidity Constraints, Fiscal Externalities and Optimal Tuition Subsidies",
+                    "url": "https://www.semanticscholar.org/paper/4d54bc4a16f1f9e2ff28c66c406bfa93167199f3",
+                    "venue": "",
+                    "year": 2014
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "144046483",
+                            "name": "Christopher D. Carroll",
+                            "url": "https://www.semanticscholar.org/author/144046483"
+                        }
+                    ],
+                    "doi": "10.1162/003355397555109",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "3290855f3a40a2b9ee8d76f9429afe94c8eec055",
+                    "title": "Buffer-Stock Saving and the Life Cycle/Permanent Income Hypothesis",
+                    "url": "https://www.semanticscholar.org/paper/3290855f3a40a2b9ee8d76f9429afe94c8eec055",
+                    "venue": "",
+                    "year": 1996
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "3920191",
+                            "name": "Nathaniel Hendren",
+                            "url": "https://www.semanticscholar.org/author/3920191"
+                        }
+                    ],
+                    "doi": "10.1086/685593",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "ddc18bd81177e79f1c5d4cdd9f6d745d3fbe9094",
+                    "title": "The Policy Elasticity",
+                    "url": "https://www.semanticscholar.org/paper/ddc18bd81177e79f1c5d4cdd9f6d745d3fbe9094",
+                    "venue": "",
+                    "year": 2016
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "122383181",
+                            "name": "Neil Turner",
+                            "url": "https://www.semanticscholar.org/author/122383181"
+                        }
+                    ],
+                    "doi": "10.2307/3069650",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "0e2092fc64bce819ef02dc2bcc76c03824d384eb",
+                    "title": "Back to School Federal Student Aid Policy and Adult College Enrollment",
+                    "url": "https://www.semanticscholar.org/paper/0e2092fc64bce819ef02dc2bcc76c03824d384eb",
+                    "venue": "",
+                    "year": 2002
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "3834262",
+                            "name": "Justin McCrary",
+                            "url": "https://www.semanticscholar.org/author/3834262"
+                        }
+                    ],
+                    "doi": "10.3386/t0334",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "35a9aa649c8b4d55c39dd575f5745932d63fea8c",
+                    "title": "NBER TECHNICAL WORKING PAPER SERIES MANIPULATION OF THE RUNNING VARIABLE IN THE REGRESSION DISCONTINUITY DESIGN: A DENSITY TEST",
+                    "url": "https://www.semanticscholar.org/paper/35a9aa649c8b4d55c39dd575f5745932d63fea8c",
+                    "venue": "",
+                    "year": 2006
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "2906848",
+                            "name": "Michael P. Keane",
+                            "url": "https://www.semanticscholar.org/author/2906848"
+                        },
+                        {
+                            "authorId": "14553611",
+                            "name": "Kenneth I. Wolpin",
+                            "url": "https://www.semanticscholar.org/author/14553611"
+                        }
+                    ],
+                    "doi": "10.2139/ssrn.269962",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "a5ff807e6a9e56e754089101b2fe201f8b363349",
+                    "title": "The Effect of Parental Transfers and Borrowing Constraints on Educational Attainment",
+                    "url": "https://www.semanticscholar.org/paper/a5ff807e6a9e56e754089101b2fe201f8b363349",
+                    "venue": "",
+                    "year": 2001
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "32008124",
+                            "name": "Maria Donovan Fitzpatrick",
+                            "url": "https://www.semanticscholar.org/author/32008124"
+                        },
+                        {
+                            "authorId": "38388148",
+                            "name": "Damon Jones",
+                            "url": "https://www.semanticscholar.org/author/38388148"
+                        }
+                    ],
+                    "doi": "10.1016/j.econedurev.2016.07.002",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "1b11c44db218969b356e23b528d8a0a39e513386",
+                    "title": "Post-Baccalaureate Migration and Merit-Based Scholarships.",
+                    "url": "https://www.semanticscholar.org/paper/1b11c44db218969b356e23b528d8a0a39e513386",
+                    "venue": "Economics of education review",
+                    "year": 2016
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1399664667",
+                            "name": "Judith E. Scott-Clayton",
+                            "url": "https://www.semanticscholar.org/author/1399664667"
+                        }
+                    ],
+                    "doi": "10.1353/jhr.2011.0013",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "7f2ab5431f4e64cd710a64fa6ef60ba3daa0a3d3",
+                    "title": "On Money and Motivation: A Quasi-Experimental Analysis of Financial Incentives for College Achievement",
+                    "url": "https://www.semanticscholar.org/paper/7f2ab5431f4e64cd710a64fa6ef60ba3daa0a3d3",
+                    "venue": "",
+                    "year": 2011
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "48893178",
+                            "name": "David S Lee",
+                            "url": "https://www.semanticscholar.org/author/48893178"
+                        },
+                        {
+                            "authorId": "41124251",
+                            "name": "Thomas Lemieux",
+                            "url": "https://www.semanticscholar.org/author/41124251"
+                        }
+                    ],
+                    "doi": "10.1257/jel.48.2.281",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "a6462e546ad432ddbe3e7d9e5854f029204f57e6",
+                    "title": "Regression Discontinuity Designs in Economics",
+                    "url": "https://www.semanticscholar.org/paper/a6462e546ad432ddbe3e7d9e5854f029204f57e6",
+                    "venue": "",
+                    "year": 2010
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "47671340",
+                            "name": "Celeste K. Carruthers",
+                            "url": "https://www.semanticscholar.org/author/47671340"
+                        },
+                        {
+                            "authorId": "119438735",
+                            "name": "Jilleah G. Welch",
+                            "url": "https://www.semanticscholar.org/author/119438735"
+                        }
+                    ],
+                    "doi": "10.1016/j.jpubeco.2018.11.006",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "fccb876e8a5eb41d6daf11f4396c621d07b82987",
+                    "title": "Not Whether, but Where? Pell Grants and College Choices",
+                    "url": "https://www.semanticscholar.org/paper/fccb876e8a5eb41d6daf11f4396c621d07b82987",
+                    "venue": "",
+                    "year": 2019
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1403705813",
+                            "name": "Sara Goldrick-Rab",
+                            "url": "https://www.semanticscholar.org/author/1403705813"
+                        },
+                        {
+                            "authorId": "80259145",
+                            "name": "Robert Kelchen",
+                            "url": "https://www.semanticscholar.org/author/80259145"
+                        },
+                        {
+                            "authorId": "2496741",
+                            "name": "Douglas N. Harris",
+                            "url": "https://www.semanticscholar.org/author/2496741"
+                        }
+                    ],
+                    "doi": "10.1086/685442",
+                    "intent": [
+                        "background",
+                        "result"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "ee2bc6f154e2ae928f718e692021804145d76dce",
+                    "title": "Reducing Income Inequality in Educational Attainment: Experimental Evidence on the Impact of Financial Aid on College Completion (Revised title and paper from October 2012 version)",
+                    "url": "https://www.semanticscholar.org/paper/ee2bc6f154e2ae928f718e692021804145d76dce",
+                    "venue": "",
+                    "year": 2015
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "90586268",
+                            "name": "Rodney Andrews",
+                            "url": "https://www.semanticscholar.org/author/90586268"
+                        },
+                        {
+                            "authorId": "66900582",
+                            "name": "R. Li",
+                            "url": "https://www.semanticscholar.org/author/66900582"
+                        },
+                        {
+                            "authorId": "1403752062",
+                            "name": "Rodney J. Jing Michael F. Lovenheim",
+                            "url": "https://www.semanticscholar.org/author/1403752062"
+                        }
+                    ],
+                    "doi": "10.3368/jhr.51.1.200",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "dcf6f3fef1c7879a67fad9dd20971fd349c1848c",
+                    "title": "Quantile Treatment Effects of College Quality on Earnings",
+                    "url": "https://www.semanticscholar.org/paper/dcf6f3fef1c7879a67fad9dd20971fd349c1848c",
+                    "venue": "",
+                    "year": 2012
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "73419290",
+                            "name": "Thomas J. Kane",
+                            "url": "https://www.semanticscholar.org/author/73419290"
+                        }
+                    ],
+                    "doi": "10.3386/w5164",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "82cdfb178127ee9f5e03f054910fbe8002b6a74e",
+                    "title": "Rising Public College Tuition and College Entry: How Well Do Public Subsidies Promote Access to College?",
+                    "url": "https://www.semanticscholar.org/paper/82cdfb178127ee9f5e03f054910fbe8002b6a74e",
+                    "venue": "",
+                    "year": 1995
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "2609569",
+                            "name": "Mark L. Hoekstra",
+                            "url": "https://www.semanticscholar.org/author/2609569"
+                        }
+                    ],
+                    "doi": "10.1162/rest.91.4.717",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "e042379b0f7147710b3a8ad8c30b8499c1544ec5",
+                    "title": "The Effect of Attending the Flagship State University on Earnings: A Discontinuity-Based Approach",
+                    "url": "https://www.semanticscholar.org/paper/e042379b0f7147710b3a8ad8c30b8499c1544ec5",
+                    "venue": "The Review of Economics and Statistics",
+                    "year": 2009
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "40690791",
+                            "name": "Bruce D. Meyer",
+                            "url": "https://www.semanticscholar.org/author/40690791"
+                        },
+                        {
+                            "authorId": "47603797",
+                            "name": "James X. Sullivan",
+                            "url": "https://www.semanticscholar.org/author/47603797"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "3c0cfff32ddac20e6f9e061183246c52ef361dea",
+                    "title": "The Material Well-Being of the Poor and the Middle Class since 1980",
+                    "url": "https://www.semanticscholar.org/paper/3c0cfff32ddac20e6f9e061183246c52ef361dea",
+                    "venue": "",
+                    "year": 2011
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "116953880",
+                            "name": "John A. Bound",
+                            "url": "https://www.semanticscholar.org/author/116953880"
+                        },
+                        {
+                            "authorId": "3685445",
+                            "name": "Michael F. Lovenheim",
+                            "url": "https://www.semanticscholar.org/author/3685445"
+                        },
+                        {
+                            "authorId": "50527284",
+                            "name": "Sarah Turner",
+                            "url": "https://www.semanticscholar.org/author/50527284"
+                        }
+                    ],
+                    "doi": "10.1162/EDFP_a_00074",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "23cf11bf1a6d194392ae1df61c6c3d3779434849",
+                    "title": "Increasing Time to Baccalaureate Degree in the United States",
+                    "url": "https://www.semanticscholar.org/paper/23cf11bf1a6d194392ae1df61c6c3d3779434849",
+                    "venue": "Education Finance and Policy",
+                    "year": 2010
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "48389837",
+                            "name": "Matthew Johnson",
+                            "url": "https://www.semanticscholar.org/author/48389837"
+                        }
+                    ],
+                    "doi": "10.1086/669964",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "75385a56d742acf505962b15cfb81e523583b16d",
+                    "title": "Borrowing Constraints, College Enrollment, and Delayed Entry",
+                    "url": "https://www.semanticscholar.org/paper/75385a56d742acf505962b15cfb81e523583b16d",
+                    "venue": "",
+                    "year": 2013
+                }
+            ],
+            "title": "ProPelled: The Effects of Grants on Graduation, Earnings, and Welfare",
+            "topics": [],
+            "url": "https://www.semanticscholar.org/paper/f2c21ec7da41b3f06f7b86d3cbd494974f4fbf73",
+            "venue": "",
+            "year": 2017
+        },
         "Unpaywall": {
             "best_oa_location": {
                 "endpoint_id": "84d9e3e5b89b788a65e",
@@ -4070,23 +5112,24 @@
                 "license": null,
                 "pmh_id": "oai:econstor.eu:10419/172242",
                 "repository_institution": "Econstor - Econstor",
-                "updated": "2019-12-22T02:24:09.859311",
+                "updated": "2020-02-21T14:09:22.786736",
                 "url": "https://www.econstor.eu/bitstream/10419/172242/1/17-280.pdf",
                 "url_for_landing_page": "http://hdl.handle.net/10419/172242",
                 "url_for_pdf": "https://www.econstor.eu/bitstream/10419/172242/1/17-280.pdf",
                 "version": "submittedVersion"
             },
             "data_standard": 2,
-            "doi": "10.2139/ssrn.3068025",
-            "doi_url": "https://doi.org/10.2139/ssrn.3068025",
+            "doi": "10.1257/app.20180100",
+            "doi_url": "https://doi.org/10.1257/app.20180100",
             "genre": "journal-article",
             "has_repository_copy": true,
             "is_oa": true,
+            "is_paratext": false,
             "journal_is_in_doaj": false,
             "journal_is_oa": false,
-            "journal_issn_l": "1556-5068",
-            "journal_issns": "1556-5068",
-            "journal_name": "SSRN Electronic Journal",
+            "journal_issn_l": "1945-7790",
+            "journal_issns": "1945-7782,1945-7790",
+            "journal_name": "American Economic Journal: Applied Economics",
             "oa_locations": [
                 {
                     "endpoint_id": "84d9e3e5b89b788a65e",
@@ -4096,7 +5139,7 @@
                     "license": null,
                     "pmh_id": "oai:econstor.eu:10419/172242",
                     "repository_institution": "Econstor - Econstor",
-                    "updated": "2019-12-22T02:24:09.859311",
+                    "updated": "2020-02-21T14:09:22.786736",
                     "url": "https://www.econstor.eu/bitstream/10419/172242/1/17-280.pdf",
                     "url_for_landing_page": "http://hdl.handle.net/10419/172242",
                     "url_for_pdf": "https://www.econstor.eu/bitstream/10419/172242/1/17-280.pdf",
@@ -4110,7 +5153,7 @@
                     "license": null,
                     "pmh_id": "oai:econstor.eu:10419/185252",
                     "repository_institution": "Econstor - Econstor",
-                    "updated": "2019-12-14T09:42:12.310234",
+                    "updated": "2020-02-28T15:00:14.380762",
                     "url": "https://www.econstor.eu/bitstream/10419/185252/1/dp11792.pdf",
                     "url_for_landing_page": "http://hdl.handle.net/10419/185252",
                     "url_for_pdf": "https://www.econstor.eu/bitstream/10419/185252/1/dp11792.pdf",
@@ -4124,7 +5167,7 @@
                     "license": null,
                     "pmh_id": "oai:RePEc:upj:weupjo:17-280",
                     "repository_institution": null,
-                    "updated": "2019-10-18T02:33:57.683290",
+                    "updated": "2020-02-25T01:47:10.329820",
                     "url": "http://research.upjohn.org/cgi/viewcontent.cgi?article=1298&context=up_workingpapers",
                     "url_for_landing_page": "http://research.upjohn.org/cgi/viewcontent.cgi?article=1298&context=up_workingpapers",
                     "url_for_pdf": "http://research.upjohn.org/cgi/viewcontent.cgi?article=1298&context=up_workingpapers",
@@ -4138,7 +5181,7 @@
                     "license": null,
                     "pmh_id": "oai:research.upjohn.org:up_workingpapers-1298",
                     "repository_institution": null,
-                    "updated": "2019-12-24T23:49:27.116263",
+                    "updated": "2020-02-19T07:40:33.707023",
                     "url": "https://research.upjohn.org/cgi/viewcontent.cgi?article=1298&context=up_workingpapers",
                     "url_for_landing_page": "https://research.upjohn.org/cgi/viewcontent.cgi?article=1298&context=up_workingpapers",
                     "url_for_pdf": "https://research.upjohn.org/cgi/viewcontent.cgi?article=1298&context=up_workingpapers",
@@ -4146,31 +5189,44 @@
                 }
             ],
             "oa_status": "green",
-            "published_date": "2017-01-01",
-            "publisher": "Elsevier BV",
+            "published_date": "2019-07-01",
+            "publisher": "American Economic Association",
             "title": "ProPelled: The Effects of Grants on Graduation, Earnings, and Welfare",
-            "updated": "2019-12-26T04:56:14.420178",
-            "year": 2017,
+            "updated": "2020-02-11T01:50:48.008616",
+            "year": 2019,
             "z_authors": [
                 {
+                    "affiliation": [
+                        {
+                            "name": "Department of Economics, Brigham Young University, 435N CTB, Provo, UT 84602, and IZA (email: )"
+                        }
+                    ],
                     "family": "Denning",
-                    "given": "Jeffrey T"
+                    "given": "Jeffrey T.",
+                    "sequence": "first"
                 },
                 {
+                    "affiliation": [
+                        {
+                            "name": "Department of Economics, University of Illinois at Urbana-Champaign, 214 David Kinley Hall, 1407 W. Gregory, Urbana, IL 61801, MC-707 (email: )"
+                        }
+                    ],
                     "family": "Marx",
-                    "given": "Benjamin M."
+                    "given": "Benjamin M.",
+                    "sequence": "additional"
                 },
                 {
+                    "affiliation": [
+                        {
+                            "name": "Department of Economics, University of Maryland, 3114 Tydings Hall, College Park, MD 20742, NBER, and CESifo (email: )"
+                        }
+                    ],
                     "family": "Turner",
-                    "given": "Lesley"
+                    "given": "Lesley J.",
+                    "sequence": "additional"
                 }
             ]
         },
-        "authors": [
-            "author-a073c1a3cffae97ffe98",
-            "author-6f1fa51444dd2142c403",
-            "author-cf9b854200195717557b"
-        ],
         "datasets": [
             "dataset-099"
         ],
@@ -4178,18 +5234,21 @@
             "paper": {
                 "authors": [
                     {
+                        "affiliation": "Department of Economics, Brigham Young University, 435N CTB, Provo, UT 84602, and IZA (email: )",
                         "name": {
                             "first": "Jeffrey T.",
                             "last": "Denning"
                         }
                     },
                     {
+                        "affiliation": "Department of Economics, University of Illinois at Urbana-Champaign, 214 David Kinley Hall, 1407 W. Gregory, Urbana, IL 61801, MC-707 (email: )",
                         "name": {
                             "first": "Benjamin M.",
                             "last": "Marx"
                         }
                     },
                     {
+                        "affiliation": "Department of Economics, University of Maryland, 3114 Tydings Hall, College Park, MD 20742, NBER, and CESifo (email: )",
                         "name": {
                             "first": "Lesley J.",
                             "last": "Turner"
@@ -4197,9 +5256,30 @@
                     }
                 ],
                 "classification": "OK",
-                "date": "2017-09-01",
+                "date": "2017-01-01",
                 "pdf_url": "https://www.econstor.eu/bitstream/10419/172242/1/17-280.pdf",
                 "records": [
+                    {
+                        "abstract": "",
+                        "doi": "10.1257/app.20180100",
+                        "identifier": "oai:crossref.org:10.1257/app.20180100",
+                        "issn": "1945-7782",
+                        "issue": "3",
+                        "journal": "American Economic Journal: Applied Economics",
+                        "pages": "193-224",
+                        "pdf_url": "",
+                        "policy": {
+                            "postprint": "can",
+                            "preprint": "can",
+                            "published": "can",
+                            "romeo_id": "5"
+                        },
+                        "publisher": "American Economic Association",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.1257/app.20180100",
+                        "type": "journal-article",
+                        "volume": "11"
+                    },
                     {
                         "doi": "10.2139/ssrn.3068025",
                         "identifier": "oadoi:https://www.econstor.eu/bitstream/10419/172242/1/17-280.pdf",
@@ -4212,6 +5292,7 @@
                         "doi": "10.2139/ssrn.3068025",
                         "identifier": "oai:crossref.org:10.2139/ssrn.3068025",
                         "journal": "SSRN Electronic Journal ",
+                        "pdf_url": "",
                         "policy": {
                             "postprint": "can",
                             "preprint": "can",
@@ -4229,7 +5310,7 @@
             },
             "status": "ok"
         },
-        "doi": "10.2139/ssrn.3068025",
+        "doi": "10.1257/app.20180100",
         "original": {
             "date_added": "2019-11-27 12:25:58",
             "doi": "10.2139/ssrn.3068025",
@@ -4284,7 +5365,6 @@
                     "last_name": "Jillson"
                 }
             ],
-            "score": 15.767674,
             "title": "Lone Star Tarnished",
             "type": "monograph",
             "year": 2018
@@ -4311,9 +5391,6 @@
             "year": 2018,
             "z_authors": null
         },
-        "authors": [
-            "author-f02349064f902b3e1cc5"
-        ],
         "datasets": [
             "dataset-099"
         ],
@@ -4439,6 +5516,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30017",
                     "name": "C17 Business and Management Studies"
@@ -4612,7 +5695,6 @@
                     ]
                 }
             ],
-            "score": 20.447367,
             "terms": [
                 "employment",
                 "electricity generation",
@@ -4784,12 +5866,6 @@
                 }
             ]
         },
-        "abstract": "Employment in electricity generation from renewable resources has expanded rapidly in the US and in Texas during the last decade. Availability of the Production Tax Credit (PTC) has been an important driver of this growth. Using establishment-level employment and payroll data for Texas at the North American Industrial Classification System (NAICS)-6 level, we analyse the differences in average wages between firms generating electricity from fossil fuels and those generating electricity from wind power. We compare relative average wages before and after the rapid expansion of wind power development that followed the ex ante renewal of the PTC in 2006. Our main finding using both the parametric and nonparametric estimation techniques proposed by Racine and Li (2004), is that average payrolls for wind power generators increased relative to fossil fuel-based electricity generators after 2006.",
-        "authors": [
-            "author-218d7b4f19d014053307",
-            "author-54ddd95820f38987319f",
-            "author-9444da4a7ddbe3d0df9c"
-        ],
         "datasets": [
             "dataset-099"
         ],
@@ -5034,6 +6110,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "localization economies",
                 "economy",
@@ -5078,7 +6160,7 @@
             "date": "2012-07-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.regsciurbeco.2012.03.001",
-            "field_citation_ratio": 16.45,
+            "field_citation_ratio": 16.36,
             "id": "pub.1049818572",
             "issn": [
                 "0166-0462",
@@ -5277,7 +6359,6 @@
                     ]
                 }
             ],
-            "score": 17.965357,
             "terms": [
                 "localization economies",
                 "economy",
@@ -6380,11 +7461,6 @@
                 }
             ]
         },
-        "abstract": "If localization economies are present, firms within denser industry concentrations should exhibit higher levels of performance than more isolated firms. Nevertheless, research in industrial organization that has focused on the influences on firm survival has largely ignored the potential effects from agglomeration. Recent studies in urban and regional economics suggest that agglomeration effects may be very localized. Analyses of industry concentration at the MSA or county-level may fail to detect important elements of intra-industry firm interaction that occur at the sub-MSA level. Using a highly detailed dataset on firm locations and characteristics for Texas, this paper analyses agglomeration effects on firm survival over geographic areas as small as a single mile radius. We find that greater firm density within very close proximity (within 1mile) of firms in the same industry increases mortality rates while greater concentration over larger distances reduces mortality rates.",
-        "authors": [
-            "author-218d7b4f19d014053307",
-            "author-54ddd95820f38987319f"
-        ],
         "datasets": [
             "dataset-099"
         ],
@@ -6496,7 +7572,6 @@
                     "last_name": "Jillson"
                 }
             ],
-            "score": 15.767674,
             "title": "Lone Star Tarnished",
             "type": "monograph",
             "year": 2018
@@ -6504,8 +7579,8 @@
         "Unpaywall": {
             "best_oa_location": null,
             "data_standard": 2,
-            "doi": "10.4324/9781315121208",
-            "doi_url": "https://doi.org/10.4324/9781315121208",
+            "doi": "10.4324/9780203126141",
+            "doi_url": "https://doi.org/10.4324/9780203126141",
             "genre": "book",
             "has_repository_copy": false,
             "is_oa": false,
@@ -6516,38 +7591,17 @@
             "journal_name": null,
             "oa_locations": [],
             "oa_status": "closed",
-            "published_date": "2018-01-02",
+            "published_date": "2012-03-22",
             "publisher": "Routledge",
             "title": "Lone Star Tarnished",
-            "updated": "2018-06-18T03:51:28.142101",
-            "year": 2018,
+            "updated": "2018-07-04T06:56:05.494332",
+            "year": 2012,
             "z_authors": null
         },
-        "authors": [
-            "author-f02349064f902b3e1cc5"
-        ],
         "datasets": [
             "dataset-099"
         ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "name": {
-                            "first": "Cal",
-                            "last": "Jillson"
-                        }
-                    }
-                ],
-                "classification": "UNK",
-                "date": "2018-01-02",
-                "records": [],
-                "title": "Lone Star Tarnished: A Critical Look at Texas Politics and Public Policy",
-                "type": "other"
-            },
-            "status": "ok"
-        },
-        "doi": "10.4324/9781315121208",
+        "doi": "10.4324/9780203126141",
         "original": {
             "date_added": "2019-11-27 12:25:58",
             "doi": "10.4324/9780203126141",
@@ -6735,11 +7789,6 @@
                 }
             ]
         },
-        "abstract": "If localized knowledge spillovers are present in the university setting, higher rates of both start-ups and/or survival than in the broader economy would be observed in areas that are geographically proximate to the university. Using a fully-disclosed Quarterly Census of Employment and Wages for Texas for the years 1999:3-2006:2, this paper analyzes start-ups and exit rates for high-tech firms in Texas. We find that there is evidence that the presence of a research institution will affect the likelihood of technology start-ups. However, results suggest that geographic proximity to knowledge centers does not reduce hazard rates.",
-        "authors": [
-            "author-218d7b4f19d014053307",
-            "author-54ddd95820f38987319f"
-        ],
         "datasets": [
             "dataset-099"
         ],
@@ -6914,6 +7963,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "paper",
                 "possible storm",
@@ -7046,8 +8101,6 @@
                     ]
                 }
             ],
-            "score": 19.587162,
-            "sf01": "SN",
             "terms": [
                 "paper",
                 "possible storm",
@@ -7180,10 +8233,6 @@
                 }
             ]
         },
-        "abstract": "This paper examines the possible storm surge damage from a major hurricane to hit the Houston Metropolitan Statistical Area (MSA.) Using storm surge analysis on a unique data set compiled from the Texas Workforce Commission (QCEW), the paper estimates the expected industry-level damage for each county in the Houston MSA. The advantages of using GIS to analyze the expected storm surge damage estimation is that it provides an accurate estimation of the number of affected employees and probable wages losses, by industry and county, based on QCEW data. The results indicate that the ‘Basic Chemical Manufacturing’ and ‘Oil and Gas Extraction’ industries incur the highest employee and payroll losses while the ‘Restaurants and Eateries’ has the largest establishment damage if a major hurricane were to hit the Houston MSA.",
-        "authors": [
-            "author-9444da4a7ddbe3d0df9c"
-        ],
         "datasets": [
             "dataset-099"
         ],
@@ -7347,6 +8396,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "localization economies",
                 "economy",
@@ -7391,7 +8446,7 @@
             "date": "2011-01-01",
             "date_inserted": "2018-04-06",
             "doi": "10.2139/ssrn.1912506",
-            "field_citation_ratio": 1.41,
+            "field_citation_ratio": 1.4,
             "id": "pub.1102321341",
             "issn": [
                 "1556-5068"
@@ -7424,58 +8479,58 @@
             "publisher": "Elsevier",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1003052588",
-                "pub.1035874140",
-                "pub.1058575244",
-                "pub.1049972457",
-                "pub.1045075682",
-                "pub.1007076657",
-                "pub.1036272544",
-                "pub.1069766023",
-                "pub.1069765708",
-                "pub.1051303100",
-                "pub.1000096065",
                 "pub.1069649678",
+                "pub.1069991244",
                 "pub.1058574901",
+                "pub.1069766023",
+                "pub.1035874140",
+                "pub.1051303100",
                 "pub.1061833257",
+                "pub.1069443191",
+                "pub.1025974079",
+                "pub.1045075682",
+                "pub.1073326300",
+                "pub.1003052588",
+                "pub.1049972457",
+                "pub.1007623422",
+                "pub.1000096065",
+                "pub.1069765708",
+                "pub.1000532046",
                 "pub.1069766126",
                 "pub.1058575494",
-                "pub.1007623422",
-                "pub.1000532046",
-                "pub.1025974079",
-                "pub.1069443191",
-                "pub.1070139581",
-                "pub.1010935190",
-                "pub.1069991244",
                 "pub.1046690993",
-                "pub.1073326300"
+                "pub.1058575244",
+                "pub.1036272544",
+                "pub.1070139581",
+                "pub.1007076657",
+                "pub.1010935190"
             ],
             "references": [
-                "pub.1003052588",
-                "pub.1035874140",
-                "pub.1058575244",
-                "pub.1049972457",
-                "pub.1045075682",
-                "pub.1007076657",
-                "pub.1036272544",
-                "pub.1069766023",
-                "pub.1069765708",
-                "pub.1051303100",
-                "pub.1000096065",
                 "pub.1069649678",
+                "pub.1069991244",
                 "pub.1058574901",
+                "pub.1069766023",
+                "pub.1035874140",
+                "pub.1051303100",
                 "pub.1061833257",
+                "pub.1069443191",
+                "pub.1025974079",
+                "pub.1045075682",
+                "pub.1073326300",
+                "pub.1003052588",
+                "pub.1049972457",
+                "pub.1007623422",
+                "pub.1000096065",
+                "pub.1069765708",
+                "pub.1000532046",
                 "pub.1069766126",
                 "pub.1058575494",
-                "pub.1007623422",
-                "pub.1000532046",
-                "pub.1025974079",
-                "pub.1069443191",
-                "pub.1070139581",
-                "pub.1010935190",
-                "pub.1069991244",
                 "pub.1046690993",
-                "pub.1073326300"
+                "pub.1058575244",
+                "pub.1036272544",
+                "pub.1070139581",
+                "pub.1007076657",
+                "pub.1010935190"
             ],
             "research_org_cities": [
                 {
@@ -7556,7 +8611,6 @@
                     ]
                 }
             ],
-            "score": 14.41167,
             "terms": [
                 "localization economies",
                 "economy",
@@ -8843,11 +9897,6 @@
                 }
             ]
         },
-        "abstract": "If localization economies are present, firms within denser industry concentrations should exhibit higher levels of performance than more isolated firms. Nevertheless, research in industrial organization that has focused on the influences on firm survival has largely ignored the potential effects from agglomeration. Recent studies in urban and regional economics suggests that agglomeration effects may be very localized. Analyses of industry concentration at the MSA or county-level may fail to detect important elements of intra-industry firm interaction that occur at the sub-MSA level. Using a highly detailed dataset on firm locations and characteristics for Texas, this paper analyses agglomeration effects on firm survival over geographic areas as small as a single mile radius. We find that greater firm density within very close proximity (within 1 mile) of firms in the same industry increases mortality rates while greater concentration over larger distances reduces mortality rates.",
-        "authors": [
-            "author-218d7b4f19d014053307",
-            "author-54ddd95820f38987319f"
-        ],
         "datasets": [
             "dataset-099"
         ],
@@ -9121,6 +10170,12 @@
                     "name": "C16 Economics and Econometrics"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30016",
+                    "name": "C16 Economics and Econometrics"
+                }
+            ],
             "concepts": [
                 "objective",
                 "paper",
@@ -9321,7 +10376,6 @@
                     "last_name": "Vargas"
                 }
             ],
-            "score": 18.933075,
             "terms": [
                 "objective",
                 "paper",
@@ -9462,14 +10516,6 @@
                 }
             ]
         },
-        "abstract": "The objective of this paper is to employ the Hurricane Katrina evacuation into Houston, TX as a natural experiment to estimate the effect of large scale in-migration on regional earnings. Given the characteristics of the evacuees, their influx would have caused the supply of applicants for lower skilled jobs to increase proportionately more than for higher skilled jobs. We utilize a differences-in-differences-in-differences methodology in which we compare differences in average earnings in the low-skill, non-traded goods industries to the corresponding differences in the set of high skill industries in the Houston and Dallas-Fort Worth MSAs before and after the Katrina-induced migration. Unlike previous studies, we include a measure of the post-storm increase in demand for local goods and services on the demand for labor. We find evidence that the relative average payroll in the low-skill non-tradable goods industries in Houston decreased by .7% when compared to the relative change for the same group of industries in Dallas. Our findings also suggest that failure to account for demand-side influences following the migration results in significant under-estimation of wage effects due to the shift in labor supply.",
-        "authors": [
-            "author-218d7b4f19d014053307",
-            "author-54ddd95820f38987319f",
-            "author-bf16da39bab3b903eaf3",
-            "author-9444da4a7ddbe3d0df9c",
-            "author-d7515d12f6d3efbc89cc"
-        ],
         "datasets": [
             "dataset-099"
         ],
@@ -9649,6 +10695,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "knowledge spillovers",
                 "spillovers",
@@ -9792,7 +10844,6 @@
                     ]
                 }
             ],
-            "score": 17.96245,
             "terms": [
                 "knowledge spillovers",
                 "spillovers",
@@ -9867,10 +10918,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-218d7b4f19d014053307",
-            "author-54ddd95820f38987319f"
-        ],
         "datasets": [
             "dataset-099"
         ],
@@ -10020,8 +11067,6 @@
             ],
             "pages": "55-59",
             "publisher": "SAGE Publications",
-            "score": 21.061937,
-            "sf01": "SN",
             "terms": [
                 "role",
                 "state policies",
@@ -10088,10 +11133,6 @@
                 }
             ]
         },
-        "abstract": null,
-        "authors": [
-            "author-7065b9c39bac63611941"
-        ],
         "datasets": [
             "dataset-099"
         ],
@@ -10219,6 +11260,12 @@
                     "name": "A03 Allied Health Professions, Dentistry, Nursing and Pharmacy"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30003",
+                    "name": "A03 Allied Health Professions, Dentistry, Nursing and Pharmacy"
+                }
+            ],
             "concepts": [
                 "unemployment",
                 "education issues",
@@ -10336,7 +11383,6 @@
                     ]
                 }
             ],
-            "score": 15.372894,
             "terms": [
                 "unemployment",
                 "education issues",
@@ -10452,10 +11498,6 @@
                 }
             ]
         },
-        "abstract": "Abstract Unemployment and workforce education issues are discussed within the context of the U.S.‐Mexican borderlands. The emphasis in the discussion is on workers who have been displaced by the North American Free Trade Agreement (NAFTA) and on those programs that have been implemented to assist them with job retraining. The conclusion is that workforce education in the borderlands must change in order to embrace the challenge of working with a population that is unique in its characteristics. Recommendations for change are made, including the implementation of bilingual programs and increased responsibility on the part of industry for retraining efforts.",
-        "authors": [
-            "author-a1a482dfb6c7b7a11d5b"
-        ],
         "datasets": [
             "dataset-099"
         ],
@@ -10557,10 +11599,6 @@
                 }
             ]
         },
-        "abstract": "This chapter describes the development of a two-year college's ability to track students, with particular emphasis on applying this capability to evaluating developmental education.",
-        "authors": [
-            "author-626b0215acf0822431e0"
-        ],
         "datasets": [
             "dataset-099"
         ],

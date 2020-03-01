@@ -93,6 +93,12 @@
                     "name": "B12 Engineering"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
+                }
+            ],
             "concepts": [
                 "North Carolina coastal waters",
                 "water",
@@ -119,7 +125,7 @@
             "date": "2016-11-18",
             "date_inserted": "2017-08-31",
             "doi": "10.3390/jmse4040079",
-            "field_citation_ratio": 0.2,
+            "field_citation_ratio": 0.19,
             "funder_countries": [
                 {
                     "id": "US",
@@ -254,7 +260,6 @@
                     ]
                 }
             ],
-            "score": 23.992329,
             "terms": [
                 "North Carolina coastal waters",
                 "water",
@@ -1085,11 +1090,6 @@
                 }
             ]
         },
-        "abstract": "In support of the National Oceanic and Atmospheric Administration’s VDatum program, a new version of a tidal datum product for the North Carolina coastal waters has been developed to replace the initial version released in 2004. Compared with the initial version, the new version used a higher resolution grid to cover more areas and incorporated up-to-date tide, bathymetry, and shoreline data. Particularly, the old bathymetry datasets that were collected from the 1930s to the 1970s and were used in the initial version have been replaced by the new bathymetry datasets collected in the 2010s in the new version around five North Carolina inlets. This study aims at evaluating and quantifying tidal datum changes induced by morphological changes over about 40 to 80 years around the inlets. A series of tidal simulations with either the old or new bathymetry datasets used around five inlets were conducted to quantify the consequent tidal datum changes. The results showed that around certain inlets, approximately 10% change in the averaged depth could result in over 30% change in the tidal datum magnitude. Further investigation also revealed that tidal datum changes behind the barrier islands are closely associated with the cross-inlet tidal flux changes.",
-        "authors": [
-            "author-0ff14408d240a7888272",
-            "author-c8216636180f092474fc"
-        ],
         "datasets": [
             "dataset-614",
             "dataset-714"
@@ -1546,6 +1546,12 @@
                     "name": "B12 Engineering"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
+                }
+            ],
             "concepts": [
                 "VDatum",
                 "uncertainty study",
@@ -1596,7 +1602,7 @@
             "date": "2018-10-11",
             "date_inserted": "2018-10-14",
             "doi": "10.3390/jmse6040114",
-            "field_citation_ratio": 0.49,
+            "field_citation_ratio": 0.47,
             "id": "pub.1107573123",
             "issn": [
                 "2077-1312"
@@ -1766,7 +1772,6 @@
                     ]
                 }
             ],
-            "score": 27.613556,
             "terms": [
                 "VDatum",
                 "uncertainty study",
@@ -2808,17 +2813,6 @@
                 }
             ]
         },
-        "abstract": "We conducted a VDatum-spatially varying uncertainty study for the North-East Gulf of Mexico. The newly developed tide model incorporated the latest available National Ocean Service (NOS) bathymetry survey data and National Geodetic Survey (NGS) shoreline data, and the datum products reflected the updated tidal datum data from the Center for Operational Oceanographic Products and Services (CO-OPS). A gridding technique based on the wavelength of long waves in the deep ocean was applied to improve model efficiency. In this study, we highlight the creation of the tidal datum products and associated spatially varying uncertainty, which was developed by blending the model results, observations, and measurement errors together using a spatially varying uncertainty method based on a variational approach. The study found that model errors, measurement errors, and lack of observations can contribute to large uncertainty in the tidal datum products. The need for high quality bathymetry data in coastal areas is essential for reducing model error. As for the large uncertainty due to lack of observations or large measurement error, this can be improved by placement of new observations with high precision. Compared to a single uncertainty value, the spatially varying uncertainty provides more accurate representation of the uncertainty for the tidal datum products in VDatum. The uncertainty results will be used to help with decision-making on placement of new tide gauges to further reduce the uncertainty in the VDatum products.",
-        "authors": [
-            "author-651e4a3fcd69ab8e877e",
-            "author-c8216636180f092474fc",
-            "author-e27402f4a1d86a82c9fc",
-            "author-a73cf5de5c0d66fc5ea8",
-            "author-9a7cf45b26470fbd55b6",
-            "author-89ee70e1ffaa22d14b77",
-            "author-8b76df39dcaada46b5e2",
-            "author-c499d69d5090944f41a1"
-        ],
         "datasets": [
             "dataset-614",
             "dataset-819",
@@ -3063,6 +3057,12 @@
                     "name": "B11 Computer Science and Informatics"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30011",
+                    "name": "B11 Computer Science and Informatics"
+                }
+            ],
             "concepts": [
                 "tidal data",
                 "components",
@@ -3183,7 +3183,6 @@
                 "pub.1052690863",
                 "pub.1029609124"
             ],
-            "score": 27.266455,
             "terms": [
                 "tidal data",
                 "components",
@@ -3385,15 +3384,6 @@
                 }
             ]
         },
-        "abstract": "Tidal datums are key components in NOAA’s Vertical Datum transformation project (VDatum), which enables effective vertical transformation of the water level between tidal, orthometric, and ellipsoid -based three-dimensional reference systems. An initial application of modeling tidal datums was developed for the coastal waters of Texas and western Louisiana in 2013. The goals of the current work include: (1) updating the tidal model by using the best available shoreline, bathymetry, and tide station data; (2) implementing a recently developed statistical interpolation method for interpolating modeled tidal datums and computing tidal datum uncertainties; and (3) using modeled tidal datums to upgrade non-tidal polygons for enhancing the quality of the VDatum marine grid population. The updated tidal model outperformed the previous tidal model in most cases. The statistical interpolation method is able to limit the interpolated tidal datums to within a user-defined model error (0.01 m in this work) and produce a spatially varying uncertainty field for each interpolated tidal datum field. The upgraded non-tidal polygons enhanced the quality of the VDatum marine grid population. This paper will introduce the detailed procedures of this modeling work, present and discuss the obtained results, share the effective methods used for improving model performance and lessons learned in the model assessments, and analyze the improvement of the current tidal model in comparison with the previous tidal model.",
-        "authors": [
-            "author-28e36f9572922c8578be",
-            "author-c8216636180f092474fc",
-            "author-e27402f4a1d86a82c9fc",
-            "author-a73cf5de5c0d66fc5ea8",
-            "author-89ee70e1ffaa22d14b77",
-            "author-8b76df39dcaada46b5e2"
-        ],
         "datasets": [
             "dataset-614",
             "dataset-631",
@@ -3492,11 +3482,6 @@
             "open": false,
             "url": "http://dx.doi.org/10.7289/v5/tr-nos-coops-085"
         },
-        "authors": [
-            "author-7b6a1856109ea77c26ff",
-            "author-1b600cbbaea10931b88c",
-            "author-ebde7b3e96242ceb5398"
-        ],
         "datasets": [
             "dataset-614"
         ],
@@ -3618,6 +3603,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "National Oceanic",
                 "Oceanic",
@@ -3733,7 +3724,6 @@
                 "pub.1008521531",
                 "pub.1029609124"
             ],
-            "score": 22.642597,
             "terms": [
                 "National Oceanic",
                 "Oceanic",
@@ -4656,13 +4646,6 @@
                 }
             ]
         },
-        "abstract": "National Oceanic and Atmospheric Administration’s National Ocean Service uses observations, hydrodynamic models and interpolation techniques to develop many of its products and services. We examine how two projects, computation of tidal datums for vertical datum transformation and the estimation of tidal characteristics for hydrographic surveys, are being developed in Alaska and how they may be more seamlessly integrated. Preliminary VDatum development for Alaska is in progress for the Alaska Panhandle through the setup of a high resolution tide model that will be used to compute spatially varying tidal datums. Tide models such as these can be used for other projects that traditionally rely on estimation of tides in between data locations, such as the planning for hydrographic surveys that need correctors to adjust bathymetry to the chart datum. We therefore also examine how an existing model in western Alaska can be used for better supporting hydrographic survey planning. The results show that integration of tide models with nearshore observations can provide improved information for these correctors and future work will further evaluate this methodology with existing VDatum tide models.",
-        "authors": [
-            "author-e27402f4a1d86a82c9fc",
-            "author-0ff14408d240a7888272",
-            "author-c8216636180f092474fc",
-            "author-1b600cbbaea10931b88c"
-        ],
         "datasets": [
             "dataset-614",
             "dataset-631"
@@ -4841,6 +4824,12 @@
                     "name": "B12 Engineering"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
+                }
+            ],
             "concepts": [
                 "tidal data",
                 "data",
@@ -4884,7 +4873,7 @@
             "date": "2016-09-22",
             "date_inserted": "2017-08-31",
             "doi": "10.3390/jmse4040064",
-            "field_citation_ratio": 2.08,
+            "field_citation_ratio": 2.05,
             "funder_countries": [
                 {
                     "id": "US",
@@ -5012,7 +5001,6 @@
                     "last_name": "Myers"
                 }
             ],
-            "score": 22.043861,
             "terms": [
                 "tidal data",
                 "data",
@@ -5581,11 +5569,6 @@
                 }
             ]
         },
-        "abstract": "Tidal datums are key components in NOAA’s Vertical Datum transformation project (VDatum). In this paper, we propose a statistical interpolation method, derived from the variational principle, to calculate tidal datums by blending the modeled and the observed tidal datums. Through the implementation of this statistical interpolation method in the Chesapeake and Delaware Bays, we conclude that the statistical interpolation method for tidal datums has great advantages over the currently used deterministic interpolation method. The foremost, and inherent, advantage of the statistical interpolation is its capability to integrate data from different sources and with different accuracies without concern for their relative spatial locations. The second advantage is that it provides a spatially varying uncertainty for the entire domain in which data is being integrated. The latter is especially helpful for the decision-making process of where new instruments would be most effectively placed. Lastly, the test case results show that the statistical interpolation reduced the bias, maximum absolute error, mean absolute error, and root mean square error in comparison to the current deterministic approach.",
-        "authors": [
-            "author-e27402f4a1d86a82c9fc",
-            "author-c8216636180f092474fc"
-        ],
         "datasets": [
             "dataset-614"
         ],
@@ -5813,6 +5796,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "estuary",
                 "land-surface",
@@ -5896,7 +5885,7 @@
             "date": "2018-08-01",
             "date_inserted": "2018-03-20",
             "doi": "10.1007/s11852-018-0605-1",
-            "field_citation_ratio": 0.64,
+            "field_citation_ratio": 0.62,
             "funder_countries": [
                 {
                     "id": "US",
@@ -6113,8 +6102,6 @@
                     ]
                 }
             ],
-            "score": 18.948732,
-            "sf01": "SN",
             "terms": [
                 "estuary",
                 "land-surface",
@@ -7436,12 +7423,6 @@
                 }
             ]
         },
-        "abstract": "In estuaries, land-surface and tidal elevation conspire to influence the amount of salt-water inundation in a specific location, ultimately affecting the distribution of estuary vegetation. Plants vary in their tolerances to salinity and inundation. Understanding even small changes in land-surface elevation at a site scale provides relevant information to managers seeking to design effective long-term restoration projects. Restoration of estuary habitats has been identified as a tool to mediate some anticipated effects of climate change, including flooding from sea-level rise, precipitation regimes, and storminess. Further, habitat restoration that is effective in the face of climate uncertainty is critical to the sustainable production of seafood and maintenance of ecosystem functions. We offer a simple method that links tidal elevations to upslope topography, allowing managers to determine where tidal inundation of upslope areas may occur. This method does not require complex modeling, rather we combine existing high-accuracy tide-gage information with LiDAR imagery. However, we found that if LiDAR is not flown at low tide, or at consistent tidal heights, it poses significant challenges in the interpretation of tidal elevations. Where LiDAR is consistently collected at low tide, this method of linking the tidal datum to upslope topography is not data-intensive, and does not require long-term data collection. Along with locally specific information, the types of map products that can be developed using this method should identify places that may be potentially vulnerable to salt-water inundation, along with places that may be effective migration corridors for marshes and other habitats.",
-        "authors": [
-            "author-1c626af7c8986d311a9d",
-            "author-32e27ab48559973fe103",
-            "author-0a3c92763fd986e277ed"
-        ],
         "datasets": [
             "dataset-614",
             "dataset-756"
@@ -7680,6 +7661,12 @@
                     "name": "B12 Engineering"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
+                }
+            ],
             "concepts": [
                 "validation",
                 "western North Atlantic",
@@ -7741,7 +7728,7 @@
             "date": "2016-11-08",
             "date_inserted": "2017-08-31",
             "doi": "10.3390/jmse4040072",
-            "field_citation_ratio": 3.48,
+            "field_citation_ratio": 3.44,
             "funder_countries": [
                 {
                     "id": "US",
@@ -7921,6 +7908,7 @@
                     "id": "ur.012061251317.91",
                     "last_name": "Dresback",
                     "research_orgs": [
+                        "grid.131063.6",
                         "grid.410711.2",
                         "grid.266900.b"
                     ]
@@ -7930,9 +7918,9 @@
                     "id": "ur.01015116014.39",
                     "last_name": "Kolar",
                     "research_orgs": [
-                        "grid.131063.6",
                         "grid.410711.2",
-                        "grid.266900.b"
+                        "grid.266900.b",
+                        "grid.131063.6"
                     ]
                 },
                 {
@@ -7944,7 +7932,6 @@
                     ]
                 }
             ],
-            "score": 28.6376,
             "terms": [
                 "validation",
                 "western North Atlantic",
@@ -10365,14 +10352,6 @@
                 }
             ]
         },
-        "abstract": "This research details the development and validation of an updated constituent tidal database for the Western North Atlantic, Caribbean and Gulf of Mexico (WNAT) region, referred to as the EC2015 database. Regional databases, such as EC2015, provide much higher resolution than global databases allowing users to more accurately define the tidal forcing on smaller sub-region domains. The database last underwent major updates in 2001 and was developed using the two-dimensional, depth-integrated form of the coastal hydrodynamic model, ADvanced CIRCulation (ADCIRC), which solves the shallow-water equations in the generalized wave continuity equation form. Six main areas of improvement are examined: (1) placement of the open ocean boundary; (2) higher coastal resolution using Vertical Datum (VDatum) models; (3) updated bathymetry from global databases; (4) updated boundary forcing compared using two global tidal databases; (5) updated bottom friction formulations; and (6) improved model physics by incorporating the advective terms in ADCIRC. The skill of the improved database is compared to that of its predecessor and is calculated using harmonic data from the National Oceanic and Atmospheric Administration Center for Operational Oceanographic Products and Services (NOAA CO-OPS) stations and historic International Hydrographic Organization (IHO) data. Overall, the EC2015 database significantly reduces errors realized in the EC2001 database and improves the quality of coastal tidal constituents available for smaller sub-regional models in the Western North Atlantic, Caribbean and Gulf of Mexico (WNAT) region.",
-        "authors": [
-            "author-edad93f3dd7a5386f326",
-            "author-59ea15a353e9fb9562fe",
-            "author-2cd19e661ec0ee1e44ff",
-            "author-861923d7453f0682f387",
-            "author-0ff14408d240a7888272"
-        ],
         "datasets": [
             "dataset-614",
             "dataset-816"

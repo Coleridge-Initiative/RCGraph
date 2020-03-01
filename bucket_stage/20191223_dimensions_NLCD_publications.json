@@ -413,6 +413,12 @@
                     "name": "A05 Biological Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30005",
+                    "name": "A05 Biological Sciences"
+                }
+            ],
             "concepts": [
                 "exposure model",
                 "health effects",
@@ -669,17 +675,17 @@
                         "0000-0001-5146-0857"
                     ],
                     "research_orgs": [
-                        "grid.42505.36",
-                        "grid.137628.9",
-                        "grid.27860.3b",
-                        "grid.213917.f",
-                        "grid.17088.36",
-                        "grid.415702.5",
                         "grid.266093.8",
+                        "grid.137628.9",
+                        "grid.213917.f",
                         "grid.38142.3c",
                         "grid.35403.31",
+                        "grid.17088.36",
+                        "grid.19006.3e",
+                        "grid.27860.3b",
+                        "grid.42505.36",
                         "grid.4305.2",
-                        "grid.19006.3e"
+                        "grid.415702.5"
                     ]
                 },
                 {
@@ -687,25 +693,25 @@
                     "id": "ur.07451226057.78",
                     "last_name": "Vermeulen",
                     "research_orgs": [
-                        "grid.4567.0",
-                        "grid.24827.3b",
-                        "grid.7692.a",
                         "grid.7445.2",
-                        "grid.48336.3a",
-                        "grid.5477.1",
-                        "grid.1012.2",
-                        "grid.10992.33",
-                        "grid.416809.2",
-                        "grid.1002.3",
-                        "grid.47840.3f",
-                        "grid.4818.5",
-                        "grid.16872.3a",
-                        "grid.94365.3d",
-                        "grid.22459.38",
-                        "grid.5590.9",
                         "grid.430814.a",
+                        "grid.7692.a",
+                        "grid.24827.3b",
+                        "grid.47840.3f",
+                        "grid.10992.33",
+                        "grid.16872.3a",
+                        "grid.4818.5",
+                        "grid.94365.3d",
+                        "grid.1012.2",
+                        "grid.5590.9",
+                        "grid.22459.38",
+                        "grid.5477.1",
                         "grid.29980.3a",
-                        "grid.420086.8"
+                        "grid.1002.3",
+                        "grid.48336.3a",
+                        "grid.4567.0",
+                        "grid.420086.8",
+                        "grid.416809.2"
                     ]
                 },
                 {
@@ -713,26 +719,25 @@
                     "id": "ur.0772146447.52",
                     "last_name": "Silverman",
                     "research_orgs": [
-                        "grid.12650.30",
-                        "grid.17703.32",
-                        "grid.189967.8",
-                        "grid.411093.e",
-                        "grid.48336.3a",
-                        "grid.14758.3f",
-                        "grid.254444.7",
-                        "grid.411220.4",
-                        "grid.417768.b",
-                        "grid.420086.8",
-                        "grid.505441.1",
-                        "grid.47894.36",
-                        "grid.416809.2",
                         "grid.94365.3d",
                         "grid.418021.e",
-                        "grid.7719.8"
+                        "grid.411220.4",
+                        "grid.420086.8",
+                        "grid.7719.8",
+                        "grid.189967.8",
+                        "grid.416809.2",
+                        "grid.47894.36",
+                        "grid.254444.7",
+                        "grid.48336.3a",
+                        "grid.411093.e",
+                        "grid.417768.b",
+                        "grid.505441.1",
+                        "grid.14758.3f",
+                        "grid.12650.30",
+                        "grid.17703.32"
                     ]
                 }
             ],
-            "score": 23.21141,
             "terms": [
                 "exposure model",
                 "health effects",
@@ -958,18 +963,6 @@
                 }
             ]
         },
-        "abstract": "Exposure models are needed to evaluate health effects of long-term exposure to ambient ultrafine particles (UFP; <0.1 μm) and to disentangle their association from other pollutants, particularly PM2.5 (<2.5 μm). We developed land use regression (LUR) models to support UFP exposure assessment in the Los Angeles Ultrafines Study, a cohort in Southern California. We conducted a short-term measurement campaign in Los Angeles and parts of Riverside and Orange counties to measure UFP, PM2.5, and black carbon (BC), collecting three 30-minute average measurements at 215 sites across three seasons. We averaged concentrations for each site and evaluated geographic predictors including traffic intensity, distance to airports, land use, and population and building density by supervised stepwise selection to develop models. UFP and PM2.5 measurements (r = 0.001) and predictions (r = 0.05) were uncorrelated at the sites. UFP model explained variance was robust (R2 = 0.66) and 10-fold cross-validation indicated good performance (R2 = 0.59). Explained variation was moderate for PM2.5 (R2 = 0.47) and BC (R2 = 0.38). In the cohort, we predicted a 2.3-fold exposure contrast from the 5th to 95th percentiles for all three pollutants. The correlation between modeled UFP and PM2.5 at cohort residences was weak (r = 0.28), although higher than between measured levels. LUR models, particularly for UFP, were successfully developed and predicted reasonable exposure contrasts.",
-        "authors": [
-            "author-3eb1515e5abe9a124723",
-            "author-af84a7c3169902a0724d",
-            "author-acb720ef785b8ecb4533",
-            "author-95fd433b9d19c98c0c63",
-            "author-69ac985bf8150419d832",
-            "author-747afb10e96e3ce7f8e8",
-            "author-176ea06b656806ed8a55",
-            "author-5848c446c5ab6e7f98f5",
-            "author-ab153c8b280db00c764d"
-        ],
         "datasets": [
             "dataset-817",
             "dataset-818"
@@ -1159,14 +1152,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-0ff14408d240a7888272",
-            "author-ae4134b78ae07fd8649d",
-            "author-e553bb4359f14c7f61de",
-            "author-6ca41c255438271f487a",
-            "author-dda93d3ed72a66ff06a6",
-            "author-e473b8ba2c0044fda02d"
-        ],
         "datasets": [
             "dataset-659"
         ],

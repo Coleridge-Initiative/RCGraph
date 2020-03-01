@@ -237,6 +237,12 @@
                     "name": "C14 Geography and Environmental Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30014",
+                    "name": "C14 Geography and Environmental Studies"
+                }
+            ],
             "concepts": [
                 "variation",
                 "bed friction",
@@ -306,7 +312,7 @@
             "date": "2018-02-01",
             "date_inserted": "2017-12-22",
             "doi": "10.1016/j.coastaleng.2017.11.005",
-            "field_citation_ratio": 3.06,
+            "field_citation_ratio": 2.96,
             "id": "pub.1099604785",
             "issn": [
                 "0378-3839",
@@ -333,56 +339,56 @@
             "publisher": "Elsevier",
             "recent_citations": 6,
             "reference_ids": [
-                "pub.1002545808",
-                "pub.1010507520",
-                "pub.1057889954",
-                "pub.1017962397",
-                "pub.1002497420",
-                "pub.1030874770",
-                "pub.1030514950",
-                "pub.1017814328",
-                "pub.1033576140",
-                "pub.1048407856",
                 "pub.1047714569",
-                "pub.1010851802",
-                "pub.1027692089",
-                "pub.1034302603",
-                "pub.1026361281",
-                "pub.1010941479",
+                "pub.1002545808",
                 "pub.1010466598",
+                "pub.1057889954",
+                "pub.1048407856",
                 "pub.1008262784",
-                "pub.1002815071",
                 "pub.1007456388",
-                "pub.1001659499",
-                "pub.1046980662",
+                "pub.1027692089",
+                "pub.1002815071",
+                "pub.1024572460",
+                "pub.1017962397",
                 "pub.1014791554",
-                "pub.1024572460"
+                "pub.1026361281",
+                "pub.1010851802",
+                "pub.1030514950",
+                "pub.1033576140",
+                "pub.1010941479",
+                "pub.1046980662",
+                "pub.1034302603",
+                "pub.1030874770",
+                "pub.1017814328",
+                "pub.1001659499",
+                "pub.1002497420",
+                "pub.1010507520"
             ],
             "references": [
-                "pub.1002545808",
-                "pub.1010507520",
-                "pub.1057889954",
-                "pub.1017962397",
-                "pub.1002497420",
-                "pub.1030874770",
-                "pub.1030514950",
-                "pub.1017814328",
-                "pub.1033576140",
-                "pub.1048407856",
                 "pub.1047714569",
-                "pub.1010851802",
-                "pub.1027692089",
-                "pub.1034302603",
-                "pub.1026361281",
-                "pub.1010941479",
+                "pub.1002545808",
                 "pub.1010466598",
+                "pub.1057889954",
+                "pub.1048407856",
                 "pub.1008262784",
-                "pub.1002815071",
                 "pub.1007456388",
-                "pub.1001659499",
-                "pub.1046980662",
+                "pub.1027692089",
+                "pub.1002815071",
+                "pub.1024572460",
+                "pub.1017962397",
                 "pub.1014791554",
-                "pub.1024572460"
+                "pub.1026361281",
+                "pub.1010851802",
+                "pub.1030514950",
+                "pub.1033576140",
+                "pub.1010941479",
+                "pub.1046980662",
+                "pub.1034302603",
+                "pub.1030874770",
+                "pub.1017814328",
+                "pub.1001659499",
+                "pub.1002497420",
+                "pub.1010507520"
             ],
             "research_org_cities": [
                 {
@@ -504,15 +510,13 @@
                     "id": "ur.014224543147.24",
                     "last_name": "Hagen",
                     "research_orgs": [
+                        "grid.64337.35",
                         "grid.170430.1",
                         "grid.250060.1",
-                        "grid.433693.8",
-                        "grid.427253.5",
-                        "grid.64337.35"
+                        "grid.427253.5"
                     ]
                 }
             ],
-            "score": 26.554266,
             "terms": [
                 "variation",
                 "bed friction",
@@ -785,14 +789,6 @@
                 }
             ]
         },
-        "abstract": "Abstract Variations in bed friction due to land cover type have the potential to influence morphologic change during storm events; the importance of these variations can be studied through numerical simulation and experimentation at locations with sufficient observational data to initialize realistic scenarios, evaluate model accuracy and guide interpretations. Two-dimensional in the horizontal plane (2DH) morphodynamic (XBeach) simulations were conducted to assess morphodynamic sensitivity to spatially varying bed friction at Dauphin Island, AL using hurricanes Ivan (2004) and Katrina (2005) as experimental test cases. For each storm, three bed friction scenarios were simulated: (1) a constant Chezy coefficient across land and water, (2) a constant Chezy coefficient across land and depth-dependent Chezy coefficients across water, and (3) spatially varying Chezy coefficients across land based on land use/land cover (LULC) data and depth-dependent Chezy coefficients across water. Modeled post-storm bed elevations were compared qualitatively and quantitatively with post-storm lidar data. Results showed that implementing spatially varying bed friction influenced the ability of XBeach to accurately simulate morphologic change during both storms. Accounting for frictional effects due to large-scale variations in vegetation and development reduced cross-barrier sediment transport and captured overwash and breaching more accurately. Model output from the spatially varying friction scenarios was used to examine the need for an existing sediment transport limiter, the influence of pre-storm topography and the effects of water level gradients on storm-driven morphodynamics.",
-        "authors": [
-            "author-74c8966afac12acae025",
-            "author-f4eb878f0297c9018b9c",
-            "author-d7b758c709951a3a2e3b",
-            "author-9b800cc81de0b79924ef",
-            "author-ae4bfee018ddf7f3ef97"
-        ],
         "datasets": [
             "dataset-623",
             "dataset-618"
@@ -949,14 +945,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-9b800cc81de0b79924ef",
-            "author-ae4bfee018ddf7f3ef97",
-            "author-fd6ae1a205c9609268fe",
-            "author-7b00719dba5cc85fec13",
-            "author-b7ea550a46d4e0734f79",
-            "author-8c9f317900f7ff7c759d"
-        ],
         "datasets": [
             "dataset-616",
             "dataset-654",

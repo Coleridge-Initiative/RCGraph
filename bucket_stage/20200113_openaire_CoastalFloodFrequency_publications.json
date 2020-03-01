@@ -1879,12 +1879,6 @@
                 }
             ]
         },
-        "abstract": "Abstract. Flood databases of high spatio-temporal resolution are a\nnecessary tool for proper spatial planning, especially in areas with high\nlevels of exposure and danger to floods. This study presents the preliminary\nresults of the Spanish Mediterranean Coastal Flood (SMC-Flood) database covering the\nmunicipalities in this region. This database collects information on flood\ncases that occurred between 1960 and 2015 by systematically consulting the\ndigital archives of the main newspapers in the study area. The search for\nflood information was conducted by means of using links between municipality\nnames and seven keywords that correspond to the most common ways of referring to\na situation that is likely to describe a flood in Spain. This methodology\nhas enabled the reconstruction of 3008 flood cases at a municipal scale with\ndaily resolution while gathering information on the types of damage,\nintensity, severity and area affected. The spatio-temporal analysis of the\ndata reveals hotspots where flood cases are especially intense and damaging\nwhen compared to highly developed areas where the frequency of flood cases\nis very high. This situation is especially worrying insofar as we have\ndetected a growing trend in the frequency and area affected by flood cases.\nHowever, one positive aspect is that the intensity and severity of flood\ncases follows a falling trend. The main novelty lies in the fact that the\nhigh-resolution spatial analysis has made it possible to detect a clear\nlatitudinal gradient of growing intensity and severity in a north–south\ndirection. This pattern calls for new actions by the coastal municipal\nauthorities of southern Spain for adaptation to a more complex flood\nscenario.",
-        "authors": [
-            "author-8fa716cc803c1f02be4e",
-            "author-6e76582ddd58efc1b375",
-            "author-3f4d55a2504b778904c7"
-        ],
         "datasets": [
             "dataset-691"
         ],
@@ -2028,6 +2022,12 @@
                     "name": "B12 Engineering"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
+                }
+            ],
             "concepts": [
                 "city",
                 "urban regions",
@@ -2104,7 +2104,7 @@
             "date": "2017-09-27",
             "date_inserted": "2017-09-28",
             "doi": "10.3390/w9100736",
-            "field_citation_ratio": 2.02,
+            "field_citation_ratio": 2.0,
             "id": "pub.1091928470",
             "issn": [
                 "2073-4441"
@@ -2241,7 +2241,6 @@
                     ]
                 }
             ],
-            "score": 26.748177,
             "terms": [
                 "city",
                 "urban regions",
@@ -4060,11 +4059,6 @@
                 }
             ]
         },
-        "abstract": "New York City (NYC) is an ultra-urban region, with over 50% impervious cover and buried stream channels. Traditional flood studies rely on the presence of stream gages to detect flood stage and discharge, but these methods cannot be used in ultra-urban areas. Here we create a high-resolution radar rainfall dataset for NYC and utilize citizen and expert reports of flooding throughout the city to study flash flooding in NYC. Results indicate that interactions between the urban area and land–sea boundary have an important impact on the spatial variability of both heavy rainfall and flooding, sometimes in contrast to results obtained for other cities. Top days of daily and hourly rainfall exhibit a rainfall maximum over the city center and an extended region of higher rainfall downwind of the city. The mechanism for flooding appears to vary across the city, with high groundwater tables influencing more coastal areas and high rain rates or large rain volumes influencing more inland areas. There is also a strong relationship between sewer type and flood frequency, with fewer floods observed in combined sewer areas. Flooding is driven by maximum one-hour to one-day rainfall, which is often substantially less rain than observed for the city-wide daily maximum.",
-        "authors": [
-            "author-88dde24e65dbba09ebfa",
-            "author-1cb1ecf3c0b3122ad6a5"
-        ],
         "datasets": [
             "dataset-691"
         ],
@@ -4347,6 +4341,12 @@
                     "name": "B07 Earth Systems and Environmental Sciences"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
             "concepts": [
                 "sea-level rise",
                 "level rise",
@@ -4412,7 +4412,7 @@
             "date": "2017-12-01",
             "date_inserted": "2017-09-15",
             "doi": "10.1038/s41598-017-11544-y",
-            "field_citation_ratio": 5.76,
+            "field_citation_ratio": 5.63,
             "funder_countries": [
                 {
                     "id": "US",
@@ -4745,14 +4745,14 @@
                     "id": "ur.0740737430.22",
                     "last_name": "Dixon",
                     "research_orgs": [
+                        "grid.39381.30",
+                        "grid.23731.34",
                         "grid.217200.6",
-                        "grid.20861.3d",
-                        "grid.16753.36",
-                        "grid.26790.3a",
                         "grid.211367.0",
                         "grid.170693.a",
-                        "grid.23731.34",
-                        "grid.39381.30"
+                        "grid.16753.36",
+                        "grid.20861.3d",
+                        "grid.26790.3a"
                     ]
                 },
                 {
@@ -4777,21 +4777,21 @@
                         "0000-0001-7069-021X"
                     ],
                     "research_orgs": [
-                        "grid.21107.35",
-                        "grid.469888.3",
-                        "grid.6190.e",
-                        "grid.10894.34",
-                        "grid.10253.35",
-                        "grid.5292.c",
-                        "grid.420182.d",
-                        "grid.6734.6",
-                        "grid.5252.0",
                         "grid.6936.a",
-                        "grid.7839.5",
-                        "grid.23731.34",
-                        "grid.4488.0",
+                        "grid.21107.35",
+                        "grid.6734.6",
+                        "grid.469888.3",
                         "grid.413454.3",
-                        "grid.10388.32"
+                        "grid.23731.34",
+                        "grid.10388.32",
+                        "grid.10253.35",
+                        "grid.420182.d",
+                        "grid.7839.5",
+                        "grid.10894.34",
+                        "grid.6190.e",
+                        "grid.5252.0",
+                        "grid.4488.0",
+                        "grid.5292.c"
                     ]
                 },
                 {
@@ -4808,8 +4808,6 @@
                     ]
                 }
             ],
-            "score": 23.544905,
-            "sf01": "SN",
             "supporting_grant_ids": [
                 "grant.3982418",
                 "grant.3948966"
@@ -7459,14 +7457,6 @@
                 }
             ]
         },
-        "abstract": "Sea-level rise is beginning to cause increased inundation of many low-lying coastal areas. While most of Earth’s coastal areas are at risk, areas that will be affected first are characterized by several additional factors. These include regional oceanographic and meteorological effects and/or land subsidence that cause relative sea level to rise faster than the global average. For catastrophic coastal flooding, when wind-driven storm surge inundates large areas, the relative contribution of sea-level rise to the frequency of these events is difficult to evaluate. For small scale “nuisance flooding,” often associated with high tides, recent increases in frequency are more clearly linked to sea-level rise and global warming. While both types of flooding are likely to increase in the future, only nuisance flooding is an early indicator of areas that will eventually experience increased catastrophic flooding and land loss. Here we assess the frequency and location of nuisance flooding along the eastern seaboard of North America. We show that vertical land motion induced by recent anthropogenic activity and glacial isostatic adjustment are contributing factors for increased nuisance flooding. Our results have implications for flood susceptibility, forecasting and mitigation, including management of groundwater extraction from coastal aquifers.",
-        "authors": [
-            "author-ddc27842e5213739a3b9",
-            "author-8a2a5ed5c1615f2caed5",
-            "author-1a2d82d6c4c556490f57",
-            "author-4004b43683e18f25d0cc",
-            "author-fa85d929e4e66a3a0ce4"
-        ],
         "datasets": [
             "dataset-614"
         ],
@@ -7865,6 +7855,12 @@
                     "name": "B12 Engineering"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30012",
+                    "name": "B12 Engineering"
+                }
+            ],
             "concepts": [
                 "mean sea level",
                 "sea level",
@@ -7917,7 +7913,7 @@
             "date": "2015-11-28",
             "date_inserted": "2017-08-31",
             "doi": "10.1002/2015gl066072",
-            "field_citation_ratio": 13.67,
+            "field_citation_ratio": 14.48,
             "funder_countries": [
                 {
                     "id": "US",
@@ -7978,90 +7974,90 @@
             ],
             "pages": "9846-9852",
             "publisher": "American Geophysical Union (AGU)",
-            "recent_citations": 31,
+            "recent_citations": 32,
             "reference_ids": [
-                "pub.1051689147",
-                "pub.1038355018",
-                "pub.1016311308",
-                "pub.1018069357",
-                "pub.1062613934",
-                "pub.1022628237",
-                "pub.1005551130",
-                "pub.1001594789",
-                "pub.1062454939",
-                "pub.1051805105",
-                "pub.1044516477",
-                "pub.1037860715",
-                "pub.1005585501",
-                "pub.1052855088",
+                "pub.1007964825",
+                "pub.1010652752",
+                "pub.1038932934",
                 "pub.1004463467",
+                "pub.1007891227",
+                "pub.1044502184",
+                "pub.1004986040",
+                "pub.1007957846",
+                "pub.1006087509",
+                "pub.1016311308",
                 "pub.1012540836",
-                "pub.1040431413",
-                "pub.1018582679",
-                "pub.1016281723",
-                "pub.1022976143",
                 "pub.1035586576",
                 "pub.1034302152",
-                "pub.1007675814",
-                "pub.1013374950",
-                "pub.1029838544",
-                "pub.1049656749",
-                "pub.1025720379",
-                "pub.1010652752",
-                "pub.1007891227",
-                "pub.1038932934",
-                "pub.1005513697",
-                "pub.1007435462",
-                "pub.1044502184",
-                "pub.1045363316",
-                "pub.1007957846",
                 "pub.1019817475",
-                "pub.1007964825",
-                "pub.1006087509",
+                "pub.1062613934",
+                "pub.1045363316",
                 "pub.1032539613",
-                "pub.1004986040"
+                "pub.1044516477",
+                "pub.1022976143",
+                "pub.1018069357",
+                "pub.1001594789",
+                "pub.1022628237",
+                "pub.1005585501",
+                "pub.1013374950",
+                "pub.1040431413",
+                "pub.1062454939",
+                "pub.1005551130",
+                "pub.1029838544",
+                "pub.1005513697",
+                "pub.1038355018",
+                "pub.1051805105",
+                "pub.1051689147",
+                "pub.1007435462",
+                "pub.1016281723",
+                "pub.1018582679",
+                "pub.1049656749",
+                "pub.1007675814",
+                "pub.1052855088",
+                "pub.1025720379",
+                "pub.1037860715"
             ],
             "references": [
-                "pub.1051689147",
-                "pub.1038355018",
-                "pub.1016311308",
-                "pub.1018069357",
-                "pub.1062613934",
-                "pub.1022628237",
-                "pub.1005551130",
-                "pub.1001594789",
-                "pub.1062454939",
-                "pub.1051805105",
-                "pub.1044516477",
-                "pub.1037860715",
-                "pub.1005585501",
-                "pub.1052855088",
+                "pub.1007964825",
+                "pub.1010652752",
+                "pub.1038932934",
                 "pub.1004463467",
+                "pub.1007891227",
+                "pub.1044502184",
+                "pub.1004986040",
+                "pub.1007957846",
+                "pub.1006087509",
+                "pub.1016311308",
                 "pub.1012540836",
-                "pub.1040431413",
-                "pub.1018582679",
-                "pub.1016281723",
-                "pub.1022976143",
                 "pub.1035586576",
                 "pub.1034302152",
-                "pub.1007675814",
-                "pub.1013374950",
-                "pub.1029838544",
-                "pub.1049656749",
-                "pub.1025720379",
-                "pub.1010652752",
-                "pub.1007891227",
-                "pub.1038932934",
-                "pub.1005513697",
-                "pub.1007435462",
-                "pub.1044502184",
-                "pub.1045363316",
-                "pub.1007957846",
                 "pub.1019817475",
-                "pub.1007964825",
-                "pub.1006087509",
+                "pub.1062613934",
+                "pub.1045363316",
                 "pub.1032539613",
-                "pub.1004986040"
+                "pub.1044516477",
+                "pub.1022976143",
+                "pub.1018069357",
+                "pub.1001594789",
+                "pub.1022628237",
+                "pub.1005585501",
+                "pub.1013374950",
+                "pub.1040431413",
+                "pub.1062454939",
+                "pub.1005551130",
+                "pub.1029838544",
+                "pub.1005513697",
+                "pub.1038355018",
+                "pub.1051805105",
+                "pub.1051689147",
+                "pub.1007435462",
+                "pub.1016281723",
+                "pub.1018582679",
+                "pub.1049656749",
+                "pub.1007675814",
+                "pub.1052855088",
+                "pub.1025720379",
+                "pub.1037860715"
             ],
             "research_org_cities": [
                 {
@@ -8139,9 +8135,9 @@
                         "0000-0003-3170-8653"
                     ],
                     "research_orgs": [
-                        "grid.411015.0",
-                        "grid.265886.7",
                         "grid.262075.4",
+                        "grid.265886.7",
+                        "grid.411015.0",
                         "grid.266093.8"
                     ]
                 },
@@ -8155,11 +8151,9 @@
                     "research_orgs": [
                         "grid.266621.7",
                         "grid.5719.a",
-                        "grid.417553.1",
                         "grid.19006.3e",
-                        "grid.260120.7",
-                        "grid.30389.31",
-                        "grid.266093.8"
+                        "grid.266093.8",
+                        "grid.30389.31"
                     ]
                 },
                 {
@@ -8167,12 +8161,13 @@
                     "id": "ur.014240563767.77",
                     "last_name": "Sanders",
                     "research_orgs": [
-                        "grid.21100.32",
-                        "grid.89170.37",
-                        "grid.8484.0",
-                        "grid.214458.e",
+                        "grid.19006.3e",
                         "grid.253547.2",
-                        "grid.266093.8"
+                        "grid.89170.37",
+                        "grid.214458.e",
+                        "grid.266093.8",
+                        "grid.8484.0",
+                        "grid.21100.32"
                     ]
                 },
                 {
@@ -8199,7 +8194,8 @@
                     "last_name": "Matthew",
                     "research_orgs": [
                         "grid.266093.8",
-                        "grid.213910.8"
+                        "grid.213910.8",
+                        "grid.21100.32"
                     ]
                 },
                 {
@@ -8212,7 +8208,6 @@
                     ]
                 }
             ],
-            "score": 24.71281,
             "supporting_grant_ids": [
                 "grant.3487873"
             ],
@@ -8265,7 +8260,7 @@
                 "region",
                 "future"
             ],
-            "times_cited": 44,
+            "times_cited": 45,
             "title": "Increased nuisance flooding along the coasts of the United States due to sea level rise: Past and future",
             "type": "article",
             "volume": "42",
@@ -8419,15 +8414,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-171d40b015b90992740b",
-            "author-da73d9a224b9dedfa20a",
-            "author-46bcdf317bafa0b99e9b",
-            "author-41d2ce55a05e5cb6e030",
-            "author-c4a0fd974594ede95bd5",
-            "author-f2d92b5fa70718d7e37b",
-            "author-ee7d80357338436d00e1"
-        ],
         "datasets": [
             "dataset-614"
         ],

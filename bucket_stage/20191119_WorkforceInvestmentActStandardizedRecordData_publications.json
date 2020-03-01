@@ -159,6 +159,12 @@
                     "name": "C16 Economics and Econometrics"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30016",
+                    "name": "C16 Economics and Econometrics"
+                }
+            ],
             "concepts": [
                 "article",
                 "general estimation",
@@ -387,7 +393,6 @@
                     ]
                 }
             ],
-            "score": 18.798584,
             "terms": [
                 "article",
                 "general estimation",
@@ -719,12 +724,6 @@
                 }
             ]
         },
-        "abstract": "This paper provides a general estimation and inference framework to study how different levels of program participation affect participants’ outcomes. We decompose differences in the outcome distribution into (i) a structure effect, arising due to the conditional outcome distributions given covariates associated with different levels of participation; and (ii) a composition effect, arising due to differences in the distributions of observable characteristics. These counterfactual differences are equivalent to the multivalued treatment effects for the treated under a conditional independence assumption. We propose efficient nonparametric estimators based on propensity score weighting together with uniform inference theory. We employ our methods to study the effects of the Workforce Investment Act (WIA) programs on participants’ earnings. We find that heterogeneity in levels of program participation is an important dimension to evaluate the WIA and other social programs in which participation varies. The results of this paper, both theoretically and empirically, provide rigorous assessment of intervention programs and relevant suggestions to improve their performance and cost-effectiveness.",
-        "authors": [
-            "author-fde8a4092a738a5b1c5a",
-            "author-1f029a949ccec33fc5e0",
-            "author-aaf5919723613e53ed74"
-        ],
         "datasets": [
             "dataset-343"
         ],
@@ -894,6 +893,12 @@
                     "name": "B11 Computer Science and Informatics"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30011",
+                    "name": "B11 Computer Science and Informatics"
+                }
+            ],
             "concepts": [
                 "funding",
                 "devolution",
@@ -1044,7 +1049,6 @@
                     ]
                 }
             ],
-            "score": 26.134947,
             "terms": [
                 "funding",
                 "devolution",
@@ -1129,9 +1133,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-b44ca62a0febd23dbe0e"
-        ],
         "datasets": [
             "dataset-343"
         ],
@@ -1344,6 +1345,12 @@
                     "name": "C16 Economics and Econometrics"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30016",
+                    "name": "C16 Economics and Econometrics"
+                }
+            ],
             "concepts": [
                 "article",
                 "general estimation",
@@ -1572,7 +1579,6 @@
                     ]
                 }
             ],
-            "score": 18.798584,
             "terms": [
                 "article",
                 "general estimation",
@@ -1635,7 +1641,7 @@
             "url": "http://dx.doi.org/10.6084/m9.figshare.9762533.v1"
         },
         "Semantic Scholar": {
-            "abstract": "This paper provides a general estimation and inference framework to study how different levels of program participation affect participants’ outcomes. We decompose differences in the outcome distribution into (i) a structure effect, arising due to the conditional outcome distributions given covariates associated with different levels of participation; and (ii) a composition effect, arising due to differences in the distributions of observable characteristics. These counterfactual differences are equivalent to the multivalued treatment effects for the treated under a conditional independence assumption. We propose efficient nonparametric estimators based on propensity score weighting together with uniform inference theory. We employ our methods to study the effects of the Workforce Investment Act (WIA) programs on participants’ earnings. We find that heterogeneity in levels of program participation is an important dimension to evaluate the WIA and other social programs in which participation varies. The results of this paper, both theoretically and empirically, provide rigorous assessment of intervention programs and relevant suggestions to improve their performance and cost-effectiveness.",
+            "abstract": "We analyze how different levels of active labor program participation affect participants’ labor market outcomes. To do so, we propose two-step semiparametric efficient estimators that can be used to decompose differences in earnings distributions into (i) wage structure effects, arising due to the conditional outcome distributions associated with different levels of participation; and (ii) composition effect, arising due to differences in the distribution of observable characteristics. These counterfactual differences reveal causal relationships under a conditional independence assumption. Moreover, we calculate the semiparametric efficiency bound for the multivalued treatment effects, generalizing previous results for binary treatment effects. We employ these procedures to study the effects of the Workforce Investment Act (WIA), a large US job service program. Our estimation results show that heterogeneity in levels of participation is an important dimension to evaluate the WIA and other social programs in which participation varies. The results of this paper, both theoretically and empirically, provide rigorous assessment of intervention programs and relevant suggestions to improve the performance and cost-effectiveness of these programs. JEL classification: I38, H53, C31, C14",
             "arxivId": null,
             "authors": [
                 {
@@ -1656,10 +1662,110 @@
             ],
             "citationVelocity": 0,
             "citations": [],
-            "doi": "10.1080/07350015.2019.1660664",
+            "doi": "10.2139/ssrn.3276370",
             "influentialCitationCount": 0,
-            "paperId": "eca0a065d6af95c10c8fc0fef26babbf5d3f2f6e",
+            "paperId": "e04f3e321ab6de024ba639b1a583cea407903f8f",
             "references": [
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "144227178",
+                            "name": "Sergio Firpo",
+                            "url": "https://www.semanticscholar.org/author/144227178"
+                        }
+                    ],
+                    "doi": "10.1002/jae.2448",
+                    "intent": [
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "fd42521d233242e68b702e40ad3e8b3c34ce7be5",
+                    "title": "Identification and Estimation of Distributional Impacts of Interventions Using Changes in Inequality Measures",
+                    "url": "https://www.semanticscholar.org/paper/fd42521d233242e68b702e40ad3e8b3c34ce7be5",
+                    "venue": "",
+                    "year": 2016
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "51313945",
+                            "name": "Keisuke Hirano",
+                            "url": "https://www.semanticscholar.org/author/51313945"
+                        },
+                        {
+                            "authorId": "47166531",
+                            "name": "Guido W. Imbens",
+                            "url": "https://www.semanticscholar.org/author/47166531"
+                        }
+                    ],
+                    "doi": "10.1002/0470090456.ch7",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "fb689530fe8f008be795afd0e2118882dcd9c132",
+                    "title": "The Propensity Score with Continuous Treatments",
+                    "url": "https://www.semanticscholar.org/paper/fb689530fe8f008be795afd0e2118882dcd9c132",
+                    "venue": "",
+                    "year": 2004
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "144722360",
+                            "name": "Fredrik Andersson",
+                            "url": "https://www.semanticscholar.org/author/144722360"
+                        },
+                        {
+                            "authorId": "51361953",
+                            "name": "Harry J. Holzer",
+                            "url": "https://www.semanticscholar.org/author/51361953"
+                        },
+                        {
+                            "authorId": "50187348",
+                            "name": "Julia Lane",
+                            "url": "https://www.semanticscholar.org/author/50187348"
+                        },
+                        {
+                            "authorId": "121592477",
+                            "name": "David B. Rosenblum",
+                            "url": "https://www.semanticscholar.org/author/121592477"
+                        },
+                        {
+                            "authorId": "50110985",
+                            "name": "Jeffrey A. Smith",
+                            "url": "https://www.semanticscholar.org/author/50110985"
+                        }
+                    ],
+                    "doi": "10.3386/w19446",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "8c84e46098379ce17469265a216a126e39a0cf9d",
+                    "title": "Does Federally-Funded Job Training Work? Nonexperimental Estimates of WIA Training Impacts Using Longitudinal Data on Workers and Firms",
+                    "url": "https://www.semanticscholar.org/paper/8c84e46098379ce17469265a216a126e39a0cf9d",
+                    "venue": "",
+                    "year": 2013
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "7856881",
+                            "name": "Ying-Ying Lee",
+                            "url": "https://www.semanticscholar.org/author/7856881"
+                        }
+                    ],
+                    "doi": "10.1016/j.jeconom.2018.02.002",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "00be55a4501743f50abed158fb1483093d4c2b4a",
+                    "title": "Efficient propensity score regression estimators of multivalued treatment effects for the treated",
+                    "url": "https://www.semanticscholar.org/paper/00be55a4501743f50abed158fb1483093d4c2b4a",
+                    "venue": "",
+                    "year": 2018
+                },
                 {
                     "arxivId": null,
                     "authors": [
@@ -1696,6 +1802,253 @@
                     "year": 2012
                 },
                 {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "25681050",
+                            "name": "Matias D. Cattaneo",
+                            "url": "https://www.semanticscholar.org/author/25681050"
+                        },
+                        {
+                            "authorId": "12830204",
+                            "name": "David M. Drukker",
+                            "url": "https://www.semanticscholar.org/author/12830204"
+                        },
+                        {
+                            "authorId": "34376158",
+                            "name": "Ashley D. Holland",
+                            "url": "https://www.semanticscholar.org/author/34376158"
+                        }
+                    ],
+                    "doi": "10.1177/1536867x1301300301",
+                    "intent": [
+                        "methodology"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "0c1eb620a826a233a4c0af830e2e62c4257540fc",
+                    "title": "Estimation of multivalued treatment effects under conditional independence",
+                    "url": "https://www.semanticscholar.org/paper/0c1eb620a826a233a4c0af830e2e62c4257540fc",
+                    "venue": "",
+                    "year": 2013
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "145151632",
+                            "name": "Jorge M. Agüero",
+                            "url": "https://www.semanticscholar.org/author/145151632"
+                        },
+                        {
+                            "authorId": "145937310",
+                            "name": "Michael R. Carter",
+                            "url": "https://www.semanticscholar.org/author/145937310"
+                        },
+                        {
+                            "authorId": "88255624",
+                            "name": "Ingrid D. Woolard",
+                            "url": "https://www.semanticscholar.org/author/88255624"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "methodology"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "73308440f57538993a9c6e8ab7aa67411b085204",
+                    "title": "The Impact of Unconditional Cash Transfers on Nutrition: The South African Child Support Grant",
+                    "url": "https://www.semanticscholar.org/paper/73308440f57538993a9c6e8ab7aa67411b085204",
+                    "venue": "",
+                    "year": 2006
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "2246165",
+                            "name": "James J. Heckman",
+                            "url": "https://www.semanticscholar.org/author/2246165"
+                        },
+                        {
+                            "authorId": "7287740",
+                            "name": "Robert J. Lalonde",
+                            "url": "https://www.semanticscholar.org/author/7287740"
+                        },
+                        {
+                            "authorId": "144418599",
+                            "name": "Jeffrey A. Smith",
+                            "url": "https://www.semanticscholar.org/author/144418599"
+                        }
+                    ],
+                    "doi": "10.1016/s1573-4463(99)03012-6",
+                    "intent": [
+                        "result"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "23272b54be9ac651186bf19b2299f59873b0997c",
+                    "title": "The economics and econometrics of active labor market programs",
+                    "url": "https://www.semanticscholar.org/paper/23272b54be9ac651186bf19b2299f59873b0997c",
+                    "venue": "",
+                    "year": 1999
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "145504089",
+                            "name": "Bryan S. Graham",
+                            "url": "https://www.semanticscholar.org/author/145504089"
+                        }
+                    ],
+                    "doi": "10.3982/ECTA7379",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "ecf51f312cee6abac7dba645644b4b3149bdce40",
+                    "title": "Efficiency Bounds for Missing Data Models with Semiparametric Restrictions",
+                    "url": "https://www.semanticscholar.org/paper/ecf51f312cee6abac7dba645644b4b3149bdce40",
+                    "venue": "",
+                    "year": 2008
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "32776048",
+                            "name": "John Dinardo",
+                            "url": "https://www.semanticscholar.org/author/32776048"
+                        },
+                        {
+                            "authorId": "1381837628",
+                            "name": "Nicole M. Fortin",
+                            "url": "https://www.semanticscholar.org/author/1381837628"
+                        },
+                        {
+                            "authorId": "81601080",
+                            "name": "Thomas Lemieux",
+                            "url": "https://www.semanticscholar.org/author/81601080"
+                        }
+                    ],
+                    "doi": "10.2307/2171954",
+                    "intent": [
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "e49a47d6f1de4ea57ffa5aec0f8e01a172e18380",
+                    "title": "Labor Market Institutions and the Distribution of Wages, 1973-1992: A Semiparametric Approach",
+                    "url": "https://www.semanticscholar.org/paper/e49a47d6f1de4ea57ffa5aec0f8e01a172e18380",
+                    "venue": "",
+                    "year": 1995
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "49458717",
+                            "name": "Miana Plesca",
+                            "url": "https://www.semanticscholar.org/author/49458717"
+                        },
+                        {
+                            "authorId": "31706795",
+                            "name": "Jeffrey R. Smith",
+                            "url": "https://www.semanticscholar.org/author/31706795"
+                        }
+                    ],
+                    "doi": "10.1007/s00181-006-0095-0",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "ebd31c594a79f426ac773ec9cfd3ac2b315d0c2f",
+                    "title": "Evaluating multi-treatment programs: theory and evidence from the U.S. Job Training Partnership Act experiment",
+                    "url": "https://www.semanticscholar.org/paper/ebd31c594a79f426ac773ec9cfd3ac2b315d0c2f",
+                    "venue": "",
+                    "year": 2007
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "36517631",
+                            "name": "Stephen G. Donald",
+                            "url": "https://www.semanticscholar.org/author/36517631"
+                        },
+                        {
+                            "authorId": "1758734",
+                            "name": "Yu-Chin Hsu",
+                            "url": "https://www.semanticscholar.org/author/1758734"
+                        }
+                    ],
+                    "doi": "10.1016/j.jeconom.2013.03.010",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "ecafe1546cfcacc7e3bbc0851cfd4f850aa16df2",
+                    "title": "Estimation and inference for distribution functions and quantile functions in treatment effect models",
+                    "url": "https://www.semanticscholar.org/paper/ecafe1546cfcacc7e3bbc0851cfd4f850aa16df2",
+                    "venue": "",
+                    "year": 2014
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "25681050",
+                            "name": "Matias D. Cattaneo",
+                            "url": "https://www.semanticscholar.org/author/25681050"
+                        }
+                    ],
+                    "doi": "10.1016/j.jeconom.2009.09.023",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "4cccdea50b7d4d3e9d396fd34ea7c2e076012c93",
+                    "title": "Efficient semiparametric estimation of multi-valued treatment effects under ignorability ☆",
+                    "url": "https://www.semanticscholar.org/paper/4cccdea50b7d4d3e9d396fd34ea7c2e076012c93",
+                    "venue": "",
+                    "year": 2010
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "50874925",
+                            "name": "Ronald L. Oaxaca",
+                            "url": "https://www.semanticscholar.org/author/50874925"
+                        }
+                    ],
+                    "doi": "10.2307/2525981",
+                    "intent": [
+                        "methodology"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "ffb72cc02432ad3bb99be7abb8cd3112f7fc8321",
+                    "title": "Male-Female Wage Differentials in Urban Labor Markets",
+                    "url": "https://www.semanticscholar.org/paper/ffb72cc02432ad3bb99be7abb8cd3112f7fc8321",
+                    "venue": "",
+                    "year": 1973
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "69408063",
+                            "name": "Alan S. Blinder",
+                            "url": "https://www.semanticscholar.org/author/69408063"
+                        }
+                    ],
+                    "doi": "10.2307/144855",
+                    "intent": [
+                        "methodology"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "afea90b12e6ce5f413f9211c6554fb39ffa19f3f",
+                    "title": "Wage Discrimination: Reduced Form and Structural Estimates",
+                    "url": "https://www.semanticscholar.org/paper/afea90b12e6ce5f413f9211c6554fb39ffa19f3f",
+                    "venue": "",
+                    "year": 1973
+                },
+                {
                     "arxivId": "1811.00157",
                     "authors": [
                         {
@@ -1712,45 +2065,6 @@
                     "url": "https://www.semanticscholar.org/paper/12f04d8af6315677d4f603b394e6c1cf8ed1b603",
                     "venue": "",
                     "year": 2014
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "25681050",
-                            "name": "Matias D. Cattaneo",
-                            "url": "https://www.semanticscholar.org/author/25681050"
-                        }
-                    ],
-                    "doi": "10.1016/j.jeconom.2009.09.023",
-                    "intent": [
-                        "methodology",
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "4cccdea50b7d4d3e9d396fd34ea7c2e076012c93",
-                    "title": "Efficient semiparametric estimation of multi-valued treatment effects under ignorability ☆",
-                    "url": "https://www.semanticscholar.org/paper/4cccdea50b7d4d3e9d396fd34ea7c2e076012c93",
-                    "venue": "",
-                    "year": 2010
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "7856881",
-                            "name": "Ying-Ying Lee",
-                            "url": "https://www.semanticscholar.org/author/7856881"
-                        }
-                    ],
-                    "doi": "10.1016/j.jeconom.2018.02.002",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "00be55a4501743f50abed158fb1483093d4c2b4a",
-                    "title": "Efficient propensity score regression estimators of multivalued treatment effects for the treated",
-                    "url": "https://www.semanticscholar.org/paper/00be55a4501743f50abed158fb1483093d4c2b4a",
-                    "venue": "",
-                    "year": 2018
                 },
                 {
                     "arxivId": null,
@@ -1776,140 +2090,192 @@
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "36517631",
-                            "name": "Stephen G. Donald",
-                            "url": "https://www.semanticscholar.org/author/36517631"
+                            "authorId": "67155263",
+                            "name": "Carlos Arellano Flores",
+                            "url": "https://www.semanticscholar.org/author/67155263"
                         },
                         {
-                            "authorId": "1758734",
-                            "name": "Yu-Chin Hsu",
-                            "url": "https://www.semanticscholar.org/author/1758734"
+                            "authorId": "66158042",
+                            "name": "Oscar Alberto Mitnik",
+                            "url": "https://www.semanticscholar.org/author/66158042"
                         }
                     ],
-                    "doi": "10.1016/j.jeconom.2013.03.010",
+                    "doi": "10.1162/REST_a_00373",
                     "intent": [
                         "background",
+                        "methodology",
                         "result"
                     ],
                     "isInfluential": true,
-                    "paperId": "ecafe1546cfcacc7e3bbc0851cfd4f850aa16df2",
-                    "title": "Estimation and inference for distribution functions and quantile functions in treatment effect models",
-                    "url": "https://www.semanticscholar.org/paper/ecafe1546cfcacc7e3bbc0851cfd4f850aa16df2",
-                    "venue": "",
-                    "year": 2014
+                    "paperId": "27fe0559ef134ac2505f08f1431bf2d51c89e793",
+                    "title": "Comparing Treatments across Labor Markets: An Assessment of Nonexperimental Multiple-Treatment Strategies",
+                    "url": "https://www.semanticscholar.org/paper/27fe0559ef134ac2505f08f1431bf2d51c89e793",
+                    "venue": "Review of Economics and Statistics",
+                    "year": 2013
                 },
                 {
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "2508221",
-                            "name": "Aad van der Vaart",
-                            "url": "https://www.semanticscholar.org/author/2508221"
+                            "authorId": "32055580",
+                            "name": "Nicole M. Fortin",
+                            "url": "https://www.semanticscholar.org/author/32055580"
                         },
                         {
-                            "authorId": "144952368",
-                            "name": "Jon A. Wellner",
-                            "url": "https://www.semanticscholar.org/author/144952368"
+                            "authorId": "41124251",
+                            "name": "Thomas Lemieux",
+                            "url": "https://www.semanticscholar.org/author/41124251"
+                        },
+                        {
+                            "authorId": "144227178",
+                            "name": "Sergio Firpo",
+                            "url": "https://www.semanticscholar.org/author/144227178"
                         }
                     ],
-                    "doi": "10.1007/978-1-4757-2545-2",
+                    "doi": "10.1016/s0169-7218(11)00407-2",
                     "intent": [
                         "methodology",
                         "background"
                     ],
                     "isInfluential": true,
-                    "paperId": "45ee7447b9dd406496c4a5d9d8fb6556366a01c6",
-                    "title": "Weak convergence and empirical processes : with applications to statistics",
-                    "url": "https://www.semanticscholar.org/paper/45ee7447b9dd406496c4a5d9d8fb6556366a01c6",
+                    "paperId": "2a8ec489a075b1f3df3e3a965ab890419bfb09fb",
+                    "title": "Decomposition Methods in Economics",
+                    "url": "https://www.semanticscholar.org/paper/2a8ec489a075b1f3df3e3a965ab890419bfb09fb",
                     "venue": "",
-                    "year": 1996
+                    "year": 2010
                 },
                 {
                     "arxivId": null,
                     "authors": [
                         {
-                            "authorId": "1403577567",
-                            "name": "David T. Jacho-Chávez",
-                            "url": "https://www.semanticscholar.org/author/1403577567"
+                            "authorId": "2399505",
+                            "name": "Jere R. Behrman",
+                            "url": "https://www.semanticscholar.org/author/2399505"
+                        },
+                        {
+                            "authorId": "49096735",
+                            "name": "Yingmei Cheng",
+                            "url": "https://www.semanticscholar.org/author/49096735"
+                        },
+                        {
+                            "authorId": "47257105",
+                            "name": "Petra E. Todd",
+                            "url": "https://www.semanticscholar.org/author/47257105"
                         }
                     ],
-                    "doi": "10.1017/s0266466609090732",
+                    "doi": "10.2139/ssrn.286296",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "c179d00f77b024838d1079a5340e695063b0fc3c",
+                    "title": "Evaluating Preschool Programs When Length of Exposure to the Program Varies: A Nonparametric Approach",
+                    "url": "https://www.semanticscholar.org/paper/c179d00f77b024838d1079a5340e695063b0fc3c",
+                    "venue": "",
+                    "year": 2004
+                },
+                {
+                    "arxivId": "0904.0951",
+                    "authors": [
+                        {
+                            "authorId": "102499279",
+                            "name": "Victor Chernozhukov",
+                            "url": "https://www.semanticscholar.org/author/102499279"
+                        },
+                        {
+                            "authorId": "1388539993",
+                            "name": "Iv'an Fern'andez-Val",
+                            "url": "https://www.semanticscholar.org/author/1388539993"
+                        },
+                        {
+                            "authorId": "46195642",
+                            "name": "Blaise Melly",
+                            "url": "https://www.semanticscholar.org/author/46195642"
+                        }
+                    ],
+                    "doi": "10.1920/wp.cem.2009.0909",
                     "intent": [
+                        "background",
                         "methodology"
                     ],
-                    "isInfluential": false,
-                    "paperId": "5f1c99a32e5125ed65075b468168ef7d6208d098",
-                    "title": "Efficiency Bounds for Semiparametric Estimation of Inverse Conditional-Density-Weighted Functions",
-                    "url": "https://www.semanticscholar.org/paper/5f1c99a32e5125ed65075b468168ef7d6208d098",
+                    "isInfluential": true,
+                    "paperId": "dcfc6750ae9b8354f60bc460f83a030a6bbfd5d5",
+                    "title": "Inference on Counterfactual Distributions",
+                    "url": "https://www.semanticscholar.org/paper/dcfc6750ae9b8354f60bc460f83a030a6bbfd5d5",
                     "venue": "",
                     "year": 2009
                 }
             ],
-            "title": "Multivalued Treatments and Decomposition Analysis: An application to the WIA Program",
+            "title": "Multivalued Treatments and Decomposition Analysis : An application to the WIA Program ∗",
             "topics": [],
-            "url": "https://www.semanticscholar.org/paper/eca0a065d6af95c10c8fc0fef26babbf5d3f2f6e",
+            "url": "https://www.semanticscholar.org/paper/e04f3e321ab6de024ba639b1a583cea407903f8f",
             "venue": "",
-            "year": 2019
+            "year": 2017
         },
         "Unpaywall": {
-            "best_oa_location": null,
+            "best_oa_location": {
+                "endpoint_id": null,
+                "evidence": "oa repository (semantic scholar lookup)",
+                "host_type": "repository",
+                "is_best": true,
+                "license": null,
+                "pmh_id": null,
+                "repository_institution": null,
+                "updated": "2019-10-01T00:00:00",
+                "url": "http://pdfs.semanticscholar.org/bda5/57cf4cf945252ab455500b2220df54fd2b7f.pdf",
+                "url_for_landing_page": "https://semanticscholar.org/paper/e04f3e321ab6de024ba639b1a583cea407903f8f",
+                "url_for_pdf": "http://pdfs.semanticscholar.org/bda5/57cf4cf945252ab455500b2220df54fd2b7f.pdf",
+                "version": "submittedVersion"
+            },
             "data_standard": 2,
-            "doi": "10.1080/07350015.2019.1660664",
-            "doi_url": "https://doi.org/10.1080/07350015.2019.1660664",
+            "doi": "10.2139/ssrn.3276370",
+            "doi_url": "https://doi.org/10.2139/ssrn.3276370",
             "genre": "journal-article",
-            "has_repository_copy": false,
-            "is_oa": false,
+            "has_repository_copy": true,
+            "is_oa": true,
             "journal_is_in_doaj": false,
             "journal_is_oa": false,
-            "journal_issn_l": "0735-0015",
-            "journal_issns": "0735-0015,1537-2707",
-            "journal_name": "Journal of Business & Economic Statistics",
-            "oa_locations": [],
-            "oa_status": "closed",
-            "published_date": "2019-09-03",
-            "publisher": "Informa UK Limited",
-            "title": "Multivalued Treatments and Decomposition Analysis: An application to the WIA Program",
-            "updated": "2019-12-07T12:25:39.723805",
-            "year": 2019,
+            "journal_issn_l": "1556-5068",
+            "journal_issns": "1556-5068",
+            "journal_name": "SSRN Electronic Journal",
+            "oa_locations": [
+                {
+                    "endpoint_id": null,
+                    "evidence": "oa repository (semantic scholar lookup)",
+                    "host_type": "repository",
+                    "is_best": true,
+                    "license": null,
+                    "pmh_id": null,
+                    "repository_institution": null,
+                    "updated": "2019-10-01T00:00:00",
+                    "url": "http://pdfs.semanticscholar.org/bda5/57cf4cf945252ab455500b2220df54fd2b7f.pdf",
+                    "url_for_landing_page": "https://semanticscholar.org/paper/e04f3e321ab6de024ba639b1a583cea407903f8f",
+                    "url_for_pdf": "http://pdfs.semanticscholar.org/bda5/57cf4cf945252ab455500b2220df54fd2b7f.pdf",
+                    "version": "submittedVersion"
+                }
+            ],
+            "oa_status": "green",
+            "published_date": "2018-01-01",
+            "publisher": "Elsevier BV",
+            "title": "Multivalued Treatments and Decomposition Analysis: An Application to the WIA Program",
+            "updated": "2019-12-16T02:26:55.937045",
+            "year": 2018,
             "z_authors": [
                 {
-                    "affiliation": [
-                        {
-                            "name": "Institute for Defense Analyses.;"
-                        }
-                    ],
                     "family": "Ao",
                     "given": "Wallice",
                     "sequence": "first"
                 },
                 {
-                    "affiliation": [
-                        {
-                            "name": "Columbia University, Department of Health Policy and Management;"
-                        }
-                    ],
                     "family": "Calonico",
                     "given": "Sebastian",
                     "sequence": "additional"
                 },
                 {
-                    "affiliation": [
-                        {
-                            "name": "University of California Irvine, Department of Economics"
-                        }
-                    ],
                     "family": "Lee",
                     "given": "Ying-Ying",
                     "sequence": "additional"
                 }
             ]
         },
-        "abstract": "This paper provides a general estimation and inference framework to study how different levels of program participation affect participants’ outcomes. We decompose differences in the outcome distribution into (i) a structure effect, arising due to the conditional outcome distributions given covariates associated with different levels of participation; and (ii) a composition effect, arising due to differences in the distributions of observable characteristics. These counterfactual differences are equivalent to the multivalued treatment effects for the treated under a conditional independence assumption. We propose efficient nonparametric estimators based on propensity score weighting together with uniform inference theory. We employ our methods to study the effects of the Workforce Investment Act (WIA) programs on participants’ earnings. We find that heterogeneity in levels of program participation is an important dimension to evaluate the WIA and other social programs in which participation varies. The results of this paper, both theoretically and empirically, provide rigorous assessment of intervention programs and relevant suggestions to improve their performance and cost-effectiveness.",
-        "authors": [
-            "author-fde8a4092a738a5b1c5a",
-            "author-1f029a949ccec33fc5e0",
-            "author-aaf5919723613e53ed74"
-        ],
         "datasets": [
             "dataset-343"
         ],
@@ -1979,7 +2345,7 @@
             },
             "status": "ok"
         },
-        "doi": "10.1080/07350015.2019.1660664",
+        "doi": "10.2139/ssrn.3276370",
         "original": {
             "date_added": "2019-12-02 12:34:12",
             "doi": "10.2139/ssrn.3276370",
@@ -2062,6 +2428,12 @@
                     "name": "C16 Economics and Econometrics"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30016",
+                    "name": "C16 Economics and Econometrics"
+                }
+            ],
             "concepts": [
                 "chapter",
                 "employment",
@@ -2105,7 +2477,6 @@
             ],
             "pages": "117-149",
             "publisher": "Organisation for Economic Co-Operation and Development  (OECD)",
-            "score": 19.444685,
             "terms": [
                 "chapter",
                 "employment",
@@ -2162,7 +2533,6 @@
                 }
             ]
         },
-        "authors": [],
         "datasets": [
             "dataset-343"
         ],
@@ -2246,6 +2616,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30011",
+                    "name": "B11 Computer Science and Informatics"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30011",
                     "name": "B11 Computer Science and Informatics"
@@ -2379,8 +2755,6 @@
                     ]
                 }
             ],
-            "score": 19.225262,
-            "sf01": "SN",
             "terms": [
                 "study",
                 "likelihood",
@@ -2501,10 +2875,6 @@
                 }
             ]
         },
-        "abstract": "This study includes the likelihood of finding a job and retaining employment as well as eligibility for unemployment benefits to estimate the return on investment (ROI) for both job training and intensive services programs. The augmented ROI for job training programs and intensive job services from California One-Stop Centers are positive. This suggests that these programs do provide benefits. The estimated augmented ROI for individuals enrolled in job training programs and intensive job services are similar. In contrast, traditional approaches that omit important employment characteristics significantly overestimate the ROI. Monte Carlo simulations show that changing program costs affect the augmented ROI for training programs but have minimal impact on the augmented ROI for intensive services.",
-        "authors": [
-            "author-10035cb33e5a704cfe58"
-        ],
         "datasets": [
             "dataset-343"
         ],
@@ -2810,6 +3180,12 @@
                     "name": "C20 Social Work and Social Policy"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30020",
+                    "name": "C20 Social Work and Social Policy"
+                }
+            ],
             "concepts": [
                 "impact",
                 "earnings",
@@ -2843,7 +3219,7 @@
             "date": "2013-12-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1186/2193-8997-2-6",
-            "field_citation_ratio": 3.77,
+            "field_citation_ratio": 3.74,
             "id": "pub.1005073996",
             "issn": [
                 "2193-8997"
@@ -3036,7 +3412,8 @@
                     "last_name": "Heinrich",
                     "research_orgs": [
                         "grid.152326.1",
-                        "grid.89336.37"
+                        "grid.89336.37",
+                        "grid.28803.31"
                     ]
                 },
                 {
@@ -3044,8 +3421,8 @@
                     "id": "ur.013526056541.32",
                     "last_name": "Mueser",
                     "research_orgs": [
-                        "grid.427006.7",
-                        "grid.134936.a"
+                        "grid.134936.a",
+                        "grid.427006.7"
                     ]
                 },
                 {
@@ -3078,8 +3455,6 @@
                     ]
                 }
             ],
-            "score": 19.26009,
-            "sf01": "SN",
             "terms": [
                 "impact",
                 "earnings",
@@ -4558,14 +4933,6 @@
                 }
             ]
         },
-        "abstract": "We estimate impacts on earnings and employment of the two primary adult workforce support and training programs under the U.S. Workforce Investment Act (WIA) using administrative data on 160,000 participants from 12 states for up to four years following program entry. We find that participants in the WIA Adult program, who typically enter with poor work histories, realize improved employment levels and increased average quarterly earnings of several hundred dollars. Earnings gains for Dislocated Worker program participants are appreciably smaller, although these participants do experience employment gains.JEL codesI38, J08, J24",
-        "authors": [
-            "author-888c35e5d0fb7dc4eba6",
-            "author-840d5a7a8f50db777bf1",
-            "author-12bd3ede4a4f1d2d4910",
-            "author-01f79db01c99658e75d2",
-            "author-9e0e52baea097a37c958"
-        ],
         "datasets": [
             "dataset-343"
         ],
@@ -4773,7 +5140,7 @@
             "date": "2011-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1002/pam.20597",
-            "field_citation_ratio": 4.7,
+            "field_citation_ratio": 4.68,
             "funder_countries": [
                 {
                     "id": "BE",
@@ -4994,7 +5361,6 @@
                 "North Carolina",
                 "Connecticut"
             ],
-            "score": 29.418007,
             "terms": [
                 "years",
                 "act",
@@ -6080,11 +6446,6 @@
                 }
             ]
         },
-        "abstract": "Synthesizes what we know empirically about the WIA program and discusses lessons for WIA reauthorization.",
-        "authors": [
-            "author-841ed3007f62496a48a8",
-            "author-3442b3a1a74fcef558e4"
-        ],
         "datasets": [
             "dataset-343"
         ],
@@ -6241,6 +6602,12 @@
                 }
             ],
             "category_ua": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
+            "category_uoa": [
                 {
                     "id": "30017",
                     "name": "C17 Business and Management Studies"
@@ -6418,7 +6785,6 @@
                     ]
                 }
             ],
-            "score": 15.02716,
             "terms": [
                 "recent reforms",
                 "reform",
@@ -6486,9 +6852,6 @@
                 }
             ]
         },
-        "authors": [
-            "author-888c35e5d0fb7dc4eba6"
-        ],
         "datasets": [
             "dataset-343"
         ],
@@ -6654,6 +7017,12 @@
                     "name": "C17 Business and Management Studies"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
             "concepts": [
                 "evidence",
                 "policy",
@@ -6704,7 +7073,7 @@
             "date": "2007-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1177/0275074007301957",
-            "field_citation_ratio": 24.64,
+            "field_citation_ratio": 24.83,
             "id": "pub.1053799237",
             "issn": [
                 "0275-0740",
@@ -6849,7 +7218,6 @@
                     ]
                 }
             ],
-            "score": 11.485714,
             "terms": [
                 "evidence",
                 "policy",
@@ -6897,7 +7265,7 @@
                 "Evidence-Based Policy",
                 "performance management"
             ],
-            "times_cited": 81,
+            "times_cited": 82,
             "title": "Evidence-Based Policy and Performance Management",
             "type": "article",
             "volume": "37",
@@ -8069,10 +8437,6 @@
                 }
             ]
         },
-        "abstract": "Both the evidence-based policy and performance management movements aim to improve government effectiveness by developing and utilizing a more rigorous base of information and scientific evidence to guide decisions about program design, funding, implementation, and management. In practice, however, differences and tensions between these movements—such as their methods and standards for assembling and analyzing data, and the strategic timing and use of this information to influence policy and hold public managers accountable for performance—could limit their success. Using cases and empirical studies, this article considers questions about what should count as evidence, how it should be communicated, who should judge the quality and reliability of evidence and performance information, and how to achieve a balance between processes that produce rigorous information for decision making and those that foster democratic governance and accountability. Recommendations are made for improving government effectiven...",
-        "authors": [
-            "author-888c35e5d0fb7dc4eba6"
-        ],
         "datasets": [
             "dataset-343"
         ],
@@ -8266,6 +8630,12 @@
                     "name": "C23 Education"
                 }
             ],
+            "category_uoa": [
+                {
+                    "id": "30023",
+                    "name": "C23 Education"
+                }
+            ],
             "concepts": [
                 "college participation rates",
                 "participation rates",
@@ -8333,7 +8703,7 @@
             "date": "2005-12-01",
             "date_inserted": "2017-08-31",
             "doi": "10.3102/01623737027004291",
-            "field_citation_ratio": 2.34,
+            "field_citation_ratio": 2.33,
             "id": "pub.1070972003",
             "issn": [
                 "0162-3737",
@@ -8465,7 +8835,6 @@
                     ]
                 }
             ],
-            "score": 18.988417,
             "terms": [
                 "college participation rates",
                 "participation rates",
@@ -8653,11 +9022,6 @@
                 }
             ]
         },
-        "abstract": "The college participation rates of African Americans and Latinos continue to lag behind those of other racial and ethnic groups in the United States, despite the efforts of financial aid and affirmative action policies. Two recent federal policies that are “work-first” in nature threaten to further exacerbate racial and ethnic disparities in college access. This article examines the complex ways in which the 1996 welfare reform and the 1998 Workforce Investment Act differentially affect opportunities for college enrollment among disadvantaged adults. Utilizing national and state-level data, the authors argue that both policies restrict access to postsecondary education through the implementation of their guiding philosophy, “work-first,” which emphasizes rapid job placement as the strategy of choice in achieving stable employment and moving out of poverty. These policies have reduced the size of the clientele receiving welfare and restricted access to education and training for those who remain on the rol...",
-        "authors": [
-            "author-1f37426fe802e71f24a4",
-            "author-57b183b9f2857c9489cd"
-        ],
         "datasets": [
             "dataset-343"
         ],
