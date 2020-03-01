@@ -1851,6 +1851,14 @@
                 }
             ]
         },
+        "abstract": "We develop an aggregated extreme sea level (ESL) indicator for the contiguous United States coastline, which is comprised of separate indicators for mean sea level (MSL) and storm surge climatology (SSC). We use water level data from tide gauges to estimate interannual to multi-decadal variability of MSL and SSC and identify coastline stretches where the observed changes are coherent. Both the MSL and SSC indicators show significant fluctuations. Indicators of the individual components are combined with multi-year tidal contributions into aggregated ESL indicators. The relative contribution of the different components varies considerably in time and space. Our results highlight the important role of interannual to multi-decadal variability in different sea level components in exacerbating, or reducing, the impacts of long-term MSL rise over time scales relevant for coastal planning and management. Regularly updating the proposed indicator will allow tracking changes in ESL posing a threat to many coastal communities, including the identification of periods where the likelihood of flooding is particularly large or small.",
+        "authors": [
+            "author-12b741970f7cc7640c1f",
+            "author-6e42e1dcfd9ef6cfea34",
+            "author-8b1e72164c8cbc4688f9",
+            "author-d197a041b10489aa8657",
+            "author-c4a0fd974594ede95bd5"
+        ],
         "datasets": [
             "dataset-741",
             "dataset-742",
@@ -3918,6 +3926,15 @@
                 }
             ]
         },
+        "abstract": "Global mean sea level has experienced an unabated rise over the 20th century. This observed rise is due to both ocean warming and increasing continental freshwater discharge. We estimate the net ocean mass contribution to sea level by assessing the global ocean salt budget based on the unprecedented amount of in situ data over 2005–2015. We obtain the ocean mass trends of 1.30 ± 1.13 mm · yr−1 (0–2000 m) and 1.55 ± 1.20 mm · yr−1 (full depth). These new ocean mass trends are smaller by 0.63–0.88 mm · yr−1 compared to the ocean mass trend estimated through the sea level budget approach. Our result provides an independent validation of Gravity Recovery And Climate Experiment (GRACE)-based ocean mass trend and, in addition, places an independent constraint on the combined Glacial Isostatic Adjustment – the Earth’s delayed viscoelastic response to the redistribution of mass that accompanied the last deglaciation- and geocenter variations needed to directly infer the ocean mass trend based on GRACE data.",
+        "authors": [
+            "author-65db7b903f73d906c174",
+            "author-fb1ba79d3f9aeab0d022",
+            "author-b11070adbe50b7739fdf",
+            "author-d724d0d8aa9c98713c6e",
+            "author-15c7df1b9e7ebfc91a0b",
+            "author-5198cdcb3805e0f0ec7a"
+        ],
         "datasets": [
             "dataset-757",
             "dataset-758",
@@ -5980,6 +5997,12 @@
                 }
             ]
         },
+        "abstract": "Sea level change is a key indicator of climate change, and the prediction of sea level rise is one of most important scientific issues. In this paper, the gridded sea level anomaly (SLA) data from satellite altimetry are used to analyze the sea level variations around Shandong Peninsula from 1993 to 2016. Based on the Complete Ensemble Empirical Mode Decomposition (CEEMD) method and Radial Basis Function (RBF) network, the paper proposes an improved sea level multi-scale prediction approach, namely, CEEMD-RBF combined model. Firstly, the multi-scale frequency oscillatory modes (intrinsic mode functions (IMFs)) representing different oceanic processes are extracted by CEEMD from the highest frequency to the lowest frequency oscillating mode. Secondly, RBF network is used to establish prediction models for various IMF components to predict their future trends, and each IMF is used as an input factor of the RBF network separately. Finally, the prediction results of each IMF component with RBF network are reconstructed to obtain the final predictions of sea level anomalies. The results shows that CEEMD is particularly suitable for analyzing nonlinear and non-stationary time series and RBF network is applicable for regional sea level prediction at different scales.",
+        "authors": [
+            "author-983713df20cac9eee71d",
+            "author-c8a2c66ea0f10af33d13",
+            "author-eb8e10a74a49118ffb66"
+        ],
         "datasets": [
             "dataset-768"
         ],
@@ -8045,6 +8068,16 @@
                 }
             ]
         },
+        "abstract": "The SEAMIS database (Mendeley data repository; https://doi.org/10.17632/wp4ctb4667.1) contains 546 relative sea-level indicators from 31 different studies within the broader Southeast Asian region including the Maldives, India and Sri Lanka. Here we compare quality-controlled and site-specific relative sea-level data from 23 studies from the SEAMIS database to a suite of ICE-5G glacial isostatic adjustment models. The relation between robust and, if applicable, tectonically corrected relative sea-level data with the broad predictions of glacial isostatic adjustment models is interpreted and discussed in the article \"Holocene sea levels in Southeast Asia, Maldives, India and Sri Lanka: The SEAMIS database\" [1] in Quaternary Science Reviews.",
+        "authors": [
+            "author-22002b7fe285edadf346",
+            "author-971dd9130a95ba3c8d7d",
+            "author-5e4a4036ef1a8b7a1007",
+            "author-9ff091249bef7a45eb55",
+            "author-ec1ecb08a5eac01f99fb",
+            "author-6e5e883fa33fa5a6d843",
+            "author-17443a7a16274eb3c0ad"
+        ],
         "datasets": [
             "dataset-767"
         ],
@@ -9263,6 +9296,10 @@
                 }
             ]
         },
+        "abstract": "This article describes extreme indices maps (Data Cube, raster X Time) for different scenarios with a more important contribution to the sea level rise from Greenland and/or Antarctica during the 21st century under the Representative Concentration Pathway (RCP) 8.5 emission scenario. The indices are produced annually and globally with a resolution of 0.5° × 0.5° from 1951 to 2099. The data were generated by simulating daily maximum and minimum temperature and precipitation from the IPSL-CM5A-LR model from Coupled Model Intercomparison Project Phase 5 (CMIP5). These climatic data are unbiased and downscaled to the 0.5°x0.5 scale with the Cumulative Distribution Function transform (CDFt) and EWEMBI dataset compiled to support the bias correction of climate input data for ISIMIP. Finally, each extreme indice is computed on the unbiased data on each grid cell on all continents.",
+        "authors": [
+            "author-e2b4c2bacdfa6aaef149"
+        ],
         "datasets": [
             "dataset-786"
         ],
@@ -11824,6 +11861,11 @@
                 }
             ]
         },
+        "abstract": "Most estimates of global mean sea-level rise this century fall below 2 m. This quantity is comparable to the positive vertical bias of the principle digital elevation model (DEM) used to assess global and national population exposures to extreme coastal water levels, NASA’s SRTM. CoastalDEM is a new DEM utilizing neural networks to reduce SRTM error. Here we show – employing CoastalDEM—that 190 M people (150–250 M, 90% CI) currently occupy global land below projected high tide lines for 2100 under low carbon emissions, up from 110 M today, for a median increase of 80 M. These figures triple SRTM-based values. Under high emissions, CoastalDEM indicates up to 630 M people live on land below projected annual flood levels for 2100, and up to 340 M for mid-century, versus roughly 250 M at present. We estimate one billion people now occupy land less than 10 m above current high tide lines, including 230 M below 1 m. Accurate estimates of global mean sea-level rise are important. Here the authors employ a new digital elevation model (DEM) utilizing neural networks and show that the new DEM more than triples the NASA SRTM-based estimates of current global population occupying land below projected sea levels in 2100, with more than 200 million people could be affected based on RCP4.5 and 2 degC of warming.",
+        "authors": [
+            "author-caf3044fbe73eceeba58",
+            "author-d52e6e6e001e3b1a3e1b"
+        ],
         "datasets": [
             "dataset-618"
         ],
@@ -16785,6 +16827,24 @@
                 }
             ]
         },
+        "abstract": "In recent decades, meltwater runoff has accelerated to become the dominant mechanism for mass loss in the Greenland ice sheet1–3. In Greenland’s high-elevation interior, porous snow and firn accumulate; these can absorb surface meltwater and inhibit runoff4, but this buffering effect is limited if enough water refreezes near the surface to restrict percolation5,6. However, the influence of refreezing on runoff from Greenland remains largely unquantified. Here we use firn cores, radar observations and regional climate models to show that recent increases in meltwater have resulted in the formation of metres-thick, low-permeability ‘ice slabs’ that have expanded the Greenland ice sheet’s total runoff area by 26 ± 3 per cent since 2001. Although runoff from the top of ice slabs has added less than one millimetre to global sea-level rise so far, this contribution will grow substantially as ice slabs expand inland in a warming climate. Runoff over ice slabs is set to contribute 7 to 33 millimetres and 17 to 74 millimetres to global sea-level rise by 2100 under moderate- and high-emissions scenarios, respectively—approximately double the estimated runoff from Greenland’s high-elevation interior, as predicted by surface mass balance models without ice slabs. Ice slabs will have an important role in enhancing surface meltwater feedback processes, fundamentally altering the ice sheet’s present and future hydrology. Observations and regional climate models show that the increasing coverage of ice slabs on the Greenland ice sheet could lead to a global sea-level rise of up to 74 millimetres by 2100.",
+        "authors": [
+            "author-641d092dd983a064cec8",
+            "author-15812fc40d7567c0ccb2",
+            "author-9368dbda4153df46d47e",
+            "author-e8114bc581582db50a9e",
+            "author-7e0565dc14fb54612825",
+            "author-926cadddcdd933220f13",
+            "author-a8da9c4ee235b962abe6",
+            "author-9d619b6840178d8d086e",
+            "author-c7b2c7ad6ba9f3be84db",
+            "author-d2df8a42930de623ee65",
+            "author-b94ac130221b6a32f292",
+            "author-bfb5e3f7bd85c2983739",
+            "author-d53612e418583eecc0f1",
+            "author-7c427f2c45bccf6f6cab",
+            "author-5ed151ec1c7e0992075a"
+        ],
         "datasets": [
             "dataset-787"
         ],
@@ -19499,6 +19559,14 @@
                 }
             ]
         },
+        "abstract": "Deltas are low-relief landforms that are extremely vulnerable to sea-level rise. Impact assessments of relative sea-level rise in deltas primarily depend on elevation data accuracy and how well the vertical datum matches local sea level. Unfortunately, many major deltas are located in data-sparse regions, forcing researchers and policy makers to use low-resolution, global elevation data obtained from satellite platforms. Using a new, high-accuracy elevation model of the Vietnamese Mekong delta, we show that quality of global elevation data is insufficient and underscore the cruciality to convert to local tidal datum, which is often neglected. The novel elevation model shows that the Mekong delta has an extremely low mean elevation of ~0.8 m above sea level, dramatically lower than the earlier assumed ~2.6 m. Our results imply major uncertainties in sea-level rise impact assessments for the Mekong delta and deltas worldwide, with errors potentially larger than a century of sea-level rise. Assessments of sea level rise risks depend on elevation data. Here, the authors present a new dataset on the Mekong Delta which shows it to have a much lower elevation (0.82 m above sea level) than previously thought – underlying principles may also imply major elevation uncertainties in other deltas.",
+        "authors": [
+            "author-09cd2953026fd9a1e26f",
+            "author-1e130cc495833e7e38e2",
+            "author-2c7dbf7cfb96069e3041",
+            "author-8db1042d9c33d6922f1a",
+            "author-93a7f44b37dfc533904f"
+        ],
         "datasets": [
             "dataset-789"
         ],
@@ -22130,6 +22198,19 @@
                 }
             ]
         },
+        "abstract": "Effective conservation and restoration of estuarine wetlands require accurate maps of their historical and current extent, as well as estimated losses of these valued habitats. Existing coast-wide tidal wetland mapping does not explicitly map historical tidal wetlands that are now disconnected from the tides, which represent restoration opportunities; nor does it use water level models or high-resolution elevation data (e.g. lidar) to accurately identify current tidal wetlands. To better inform estuarine conservation and restoration, we generated new maps of current and historical tidal wetlands for the entire contiguous U.S. West Coast (Washington, Oregon, and California). The new maps are based on an Elevation-Based Estuary Extent Model (EBEEM) that combines lidar digital elevation models (DEMs) and water level models to establish the maximum historical extent of tidal wetlands, representing a major step forward in mapping accuracy for restoration planning and analysis of wetland loss. Building from this new base, we also developed an indirect method for mapping tidal wetland losses, and created maps of these losses for 55 estuaries on the West Coast (representing about 97% of historical West Coast vegetated tidal wetland area). Based on these new maps, we estimated that total historical estuary area for the West Coast is approximately 735,000 hectares (including vegetated and nonvegetated areas), and that about 85% of vegetated tidal wetlands have been lost from West Coast estuaries. Losses were highest for major river deltas. The new maps will help interested groups improve action plans for estuarine wetland habitat restoration and conservation, and will also provide a better baseline for understanding and predicting future changes with projected sea level rise.",
+        "authors": [
+            "author-bd3fe9c38b08de4e13d5",
+            "author-8bb550ce62d076d314c0",
+            "author-460e46a744fb44fbc4ba",
+            "author-de1febe54b3abe862399",
+            "author-7bc20c515d873519472e",
+            "author-72086edc237fe1a0f6a5",
+            "author-4bdeeb06aeb927388033",
+            "author-4a52ebb2946ce9ce415c",
+            "author-2ec947c8e2c26e54ecd5",
+            "author-a1bcf1d7362c4f2ee3fb"
+        ],
         "datasets": [
             "dataset-623",
             "dataset-631",

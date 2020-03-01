@@ -3726,6 +3726,13 @@
                 }
             ]
         },
+        "abstract": "Cities are major drivers of environmental change at all scales and are especially at risk from the ensuing effects, which include poor air quality, flooding and heat waves. Typically, these issues are studied on a city-by-city basis owing to the spatial complexity of built landscapes, local topography and emission patterns. However, to ensure knowledge sharing and to integrate local-scale processes with regional and global scale modelling initiatives, there is a pressing need for a world-wide database on cities that is suited for environmental studies. In this paper we present a European database that has a particular focus on characterising urbanised landscapes. It has been derived using tools and techniques developed as part of the World Urban Database and Access Portal Tools (WUDAPT) project, which has the goal of acquiring and disseminating climate-relevant information on cities worldwide. The European map is the first major step toward creating a global database on cities that can be integrated with existing topographic and natural land-cover databases to support modelling initiatives.",
+        "authors": [
+            "author-c99de40a887f04dbdb47",
+            "author-342a332977fc5e7c3299",
+            "author-64697b0035a001b14ade",
+            "author-0286108f9d65694bcedd"
+        ],
         "datasets": [
             "dataset-621",
             "dataset-678",
@@ -5347,6 +5354,16 @@
                 }
             ]
         },
+        "abstract": "Passive air samplers equipped with polyurethane foam (PUF-PAS) are frequently used to measure persistent organic pollutants (POPs) in ambient air. Here we present and evaluate a method to determine sampling rates (RS), and the effective sampling volume (Veff), for gas-phase chemical compounds captured by a PUF-PAS sampler deployed anywhere in the world. The method uses a mathematical model that requires only publicly available hourly meteorological data, physical-chemical properties of the target compound, and the deployment dates. The predicted RS is calibrated from sampling rates determined from 5 depuration compounds (13C PCB-9, 13C PCB-15, 13C PCB-32, PCB-30, and d6-γ-HCH) injected in 82 samples from 24 sites deployed by the Global Atmospheric Passive Sampling (GAPS) network around the world. The dimensionless fitting parameter, gamma, was found to be constant at 0.267 when implementing the Integrated Surface Database (ISD) weather observations and 0.315 using the Modern Era Retrospective-Analysis for Research and Applications (MERRA) weather dataset. The model provided acceptable agreement between modelled and depuration determined sampling rates, with 13C PCB-9, 13C PCB-32, and d6-γ-HCH having mean percent bias near zero (±6%) for both weather datasets (ISD and MERRA). The model provides inexpensive and reliable PUF-PAS gas-phase RS and Veff when depuration compounds produce unusual or suspect results and for sites where the use of depuration compounds is impractical, such as sites experiencing low average wind speeds, very cold temperatures, or remote locations.",
+        "authors": [
+            "author-da55f6e6474201a3be99",
+            "author-531b4bc16bfca9b1a029",
+            "author-2e119f545d27268ebb0b",
+            "author-cde94d6ba0c09d81f4de",
+            "author-8c2356e7bd576adfeec2",
+            "author-993d78d18334393b1393",
+            "author-8f470941d00af47cebe3"
+        ],
         "datasets": [
             "dataset-621",
             "dataset-800"
@@ -6823,6 +6840,12 @@
                 }
             ]
         },
+        "abstract": "We have developed and evaluated a mathematical model to determine the effective sampling volumes (Veff) of PCBs and similar compounds captured using polyurethane foam passive air samplers (PUF-PAS). We account for the variability in wind speed, air temperature, and equilibrium partitioning over the course of the deployment of the samplers. The model, provided as an annotated Matlab script, predicts the Veff as a function of physical-chemical properties of each compound and meteorology from the closest Integrated Surface Database (ISD) data set obtained through NOAA's National Centers for Environmental Information (NCEI). The model was developed to be user-friendly, only requiring basic Matlab knowledge. To illustrate the effectiveness of the model, we evaluated three independent data sets of airborne PCBs simultaneously collected using passive and active samplers: at sites in Chicago, Lancaster, UK, and Toronto, Canada. The model provides Veff values comparable to those using depuration compounds and calibration against active samplers, yielding an average congener specific concentration method ratio (active/passive) of 1.1 ± 1.2. We applied the model to PUF-PAS samples collected in Chicago and show that previous methods can underestimate concentrations of PCBs by up to 40%, especially for long deployments, deployments conducted under warming conditions, and compounds with log Koa values less than 8.",
+        "authors": [
+            "author-da55f6e6474201a3be99",
+            "author-993d78d18334393b1393",
+            "author-8f470941d00af47cebe3"
+        ],
         "datasets": [
             "dataset-621"
         ],
