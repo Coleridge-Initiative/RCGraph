@@ -100,10 +100,14 @@ For more info about how to use Git submodules, see:
 To perform these tests:
 
 ```
-nose2 -v --pretty-assert
+coverage run -m unittest discover
+coverage report
 ```
 
 Then create GitHub issues among the submodules for any failed tests.
+
+Test coverage reports can be viewed at
+<https://codecov.io/gh/Coleridge-Initiative/RCGraph>
 
 
 ### Step 2: Gather the DOIs, etc.
