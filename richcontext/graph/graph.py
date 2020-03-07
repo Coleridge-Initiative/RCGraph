@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-from collections import Counter
+from collections import Counter, OrderedDict, defaultdict
 from difflib import SequenceMatcher
 from pathlib import Path
 from tqdm import tqdm  # type: ignore
@@ -338,6 +338,7 @@ class RCPublications:
         self.pdf_hits = 0
         self.auth_hits = 0
         self.ab_hits = 0
+        self.key_hits = 0
 
 
     def verify_doi (self, doi):
@@ -1109,7 +1110,7 @@ class RCGraph:
     def __init__ (self, step_name="generic"):
         self.step_name = step_name
         self.already_reported = set([])
-        self.misses = []
+        self.misses = defaultdict(list)
         self.journals = RCJournals()
         self.publications = RCPublications()
         self.authors = RCAuthors()
@@ -1254,22 +1255,24 @@ class RCGraph:
         report the titles of publications that have metadata error
         conditions related to the current workflow step
         """
-        filename = Path("errors/misses_{}.txt".format(self.step_name))
+        view = OrderedDict()
+        view["messages"] = [ m for m in self.already_reported ]
+
+        if status:
+            view["status"] = status
+
+        if trouble:
+            view["trouble"] = trouble
+
+        view["misses"] = OrderedDict()
+
+        for partition, title_list in self.misses.items():
+            view["misses"][partition] = title_list
+
+        filename = Path("errors/misses_{}.json".format(self.step_name))
 
         with codecs.open(filename, "wb", encoding="utf8") as f:
-            if status:
-                f.write("{}\n".format(status))
-                f.write("---\n")
-
-            for message in self.already_reported:
-                f.write("{}\n".format(message))
-                f.write("---\n")
-
-            if trouble:
-                f.write("{}:\n".format(trouble))
-
-            for title in self.misses:
-                f.write("{}\n".format(title))
+            json.dump(view, f, indent=4, sort_keys=False, ensure_ascii=False)
 
 
 ######################################################################
