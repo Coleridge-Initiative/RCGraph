@@ -127,7 +127,7 @@ def main (args):
     pub_list = []
 
     for title, pub in override.items():
-        if "used" not in pub:
+        if "used" not in pub and "datasets" in pub:
             if "omit-corpus" in pub and pub["omit-corpus"]:
                 continue
             else:
