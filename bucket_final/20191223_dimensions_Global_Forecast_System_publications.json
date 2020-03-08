@@ -1,21 +1,5 @@
 [
     {
-        "authors": [
-            "author-de6eeb0afe905d214ab5",
-            "author-ffd9b609199d94dc1f3b",
-            "author-d77d25a287ac77568740",
-            "author-2734b28387ab7ec0ab38",
-            "author-df093d60995c72e8ba5f"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.1016/j.atmosres.2019.104771",
-        "journal": "journal-1184",
-        "title": "Assimilation of radar radial velocity data with the WRF hybrid 4DEnVar system for the prediction of hurricane Ike (2008)",
-        "url": "https://www.sciencedirect.com/science/article/pii/S0169809519304636?via%3Dihub"
-    },
-    {
         "abstract": "Abstract A sensitivity-based initial condition (IC) perturbation method for convection-permitting ensemble forecasts (CPEFs) is presented and preliminarily tested. The distribution of the perturbations is based on the sensitivity patterns from the ensemble sensitivity analysis (ESA) and the fast-growing perturbations calculated by the breeding growth mode (BGM). Two convective precipitation cases are used to quantitatively and qualitatively evaluate the impacts of the perturbation schemes on the ensemble forecast skill based on the Weather Research and Forecasting (WRF) model. To generate the sensitivity-based IC perturbations, ESA is applied to the short-term convective precipitation cases to calculate the sensitivity patterns. The analysis reveals the influential factors related to the evolution of weather situations that impact the strength of the forecast precipitation. The sensitivity patterns are introduced to the IC perturbations by a sensitivity-based BGM (SeBGM) method proposed in this research, and the response of the forecast skill to different perturbation magnitudes is examined. Ensemble forecasts with sensitivity-based IC perturbations can adapt to changes in the weather regime and provide accurate simulations of the placement and strength of convective systems, leading to improvements in the precipitation forecast skill.",
         "authors": [
             "author-0c5a8b0615ca7ffca6cc",
@@ -27,8 +11,70 @@
         ],
         "doi": "10.1016/j.atmosres.2019.104741",
         "journal": "journal-1184",
+        "keyphrases": {
+            "accurate simulations": {
+                "count": 1,
+                "rank_score": 0.06874850884097418
+            },
+            "convection-permitting ensemble forecasts": {
+                "count": 1,
+                "rank_score": 0.07552500122452434
+            },
+            "convective systems": {
+                "count": 1,
+                "rank_score": 0.08178602895340151
+            },
+            "different perturbation magnitudes": {
+                "count": 1,
+                "rank_score": 0.11100817108991393
+            },
+            "ensemble forecasts": {
+                "count": 1,
+                "rank_score": 0.1142516284571467
+            },
+            "ic": {
+                "count": 2,
+                "rank_score": 0.0888527521548484
+            },
+            "sensitivity-based ic perturbations": {
+                "count": 2,
+                "rank_score": 0.10955413761151198
+            },
+            "the ensemble forecast skill": {
+                "count": 1,
+                "rank_score": 0.07612783374323034
+            },
+            "the ensemble sensitivity analysis": {
+                "count": 1,
+                "rank_score": 0.08046752299015009
+            },
+            "the forecast precipitation": {
+                "count": 1,
+                "rank_score": 0.065733475369285
+            },
+            "the ic perturbations": {
+                "count": 1,
+                "rank_score": 0.07734444502711607
+            },
+            "the precipitation forecast skill": {
+                "count": 1,
+                "rank_score": 0.07463599772717952
+            },
+            "the sensitivity patterns": {
+                "count": 3,
+                "rank_score": 0.06636044441011803
+            },
+            "two convective precipitation cases": {
+                "count": 1,
+                "rank_score": 0.0689279461473213
+            },
+            "weather situations": {
+                "count": 1,
+                "rank_score": 0.07932022393538923
+            }
+        },
         "title": "A study of ensemble-sensitivity-based initial condition perturbation methods for convection-permitting ensemble forecasts",
-        "url": "https://www.sciencedirect.com/science/article/pii/S0169809519302492?via%3Dihub"
+        "url": "https://doi.org/10.1016/j.atmosres.2019.104741"
     },
     {
         "abstract": "Abstract This study is aimed to assess the performance of Numerical Weather Predication (NWP) model Weather Research and Forecasting (WRF) in simulating the season long rainfall pattern over the North-West Himalayan (NWH) region. For this purpose, two experiments are designed with identical initial conditions but varying cumulus physics options viz.; Kain-Fritsch (KF) and Multi-scale Kain-Fritsch (MSKF). WRF simulations have been carried out for multiple nested domains (45, 15 and 5 km) configuration for monsoon season of 2017. Model derived rainfall corresponding to two experiments has been evaluated against the gridded rainfall data prepared by India Meteorological Department (IMD) and satellite based GPM-IMERGE and INSAT-3D HE-rain. Present results unveiled that the KF scheme overestimates the amount of rainfall over the entire study domain; whereas, MSKF scheme is capable to simulate the magnitude of rainfall comparable to the observations. Model simulated rainfall corresponding to both the experiments yields stronger correlation with satellite based GPM-IMERG as compared to the IMD data. It is noted based on statistically robust Chow test that the WRF simulation with KF scheme estimates break point in the rainfall pattern at 1200 m whereas WRF simulation with MSKF scheme resolves break point at 2000 m which is in close agreement with the previous studies. Categorical statistics metrics and qualitative analysis of WRF simulations suggest that the scale aware cumulus scheme MSKF performs better in resolving monsoon season rainfall pattern over the rugged topography of the NWH region. Present study has implications for improved understanding of spatial pattern of monsoon rainfall over the NWH region.",
@@ -43,8 +89,70 @@
         ],
         "doi": "10.1016/j.atmosres.2019.104682",
         "journal": "journal-1184",
+        "keyphrases": {
+            "kf scheme estimates": {
+                "count": 1,
+                "rank_score": 0.09156235576390417
+            },
+            "monsoon rainfall": {
+                "count": 1,
+                "rank_score": 0.10012414208898232
+            },
+            "monsoon season": {
+                "count": 1,
+                "rank_score": 0.07542267084787285
+            },
+            "monsoon season rainfall pattern": {
+                "count": 1,
+                "rank_score": 0.11121181060735034
+            },
+            "mskf scheme": {
+                "count": 1,
+                "rank_score": 0.08009117863791818
+            },
+            "numerical weather predication": {
+                "count": 1,
+                "rank_score": 0.06894001396252376
+            },
+            "present study": {
+                "count": 1,
+                "rank_score": 0.06870839282098107
+            },
+            "rainfall": {
+                "count": 4,
+                "rank_score": 0.09218552533794484
+            },
+            "spatial pattern": {
+                "count": 1,
+                "rank_score": 0.07258437541605828
+            },
+            "the scale aware cumulus scheme mskf": {
+                "count": 1,
+                "rank_score": 0.06803669284372112
+            },
+            "the season long rainfall pattern": {
+                "count": 1,
+                "rank_score": 0.07148420216134452
+            },
+            "varying cumulus physics options viz": {
+                "count": 1,
+                "rank_score": 0.07953429743168906
+            },
+            "weather research": {
+                "count": 1,
+                "rank_score": 0.06421954390536436
+            },
+            "wrf": {
+                "count": 6,
+                "rank_score": 0.06892121685314298
+            },
+            "wrf simulations": {
+                "count": 4,
+                "rank_score": 0.08714121414463294
+            }
+        },
         "title": "Evaluation of season long rainfall simulated by WRF over the NWH region: KF vs. MSKF",
-        "url": "https://www.semanticscholar.org/paper/734149d8a63fd9a0f6210be9dc7031739d18115b"
+        "url": "https://doi.org/10.1016/j.atmosres.2019.104682"
     },
     {
         "abstract": "Abstract Coastal forecast systems are used for many purposes, including harbor management, search and rescue operations, and response to extreme events. However, the generation and operation of these systems is time-consuming, requires expertise in both information technologies and modeling of coastal processes, and needs dedicated computational power. The new service OPENCoastS overcomes these difficulties by generating on-demand coastal circulation forecast systems through a web platform with minimal user intervention. Using a web platform, the user is guided through seven simple steps to generate an operational forecast system for any coastal region. The only requirements are an unstructured grid of the study area and information on river flow, if applicable. The platform provides ocean and atmospheric forcings and data for model validation, and includes interfaces for results visualization and forecasts management. Forecasts are generated with the community model SCHISM, and computing resources are provided through the European Open Science Cloud.",
@@ -67,6 +175,68 @@
         ],
         "doi": "10.1016/j.envsoft.2019.104585",
         "journal": "journal-1185",
+        "keyphrases": {
+            "abstract coastal forecast systems": {
+                "count": 1,
+                "rank_score": 0.10886557118993666
+            },
+            "an operational forecast system": {
+                "count": 1,
+                "rank_score": 0.07042662781934218
+            },
+            "atmospheric forcings": {
+                "count": 1,
+                "rank_score": 0.0671284480951255
+            },
+            "coastal processes": {
+                "count": 1,
+                "rank_score": 0.080792108969408
+            },
+            "dedicated computational power": {
+                "count": 1,
+                "rank_score": 0.0761219227493106
+            },
+            "forecasts": {
+                "count": 1,
+                "rank_score": 0.08385313944639702
+            },
+            "forecasts management": {
+                "count": 1,
+                "rank_score": 0.07064388670849561
+            },
+            "harbor management": {
+                "count": 1,
+                "rank_score": 0.07405700205898294
+            },
+            "information": {
+                "count": 1,
+                "rank_score": 0.08050520756644339
+            },
+            "many purposes": {
+                "count": 1,
+                "rank_score": 0.06435432646262858
+            },
+            "minimal user intervention": {
+                "count": 1,
+                "rank_score": 0.0760061760380819
+            },
+            "model validation": {
+                "count": 1,
+                "rank_score": 0.06795307241474645
+            },
+            "operations": {
+                "count": 2,
+                "rank_score": 0.06551455684188866
+            },
+            "results visualization": {
+                "count": 1,
+                "rank_score": 0.07078674522926197
+            },
+            "river flow": {
+                "count": 1,
+                "rank_score": 0.06802155195930026
+            }
+        },
         "title": "OPENCoastS: An open-access service for the automatic generation of coastal forecast systems",
         "url": "https://doi.org/10.1016/j.envsoft.2019.104585"
     },
@@ -81,8 +251,70 @@
         ],
         "doi": "10.1016/j.atmosres.2019.104681",
         "journal": "journal-1184",
+        "keyphrases": {
+            "buoyant environmental conditions": {
+                "count": 1,
+                "rank_score": 0.07765086817121121
+            },
+            "convection": {
+                "count": 1,
+                "rank_score": 0.06263400135021671
+            },
+            "estimated f2 intensity": {
+                "count": 1,
+                "rank_score": 0.06619852715114026
+            },
+            "hook echo": {
+                "count": 1,
+                "rank_score": 0.06315365017224886
+            },
+            "meteorological conditions": {
+                "count": 1,
+                "rank_score": 0.08285748065385255
+            },
+            "meteorological models": {
+                "count": 1,
+                "rank_score": 0.08128028057986951
+            },
+            "national research institute": {
+                "count": 2,
+                "rank_score": 0.0697196970122842
+            },
+            "radial velocity": {
+                "count": 1,
+                "rank_score": 0.05524022585346484
+            },
+            "severe convection values": {
+                "count": 1,
+                "rank_score": 0.08773203513952986
+            },
+            "severe storms": {
+                "count": 1,
+                "rank_score": 0.07615891608861255
+            },
+            "severe wind gusts": {
+                "count": 1,
+                "rank_score": 0.07867285006861527
+            },
+            "sharp and classic severe convection signatures": {
+                "count": 1,
+                "rank_score": 0.062468998426159626
+            },
+            "supercells": {
+                "count": 3,
+                "rank_score": 0.06337370249597765
+            },
+            "upper air meteorological conditions": {
+                "count": 1,
+                "rank_score": 0.0851168485719918
+            },
+            "water management": {
+                "count": 1,
+                "rank_score": 0.055617317489223606
+            }
+        },
         "title": "Forecasting experiences associated with supercells over South-Western Poland on July 7, 2017",
-        "url": "https://ruj.uj.edu.pl/xmlui/handle/item/88604"
+        "url": "https://www.sciencedirect.com/science/article/pii/S0169809519305150?via%3Dihub"
     },
     {
         "abstract": "Abstract This study explores the maximization of hydropower generation by optimizing reservoir operations based on short-term inflow forecasts derived from publicly available numerical weather prediction (NWP) models. Forecast fields from the NWP model of Global Forecast System (GFS) were used to force the Variable Infiltration Capacity (VIC) hydrologic model to forecast reservoir inflow for 1–16 days lead time. The optimization of reservoir operations was performed based on the forecast of inflow. The concept was demonstrated for two dams in the United States. Results showed that a significantly greater amount additional hydroelectric energy benefit can be derived consistently than the traditional operations without optimization and weather forecasts. Goals of flood control and dam safety were also not compromised when exploring opportunities for hydropower maximization. An alternate data-based technique was also demonstrated to improve the forecasting skill and efficiency. The study clearly underscores the additional value of weather forecasts that are available publicly and globally from NWP models for any dam location for hydropower maximization. Given the on-going effort to coordinate strategies for sustainable energy production from renewable energy sources, it is timely that this concept be expanded further to current hydropower dam sites around the world.",
@@ -95,8 +327,70 @@
         ],
         "doi": "10.1016/j.renene.2019.07.126",
         "journal": "journal-1186",
+        "keyphrases": {
+            "additional hydroelectric energy benefit": {
+                "count": 1,
+                "rank_score": 0.10140023704023561
+            },
+            "current hydropower dam sites": {
+                "count": 1,
+                "rank_score": 0.10960642734302097
+            },
+            "dam safety": {
+                "count": 1,
+                "rank_score": 0.08513641406692687
+            },
+            "flood control": {
+                "count": 1,
+                "rank_score": 0.06682579056927374
+            },
+            "forecast fields": {
+                "count": 1,
+                "rank_score": 0.07494953231157933
+            },
+            "global forecast system": {
+                "count": 2,
+                "rank_score": 0.07279605003455142
+            },
+            "hydropower generation": {
+                "count": 1,
+                "rank_score": 0.08592849299589982
+            },
+            "hydropower maximization": {
+                "count": 2,
+                "rank_score": 0.09601895182710349
+            },
+            "inflow": {
+                "count": 1,
+                "rank_score": 0.06500118275788935
+            },
+            "nwp models": {
+                "count": 3,
+                "rank_score": 0.08811909074939188
+            },
+            "renewable energy sources": {
+                "count": 1,
+                "rank_score": 0.08557892427758662
+            },
+            "reservoir inflow": {
+                "count": 1,
+                "rank_score": 0.08770319791972117
+            },
+            "reservoir operations": {
+                "count": 2,
+                "rank_score": 0.0908656791030278
+            },
+            "sustainable energy production": {
+                "count": 1,
+                "rank_score": 0.09019384803431164
+            },
+            "weather forecasts": {
+                "count": 2,
+                "rank_score": 0.09108679853620866
+            }
+        },
         "title": "Maximizing Energy Production from Hydropower Dams using Short-Term Weather Forecasts",
-        "url": "https://doi.org/10.1016/j.renene.2019.07.126"
+        "url": "https://www.semanticscholar.org/paper/4691b7ad496b43801c693b670539fa117ba1918a"
     },
     {
         "abstract": "Abstract Wind power forecast uncertainty exposes wind farms to volatile real-time electricity prices and increases wind power integration costs. Wind power forecast uncertainty could address these challenges and facilitate the process of siting suitable wind farm locations. In this study, the Analog Ensemble (AnEn) is employed to generate probabilistic wind speed forecasts at 80-m height using past forecast and analysis fields from the Global Forecast System (GFS). The AnEn predictions are used as proxy measurements for how difficult it is to estimate wind speed at different locations in the contiguous United States. The results show significant spatial variations in the wind speed error over the domain. This measure of uncertainty is paramount when determining the most suitable locations for large wind farms. We observed that locations with higher average wind speed are associated with larger degrees of forecast uncertainty which increases the difficulty to predict wind speed at these locations. Our analysis showed high correlation between forecast uncertainty and wind power output volatility which indicates higher risk of operating in real time electricity markets for wind farms located in areas with higher wind speeds. Further, a simple risk analysis using Sharpe ratio was performed to evaluate the riskiness of wind farms in the U.S.",
@@ -112,8 +406,70 @@
         ],
         "doi": "10.1016/j.renene.2019.06.132",
         "journal": "journal-1186",
+        "keyphrases": {
+            "forecast uncertainty": {
+                "count": 2,
+                "rank_score": 0.12358716639486103
+            },
+            "higher average wind speed": {
+                "count": 1,
+                "rank_score": 0.14042335091569946
+            },
+            "higher risk": {
+                "count": 1,
+                "rank_score": 0.0867042788807709
+            },
+            "higher wind speeds": {
+                "count": 1,
+                "rank_score": 0.14658008179328688
+            },
+            "large wind farms": {
+                "count": 1,
+                "rank_score": 0.13890257113270366
+            },
+            "probabilistic wind speed forecasts": {
+                "count": 1,
+                "rank_score": 0.15170972381863143
+            },
+            "real time electricity markets": {
+                "count": 1,
+                "rank_score": 0.08463101449371434
+            },
+            "suitable wind farm locations": {
+                "count": 1,
+                "rank_score": 0.1435913160655671
+            },
+            "the wind speed error": {
+                "count": 1,
+                "rank_score": 0.08711998265934613
+            },
+            "uncertainty": {
+                "count": 1,
+                "rank_score": 0.0874170167729898
+            },
+            "wind farms": {
+                "count": 2,
+                "rank_score": 0.14219593300355002
+            },
+            "wind power forecast uncertainty": {
+                "count": 1,
+                "rank_score": 0.1606023882380483
+            },
+            "wind power integration costs": {
+                "count": 1,
+                "rank_score": 0.12820442457185172
+            },
+            "wind power output volatility": {
+                "count": 1,
+                "rank_score": 0.13000173019398803
+            },
+            "wind speed": {
+                "count": 2,
+                "rank_score": 0.14264270203101753
+            }
+        },
         "title": "Using the Analog Ensemble Method as a Proxy Measurement for Wind Power Predictability",
-        "url": "https://doi.org/10.1016/j.renene.2019.06.132"
+        "url": "https://www.semanticscholar.org/paper/0cd949bcdb3f283f4a3645e256e9ac4eb36ba221"
     },
     {
         "abstract": "To better understand how model resolution affects the formation of Arctic boundary layer clouds, we investigated the influence of grid spacing on simulating cloud streets that occurred near Utqiagvik (formerly Barrow), Alaska, on 2 May 2013 and were observed by MODIS (the Moderate Resolution Imaging Spectroradiometer). The Weather Research and Forecasting model was used to simulate the clouds using nested domains with increasingly fine resolution ranging from a horizontal grid spacing of 27 km in the boundary-layer-parameterized mesoscale domain to a grid spacing of 0.111 km in the large-eddy-permitting domain. We investigated the model-simulated mesoscale environment, horizontal and vertical cloud structures, boundary layer stability, and cloud properties, all of which were subsequently used to interpret the observed roll-cloud case. Increasing model resolution led to a transition from a more buoyant boundary layer to a more shear-driven turbulent boundary layer. The clouds were stratiform-like in the mesoscale domain, but as the model resolution increased, roll-like structures, aligned along the wind field, appeared with ever smaller wavelengths. A stronger vertical water vapor gradient occurred above the cloud layers with decreasing grid spacing. With fixed model grid spacing at 0.333 km, changing the model configuration from a boundary layer parameterization to a large-eddy-permitting scheme produced a more shear-driven and less unstable environment, a stronger vertical water vapor gradient below the cloud layers, and the wavelengths of the rolls decreased slightly. In this study, only the large-eddy-permitting simulation with gird spacing of 0.111 km was sufficient to model the observed roll clouds.摘要为了更好地了解模型分辨率如何影响北极边界层云的形成,我们以MODIS(中分辨率成像光谱仪)的观测为参考研究了网格间距对模拟 2013 年 5 月 2 日发生在阿拉斯加 Utqiaġvik(原巴罗)附近的云街道的影响。天气研究和预报模型WRF被用于用嵌套区域模拟云,其分辨率从边界层参数化中尺度区域的水平网格间距27公里到大涡允许区域的网格间距0.111公里不等。我们研究了模型模拟的中尺度环境、水平和垂直云结构、边界层稳定性和云属性,所有这些特性后来都用于解释观察到的卷云案例。模型分辨率的提高导致从浮力驱动为主的边界层过渡到剪切驱动主导的湍流边界层。云在中尺度域中以层云出现,但随着模型分辨率的提高,向风场看齐的卷状结构呈越来越短的波长。伴随着网格间距的减小,云层上方出现更强的垂直水汽梯度。当模型网格间距固定在0.333km时,将模型配置从边界层参数化改为大涡允许方案时,产生了更大的切变驱动和更少的不稳定环境,云层下方的垂直水汽梯度更强,卷波波长略有减小。在本研究中,只有网格间距为0.111km的大涡模拟才足以模拟观测到的卷云。",
@@ -131,8 +487,70 @@
         ],
         "doi": "10.1007/s00376-019-9105-y",
         "journal": "journal-1187",
+        "keyphrases": {
+            "a boundary layer parameterization": {
+                "count": 1,
+                "rank_score": 0.06820633561725073
+            },
+            "a horizontal grid spacing": {
+                "count": 1,
+                "rank_score": 0.06219626638429156
+            },
+            "a stronger vertical water vapor gradient": {
+                "count": 1,
+                "rank_score": 0.06526013977359708
+            },
+            "arctic boundary layer clouds": {
+                "count": 1,
+                "rank_score": 0.1298039997806563
+            },
+            "boundary layer stability": {
+                "count": 1,
+                "rank_score": 0.10678661748488093
+            },
+            "cloud properties": {
+                "count": 1,
+                "rank_score": 0.09815921145556346
+            },
+            "cloud streets": {
+                "count": 1,
+                "rank_score": 0.10124993030006643
+            },
+            "fixed model grid": {
+                "count": 1,
+                "rank_score": 0.09735078341059852
+            },
+            "gird spacing": {
+                "count": 1,
+                "rank_score": 0.07608110380458033
+            },
+            "grid spacing": {
+                "count": 2,
+                "rank_score": 0.09343392902286922
+            },
+            "horizontal and vertical cloud structures": {
+                "count": 1,
+                "rank_score": 0.07693297979882217
+            },
+            "increasing model resolution": {
+                "count": 1,
+                "rank_score": 0.10470825354316189
+            },
+            "model resolution": {
+                "count": 1,
+                "rank_score": 0.07933706474692968
+            },
+            "nested domains": {
+                "count": 1,
+                "rank_score": 0.06816712961986676
+            },
+            "the cloud layers": {
+                "count": 2,
+                "rank_score": 0.07320617426607123
+            }
+        },
         "title": "Modeling Arctic Boundary Layer Cloud Streets at Grey-zone Resolutions",
-        "url": "https://link.springer.com/article/10.1007%2Fs00376-019-9105-y"
+        "url": "https://doi.org/10.1007/s00376-019-9105-y"
     },
     {
         "abstract": "Abstract An understanding of the growth in surface concentration of ozone and its adverse health effects are important for environmental departments to make sensible decisions for future. Our hybrid model CEEMD+CRJ+MLR is the first attempt to improve CRJ in the field of air pollution prediction and ozone forecasting. For this novel framework, CEEMD has been adopted to decompose original MDA8_O3 history into several sub-series. After that, for each IMF, CRJ is used to extract time-series features. These time-series features are fed into appropriate machine learning methods for prediction. In addition to that, residual is also predicted through normal methods. A model, which is trained with data from 1 May 2014 to 31 May 2017, is validated with data from 1 June 2017 to 30 May 2018, obtained from four stations of Beijing, China. The hybrid model has input variables which are combined with related pollutants, meteorological forecasts and UV index, and predict maximum daily 8-h average ozone (MDA8_O3) concentration in different time intervals. Our experimental results show that the CEEMD+CRJ+MLR model exhibits the best performance compared with other benchmark models generally. For four stations, IA, MAE, RMSE and MAPE average of +1 (forecasting 1 day in advance) are 0.9763, 12.84, 17.81 and 18.5% respectively and of +2 are 0.9679, 15.17, 20.15 and 23.86% respectively. Especially in the case of forecasting heavy ozone concentration (Level III), a critical issue in air pollution predictions, the classification rate of our hybrid model has improved from 29.4% (for CRJ) to 83.4% in +1 and from 38% (for CRJ) to 73% in +2. For long time forecasting, the CEEMD+CRJ+MLR also shows its outstanding performance in whole levels and level III ozone concentration. Our hybrid model, with accurate and stable results, is highly effective for MDA8_O3 concentration prediction and can efficiently be applied in other regions.",
@@ -150,6 +568,68 @@
         ],
         "doi": "10.1016/j.atmosenv.2019.117072",
         "journal": "journal-1188",
+        "keyphrases": {
+            "air pollution prediction": {
+                "count": 2,
+                "rank_score": 0.08709447053101593
+            },
+            "appropriate machine learning methods": {
+                "count": 1,
+                "rank_score": 0.07131391536876153
+            },
+            "data": {
+                "count": 2,
+                "rank_score": 0.06418685332032306
+            },
+            "different time intervals": {
+                "count": 1,
+                "rank_score": 0.07107988498042343
+            },
+            "heavy ozone concentration": {
+                "count": 1,
+                "rank_score": 0.10045183077026026
+            },
+            "iii ozone concentration": {
+                "count": 1,
+                "rank_score": 0.05984449881401203
+            },
+            "long time forecasting": {
+                "count": 1,
+                "rank_score": 0.07717836779235585
+            },
+            "mda8_o3 concentration prediction": {
+                "count": 1,
+                "rank_score": 0.09591429683625764
+            },
+            "meteorological forecasts": {
+                "count": 1,
+                "rank_score": 0.06047831804699977
+            },
+            "other benchmark models": {
+                "count": 1,
+                "rank_score": 0.08221420979948668
+            },
+            "ozone": {
+                "count": 1,
+                "rank_score": 0.07507419372743761
+            },
+            "ozone forecasting": {
+                "count": 1,
+                "rank_score": 0.08395427863827554
+            },
+            "prediction": {
+                "count": 1,
+                "rank_score": 0.06928034113110733
+            },
+            "several sub-series": {
+                "count": 1,
+                "rank_score": 0.07498484760415312
+            },
+            "surface concentration": {
+                "count": 1,
+                "rank_score": 0.08232297236369988
+            }
+        },
         "title": "A novel framework for daily forecasting of ozone mass concentrations based on cycle reservoir with regular jumps neural networks",
         "url": "https://doi.org/10.1016/j.atmosenv.2019.117072"
     },
@@ -165,24 +645,70 @@
         ],
         "doi": "10.1007/978-3-030-14347-3_2",
         "journal": "journal-000",
+        "keyphrases": {
+            "a multi-layer polynomial network structure": {
+                "count": 1,
+                "rank_score": 0.06618036832578782
+            },
+            "daily prediction models": {
+                "count": 1,
+                "rank_score": 0.09638053577313198
+            },
+            "daily predictions": {
+                "count": 1,
+                "rank_score": 0.07270548298827309
+            },
+            "differential polynomial network": {
+                "count": 1,
+                "rank_score": 0.07088575269549
+            },
+            "forecasts": {
+                "count": 2,
+                "rank_score": 0.06983454501373629
+            },
+            "historical data": {
+                "count": 1,
+                "rank_score": 0.07319809350850673
+            },
+            "local weather": {
+                "count": 1,
+                "rank_score": 0.07486831332562677
+            },
+            "partial differential equation": {
+                "count": 2,
+                "rank_score": 0.06839459873407795
+            },
+            "post-processing models": {
+                "count": 1,
+                "rank_score": 0.10243210727467678
+            },
+            "spatial data relations": {
+                "count": 1,
+                "rank_score": 0.07390605902612256
+            },
+            "specific local conditions": {
+                "count": 1,
+                "rank_score": 0.07504515942725425
+            },
+            "specific sub-pde solutions": {
+                "count": 1,
+                "rank_score": 0.08500512799604819
+            },
+            "the proposed forecasts post-processing": {
+                "count": 1,
+                "rank_score": 0.06675655597161222
+            },
+            "training days": {
+                "count": 2,
+                "rank_score": 0.06213092787116161
+            },
+            "wind speed": {
+                "count": 1,
+                "rank_score": 0.06480266604029596
+            }
+        },
         "title": "Post-processing of Wind-Speed Forecasts Using the Extended Perfect Prog Method with Polynomial Neural Networks to Elicit PDE Models",
-        "url": "https://doi.org/10.1007/978-3-030-14347-3_2"
-    },
-    {
-        "authors": [
-            "author-99f28a75a6f5a63980d2",
-            "author-f29879d7f37bbfcc3acf",
-            "author-823ea6aafa5f5d98a475",
-            "author-32fabc7c2717df8a7309",
-            "author-5bd4a62c932a3cb2a3d3"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.1007/978-3-030-22055-6_53",
-        "journal": "journal-1305",
-        "title": "Sensitivity of Atmospheric Composition Mesoscale Simulations in the Mediterranean to the Meteorological Data and Chemical Boundary Conditions",
-        "url": "https://link.springer.com/chapter/10.1007%2F978-3-030-22055-6_53"
+        "url": "https://link.springer.com/chapter/10.1007%2F978-3-030-14347-3_2"
     },
     {
         "abstract": "Over the last decade, near real-time analysis of GPS data has become a well-established atmospheric observing tool, primarily coordinated by the EIG EUMETNET GPS Water Vapour Programme (E-GVAP) in Europe. In the near future, four operational GNSS will be available for commercial and scientific applications with atmospheric science benefiting from new signals from up to 60 satellites observed at any one place and time, however, many challenges remain regarding their optimal combined utilization. Besides raw data streaming, recent availability of precise real-time orbit and clock corrections enable wide utilization of autonomous Precise Point Positioning (PPP), which is particularly efficient for high-rate, real-time and multi-GNSS analyses.",
@@ -250,92 +776,70 @@
         ],
         "doi": "10.1007/978-3-030-13901-8_3",
         "journal": "journal-000",
+        "keyphrases": {
+            "(e-gvap": {
+                "count": 1,
+                "rank_score": 0.05820436321257998
+            },
+            "atmospheric science": {
+                "count": 1,
+                "rank_score": 0.09218776383914074
+            },
+            "autonomous precise point positioning": {
+                "count": 1,
+                "rank_score": 0.09350516078548218
+            },
+            "gnss": {
+                "count": 1,
+                "rank_score": 0.06007149664011389
+            },
+            "gps data": {
+                "count": 1,
+                "rank_score": 0.08292352387314199
+            },
+            "gps water vapour programme": {
+                "count": 1,
+                "rank_score": 0.0943158967729375
+            },
+            "many challenges": {
+                "count": 1,
+                "rank_score": 0.0679905197964725
+            },
+            "new signals": {
+                "count": 1,
+                "rank_score": 0.06659383688330411
+            },
+            "precise real-time orbit and clock corrections": {
+                "count": 1,
+                "rank_score": 0.06999375473153725
+            },
+            "raw data streaming": {
+                "count": 1,
+                "rank_score": 0.0858121592620114
+            },
+            "real-time analysis": {
+                "count": 1,
+                "rank_score": 0.07763985178407665
+            },
+            "recent availability": {
+                "count": 1,
+                "rank_score": 0.07466959325607933
+            },
+            "the eig eumetnet gps water vapour programme": {
+                "count": 1,
+                "rank_score": 0.07470090537851987
+            },
+            "time": {
+                "count": 1,
+                "rank_score": 0.09018655639861363
+            },
+            "wide utilization": {
+                "count": 1,
+                "rank_score": 0.08650290890990314
+            }
+        },
         "title": "Advanced GNSS Processing Techniques (Working Group 1)",
         "url": "https://doi.org/10.1007/978-3-030-13901-8_3"
-    },
-    {
-        "authors": [
-            "author-be0d1bd17ff2c520badc",
-            "author-89ac9e9818eb3b3d988f",
-            "author-b0a8b50978e07edef805",
-            "author-22a8a18aa6863bec1a24",
-            "author-122697f4e83eefdf7809"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.1175/jcli-d-19-0308.1",
-        "journal": "journal-1191",
-        "pdf": "http://journals.ametsoc.org/doi/pdf/10.1175/JCLI-D-19-0308.1",
-        "title": "Impacts of North Pacific subtropical and subarctic oceanic frontal zones on the wintertime atmospheric large-scale circulations",
-        "url": "https://doi.org/10.1175/jcli-d-19-0308.1"
-    },
-    {
-        "authors": [
-            "author-2806cea86e382ae16822",
-            "author-56fe87a6b1aeabf9c5a8",
-            "author-a080408fcbb21d286b63",
-            "author-41232abd87afb70c8d95",
-            "author-4c3bb094660bf787d1f3",
-            "author-89ac9e9818eb3b3d988f",
-            "author-d2d00fd833d1ea7c9cfd"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.1088/1748-9326/ab54fa",
-        "journal": "journal-1171",
-        "pdf": "https://iopscience.iop.org/article/10.1088/1748-9326/ab54fa/pdf",
-        "title": "Air quality and health impacts from the updated industrial emission standards in China",
-        "url": "https://doi.org/10.1088/1748-9326/ab54fa"
-    },
-    {
-        "authors": [
-            "author-7adae16322956027b7a7",
-            "author-d1b15a1c402c9e10ae4f",
-            "author-db9b4e1a791d09d5c235",
-            "author-d32fd8f24356fc8a8020"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.1029/2019jc015319",
-        "journal": "journal-1154",
-        "title": "Modeling of Internal Tides in the Western Bay of Bengal: Characteristics and Energetics",
-        "url": "https://doi.org/10.1029/2019jc015319"
-    },
-    {
-        "authors": [
-            "author-e13490ed072aa2b1a62a",
-            "author-730f3f0d2878c800e41f",
-            "author-a8ae0ad5e7b9becb6719",
-            "author-b1b489bd276dcdf47e5c"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.5194/os-15-1627-2019",
-        "journal": "journal-1192",
-        "pdf": "https://www.ocean-sci.net/15/1627/2019/os-15-1627-2019.pdf",
-        "title": "Vertical structure of ocean surface currents under high winds from massive arrays of drifters",
-        "url": "https://doi.org/10.5194/os-15-1627-2019"
-    },
-    {
-        "authors": [
-            "author-f6423d4ef656c356c4f8",
-            "author-5c9b8868fe92449a705c",
-            "author-0e7f92cf065466f65f29",
-            "author-ab696059fb5ffe0f5a8f",
-            "author-ffdb2304e406852db3c1"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.1002/met.1862",
-        "journal": "journal-1193",
-        "pdf": "https://rmets.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/met.1862",
-        "title": "Impact of ocean mixedlayer depth initialization on the simulation of tropical cyclones over the Bay of Bengal using the WRF-ARW model",
-        "url": "https://doi.org/10.1002/met.1862"
     },
     {
         "abstract": "Using hindcast and forecast data from the National Centers for Environmental Prediction (NCEP) climate forecast system version 2 (CFSv2) for the period 1982–2017, we comprehensively assess the predictability of the climatology, interannual variability, and dominant modes of the wintertime 500 hPa height over Ural-Siberia (40–80° N and 30–100° E). Although the climatic mean 500 hPa height over Ural-Siberia simulated by NCEP CFSv2 has a negative bias, especially over the eastern part of the region, NCEP CFSv2 well predicts the spatial distribution of the two major modes (EOF1 and EOF2) over this region 2 months in advance. The forecasting skill of the principal component (PC) of the two major modes, PC1 (PC2), is highest 1 (0) month in advance, where the linear correlation coefficient between the predicted and observed time series reaches + 0.36 (+ 0.67), exceeding the 95% confidence level. Conversely, the forecasting skill of PC1 (PC2) is very low 0 (1) month in advance. The main reason for the poorer (better) prediction of PC1 0 (1) month in advance is associated with a less (more) accurate response of the Eurasian pattern to SST anomalies over the southwestern Atlantic. For PC2, the better (poorer) prediction of PC2 0 (1) month in advance may be due to more (less) accurate responses of the stratospheric polar vortex and the Scandinavian pattern to the dipole SST anomalies over the North Pacific. These results are useful for evaluating the predictability of the East Asian winter climate.",
@@ -353,91 +857,70 @@
         ],
         "doi": "10.1007/s00382-019-05074-8",
         "journal": "journal-191",
+        "keyphrases": {
+            "(ncep) climate forecast system version": {
+                "count": 1,
+                "rank_score": 0.05154560199450903
+            },
+            "advance": {
+                "count": 5,
+                "rank_score": 0.06795996080686313
+            },
+            "anomalies": {
+                "count": 1,
+                "rank_score": 0.06658788886198425
+            },
+            "dominant modes": {
+                "count": 1,
+                "rank_score": 0.06861832845385896
+            },
+            "east asian": {
+                "count": 1,
+                "rank_score": 0.06337967792763066
+            },
+            "environmental prediction": {
+                "count": 1,
+                "rank_score": 0.062205855572668826
+            },
+            "hpa": {
+                "count": 1,
+                "rank_score": 0.049990196271777095
+            },
+            "interannual variability": {
+                "count": 1,
+                "rank_score": 0.060668555693337116
+            },
+            "ncep": {
+                "count": 4,
+                "rank_score": 0.07174715479005538
+            },
+            "ncep cfsv2": {
+                "count": 1,
+                "rank_score": 0.08386779176468742
+            },
+            "pc1": {
+                "count": 4,
+                "rank_score": 0.06703053421229434
+            },
+            "pc2": {
+                "count": 5,
+                "rank_score": 0.05291906795428136
+            },
+            "sst anomalies": {
+                "count": 1,
+                "rank_score": 0.08149266657462376
+            },
+            "the east asian winter climate": {
+                "count": 1,
+                "rank_score": 0.05591672274770598
+            },
+            "° n": {
+                "count": 2,
+                "rank_score": 0.06419563976021442
+            }
+        },
         "title": "Predictability of the wintertime 500 hPa geopotential height over Ural-Siberia in the NCEP climate forecast system",
-        "url": "https://doi.org/10.1007/s00382-019-05074-8"
-    },
-    {
-        "authors": [
-            "author-0939892ff6d671eecf5e",
-            "author-7be1885dd0c151de379d",
-            "author-cd3db9fac137557a345a",
-            "author-05d6dcef1a6df5360f70",
-            "author-3e4e8cfeaac2c375482a"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.1029/2019jd031232",
-        "journal": "journal-1194",
-        "pdf": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2019JD031232",
-        "title": "Toward a Better Regional Ozone Forecast Over CONUS Using Rapid Data Assimilation of Clouds and Meteorology in WRF-Chem",
-        "url": "https://doi.org/10.1029/2019jd031232"
-    },
-    {
-        "authors": [
-            "author-02e8e395ea36fdfae20a",
-            "author-58c1af55e3e92bfa0c06",
-            "author-dab9a4718570216803e6"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.1007/s41885-019-00049-9",
-        "journal": "journal-1195",
-        "pdf": "https://openknowledge.worldbank.org/bitstream/10986/30989/1/WPS8667.pdf",
-        "title": "Extreme Weather and Poverty Risk: Evidence from Multiple Shocks in Mozambique",
-        "url": "https://doi.org/10.1007/s41885-019-00049-9"
-    },
-    {
-        "authors": [
-            "author-91dec5e5dfa5fa480bac",
-            "author-13ed3ad497d5d0435448",
-            "author-fa217d12b2625bafe9aa",
-            "author-2effb65ac8f9f4cf4fcd",
-            "author-75699c2bdcf75dc6cee9"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.5194/acp-19-14657-2019",
-        "journal": "journal-1196",
-        "pdf": "https://www.atmos-chem-phys.net/19/14657/2019/acp-19-14657-2019.pdf",
-        "title": "The role of aerosol-radiation-cloud interactions in linking anthropogenic pollution over southern west Africa and dust emission over the Sahara",
-        "url": "https://doi.org/10.5194/acp-19-14657-2019"
-    },
-    {
-        "authors": [
-            "author-852e4929467002aed546",
-            "author-ab894ae6747f36822fbe",
-            "author-20ddc376c1e0dde3d525",
-            "author-16940261ce44ba87983d",
-            "author-9b15e686b32ae0bd24c1",
-            "author-73ad617faa69eacbb7ee",
-            "author-2919590fa7c28f0b75f5"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.1111/1752-1688.12806",
-        "journal": "journal-1162",
-        "title": "Use of Predictive Weather Uncertainties in an Irrigation Scheduling Tool Part II: An Application of Metrics and Adjoints",
-        "url": "https://doi.org/10.1111/1752-1688.12806"
-    },
-    {
-        "authors": [
-            "author-343f8d36587cbd25d009",
-            "author-e29ecec7e4d17d6ab3e9",
-            "author-2f863df89c3a8d132ee1",
-            "author-5f359639c30c80e8f5d8"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.1029/2019ms001741",
-        "journal": "journal-1197",
-        "pdf": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2019MS001741",
-        "title": "Multi-Grid Nesting Ability to Represent Convections across the Gray Zone",
-        "url": "https://doi.org/10.1029/2019ms001741"
+        "url": "https://www.semanticscholar.org/paper/ac0bcf41f4271727c3970ddc9d147afe116ae9c4"
     },
     {
         "abstract": "A scheme for wind-speed simulation during typhoons in Taiwan is highly desirable, considering the effects of the powerful winds accompanying the severe typhoons. The developed combination of deep learning (DL) algorithms with a weather-forecasting numerical model can be used to determine wind speed in a rapid simulation process. Here, the Weather Research and Forecasting (WRF) numerical model was employed as the numerical simulation-based model for precomputing solutions to determine the wind velocity at arbitrary positions where the wind cannot be measured. The deep neural network (DNN) was used for constructing the DL-based wind-velocity simulation model. The experimental area of Northern Taiwan was used for the simulation. Regarding the complex typhoon system, the collected data comprised the typhoon tracks, FNL (Final) Operational Global Analysis Data for the WRF model, typhoon characteristics, and ground weather data. This study included 47 typhoon events that occurred over 2000–2017. Three measures were used to analyze the models for identifying optimal performance levels: Mean absolute error, root mean squared error, and correlation coefficient. This study compared observations with the WRF numerical model and DNN model. The results revealed that (1) simulations by using the WRF-based models were satisfactorily consistent with the observed data and (2) simulations by using the DNN model were considerably consistent with those of the WRF-based model. Consequently, the proposed DNN combined with WRF model can be effectively used in simulations of wind velocity at arbitrary positions of study area.",
@@ -449,6 +932,68 @@
         ],
         "doi": "10.3390/atmos10110684",
         "journal": "journal-192",
+        "keyphrases": {
+            "dnn model": {
+                "count": 2,
+                "rank_score": 0.11702308413282153
+            },
+            "ground weather data": {
+                "count": 1,
+                "rank_score": 0.07390021539598805
+            },
+            "mean absolute error": {
+                "count": 1,
+                "rank_score": 0.08041065318452027
+            },
+            "numerical model": {
+                "count": 1,
+                "rank_score": 0.1216403430395241
+            },
+            "simulations": {
+                "count": 4,
+                "rank_score": 0.0794113498310228
+            },
+            "squared error": {
+                "count": 1,
+                "rank_score": 0.08052822967598838
+            },
+            "study area": {
+                "count": 1,
+                "rank_score": 0.0712195644859723
+            },
+            "the wrf numerical model": {
+                "count": 1,
+                "rank_score": 0.08409724873954223
+            },
+            "typhoon characteristics": {
+                "count": 1,
+                "rank_score": 0.0949237892911961
+            },
+            "typhoons": {
+                "count": 1,
+                "rank_score": 0.09529034579245878
+            },
+            "wind speed": {
+                "count": 1,
+                "rank_score": 0.0947997045032308
+            },
+            "wind velocity": {
+                "count": 2,
+                "rank_score": 0.1025249849680839
+            },
+            "wind-speed simulation": {
+                "count": 1,
+                "rank_score": 0.07048396332597283
+            },
+            "wrf": {
+                "count": 6,
+                "rank_score": 0.081263992390168
+            },
+            "wrf model": {
+                "count": 2,
+                "rank_score": 0.12829984560530866
+            }
+        },
         "pdf": "https://www.mdpi.com/2073-4433/10/11/684/pdf",
         "title": "Study on Wind Simulations Using Deep Learning Techniques during Typhoons: A Case Study of Northern Taiwan",
         "url": "https://doi.org/10.3390/atmos10110684"
@@ -464,6 +1009,36 @@
         ],
         "doi": "10.1080/15230406.2018.1553113",
         "journal": "journal-1160",
+        "keyphrases": {
+            "a frequently utilized illustration technique": {
+                "count": 1,
+                "rank_score": 0.09150244857483449
+            },
+            "abstractanimations": {
+                "count": 2,
+                "rank_score": 0.09084277764955542
+            },
+            "cartographic researc": {
+                "count": 1,
+                "rank_score": 0.1399084408344467
+            },
+            "changes": {
+                "count": 1,
+                "rank_score": 0.10180122514755846
+            },
+            "empirical geovisualization": {
+                "count": 1,
+                "rank_score": 0.16872721405836386
+            },
+            "maps": {
+                "count": 1,
+                "rank_score": 0.12589793247584252
+            },
+            "their graphical loading": {
+                "count": 1,
+                "rank_score": 0.09385675654953568
+            }
+        },
         "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/15230406.2018.1553113?needAccess=true",
         "title": "Motion of animated streamlets appears to surpass their graphical alterations in human visual detection of vector field maxima",
         "url": "https://doi.org/10.1080/15230406.2018.1553113"
@@ -479,6 +1054,68 @@
         ],
         "doi": "10.3390/su11216082",
         "journal": "journal-119",
+        "keyphrases": {
+            "a multi-criteria trajectory optimization tool": {
+                "count": 1,
+                "rank_score": 0.06378748153194644
+            },
+            "an arbitrary trajectory optimization tool": {
+                "count": 1,
+                "rank_score": 0.05582656427000978
+            },
+            "atmospheric turbulence": {
+                "count": 1,
+                "rank_score": 0.06565614339683858
+            },
+            "aviation": {
+                "count": 1,
+                "rank_score": 0.059472711238071664
+            },
+            "aviation-emitted carbon dioxides": {
+                "count": 1,
+                "rank_score": 0.06326142163128012
+            },
+            "condensation trails": {
+                "count": 2,
+                "rank_score": 0.10307885998964668
+            },
+            "environmental optimization intents": {
+                "count": 1,
+                "rank_score": 0.11032550034587288
+            },
+            "global warming": {
+                "count": 2,
+                "rank_score": 0.1025480754009143
+            },
+            "nitrogen oxides": {
+                "count": 1,
+                "rank_score": 0.06626251848021963
+            },
+            "possible simplifications": {
+                "count": 1,
+                "rank_score": 0.069329996901841
+            },
+            "single condensation trails": {
+                "count": 1,
+                "rank_score": 0.11855306791334584
+            },
+            "single-trajectory optimization tools": {
+                "count": 2,
+                "rank_score": 0.08735887843642398
+            },
+            "the environmental impact": {
+                "count": 1,
+                "rank_score": 0.06355157054761522
+            },
+            "time": {
+                "count": 2,
+                "rank_score": 0.06810707255030207
+            },
+            "wind shear": {
+                "count": 1,
+                "rank_score": 0.07594060251791125
+            }
+        },
         "pdf": "https://www.mdpi.com/2071-1050/11/21/6082/pdf",
         "title": "Individual Condensation Trails in Aircraft Trajectory Optimization",
         "url": "https://doi.org/10.3390/su11216082"
@@ -522,9 +1159,71 @@
         ],
         "doi": "10.5194/acp-2019-1022",
         "journal": "journal-1196",
+        "keyphrases": {
+            "aerosol": {
+                "count": 1,
+                "rank_score": 0.09087907715241428
+            },
+            "aerosol mass": {
+                "count": 1,
+                "rank_score": 0.09294329952943094
+            },
+            "aerosol optical depth (aod) data assimilation": {
+                "count": 1,
+                "rank_score": 0.06487766367320043
+            },
+            "aerosol size": {
+                "count": 1,
+                "rank_score": 0.1021503133589362
+            },
+            "air pollution": {
+                "count": 1,
+                "rank_score": 0.09380109042066759
+            },
+            "air quality forecasts": {
+                "count": 1,
+                "rank_score": 0.08834970830543672
+            },
+            "an international cooperative air quality field study": {
+                "count": 1,
+                "rank_score": 0.07423405118051166
+            },
+            "aod": {
+                "count": 3,
+                "rank_score": 0.06675878288468226
+            },
+            "bin representation": {
+                "count": 1,
+                "rank_score": 0.06611516676711736
+            },
+            "mass extinction": {
+                "count": 1,
+                "rank_score": 0.07772648017798126
+            },
+            "model deficiency": {
+                "count": 1,
+                "rank_score": 0.07287851126565772
+            },
+            "multiple sources": {
+                "count": 1,
+                "rank_score": 0.07747733086898767
+            },
+            "optical properties": {
+                "count": 1,
+                "rank_score": 0.08826746528914484
+            },
+            "south korea": {
+                "count": 2,
+                "rank_score": 0.06484354240397601
+            },
+            "the largest aerosol mass concentrations": {
+                "count": 1,
+                "rank_score": 0.07579063705875069
+            }
+        },
         "pdf": "https://www.atmos-chem-phys-discuss.net/acp-2019-1022/acp-2019-1022.pdf",
         "title": "Understanding and improving model representation of aerosol optical properties for a Chinese haze event measured during KORUS-AQ",
-        "url": "https://doi.org/10.5194/acp-2019-1022"
+        "url": "http://dx.doi.org/10.5194/acp-2019-1022"
     },
     {
         "abstract": "The coevolution of the Indian Ocean dipole (IOD) and El Niño-Southern Oscillation (ENSO) is examined using both observational data and coupled global climate model simulations. The covariability of IOD and ENSO is analyzed by applying the extended empirical orthogonal function (EEOF) method to the surface and subsurface ocean temperatures in the tropical Indian Ocean and western Pacific. The first EEOF mode shows the evolution of IOD that lags ENSO, whereas the second mode exhibits the transition from a dipole mode to a basin-wide mode in the tropical Indian Ocean that leads ENSO. The lead-lag relationships between IOD and ENSO are consistent with two-way interactions between them. A comparison between two 500-year model simulations with and without ENSO shows that ENSO can enhance the variability of IOD at interannual time scale. The influence of ENSO on the IOD intensity is larger for the eastern pole than for the western pole, and further, is stronger in the negative IOD phase than in the positive phase. The influence of IOD on ENSO is demonstrated by the improvement of ENSO prediction using sea surface temperature (SST) in the tropical Indian Ocean as an ENSO precursor. The improvement of the ENSO forecast skill is found at both a short lead time (0 month) and long leads (10–15 months). The SST in the western pole has more predictive value than in the eastern pole. The eastward propagation of surface and subsurface temperature signals from the western Indian Ocean that precedes the development of heat content anomaly in the tropical western Pacific is the key for extending the lead time for ENSO prediction. Our results are consistent with previously reported findings but highlight the spatial–temporal evolution of the ENSO-IOD system. It is also illustrated that IOD would have been more helpful in predicting the 1997/98 El Niño than the 2015/16 El Niño.",
@@ -540,29 +1239,70 @@
         ],
         "doi": "10.1007/s00382-019-04895-x",
         "journal": "journal-191",
+        "keyphrases": {
+            "an enso precursor": {
+                "count": 1,
+                "rank_score": 0.060068622325531534
+            },
+            "coupled global climate model simulations": {
+                "count": 1,
+                "rank_score": 0.0757668634093212
+            },
+            "enso prediction": {
+                "count": 2,
+                "rank_score": 0.11042858037213726
+            },
+            "enso-iod": {
+                "count": 1,
+                "rank_score": 0.0817318252979866
+            },
+            "heat content anomaly": {
+                "count": 1,
+                "rank_score": 0.06041913120818082
+            },
+            "indian ocean": {
+                "count": 5,
+                "rank_score": 0.09624968596027936
+            },
+            "interannual time scale": {
+                "count": 1,
+                "rank_score": 0.07239118923799488
+            },
+            "iod": {
+                "count": 16,
+                "rank_score": 0.10543481517992664
+            },
+            "sea surface temperature": {
+                "count": 1,
+                "rank_score": 0.08946210934370671
+            },
+            "the enso forecast skill": {
+                "count": 1,
+                "rank_score": 0.06620191662217656
+            },
+            "the enso-iod system": {
+                "count": 1,
+                "rank_score": 0.06307503174782077
+            },
+            "the negative iod phase": {
+                "count": 1,
+                "rank_score": 0.06656623791845785
+            },
+            "the tropical indian ocean": {
+                "count": 3,
+                "rank_score": 0.06619353532123512
+            },
+            "the western indian ocean": {
+                "count": 1,
+                "rank_score": 0.06656853596098719
+            },
+            "western pacific": {
+                "count": 2,
+                "rank_score": 0.07217937635668596
+            }
+        },
         "title": "Covariations between the Indian Ocean dipole and ENSO: a modeling study",
         "url": "https://doi.org/10.1007/s00382-019-04895-x"
-    },
-    {
-        "authors": [
-            "author-d47e3b55891a020d5e4c",
-            "author-a2c48c8b12c4e703db85",
-            "author-5600e4cde8ed67eb3ead",
-            "author-4c3bb094660bf787d1f3",
-            "author-f47897bc6031920322c5",
-            "author-9c5147ee752b227138b8",
-            "author-a8c98309654aa45c3613",
-            "author-4f7e53ff1c82eeb23457",
-            "author-51a93f1e73a2809ad295"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.5194/acp-2018-479",
-        "journal": "journal-1198",
-        "pdf": "https://doi.org/10.5194/acp-2018-479",
-        "title": "An important mechanism of regional O3 transport for summer smog over the Yangtze River Delta in East China",
-        "url": "https://doi.org/10.5194/acp-2018-479"
     },
     {
         "abstract": "Atmospheric chemistry transport models (ACTMs) are extensively used to provide scientific support for the development of policies to mitigate the detrimental effects of air pollution on human health and ecosystems. Therefore, it is essential to quantitatively assess the level of model uncertainty and to identify the model input parameters that contribute the most to the uncertainty. For complex process-based models, such as ACTMs, uncertainty and global sensitivity analyses are still challenging and are often limited by computational constraints due to the requirement of a large number of model runs. In this work, we demonstrate an emulator-based approach to uncertainty quantification and variance-based sensitivity analysis for the EMEP4UK model (regional application of the European Monitoring and Evaluation Programme Meteorological Synthesizing Centre-West). A separate Gaussian process emulator was used to estimate model predictions at unsampled points in the space of the uncertain model inputs for every modelled grid cell. The training points for the emulator were chosen using an optimised Latin hypercube sampling design. The uncertainties in surface concentrations of O3, NO2, and PM2.5 were propagated from the uncertainties in the anthropogenic emissions of NOx , SO2, NH3, VOC, and primary PM2.5 reported by the UK National Atmospheric Emissions Inventory. The results of the EMEP4UK uncertainty analysis for the annually averaged model predictions indicate that modelled surface concentrations of O3, NO2, and PM2.5 have the highest level of uncertainty in the grid cells comprising urban areas (up to ±7 %, ±9 %, and ±9 %, respectively). The uncertainty in the surface concentrations of O3 and NO2 were dominated by uncertainties in NOx emissions combined from non-dominant sectors (i.e. all sectors excluding energy production and road transport) and shipping emissions. Additionally, uncertainty in O3 was driven by uncertainty in VOC emissions combined from sectors excluding solvent use. Uncertainties in the modelled PM2.5 concentrations were mainly driven by uncertainties in primary PM2.5 emissions and NH3 emissions from the agricultural sector. Uncertainty and sensitivity analyses were also performed for five selected grid cells for monthly averaged model predictions to illustrate the seasonal change in the magnitude of uncertainty and change in the contribution of different model inputs to the overall uncertainty. Our study demonstrates the viability of a Gaussian process emulator-based approach for uncertainty and global sensitivity analyses, which can be applied to other ACTMs. Conducting these analyses helps to increase the confidence in model predictions. Additionally, the emulators created for these analyses can be used to predict the ACTM response for any other combination of perturbed input emissions within the ranges set for the original Latin hypercube sampling design without the need to rerun the ACTM, thus allowing for fast exploratory assessments at significantly reduced computational costs.",
@@ -577,6 +1317,68 @@
         ],
         "doi": "10.5194/acp-2018-690",
         "journal": "journal-1198",
+        "keyphrases": {
+            "atmospheric chemistry transport models": {
+                "count": 1,
+                "rank_score": 0.08815789629315382
+            },
+            "different model": {
+                "count": 1,
+                "rank_score": 0.09000109181667208
+            },
+            "global sensitivity analyses": {
+                "count": 2,
+                "rank_score": 0.07773783340127914
+            },
+            "model predictions": {
+                "count": 2,
+                "rank_score": 0.1004999343645406
+            },
+            "model runs": {
+                "count": 1,
+                "rank_score": 0.08912809676799249
+            },
+            "model uncertainty": {
+                "count": 1,
+                "rank_score": 0.1214976266367247
+            },
+            "monthly averaged model predictions": {
+                "count": 1,
+                "rank_score": 0.09615120981750137
+            },
+            "nh3 emissions": {
+                "count": 1,
+                "rank_score": 0.0713882572073784
+            },
+            "nox emissions": {
+                "count": 1,
+                "rank_score": 0.06831762500266399
+            },
+            "perturbed input emissions": {
+                "count": 1,
+                "rank_score": 0.07825370124639743
+            },
+            "primary pm2.5 emissions": {
+                "count": 1,
+                "rank_score": 0.07977884224028181
+            },
+            "sensitivity analyses": {
+                "count": 1,
+                "rank_score": 0.07716471808189984
+            },
+            "uncertainty": {
+                "count": 14,
+                "rank_score": 0.09377220567945
+            },
+            "uncertainty quantification": {
+                "count": 1,
+                "rank_score": 0.08994395371020884
+            },
+            "voc emissions": {
+                "count": 1,
+                "rank_score": 0.07089511007185001
+            }
+        },
         "pdf": "https://doi.org/10.5194/acp-2018-690",
         "title": "Advanced methods for uncertainty assessment and global sensitivity analysis of a Eulerian atmospheric chemistry transport model",
         "url": "https://doi.org/10.5194/acp-2018-690"
@@ -592,6 +1394,68 @@
         ],
         "doi": "10.5194/amt-11-4309-2018",
         "journal": "journal-1199",
+        "keyphrases": {
+            "error correlation": {
+                "count": 1,
+                "rank_score": 0.14554500367474815
+            },
+            "large errors": {
+                "count": 1,
+                "rank_score": 0.13189137099734477
+            },
+            "physical and geophysical data\nsets": {
+                "count": 1,
+                "rank_score": 0.06490955977463134
+            },
+            "previous studies": {
+                "count": 1,
+                "rank_score": 0.08161701217218387
+            },
+            "representativeness errors": {
+                "count": 1,
+                "rank_score": 0.13207600658660018
+            },
+            "the data sets": {
+                "count": 4,
+                "rank_score": 0.07473811086411308
+            },
+            "the error": {
+                "count": 2,
+                "rank_score": 0.07028266305612565
+            },
+            "the error variances": {
+                "count": 1,
+                "rank_score": 0.08529414246256663
+            },
+            "the estimated error variances": {
+                "count": 1,
+                "rank_score": 0.09905389939271109
+            },
+            "the exact error variances": {
+                "count": 1,
+                "rank_score": 0.09014882054470236
+            },
+            "three data sets": {
+                "count": 3,
+                "rank_score": 0.07427491272149268
+            },
+            "two different methods": {
+                "count": 1,
+                "rank_score": 0.07135012895391528
+            },
+            "two or more independent data sets": {
+                "count": 1,
+                "rank_score": 0.06518254209733228
+            },
+            "variances": {
+                "count": 1,
+                "rank_score": 0.08480747256377907
+            },
+            "various error correlations": {
+                "count": 1,
+                "rank_score": 0.14331776000027277
+            }
+        },
         "pdf": "https://www.atmos-meas-tech.net/11/4309/2018/amt-11-4309-2018.pdf",
         "title": "Evaluating two methods of estimating error variances using simulated data sets with known errors",
         "url": "https://doi.org/10.5194/amt-11-4309-2018"
@@ -607,32 +1471,71 @@
         ],
         "doi": "10.5194/amt-11-4239-2018",
         "journal": "journal-1199",
+        "keyphrases": {
+            "era-interim and gfs model data sets": {
+                "count": 1,
+                "rank_score": 0.0888481472242645
+            },
+            "error covariances": {
+                "count": 1,
+                "rank_score": 0.12676425171625516
+            },
+            "four radiosonde locations": {
+                "count": 1,
+                "rank_score": 0.06094773419199828
+            },
+            "gfs": {
+                "count": 1,
+                "rank_score": 0.07362272760966183
+            },
+            "how multiple data sets": {
+                "count": 1,
+                "rank_score": 0.09124574280143505
+            },
+            "models": {
+                "count": 1,
+                "rank_score": 0.09570542577831176
+            },
+            "n": {
+                "count": 1,
+                "rank_score": 0.08069917455101426
+            },
+            "observations": {
+                "count": 1,
+                "rank_score": 0.0644707773745159
+            },
+            "radio occultation": {
+                "count": 1,
+                "rank_score": 0.09677342284337216
+            },
+            "radiosondes": {
+                "count": 1,
+                "rank_score": 0.08982471211796583
+            },
+            "the different data sets": {
+                "count": 1,
+                "rank_score": 0.09115090070368018
+            },
+            "the error variances": {
+                "count": 1,
+                "rank_score": 0.07711224007336061
+            },
+            "the errors": {
+                "count": 1,
+                "rank_score": 0.0629393562683132
+            },
+            "the resulting error estimates": {
+                "count": 1,
+                "rank_score": 0.08286734410746967
+            },
+            "vertical profiles": {
+                "count": 1,
+                "rank_score": 0.090036638388931
+            }
+        },
         "pdf": "https://www.atmos-meas-tech.net/11/4239/2018/amt-11-4239-2018.pdf",
         "title": "Estimating observation and model error variances using multiple data sets",
         "url": "https://doi.org/10.5194/amt-11-4239-2018"
-    },
-    {
-        "authors": [
-            "author-abbc10e7f2ceade4e890",
-            "author-6f4171b678f0da78a616",
-            "author-6471ec19f302ab97c318",
-            "author-247f2ca4850a4ffe7c15",
-            "author-7d968b8c89a1fe448952",
-            "author-184eb4ac74d9f54d5073",
-            "author-da6f24f6adc500857ea0",
-            "author-f7cfe43588f599e4948c",
-            "author-d8ce55337bff5f49e175",
-            "author-e431dfb8361eaad0e77b",
-            "author-c2d5f74a2f0db6f2bb6c"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.5194/acp-2018-678",
-        "journal": "journal-1198",
-        "pdf": "https://doi.org/10.5194/acp-2018-678",
-        "title": "A top-down assessment using OMI NO2 suggests an underestimate in the NOx emissions inventory in Seoul, South Korea during KORUS-AQ",
-        "url": "https://doi.org/10.5194/acp-2018-678"
     },
     {
         "abstract": "A semi analytic framework for simulating the effects of atmospheric seeing in Adaptive Optics systems on an 8-m telescope is developed with the intention of understanding the origin of the wind-butterfly, a characteristic twolobed halo in the PSF of AO imaging. Simulations show that errors in the compensated phase on the aperture due to servo-lag have preferential direction orthogonal to the direction of wind propagation which, when Fourier Transformed into the image plane, appear with their characteristic lemniscate shape along the wind direction. We develop a metric to quantify the effect of this aberration with the fractional standard deviation in an annulus centered around the PSF, and use telescope pointing to correlate this effect with data from an atmospheric models, the NOAA GFS. Our results show that the jet stream at altitudes of 100-200 hPa (equivalently 10-15 km above sea level) is highly correlated (13.2σ) with the strong butterfly, while the ground wind and other layers are more or less uncorrelated.",
@@ -651,41 +1554,71 @@
         ],
         "doi": "10.1117/12.2314267",
         "journal": "journal-000",
+        "keyphrases": {
+            "a characteristic twolobed halo": {
+                "count": 1,
+                "rank_score": 0.05893724286385413
+            },
+            "adaptive optics": {
+                "count": 1,
+                "rank_score": 0.07783463650465906
+            },
+            "adaptive optics systems": {
+                "count": 1,
+                "rank_score": 0.08233859007881172
+            },
+            "ao imaging": {
+                "count": 1,
+                "rank_score": 0.06471965383443543
+            },
+            "errors": {
+                "count": 1,
+                "rank_score": 0.06318278748365057
+            },
+            "fourier transformed": {
+                "count": 1,
+                "rank_score": 0.06515411900551961
+            },
+            "other layers": {
+                "count": 1,
+                "rank_score": 0.06718769110491293
+            },
+            "preferential direction": {
+                "count": 1,
+                "rank_score": 0.08889680031412531
+            },
+            "psf": {
+                "count": 3,
+                "rank_score": 0.0743273348480861
+            },
+            "sea level": {
+                "count": 1,
+                "rank_score": 0.07409779458606242
+            },
+            "the fractional standard deviation": {
+                "count": 1,
+                "rank_score": 0.054044809239060354
+            },
+            "the ground wind": {
+                "count": 1,
+                "rank_score": 0.056206951026455974
+            },
+            "the wind direction": {
+                "count": 1,
+                "rank_score": 0.06625011038956082
+            },
+            "their characteristic lemniscate shape": {
+                "count": 1,
+                "rank_score": 0.0584605343533471
+            },
+            "wind propagation": {
+                "count": 1,
+                "rank_score": 0.0947023376497224
+            }
+        },
         "pdf": "http://arxiv.org/pdf/1807.07179",
         "title": "Characterization of lemniscate atmospheric aberrations in Gemini Planet Imager data",
         "url": "http://arxiv.org/abs/1807.07179"
-    },
-    {
-        "authors": [
-            "author-039a856d5205334fdcbc",
-            "author-a9ad4bc3aad53c80e43a",
-            "author-51a94e31e2876aa720e9",
-            "author-8eb0aca18c34f5b997b0",
-            "author-3efb43142b763dcb04f1",
-            "author-2b24d17df9ca57848452",
-            "author-3329e0fd25c4d5f98ad8"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.5194/isprs-archives-xlii-4-w8-123-2018",
-        "journal": "journal-1200",
-        "pdf": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W8/123/2018/isprs-archives-XLII-4-W8-123-2018.pdf",
-        "title": "IMPLEMENTATION OF A COMPREHENSIVE AND EFFECTIVE GEOPROCESSING WORKFLOW ENVIRONMENT",
-        "url": "https://doi.org/10.5194/isprs-archives-xlii-4-w8-123-2018"
-    },
-    {
-        "authors": [
-            "author-67247811a90ab65beb13"
-        ],
-        "datasets": [
-            "dataset-620"
-        ],
-        "doi": "10.1002/2017jd027629",
-        "journal": "journal-1194",
-        "pdf": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2017JD027629",
-        "title": "A Case Study of Low-Level Jets in Yerevan Simulated by the WRF Model",
-        "url": "https://doi.org/10.1002/2017jd027629"
     },
     {
         "abstract": "Carbon monoxide, CO, and fine atmospheric particulate matter, PM 2.5 , are analyzed over the Guinean Gulf coastal region using the WRF-CHIMERE modeling system and observations during the beginning of the monsoon 2006 (from May to July), corresponding to the Africa Multidisciplinary Monsoon Analysis (AMMA) campaign period. Along the Guinean Gulf coast, the contribution of long-range pollution transport to CO or PM 2.5 concentrations is important. The contribution of desert dust PM 2.5 concentration decreases from  ∼ 38 % in May to  ∼ 5 % in July. The contribution of biomass burning PM 2.5 concentration from Central Africa increases from  ∼ 10 % in May to  ∼ 52 % in July. The anthropogenic contribution is  ∼ 30 % for CO and  ∼ 10 % for PM 2.5 during the whole period. When focusing only on anthropogenic pollution, frequent northward transport events from the coast to the Sahel are associated with periods of low wind and no precipitation. In June, anthropogenic PM 2.5 and CO concentrations are higher than in May or July over the Guinean coastal region. Air mass dynamics concentrate pollutants emitted in the Sahel due to a meridional atmospheric cell. Moreover, a part of the pollution emitted remotely at the coast is transported and accumulated over the Sahel. Focusing the analysis on the period 8–15 June, anthropogenic pollutants emitted along the coastline are exported toward the north especially at the beginning of the night (18:00 to 00:00 UTC) with the establishment of the nocturnal low level jet. Plumes originating from different cities are mixed for some hours at the coast, leading to high pollution concentration, because of specific disturbed meteorological conditions.",
@@ -705,6 +1638,68 @@
         ],
         "doi": "10.5194/acp-18-445-2018",
         "journal": "journal-1196",
+        "keyphrases": {
+            "air mass dynamics concentrate pollutants": {
+                "count": 1,
+                "rank_score": 0.08204415494961596
+            },
+            "anthropogenic pm": {
+                "count": 1,
+                "rank_score": 0.08757558368474892
+            },
+            "anthropogenic pollutants": {
+                "count": 1,
+                "rank_score": 0.07994944949024177
+            },
+            "anthropogenic pollution": {
+                "count": 1,
+                "rank_score": 0.09109992936988165
+            },
+            "atmospheric particulate matter": {
+                "count": 1,
+                "rank_score": 0.07463104653849167
+            },
+            "central africa": {
+                "count": 2,
+                "rank_score": 0.06740211384394247
+            },
+            "co": {
+                "count": 3,
+                "rank_score": 0.07166629321224212
+            },
+            "co concentrations": {
+                "count": 1,
+                "rank_score": 0.09672011382578083
+            },
+            "frequent northward transport events": {
+                "count": 1,
+                "rank_score": 0.07653350019744289
+            },
+            "guinean gulf": {
+                "count": 2,
+                "rank_score": 0.07256936530436976
+            },
+            "high pollution concentration": {
+                "count": 1,
+                "rank_score": 0.10155676770725817
+            },
+            "low wind": {
+                "count": 1,
+                "rank_score": 0.07043074368354842
+            },
+            "periods": {
+                "count": 2,
+                "rank_score": 0.07222119895253229
+            },
+            "pm": {
+                "count": 2,
+                "rank_score": 0.06978791410447874
+            },
+            "specific disturbed meteorological conditions": {
+                "count": 1,
+                "rank_score": 0.07681633547086963
+            }
+        },
         "pdf": "https://www.atmos-chem-phys.net/18/445/2018/acp-18-445-2018.pdf",
         "title": "Interactions of atmospheric gases and aerosols with the monsoon dynamics over the Sudano-Guinean region during AMMA",
         "url": "https://doi.org/10.5194/acp-18-445-2018"
@@ -720,6 +1715,68 @@
         ],
         "doi": "10.3390/w10010056",
         "journal": "journal-189",
+        "keyphrases": {
+            "24 h discharge forecasting": {
+                "count": 1,
+                "rank_score": 0.07616172469182482
+            },
+            "also pre-forecast discharge based predictors": {
+                "count": 1,
+                "rank_score": 0.08324549547007508
+            },
+            "discharge based predictors": {
+                "count": 1,
+                "rank_score": 0.11345964419595485
+            },
+            "discharge events": {
+                "count": 1,
+                "rank_score": 0.10027229302012161
+            },
+            "discharge forecasting": {
+                "count": 1,
+                "rank_score": 0.11578647448238788
+            },
+            "high-resolution discharge forecasting": {
+                "count": 1,
+                "rank_score": 0.0795441537931353
+            },
+            "initial wetting": {
+                "count": 1,
+                "rank_score": 0.06644388229831728
+            },
+            "mixed snowmelt": {
+                "count": 1,
+                "rank_score": 0.09474156841435344
+            },
+            "ne poland": {
+                "count": 1,
+                "rank_score": 0.07495677802033271
+            },
+            "nonlinear physical processes": {
+                "count": 1,
+                "rank_score": 0.08124499107180898
+            },
+            "rainfall": {
+                "count": 5,
+                "rank_score": 0.08158725249106773
+            },
+            "rainfall environments": {
+                "count": 1,
+                "rank_score": 0.08564464138215744
+            },
+            "random forests models": {
+                "count": 1,
+                "rank_score": 0.08708371107187322
+            },
+            "the discharge forecasting models": {
+                "count": 1,
+                "rank_score": 0.08107963888856971
+            },
+            "weather research": {
+                "count": 2,
+                "rank_score": 0.06999004074915681
+            }
+        },
         "pdf": "https://www.mdpi.com/2073-4441/10/1/56/pdf",
         "title": "High-Resolution Discharge Forecasting for Snowmelt and Rainfall Mixed Events",
         "url": "https://doi.org/10.3390/w10010056"
@@ -744,6 +1801,68 @@
         ],
         "doi": "10.5194/acp-18-13-2018",
         "journal": "journal-1196",
+        "keyphrases": {
+            "benchmark simulations": {
+                "count": 2,
+                "rank_score": 0.1111704996463519
+            },
+            "cloud variables": {
+                "count": 3,
+                "rank_score": 0.12405327962781482
+            },
+            "clouds": {
+                "count": 1,
+                "rank_score": 0.1047578953704072
+            },
+            "coarse resolutions": {
+                "count": 2,
+                "rank_score": 0.09666576817674283
+            },
+            "csrm": {
+                "count": 4,
+                "rank_score": 0.07729738588590086
+            },
+            "current nwp models": {
+                "count": 1,
+                "rank_score": 0.116162684599941
+            },
+            "microphysics parameterizations": {
+                "count": 1,
+                "rank_score": 0.096714093956977
+            },
+            "model resolution and microphysics parameterizations": {
+                "count": 1,
+                "rank_score": 0.089093762875485
+            },
+            "nwp": {
+                "count": 4,
+                "rank_score": 0.08906929493565002
+            },
+            "other cloud variables": {
+                "count": 1,
+                "rank_score": 0.12152157555960837
+            },
+            "resolution": {
+                "count": 2,
+                "rank_score": 0.09201327353152679
+            },
+            "simulations": {
+                "count": 3,
+                "rank_score": 0.1055255421621731
+            },
+            "the csrm simulations": {
+                "count": 2,
+                "rank_score": 0.07091120822624211
+            },
+            "the nwp simulations": {
+                "count": 1,
+                "rank_score": 0.07485950141117326
+            },
+            "varying microphysics parameterizations": {
+                "count": 1,
+                "rank_score": 0.09803835074001369
+            }
+        },
         "pdf": "https://www.atmos-chem-phys.net/18/13/2018/acp-18-13-2018.pdf",
         "title": "Effects of model resolution and parameterizations on the simulations of clouds, precipitation, and their interactions with aerosols",
         "url": "https://www.atmos-chem-phys.net/18/13/2018/acp-18-13-2018.pdf"
@@ -763,6 +1882,68 @@
         ],
         "doi": "10.5194/hess-22-4329-2018",
         "journal": "journal-1201",
+        "keyphrases": {
+            "3 km rainfall forecasts": {
+                "count": 1,
+                "rank_score": 0.06803766367812973
+            },
+            "assimilation": {
+                "count": 3,
+                "rank_score": 0.09371312100991203
+            },
+            "data assimilation": {
+                "count": 4,
+                "rank_score": 0.12142353932694586
+            },
+            "eleven data assimilation modes": {
+                "count": 1,
+                "rank_score": 0.07398118522100662
+            },
+            "hebei region": {
+                "count": 1,
+                "rank_score": 0.06320618414433438
+            },
+            "high-resolution rainfall": {
+                "count": 1,
+                "rank_score": 0.06551167093571762
+            },
+            "more importance": {
+                "count": 1,
+                "rank_score": 0.061858749576559895
+            },
+            "more observations": {
+                "count": 1,
+                "rank_score": 0.0689377213482778
+            },
+            "nwp rainfall products": {
+                "count": 2,
+                "rank_score": 0.1209281543162467
+            },
+            "positive effects": {
+                "count": 1,
+                "rank_score": 0.06016864041706639
+            },
+            "potential improvements": {
+                "count": 1,
+                "rank_score": 0.06004379118028713
+            },
+            "satisfactory rainfall products": {
+                "count": 1,
+                "rank_score": 0.1163336662695178
+            },
+            "the radar data assimilation": {
+                "count": 1,
+                "rank_score": 0.0783399226799132
+            },
+            "the rainfall products": {
+                "count": 2,
+                "rank_score": 0.0709791160564553
+            },
+            "the wrf rainfall forecasts": {
+                "count": 1,
+                "rank_score": 0.07256724321358608
+            }
+        },
         "pdf": "https://www.hydrol-earth-syst-sci.net/22/4329/2018/hess-22-4329-2018.pdf",
         "title": "Evaluation of Doppler radar and GTS Data Assimilation for NWP Rainfall Prediction of an Extreme Summer Storm in Northern China: from the Hydrological Perspective",
         "url": "https://www.hydrol-earth-syst-sci.net/22/4329/2018/hess-22-4329-2018.pdf"
@@ -777,7 +1958,69 @@
         ],
         "doi": "10.1080/08929882.2018.1446540",
         "journal": "journal-1202",
+        "keyphrases": {
+            "annual wind flow": {
+                "count": 1,
+                "rank_score": 0.0788808797516744
+            },
+            "atmospheric transport modelling": {
+                "count": 1,
+                "rank_score": 0.07610594842436216
+            },
+            "east asia": {
+                "count": 2,
+                "rank_score": 0.07079531252359457
+            },
+            "historical weapon programs": {
+                "count": 1,
+                "rank_score": 0.0729067827814071
+            },
+            "israel": {
+                "count": 1,
+                "rank_score": 0.056704050590089795
+            },
+            "krypton-85": {
+                "count": 3,
+                "rank_score": 0.08117220700151516
+            },
+            "krypton-85 emissions": {
+                "count": 1,
+                "rank_score": 0.0851738889366248
+            },
+            "nuclear weapon free zone": {
+                "count": 2,
+                "rank_score": 0.09040144816566391
+            },
+            "nuclear weapons treaty": {
+                "count": 1,
+                "rank_score": 0.08441302697406244
+            },
+            "spent nuclear fuel": {
+                "count": 1,
+                "rank_score": 0.07753008994664788
+            },
+            "the high krypton-85 background": {
+                "count": 1,
+                "rank_score": 0.05694619225668707
+            },
+            "the only operating reprocessing site": {
+                "count": 1,
+                "rank_score": 0.06497196596925604
+            },
+            "undeclared reprocessing": {
+                "count": 1,
+                "rank_score": 0.08583353677610885
+            },
+            "undeclared reprocessing activities": {
+                "count": 1,
+                "rank_score": 0.08988192735475685
+            },
+            "various levels": {
+                "count": 1,
+                "rank_score": 0.059404088699352334
+            }
+        },
         "title": "Detecting Clandestine Reprocessing Activities in the Middle East",
-        "url": "https://www.semanticscholar.org/paper/680c073e9c35e73a6b66564ec6332f402f92c4c5"
+        "url": "https://www.tandfonline.com/doi/full/10.1080/08929882.2018.1446540"
     }
 ]
