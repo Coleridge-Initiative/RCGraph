@@ -1,22 +1,5 @@
 [
     {
-        "authors": [
-            "author-63cb7e9c877eceab8497",
-            "author-6bcc231223a91d450aa9",
-            "author-4fd5041adf1c930d369c",
-            "author-7c563e1765f8bdba3072",
-            "author-4a8f00a6528fc6973c9a"
-        ],
-        "datasets": [
-            "dataset-612",
-            "dataset-664"
-        ],
-        "doi": "10.1016/j.atmosres.2019.104790",
-        "journal": "journal-1184",
-        "title": "Improvement of aerosol activation/ice nucleation in a source-oriented WRF-Chem model to study a winter Storm in California",
-        "url": "https://doi.org/10.1016/j.atmosres.2019.104790"
-    },
-    {
         "abstract": "Multiple weather radars’ joint detection can enlarge the radar detection range and can improve the detection accuracy, which has become an important method to monitor large-scale weather effectively. In this paper, the methods of interpolating reflectivity volume scan data onto the grids in the Cartesian coordinate system and three-dimensional mosaic for gridded reflectivity data of several radars are studied. In order to retain the physical characteristics of the raw data, the smoothing parameters of adaptive Barnes interpolation are improved which based on the space structure of the raw reflectivity data. Through comparison of constant altitude plan position indication (CAPPI) images obtained by the commonly used interpolation schemes and the improved Adaptive Barnes interpolation, it was found that the latter can provide consecutive reflectivity fields and retain high-resolution structure comparable to the raw data. The mean deviation filter filtering erroneous grid data and the data are fused by various fusion methods. Result shows that Exponential Weighting is an excellent method which can provide continuous three-dimensional reflectivity mosaic data.",
         "authors": [
             "author-a28173b3430453e09a28",
@@ -31,76 +14,71 @@
         ],
         "doi": "10.1186/s13638-019-1465-6",
         "journal": "journal-1230",
+        "keyphrases": {
+            "adaptive barnes": {
+                "count": 1,
+                "rank_score": 0.07182075719054587
+            },
+            "adaptive barnes interpolation": {
+                "count": 1,
+                "rank_score": 0.09091117746290386
+            },
+            "consecutive reflectivity fields": {
+                "count": 1,
+                "rank_score": 0.10189493858939475
+            },
+            "continuous three-dimensional reflectivity mosaic data": {
+                "count": 1,
+                "rank_score": 0.06579450377782445
+            },
+            "erroneous grid data": {
+                "count": 1,
+                "rank_score": 0.10759859308913795
+            },
+            "exponential weighting": {
+                "count": 2,
+                "rank_score": 0.06723087787805755
+            },
+            "gridded reflectivity data": {
+                "count": 1,
+                "rank_score": 0.12318912128271159
+            },
+            "multiple weather radars’ joint detection": {
+                "count": 1,
+                "rank_score": 0.06953546199495308
+            },
+            "reflectivity volume scan data": {
+                "count": 1,
+                "rank_score": 0.12049826756459464
+            },
+            "several radars": {
+                "count": 1,
+                "rank_score": 0.08025328981396991
+            },
+            "the improved adaptive barnes interpolation": {
+                "count": 1,
+                "rank_score": 0.0621252723318943
+            },
+            "the radar detection range": {
+                "count": 1,
+                "rank_score": 0.06123492289481047
+            },
+            "the raw data": {
+                "count": 2,
+                "rank_score": 0.06335250317739596
+            },
+            "the raw reflectivity data": {
+                "count": 1,
+                "rank_score": 0.08143949123591479
+            },
+            "various fusion methods": {
+                "count": 1,
+                "rank_score": 0.0893954174544009
+            }
+        },
         "pdf": "https://jwcn-eurasipjournals.springeropen.com/track/pdf/10.1186/s13638-019-1465-6",
         "title": "Study on reflectivity data interpolation and mosaics for multiple Doppler weather radars",
         "url": "https://doi.org/10.1186/s13638-019-1465-6"
-    },
-    {
-        "authors": [
-            "author-a9b5e28f518b906852c5",
-            "author-3e0f47269ecb65a63149",
-            "author-18f979a717a702795994",
-            "author-4aa1f1cdfa38cf384a58",
-            "author-012c380b5dcb15ca7162"
-        ],
-        "datasets": [
-            "dataset-612",
-            "dataset-665"
-        ],
-        "doi": "10.1175/mwr-d-19-0068.1",
-        "journal": "journal-1147",
-        "title": "Observational study of the thermodynamics and morphological characteristics of a midlatitude continental cold pool event Observational study of the thermodynamics and morphological characteristics of a midlatitude continental cold pool event",
-        "url": "https://www.google.com/search?newwindow=1&ei=pHYTXtjABIrb5gL3-5K4AQ&q=Observational+study+of+the+thermodynamics+and+morphological+characteristics+of+a+midlatitude+continental+cold+pool+event+Observational+study+of+the+thermodynamics+and+morphological+characteristics+of+a+midlatitude+continental+cold+pool+event&oq=Observational+study+of+the+thermodynamics+and+morphological+characteristics+of+a+midlatitude+continental+cold+pool+event+Observational+study+of+the+thermodynamics+and+morphological+characteristics+of+a+midlatitude+continental+cold+pool+event&gs_l=psy-ab.3...288629.288629..289379...0.0..0.81.146.2......0....2j1..gws-wiz.UfkHl3nW3U4&ved=0ahUKEwjYosTox-_mAhWKrVkKHfe9BBcQ4dUDCAs&uact=5"
-    },
-    {
-        "authors": [
-            "author-d2a8affa11ecd011f605",
-            "author-6b6f90ded6fec5f366f4",
-            "author-c140b6ec3b75aded5536",
-            "author-104afd899b21ea808a86",
-            "author-95d5a3f67bd68a8efcae",
-            "author-ee3ce40ed8820454b86c",
-            "author-b24e8deeb29980215663",
-            "author-eb94e83bc05f5c648280"
-        ],
-        "datasets": [
-            "dataset-612",
-            "dataset-666"
-        ],
-        "doi": "10.1175/jamc-d-19-0099.1",
-        "journal": "journal-1231",
-        "title": "A composite analysis of snowfall modes from four winter seasons in Marquette, Michigan A composite analysis of snowfall modes from four winter seasons in Marquette, Michigan",
-        "url": "https://journals.ametsoc.org/doi/pdf/10.1175/JAMC-D-19-0099.1"
-    },
-    {
-        "authors": [
-            "author-71baf071f1f318dfc395",
-            "author-0616923261a9902681c1",
-            "author-ac0e8eed69533eecc17a",
-            "author-3dde9ddbd616fcdabc54"
-        ],
-        "datasets": [
-            "dataset-612",
-            "dataset-667"
-        ],
-        "doi": "10.1002/qj.3611",
-        "journal": "journal-1210",
-        "title": "Investigating the GPM - Dual frequency Precipitation Radar signatures of low - level precipitation enhancement",
-        "url": "https://doi.org/10.1002/qj.3611"
-    },
-    {
-        "authors": [
-            "author-b84073483e5027a27b33",
-            "author-4ab99e7c91e794fe8065",
-            "author-4b6097b8b38b5222d8d0"
-        ],
-        "datasets": [
-            "dataset-612"
-        ],
-        "doi": "10.1029/2018wr024447",
-        "journal": "journal-1225",
-        "title": "Reward - Based Participant Management for Crowdsourcing Rainfall Monitoring: An Agent - Based Model Simulation",
-        "url": "https://doi.org/10.1029/2018wr024447"
     },
     {
         "abstract": "Abstract Meteotsunamis associated with passing squall lines are often observed ahead of cold fronts during the winter in the Northern Gulf of Mexico. Winter meteotsunamis occur simultaneously with wind speed variations (~5–20 m/s) and sea-level atmospheric pressure oscillations (~1–6 hPa) with periods between several minutes to 2 h. In order to enhance understanding of meteotsunami generation and propagation, the Coupled-Ocean-Atmosphere-Wave-Sediment Transport (COAWST) modeling system is applied to one of the most intense winter meteotsunamis measured in the Northern Gulf of Mexico during the decade 2009–2018. The model, verified with sea level and atmospheric observations, is able to reproduce the timing and intensity of the wind at 10 m elevation and sea level atmospheric pressure fluctuations. The mean bias between observed and measured wind speeds and atmospheric pressure are 1.73 m/s and 0.63 hPa, respectively. The maximum meteotsunami elevation and its timing are successfully captured with a 7% underestimation of the maximum elevation. The relative effect of atmospheric pressure and wind stress on meteotsunami generation is assessed with different numerical simulations. Results indicate that both wind stress and atmospheric pressure changes contributed to the generation of the meteotsunami. Wind stress was the dominant force in shallow waters (",
@@ -117,28 +95,70 @@
         ],
         "doi": "10.1016/j.ocemod.2019.101408",
         "journal": "journal-1232",
+        "keyphrases": {
+            "10 m elevation and sea level atmospheric pressure fluctuations": {
+                "count": 1,
+                "rank_score": 0.06634702569288953
+            },
+            "atmospheric observations": {
+                "count": 1,
+                "rank_score": 0.10014425300624086
+            },
+            "atmospheric pressure": {
+                "count": 2,
+                "rank_score": 0.12092737842945323
+            },
+            "atmospheric pressure changes": {
+                "count": 1,
+                "rank_score": 0.11669173711550163
+            },
+            "different numerical simulations": {
+                "count": 1,
+                "rank_score": 0.06936343707615455
+            },
+            "meteotsunami generation": {
+                "count": 2,
+                "rank_score": 0.08768201634518151
+            },
+            "observed and measured wind speeds": {
+                "count": 1,
+                "rank_score": 0.0684470421561143
+            },
+            "passing squall lines": {
+                "count": 1,
+                "rank_score": 0.07975933364451275
+            },
+            "sea level": {
+                "count": 1,
+                "rank_score": 0.09612285507743284
+            },
+            "sea-level atmospheric pressure oscillations": {
+                "count": 1,
+                "rank_score": 0.09064104460456057
+            },
+            "several minutes": {
+                "count": 2,
+                "rank_score": 0.06694997478467887
+            },
+            "wind speed variations": {
+                "count": 1,
+                "rank_score": 0.09835976781897
+            },
+            "wind stress": {
+                "count": 3,
+                "rank_score": 0.1027633747386201
+            },
+            "winter": {
+                "count": 4,
+                "rank_score": 0.06790786845260224
+            },
+            "winter meteotsunamis": {
+                "count": 1,
+                "rank_score": 0.0805678068507177
+            }
+        },
         "title": "Relevance of wind stress and wave-dependent ocean surface roughness on the generation of winter meteotsunamis in the Northern Gulf of Mexico",
-        "url": "https://doi.org/10.1016/j.ocemod.2019.101408"
-    },
-    {
-        "authors": [
-            "author-4be9ae5d8901e45f2bb6",
-            "author-8f4d44986c63f1fbe8cc",
-            "author-2f77320a822051b82dcf",
-            "author-b944fed157d5771cae8c",
-            "author-ec6d8dfb2353863f2969",
-            "author-4b99b97f668c1af8b2d1"
-        ],
-        "datasets": [
-            "dataset-612",
-            "dataset-668",
-            "dataset-669"
-        ],
-        "doi": "10.1029/2018ms001595",
-        "journal": "journal-1197",
-        "pdf": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018MS001595",
-        "title": "Lessons Learned From Modeling Irrigation From Field to Regional Scales",
-        "url": "https://doi.org/10.1029/2018MS001595"
+        "url": "http://dx.doi.org/10.1016/j.ocemod.2019.101408"
     },
     {
         "abstract": "Millions of people have an allergic reaction to pollen. The impact of pollen allergies is on the rise due to increased pollen levels caused by global warming and the spread of highly invasive weeds. The production, release, and dispersal of pollen depend on the ambient weather conditions. The temperature, rainfall, humidity, cloud cover, and wind are known to affect the amount of pollen in the atmosphere. In the past, various regression techniques have been applied to estimate and forecast the daily pollen concentration in the atmosphere based on the weather conditions. In this research, machine learning methods were applied to the Next Generation Weather Radar (NEXRAD) data to estimate the daily Ambrosia pollen over a 300 km × 300 km region centered on a NEXRAD weather radar. The Neural Network and Random Forest machine learning methods have been employed to develop separate models to estimate Ambrosia pollen over the region. A feasible way of estimating the daily pollen concentration using only the NEXRAD radar data and machine learning methods would lay the foundation to forecast daily pollen at a fine spatial resolution nationally.",
@@ -154,42 +174,70 @@
         ],
         "doi": "10.1007/s10661-019-7542-9",
         "journal": "journal-1151",
+        "keyphrases": {
+            "cloud cover": {
+                "count": 1,
+                "rank_score": 0.07249580127634861
+            },
+            "daily": {
+                "count": 4,
+                "rank_score": 0.08207038358750504
+            },
+            "daily pollen": {
+                "count": 1,
+                "rank_score": 0.13688813783924716
+            },
+            "global warming": {
+                "count": 1,
+                "rank_score": 0.06696504752407378
+            },
+            "humidity": {
+                "count": 1,
+                "rank_score": 0.06173764365870652
+            },
+            "increased pollen levels": {
+                "count": 1,
+                "rank_score": 0.12457521240179414
+            },
+            "machine learning methods": {
+                "count": 1,
+                "rank_score": 0.11210515945719578
+            },
+            "pollen": {
+                "count": 2,
+                "rank_score": 0.12439003781649277
+            },
+            "pollen allergies": {
+                "count": 1,
+                "rank_score": 0.12013645432508065
+            },
+            "random forest": {
+                "count": 1,
+                "rank_score": 0.06931338140787577
+            },
+            "separate models": {
+                "count": 1,
+                "rank_score": 0.06553931583115805
+            },
+            "the daily ambrosia pollen": {
+                "count": 1,
+                "rank_score": 0.08652987909849075
+            },
+            "the daily pollen concentration": {
+                "count": 2,
+                "rank_score": 0.08666200183266398
+            },
+            "the neural network and random forest machine learning methods": {
+                "count": 1,
+                "rank_score": 0.066714623289481
+            },
+            "various regression techniques": {
+                "count": 1,
+                "rank_score": 0.07659437003980729
+            }
+        },
         "title": "Estimating the daily pollen concentration in the atmosphere using machine learning and NEXRAD weather radar data",
-        "url": "https://link.springer.com/article/10.1007%2Fs10661-019-7542-9"
-    },
-    {
-        "authors": [
-            "author-b98a2453ebdcc6fb4d65",
-            "author-10a299ba09b53cfc45e7"
-        ],
-        "datasets": [
-            "dataset-612"
-        ],
-        "doi": "10.1175/jas-d-18-0168.1",
-        "journal": "journal-1233",
-        "pdf": "http://journals.ametsoc.org/doi/pdf/10.1175/JAS-D-18-0168.1",
-        "title": "The importance of the ice-phase microphysics parameterization for simulating the effects of changes to CCN concentrations in deep convection The importance of the ice-phase microphysics parameterization for simulating the effects of changes to CCN concentrations in deep convection",
-        "url": "https://journals.ametsoc.org/doi/full/10.1175/JAS-D-18-0168.1"
-    },
-    {
-        "authors": [
-            "author-414b06455474e5ec260a",
-            "author-31cdb01bdd039c91cfaa",
-            "author-13ae3aa5ad26dbc51a64",
-            "author-3d4be56349628a9be020",
-            "author-b3fac8266d035e500b57",
-            "author-52fad8a545b4548a2cf5",
-            "author-24d55ae12a3f8f54d175",
-            "author-5f14483d3ae903c1697b",
-            "author-3540f2fe4ea7636271a0"
-        ],
-        "datasets": [
-            "dataset-612"
-        ],
-        "doi": "10.1109/jstars.2019.2916372",
-        "journal": "journal-1234",
-        "title": "Exploiting Tropospheric Measurements From Sun-Tracking Radiometer for Radiopropagation Models at Centimeter and Millimeter Wave",
-        "url": "https://ieeexplore.ieee.org/document/8758150"
+        "url": "https://doi.org/10.1007/s10661-019-7542-9"
     },
     {
         "abstract": "Weather surveillance radars are increasingly used for monitoring the movements and abundances of animals in the airspace. However, analysis of weather radar data remains a specialised task that can be technically challenging. Major hurdles are the difficulty of accessing and visualising radar data on a software platform familiar to ecologists and biologists, processing the low-level data into products that are biologically meaningful, and summarizing these results in standardized measures. To overcome these hurdles, we developed the open source R package bioRad, which provides a toolbox for accessing, visualizing and analyzing weather radar data for biological studies. It provides functionality to access low-level radar data, process these data into meaningful biological information on animal speeds and directions at different altitudes in the atmosphere, visualize these biological extractions, and calculate further summary statistics. The package aims to standardize methods for extracting and reporting biological signals from weather radars. Here we describe a roadmap for analyzing weather radar data using bioRad. We also define weather radar equivalents for familiar measures used in the field of migration ecology, such as migration traffic rates, and recommend several good practices for reporting these measures. The bioRad package integrates with low-level data from both the European radar network (OPERA) and the radar network of the United States (NEXRAD). bioRad aims to make weather radar studies in ecology easier and more reproducible, allowing for better inter-comparability of studies.",
@@ -213,24 +261,71 @@
         ],
         "doi": "10.1111/ecog.04028",
         "journal": "journal-1235",
+        "keyphrases": {
+            "animal speeds": {
+                "count": 1,
+                "rank_score": 0.0671477117368316
+            },
+            "better inter-comparability": {
+                "count": 1,
+                "rank_score": 0.07243683041343449
+            },
+            "biological signals": {
+                "count": 1,
+                "rank_score": 0.0765236796553285
+            },
+            "biological studies": {
+                "count": 1,
+                "rank_score": 0.08659307438925591
+            },
+            "familiar measures": {
+                "count": 1,
+                "rank_score": 0.07046452266893403
+            },
+            "low-level data": {
+                "count": 2,
+                "rank_score": 0.06787365077486884
+            },
+            "low-level radar data": {
+                "count": 1,
+                "rank_score": 0.08860813616452475
+            },
+            "meaningful biological information": {
+                "count": 1,
+                "rank_score": 0.08193756780609711
+            },
+            "migration ecology": {
+                "count": 1,
+                "rank_score": 0.06894642889937197
+            },
+            "migration traffic rates": {
+                "count": 1,
+                "rank_score": 0.06721958626891736
+            },
+            "radar data": {
+                "count": 1,
+                "rank_score": 0.13028804702877497
+            },
+            "weather radar data": {
+                "count": 2,
+                "rank_score": 0.1452374959932893
+            },
+            "weather radar studies": {
+                "count": 1,
+                "rank_score": 0.13297984488157408
+            },
+            "weather radars": {
+                "count": 1,
+                "rank_score": 0.1329020982399784
+            },
+            "weather surveillance radars": {
+                "count": 1,
+                "rank_score": 0.12551924611012727
+            }
+        },
         "pdf": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/ecog.04028",
         "title": "bioRad: biological analysis and visualization of weather radar data",
         "url": "https://doi.org/10.1111/ecog.04028"
-    },
-    {
-        "authors": [
-            "author-975fe0b837b8a8125094",
-            "author-f4115eb1323a8b095751"
-        ],
-        "datasets": [
-            "dataset-612",
-            "dataset-671"
-        ],
-        "doi": "10.1175/jamc-d-18-0247.1",
-        "journal": "journal-1231",
-        "pdf": "http://pdfs.semanticscholar.org/622d/6189f667d50e31b839ad2380d4ab38a70760.pdf",
-        "title": "Severe Hail Fall and Hail Storm Detection using Remote Sensing Observations Severe Hail Fall and Hail Storm Detection using Remote Sensing Observations",
-        "url": "https://journals.ametsoc.org/doi/full/10.1175/JAMC-D-18-0247.1"
     },
     {
         "abstract": "This study examines the effect of hail on microphysical processes and precipitation. The Weather Research and Forecasting (WRF) Single-Moment 7-class Microphysics (WSM7) is developed by introducing the hail hydrometeor as an additional prognostic water substance within the WSM6 scheme, which are four-ice and three-ice schemes, respectively. In an idealized 2D squall case, the WSM7 scheme with hail tends to enhance the accretion rate of ice particles due to the faster sedimentation of hail than that of graupel in the WSM6 scheme. The amount of hail is largely compensated with the reduction of graupel, but its maximum at lower altitudes. Weakened accretion of graupel by snow at higher altitudes maintains the snow aloft, and increases of it at the mid-level. The reduced sum of graupel and hail at the melting level leads to a decrease in the mixing ratio of rain in the WSM7 experiment, which is compensated by falling hail. In 3D squall line experiments, the WSM7 scheme tends to enhance convective activities in the leading edge of the squall line, whereas the precipitation intensity in the trailing stratiform region decreases. This is due to the fact that the addition of hail plays a role in suppressing light precipitation and increasing heavy precipitation activities.",
@@ -244,20 +339,69 @@
         ],
         "doi": "10.1007/s13143-018-0066-3",
         "journal": "journal-1236",
+        "keyphrases": {
+            "3d squall line experiments": {
+                "count": 1,
+                "rank_score": 0.09046930695012072
+            },
+            "convective activities": {
+                "count": 1,
+                "rank_score": 0.06888110846156886
+            },
+            "falling hail": {
+                "count": 1,
+                "rank_score": 0.11112898900062443
+            },
+            "forecasting": {
+                "count": 1,
+                "rank_score": 0.06377493812056877
+            },
+            "hail": {
+                "count": 6,
+                "rank_score": 0.11398511729555712
+            },
+            "heavy precipitation activities": {
+                "count": 1,
+                "rank_score": 0.09373920461139786
+            },
+            "higher altitudes": {
+                "count": 1,
+                "rank_score": 0.07604786586531641
+            },
+            "ice particles": {
+                "count": 1,
+                "rank_score": 0.06752719381853754
+            },
+            "light precipitation": {
+                "count": 1,
+                "rank_score": 0.08531397019730347
+            },
+            "lower altitudes": {
+                "count": 1,
+                "rank_score": 0.0732686395119414
+            },
+            "precipitation": {
+                "count": 1,
+                "rank_score": 0.07756782795142884
+            },
+            "snow": {
+                "count": 2,
+                "rank_score": 0.06004218636734887
+            },
+            "the hail hydrometeor": {
+                "count": 1,
+                "rank_score": 0.06693994712878863
+            },
+            "weakened accretion": {
+                "count": 1,
+                "rank_score": 0.06378982030372003
+            },
+            "wsm7": {
+                "count": 1,
+                "rank_score": 0.079662032509359
+            }
+        },
         "title": "Development of a Single-Moment Cloud Microphysics Scheme with Prognostic Hail for the Weather Research and Forecasting (WRF) Model",
         "url": "https://www.semanticscholar.org/paper/f4c7ab6aaeb220fb115d04fbf82b9b9280f68900"
-    },
-    {
-        "authors": [
-            "author-b84073483e5027a27b33",
-            "author-4ab99e7c91e794fe8065"
-        ],
-        "datasets": [
-            "dataset-612"
-        ],
-        "doi": "10.1029/2018wr023857",
-        "journal": "journal-1225",
-        "title": "Fast Bayesian Regression Kriging Method for Real - Time Merging of Radar, Rain Gauge, and Crowdsourced Rainfall Data",
-        "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018WR023857"
     }
 ]

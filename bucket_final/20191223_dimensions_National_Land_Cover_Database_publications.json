@@ -1,59 +1,5 @@
 [
     {
-        "authors": [
-            "author-556e95ce2ace0eadad7b",
-            "author-7d3b946ee1a27e648295",
-            "author-53575f859c3ade955d51",
-            "author-b278238b989621f3eee4",
-            "author-535db09c0e1b6c986ba4",
-            "author-524b2335e37975c12369",
-            "author-80da350c81babf50b4fe",
-            "author-4cd5d75989a01710e3f1",
-            "author-e920fa2b1a6a7e29816b",
-            "author-7c1add342fa21255847c",
-            "author-fe7ea97cfaf45aee7900",
-            "author-e074afa65d3b00479f3a"
-        ],
-        "datasets": [
-            "dataset-673"
-        ],
-        "doi": "10.1016/j.jag.2019.101985",
-        "journal": "journal-1140",
-        "title": "Estimating tree canopy cover using harmonic regression coefficients derived from multitemporal Landsat data",
-        "url": "https://doi.org/10.1016/j.jag.2019.101985"
-    },
-    {
-        "authors": [
-            "author-e2b28c3b9eb3b3015da7",
-            "author-57f0f850217afa6391df",
-            "author-b9d710340e4a24432ea7"
-        ],
-        "datasets": [
-            "dataset-674"
-        ],
-        "doi": "10.1016/j.ecolind.2019.105966",
-        "journal": "journal-792",
-        "title": "Identifying candidate reference reaches to assess the physical and biological integrity of wadeable streams in different ecoregions and among stream sizes",
-        "url": "https://doi.org/10.1016/j.ecolind.2019.105966"
-    },
-    {
-        "authors": [
-            "author-9185b41be5c744145d64",
-            "author-656c8cb443be1fb188d8"
-        ],
-        "datasets": [
-            "dataset-624",
-            "dataset-675",
-            "dataset-676",
-            "dataset-207",
-            "dataset-046"
-        ],
-        "doi": "10.1016/j.landurbplan.2019.103706",
-        "journal": "journal-151",
-        "title": "The greenspace-academic performance link varies by remote sensing measure and urbanicity around Maryland public schools",
-        "url": "https://doi.org/10.1016/j.landurbplan.2019.103706"
-    },
-    {
         "abstract": "Abstract Estimates of the spatial–temporal distributions of forest carbon (C) stocks subject to land use and cover changes is critical to greenhouse gas (GHG) estimation and reporting. Based on national forest inventory (NFI) and Landsat time series data, we applied matrix models to estimate and map spatial–temporal distributions of forest aboveground biomass (AGB) C, standing dead C, downed dead C, litter C, and soil organic C from 1990 to 2018 attributed to land cover changes and harvests in the northern United States (US). From predicted pixel-level maps, we found that all five forest C pools of northeast states and northern tier of Great Lake states had higher C density than other regions in the study area. We estimated that forest-related land cover changes reduced the forest C sink by 0.15 ton C ha−1 yr−1 (with a range of 0.12 to 0.18 ton C ha−1 yr−1) a accounting for 29% of forest C reductions over the study period. Forests remaining forests sequestered 2.38 Pg C (2.05 to 2.61 Pg C), hence the net forest sink of the northern US increased 1.73 Pg C (1.52 to 1.93 Pg C) during 1990–2018, which is an annual rate of 0.88 ton C ha−1 yr−1 (0.77 to 0.98 ton C ha−1 yr−1). Moreover, forest C was captured in harvested wood products by 0.33 ton C ha−1 yr−1. An uncertainty analysis with fuzzy sets suggested that the absolute uncertainties of land cover change and harvest impacts on standing dead C, downed dead C, and litter C were lower than 4.50 ton ha−1 during 1990–2018. In comparison, there were high uncertainties associated with estimates of soil organic C and AGB C densities at approximately 12–40 ton ha−1 in northern Michigan, Wisconsin, Minnesota, and Maine, New Hampshire, and New York. This study demonstrates methods for adhering to Intergovernmental Panel on Climate Change good practice guidelines for national GHG reporting and presents spatially explicit attribution of regional trends in C fluxes to particular activities and events. The resolved estimates from this analysis can be used to examine local and regional land use and cover change policies and practices in the context of C management in the northern US.",
         "authors": [
             "author-a69f5151c5a2298ba668",
@@ -70,25 +16,70 @@
         ],
         "doi": "10.1016/j.ecolind.2019.105901",
         "journal": "journal-792",
+        "keyphrases": {
+            "agb c": {
+                "count": 2,
+                "rank_score": 0.10318224232361141
+            },
+            "c fluxes": {
+                "count": 1,
+                "rank_score": 0.10092770630890618
+            },
+            "c ha−1": {
+                "count": 1,
+                "rank_score": 0.07855997204290324
+            },
+            "c management": {
+                "count": 1,
+                "rank_score": 0.0992046751118299
+            },
+            "dead c": {
+                "count": 2,
+                "rank_score": 0.08593445900308391
+            },
+            "forest c": {
+                "count": 1,
+                "rank_score": 0.12407365552288606
+            },
+            "forest c reductions": {
+                "count": 1,
+                "rank_score": 0.11784488121870176
+            },
+            "forests": {
+                "count": 1,
+                "rank_score": 0.086834748608508
+            },
+            "higher c density": {
+                "count": 1,
+                "rank_score": 0.07904017840134363
+            },
+            "land cover changes": {
+                "count": 1,
+                "rank_score": 0.09213940336737969
+            },
+            "litter c": {
+                "count": 1,
+                "rank_score": 0.1013031346532909
+            },
+            "national forest inventory": {
+                "count": 1,
+                "rank_score": 0.0880514609537772
+            },
+            "pg c": {
+                "count": 7,
+                "rank_score": 0.10340542159026353
+            },
+            "soil organic c": {
+                "count": 1,
+                "rank_score": 0.09991430130599507
+            },
+            "the forest c sink": {
+                "count": 1,
+                "rank_score": 0.07629712710268464
+            }
+        },
         "title": "Contemporary forest carbon dynamics in the northern U.S. associated with land cover changes",
         "url": "https://doi.org/10.1016/j.ecolind.2019.105901"
-    },
-    {
-        "authors": [
-            "author-7735010fd616d91d3d34",
-            "author-549d57a8979ffe30ff0c",
-            "author-c4107ff18f093e8f5a63",
-            "author-544052e5b4fc8ad29171"
-        ],
-        "datasets": [
-            "dataset-624",
-            "dataset-679",
-            "dataset-680"
-        ],
-        "doi": "10.1016/j.gecco.2019.e00869",
-        "journal": "journal-1264",
-        "title": "Planning for carnivore recolonization by mapping sex-specific landscape connectivity",
-        "url": "https://doi.org/10.1016/j.gecco.2019.e00869"
     },
     {
         "abstract": "Abstract The spatial and temporal distribution of trees has a large impact on human health and the environment through contributions to important climate mechanisms as well as commercial, recreational and social activities in society. A range of tree mapping methodologies has been presented in the literature, but tree cover estimates still differ widely between the individual datasets, and comparisons of the thematic accuracy of the resulting tree maps are rather scarce. The Copernicus Sentinel-2 satellites, which were launched in 2015 and 2017, have a combination of high spatial and temporal resolution. Given that this is a new satellite, a substantial amount of research on development of tree mapping algorithms as well as accuracy assessment of said algorithms have to be done in the years to come. To contribute to this process, a tree map produced through unsupervised classification was created for six Sentinel-2 tiles. The agreement between the tree map and the corresponding national forest inventory, as a function of the band combination chosen, was analysed and the thematic accuracy was assessed for two out of the six tiles. The results show that the highest agreement between the present tree map and the national forest inventory was found for bands 2, 3, 6 and 12. The present tree map has a relative difference in tree cover between 8% and 79% compared to previous estimates, but results are characterised by large scatter. Lastly, it is shown that the overall thematic accuracy of the present map is up to 90%, with the user’s accuracy ranging from 34.85% to 92.10%, and the producer’s accuracy ranging from 23.80% to 97.60% for the various thematic classes. This demonstrates that tree maps with high thematic accuracy can be produced from Sentinel-2. In the future the thematic accuracy can be increased even more through the use of temporal averaging in the mapping procedure, which will enable an accurate estimate of the European tree cover.",
@@ -104,6 +95,68 @@
         ],
         "doi": "10.1016/j.jag.2019.101947",
         "journal": "journal-1140",
+        "keyphrases": {
+            "a tree map": {
+                "count": 2,
+                "rank_score": 0.07617974043288518
+            },
+            "accuracy": {
+                "count": 2,
+                "rank_score": 0.09369872303163652
+            },
+            "accuracy assessment": {
+                "count": 1,
+                "rank_score": 0.09333066749638712
+            },
+            "high thematic accuracy": {
+                "count": 1,
+                "rank_score": 0.12063056818690572
+            },
+            "important climate mechanisms": {
+                "count": 1,
+                "rank_score": 0.06833874618687191
+            },
+            "previous estimates": {
+                "count": 1,
+                "rank_score": 0.07034227564006387
+            },
+            "the european tree cover": {
+                "count": 1,
+                "rank_score": 0.07323597026828443
+            },
+            "the overall thematic accuracy": {
+                "count": 1,
+                "rank_score": 0.07130538132778005
+            },
+            "the present tree map": {
+                "count": 2,
+                "rank_score": 0.08147276549953278
+            },
+            "the resulting tree maps": {
+                "count": 1,
+                "rank_score": 0.07873760188054384
+            },
+            "tree cover": {
+                "count": 1,
+                "rank_score": 0.11917098185651445
+            },
+            "tree cover estimates": {
+                "count": 1,
+                "rank_score": 0.12342229696497616
+            },
+            "tree mapping algorithms": {
+                "count": 1,
+                "rank_score": 0.11770378615543897
+            },
+            "tree mapping methodologies": {
+                "count": 1,
+                "rank_score": 0.11677045167731336
+            },
+            "trees": {
+                "count": 1,
+                "rank_score": 0.11541950575371154
+            }
+        },
         "title": "Tree cover mapping based on Sentinel-2 images demonstrate high thematic accuracy in Europe",
         "url": "https://doi.org/10.1016/j.jag.2019.101947"
     },
@@ -123,6 +176,68 @@
         ],
         "doi": "10.1016/j.ecolind.2019.105777",
         "journal": "journal-792",
+        "keyphrases": {
+            "abstract hainan island": {
+                "count": 2,
+                "rank_score": 0.0986723590099225
+            },
+            "areas": {
+                "count": 1,
+                "rank_score": 0.0684108201251461
+            },
+            "better quality grades": {
+                "count": 1,
+                "rank_score": 0.11220388005961127
+            },
+            "eco": {
+                "count": 3,
+                "rank_score": 0.1064194603976198
+            },
+            "eco-environmental quality": {
+                "count": 4,
+                "rank_score": 0.10386218498674474
+            },
+            "eco-environmental quality variations": {
+                "count": 1,
+                "rank_score": 0.10578828342437943
+            },
+            "eqi": {
+                "count": 1,
+                "rank_score": 0.06363528404291462
+            },
+            "five eco-environmental quality levels": {
+                "count": 1,
+                "rank_score": 0.08043004252594055
+            },
+            "hainan island": {
+                "count": 10,
+                "rank_score": 0.10300260845597453
+            },
+            "human activities": {
+                "count": 1,
+                "rank_score": 0.06463631209554868
+            },
+            "obvious spatial variation": {
+                "count": 1,
+                "rank_score": 0.07867925790536624
+            },
+            "poor eco-environmental quality": {
+                "count": 1,
+                "rank_score": 0.10475077641243427
+            },
+            "the eco-environmental quality assessment": {
+                "count": 1,
+                "rank_score": 0.0800880092261101
+            },
+            "the overall eco-environmental quality": {
+                "count": 1,
+                "rank_score": 0.08066095960972167
+            },
+            "worse eco-environmental quality grades": {
+                "count": 1,
+                "rank_score": 0.10633069942193893
+            }
+        },
         "title": "Effects of land-use change on eco-environmental quality in Hainan Island, China",
         "url": "https://doi.org/10.1016/j.ecolind.2019.105777"
     },
@@ -149,6 +264,68 @@
         ],
         "doi": "10.1016/j.scitotenv.2019.135005",
         "journal": "journal-953",
+        "keyphrases": {
+            "barren land": {
+                "count": 1,
+                "rank_score": 0.09836204997267686
+            },
+            "developed land": {
+                "count": 2,
+                "rank_score": 0.1036314952922876
+            },
+            "different scales": {
+                "count": 1,
+                "rank_score": 0.08256804211391468
+            },
+            "es deficits": {
+                "count": 3,
+                "rank_score": 0.10551886908944447
+            },
+            "es demand": {
+                "count": 1,
+                "rank_score": 0.08565884954223454
+            },
+            "es management": {
+                "count": 1,
+                "rank_score": 0.07683116315540829
+            },
+            "es supply": {
+                "count": 2,
+                "rank_score": 0.08539749323458441
+            },
+            "ess": {
+                "count": 9,
+                "rank_score": 0.0962174232324742
+            },
+            "key drivers": {
+                "count": 2,
+                "rank_score": 0.09534559155269981
+            },
+            "land": {
+                "count": 1,
+                "rank_score": 0.10052424404123786
+            },
+            "land-use strategies": {
+                "count": 1,
+                "rank_score": 0.07367789470620953
+            },
+            "multiple scales": {
+                "count": 1,
+                "rank_score": 0.08195609430560229
+            },
+            "quantify es": {
+                "count": 1,
+                "rank_score": 0.07086935828501972
+            },
+            "regional land-use planning": {
+                "count": 1,
+                "rank_score": 0.0738267466041284
+            },
+            "various drivers": {
+                "count": 1,
+                "rank_score": 0.08908884434719594
+            }
+        },
         "title": "Spatiotemporal patterns and drivers of ecosystem service supply and demand across the conterminous United States: A multiscale analysis",
         "url": "https://doi.org/10.1016/j.scitotenv.2019.135005"
     },
@@ -169,6 +346,68 @@
         ],
         "doi": "10.1016/j.sste.2019.100317",
         "journal": "journal-1265",
+        "keyphrases": {
+            "central california": {
+                "count": 1,
+                "rank_score": 0.06239023261019905
+            },
+            "coccidioides": {
+                "count": 2,
+                "rank_score": 0.05827104771183628
+            },
+            "coccidioides species": {
+                "count": 1,
+                "rank_score": 0.07181278980290201
+            },
+            "disease case data": {
+                "count": 1,
+                "rank_score": 0.06617615730117746
+            },
+            "fungal spores": {
+                "count": 1,
+                "rank_score": 0.06456578343148832
+            },
+            "fungus presence": {
+                "count": 1,
+                "rank_score": 0.07061676126956817
+            },
+            "future modeling efforts": {
+                "count": 1,
+                "rank_score": 0.07588237441157356
+            },
+            "hotspots": {
+                "count": 1,
+                "rank_score": 0.06989550494267341
+            },
+            "influential spatial drivers": {
+                "count": 1,
+                "rank_score": 0.08290012634381158
+            },
+            "maximum entropy ecological niche modeling": {
+                "count": 1,
+                "rank_score": 0.10101128217794995
+            },
+            "mean temperature": {
+                "count": 1,
+                "rank_score": 0.07225027486353316
+            },
+            "potential hotspots": {
+                "count": 1,
+                "rank_score": 0.08407653656570602
+            },
+            "public health officials": {
+                "count": 1,
+                "rank_score": 0.07412465197298783
+            },
+            "surrounding areas": {
+                "count": 1,
+                "rank_score": 0.05850913312322815
+            },
+            "united states": {
+                "count": 1,
+                "rank_score": 0.06789359834412718
+            }
+        },
         "title": "Environmental factors affecting ecological niche of Coccidioides species and spatial dynamics of valley fever in the western United States",
         "url": "https://doi.org/10.1016/j.sste.2019.100317"
     }

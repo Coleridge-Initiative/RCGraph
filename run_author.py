@@ -44,7 +44,7 @@ def main (args):
                 graph.publications.auth_hits += 1
             else:
                 ## error: pub has no authors?
-                graph.misses.append(pub["title"])
+                graph.update_misses(partition, pub)
 
         graph.write_partition(graph.BUCKET_STAGE, partition, pub_list)
 

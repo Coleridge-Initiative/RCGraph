@@ -12,24 +12,71 @@
         ],
         "doi": "10.3390/s19132914",
         "journal": "journal-1248",
+        "keyphrases": {
+            "high accuracy": {
+                "count": 1,
+                "rank_score": 0.06666974822183004
+            },
+            "increasing wave height": {
+                "count": 1,
+                "rank_score": 0.08170590152734379
+            },
+            "jason-3 data": {
+                "count": 2,
+                "rank_score": 0.10280238545685218
+            },
+            "ndbc buoy data": {
+                "count": 1,
+                "rank_score": 0.072279993338952
+            },
+            "ocean wave monitoring": {
+                "count": 1,
+                "rank_score": 0.06703668748640067
+            },
+            "rmse": {
+                "count": 3,
+                "rank_score": 0.061834342874992274
+            },
+            "sar": {
+                "count": 1,
+                "rank_score": 0.06420577346826759
+            },
+            "sentinel-3a swh": {
+                "count": 2,
+                "rank_score": 0.1202201167131554
+            },
+            "sentinel-3a/3b": {
+                "count": 2,
+                "rank_score": 0.07622747059882373
+            },
+            "sentinel-3a/3b swh": {
+                "count": 1,
+                "rank_score": 0.12913996546162715
+            },
+            "significant wave height (swh) data": {
+                "count": 1,
+                "rank_score": 0.07420789216938514
+            },
+            "swh": {
+                "count": 1,
+                "rank_score": 0.11813069431254328
+            },
+            "swh data": {
+                "count": 2,
+                "rank_score": 0.14026191813501
+            },
+            "u. s. national data buoy center": {
+                "count": 1,
+                "rank_score": 0.084547039872284
+            },
+            "wave climate studies": {
+                "count": 1,
+                "rank_score": 0.07130632638985632
+            }
+        },
         "pdf": "http://europepmc.org/articles/PMC6651353?pdf=render",
         "title": "Validation of Sentinel-3A/3B Satellite Altimetry Wave Heights with Buoy and Jason-3 Data",
         "url": "https://doi.org/10.3390/s19132914"
-    },
-    {
-        "authors": [
-            "author-c5705861ea27d7b3f464",
-            "author-b4b1fcda6a96f3bb5be2",
-            "author-25c7f0a6c0d42a1576a7",
-            "author-addbc21e70f25078f27b"
-        ],
-        "datasets": [
-            "dataset-668"
-        ],
-        "doi": "10.6084/m9.figshare.5051860.v1",
-        "journal": "journal-000",
-        "title": "Ideal Buoy Location Data (Southern California)",
-        "url": "https://figshare.com/articles/Ideal_Buoy_Location_Data_Southern_California_/5051860"
     },
     {
         "abstract": "This dataset consists of 33 years (1985 to 2018), of global significant wave height and wind speed obtained from 13 altimeters, namely: GEOSAT, ERS-1, TOPEX, ERS-2, GFO, JASON-1, ENVISAT, JASON-2, CRYOSAT-2, HY-2A, SARAL, JASON-3 and SENTINEL-3A. The altimeter data have been calibrated and validated against National Oceanographic Data Center (NODC) buoy data. Differences between altimeter and buoy data as a function of time are investigated for long-term stability. A cross validation between altimeters is also carried out in order to check the stability and consistency of the calibrations developed. Quantile-quantile comparisons between altimeter and buoy data as well as between altimeters are undertaken to test consistency of probability distributions and extreme value performance. The data were binned into 1° by 1° bins globally, to provide convenient access for users to download only the regions of interest. All data are quality controlled. This globally calibrated and cross-validated dataset provides a single point of storage for all altimeter missions in a consistent format.Design Type(s)data integration objective • modeling and simulation objectiveMeasurement Type(s)environmental system processTechnology Type(s)Altimeter DeviceFactor Type(s)temporal_interval • geographic locationSample Characteristic(s)Earth (Planet) • oceanMachine-accessible metadata file describing the reported data (ISA-Tab format)",
@@ -43,6 +90,68 @@
         ],
         "doi": "10.1038/s41597-019-0083-9",
         "journal": "journal-864",
+        "keyphrases": {
+            "altimeter and buoy data": {
+                "count": 1,
+                "rank_score": 0.061180366185765486
+            },
+            "altimeters": {
+                "count": 3,
+                "rank_score": 0.08031015940481813
+            },
+            "buoy data": {
+                "count": 1,
+                "rank_score": 0.08897321035541478
+            },
+            "consistency": {
+                "count": 2,
+                "rank_score": 0.06179069408309927
+            },
+            "convenient access": {
+                "count": 1,
+                "rank_score": 0.05754120410727463
+            },
+            "design type(s)data": {
+                "count": 2,
+                "rank_score": 0.05976143046671968
+            },
+            "devicefactor type(s)temporal_interval": {
+                "count": 1,
+                "rank_score": 0.05976143046671968
+            },
+            "extreme value performance": {
+                "count": 1,
+                "rank_score": 0.06543364350002268
+            },
+            "geographic locationsample characteristic(s)earth": {
+                "count": 1,
+                "rank_score": 0.06962047948870176
+            },
+            "global significant wave height and wind speed": {
+                "count": 1,
+                "rank_score": 0.0583548711481828
+            },
+            "integration objective": {
+                "count": 1,
+                "rank_score": 0.05976143046671968
+            },
+            "national oceanographic data center": {
+                "count": 2,
+                "rank_score": 0.07424863515505124
+            },
+            "probability distributions": {
+                "count": 1,
+                "rank_score": 0.0646696341455505
+            },
+            "the altimeter data": {
+                "count": 1,
+                "rank_score": 0.06544988028853534
+            },
+            "the reported data": {
+                "count": 1,
+                "rank_score": 0.055162627115098624
+            }
+        },
         "pdf": "http://europepmc.org/articles/PMC6541622?pdf=render",
         "title": "33 years of globally calibrated wave height and wind speed data based on altimeter observations",
         "url": "http://europepmc.org/articles/PMC6541622"
@@ -59,6 +168,68 @@
         ],
         "doi": "10.1111/j.1600-0870.2004.00086.x",
         "journal": "journal-1286",
+        "keyphrases": {
+            "a novel joint time frequency analysis": {
+                "count": 1,
+                "rank_score": 0.07082611615051977
+            },
+            "considerable energy": {
+                "count": 1,
+                "rank_score": 0.05588910818985654
+            },
+            "data": {
+                "count": 1,
+                "rank_score": 0.06704302937142913
+            },
+            "high-precision power spectra": {
+                "count": 1,
+                "rank_score": 0.05382781752044855
+            },
+            "inertial frequency bands": {
+                "count": 1,
+                "rank_score": 0.10738084352245875
+            },
+            "inertial range oscillations": {
+                "count": 2,
+                "rank_score": 0.1202008333769311
+            },
+            "its high time resolution": {
+                "count": 1,
+                "rank_score": 0.05728445505428795
+            },
+            "many harmonics": {
+                "count": 1,
+                "rank_score": 0.05303684409631908
+            },
+            "other latitudes": {
+                "count": 1,
+                "rank_score": 0.056431162847702346
+            },
+            "resonant inertial oscillations": {
+                "count": 1,
+                "rank_score": 0.11398238728571704
+            },
+            "the inertial frequency": {
+                "count": 1,
+                "rank_score": 0.06380175770666059
+            },
+            "the largest inertial range oscillations": {
+                "count": 1,
+                "rank_score": 0.08253582050788387
+            },
+            "the surface wind rotation direction": {
+                "count": 1,
+                "rank_score": 0.06004069497943819
+            },
+            "these inertial oscillations": {
+                "count": 1,
+                "rank_score": 0.06833049984067223
+            },
+            "time": {
+                "count": 1,
+                "rank_score": 0.07081876664709022
+            }
+        },
         "title": "Resonant inertial oscillations in moored buoy ocean surface winds",
         "url": "http://www.tellusa.net/index.php/tellusa/article/view/14478"
     },
@@ -72,6 +243,68 @@
         ],
         "doi": "10.25777/8cx1-0v89",
         "journal": "journal-000",
+        "keyphrases": {
+            "climate change": {
+                "count": 2,
+                "rank_score": 0.07628714026916164
+            },
+            "decreasing wave heights": {
+                "count": 1,
+                "rank_score": 0.09829978938789866
+            },
+            "extreme waves": {
+                "count": 2,
+                "rank_score": 0.08638920018289013
+            },
+            "future wind patterns": {
+                "count": 1,
+                "rank_score": 0.06351986403103703
+            },
+            "hourly significant wave heights": {
+                "count": 1,
+                "rank_score": 0.10217473766831685
+            },
+            "national data buoy center": {
+                "count": 1,
+                "rank_score": 0.0670248123425621
+            },
+            "national data buoy center buoys": {
+                "count": 1,
+                "rank_score": 0.07147149364306787
+            },
+            "seasonal trends": {
+                "count": 1,
+                "rank_score": 0.07294385398079412
+            },
+            "significant wave heights": {
+                "count": 1,
+                "rank_score": 0.10124414923954086
+            },
+            "storm wave heights": {
+                "count": 1,
+                "rank_score": 0.10148417728244817
+            },
+            "surface waves": {
+                "count": 1,
+                "rank_score": 0.0792087775576344
+            },
+            "trends": {
+                "count": 3,
+                "rank_score": 0.07329917758603789
+            },
+            "u.s.": {
+                "count": 2,
+                "rank_score": 0.06756229405520944
+            },
+            "u.s. atlantic": {
+                "count": 1,
+                "rank_score": 0.07403904907238239
+            },
+            "wave heights": {
+                "count": 1,
+                "rank_score": 0.07536591119160563
+            }
+        },
         "title": "Changing Trends in Wave Heights in the U.S. Mid-Atlantic Region",
         "url": "http://dx.doi.org/10.25777/8cx1-0v89"
     },
@@ -89,6 +322,68 @@
         ],
         "doi": "10.3390/s8031927",
         "journal": "journal-1248",
+        "keyphrases": {
+            "12.5 km swath winds": {
+                "count": 1,
+                "rank_score": 0.06769857858256526
+            },
+            "25 km wind product": {
+                "count": 1,
+                "rank_score": 0.07699722284991527
+            },
+            "best track analyses": {
+                "count": 1,
+                "rank_score": 0.07448863829469277
+            },
+            "buoy measurements": {
+                "count": 3,
+                "rank_score": 0.07480305948389432
+            },
+            "high wind speeds": {
+                "count": 1,
+                "rank_score": 0.10939735336599939
+            },
+            "moderate wind speeds": {
+                "count": 1,
+                "rank_score": 0.11122634174330154
+            },
+            "quikscat": {
+                "count": 7,
+                "rank_score": 0.09705577819568979
+            },
+            "quikscat products": {
+                "count": 1,
+                "rank_score": 0.11274350124386347
+            },
+            "quikscat winds": {
+                "count": 1,
+                "rank_score": 0.13423821045482312
+            },
+            "remote sensing data": {
+                "count": 1,
+                "rank_score": 0.07447934845972862
+            },
+            "such events": {
+                "count": 1,
+                "rank_score": 0.07138504494561483
+            },
+            "the new quikscat l2b product": {
+                "count": 1,
+                "rank_score": 0.07597907704483957
+            },
+            "wind data": {
+                "count": 1,
+                "rank_score": 0.11549829229869274
+            },
+            "wind product": {
+                "count": 1,
+                "rank_score": 0.12179918342034347
+            },
+            "winds": {
+                "count": 1,
+                "rank_score": 0.109256995450925
+            }
+        },
         "pdf": "http://europepmc.org/articles/PMC3663034?pdf=render",
         "title": "Assessment and Analysis of QuikSCAT Vector Wind Products for the Gulf of Mexico: A Long-Term and Hurricane Analysis",
         "url": "http://www.mdpi.com/1424-8220/8/3/1927/"

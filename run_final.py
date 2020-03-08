@@ -56,6 +56,10 @@ def propagate_view (pub, graph, override):
         if pub["abstract"] and len(pub["abstract"]) > 0:
             view["abstract"] = pub["abstract"]
 
+    # add the DOI, if available
+    if "keyphrases" in pub:
+        view["keyphrases"] = pub["keyphrases"]
+
     # select the best journal
     journal_list = graph.journals.extract_journals(pub)
     journal = graph.journals.select_best_entity(journal_list)
@@ -114,7 +118,7 @@ def main (args):
             if "pdf" in view:
                 graph.publications.pdf_hits += 1
             else:
-                graph.misses.append(view["title"])
+                graph.update_misses(partition, view)
 
         graph.write_partition(graph.BUCKET_FINAL, partition, pub_list)
 
@@ -136,7 +140,7 @@ def main (args):
                 if "pdf" in pub:
                     graph.publications.pdf_hits += 1
                 else:
-                    graph.misses.append(pub["title"])
+                    graph.update_misses(partition, pub)
 
     graph.write_partition(graph.BUCKET_FINAL, "_manual.json", pub_list)
 

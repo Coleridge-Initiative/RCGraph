@@ -1,20 +1,5 @@
 [
     {
-        "authors": [
-            "author-e82c1d3aef81100d0f4c",
-            "author-e4598c087309067b3d1a",
-            "author-8951f77515d8d76fbc0e",
-            "author-f84611f45ec8c20e9711"
-        ],
-        "datasets": [
-            "dataset-410"
-        ],
-        "doi": "10.1111/tgis.12590",
-        "journal": "journal-148",
-        "title": "Similarity measurement on human mobility data with spatially weighted structural similarity index (SpSSIM)",
-        "url": "https://www.semanticscholar.org/paper/9f5ca30a0aae3457548030a5fcb95b0d6637ad71"
-    },
-    {
         "abstract": "This paper studies the effects of marijuana legalization on neighborhood crime using unique geospatial data from Denver, Colorado. We construct a highly local panel data set that includes changes in the location of marijuana dispensaries and changes in neighborhood crime. To account for endogenous retail dispensary locations, we use a novel identification strategy that exploits exogenous changes in demand across different locations. The change in geographic demand arises from the increased importance of access to external markets caused by a change in state and local policy. The results imply that retail dispensaries lead to reduced crime in the neighborhoods where they are located. Reductions in crime are highly localized, with no evidence of benefits for adjacent neighborhoods. The spatial extent of these effects are consistent with a policing or security response, and analysis of detailed crime categories provides indirect evidence that the reduction in crime arises from a disruption of illicit markets.",
         "authors": [
             "author-fc4757841efa151d1baf",
@@ -25,6 +10,68 @@
         ],
         "doi": "10.1016/j.regsciurbeco.2019.103460",
         "journal": "journal-149",
+        "keyphrases": {
+            "adjacent neighborhoods": {
+                "count": 1,
+                "rank_score": 0.08481747958519212
+            },
+            "changes": {
+                "count": 4,
+                "rank_score": 0.09751559686987735
+            },
+            "crime": {
+                "count": 2,
+                "rank_score": 0.11258471083871818
+            },
+            "detailed crime categories": {
+                "count": 1,
+                "rank_score": 0.11804412004274081
+            },
+            "different locations": {
+                "count": 1,
+                "rank_score": 0.08196839380669638
+            },
+            "endogenous retail dispensary locations": {
+                "count": 1,
+                "rank_score": 0.10594252504707152
+            },
+            "exogenous changes": {
+                "count": 1,
+                "rank_score": 0.10284093801947938
+            },
+            "external markets": {
+                "count": 1,
+                "rank_score": 0.07984047759811874
+            },
+            "geographic demand": {
+                "count": 1,
+                "rank_score": 0.07853342449607895
+            },
+            "marijuana dispensaries": {
+                "count": 1,
+                "rank_score": 0.08889112114513283
+            },
+            "marijuana legalization": {
+                "count": 1,
+                "rank_score": 0.07972115216992035
+            },
+            "neighborhood crime": {
+                "count": 2,
+                "rank_score": 0.12796094217902307
+            },
+            "reduced crime": {
+                "count": 1,
+                "rank_score": 0.11250585115287469
+            },
+            "retail dispensaries": {
+                "count": 1,
+                "rank_score": 0.09640615353288856
+            },
+            "unique geospatial data": {
+                "count": 1,
+                "rank_score": 0.09746973412856078
+            }
+        },
         "pdf": "https://www.philadelphiafed.org/-/media/research-and-data/publications/working-papers/2017/wp17-19.pdf?utm_campaign=WorkingPapers&utm_source=2017/07/17&utm_medium=E-mail",
         "title": "Not in my backyard? Not so fast. The effect of marijuana legalization on neighborhood crime",
         "url": "https://doi.org/10.1016/j.regsciurbeco.2019.103460"
@@ -40,26 +87,71 @@
         ],
         "doi": "10.3390/su11041012",
         "journal": "journal-119",
+        "keyphrases": {
+            "a proximity measure": {
+                "count": 1,
+                "rank_score": 0.06068368984666317
+            },
+            "comparison": {
+                "count": 1,
+                "rank_score": 0.060175580329577316
+            },
+            "household dynamics": {
+                "count": 1,
+                "rank_score": 0.07584413268987525
+            },
+            "jobs": {
+                "count": 4,
+                "rank_score": 0.10936209821637878
+            },
+            "lehd": {
+                "count": 2,
+                "rank_score": 0.06581035212924075
+            },
+            "longitudinal employer": {
+                "count": 1,
+                "rank_score": 0.08853956523672347
+            },
+            "longitudinal employer–household dynamics": {
+                "count": 1,
+                "rank_score": 0.06784130146447384
+            },
+            "multiple regression analysis": {
+                "count": 1,
+                "rank_score": 0.08207476580385603
+            },
+            "origin-destination employment statistics": {
+                "count": 1,
+                "rank_score": 0.06620249053050295
+            },
+            "other urban form measures": {
+                "count": 1,
+                "rank_score": 0.10029994664399462
+            },
+            "suburban areas": {
+                "count": 1,
+                "rank_score": 0.08039220555619306
+            },
+            "the co-location hypothesis": {
+                "count": 1,
+                "rank_score": 0.06725340733654249
+            },
+            "worker imbalance": {
+                "count": 1,
+                "rank_score": 0.0854657154981114
+            },
+            "worker mismatch": {
+                "count": 1,
+                "rank_score": 0.09398190334352996
+            },
+            "worker proximity": {
+                "count": 1,
+                "rank_score": 0.10460725933386489
+            }
+        },
         "pdf": "https://www.mdpi.com/2071-1050/11/4/1012/pdf",
         "title": "Towards Sustainable Urban Spatial Structure: Does Decentralization Reduce Commuting Times?",
         "url": "https://doi.org/10.3390/su11041012"
-    },
-    {
-        "authors": [
-            "author-c48fd1d3bb8ab41fb26b",
-            "author-0821185b38ea0566cfe0",
-            "author-44c5994df9d30088dc4f",
-            "author-5d61b1fca4919f4d2b47",
-            "author-b2f83c1adfa52ba46237",
-            "author-141da183ec1f89e5a4c6"
-        ],
-        "datasets": [
-            "dataset-410"
-        ],
-        "doi": "10.1016/b978-0-12-816088-6.00009-2",
-        "journal": "journal-998",
-        "title": "Chapter Nine Does transportation access affect the ability to recruit and retain logistics workers?",
-        "url": "https://doi.org/10.1016/b978-0-12-816088-6.00009-2"
     },
     {
         "abstract": "Abstract Understanding pedestrian behavior is critical for many aspects of city planning, design, and management, including transportation, public health, emergency response, and economic development. This study bridges in-situ observations of pedestrian activity and urban computing by integrating high-resolution, large-scale, and heterogeneous urban datasets and analyzing both fixed attributes of the urban landscape (e.g. physical and transit infrastructure) with dynamic environmental and socio-psychological factors, such as weather, air quality, and perceived crime risk. We use local pedestrian count data collected by the New York City (NYC) Department of Transportation (DOT) and an extensive array of open datasets from NYC to test how pedestrian volumes relate to land use, building density, streetscape quality, transportation infrastructure, and other factors typically associated with urban walkability. We quantify, classify, and analyze place dynamics, including contextual and situational factors that influence pedestrian activity at high spatial–temporal resolution. The quantification process measures the urban context by extracting rich, yet initially fragmented and siloed, urban data for individual geolocations. Based on these features, we then construct contextual indicators by selecting and combining features relevant to pedestrian activity, and develop a typology of place to support the generalizability of our analysis. Finally, we use multivariate regression models with panel-corrected standard errors to estimate how specific contextual features and time-varying situational indicators impact pedestrian activity across time of day, day of the week, season, and year. The results provide insights into the key drivers of local pedestrian activity and highlight the importance accounting for the immediate urban environment and socio-spatial dynamics in pedestrian behavior modeling.",
@@ -72,8 +164,70 @@
         ],
         "doi": "10.1016/j.landurbplan.2018.08.018",
         "journal": "journal-151",
+        "keyphrases": {
+            "abstract understanding pedestrian behavior": {
+                "count": 1,
+                "rank_score": 0.09723109054599531
+            },
+            "air quality": {
+                "count": 1,
+                "rank_score": 0.057211539754910896
+            },
+            "contextual indicators": {
+                "count": 1,
+                "rank_score": 0.07049226174809377
+            },
+            "heterogeneous urban datasets": {
+                "count": 1,
+                "rank_score": 0.08789136704762096
+            },
+            "local pedestrian activity": {
+                "count": 1,
+                "rank_score": 0.11550474616255779
+            },
+            "local pedestrian count data": {
+                "count": 1,
+                "rank_score": 0.10384219688396418
+            },
+            "multivariate regression models": {
+                "count": 1,
+                "rank_score": 0.0556944204166964
+            },
+            "open datasets": {
+                "count": 1,
+                "rank_score": 0.0597215195746971
+            },
+            "pedestrian activity": {
+                "count": 4,
+                "rank_score": 0.11607649909694578
+            },
+            "pedestrian behavior modeling": {
+                "count": 1,
+                "rank_score": 0.09944533940977529
+            },
+            "pedestrian volumes": {
+                "count": 1,
+                "rank_score": 0.10121892324821845
+            },
+            "perceived crime risk": {
+                "count": 1,
+                "rank_score": 0.054640530502197665
+            },
+            "place dynamics": {
+                "count": 1,
+                "rank_score": 0.06334748342116979
+            },
+            "urban computing": {
+                "count": 1,
+                "rank_score": 0.08387115392043126
+            },
+            "urban walkability": {
+                "count": 1,
+                "rank_score": 0.08135327600453021
+            }
+        },
         "title": "Quantifying place: Analyzing the drivers of pedestrian activity in dense urban environments",
-        "url": "https://www.semanticscholar.org/paper/9e6e015feafa1026eef0e3cf3706a90f081d4b5e"
+        "url": "https://doi.org/10.1016/j.landurbplan.2018.08.018"
     },
     {
         "abstract": "Characteristics of the transportation system and built environment contribute to pedestrian fatality risks, including vehicular traffic and land-use characteristics associated with higher pedestrian activity. We combined data from FHWA, NHTSA, EPA, and the Census Bureau and performed regression modeling to explore associations between transportation system and built environment characteristics and pedestrian fatalities between 2012 and 2016 at the Census tract scale across the United States. In urban tracts, we found especially strong associations between traffic on non-access-controlled principal arterial and minor arterial roadways and pedestrian fatalities (0.91 and 0.68 additional annual pedestrian fatalities per 100,000 persons per 10,000 VMT/mi2 increase in traffic density, respectively). In both urban and rural tracts, we also found strong associations between employment density in the retail sector and pedestrian fatalities. Finally, we compared our model to the High Injury Network in Los Angeles, CA. Nearly half (43%) of observed fatalities were identified by both methods, while some fatalities were identified by only one (19% by our model and 23% by the High Injury Network). This work shows that traffic on certain roadway facility types and employment in certain sectors have especially strong associations with pedestrian fatality risk. More broadly, we illustrate how leveraging cross-disciplinary data in novel ways can support prospective, risk-based assessments of pedestrian fatality risks and support integrated and systemic approaches to transportation safety.",
@@ -89,31 +243,70 @@
         ],
         "doi": "10.1016/j.aap.2018.06.018",
         "journal": "journal-152",
+        "keyphrases": {
+            "0.68 additional annual pedestrian fatalities": {
+                "count": 1,
+                "rank_score": 0.07958206570229168
+            },
+            "associations": {
+                "count": 1,
+                "rank_score": 0.07418105076826463
+            },
+            "certain roadway facility types": {
+                "count": 1,
+                "rank_score": 0.0777456258016012
+            },
+            "cross-disciplinary data": {
+                "count": 1,
+                "rank_score": 0.09195052789630122
+            },
+            "environment characteristics": {
+                "count": 1,
+                "rank_score": 0.07513096224294054
+            },
+            "higher pedestrian activity": {
+                "count": 1,
+                "rank_score": 0.09686008128287035
+            },
+            "minor arterial roadways": {
+                "count": 1,
+                "rank_score": 0.07778429976229431
+            },
+            "observed fatalities": {
+                "count": 1,
+                "rank_score": 0.09655795828007765
+            },
+            "pedestrian fatalities": {
+                "count": 3,
+                "rank_score": 0.1276832223186247
+            },
+            "pedestrian fatality risks": {
+                "count": 3,
+                "rank_score": 0.1337936775071843
+            },
+            "strong associations": {
+                "count": 3,
+                "rank_score": 0.08743426885203966
+            },
+            "traffic": {
+                "count": 2,
+                "rank_score": 0.0796583142389183
+            },
+            "traffic density": {
+                "count": 1,
+                "rank_score": 0.08551459956340787
+            },
+            "transportation system": {
+                "count": 2,
+                "rank_score": 0.07609575973796413
+            },
+            "vehicular traffic": {
+                "count": 1,
+                "rank_score": 0.08339701763057772
+            }
+        },
         "title": "The effects of roadway and built environment characteristics on pedestrian fatality risk: A national assessment at the neighborhood scale",
-        "url": "https://doi.org/10.1016/j.aap.2018.06.018"
-    },
-    {
-        "authors": [
-            "author-0972d71d6982dd0a49d3",
-            "author-c429759d237c59757af2",
-            "author-7c239051eb238165f204",
-            "author-6bcc231223a91d450aa9",
-            "author-cbd4a29e2a759b1b3028",
-            "author-bb332310d6f517728df6",
-            "author-40de5ad1aeb3a4cd3efc",
-            "author-01c4524146308808db35",
-            "author-64fec5944cd54e2afea5",
-            "author-2947bf60609694bd281f",
-            "author-53e6282ad347856f1431",
-            "author-88507fcc4a2f18349147"
-        ],
-        "datasets": [
-            "dataset-410"
-        ],
-        "doi": "10.1109/itsc.2018.8569541",
-        "journal": "journal-153",
-        "title": "Integrated simulation of activity-based demand and multi-modal dynamic supply for energy assessment",
-        "url": "https://doi.org/10.1109/itsc.2018.8569541"
+        "url": "https://www.semanticscholar.org/paper/16e09a3f5aade389ac8da1ce981243d3a9316d57"
     },
     {
         "abstract": "A key goal of housing assistance programs is to help lower income households reach neighborhoods of opportunity. Studies have described the degree to which Low-Income Housing Tax Credit (LIHTC) developments are located in high-opportunity neighborhoods, but our focus is on how neighborhood outcomes vary across different subsets of LIHTC residents. We also examine whether LIHTC households are better able to reach certain types of neighborhood opportunities. Specifically, we use new data on LIHTC tenants in 12 states along with eight measures of neighborhood opportunity. We find that compared with other rental units, LIHTC units are located in neighborhoods with higher poverty rates, weaker labor markets, more polluted environments, and lower performing schools, but better transit access. We also find that compared with other LIHTC tenants, poor and minority tenants live in neighborhoods that are significantly more disadvantaged.",
@@ -127,6 +320,68 @@
         ],
         "doi": "10.1080/10511482.2017.1413584",
         "journal": "journal-087",
+        "keyphrases": {
+            "better transit access": {
+                "count": 1,
+                "rank_score": 0.09486262008261243
+            },
+            "higher poverty rates": {
+                "count": 1,
+                "rank_score": 0.09126199630142345
+            },
+            "housing assistance programs": {
+                "count": 1,
+                "rank_score": 0.09012403506438293
+            },
+            "lihtc": {
+                "count": 1,
+                "rank_score": 0.11769395368525842
+            },
+            "lihtc households": {
+                "count": 1,
+                "rank_score": 0.1288356364739572
+            },
+            "lihtc residents": {
+                "count": 1,
+                "rank_score": 0.11529442003122205
+            },
+            "lihtc tenants": {
+                "count": 1,
+                "rank_score": 0.13450970941853058
+            },
+            "lihtc units": {
+                "count": 1,
+                "rank_score": 0.12390240881697867
+            },
+            "lower income households": {
+                "count": 1,
+                "rank_score": 0.09556954716602507
+            },
+            "neighborhood opportunities": {
+                "count": 2,
+                "rank_score": 0.1216551670967272
+            },
+            "neighborhood outcomes": {
+                "count": 1,
+                "rank_score": 0.11117849841670507
+            },
+            "neighborhoods": {
+                "count": 3,
+                "rank_score": 0.11006326960861336
+            },
+            "other lihtc tenants": {
+                "count": 1,
+                "rank_score": 0.1364937857918452
+            },
+            "other rental units": {
+                "count": 1,
+                "rank_score": 0.09243407979644477
+            },
+            "weaker labor markets": {
+                "count": 1,
+                "rank_score": 0.08943479746887131
+            }
+        },
         "title": "Gateway to Opportunity? Disparities in Neighborhood Conditions Among Low-Income Housing Tax Credit Residents",
         "url": "https://www.semanticscholar.org/paper/3ed4424a466fc3cf01949b8d30255e6fb5a7e158"
     },
@@ -140,6 +395,68 @@
         ],
         "doi": "10.1080/21681376.2018.1455535",
         "journal": "journal-154",
+        "keyphrases": {
+            "census data": {
+                "count": 1,
+                "rank_score": 0.09351751218335858
+            },
+            "corresponding night-time population densities": {
+                "count": 1,
+                "rank_score": 0.08529147131431947
+            },
+            "daytime": {
+                "count": 2,
+                "rank_score": 0.08303643712188694
+            },
+            "daytime population density": {
+                "count": 2,
+                "rank_score": 0.13370869352001846
+            },
+            "engineers site transportation infrastructure": {
+                "count": 1,
+                "rank_score": 0.09695915857984076
+            },
+            "estimated daytime densities": {
+                "count": 1,
+                "rank_score": 0.12900681461947663
+            },
+            "regional land use patterns": {
+                "count": 1,
+                "rank_score": 0.08343981922571922
+            },
+            "significant weight": {
+                "count": 1,
+                "rank_score": 0.07596116459203762
+            },
+            "the san francisco bay areas tract-level daytime population density": {
+                "count": 1,
+                "rank_score": 0.07074222045451505
+            },
+            "travel diaries": {
+                "count": 1,
+                "rank_score": 0.0789920040795123
+            },
+            "urban planners": {
+                "count": 1,
+                "rank_score": 0.08746505087306278
+            },
+            "urban vitality": {
+                "count": 1,
+                "rank_score": 0.0804240947814847
+            },
+            "us census and lehd lodes data": {
+                "count": 1,
+                "rank_score": 0.07066988847281326
+            },
+            "various drawbacks": {
+                "count": 1,
+                "rank_score": 0.0738795016886111
+            },
+            "various methods": {
+                "count": 1,
+                "rank_score": 0.07092317153233185
+            }
+        },
         "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/21681376.2018.1455535?needAccess=true",
         "title": "Estimating local daytime population density from census and payroll data",
         "url": "https://doi.org/10.1080/21681376.2018.1455535"
@@ -156,22 +473,70 @@
         ],
         "doi": "10.1016/j.regsciurbeco.2017.03.008",
         "journal": "journal-149",
+        "keyphrases": {
+            "a proposed rail line": {
+                "count": 1,
+                "rank_score": 0.0743837704284425
+            },
+            "apparent local costs": {
+                "count": 1,
+                "rank_score": 0.08154608080564989
+            },
+            "disappointing levels": {
+                "count": 1,
+                "rank_score": 0.07306351236783333
+            },
+            "light rail": {
+                "count": 1,
+                "rank_score": 0.11972048557610489
+            },
+            "light rail transit": {
+                "count": 1,
+                "rank_score": 0.11738912709853747
+            },
+            "market": {
+                "count": 1,
+                "rank_score": 0.07626690564633598
+            },
+            "negative consequences": {
+                "count": 1,
+                "rank_score": 0.08120139292780021
+            },
+            "potential accessibility benefits": {
+                "count": 1,
+                "rank_score": 0.08396791841289526
+            },
+            "sales price": {
+                "count": 2,
+                "rank_score": 0.10499977476137537
+            },
+            "sales-list price spread": {
+                "count": 2,
+                "rank_score": 0.07778526502479127
+            },
+            "several outcome variables": {
+                "count": 1,
+                "rank_score": 0.08137592691372623
+            },
+            "the constructed light rail line": {
+                "count": 1,
+                "rank_score": 0.0832357644841298
+            },
+            "the norfolk tide light rail": {
+                "count": 1,
+                "rank_score": 0.07961885881136672
+            },
+            "tide": {
+                "count": 2,
+                "rank_score": 0.0707422375002025
+            },
+            "virginia beach": {
+                "count": 2,
+                "rank_score": 0.07682269738870083
+            }
+        },
         "title": "Is the light rail \"Tide\" lifting property values? Evidence from Hampton Roads, VA",
-        "url": "https://www.semanticscholar.org/paper/dbf5a7f05f73359649803fcc8b73ae2afcd072bd"
-    },
-    {
-        "authors": [
-            "author-bf413bb06e6f10e12bc5",
-            "author-cb75c3bf7e6fb06c9d6d"
-        ],
-        "datasets": [
-            "dataset-410"
-        ],
-        "doi": "10.2514/6.2017-3083",
-        "journal": "journal-999",
-        "pdf": "https://dspace.mit.edu/bitstream/1721.1/115341/1/2017c%20Vascik%20AIAA%20Constraint%20Evaluation%20ICAT%20Report_2017_9.pdf",
-        "title": "Constraint Identification in On-Demand Mobility for Aviation through an Exploratory Case Study of Los Angeles",
-        "url": "https://doi.org/10.2514/6.2017-3083"
+        "url": "https://doi.org/10.1016/j.regsciurbeco.2017.03.008"
     },
     {
         "abstract": "With advances in computational power and larger sample data sources, destination choices can be determined from the disaggregated data itself using logit models rather than from aggregated gravity models. Unfortunately, larger sample data are required as spatial resolution increases in such models, which is often limited due to privacy restrictions or survey costs. This makes higher spatial resolution work trip OD assignment inaccurate due to over-aggregation from limited sample data. Alternatively, high resolution aggregated OD employment data are available through Census sources, making detailed OD assignment possible with the gravity model. The challenge now becomes how to assign destinations to disaggregated individuals using spatially aggregated sources. This paper explores a method of assigning disaggregated destinations using aggregated sources, constrained by individual travel time using OD travel time matrices. This process was performed on a synthetic population of 4.1-million individuals in the Boston, Massachusetts area distributed across 2,727 traffic analysis zones. Travel times by mode from an origin zone were used to create a zonal radius around the origin, greatly reducing the number of possible destinations for individuals. From this subset, the possibilities were then further stratified using individual criteria of age and industry. This added travel time constraint reduces the possibility of individuals being assigned to impossible destinations where random assignment is used.",
@@ -184,8 +549,70 @@
         ],
         "doi": "10.1109/mtits.2017.8005720",
         "journal": "journal-1055",
+        "keyphrases": {
+            "aggregated sources": {
+                "count": 2,
+                "rank_score": 0.09035632784166972
+            },
+            "destination choices": {
+                "count": 1,
+                "rank_score": 0.09020887246389442
+            },
+            "destinations": {
+                "count": 1,
+                "rank_score": 0.08750414443973653
+            },
+            "detailed od assignment": {
+                "count": 1,
+                "rank_score": 0.09781020749070626
+            },
+            "disaggregated destinations": {
+                "count": 1,
+                "rank_score": 0.10334789140359105
+            },
+            "disaggregated individuals": {
+                "count": 1,
+                "rank_score": 0.09067917255796465
+            },
+            "higher spatial resolution work trip od assignment": {
+                "count": 1,
+                "rank_score": 0.10931852979755159
+            },
+            "impossible destinations": {
+                "count": 1,
+                "rank_score": 0.08819924800847642
+            },
+            "individual travel time": {
+                "count": 1,
+                "rank_score": 0.10462140419094534
+            },
+            "larger sample data": {
+                "count": 1,
+                "rank_score": 0.0987906948285524
+            },
+            "larger sample data sources": {
+                "count": 1,
+                "rank_score": 0.10980351148021784
+            },
+            "limited sample data": {
+                "count": 1,
+                "rank_score": 0.09309054902061116
+            },
+            "od employment data": {
+                "count": 1,
+                "rank_score": 0.10515254453216956
+            },
+            "od travel time matrices": {
+                "count": 1,
+                "rank_score": 0.11205502294779428
+            },
+            "possible destinations": {
+                "count": 1,
+                "rank_score": 0.0944740480925535
+            }
+        },
         "title": "Network Work Trip Assignment for Agent-Based Simulation Accounting for Travel Time",
-        "url": "https://www.semanticscholar.org/paper/a74dd3b1f9adc9843327c4f753b3664bee4972c3"
+        "url": "https://doi.org/10.1109/mtits.2017.8005720"
     },
     {
         "abstract": "Policy makers in urban areas throughout the United States are interested in managing parking provision and minimizing the negative impacts of excess parking, yet those policy makers often lack an understanding of how much the existing parking is used and how different factors affect its use. This paper presents a study of multifamily residential parking use and related factors at 80 sites in Madison, Wisconsin. Twenty-two factors, including neighborhood and building characteristics, are considered. During the evening peak, parking use ranges from 0 to 1.4 spaces per residential unit, and the existing supply is 67% occupied. This paper presents three simple models of parking occupancy that require only two neighborhood characteristics and three building characteristics. These models explain roughly two-thirds of the variation in occupancy. Neighborhood characteristics are highly collinear and explain roughly 40% of the variation. Building characteristics explain more than 50% of the variation. This work va...",
@@ -197,23 +624,70 @@
         ],
         "doi": "10.3141/2651-08",
         "journal": "journal-037",
+        "keyphrases": {
+            "building characteristics": {
+                "count": 2,
+                "rank_score": 0.1120894637043918
+            },
+            "excess parking": {
+                "count": 1,
+                "rank_score": 0.13320940345634955
+            },
+            "madison": {
+                "count": 2,
+                "rank_score": 0.060590383816984374
+            },
+            "multifamily residential parking use": {
+                "count": 1,
+                "rank_score": 0.14965684426524864
+            },
+            "neighborhood and building characteristics": {
+                "count": 1,
+                "rank_score": 0.07748137831705279
+            },
+            "neighborhood characteristics": {
+                "count": 2,
+                "rank_score": 0.10977841950766687
+            },
+            "occupancy": {
+                "count": 1,
+                "rank_score": 0.061835796428011076
+            },
+            "parking occupancy": {
+                "count": 1,
+                "rank_score": 0.1356989541680554
+            },
+            "parking provision": {
+                "count": 1,
+                "rank_score": 0.13319493105573466
+            },
+            "parking use": {
+                "count": 1,
+                "rank_score": 0.1495780212873808
+            },
+            "policy makers": {
+                "count": 2,
+                "rank_score": 0.09138884027840016
+            },
+            "related factors": {
+                "count": 1,
+                "rank_score": 0.09211568797230156
+            },
+            "residential unit": {
+                "count": 1,
+                "rank_score": 0.08273450497110256
+            },
+            "the existing parking": {
+                "count": 1,
+                "rank_score": 0.08063248574422165
+            },
+            "urban areas": {
+                "count": 1,
+                "rank_score": 0.07674287941804699
+            }
+        },
         "title": "Factors Affecting Residential Parking Occupancy in Madison, Wisconsin",
-        "url": "https://doi.org/10.3141/2651-08"
-    },
-    {
-        "authors": [
-            "author-e0519690e7f999414aec",
-            "author-fe9aa8cdd63aea8cb98a",
-            "author-152e3dc7f27b39628a1f"
-        ],
-        "datasets": [
-            "dataset-410"
-        ],
-        "doi": "10.2139/ssrn.2998224",
-        "journal": "journal-003",
-        "pdf": "http://pdfs.semanticscholar.org/98ac/c88792fb8e752a2b8f1397ddac1e232962e1.pdf",
-        "title": "Flying Right: Giving U.S. Airport Workers a Lift",
-        "url": "https://www.semanticscholar.org/paper/98acc88792fb8e752a2b8f1397ddac1e232962e1"
+        "url": "https://www.semanticscholar.org/paper/ebf7a1b21c5c58262e3758aef8ebfeb8f9fb7261"
     },
     {
         "abstract": "The emergence in the United States of large-scale \"megaregions\" centered on major metropolitan areas is a phenomenon often taken for granted in both scholarly studies and popular accounts of contemporary economic geography. This paper uses a data set of more than 4,000,000 commuter flows as the basis for an empirical approach to the identification of such megaregions. We compare a method which uses a visual heuristic for understanding areal aggregation to a method which uses a computational partitioning algorithm, and we reflect upon the strengths and limitations of both. We discuss how choices about input parameters and scale of analysis can lead to different results, and stress the importance of comparing computational results with \"common sense\" interpretations of geographic coherence. The results provide a new perspective on the functional economic geography of the United States from a megaregion perspective, and shed light on the old geographic problem of the division of space into areal units.",
@@ -227,9 +701,71 @@
         ],
         "doi": "10.1371/journal.pone.0166083",
         "journal": "journal-001",
+        "keyphrases": {
+            "a computational partitioning algorithm": {
+                "count": 1,
+                "rank_score": 0.05166193148667908
+            },
+            "areal aggregation": {
+                "count": 1,
+                "rank_score": 0.07594337325260692
+            },
+            "areal units": {
+                "count": 1,
+                "rank_score": 0.07292411145996072
+            },
+            "computational results": {
+                "count": 1,
+                "rank_score": 0.09637985378272591
+            },
+            "contemporary economic geography": {
+                "count": 1,
+                "rank_score": 0.08945695999284069
+            },
+            "different results": {
+                "count": 1,
+                "rank_score": 0.08639924824777716
+            },
+            "geographic coherence": {
+                "count": 1,
+                "rank_score": 0.07169475838475889
+            },
+            "input parameters": {
+                "count": 1,
+                "rank_score": 0.07104202747489063
+            },
+            "major metropolitan areas": {
+                "count": 1,
+                "rank_score": 0.08318220810904525
+            },
+            "popular accounts": {
+                "count": 1,
+                "rank_score": 0.0757547371009327
+            },
+            "scale": {
+                "count": 1,
+                "rank_score": 0.07222437630580752
+            },
+            "space": {
+                "count": 1,
+                "rank_score": 0.05451779311383512
+            },
+            "such megaregions": {
+                "count": 1,
+                "rank_score": 0.0724482034775443
+            },
+            "the functional economic geography": {
+                "count": 1,
+                "rank_score": 0.055255625189271296
+            },
+            "the old geographic problem": {
+                "count": 1,
+                "rank_score": 0.05475206661161958
+            }
+        },
         "pdf": "http://europepmc.org/articles/PMC5130203?pdf=render",
         "title": "An Economic Geography of the United States: From Commutes to Megaregions",
-        "url": "https://www.semanticscholar.org/paper/0b502ec86f7513fd5352ce8462de91fbbf106e36"
+        "url": "http://dx.doi.org/10.1371/journal.pone.0014248"
     },
     {
         "abstract": "AbstractAffordability, a key factor in the housing search process, becomes critical when locating rental housing in opportunity-rich areas. The Housing Choice Voucher (HCV) program accommodates low-income households searching for housing and encourages recipients to reside in low-poverty areas. Affordable neighborhoods that are accessible to public transportation are often found in distressed areas, and not all HCV recipients succeed in locating qualified housing. To address these challenges, a housing search framework is developed to assist HCV households in the housing search process. This framework builds on the methodology of the U.S. Department of Housing and Urban Development (HUD) for the Location Affordability Index and Affirmatively Furthering Fair Housing assessment tool by creating multivariate indices that incorporate housing supply, accessibility to opportunity, and neighborhood conditions. The framework serves as a foundation for an online housing search application for public housing author...",
@@ -242,6 +778,68 @@
         ],
         "doi": "10.1080/10511482.2016.1163276",
         "journal": "journal-087",
+        "keyphrases": {
+            "a housing search framework": {
+                "count": 1,
+                "rank_score": 0.09246766794695066
+            },
+            "affordable neighborhoods": {
+                "count": 1,
+                "rank_score": 0.06986230634941251
+            },
+            "an online housing search application": {
+                "count": 1,
+                "rank_score": 0.09500912973231386
+            },
+            "distressed areas": {
+                "count": 1,
+                "rank_score": 0.07676487623808148
+            },
+            "fair housing assessment tool": {
+                "count": 1,
+                "rank_score": 0.11004198066331751
+            },
+            "hcv": {
+                "count": 3,
+                "rank_score": 0.07821521402105353
+            },
+            "hcv households": {
+                "count": 1,
+                "rank_score": 0.09538499993878122
+            },
+            "housing": {
+                "count": 1,
+                "rank_score": 0.09115719791009219
+            },
+            "housing supply": {
+                "count": 1,
+                "rank_score": 0.13059149037515422
+            },
+            "multivariate indices": {
+                "count": 1,
+                "rank_score": 0.07079863624906206
+            },
+            "public housing author": {
+                "count": 1,
+                "rank_score": 0.13125629962113158
+            },
+            "public transportation": {
+                "count": 1,
+                "rank_score": 0.07737340724447545
+            },
+            "qualified housing": {
+                "count": 1,
+                "rank_score": 0.13007343077740896
+            },
+            "rental housing": {
+                "count": 1,
+                "rank_score": 0.13218721795946414
+            },
+            "the housing search process": {
+                "count": 2,
+                "rank_score": 0.09225963701668122
+            }
+        },
         "title": "Searching for Affordability and Opportunity: A Framework for the Housing Choice Voucher Program",
         "url": "https://www.semanticscholar.org/paper/7a7e7c6343cdce020595a790f863fd6f11abc6ee"
     },
@@ -257,6 +855,68 @@
         ],
         "doi": "10.1080/10511482.2014.1003190",
         "journal": "journal-087",
+        "keyphrases": {
+            "a housing acquisition tool": {
+                "count": 1,
+                "rank_score": 0.07242086881007634
+            },
+            "broward county": {
+                "count": 4,
+                "rank_score": 0.07739183492413867
+            },
+            "housing": {
+                "count": 1,
+                "rank_score": 0.11071182382356248
+            },
+            "housing agencies": {
+                "count": 1,
+                "rank_score": 0.12229522119953834
+            },
+            "inequitable land-use patterns": {
+                "count": 1,
+                "rank_score": 0.06363651328410688
+            },
+            "local housing agencies": {
+                "count": 1,
+                "rank_score": 0.12239853943638451
+            },
+            "neighborhood quality": {
+                "count": 1,
+                "rank_score": 0.10511933303643513
+            },
+            "neighborhoods": {
+                "count": 2,
+                "rank_score": 0.09805645778058042
+            },
+            "opportunity-rich neighborhoods": {
+                "count": 1,
+                "rank_score": 0.07419847526126211
+            },
+            "principal components analysis": {
+                "count": 1,
+                "rank_score": 0.08531816751025557
+            },
+            "properties": {
+                "count": 2,
+                "rank_score": 0.07021782048052261
+            },
+            "rapid urbanization": {
+                "count": 1,
+                "rank_score": 0.06700541304924212
+            },
+            "spatial statistics": {
+                "count": 1,
+                "rank_score": 0.07799190586547257
+            },
+            "their affordable housing stock": {
+                "count": 1,
+                "rank_score": 0.07813979804292547
+            },
+            "vulnerable renters": {
+                "count": 1,
+                "rank_score": 0.08611224374270166
+            }
+        },
         "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/10511482.2014.1003190?needAccess=true",
         "title": "Addressing the Affordable Housing Crisis for Vulnerable Renters: Insights From Broward County on an Affordable Housing Acquisition Tool",
         "url": "https://www.semanticscholar.org/paper/97651da64f37fc99aacae32125d04730ec50d09b"
@@ -271,6 +931,68 @@
         ],
         "doi": "10.2139/ssrn.2814147",
         "journal": "journal-003",
+        "keyphrases": {
+            "corresponding wage increases": {
+                "count": 1,
+                "rank_score": 0.09384901195187818
+            },
+            "external non-market factors": {
+                "count": 1,
+                "rank_score": 0.08328476179938933
+            },
+            "fracking booms": {
+                "count": 1,
+                "rank_score": 0.06753993567054203
+            },
+            "initial labor market conditions": {
+                "count": 1,
+                "rank_score": 0.086093533390294
+            },
+            "internal migration rates": {
+                "count": 1,
+                "rank_score": 0.09750427598542133
+            },
+            "local average wages": {
+                "count": 1,
+                "rank_score": 0.0919373827351931
+            },
+            "migration": {
+                "count": 4,
+                "rank_score": 0.093623123181883
+            },
+            "north dakota": {
+                "count": 6,
+                "rank_score": 0.07147354340603541
+            },
+            "potential differences": {
+                "count": 1,
+                "rank_score": 0.08258900157084759
+            },
+            "potential non-linear relationships": {
+                "count": 1,
+                "rank_score": 0.09177620307199319
+            },
+            "potential wage gains": {
+                "count": 1,
+                "rank_score": 0.09853168819520726
+            },
+            "substantial migration": {
+                "count": 1,
+                "rank_score": 0.0908938167451595
+            },
+            "the reduced form migration response": {
+                "count": 1,
+                "rank_score": 0.0684906176816137
+            },
+            "wage-induced labor migration": {
+                "count": 1,
+                "rank_score": 0.08023934400785436
+            },
+            "wages": {
+                "count": 2,
+                "rank_score": 0.0876494268819096
+            }
+        },
         "title": "Moving to Economic Opportunity: The Migration Response to the Fracking Boom",
         "url": "https://doi.org/10.2139/ssrn.2814147"
     },
@@ -284,7 +1006,69 @@
         ],
         "doi": "10.1016/j.retrec.2015.10.008",
         "journal": "journal-157",
+        "keyphrases": {
+            "actions": {
+                "count": 1,
+                "rank_score": 0.05718754199477428
+            },
+            "associated environmental externalities": {
+                "count": 1,
+                "rank_score": 0.0911374250596861
+            },
+            "built environment characteristics": {
+                "count": 1,
+                "rank_score": 0.10135209198363943
+            },
+            "empirical analysis": {
+                "count": 1,
+                "rank_score": 0.08474259287501298
+            },
+            "fossil fuel use": {
+                "count": 1,
+                "rank_score": 0.09341416492549387
+            },
+            "global concern": {
+                "count": 1,
+                "rank_score": 0.06910652709381335
+            },
+            "heterogeneity": {
+                "count": 1,
+                "rank_score": 0.061566667087889715
+            },
+            "many governments": {
+                "count": 1,
+                "rank_score": 0.08174781616395996
+            },
+            "neighborhood type": {
+                "count": 1,
+                "rank_score": 0.12050815144132335
+            },
+            "neighborhood type choice": {
+                "count": 1,
+                "rank_score": 0.117639190842631
+            },
+            "neighborhoods": {
+                "count": 1,
+                "rank_score": 0.09300368396249716
+            },
+            "past research": {
+                "count": 1,
+                "rank_score": 0.09027304686005011
+            },
+            "travel survey data": {
+                "count": 1,
+                "rank_score": 0.08808738431667772
+            },
+            "types": {
+                "count": 1,
+                "rank_score": 0.09253014820319957
+            },
+            "vehicle miles": {
+                "count": 1,
+                "rank_score": 0.08270825745774224
+            }
+        },
         "title": "Heterogeneity in the relationship between the built environment and driving: Focus on neighborhood type and travel purpose",
-        "url": "https://www.semanticscholar.org/paper/411f7a329aca3ed9a5255888caf7e41c1e9d3e20"
+        "url": "https://doi.org/10.1016/j.retrec.2015.10.008"
     }
 ]

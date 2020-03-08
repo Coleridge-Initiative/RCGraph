@@ -260,6 +260,11 @@ def format_pub (out_buf, pub, pub_id, used, known_journals, known_datasets, know
         abs = pub["abstract"].replace('"', "'").replace("\\", "-").replace("\n", " ")
         out_buf.append("  cito:description \"{}\" ;".format(abs))
 
+    if "keyphrases" in pub:
+        for phrase, val in pub["keyphrases"].items():
+            count = val["count"]
+            rank = val["rank_score"]
+
     # link to datasets
     data_list = []
 
