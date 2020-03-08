@@ -6,7 +6,6 @@ from pathlib import Path
 from richcontext import graph as rc_graph
 from tqdm import tqdm
 import argparse
-import codecs
 import json
 import pytextrank
 import spacy

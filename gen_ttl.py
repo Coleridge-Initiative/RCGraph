@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+from collections import defaultdict
 from pathlib import Path
 from richcontext import graph as rc_graph
 from rdflib.serializer import Serializer
@@ -22,6 +23,8 @@ PATH_VOCAB_JSONLD = Path("vocab.json")
 PATH_SKOSIFY_CFG = Path("adrf-onto/skosify.cfg")
 PATH_ADRF_TTL = Path("adrf-onto/adrf.ttl")
 PATH_VOC_TTL = Path("voc.ttl")
+PATH_STOPWORDS = Path("stop.txt")
+PATH_INDEX = Path("index.json")
 
 
 PREAMBLE = """
@@ -34,10 +37,6 @@ PREAMBLE = """
 @prefix rdf:		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos:		<http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd:		<http://www.w3.org/2001/XMLSchema#> .
-
-:Topic a madsrdf:Topic;
-  a madsrdf:Authority;
-  skos:definition "topics used for search and discovery"@en.
 """
 
 TEMPLATE_JOURNAL = """
@@ -71,6 +70,28 @@ TEMPLATE_AUTHOR = """
   rdf:type :Author ;
   dct:title "{}" ;
 """
+
+TEMPLATE_TOPIC = """
+:{}
+  rdf:type :Topic ;
+  skos:prefLabel "{}" ;
+"""
+
+
+def load_stopwords ():
+    """
+    load the stopwords to be removed from topic modeling
+    """
+    stopwords = set([])
+
+    with codecs.open(PATH_STOPWORDS, "r", encoding="utf8") as f:
+        for phrase in f.read().split("\n"):
+            text = phrase.lower().strip()
+
+            if len(text) > 0:
+                stopwords.add(text)
+
+    return stopwords
 
 
 def load_providers (graph, frags):
@@ -226,7 +247,35 @@ def load_authors (graph, frags):
     return known_authors
 
 
-def format_pub (out_buf, pub, pub_id, used, known_journals, known_datasets, known_authors, data_map, auth_map, full_graph):
+def update_topics (graph, frags, known_topics, topic_id, phrase, pub_id, rank, count):
+    """
+    update the known topics
+    """
+    if topic_id not in known_topics:
+        t = {
+            "uuid": topic_id,
+            "prefLabel": phrase,
+            "pubs": []
+            }
+
+        known_topics[topic_id] = t
+    else:
+        t = known_topics[topic_id]
+
+    t["pubs"].append([pub_id, rank, count])
+
+    buf = [
+        TEMPLATE_TOPIC.format(
+            t["uuid"],
+            t["prefLabel"]
+            ).strip()
+        ]
+
+    buf.append(".\n")
+    frags[t["uuid"]] = buf
+
+
+def format_pub (out_buf, pub, pub_id, used, known_journals, known_datasets, known_authors, data_map, auth_map, topic_map, full_graph):
     """
     format one publication, serialized as TTL
     """
@@ -266,11 +315,6 @@ def format_pub (out_buf, pub, pub_id, used, known_journals, known_datasets, know
         abs = pub["abstract"].replace('"', "'").replace("\\", "-").replace("\n", " ")
         out_buf.append("  cito:description \"{}\" ;".format(abs))
 
-    if "keyphrases" in pub:
-        for phrase, val in pub["keyphrases"].items():
-            count = val["count"]
-            rank = val["rank_score"]
-
     # link to datasets
     data_list = []
 
@@ -290,12 +334,21 @@ def format_pub (out_buf, pub, pub_id, used, known_journals, known_datasets, know
     if len(auth_list) > 0:
         out_buf.append("  dct:creator {} ;".format(", ".join(auth_list)))
 
-    out_buf.append(".\n")
+    # link to topics
+    topic_list = []
 
+    for topic_id, rank in topic_map.items():
+        topic_list.append(":{}".format(topic_id))
+        used.add(topic_id)
+
+    if len(topic_list) > 0:
+        out_buf.append("  dct:subject {} ;".format(", ".join(topic_list)))
+
+    out_buf.append(".\n")
     return True
 
 
-def load_publications (graph, used, out_buf, known_datasets, known_journals, known_authors, full_graph):
+def load_publications (graph, used, frags, out_buf, stopwords, known_datasets, known_journals, known_authors, known_topics, full_graph):
     """
     load publications, link to datasets, link to authors, then reshape
     the metadata as TTL
@@ -322,12 +375,28 @@ def load_publications (graph, used, out_buf, known_datasets, known_journals, kno
 
                     pub_id = graph.get_hash(id_list, prefix="publication-")
 
+                    # manage topics
+                    topic_map = {}
+
+                    if "keyphrases" in pub:
+                        for phrase, val in pub["keyphrases"].items():
+                            count = val["count"]
+                            rank = val["rank_score"]
+                            text = phrase.replace('"', "").replace("\n", "").strip()
+
+                            if text not in stopwords:
+                                id_list = [ text ]
+                                topic_id = graph.get_hash(id_list, prefix="topic-")
+                                topic_map[topic_id] = rank
+
+                                update_topics(graph, frags, known_topics, topic_id, text, pub_id, rank, count)
+
                     # ensure uniqueness
                     if pub_id not in seen:
                         result = format_pub(
                             out_buf, pub, pub_id, used, 
-                            known_journals, known_datasets, known_authors, 
-                            data_map, auth_map, full_graph
+                            known_journals, known_datasets, known_authors,
+                            data_map, auth_map, topic_map, full_graph
                             )
 
                         if result:
@@ -414,14 +483,36 @@ def test_corpus (path):
     skosify.infer.rdfs_classes(g)
     skosify.infer.rdfs_properties(g)
 
-    # for the humans watching, print a note that all steps completed
-    print("OK")
+
+def build_index (graph, known_topics):
+    """
+    build an index for the topic modeling
+    """
+    # "uuid": topic_id,
+    # "prefLabel": phrase,
+    # "pubs": [[pub_id, rank, count]]
+    df = defaultdict(list)
+    idx = defaultdict(list)
+
+    for topic_id, t in known_topics.items():
+        for pub_id, rank, count in t["pubs"]:
+            df[topic_id].append(pub_id)
+
+    for topic_id, t in known_topics.items():
+        for pub_id, rank, count in t["pubs"]:
+            tfidf = float(rank) / float(len(df[topic_id]))
+            idx[t["prefLabel"]].append([tfidf, pub_id])
+
+    with codecs.open(PATH_INDEX, "wb", encoding="utf8") as f:
+        json.dump(idx, f, indent=4, sort_keys=True, ensure_ascii=False)
 
 
 def main (args):
     ## 1. load the metadata for providers, datasets, journals, publications
     ## 2. validate the linked data
     ## 3. format output for the corpus as both TTL and JSON-LD
+    ## 4. validate the generated corpus
+    ## 5. build an index for the topic modeling
 
     graph = rc_graph.RCGraph("corpus")
     graph.journals.load_entities()
@@ -429,34 +520,42 @@ def main (args):
 
     frags = {}
     used = set([])
+    stopwords = load_stopwords()
 
     known_providers = load_providers(graph, frags)
     known_datasets = load_datasets(graph, frags, used, known_providers)
     known_journals = load_journals(graph, frags)
     known_authors = load_authors(graph, frags)
+    known_topics = {}
 
     out_buf = [ PREAMBLE.lstrip() ]
 
     num_pubs = load_publications(
-        graph, used, out_buf, 
-        known_datasets, known_journals, known_authors, 
+        graph, used, frags, out_buf, stopwords,
+        known_datasets, known_journals, known_authors, known_topics,
         args.full_graph
         )
 
+    # test the generated corpus file
     write_corpus(frags, used, out_buf, PATH_CORPUS_TTL)
+    test_corpus(PATH_CORPUS_TTL)
 
+    # construct a topic index
+    build_index(graph, known_topics)
+
+    # report results
     num_prov = len(used.intersection(set([p["uuid"] for p in known_providers.values()])))
     num_data = len(used.intersection(set([d["uuid"] for d in known_datasets.values()])))
     num_jour = len(used.intersection(set([j["uuid"] for j in known_journals.values()])))
     num_auth = len(used.intersection(set([a["uuid"] for a in known_authors.values()])))
+    num_topi = len(used.intersection(set([t["uuid"] for t in known_topics.values()])))
 
     print(f"{num_prov} providers written")
     print(f"{num_data} datasets written")
     print(f"{num_jour} journals written")
     print(f"{num_auth} authors written")
+    print(f"{num_topi} topics written")
     print(f"{num_pubs} publications written")
-
-    test_corpus(PATH_CORPUS_TTL)
 
 
 if __name__ == "__main__":
