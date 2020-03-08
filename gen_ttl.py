@@ -27,11 +27,17 @@ PATH_VOC_TTL = Path("voc.ttl")
 PREAMBLE = """
 @base <https://github.com/Coleridge-Initiative/adrf-onto/wiki/Vocabulary> .
 
-@prefix cito:	<http://purl.org/spar/cito/> .
-@prefix dct:	<http://purl.org/dc/terms/> .
-@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
-@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix cito:		<http://purl.org/spar/cito/> .
+@prefix dct:		<http://purl.org/dc/terms/> .
+@prefix foaf:		<http://xmlns.com/foaf/0.1/> .
+@prefix madsrdf:	<http://www.loc.gov/mads/rdf/v1#> .
+@prefix rdf:		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:		<http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:		<http://www.w3.org/2001/XMLSchema#> .
+
+:Topic a madsrdf:Topic;
+  a madsrdf:Authority;
+  skos:definition "topics used for search and discovery"@en.
 """
 
 TEMPLATE_JOURNAL = """
