@@ -44,7 +44,7 @@ def main (args):
     For each publication, search for the abstract and extract key phrases 
     if abstract exists and is not null. Report if the abstract is missing.
     """
-    graph = rc_graph.RCGraph("keyphrase")
+    graph = rc_graph.RCGraph("keyphr")
     
     # add PyTextRank into the spaCy pipeline
     nlp = spacy.load("en_core_web_sm")

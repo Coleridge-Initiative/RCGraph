@@ -129,7 +129,7 @@ Results are organized in partitions within the `bucket_stage`
 subdirectory, using the same partition names from the preceding
 workflow steps, to make errors easier to trace and troubleshoot.
 
-See the `misses_step2.txt` file which reports the title of each
+See the `misses_step2.json` file which reports the title of each
 publication that failed every API lookup.
 
 
@@ -146,7 +146,7 @@ Results are organized in partitions in the `bucket_stage`
 subdirectory, using the same partition names from the preceding
 workflow steps.
 
-See the `misses_step3.txt` file which reports the title of each
+See the `misses_step3.json` file which reports the title of each
 publication that failed every API lookup.
 
 
@@ -188,7 +188,7 @@ publications, prior to generating the public corpus. This step
 performs consistency tests and filtering of the API metadata, to avoid
 data quality issues later.
 
-See the `misses_step4.txt` file which reports the title of each
+See the `misses_step4.json` file which reports the title of each
 publication that doesn't have a journal.
 
 **Caveats:**
@@ -221,7 +221,7 @@ The stage produces two files:
   - `authors.json` -- list of known authors
   - `auth_train.tsv` -- training set for self-supervised model
 
-See the `misses_author.txt` file which reports the title of each
+See the `misses_author.json` file which reports the title of each
 publication that doesn't any authors.
 
 **Caveats:**
@@ -242,11 +242,27 @@ Results are organized in partitions in the `bucket_stage`
 subdirectory, using the same partition names from the preceding
 workflow steps.
 
-See the `misses_abstract.txt` file which reports the title of each
+See the `misses_abstract.json` file which reports the title of each
 publication that had no abstract.
 
 
-### Step 7: Finalize Metadata Corrections
+### Step 7: Parse Keyphrases from Abstracts
+
+This workflow step parses keyphrases from abstracts.
+
+```
+python run_keyphr.py
+```
+
+Results are organized in partitions in the `bucket_stage`
+subdirectory, using the same partition names from the preceding
+workflow steps.
+
+See the `misses_keyphr.json` file which reports the title of each
+publication that could not parse keyphrases.
+
+
+### Step 9: Finalize Metadata Corrections
 
 This workflow step finalizes the metadata corrections for each
 publication, including selection of a URL, open access PDF, etc.,
@@ -260,11 +276,11 @@ Results are organized in partitions in the `bucket_final`
 subdirectory, using the same partition names from the previous
 workflow step.
 
-See the `misses_final.txt` file which reports the title of each
+See the `misses_final.json` file which reports the title of each
 publication that failed every API lookup.
 
 
-### Step 8: Generate Corpus Update
+### Step 10: Generate Corpus Update
 
 This workflow step generates `uuid` values (late binding) for both
 publications and datasets, then serializes the full output as TTL in
@@ -292,7 +308,7 @@ To publish the corpus:
   4. upload to the public S3 bucket and write manifest
 
 
-### Step 9: Generate UI Web App Update
+### Step 11: Generate UI Web App Update
 
 To update the UI web app:
 
