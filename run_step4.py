@@ -62,7 +62,7 @@ def main (args):
                 journal_tally = graph.tally_list(journal_list, ignores=graph.journals.IGNORE_JOURNALS)
                 proposed[freq_issn] = journal_tally
             else:
-                graph.misses.append(pub["title"])
+                graph.update_misses(partition, pub)
 
             if message:
                 graph.report_error(message)

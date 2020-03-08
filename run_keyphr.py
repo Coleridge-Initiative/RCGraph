@@ -36,7 +36,7 @@ def extract_phrases (graph, nlp, partition, pub, pub_list, limit_keyphrase=15):
             success = True
 
     if not success:
-        graph.misses[partition].append(pub["title"])
+        graph.update_misses(partition, pub)
 
 
 def main (args):
@@ -60,8 +60,8 @@ def main (args):
         graph.write_partition(graph.BUCKET_STAGE, partition, pub_list)
             
     # report errors
-    status = "could not parse keyphrases"
-    trouble = "{} publications parsed keyphrases from abstracts".format(graph.publications.key_hits)
+    status = "{} publications parsed keyphrases from abstracts".format(graph.publications.key_hits)
+    trouble = "publications which could not parse keyphrases"
     graph.report_misses(status, trouble)
 
 

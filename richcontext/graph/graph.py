@@ -1250,6 +1250,13 @@ class RCGraph:
             json.dump(pub_list, f, indent=4, sort_keys=True, ensure_ascii=False)
 
 
+    def update_misses (self, partition, pub):
+        """
+        keep track of missing/failed metadata
+        """
+        self.misses[partition].append(pub["title"])
+
+
     def report_misses (self, status=None, trouble=None):
         """
         report the titles of publications that have metadata error

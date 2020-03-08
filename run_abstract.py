@@ -46,7 +46,7 @@ def main (args):
             if abstract_match:
                 graph.publications.ab_hits += 1
             else:
-                graph.misses.append(pub["title"])
+                graph.update_misses(partition, pub)
 
         graph.write_partition(graph.BUCKET_STAGE, partition, pub_list)
 

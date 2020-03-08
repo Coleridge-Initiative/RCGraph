@@ -114,7 +114,7 @@ def main (args):
             if "pdf" in view:
                 graph.publications.pdf_hits += 1
             else:
-                graph.misses.append(view["title"])
+                graph.update_misses(partition, view)
 
         graph.write_partition(graph.BUCKET_FINAL, partition, pub_list)
 
