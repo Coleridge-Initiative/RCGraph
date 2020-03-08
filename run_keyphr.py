@@ -27,7 +27,8 @@ def extract_phrases (graph, nlp, partition, pub, pub_list, limit_keyphrase=15):
         doc = nlp(abstract)  # abstract text
                 
         for phrase in doc._.phrases[:limit_keyphrase]:
-            phrases[phrase.text] = {"count": phrase.count, "rank_score": phrase.rank}
+            phrase_text = phrase.text.lower()
+            phrases[phrase_text] = {"count": phrase.count, "rank_score": phrase.rank}
                 
         if len(phrases) > 0:
             pub["keyphrases"] = phrases
