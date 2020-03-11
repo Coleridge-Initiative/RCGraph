@@ -121,6 +121,7 @@ def main (args):
                 graph.update_misses(partition, view)
 
         graph.write_partition(graph.BUCKET_FINAL, partition, pub_list)
+        graph.publications.pub_count += len(pub_list)
 
     # did we miss any of the manual entries?
     # TODO: refactor these into a partition in RCPublications
@@ -143,9 +144,14 @@ def main (args):
                     graph.update_misses(partition, pub)
 
     graph.write_partition(graph.BUCKET_FINAL, "_manual.json", pub_list)
+    graph.publications.pub_count += len(pub_list)
 
     # report errors
-    status = "{} open access PDFs identified".format(graph.publications.pdf_hits)
+    status = "{} final pubs; {} open access PDFs identified".format(
+        graph.publications.pub_count,
+        graph.publications.pdf_hits
+        )
+
     graph.report_misses(status, "titles that had no open access PDF")
 
 
