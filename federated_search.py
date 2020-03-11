@@ -235,7 +235,7 @@ def get_api_list_with_full_text_search (schol):
     return api_list
 
 
-def create_datadrop (view, search_terms, file_path='federated.csv'):
+def create_datadrop (view, file_path='federated.csv'):
     dfKnown = pd.DataFrame(view["known"])
     dfKnown["category"] = "known hits in KG"
 
@@ -252,16 +252,16 @@ def create_datadrop (view, search_terms, file_path='federated.csv'):
 
     if len(dfAll) > 0:
 
-        dfAll = dfAll[["category","api","doi","title","url"]]
-        dfAll["search_term"]= search_terms
+        dfAll = dfAll[["category","api","doi","title","url","search_term","dataset"]]
+        # dfAll["search_term"]= search_terms
 
         dfAll.to_csv(file_path, index=False, encoding="utf-8-sig")
 
 
 
-def main (search_terms, limit):
-    print("terms", search_terms)
-    print("limit",limit)
+def main (search_list, limit):
+    # print("terms", search_terms)
+    # print("limit",limit)
 
     graph = rc_graph.RCGraph("corpus")
 
@@ -289,43 +289,48 @@ def main (search_terms, limit):
 
     search_hits = defaultdict(list)
 
-    # call full_text_search on all APIs that implement it
-    for api in get_api_list_with_full_text_search(schol):
-        if api.has_credentials():
-            try:
-                meta, timing, message = api.full_text_search(search_term=search_terms, limit=limit)
+    for search in search_list:
 
-                # if not empty, parse the result and get a list of elements returned by the API
-                if meta:
-                    print(api.name, "returned",len(meta),"hits")
-                    results = parse_results(api.name, meta)
+        # call full_text_search on all APIs that implement it
+        for api in get_api_list_with_full_text_search(schol):
+            if api.has_credentials():
+                try:
+                    meta, timing, message = api.full_text_search(search_term=search["terms"], limit=limit,exact_match=False )
 
-                    if results:
-                        for item in results:
-                            article = dict()
+                    # if not empty, parse the result and get a list of elements returned by the API
+                    if meta:
+                        print(api.name, "returned",len(meta),"hits")
+                        results = parse_results(api.name, meta)
 
-                            #make sure DOI field is a valid DOI
-                            item["doi"] = graph.publications.verify_doi(item['doi'])
+                        if results:
+                            for item in results:
+                                article = dict()
 
-                            #assuming that all articles have a Title but not all articles have a DOI
-                            if item["doi"] != None:
-                                article['doi']=item['doi']
+                                article["search_term"] = search["terms"]
+                                article["dataset"] = search["dataset"]
 
-                            article['title']=item['title']
-                            article['api']=item['api']
-                            article["url"] = item["url"]
+                                #make sure DOI field is a valid DOI
+                                item["doi"] = graph.publications.verify_doi(item['doi'])
 
-                            search_hits[item['doi']].append(article)
+                                #assuming that all articles have a Title but not all articles have a DOI
+                                if item["doi"] != None:
+                                    article['doi']=item['doi']
 
-            except Exception:
-                # debug this as an edge case
-                print(api.name, 'exception calling full_text_search')
+                                article['title']=item['title']
+                                article['api']=item['api']
+                                article["url"] = item["url"]
 
-                if message:
-                    print(message)
+                                search_hits[item['doi']].append(article)
 
-                traceback.print_exc()
-                continue
+                except Exception:
+                    # debug this as an edge case
+                    print(api.name, 'exception calling full_text_search')
+
+                    if message:
+                        print(message)
+
+                    traceback.print_exc()
+                    continue
 
     # after getting all the federated results, try to match search
     # hits with unknown DOI comparing by title to search hits with
@@ -414,7 +419,7 @@ def main (search_terms, limit):
         json.dump(view, f, indent=4, sort_keys=True, ensure_ascii=False)
 
     # write a cvs file
-    create_datadrop(view,search_terms,'federated.csv')
+    create_datadrop(view,'federated.csv')
 
 
 if __name__ == '__main__':
@@ -423,8 +428,111 @@ if __name__ == '__main__':
         print("Only 2 parameters allowed: 'search terms' and 'limit'")
         sys.exit(1)
 
-    terms = sys.argv[1]
+    #terms = sys.argv[1]
     limit = sys.argv[2]
+
+    terms=list()
+
+    # a_search=dict()
+    #
+    # a_search['terms'] = "USDA ARMS"
+    # a_search['dataset'] = "dataset-370"
+    # terms.append(a_search)
+
+    a_search = dict()
+    a_search['terms'] = "Survey of Earned Doctorates Donna Ginther"
+    a_search['dataset'] = "dataset-370"
+    terms.append(a_search)
+
+    a_search = dict()
+    a_search['terms'] = "Paula Stephan Survey of Earned Doctorates"
+    a_search['dataset'] = "dataset-370"
+    terms.append(a_search)
+
+    a_search = dict()
+
+    a_search['terms'] = "Sharon Levin Survey of Earned Doctorates"
+    a_search['dataset'] = "dataset-370"
+    terms.append(a_search)
+
+    a_search = dict()
+    a_search['terms'] = "Lisa Wolf-Wendel Survey of Earned Doctorates"
+    a_search['dataset'] = "dataset-370"
+    terms.append(a_search)
+
+
+    a_search = dict()
+    a_search['terms'] = "Lisa Frehill Survey of Earned Doctorates"
+    a_search['dataset'] = "dataset-370"
+    terms.append(a_search)
+
+
+    a_search = dict()
+    a_search['terms'] = "NSF Survey of Earned Doctorates"
+    a_search['dataset'] = "dataset-370"
+    terms.append(a_search)
+
+    a_search = dict()
+    a_search['terms'] = "Survey of Earned Doctorates NSF"
+    a_search['dataset'] = "dataset-370"
+    terms.append(a_search)
+
+
+    a_search = dict()
+    a_search['terms'] = "NSF Survey of Doctorate Recipients"
+    a_search['dataset'] = "dataset-371"
+    terms.append(a_search)
+
+    a_search = dict()
+    a_search['terms'] = "Survey of Doctorate Recipients NSF"
+    a_search['dataset'] = "dataset-371"
+    terms.append(a_search)
+
+
+    a_search = dict()
+    a_search['terms'] = "Survey of Doctorate Recipients NSF"
+    a_search['dataset'] = "dataset-371"
+    terms.append(a_search)
+
+
+
+    a_search = dict()
+    a_search['terms'] =  'Lisa Frehill Survey of Doctorate Recipients'
+    a_search['dataset'] = "dataset-371"
+    terms.append(a_search)
+
+
+
+    a_search = dict()
+    a_search['terms'] = 'Lisa Wolf-Wendel Survey of Doctorate Recipients'
+    a_search['dataset'] = "dataset-371"
+    terms.append(a_search)
+
+
+
+    a_search = dict()
+    a_search['terms'] = 'Sharon Levin Survey of Doctorate Recipients'
+    a_search['dataset'] = "dataset-371"
+    terms.append(a_search)
+
+
+
+    a_search = dict()
+    a_search['terms'] = 'Paula Stephan Survey of Doctorate Recipients'
+    a_search['dataset'] = "dataset-371"
+    terms.append(a_search)
+
+
+
+    a_search = dict()
+    a_search['terms'] = 'Donna Ginther Survey of Doctorate Recipients'
+    a_search['dataset'] = "dataset-371"
+    terms.append(a_search)
+
+
+
+    'Lisa Frehill Survey of Doctorate Recipients'
+
 
     #TODO check limit is an integer.
     main(terms, limit)
