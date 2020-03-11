@@ -252,6 +252,8 @@ def update_topics (graph, frags, known_topics, topic_id, phrase, pub_id, rank, c
     update the known topics
     """
     if topic_id not in known_topics:
+        label = phrase.replace("ﬁ", "fi").replace("ﬂ", "fl").replace("ﬀ", "ff")
+
         t = {
             "uuid": topic_id,
             "prefLabel": phrase,
@@ -348,6 +350,36 @@ def format_pub (out_buf, pub, pub_id, used, known_journals, known_datasets, know
     return True
 
 
+def foo (graph, frags, known_topics, stopwords, pub, pub_id):
+    topic_map = {}
+    topic_iter = None
+
+    uuid = pub_id.split("-")[1]
+    tr_dir = Path("rclc/resources/pub/tr/")
+    tr_path = tr_dir / f"{uuid}.json"
+
+    if tr_path.exists():
+        with codecs.open(tr_path, "r", encoding="utf8") as f:
+            topic_iter = json.load(f).items()
+    elif "keyphrases" in pub:
+        topic_iter = pub["keyphrases"].items()
+
+    if topic_iter:
+        for phrase, val in topic_iter:
+            count = val["count"]
+            rank = val["rank_score"]
+            text = phrase.replace('"', "").replace("\n", "").strip()
+
+            if text not in stopwords:
+                id_list = [ text ]
+                topic_id = graph.get_hash(id_list, prefix="topic-")
+                topic_map[topic_id] = rank
+
+                update_topics(graph, frags, known_topics, topic_id, text, pub_id, rank, count)
+
+    return topic_map
+
+
 def load_publications (graph, used, frags, out_buf, stopwords, known_datasets, known_journals, known_authors, known_topics, full_graph):
     """
     load publications, link to datasets, link to authors, then reshape
@@ -376,20 +408,7 @@ def load_publications (graph, used, frags, out_buf, stopwords, known_datasets, k
                     pub_id = graph.get_hash(id_list, prefix="publication-")
 
                     # manage topics
-                    topic_map = {}
-
-                    if "keyphrases" in pub:
-                        for phrase, val in pub["keyphrases"].items():
-                            count = val["count"]
-                            rank = val["rank_score"]
-                            text = phrase.replace('"', "").replace("\n", "").strip()
-
-                            if text not in stopwords:
-                                id_list = [ text ]
-                                topic_id = graph.get_hash(id_list, prefix="topic-")
-                                topic_map[topic_id] = rank
-
-                                update_topics(graph, frags, known_topics, topic_id, text, pub_id, rank, count)
+                    topic_map = foo(graph, frags, known_topics, stopwords, pub, pub_id)
 
                     # ensure uniqueness
                     if pub_id not in seen:
@@ -492,7 +511,7 @@ def build_index (graph, known_topics):
     # "prefLabel": phrase,
     # "pubs": [[pub_id, rank, count]]
     df = defaultdict(list)
-    idx = defaultdict(list)
+    idx = defaultdict(dict)
 
     for topic_id, t in known_topics.items():
         for pub_id, rank, count in t["pubs"]:
@@ -501,10 +520,16 @@ def build_index (graph, known_topics):
     for topic_id, t in known_topics.items():
         for pub_id, rank, count in t["pubs"]:
             tfidf = float(rank) / float(len(df[topic_id]))
-            idx[t["prefLabel"]].append([tfidf, pub_id])
+            idx[t["prefLabel"]][pub_id] = tfidf
+
+    final_idx = {}
+
+    for key, val in idx.items():
+        if len(val.keys()) > 2:
+            final_idx[key] = val
 
     with codecs.open(PATH_INDEX, "wb", encoding="utf8") as f:
-        json.dump(idx, f, indent=4, sort_keys=True, ensure_ascii=False)
+        json.dump(final_idx, f, indent=4, sort_keys=True, ensure_ascii=False)
 
 
 def main (args):
