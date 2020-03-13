@@ -30,9 +30,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
+                        "email": "",
                         "first_name": "Wallice",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Ao",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
@@ -50,9 +55,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.21729.3f",
+                        "email": "",
                         "first_name": "Sebastian",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Calonico",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.013204676421.51"
                     },
                     {
@@ -70,9 +80,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
+                        "email": "",
                         "first_name": "Ying-Ying",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Lee",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     }
                 ]
@@ -93,9 +108,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
+                    "email": "",
                     "first_name": "Wallice",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Ao",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
@@ -113,9 +133,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.21729.3f",
+                    "email": "",
                     "first_name": "Sebastian",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Calonico",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.013204676421.51"
                 },
                 {
@@ -133,9 +158,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
+                    "email": "",
                     "first_name": "Ying-Ying",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Lee",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 }
             ],
@@ -169,17 +199,17 @@
                 "article",
                 "general estimation",
                 "estimation",
+                "inference framework",
                 "framework",
                 "different levels",
                 "levels",
                 "program participation",
                 "participation",
-                "participants",
                 "outcomes",
                 "outcome distribution",
                 "distribution",
                 "structure effects",
-                "effects",
+                "effect",
                 "covariates",
                 "composition effects",
                 "observable characteristics",
@@ -188,7 +218,7 @@
                 "conditional independence assumption",
                 "independence assumption",
                 "assumption",
-                "efficient nonparametric estimator",
+                "efficient nonparametric estimators",
                 "nonparametric estimator",
                 "estimator",
                 "propensity score",
@@ -206,10 +236,8 @@
                 "relevant suggestions",
                 "suggestions",
                 "performance",
-                "cost-effectiveness",
-                "effectiveness",
                 "supplementary material",
-                "multivalued treatments",
+                "Multivalued Treatments",
                 "decomposition analysis",
                 "analysis"
             ],
@@ -226,68 +254,81 @@
                 "title": "Journal of Business and Economic Statistics"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 2",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "linkout": "http://pdfs.semanticscholar.org/101f/18c57a73c19c61bbefb7a77386f63dd27f0f.pdf",
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - submitted"
             ],
             "open_access_categories": [
                 {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Free copy of submitted version, or where version is unknown, in an OA repository",
+                    "id": "green_sub",
+                    "name": "Green, Submitted"
                 }
             ],
             "pages": "1-31",
             "publisher": "Taylor & Francis",
+            "recent_citations": 2,
             "reference_ids": [
-                "pub.1102714808",
-                "pub.1015902678",
-                "pub.1110330693",
-                "pub.1105984065",
                 "pub.1043064709",
+                "pub.1015902678",
                 "pub.1018705389",
-                "pub.1012488861",
                 "pub.1035292029",
-                "pub.1107793453",
-                "pub.1069972113",
-                "pub.1101342536",
-                "pub.1100805319",
-                "pub.1019680679",
-                "pub.1016942952",
-                "pub.1064529015",
-                "pub.1100805322",
-                "pub.1036733786",
-                "pub.1095879089",
-                "pub.1104190490",
+                "pub.1102714808",
                 "pub.1038921789",
                 "pub.1000340538",
+                "pub.1064529015",
+                "pub.1069804442",
+                "pub.1095879089",
+                "pub.1100805319",
+                "pub.1100805322",
+                "pub.1036733786",
+                "pub.1019680679",
+                "pub.1012488861",
+                "pub.1101342536",
                 "pub.1107064184",
-                "pub.1069804442"
+                "pub.1104190490",
+                "pub.1016942952",
+                "pub.1110330693",
+                "pub.1105984065",
+                "pub.1069972113",
+                "pub.1107793453"
             ],
             "references": [
-                "pub.1102714808",
-                "pub.1015902678",
-                "pub.1110330693",
-                "pub.1105984065",
                 "pub.1043064709",
+                "pub.1015902678",
                 "pub.1018705389",
-                "pub.1012488861",
                 "pub.1035292029",
-                "pub.1107793453",
-                "pub.1069972113",
-                "pub.1101342536",
-                "pub.1100805319",
-                "pub.1019680679",
-                "pub.1016942952",
-                "pub.1064529015",
-                "pub.1100805322",
-                "pub.1036733786",
-                "pub.1095879089",
-                "pub.1104190490",
+                "pub.1102714808",
                 "pub.1038921789",
                 "pub.1000340538",
+                "pub.1064529015",
+                "pub.1069804442",
+                "pub.1095879089",
+                "pub.1100805319",
+                "pub.1100805322",
+                "pub.1036733786",
+                "pub.1019680679",
+                "pub.1012488861",
+                "pub.1101342536",
                 "pub.1107064184",
-                "pub.1069804442"
+                "pub.1104190490",
+                "pub.1016942952",
+                "pub.1110330693",
+                "pub.1105984065",
+                "pub.1069972113",
+                "pub.1107793453"
             ],
             "research_org_cities": [
                 {
@@ -327,27 +368,11 @@
                 }
             ],
             "research_org_state_names": [
-                "New York",
                 "California",
+                "New York",
                 "Virginia"
             ],
             "research_orgs": [
-                {
-                    "acronym": "IDA",
-                    "city_name": "Alexandria",
-                    "country_name": "United States",
-                    "id": "grid.296756.9",
-                    "latitude": 38.830395,
-                    "linkout": [
-                        "https://www.ida.org/"
-                    ],
-                    "longitude": -77.11911,
-                    "name": "Institute For Defense Analyses",
-                    "state_name": "Virginia",
-                    "types": [
-                        "Nonprofit"
-                    ]
-                },
                 {
                     "acronym": "CU",
                     "city_name": "New York",
@@ -379,6 +404,22 @@
                     "types": [
                         "Education"
                     ]
+                },
+                {
+                    "acronym": "IDA",
+                    "city_name": "Alexandria",
+                    "country_name": "United States",
+                    "id": "grid.296756.9",
+                    "latitude": 38.830395,
+                    "linkout": [
+                        "https://www.ida.org/"
+                    ],
+                    "longitude": -77.11911,
+                    "name": "Institute For Defense Analyses",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 }
             ],
             "researchers": [
@@ -387,9 +428,9 @@
                     "id": "ur.013204676421.51",
                     "last_name": "Calonico",
                     "research_orgs": [
+                        "grid.21729.3f",
                         "grid.214458.e",
-                        "grid.26790.3a",
-                        "grid.21729.3f"
+                        "grid.26790.3a"
                     ]
                 }
             ],
@@ -397,17 +438,17 @@
                 "article",
                 "general estimation",
                 "estimation",
+                "inference framework",
                 "framework",
                 "different levels",
                 "levels",
                 "program participation",
                 "participation",
-                "participants",
                 "outcomes",
                 "outcome distribution",
                 "distribution",
                 "structure effects",
-                "effects",
+                "effect",
                 "covariates",
                 "composition effects",
                 "observable characteristics",
@@ -416,7 +457,7 @@
                 "conditional independence assumption",
                 "independence assumption",
                 "assumption",
-                "efficient nonparametric estimator",
+                "efficient nonparametric estimators",
                 "nonparametric estimator",
                 "estimator",
                 "propensity score",
@@ -434,13 +475,12 @@
                 "relevant suggestions",
                 "suggestions",
                 "performance",
-                "cost-effectiveness",
-                "effectiveness",
                 "supplementary material",
-                "multivalued treatments",
+                "Multivalued Treatments",
                 "decomposition analysis",
                 "analysis"
             ],
+            "times_cited": 2,
             "title": "Multivalued Treatments and Decomposition Analysis: An Application to the WIA Program",
             "type": "article",
             "year": 2019
@@ -724,7 +764,6 @@
                 }
             ]
         },
-        "abstract": "This paper provides a general estimation and inference framework to study how different levels of program participation affect participants’ outcomes. We decompose differences in the outcome distribution into (i) a structure effect, arising due to the conditional outcome distributions given covariates associated with different levels of participation; and (ii) a composition effect, arising due to differences in the distributions of observable characteristics. These counterfactual differences are equivalent to the multivalued treatment effects for the treated under a conditional independence assumption. We propose efficient nonparametric estimators based on propensity score weighting together with uniform inference theory. We employ our methods to study the effects of the Workforce Investment Act (WIA) programs on participants’ earnings. We find that heterogeneity in levels of program participation is an important dimension to evaluate the WIA and other social programs in which participation varies. The results of this paper, both theoretically and empirically, provide rigorous assessment of intervention programs and relevant suggestions to improve their performance and cost-effectiveness.",
         "authors": [
             "author-fde8a4092a738a5b1c5a",
             "author-1f029a949ccec33fc5e0",
@@ -800,68 +839,6 @@
             "status": "ok"
         },
         "doi": "10.1080/07350015.2019.1660664",
-        "keyphrases": {
-            "differences": {
-                "count": 2,
-                "rank_score": 0.07032044580630295
-            },
-            "different levels": {
-                "count": 2,
-                "rank_score": 0.09545552197151248
-            },
-            "efficient nonparametric estimators": {
-                "count": 1,
-                "rank_score": 0.08576386620202964
-            },
-            "inference framework": {
-                "count": 1,
-                "rank_score": 0.07889770454331099
-            },
-            "intervention programs": {
-                "count": 1,
-                "rank_score": 0.10521093826375504
-            },
-            "levels": {
-                "count": 1,
-                "rank_score": 0.07993377995810719
-            },
-            "other social programs": {
-                "count": 1,
-                "rank_score": 0.10283575408017352
-            },
-            "participation": {
-                "count": 2,
-                "rank_score": 0.08363347517324085
-            },
-            "program participation": {
-                "count": 2,
-                "rank_score": 0.12005823629022722
-            },
-            "propensity score": {
-                "count": 1,
-                "rank_score": 0.07041953612456449
-            },
-            "relevant suggestions": {
-                "count": 1,
-                "rank_score": 0.06968712241810136
-            },
-            "rigorous assessment": {
-                "count": 1,
-                "rank_score": 0.06808348306772317
-            },
-            "the conditional outcome distributions": {
-                "count": 1,
-                "rank_score": 0.0704670075888415
-            },
-            "uniform inference theory": {
-                "count": 1,
-                "rank_score": 0.08285768547034242
-            },
-            "wia": {
-                "count": 4,
-                "rank_score": 0.06735020438085597
-            }
-        },
         "original": {
             "date_added": "2019-12-02 12:34:12",
             "doi": "10.1080/07350015.2019.1660664",
@@ -870,6 +847,401 @@
             "url": "https://doi.org/10.1080/07350015.2019.1660664"
         },
         "title": "Multivalued Treatments and Decomposition Analysis: An Application to the WIA Program"
+    },
+    {
+        "Dimensions": {
+            "FOR": [
+                {
+                    "id": "3292",
+                    "name": "1402 Applied Economics"
+                }
+            ],
+            "FOR_first": [
+                {
+                    "id": "2214",
+                    "name": "14 Economics"
+                }
+            ],
+            "RCDC": [
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
+                }
+            ],
+            "altmetric": 9.0,
+            "altmetric_id": 54671311,
+            "author_affiliations": [
+                [
+                    {
+                        "affiliations": [
+                            {
+                                "city": "Richmond",
+                                "city_id": 4781708,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.224260.0",
+                                "name": "Virginia Commonwealth University",
+                                "state": "Virginia",
+                                "state_code": "US-VA"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.224260.0",
+                        "email": "elharperande@vcu.edu",
+                        "first_name": "Elsie",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "Harper-Anderson",
+                        "last_name_original": "",
+                        "orcid": "['0000-0001-8182-0366']",
+                        "raw_affiliation_original": [],
+                        "researcher_id": "ur.013435575336.80"
+                    }
+                ]
+            ],
+            "authors": [
+                {
+                    "affiliations": [
+                        {
+                            "city": "Richmond",
+                            "city_id": 4781708,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.224260.0",
+                            "name": "Virginia Commonwealth University",
+                            "state": "Virginia",
+                            "state_code": "US-VA"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.224260.0",
+                    "email": "elharperande@vcu.edu",
+                    "first_name": "Elsie",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "Harper-Anderson",
+                    "last_name_original": "",
+                    "orcid": "['0000-0001-8182-0366']",
+                    "raw_affiliation_original": [],
+                    "researcher_id": "ur.013435575336.80"
+                }
+            ],
+            "category_for": [
+                {
+                    "id": "3292",
+                    "name": "1402 Applied Economics"
+                },
+                {
+                    "id": "2214",
+                    "name": "14 Economics"
+                }
+            ],
+            "category_rcdc": [
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
+                }
+            ],
+            "category_ua": [
+                {
+                    "id": "30011",
+                    "name": "B11 Computer Science and Informatics"
+                }
+            ],
+            "category_uoa": [
+                {
+                    "id": "30011",
+                    "name": "B11 Computer Science and Informatics"
+                }
+            ],
+            "concepts": [
+                "funding",
+                "devolution",
+                "Workforce Programme",
+                "program",
+                "constant scrutiny",
+                "scrutiny",
+                "state",
+                "local officials",
+                "officials",
+                "investment",
+                "dollars",
+                "return",
+                "policy makers",
+                "makers",
+                "most influence",
+                "influence",
+                "regression analysis",
+                "analysis",
+                "Virginia",
+                "ROI",
+                "right circumstances",
+                "circumstances",
+                "participation",
+                "outcomes",
+                "credentials",
+                "training yields",
+                "higher ROI",
+                "certain credentials",
+                "higher returns",
+                "results",
+                "credential type",
+                "current era",
+                "era",
+                "cut",
+                "strategic investments",
+                "real returns",
+                "WIA"
+            ],
+            "date": "2018-12-01",
+            "date_inserted": "2019-01-30",
+            "doi": "10.1177/0160323x18823878",
+            "id": "pub.1111726577",
+            "issn": [
+                "0160-323X",
+                "1943-3409",
+                "1943-3340"
+            ],
+            "issue": "4",
+            "journal": {
+                "id": "jour.1141483",
+                "title": "State and Local Government Review"
+            },
+            "open_access_categories": [
+                {
+                    "description": "No freely available copy has been identified",
+                    "id": "closed",
+                    "name": "Closed"
+                }
+            ],
+            "pages": "244-258",
+            "publisher": "SAGE Publications",
+            "reference_ids": [
+                "pub.1010653446",
+                "pub.1043549501",
+                "pub.1040776156",
+                "pub.1063730898",
+                "pub.1102368625",
+                "pub.1014390860",
+                "pub.1005073996",
+                "pub.1040649678",
+                "pub.1013009149",
+                "pub.1090841393",
+                "pub.1102716503",
+                "pub.1058529430",
+                "pub.1099435977",
+                "pub.1044563015"
+            ],
+            "references": [
+                "pub.1010653446",
+                "pub.1043549501",
+                "pub.1040776156",
+                "pub.1063730898",
+                "pub.1102368625",
+                "pub.1014390860",
+                "pub.1005073996",
+                "pub.1040649678",
+                "pub.1013009149",
+                "pub.1090841393",
+                "pub.1102716503",
+                "pub.1058529430",
+                "pub.1099435977",
+                "pub.1044563015"
+            ],
+            "research_org_cities": [
+                {
+                    "id": 4781708,
+                    "name": "Richmond"
+                }
+            ],
+            "research_org_countries": [
+                {
+                    "id": "US",
+                    "name": "United States"
+                }
+            ],
+            "research_org_country_names": [
+                "United States"
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-VA",
+                    "name": "Virginia"
+                }
+            ],
+            "research_org_state_names": [
+                "Virginia"
+            ],
+            "research_orgs": [
+                {
+                    "acronym": "VCU",
+                    "city_name": "Richmond",
+                    "country_name": "United States",
+                    "id": "grid.224260.0",
+                    "latitude": 37.548782,
+                    "linkout": [
+                        "http://www.vcu.edu/"
+                    ],
+                    "longitude": -77.45394,
+                    "name": "Virginia Commonwealth University",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Education"
+                    ]
+                }
+            ],
+            "researchers": [
+                {
+                    "first_name": "Elsie L",
+                    "id": "ur.013435575336.80",
+                    "last_name": "Harper-Anderson",
+                    "orcid_id": [
+                        "0000-0001-8182-0366"
+                    ],
+                    "research_orgs": [
+                        "grid.224260.0",
+                        "grid.214458.e"
+                    ]
+                }
+            ],
+            "terms": [
+                "funding",
+                "devolution",
+                "Workforce Programme",
+                "program",
+                "constant scrutiny",
+                "scrutiny",
+                "state",
+                "local officials",
+                "officials",
+                "investment",
+                "dollars",
+                "return",
+                "policy makers",
+                "makers",
+                "most influence",
+                "influence",
+                "regression analysis",
+                "analysis",
+                "Virginia",
+                "ROI",
+                "right circumstances",
+                "circumstances",
+                "participation",
+                "outcomes",
+                "credentials",
+                "training yields",
+                "higher ROI",
+                "certain credentials",
+                "higher returns",
+                "results",
+                "credential type",
+                "current era",
+                "era",
+                "cut",
+                "strategic investments",
+                "real returns",
+                "WIA"
+            ],
+            "title": "What Is the Return on Investment for Public Workforce Programs? An Analysis of WIA and TAA in Virginia",
+            "type": "article",
+            "volume": "50",
+            "year": 2018
+        },
+        "OpenAIRE": {
+            "authors": [
+                "Harper-Anderson, Elsie"
+            ],
+            "open": false,
+            "url": "http://dx.doi.org/10.1177/0160323x18823878"
+        },
+        "Unpaywall": {
+            "best_oa_location": null,
+            "data_standard": 2,
+            "doi": "10.1177/0160323x18823878",
+            "doi_url": "https://doi.org/10.1177/0160323x18823878",
+            "genre": "journal-article",
+            "has_repository_copy": false,
+            "is_oa": false,
+            "journal_is_in_doaj": false,
+            "journal_is_oa": false,
+            "journal_issn_l": "0160-323X",
+            "journal_issns": "0160-323X,1943-3409",
+            "journal_name": "State and Local Government Review",
+            "oa_locations": [],
+            "oa_status": "closed",
+            "published_date": "2019-01-24",
+            "publisher": "SAGE Publications",
+            "title": "What Is the Return on Investment for Public Workforce Programs? An Analysis of WIA and TAA in Virginia",
+            "updated": "2019-01-25T21:03:55.083419",
+            "year": 2019,
+            "z_authors": [
+                {
+                    "affiliation": [
+                        {
+                            "name": "L. Douglas Wilder School of Government and Public Affairs, Virginia Commonwealth University, Richmond, VA, USA"
+                        }
+                    ],
+                    "family": "Harper-Anderson",
+                    "given": "Elsie",
+                    "sequence": "first"
+                }
+            ]
+        },
+        "authors": [
+            "author-b44ca62a0febd23dbe0e"
+        ],
+        "datasets": [
+            "dataset-343"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "affiliation": "L. Douglas Wilder School of Government and Public Affairs, Virginia Commonwealth University, Richmond, VA, USA",
+                        "name": {
+                            "first": "Elsie",
+                            "last": "Harper-Anderson"
+                        }
+                    }
+                ],
+                "classification": "OK",
+                "date": "2018-12-01",
+                "records": [
+                    {
+                        "doi": "10.1177/0160323x18823878",
+                        "identifier": "oai:crossref.org:10.1177/0160323x18823878",
+                        "issn": "0160-323X",
+                        "issue": "4",
+                        "journal": "State and Local Government Review",
+                        "pages": "244-258",
+                        "policy": {
+                            "postprint": "can",
+                            "preprint": "can",
+                            "published": "cannot",
+                            "romeo_id": "65"
+                        },
+                        "publisher": "SAGE Publications",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.1177/0160323x18823878",
+                        "type": "article-journal",
+                        "volume": "50"
+                    }
+                ],
+                "title": "What Is the Return on Investment for Public Workforce Programs? An Analysis of WIA and TAA in Virginia",
+                "type": "other"
+            },
+            "status": "ok"
+        },
+        "doi": "10.1177/0160323x18823878",
+        "original": {
+            "date_added": "2019-12-02 12:34:12",
+            "doi": "10.1177/0160323x18823878",
+            "journal": "State and Local Government Review",
+            "search_term": "Workforce Investment Act Standardized Record Data",
+            "url": "https://doi.org/10.1177/0160323x18823878"
+        },
+        "title": "What Is the Return on Investment for Public Workforce Programs? An Analysis of WIA and TAA in Virginia"
     },
     {
         "Dimensions": {
@@ -902,9 +1274,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
+                        "email": "",
                         "first_name": "Wallice",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Ao",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
@@ -922,9 +1299,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.21729.3f",
+                        "email": "",
                         "first_name": "Sebastian",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Calonico",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.013204676421.51"
                     },
                     {
@@ -942,9 +1324,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
+                        "email": "",
                         "first_name": "Ying-Ying",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Lee",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     }
                 ]
@@ -965,9 +1352,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
+                    "email": "",
                     "first_name": "Wallice",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Ao",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
@@ -985,9 +1377,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.21729.3f",
+                    "email": "",
                     "first_name": "Sebastian",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Calonico",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.013204676421.51"
                 },
                 {
@@ -1005,9 +1402,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
+                    "email": "",
                     "first_name": "Ying-Ying",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Lee",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 }
             ],
@@ -1041,17 +1443,17 @@
                 "article",
                 "general estimation",
                 "estimation",
+                "inference framework",
                 "framework",
                 "different levels",
                 "levels",
                 "program participation",
                 "participation",
-                "participants",
                 "outcomes",
                 "outcome distribution",
                 "distribution",
                 "structure effects",
-                "effects",
+                "effect",
                 "covariates",
                 "composition effects",
                 "observable characteristics",
@@ -1060,7 +1462,7 @@
                 "conditional independence assumption",
                 "independence assumption",
                 "assumption",
-                "efficient nonparametric estimator",
+                "efficient nonparametric estimators",
                 "nonparametric estimator",
                 "estimator",
                 "propensity score",
@@ -1078,10 +1480,8 @@
                 "relevant suggestions",
                 "suggestions",
                 "performance",
-                "cost-effectiveness",
-                "effectiveness",
                 "supplementary material",
-                "multivalued treatments",
+                "Multivalued Treatments",
                 "decomposition analysis",
                 "analysis"
             ],
@@ -1098,68 +1498,81 @@
                 "title": "Journal of Business and Economic Statistics"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 2",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "linkout": "http://pdfs.semanticscholar.org/101f/18c57a73c19c61bbefb7a77386f63dd27f0f.pdf",
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - submitted"
             ],
             "open_access_categories": [
                 {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Free copy of submitted version, or where version is unknown, in an OA repository",
+                    "id": "green_sub",
+                    "name": "Green, Submitted"
                 }
             ],
             "pages": "1-31",
             "publisher": "Taylor & Francis",
+            "recent_citations": 2,
             "reference_ids": [
-                "pub.1102714808",
-                "pub.1015902678",
-                "pub.1110330693",
-                "pub.1105984065",
                 "pub.1043064709",
+                "pub.1015902678",
                 "pub.1018705389",
-                "pub.1012488861",
                 "pub.1035292029",
-                "pub.1107793453",
-                "pub.1069972113",
-                "pub.1101342536",
-                "pub.1100805319",
-                "pub.1019680679",
-                "pub.1016942952",
-                "pub.1064529015",
-                "pub.1100805322",
-                "pub.1036733786",
-                "pub.1095879089",
-                "pub.1104190490",
+                "pub.1102714808",
                 "pub.1038921789",
                 "pub.1000340538",
+                "pub.1064529015",
+                "pub.1069804442",
+                "pub.1095879089",
+                "pub.1100805319",
+                "pub.1100805322",
+                "pub.1036733786",
+                "pub.1019680679",
+                "pub.1012488861",
+                "pub.1101342536",
                 "pub.1107064184",
-                "pub.1069804442"
+                "pub.1104190490",
+                "pub.1016942952",
+                "pub.1110330693",
+                "pub.1105984065",
+                "pub.1069972113",
+                "pub.1107793453"
             ],
             "references": [
-                "pub.1102714808",
-                "pub.1015902678",
-                "pub.1110330693",
-                "pub.1105984065",
                 "pub.1043064709",
+                "pub.1015902678",
                 "pub.1018705389",
-                "pub.1012488861",
                 "pub.1035292029",
-                "pub.1107793453",
-                "pub.1069972113",
-                "pub.1101342536",
-                "pub.1100805319",
-                "pub.1019680679",
-                "pub.1016942952",
-                "pub.1064529015",
-                "pub.1100805322",
-                "pub.1036733786",
-                "pub.1095879089",
-                "pub.1104190490",
+                "pub.1102714808",
                 "pub.1038921789",
                 "pub.1000340538",
+                "pub.1064529015",
+                "pub.1069804442",
+                "pub.1095879089",
+                "pub.1100805319",
+                "pub.1100805322",
+                "pub.1036733786",
+                "pub.1019680679",
+                "pub.1012488861",
+                "pub.1101342536",
                 "pub.1107064184",
-                "pub.1069804442"
+                "pub.1104190490",
+                "pub.1016942952",
+                "pub.1110330693",
+                "pub.1105984065",
+                "pub.1069972113",
+                "pub.1107793453"
             ],
             "research_org_cities": [
                 {
@@ -1199,27 +1612,11 @@
                 }
             ],
             "research_org_state_names": [
-                "New York",
                 "California",
+                "New York",
                 "Virginia"
             ],
             "research_orgs": [
-                {
-                    "acronym": "IDA",
-                    "city_name": "Alexandria",
-                    "country_name": "United States",
-                    "id": "grid.296756.9",
-                    "latitude": 38.830395,
-                    "linkout": [
-                        "https://www.ida.org/"
-                    ],
-                    "longitude": -77.11911,
-                    "name": "Institute For Defense Analyses",
-                    "state_name": "Virginia",
-                    "types": [
-                        "Nonprofit"
-                    ]
-                },
                 {
                     "acronym": "CU",
                     "city_name": "New York",
@@ -1251,6 +1648,22 @@
                     "types": [
                         "Education"
                     ]
+                },
+                {
+                    "acronym": "IDA",
+                    "city_name": "Alexandria",
+                    "country_name": "United States",
+                    "id": "grid.296756.9",
+                    "latitude": 38.830395,
+                    "linkout": [
+                        "https://www.ida.org/"
+                    ],
+                    "longitude": -77.11911,
+                    "name": "Institute For Defense Analyses",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Nonprofit"
+                    ]
                 }
             ],
             "researchers": [
@@ -1259,9 +1672,9 @@
                     "id": "ur.013204676421.51",
                     "last_name": "Calonico",
                     "research_orgs": [
+                        "grid.21729.3f",
                         "grid.214458.e",
-                        "grid.26790.3a",
-                        "grid.21729.3f"
+                        "grid.26790.3a"
                     ]
                 }
             ],
@@ -1269,17 +1682,17 @@
                 "article",
                 "general estimation",
                 "estimation",
+                "inference framework",
                 "framework",
                 "different levels",
                 "levels",
                 "program participation",
                 "participation",
-                "participants",
                 "outcomes",
                 "outcome distribution",
                 "distribution",
                 "structure effects",
-                "effects",
+                "effect",
                 "covariates",
                 "composition effects",
                 "observable characteristics",
@@ -1288,7 +1701,7 @@
                 "conditional independence assumption",
                 "independence assumption",
                 "assumption",
-                "efficient nonparametric estimator",
+                "efficient nonparametric estimators",
                 "nonparametric estimator",
                 "estimator",
                 "propensity score",
@@ -1306,13 +1719,12 @@
                 "relevant suggestions",
                 "suggestions",
                 "performance",
-                "cost-effectiveness",
-                "effectiveness",
                 "supplementary material",
-                "multivalued treatments",
+                "Multivalued Treatments",
                 "decomposition analysis",
                 "analysis"
             ],
+            "times_cited": 2,
             "title": "Multivalued Treatments and Decomposition Analysis: An Application to the WIA Program",
             "type": "article",
             "year": 2019
@@ -1962,7 +2374,6 @@
                 }
             ]
         },
-        "abstract": "We analyze how different levels of active labor program participation affect participants’ labor market outcomes. To do so, we propose two-step semiparametric efficient estimators that can be used to decompose differences in earnings distributions into (i) wage structure effects, arising due to the conditional outcome distributions associated with different levels of participation; and (ii) composition effect, arising due to differences in the distribution of observable characteristics. These counterfactual differences reveal causal relationships under a conditional independence assumption. Moreover, we calculate the semiparametric efficiency bound for the multivalued treatment effects, generalizing previous results for binary treatment effects. We employ these procedures to study the effects of the Workforce Investment Act (WIA), a large US job service program. Our estimation results show that heterogeneity in levels of participation is an important dimension to evaluate the WIA and other social programs in which participation varies. The results of this paper, both theoretically and empirically, provide rigorous assessment of intervention programs and relevant suggestions to improve the performance and cost-effectiveness of these programs. JEL classification: I38, H53, C31, C14",
         "authors": [
             "author-fde8a4092a738a5b1c5a",
             "author-1f029a949ccec33fc5e0",
@@ -2038,68 +2449,6 @@
             "status": "ok"
         },
         "doi": "10.2139/ssrn.3276370",
-        "keyphrases": {
-            "a large us job service program": {
-                "count": 1,
-                "rank_score": 0.07049775902300706
-            },
-            "active labor program participation": {
-                "count": 1,
-                "rank_score": 0.11586788512054393
-            },
-            "binary treatment effects": {
-                "count": 1,
-                "rank_score": 0.10167687166794832
-            },
-            "causal relationships": {
-                "count": 1,
-                "rank_score": 0.06428203467569975
-            },
-            "differences": {
-                "count": 2,
-                "rank_score": 0.07528215520294824
-            },
-            "different levels": {
-                "count": 2,
-                "rank_score": 0.0831562296212042
-            },
-            "earnings distributions": {
-                "count": 1,
-                "rank_score": 0.0799018190212484
-            },
-            "intervention programs": {
-                "count": 1,
-                "rank_score": 0.0978454665404527
-            },
-            "jel classification": {
-                "count": 1,
-                "rank_score": 0.06441800371068862
-            },
-            "levels": {
-                "count": 1,
-                "rank_score": 0.06764645437232446
-            },
-            "other social programs": {
-                "count": 1,
-                "rank_score": 0.09578463094917389
-            },
-            "participation": {
-                "count": 3,
-                "rank_score": 0.07553434780608492
-            },
-            "previous results": {
-                "count": 1,
-                "rank_score": 0.07999957180388999
-            },
-            "rigorous assessment": {
-                "count": 1,
-                "rank_score": 0.06441930266673365
-            },
-            "the multivalued treatment effects": {
-                "count": 1,
-                "rank_score": 0.06387145833603344
-            }
-        },
         "original": {
             "date_added": "2019-12-02 12:34:12",
             "doi": "10.2139/ssrn.3276370",
@@ -2108,6 +2457,201 @@
             "url": "https://doi.org/10.2139/ssrn.3276370"
         },
         "title": "Multivalued Treatments and Decomposition Analysis: An Application to the WIA Program"
+    },
+    {
+        "Dimensions": {
+            "FOR": [
+                {
+                    "id": "3292",
+                    "name": "1402 Applied Economics"
+                },
+                {
+                    "id": "3416",
+                    "name": "1605 Policy and Administration"
+                }
+            ],
+            "FOR_first": [
+                {
+                    "id": "2214",
+                    "name": "14 Economics"
+                },
+                {
+                    "id": "2216",
+                    "name": "16 Studies in Human Society"
+                }
+            ],
+            "author_affiliations": [
+                [
+                    {
+                        "affiliations": [],
+                        "corresponding": "",
+                        "current_organization_id": "",
+                        "email": "",
+                        "first_name": "",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "OECD",
+                        "last_name_original": "",
+                        "orcid": "",
+                        "raw_affiliation_original": [],
+                        "researcher_id": ""
+                    }
+                ]
+            ],
+            "authors": [
+                {
+                    "affiliations": [],
+                    "corresponding": "",
+                    "current_organization_id": "",
+                    "email": "",
+                    "first_name": "",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "OECD",
+                    "last_name_original": "",
+                    "orcid": "",
+                    "raw_affiliation_original": [],
+                    "researcher_id": ""
+                }
+            ],
+            "book_doi": "10.1787/9789264266513-en",
+            "book_series_title": "Back to Work",
+            "book_title": "Back to Work: United States",
+            "category_for": [
+                {
+                    "id": "3416",
+                    "name": "1605 Policy and Administration"
+                },
+                {
+                    "id": "2216",
+                    "name": "16 Studies in Human Society"
+                },
+                {
+                    "id": "3292",
+                    "name": "1402 Applied Economics"
+                },
+                {
+                    "id": "2214",
+                    "name": "14 Economics"
+                }
+            ],
+            "category_ua": [
+                {
+                    "id": "30016",
+                    "name": "C16 Economics and Econometrics"
+                }
+            ],
+            "category_uoa": [
+                {
+                    "id": "30016",
+                    "name": "C16 Economics and Econometrics"
+                }
+            ],
+            "concepts": [
+                "chapter",
+                "employment",
+                "program",
+                "United States",
+                "state",
+                "workers",
+                "policy approaches",
+                "approach",
+                "help",
+                "services",
+                "little money",
+                "money",
+                "training supply",
+                "supply",
+                "demand",
+                "distinction",
+                "US system",
+                "trade",
+                "job displacement",
+                "benefits",
+                "unemployed workers"
+            ],
+            "date": "2016-12-06",
+            "date_inserted": "2017-08-31",
+            "doi": "10.1787/9789264266513-8-en",
+            "id": "pub.1086888732",
+            "issn": [
+                "2306-3831",
+                "2306-3823"
+            ],
+            "open_access_categories": [
+                {
+                    "description": "No freely available copy has been identified",
+                    "id": "closed",
+                    "name": "Closed"
+                }
+            ],
+            "pages": "117-149",
+            "publisher": "Organisation for Economic Co-Operation and Development  (OECD)",
+            "terms": [
+                "chapter",
+                "employment",
+                "program",
+                "United States",
+                "state",
+                "workers",
+                "policy approaches",
+                "approach",
+                "help",
+                "services",
+                "little money",
+                "money",
+                "training supply",
+                "supply",
+                "demand",
+                "distinction",
+                "US system",
+                "trade",
+                "job displacement",
+                "benefits",
+                "unemployed workers"
+            ],
+            "title": "Programmes promoting the re-employment of displaced workers in the United States",
+            "type": "chapter",
+            "year": 2016
+        },
+        "Unpaywall": {
+            "best_oa_location": null,
+            "data_standard": 2,
+            "doi": "10.1787/9789264266513-8-en",
+            "doi_url": "https://doi.org/10.1787/9789264266513-8-en",
+            "genre": "book-chapter",
+            "has_repository_copy": false,
+            "is_oa": false,
+            "journal_is_in_doaj": false,
+            "journal_is_oa": false,
+            "journal_issn_l": "2306-3823",
+            "journal_issns": "2306-3823,2306-3831",
+            "journal_name": "Back to Work",
+            "oa_locations": [],
+            "oa_status": "closed",
+            "published_date": "2016-12-06",
+            "publisher": "OECD Publishing",
+            "title": "Programmes promoting the re-employment of displaced workers in the United States",
+            "updated": "2018-06-17T14:29:26.963472",
+            "year": 2016,
+            "z_authors": [
+                {
+                    "name": "OECD"
+                }
+            ]
+        },
+        "authors": [],
+        "datasets": [
+            "dataset-343"
+        ],
+        "doi": "10.1787/9789264266513-8-en",
+        "original": {
+            "date_added": "2019-12-02 12:34:12",
+            "doi": "10.1787/9789264266513-8-en",
+            "search_term": "Workforce Investment Act Standardized Record Data",
+            "url": "https://doi.org/10.1787/9789264266513-8-en"
+        },
+        "title": "Programmes promoting the re-employment of displaced workers in the United States"
     },
     {
         "Dimensions": {
@@ -2140,9 +2684,14 @@
                         ],
                         "corresponding": true,
                         "current_organization_id": "grid.253559.d",
+                        "email": "afleissig@fullerton.edu",
                         "first_name": "Adrian R.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Fleissig",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.011607160525.74"
                     }
                 ]
@@ -2163,9 +2712,14 @@
                     ],
                     "corresponding": true,
                     "current_organization_id": "grid.253559.d",
+                    "email": "afleissig@fullerton.edu",
                     "first_name": "Adrian R.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Fleissig",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.011607160525.74"
                 }
             ],
@@ -2210,11 +2764,10 @@
                 "training program",
                 "job service",
                 "services",
-                "one-stop centers",
-                "stop center",
                 "individuals",
                 "traditional approaches",
                 "approach",
+                "important employment characteristics",
                 "employment characteristics",
                 "characteristics",
                 "program costs",
@@ -2225,7 +2778,7 @@
             "date": "2014-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/s11293-013-9394-y",
-            "field_citation_ratio": 0.59,
+            "field_citation_ratio": 0.6,
             "id": "pub.1001731063",
             "issn": [
                 "0197-4254",
@@ -2237,9 +2790,10 @@
                 "title": "Atlantic Economic Journal"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
             ],
             "open_access_categories": [
                 {
@@ -2251,18 +2805,18 @@
             "pages": "39-51",
             "publisher": "Springer Nature",
             "reference_ids": [
-                "pub.1006064897",
-                "pub.1102717589",
-                "pub.1009373618",
                 "pub.1043549501",
-                "pub.1058607597"
+                "pub.1058607597",
+                "pub.1102717589",
+                "pub.1006064897",
+                "pub.1009373618"
             ],
             "references": [
-                "pub.1006064897",
-                "pub.1102717589",
-                "pub.1009373618",
                 "pub.1043549501",
-                "pub.1058607597"
+                "pub.1058607597",
+                "pub.1102717589",
+                "pub.1006064897",
+                "pub.1009373618"
             ],
             "research_org_cities": [
                 {
@@ -2314,8 +2868,8 @@
                     "research_orgs": [
                         "grid.262962.b",
                         "grid.40803.3f",
-                        "grid.253561.6",
-                        "grid.253559.d"
+                        "grid.253559.d",
+                        "grid.253561.6"
                     ]
                 }
             ],
@@ -2338,11 +2892,10 @@
                 "training program",
                 "job service",
                 "services",
-                "one-stop centers",
-                "stop center",
                 "individuals",
                 "traditional approaches",
                 "approach",
+                "important employment characteristics",
                 "employment characteristics",
                 "characteristics",
                 "program costs",
@@ -2439,7 +2992,6 @@
                 }
             ]
         },
-        "abstract": "This study includes the likelihood of finding a job and retaining employment as well as eligibility for unemployment benefits to estimate the return on investment (ROI) for both job training and intensive services programs. The augmented ROI for job training programs and intensive job services from California One-Stop Centers are positive. This suggests that these programs do provide benefits. The estimated augmented ROI for individuals enrolled in job training programs and intensive job services are similar. In contrast, traditional approaches that omit important employment characteristics significantly overestimate the ROI. Monte Carlo simulations show that changing program costs affect the augmented ROI for training programs but have minimal impact on the augmented ROI for intensive services.",
         "authors": [
             "author-10035cb33e5a704cfe58"
         ],
@@ -2485,68 +3037,6 @@
             "status": "ok"
         },
         "doi": "10.1007/s11293-013-9394-y",
-        "keyphrases": {
-            "both job training": {
-                "count": 1,
-                "rank_score": 0.0858953598372777
-            },
-            "changing program costs": {
-                "count": 1,
-                "rank_score": 0.13063055020014835
-            },
-            "employment": {
-                "count": 1,
-                "rank_score": 0.07918931382893074
-            },
-            "important employment characteristics": {
-                "count": 1,
-                "rank_score": 0.10600847575774511
-            },
-            "intensive job services": {
-                "count": 2,
-                "rank_score": 0.15525609059129203
-            },
-            "intensive services": {
-                "count": 1,
-                "rank_score": 0.12301727293450257
-            },
-            "intensive services programs": {
-                "count": 1,
-                "rank_score": 0.1548033053312711
-            },
-            "job training programs": {
-                "count": 2,
-                "rank_score": 0.17066484293591375
-            },
-            "monte carlo simulations": {
-                "count": 1,
-                "rank_score": 0.09217459858883116
-            },
-            "roi": {
-                "count": 8,
-                "rank_score": 0.10977216376686005
-            },
-            "the augmented roi": {
-                "count": 3,
-                "rank_score": 0.07910076749474955
-            },
-            "the estimated augmented roi": {
-                "count": 1,
-                "rank_score": 0.0881306786280178
-            },
-            "traditional approaches": {
-                "count": 1,
-                "rank_score": 0.08929913286716286
-            },
-            "training programs": {
-                "count": 1,
-                "rank_score": 0.1449774004653467
-            },
-            "unemployment benefits": {
-                "count": 1,
-                "rank_score": 0.08857376608915893
-            }
-        },
         "original": {
             "date_added": "2019-12-02 12:34:12",
             "doi": "10.1007/s11293-013-9394-y",
@@ -2597,9 +3087,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.152326.1",
+                        "email": "cheinrich@austin.utexas.edu",
                         "first_name": "Carolyn J",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Heinrich",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.016453005650.87"
                     },
                     {
@@ -2617,9 +3112,14 @@
                         ],
                         "corresponding": true,
                         "current_organization_id": "grid.134936.a",
+                        "email": "cheinrich@austin.utexas.edu",
                         "first_name": "Peter R",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Mueser",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.013526056541.32"
                     },
                     {
@@ -2637,9 +3137,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.424606.2",
+                        "email": "cheinrich@austin.utexas.edu",
                         "first_name": "Kenneth R",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Troske",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.015716400141.85"
                     },
                     {
@@ -2657,9 +3162,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.134936.a",
+                        "email": "cheinrich@austin.utexas.edu",
                         "first_name": "Kyung-Seong",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Jeon",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.011121372505.49"
                     },
                     {
@@ -2677,9 +3187,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.413874.d",
+                        "email": "cheinrich@austin.utexas.edu",
                         "first_name": "Daver C",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Kahvecioglu",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.0623507324.44"
                     }
                 ]
@@ -2700,9 +3215,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.152326.1",
+                    "email": "cheinrich@austin.utexas.edu",
                     "first_name": "Carolyn J",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Heinrich",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.016453005650.87"
                 },
                 {
@@ -2720,9 +3240,14 @@
                     ],
                     "corresponding": true,
                     "current_organization_id": "grid.134936.a",
+                    "email": "cheinrich@austin.utexas.edu",
                     "first_name": "Peter R",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Mueser",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.013526056541.32"
                 },
                 {
@@ -2740,9 +3265,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.424606.2",
+                    "email": "cheinrich@austin.utexas.edu",
                     "first_name": "Kenneth R",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Troske",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.015716400141.85"
                 },
                 {
@@ -2760,9 +3290,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.134936.a",
+                    "email": "cheinrich@austin.utexas.edu",
                     "first_name": "Kyung-Seong",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Jeon",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.011121372505.49"
                 },
                 {
@@ -2780,9 +3315,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.413874.d",
+                    "email": "cheinrich@austin.utexas.edu",
                     "first_name": "Daver C",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Kahvecioglu",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.0623507324.44"
                 }
             ],
@@ -2827,6 +3367,7 @@
                 "Workforce Investment Act",
                 "Investment Act",
                 "act",
+                "administrative data",
                 "data",
                 "participants",
                 "entry",
@@ -2835,6 +3376,7 @@
                 "work history",
                 "employment levels",
                 "levels",
+                "average quarterly earnings",
                 "quarterly earnings",
                 "dollars",
                 "earnings gains",
@@ -2842,14 +3384,12 @@
                 "program participants",
                 "employment gains",
                 "J24",
-                "public employment",
-                "program work",
-                "work"
+                "public employment"
             ],
             "date": "2013-12-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1186/2193-8997-2-6",
-            "field_citation_ratio": 3.74,
+            "field_citation_ratio": 3.93,
             "id": "pub.1005073996",
             "issn": [
                 "2193-8997"
@@ -2860,8 +3400,8 @@
                 "title": "IZA Journal of Labor Economics"
             },
             "journal_lists": [
-                "DOAJ",
-                "VABB-SHW"
+                "VABB-SHW",
+                "DOAJ"
             ],
             "linkout": "https://izajole.springeropen.com/track/pdf/10.1186/2193-8997-2-6",
             "open_access": [
@@ -2885,39 +3425,39 @@
             "publisher": "De Gruyter",
             "recent_citations": 4,
             "reference_ids": [
-                "pub.1014390860",
-                "pub.1088418529",
-                "pub.1088418524",
-                "pub.1019345933",
-                "pub.1016368226",
-                "pub.1013780371",
-                "pub.1088418523",
-                "pub.1088418520",
-                "pub.1015240354",
-                "pub.1036063694",
-                "pub.1058529430",
-                "pub.1019284603",
-                "pub.1088418526",
-                "pub.1044563015",
                 "pub.1045147608",
+                "pub.1019284603",
+                "pub.1015240354",
+                "pub.1014390860",
+                "pub.1019345933",
+                "pub.1088418526",
+                "pub.1088418524",
+                "pub.1088418520",
+                "pub.1036063694",
+                "pub.1013780371",
+                "pub.1088418529",
+                "pub.1058529430",
+                "pub.1088418523",
+                "pub.1044563015",
+                "pub.1016368226",
                 "pub.1009923762"
             ],
             "references": [
-                "pub.1014390860",
-                "pub.1088418529",
-                "pub.1088418524",
-                "pub.1019345933",
-                "pub.1016368226",
-                "pub.1013780371",
-                "pub.1088418523",
-                "pub.1088418520",
-                "pub.1015240354",
-                "pub.1036063694",
-                "pub.1058529430",
-                "pub.1019284603",
-                "pub.1088418526",
-                "pub.1044563015",
                 "pub.1045147608",
+                "pub.1019284603",
+                "pub.1015240354",
+                "pub.1014390860",
+                "pub.1019345933",
+                "pub.1088418526",
+                "pub.1088418524",
+                "pub.1088418520",
+                "pub.1036063694",
+                "pub.1013780371",
+                "pub.1088418529",
+                "pub.1058529430",
+                "pub.1088418523",
+                "pub.1044563015",
+                "pub.1016368226",
                 "pub.1009923762"
             ],
             "research_org_cities": [
@@ -2953,56 +3493,25 @@
                     "name": "Texas"
                 },
                 {
-                    "id": "US-MO",
-                    "name": "Missouri"
+                    "id": "US-KY",
+                    "name": "Kentucky"
                 },
                 {
                     "id": "US-DC",
                     "name": "District of Columbia"
                 },
                 {
-                    "id": "US-KY",
-                    "name": "Kentucky"
+                    "id": "US-MO",
+                    "name": "Missouri"
                 }
             ],
             "research_org_state_names": [
                 "Texas",
+                "District of Columbia",
                 "Missouri",
-                "Kentucky",
-                "District of Columbia"
+                "Kentucky"
             ],
             "research_orgs": [
-                {
-                    "city_name": "Lexington",
-                    "country_name": "United States",
-                    "id": "grid.266539.d",
-                    "latitude": 38.03099,
-                    "linkout": [
-                        "http://www.uky.edu/"
-                    ],
-                    "longitude": -84.504486,
-                    "name": "University of Kentucky",
-                    "state_name": "Kentucky",
-                    "types": [
-                        "Education"
-                    ]
-                },
-                {
-                    "acronym": "MU",
-                    "city_name": "Columbia",
-                    "country_name": "United States",
-                    "id": "grid.134936.a",
-                    "latitude": 38.93918,
-                    "linkout": [
-                        "http://missouri.edu/"
-                    ],
-                    "longitude": -92.331856,
-                    "name": "University of Missouri",
-                    "state_name": "Missouri",
-                    "types": [
-                        "Education"
-                    ]
-                },
                 {
                     "city_name": "Austin",
                     "country_name": "United States",
@@ -3014,6 +3523,21 @@
                     "longitude": -97.73942,
                     "name": "The University of Texas at Austin",
                     "state_name": "Texas",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
+                    "city_name": "Lexington",
+                    "country_name": "United States",
+                    "id": "grid.266539.d",
+                    "latitude": 38.03099,
+                    "linkout": [
+                        "http://www.uky.edu/"
+                    ],
+                    "longitude": -84.504486,
+                    "name": "University of Kentucky",
+                    "state_name": "Kentucky",
                     "types": [
                         "Education"
                     ]
@@ -3033,6 +3557,22 @@
                     "types": [
                         "Nonprofit"
                     ]
+                },
+                {
+                    "acronym": "MU",
+                    "city_name": "Columbia",
+                    "country_name": "United States",
+                    "id": "grid.134936.a",
+                    "latitude": 38.93918,
+                    "linkout": [
+                        "http://missouri.edu/"
+                    ],
+                    "longitude": -92.331856,
+                    "name": "University of Missouri",
+                    "state_name": "Missouri",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -3051,8 +3591,8 @@
                     "id": "ur.013526056541.32",
                     "last_name": "Mueser",
                     "research_orgs": [
-                        "grid.134936.a",
-                        "grid.427006.7"
+                        "grid.427006.7",
+                        "grid.134936.a"
                     ]
                 },
                 {
@@ -3060,11 +3600,11 @@
                     "id": "ur.015716400141.85",
                     "last_name": "Troske",
                     "research_orgs": [
-                        "grid.424879.4",
-                        "grid.134936.a",
+                        "grid.250279.b",
                         "grid.424606.2",
+                        "grid.424879.4",
                         "grid.266539.d",
-                        "grid.250279.b"
+                        "grid.134936.a"
                     ]
                 },
                 {
@@ -3096,6 +3636,7 @@
                 "Workforce Investment Act",
                 "Investment Act",
                 "act",
+                "administrative data",
                 "data",
                 "participants",
                 "entry",
@@ -3104,6 +3645,7 @@
                 "work history",
                 "employment levels",
                 "levels",
+                "average quarterly earnings",
                 "quarterly earnings",
                 "dollars",
                 "earnings gains",
@@ -3111,9 +3653,7 @@
                 "program participants",
                 "employment gains",
                 "J24",
-                "public employment",
-                "program work",
-                "work"
+                "public employment"
             ],
             "times_cited": 14,
             "title": "Do Public Employment and Training Programs Work?",
@@ -4563,7 +5103,6 @@
                 }
             ]
         },
-        "abstract": "We estimate impacts on earnings and employment of the two primary adult workforce support and training programs under the U.S. Workforce Investment Act (WIA) using administrative data on 160,000 participants from 12 states for up to four years following program entry. We find that participants in the WIA Adult program, who typically enter with poor work histories, realize improved employment levels and increased average quarterly earnings of several hundred dollars. Earnings gains for Dislocated Worker program participants are appreciably smaller, although these participants do experience employment gains.JEL codesI38, J08, J24",
         "authors": [
             "author-888c35e5d0fb7dc4eba6",
             "author-840d5a7a8f50db777bf1",
@@ -4675,68 +5214,6 @@
             "status": "ok"
         },
         "doi": "10.1186/2193-8997-2-6",
-        "keyphrases": {
-            "average quarterly earnings": {
-                "count": 1,
-                "rank_score": 0.11886803658342165
-            },
-            "dislocated worker": {
-                "count": 1,
-                "rank_score": 0.09251535607324526
-            },
-            "dislocated worker program participants": {
-                "count": 1,
-                "rank_score": 0.14661900110478254
-            },
-            "earnings": {
-                "count": 1,
-                "rank_score": 0.10095824662540655
-            },
-            "earnings gains": {
-                "count": 1,
-                "rank_score": 0.11516109978711683
-            },
-            "employment": {
-                "count": 1,
-                "rank_score": 0.09209233337600933
-            },
-            "employment gains": {
-                "count": 1,
-                "rank_score": 0.1087103581724835
-            },
-            "improved employment levels": {
-                "count": 1,
-                "rank_score": 0.11551724382325541
-            },
-            "jel codesi38": {
-                "count": 2,
-                "rank_score": 0.08955021902062307
-            },
-            "participants": {
-                "count": 3,
-                "rank_score": 0.10996032388297614
-            },
-            "poor work histories": {
-                "count": 1,
-                "rank_score": 0.10148391496527123
-            },
-            "program entry": {
-                "count": 1,
-                "rank_score": 0.11619191230002592
-            },
-            "training programs": {
-                "count": 1,
-                "rank_score": 0.11591317997110873
-            },
-            "wia": {
-                "count": 2,
-                "rank_score": 0.0901171205414123
-            },
-            "wia adult": {
-                "count": 1,
-                "rank_score": 0.09533368811517387
-            }
-        },
         "original": {
             "date_added": "2019-12-02 12:34:12",
             "doi": "10.1186/2193-8997-2-6",
@@ -4760,9 +5237,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
+                        "email": "",
                         "first_name": "Paul T.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Decker",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
@@ -4773,9 +5255,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
+                        "email": "",
                         "first_name": "Jillian A.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Berk",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     }
                 ]
@@ -4789,9 +5276,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
+                    "email": "",
                     "first_name": "Paul T.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Decker",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
@@ -4802,9 +5294,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
+                    "email": "",
                     "first_name": "Jillian A.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Berk",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 }
             ],
@@ -4834,13 +5331,12 @@
                 "years",
                 "act",
                 "research",
-                "related programs",
                 "program"
             ],
             "date": "2011-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1002/pam.20597",
-            "field_citation_ratio": 4.68,
+            "field_citation_ratio": 4.79,
             "funder_countries": [
                 {
                     "id": "BE",
@@ -4875,47 +5371,59 @@
                 "title": "Journal of Policy Analysis and Management"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 2",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "linkout": "http://pdfs.semanticscholar.org/2a9f/c3381b96684eebc231183af9ec2b0633bee5.pdf",
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - submitted"
             ],
             "open_access_categories": [
                 {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Free copy of submitted version, or where version is unknown, in an OA repository",
+                    "id": "green_sub",
+                    "name": "Green, Submitted"
                 }
             ],
             "pages": "906-926",
             "publisher": "Wiley",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1099089362",
-                "pub.1070163412",
-                "pub.1088418764",
-                "pub.1013780371",
                 "pub.1102716494",
-                "pub.1064197358",
-                "pub.1044857695",
+                "pub.1033783009",
                 "pub.1036955379",
+                "pub.1013780371",
+                "pub.1064197358",
                 "pub.1064524211",
                 "pub.1088418531",
-                "pub.1033783009",
-                "pub.1102717589"
+                "pub.1044857695",
+                "pub.1099089362",
+                "pub.1102717589",
+                "pub.1088418764",
+                "pub.1070163412"
             ],
             "references": [
-                "pub.1099089362",
-                "pub.1070163412",
-                "pub.1088418764",
-                "pub.1013780371",
                 "pub.1102716494",
-                "pub.1064197358",
-                "pub.1044857695",
+                "pub.1033783009",
                 "pub.1036955379",
+                "pub.1013780371",
+                "pub.1064197358",
                 "pub.1064524211",
                 "pub.1088418531",
-                "pub.1033783009",
-                "pub.1102717589"
+                "pub.1044857695",
+                "pub.1099089362",
+                "pub.1102717589",
+                "pub.1088418764",
+                "pub.1070163412"
             ],
             "research_org_cities": [
                 {
@@ -5037,35 +5545,34 @@
                 "United States"
             ],
             "research_org_state_names": [
-                "Pennsylvania",
-                "New Jersey",
-                "Maryland",
-                "Virginia",
-                "Indiana",
-                "Washington",
-                "Illinois",
-                "South Dakota",
-                "New York",
-                "Ohio",
-                "Missouri",
-                "Iowa",
-                "Washington, D.C.",
                 "Utah",
-                "Georgia",
-                "West Virginia",
-                "Maine",
-                "Wisconsin",
-                "Delaware",
-                "Kansas",
                 "Vermont",
+                "Ohio",
+                "Kansas",
+                "Washington, D.C.",
+                "New York",
+                "Wisconsin",
+                "New Jersey",
+                "Missouri",
+                "South Dakota",
+                "Iowa",
+                "Virginia",
                 "North Carolina",
+                "Indiana",
+                "Maryland",
+                "Illinois",
+                "Delaware",
+                "Pennsylvania",
+                "West Virginia",
+                "Georgia",
+                "Washington",
+                "Maine",
                 "Connecticut"
             ],
             "terms": [
                 "years",
                 "act",
                 "research",
-                "related programs",
                 "program"
             ],
             "times_cited": 10,
@@ -6146,7 +6653,6 @@
                 }
             ]
         },
-        "abstract": "Synthesizes what we know empirically about the WIA program and discusses lessons for WIA reauthorization.",
         "authors": [
             "author-841ed3007f62496a48a8",
             "author-3442b3a1a74fcef558e4"
@@ -6209,32 +6715,6 @@
             "status": "ok"
         },
         "doi": "10.1002/pam.20597",
-        "keyphrases": {
-            "lessons": {
-                "count": 1,
-                "rank_score": 0.18771057746447162
-            },
-            "synthesizes": {
-                "count": 1,
-                "rank_score": 0.1781741612749496
-            },
-            "the wia program": {
-                "count": 1,
-                "rank_score": 0.1430041292766385
-            },
-            "what": {
-                "count": 2,
-                "rank_score": 0.0
-            },
-            "wia": {
-                "count": 2,
-                "rank_score": 0.20678750337693522
-            },
-            "wia reauthorization": {
-                "count": 1,
-                "rank_score": 0.2292346577079818
-            }
-        },
         "original": {
             "date_added": "2019-12-02 12:34:12",
             "doi": "10.1002/pam.20597",
@@ -6243,6 +6723,412 @@
             "url": "https://doi.org/10.1002/pam.20597"
         },
         "title": "Ten years of the Workforce Investment Act (WIA): Interpreting the research on WIA and related programs"
+    },
+    {
+        "Dimensions": {
+            "FOR": [
+                {
+                    "id": "3416",
+                    "name": "1605 Policy and Administration"
+                }
+            ],
+            "FOR_first": [
+                {
+                    "id": "2216",
+                    "name": "16 Studies in Human Society"
+                }
+            ],
+            "author_affiliations": [
+                [
+                    {
+                        "affiliations": [
+                            {
+                                "city": "Madison",
+                                "city_id": 5261457,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.14003.36",
+                                "name": "University of Wisconsin–Madison",
+                                "state": "Wisconsin",
+                                "state_code": "US-WI"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.14003.36",
+                        "email": "cheinrich@lafollette.wisc.edu",
+                        "first_name": "Carolyn J.",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "Heinrich",
+                        "last_name_original": "",
+                        "orcid": "",
+                        "raw_affiliation_original": [],
+                        "researcher_id": "ur.015747037723.29"
+                    }
+                ]
+            ],
+            "authors": [
+                {
+                    "affiliations": [
+                        {
+                            "city": "Madison",
+                            "city_id": 5261457,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.14003.36",
+                            "name": "University of Wisconsin–Madison",
+                            "state": "Wisconsin",
+                            "state_code": "US-WI"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.14003.36",
+                    "email": "cheinrich@lafollette.wisc.edu",
+                    "first_name": "Carolyn J.",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "Heinrich",
+                    "last_name_original": "",
+                    "orcid": "",
+                    "raw_affiliation_original": [],
+                    "researcher_id": "ur.015747037723.29"
+                }
+            ],
+            "category_for": [
+                {
+                    "id": "2215",
+                    "name": "15 Commerce, Management, Tourism and Services"
+                },
+                {
+                    "id": "2344",
+                    "name": "0102 Applied Mathematics"
+                },
+                {
+                    "id": "3335",
+                    "name": "1502 Banking, Finance and Investment"
+                },
+                {
+                    "id": "2358",
+                    "name": "0104 Statistics"
+                },
+                {
+                    "id": "2201",
+                    "name": "01 Mathematical Sciences"
+                }
+            ],
+            "category_hra": [
+                {
+                    "id": "3902",
+                    "name": "Health services & systems"
+                }
+            ],
+            "category_ua": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
+            "concepts": [
+                "recent reforms",
+                "reform",
+                "responsive government",
+                "government",
+                "public attention",
+                "attention",
+                "analysis",
+                "use of information",
+                "agency performance",
+                "program outcomes",
+                "outcomes",
+                "cases",
+                "empirical study",
+                "questions",
+                "evidence",
+                "reliability of evidence",
+                "performance information",
+                "balance",
+                "process",
+                "rigorous information",
+                "decision making",
+                "making",
+                "democratic governance",
+                "governance",
+                "accountability",
+                "promising direction",
+                "direction",
+                "efforts",
+                "government effectiveness",
+                "effectiveness",
+                "acknowledgement",
+                "limitations",
+                "such efforts"
+            ],
+            "date": "2008-09-01",
+            "date_inserted": "2017-08-31",
+            "doi": "10.1002/asmb.725",
+            "field_citation_ratio": 0.91,
+            "id": "pub.1021154816",
+            "issn": [
+                "1524-1904",
+                "1526-4025",
+                "15264025"
+            ],
+            "issue": "5",
+            "journal": {
+                "id": "jour.1052074",
+                "title": "Applied Stochastic Models in Business and Industry"
+            },
+            "journal_lists": [
+                "Norwegian register level 1",
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "open_access_categories": [
+                {
+                    "description": "No freely available copy has been identified",
+                    "id": "closed",
+                    "name": "Closed"
+                }
+            ],
+            "pages": "373-389",
+            "publisher": "Wiley",
+            "reference_ids": [
+                "pub.1039149297",
+                "pub.1040050745",
+                "pub.1102718082",
+                "pub.1009960212",
+                "pub.1054936938",
+                "pub.1068878386",
+                "pub.1022761471",
+                "pub.1070213999",
+                "pub.1021883725",
+                "pub.1102718066",
+                "pub.1000101717",
+                "pub.1016368226",
+                "pub.1063348954",
+                "pub.1045981231",
+                "pub.1038320111",
+                "pub.1023471202",
+                "pub.1034330745",
+                "pub.1027602451",
+                "pub.1110841476",
+                "pub.1063993106",
+                "pub.1058784375",
+                "pub.1058672752",
+                "pub.1050026863",
+                "pub.1059962408",
+                "pub.1053418410",
+                "pub.1064531302"
+            ],
+            "references": [
+                "pub.1039149297",
+                "pub.1040050745",
+                "pub.1102718082",
+                "pub.1009960212",
+                "pub.1054936938",
+                "pub.1068878386",
+                "pub.1022761471",
+                "pub.1070213999",
+                "pub.1021883725",
+                "pub.1102718066",
+                "pub.1000101717",
+                "pub.1016368226",
+                "pub.1063348954",
+                "pub.1045981231",
+                "pub.1038320111",
+                "pub.1023471202",
+                "pub.1034330745",
+                "pub.1027602451",
+                "pub.1110841476",
+                "pub.1063993106",
+                "pub.1058784375",
+                "pub.1058672752",
+                "pub.1050026863",
+                "pub.1059962408",
+                "pub.1053418410",
+                "pub.1064531302"
+            ],
+            "research_org_cities": [
+                {
+                    "id": 5261457,
+                    "name": "Madison"
+                }
+            ],
+            "research_org_countries": [
+                {
+                    "id": "US",
+                    "name": "United States"
+                }
+            ],
+            "research_org_country_names": [
+                "United States"
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-WI",
+                    "name": "Wisconsin"
+                }
+            ],
+            "research_org_state_names": [
+                "Wisconsin"
+            ],
+            "research_orgs": [
+                {
+                    "acronym": "UW",
+                    "city_name": "Madison",
+                    "country_name": "United States",
+                    "id": "grid.14003.36",
+                    "latitude": 43.076694,
+                    "linkout": [
+                        "http://www.wisc.edu/"
+                    ],
+                    "longitude": -89.41244,
+                    "name": "University of Wisconsin–Madison",
+                    "state_name": "Wisconsin",
+                    "types": [
+                        "Education"
+                    ]
+                }
+            ],
+            "researchers": [
+                {
+                    "first_name": "Carolyn Jean",
+                    "id": "ur.015747037723.29",
+                    "last_name": "Heinrich",
+                    "research_orgs": [
+                        "grid.185648.6",
+                        "grid.14003.36"
+                    ]
+                }
+            ],
+            "terms": [
+                "recent reforms",
+                "reform",
+                "responsive government",
+                "government",
+                "public attention",
+                "attention",
+                "analysis",
+                "use of information",
+                "agency performance",
+                "program outcomes",
+                "outcomes",
+                "cases",
+                "empirical study",
+                "questions",
+                "evidence",
+                "reliability of evidence",
+                "performance information",
+                "balance",
+                "process",
+                "rigorous information",
+                "decision making",
+                "making",
+                "democratic governance",
+                "governance",
+                "accountability",
+                "promising direction",
+                "direction",
+                "efforts",
+                "government effectiveness",
+                "effectiveness",
+                "acknowledgement",
+                "limitations",
+                "such efforts"
+            ],
+            "times_cited": 3,
+            "title": "Advancing public sector performance analysis",
+            "type": "article",
+            "volume": "24",
+            "year": 2008
+        },
+        "Unpaywall": {
+            "best_oa_location": null,
+            "data_standard": 2,
+            "doi": "10.1002/asmb.725",
+            "doi_url": "https://doi.org/10.1002/asmb.725",
+            "genre": "journal-article",
+            "has_repository_copy": false,
+            "is_oa": false,
+            "journal_is_in_doaj": false,
+            "journal_is_oa": false,
+            "journal_issn_l": "1524-1904",
+            "journal_issns": "1524-1904,1526-4025",
+            "journal_name": "Applied Stochastic Models in Business and Industry",
+            "oa_locations": [],
+            "oa_status": "closed",
+            "published_date": "2008-09-01",
+            "publisher": "Wiley-Blackwell",
+            "title": "Advancing public sector performance analysis",
+            "updated": "2018-06-16T02:55:47.090764",
+            "year": 2008,
+            "z_authors": [
+                {
+                    "family": "Heinrich",
+                    "given": "Carolyn J."
+                }
+            ]
+        },
+        "authors": [
+            "author-888c35e5d0fb7dc4eba6"
+        ],
+        "datasets": [
+            "dataset-343"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "name": {
+                            "first": "Carolyn J.",
+                            "last": "Heinrich"
+                        }
+                    }
+                ],
+                "classification": "OK",
+                "date": "2008-09-01",
+                "records": [
+                    {
+                        "doi": "10.1002/asmb.725",
+                        "identifier": "oai:crossref.org:10.1002/asmb.725",
+                        "issn": "1524-1904",
+                        "issue": "5",
+                        "journal": "Applied Stochastic Models in Business and Industry",
+                        "pages": "373-389",
+                        "policy": {
+                            "postprint": "restricted",
+                            "preprint": "can",
+                            "published": "cannot",
+                            "romeo_id": "2050"
+                        },
+                        "publisher": "Wiley-Blackwell",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.1002/asmb.725",
+                        "type": "journal-article",
+                        "volume": "24"
+                    }
+                ],
+                "title": "Advancing public sector performance analysis",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
+        "doi": "10.1002/asmb.725",
+        "original": {
+            "date_added": "2019-12-02 12:34:12",
+            "doi": "10.1002/asmb.725",
+            "journal": "Applied Stochastic Models in Business and Industry",
+            "search_term": "Workforce Investment Act Standardized Record Data",
+            "url": "https://doi.org/10.1002/asmb.725"
+        },
+        "title": "Advancing public sector performance analysis"
     },
     {
         "Dimensions": {
@@ -6289,9 +7175,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
+                        "email": "",
                         "first_name": "Carolyn J.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Heinrich",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.015747037723.29"
                     }
                 ]
@@ -6312,9 +7203,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
+                    "email": "",
                     "first_name": "Carolyn J.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Heinrich",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.015747037723.29"
                 }
             ],
@@ -6365,7 +7261,7 @@
                 }
             ],
             "concepts": [
-                "evidence",
+                "evidence-based policy",
                 "policy",
                 "performance management movement",
                 "management movement",
@@ -6375,16 +7271,16 @@
                 "rigorous base",
                 "base",
                 "scientific evidence",
-                "decision",
+                "evidence",
+                "decisions",
                 "program design",
                 "funding",
                 "implementation",
                 "management",
                 "practice",
                 "tension",
-                "standard",
+                "standards",
                 "Strategic Timing",
-                "influence policy",
                 "public managers",
                 "managers",
                 "success",
@@ -6408,13 +7304,12 @@
                 "limitations",
                 "such efforts",
                 "efforts",
-                "Evidence-Based Policy",
                 "performance management"
             ],
             "date": "2007-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1177/0275074007301957",
-            "field_citation_ratio": 24.83,
+            "field_citation_ratio": 26.12,
             "id": "pub.1053799237",
             "issn": [
                 "0275-0740",
@@ -6426,9 +7321,10 @@
                 "title": "The American Review of Public Administration"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
             ],
             "open_access_categories": [
                 {
@@ -6442,69 +7338,69 @@
             "recent_citations": 20,
             "reference_ids": [
                 "pub.1039149297",
-                "pub.1050026863",
-                "pub.1058672752",
-                "pub.1039574869",
-                "pub.1053418410",
-                "pub.1009960212",
                 "pub.1040050745",
-                "pub.1023471202",
-                "pub.1054936938",
-                "pub.1102718066",
-                "pub.1052027657",
-                "pub.1063348954",
-                "pub.1102718082",
-                "pub.1008682849",
-                "pub.1064531302",
-                "pub.1021883725",
-                "pub.1034330745",
-                "pub.1040727896",
-                "pub.1038320111",
-                "pub.1059962408",
-                "pub.1048519903",
-                "pub.1058784375",
                 "pub.1070712067",
-                "pub.1016368226",
-                "pub.1027602451",
-                "pub.1045981231",
-                "pub.1000101717",
+                "pub.1040727896",
+                "pub.1102718082",
+                "pub.1009960212",
+                "pub.1054936938",
                 "pub.1068878386",
-                "pub.1052121757",
+                "pub.1048519903",
+                "pub.1022761471",
                 "pub.1070213999",
-                "pub.1022761471"
+                "pub.1039574869",
+                "pub.1052027657",
+                "pub.1021883725",
+                "pub.1102718066",
+                "pub.1000101717",
+                "pub.1016368226",
+                "pub.1063348954",
+                "pub.1008682849",
+                "pub.1045981231",
+                "pub.1038320111",
+                "pub.1023471202",
+                "pub.1034330745",
+                "pub.1027602451",
+                "pub.1058784375",
+                "pub.1058672752",
+                "pub.1052121757",
+                "pub.1050026863",
+                "pub.1059962408",
+                "pub.1053418410",
+                "pub.1064531302"
             ],
             "references": [
                 "pub.1039149297",
-                "pub.1050026863",
-                "pub.1058672752",
-                "pub.1039574869",
-                "pub.1053418410",
-                "pub.1009960212",
                 "pub.1040050745",
-                "pub.1023471202",
-                "pub.1054936938",
-                "pub.1102718066",
-                "pub.1052027657",
-                "pub.1063348954",
-                "pub.1102718082",
-                "pub.1008682849",
-                "pub.1064531302",
-                "pub.1021883725",
-                "pub.1034330745",
-                "pub.1040727896",
-                "pub.1038320111",
-                "pub.1059962408",
-                "pub.1048519903",
-                "pub.1058784375",
                 "pub.1070712067",
-                "pub.1016368226",
-                "pub.1027602451",
-                "pub.1045981231",
-                "pub.1000101717",
+                "pub.1040727896",
+                "pub.1102718082",
+                "pub.1009960212",
+                "pub.1054936938",
                 "pub.1068878386",
-                "pub.1052121757",
+                "pub.1048519903",
+                "pub.1022761471",
                 "pub.1070213999",
-                "pub.1022761471"
+                "pub.1039574869",
+                "pub.1052027657",
+                "pub.1021883725",
+                "pub.1102718066",
+                "pub.1000101717",
+                "pub.1016368226",
+                "pub.1063348954",
+                "pub.1008682849",
+                "pub.1045981231",
+                "pub.1038320111",
+                "pub.1023471202",
+                "pub.1034330745",
+                "pub.1027602451",
+                "pub.1058784375",
+                "pub.1058672752",
+                "pub.1052121757",
+                "pub.1050026863",
+                "pub.1059962408",
+                "pub.1053418410",
+                "pub.1064531302"
             ],
             "research_org_cities": [
                 {
@@ -6554,13 +7450,13 @@
                     "id": "ur.015747037723.29",
                     "last_name": "Heinrich",
                     "research_orgs": [
-                        "grid.14003.36",
-                        "grid.185648.6"
+                        "grid.185648.6",
+                        "grid.14003.36"
                     ]
                 }
             ],
             "terms": [
-                "evidence",
+                "evidence-based policy",
                 "policy",
                 "performance management movement",
                 "management movement",
@@ -6570,16 +7466,16 @@
                 "rigorous base",
                 "base",
                 "scientific evidence",
-                "decision",
+                "evidence",
+                "decisions",
                 "program design",
                 "funding",
                 "implementation",
                 "management",
                 "practice",
                 "tension",
-                "standard",
+                "standards",
                 "Strategic Timing",
-                "influence policy",
                 "public managers",
                 "managers",
                 "success",
@@ -6603,7 +7499,6 @@
                 "limitations",
                 "such efforts",
                 "efforts",
-                "Evidence-Based Policy",
                 "performance management"
             ],
             "times_cited": 82,
@@ -7778,7 +8673,6 @@
                 }
             ]
         },
-        "abstract": "Both the evidence-based policy and performance management movements aim to improve government effectiveness by developing and utilizing a more rigorous base of information and scientific evidence to guide decisions about program design, funding, implementation, and management. In practice, however, differences and tensions between these movements—such as their methods and standards for assembling and analyzing data, and the strategic timing and use of this information to influence policy and hold public managers accountable for performance—could limit their success. Using cases and empirical studies, this article considers questions about what should count as evidence, how it should be communicated, who should judge the quality and reliability of evidence and performance information, and how to achieve a balance between processes that produce rigorous information for decision making and those that foster democratic governance and accountability. Recommendations are made for improving government effectiven...",
         "authors": [
             "author-888c35e5d0fb7dc4eba6"
         ],
@@ -7836,68 +8730,6 @@
             "status": "ok"
         },
         "doi": "10.1177/0275074007301957",
-        "keyphrases": {
-            "decision making": {
-                "count": 1,
-                "rank_score": 0.07768940503347281
-            },
-            "decisions": {
-                "count": 1,
-                "rank_score": 0.07327651795215882
-            },
-            "democratic governance": {
-                "count": 1,
-                "rank_score": 0.08181790224890292
-            },
-            "empirical studies": {
-                "count": 1,
-                "rank_score": 0.07765944772918747
-            },
-            "evidence": {
-                "count": 2,
-                "rank_score": 0.09001496654609094
-            },
-            "government": {
-                "count": 1,
-                "rank_score": 0.07666627832533951
-            },
-            "government effectiveness": {
-                "count": 1,
-                "rank_score": 0.08523375391199976
-            },
-            "information": {
-                "count": 3,
-                "rank_score": 0.09800571672698158
-            },
-            "management": {
-                "count": 1,
-                "rank_score": 0.06331356779082459
-            },
-            "performance": {
-                "count": 2,
-                "rank_score": 0.08964489412550093
-            },
-            "policy": {
-                "count": 1,
-                "rank_score": 0.07533112720406578
-            },
-            "program design": {
-                "count": 1,
-                "rank_score": 0.07158492930885654
-            },
-            "public managers": {
-                "count": 1,
-                "rank_score": 0.07165183134718396
-            },
-            "rigorous information": {
-                "count": 1,
-                "rank_score": 0.1137096573853183
-            },
-            "scientific evidence": {
-                "count": 1,
-                "rank_score": 0.09430037840897579
-            }
-        },
         "original": {
             "date_added": "2019-12-02 12:34:12",
             "doi": "10.1177/0275074007301957",
@@ -7948,9 +8780,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.264727.2",
+                        "email": "",
                         "first_name": "Sara",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Goldrick-Rab",
+                        "last_name_original": "",
                         "orcid": "['0000-0002-9352-2099']",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.0773352213.01"
                     },
                     {
@@ -7968,9 +8805,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.264727.2",
+                        "email": "",
                         "first_name": "Kathleen M.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Shaw",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.016040274556.92"
                     }
                 ]
@@ -7991,9 +8833,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.264727.2",
+                    "email": "",
                     "first_name": "Sara",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Goldrick-Rab",
+                    "last_name_original": "",
                     "orcid": "['0000-0002-9352-2099']",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.0773352213.01"
                 },
                 {
@@ -8011,24 +8858,29 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.264727.2",
+                    "email": "",
                     "first_name": "Kathleen M.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Shaw",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.016040274556.92"
                 }
             ],
             "category_for": [
                 {
-                    "id": "3416",
-                    "name": "1605 Policy and Administration"
+                    "id": "3243",
+                    "name": "1301 Education Systems"
                 },
                 {
-                    "id": "3448",
-                    "name": "1608 Sociology"
+                    "id": "3268",
+                    "name": "1303 Specialist Studies In Education"
                 },
                 {
-                    "id": "2216",
-                    "name": "16 Studies in Human Society"
+                    "id": "2213",
+                    "name": "13 Education"
                 }
             ],
             "category_ua": [
@@ -8080,7 +8932,6 @@
                 "enrollment",
                 "disadvantaged adults",
                 "state-level data",
-                "level data",
                 "authors",
                 "postsecondary education",
                 "education",
@@ -8100,17 +8951,15 @@
                 "findings",
                 "higher education opportunities",
                 "education opportunities",
-                "disadvantaged populations",
                 "population",
                 "ethnic differences",
                 "impact",
-                "work-first policy",
-                "first policy"
+                "work-first policy"
             ],
             "date": "2005-12-01",
             "date_inserted": "2017-08-31",
             "doi": "10.3102/01623737027004291",
-            "field_citation_ratio": 2.33,
+            "field_citation_ratio": 2.77,
             "id": "pub.1070972003",
             "issn": [
                 "0162-3737",
@@ -8123,8 +8972,9 @@
             },
             "journal_lists": [
                 "Norwegian register level 2",
+                "VABB-SHW",
                 "ERIH PLUS",
-                "VABB-SHW"
+                "ERA 2018"
             ],
             "open_access_categories": [
                 {
@@ -8137,19 +8987,19 @@
             "publisher": "American Educational Research Association (AERA)",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1058673189",
-                "pub.1018577372",
-                "pub.1007656565",
                 "pub.1035322894",
                 "pub.1063730898",
+                "pub.1007656565",
+                "pub.1018577372",
+                "pub.1058673189",
                 "pub.1024785877"
             ],
             "references": [
-                "pub.1058673189",
-                "pub.1018577372",
-                "pub.1007656565",
                 "pub.1035322894",
                 "pub.1063730898",
+                "pub.1007656565",
+                "pub.1018577372",
+                "pub.1058673189",
                 "pub.1024785877"
             ],
             "research_org_cities": [
@@ -8227,10 +9077,10 @@
                         "0000-0002-9352-2099"
                     ],
                     "research_orgs": [
-                        "grid.264727.2",
+                        "grid.28803.31",
                         "grid.25879.31",
-                        "grid.14003.36",
-                        "grid.28803.31"
+                        "grid.264727.2",
+                        "grid.14003.36"
                     ]
                 },
                 {
@@ -8279,7 +9129,6 @@
                 "enrollment",
                 "disadvantaged adults",
                 "state-level data",
-                "level data",
                 "authors",
                 "postsecondary education",
                 "education",
@@ -8299,12 +9148,10 @@
                 "findings",
                 "higher education opportunities",
                 "education opportunities",
-                "disadvantaged populations",
                 "population",
                 "ethnic differences",
                 "impact",
-                "work-first policy",
-                "first policy"
+                "work-first policy"
             ],
             "times_cited": 9,
             "title": "Racial and Ethnic Differences in the Impact of Work-First Policies on College Access",
@@ -8429,7 +9276,6 @@
                 }
             ]
         },
-        "abstract": "The college participation rates of African Americans and Latinos continue to lag behind those of other racial and ethnic groups in the United States, despite the efforts of financial aid and affirmative action policies. Two recent federal policies that are “work-first” in nature threaten to further exacerbate racial and ethnic disparities in college access. This article examines the complex ways in which the 1996 welfare reform and the 1998 Workforce Investment Act differentially affect opportunities for college enrollment among disadvantaged adults. Utilizing national and state-level data, the authors argue that both policies restrict access to postsecondary education through the implementation of their guiding philosophy, “work-first,” which emphasizes rapid job placement as the strategy of choice in achieving stable employment and moving out of poverty. These policies have reduced the size of the clientele receiving welfare and restricted access to education and training for those who remain on the rol...",
         "authors": [
             "author-1f37426fe802e71f24a4",
             "author-57b183b9f2857c9489cd"
@@ -8492,68 +9338,6 @@
             "status": "ok"
         },
         "doi": "10.3102/01623737027004291",
-        "keyphrases": {
-            "access": {
-                "count": 2,
-                "rank_score": 0.0802992719255673
-            },
-            "affirmative action policies": {
-                "count": 1,
-                "rank_score": 0.09610324748101007
-            },
-            "african americans": {
-                "count": 2,
-                "rank_score": 0.07421229782911597
-            },
-            "college access": {
-                "count": 1,
-                "rank_score": 0.10434146260066048
-            },
-            "college enrollment": {
-                "count": 1,
-                "rank_score": 0.09042492268074473
-            },
-            "disadvantaged adults": {
-                "count": 1,
-                "rank_score": 0.0608837234795303
-            },
-            "education": {
-                "count": 1,
-                "rank_score": 0.06995467480784051
-            },
-            "financial aid": {
-                "count": 1,
-                "rank_score": 0.07346689105201193
-            },
-            "other racial and ethnic groups": {
-                "count": 1,
-                "rank_score": 0.06509196993689806
-            },
-            "postsecondary education": {
-                "count": 1,
-                "rank_score": 0.0783598597251171
-            },
-            "racial and ethnic disparities": {
-                "count": 1,
-                "rank_score": 0.06211443063639922
-            },
-            "rapid job placement": {
-                "count": 1,
-                "rank_score": 0.08361307221776876
-            },
-            "stable employment": {
-                "count": 1,
-                "rank_score": 0.0780688793556178
-            },
-            "the college participation rates": {
-                "count": 1,
-                "rank_score": 0.059285286291913944
-            },
-            "workforce investment act": {
-                "count": 2,
-                "rank_score": 0.07565314460622788
-            }
-        },
         "original": {
             "date_added": "2019-12-02 12:34:12",
             "doi": "10.3102/01623737027004291",
