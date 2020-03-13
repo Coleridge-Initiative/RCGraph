@@ -1041,7 +1041,6 @@
                 }
             ]
         },
-        "abstract": "The study is focused on the disruption that a storm can cause to ocean stratification and ocean currents in a region dominated by a western boundary current and meso-scale variability. Sensitivity experiments with a regional numerical ocean model of the US East Coast are used to simulate different hurricane tracks to study the impact on the Gulf Stream (GS) flow, surrounding waters and coastal sea level. Realistic simulations of Hurricane Matthew (October 2016) using surface wind and heat flux from NOAA’s operational coupled forecast system were compared with idealized artificial hurricanes with tracks located at different distances from the coast (~ 200–600 km). Despite the limitation of representing realistic wind patterns by an analytical formula, coastal storm surge near the hurricane was simulated quite well. The height of the coastal storm surge was found to be very sensitive to the location of the hurricane track relative to the coast, but the impact of the hurricane on the GS flow was found to be less sensitive to the exact hurricane track, though the maximum influence was when the hurricane track passed ~ 100 km east of the GS with winds over the GS opposing the current direction. Hurricanes that passed within hundreds of kilometers from the GS caused disruption in the GS dynamics and weakening in the downstream flow of the GS that can last for many days after the storm disappeared. This indirect impact of hurricanes on the GS can elevate sea level along long stretches of the coast. The impact of a hurricane on a region dominated by meso-scale variability is complex, creating unpredictable spatial changes in temperatures and currents. After the hurricane disappeared and without additional surface heating, it may take the stratification as much as 2 months to recover to pre-hurricane conditions by advection alone. This lasting impact of a storm on ocean dynamics is consistent with observations that show minor tidal coastal flooding that lasts for days after hurricanes passed offshore.",
         "authors": [
             "author-c8d782ebf1a3ae65f239"
         ],
@@ -1090,68 +1089,6 @@
             "status": "ok"
         },
         "doi": "10.1007/s10236-019-01289-9",
-        "keyphrases": {
-            "coastal sea level": {
-                "count": 1,
-                "rank_score": 0.08858993734734724
-            },
-            "different hurricane tracks": {
-                "count": 1,
-                "rank_score": 0.10768078294315975
-            },
-            "gs": {
-                "count": 13,
-                "rank_score": 0.08911760596828625
-            },
-            "hurricanes": {
-                "count": 7,
-                "rank_score": 0.09555422930104718
-            },
-            "idealized artificial hurricanes": {
-                "count": 1,
-                "rank_score": 0.09277983014326228
-            },
-            "minor tidal coastal flooding": {
-                "count": 1,
-                "rank_score": 0.08210191958923986
-            },
-            "ocean currents": {
-                "count": 1,
-                "rank_score": 0.07327736387144791
-            },
-            "ocean dynamics": {
-                "count": 1,
-                "rank_score": 0.06842449380845855
-            },
-            "pre-hurricane conditions": {
-                "count": 1,
-                "rank_score": 0.0736443075085537
-            },
-            "realistic wind patterns": {
-                "count": 1,
-                "rank_score": 0.07502782782581169
-            },
-            "sea level": {
-                "count": 1,
-                "rank_score": 0.06650990072404916
-            },
-            "the exact hurricane track": {
-                "count": 1,
-                "rank_score": 0.0662213754573854
-            },
-            "the hurricane track": {
-                "count": 2,
-                "rank_score": 0.06339048017523942
-            },
-            "tracks": {
-                "count": 1,
-                "rank_score": 0.06740142042692042
-            },
-            "unpredictable spatial changes": {
-                "count": 1,
-                "rank_score": 0.06291724599840355
-            }
-        },
         "original": {
             "date_added": "2020-01-10 14:37:25",
             "doi": "10.1007/s10236-019-01289-9",
@@ -1161,6 +1098,515 @@
             "url": "https://link.springer.com/article/10.1007%2Fs10236-019-01289-9"
         },
         "title": "Numerical modeling of the impact of hurricanes on ocean dynamics: sensitivity of the Gulf Stream response to storm's track"
+    },
+    {
+        "Dimensions": {
+            "FOR": [
+                {
+                    "id": "2891",
+                    "name": "0909 Geomatic Engineering"
+                }
+            ],
+            "FOR_first": [
+                {
+                    "id": "2209",
+                    "name": "09 Engineering"
+                }
+            ],
+            "author_affiliations": [
+                [
+                    {
+                        "affiliations": [
+                            {
+                                "name": "Coastal Education and Research Foundation (CERF) Coconut Creek, FL 33073, U.S.A., philwatson.slr@gmail.com"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.473544.5",
+                        "email": "philwatson.slr@gmail.com",
+                        "first_name": "Phil J.",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "Watson",
+                        "last_name_original": "",
+                        "orcid": "",
+                        "raw_affiliation_original": [],
+                        "researcher_id": "ur.015415107227.16"
+                    }
+                ]
+            ],
+            "authors": [
+                {
+                    "affiliations": [
+                        {
+                            "name": "Coastal Education and Research Foundation (CERF) Coconut Creek, FL 33073, U.S.A., philwatson.slr@gmail.com"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.473544.5",
+                    "email": "philwatson.slr@gmail.com",
+                    "first_name": "Phil J.",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "Watson",
+                    "last_name_original": "",
+                    "orcid": "",
+                    "raw_affiliation_original": [],
+                    "researcher_id": "ur.015415107227.16"
+                }
+            ],
+            "category_for": [
+                {
+                    "id": "2209",
+                    "name": "09 Engineering"
+                },
+                {
+                    "id": "2891",
+                    "name": "0909 Geomatic Engineering"
+                }
+            ],
+            "category_ua": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
+            "concepts": [
+                "satellite altimetry",
+                "altimetry",
+                "tide gauge data",
+                "gauge data",
+                "vertical land motion",
+                "land motion",
+                "motion",
+                "coastal research",
+                "Coconut Creek",
+                "Creek",
+                "ISSN 0749",
+                "planning",
+                "sea-level rise",
+                "scale",
+                "tide gauge sites",
+                "gauge sites",
+                "technology",
+                "Global Navigation Satellite System",
+                "Navigation Satellite System",
+                "satellite systems",
+                "system",
+                "spatial coverage",
+                "length",
+                "data records",
+                "gauge",
+                "world's coastlines",
+                "coastline",
+                "GNSS data",
+                "method",
+                "gauge technique",
+                "technique",
+                "shelf",
+                "satellite altimetry products",
+                "altimetry products",
+                "products",
+                "use",
+                "location",
+                "constraints",
+                "tide gauges",
+                "open coast",
+                "coast",
+                "GNSS solutions",
+                "solution",
+                "NASA JPL",
+                "JPL",
+                "Nevada Geodetic Laboratory",
+                "Geodetic Laboratory",
+                "laboratory",
+                "VLM estimates",
+                "limitations",
+                "sea surface height measurements",
+                "surface height measurements",
+                "height measurements",
+                "measurements",
+                "coastal zone",
+                "zone",
+                "results"
+            ],
+            "date": "2019-08-22",
+            "date_inserted": "2019-11-01",
+            "doi": "10.2112/jcoastres-d-19-00031.1",
+            "funder_countries": [
+                {
+                    "id": "US",
+                    "name": "United States"
+                },
+                {
+                    "id": "DE",
+                    "name": "Germany"
+                }
+            ],
+            "funders": [
+                {
+                    "acronym": "NOAA",
+                    "city_name": "Washington D.C.",
+                    "country_name": "United States",
+                    "id": "grid.3532.7",
+                    "latitude": 38.894806,
+                    "linkout": [
+                        "http://www.noaa.gov/"
+                    ],
+                    "longitude": -77.03173,
+                    "name": "National Oceanic and Atmospheric Administration",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
+                },
+                {
+                    "acronym": "BMVI",
+                    "city_name": "Berlin",
+                    "country_name": "Germany",
+                    "id": "grid.425108.a",
+                    "latitude": 52.57749,
+                    "linkout": [
+                        "http://www.bmvi.de/EN/Home/home_node.html"
+                    ],
+                    "longitude": 13.351061,
+                    "name": "Federal Ministry of Transport and Digital Infrastructure",
+                    "types": [
+                        "Government"
+                    ]
+                },
+                {
+                    "acronym": "JPL",
+                    "city_name": "La Cañada Flintridge",
+                    "country_name": "United States",
+                    "id": "grid.211367.0",
+                    "latitude": 34.201694,
+                    "linkout": [
+                        "http://www.jpl.nasa.gov/"
+                    ],
+                    "longitude": -118.17167,
+                    "name": "Jet Propulsion Lab",
+                    "state_name": "California",
+                    "types": [
+                        "Facility"
+                    ]
+                }
+            ],
+            "id": "pub.1122198932",
+            "issn": [
+                "0749-0208",
+                "1551-5036"
+            ],
+            "issue": "6",
+            "journal": {
+                "id": "jour.1137383",
+                "title": "Journal of Coastal Research"
+            },
+            "journal_lists": [
+                "Norwegian register level 1",
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "open_access_categories": [
+                {
+                    "description": "No freely available copy has been identified",
+                    "id": "closed",
+                    "name": "Closed"
+                }
+            ],
+            "pages": "1131-1144",
+            "publisher": "Coastal Education and Research Foundation",
+            "reference_ids": [
+                "pub.1085962903",
+                "pub.1031719237",
+                "pub.1059638128",
+                "pub.1049162696",
+                "pub.1041295686",
+                "pub.1044514956",
+                "pub.1045470640",
+                "pub.1045363316",
+                "pub.1074201709",
+                "pub.1022287214",
+                "pub.1012703690",
+                "pub.1062460073",
+                "pub.1036719991",
+                "pub.1037292889",
+                "pub.1013336993",
+                "pub.1006590736",
+                "pub.1016819133",
+                "pub.1019415928",
+                "pub.1029728705",
+                "pub.1112109008",
+                "pub.1052165414",
+                "pub.1048040266",
+                "pub.1111791244",
+                "pub.1019293924",
+                "pub.1019634776",
+                "pub.1019455231",
+                "pub.1107245387",
+                "pub.1092522863",
+                "pub.1104601079",
+                "pub.1101387422",
+                "pub.1032727883",
+                "pub.1000255550",
+                "pub.1002910868",
+                "pub.1100998094",
+                "pub.1013273127",
+                "pub.1051675379",
+                "pub.1101530821",
+                "pub.1004584379",
+                "pub.1027742761",
+                "pub.1011986726",
+                "pub.1008195468",
+                "pub.1052632392"
+            ],
+            "references": [
+                "pub.1085962903",
+                "pub.1031719237",
+                "pub.1059638128",
+                "pub.1049162696",
+                "pub.1041295686",
+                "pub.1044514956",
+                "pub.1045470640",
+                "pub.1045363316",
+                "pub.1074201709",
+                "pub.1022287214",
+                "pub.1012703690",
+                "pub.1062460073",
+                "pub.1036719991",
+                "pub.1037292889",
+                "pub.1013336993",
+                "pub.1006590736",
+                "pub.1016819133",
+                "pub.1019415928",
+                "pub.1029728705",
+                "pub.1112109008",
+                "pub.1052165414",
+                "pub.1048040266",
+                "pub.1111791244",
+                "pub.1019293924",
+                "pub.1019634776",
+                "pub.1019455231",
+                "pub.1107245387",
+                "pub.1092522863",
+                "pub.1104601079",
+                "pub.1101387422",
+                "pub.1032727883",
+                "pub.1000255550",
+                "pub.1002910868",
+                "pub.1100998094",
+                "pub.1013273127",
+                "pub.1051675379",
+                "pub.1101530821",
+                "pub.1004584379",
+                "pub.1027742761",
+                "pub.1011986726",
+                "pub.1008195468",
+                "pub.1052632392"
+            ],
+            "research_org_cities": [
+                {
+                    "id": 3067696,
+                    "name": "Prague"
+                },
+                {
+                    "id": 5234372,
+                    "name": "Burlington"
+                }
+            ],
+            "research_org_countries": [
+                {
+                    "id": "US",
+                    "name": "United States"
+                },
+                {
+                    "id": "CZ",
+                    "name": "Czechia"
+                }
+            ],
+            "research_org_country_names": [
+                "Czechia",
+                "United States"
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-VT",
+                    "name": "Vermont"
+                }
+            ],
+            "research_org_state_names": [
+                "Vermont"
+            ],
+            "researchers": [
+                {
+                    "first_name": "Phil J",
+                    "id": "ur.015415107227.16",
+                    "last_name": "Watson",
+                    "research_orgs": [
+                        "grid.473544.5"
+                    ]
+                }
+            ],
+            "terms": [
+                "satellite altimetry",
+                "altimetry",
+                "tide gauge data",
+                "gauge data",
+                "vertical land motion",
+                "land motion",
+                "motion",
+                "coastal research",
+                "Coconut Creek",
+                "Creek",
+                "ISSN 0749",
+                "planning",
+                "sea-level rise",
+                "scale",
+                "tide gauge sites",
+                "gauge sites",
+                "technology",
+                "Global Navigation Satellite System",
+                "Navigation Satellite System",
+                "satellite systems",
+                "system",
+                "spatial coverage",
+                "length",
+                "data records",
+                "gauge",
+                "world's coastlines",
+                "coastline",
+                "GNSS data",
+                "method",
+                "gauge technique",
+                "technique",
+                "shelf",
+                "satellite altimetry products",
+                "altimetry products",
+                "products",
+                "use",
+                "location",
+                "constraints",
+                "tide gauges",
+                "open coast",
+                "coast",
+                "GNSS solutions",
+                "solution",
+                "NASA JPL",
+                "JPL",
+                "Nevada Geodetic Laboratory",
+                "Geodetic Laboratory",
+                "laboratory",
+                "VLM estimates",
+                "limitations",
+                "sea surface height measurements",
+                "surface height measurements",
+                "height measurements",
+                "measurements",
+                "coastal zone",
+                "zone",
+                "results"
+            ],
+            "title": "An Assessment of the Utility of Satellite Altimetry and Tide Gauge Data (ALT-TG) as a Proxy for Estimating Vertical Land Motion",
+            "type": "article",
+            "volume": "35",
+            "year": 2019
+        },
+        "Unpaywall": {
+            "best_oa_location": null,
+            "data_standard": 2,
+            "doi": "10.2112/jcoastres-d-19-00031.1",
+            "doi_url": "https://doi.org/10.2112/jcoastres-d-19-00031.1",
+            "genre": "journal-article",
+            "has_repository_copy": false,
+            "is_oa": false,
+            "journal_is_in_doaj": false,
+            "journal_is_oa": false,
+            "journal_issn_l": "0749-0208",
+            "journal_issns": "0749-0208",
+            "journal_name": "Journal of Coastal Research",
+            "oa_locations": [],
+            "oa_status": "closed",
+            "published_date": "2019-08-22",
+            "publisher": "Coastal Education and Research Foundation",
+            "title": "An Assessment of the Utility of Satellite Altimetry and Tide Gauge Data (ALT-TG) as a Proxy for Estimating Vertical Land Motion",
+            "updated": "2019-10-31T21:02:58.377387",
+            "year": 2019,
+            "z_authors": [
+                {
+                    "affiliation": [
+                        {
+                            "name": "Coastal Education and Research Foundation (CERF) Coconut Creek, FL 33073, U.S.A. philwatson.slr@gmail.com"
+                        }
+                    ],
+                    "family": "Watson",
+                    "given": "Phil J.",
+                    "sequence": "first"
+                }
+            ]
+        },
+        "authors": [
+            "author-dcac1aeb3d05fd443b1e"
+        ],
+        "datasets": [
+            "dataset-614"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "affiliation": "Coastal Education and Research Foundation (CERF) Coconut Creek, FL 33073, U.S.A. philwatson.slr@gmail.com",
+                        "name": {
+                            "first": "Phil J.",
+                            "last": "Watson"
+                        }
+                    }
+                ],
+                "classification": "NOK",
+                "date": "2019-08-22",
+                "records": [
+                    {
+                        "abstract": "",
+                        "doi": "10.2112/jcoastres-d-19-00031.1",
+                        "identifier": "oai:crossref.org:10.2112/jcoastres-d-19-00031.1",
+                        "issn": "0749-0208",
+                        "issue": "6",
+                        "journal": "Journal of Coastal Research",
+                        "pages": "1131",
+                        "pdf_url": "",
+                        "policy": {
+                            "postprint": "cannot",
+                            "preprint": "cannot",
+                            "published": "unknown",
+                            "romeo_id": "547"
+                        },
+                        "publisher": "Coastal Education and Research Foundation",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.2112/jcoastres-d-19-00031.1",
+                        "type": "journal-article",
+                        "volume": "35"
+                    }
+                ],
+                "title": "An Assessment of the Utility of Satellite Altimetry and Tide Gauge Data (ALT-TG) as a Proxy for Estimating Vertical Land Motion",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
+        "doi": "10.2112/jcoastres-d-19-00031.1",
+        "original": {
+            "date_added": "2020-01-10 14:37:25",
+            "doi": "10.2112/jcoastres-d-19-00031.1",
+            "journal": "Journal of Coastal Research",
+            "pdf": "https://bioone.org/journalArticle/Download?fullDOI=10.2112%2FJCOASTRES-D-19-00031.1",
+            "search_term": "Tide gauge data"
+        },
+        "title": "An Assessment of the Utility of Satellite Altimetry and Tide Gauge Data (ALT-TG) as a Proxy for Estimating Vertical Land Motion"
     },
     {
         "Dimensions": {
@@ -1205,9 +1651,14 @@
                         ],
                         "corresponding": true,
                         "current_organization_id": "grid.22072.35",
+                        "email": "ravi.sankar@ucalgary.ca",
                         "first_name": "Ravi D.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Sankar",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.012766273345.93"
                     },
                     {
@@ -1225,9 +1676,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.170430.1",
+                        "email": "",
                         "first_name": "Joseph F.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Donoghue",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.012634727704.84"
                     },
                     {
@@ -1245,9 +1701,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.255986.5",
+                        "email": "",
                         "first_name": "Stephen A.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Kish",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.014227670704.48"
                     }
                 ]
@@ -1278,9 +1739,14 @@
                     ],
                     "corresponding": true,
                     "current_organization_id": "grid.22072.35",
+                    "email": "ravi.sankar@ucalgary.ca",
                     "first_name": "Ravi D.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Sankar",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.012766273345.93"
                 },
                 {
@@ -1298,9 +1764,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.170430.1",
+                    "email": "",
                     "first_name": "Joseph F.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Donoghue",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.012634727704.84"
                 },
                 {
@@ -1318,9 +1789,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.255986.5",
+                    "email": "",
                     "first_name": "Stephen A.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Kish",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.014227670704.48"
                 }
             ],
@@ -1349,110 +1825,64 @@
             "concepts": [
                 "recent projections",
                 "projections",
-                "global climate change",
-                "climate change",
-                "changes",
-                "improved methodology",
-                "shoreline variability",
+                "necessitates",
                 "variability",
                 "analysis",
-                "shoreline movement",
                 "movement",
                 "important information",
                 "information",
-                "boundaries",
-                "shoreline change trends",
-                "change trend",
+                "intervention policies",
                 "trends",
                 "special emphasis",
+                "emphasis",
                 "recent rates",
                 "rate",
+                "changes",
                 "period",
-                "storm conditions",
-                "conditions",
-                "small segment",
                 "segments",
-                "order of tens",
-                "order",
-                "tens",
-                "kilometers",
                 "Islands region",
                 "region",
-                "Florida's Gulf",
-                "Gulf",
-                "Atlantic coast",
-                "coast",
+                "study",
                 "overall average rate",
                 "average rate",
-                "St. George Island",
-                "George Island",
-                "islands",
                 "years",
-                "shoreline segments",
-                "storm clustering",
-                "retreat rates",
                 "portion",
-                "northern portion",
-                "Merritt Island",
-                "Florida's Atlantic coast",
+                "barriers",
                 "overall mean rate",
                 "mean rate",
-                "shoreline",
-                "dynamic equilibrium",
-                "equilibrium",
                 "direct contrast",
                 "contrast",
-                "transect",
-                "oceanfront",
+                "majority",
                 "long term",
-                "seaward advance",
                 "advances",
-                "results",
                 "episodes",
-                "storm activity",
-                "return intervals",
-                "interval",
-                "dramatic morphological alterations",
-                "alterations",
-                "beach recovery",
+                "activity",
+                "intervals",
+                "recovery",
                 "data",
-                "tidal inlet dynamics",
-                "inlet dynamics",
-                "dynamics",
-                "shoreline orientation",
-                "orientation",
-                "engineering projects",
-                "project",
-                "temporal scales",
                 "scale",
-                "shoreline evolution",
-                "evolution",
-                "bathymetry",
-                "presence of shoals",
-                "presence",
-                "shoals",
-                "influence",
-                "local segments",
-                "Islands segment",
-                "Florida coast"
+                "influence"
             ],
             "date": "2018-12-01",
             "date_inserted": "2018-07-21",
             "doi": "10.1007/s12237-018-0426-3",
             "id": "pub.1105706737",
             "issn": [
+                "0160-8347",
+                "1559-2758",
                 "1559-2723",
                 "1559-2731"
             ],
             "issue": "8",
             "journal": {
                 "id": "jour.1295073",
-                "title": "Chesapeake Science"
+                "title": "Estuaries and Coasts"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
             ],
             "open_access_categories": [
                 {
@@ -1464,70 +1894,70 @@
             "pages": "2191-2211",
             "publisher": "Springer Nature",
             "reference_ids": [
-                "pub.1043200728",
-                "pub.1015284542",
-                "pub.1096191731",
-                "pub.1051260706",
-                "pub.1005906182",
-                "pub.1053138758",
-                "pub.1017188835",
-                "pub.1015383542",
-                "pub.1014884073",
-                "pub.1035185556",
-                "pub.1051677911",
-                "pub.1058638706",
                 "pub.1051903550",
-                "pub.1038355018",
-                "pub.1009241315",
-                "pub.1012202669",
-                "pub.1042086140",
-                "pub.1010559256",
-                "pub.1034892620",
-                "pub.1008259963",
-                "pub.1047464314",
-                "pub.1040432774",
-                "pub.1022628237",
+                "pub.1051677911",
                 "pub.1012212685",
-                "pub.1008049989",
-                "pub.1039748776",
-                "pub.1008235490",
-                "pub.1049595369",
                 "pub.1020001573",
+                "pub.1022628237",
+                "pub.1015284542",
+                "pub.1058638706",
+                "pub.1009241315",
+                "pub.1005906182",
+                "pub.1042086140",
+                "pub.1096191731",
+                "pub.1039748776",
+                "pub.1012202669",
+                "pub.1049595369",
+                "pub.1035185556",
+                "pub.1038355018",
+                "pub.1014884073",
+                "pub.1015383542",
+                "pub.1047464314",
+                "pub.1010559256",
+                "pub.1008049989",
+                "pub.1017188835",
                 "pub.1024442962",
-                "pub.1011513903"
+                "pub.1011513903",
+                "pub.1040432774",
+                "pub.1008235490",
+                "pub.1008259963",
+                "pub.1051260706",
+                "pub.1053138758",
+                "pub.1034892620",
+                "pub.1043200728"
             ],
             "references": [
-                "pub.1043200728",
-                "pub.1015284542",
-                "pub.1096191731",
-                "pub.1051260706",
-                "pub.1005906182",
-                "pub.1053138758",
-                "pub.1017188835",
-                "pub.1015383542",
-                "pub.1014884073",
-                "pub.1035185556",
-                "pub.1051677911",
-                "pub.1058638706",
                 "pub.1051903550",
-                "pub.1038355018",
-                "pub.1009241315",
-                "pub.1012202669",
-                "pub.1042086140",
-                "pub.1010559256",
-                "pub.1034892620",
-                "pub.1008259963",
-                "pub.1047464314",
-                "pub.1040432774",
-                "pub.1022628237",
+                "pub.1051677911",
                 "pub.1012212685",
-                "pub.1008049989",
-                "pub.1039748776",
-                "pub.1008235490",
-                "pub.1049595369",
                 "pub.1020001573",
+                "pub.1022628237",
+                "pub.1015284542",
+                "pub.1058638706",
+                "pub.1009241315",
+                "pub.1005906182",
+                "pub.1042086140",
+                "pub.1096191731",
+                "pub.1039748776",
+                "pub.1012202669",
+                "pub.1049595369",
+                "pub.1035185556",
+                "pub.1038355018",
+                "pub.1014884073",
+                "pub.1015383542",
+                "pub.1047464314",
+                "pub.1010559256",
+                "pub.1008049989",
+                "pub.1017188835",
                 "pub.1024442962",
-                "pub.1011513903"
+                "pub.1011513903",
+                "pub.1040432774",
+                "pub.1008235490",
+                "pub.1008259963",
+                "pub.1051260706",
+                "pub.1053138758",
+                "pub.1034892620",
+                "pub.1043200728"
             ],
             "research_org_cities": [
                 {
@@ -1545,12 +1975,12 @@
             ],
             "research_org_countries": [
                 {
-                    "id": "US",
-                    "name": "United States"
-                },
-                {
                     "id": "CA",
                     "name": "Canada"
+                },
+                {
+                    "id": "US",
+                    "name": "United States"
                 }
             ],
             "research_org_country_names": [
@@ -1568,26 +1998,10 @@
                 }
             ],
             "research_org_state_names": [
-                "Alberta",
-                "Florida"
+                "Florida",
+                "Alberta"
             ],
             "research_orgs": [
-                {
-                    "acronym": "FSU",
-                    "city_name": "Tallahassee",
-                    "country_name": "United States",
-                    "id": "grid.255986.5",
-                    "latitude": 30.442247,
-                    "linkout": [
-                        "https://www.fsu.edu/"
-                    ],
-                    "longitude": -84.29918,
-                    "name": "Florida State University",
-                    "state_name": "Florida",
-                    "types": [
-                        "Education"
-                    ]
-                },
                 {
                     "acronym": "UoC",
                     "city_name": "Calgary",
@@ -1619,6 +2033,22 @@
                     "types": [
                         "Education"
                     ]
+                },
+                {
+                    "acronym": "FSU",
+                    "city_name": "Tallahassee",
+                    "country_name": "United States",
+                    "id": "grid.255986.5",
+                    "latitude": 30.442247,
+                    "linkout": [
+                        "https://www.fsu.edu/"
+                    ],
+                    "longitude": -84.29918,
+                    "name": "Florida State University",
+                    "state_name": "Florida",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -1627,8 +2057,8 @@
                     "id": "ur.012766273345.93",
                     "last_name": "Sankar",
                     "research_orgs": [
-                        "grid.255986.5",
-                        "grid.22072.35"
+                        "grid.22072.35",
+                        "grid.255986.5"
                     ]
                 },
                 {
@@ -1636,9 +2066,9 @@
                     "id": "ur.012634727704.84",
                     "last_name": "Donoghue",
                     "research_orgs": [
-                        "grid.170430.1",
                         "grid.65519.3e",
-                        "grid.255986.5"
+                        "grid.255986.5",
+                        "grid.170430.1"
                     ]
                 },
                 {
@@ -1653,92 +2083,43 @@
             "terms": [
                 "recent projections",
                 "projections",
-                "global climate change",
-                "climate change",
-                "changes",
-                "improved methodology",
-                "shoreline variability",
+                "necessitates",
                 "variability",
                 "analysis",
-                "shoreline movement",
                 "movement",
                 "important information",
                 "information",
-                "boundaries",
-                "shoreline change trends",
-                "change trend",
+                "intervention policies",
                 "trends",
                 "special emphasis",
+                "emphasis",
                 "recent rates",
                 "rate",
+                "changes",
                 "period",
-                "storm conditions",
-                "conditions",
-                "small segment",
                 "segments",
-                "order of tens",
-                "order",
-                "tens",
-                "kilometers",
                 "Islands region",
                 "region",
-                "Florida's Gulf",
-                "Gulf",
-                "Atlantic coast",
-                "coast",
+                "study",
                 "overall average rate",
                 "average rate",
-                "St. George Island",
-                "George Island",
-                "islands",
                 "years",
-                "shoreline segments",
-                "storm clustering",
-                "retreat rates",
                 "portion",
-                "northern portion",
-                "Merritt Island",
-                "Florida's Atlantic coast",
+                "barriers",
                 "overall mean rate",
                 "mean rate",
-                "shoreline",
-                "dynamic equilibrium",
-                "equilibrium",
                 "direct contrast",
                 "contrast",
-                "transect",
-                "oceanfront",
+                "majority",
                 "long term",
-                "seaward advance",
                 "advances",
-                "results",
                 "episodes",
-                "storm activity",
-                "return intervals",
-                "interval",
-                "dramatic morphological alterations",
-                "alterations",
-                "beach recovery",
+                "activity",
+                "intervals",
+                "recovery",
                 "data",
-                "tidal inlet dynamics",
-                "inlet dynamics",
-                "dynamics",
-                "shoreline orientation",
-                "orientation",
-                "engineering projects",
-                "project",
-                "temporal scales",
                 "scale",
-                "shoreline evolution",
-                "evolution",
-                "bathymetry",
-                "presence of shoals",
-                "presence",
-                "shoals",
-                "influence",
-                "local segments",
-                "Islands segment",
-                "Florida coast"
+                "influence"
             ],
             "title": "Mapping Shoreline Variability of Two Barrier Island Segments Along the Florida Coast",
             "type": "article",
@@ -3320,7 +3701,6 @@
                 }
             ]
         },
-        "abstract": "Recent projections of global climate change necessitate improved methodologies that quantify shoreline variability. Updated analyses of shoreline movement provide important information that can aid and inform likely intervention policies. This paper uses the Analyzing Moving Boundaries Using R (AMBUR) technique to evaluate shoreline change trends over the time period 1856 to 2015. Special emphasis was placed on recent rates of change, during the 1994 to 2015 period of active storm conditions. Small segments, on the order of tens of kilometers, along two sandy barrier island regions on Florida’s Gulf and Atlantic coasts were chosen for this study. The overall average rate of change over the 159-year period along Little St. George Island was − 0.62 ± 0.12 m/year, with approximately 65% of shoreline segments eroding and 35% advancing. During periods of storm clustering (1994–2015), retreat rates along portions of this Gulf coast barrier accelerated to − 5.49 ± 1.4 m/year. Along the northern portion of Merritt Island on Florida’s Atlantic coast, the overall mean rate of change was 0.22 ± 0.08 m/year, indicative of a shoreline in a state of relative dynamic equilibrium. In direct contrast with the Gulf coast shoreline segment, the majority of transects (65%) evaluated along the oceanfront of Merritt Island over the long term displayed a seaward advance. Results indicate that episodes of clustered storm activity with fairly quick return intervals generally produce dramatic morphological alteration of the coast and can delay natural beach recovery. Additionally, the data show that tidal inlet dynamics, shoreline orientation, along with engineering projects, act over a variety of spatial and temporal scales to influence shoreline evolution. Further, the trends of shoreline movement observed in this study indicate that nearshore bathymetry—the presence of shoals—wields some influence on the behavior of local segments of the shoreline.",
         "authors": [
             "author-e7cee6fdb689fa6b3746",
             "author-cbe7d7e87f3340ddc085",
@@ -3377,68 +3757,6 @@
             "status": "ok"
         },
         "doi": "10.1007/s12237-018-0426-3",
-        "keyphrases": {
-            "change": {
-                "count": 3,
-                "rank_score": 0.06556001458521873
-            },
-            "clustered storm activity": {
-                "count": 1,
-                "rank_score": 0.06648170073380727
-            },
-            "global climate change": {
-                "count": 1,
-                "rank_score": 0.07450328662209472
-            },
-            "gulf coast": {
-                "count": 1,
-                "rank_score": 0.08350967152952786
-            },
-            "little st. george island": {
-                "count": 2,
-                "rank_score": 0.07058889079369672
-            },
-            "local segments": {
-                "count": 1,
-                "rank_score": 0.06594277208446525
-            },
-            "merritt island": {
-                "count": 4,
-                "rank_score": 0.06823523669069906
-            },
-            "recent rates": {
-                "count": 1,
-                "rank_score": 0.0669700823171803
-            },
-            "shoreline change trends": {
-                "count": 1,
-                "rank_score": 0.10895534816855626
-            },
-            "shoreline evolution": {
-                "count": 1,
-                "rank_score": 0.09654352078728942
-            },
-            "shoreline movement": {
-                "count": 2,
-                "rank_score": 0.10404279909402822
-            },
-            "shoreline orientation": {
-                "count": 1,
-                "rank_score": 0.09651177049359352
-            },
-            "shoreline segments": {
-                "count": 1,
-                "rank_score": 0.10977133955779743
-            },
-            "shoreline variability": {
-                "count": 1,
-                "rank_score": 0.09633223722388964
-            },
-            "the gulf coast shoreline segment": {
-                "count": 1,
-                "rank_score": 0.0802611868134876
-            }
-        },
         "original": {
             "date_added": "2020-01-10 14:37:25",
             "doi": "10.1007/s12237-018-0426-3",
@@ -3480,9 +3798,14 @@
                         ],
                         "corresponding": true,
                         "current_organization_id": "grid.131063.6",
+                        "email": "wpringle@nd.edu",
                         "first_name": "William J.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Pringle",
+                        "last_name_original": "",
                         "orcid": "['0000-0002-2877-4812']",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.015760007751.56"
                     },
                     {
@@ -3500,9 +3823,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.131063.6",
+                        "email": "",
                         "first_name": "Damrongsak",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Wirasaet",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.015423142575.76"
                     },
                     {
@@ -3520,9 +3848,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
+                        "email": "",
                         "first_name": "Andika",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Suhardjo",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
@@ -3540,9 +3873,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.284601.9",
+                        "email": "",
                         "first_name": "Jessica",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Meixner",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.014522516613.65"
                     },
                     {
@@ -3560,9 +3898,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.131063.6",
+                        "email": "",
                         "first_name": "Joannes J.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Westerink",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.014417456250.29"
                     },
                     {
@@ -3580,9 +3923,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.131063.6",
+                        "email": "",
                         "first_name": "Andrew B.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Kennedy",
+                        "last_name_original": "",
                         "orcid": "['0000-0002-7254-1346']",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.013302543641.53"
                     },
                     {
@@ -3600,9 +3948,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.501061.3",
+                        "email": "",
                         "first_name": "Shangyao",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Nong",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.013026227410.18"
                     }
                 ]
@@ -3623,9 +3976,14 @@
                     ],
                     "corresponding": true,
                     "current_organization_id": "grid.131063.6",
+                    "email": "wpringle@nd.edu",
                     "first_name": "William J.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Pringle",
+                    "last_name_original": "",
                     "orcid": "['0000-0002-2877-4812']",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.015760007751.56"
                 },
                 {
@@ -3643,9 +4001,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.131063.6",
+                    "email": "",
                     "first_name": "Damrongsak",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Wirasaet",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.015423142575.76"
                 },
                 {
@@ -3663,9 +4026,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
+                    "email": "",
                     "first_name": "Andika",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Suhardjo",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
@@ -3683,9 +4051,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.284601.9",
+                    "email": "",
                     "first_name": "Jessica",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Meixner",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.014522516613.65"
                 },
                 {
@@ -3703,9 +4076,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.131063.6",
+                    "email": "",
                     "first_name": "Joannes J.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Westerink",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.014417456250.29"
                 },
                 {
@@ -3723,9 +4101,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.131063.6",
+                    "email": "",
                     "first_name": "Andrew B.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Kennedy",
+                    "last_name_original": "",
                     "orcid": "['0000-0002-7254-1346']",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.013302543641.53"
                 },
                 {
@@ -3743,9 +4126,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.501061.3",
+                    "email": "",
                     "first_name": "Shangyao",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Nong",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.013026227410.18"
                 }
             ],
@@ -3772,8 +4160,6 @@
                 }
             ],
             "concepts": [
-                "unstructured grids",
-                "grid",
                 "barotropic model",
                 "model",
                 "tidal dynamics",
@@ -3783,23 +4169,20 @@
                 "Pacific Ocean",
                 "Ocean",
                 "sub-kilometer scales",
-                "kilometer scale",
                 "scale",
                 "coast",
                 "model-data comparison",
-                "data comparison",
                 "comparison",
                 "capability",
-                "average root-mean",
-                "root-mean",
-                "means",
+                "limitations",
                 "square discrepancy",
                 "discrepancy",
                 "tidal elevations",
-                "elevation",
                 "coastal tide gauges",
                 "tide gauges",
                 "gauge",
+                "global data",
+                "data",
                 "barotropic tidal model",
                 "tidal model",
                 "lateral boundary conditions",
@@ -3808,18 +4191,17 @@
                 "bathymetry",
                 "dissipative processes",
                 "process",
-                "large-scale barotropic",
-                "barotropic",
+                "barotropic modeling",
+                "modeling",
                 "region",
                 "resonant effects",
-                "diurnal mode",
                 "mode",
-                "specified boundary conditions",
-                "generation layer",
                 "layer",
                 "boundaries",
                 "parameterization",
                 "energy conversion",
+                "conversion",
+                "important aspect",
                 "water solution",
                 "solution",
                 "RMS discrepancies",
@@ -3851,7 +4233,7 @@
                 "potential",
                 "applications",
                 "range",
-                "wind",
+                "wind-driven surge",
                 "surge",
                 "tidal processes",
                 "Finite-Element Barotropic Model"
@@ -3859,7 +4241,7 @@
             "date": "2018-09-01",
             "date_inserted": "2018-07-21",
             "doi": "10.1016/j.ocemod.2018.07.003",
-            "field_citation_ratio": 0.94,
+            "field_citation_ratio": 0.98,
             "funder_countries": [
                 {
                     "id": "US",
@@ -3878,22 +4260,6 @@
                     ],
                     "longitude": -77.10891,
                     "name": "Office of Naval Research",
-                    "state_name": "Virginia",
-                    "types": [
-                        "Government"
-                    ]
-                },
-                {
-                    "acronym": "DON",
-                    "city_name": "Arlington",
-                    "country_name": "United States",
-                    "id": "grid.420434.5",
-                    "latitude": 38.894955,
-                    "linkout": [
-                        "http://www.navy.mil/"
-                    ],
-                    "longitude": -77.02325,
-                    "name": "United States Department of the Navy",
                     "state_name": "Virginia",
                     "types": [
                         "Government"
@@ -3927,9 +4293,10 @@
                 "title": "Ocean Modelling"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
             ],
             "open_access_categories": [
                 {
@@ -3942,142 +4309,142 @@
             "publisher": "Elsevier",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1071117385",
-                "pub.1037358672",
-                "pub.1063455754",
-                "pub.1057592728",
-                "pub.1062877816",
-                "pub.1051454843",
-                "pub.1013780758",
-                "pub.1050073652",
-                "pub.1023673230",
-                "pub.1009215835",
-                "pub.1042668016",
-                "pub.1018392518",
-                "pub.1084099980",
-                "pub.1098732916",
-                "pub.1002887345",
-                "pub.1039153895",
+                "pub.1019482687",
+                "pub.1009598005",
+                "pub.1083884698",
                 "pub.1001605222",
-                "pub.1041486652",
                 "pub.1039224627",
-                "pub.1019353360",
-                "pub.1029530743",
-                "pub.1038440357",
-                "pub.1000543080",
-                "pub.1041491187",
-                "pub.1020668348",
-                "pub.1046994669",
                 "pub.1012806029",
+                "pub.1034406239",
+                "pub.1052079096",
+                "pub.1027344506",
                 "pub.1015620609",
-                "pub.1073068110",
+                "pub.1043932905",
                 "pub.1072678698",
                 "pub.1030546001",
-                "pub.1005997968",
-                "pub.1047594564",
-                "pub.1027344506",
-                "pub.1085131154",
-                "pub.1009598005",
+                "pub.1018392518",
                 "pub.1038126518",
-                "pub.1092237165",
-                "pub.1057589965",
-                "pub.1011229148",
-                "pub.1052298018",
-                "pub.1005436822",
-                "pub.1024397517",
-                "pub.1086329186",
-                "pub.1037388309",
                 "pub.1051734393",
-                "pub.1027488490",
-                "pub.1004860813",
-                "pub.1010851802",
+                "pub.1063455754",
+                "pub.1085131154",
+                "pub.1019353360",
+                "pub.1084099980",
                 "pub.1002861178",
-                "pub.1019482687",
-                "pub.1043932905",
-                "pub.1062734417",
-                "pub.1083884698",
-                "pub.1007456388",
-                "pub.1034406239",
-                "pub.1016238424",
-                "pub.1044415713",
-                "pub.1039459578",
-                "pub.1092117482",
-                "pub.1040582708",
-                "pub.1003299822",
-                "pub.1052079096",
-                "pub.1026564735",
-                "pub.1018180036",
                 "pub.1029788155",
-                "pub.1046602057"
+                "pub.1010851802",
+                "pub.1057589965",
+                "pub.1004860813",
+                "pub.1007456388",
+                "pub.1026564735",
+                "pub.1098732916",
+                "pub.1013780758",
+                "pub.1042668016",
+                "pub.1029530743",
+                "pub.1092237165",
+                "pub.1037358672",
+                "pub.1005436822",
+                "pub.1050073652",
+                "pub.1040582708",
+                "pub.1057592728",
+                "pub.1041491187",
+                "pub.1046994669",
+                "pub.1016238424",
+                "pub.1062877816",
+                "pub.1018180036",
+                "pub.1003299822",
+                "pub.1002887345",
+                "pub.1020668348",
+                "pub.1044415713",
+                "pub.1092117482",
+                "pub.1071117385",
+                "pub.1052298018",
+                "pub.1046602057",
+                "pub.1073068110",
+                "pub.1005997968",
+                "pub.1037388309",
+                "pub.1086329186",
+                "pub.1024397517",
+                "pub.1051454843",
+                "pub.1027488490",
+                "pub.1009215835",
+                "pub.1011229148",
+                "pub.1038440357",
+                "pub.1041486652",
+                "pub.1039153895",
+                "pub.1062734417",
+                "pub.1047594564",
+                "pub.1023673230",
+                "pub.1000543080",
+                "pub.1039459578"
             ],
             "references": [
-                "pub.1071117385",
-                "pub.1037358672",
-                "pub.1063455754",
-                "pub.1057592728",
-                "pub.1062877816",
-                "pub.1051454843",
-                "pub.1013780758",
-                "pub.1050073652",
-                "pub.1023673230",
-                "pub.1009215835",
-                "pub.1042668016",
-                "pub.1018392518",
-                "pub.1084099980",
-                "pub.1098732916",
-                "pub.1002887345",
-                "pub.1039153895",
+                "pub.1019482687",
+                "pub.1009598005",
+                "pub.1083884698",
                 "pub.1001605222",
-                "pub.1041486652",
                 "pub.1039224627",
-                "pub.1019353360",
-                "pub.1029530743",
-                "pub.1038440357",
-                "pub.1000543080",
-                "pub.1041491187",
-                "pub.1020668348",
-                "pub.1046994669",
                 "pub.1012806029",
+                "pub.1034406239",
+                "pub.1052079096",
+                "pub.1027344506",
                 "pub.1015620609",
-                "pub.1073068110",
+                "pub.1043932905",
                 "pub.1072678698",
                 "pub.1030546001",
-                "pub.1005997968",
-                "pub.1047594564",
-                "pub.1027344506",
-                "pub.1085131154",
-                "pub.1009598005",
+                "pub.1018392518",
                 "pub.1038126518",
-                "pub.1092237165",
-                "pub.1057589965",
-                "pub.1011229148",
-                "pub.1052298018",
-                "pub.1005436822",
-                "pub.1024397517",
-                "pub.1086329186",
-                "pub.1037388309",
                 "pub.1051734393",
-                "pub.1027488490",
-                "pub.1004860813",
-                "pub.1010851802",
+                "pub.1063455754",
+                "pub.1085131154",
+                "pub.1019353360",
+                "pub.1084099980",
                 "pub.1002861178",
-                "pub.1019482687",
-                "pub.1043932905",
-                "pub.1062734417",
-                "pub.1083884698",
-                "pub.1007456388",
-                "pub.1034406239",
-                "pub.1016238424",
-                "pub.1044415713",
-                "pub.1039459578",
-                "pub.1092117482",
-                "pub.1040582708",
-                "pub.1003299822",
-                "pub.1052079096",
-                "pub.1026564735",
-                "pub.1018180036",
                 "pub.1029788155",
-                "pub.1046602057"
+                "pub.1010851802",
+                "pub.1057589965",
+                "pub.1004860813",
+                "pub.1007456388",
+                "pub.1026564735",
+                "pub.1098732916",
+                "pub.1013780758",
+                "pub.1042668016",
+                "pub.1029530743",
+                "pub.1092237165",
+                "pub.1037358672",
+                "pub.1005436822",
+                "pub.1050073652",
+                "pub.1040582708",
+                "pub.1057592728",
+                "pub.1041491187",
+                "pub.1046994669",
+                "pub.1016238424",
+                "pub.1062877816",
+                "pub.1018180036",
+                "pub.1003299822",
+                "pub.1002887345",
+                "pub.1020668348",
+                "pub.1044415713",
+                "pub.1092117482",
+                "pub.1071117385",
+                "pub.1052298018",
+                "pub.1046602057",
+                "pub.1073068110",
+                "pub.1005997968",
+                "pub.1037388309",
+                "pub.1086329186",
+                "pub.1024397517",
+                "pub.1051454843",
+                "pub.1027488490",
+                "pub.1009215835",
+                "pub.1011229148",
+                "pub.1038440357",
+                "pub.1041486652",
+                "pub.1039153895",
+                "pub.1062734417",
+                "pub.1047594564",
+                "pub.1023673230",
+                "pub.1000543080",
+                "pub.1039459578"
             ],
             "research_org_cities": [
                 {
@@ -4104,37 +4471,38 @@
             ],
             "research_org_state_codes": [
                 {
-                    "id": "US-MD",
-                    "name": "Maryland"
-                },
-                {
                     "id": "US-RI",
                     "name": "Rhode Island"
                 },
                 {
                     "id": "US-IN",
                     "name": "Indiana"
+                },
+                {
+                    "id": "US-MD",
+                    "name": "Maryland"
                 }
             ],
             "research_org_state_names": [
-                "Indiana",
+                "Rhode Island",
                 "Maryland",
-                "Rhode Island"
+                "Indiana"
             ],
             "research_orgs": [
                 {
-                    "city_name": "Notre Dame",
+                    "acronym": "IMSG",
+                    "city_name": "Rockville",
                     "country_name": "United States",
-                    "id": "grid.131063.6",
-                    "latitude": 41.70578,
+                    "id": "grid.284601.9",
+                    "latitude": 39.04904,
                     "linkout": [
-                        "https://www.nd.edu/"
+                        "http://www.imsg.com/"
                     ],
-                    "longitude": -86.23568,
-                    "name": "University of Notre Dame",
-                    "state_name": "Indiana",
+                    "longitude": -77.12339,
+                    "name": "IM Systems (United States)",
+                    "state_name": "Maryland",
                     "types": [
-                        "Education"
+                        "Company"
                     ]
                 },
                 {
@@ -4153,19 +4521,18 @@
                     ]
                 },
                 {
-                    "acronym": "IMSG",
-                    "city_name": "Rockville",
+                    "city_name": "Notre Dame",
                     "country_name": "United States",
-                    "id": "grid.284601.9",
-                    "latitude": 39.04904,
+                    "id": "grid.131063.6",
+                    "latitude": 41.70578,
                     "linkout": [
-                        "http://www.imsg.com/"
+                        "https://www.nd.edu/"
                     ],
-                    "longitude": -77.12339,
-                    "name": "IM Systems (United States)",
-                    "state_name": "Maryland",
+                    "longitude": -86.23568,
+                    "name": "University of Notre Dame",
+                    "state_name": "Indiana",
                     "types": [
-                        "Company"
+                        "Education"
                     ]
                 }
             ],
@@ -4178,8 +4545,8 @@
                         "0000-0002-2877-4812"
                     ],
                     "research_orgs": [
-                        "grid.131063.6",
-                        "grid.258799.8"
+                        "grid.258799.8",
+                        "grid.131063.6"
                     ]
                 },
                 {
@@ -4195,20 +4562,20 @@
                     "id": "ur.014522516613.65",
                     "last_name": "Meixner",
                     "research_orgs": [
-                        "grid.284601.9",
-                        "grid.89336.37"
+                        "grid.89336.37",
+                        "grid.284601.9"
                     ]
                 },
                 {
-                    "first_name": "Joannes J",
+                    "first_name": "J Joannes",
                     "id": "ur.014417456250.29",
                     "last_name": "Westerink",
                     "research_orgs": [
-                        "grid.264763.2",
-                        "grid.264756.4",
-                        "grid.64337.35",
                         "grid.89336.37",
-                        "grid.131063.6"
+                        "grid.264763.2",
+                        "grid.64337.35",
+                        "grid.131063.6",
+                        "grid.264756.4"
                     ]
                 },
                 {
@@ -4219,16 +4586,16 @@
                         "0000-0002-7254-1346"
                     ],
                     "research_orgs": [
-                        "grid.420742.7",
-                        "grid.213917.f",
-                        "grid.33489.35",
-                        "grid.217197.b",
-                        "grid.448411.c",
-                        "grid.131063.6",
                         "grid.1002.3",
-                        "grid.2865.9",
                         "grid.454122.4",
-                        "grid.15276.37"
+                        "grid.420742.7",
+                        "grid.2865.9",
+                        "grid.15276.37",
+                        "grid.217197.b",
+                        "grid.131063.6",
+                        "grid.33489.35",
+                        "grid.448411.c",
+                        "grid.213917.f"
                     ]
                 },
                 {
@@ -4244,8 +4611,6 @@
                 "grant.3848115"
             ],
             "terms": [
-                "unstructured grids",
-                "grid",
                 "barotropic model",
                 "model",
                 "tidal dynamics",
@@ -4255,23 +4620,20 @@
                 "Pacific Ocean",
                 "Ocean",
                 "sub-kilometer scales",
-                "kilometer scale",
                 "scale",
                 "coast",
                 "model-data comparison",
-                "data comparison",
                 "comparison",
                 "capability",
-                "average root-mean",
-                "root-mean",
-                "means",
+                "limitations",
                 "square discrepancy",
                 "discrepancy",
                 "tidal elevations",
-                "elevation",
                 "coastal tide gauges",
                 "tide gauges",
                 "gauge",
+                "global data",
+                "data",
                 "barotropic tidal model",
                 "tidal model",
                 "lateral boundary conditions",
@@ -4280,18 +4642,17 @@
                 "bathymetry",
                 "dissipative processes",
                 "process",
-                "large-scale barotropic",
-                "barotropic",
+                "barotropic modeling",
+                "modeling",
                 "region",
                 "resonant effects",
-                "diurnal mode",
                 "mode",
-                "specified boundary conditions",
-                "generation layer",
                 "layer",
                 "boundaries",
                 "parameterization",
                 "energy conversion",
+                "conversion",
+                "important aspect",
                 "water solution",
                 "solution",
                 "RMS discrepancies",
@@ -4323,7 +4684,7 @@
                 "potential",
                 "applications",
                 "range",
-                "wind",
+                "wind-driven surge",
                 "surge",
                 "tidal processes",
                 "Finite-Element Barotropic Model"
@@ -4448,7 +4809,6 @@
                 }
             ]
         },
-        "abstract": "Abstract In this study, a 9.6 million node large-scale unstructured grid finite-element forward barotropic model is developed and applied to understand the tidal dynamics and dissipation mechanisms of the Indian and western Pacific Oceans down to sub-kilometer scale at the coast. Tidal model-data comparisons are presented to assess the capabilities and limitations of our large-scale barotropic model. The average root-mean-square (RMS) discrepancies of tidal elevations at coastal tide gauges is 14 cm, which is  ∼ 3 cm smaller than those of a state-of-the-art global data assimilated barotropic tidal model. Sensitivities to lateral boundary conditions, bathymetry, and dissipative processes are explored to guide future endeavors related to large-scale barotropic modeling in the region and other regions throughout the world. Lateral boundary conditions are found to induce adverse resonant effects on the lunar semi-diurnal modes when poorly placed elevation specified boundary conditions are used. This problem is largely resolved by using an absorption-generation layer at the boundary. Parameterization of internal tide energy conversion is identified as the most important aspect to control deep water solutions, and help reduce the RMS discrepancies of the entire system. Two forms of this parameterization are presented and their spatial distributions of dissipation are compared. Bathymetry has a negligible effect on the tidal solutions in deep water, but local high resolution bathymetry results in significant reductions to the average RMS discrepancies on the continental shelf (26%) and at the coast (30%). Implementing a spatially varying bottom friction coefficient based on sediment types decreases the average RMS discrepancy at the coast by 9% predominantly due to its positive effects in the Yellow Sea. The model is shown to capture a large amount of the tidal physics and has the potential for application to a range of barotropic problems such as wind-driven surge and tidal processes.",
         "authors": [
             "author-aecfe6b5a680958a630c",
             "author-810379703772de7a1c37",
@@ -4537,68 +4897,6 @@
             "status": "ok"
         },
         "doi": "10.1016/j.ocemod.2018.07.003",
-        "keyphrases": {
-            "3 cm": {
-                "count": 1,
-                "rank_score": 0.05675988084367525
-            },
-            "adverse resonant effects": {
-                "count": 1,
-                "rank_score": 0.06807192855756876
-            },
-            "barotropic problems": {
-                "count": 1,
-                "rank_score": 0.0660921725580039
-            },
-            "barotropic tidal model": {
-                "count": 1,
-                "rank_score": 0.09162066468703789
-            },
-            "boundary conditions": {
-                "count": 2,
-                "rank_score": 0.0776201319729905
-            },
-            "deep water": {
-                "count": 1,
-                "rank_score": 0.05962751134434313
-            },
-            "deep water solutions": {
-                "count": 1,
-                "rank_score": 0.0682361067446365
-            },
-            "internal tide energy conversion": {
-                "count": 1,
-                "rank_score": 0.07011743899238895
-            },
-            "lateral boundary conditions": {
-                "count": 1,
-                "rank_score": 0.07946849764703093
-            },
-            "local high resolution bathymetry results": {
-                "count": 1,
-                "rank_score": 0.06921312670617893
-            },
-            "rms": {
-                "count": 2,
-                "rank_score": 0.057494907407334345
-            },
-            "sub-kilometer scale": {
-                "count": 1,
-                "rank_score": 0.0780701713818622
-            },
-            "tidal elevations": {
-                "count": 1,
-                "rank_score": 0.08743555304803685
-            },
-            "tidal model-data comparisons": {
-                "count": 1,
-                "rank_score": 0.06159437326159868
-            },
-            "tidal processes": {
-                "count": 1,
-                "rank_score": 0.0821238836208168
-            }
-        },
         "original": {
             "date_added": "2020-01-10 14:37:25",
             "doi": "10.1016/j.ocemod.2018.07.003",
@@ -6610,7 +6908,6 @@
                 }
             ]
         },
-        "abstract": "In a whole-ecosystem, nutrient addition experiment in the Plum Island Sound Estuary (Massachusetts), we tested the effects of nitrogen enrichment on the carbon and nitrogen contents, respiration, and strength of marsh soils. We measured soil shear strength within and across vegetation zones. We found significantly higher soil percent organic matter, carbon, and nitrogen in the long-term enriched marshes and higher soil respiration rates with longer duration of enrichment. The soil strength was similar in magnitude across depths and vegetation zones in the reference creeks, but showed signs of significant nutrient-mediated alteration in enriched creeks where shear strength at rooting depths of the low marsh-high marsh interface zone was significantly lower than at the sub-rooting depths or in the creek bank vegetation zone. To more closely examine the soil strength of the rooting (10-30 cm) and sub-rooting (40-60 cm) depths in the interface and creek bank vegetation zones, we calculated a vertical shear strength differential between these depths. We found significantly lower differentials in shear strength (rooting depth < sub-rooting depths) in the enriched creeks and in the interface zones. The discontinuities in the vertical and horizontal shear strength across the enriched marshes may contribute to observed fracturing and slumping occurring in the marsh systems. Tide gauge data also showed a pattern of rapid sea level rise for the period of the study, and changes in plant distribution patterns were indicative of increased flooding. Longer exposure times to nutrient-enriched waters and increased hydraulic energy associated with sea level rise may exacerbate creek bank sloughing. Additional research is needed, however, to better understand the interactions of nutrient enrichment and sea level rise on soil shear strength and stability of tidal salt marshes.",
         "authors": [
             "author-0b268dba18546a8c2771",
             "author-02a70a79759b9527a29e",
@@ -6723,68 +7020,6 @@
             "status": "ok"
         },
         "doi": "10.1002/ecs2.2329",
-        "keyphrases": {
-            "a vertical shear strength differential": {
-                "count": 1,
-                "rank_score": 0.07143834845676741
-            },
-            "depth < sub-rooting depths": {
-                "count": 1,
-                "rank_score": 0.07060565485596834
-            },
-            "depths": {
-                "count": 3,
-                "rank_score": 0.07269916308791552
-            },
-            "higher soil respiration rates": {
-                "count": 1,
-                "rank_score": 0.0968146545328128
-            },
-            "marsh soils": {
-                "count": 1,
-                "rank_score": 0.09132401437371254
-            },
-            "nitrogen enrichment": {
-                "count": 1,
-                "rank_score": 0.07257537538630121
-            },
-            "nutrient enrichment": {
-                "count": 1,
-                "rank_score": 0.0905818301444127
-            },
-            "rapid sea level rise": {
-                "count": 1,
-                "rank_score": 0.09218517396246569
-            },
-            "sea level rise": {
-                "count": 2,
-                "rank_score": 0.09331562890984624
-            },
-            "shear": {
-                "count": 1,
-                "rank_score": 0.07101841846912735
-            },
-            "shear strength": {
-                "count": 1,
-                "rank_score": 0.10440587503063452
-            },
-            "soil": {
-                "count": 1,
-                "rank_score": 0.08094188722827403
-            },
-            "soil shear strength": {
-                "count": 1,
-                "rank_score": 0.11840176593584113
-            },
-            "strength": {
-                "count": 2,
-                "rank_score": 0.0887445668945397
-            },
-            "vegetation zones": {
-                "count": 2,
-                "rank_score": 0.07798061964395003
-            }
-        },
         "original": {
             "date_added": "2020-01-10 14:37:25",
             "doi": "10.1002/ecs2.2329",
@@ -6826,9 +7061,14 @@
                         ],
                         "corresponding": true,
                         "current_organization_id": "grid.23618.3e",
+                        "email": "Guoqi.Han@dfo-mpo.gc.ca",
                         "first_name": "Guoqi",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Han",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.012143126363.01"
                     },
                     {
@@ -6846,9 +7086,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.23618.3e",
+                        "email": "",
                         "first_name": "Zhimin",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Ma",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.0733013754.95"
                     },
                     {
@@ -6866,9 +7111,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.23618.3e",
+                        "email": "",
                         "first_name": "Nancy",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Chen",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.013305347015.01"
                     },
                     {
@@ -6886,9 +7136,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.12955.3a",
+                        "email": "",
                         "first_name": "Nan",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Chen",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.01354252463.59"
                     },
                     {
@@ -6906,9 +7161,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.473484.8",
+                        "email": "",
                         "first_name": "Jingsong",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Yang",
+                        "last_name_original": "",
                         "orcid": "['0000-0002-7514-3212']",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.014446655063.17"
                     },
                     {
@@ -6926,9 +7186,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.473484.8",
+                        "email": "",
                         "first_name": "Dake",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Chen",
+                        "last_name_original": "",
                         "orcid": "['0000-0002-8193-7158']",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.016036040114.21"
                     }
                 ]
@@ -6949,9 +7214,14 @@
                     ],
                     "corresponding": true,
                     "current_organization_id": "grid.23618.3e",
+                    "email": "Guoqi.Han@dfo-mpo.gc.ca",
                     "first_name": "Guoqi",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Han",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.012143126363.01"
                 },
                 {
@@ -6969,9 +7239,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.23618.3e",
+                    "email": "",
                     "first_name": "Zhimin",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Ma",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.0733013754.95"
                 },
                 {
@@ -6989,9 +7264,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.23618.3e",
+                    "email": "",
                     "first_name": "Nancy",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Chen",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.013305347015.01"
                 },
                 {
@@ -7009,9 +7289,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.12955.3a",
+                    "email": "",
                     "first_name": "Nan",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Chen",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.01354252463.59"
                 },
                 {
@@ -7029,9 +7314,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.473484.8",
+                    "email": "",
                     "first_name": "Jingsong",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Yang",
+                    "last_name_original": "",
                     "orcid": "['0000-0002-7514-3212']",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.014446655063.17"
                 },
                 {
@@ -7049,9 +7339,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.473484.8",
+                    "email": "",
                     "first_name": "Dake",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Chen",
+                    "last_name_original": "",
                     "orcid": "['0000-0002-8193-7158']",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.016036040114.21"
                 }
             ],
@@ -7078,24 +7373,21 @@
                 }
             ],
             "concepts": [
-                "storms",
+                "storm surge",
+                "surge",
                 "properties",
                 "loss of life",
                 "coastal communities",
                 "capability",
-                "forecasting storm",
+                "storms",
                 "sea surface height profiles",
                 "surface height profile",
                 "height profiles",
                 "profile",
-                "features",
                 "satellite altimetry",
                 "altimetry",
                 "tide-gauge data",
-                "gauge data",
                 "data",
-                "storm surge",
-                "surge",
                 "Florida",
                 "Gulf of Mexico",
                 "Gulf",
@@ -7106,7 +7398,6 @@
                 "Apalachicola",
                 "early morning",
                 "tide-gauge measurements",
-                "gauge measurements",
                 "measurements",
                 "analysis",
                 "satellite data",
@@ -7114,13 +7405,13 @@
                 "Naples",
                 "phase speed",
                 "speed",
-                "m/s",
                 "decay scale",
                 "scale",
                 "approximate agreement",
                 "agreement",
                 "estimates",
                 "Pensacola",
+                "m/s",
                 "sea level variations",
                 "level variations",
                 "variation",
@@ -7128,7 +7419,7 @@
                 "continental shelf waves",
                 "shelf waves",
                 "waves",
-                "shelf ones",
+                "features",
                 "one",
                 "storm surge forecasting",
                 "surge forecasting",
@@ -7136,16 +7427,15 @@
                 "altimeter missions",
                 "mission",
                 "wide-swath altimetry",
-                "swath altimetry",
                 "Jason-1",
-                "Jason-2 satellite altimeter",
+                "Jason-2 satellite altimeters",
                 "satellite altimeters",
                 "altimeter"
             ],
             "date": "2017-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.rse.2017.06.005",
-            "field_citation_ratio": 3.49,
+            "field_citation_ratio": 3.59,
             "id": "pub.1090369492",
             "issn": [
                 "0034-4257",
@@ -7156,9 +7446,10 @@
                 "title": "Remote Sensing of Environment"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 2",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
             ],
             "open_access_categories": [
                 {
@@ -7171,54 +7462,54 @@
             "publisher": "Elsevier",
             "recent_citations": 12,
             "reference_ids": [
+                "pub.1000874226",
+                "pub.1061333717",
+                "pub.1045648766",
+                "pub.1020881966",
+                "pub.1029742940",
+                "pub.1035618218",
+                "pub.1002491131",
+                "pub.1051668792",
+                "pub.1051872871",
+                "pub.1004070151",
+                "pub.1019214688",
                 "pub.1035660457",
+                "pub.1038515701",
                 "pub.1024025708",
-                "pub.1033293923",
+                "pub.1039618569",
+                "pub.1035625909",
                 "pub.1029255491",
                 "pub.1029871290",
-                "pub.1073068190",
-                "pub.1039618569",
-                "pub.1002491131",
-                "pub.1020881966",
-                "pub.1035625909",
-                "pub.1045648766",
-                "pub.1019214688",
-                "pub.1051872871",
-                "pub.1061333717",
-                "pub.1051668792",
-                "pub.1038515701",
                 "pub.1096971151",
-                "pub.1035618218",
-                "pub.1025988828",
-                "pub.1004070151",
-                "pub.1000874226",
-                "pub.1029742940",
-                "pub.1047945735"
+                "pub.1033293923",
+                "pub.1073068190",
+                "pub.1047945735",
+                "pub.1025988828"
             ],
             "references": [
+                "pub.1000874226",
+                "pub.1061333717",
+                "pub.1045648766",
+                "pub.1020881966",
+                "pub.1029742940",
+                "pub.1035618218",
+                "pub.1002491131",
+                "pub.1051668792",
+                "pub.1051872871",
+                "pub.1004070151",
+                "pub.1019214688",
                 "pub.1035660457",
+                "pub.1038515701",
                 "pub.1024025708",
-                "pub.1033293923",
+                "pub.1039618569",
+                "pub.1035625909",
                 "pub.1029255491",
                 "pub.1029871290",
-                "pub.1073068190",
-                "pub.1039618569",
-                "pub.1002491131",
-                "pub.1020881966",
-                "pub.1035625909",
-                "pub.1045648766",
-                "pub.1019214688",
-                "pub.1051872871",
-                "pub.1061333717",
-                "pub.1051668792",
-                "pub.1038515701",
                 "pub.1096971151",
-                "pub.1035618218",
-                "pub.1025988828",
-                "pub.1004070151",
-                "pub.1000874226",
-                "pub.1029742940",
-                "pub.1047945735"
+                "pub.1033293923",
+                "pub.1073068190",
+                "pub.1047945735",
+                "pub.1025988828"
             ],
             "research_org_cities": [
                 {
@@ -7232,17 +7523,17 @@
             ],
             "research_org_countries": [
                 {
-                    "id": "CN",
-                    "name": "China"
-                },
-                {
                     "id": "CA",
                     "name": "Canada"
+                },
+                {
+                    "id": "CN",
+                    "name": "China"
                 }
             ],
             "research_org_country_names": [
-                "Canada",
-                "China"
+                "China",
+                "Canada"
             ],
             "research_org_state_codes": [
                 {
@@ -7254,6 +7545,21 @@
                 "Ontario"
             ],
             "research_orgs": [
+                {
+                    "acronym": "SIOSOA",
+                    "city_name": "Hangzhou",
+                    "country_name": "China",
+                    "id": "grid.473484.8",
+                    "latitude": 30.279581,
+                    "linkout": [
+                        "http://www.sio.org.cn/"
+                    ],
+                    "longitude": 120.13987,
+                    "name": "Second Institute of Oceanography",
+                    "types": [
+                        "Facility"
+                    ]
+                },
                 {
                     "acronym": "DFO",
                     "city_name": "Ottawa",
@@ -7269,21 +7575,6 @@
                     "types": [
                         "Government"
                     ]
-                },
-                {
-                    "acronym": "SIOSOA",
-                    "city_name": "Hangzhou",
-                    "country_name": "China",
-                    "id": "grid.473484.8",
-                    "latitude": 30.279581,
-                    "linkout": [
-                        "http://www.sio.org.cn/"
-                    ],
-                    "longitude": 120.13987,
-                    "name": "Second Institute of Oceanography",
-                    "types": [
-                        "Facility"
-                    ]
                 }
             ],
             "researchers": [
@@ -7292,9 +7583,9 @@
                     "id": "ur.012143126363.01",
                     "last_name": "Han",
                     "research_orgs": [
-                        "grid.23618.3e",
+                        "grid.25055.37",
                         "grid.418256.c",
-                        "grid.25055.37"
+                        "grid.23618.3e"
                     ]
                 },
                 {
@@ -7302,8 +7593,8 @@
                     "id": "ur.0733013754.95",
                     "last_name": "Ma",
                     "research_orgs": [
-                        "grid.25055.37",
-                        "grid.23618.3e"
+                        "grid.23618.3e",
+                        "grid.25055.37"
                     ]
                 },
                 {
@@ -7319,10 +7610,10 @@
                     "id": "ur.01354252463.59",
                     "last_name": "Chen",
                     "research_orgs": [
-                        "grid.33489.35",
                         "grid.12955.3a",
                         "grid.453137.7",
-                        "grid.473484.8"
+                        "grid.473484.8",
+                        "grid.33489.35"
                     ]
                 },
                 {
@@ -7333,10 +7624,10 @@
                         "0000-0002-7514-3212"
                     ],
                     "research_orgs": [
-                        "grid.453137.7",
-                        "grid.473484.8",
                         "grid.8547.e",
-                        "grid.13402.34"
+                        "grid.453137.7",
+                        "grid.13402.34",
+                        "grid.473484.8"
                     ]
                 },
                 {
@@ -7348,33 +7639,30 @@
                     ],
                     "research_orgs": [
                         "grid.473157.3",
-                        "grid.13402.34",
+                        "grid.36425.36",
                         "grid.453137.7",
                         "grid.473484.8",
-                        "grid.21729.3f",
-                        "grid.36425.36"
+                        "grid.13402.34",
+                        "grid.21729.3f"
                     ]
                 }
             ],
             "terms": [
-                "storms",
+                "storm surge",
+                "surge",
                 "properties",
                 "loss of life",
                 "coastal communities",
                 "capability",
-                "forecasting storm",
+                "storms",
                 "sea surface height profiles",
                 "surface height profile",
                 "height profiles",
                 "profile",
-                "features",
                 "satellite altimetry",
                 "altimetry",
                 "tide-gauge data",
-                "gauge data",
                 "data",
-                "storm surge",
-                "surge",
                 "Florida",
                 "Gulf of Mexico",
                 "Gulf",
@@ -7385,7 +7673,6 @@
                 "Apalachicola",
                 "early morning",
                 "tide-gauge measurements",
-                "gauge measurements",
                 "measurements",
                 "analysis",
                 "satellite data",
@@ -7393,13 +7680,13 @@
                 "Naples",
                 "phase speed",
                 "speed",
-                "m/s",
                 "decay scale",
                 "scale",
                 "approximate agreement",
                 "agreement",
                 "estimates",
                 "Pensacola",
+                "m/s",
                 "sea level variations",
                 "level variations",
                 "variation",
@@ -7407,7 +7694,7 @@
                 "continental shelf waves",
                 "shelf waves",
                 "waves",
-                "shelf ones",
+                "features",
                 "one",
                 "storm surge forecasting",
                 "surge forecasting",
@@ -7415,9 +7702,8 @@
                 "altimeter missions",
                 "mission",
                 "wide-swath altimetry",
-                "swath altimetry",
                 "Jason-1",
-                "Jason-2 satellite altimeter",
+                "Jason-2 satellite altimeters",
                 "satellite altimeters",
                 "altimeter"
             ],
@@ -7764,7 +8050,6 @@
                 }
             ]
         },
-        "abstract": "Abstract Storm surges can cause damage to properties and loss of life in coastal communities. Thus it is important to enhance our capabilities of observing, understanding and forecasting storm surges for mitigating damage and loss. Previous studies have shown that cross-shelf altimetric sea surface height profiles can be used to determine storm surge features. In this study we combine satellite altimetry with tide-gauge data to study storm surge features off Florida in the Gulf of Mexico during Hurricane Isaac 2012. Satellite observations show a storm surge of about 0.8 m near Cedar Key and Apalachicola decreasing westward and southward in the early morning of August 28, 2012 (UTC), consistent with tide-gauge measurements. Our analysis of satellite data reveals that the storm surge propagates northward from Naples to Cedar Key with a phase speed of 14–16 m/s and a cross-shelf decay scale of 190–220 km, in approximate agreement with the estimates from tide-gauge data. In contrast, an analysis of tide-gauge data reveals that the storm surge propagates westward from Apalachicola to Pensacola with a phase speed of 6–7 m/s and a cross-shelf decay scale of about 85 km. It is further shown that the post-storm sea level variations at these stations are associated with first-mode continental shelf waves. The present study shows that along-shelf altimetric sea surface height profiles can be useful to observe and understand storm surge features as cross-shelf ones demonstrated previously, of importance to improvement of storm surge forecasting. It suggests that a constellation of altimeter missions especially with wide-swath altimetry could be suited to monitor storm surges.",
         "authors": [
             "author-31624a08c6de8d6a54e5",
             "author-bb47e6d9b834df49f41c",
@@ -7843,68 +8128,6 @@
             "status": "ok"
         },
         "doi": "10.1016/j.rse.2017.06.005",
-        "keyphrases": {
-            "a cross-shelf decay scale": {
-                "count": 2,
-                "rank_score": 0.07016619954701553
-            },
-            "altimetric sea surface": {
-                "count": 1,
-                "rank_score": 0.08714248459520624
-            },
-            "cedar key": {
-                "count": 3,
-                "rank_score": 0.07258871254207343
-            },
-            "cross-shelf altimetric sea surface height profiles": {
-                "count": 1,
-                "rank_score": 0.10615681943412221
-            },
-            "cross-shelf ones": {
-                "count": 1,
-                "rank_score": 0.09782054902812845
-            },
-            "height profiles": {
-                "count": 1,
-                "rank_score": 0.0689583080882201
-            },
-            "satellite altimetry": {
-                "count": 1,
-                "rank_score": 0.07452659452082674
-            },
-            "satellite data": {
-                "count": 1,
-                "rank_score": 0.07975678241767561
-            },
-            "satellite observations": {
-                "count": 1,
-                "rank_score": 0.06242399387285111
-            },
-            "storm": {
-                "count": 1,
-                "rank_score": 0.09975452219410436
-            },
-            "storm surge features": {
-                "count": 1,
-                "rank_score": 0.11155547979076721
-            },
-            "storm surge forecasting": {
-                "count": 1,
-                "rank_score": 0.10916379181704422
-            },
-            "storm surges": {
-                "count": 4,
-                "rank_score": 0.11161409101384662
-            },
-            "the post-storm sea level variations": {
-                "count": 1,
-                "rank_score": 0.06630893339470093
-            },
-            "tide-gauge data": {
-                "count": 3,
-                "rank_score": 0.06135869113095485
-            }
-        },
         "original": {
             "date_added": "2020-01-10 14:37:25",
             "doi": "10.1016/j.rse.2017.06.005",
@@ -7913,6 +8136,434 @@
             "search_term": "Tide gauge data"
         },
         "title": "Hurricane Isaac storm surges off Florida observed by Jason-1 and Jason-2 satellite altimeters"
+    },
+    {
+        "Dimensions": {
+            "FOR": [
+                {
+                    "id": "2539",
+                    "name": "0406 Physical Geography and Environmental Geoscience"
+                }
+            ],
+            "FOR_first": [
+                {
+                    "id": "2204",
+                    "name": "04 Earth Sciences"
+                }
+            ],
+            "author_affiliations": [
+                [
+                    {
+                        "affiliations": [
+                            {
+                                "city": "Vicksburg",
+                                "city_id": 4449620,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.417553.1",
+                                "name": "Engineer Research and Development Center",
+                                "state": "Mississippi",
+                                "state_code": "US-MS"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.417553.1",
+                        "email": "james.r.houston@usace.army.mil",
+                        "first_name": "J.R.",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "Houston",
+                        "last_name_original": "",
+                        "orcid": "",
+                        "raw_affiliation_original": [],
+                        "researcher_id": "ur.07704741411.54"
+                    }
+                ]
+            ],
+            "authors": [
+                {
+                    "affiliations": [
+                        {
+                            "city": "Vicksburg",
+                            "city_id": 4449620,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.417553.1",
+                            "name": "Engineer Research and Development Center",
+                            "state": "Mississippi",
+                            "state_code": "US-MS"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.417553.1",
+                    "email": "james.r.houston@usace.army.mil",
+                    "first_name": "J.R.",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "Houston",
+                    "last_name_original": "",
+                    "orcid": "",
+                    "raw_affiliation_original": [],
+                    "researcher_id": "ur.07704741411.54"
+                }
+            ],
+            "category_for": [
+                {
+                    "id": "2539",
+                    "name": "0406 Physical Geography and Environmental Geoscience"
+                },
+                {
+                    "id": "2204",
+                    "name": "04 Earth Sciences"
+                }
+            ],
+            "category_ua": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
+            "concepts": [
+                "Houston",
+                "shoreline response",
+                "response",
+                "sea-level rise",
+                "rise",
+                "southwest coast",
+                "coast",
+                "Florida",
+                "state of Florida",
+                "unique database",
+                "shoreline position",
+                "position",
+                "mid-1800s",
+                "opportunities",
+                "data",
+                "factors",
+                "shoreline changes",
+                "changes",
+                "beach nourishment",
+                "nourishment",
+                "sediment transport",
+                "transport",
+                "shoreline recession",
+                "recession",
+                "early period",
+                "period",
+                "Bruun Rule",
+                "wave action",
+                "offshore sand",
+                "sand",
+                "shoreline",
+                "onshore sand transport",
+                "sand transport",
+                "change data",
+                "Florida's east coast",
+                "east coast",
+                "central coast",
+                "source",
+                "southwest Florida",
+                "rise results",
+                "results",
+                "shoreline advance",
+                "advances",
+                "sand movement",
+                "movement",
+                "closure depth",
+                "depth",
+                "active profile",
+                "profile",
+                "episodic storms",
+                "storms"
+            ],
+            "date": "2015-07-14",
+            "date_inserted": "2017-08-31",
+            "doi": "10.2112/jcoastres-d-14-00161.1",
+            "field_citation_ratio": 2.19,
+            "id": "pub.1025200287",
+            "issn": [
+                "0749-0208",
+                "1551-5036"
+            ],
+            "issue": "4",
+            "journal": {
+                "id": "jour.1137383",
+                "title": "Journal of Coastal Research"
+            },
+            "journal_lists": [
+                "Norwegian register level 1",
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "linkout": "http://nsgl.gso.uri.edu/flsgp/flsgpm10001.pdf",
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - published"
+            ],
+            "open_access_categories": [
+                {
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Free copy of published version in an OA repository",
+                    "id": "green_pub",
+                    "name": "Green, Published"
+                }
+            ],
+            "pages": "777-789",
+            "publisher": "Coastal Education and Research Foundation",
+            "recent_citations": 5,
+            "reference_ids": [
+                "pub.1027357250",
+                "pub.1022721742",
+                "pub.1020338589",
+                "pub.1004484662",
+                "pub.1097230681",
+                "pub.1045683002",
+                "pub.1022370353",
+                "pub.1005906182",
+                "pub.1025521588",
+                "pub.1016281723",
+                "pub.1000896160",
+                "pub.1073067986",
+                "pub.1096196065",
+                "pub.1050703670",
+                "pub.1058823014",
+                "pub.1098481572",
+                "pub.1038270955",
+                "pub.1008139630",
+                "pub.1098568579",
+                "pub.1047385476",
+                "pub.1022148628",
+                "pub.1008002667"
+            ],
+            "references": [
+                "pub.1027357250",
+                "pub.1022721742",
+                "pub.1020338589",
+                "pub.1004484662",
+                "pub.1097230681",
+                "pub.1045683002",
+                "pub.1022370353",
+                "pub.1005906182",
+                "pub.1025521588",
+                "pub.1016281723",
+                "pub.1000896160",
+                "pub.1073067986",
+                "pub.1096196065",
+                "pub.1050703670",
+                "pub.1058823014",
+                "pub.1098481572",
+                "pub.1038270955",
+                "pub.1008139630",
+                "pub.1098568579",
+                "pub.1047385476",
+                "pub.1022148628",
+                "pub.1008002667"
+            ],
+            "research_org_cities": [
+                {
+                    "id": 4449620,
+                    "name": "Vicksburg"
+                }
+            ],
+            "research_org_countries": [
+                {
+                    "id": "US",
+                    "name": "United States"
+                }
+            ],
+            "research_org_country_names": [
+                "United States"
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-MS",
+                    "name": "Mississippi"
+                }
+            ],
+            "research_org_state_names": [
+                "Mississippi"
+            ],
+            "research_orgs": [
+                {
+                    "acronym": "ERDC",
+                    "city_name": "Vicksburg",
+                    "country_name": "United States",
+                    "id": "grid.417553.1",
+                    "latitude": 32.301453,
+                    "linkout": [
+                        "http://www.erdc.usace.army.mil/"
+                    ],
+                    "longitude": -90.87157,
+                    "name": "Engineer Research and Development Center",
+                    "state_name": "Mississippi",
+                    "types": [
+                        "Facility"
+                    ]
+                }
+            ],
+            "researchers": [
+                {
+                    "first_name": "James R",
+                    "id": "ur.07704741411.54",
+                    "last_name": "Houston",
+                    "research_orgs": [
+                        "grid.417553.1",
+                        "grid.431335.3"
+                    ]
+                }
+            ],
+            "terms": [
+                "Houston",
+                "shoreline response",
+                "response",
+                "sea-level rise",
+                "rise",
+                "southwest coast",
+                "coast",
+                "Florida",
+                "state of Florida",
+                "unique database",
+                "shoreline position",
+                "position",
+                "mid-1800s",
+                "opportunities",
+                "data",
+                "factors",
+                "shoreline changes",
+                "changes",
+                "beach nourishment",
+                "nourishment",
+                "sediment transport",
+                "transport",
+                "shoreline recession",
+                "recession",
+                "early period",
+                "period",
+                "Bruun Rule",
+                "wave action",
+                "offshore sand",
+                "sand",
+                "shoreline",
+                "onshore sand transport",
+                "sand transport",
+                "change data",
+                "Florida's east coast",
+                "east coast",
+                "central coast",
+                "source",
+                "southwest Florida",
+                "rise results",
+                "results",
+                "shoreline advance",
+                "advances",
+                "sand movement",
+                "movement",
+                "closure depth",
+                "depth",
+                "active profile",
+                "profile",
+                "episodic storms",
+                "storms"
+            ],
+            "times_cited": 12,
+            "title": "Shoreline Response to Sea-Level Rise on the Southwest Coast of Florida",
+            "type": "article",
+            "volume": "31",
+            "year": 2015
+        },
+        "Unpaywall": {
+            "best_oa_location": null,
+            "data_standard": 2,
+            "doi": "10.2112/jcoastres-d-14-00161.1",
+            "doi_url": "https://doi.org/10.2112/jcoastres-d-14-00161.1",
+            "genre": "journal-article",
+            "has_repository_copy": false,
+            "is_oa": false,
+            "journal_is_in_doaj": false,
+            "journal_is_oa": false,
+            "journal_issn_l": "0749-0208",
+            "journal_issns": "0749-0208,1551-5036",
+            "journal_name": "Journal of Coastal Research",
+            "oa_locations": [],
+            "oa_status": "closed",
+            "published_date": "2015-07-14",
+            "publisher": "Coastal Education and Research Foundation",
+            "title": "Shoreline Response to Sea-Level Rise on the Southwest Coast of Florida",
+            "updated": "2019-03-07T07:22:40.301871",
+            "year": 2015,
+            "z_authors": [
+                {
+                    "family": "Houston",
+                    "given": "J.R."
+                }
+            ]
+        },
+        "authors": [
+            "author-fc91d27499bc51fd9a59"
+        ],
+        "datasets": [
+            "dataset-614"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "name": {
+                            "first": "J. R.",
+                            "last": "Houston"
+                        }
+                    }
+                ],
+                "classification": "OA",
+                "date": "2015-07-14",
+                "pdf_url": "http://nsgl.gso.uri.edu/flsgp/flsgpm10001.pdf",
+                "records": [
+                    {
+                        "doi": "10.2112/jcoastres-d-14-00161.1",
+                        "identifier": "oai:crossref.org:10.2112/jcoastres-d-14-00161.1",
+                        "issn": "0749-0208",
+                        "journal": "Journal of Coastal Research",
+                        "pages": "777-789",
+                        "pdf_url": "http://nsgl.gso.uri.edu/flsgp/flsgpm10001.pdf",
+                        "policy": {
+                            "postprint": "cannot",
+                            "preprint": "cannot",
+                            "published": "unknown",
+                            "romeo_id": "547"
+                        },
+                        "publisher": "Coastal Education and Research Foundation",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.2112/jcoastres-d-14-00161.1",
+                        "type": "journal-article",
+                        "volume": "314"
+                    }
+                ],
+                "title": "Shoreline Response to Sea-Level Rise on the Southwest Coast of Florida",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
+        "doi": "10.2112/jcoastres-d-14-00161.1",
+        "original": {
+            "date_added": "2020-01-10 14:37:25",
+            "doi": "10.2112/jcoastres-d-14-00161.1",
+            "journal": "Journal of Coastal Research",
+            "search_term": "Tide gauge data",
+            "url": "http://nsgl.gso.uri.edu/flsgp/flsgpm10001.pdf"
+        },
+        "title": "Shoreline Response to Sea-Level Rise on the Southwest Coast of Florida"
     },
     {
         "Dimensions": {
@@ -7972,10 +8623,15 @@
                             }
                         ],
                         "corresponding": true,
-                        "current_organization_id": "grid.462984.5",
+                        "current_organization_id": "grid.22072.35",
+                        "email": "dshugar@uvic.ca",
                         "first_name": "Dan H.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Shugar",
+                        "last_name_original": "",
                         "orcid": "['0000-0002-6279-8420']",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.016072271641.69"
                     },
                     {
@@ -7993,9 +8649,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.215654.1",
+                        "email": "",
                         "first_name": "Ian J.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Walker",
+                        "last_name_original": "",
                         "orcid": "['0000-0001-5719-5310']",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.016256363177.09"
                     },
                     {
@@ -8013,9 +8674,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.292498.c",
+                        "email": "",
                         "first_name": "Olav B.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Lian",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.01344046362.99"
                     },
                     {
@@ -8033,9 +8699,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.143640.4",
+                        "email": "",
                         "first_name": "Jordan B.R.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Eamer",
+                        "last_name_original": "",
                         "orcid": "['0000-0003-3744-3326']",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.0756053152.30"
                     },
                     {
@@ -8056,9 +8727,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.292498.c",
+                        "email": "",
                         "first_name": "Christina",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Neudorf",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.07441174741.03"
                     },
                     {
@@ -8078,10 +8754,15 @@
                             }
                         ],
                         "corresponding": "",
-                        "current_organization_id": "grid.143640.4",
+                        "current_organization_id": "grid.484717.9",
+                        "email": "",
                         "first_name": "Duncan",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "McLaren",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.011772016557.01"
                     },
                     {
@@ -8102,9 +8783,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.484717.9",
+                        "email": "",
                         "first_name": "Daryl",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Fedje",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.012171744310.11"
                     }
                 ]
@@ -8124,10 +8810,15 @@
                         }
                     ],
                     "corresponding": true,
-                    "current_organization_id": "grid.462984.5",
+                    "current_organization_id": "grid.22072.35",
+                    "email": "dshugar@uvic.ca",
                     "first_name": "Dan H.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Shugar",
+                    "last_name_original": "",
                     "orcid": "['0000-0002-6279-8420']",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.016072271641.69"
                 },
                 {
@@ -8145,9 +8836,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.215654.1",
+                    "email": "",
                     "first_name": "Ian J.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Walker",
+                    "last_name_original": "",
                     "orcid": "['0000-0001-5719-5310']",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.016256363177.09"
                 },
                 {
@@ -8165,9 +8861,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.292498.c",
+                    "email": "",
                     "first_name": "Olav B.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Lian",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.01344046362.99"
                 },
                 {
@@ -8185,9 +8886,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.143640.4",
+                    "email": "",
                     "first_name": "Jordan B.R.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Eamer",
+                    "last_name_original": "",
                     "orcid": "['0000-0003-3744-3326']",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.0756053152.30"
                 },
                 {
@@ -8208,9 +8914,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.292498.c",
+                    "email": "",
                     "first_name": "Christina",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Neudorf",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.07441174741.03"
                 },
                 {
@@ -8230,10 +8941,15 @@
                         }
                     ],
                     "corresponding": "",
-                    "current_organization_id": "grid.143640.4",
+                    "current_organization_id": "grid.484717.9",
+                    "email": "",
                     "first_name": "Duncan",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "McLaren",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.011772016557.01"
                 },
                 {
@@ -8254,9 +8970,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.484717.9",
+                    "email": "",
                     "first_name": "Daryl",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Fedje",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.012171744310.11"
                 }
             ],
@@ -8298,7 +9019,6 @@
             ],
             "concepts": [
                 "sea-level history",
-                "level history",
                 "history",
                 "Last Glacial Maximum",
                 "Glacial Maximum",
@@ -8307,6 +9027,7 @@
                 "margin",
                 "North America",
                 "America",
+                "heterogeneous owing",
                 "owing",
                 "regional differences",
                 "crustal deformation",
@@ -8330,7 +9051,6 @@
                 "setting",
                 "coast",
                 "sea-level response",
-                "level responses",
                 "Holocene",
                 "example",
                 "sea level",
@@ -8342,37 +9062,31 @@
                 "isostatic depression",
                 "same time",
                 "time",
-                "present",
                 "Haida Gwaii",
                 "northern coast",
-                "combined effects",
                 "low eustatic sea level",
                 "eustatic sea level",
                 "part",
                 "southeast Alaska",
                 "Alaska",
                 "post-glacial sea level",
-                "glacial sea level",
                 "coast of Washington",
                 "Washington",
                 "Oregon",
-                "central Alaska",
+                "south-central Alaska",
                 "neotectonics",
                 "eustasy",
                 "large role",
                 "isostatic adjustment",
                 "relative sea-level changes",
                 "sea-level changes",
-                "level changes",
-                "post-glacial sea",
-                "glacial sea",
-                "Sea",
+                "post-glacial sea-level change",
                 "Pacific coast"
             ],
             "date": "2014-08-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.quascirev.2014.05.022",
-            "field_citation_ratio": 7.69,
+            "field_citation_ratio": 7.85,
             "funder_countries": [
                 {
                     "id": "CA",
@@ -8423,10 +9137,11 @@
                 "title": "Quaternary Science Reviews"
             },
             "journal_lists": [
-                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018",
                 "Norwegian register level 2",
-                "ERIH PLUS",
-                "VABB-SHW"
+                "ERA 2015",
+                "ERIH PLUS"
             ],
             "open_access_categories": [
                 {
@@ -8439,256 +9154,256 @@
             "publisher": "Elsevier",
             "recent_citations": 31,
             "reference_ids": [
-                "pub.1049656749",
-                "pub.1002101647",
-                "pub.1051265189",
-                "pub.1025565930",
-                "pub.1039194987",
-                "pub.1043497459",
-                "pub.1052830615",
-                "pub.1040743568",
-                "pub.1001595391",
-                "pub.1007664687",
-                "pub.1009999216",
-                "pub.1014467072",
-                "pub.1032137499",
-                "pub.1046541857",
-                "pub.1062471397",
-                "pub.1067308498",
-                "pub.1008860412",
-                "pub.1058316302",
-                "pub.1002930523",
-                "pub.1039995779",
-                "pub.1030560160",
-                "pub.1023744538",
-                "pub.1090265268",
-                "pub.1003165632",
-                "pub.1023890045",
-                "pub.1022634291",
-                "pub.1001099296",
-                "pub.1049858527",
-                "pub.1026646577",
-                "pub.1013972031",
-                "pub.1062734125",
-                "pub.1035749119",
-                "pub.1022534138",
-                "pub.1019218160",
-                "pub.1039557221",
-                "pub.1032465685",
-                "pub.1009842912",
-                "pub.1031917604",
-                "pub.1028191941",
-                "pub.1023470382",
-                "pub.1028950525",
-                "pub.1035772584",
-                "pub.1048903856",
-                "pub.1045165172",
-                "pub.1040431413",
-                "pub.1006500874",
-                "pub.1019460084",
-                "pub.1010853113",
-                "pub.1014272490",
-                "pub.1042919808",
-                "pub.1006143248",
-                "pub.1001358703",
-                "pub.1038820240",
-                "pub.1021318717",
-                "pub.1010564864",
-                "pub.1021664574",
-                "pub.1036632234",
-                "pub.1073338144",
-                "pub.1017746206",
-                "pub.1009953775",
-                "pub.1053141213",
-                "pub.1030794800",
-                "pub.1005455731",
-                "pub.1064153042",
-                "pub.1026285158",
-                "pub.1013853752",
-                "pub.1009143942",
-                "pub.1062734034",
-                "pub.1007224330",
-                "pub.1018229513",
-                "pub.1021384081",
-                "pub.1040707778",
-                "pub.1085727810",
-                "pub.1062534166",
-                "pub.1064928908",
-                "pub.1062733980",
-                "pub.1030125903",
-                "pub.1052848833",
-                "pub.1062557239",
-                "pub.1001826766",
-                "pub.1062444526",
-                "pub.1069919915",
-                "pub.1042297356",
-                "pub.1016329003",
-                "pub.1106957422",
-                "pub.1038811323",
-                "pub.1005906379",
-                "pub.1090148071",
-                "pub.1018339218",
-                "pub.1047608408",
-                "pub.1029840163",
-                "pub.1021475916",
-                "pub.1024509839",
-                "pub.1010847136",
-                "pub.1036418708",
-                "pub.1029859224",
-                "pub.1030048459",
-                "pub.1026134366",
-                "pub.1049906317",
-                "pub.1002763548",
-                "pub.1070064616",
-                "pub.1049707081",
-                "pub.1035760077",
-                "pub.1011018389",
-                "pub.1046426367",
-                "pub.1029887219",
-                "pub.1045872893",
-                "pub.1015712797",
-                "pub.1052804200",
-                "pub.1062525747",
-                "pub.1003532036",
-                "pub.1033377782",
-                "pub.1031512615",
                 "pub.1025793915",
-                "pub.1047975748",
-                "pub.1031910365",
-                "pub.1036386378",
-                "pub.1036447666",
-                "pub.1052716155",
+                "pub.1015712797",
+                "pub.1016329003",
+                "pub.1090148071",
+                "pub.1070064616",
+                "pub.1019460084",
+                "pub.1035749119",
+                "pub.1039557221",
+                "pub.1014467072",
+                "pub.1040743568",
+                "pub.1067308498",
+                "pub.1064153042",
+                "pub.1011018389",
+                "pub.1085727810",
+                "pub.1106957422",
+                "pub.1028191941",
+                "pub.1002101647",
+                "pub.1038811323",
+                "pub.1013853752",
+                "pub.1040431413",
+                "pub.1026646577",
+                "pub.1003165632",
+                "pub.1030125903",
+                "pub.1017746206",
+                "pub.1035772584",
+                "pub.1010847136",
+                "pub.1023470382",
+                "pub.1008860412",
+                "pub.1018229513",
+                "pub.1028950525",
+                "pub.1073338144",
+                "pub.1053141213",
+                "pub.1021384081",
+                "pub.1062557239",
+                "pub.1069919915",
+                "pub.1009143942",
+                "pub.1021664574",
+                "pub.1042919808",
+                "pub.1009999216",
+                "pub.1062534166",
+                "pub.1046541857",
+                "pub.1029840163",
+                "pub.1002029217",
+                "pub.1003532036",
+                "pub.1026134366",
+                "pub.1023890045",
+                "pub.1009842912",
+                "pub.1039194987",
+                "pub.1058316302",
+                "pub.1029859224",
+                "pub.1030560160",
+                "pub.1062734125",
+                "pub.1001099296",
+                "pub.1007664687",
+                "pub.1024509839",
                 "pub.1008637150",
-                "pub.1021154122",
+                "pub.1032465685",
+                "pub.1043497459",
+                "pub.1048903856",
+                "pub.1049906317",
                 "pub.1010398408",
+                "pub.1022634291",
+                "pub.1032137499",
+                "pub.1049707081",
+                "pub.1051265189",
+                "pub.1049656749",
+                "pub.1001595391",
+                "pub.1062733980",
+                "pub.1045165172",
+                "pub.1052716155",
+                "pub.1035760077",
+                "pub.1010853113",
+                "pub.1021154122",
+                "pub.1046426367",
+                "pub.1019218160",
+                "pub.1014272490",
+                "pub.1030794800",
+                "pub.1007224330",
+                "pub.1036632234",
+                "pub.1005906379",
+                "pub.1029887219",
                 "pub.1012549998",
-                "pub.1002029217"
+                "pub.1021318717",
+                "pub.1023744538",
+                "pub.1062734034",
+                "pub.1031917604",
+                "pub.1030048459",
+                "pub.1052830615",
+                "pub.1018339218",
+                "pub.1090265268",
+                "pub.1062444526",
+                "pub.1006143248",
+                "pub.1040707778",
+                "pub.1009953775",
+                "pub.1031512615",
+                "pub.1002930523",
+                "pub.1036447666",
+                "pub.1038820240",
+                "pub.1005455731",
+                "pub.1036386378",
+                "pub.1001826766",
+                "pub.1042297356",
+                "pub.1047975748",
+                "pub.1021475916",
+                "pub.1002763548",
+                "pub.1013972031",
+                "pub.1026285158",
+                "pub.1033377782",
+                "pub.1052848833",
+                "pub.1025565930",
+                "pub.1047608408",
+                "pub.1031910365",
+                "pub.1036418708",
+                "pub.1064928908",
+                "pub.1001358703",
+                "pub.1045872893",
+                "pub.1006500874",
+                "pub.1022534138",
+                "pub.1062471397",
+                "pub.1062525747",
+                "pub.1052804200",
+                "pub.1049858527",
+                "pub.1010564864",
+                "pub.1039995779"
             ],
             "references": [
-                "pub.1049656749",
-                "pub.1002101647",
-                "pub.1051265189",
-                "pub.1025565930",
-                "pub.1039194987",
-                "pub.1043497459",
-                "pub.1052830615",
-                "pub.1040743568",
-                "pub.1001595391",
-                "pub.1007664687",
-                "pub.1009999216",
-                "pub.1014467072",
-                "pub.1032137499",
-                "pub.1046541857",
-                "pub.1062471397",
-                "pub.1067308498",
-                "pub.1008860412",
-                "pub.1058316302",
-                "pub.1002930523",
-                "pub.1039995779",
-                "pub.1030560160",
-                "pub.1023744538",
-                "pub.1090265268",
-                "pub.1003165632",
-                "pub.1023890045",
-                "pub.1022634291",
-                "pub.1001099296",
-                "pub.1049858527",
-                "pub.1026646577",
-                "pub.1013972031",
-                "pub.1062734125",
-                "pub.1035749119",
-                "pub.1022534138",
-                "pub.1019218160",
-                "pub.1039557221",
-                "pub.1032465685",
-                "pub.1009842912",
-                "pub.1031917604",
-                "pub.1028191941",
-                "pub.1023470382",
-                "pub.1028950525",
-                "pub.1035772584",
-                "pub.1048903856",
-                "pub.1045165172",
-                "pub.1040431413",
-                "pub.1006500874",
-                "pub.1019460084",
-                "pub.1010853113",
-                "pub.1014272490",
-                "pub.1042919808",
-                "pub.1006143248",
-                "pub.1001358703",
-                "pub.1038820240",
-                "pub.1021318717",
-                "pub.1010564864",
-                "pub.1021664574",
-                "pub.1036632234",
-                "pub.1073338144",
-                "pub.1017746206",
-                "pub.1009953775",
-                "pub.1053141213",
-                "pub.1030794800",
-                "pub.1005455731",
-                "pub.1064153042",
-                "pub.1026285158",
-                "pub.1013853752",
-                "pub.1009143942",
-                "pub.1062734034",
-                "pub.1007224330",
-                "pub.1018229513",
-                "pub.1021384081",
-                "pub.1040707778",
-                "pub.1085727810",
-                "pub.1062534166",
-                "pub.1064928908",
-                "pub.1062733980",
-                "pub.1030125903",
-                "pub.1052848833",
-                "pub.1062557239",
-                "pub.1001826766",
-                "pub.1062444526",
-                "pub.1069919915",
-                "pub.1042297356",
-                "pub.1016329003",
-                "pub.1106957422",
-                "pub.1038811323",
-                "pub.1005906379",
-                "pub.1090148071",
-                "pub.1018339218",
-                "pub.1047608408",
-                "pub.1029840163",
-                "pub.1021475916",
-                "pub.1024509839",
-                "pub.1010847136",
-                "pub.1036418708",
-                "pub.1029859224",
-                "pub.1030048459",
-                "pub.1026134366",
-                "pub.1049906317",
-                "pub.1002763548",
-                "pub.1070064616",
-                "pub.1049707081",
-                "pub.1035760077",
-                "pub.1011018389",
-                "pub.1046426367",
-                "pub.1029887219",
-                "pub.1045872893",
-                "pub.1015712797",
-                "pub.1052804200",
-                "pub.1062525747",
-                "pub.1003532036",
-                "pub.1033377782",
-                "pub.1031512615",
                 "pub.1025793915",
-                "pub.1047975748",
-                "pub.1031910365",
-                "pub.1036386378",
-                "pub.1036447666",
-                "pub.1052716155",
+                "pub.1015712797",
+                "pub.1016329003",
+                "pub.1090148071",
+                "pub.1070064616",
+                "pub.1019460084",
+                "pub.1035749119",
+                "pub.1039557221",
+                "pub.1014467072",
+                "pub.1040743568",
+                "pub.1067308498",
+                "pub.1064153042",
+                "pub.1011018389",
+                "pub.1085727810",
+                "pub.1106957422",
+                "pub.1028191941",
+                "pub.1002101647",
+                "pub.1038811323",
+                "pub.1013853752",
+                "pub.1040431413",
+                "pub.1026646577",
+                "pub.1003165632",
+                "pub.1030125903",
+                "pub.1017746206",
+                "pub.1035772584",
+                "pub.1010847136",
+                "pub.1023470382",
+                "pub.1008860412",
+                "pub.1018229513",
+                "pub.1028950525",
+                "pub.1073338144",
+                "pub.1053141213",
+                "pub.1021384081",
+                "pub.1062557239",
+                "pub.1069919915",
+                "pub.1009143942",
+                "pub.1021664574",
+                "pub.1042919808",
+                "pub.1009999216",
+                "pub.1062534166",
+                "pub.1046541857",
+                "pub.1029840163",
+                "pub.1002029217",
+                "pub.1003532036",
+                "pub.1026134366",
+                "pub.1023890045",
+                "pub.1009842912",
+                "pub.1039194987",
+                "pub.1058316302",
+                "pub.1029859224",
+                "pub.1030560160",
+                "pub.1062734125",
+                "pub.1001099296",
+                "pub.1007664687",
+                "pub.1024509839",
                 "pub.1008637150",
-                "pub.1021154122",
+                "pub.1032465685",
+                "pub.1043497459",
+                "pub.1048903856",
+                "pub.1049906317",
                 "pub.1010398408",
+                "pub.1022634291",
+                "pub.1032137499",
+                "pub.1049707081",
+                "pub.1051265189",
+                "pub.1049656749",
+                "pub.1001595391",
+                "pub.1062733980",
+                "pub.1045165172",
+                "pub.1052716155",
+                "pub.1035760077",
+                "pub.1010853113",
+                "pub.1021154122",
+                "pub.1046426367",
+                "pub.1019218160",
+                "pub.1014272490",
+                "pub.1030794800",
+                "pub.1007224330",
+                "pub.1036632234",
+                "pub.1005906379",
+                "pub.1029887219",
                 "pub.1012549998",
-                "pub.1002029217"
+                "pub.1021318717",
+                "pub.1023744538",
+                "pub.1062734034",
+                "pub.1031917604",
+                "pub.1030048459",
+                "pub.1052830615",
+                "pub.1018339218",
+                "pub.1090265268",
+                "pub.1062444526",
+                "pub.1006143248",
+                "pub.1040707778",
+                "pub.1009953775",
+                "pub.1031512615",
+                "pub.1002930523",
+                "pub.1036447666",
+                "pub.1038820240",
+                "pub.1005455731",
+                "pub.1036386378",
+                "pub.1001826766",
+                "pub.1042297356",
+                "pub.1047975748",
+                "pub.1021475916",
+                "pub.1002763548",
+                "pub.1013972031",
+                "pub.1026285158",
+                "pub.1033377782",
+                "pub.1052848833",
+                "pub.1025565930",
+                "pub.1047608408",
+                "pub.1031910365",
+                "pub.1036418708",
+                "pub.1064928908",
+                "pub.1001358703",
+                "pub.1045872893",
+                "pub.1006500874",
+                "pub.1022534138",
+                "pub.1062471397",
+                "pub.1062525747",
+                "pub.1052804200",
+                "pub.1049858527",
+                "pub.1010564864",
+                "pub.1039995779"
             ],
             "research_org_cities": [
                 {
@@ -8720,21 +9435,6 @@
             ],
             "research_orgs": [
                 {
-                    "city_name": "Victoria",
-                    "country_name": "Canada",
-                    "id": "grid.143640.4",
-                    "latitude": 48.463326,
-                    "linkout": [
-                        "http://www.uvic.ca/"
-                    ],
-                    "longitude": -123.31175,
-                    "name": "University of Victoria",
-                    "state_name": "British Columbia",
-                    "types": [
-                        "Education"
-                    ]
-                },
-                {
                     "acronym": "UFV",
                     "city_name": "Abbotsford",
                     "country_name": "Canada",
@@ -8745,6 +9445,21 @@
                     ],
                     "longitude": -122.281815,
                     "name": "University of the Fraser Valley",
+                    "state_name": "British Columbia",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
+                    "city_name": "Victoria",
+                    "country_name": "Canada",
+                    "id": "grid.143640.4",
+                    "latitude": 48.463326,
+                    "linkout": [
+                        "http://www.uvic.ca/"
+                    ],
+                    "longitude": -123.31175,
+                    "name": "University of Victoria",
                     "state_name": "British Columbia",
                     "types": [
                         "Education"
@@ -8760,12 +9475,12 @@
                         "0000-0002-6279-8420"
                     ],
                     "research_orgs": [
-                        "grid.61971.38",
-                        "grid.34429.38",
                         "grid.462984.5",
                         "grid.22072.35",
-                        "grid.143640.4",
-                        "grid.484717.9"
+                        "grid.61971.38",
+                        "grid.34429.38",
+                        "grid.484717.9",
+                        "grid.143640.4"
                     ]
                 },
                 {
@@ -8776,11 +9491,11 @@
                         "0000-0001-5719-5310"
                     ],
                     "research_orgs": [
-                        "grid.143640.4",
                         "grid.215654.1",
+                        "grid.143640.4",
+                        "grid.22072.35",
                         "grid.484717.9",
-                        "grid.64337.35",
-                        "grid.22072.35"
+                        "grid.64337.35"
                     ]
                 },
                 {
@@ -8788,13 +9503,13 @@
                     "id": "ur.01344046362.99",
                     "last_name": "Lian",
                     "research_orgs": [
-                        "grid.484717.9",
+                        "grid.4970.a",
                         "grid.61971.38",
-                        "grid.292498.c",
+                        "grid.484717.9",
+                        "grid.143640.4",
                         "grid.39381.30",
                         "grid.267827.e",
-                        "grid.4970.a",
-                        "grid.143640.4"
+                        "grid.292498.c"
                     ]
                 },
                 {
@@ -8813,11 +9528,14 @@
                     "first_name": "Christina M",
                     "id": "ur.07441174741.03",
                     "last_name": "Neudorf",
+                    "orcid_id": [
+                        "0000-0002-4449-2655"
+                    ],
                     "research_orgs": [
-                        "grid.474431.1",
-                        "grid.61971.38",
                         "grid.1007.6",
+                        "grid.61971.38",
                         "grid.484717.9",
+                        "grid.474431.1",
                         "grid.292498.c"
                     ]
                 },
@@ -8826,8 +9544,8 @@
                     "id": "ur.011772016557.01",
                     "last_name": "Mclaren",
                     "research_orgs": [
-                        "grid.484717.9",
-                        "grid.143640.4"
+                        "grid.143640.4",
+                        "grid.484717.9"
                     ]
                 },
                 {
@@ -8846,7 +9564,6 @@
             ],
             "terms": [
                 "sea-level history",
-                "level history",
                 "history",
                 "Last Glacial Maximum",
                 "Glacial Maximum",
@@ -8855,6 +9572,7 @@
                 "margin",
                 "North America",
                 "America",
+                "heterogeneous owing",
                 "owing",
                 "regional differences",
                 "crustal deformation",
@@ -8878,7 +9596,6 @@
                 "setting",
                 "coast",
                 "sea-level response",
-                "level responses",
                 "Holocene",
                 "example",
                 "sea level",
@@ -8890,31 +9607,25 @@
                 "isostatic depression",
                 "same time",
                 "time",
-                "present",
                 "Haida Gwaii",
                 "northern coast",
-                "combined effects",
                 "low eustatic sea level",
                 "eustatic sea level",
                 "part",
                 "southeast Alaska",
                 "Alaska",
                 "post-glacial sea level",
-                "glacial sea level",
                 "coast of Washington",
                 "Washington",
                 "Oregon",
-                "central Alaska",
+                "south-central Alaska",
                 "neotectonics",
                 "eustasy",
                 "large role",
                 "isostatic adjustment",
                 "relative sea-level changes",
                 "sea-level changes",
-                "level changes",
-                "post-glacial sea",
-                "glacial sea",
-                "Sea",
+                "post-glacial sea-level change",
                 "Pacific coast"
             ],
             "times_cited": 50,
@@ -13249,7 +13960,6 @@
                 }
             ]
         },
-        "abstract": "Abstract Sea-level history since the Last Glacial Maximum on the Pacific margin of North America is complex and heterogeneous owing to regional differences in crustal deformation (neotectonics), changes in global ocean volumes (eustasy) and the depression and rebound of the Earth's crust in response to ice sheets on land (isostasy). At the Last Glacial Maximum, the Cordilleran Ice Sheet depressed the crust over which it formed and created a raised forebulge along peripheral areas offshore. This, combined with different tectonic settings along the coast, resulted in divergent relative sea-level responses during the Holocene. For example, sea level was up to 200 m higher than present in the lower Fraser Valley region of southwest British Columbia, due largely to isostatic depression. At the same time, sea level was 150 m lower than present in Haida Gwaii, on the northern coast of British Columbia, due to the combined effects of the forebulge raising the land and lower eustatic sea level. A forebulge also developed in parts of southeast Alaska resulting in post-glacial sea levels at least 122 m lower than present and possibly as low as 165 m. On the coasts of Washington and Oregon, as well as south-central Alaska, neotectonics and eustasy seem to have played larger roles than isostatic adjustments in controlling relative sea-level changes.",
         "authors": [
             "author-c29bf081152d8d393512",
             "author-cfe6a6deb11be42b2273",
@@ -13356,68 +14066,6 @@
             "status": "ok"
         },
         "doi": "10.1016/j.quascirev.2014.05.022",
-        "keyphrases": {
-            "british columbia": {
-                "count": 3,
-                "rank_score": 0.07553788340663344
-            },
-            "different tectonic settings": {
-                "count": 1,
-                "rank_score": 0.06991357126444939
-            },
-            "divergent relative sea-level responses": {
-                "count": 1,
-                "rank_score": 0.0844179291589318
-            },
-            "global ocean volumes": {
-                "count": 1,
-                "rank_score": 0.07006043816951278
-            },
-            "isostatic adjustments": {
-                "count": 1,
-                "rank_score": 0.06974105837436458
-            },
-            "isostatic depression": {
-                "count": 1,
-                "rank_score": 0.06592611347215394
-            },
-            "land": {
-                "count": 2,
-                "rank_score": 0.0639919816741982
-            },
-            "lower eustatic sea level": {
-                "count": 1,
-                "rank_score": 0.11534749915891522
-            },
-            "north america": {
-                "count": 2,
-                "rank_score": 0.06295364822788668
-            },
-            "post-glacial sea levels": {
-                "count": 1,
-                "rank_score": 0.11490484180603222
-            },
-            "regional differences": {
-                "count": 1,
-                "rank_score": 0.06537860460811457
-            },
-            "relative sea-level changes": {
-                "count": 1,
-                "rank_score": 0.08123836157158724
-            },
-            "sea level": {
-                "count": 2,
-                "rank_score": 0.1205023325010906
-            },
-            "southeast alaska": {
-                "count": 1,
-                "rank_score": 0.06987090416238646
-            },
-            "southwest british columbia": {
-                "count": 1,
-                "rank_score": 0.0804767401385279
-            }
-        },
         "original": {
             "date_added": "2020-01-10 14:37:25",
             "doi": "10.1016/j.quascirev.2014.05.022",
@@ -13427,5 +14075,772 @@
             "url": "https://www.sciencedirect.com/science/article/pii/S0277379114002030?via%3Dihub"
         },
         "title": "Post-glacial sea-level change along the Pacific coast of North America"
+    },
+    {
+        "Dimensions": {
+            "FOR": [
+                {
+                    "id": "2534",
+                    "name": "0405 Oceanography"
+                }
+            ],
+            "FOR_first": [
+                {
+                    "id": "2204",
+                    "name": "04 Earth Sciences"
+                }
+            ],
+            "altmetric": 11.0,
+            "altmetric_id": 684542,
+            "author_affiliations": [
+                [
+                    {
+                        "affiliations": [
+                            {
+                                "name": "University of California Integrative Oceanography Division, Scripps Institution of Oceanography San Diego, La Jolla California USA"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.217200.6",
+                        "email": "pbromirski@ucsd.edu",
+                        "first_name": "Peter D.",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "Bromirski",
+                        "last_name_original": "",
+                        "orcid": "",
+                        "raw_affiliation_original": [],
+                        "researcher_id": "ur.012207036063.05"
+                    },
+                    {
+                        "affiliations": [
+                            {
+                                "name": "University of California CASPO Division, Scripps Institution of Oceanography San Diego, La Jolla California USA"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.217200.6",
+                        "email": "",
+                        "first_name": "Arthur J.",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "Miller",
+                        "last_name_original": "",
+                        "orcid": "['0000-0003-3459-2676']",
+                        "raw_affiliation_original": [],
+                        "researcher_id": "ur.01120270444.35"
+                    },
+                    {
+                        "affiliations": [
+                            {
+                                "name": "University of California California Department of Boating and Waterways, Scripps Institution of Oceanography San Diego, La Jolla California USA"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.217200.6",
+                        "email": "",
+                        "first_name": "Reinhard E.",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "Flick",
+                        "last_name_original": "",
+                        "orcid": "",
+                        "raw_affiliation_original": [],
+                        "researcher_id": "ur.011067124703.23"
+                    },
+                    {
+                        "affiliations": [
+                            {
+                                "name": "University of California CASPO Division, Scripps Institution of Oceanography San Diego, La Jolla California USA"
+                            },
+                            {
+                                "name": "Now at Bureau of Ocean Energy Management, Regulation and Enforcement, Herndon, Virginia, USA"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.239134.e",
+                        "email": "",
+                        "first_name": "Guillermo",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "Auad",
+                        "last_name_original": "",
+                        "orcid": "",
+                        "raw_affiliation_original": [],
+                        "researcher_id": "ur.011407503672.64"
+                    }
+                ]
+            ],
+            "authors": [
+                {
+                    "affiliations": [
+                        {
+                            "name": "University of California Integrative Oceanography Division, Scripps Institution of Oceanography San Diego, La Jolla California USA"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.217200.6",
+                    "email": "pbromirski@ucsd.edu",
+                    "first_name": "Peter D.",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "Bromirski",
+                    "last_name_original": "",
+                    "orcid": "",
+                    "raw_affiliation_original": [],
+                    "researcher_id": "ur.012207036063.05"
+                },
+                {
+                    "affiliations": [
+                        {
+                            "name": "University of California CASPO Division, Scripps Institution of Oceanography San Diego, La Jolla California USA"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.217200.6",
+                    "email": "",
+                    "first_name": "Arthur J.",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "Miller",
+                    "last_name_original": "",
+                    "orcid": "['0000-0003-3459-2676']",
+                    "raw_affiliation_original": [],
+                    "researcher_id": "ur.01120270444.35"
+                },
+                {
+                    "affiliations": [
+                        {
+                            "name": "University of California California Department of Boating and Waterways, Scripps Institution of Oceanography San Diego, La Jolla California USA"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.217200.6",
+                    "email": "",
+                    "first_name": "Reinhard E.",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "Flick",
+                    "last_name_original": "",
+                    "orcid": "",
+                    "raw_affiliation_original": [],
+                    "researcher_id": "ur.011067124703.23"
+                },
+                {
+                    "affiliations": [
+                        {
+                            "name": "University of California CASPO Division, Scripps Institution of Oceanography San Diego, La Jolla California USA"
+                        },
+                        {
+                            "name": "Now at Bureau of Ocean Energy Management, Regulation and Enforcement, Herndon, Virginia, USA"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.239134.e",
+                    "email": "",
+                    "first_name": "Guillermo",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "Auad",
+                    "last_name_original": "",
+                    "orcid": "",
+                    "raw_affiliation_original": [],
+                    "researcher_id": "ur.011407503672.64"
+                }
+            ],
+            "category_for": [
+                {
+                    "id": "2204",
+                    "name": "04 Earth Sciences"
+                },
+                {
+                    "id": "2534",
+                    "name": "0405 Oceanography"
+                }
+            ],
+            "category_ua": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
+            "category_uoa": [
+                {
+                    "id": "30007",
+                    "name": "B07 Earth Systems and Environmental Sciences"
+                }
+            ],
+            "concepts": [
+                "long-term changes",
+                "changes",
+                "global mean sea level rise",
+                "mean sea level rise",
+                "sea level rise",
+                "level rise",
+                "rise",
+                "shoreline",
+                "beach erosion",
+                "erosion",
+                "wetland inundation",
+                "inundation",
+                "storms",
+                "flooding",
+                "coastal development",
+                "altimetry",
+                "MSL rise",
+                "rise rate",
+                "rate",
+                "same time",
+                "time",
+                "tide",
+                "measurements",
+                "increase",
+                "Pacific coast",
+                "coast",
+                "North America",
+                "America",
+                "epoch",
+                "steric response",
+                "ocean circulation",
+                "circulation",
+                "dramatic changes",
+                "wind stress curl",
+                "stress curl",
+                "curl",
+                "τxy",
+                "regime shifts",
+                "shift",
+                "regional sea level rise",
+                "North Pacific",
+                "Pacific",
+                "wind stress patterns",
+                "stress patterns",
+                "patterns",
+                "Pacific Decadal Oscillation (PDO) regime shift",
+                "concomitant resumption",
+                "U.S. West Coast",
+                "west coast",
+                "acceleration"
+            ],
+            "date": "2011-01-01",
+            "date_inserted": "2017-08-31",
+            "doi": "10.1029/2010jc006759",
+            "field_citation_ratio": 12.53,
+            "funder_countries": [
+                {
+                    "id": "US",
+                    "name": "United States"
+                }
+            ],
+            "funders": [
+                {
+                    "acronym": "SPAWAR",
+                    "city_name": "San Diego",
+                    "country_name": "United States",
+                    "id": "grid.419445.9",
+                    "latitude": 32.697964,
+                    "linkout": [
+                        "http://www.public.navy.mil/SPAWAR/PACIFIC/PAGES/DEFAULT.ASPX"
+                    ],
+                    "longitude": -117.24804,
+                    "name": "Space and Naval Warfare Systems Center Pacific",
+                    "state_name": "California",
+                    "types": [
+                        "Facility"
+                    ]
+                },
+                {
+                    "acronym": "NOAA",
+                    "city_name": "Washington D.C.",
+                    "country_name": "United States",
+                    "id": "grid.3532.7",
+                    "latitude": 38.894806,
+                    "linkout": [
+                        "http://www.noaa.gov/"
+                    ],
+                    "longitude": -77.03173,
+                    "name": "National Oceanic and Atmospheric Administration",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
+                },
+                {
+                    "acronym": "NSF GEO",
+                    "city_name": "Arlington",
+                    "country_name": "United States",
+                    "id": "grid.457836.b",
+                    "latitude": 38.88058,
+                    "linkout": [
+                        "http://www.nsf.gov/dir/index.jsp?org=GEO"
+                    ],
+                    "longitude": -77.111,
+                    "name": "Directorate for Geosciences",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Government"
+                    ]
+                }
+            ],
+            "id": "pub.1004761840",
+            "issn": [
+                "0148-0227",
+                "2156-2202"
+            ],
+            "issue": "C7",
+            "journal": {
+                "id": "jour.1312079",
+                "title": "Journal of Geophysical Research"
+            },
+            "journal_lists": [
+                "Norwegian register level 1",
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "linkout": "https://escholarship.org/content/qt7wv1t8fh/qt7wv1t8fh.pdf?t=q0dzi3",
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - published"
+            ],
+            "open_access_categories": [
+                {
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Free copy of published version in an OA repository",
+                    "id": "green_pub",
+                    "name": "Green, Published"
+                }
+            ],
+            "publisher": "American Geophysical Union (AGU)",
+            "recent_citations": 22,
+            "reference_ids": [
+                "pub.1062549075",
+                "pub.1030706422",
+                "pub.1052657927",
+                "pub.1011843153",
+                "pub.1009323796",
+                "pub.1016281723",
+                "pub.1017544915",
+                "pub.1052658662",
+                "pub.1036962115",
+                "pub.1022510790",
+                "pub.1003078661",
+                "pub.1023005545",
+                "pub.1004312256",
+                "pub.1004358945",
+                "pub.1005966439",
+                "pub.1049114781",
+                "pub.1050821094",
+                "pub.1073066883",
+                "pub.1049656749",
+                "pub.1037878912",
+                "pub.1042490984",
+                "pub.1022723893",
+                "pub.1034744327",
+                "pub.1004148559",
+                "pub.1052914807",
+                "pub.1052335606",
+                "pub.1006533719",
+                "pub.1023847707",
+                "pub.1052669234",
+                "pub.1005466934",
+                "pub.1001462756",
+                "pub.1023263080",
+                "pub.1021084561",
+                "pub.1036147744",
+                "pub.1073372454",
+                "pub.1038806396",
+                "pub.1027348849",
+                "pub.1000818539",
+                "pub.1026704904",
+                "pub.1011849757"
+            ],
+            "references": [
+                "pub.1062549075",
+                "pub.1030706422",
+                "pub.1052657927",
+                "pub.1011843153",
+                "pub.1009323796",
+                "pub.1016281723",
+                "pub.1017544915",
+                "pub.1052658662",
+                "pub.1036962115",
+                "pub.1022510790",
+                "pub.1003078661",
+                "pub.1023005545",
+                "pub.1004312256",
+                "pub.1004358945",
+                "pub.1005966439",
+                "pub.1049114781",
+                "pub.1050821094",
+                "pub.1073066883",
+                "pub.1049656749",
+                "pub.1037878912",
+                "pub.1042490984",
+                "pub.1022723893",
+                "pub.1034744327",
+                "pub.1004148559",
+                "pub.1052914807",
+                "pub.1052335606",
+                "pub.1006533719",
+                "pub.1023847707",
+                "pub.1052669234",
+                "pub.1005466934",
+                "pub.1001462756",
+                "pub.1023263080",
+                "pub.1021084561",
+                "pub.1036147744",
+                "pub.1073372454",
+                "pub.1038806396",
+                "pub.1027348849",
+                "pub.1000818539",
+                "pub.1026704904",
+                "pub.1011849757"
+            ],
+            "research_org_cities": [
+                {
+                    "id": 4763793,
+                    "name": "Herndon"
+                }
+            ],
+            "research_org_countries": [
+                {
+                    "id": "US",
+                    "name": "United States"
+                }
+            ],
+            "research_org_country_names": [
+                "United States"
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-VA",
+                    "name": "Virginia"
+                }
+            ],
+            "research_org_state_names": [
+                "Virginia"
+            ],
+            "researchers": [
+                {
+                    "first_name": "Peter D L",
+                    "id": "ur.012207036063.05",
+                    "last_name": "Bromirski",
+                    "research_orgs": [
+                        "grid.410445.0",
+                        "grid.266100.3",
+                        "grid.217200.6"
+                    ]
+                },
+                {
+                    "first_name": "Arthur J",
+                    "id": "ur.01120270444.35",
+                    "last_name": "Miller",
+                    "orcid_id": [
+                        "0000-0003-3459-2676"
+                    ],
+                    "research_orgs": [
+                        "grid.217200.6",
+                        "grid.266100.3"
+                    ]
+                },
+                {
+                    "first_name": "Reinhard E",
+                    "id": "ur.011067124703.23",
+                    "last_name": "Flick",
+                    "research_orgs": [
+                        "grid.217200.6",
+                        "grid.448432.d",
+                        "grid.266100.3"
+                    ]
+                },
+                {
+                    "first_name": "Guillermo",
+                    "id": "ur.011407503672.64",
+                    "last_name": "Auad",
+                    "research_orgs": [
+                        "grid.484006.e",
+                        "grid.266100.3",
+                        "grid.217200.6",
+                        "grid.239134.e"
+                    ]
+                }
+            ],
+            "supporting_grant_ids": [
+                "grant.2995168",
+                "grant.3049401",
+                "grant.4043073",
+                "grant.4044286"
+            ],
+            "terms": [
+                "long-term changes",
+                "changes",
+                "global mean sea level rise",
+                "mean sea level rise",
+                "sea level rise",
+                "level rise",
+                "rise",
+                "shoreline",
+                "beach erosion",
+                "erosion",
+                "wetland inundation",
+                "inundation",
+                "storms",
+                "flooding",
+                "coastal development",
+                "altimetry",
+                "MSL rise",
+                "rise rate",
+                "rate",
+                "same time",
+                "time",
+                "tide",
+                "measurements",
+                "increase",
+                "Pacific coast",
+                "coast",
+                "North America",
+                "America",
+                "epoch",
+                "steric response",
+                "ocean circulation",
+                "circulation",
+                "dramatic changes",
+                "wind stress curl",
+                "stress curl",
+                "curl",
+                "τxy",
+                "regime shifts",
+                "shift",
+                "regional sea level rise",
+                "North Pacific",
+                "Pacific",
+                "wind stress patterns",
+                "stress patterns",
+                "patterns",
+                "Pacific Decadal Oscillation (PDO) regime shift",
+                "concomitant resumption",
+                "U.S. West Coast",
+                "west coast",
+                "acceleration"
+            ],
+            "times_cited": 117,
+            "title": "Dynamical suppression of sea level rise along the Pacific coast of North America: Indications for imminent acceleration",
+            "type": "article",
+            "volume": "116",
+            "year": 2011
+        },
+        "OpenAIRE": {
+            "authors": [
+                "Bromirski, Peter D",
+                "Miller, Arthur J",
+                "Flick, Reinhard E",
+                "Auad, Guillermo"
+            ],
+            "open": true,
+            "url": "https://escholarship.org/uc/item/7wv1t8fh"
+        },
+        "Unpaywall": {
+            "best_oa_location": {
+                "endpoint_id": "29851292c9b5c740cb6",
+                "evidence": "oa repository (via OAI-PMH title and first author match)",
+                "host_type": "repository",
+                "is_best": true,
+                "license": null,
+                "pmh_id": "oai:escholarship.org/ark:/13030/qt7wv1t8fh",
+                "repository_institution": "University of California - eScholarship University of California",
+                "updated": "2020-01-01T06:48:36.579899",
+                "url": "https://escholarship.org/content/qt7wv1t8fh/qt7wv1t8fh.pdf?t=q0dzi3",
+                "url_for_landing_page": "https://escholarship.org/uc/item/7wv1t8fh",
+                "url_for_pdf": "https://escholarship.org/content/qt7wv1t8fh/qt7wv1t8fh.pdf?t=q0dzi3",
+                "version": "publishedVersion"
+            },
+            "data_standard": 2,
+            "doi": "10.1029/2010jc006759",
+            "doi_url": "https://doi.org/10.1029/2010jc006759",
+            "genre": "journal-article",
+            "has_repository_copy": true,
+            "is_oa": true,
+            "journal_is_in_doaj": false,
+            "journal_is_oa": false,
+            "journal_issn_l": "0148-0227",
+            "journal_issns": "0148-0227",
+            "journal_name": "Journal of Geophysical Research",
+            "oa_locations": [
+                {
+                    "endpoint_id": "29851292c9b5c740cb6",
+                    "evidence": "oa repository (via OAI-PMH title and first author match)",
+                    "host_type": "repository",
+                    "is_best": true,
+                    "license": null,
+                    "pmh_id": "oai:escholarship.org/ark:/13030/qt7wv1t8fh",
+                    "repository_institution": "University of California - eScholarship University of California",
+                    "updated": "2020-01-01T06:48:36.579899",
+                    "url": "https://escholarship.org/content/qt7wv1t8fh/qt7wv1t8fh.pdf?t=q0dzi3",
+                    "url_for_landing_page": "https://escholarship.org/uc/item/7wv1t8fh",
+                    "url_for_pdf": "https://escholarship.org/content/qt7wv1t8fh/qt7wv1t8fh.pdf?t=q0dzi3",
+                    "version": "publishedVersion"
+                },
+                {
+                    "endpoint_id": "CiteSeerX.psu",
+                    "evidence": "oa repository (via OAI-PMH doi match)",
+                    "host_type": "repository",
+                    "is_best": false,
+                    "license": null,
+                    "pmh_id": "oai:CiteSeerX.psu:10.1.1.401.4994",
+                    "repository_institution": "CiteSeerX.psu",
+                    "updated": "2017-10-22T05:18:29.766083",
+                    "url": "http://meteora.ucsd.edu/cap/pdffiles/jgr_bromirski_slrpac_2011.pdf",
+                    "url_for_landing_page": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.401.4994",
+                    "url_for_pdf": "http://meteora.ucsd.edu/cap/pdffiles/jgr_bromirski_slrpac_2011.pdf",
+                    "version": "submittedVersion"
+                },
+                {
+                    "endpoint_id": null,
+                    "evidence": "oa repository (semantic scholar lookup)",
+                    "host_type": "repository",
+                    "is_best": false,
+                    "license": null,
+                    "pmh_id": null,
+                    "repository_institution": null,
+                    "updated": "2019-10-01T00:00:00",
+                    "url": "http://pdfs.semanticscholar.org/ebed/1ee9b2fd5108f2e12a81a52c711244cd7421.pdf",
+                    "url_for_landing_page": "https://semanticscholar.org/paper/ebed1ee9b2fd5108f2e12a81a52c711244cd7421",
+                    "url_for_pdf": "http://pdfs.semanticscholar.org/ebed/1ee9b2fd5108f2e12a81a52c711244cd7421.pdf",
+                    "version": "submittedVersion"
+                }
+            ],
+            "oa_status": "green",
+            "published_date": "2011-07-08",
+            "publisher": "Wiley-Blackwell",
+            "title": "Dynamical suppression of sea level rise along the Pacific coast of North America: Indications for imminent acceleration",
+            "updated": "2019-12-09T16:25:08.157295",
+            "year": 2011,
+            "z_authors": [
+                {
+                    "family": "Bromirski",
+                    "given": "Peter D."
+                },
+                {
+                    "family": "Miller",
+                    "given": "Arthur J."
+                },
+                {
+                    "family": "Flick",
+                    "given": "Reinhard E."
+                },
+                {
+                    "family": "Auad",
+                    "given": "Guillermo"
+                }
+            ]
+        },
+        "authors": [
+            "author-92407e2789495d6f1daa",
+            "author-d13c1ac8ff8287ef4a64",
+            "author-3ddb4d766363cf2d52d6",
+            "author-223f88f499d361d00849"
+        ],
+        "datasets": [
+            "dataset-614"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "name": {
+                            "first": "Peter D.",
+                            "last": "Bromirski"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Arthur J.",
+                            "last": "Miller"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Reinhard E.",
+                            "last": "Flick"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Guillermo",
+                            "last": "Auad"
+                        }
+                    }
+                ],
+                "classification": "OA",
+                "date": "2011-07-08",
+                "pdf_url": "http://onlinelibrary.wiley.com/doi/10.1029/2010JC006759/pdf",
+                "records": [
+                    {
+                        "abstract": "1] Long‐term changes in global mean sea level (MSL) rise have important practical implications for shoreline and beach erosion, coastal wetlands inundation, storm surge flooding, and coastal development. Altimetry since 1993 indicates that global MSL rise has increased about 50% above the 20th century rise rate, from 2 to 3 mm yr −1 . At the same time, both tide gauge measurements and altimetry indicate virtually no increase along the Pacific coast of North America during the satellite epoch. Here we show that the dynamical steric response of North Pacific eastern boundary ocean circulation to a dramatic change in wind stress curl, t xy , which occurred after the mid‐1970s regime shift, can account for the suppression of regional sea level rise along this coast since 1980. Alarmingly, mean t xy over the North Pacific recently reached levels not observed since before the mid‐1970s regime shift. This change in wind stress patterns may be foreshadowing a Pacific Decadal Oscillation regime shift, causing an associated persistent change in basin‐scale t xy that may result in a concomitant resumption of sea level rise along the U.S. West Coast to global or even higher rates.",
+                        "contributors": "",
+                        "doi": "10.1029/2010jc006759",
+                        "identifier": "oai:researchgate.net:228404155",
+                        "keywords": "",
+                        "pdf_url": "https://www.researchgate.net/profile/Guillermo_Auad2/publication/228404155_Dynamical_Suppression_of_Sea_Level_Rise_Along_the_Pacific_Coast_of_North_America_Indications_for_Imminent_Acceleration/links/02e7e52b5773f450d3000000.pdf",
+                        "source": "researchgate",
+                        "splash_url": "https://www.researchgate.net/publication/228404155_Dynamical_Suppression_of_Sea_Level_Rise_Along_the_Pacific_Coast_of_North_America_Indications_for_Imminent_Acceleration",
+                        "type": "journal-article"
+                    },
+                    {
+                        "doi": "10.1029/2010jc006759",
+                        "identifier": "oadoi:http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.401.4994",
+                        "pdf_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.401.4994",
+                        "source": "oadoi_repo",
+                        "splash_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.401.4994",
+                        "type": "journal-article"
+                    },
+                    {
+                        "doi": "10.1029/2010jc006759",
+                        "identifier": "oadoi:http://meteora.ucsd.edu/cap/pdffiles/jgr_bromirski_slrpac_2011.pdf",
+                        "pdf_url": "http://meteora.ucsd.edu/cap/pdffiles/jgr_bromirski_slrpac_2011.pdf",
+                        "source": "oadoi_repo",
+                        "splash_url": "http://meteora.ucsd.edu/cap/pdffiles/jgr_bromirski_slrpac_2011.pdf",
+                        "type": "journal-article"
+                    },
+                    {
+                        "doi": "10.1029/2010jc006759",
+                        "identifier": "oai:crossref.org:10.1029/2010jc006759",
+                        "issn": "0148-0227",
+                        "issue": "C7",
+                        "journal": "Journal of Geophysical Research",
+                        "pdf_url": "http://onlinelibrary.wiley.com/doi/10.1029/2010JC006759/pdf",
+                        "policy": {
+                            "postprint": "can",
+                            "preprint": "can",
+                            "published": "restricted",
+                            "romeo_id": "6"
+                        },
+                        "publisher": "Wiley-Blackwell",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.1029/2010jc006759",
+                        "type": "journal-article",
+                        "volume": "116"
+                    }
+                ],
+                "title": "Dynamical Suppression of Sea Level Rise Along the Pacific Coast of North America: Indications for Imminent Acceleration",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
+        "doi": "10.1029/2010jc006759",
+        "original": {
+            "date_added": "2020-01-10 14:37:25",
+            "doi": "10.1029/2010jc006759",
+            "journal": "Journal of Geophysical Research: Oceans",
+            "search_term": "Tide gauge data",
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2010JC006759"
+        },
+        "title": "Dynamical suppression of sea level rise along the Pacific coast of North America: Indications for imminent acceleration"
     }
 ]

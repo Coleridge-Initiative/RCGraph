@@ -23,9 +23,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
+                        "email": "",
                         "first_name": "Terrance D.",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Savitsky",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.015333751205.27"
                     },
                     {
@@ -43,9 +48,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.214572.7",
+                        "email": "",
                         "first_name": "Sanvesh",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Srivastava",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.014460174730.44"
                     }
                 ]
@@ -59,9 +69,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
+                    "email": "",
                     "first_name": "Terrance D.",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Savitsky",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.015333751205.27"
                 },
                 {
@@ -79,9 +94,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.214572.7",
+                    "email": "",
                     "first_name": "Sanvesh",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Srivastava",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.014460174730.44"
                 }
             ],
@@ -177,9 +197,10 @@
                 "title": "Scandinavian Journal of Statistics"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 2",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
             ],
             "linkout": "http://arxiv.org/pdf/1606.07488",
             "open_access": [
@@ -203,38 +224,38 @@
             "publisher": "Wiley",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1034655845",
-                "pub.1071056716",
+                "pub.1085538502",
+                "pub.1064390926",
+                "pub.1046034891",
                 "pub.1047679650",
                 "pub.1062859272",
-                "pub.1064394078",
-                "pub.1064405927",
-                "pub.1046034891",
-                "pub.1052383685",
-                "pub.1064390926",
                 "pub.1053514421",
-                "pub.1085538502",
                 "pub.1064388985",
+                "pub.1052383685",
+                "pub.1064394078",
+                "pub.1071056716",
+                "pub.1064405927",
+                "pub.1034655845",
+                "pub.1100454670",
                 "pub.1022031926",
-                "pub.1040028208",
-                "pub.1100454670"
+                "pub.1040028208"
             ],
             "references": [
-                "pub.1034655845",
-                "pub.1071056716",
+                "pub.1085538502",
+                "pub.1064390926",
+                "pub.1046034891",
                 "pub.1047679650",
                 "pub.1062859272",
-                "pub.1064394078",
-                "pub.1064405927",
-                "pub.1046034891",
-                "pub.1052383685",
-                "pub.1064390926",
                 "pub.1053514421",
-                "pub.1085538502",
                 "pub.1064388985",
+                "pub.1052383685",
+                "pub.1064394078",
+                "pub.1071056716",
+                "pub.1064405927",
+                "pub.1034655845",
+                "pub.1100454670",
                 "pub.1022031926",
-                "pub.1040028208",
-                "pub.1100454670"
+                "pub.1040028208"
             ],
             "research_org_cities": [
                 {
@@ -259,10 +280,15 @@
                 {
                     "id": "US-IA",
                     "name": "Iowa"
+                },
+                {
+                    "id": "US-DC",
+                    "name": "District of Columbia"
                 }
             ],
             "research_org_state_names": [
-                "Iowa"
+                "Iowa",
+                "Washington, D.C."
             ],
             "research_orgs": [
                 {
@@ -288,8 +314,8 @@
                     "id": "ur.015333751205.27",
                     "last_name": "Savitsky",
                     "research_orgs": [
-                        "grid.484225.d",
                         "grid.21940.3e",
+                        "grid.484225.d",
                         "grid.34474.30"
                     ]
                 },
@@ -1215,7 +1241,6 @@
                 }
             ]
         },
-        "abstract": "The United States Bureau of Labor Statistics collects data using survey instruments under informative sampling designs that assign probabilities of inclusion to be correlated with the response. The bureau extensively uses Bayesian hierarchical models and posterior sampling to impute missing items in respondent-level data and to infer population parameters. Posterior sampling for survey data collected based on informative designs are computationally expensive and do not support production schedules of the bureau. Motivated by this problem, we propose a new method to scale Bayesian computations in informative sampling designs. Our method divides the data into smaller subsets, performs posterior sampling in parallel for every subset, and combines the collection of posterior samples from all the subsets through their mean in the Wasserstein space of order 2. Theoretically, we construct conditions on a class of sampling designs where posterior consistency of the proposed method is achieved. Empirically, we demonstrate that our method is competitive with traditional methods while being significantly faster in many simulations and in the Current Employment Statistics survey conducted by the bureau.",
         "authors": [
             "author-e99763519f277ec00d31",
             "author-1da4294f746bcb8d3a9f"
@@ -1279,68 +1304,6 @@
             "status": "ok"
         },
         "doi": "10.1111/sjos.12312",
-        "keyphrases": {
-            "bayesian computations": {
-                "count": 1,
-                "rank_score": 0.07896247237553691
-            },
-            "bayesian hierarchical models": {
-                "count": 1,
-                "rank_score": 0.08676492707320665
-            },
-            "data": {
-                "count": 2,
-                "rank_score": 0.09987425993236998
-            },
-            "informative designs": {
-                "count": 1,
-                "rank_score": 0.10852538712071463
-            },
-            "informative sampling designs": {
-                "count": 2,
-                "rank_score": 0.1263288499539646
-            },
-            "labor statistics": {
-                "count": 1,
-                "rank_score": 0.0842979756107374
-            },
-            "many simulations": {
-                "count": 1,
-                "rank_score": 0.07319250547113998
-            },
-            "posterior consistency": {
-                "count": 1,
-                "rank_score": 0.0833689583714575
-            },
-            "posterior samples": {
-                "count": 1,
-                "rank_score": 0.08094395773390713
-            },
-            "sampling designs": {
-                "count": 1,
-                "rank_score": 0.11684504979345842
-            },
-            "smaller subsets": {
-                "count": 1,
-                "rank_score": 0.07815140782117318
-            },
-            "survey data": {
-                "count": 1,
-                "rank_score": 0.11961533798742072
-            },
-            "survey instruments": {
-                "count": 1,
-                "rank_score": 0.09117532918540049
-            },
-            "the current employment statistics survey": {
-                "count": 1,
-                "rank_score": 0.06897296497080385
-            },
-            "traditional methods": {
-                "count": 1,
-                "rank_score": 0.09359875560566722
-            }
-        },
         "original": {
             "date_added": "2019-11-27 13:23:24",
             "doi": "10.1111/sjos.12312",
@@ -2032,7 +1995,6 @@
                 }
             ]
         },
-        "abstract": "In this chapter I develop an empirical framework to estimate the role of agglomeration externalities, especially those stemming from input–output linkages, in the location process of US manufacturing plants. Furthermore, drawing on the model of Holmes and Stevens (J Econ Geogr 4: 227–250, 2004b), I propose a way to reconcile some previous puzzling results about proximity to consumers’ demand and the scope of agglomeration forces. Results suggest that flows of intermediate goods have a positive impact, especially for big plants, on local specialization. By contrast, consumers’ demand has a negative effect and this result is consistent with theory. However, the majority of both effects comes from very local interactions with spatial spill-overs being quite weak but with a very large geographical scope. This result suggests some kind of strong non-linearity in the underlying spatial process. Very close interactions are extremely important but, when considering what is beyond the limit of local markets, then distance does not matter so much.",
         "authors": [
             "author-6e21477506c24024a493"
         ],
@@ -2112,68 +2074,6 @@
             "status": "ok"
         },
         "doi": "10.1007/978-3-642-33395-8_12",
-        "keyphrases": {
-            "agglomeration externalities": {
-                "count": 1,
-                "rank_score": 0.07461745434169427
-            },
-            "agglomeration forces": {
-                "count": 1,
-                "rank_score": 0.07432386108165612
-            },
-            "big plants": {
-                "count": 1,
-                "rank_score": 0.06852087281170781
-            },
-            "flows": {
-                "count": 1,
-                "rank_score": 0.0635255377231676
-            },
-            "input": {
-                "count": 1,
-                "rank_score": 0.0681688972034202
-            },
-            "intermediate goods": {
-                "count": 1,
-                "rank_score": 0.07083033534525585
-            },
-            "local markets": {
-                "count": 1,
-                "rank_score": 0.09614020679528032
-            },
-            "local specialization": {
-                "count": 1,
-                "rank_score": 0.08548904411079952
-            },
-            "output linkages": {
-                "count": 1,
-                "rank_score": 0.07251631929326682
-            },
-            "results": {
-                "count": 3,
-                "rank_score": 0.09048270025296015
-            },
-            "some previous puzzling results": {
-                "count": 1,
-                "rank_score": 0.06661908228827214
-            },
-            "strong non-linearity": {
-                "count": 1,
-                "rank_score": 0.09054973313897695
-            },
-            "the underlying spatial process": {
-                "count": 1,
-                "rank_score": 0.06228680655247593
-            },
-            "us": {
-                "count": 1,
-                "rank_score": 0.06240853540519299
-            },
-            "us manufacturing plants": {
-                "count": 1,
-                "rank_score": 0.08931160641713753
-            }
-        },
         "original": {
             "date_added": "2019-11-27 13:23:24",
             "doi": "10.1007/978-3-642-33395-8_12",
@@ -2189,10 +2089,7 @@
             "altmetric_id": 22234790,
             "book_series_title": "Advances in Spatial Science",
             "concepts": [
-                "geography",
-                "institutions",
-                "regional economic performance",
-                "economic performance"
+                "institutions"
             ],
             "date": "2013-01-01",
             "date_inserted": "2017-08-31",
@@ -2205,20 +2102,28 @@
             "journal_lists": [
                 "Norwegian register level 1"
             ],
+            "linkout": "http://pdfs.semanticscholar.org/11c0/6250be1f81bcb5c0666a17f506d3bfd5d55a.pdf",
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - submitted"
+            ],
             "open_access_categories": [
                 {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Free copy of submitted version, or where version is unknown, in an OA repository",
+                    "id": "green_sub",
+                    "name": "Green, Submitted"
                 }
             ],
             "publisher": "Springer Nature",
             "recent_citations": 5,
             "terms": [
-                "geography",
-                "institutions",
-                "regional economic performance",
-                "economic performance"
+                "institutions"
             ],
             "times_cited": 12,
             "title": "Geography, Institutions and Regional Economic Performance",
@@ -2293,7 +2198,6 @@
             "year": 2013,
             "z_authors": null
         },
-        "abstract": "Introduction.- Space, Growth and Development: Globalization and Endogenous Regional Growth.- TFP Convergence Across European Regions.- Productivity and Local Workforce Composition.- Regional Growth in Central and Eastern Europe.- Some Practical Elements Associated with the Design of an Integrated and Territorial Place-Based Approach to EU Cohesion Policy.- Institutions and Culture: Cultural Diversity and Economic Performance.- The \"bright\" side of Social Capital.- How Institutional Differences Influence Entrepreneurship.- Academic Entrepreneurship and the Georgraphy of University Knowledge Flows in the UK.- Agglomeration Economies, the Location of Economic Activities and Innovation: Evaluating the Role of Clusters for Innovation and Growth in Europe.- Input-Output Linkages, Proximity to Final Demand and the Location of Manufacturing Industries.- Agglomeration and Labour Markets.- Firm Capabilities and Cooperation for Innovation.- Geography in Motion: Trade, FDI and Migrations: Assessing Regional Economic Performance.- The Long Run Interplay Between Trade Policy and the Location of Economic Activity in Brazil Revisited.- Environmental Standards, Delocalization and Employment.- Migrant Heterogeneity and Urban Development.- What Drives Chinese Multinationals to Italy?- Regional Development and Government Income Transfer Programs.",
         "authors": [
             "author-3fd55700cf5832004f05",
             "author-038c15254b0b5f3977af"
@@ -2302,68 +2206,6 @@
             "dataset-345"
         ],
         "doi": "10.1007/978-3-642-33395-8",
-        "keyphrases": {
-            "academic entrepreneurship": {
-                "count": 1,
-                "rank_score": 0.061154772824187964
-            },
-            "composition.- regional growth": {
-                "count": 1,
-                "rank_score": 0.10408655894200064
-            },
-            "economic": {
-                "count": 1,
-                "rank_score": 0.063891449057465
-            },
-            "economic activities": {
-                "count": 1,
-                "rank_score": 0.06998481845605184
-            },
-            "economic activity": {
-                "count": 1,
-                "rank_score": 0.07221313398768386
-            },
-            "endogenous regional": {
-                "count": 1,
-                "rank_score": 0.0905519269158226
-            },
-            "eu cohesion": {
-                "count": 1,
-                "rank_score": 0.06455434013510268
-            },
-            "eu cohesion policy.- institutions": {
-                "count": 1,
-                "rank_score": 0.07648504007577313
-            },
-            "firm capabilities": {
-                "count": 1,
-                "rank_score": 0.06101087756249976
-            },
-            "government income transfer programs": {
-                "count": 1,
-                "rank_score": 0.07272723922214254
-            },
-            "growth": {
-                "count": 2,
-                "rank_score": 0.07046078467458641
-            },
-            "manufacturing industries.- agglomeration": {
-                "count": 1,
-                "rank_score": 0.07086124573722313
-            },
-            "migrant heterogeneity": {
-                "count": 2,
-                "rank_score": 0.0627269709768556
-            },
-            "regional development": {
-                "count": 1,
-                "rank_score": 0.09261822156767527
-            },
-            "trade policy": {
-                "count": 1,
-                "rank_score": 0.06459088109838552
-            }
-        },
         "original": {
             "date_added": "2019-11-27 13:23:24",
             "doi": "10.1007/978-3-642-33395-8",
@@ -2578,7 +2420,6 @@
                 }
             ]
         },
-        "abstract": "The residential sector consumes about 23% of the energy derived from wood (wood energy) in the U.S. An estimated error correction model with data from 1967 to 2009 suggests that residential wood energy consumption has declined by an average 3% per year in response to technological progress, urbanization, accessibility of non-wood energy, and other factors associated with a time trend such as increasing income per capita and number of houses. But the rising price of non-wood energy has had a positive effect on the consumption and offset the downward trend effect in the last decade. Residential wood energy consumption has also been sensitive to changes in wage rate in both long-run and short-run, but the total estimated wage rate effect since 1967 is negligible. Wood energy is expected to continue to account for a small share of residential energy consumption unless public policies improve wood energy cost competitiveness relative to non-wood energy.",
         "authors": [
             "author-aa4fc9c33681113619cd",
             "author-e9feaabd149500c46669",
@@ -2655,68 +2496,6 @@
             "status": "ok"
         },
         "doi": "10.1016/j.eneco.2012.03.004",
-        "keyphrases": {
-            "an estimated error correction model": {
-                "count": 1,
-                "rank_score": 0.06677122313102099
-            },
-            "capita": {
-                "count": 1,
-                "rank_score": 0.05973833538187421
-            },
-            "non-wood energy": {
-                "count": 3,
-                "rank_score": 0.1486397453698338
-            },
-            "other factors": {
-                "count": 1,
-                "rank_score": 0.0638951447441399
-            },
-            "public policies": {
-                "count": 1,
-                "rank_score": 0.06814586467618135
-            },
-            "residential energy consumption": {
-                "count": 1,
-                "rank_score": 0.15078883597086484
-            },
-            "residential wood energy consumption": {
-                "count": 2,
-                "rank_score": 0.1610040632358249
-            },
-            "technological progress": {
-                "count": 1,
-                "rank_score": 0.0728972612145233
-            },
-            "the downward trend effect": {
-                "count": 1,
-                "rank_score": 0.06521779598621606
-            },
-            "the energy": {
-                "count": 1,
-                "rank_score": 0.0698587669475066
-            },
-            "the total estimated wage rate effect": {
-                "count": 1,
-                "rank_score": 0.08437130272231896
-            },
-            "wage rate": {
-                "count": 1,
-                "rank_score": 0.09503852082313277
-            },
-            "wood": {
-                "count": 1,
-                "rank_score": 0.09947938227565353
-            },
-            "wood energy": {
-                "count": 2,
-                "rank_score": 0.1516265689438026
-            },
-            "wood energy cost competitiveness": {
-                "count": 1,
-                "rank_score": 0.143017307051841
-            }
-        },
         "original": {
             "date_added": "2019-11-27 13:23:24",
             "doi": "10.1016/j.eneco.2012.03.004",
@@ -2724,6 +2503,994 @@
             "search_term": "Current Employment Statistics Survey Data"
         },
         "title": "Analysis of U.S. residential wood energy consumption: 1967-2009"
+    },
+    {
+        "Dimensions": {
+            "FOR": [
+                {
+                    "id": "3494",
+                    "name": "1801 Law"
+                }
+            ],
+            "FOR_first": [
+                {
+                    "id": "2218",
+                    "name": "18 Law and Legal Studies"
+                }
+            ],
+            "author_affiliations": [
+                [
+                    {
+                        "affiliations": [],
+                        "corresponding": "",
+                        "current_organization_id": "",
+                        "email": "",
+                        "first_name": "Philip M.",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "Napoli",
+                        "last_name_original": "",
+                        "orcid": "",
+                        "raw_affiliation_original": [],
+                        "researcher_id": ""
+                    }
+                ]
+            ],
+            "authors": [
+                {
+                    "affiliations": [],
+                    "corresponding": "",
+                    "current_organization_id": "",
+                    "email": "",
+                    "first_name": "Philip M.",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "Napoli",
+                    "last_name_original": "",
+                    "orcid": "",
+                    "raw_affiliation_original": [],
+                    "researcher_id": ""
+                }
+            ],
+            "category_for": [
+                {
+                    "id": "2218",
+                    "name": "18 Law and Legal Studies"
+                },
+                {
+                    "id": "3494",
+                    "name": "1801 Law"
+                }
+            ],
+            "category_ua": [
+                {
+                    "id": "30018",
+                    "name": "C18 Law"
+                }
+            ],
+            "category_uoa": [
+                {
+                    "id": "30018",
+                    "name": "C18 Law"
+                }
+            ],
+            "concepts": [
+                "questions",
+                "media performance",
+                "effectiveness",
+                "policymaking",
+                "extent",
+                "media systems",
+                "system",
+                "diversity",
+                "principles",
+                "edited volume",
+                "challenges",
+                "issues",
+                "media markets",
+                "market",
+                "media law",
+                "law",
+                "policy perspective",
+                "perspective",
+                "Napoli",
+                "empirical framework",
+                "framework",
+                "success/failure",
+                "failure",
+                "media outlets",
+                "objective",
+                "contributor",
+                "variety of disciplines",
+                "disciplines",
+                "political science",
+                "science",
+                "economics",
+                "localism",
+                "ownership",
+                "methodological issues",
+                "new technologies",
+                "technology",
+                "scholars",
+                "researchers",
+                "area",
+                "policy",
+                "media regulation",
+                "regulation",
+                "graduate seminar",
+                "seminars",
+                "policy topics",
+                "topic"
+            ],
+            "date": "2009-03-04",
+            "date_inserted": "2017-08-31",
+            "doi": "10.4324/9781410614407",
+            "field_citation_ratio": 8.14,
+            "id": "pub.1028745521",
+            "open_access_categories": [
+                {
+                    "description": "No freely available copy has been identified",
+                    "id": "closed",
+                    "name": "Closed"
+                }
+            ],
+            "publisher": "Taylor & Francis",
+            "terms": [
+                "questions",
+                "media performance",
+                "effectiveness",
+                "policymaking",
+                "extent",
+                "media systems",
+                "system",
+                "diversity",
+                "principles",
+                "edited volume",
+                "challenges",
+                "issues",
+                "media markets",
+                "market",
+                "media law",
+                "law",
+                "policy perspective",
+                "perspective",
+                "Napoli",
+                "empirical framework",
+                "framework",
+                "success/failure",
+                "failure",
+                "media outlets",
+                "objective",
+                "contributor",
+                "variety of disciplines",
+                "disciplines",
+                "political science",
+                "science",
+                "economics",
+                "localism",
+                "ownership",
+                "methodological issues",
+                "new technologies",
+                "technology",
+                "scholars",
+                "researchers",
+                "area",
+                "policy",
+                "media regulation",
+                "regulation",
+                "graduate seminar",
+                "seminars",
+                "policy topics",
+                "topic"
+            ],
+            "times_cited": 8,
+            "title": "Media Diversity and Localism",
+            "type": "monograph",
+            "year": 2009
+        },
+        "Semantic Scholar": {
+            "abstract": null,
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "1994992",
+                    "name": "James G. Webster",
+                    "url": "https://www.semanticscholar.org/author/1994992"
+                }
+            ],
+            "citationVelocity": 0,
+            "citations": [
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "39817416",
+                            "name": "Kari Karppinen",
+                            "url": "https://www.semanticscholar.org/author/39817416"
+                        }
+                    ],
+                    "doi": "10.15847/obsOBS342009314",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "06ae54e634ac21a4e15f37329b89666a1b5fc09a",
+                    "title": "Rethinking Media Pluralism and Communicative Abundance",
+                    "url": "https://www.semanticscholar.org/paper/06ae54e634ac21a4e15f37329b89666a1b5fc09a",
+                    "venue": "",
+                    "year": 2009
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "39277002",
+                            "name": "Philip M. Napoli",
+                            "url": "https://www.semanticscholar.org/author/39277002"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "7d3e6a3f4c14e57eeb7a5efa8a3a68c9a96702e2",
+                    "title": "Navigating Producer-Consumer Convergence: Media Policy Priorities in the Era of User- Generated and User-Distributed Content",
+                    "url": "https://www.semanticscholar.org/paper/7d3e6a3f4c14e57eeb7a5efa8a3a68c9a96702e2",
+                    "venue": "",
+                    "year": 2009
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "39277002",
+                            "name": "Philip M. Napoli",
+                            "url": "https://www.semanticscholar.org/author/39277002"
+                        }
+                    ],
+                    "doi": "10.4337/9780857931344.00013",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "a4db7338e2a46ffb305e3d00884ebd27bf3bd253",
+                    "title": "Diminished, Enduring, and Emergent Diversity Policy Concerns in an Evolving Media Environment",
+                    "url": "https://www.semanticscholar.org/paper/a4db7338e2a46ffb305e3d00884ebd27bf3bd253",
+                    "venue": "",
+                    "year": 2011
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "39277002",
+                            "name": "Philip M. Napoli",
+                            "url": "https://www.semanticscholar.org/author/39277002"
+                        }
+                    ],
+                    "doi": "10.1002/9781444340525.ch14",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "ca69c2d228d7ab6849db8a2af0c5113afeb42085",
+                    "title": "Ratings and Audience Measurement",
+                    "url": "https://www.semanticscholar.org/paper/ca69c2d228d7ab6849db8a2af0c5113afeb42085",
+                    "venue": "",
+                    "year": 2011
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "9845737",
+                            "name": "Gerald M. Kosicki",
+                            "url": "https://www.semanticscholar.org/author/9845737"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "56b9bc31cc0cb8bc0e34ead280bdc7787f60ecc0",
+                    "title": "THE PORTAL EFFECT : THE IMPACT OF CUSTOMIZED CONTENT ON NEWS EXPOSURE",
+                    "url": "https://www.semanticscholar.org/paper/56b9bc31cc0cb8bc0e34ead280bdc7787f60ecc0",
+                    "venue": "",
+                    "year": 2008
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "2464895",
+                            "name": "Natali Helberger",
+                            "url": "https://www.semanticscholar.org/author/2464895"
+                        }
+                    ],
+                    "doi": "10.5325/jinfopoli.1.2011.0337",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "ff4470a888036232536d206b9b75bccc9c5e9aa1",
+                    "title": "Diversity label: exploring the potential and limits of a transparency approach to media diversity",
+                    "url": "https://www.semanticscholar.org/paper/ff4470a888036232536d206b9b75bccc9c5e9aa1",
+                    "venue": "",
+                    "year": 2011
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "145448909",
+                            "name": "Pere Masip",
+                            "url": "https://www.semanticscholar.org/author/145448909"
+                        },
+                        {
+                            "authorId": "1405486203",
+                            "name": "Carlos Ruiz-Caballero",
+                            "url": "https://www.semanticscholar.org/author/1405486203"
+                        },
+                        {
+                            "authorId": "69963272",
+                            "name": "Jaume Suau",
+                            "url": "https://www.semanticscholar.org/author/69963272"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "338bf37b97a6133c1a12cc918d1d2d16fe1d1878",
+                    "title": "Audiencias activas y discusión social en la esfera pública digital. Artículo de revisión",
+                    "url": "https://www.semanticscholar.org/paper/338bf37b97a6133c1a12cc918d1d2d16fe1d1878",
+                    "venue": "",
+                    "year": 2019
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "36991351",
+                            "name": "R. Lance Holbert",
+                            "url": "https://www.semanticscholar.org/author/36991351"
+                        },
+                        {
+                            "authorId": "144648517",
+                            "name": "R. Kelly Garrett",
+                            "url": "https://www.semanticscholar.org/author/144648517"
+                        },
+                        {
+                            "authorId": "113343688",
+                            "name": "Laurel S. Gleason",
+                            "url": "https://www.semanticscholar.org/author/113343688"
+                        }
+                    ],
+                    "doi": "10.1111/j.1460-2466.2009.01470.x",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "a601dad248f6de8634953444d06c9ea667b11900",
+                    "title": "A New Era of Minimal Effects? A Response to Bennett and Iyengar",
+                    "url": "https://www.semanticscholar.org/paper/a601dad248f6de8634953444d06c9ea667b11900",
+                    "venue": "",
+                    "year": 2010
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "39817416",
+                            "name": "Kari Karppinen",
+                            "url": "https://www.semanticscholar.org/author/39817416"
+                        }
+                    ],
+                    "doi": "10.15847/obs",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "603814169b6fab048b6732fb293ec518d0bbf81f",
+                    "title": "Observatorio (OBS*)",
+                    "url": "https://www.semanticscholar.org/paper/603814169b6fab048b6732fb293ec518d0bbf81f",
+                    "venue": "",
+                    "year": 2010
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "39277002",
+                            "name": "Philip M. Napoli",
+                            "url": "https://www.semanticscholar.org/author/39277002"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "14073bd66fa6433ff67862201dcec15399c6824c",
+                    "title": "DIVERSITY AS AN EMERGING PRINCIPLE OF INTERNET GOVERNANCE",
+                    "url": "https://www.semanticscholar.org/paper/14073bd66fa6433ff67862201dcec15399c6824c",
+                    "venue": "",
+                    "year": 2008
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "39277002",
+                            "name": "Philip M. Napoli",
+                            "url": "https://www.semanticscholar.org/author/39277002"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "8ea014a61a75ec96228a2be90ddeb9abb1e3d640",
+                    "title": "Persistent and Emergent Diversity Policy Concerns in an Evolving Media Environment:Toward a Reflective Research Agenda",
+                    "url": "https://www.semanticscholar.org/paper/8ea014a61a75ec96228a2be90ddeb9abb1e3d640",
+                    "venue": "",
+                    "year": 2010
+                }
+            ],
+            "doi": "10.4324/9781410614407",
+            "influentialCitationCount": 2,
+            "paperId": "730b4f15db1b8b82147bfe4f0ba1b8772a8bf5a9",
+            "references": [
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1994992",
+                            "name": "James G. Webster",
+                            "url": "https://www.semanticscholar.org/author/1994992"
+                        },
+                        {
+                            "authorId": "70531118",
+                            "name": "Patricia F. Phalen",
+                            "url": "https://www.semanticscholar.org/author/70531118"
+                        },
+                        {
+                            "authorId": "69359550",
+                            "name": "Lawrence Wilson Lichty",
+                            "url": "https://www.semanticscholar.org/author/69359550"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "670bf1023b82b092fb52eebcbeeb458b220d92f0",
+                    "title": "Ratings analysis: The theory and practice of audience research",
+                    "url": "https://www.semanticscholar.org/paper/670bf1023b82b092fb52eebcbeeb458b220d92f0",
+                    "venue": "",
+                    "year": 2006
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "20392546",
+                            "name": "John Durham Peters",
+                            "url": "https://www.semanticscholar.org/author/20392546"
+                        }
+                    ],
+                    "doi": "10.5860/choice.27-4175",
+                    "intent": [
+                        "result"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "ce9c773759f2c0cd4f2d9f38d8bbfc9aebc32b3e",
+                    "title": "The Structural Transformation of the Public Sphere: An Inquiry into a Category of Bourgeois Society",
+                    "url": "https://www.semanticscholar.org/paper/ce9c773759f2c0cd4f2d9f38d8bbfc9aebc32b3e",
+                    "venue": "",
+                    "year": 1991
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1994992",
+                            "name": "James G. Webster",
+                            "url": "https://www.semanticscholar.org/author/1994992"
+                        },
+                        {
+                            "authorId": "50150216",
+                            "name": "Shu-Fang Lin",
+                            "url": "https://www.semanticscholar.org/author/50150216"
+                        }
+                    ],
+                    "doi": "10.1207/s15506878jobem4601_1",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "fe494e6c26e726baa42c1987d9b65a4286396f3c",
+                    "title": "The internet audience: Web use as mass behavior",
+                    "url": "https://www.semanticscholar.org/paper/fe494e6c26e726baa42c1987d9b65a4286396f3c",
+                    "venue": "",
+                    "year": 2002
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1994992",
+                            "name": "James G. Webster",
+                            "url": "https://www.semanticscholar.org/author/1994992"
+                        }
+                    ],
+                    "doi": "10.1111/j.1460-2466.1986.tb01439.x",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "88be3d6bbe7404e0620b1765fbb86aba53e8fedb",
+                    "title": "Audience Behavior in the New Media Environment",
+                    "url": "https://www.semanticscholar.org/paper/88be3d6bbe7404e0620b1765fbb86aba53e8fedb",
+                    "venue": "",
+                    "year": 1986
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "145161364",
+                            "name": "Mara Einstein",
+                            "url": "https://www.semanticscholar.org/author/145161364"
+                        }
+                    ],
+                    "doi": "10.5860/choice.41-3540",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "2333f613b348f9108cd8c3457ecb4c0d81ef8360",
+                    "title": "Media Diversity: Economics, Ownership, and the FCC",
+                    "url": "https://www.semanticscholar.org/paper/2333f613b348f9108cd8c3457ecb4c0d81ef8360",
+                    "venue": "",
+                    "year": 2004
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "35836722",
+                            "name": "Nancy H. Fraser",
+                            "url": "https://www.semanticscholar.org/author/35836722"
+                        }
+                    ],
+                    "doi": "10.2307/466240",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "b3d083906255e6dbaa4c401027cfce6f24af393e",
+                    "title": "Rethinking the Public Sphere: A Contribution to the Critique of Actually Existing Democracy",
+                    "url": "https://www.semanticscholar.org/paper/b3d083906255e6dbaa4c401027cfce6f24af393e",
+                    "venue": "",
+                    "year": 1990
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1994992",
+                            "name": "James G. Webster",
+                            "url": "https://www.semanticscholar.org/author/1994992"
+                        },
+                        {
+                            "authorId": "70531118",
+                            "name": "Patricia F. Phalen",
+                            "url": "https://www.semanticscholar.org/author/70531118"
+                        }
+                    ],
+                    "doi": "10.5860/choice.35-4920",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "3a6fb3d43be9559372f4a38a22255bc6d10e47a7",
+                    "title": "The Mass Audience: Rediscovering the Dominant Model",
+                    "url": "https://www.semanticscholar.org/paper/3a6fb3d43be9559372f4a38a22255bc6d10e47a7",
+                    "venue": "",
+                    "year": 1997
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "9842698",
+                            "name": "Wendy M. Rahn",
+                            "url": "https://www.semanticscholar.org/author/9842698"
+                        },
+                        {
+                            "authorId": "153936178",
+                            "name": "Thomas J. Rudolph",
+                            "url": "https://www.semanticscholar.org/author/153936178"
+                        }
+                    ],
+                    "doi": "10.1017/cbo9780511613852.022",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "69b3d8a60428f00e120d1c84b67b953dfc53960d",
+                    "title": "National Identities and the Future of Democracy",
+                    "url": "https://www.semanticscholar.org/paper/69b3d8a60428f00e120d1c84b67b953dfc53960d",
+                    "venue": "",
+                    "year": 2000
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "28127478",
+                            "name": "Richard A. Peterson",
+                            "url": "https://www.semanticscholar.org/author/28127478"
+                        },
+                        {
+                            "authorId": "153815533",
+                            "name": "Roger M. Kern",
+                            "url": "https://www.semanticscholar.org/author/153815533"
+                        }
+                    ],
+                    "doi": "10.2307/2096460",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "7e59c283a7680b895a2964e2ad6c6d83813b86b4",
+                    "title": "CHANGING HIGHBROW TASTE: FROM SNOB TO OMNIVORE*",
+                    "url": "https://www.semanticscholar.org/paper/7e59c283a7680b895a2964e2ad6c6d83813b86b4",
+                    "venue": "",
+                    "year": 1996
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "52030032",
+                            "name": "Robert M. Entman",
+                            "url": "https://www.semanticscholar.org/author/52030032"
+                        },
+                        {
+                            "authorId": "46210026",
+                            "name": "Steven S. Wildman",
+                            "url": "https://www.semanticscholar.org/author/46210026"
+                        }
+                    ],
+                    "doi": "10.1111/j.1460-2466.1992.tb00765.x",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "6e40292cfcf622048aeae0dbf03354b14cb131da",
+                    "title": "Reconciling Economic and Non-Economic Perspectives on Media Policy: Transcending the “Marketplace of Ideas”",
+                    "url": "https://www.semanticscholar.org/paper/6e40292cfcf622048aeae0dbf03354b14cb131da",
+                    "venue": "",
+                    "year": 1992
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "66687418",
+                            "name": "Joseph Turow",
+                            "url": "https://www.semanticscholar.org/author/66687418"
+                        }
+                    ],
+                    "doi": "10.2307/2654433",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "ef50b45d1bf6104e34b65216c947f8207617ff8c",
+                    "title": "Breaking Up America: Advertisers and the New Media World",
+                    "url": "https://www.semanticscholar.org/paper/ef50b45d1bf6104e34b65216c947f8207617ff8c",
+                    "venue": "",
+                    "year": 1997
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "65777885",
+                            "name": "Elihu Katz",
+                            "url": "https://www.semanticscholar.org/author/65777885"
+                        }
+                    ],
+                    "doi": "10.1177/0002716296546001003",
+                    "intent": [
+                        "methodology",
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "b2e792ceb624f5836a343b6c4f109d9ee6eafda7",
+                    "title": "And Deliver Us from Segmentation",
+                    "url": "https://www.semanticscholar.org/paper/b2e792ceb624f5836a343b6c4f109d9ee6eafda7",
+                    "venue": "",
+                    "year": 1996
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "50156656",
+                            "name": "Michael Schudson",
+                            "url": "https://www.semanticscholar.org/author/50156656"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "8a4e94b22e0abdfeaa78250237f03ffa61f6b5d4",
+                    "title": "Was there ever a public sphere",
+                    "url": "https://www.semanticscholar.org/paper/8a4e94b22e0abdfeaa78250237f03ffa61f6b5d4",
+                    "venue": "",
+                    "year": 1992
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "39277002",
+                            "name": "Philip M. Napoli",
+                            "url": "https://www.semanticscholar.org/author/39277002"
+                        }
+                    ],
+                    "doi": "10.1111/j.1460-2466.1999.tb02815.x",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "258c3e93f4dbd705bd790a665b0b59c69f3767fd",
+                    "title": "Deconstructing the Diversity Principle",
+                    "url": "https://www.semanticscholar.org/paper/258c3e93f4dbd705bd790a665b0b59c69f3767fd",
+                    "venue": "",
+                    "year": 1999
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "2008742",
+                            "name": "Kimberly A. Neuendorf",
+                            "url": "https://www.semanticscholar.org/author/2008742"
+                        },
+                        {
+                            "authorId": "2030949",
+                            "name": "David J. Atkin",
+                            "url": "https://www.semanticscholar.org/author/2030949"
+                        },
+                        {
+                            "authorId": "2568036",
+                            "name": "Leo W. Jeffres",
+                            "url": "https://www.semanticscholar.org/author/2568036"
+                        }
+                    ],
+                    "doi": "10.1207/s15506878jobem4503_6",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "ce3fb0628280324972d43c9cdf62534e230b5717",
+                    "title": "Reconceptualizing Channel Repertoire in the Urban Cable Environment",
+                    "url": "https://www.semanticscholar.org/paper/ce3fb0628280324972d43c9cdf62534e230b5717",
+                    "venue": "",
+                    "year": 2001
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1778398",
+                            "name": "Lada A. Adamic",
+                            "url": "https://www.semanticscholar.org/author/1778398"
+                        },
+                        {
+                            "authorId": "72915013",
+                            "name": "Bernardo A. Huberman",
+                            "url": "https://www.semanticscholar.org/author/72915013"
+                        }
+                    ],
+                    "doi": "10.2139/ssrn.166108",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "89fa416865f96dc04a2d31461aeede159eebbb5e",
+                    "title": "The Nature of Markets in the World Wide Web",
+                    "url": "https://www.semanticscholar.org/paper/89fa416865f96dc04a2d31461aeede159eebbb5e",
+                    "venue": "",
+                    "year": 1999
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1973091",
+                            "name": "John A. Knote",
+                            "url": "https://www.semanticscholar.org/author/1973091"
+                        }
+                    ],
+                    "doi": "10.1016/j.jacr.2004.03.019",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "d13b05019b9e7e5736bda1bec76a59ac05ec2944",
+                    "title": "Bowling alone: The collapse and revival of American community",
+                    "url": "https://www.semanticscholar.org/paper/d13b05019b9e7e5736bda1bec76a59ac05ec2944",
+                    "venue": "",
+                    "year": 2004
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "69485491",
+                            "name": "Douglas A. Ferguson",
+                            "url": "https://www.semanticscholar.org/author/69485491"
+                        },
+                        {
+                            "authorId": "70665209",
+                            "name": "Elizabeth M. Perse",
+                            "url": "https://www.semanticscholar.org/author/70665209"
+                        }
+                    ],
+                    "doi": "10.1080/08838159309364202",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "3f4f38ef1c7090e0b262ee6f8176eb0178bfdc29",
+                    "title": "Media and audience influences on channel repertoire",
+                    "url": "https://www.semanticscholar.org/paper/3f4f38ef1c7090e0b262ee6f8176eb0178bfdc29",
+                    "venue": "",
+                    "year": 1993
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1994992",
+                            "name": "James G. Webster",
+                            "url": "https://www.semanticscholar.org/author/1994992"
+                        }
+                    ],
+                    "doi": "10.1111/j.1460-2466.2005.tb02677.x",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "0daa958f0b6ee45ac5c5675f5ee9479da8c4fdce",
+                    "title": "Beneath the Veneer of Fragmentation: Television Audience Polarization in a Multichannel World",
+                    "url": "https://www.semanticscholar.org/paper/0daa958f0b6ee45ac5c5675f5ee9479da8c4fdce",
+                    "venue": "",
+                    "year": 2005
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "10048538",
+                            "name": "Jr. Oscar H. Gandy",
+                            "url": "https://www.semanticscholar.org/author/10048538"
+                        }
+                    ],
+                    "doi": "10.1017/cbo9780511613852.008",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "b3b252cf7f68f537630e97ebd22e0347eeb11814",
+                    "title": "Mediated Politics: Dividing Practices: Segmentation and Targeting in the Emerging Public Sphere",
+                    "url": "https://www.semanticscholar.org/paper/b3b252cf7f68f537630e97ebd22e0347eeb11814",
+                    "venue": "",
+                    "year": 2000
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "90581416",
+                            "name": "Douglas B. Holt",
+                            "url": "https://www.semanticscholar.org/author/90581416"
+                        }
+                    ],
+                    "doi": "10.1086/209523",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "33d139d337b1f347e8d69865ccddb0afde366852",
+                    "title": "Does Cultural Capital Structure American Consumption",
+                    "url": "https://www.semanticscholar.org/paper/33d139d337b1f347e8d69865ccddb0afde366852",
+                    "venue": "",
+                    "year": 1998
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "39277002",
+                            "name": "Philip M. Napoli",
+                            "url": "https://www.semanticscholar.org/author/39277002"
+                        }
+                    ],
+                    "doi": "10.1207/s15327736me1004_4",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": false,
+                    "paperId": "d2385994138013eadfd51924692a50e44b723877",
+                    "title": "Rethinking Program Diversity Assessment: An Audience-Centered Approach",
+                    "url": "https://www.semanticscholar.org/paper/d2385994138013eadfd51924692a50e44b723877",
+                    "venue": "",
+                    "year": 1997
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "84657818",
+                            "name": "Todd Gitlin",
+                            "url": "https://www.semanticscholar.org/author/84657818"
+                        }
+                    ],
+                    "doi": "10.4324/9780203019122-16",
+                    "intent": [
+                        "background"
+                    ],
+                    "isInfluential": true,
+                    "paperId": "cb57cdd6a4e3a9642230fa44a64b5ccd58588ed9",
+                    "title": "Public sphere or public sphericules",
+                    "url": "https://www.semanticscholar.org/paper/cb57cdd6a4e3a9642230fa44a64b5ccd58588ed9",
+                    "venue": "",
+                    "year": 2002
+                }
+            ],
+            "title": "Diversity of exposure",
+            "topics": [],
+            "url": "https://www.semanticscholar.org/paper/730b4f15db1b8b82147bfe4f0ba1b8772a8bf5a9",
+            "venue": "",
+            "year": 2006
+        },
+        "Unpaywall": {
+            "best_oa_location": null,
+            "data_standard": 2,
+            "doi": "10.4324/9781410614407",
+            "doi_url": "https://doi.org/10.4324/9781410614407",
+            "genre": "book",
+            "has_repository_copy": false,
+            "is_oa": false,
+            "journal_is_in_doaj": false,
+            "journal_is_oa": false,
+            "journal_issn_l": null,
+            "journal_issns": null,
+            "journal_name": null,
+            "oa_locations": [],
+            "oa_status": "closed",
+            "published_date": "2006-10-05",
+            "publisher": "Routledge",
+            "title": "Media Diversity and Localism",
+            "updated": "2018-06-15T05:38:27.823965",
+            "year": 2006,
+            "z_authors": null
+        },
+        "authors": [
+            "author-b8f6fdf538d546478668",
+            "author-9ba9d5b092e9523b9f30"
+        ],
+        "datasets": [
+            "dataset-345"
+        ],
+        "doi": "10.4324/9781410614407",
+        "original": {
+            "date_added": "2019-11-27 13:23:24",
+            "doi": "10.4324/9781410614407",
+            "journal": "Meaning and Metrics",
+            "notes": "This is a book",
+            "search_term": "Current Employment Statistics Survey Data"
+        },
+        "title": "Media Diversity and Localism"
     },
     {
         "Dimensions": {
@@ -2741,16 +3508,16 @@
             ],
             "RCDC": [
                 {
+                    "id": "507",
+                    "name": "Clinical Research"
+                },
+                {
                     "id": "443",
                     "name": "Health Services"
                 },
                 {
                     "id": "295",
                     "name": "Aging"
-                },
-                {
-                    "id": "507",
-                    "name": "Clinical Research"
                 }
             ],
             "altmetric": 6.0,
@@ -2765,9 +3532,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.413874.d",
+                        "email": "",
                         "first_name": "Cynthia",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Smith",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.01300765761.18"
                     },
                     {
@@ -2778,9 +3550,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
+                        "email": "",
                         "first_name": "Cathy",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Cowan",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.01073715116.22"
                     },
                     {
@@ -2791,9 +3568,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
+                        "email": "",
                         "first_name": "Art",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Sensenig",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.010547215404.88"
                     },
                     {
@@ -2804,9 +3586,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
+                        "email": "",
                         "first_name": "Aaron",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "Catlin",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.01262777135.53"
                     },
                     {
@@ -2817,9 +3604,14 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
+                        "email": "",
                         "first_name": "",
+                        "first_name_original": "",
+                        "initials": "",
                         "last_name": "the Health Accounts Team",
+                        "last_name_original": "",
                         "orcid": "",
+                        "raw_affiliation_original": [],
                         "researcher_id": "ur.010707377143.52"
                     }
                 ]
@@ -2833,9 +3625,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.413874.d",
+                    "email": "",
                     "first_name": "Cynthia",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Smith",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.01300765761.18"
                 },
                 {
@@ -2846,9 +3643,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
+                    "email": "",
                     "first_name": "Cathy",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Cowan",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.01073715116.22"
                 },
                 {
@@ -2859,9 +3661,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
+                    "email": "",
                     "first_name": "Art",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Sensenig",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.010547215404.88"
                 },
                 {
@@ -2872,9 +3679,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
+                    "email": "",
                     "first_name": "Aaron",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "Catlin",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.01262777135.53"
                 },
                 {
@@ -2885,9 +3697,14 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
+                    "email": "",
                     "first_name": "",
+                    "first_name_original": "",
+                    "initials": "",
                     "last_name": "the Health Accounts Team",
+                    "last_name_original": "",
                     "orcid": "",
+                    "raw_affiliation_original": [],
                     "researcher_id": "ur.010707377143.52"
                 }
             ],
@@ -2903,16 +3720,16 @@
             ],
             "category_rcdc": [
                 {
+                    "id": "507",
+                    "name": "Clinical Research"
+                },
+                {
                     "id": "443",
                     "name": "Health Services"
                 },
                 {
                     "id": "295",
                     "name": "Aging"
-                },
-                {
-                    "id": "507",
-                    "name": "Clinical Research"
                 }
             ],
             "category_ua": [
@@ -2933,7 +3750,6 @@
                 "spending growth",
                 "growth",
                 "years",
-                "part",
                 "slowdown",
                 "public spending growth",
                 "U.S. health care spending",
@@ -2959,10 +3775,7 @@
                 "domestic product",
                 "products",
                 "increase",
-                "percentage points",
-                "point",
-                "health",
-                "growth slow"
+                "percentage points"
             ],
             "date": "2005-01-01",
             "date_inserted": "2018-06-07",
@@ -2978,9 +3791,10 @@
                 "title": "Health Affairs"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
             ],
             "open_access_categories": [
                 {
@@ -3015,6 +3829,15 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-MD",
+                    "name": "Maryland"
+                }
+            ],
+            "research_org_state_names": [
+                "Maryland"
             ],
             "researchers": [
                 {
@@ -3057,7 +3880,6 @@
                 "spending growth",
                 "growth",
                 "years",
-                "part",
                 "slowdown",
                 "public spending growth",
                 "U.S. health care spending",
@@ -3083,10 +3905,639 @@
                 "domestic product",
                 "products",
                 "increase",
-                "percentage points",
-                "point",
-                "health",
-                "growth slow"
+                "percentage points"
+            ],
+            "title": "Health Spending Growth Slows In 2003",
+            "type": "article",
+            "volume": "24",
+            "year": 2005
+        },
+        "EuropePMC": {
+            "authors": [
+                "Smith C",
+                "Cowan C",
+                "Sensenig A",
+                "Catlin A",
+                "Health Accounts Team."
+            ],
+            "doi": "10.1377/hlthaff.24.1.185",
+            "journal": "Health Aff (Millwood)"
+        },
+        "Semantic Scholar": {
+            "abstract": null,
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "46964514",
+                    "name": "Cynthia Potter Smith",
+                    "url": "https://www.semanticscholar.org/author/46964514"
+                },
+                {
+                    "authorId": "5714574",
+                    "name": "Cathy A. Cowan",
+                    "url": "https://www.semanticscholar.org/author/5714574"
+                },
+                {
+                    "authorId": "40081949",
+                    "name": "Art Sensenig",
+                    "url": "https://www.semanticscholar.org/author/40081949"
+                },
+                {
+                    "authorId": "4906160",
+                    "name": "Aaron C. Catlin",
+                    "url": "https://www.semanticscholar.org/author/4906160"
+                }
+            ],
+            "citationVelocity": 0,
+            "citations": [],
+            "doi": "10.1377/hlthaff.w5.185",
+            "influentialCitationCount": 0,
+            "paperId": "2a7eaad57eb34178c77c129a09fc3fbc4c3fb0b1",
+            "references": [],
+            "title": "Health Spending Growth Slows In 2003: The rate of growth was slower in 2003 than in 2002, but health care remains a $1.7 trillion enterprise in the United States.",
+            "topics": [
+                {
+                    "topic": "Health Care",
+                    "topicId": "529",
+                    "url": "https://www.semanticscholar.org/topic/529"
+                }
+            ],
+            "url": "https://www.semanticscholar.org/paper/2a7eaad57eb34178c77c129a09fc3fbc4c3fb0b1",
+            "venue": "",
+            "year": 2005
+        },
+        "Unpaywall": {
+            "best_oa_location": null,
+            "data_standard": 2,
+            "doi": "10.1377/hlthaff.w5.185",
+            "doi_url": "https://doi.org/10.1377/hlthaff.w5.185",
+            "genre": "journal-article",
+            "has_repository_copy": false,
+            "is_oa": false,
+            "journal_is_in_doaj": false,
+            "journal_is_oa": false,
+            "journal_issn_l": "0278-2715",
+            "journal_issns": "0278-2715,1544-5208",
+            "journal_name": "Health Affairs",
+            "oa_locations": [],
+            "oa_status": "closed",
+            "published_date": "2005-01-01",
+            "publisher": "Health Affairs (Project Hope)",
+            "title": "Health Spending Growth Slows In 2003",
+            "updated": "2018-08-09T23:10:44.183183",
+            "year": 2005,
+            "z_authors": [
+                {
+                    "affiliation": [
+                        {
+                            "name": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith () is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper."
+                        }
+                    ],
+                    "family": "Smith",
+                    "given": "Cynthia",
+                    "sequence": "first"
+                },
+                {
+                    "affiliation": [
+                        {
+                            "name": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith () is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper."
+                        }
+                    ],
+                    "family": "Cowan",
+                    "given": "Cathy",
+                    "sequence": "additional"
+                },
+                {
+                    "affiliation": [
+                        {
+                            "name": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith () is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper."
+                        }
+                    ],
+                    "family": "Sensenig",
+                    "given": "Art",
+                    "sequence": "additional"
+                },
+                {
+                    "affiliation": [
+                        {
+                            "name": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith () is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper."
+                        }
+                    ],
+                    "family": "Catlin",
+                    "given": "Aaron",
+                    "sequence": "additional"
+                },
+                {
+                    "affiliation": [
+                        {
+                            "name": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith () is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper."
+                        }
+                    ],
+                    "family": "the Health Accounts Team",
+                    "sequence": "additional"
+                }
+            ]
+        },
+        "authors": [
+            "author-02126150c6144e678543",
+            "author-ebb9d34485d098ab055d",
+            "author-4a6d339317caba705b1a",
+            "author-6329c0cc061d3a0ece36",
+            "author-ee4b4d2155926c72e88c"
+        ],
+        "datasets": [
+            "dataset-345"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "affiliation": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith () is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper.",
+                        "name": {
+                            "first": "Cynthia",
+                            "last": "Smith"
+                        }
+                    },
+                    {
+                        "affiliation": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith () is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper.",
+                        "name": {
+                            "first": "Cathy",
+                            "last": "Cowan"
+                        }
+                    },
+                    {
+                        "affiliation": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith () is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper.",
+                        "name": {
+                            "first": "Art",
+                            "last": "Sensenig"
+                        }
+                    },
+                    {
+                        "affiliation": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith () is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper.",
+                        "name": {
+                            "first": "Aaron",
+                            "last": "Catlin"
+                        }
+                    },
+                    {
+                        "affiliation": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith () is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper.",
+                        "name": {
+                            "first": "",
+                            "last": "the Health Accounts Team"
+                        }
+                    }
+                ],
+                "classification": "UNK",
+                "date": "2005-01-01",
+                "records": [
+                    {
+                        "doi": "10.1377/hlthaff.w5.185",
+                        "identifier": "oai:crossref.org:10.1377/hlthaff.w5.185",
+                        "issn": "1544-5208",
+                        "issue": "Suppl1",
+                        "journal": "Health Affairs",
+                        "pages": "W5-185-W5-194",
+                        "policy": {
+                            "postprint": "restricted",
+                            "preprint": "can",
+                            "published": "cannot",
+                            "romeo_id": "419"
+                        },
+                        "publisher": "Health Affairs (Project Hope)",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.1377/hlthaff.w5.185",
+                        "type": "journal-article",
+                        "volume": "24"
+                    }
+                ],
+                "title": "Health Spending Growth Slows In 2003: The rate of growth was slower in 2003 than in 2002, but health care remains a $1.7 trillion enterprise in the United States.",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
+        "doi": "10.1377/hlthaff.w5.185",
+        "original": {
+            "date_added": "2019-11-27 13:23:24",
+            "doi": "10.1377/hlthaff.w5.185",
+            "journal": "Health Affairs",
+            "search_term": "Current Employment Statistics Survey Data"
+        },
+        "title": "Health Spending Growth Slows In 2003"
+    },
+    {
+        "Dimensions": {
+            "FOR": [
+                {
+                    "id": "3292",
+                    "name": "1402 Applied Economics"
+                }
+            ],
+            "FOR_first": [
+                {
+                    "id": "2214",
+                    "name": "14 Economics"
+                }
+            ],
+            "RCDC": [
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
+                },
+                {
+                    "id": "443",
+                    "name": "Health Services"
+                },
+                {
+                    "id": "295",
+                    "name": "Aging"
+                }
+            ],
+            "altmetric": 6.0,
+            "altmetric_id": 43512386,
+            "author_affiliations": [
+                [
+                    {
+                        "affiliations": [
+                            {
+                                "name": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith ( ) is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper."
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.413874.d",
+                        "email": "",
+                        "first_name": "Cynthia",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "Smith",
+                        "last_name_original": "",
+                        "orcid": "",
+                        "raw_affiliation_original": [],
+                        "researcher_id": "ur.01300765761.18"
+                    },
+                    {
+                        "affiliations": [
+                            {
+                                "name": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith ( ) is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper."
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "",
+                        "email": "",
+                        "first_name": "Cathy",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "Cowan",
+                        "last_name_original": "",
+                        "orcid": "",
+                        "raw_affiliation_original": [],
+                        "researcher_id": "ur.01073715116.22"
+                    },
+                    {
+                        "affiliations": [
+                            {
+                                "name": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith ( ) is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper."
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "",
+                        "email": "",
+                        "first_name": "Art",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "Sensenig",
+                        "last_name_original": "",
+                        "orcid": "",
+                        "raw_affiliation_original": [],
+                        "researcher_id": "ur.010547215404.88"
+                    },
+                    {
+                        "affiliations": [
+                            {
+                                "name": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith ( ) is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper."
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "",
+                        "email": "",
+                        "first_name": "Aaron",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "Catlin",
+                        "last_name_original": "",
+                        "orcid": "",
+                        "raw_affiliation_original": [],
+                        "researcher_id": "ur.01262777135.53"
+                    },
+                    {
+                        "affiliations": [
+                            {
+                                "name": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith ( ) is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper."
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "",
+                        "email": "",
+                        "first_name": "",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "the Health Accounts Team",
+                        "last_name_original": "",
+                        "orcid": "",
+                        "raw_affiliation_original": [],
+                        "researcher_id": "ur.010707377143.52"
+                    }
+                ]
+            ],
+            "authors": [
+                {
+                    "affiliations": [
+                        {
+                            "name": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith ( ) is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper."
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.413874.d",
+                    "email": "",
+                    "first_name": "Cynthia",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "Smith",
+                    "last_name_original": "",
+                    "orcid": "",
+                    "raw_affiliation_original": [],
+                    "researcher_id": "ur.01300765761.18"
+                },
+                {
+                    "affiliations": [
+                        {
+                            "name": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith ( ) is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper."
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "",
+                    "email": "",
+                    "first_name": "Cathy",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "Cowan",
+                    "last_name_original": "",
+                    "orcid": "",
+                    "raw_affiliation_original": [],
+                    "researcher_id": "ur.01073715116.22"
+                },
+                {
+                    "affiliations": [
+                        {
+                            "name": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith ( ) is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper."
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "",
+                    "email": "",
+                    "first_name": "Art",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "Sensenig",
+                    "last_name_original": "",
+                    "orcid": "",
+                    "raw_affiliation_original": [],
+                    "researcher_id": "ur.010547215404.88"
+                },
+                {
+                    "affiliations": [
+                        {
+                            "name": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith ( ) is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper."
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "",
+                    "email": "",
+                    "first_name": "Aaron",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "Catlin",
+                    "last_name_original": "",
+                    "orcid": "",
+                    "raw_affiliation_original": [],
+                    "researcher_id": "ur.01262777135.53"
+                },
+                {
+                    "affiliations": [
+                        {
+                            "name": "The authors are in the National Health Statistics Group, Office of the Actuary, Centers for Medicare and Medicaid Services, in Baltimore, Maryland. Cynthia Smith ( ) is an economist, as are Cathy Cowan, Art Sensenig, and Aaron Catlin. The members of the National Health Accounts team are named in an acknowledgment at the end of the paper."
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "",
+                    "email": "",
+                    "first_name": "",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "the Health Accounts Team",
+                    "last_name_original": "",
+                    "orcid": "",
+                    "raw_affiliation_original": [],
+                    "researcher_id": "ur.010707377143.52"
+                }
+            ],
+            "category_for": [
+                {
+                    "id": "3292",
+                    "name": "1402 Applied Economics"
+                },
+                {
+                    "id": "2214",
+                    "name": "14 Economics"
+                }
+            ],
+            "category_rcdc": [
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
+                },
+                {
+                    "id": "443",
+                    "name": "Health Services"
+                },
+                {
+                    "id": "295",
+                    "name": "Aging"
+                }
+            ],
+            "category_ua": [
+                {
+                    "id": "30002",
+                    "name": "A02 Public Health, Health Services and Primary Care"
+                }
+            ],
+            "category_uoa": [
+                {
+                    "id": "30002",
+                    "name": "A02 Public Health, Health Services and Primary Care"
+                }
+            ],
+            "concepts": [
+                "pace",
+                "health spending growth",
+                "spending growth",
+                "growth",
+                "years",
+                "slowdown",
+                "public spending growth",
+                "U.S. health care spending",
+                "health care spending",
+                "care spending",
+                "spending",
+                "percent",
+                "percent growth",
+                "financial constraints",
+                "constraints",
+                "Medicaid program",
+                "program",
+                "expiration",
+                "funding provisions",
+                "provision",
+                "Medicare services",
+                "services",
+                "deceleration",
+                "U.S. health spending",
+                "health spending",
+                "U.S. gross domestic product",
+                "gross domestic product",
+                "domestic product",
+                "products",
+                "increase",
+                "percentage points"
+            ],
+            "date": "2005-01-01",
+            "date_inserted": "2018-06-07",
+            "doi": "10.1377/hlthaff.w5.185",
+            "id": "pub.1104405745",
+            "issn": [
+                "0278-2715",
+                "1544-5208"
+            ],
+            "issue": "Suppl1",
+            "journal": {
+                "id": "jour.1093948",
+                "title": "Health Affairs"
+            },
+            "journal_lists": [
+                "Norwegian register level 1",
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "open_access_categories": [
+                {
+                    "description": "No freely available copy has been identified",
+                    "id": "closed",
+                    "name": "Closed"
+                }
+            ],
+            "pages": "w5-185-w5-194",
+            "publisher": "Health Affairs",
+            "reference_ids": [
+                "pub.1031010685",
+                "pub.1075327440",
+                "pub.1030433811"
+            ],
+            "references": [
+                "pub.1031010685",
+                "pub.1075327440",
+                "pub.1030433811"
+            ],
+            "research_org_cities": [
+                {
+                    "id": 4347778,
+                    "name": "Baltimore"
+                }
+            ],
+            "research_org_countries": [
+                {
+                    "id": "US",
+                    "name": "United States"
+                }
+            ],
+            "research_org_country_names": [
+                "United States"
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-MD",
+                    "name": "Maryland"
+                }
+            ],
+            "research_org_state_names": [
+                "Maryland"
+            ],
+            "researchers": [
+                {
+                    "first_name": "Cynthia",
+                    "id": "ur.01300765761.18",
+                    "last_name": "Smith",
+                    "research_orgs": [
+                        "grid.413874.d"
+                    ]
+                },
+                {
+                    "first_name": "Cathy A",
+                    "id": "ur.01073715116.22",
+                    "last_name": "Cowan",
+                    "research_orgs": [
+                        "grid.413874.d"
+                    ]
+                },
+                {
+                    "first_name": "Art",
+                    "id": "ur.010547215404.88",
+                    "last_name": "Sensenig"
+                },
+                {
+                    "first_name": "Aaron C",
+                    "id": "ur.01262777135.53",
+                    "last_name": "Catlin",
+                    "research_orgs": [
+                        "grid.413874.d"
+                    ]
+                },
+                {
+                    "id": "ur.010707377143.52",
+                    "last_name": "The Health Accounts Team"
+                }
+            ],
+            "terms": [
+                "pace",
+                "health spending growth",
+                "spending growth",
+                "growth",
+                "years",
+                "slowdown",
+                "public spending growth",
+                "U.S. health care spending",
+                "health care spending",
+                "care spending",
+                "spending",
+                "percent",
+                "percent growth",
+                "financial constraints",
+                "constraints",
+                "Medicaid program",
+                "program",
+                "expiration",
+                "funding provisions",
+                "provision",
+                "Medicare services",
+                "services",
+                "deceleration",
+                "U.S. health spending",
+                "health spending",
+                "U.S. gross domestic product",
+                "gross domestic product",
+                "domestic product",
+                "products",
+                "increase",
+                "percentage points"
             ],
             "title": "Health Spending Growth Slows In 2003",
             "type": "article",
@@ -4390,7 +5841,6 @@
                 }
             ]
         },
-        "abstract": "The pace of health spending growth slowed in 2003 for the first time in seven years, driven in part by a slowdown in public spending growth. U.S. health care spending rose 7.7 percent in 2003, much slower than the 9.3 percent growth in 2002. Financial constraints on the Medicaid program and the expiration of supplemental funding provisions for Medicare services drove the deceleration. U.S. health spending accounted for 15.3 percent of U.S. gross domestic product in 2003, an increase of 0.4 percentage points from 2002.",
         "authors": [
             "author-02126150c6144e678543",
             "author-ebb9d34485d098ab055d",
@@ -4469,68 +5919,6 @@
             "status": "ok"
         },
         "doi": "10.1377/hlthaff.24.1.185",
-        "keyphrases": {
-            "0.4 percentage points": {
-                "count": 1,
-                "rank_score": 0.06529736891887328
-            },
-            "financial constraints": {
-                "count": 1,
-                "rank_score": 0.09650639921400342
-            },
-            "first": {
-                "count": 1,
-                "rank_score": 0.06099953106949742
-            },
-            "health spending growth": {
-                "count": 1,
-                "rank_score": 0.16191302112185896
-            },
-            "medicaid": {
-                "count": 1,
-                "rank_score": 0.07977247089675821
-            },
-            "medicare": {
-                "count": 1,
-                "rank_score": 0.0879024211152516
-            },
-            "medicare services": {
-                "count": 1,
-                "rank_score": 0.11470328047564898
-            },
-            "part": {
-                "count": 1,
-                "rank_score": 0.06406532993669947
-            },
-            "public spending growth": {
-                "count": 1,
-                "rank_score": 0.14316182115434645
-            },
-            "supplemental funding provisions": {
-                "count": 1,
-                "rank_score": 0.12580299592022126
-            },
-            "the medicaid program": {
-                "count": 1,
-                "rank_score": 0.059332588854457864
-            },
-            "u.s.": {
-                "count": 3,
-                "rank_score": 0.10723651924695957
-            },
-            "u.s. gross domestic product": {
-                "count": 1,
-                "rank_score": 0.1264793901866967
-            },
-            "u.s. health care spending": {
-                "count": 1,
-                "rank_score": 0.16886781329623504
-            },
-            "u.s. health spending": {
-                "count": 1,
-                "rank_score": 0.17121164436302008
-            }
-        },
         "original": {
             "date_added": "2019-11-27 13:23:24",
             "doi": "10.1377/hlthaff.24.1.185",
@@ -4538,5 +5926,428 @@
             "search_term": "Current Employment Statistics Survey Data"
         },
         "title": "Health Spending Growth Slows In 2003"
+    },
+    {
+        "Dimensions": {
+            "FOR": [
+                {
+                    "id": "3292",
+                    "name": "1402 Applied Economics"
+                }
+            ],
+            "FOR_first": [
+                {
+                    "id": "2214",
+                    "name": "14 Economics"
+                }
+            ],
+            "author_affiliations": [
+                [
+                    {
+                        "affiliations": [
+                            {
+                                "name": "University of Sussex - Department of Economics; London School of Economics & Political Science (LSE) - Centre for Economic Performance (CEP); Centre for Economic Policy Research (CEPR); CESifo (Center for Economic Studies and Ifo Institute)"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.473946.b",
+                        "email": "",
+                        "first_name": "Giordano",
+                        "first_name_original": "",
+                        "initials": "",
+                        "last_name": "Mion",
+                        "last_name_original": "",
+                        "orcid": "",
+                        "raw_affiliation_original": [],
+                        "researcher_id": "ur.013700043467.90"
+                    }
+                ]
+            ],
+            "authors": [
+                {
+                    "affiliations": [
+                        {
+                            "name": "University of Sussex - Department of Economics; London School of Economics & Political Science (LSE) - Centre for Economic Performance (CEP); Centre for Economic Policy Research (CEPR); CESifo (Center for Economic Studies and Ifo Institute)"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.473946.b",
+                    "email": "",
+                    "first_name": "Giordano",
+                    "first_name_original": "",
+                    "initials": "",
+                    "last_name": "Mion",
+                    "last_name_original": "",
+                    "orcid": "",
+                    "raw_affiliation_original": [],
+                    "researcher_id": "ur.013700043467.90"
+                }
+            ],
+            "category_for": [
+                {
+                    "id": "3292",
+                    "name": "1402 Applied Economics"
+                },
+                {
+                    "id": "2214",
+                    "name": "14 Economics"
+                }
+            ],
+            "category_ua": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
+            "concepts": [
+                "paper I",
+                "empirical framework",
+                "framework",
+                "role",
+                "agglomeration externalities",
+                "externalities",
+                "input-output linkages",
+                "linkage",
+                "location process",
+                "US manufacturing plants",
+                "manufacturing plant",
+                "model of Holmes",
+                "model",
+                "Holmes",
+                "Stevens",
+                "way",
+                "previous puzzling results",
+                "puzzling results",
+                "results",
+                "proximity",
+                "consumer demand",
+                "demand",
+                "scope",
+                "agglomeration forces",
+                "force",
+                "intermediate flow",
+                "flow",
+                "positive impact",
+                "impact",
+                "bigger plants",
+                "local specialization",
+                "specialization",
+                "negative effects",
+                "effect",
+                "large geographical scope",
+                "geographical scope",
+                "spatial processes",
+                "local markets",
+                "market",
+                "final demand",
+                "manufacturing industry",
+                "industry"
+            ],
+            "date": "2004-01-01",
+            "date_inserted": "2018-04-06",
+            "doi": "10.2139/ssrn.883581",
+            "field_citation_ratio": 0.3,
+            "id": "pub.1102207247",
+            "issn": [
+                "1556-5068"
+            ],
+            "journal": {
+                "id": "jour.1276748",
+                "title": "SSRN Electronic Journal"
+            },
+            "journal_lists": [
+                "Norwegian register level 0"
+            ],
+            "linkout": "http://dial.uclouvain.be/downloader/downloader.php?pid=boreal:4782&datastream=PDF_01&disclaimer=df50ed0a34d0b3ca8b86486b4678373724fa397c8c4d606c5bbb9bc35f06aaf3",
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - submitted"
+            ],
+            "open_access_categories": [
+                {
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Free copy of submitted version, or where version is unknown, in an OA repository",
+                    "id": "green_sub",
+                    "name": "Green, Submitted"
+                }
+            ],
+            "publisher": "Elsevier",
+            "reference_ids": [
+                "pub.1064526838",
+                "pub.1058575244",
+                "pub.1102192377",
+                "pub.1014533168",
+                "pub.1102232346",
+                "pub.1028184238",
+                "pub.1051303100",
+                "pub.1102203313",
+                "pub.1008657530",
+                "pub.1014169548",
+                "pub.1039191744"
+            ],
+            "references": [
+                "pub.1064526838",
+                "pub.1058575244",
+                "pub.1102192377",
+                "pub.1014533168",
+                "pub.1102232346",
+                "pub.1028184238",
+                "pub.1051303100",
+                "pub.1102203313",
+                "pub.1008657530",
+                "pub.1014169548",
+                "pub.1039191744"
+            ],
+            "research_org_cities": [
+                {
+                    "id": 2643743,
+                    "name": "London"
+                }
+            ],
+            "research_org_countries": [
+                {
+                    "id": "GB",
+                    "name": "United Kingdom"
+                }
+            ],
+            "research_org_country_names": [
+                "United Kingdom"
+            ],
+            "researchers": [
+                {
+                    "first_name": "Giordano",
+                    "id": "ur.013700043467.90",
+                    "last_name": "Mion",
+                    "research_orgs": [
+                        "grid.5475.3",
+                        "grid.473946.b",
+                        "grid.410315.2",
+                        "grid.7644.1",
+                        "grid.12082.39",
+                        "grid.7942.8",
+                        "grid.13063.37"
+                    ]
+                }
+            ],
+            "terms": [
+                "paper I",
+                "empirical framework",
+                "framework",
+                "role",
+                "agglomeration externalities",
+                "externalities",
+                "input-output linkages",
+                "linkage",
+                "location process",
+                "US manufacturing plants",
+                "manufacturing plant",
+                "model of Holmes",
+                "model",
+                "Holmes",
+                "Stevens",
+                "way",
+                "previous puzzling results",
+                "puzzling results",
+                "results",
+                "proximity",
+                "consumer demand",
+                "demand",
+                "scope",
+                "agglomeration forces",
+                "force",
+                "intermediate flow",
+                "flow",
+                "positive impact",
+                "impact",
+                "bigger plants",
+                "local specialization",
+                "specialization",
+                "negative effects",
+                "effect",
+                "large geographical scope",
+                "geographical scope",
+                "spatial processes",
+                "local markets",
+                "market",
+                "final demand",
+                "manufacturing industry",
+                "industry"
+            ],
+            "times_cited": 1,
+            "title": "Input-Output Linkages, Proximity to Final Demand and the Location of Manufacturing Industries",
+            "type": "preprint",
+            "year": 2004
+        },
+        "OpenAIRE": {
+            "authors": [
+                "Mion, Giordano"
+            ],
+            "open": true,
+            "url": "http://alfresco.uclouvain.be/alfresco/download/attach/workspace/SpacesStore/4e09fcc8-c401-4b6e-981b-f427c79a92c7/coredp_2004_53.pdf"
+        },
+        "Unpaywall": {
+            "best_oa_location": null,
+            "data_standard": 2,
+            "doi": "10.2139/ssrn.883581",
+            "doi_url": "https://doi.org/10.2139/ssrn.883581",
+            "genre": "journal-article",
+            "has_repository_copy": false,
+            "is_oa": false,
+            "journal_is_in_doaj": false,
+            "journal_is_oa": false,
+            "journal_issn_l": "1556-5068",
+            "journal_issns": "1556-5068",
+            "journal_name": "SSRN Electronic Journal",
+            "oa_locations": [],
+            "oa_status": "closed",
+            "published_date": "2004-01-01",
+            "publisher": "Elsevier BV",
+            "title": "Input-Output Linkages, Proximity to Final Demand and the Location of Manufacturing Industries",
+            "updated": "2019-03-04T11:05:21.849540",
+            "year": 2004,
+            "z_authors": [
+                {
+                    "family": "Mion",
+                    "given": "Giordano"
+                }
+            ]
+        },
+        "authors": [
+            "author-6e21477506c24024a493"
+        ],
+        "datasets": [
+            "dataset-345"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "name": {
+                            "first": "Giordano",
+                            "last": "Mion"
+                        }
+                    }
+                ],
+                "classification": "OK",
+                "date": "2012-09-22",
+                "pdf_url": "https://www.researchgate.net/profile/Giordano_Mion/publication/23948560_Advances_in_Spatial_Science/links/546e27e20cf29806ec2e98b0.pdf",
+                "records": [
+                    {
+                        "abstract": "In this paper I develop an empirical framework to estimate the role of agglomeration externalities, especially those stemming from input-output linkages, in the location process of US manufacturing plants. Furthermore, drawing on the model of Holmesand Stevens (2004b), I propose a way to reconciliate some previous puzzling results about proximity to consumers' demand and the scope of agglomeration forces. Results suggest that intermediate flows have a positive impact, especially for big plants, on local specialization. By contrast, consumers' demand has a negative effect and this result is consistent with the model of Holmes and Stevens (2004b). However, the majority of both effects comes from very local interactions, with spatial spill-oversbeing quite weak, but with a very large geographical scope. This result suggests some kind of strong non-linearity in the underlying spatial process. While, very close interactions are extremely important, when considering what is beyond the limit of local markets then distance does not matter so much.",
+                        "contributors": "",
+                        "doi": "10.2139/ssrn.883581",
+                        "identifier": "oai:researchgate.net:23948560",
+                        "keywords": "",
+                        "pdf_url": "https://www.researchgate.net/profile/Giordano_Mion/publication/23948560_Advances_in_Spatial_Science/links/546e27e20cf29806ec2e98b0.pdf",
+                        "source": "researchgate",
+                        "splash_url": "https://www.researchgate.net/publication/23948560_Advances_in_Spatial_Science",
+                        "type": "journal-article"
+                    },
+                    {
+                        "doi": "10.1007/978-3-642-33395-8_12",
+                        "identifier": "oai:crossref.org:10.1007/978-3-642-33395-8_12",
+                        "journal": "Geography, Institutions and Regional Economic Performance",
+                        "pages": "237-262",
+                        "policy": {
+                            "postprint": "can",
+                            "preprint": "can",
+                            "published": "cannot",
+                            "romeo_id": "74"
+                        },
+                        "publisher": "Springer Science + Business Media",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.1007/978-3-642-33395-8_12",
+                        "type": "book-chapter"
+                    },
+                    {
+                        "doi": "10.2139/ssrn.883581",
+                        "identifier": "oai:crossref.org:10.2139/ssrn.883581",
+                        "journal": "SSRN Electronic Journal",
+                        "publisher": "Social Science Electronic Publishing",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.2139/ssrn.883581",
+                        "type": "journal-article"
+                    },
+                    {
+                        "doi": "10.2139/ssrn.883581",
+                        "identifier": "oadoi:http://webdoc.sub.gwdg.de/ebook/serien/e/CORE/dp2004_53.pdf",
+                        "pdf_url": "http://webdoc.sub.gwdg.de/ebook/serien/e/CORE/dp2004_53.pdf",
+                        "source": "oadoi_repo",
+                        "splash_url": "http://webdoc.sub.gwdg.de/ebook/serien/e/CORE/dp2004_53.pdf",
+                        "type": "journal-article"
+                    },
+                    {
+                        "doi": "10.2139/ssrn.883581",
+                        "identifier": "oadoi:http://dial.uclouvain.be/downloader/downloader.php?pid=boreal:4782&datastream=PDF_01&disclaimer=df50ed0a34d0b3ca8b86486b4678373724fa397c8c4d606c5bbb9bc35f06aaf3",
+                        "pdf_url": "http://dial.uclouvain.be/downloader/downloader.php?pid=boreal:4782&datastream=PDF_01&disclaimer=df50ed0a34d0b3ca8b86486b4678373724fa397c8c4d606c5bbb9bc35f06aaf3",
+                        "source": "oadoi_repo",
+                        "splash_url": "http://dial.uclouvain.be/downloader/downloader.php?pid=boreal:4782&datastream=PDF_01&disclaimer=df50ed0a34d0b3ca8b86486b4678373724fa397c8c4d606c5bbb9bc35f06aaf3",
+                        "type": "journal-article"
+                    }
+                ],
+                "title": "Input–Output Linkages, Proximity to Final Demand and the Location of Manufacturing Industries",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
+        "doi": "10.2139/ssrn.883581",
+        "original": {
+            "date_added": "2019-11-27 13:23:24",
+            "doi": "10.2139/ssrn.883581",
+            "journal": "SSRN Electronic Journal",
+            "notes": "This is a chapter in a book",
+            "search_term": "Current Employment Statistics Survey Data"
+        },
+        "title": "Input-Output Linkages, Proximity to Final Demand and the Location of Manufacturing Industries"
+    },
+    {
+        "Semantic Scholar": {
+            "abstract": null,
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "39277002",
+                    "name": "Philip M. Napoli",
+                    "url": "https://www.semanticscholar.org/author/39277002"
+                }
+            ],
+            "citationVelocity": 0,
+            "citations": [],
+            "doi": "10.4324/9781410614407-11",
+            "influentialCitationCount": 0,
+            "paperId": "47d41d36e6cb57a886751242d7396fe8ca09c8db",
+            "references": [],
+            "title": "Employment and Wage Effects of Radio Consolidation Peter DiCola",
+            "topics": [],
+            "url": "https://www.semanticscholar.org/paper/47d41d36e6cb57a886751242d7396fe8ca09c8db",
+            "venue": "",
+            "year": 2009
+        },
+        "authors": [
+            "author-b8f6fdf538d546478668"
+        ],
+        "datasets": [
+            "dataset-345"
+        ],
+        "doi": "10.4324/9781410614407-11",
+        "original": {
+            "date_added": "2019-11-27 13:23:24",
+            "doi": "10.4324/9781410614407-11",
+            "journal": "Meaning and Metrics",
+            "notes": "This is a chapter in a book",
+            "search_term": "Current Employment Statistics Survey Data"
+        },
+        "title": "Employment and Wage Effects of Radio Consolidation Peter DiCola"
     }
 ]

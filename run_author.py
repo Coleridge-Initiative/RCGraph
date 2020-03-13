@@ -23,11 +23,12 @@ def troubleshoot_auths (auth_list):
     for api, results in auth_list.items():
         auth_stats[api] = len(results)
 
-    threshold = statistics.median(auth_stats.values()) * 2.0
+    if len(auth_stats.values()) > 0:
+        threshold = statistics.median(auth_stats.values()) * 2.0
 
-    for api, num_auth in auth_stats.items():
-        if num_auth > threshold:
-            del auth_list[api]
+        for api, num_auth in auth_stats.items():
+            if num_auth > threshold:
+                del auth_list[api]
 
     return auth_list
 
@@ -61,6 +62,9 @@ def main (args):
                 auth_ids = graph.authors.parse_auth_list(graph, auth_list)
                 pub["authors"] = auth_ids
                 graph.publications.auth_hits += 1
+
+                #print("SUCCESS", pub["title"])
+                #print(pub["authors"])
             else:
                 ## error: pub has no authors?
                 graph.update_misses(partition, pub)
