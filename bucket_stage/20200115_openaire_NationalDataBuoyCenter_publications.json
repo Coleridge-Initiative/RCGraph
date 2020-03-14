@@ -1281,6 +1281,7 @@
                 }
             ]
         },
+        "abstract": "The validation of significant wave height (SWH) data measured by the Sentinel-3A/3B SAR Altimeter (SRAL) is essential for the application of the data in ocean wave monitoring, forecasting and wave climate studies. Sentinel-3A/3B SWH data are validated by comparisons with U. S. National Data Buoy Center (NDBC) buoys, using a spatial scale of 25 km and a temporal scale of 30 min, and with Jason-3 data at their crossovers, using a time difference of less than 30 min. The comparisons with NDBC buoy data show that the root-mean-square error (RMSE) of Sentinel-3A SWH is 0.30 m, and that of Sentinel-3B is no more than 0.31 m. The pseudo-Low-Resolution Mode (PLRM) SWH is slightly better than that of the Synthetic Aperture Radar (SAR) mode. The statistical analysis of Sentinel-3A/3B SWH in the bin of 0.5 m wave height shows that the accuracy of Sentinel-3A/3B SWH data decreases with increasing wave height. The analysis of the monthly biases and RMSEs of Sentinel-3A SWH shows that Sentinel-3A SWH are stable and have a slight upward trend with time. The comparisons with Jason-3 data show that SWH of Sentinel-3A and Jason-3 are consistent in the global ocean. Finally, the piecewise calibration functions are given for the calibration of Sentinel-3A/3B SWH. The results of the study show that Sentinel-3A/3B SWH data have high accuracy and remain stable.",
         "authors": [
             "author-8951f77515d8d76fbc0e",
             "author-eba6106de9ac4aa56a5a"
@@ -1338,6 +1339,108 @@
             "status": "ok"
         },
         "doi": "10.3390/s19132914",
+        "keyphrases": {
+            "comparisons": {
+                "count": 3,
+                "rank_score": 0.05885874629788033
+            },
+            "forecasting": {
+                "count": 1,
+                "rank_score": 0.051563933694740424
+            },
+            "high accuracy": {
+                "count": 1,
+                "rank_score": 0.06666974822183004
+            },
+            "increasing wave height": {
+                "count": 1,
+                "rank_score": 0.08170590152734379
+            },
+            "jason-3": {
+                "count": 3,
+                "rank_score": 0.05624642810099101
+            },
+            "jason-3 data": {
+                "count": 2,
+                "rank_score": 0.10280238545685218
+            },
+            "ndbc": {
+                "count": 2,
+                "rank_score": 0.059651862026690705
+            },
+            "ndbc buoy data": {
+                "count": 1,
+                "rank_score": 0.072279993338952
+            },
+            "ocean wave monitoring": {
+                "count": 1,
+                "rank_score": 0.06703668748640067
+            },
+            "piecewise calibration functions": {
+                "count": 1,
+                "rank_score": 0.04486328292827405
+            },
+            "plrm": {
+                "count": 1,
+                "rank_score": 0.04635052240469876
+            },
+            "rmse": {
+                "count": 3,
+                "rank_score": 0.061834342874992274
+            },
+            "sar": {
+                "count": 1,
+                "rank_score": 0.06420577346826759
+            },
+            "sentinel-3a": {
+                "count": 1,
+                "rank_score": 0.05037721726109165
+            },
+            "sentinel-3a swh": {
+                "count": 2,
+                "rank_score": 0.1202201167131554
+            },
+            "sentinel-3a/3b": {
+                "count": 2,
+                "rank_score": 0.07622747059882373
+            },
+            "sentinel-3a/3b sar altimeter": {
+                "count": 2,
+                "rank_score": 0.059118222433823434
+            },
+            "sentinel-3a/3b swh": {
+                "count": 1,
+                "rank_score": 0.12913996546162715
+            },
+            "significant wave height (swh) data": {
+                "count": 1,
+                "rank_score": 0.07420789216938514
+            },
+            "sral": {
+                "count": 1,
+                "rank_score": 0.047040960928052385
+            },
+            "swh": {
+                "count": 1,
+                "rank_score": 0.11813069431254328
+            },
+            "swh data": {
+                "count": 2,
+                "rank_score": 0.14026191813501
+            },
+            "u. s. national data buoy center": {
+                "count": 1,
+                "rank_score": 0.084547039872284
+            },
+            "u. s. national data buoy center (ndbc) buoys": {
+                "count": 1,
+                "rank_score": 0.05645064906368878
+            },
+            "wave climate studies": {
+                "count": 1,
+                "rank_score": 0.07130632638985632
+            }
+        },
         "original": {
             "authors": "Jungang Yang, Jie Zhang",
             "date_added": "2020-01-27 16:48:41",
@@ -1348,36 +1451,6 @@
             "url": "https://www.mdpi.com/1424-8220/19/13/2914"
         },
         "title": "Validation of Sentinel-3A/3B Satellite Altimetry Wave Heights with Buoy and Jason-3 Data"
-    },
-    {
-        "OpenAIRE": {
-            "authors": [
-                "Ma, Vincent",
-                "Nguyen, Pauline",
-                "Famiglietti, Caroline",
-                "Martin, Vanesa"
-            ],
-            "open": true,
-            "url": "https://figshare.com/articles/Ideal_Buoy_Location_Data_Southern_California_/5051860"
-        },
-        "authors": [
-            "author-c5705861ea27d7b3f464",
-            "author-b4b1fcda6a96f3bb5be2",
-            "author-25c7f0a6c0d42a1576a7",
-            "author-addbc21e70f25078f27b"
-        ],
-        "datasets": [
-            "dataset-668"
-        ],
-        "doi": "10.6084/m9.figshare.5051860.v1",
-        "original": {
-            "authors": "Ma, Vincent, Nguyen, Pauline, Famiglietti, Caroline, Martin, Vanesa",
-            "date_added": "2020-01-27 16:48:41",
-            "doi": "10.6084/m9.figshare.5051860.v1",
-            "search_term": "National Data Buoy Center",
-            "url": "https://figshare.com/articles/Ideal_Buoy_Location_Data_Southern_California_/5051860"
-        },
-        "title": "Ideal Buoy Location Data (Southern California)"
     },
     {
         "Dimensions": {
@@ -3512,6 +3585,7 @@
                 }
             ]
         },
+        "abstract": "This dataset consists of 33 years (1985 to 2018), of global significant wave height and wind speed obtained from 13 altimeters, namely: GEOSAT, ERS-1, TOPEX, ERS-2, GFO, JASON-1, ENVISAT, JASON-2, CRYOSAT-2, HY-2A, SARAL, JASON-3 and SENTINEL-3A. The altimeter data have been calibrated and validated against National Oceanographic Data Center (NODC) buoy data. Differences between altimeter and buoy data as a function of time are investigated for long-term stability. A cross validation between altimeters is also carried out in order to check the stability and consistency of the calibrations developed. Quantile-quantile comparisons between altimeter and buoy data as well as between altimeters are undertaken to test consistency of probability distributions and extreme value performance. The data were binned into 1° by 1° bins globally, to provide convenient access for users to download only the regions of interest. All data are quality controlled. This globally calibrated and cross-validated dataset provides a single point of storage for all altimeter missions in a consistent format.Design Type(s)data integration objective • modeling and simulation objectiveMeasurement Type(s)environmental system processTechnology Type(s)Altimeter DeviceFactor Type(s)temporal_interval • geographic locationSample Characteristic(s)Earth (Planet) • oceanMachine-accessible metadata file describing the reported data (ISA-Tab format)",
         "authors": [
             "author-bcd58597e59e81753883",
             "author-faaa231df1fec847a186"
@@ -3570,6 +3644,108 @@
             "status": "ok"
         },
         "doi": "10.1038/s41597-019-0083-9",
+        "keyphrases": {
+            "all altimeter missions": {
+                "count": 1,
+                "rank_score": 0.04824185338389313
+            },
+            "altimeter and buoy data": {
+                "count": 1,
+                "rank_score": 0.061180366185765486
+            },
+            "altimeter data": {
+                "count": 1,
+                "rank_score": 0.06544988028853534
+            },
+            "altimeters": {
+                "count": 3,
+                "rank_score": 0.08031015940481813
+            },
+            "buoy data": {
+                "count": 1,
+                "rank_score": 0.08897321035541478
+            },
+            "consistency": {
+                "count": 2,
+                "rank_score": 0.06179069408309927
+            },
+            "convenient access": {
+                "count": 1,
+                "rank_score": 0.05754120410727463
+            },
+            "cryosat-2": {
+                "count": 1,
+                "rank_score": 0.04718845551413975
+            },
+            "design type(s)data": {
+                "count": 2,
+                "rank_score": 0.05976143046671968
+            },
+            "devicefactor type(s)temporal_interval": {
+                "count": 1,
+                "rank_score": 0.05976143046671968
+            },
+            "ers-1": {
+                "count": 2,
+                "rank_score": 0.04954891546130372
+            },
+            "ers-2": {
+                "count": 2,
+                "rank_score": 0.04718845551413975
+            },
+            "extreme value performance": {
+                "count": 1,
+                "rank_score": 0.06543364350002268
+            },
+            "geographic locationsample characteristic(s)earth": {
+                "count": 1,
+                "rank_score": 0.06962047948870176
+            },
+            "gfo": {
+                "count": 2,
+                "rank_score": 0.046733166908198606
+            },
+            "global significant wave height and wind speed": {
+                "count": 1,
+                "rank_score": 0.0583548711481828
+            },
+            "hy-2a": {
+                "count": 2,
+                "rank_score": 0.04801860870580714
+            },
+            "integration objective": {
+                "count": 1,
+                "rank_score": 0.05976143046671968
+            },
+            "national oceanographic data center": {
+                "count": 2,
+                "rank_score": 0.07424863515505124
+            },
+            "nodc": {
+                "count": 2,
+                "rank_score": 0.0474042785782639
+            },
+            "probability distributions": {
+                "count": 1,
+                "rank_score": 0.0646696341455505
+            },
+            "reported data": {
+                "count": 1,
+                "rank_score": 0.055162627115098624
+            },
+            "saral": {
+                "count": 2,
+                "rank_score": 0.04954891546130372
+            },
+            "topex": {
+                "count": 1,
+                "rank_score": 0.04801860870580714
+            },
+            "users": {
+                "count": 1,
+                "rank_score": 0.04714221198032798
+            }
+        },
         "original": {
             "authors": "Ribal, Agustinus, Young, Ian R.",
             "date_added": "2020-01-27 16:48:41",
@@ -3580,697 +3756,6 @@
             "url": "http://europepmc.org/articles/PMC6541622"
         },
         "title": "33 years of globally calibrated wave height and wind speed data based on altimeter observations"
-    },
-    {
-        "Dimensions": {
-            "FOR": [
-                {
-                    "id": "2534",
-                    "name": "0405 Oceanography"
-                }
-            ],
-            "FOR_first": [
-                {
-                    "id": "2204",
-                    "name": "04 Earth Sciences"
-                }
-            ],
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [
-                            {
-                                "city": "Redmond",
-                                "city_id": 5808079,
-                                "country": "United States",
-                                "country_code": "US",
-                                "id": "grid.274356.1",
-                                "name": "Northwest Research Associates",
-                                "state": "Washington",
-                                "state_code": "US-WA"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "grid.421615.5",
-                        "email": "stockwell@co-ra.com",
-                        "first_name": "R. G.",
-                        "first_name_original": "",
-                        "initials": "",
-                        "last_name": "STOCKWELL",
-                        "last_name_original": "",
-                        "orcid": "",
-                        "raw_affiliation_original": [],
-                        "researcher_id": "ur.0615772630.98"
-                    },
-                    {
-                        "affiliations": [
-                            {
-                                "city": "Boulder",
-                                "city_id": 5574991,
-                                "country": "United States",
-                                "country_code": "US",
-                                "id": "grid.57828.30",
-                                "name": "National Center for Atmospheric Research",
-                                "state": "Colorado",
-                                "state_code": "US-CO"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "grid.57828.30",
-                        "email": "",
-                        "first_name": "W. G.",
-                        "first_name_original": "",
-                        "initials": "",
-                        "last_name": "LARGE",
-                        "last_name_original": "",
-                        "orcid": "",
-                        "raw_affiliation_original": [],
-                        "researcher_id": "ur.015415214420.51"
-                    },
-                    {
-                        "affiliations": [
-                            {
-                                "city": "Redmond",
-                                "city_id": 5808079,
-                                "country": "United States",
-                                "country_code": "US",
-                                "id": "grid.274356.1",
-                                "name": "Northwest Research Associates",
-                                "state": "Washington",
-                                "state_code": "US-WA"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "grid.464551.7",
-                        "email": "",
-                        "first_name": "R. F.",
-                        "first_name_original": "",
-                        "initials": "",
-                        "last_name": "MILLIFF",
-                        "last_name_original": "",
-                        "orcid": "",
-                        "raw_affiliation_original": [],
-                        "researcher_id": "ur.016370632653.63"
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [
-                        {
-                            "city": "Redmond",
-                            "city_id": 5808079,
-                            "country": "United States",
-                            "country_code": "US",
-                            "id": "grid.274356.1",
-                            "name": "Northwest Research Associates",
-                            "state": "Washington",
-                            "state_code": "US-WA"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "grid.421615.5",
-                    "email": "stockwell@co-ra.com",
-                    "first_name": "R. G.",
-                    "first_name_original": "",
-                    "initials": "",
-                    "last_name": "STOCKWELL",
-                    "last_name_original": "",
-                    "orcid": "",
-                    "raw_affiliation_original": [],
-                    "researcher_id": "ur.0615772630.98"
-                },
-                {
-                    "affiliations": [
-                        {
-                            "city": "Boulder",
-                            "city_id": 5574991,
-                            "country": "United States",
-                            "country_code": "US",
-                            "id": "grid.57828.30",
-                            "name": "National Center for Atmospheric Research",
-                            "state": "Colorado",
-                            "state_code": "US-CO"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "grid.57828.30",
-                    "email": "",
-                    "first_name": "W. G.",
-                    "first_name_original": "",
-                    "initials": "",
-                    "last_name": "LARGE",
-                    "last_name_original": "",
-                    "orcid": "",
-                    "raw_affiliation_original": [],
-                    "researcher_id": "ur.015415214420.51"
-                },
-                {
-                    "affiliations": [
-                        {
-                            "city": "Redmond",
-                            "city_id": 5808079,
-                            "country": "United States",
-                            "country_code": "US",
-                            "id": "grid.274356.1",
-                            "name": "Northwest Research Associates",
-                            "state": "Washington",
-                            "state_code": "US-WA"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "grid.464551.7",
-                    "email": "",
-                    "first_name": "R. F.",
-                    "first_name_original": "",
-                    "initials": "",
-                    "last_name": "MILLIFF",
-                    "last_name_original": "",
-                    "orcid": "",
-                    "raw_affiliation_original": [],
-                    "researcher_id": "ur.016370632653.63"
-                }
-            ],
-            "category_for": [
-                {
-                    "id": "2204",
-                    "name": "04 Earth Sciences"
-                },
-                {
-                    "id": "2534",
-                    "name": "0405 Oceanography"
-                }
-            ],
-            "category_ua": [
-                {
-                    "id": "30007",
-                    "name": "B07 Earth Systems and Environmental Sciences"
-                }
-            ],
-            "category_uoa": [
-                {
-                    "id": "30007",
-                    "name": "B07 Earth Systems and Environmental Sciences"
-                }
-            ],
-            "concepts": [
-                "surface",
-                "buoy data",
-                "data",
-                "National Data Buoy Center",
-                "center",
-                "occurrence",
-                "range oscillations",
-                "oscillations",
-                "surface winds",
-                "wind",
-                "joint time frequency analysis",
-                "time frequency analysis",
-                "frequency analysis",
-                "analysis",
-                "vector winds",
-                "data sets",
-                "set",
-                "high time resolution",
-                "time resolution",
-                "resolution",
-                "inertial oscillations",
-                "global coverage",
-                "coverage",
-                "record length",
-                "signals",
-                "observation system",
-                "system",
-                "sites",
-                "measurements",
-                "large amount",
-                "amount",
-                "harmonics",
-                "tidal signatures",
-                "signatures",
-                "power spectrum",
-                "tidal oscillations",
-                "important contributor",
-                "contributor",
-                "latitudes",
-                "local spectral analysis",
-                "spectral analysis",
-                "considerable energy",
-                "energy",
-                "inertial frequency",
-                "frequency",
-                "lived events",
-                "events",
-                "rotation direction",
-                "direction",
-                "inertial frequency band",
-                "frequency band",
-                "band",
-                "resonant inertial oscillations",
-                "season",
-                "years",
-                "ocean surface winds"
-            ],
-            "date": "2004-10-01",
-            "date_inserted": "2017-08-31",
-            "doi": "10.1111/j.1600-0870.2004.00086.x",
-            "field_citation_ratio": 1.23,
-            "id": "pub.1049519373",
-            "issn": [
-                "0280-6495",
-                "1600-0870"
-            ],
-            "issue": "5",
-            "journal": {
-                "id": "jour.1284664",
-                "title": "Tellus A Dynamic Meteorology and Oceanography"
-            },
-            "journal_lists": [
-                "VABB-SHW",
-                "ERA 2018",
-                "Norwegian register level 2",
-                "DOAJ",
-                "ERA 2015"
-            ],
-            "linkout": "http://pdfs.semanticscholar.org/4fd2/8d32d88ae6d9e7b6f9475db6aa9ccec69e70.pdf",
-            "open_access": [
-                "Open Access - all",
-                "Open Access - repository",
-                "Open Access - submitted"
-            ],
-            "open_access_categories": [
-                {
-                    "description": "Article is freely available",
-                    "id": "oa_all",
-                    "name": "All OA"
-                },
-                {
-                    "description": "Free copy of submitted version, or where version is unknown, in an OA repository",
-                    "id": "green_sub",
-                    "name": "Green, Submitted"
-                }
-            ],
-            "pages": "536-547",
-            "publisher": "Taylor & Francis",
-            "recent_citations": 2,
-            "reference_ids": [
-                "pub.1098682460",
-                "pub.1016348005",
-                "pub.1049470509",
-                "pub.1001687057",
-                "pub.1031627902",
-                "pub.1043047912",
-                "pub.1017895341",
-                "pub.1014386499",
-                "pub.1023670083",
-                "pub.1061100303",
-                "pub.1020440165",
-                "pub.1035728098",
-                "pub.1053768476",
-                "pub.1018091259",
-                "pub.1063421243",
-                "pub.1048875410",
-                "pub.1043759889",
-                "pub.1006191175",
-                "pub.1014701036",
-                "pub.1011176366",
-                "pub.1033167734",
-                "pub.1039113703",
-                "pub.1061227893",
-                "pub.1007565958",
-                "pub.1038580324",
-                "pub.1031951024",
-                "pub.1012626130",
-                "pub.1008928741",
-                "pub.1011325223",
-                "pub.1061229441",
-                "pub.1050903762",
-                "pub.1041423477",
-                "pub.1032107152"
-            ],
-            "references": [
-                "pub.1098682460",
-                "pub.1016348005",
-                "pub.1049470509",
-                "pub.1001687057",
-                "pub.1031627902",
-                "pub.1043047912",
-                "pub.1017895341",
-                "pub.1014386499",
-                "pub.1023670083",
-                "pub.1061100303",
-                "pub.1020440165",
-                "pub.1035728098",
-                "pub.1053768476",
-                "pub.1018091259",
-                "pub.1063421243",
-                "pub.1048875410",
-                "pub.1043759889",
-                "pub.1006191175",
-                "pub.1014701036",
-                "pub.1011176366",
-                "pub.1033167734",
-                "pub.1039113703",
-                "pub.1061227893",
-                "pub.1007565958",
-                "pub.1038580324",
-                "pub.1031951024",
-                "pub.1012626130",
-                "pub.1008928741",
-                "pub.1011325223",
-                "pub.1061229441",
-                "pub.1050903762",
-                "pub.1041423477",
-                "pub.1032107152"
-            ],
-            "research_org_cities": [
-                {
-                    "id": 5574991,
-                    "name": "Boulder"
-                },
-                {
-                    "id": 5808079,
-                    "name": "Redmond"
-                }
-            ],
-            "research_org_countries": [
-                {
-                    "id": "US",
-                    "name": "United States"
-                }
-            ],
-            "research_org_country_names": [
-                "United States"
-            ],
-            "research_org_state_codes": [
-                {
-                    "id": "US-CO",
-                    "name": "Colorado"
-                },
-                {
-                    "id": "US-WA",
-                    "name": "Washington"
-                }
-            ],
-            "research_org_state_names": [
-                "Washington",
-                "Colorado"
-            ],
-            "research_orgs": [
-                {
-                    "acronym": "NCAR",
-                    "city_name": "Boulder",
-                    "country_name": "United States",
-                    "id": "grid.57828.30",
-                    "latitude": 39.97815,
-                    "linkout": [
-                        "https://ncar.ucar.edu/about-ncar"
-                    ],
-                    "longitude": -105.27492,
-                    "name": "National Center for Atmospheric Research",
-                    "state_name": "Colorado",
-                    "types": [
-                        "Facility"
-                    ]
-                },
-                {
-                    "acronym": "NWRA",
-                    "city_name": "Redmond",
-                    "country_name": "United States",
-                    "id": "grid.274356.1",
-                    "latitude": 47.647446,
-                    "linkout": [
-                        "https://www.nwra.com/"
-                    ],
-                    "longitude": -122.14285,
-                    "name": "Northwest Research Associates",
-                    "state_name": "Washington",
-                    "types": [
-                        "Facility"
-                    ]
-                }
-            ],
-            "researchers": [
-                {
-                    "first_name": "Robert G",
-                    "id": "ur.0615772630.98",
-                    "last_name": "Stockwell",
-                    "research_orgs": [
-                        "grid.421615.5",
-                        "grid.39381.30",
-                        "grid.274356.1"
-                    ]
-                },
-                {
-                    "first_name": "William G",
-                    "id": "ur.015415214420.51",
-                    "last_name": "Large",
-                    "research_orgs": [
-                        "grid.413455.2",
-                        "grid.57828.30",
-                        "grid.469431.d"
-                    ]
-                },
-                {
-                    "first_name": "Ralph F",
-                    "id": "ur.016370632653.63",
-                    "last_name": "Milliff",
-                    "research_orgs": [
-                        "grid.266190.a",
-                        "grid.133342.4",
-                        "grid.57828.30",
-                        "grid.274356.1",
-                        "grid.38142.3c",
-                        "grid.464551.7"
-                    ]
-                }
-            ],
-            "terms": [
-                "surface",
-                "buoy data",
-                "data",
-                "National Data Buoy Center",
-                "center",
-                "occurrence",
-                "range oscillations",
-                "oscillations",
-                "surface winds",
-                "wind",
-                "joint time frequency analysis",
-                "time frequency analysis",
-                "frequency analysis",
-                "analysis",
-                "vector winds",
-                "data sets",
-                "set",
-                "high time resolution",
-                "time resolution",
-                "resolution",
-                "inertial oscillations",
-                "global coverage",
-                "coverage",
-                "record length",
-                "signals",
-                "observation system",
-                "system",
-                "sites",
-                "measurements",
-                "large amount",
-                "amount",
-                "harmonics",
-                "tidal signatures",
-                "signatures",
-                "power spectrum",
-                "tidal oscillations",
-                "important contributor",
-                "contributor",
-                "latitudes",
-                "local spectral analysis",
-                "spectral analysis",
-                "considerable energy",
-                "energy",
-                "inertial frequency",
-                "frequency",
-                "lived events",
-                "events",
-                "rotation direction",
-                "direction",
-                "inertial frequency band",
-                "frequency band",
-                "band",
-                "resonant inertial oscillations",
-                "season",
-                "years",
-                "ocean surface winds"
-            ],
-            "times_cited": 19,
-            "title": "Resonant inertial oscillations in moored buoy ocean surface winds",
-            "type": "article",
-            "volume": "56",
-            "year": 2004
-        },
-        "OpenAIRE": {
-            "authors": [
-                "Stockwell, R. G.",
-                "Large, W. G.",
-                "Milliff, R. F."
-            ],
-            "open": true,
-            "url": "http://www.tellusa.net/index.php/tellusa/article/view/14478"
-        },
-        "Unpaywall": {
-            "best_oa_location": null,
-            "data_standard": 2,
-            "doi": "10.3402/tellusa.v56i5.14478",
-            "doi_url": "https://doi.org/10.3402/tellusa.v56i5.14478",
-            "genre": "journal-article",
-            "has_repository_copy": false,
-            "is_oa": false,
-            "is_paratext": false,
-            "journal_is_in_doaj": false,
-            "journal_is_oa": false,
-            "journal_issn_l": "0280-6495",
-            "journal_issns": "1600-0870",
-            "journal_name": "Tellus A: Dynamic Meteorology and Oceanography",
-            "oa_locations": [],
-            "oa_status": "closed",
-            "published_date": "2004-01-01",
-            "publisher": "Informa UK Limited",
-            "title": "Resonant inertial oscillations in moored buoy ocean surface winds",
-            "updated": "2020-02-28T08:10:29.953797",
-            "year": 2004,
-            "z_authors": [
-                {
-                    "affiliation": [
-                        {
-                            "name": "Colorado Research Associates Division, Northwest Research Associates Inc., 3380 Mitchell Lane, Boulder, CO 80301, USA;"
-                        }
-                    ],
-                    "family": "Stockwell",
-                    "given": "R.G.",
-                    "sequence": "first"
-                },
-                {
-                    "affiliation": [
-                        {
-                            "name": "Climate and Global Dynamics Division NCAR, PO Box 3000, Boulder, CO 80307–3000, USA"
-                        }
-                    ],
-                    "family": "Large",
-                    "given": "W.G.",
-                    "sequence": "additional"
-                },
-                {
-                    "affiliation": [
-                        {
-                            "name": "Colorado Research Associates Division, Northwest Research Associates Inc., 3380 Mitchell Lane, Boulder, CO 80301, USA;"
-                        }
-                    ],
-                    "family": "Milliff",
-                    "given": "R.F.",
-                    "sequence": "additional"
-                }
-            ]
-        },
-        "authors": [
-            "author-5e1f5a8982c5a18dbe5f",
-            "author-ad96ee5f17db6bddd036",
-            "author-fc9f21409643148bf9f7"
-        ],
-        "datasets": [
-            "dataset-668"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "name": {
-                            "first": "R. G.",
-                            "last": "Stockwell"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "W. G.",
-                            "last": "Large"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "R. F.",
-                            "last": "Milliff"
-                        }
-                    }
-                ],
-                "classification": "OA",
-                "date": "2004-09-30",
-                "pdf_url": "http://dx.doi.org/10.3402/tellusa.v56i5.14478",
-                "records": [
-                    {
-                        "abstract": "The surface winds from the moored buoy data set available from the National Data Buoy Center are examined for the occurrence of inertial range oscillations in the surface winds by employing a novel joint time frequency analysis of the two-component vector winds. This data set was chosen for its high time resolution (1-h sampling) that enabled the full characterization of these inertial oscillations, its at least partially global coverage, and its record length, which is needed to extract the signals from the background noise. The observation system is comprised of over 200 sites with measurements as far back as 1972.Because of the large amount of data, many harmonics of the diurnal atmospheric tidal signature in the surface winds (24, 12, 8, and 3 h) were found in high-precision power spectra. These tidal oscillations are found to be important contributors to the inertial range oscillation at latitudes of 30°, where the largest inertial range oscillations are found. By turning to local (in time) spectral analysis using the S-transform, considerable energy was also found in the inertial frequency ranges at other latitudes, typically in the form of very large (&gt;10 m s−1), yet short-lived (of the order of a few days) events. The surface wind rotation direction in near inertial frequency bands favors resonant inertial oscillations at all latitudes, and in every season of the year.",
-                        "contributors": "",
-                        "doi": "10.1111/j.1600-0870.2004.00086.x",
-                        "identifier": "oai:researchgate.net:227738927",
-                        "keywords": "",
-                        "pdf_url": "https://www.researchgate.net/profile/Ralph_Milliff/publication/227738927_Resonant_inertial_oscillations_in_moored_buoy_ocean_surface_winds/links/0c96052968aa64b0a0000000.pdf",
-                        "source": "researchgate",
-                        "splash_url": "https://www.researchgate.net/publication/227738927_Resonant_inertial_oscillations_in_moored_buoy_ocean_surface_winds",
-                        "type": "journal-article"
-                    },
-                    {
-                        "doi": "10.1111/j.1600-0870.2004.00086.x",
-                        "identifier": "oai:crossref.org:10.1111/j.1600-0870.2004.00086.x",
-                        "issn": "0280-6495",
-                        "issue": "5",
-                        "journal": "Tellus A",
-                        "pages": "536-547",
-                        "pdf_url": "http://dx.doi.org/10.1111/j.1600-0870.2004.00086.x",
-                        "policy": {
-                            "postprint": "can",
-                            "preprint": "can",
-                            "published": "can",
-                            "romeo_id": "2965"
-                        },
-                        "publisher": "Co-Action Publishing",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1111/j.1600-0870.2004.00086.x",
-                        "type": "journal-article",
-                        "volume": "56"
-                    },
-                    {
-                        "doi": "10.3402/tellusa.v56i5.14478",
-                        "identifier": "oai:crossref.org:10.3402/tellusa.v56i5.14478",
-                        "issn": "0280-6495",
-                        "journal": "Tellus A",
-                        "pdf_url": "http://dx.doi.org/10.3402/tellusa.v56i5.14478",
-                        "policy": {
-                            "postprint": "can",
-                            "preprint": "can",
-                            "published": "can",
-                            "romeo_id": "2965"
-                        },
-                        "publisher": "Co-Action Publishing",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.3402/tellusa.v56i5.14478",
-                        "type": "journal-article"
-                    }
-                ],
-                "title": "Resonant inertial oscillations in moored buoy ocean surface winds",
-                "type": "journal-article"
-            },
-            "status": "ok"
-        },
-        "doi": "10.3402/tellusa.v56i5.14478",
-        "original": {
-            "authors": "Stockwell, R. G., Large, W. G., Milliff, R. F.",
-            "date_added": "2020-01-27 16:48:41",
-            "doi": "10.3402/tellusa.v56i5.14478",
-            "journal": "Tellus A",
-            "pdf": "https://www.tandfonline.com/doi/pdf/10.3402/tellusa.v56i5.14478?needAccess=true",
-            "search_term": "National Data Buoy Center",
-            "url": "http://www.tellusa.net/index.php/tellusa/article/view/14478"
-        },
-        "title": "Resonant inertial oscillations in moored buoy ocean surface winds"
     },
     {
         "OpenAIRE": {
@@ -4935,6 +4420,7 @@
             "venue": "",
             "year": 2016
         },
+        "abstract": "CHANGING TRENDS IN WAVE HEIGHTS IN THE U.S. MID-ATLANTIC REGION Hillary Lane Old Dominion University, 2016 Director: Dr. Gangfeng Ma The pace and effects of climate change are an area of constant focus for coastal engineers as evolving patterns in the atmosphere worldwide affect the oceans and coasts on a regional and global scale. Surface waves respond to changing wind patterns both locally and from propagating swell, and the difficulty in predicting future wind patterns is well-established. Expectations that climate change will result in more frequent and intense coastal storms and consequently greater wave heights in the North Atlantic are still unrealized, and recent forecasts from a variety of atmosphere-ocean coupled global climate models instead predict decreasing wave heights through the end of the century in many areas of the world, including the U.S. Atlantic coast. In this thesis, an analysis of trends in significant wave heights and extreme waves using hourly data recorded by the National Oceanic and Atmospheric Administration’s National Data Buoy Center buoys finds wave heights along the mid-Atlantic region of the U.S. east coast unchanged or beginning to trend downward from the later years of the 20th century into the 21st century. From the southernmost latitude in the study to the northernmost, a progressive change is evident with latitude. At the southernmost buoy, 44014, located off of Virginia Beach, VA, hourly significant wave heights are virtually unchanged during the time series (1.83e-6 m/year from 1991-2002 and -5.57e -6 m/year from 2003 2015). At buoy 44009, located off the southern tip of New Jersey, the trend reverses from slightly upward to slightly downward (+3.85e-5 m/year in 1986 June 2001 versus 2.42e-5 m/year from Jul 2001 Dec 2015). Farthest north, at buoy 44025 south of Islip, NY, the trend reversal again occurs (+ 2.39e-5 m/year in April 1991 Jan 2003 versus -2.41e-5 m/year in Jan 2003 Dec 2015). Seasonal trends follow the same path with the most evident change being a 0.05 m/year decrease in extreme waves in the northern region of the study area. Hindcast data from the U.S. Geological Survey allow for an extension of the climatology and analysis to 40 years and shows a clear decrease in storm wave heights.",
         "authors": [
             "author-57017046c15994141170"
         ],
@@ -4975,6 +4461,108 @@
             "status": "ok"
         },
         "doi": "10.25777/8cx1-0v89",
+        "keyphrases": {
+            "atmosphere-ocean coupled global climate models": {
+                "count": 1,
+                "rank_score": 0.05794452307598196
+            },
+            "climate change": {
+                "count": 2,
+                "rank_score": 0.07628714026916164
+            },
+            "coastal engineers": {
+                "count": 1,
+                "rank_score": 0.05612505498915245
+            },
+            "coasts": {
+                "count": 1,
+                "rank_score": 0.05222102853368181
+            },
+            "consequently greater wave heights": {
+                "count": 1,
+                "rank_score": 0.06209332370605501
+            },
+            "decreasing wave heights": {
+                "count": 1,
+                "rank_score": 0.09829978938789866
+            },
+            "dr. gangfeng ma": {
+                "count": 1,
+                "rank_score": 0.05790618353433768
+            },
+            "extreme waves": {
+                "count": 2,
+                "rank_score": 0.08638920018289013
+            },
+            "future wind patterns": {
+                "count": 1,
+                "rank_score": 0.06351986403103703
+            },
+            "hillary lane": {
+                "count": 1,
+                "rank_score": 0.05556377235969798
+            },
+            "hourly data": {
+                "count": 1,
+                "rank_score": 0.06067257317130075
+            },
+            "hourly significant wave heights": {
+                "count": 1,
+                "rank_score": 0.10217473766831685
+            },
+            "many areas": {
+                "count": 1,
+                "rank_score": 0.05409212309767083
+            },
+            "national data buoy center": {
+                "count": 1,
+                "rank_score": 0.0670248123425621
+            },
+            "national data buoy center buoys": {
+                "count": 1,
+                "rank_score": 0.07147149364306787
+            },
+            "seasonal trends": {
+                "count": 1,
+                "rank_score": 0.07294385398079412
+            },
+            "significant wave heights": {
+                "count": 1,
+                "rank_score": 0.10124414923954086
+            },
+            "storm wave heights": {
+                "count": 1,
+                "rank_score": 0.10148417728244817
+            },
+            "surface waves": {
+                "count": 1,
+                "rank_score": 0.0792087775576344
+            },
+            "trends": {
+                "count": 3,
+                "rank_score": 0.07329917758603789
+            },
+            "u.s. atlantic": {
+                "count": 1,
+                "rank_score": 0.07403904907238239
+            },
+            "u.s. atlantic coast": {
+                "count": 1,
+                "rank_score": 0.05198396274336062
+            },
+            "u.s. mid-atlantic region hillary lane old dominion university": {
+                "count": 1,
+                "rank_score": 0.0553972556235477
+            },
+            "wave heights": {
+                "count": 1,
+                "rank_score": 0.07536591119160563
+            },
+            "wind patterns": {
+                "count": 1,
+                "rank_score": 0.06012838777933433
+            }
+        },
         "original": {
             "authors": "Lane, Hillary",
             "date_added": "2020-01-27 16:48:41",
@@ -6721,6 +6309,7 @@
                 }
             ]
         },
+        "abstract": "The northern Gulf of Mexico is a region that has been frequently impacted in recent years by natural disasters such as hurricanes. The use of remote sensing data such as winds from NASA's QuikSCAT satellite sensor would be useful for emergency preparedness during such events. In this study, the performance of QuikSCAT products, including JPL's latest Level 2B (L2B) 12.5 km swath winds, were evaluated with respect to buoy-measured winds in the Gulf of Mexico for the period January 2005 to February 2007. Regression analyses indicated better accuracy of QuikSCAT's L2B DIRTH, 12.5 km than the Level 3 (L3), 25 km wind product. QuikSCAT wind data were compared directly with buoy data keeping a maximum time interval of 20 min and spatial interval of 0.1° (≈10 km). R² values for moderate wind speeds were 0.88 and 0.93 for L2B, and 0.75 and 0.89 for L3 for speed and direction, respectively. QuikSCAT wind comparisons for buoys located offshore were better than those located near the coast. Hurricanes that took place during 2002-06 were studied individually to obtain regressions of QuikSCAT versus buoys for those events. Results show QuikSCAT's L2B DIRTH wind product compared well with buoys during hurricanes up to the limit of buoy measurements. Comparisons with the National Hurricane Center (NHC) best track analyses indicated QuikSCAT winds to be lower than those obtained by NHC, possibly due to rain contamination, while buoy measurements appeared to be constrained at high wind speeds. This study has confirmed good agreement of the new QuikSCAT L2B product with buoy measurements and further suggests its potential use during extreme weather conditions in the Gulf of Mexico.",
         "authors": [
             "author-88176d9e25a070ac7787",
             "author-4618b601c77c8abe4b3e",
@@ -6832,6 +6421,108 @@
             "status": "ok"
         },
         "doi": "10.3390/s8031927",
+        "keyphrases": {
+            "best track analyses": {
+                "count": 1,
+                "rank_score": 0.07448863829469277
+            },
+            "better accuracy": {
+                "count": 1,
+                "rank_score": 0.06130153656930787
+            },
+            "buoy data": {
+                "count": 1,
+                "rank_score": 0.06715187268789574
+            },
+            "buoy measurements": {
+                "count": 3,
+                "rank_score": 0.07480305948389432
+            },
+            "buoy-measured winds": {
+                "count": 1,
+                "rank_score": 0.06598335840639401
+            },
+            "extreme weather conditions": {
+                "count": 1,
+                "rank_score": 0.0642384178071254
+            },
+            "good agreement": {
+                "count": 1,
+                "rank_score": 0.05908702572385599
+            },
+            "high wind speeds": {
+                "count": 1,
+                "rank_score": 0.10939735336599939
+            },
+            "mexico": {
+                "count": 4,
+                "rank_score": 0.061880406355135927
+            },
+            "moderate wind speeds": {
+                "count": 1,
+                "rank_score": 0.11122634174330154
+            },
+            "nasas quikscat satellite sensor": {
+                "count": 1,
+                "rank_score": 0.06431420018227638
+            },
+            "natural disasters": {
+                "count": 1,
+                "rank_score": 0.06047903818777823
+            },
+            "new quikscat l2b product": {
+                "count": 1,
+                "rank_score": 0.07597907704483957
+            },
+            "quikscat": {
+                "count": 7,
+                "rank_score": 0.09705577819568979
+            },
+            "quikscat products": {
+                "count": 1,
+                "rank_score": 0.11274350124386347
+            },
+            "quikscat wind comparisons": {
+                "count": 1,
+                "rank_score": 0.06394360698449814
+            },
+            "quikscat winds": {
+                "count": 1,
+                "rank_score": 0.13423821045482312
+            },
+            "quikscats l2b dirth": {
+                "count": 1,
+                "rank_score": 0.06476443156612365
+            },
+            "recent years": {
+                "count": 2,
+                "rank_score": 0.05971467009107074
+            },
+            "remote sensing data": {
+                "count": 1,
+                "rank_score": 0.07447934845972862
+            },
+            "spatial interval": {
+                "count": 1,
+                "rank_score": 0.06480502247929176
+            },
+            "such events": {
+                "count": 1,
+                "rank_score": 0.07138504494561483
+            },
+            "wind data": {
+                "count": 1,
+                "rank_score": 0.11549829229869274
+            },
+            "wind product": {
+                "count": 1,
+                "rank_score": 0.12179918342034347
+            },
+            "winds": {
+                "count": 1,
+                "rank_score": 0.109256995450925
+            }
+        },
         "original": {
             "authors": "Sharma, Neha, D'Sa, Eurico",
             "date_added": "2020-01-27 16:48:41",

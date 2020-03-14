@@ -1044,6 +1044,7 @@
                 }
             ]
         },
+        "abstract": "The national numerical weather prediction system of Vietnam is presented and evaluated. The system is based on three main models, namely, the Japanese Global Spectral Model, the US Global Forecast System, and the US Weather Research and Forecasting (WRF) model. The global forecast products have been received at 0.25- and 0.5-degree horizontal resolution, respectively, and the WRF model has been run locally with 16 km horizontal resolution at the National Center for Hydro-Meteorological Forecasting using lateral conditions from GSM and GFS. The model performance is evaluated by comparing model output against observations of precipitation, wind speed, and temperature at 168 weather stations, with daily data from 2010 to 2014. In general, the global models provide more accurate forecasts than the regional models, probably due to the low horizontal resolution in the regional model. Also, the model performance is poorer for stations with altitudes greater than 500 meters above sea level (masl). For tropical cyclone performance validations, the maximum wind surface forecast from global and regional models is also verified against the best track of Joint Typhoon Warning Center. Finally, the model forecast skill during a recent extreme rain event in northeast Vietnam is evaluated.",
         "authors": [
             "author-b98be18016b91544e694",
             "author-24d03fde6956d47101c7",
@@ -1133,6 +1134,108 @@
             "status": "ok"
         },
         "doi": "10.1155/2016/8152413",
+        "keyphrases": {
+            "daily data": {
+                "count": 1,
+                "rank_score": 0.05577499137194444
+            },
+            "forecasting (wrf) model": {
+                "count": 1,
+                "rank_score": 0.05726145392695373
+            },
+            "global and regional models": {
+                "count": 1,
+                "rank_score": 0.07932580184207025
+            },
+            "global forecast products": {
+                "count": 1,
+                "rank_score": 0.0586475956566878
+            },
+            "global models": {
+                "count": 1,
+                "rank_score": 0.07279799505308672
+            },
+            "gsm": {
+                "count": 2,
+                "rank_score": 0.050595856249377374
+            },
+            "hydro-meteorological forecasting": {
+                "count": 1,
+                "rank_score": 0.05527963692083891
+            },
+            "japanese global spectral model": {
+                "count": 2,
+                "rank_score": 0.056761553699658136
+            },
+            "joint typhoon warning center": {
+                "count": 2,
+                "rank_score": 0.0865948148143595
+            },
+            "lateral conditions": {
+                "count": 1,
+                "rank_score": 0.07259350967756856
+            },
+            "low horizontal resolution": {
+                "count": 1,
+                "rank_score": 0.05493288549379972
+            },
+            "model forecast skill": {
+                "count": 1,
+                "rank_score": 0.07407099901406904
+            },
+            "model output": {
+                "count": 1,
+                "rank_score": 0.11128643539929678
+            },
+            "model performance": {
+                "count": 2,
+                "rank_score": 0.070386253141318
+            },
+            "national numerical weather prediction system": {
+                "count": 1,
+                "rank_score": 0.06581723924728819
+            },
+            "recent extreme rain event": {
+                "count": 1,
+                "rank_score": 0.055149100473202706
+            },
+            "regional models": {
+                "count": 2,
+                "rank_score": 0.06870136841845675
+            },
+            "sea level": {
+                "count": 1,
+                "rank_score": 0.07028915069635179
+            },
+            "stations": {
+                "count": 1,
+                "rank_score": 0.06445017451489406
+            },
+            "three main models": {
+                "count": 1,
+                "rank_score": 0.06465401353797777
+            },
+            "tropical cyclone performance validations": {
+                "count": 1,
+                "rank_score": 0.08326726061415417
+            },
+            "us global forecast system": {
+                "count": 1,
+                "rank_score": 0.059530368709656736
+            },
+            "vietnam": {
+                "count": 4,
+                "rank_score": 0.061306595879359965
+            },
+            "wind speed": {
+                "count": 1,
+                "rank_score": 0.06949945916040208
+            },
+            "wrf model": {
+                "count": 1,
+                "rank_score": 0.06536442163218709
+            }
+        },
         "original": {
             "authors": "Tien Du Duc, Lars Robert Hole, Duc Tran Anh, Cuong Hoang Duc, Thuy Nguyen Ba",
             "date_added": "2020-01-16 16:47:45",
@@ -2780,6 +2883,7 @@
                 }
             ]
         },
+        "abstract": "This paper compares the forecast performance of four strategies for coupling global and limited area data as- similation: three strategies propagate information from the global to the limited area process, while the fourth strategy feeds back information from the limited area to the global process. All four strategies are formulated in the Local En- semble Transform Kalman Filter (LETKF) framework. Numerical experiments are carried out with the model component of the National Centers for Environmental Pre- diction (NCEP) Global Forecast System (GFS) and the NCEP Regional Spectral Model (RSM). The limited area do- main is an extended North-America region that includes part of the north-east Pacific. The GFS is integrated at horizon- tal resolution T62 (about 150 km in the mid-latitudes), while the RSM is integrated at horizontal resolution 48 km. Exper- iments are carried out both under the perfect model hypothe- sis and in a realistic setting. The coupling strategies are eval- uated by comparing their deterministic forecast performance at 12-h and 48-h lead times. The results suggest that the limited area data assimilation system has the potential to enhance the forecasts at 12-h lead time in the limited area domain at the synoptic and sub- synoptic scales (in the global wave number range of about 10 to 40). There is a clear indication that between the forecast performance of the different coupling strategies those that cy- cle the limited area assimilation process produce the most ac- curate forecasts. In the realistic setting, at 12-h forecast time the limited area systems produce more modest improvements compared to the global system than under the perfect model hypothesis, and at 48-h forecast time the global forecasts are more accurate than the limited area forecasts.",
         "authors": [
             "author-652922fe14700641c038",
             "author-8f056affbbe80de9f15e",
@@ -2860,6 +2964,108 @@
             "status": "ok"
         },
         "doi": "10.5194/npg-18-415-2011",
+        "keyphrases": {
+            "environmental pre- diction": {
+                "count": 1,
+                "rank_score": 0.06863042364643301
+            },
+            "exper- iments": {
+                "count": 1,
+                "rank_score": 0.05512573873857585
+            },
+            "global and limited area data as- similation": {
+                "count": 1,
+                "rank_score": 0.06423253632496723
+            },
+            "global forecast system": {
+                "count": 2,
+                "rank_score": 0.06465435902710703
+            },
+            "global forecasts": {
+                "count": 1,
+                "rank_score": 0.05560772923986831
+            },
+            "global process": {
+                "count": 1,
+                "rank_score": 0.0457808804002006
+            },
+            "global system": {
+                "count": 1,
+                "rank_score": 0.04895573129768619
+            },
+            "global wave number range": {
+                "count": 1,
+                "rank_score": 0.05110413311599361
+            },
+            "horizon- tal resolution t62": {
+                "count": 1,
+                "rank_score": 0.07645382396659423
+            },
+            "horizontal resolution": {
+                "count": 1,
+                "rank_score": 0.06525557391777395
+            },
+            "information": {
+                "count": 2,
+                "rank_score": 0.05100239308532378
+            },
+            "lead time": {
+                "count": 1,
+                "rank_score": 0.05794769152306978
+            },
+            "limited area": {
+                "count": 2,
+                "rank_score": 0.06834855044595312
+            },
+            "limited area assimilation process": {
+                "count": 1,
+                "rank_score": 0.07608110622907335
+            },
+            "limited area data assimilation system": {
+                "count": 1,
+                "rank_score": 0.08029428234549338
+            },
+            "limited area domain": {
+                "count": 1,
+                "rank_score": 0.07088186860338179
+            },
+            "limited area forecasts": {
+                "count": 1,
+                "rank_score": 0.0790725809353937
+            },
+            "limited area process": {
+                "count": 1,
+                "rank_score": 0.0725205047906671
+            },
+            "limited area systems": {
+                "count": 1,
+                "rank_score": 0.07455915840411714
+            },
+            "more modest improvements": {
+                "count": 1,
+                "rank_score": 0.06126277807983526
+            },
+            "ncep": {
+                "count": 2,
+                "rank_score": 0.05273065213199653
+            },
+            "ncep regional spectral model": {
+                "count": 1,
+                "rank_score": 0.05085041219509061
+            },
+            "numerical experiments": {
+                "count": 1,
+                "rank_score": 0.05512573873857586
+            },
+            "perfect model hypothesis": {
+                "count": 1,
+                "rank_score": 0.04710701994021984
+            },
+            "their deterministic forecast performance": {
+                "count": 1,
+                "rank_score": 0.05310872564020339
+            }
+        },
         "original": {
             "authors": "D. Merkova, I. Szunyogh, E. Ott",
             "date_added": "2020-01-16 16:47:45",
@@ -3511,6 +3717,7 @@
                 }
             ]
         },
+        "abstract": "The intensification of the hydrological cycle because of global warming raises concerns about future floods and their impact on large cities where exposure to these events has also increased. The development of adequate adaptation solutions such as early warning systems is crucial. Here, we used deep learning (DL) for weather-runoff forecasting in region Metropolitana of Chile, a large urban area in a valley at the foot of the Andes Mountains, with more than 7 million inhabitants. The final goal of this research is to develop an effective forecasting system to provide timely information and support in real-time decision making. For this purpose, we implemented a coupled model of a near-future global meteorological forecast with a short-range runoff forecasting system. Starting from a traditional hydrological conceptual model, we defined the hydro-meteorological and geomorphological variables that were used in the data-driven weather-runoff forecast models. The meteorological variables were obtained through statistical scaling of the Global Forecast System (GFS), thus enabling near-future prediction, and two data-driven approaches were implemented for predicting the entire hourly flow time-series in the near future (3 days), a simple Artificial Neural Networks (ANN) and a Deep Learning (DL) approach based on Long-Short Term Memory (LSTM) cells. We show that the coupling between meteorological forecasts and data-driven weather-runoff forecast models are able to satisfy two basic requirements that any early warning system should have: The forecast should be given in advance, and it should be accurate and reliable. In this context, DL significantly improves runoff forecast when compared with a traditional data-driven approach such as ANN, being accurate in predicting time-evolution of output variables, with an error of 5% for DL, measured in terms of the root mean square error (RMSE) for predicting the peak flow, compared to 15.5% error for ANN, which is adequate to warn communities at risk and initiate disaster response operations.",
         "authors": [
             "author-730a8a3c348d655e3fbb",
             "author-c06bef2a508ef4fb9d05",
@@ -3576,6 +3783,108 @@
             "status": "ok"
         },
         "doi": "10.3390/w11091808",
+        "keyphrases": {
+            "adequate adaptation solutions": {
+                "count": 1,
+                "rank_score": 0.0612200164916927
+            },
+            "ann": {
+                "count": 6,
+                "rank_score": 0.04890791601161007
+            },
+            "artificial neural networks": {
+                "count": 1,
+                "rank_score": 0.057366415419553986
+            },
+            "data-driven weather-runoff forecast models": {
+                "count": 1,
+                "rank_score": 0.05211096339185375
+            },
+            "deep learning": {
+                "count": 1,
+                "rank_score": 0.05293155860490032
+            },
+            "disaster response operations": {
+                "count": 1,
+                "rank_score": 0.05797752823495085
+            },
+            "early warning systems": {
+                "count": 2,
+                "rank_score": 0.07855361441163079
+            },
+            "effective forecasting system": {
+                "count": 1,
+                "rank_score": 0.04978386050179755
+            },
+            "future floods": {
+                "count": 1,
+                "rank_score": 0.06264582586174325
+            },
+            "global warming": {
+                "count": 1,
+                "rank_score": 0.05698070283539299
+            },
+            "large cities": {
+                "count": 1,
+                "rank_score": 0.062243452429640855
+            },
+            "meteorological forecasts": {
+                "count": 1,
+                "rank_score": 0.08779537118932466
+            },
+            "near-future global meteorological forecast": {
+                "count": 1,
+                "rank_score": 0.05562382033723909
+            },
+            "near-future prediction": {
+                "count": 1,
+                "rank_score": 0.04584707793181078
+            },
+            "output variables": {
+                "count": 1,
+                "rank_score": 0.0534658978836466
+            },
+            "real-time decision making": {
+                "count": 1,
+                "rank_score": 0.04468734937497846
+            },
+            "region metropolitana": {
+                "count": 1,
+                "rank_score": 0.04726088234018859
+            },
+            "runoff forecast": {
+                "count": 1,
+                "rank_score": 0.09470577016773149
+            },
+            "short-range runoff forecasting system": {
+                "count": 1,
+                "rank_score": 0.05006444083409554
+            },
+            "square error": {
+                "count": 1,
+                "rank_score": 0.054733042891198694
+            },
+            "statistical scaling": {
+                "count": 1,
+                "rank_score": 0.04660796513103473
+            },
+            "timely information": {
+                "count": 1,
+                "rank_score": 0.04836301050491143
+            },
+            "traditional data-driven approach": {
+                "count": 1,
+                "rank_score": 0.04264475926643987
+            },
+            "traditional hydrological conceptual model": {
+                "count": 1,
+                "rank_score": 0.05180978358850816
+            },
+            "weather-runoff forecasting": {
+                "count": 1,
+                "rank_score": 0.05794367885241739
+            }
+        },
         "original": {
             "authors": "Fuente, Alberto de la, Meruane, Viviana, Meruane, Carolina",
             "date_added": "2020-01-16 16:47:45",
@@ -4552,6 +4861,7 @@
                 }
             ]
         },
+        "abstract": "An Observing System Simulation Experiment (OSSE) system has been implemented at the National Oceanographic and Atmospheric Administration Earth Systems Research Laboratory in the US as part of an international Joint OSSE effort. The setup of the OSSE consists of a Nature Run from a 13-month free run of the European Center for Medium-Range Weather Forecasts operational model, synthetic observations developed at the National Centers for Environmental Prediction (NCEP) and the National Aeronautics and Space Administration Global Modelling and Assimilation Office, and an operational version of the NCEP Gridpoint Statistical Interpolation data assimilation and Global Forecast System numerical weather prediction model. Synthetic observations included both conventional observations and the following radiance observations: AIRS, AMSU-A, AMSU-B, HIRS2, HIRS3, MSU, GOES radiance and OSBUV. Calibration was performed by modifying the error added to the conventional synthetic observations to achieve a match between data denial impacts on the analysis state in the OSSE system and in the real data system. Following calibration, the performance of the OSSE system was evaluated in terms of forecast skill scores and impact of observations on forecast fields. Keywords: observing system simulation experiment, data assimilation, numerical weather prediction (Published: 18 March 2013) Citation: Tellus A 2013, 65 , 19011, http://dx.doi.org/10.3402/tellusa.v65i0.19011",
         "authors": [
             "author-c9bea197222a31f2dbf4",
             "author-f261f24979d67042471b",
@@ -4644,6 +4954,108 @@
             "status": "ok"
         },
         "doi": "10.3402/tellusa.v65i0.19011",
+        "keyphrases": {
+            "both conventional observations": {
+                "count": 1,
+                "rank_score": 0.05686185780790114
+            },
+            "conventional synthetic observations": {
+                "count": 1,
+                "rank_score": 0.06620424415535427
+            },
+            "data assimilation": {
+                "count": 1,
+                "rank_score": 0.07794040304305426
+            },
+            "data denial impacts": {
+                "count": 1,
+                "rank_score": 0.0753087121149103
+            },
+            "environmental prediction": {
+                "count": 1,
+                "rank_score": 0.05682886946280552
+            },
+            "following radiance observations": {
+                "count": 1,
+                "rank_score": 0.0638006696518233
+            },
+            "forecast fields": {
+                "count": 1,
+                "rank_score": 0.05755056174511548
+            },
+            "forecast skill scores": {
+                "count": 1,
+                "rank_score": 0.06986220513697167
+            },
+            "global forecast system": {
+                "count": 2,
+                "rank_score": 0.08135365588782624
+            },
+            "impact": {
+                "count": 1,
+                "rank_score": 0.05743830898183619
+            },
+            "international joint osse effort": {
+                "count": 1,
+                "rank_score": 0.06233684288775196
+            },
+            "joint osse": {
+                "count": 1,
+                "rank_score": 0.08794311869628116
+            },
+            "national oceanographic and atmospheric administration earth systems research laboratory": {
+                "count": 2,
+                "rank_score": 0.05900212342008061
+            },
+            "ncep": {
+                "count": 2,
+                "rank_score": 0.05403130730093657
+            },
+            "ncep gridpoint statistical interpolation": {
+                "count": 1,
+                "rank_score": 0.051246149101124655
+            },
+            "ncep gridpoint statistical interpolation data assimilation": {
+                "count": 1,
+                "rank_score": 0.0658397540800259
+            },
+            "numerical weather prediction": {
+                "count": 1,
+                "rank_score": 0.08621532141715331
+            },
+            "numerical weather prediction model": {
+                "count": 1,
+                "rank_score": 0.0925296701942272
+            },
+            "observations": {
+                "count": 1,
+                "rank_score": 0.09023426589116251
+            },
+            "observing system simulation experiment": {
+                "count": 1,
+                "rank_score": 0.08640621508487606
+            },
+            "osse": {
+                "count": 4,
+                "rank_score": 0.0852557738299037
+            },
+            "osse) system": {
+                "count": 3,
+                "rank_score": 0.061397282184985746
+            },
+            "radiance": {
+                "count": 1,
+                "rank_score": 0.05953039244364334
+            },
+            "real data system": {
+                "count": 1,
+                "rank_score": 0.05301491280157629
+            },
+            "synthetic observations": {
+                "count": 2,
+                "rank_score": 0.10104465468452117
+            }
+        },
         "original": {
             "authors": "Nikki C. Privé, Yuanfu Xie, John S. Woollen, Steven E. Koch, Robert Atlas, Robbie E. Hood",
             "date_added": "2020-01-16 16:47:45",
@@ -5268,6 +5680,7 @@
                 }
             ]
         },
+        "abstract": "A multi-model archive of global deterministic forecasts and analyses from three operational systems is constructed to analyse recent Northern Hemisphere mid-latitude forecast skill from 2007 to 2012 and its relation to large-scale atmospheric flow anomalies defined by the Arctic Oscillation (AO) index. We find that the anomaly correlation coefficient (ACC) in 120-hr forecasts of 500 hPa geopotential height has similar variability on synoptic, monthly, and seasonal time scales in each of the three forecast systems examined here: the European Centre for Medium-Range Weather Forecasts, the National Centers for Environmental Prediction Global Forecast System, and the U.S. Navy Operational Global Atmospheric Prediction System. The results indicate that forecast skill as measured by the ACC is significantly correlated with the AO index and its transitions between negative and positive phase. Intervals of exceptionally high ACC skill during the 2009–2010 and 2010–2011 winters are associated with periods in which the AO remained in a persistent negative phase pattern. Episodes of low ACC, including so-called ‘forecast skill dropouts’ most frequently occur during transitions between negative and positive AO index and with positive AO index. The root mean square error (RMSE) of 120-hr forecast 500 hPa height is also modulated by the AO index, but to a lesser extent than the ACC. In two recent winters, the RMSE indicates lower 120-hr forecast accuracy during periods with negative AO index, which is opposite to ‘skill’ patterns provided by the ACC. These results suggest that the ACC is not in all situations an optimal metric with which to quantify model forecast skill, since the ACC can be higher when the large-scale atmospheric flow contains strong anomalies even if there is no actual improvement in model forecasts of that atmospheric state. Keywords: numerical weather prediction, anomaly correlation coefficient, forecast skill, Arctic Oscillation (Published: 14 November 2012) Citation: Tellus A 2012, 64 , 17531, http://dx.doi.org/10.3402/tellusa.v64i0.17531",
         "authors": [
             "author-acc269ef1cd178405309",
             "author-dab736d7cd4586d9e820"
@@ -5321,6 +5734,108 @@
             "status": "ok"
         },
         "doi": "10.3402/tellusa.v64i0.17531",
+        "keyphrases": {
+            "acc": {
+                "count": 14,
+                "rank_score": 0.07428339036716913
+            },
+            "anomaly correlation coefficient": {
+                "count": 2,
+                "rank_score": 0.07619234873053371
+            },
+            "arctic oscillation": {
+                "count": 2,
+                "rank_score": 0.05383147771591586
+            },
+            "environmental prediction global forecast system": {
+                "count": 1,
+                "rank_score": 0.08216010175845435
+            },
+            "exceptionally high acc skill": {
+                "count": 1,
+                "rank_score": 0.0667151660787465
+            },
+            "forecast skill": {
+                "count": 2,
+                "rank_score": 0.1247628283651194
+            },
+            "geopotential height": {
+                "count": 1,
+                "rank_score": 0.06156527588389979
+            },
+            "global deterministic forecasts": {
+                "count": 1,
+                "rank_score": 0.10315882915626734
+            },
+            "large-scale atmospheric flow anomalies": {
+                "count": 1,
+                "rank_score": 0.06487284029537532
+            },
+            "low acc": {
+                "count": 1,
+                "rank_score": 0.08347849402610086
+            },
+            "lower 120-hr forecast accuracy": {
+                "count": 1,
+                "rank_score": 0.06695110337239375
+            },
+            "model forecast skill": {
+                "count": 1,
+                "rank_score": 0.12220672776531954
+            },
+            "model forecasts": {
+                "count": 1,
+                "rank_score": 0.10719979423808396
+            },
+            "national centers for environmental prediction global forecast system": {
+                "count": 1,
+                "rank_score": 0.05022318649190525
+            },
+            "negative and positive ao index": {
+                "count": 1,
+                "rank_score": 0.06357228455888392
+            },
+            "negative ao index": {
+                "count": 1,
+                "rank_score": 0.0921068698198364
+            },
+            "northern hemisphere": {
+                "count": 1,
+                "rank_score": 0.05850742158650313
+            },
+            "numerical weather prediction": {
+                "count": 1,
+                "rank_score": 0.06225896405957526
+            },
+            "persistent negative phase pattern": {
+                "count": 1,
+                "rank_score": 0.05006465602517569
+            },
+            "positive ao index": {
+                "count": 1,
+                "rank_score": 0.08648528932766641
+            },
+            "recent northern hemisphere mid-latitude forecast skill": {
+                "count": 1,
+                "rank_score": 0.1117977523047516
+            },
+            "similar variability": {
+                "count": 1,
+                "rank_score": 0.05450761567899455
+            },
+            "square error": {
+                "count": 1,
+                "rank_score": 0.06309434854299648
+            },
+            "strong anomalies": {
+                "count": 1,
+                "rank_score": 0.05644523041177539
+            },
+            "u.s. navy operational global atmospheric prediction system": {
+                "count": 2,
+                "rank_score": 0.06202004703578466
+            }
+        },
         "original": {
             "authors": "Rolf H. Langland, Ryan N. Maue",
             "date_added": "2020-01-16 16:47:45",

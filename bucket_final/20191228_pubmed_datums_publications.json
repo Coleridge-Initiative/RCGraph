@@ -18,7 +18,7 @@
                 "count": 1,
                 "rank_score": 0.1143781981838053
             },
-            "an aggregated extreme sea level": {
+            "aggregated extreme sea level": {
                 "count": 1,
                 "rank_score": 0.07254506429236891
             },
@@ -26,13 +26,29 @@
                 "count": 1,
                 "rank_score": 0.08077756737125447
             },
+            "contiguous united states coastline": {
+                "count": 1,
+                "rank_score": 0.05458128783423797
+            },
             "different sea level components": {
                 "count": 1,
                 "rank_score": 0.11188959655730252
             },
+            "esl": {
+                "count": 4,
+                "rank_score": 0.06982466119635009
+            },
+            "flooding": {
+                "count": 1,
+                "rank_score": 0.05363229865385216
+            },
             "indicators": {
                 "count": 1,
                 "rank_score": 0.09709803369079736
+            },
+            "long-term msl rise": {
+                "count": 1,
+                "rank_score": 0.06024551854213245
             },
             "many coastal communities": {
                 "count": 1,
@@ -58,17 +74,41 @@
                 "count": 1,
                 "rank_score": 0.10293812231816668
             },
+            "periods": {
+                "count": 1,
+                "rank_score": 0.04994710312670612
+            },
+            "proposed indicator": {
+                "count": 1,
+                "rank_score": 0.05876521126102463
+            },
             "separate indicators": {
                 "count": 1,
                 "rank_score": 0.09762429730873476
+            },
+            "significant fluctuations": {
+                "count": 1,
+                "rank_score": 0.058866061850717404
             },
             "ssc": {
                 "count": 3,
                 "rank_score": 0.07002330819304264
             },
+            "storm surge climatology": {
+                "count": 1,
+                "rank_score": 0.06560717531638087
+            },
+            "tide gauges": {
+                "count": 1,
+                "rank_score": 0.061580964182909904
+            },
             "tracking changes": {
                 "count": 1,
                 "rank_score": 0.07474278784230629
+            },
+            "united states": {
+                "count": 1,
+                "rank_score": 0.059079579207479416
             },
             "water level data": {
                 "count": 1,
@@ -78,39 +118,6 @@
         "pdf": "http://europepmc.org/articles/PMC6920150?pdf=render",
         "title": "An extreme sea level indicator for the contiguous United States coastline.",
         "url": "https://doi.org/10.1038/s41597-019-0333-x"
-    },
-    {
-        "abstract": "An amendment to this paper has been published and can be accessed via a link at the top of the paper.",
-        "authors": [
-            "author-caf3044fbe73eceeba58",
-            "author-d52e6e6e001e3b1a3e1b"
-        ],
-        "datasets": [
-            "dataset-618"
-        ],
-        "doi": "10.1038/s41467-019-13552-0",
-        "journal": "journal-1123",
-        "keyphrases": {
-            "a link": {
-                "count": 1,
-                "rank_score": 0.09416042472890539
-            },
-            "an amendment": {
-                "count": 1,
-                "rank_score": 0.07118090276412176
-            },
-            "the top": {
-                "count": 1,
-                "rank_score": 0.09399400832812198
-            },
-            "this paper": {
-                "count": 2,
-                "rank_score": 0.11469773157053134
-            }
-        },
-        "pdf": "http://europepmc.org/articles/PMC6908705?pdf=render",
-        "title": "Author Correction: New elevation data triple estimates of global vulnerability to sea-level rise and coastal flooding.",
-        "url": "https://doi.org/10.1038/s41467-019-13552-0"
     },
     {
         "abstract": "Most estimates of global mean sea-level rise this century fall below 2 m. This quantity is comparable to the positive vertical bias of the principle digital elevation model (DEM) used to assess global and national population exposures to extreme coastal water levels, NASA’s SRTM. CoastalDEM is a new DEM utilizing neural networks to reduce SRTM error. Here we show – employing CoastalDEM—that 190 M people (150–250 M, 90% CI) currently occupy global land below projected high tide lines for 2100 under low carbon emissions, up from 110 M today, for a median increase of 80 M. These figures triple SRTM-based values. Under high emissions, CoastalDEM indicates up to 630 M people live on land below projected annual flood levels for 2100, and up to 340 M for mid-century, versus roughly 250 M at present. We estimate one billion people now occupy land less than 10 m above current high tide lines, including 230 M below 1 m. Accurate estimates of global mean sea-level rise are important. Here the authors employ a new digital elevation model (DEM) utilizing neural networks and show that the new DEM more than triples the NASA SRTM-based estimates of current global population occupying land below projected sea levels in 2100, with more than 200 million people could be affected based on RCP4.5 and 2 degC of warming.",
@@ -144,6 +151,10 @@
                 "count": 1,
                 "rank_score": 0.09156682718593191
             },
+            "global and national population exposures": {
+                "count": 1,
+                "rank_score": 0.06640921786658113
+            },
             "global land": {
                 "count": 1,
                 "rank_score": 0.11089914371127889
@@ -172,9 +183,29 @@
                 "count": 1,
                 "rank_score": 0.07065835974629728
             },
+            "nasa": {
+                "count": 2,
+                "rank_score": 0.05391812543265745
+            },
+            "nasa srtm-based estimates": {
+                "count": 1,
+                "rank_score": 0.051344941520901216
+            },
             "neural networks": {
                 "count": 2,
                 "rank_score": 0.08032648766625214
+            },
+            "new dem": {
+                "count": 2,
+                "rank_score": 0.05856875474060898
+            },
+            "new digital elevation model": {
+                "count": 1,
+                "rank_score": 0.06621851236634366
+            },
+            "principle digital elevation model": {
+                "count": 1,
+                "rank_score": 0.05802463856306046
             },
             "projected high tide lines": {
                 "count": 1,
@@ -183,6 +214,22 @@
             "projected sea levels": {
                 "count": 1,
                 "rank_score": 0.10892702456599819
+            },
+            "rcp4.5": {
+                "count": 1,
+                "rank_score": 0.048054760052223575
+            },
+            "srtm": {
+                "count": 2,
+                "rank_score": 0.06352851704721162
+            },
+            "srtm error": {
+                "count": 1,
+                "rank_score": 0.06751387088958646
+            },
+            "triple srtm-based values": {
+                "count": 1,
+                "rank_score": 0.06007670635285095
             }
         },
         "pdf": "http://europepmc.org/articles/PMC6820795?pdf=render",
@@ -214,13 +261,33 @@
                 "count": 1,
                 "rank_score": 0.05956137340736711
             },
+            "climate change": {
+                "count": 1,
+                "rank_score": 0.04885825282979936
+            },
             "continued long-term adaptation measures": {
                 "count": 1,
                 "rank_score": 0.06498006333923734
             },
+            "different adaptive responses": {
+                "count": 1,
+                "rank_score": 0.04661898073391717
+            },
             "economic dependence": {
                 "count": 1,
                 "rank_score": 0.07010363912376202
+            },
+            "flood control projects": {
+                "count": 1,
+                "rank_score": 0.04529770118685776
+            },
+            "good governance": {
+                "count": 1,
+                "rank_score": 0.04886422475465106
+            },
+            "high-density coastal cities": {
+                "count": 1,
+                "rank_score": 0.05733813151476234
             },
             "large populations": {
                 "count": 1,
@@ -238,6 +305,14 @@
                 "count": 2,
                 "rank_score": 0.06339962028228463
             },
+            "real estate": {
+                "count": 1,
+                "rank_score": 0.05670878604360616
+            },
+            "responses": {
+                "count": 2,
+                "rank_score": 0.056257246055429116
+            },
             "rising sea levels": {
                 "count": 1,
                 "rank_score": 0.0970687417403418
@@ -253,6 +328,18 @@
             "sea level rise": {
                 "count": 1,
                 "rank_score": 0.09258604125078873
+            },
+            "socio-economic expertize": {
+                "count": 1,
+                "rank_score": 0.0558943321299219
+            },
+            "south florida": {
+                "count": 2,
+                "rank_score": 0.05783830609504627
+            },
+            "their sea-level location": {
+                "count": 1,
+                "rank_score": 0.04367382539360374
             },
             "valuable infrastructure": {
                 "count": 1,
@@ -286,6 +373,10 @@
         "doi": "10.1371/journal.pone.0218558",
         "journal": "journal-001",
         "keyphrases": {
+            "accurate maps": {
+                "count": 1,
+                "rank_score": 0.0781631293987293
+            },
             "current and historical tidal wetlands": {
                 "count": 1,
                 "rank_score": 0.08364411172119629
@@ -293,6 +384,18 @@
             "current tidal wetlands": {
                 "count": 1,
                 "rank_score": 0.11454690807088992
+            },
+            "estimated losses": {
+                "count": 1,
+                "rank_score": 0.06886930456517176
+            },
+            "estuarine conservation": {
+                "count": 1,
+                "rank_score": 0.06995314253050496
+            },
+            "estuarine wetland habitat restoration": {
+                "count": 1,
+                "rank_score": 0.07088580404004786
             },
             "estuarine wetlands": {
                 "count": 1,
@@ -310,9 +413,29 @@
                 "count": 1,
                 "rank_score": 0.08495687345688277
             },
+            "maps": {
+                "count": 1,
+                "rank_score": 0.07574015719363474
+            },
             "new maps": {
                 "count": 4,
                 "rank_score": 0.09314494380395193
+            },
+            "projected sea level rise": {
+                "count": 1,
+                "rank_score": 0.07856042134218039
+            },
+            "restoration": {
+                "count": 2,
+                "rank_score": 0.0697798831046695
+            },
+            "restoration opportunities": {
+                "count": 1,
+                "rank_score": 0.07017600820818495
+            },
+            "restoration planning": {
+                "count": 1,
+                "rank_score": 0.0726988065303186
             },
             "tidal wetland area": {
                 "count": 1,
@@ -345,6 +468,10 @@
             "west coast estuaries": {
                 "count": 1,
                 "rank_score": 0.09238998326754704
+            },
+            "wetland loss": {
+                "count": 1,
+                "rank_score": 0.07444041886337349
             }
         },
         "pdf": "http://europepmc.org/articles/PMC6693690?pdf=render",
@@ -367,17 +494,29 @@
         "doi": "10.1016/j.geomorph.2018.04.001",
         "journal": "journal-1247",
         "keyphrases": {
-            "3d datasets": {
+            "accelerated sea-level rise": {
                 "count": 1,
-                "rank_score": 0.06361439005422076
+                "rank_score": 0.046862933548716595
             },
             "barrier island systems": {
                 "count": 1,
                 "rank_score": 0.06483489444200496
             },
+            "barrier systems": {
+                "count": 1,
+                "rank_score": 0.050124783502134326
+            },
+            "detailed quantitative field-based studies": {
+                "count": 1,
+                "rank_score": 0.05143322064027859
+            },
             "entire islands": {
                 "count": 1,
                 "rank_score": 0.09315401670008754
+            },
+            "erosional/depositional patterns": {
+                "count": 1,
+                "rank_score": 0.04026320721860033
             },
             "frequent hurricane impacts": {
                 "count": 1,
@@ -387,9 +526,21 @@
                 "count": 1,
                 "rank_score": 0.05885348277989806
             },
+            "highest storm surge": {
+                "count": 1,
+                "rank_score": 0.04369386268699881
+            },
+            "hurricane katrina": {
+                "count": 2,
+                "rank_score": 0.04676179207731334
+            },
             "important ecosystems": {
                 "count": 1,
                 "rank_score": 0.0552802352100443
+            },
+            "islands": {
+                "count": 4,
+                "rank_score": 0.05070553659200478
             },
             "light detection": {
                 "count": 1,
@@ -399,6 +550,14 @@
                 "count": 1,
                 "rank_score": 0.06717469238541951
             },
+            "mexico": {
+                "count": 2,
+                "rank_score": 0.044106243691393585
+            },
+            "mississippi - alabama barrier island chain": {
+                "count": 1,
+                "rank_score": 0.053145339298553786
+            },
             "morphodynamic analyses": {
                 "count": 1,
                 "rank_score": 0.06711140306257418
@@ -406,6 +565,10 @@
             "reduced sediment supply": {
                 "count": 1,
                 "rank_score": 0.06401651444135388
+            },
+            "sediment": {
+                "count": 1,
+                "rank_score": 0.0480778122035678
             },
             "sediment loss": {
                 "count": 1,
@@ -415,13 +578,17 @@
                 "count": 1,
                 "rank_score": 0.07301710217624267
             },
+            "shallows": {
+                "count": 1,
+                "rank_score": 0.043713148690479625
+            },
+            "ship island": {
+                "count": 2,
+                "rank_score": 0.04392075828377239
+            },
             "subaerial and subaqueous sediment volume changes": {
                 "count": 1,
                 "rank_score": 0.05915808542412681
-            },
-            "the mississippi - alabama barrier island chain": {
-                "count": 1,
-                "rank_score": 0.053145339298553786
             },
             "vulnerable barrier islands": {
                 "count": 1,
@@ -445,6 +612,14 @@
         "doi": "10.1002/ece3.5215",
         "journal": "journal-1175",
         "keyphrases": {
+            "advanced modeling technique": {
+                "count": 1,
+                "rank_score": 0.042925176233965315
+            },
+            "atmospheric co 2 increase": {
+                "count": 1,
+                "rank_score": 0.04983897747255718
+            },
             "carbon storage loss": {
                 "count": 1,
                 "rank_score": 0.0718496429522888
@@ -457,6 +632,10 @@
                 "count": 1,
                 "rank_score": 0.06456987237803907
             },
+            "climatic stressors": {
+                "count": 1,
+                "rank_score": 0.04905267042425693
+            },
             "coastal ecosystems": {
                 "count": 1,
                 "rank_score": 0.07943123481497727
@@ -464,6 +643,10 @@
             "coastal marshes": {
                 "count": 1,
                 "rank_score": 0.09879597690240384
+            },
+            "current research": {
+                "count": 1,
+                "rank_score": 0.05310424254671406
             },
             "different marsh systems": {
                 "count": 1,
@@ -473,6 +656,10 @@
                 "count": 1,
                 "rank_score": 0.07141386917760209
             },
+            "extensive coastal marshes": {
+                "count": 1,
+                "rank_score": 0.06235698936708389
+            },
             "important carbon sinks": {
                 "count": 1,
                 "rank_score": 0.07885777590460448
@@ -480,6 +667,34 @@
             "individual marsh plants": {
                 "count": 1,
                 "rank_score": 0.07262804071474897
+            },
+            "intermediate and brackish marshes": {
+                "count": 1,
+                "rank_score": 0.04709761120588535
+            },
+            "longest continuous satellite-based record": {
+                "count": 1,
+                "rank_score": 0.04289142632719926
+            },
+            "marshes phenological shifts": {
+                "count": 1,
+                "rank_score": 0.046695280954730994
+            },
+            "multi-decadal changes": {
+                "count": 1,
+                "rank_score": 0.06036444448434057
+            },
+            "nonlinear mixed model": {
+                "count": 1,
+                "rank_score": 0.042925176233965315
+            },
+            "phenological changes": {
+                "count": 1,
+                "rank_score": 0.05460530453146458
+            },
+            "sea-level rise": {
+                "count": 1,
+                "rank_score": 0.050600088189693596
             },
             "serious threats": {
                 "count": 1,
@@ -493,17 +708,9 @@
                 "count": 1,
                 "rank_score": 0.06079562774602372
             },
-            "the extensive coastal marshes": {
+            "temperature warming": {
                 "count": 1,
-                "rank_score": 0.06235698936708389
-            },
-            "the multi-decadal changes": {
-                "count": 1,
-                "rank_score": 0.06036444448434057
-            },
-            "these phenological changes": {
-                "count": 1,
-                "rank_score": 0.05460530453146458
+                "rank_score": 0.05125192848200841
             }
         },
         "pdf": "http://europepmc.org/articles/PMC6662267?pdf=render",
@@ -524,6 +731,14 @@
         "doi": "10.1038/s41598-018-25410-y",
         "journal": "journal-025",
         "keyphrases": {
+            "broad scale assessments": {
+                "count": 1,
+                "rank_score": 0.06665435283539824
+            },
+            "considerable exposure": {
+                "count": 1,
+                "rank_score": 0.06815963238199803
+            },
             "different estuaries": {
                 "count": 1,
                 "rank_score": 0.0942689400345223
@@ -536,9 +751,25 @@
                 "count": 1,
                 "rank_score": 0.13334085219667846
             },
+            "impacts": {
+                "count": 1,
+                "rank_score": 0.06487074543108251
+            },
             "inundation": {
                 "count": 1,
                 "rank_score": 0.07578484967059301
+            },
+            "larger coastal rivers": {
+                "count": 1,
+                "rank_score": 0.074436204200253
+            },
+            "many coasts": {
+                "count": 1,
+                "rank_score": 0.06094824672030136
+            },
+            "many instances": {
+                "count": 1,
+                "rank_score": 0.06094824672030136
             },
             "mapping inundation": {
                 "count": 1,
@@ -568,9 +799,21 @@
                 "count": 1,
                 "rank_score": 0.08454273511384403
             },
+            "rivers": {
+                "count": 1,
+                "rank_score": 0.06468548769852711
+            },
             "sea level rise": {
                 "count": 3,
                 "rank_score": 0.13669005706206358
+            },
+            "south east": {
+                "count": 1,
+                "rank_score": 0.06421852764495162
+            },
+            "south east australia": {
+                "count": 1,
+                "rank_score": 0.06839105925975754
             },
             "tidal lake systems": {
                 "count": 1,
@@ -579,6 +822,10 @@
             "tidal processes": {
                 "count": 1,
                 "rank_score": 0.07526670768512063
+            },
+            "tide gauges": {
+                "count": 1,
+                "rank_score": 0.06538000406943266
             },
             "water levels": {
                 "count": 1,
@@ -601,7 +848,7 @@
             "author-b01e14db3b014b692c4d",
             "author-08f0ce820d7637ad1b82",
             "author-f20212e8d56286e8a185",
-            "author-3be433d5820bc5d76203"
+            "author-71fe179b5c3e74240be2"
         ],
         "datasets": [
             "dataset-724"
@@ -625,9 +872,17 @@
                 "count": 3,
                 "rank_score": 0.09494946121928069
             },
+            "charismatic and non-fish species": {
+                "count": 1,
+                "rank_score": 0.05620017274502826
+            },
             "climate change": {
                 "count": 1,
                 "rank_score": 0.10821441046728698
+            },
+            "conservation and fisheries management policies": {
+                "count": 1,
+                "rank_score": 0.05292207766216737
             },
             "fisheries": {
                 "count": 2,
@@ -641,9 +896,25 @@
                 "count": 4,
                 "rank_score": 0.06433551901352676
             },
+            "habitat suitability": {
+                "count": 1,
+                "rank_score": 0.059185649988411825
+            },
             "initial species": {
                 "count": 1,
                 "rank_score": 0.06956872291935329
+            },
+            "local extinction": {
+                "count": 1,
+                "rank_score": 0.058224165968761114
+            },
+            "marine organisms": {
+                "count": 1,
+                "rank_score": 0.054494652841279294
+            },
+            "national economies": {
+                "count": 1,
+                "rank_score": 0.0531611461355487
             },
             "other ocean conditions": {
                 "count": 1,
@@ -657,13 +928,29 @@
                 "count": 1,
                 "rank_score": 0.07005275576066489
             },
+            "qatar": {
+                "count": 4,
+                "rank_score": 0.049960812184909456
+            },
             "reduced future catch potential": {
                 "count": 1,
                 "rank_score": 0.0970845364573515
             },
+            "saudi arabia": {
+                "count": 2,
+                "rank_score": 0.05757937808710106
+            },
+            "sea level rise": {
+                "count": 1,
+                "rank_score": 0.062263235192748345
+            },
             "significant environmental changes": {
                 "count": 1,
                 "rank_score": 0.09376473252369096
+            },
+            "uae": {
+                "count": 4,
+                "rank_score": 0.051276333741575954
             },
             "useful indicators": {
                 "count": 1,

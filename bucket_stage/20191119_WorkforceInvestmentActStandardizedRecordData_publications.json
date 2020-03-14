@@ -764,6 +764,7 @@
                 }
             ]
         },
+        "abstract": "This paper provides a general estimation and inference framework to study how different levels of program participation affect participants’ outcomes. We decompose differences in the outcome distribution into (i) a structure effect, arising due to the conditional outcome distributions given covariates associated with different levels of participation; and (ii) a composition effect, arising due to differences in the distributions of observable characteristics. These counterfactual differences are equivalent to the multivalued treatment effects for the treated under a conditional independence assumption. We propose efficient nonparametric estimators based on propensity score weighting together with uniform inference theory. We employ our methods to study the effects of the Workforce Investment Act (WIA) programs on participants’ earnings. We find that heterogeneity in levels of program participation is an important dimension to evaluate the WIA and other social programs in which participation varies. The results of this paper, both theoretically and empirically, provide rigorous assessment of intervention programs and relevant suggestions to improve their performance and cost-effectiveness.",
         "authors": [
             "author-fde8a4092a738a5b1c5a",
             "author-1f029a949ccec33fc5e0",
@@ -839,6 +840,108 @@
             "status": "ok"
         },
         "doi": "10.1080/07350015.2019.1660664",
+        "keyphrases": {
+            "composition effect": {
+                "count": 1,
+                "rank_score": 0.05472831404966109
+            },
+            "conditional independence assumption": {
+                "count": 1,
+                "rank_score": 0.05008730284973111
+            },
+            "conditional outcome distributions": {
+                "count": 1,
+                "rank_score": 0.0704670075888415
+            },
+            "covariates": {
+                "count": 1,
+                "rank_score": 0.057452091415264084
+            },
+            "differences": {
+                "count": 2,
+                "rank_score": 0.07032044580630295
+            },
+            "different levels": {
+                "count": 2,
+                "rank_score": 0.09545552197151248
+            },
+            "efficient nonparametric estimators": {
+                "count": 1,
+                "rank_score": 0.08576386620202964
+            },
+            "heterogeneity": {
+                "count": 1,
+                "rank_score": 0.04701004491865973
+            },
+            "inference framework": {
+                "count": 1,
+                "rank_score": 0.07889770454331099
+            },
+            "intervention programs": {
+                "count": 1,
+                "rank_score": 0.10521093826375504
+            },
+            "levels": {
+                "count": 1,
+                "rank_score": 0.07993377995810719
+            },
+            "multivalued treatment effects": {
+                "count": 1,
+                "rank_score": 0.059108657430277836
+            },
+            "observable characteristics": {
+                "count": 1,
+                "rank_score": 0.05588111239935785
+            },
+            "other social programs": {
+                "count": 1,
+                "rank_score": 0.10283575408017352
+            },
+            "outcome distribution": {
+                "count": 1,
+                "rank_score": 0.06013855407042255
+            },
+            "participants’ outcomes": {
+                "count": 1,
+                "rank_score": 0.052626977747249004
+            },
+            "participation": {
+                "count": 2,
+                "rank_score": 0.08363347517324085
+            },
+            "program participation": {
+                "count": 2,
+                "rank_score": 0.12005823629022722
+            },
+            "propensity score": {
+                "count": 1,
+                "rank_score": 0.07041953612456449
+            },
+            "relevant suggestions": {
+                "count": 1,
+                "rank_score": 0.06968712241810136
+            },
+            "rigorous assessment": {
+                "count": 1,
+                "rank_score": 0.06808348306772317
+            },
+            "structure effect": {
+                "count": 1,
+                "rank_score": 0.05379256600295895
+            },
+            "uniform inference theory": {
+                "count": 1,
+                "rank_score": 0.08285768547034242
+            },
+            "wia": {
+                "count": 4,
+                "rank_score": 0.06735020438085597
+            },
+            "workforce investment act": {
+                "count": 1,
+                "rank_score": 0.04777611227893393
+            }
+        },
         "original": {
             "date_added": "2019-12-02 12:34:12",
             "doi": "10.1080/07350015.2019.1660664",
@@ -847,401 +950,6 @@
             "url": "https://doi.org/10.1080/07350015.2019.1660664"
         },
         "title": "Multivalued Treatments and Decomposition Analysis: An Application to the WIA Program"
-    },
-    {
-        "Dimensions": {
-            "FOR": [
-                {
-                    "id": "3292",
-                    "name": "1402 Applied Economics"
-                }
-            ],
-            "FOR_first": [
-                {
-                    "id": "2214",
-                    "name": "14 Economics"
-                }
-            ],
-            "RCDC": [
-                {
-                    "id": "507",
-                    "name": "Clinical Research"
-                }
-            ],
-            "altmetric": 9.0,
-            "altmetric_id": 54671311,
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [
-                            {
-                                "city": "Richmond",
-                                "city_id": 4781708,
-                                "country": "United States",
-                                "country_code": "US",
-                                "id": "grid.224260.0",
-                                "name": "Virginia Commonwealth University",
-                                "state": "Virginia",
-                                "state_code": "US-VA"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "grid.224260.0",
-                        "email": "elharperande@vcu.edu",
-                        "first_name": "Elsie",
-                        "first_name_original": "",
-                        "initials": "",
-                        "last_name": "Harper-Anderson",
-                        "last_name_original": "",
-                        "orcid": "['0000-0001-8182-0366']",
-                        "raw_affiliation_original": [],
-                        "researcher_id": "ur.013435575336.80"
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [
-                        {
-                            "city": "Richmond",
-                            "city_id": 4781708,
-                            "country": "United States",
-                            "country_code": "US",
-                            "id": "grid.224260.0",
-                            "name": "Virginia Commonwealth University",
-                            "state": "Virginia",
-                            "state_code": "US-VA"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "grid.224260.0",
-                    "email": "elharperande@vcu.edu",
-                    "first_name": "Elsie",
-                    "first_name_original": "",
-                    "initials": "",
-                    "last_name": "Harper-Anderson",
-                    "last_name_original": "",
-                    "orcid": "['0000-0001-8182-0366']",
-                    "raw_affiliation_original": [],
-                    "researcher_id": "ur.013435575336.80"
-                }
-            ],
-            "category_for": [
-                {
-                    "id": "3292",
-                    "name": "1402 Applied Economics"
-                },
-                {
-                    "id": "2214",
-                    "name": "14 Economics"
-                }
-            ],
-            "category_rcdc": [
-                {
-                    "id": "507",
-                    "name": "Clinical Research"
-                }
-            ],
-            "category_ua": [
-                {
-                    "id": "30011",
-                    "name": "B11 Computer Science and Informatics"
-                }
-            ],
-            "category_uoa": [
-                {
-                    "id": "30011",
-                    "name": "B11 Computer Science and Informatics"
-                }
-            ],
-            "concepts": [
-                "funding",
-                "devolution",
-                "Workforce Programme",
-                "program",
-                "constant scrutiny",
-                "scrutiny",
-                "state",
-                "local officials",
-                "officials",
-                "investment",
-                "dollars",
-                "return",
-                "policy makers",
-                "makers",
-                "most influence",
-                "influence",
-                "regression analysis",
-                "analysis",
-                "Virginia",
-                "ROI",
-                "right circumstances",
-                "circumstances",
-                "participation",
-                "outcomes",
-                "credentials",
-                "training yields",
-                "higher ROI",
-                "certain credentials",
-                "higher returns",
-                "results",
-                "credential type",
-                "current era",
-                "era",
-                "cut",
-                "strategic investments",
-                "real returns",
-                "WIA"
-            ],
-            "date": "2018-12-01",
-            "date_inserted": "2019-01-30",
-            "doi": "10.1177/0160323x18823878",
-            "id": "pub.1111726577",
-            "issn": [
-                "0160-323X",
-                "1943-3409",
-                "1943-3340"
-            ],
-            "issue": "4",
-            "journal": {
-                "id": "jour.1141483",
-                "title": "State and Local Government Review"
-            },
-            "open_access_categories": [
-                {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
-                }
-            ],
-            "pages": "244-258",
-            "publisher": "SAGE Publications",
-            "reference_ids": [
-                "pub.1010653446",
-                "pub.1043549501",
-                "pub.1040776156",
-                "pub.1063730898",
-                "pub.1102368625",
-                "pub.1014390860",
-                "pub.1005073996",
-                "pub.1040649678",
-                "pub.1013009149",
-                "pub.1090841393",
-                "pub.1102716503",
-                "pub.1058529430",
-                "pub.1099435977",
-                "pub.1044563015"
-            ],
-            "references": [
-                "pub.1010653446",
-                "pub.1043549501",
-                "pub.1040776156",
-                "pub.1063730898",
-                "pub.1102368625",
-                "pub.1014390860",
-                "pub.1005073996",
-                "pub.1040649678",
-                "pub.1013009149",
-                "pub.1090841393",
-                "pub.1102716503",
-                "pub.1058529430",
-                "pub.1099435977",
-                "pub.1044563015"
-            ],
-            "research_org_cities": [
-                {
-                    "id": 4781708,
-                    "name": "Richmond"
-                }
-            ],
-            "research_org_countries": [
-                {
-                    "id": "US",
-                    "name": "United States"
-                }
-            ],
-            "research_org_country_names": [
-                "United States"
-            ],
-            "research_org_state_codes": [
-                {
-                    "id": "US-VA",
-                    "name": "Virginia"
-                }
-            ],
-            "research_org_state_names": [
-                "Virginia"
-            ],
-            "research_orgs": [
-                {
-                    "acronym": "VCU",
-                    "city_name": "Richmond",
-                    "country_name": "United States",
-                    "id": "grid.224260.0",
-                    "latitude": 37.548782,
-                    "linkout": [
-                        "http://www.vcu.edu/"
-                    ],
-                    "longitude": -77.45394,
-                    "name": "Virginia Commonwealth University",
-                    "state_name": "Virginia",
-                    "types": [
-                        "Education"
-                    ]
-                }
-            ],
-            "researchers": [
-                {
-                    "first_name": "Elsie L",
-                    "id": "ur.013435575336.80",
-                    "last_name": "Harper-Anderson",
-                    "orcid_id": [
-                        "0000-0001-8182-0366"
-                    ],
-                    "research_orgs": [
-                        "grid.224260.0",
-                        "grid.214458.e"
-                    ]
-                }
-            ],
-            "terms": [
-                "funding",
-                "devolution",
-                "Workforce Programme",
-                "program",
-                "constant scrutiny",
-                "scrutiny",
-                "state",
-                "local officials",
-                "officials",
-                "investment",
-                "dollars",
-                "return",
-                "policy makers",
-                "makers",
-                "most influence",
-                "influence",
-                "regression analysis",
-                "analysis",
-                "Virginia",
-                "ROI",
-                "right circumstances",
-                "circumstances",
-                "participation",
-                "outcomes",
-                "credentials",
-                "training yields",
-                "higher ROI",
-                "certain credentials",
-                "higher returns",
-                "results",
-                "credential type",
-                "current era",
-                "era",
-                "cut",
-                "strategic investments",
-                "real returns",
-                "WIA"
-            ],
-            "title": "What Is the Return on Investment for Public Workforce Programs? An Analysis of WIA and TAA in Virginia",
-            "type": "article",
-            "volume": "50",
-            "year": 2018
-        },
-        "OpenAIRE": {
-            "authors": [
-                "Harper-Anderson, Elsie"
-            ],
-            "open": false,
-            "url": "http://dx.doi.org/10.1177/0160323x18823878"
-        },
-        "Unpaywall": {
-            "best_oa_location": null,
-            "data_standard": 2,
-            "doi": "10.1177/0160323x18823878",
-            "doi_url": "https://doi.org/10.1177/0160323x18823878",
-            "genre": "journal-article",
-            "has_repository_copy": false,
-            "is_oa": false,
-            "journal_is_in_doaj": false,
-            "journal_is_oa": false,
-            "journal_issn_l": "0160-323X",
-            "journal_issns": "0160-323X,1943-3409",
-            "journal_name": "State and Local Government Review",
-            "oa_locations": [],
-            "oa_status": "closed",
-            "published_date": "2019-01-24",
-            "publisher": "SAGE Publications",
-            "title": "What Is the Return on Investment for Public Workforce Programs? An Analysis of WIA and TAA in Virginia",
-            "updated": "2019-01-25T21:03:55.083419",
-            "year": 2019,
-            "z_authors": [
-                {
-                    "affiliation": [
-                        {
-                            "name": "L. Douglas Wilder School of Government and Public Affairs, Virginia Commonwealth University, Richmond, VA, USA"
-                        }
-                    ],
-                    "family": "Harper-Anderson",
-                    "given": "Elsie",
-                    "sequence": "first"
-                }
-            ]
-        },
-        "authors": [
-            "author-b44ca62a0febd23dbe0e"
-        ],
-        "datasets": [
-            "dataset-343"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "affiliation": "L. Douglas Wilder School of Government and Public Affairs, Virginia Commonwealth University, Richmond, VA, USA",
-                        "name": {
-                            "first": "Elsie",
-                            "last": "Harper-Anderson"
-                        }
-                    }
-                ],
-                "classification": "OK",
-                "date": "2018-12-01",
-                "records": [
-                    {
-                        "doi": "10.1177/0160323x18823878",
-                        "identifier": "oai:crossref.org:10.1177/0160323x18823878",
-                        "issn": "0160-323X",
-                        "issue": "4",
-                        "journal": "State and Local Government Review",
-                        "pages": "244-258",
-                        "policy": {
-                            "postprint": "can",
-                            "preprint": "can",
-                            "published": "cannot",
-                            "romeo_id": "65"
-                        },
-                        "publisher": "SAGE Publications",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1177/0160323x18823878",
-                        "type": "article-journal",
-                        "volume": "50"
-                    }
-                ],
-                "title": "What Is the Return on Investment for Public Workforce Programs? An Analysis of WIA and TAA in Virginia",
-                "type": "other"
-            },
-            "status": "ok"
-        },
-        "doi": "10.1177/0160323x18823878",
-        "original": {
-            "date_added": "2019-12-02 12:34:12",
-            "doi": "10.1177/0160323x18823878",
-            "journal": "State and Local Government Review",
-            "search_term": "Workforce Investment Act Standardized Record Data",
-            "url": "https://doi.org/10.1177/0160323x18823878"
-        },
-        "title": "What Is the Return on Investment for Public Workforce Programs? An Analysis of WIA and TAA in Virginia"
     },
     {
         "Dimensions": {
@@ -2374,6 +2082,7 @@
                 }
             ]
         },
+        "abstract": "We analyze how different levels of active labor program participation affect participants’ labor market outcomes. To do so, we propose two-step semiparametric efficient estimators that can be used to decompose differences in earnings distributions into (i) wage structure effects, arising due to the conditional outcome distributions associated with different levels of participation; and (ii) composition effect, arising due to differences in the distribution of observable characteristics. These counterfactual differences reveal causal relationships under a conditional independence assumption. Moreover, we calculate the semiparametric efficiency bound for the multivalued treatment effects, generalizing previous results for binary treatment effects. We employ these procedures to study the effects of the Workforce Investment Act (WIA), a large US job service program. Our estimation results show that heterogeneity in levels of participation is an important dimension to evaluate the WIA and other social programs in which participation varies. The results of this paper, both theoretically and empirically, provide rigorous assessment of intervention programs and relevant suggestions to improve the performance and cost-effectiveness of these programs. JEL classification: I38, H53, C31, C14",
         "authors": [
             "author-fde8a4092a738a5b1c5a",
             "author-1f029a949ccec33fc5e0",
@@ -2449,6 +2158,108 @@
             "status": "ok"
         },
         "doi": "10.2139/ssrn.3276370",
+        "keyphrases": {
+            "active labor program participation": {
+                "count": 1,
+                "rank_score": 0.11586788512054393
+            },
+            "binary treatment effects": {
+                "count": 1,
+                "rank_score": 0.10167687166794832
+            },
+            "c31": {
+                "count": 1,
+                "rank_score": 0.053797388762965664
+            },
+            "causal relationships": {
+                "count": 1,
+                "rank_score": 0.06428203467569975
+            },
+            "conditional outcome distributions": {
+                "count": 1,
+                "rank_score": 0.059517198327257395
+            },
+            "differences": {
+                "count": 2,
+                "rank_score": 0.07528215520294824
+            },
+            "different levels": {
+                "count": 2,
+                "rank_score": 0.0831562296212042
+            },
+            "earnings distributions": {
+                "count": 1,
+                "rank_score": 0.0799018190212484
+            },
+            "h53": {
+                "count": 2,
+                "rank_score": 0.05143169245310547
+            },
+            "i38": {
+                "count": 1,
+                "rank_score": 0.06004572807596412
+            },
+            "intervention programs": {
+                "count": 1,
+                "rank_score": 0.0978454665404527
+            },
+            "jel": {
+                "count": 1,
+                "rank_score": 0.04958900237736584
+            },
+            "jel classification": {
+                "count": 1,
+                "rank_score": 0.06441800371068862
+            },
+            "large us job service program": {
+                "count": 1,
+                "rank_score": 0.07049775902300706
+            },
+            "levels": {
+                "count": 1,
+                "rank_score": 0.06764645437232446
+            },
+            "multivalued treatment effects": {
+                "count": 1,
+                "rank_score": 0.06387145833603344
+            },
+            "observable characteristics": {
+                "count": 1,
+                "rank_score": 0.050585908390221576
+            },
+            "other social programs": {
+                "count": 1,
+                "rank_score": 0.09578463094917389
+            },
+            "participants’ labor market outcomes": {
+                "count": 1,
+                "rank_score": 0.05761379688375358
+            },
+            "participation": {
+                "count": 3,
+                "rank_score": 0.07553434780608492
+            },
+            "previous results": {
+                "count": 1,
+                "rank_score": 0.07999957180388999
+            },
+            "programs": {
+                "count": 1,
+                "rank_score": 0.04953199135783981
+            },
+            "relevant suggestions": {
+                "count": 1,
+                "rank_score": 0.06331224020247066
+            },
+            "rigorous assessment": {
+                "count": 1,
+                "rank_score": 0.06441930266673365
+            },
+            "wia": {
+                "count": 4,
+                "rank_score": 0.05864584999989356
+            }
+        },
         "original": {
             "date_added": "2019-12-02 12:34:12",
             "doi": "10.2139/ssrn.3276370",
@@ -2457,201 +2268,6 @@
             "url": "https://doi.org/10.2139/ssrn.3276370"
         },
         "title": "Multivalued Treatments and Decomposition Analysis: An Application to the WIA Program"
-    },
-    {
-        "Dimensions": {
-            "FOR": [
-                {
-                    "id": "3292",
-                    "name": "1402 Applied Economics"
-                },
-                {
-                    "id": "3416",
-                    "name": "1605 Policy and Administration"
-                }
-            ],
-            "FOR_first": [
-                {
-                    "id": "2214",
-                    "name": "14 Economics"
-                },
-                {
-                    "id": "2216",
-                    "name": "16 Studies in Human Society"
-                }
-            ],
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "email": "",
-                        "first_name": "",
-                        "first_name_original": "",
-                        "initials": "",
-                        "last_name": "OECD",
-                        "last_name_original": "",
-                        "orcid": "",
-                        "raw_affiliation_original": [],
-                        "researcher_id": ""
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "email": "",
-                    "first_name": "",
-                    "first_name_original": "",
-                    "initials": "",
-                    "last_name": "OECD",
-                    "last_name_original": "",
-                    "orcid": "",
-                    "raw_affiliation_original": [],
-                    "researcher_id": ""
-                }
-            ],
-            "book_doi": "10.1787/9789264266513-en",
-            "book_series_title": "Back to Work",
-            "book_title": "Back to Work: United States",
-            "category_for": [
-                {
-                    "id": "3416",
-                    "name": "1605 Policy and Administration"
-                },
-                {
-                    "id": "2216",
-                    "name": "16 Studies in Human Society"
-                },
-                {
-                    "id": "3292",
-                    "name": "1402 Applied Economics"
-                },
-                {
-                    "id": "2214",
-                    "name": "14 Economics"
-                }
-            ],
-            "category_ua": [
-                {
-                    "id": "30016",
-                    "name": "C16 Economics and Econometrics"
-                }
-            ],
-            "category_uoa": [
-                {
-                    "id": "30016",
-                    "name": "C16 Economics and Econometrics"
-                }
-            ],
-            "concepts": [
-                "chapter",
-                "employment",
-                "program",
-                "United States",
-                "state",
-                "workers",
-                "policy approaches",
-                "approach",
-                "help",
-                "services",
-                "little money",
-                "money",
-                "training supply",
-                "supply",
-                "demand",
-                "distinction",
-                "US system",
-                "trade",
-                "job displacement",
-                "benefits",
-                "unemployed workers"
-            ],
-            "date": "2016-12-06",
-            "date_inserted": "2017-08-31",
-            "doi": "10.1787/9789264266513-8-en",
-            "id": "pub.1086888732",
-            "issn": [
-                "2306-3831",
-                "2306-3823"
-            ],
-            "open_access_categories": [
-                {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
-                }
-            ],
-            "pages": "117-149",
-            "publisher": "Organisation for Economic Co-Operation and Development  (OECD)",
-            "terms": [
-                "chapter",
-                "employment",
-                "program",
-                "United States",
-                "state",
-                "workers",
-                "policy approaches",
-                "approach",
-                "help",
-                "services",
-                "little money",
-                "money",
-                "training supply",
-                "supply",
-                "demand",
-                "distinction",
-                "US system",
-                "trade",
-                "job displacement",
-                "benefits",
-                "unemployed workers"
-            ],
-            "title": "Programmes promoting the re-employment of displaced workers in the United States",
-            "type": "chapter",
-            "year": 2016
-        },
-        "Unpaywall": {
-            "best_oa_location": null,
-            "data_standard": 2,
-            "doi": "10.1787/9789264266513-8-en",
-            "doi_url": "https://doi.org/10.1787/9789264266513-8-en",
-            "genre": "book-chapter",
-            "has_repository_copy": false,
-            "is_oa": false,
-            "journal_is_in_doaj": false,
-            "journal_is_oa": false,
-            "journal_issn_l": "2306-3823",
-            "journal_issns": "2306-3823,2306-3831",
-            "journal_name": "Back to Work",
-            "oa_locations": [],
-            "oa_status": "closed",
-            "published_date": "2016-12-06",
-            "publisher": "OECD Publishing",
-            "title": "Programmes promoting the re-employment of displaced workers in the United States",
-            "updated": "2018-06-17T14:29:26.963472",
-            "year": 2016,
-            "z_authors": [
-                {
-                    "name": "OECD"
-                }
-            ]
-        },
-        "authors": [],
-        "datasets": [
-            "dataset-343"
-        ],
-        "doi": "10.1787/9789264266513-8-en",
-        "original": {
-            "date_added": "2019-12-02 12:34:12",
-            "doi": "10.1787/9789264266513-8-en",
-            "search_term": "Workforce Investment Act Standardized Record Data",
-            "url": "https://doi.org/10.1787/9789264266513-8-en"
-        },
-        "title": "Programmes promoting the re-employment of displaced workers in the United States"
     },
     {
         "Dimensions": {
@@ -2992,6 +2608,7 @@
                 }
             ]
         },
+        "abstract": "This study includes the likelihood of finding a job and retaining employment as well as eligibility for unemployment benefits to estimate the return on investment (ROI) for both job training and intensive services programs. The augmented ROI for job training programs and intensive job services from California One-Stop Centers are positive. This suggests that these programs do provide benefits. The estimated augmented ROI for individuals enrolled in job training programs and intensive job services are similar. In contrast, traditional approaches that omit important employment characteristics significantly overestimate the ROI. Monte Carlo simulations show that changing program costs affect the augmented ROI for training programs but have minimal impact on the augmented ROI for intensive services.",
         "authors": [
             "author-10035cb33e5a704cfe58"
         ],
@@ -3037,6 +2654,108 @@
             "status": "ok"
         },
         "doi": "10.1007/s11293-013-9394-y",
+        "keyphrases": {
+            "augmented roi": {
+                "count": 3,
+                "rank_score": 0.07910076749474955
+            },
+            "benefits": {
+                "count": 1,
+                "rank_score": 0.07441090909449863
+            },
+            "both job training": {
+                "count": 1,
+                "rank_score": 0.0858953598372777
+            },
+            "california": {
+                "count": 2,
+                "rank_score": 0.04465981652577722
+            },
+            "changing program costs": {
+                "count": 1,
+                "rank_score": 0.13063055020014835
+            },
+            "contrast": {
+                "count": 1,
+                "rank_score": 0.05534149884765827
+            },
+            "eligibility": {
+                "count": 1,
+                "rank_score": 0.05257825218564126
+            },
+            "employment": {
+                "count": 1,
+                "rank_score": 0.07918931382893074
+            },
+            "estimated augmented roi": {
+                "count": 1,
+                "rank_score": 0.0881306786280178
+            },
+            "important employment characteristics": {
+                "count": 1,
+                "rank_score": 0.10600847575774511
+            },
+            "individuals": {
+                "count": 1,
+                "rank_score": 0.05820993188550256
+            },
+            "intensive job services": {
+                "count": 2,
+                "rank_score": 0.15525609059129203
+            },
+            "intensive services": {
+                "count": 1,
+                "rank_score": 0.12301727293450257
+            },
+            "intensive services programs": {
+                "count": 1,
+                "rank_score": 0.1548033053312711
+            },
+            "investment": {
+                "count": 1,
+                "rank_score": 0.05058681244215525
+            },
+            "job": {
+                "count": 1,
+                "rank_score": 0.06611645584179554
+            },
+            "job training programs": {
+                "count": 2,
+                "rank_score": 0.17066484293591375
+            },
+            "minimal impact": {
+                "count": 1,
+                "rank_score": 0.06434924837196311
+            },
+            "monte carlo": {
+                "count": 1,
+                "rank_score": 0.07837816246908427
+            },
+            "monte carlo simulations": {
+                "count": 1,
+                "rank_score": 0.09217459858883116
+            },
+            "programs": {
+                "count": 1,
+                "rank_score": 0.06570042437220347
+            },
+            "roi": {
+                "count": 8,
+                "rank_score": 0.10977216376686005
+            },
+            "traditional approaches": {
+                "count": 1,
+                "rank_score": 0.08929913286716286
+            },
+            "training programs": {
+                "count": 1,
+                "rank_score": 0.1449774004653467
+            },
+            "unemployment benefits": {
+                "count": 1,
+                "rank_score": 0.08857376608915893
+            }
+        },
         "original": {
             "date_added": "2019-12-02 12:34:12",
             "doi": "10.1007/s11293-013-9394-y",
@@ -5103,6 +4822,7 @@
                 }
             ]
         },
+        "abstract": "We estimate impacts on earnings and employment of the two primary adult workforce support and training programs under the U.S. Workforce Investment Act (WIA) using administrative data on 160,000 participants from 12 states for up to four years following program entry. We find that participants in the WIA Adult program, who typically enter with poor work histories, realize improved employment levels and increased average quarterly earnings of several hundred dollars. Earnings gains for Dislocated Worker program participants are appreciably smaller, although these participants do experience employment gains.JEL codesI38, J08, J24",
         "authors": [
             "author-888c35e5d0fb7dc4eba6",
             "author-840d5a7a8f50db777bf1",
@@ -5214,6 +4934,108 @@
             "status": "ok"
         },
         "doi": "10.1186/2193-8997-2-6",
+        "keyphrases": {
+            "administrative data": {
+                "count": 1,
+                "rank_score": 0.08200778300430549
+            },
+            "average quarterly earnings": {
+                "count": 1,
+                "rank_score": 0.11886803658342165
+            },
+            "dislocated worker": {
+                "count": 1,
+                "rank_score": 0.09251535607324526
+            },
+            "dislocated worker program participants": {
+                "count": 1,
+                "rank_score": 0.14661900110478254
+            },
+            "earnings": {
+                "count": 1,
+                "rank_score": 0.10095824662540655
+            },
+            "earnings gains": {
+                "count": 1,
+                "rank_score": 0.11516109978711683
+            },
+            "employment": {
+                "count": 1,
+                "rank_score": 0.09209233337600933
+            },
+            "employment gains": {
+                "count": 1,
+                "rank_score": 0.1087103581724835
+            },
+            "impacts": {
+                "count": 1,
+                "rank_score": 0.05416945487808933
+            },
+            "improved employment levels": {
+                "count": 1,
+                "rank_score": 0.11551724382325541
+            },
+            "j08": {
+                "count": 1,
+                "rank_score": 0.08418430516126586
+            },
+            "j24": {
+                "count": 1,
+                "rank_score": 0.052272246663645085
+            },
+            "jel codesi38": {
+                "count": 2,
+                "rank_score": 0.08955021902062307
+            },
+            "participants": {
+                "count": 3,
+                "rank_score": 0.10996032388297614
+            },
+            "poor work histories": {
+                "count": 1,
+                "rank_score": 0.10148391496527123
+            },
+            "program entry": {
+                "count": 1,
+                "rank_score": 0.11619191230002592
+            },
+            "quarterly": {
+                "count": 1,
+                "rank_score": 0.06960463284771391
+            },
+            "several hundred dollars": {
+                "count": 2,
+                "rank_score": 0.043227108702187336
+            },
+            "training programs": {
+                "count": 1,
+                "rank_score": 0.11591317997110873
+            },
+            "two primary adult workforce support": {
+                "count": 1,
+                "rank_score": 0.056811346289170346
+            },
+            "u.s. workforce investment act": {
+                "count": 2,
+                "rank_score": 0.07221952673656826
+            },
+            "up to four years": {
+                "count": 2,
+                "rank_score": 0.019366517072471664
+            },
+            "wia": {
+                "count": 2,
+                "rank_score": 0.0901171205414123
+            },
+            "wia adult": {
+                "count": 1,
+                "rank_score": 0.09533368811517387
+            },
+            "wia adult program": {
+                "count": 1,
+                "rank_score": 0.08196488288518353
+            }
+        },
         "original": {
             "date_added": "2019-12-02 12:34:12",
             "doi": "10.1186/2193-8997-2-6",
@@ -6653,6 +6475,7 @@
                 }
             ]
         },
+        "abstract": "Synthesizes what we know empirically about the WIA program and discusses lessons for WIA reauthorization.",
         "authors": [
             "author-841ed3007f62496a48a8",
             "author-3442b3a1a74fcef558e4"
@@ -6715,6 +6538,28 @@
             "status": "ok"
         },
         "doi": "10.1002/pam.20597",
+        "keyphrases": {
+            "lessons": {
+                "count": 1,
+                "rank_score": 0.18771057746447162
+            },
+            "synthesizes": {
+                "count": 1,
+                "rank_score": 0.1781741612749496
+            },
+            "wia": {
+                "count": 2,
+                "rank_score": 0.20678750337693522
+            },
+            "wia program": {
+                "count": 1,
+                "rank_score": 0.1430041292766385
+            },
+            "wia reauthorization": {
+                "count": 1,
+                "rank_score": 0.2292346577079818
+            }
+        },
         "original": {
             "date_added": "2019-12-02 12:34:12",
             "doi": "10.1002/pam.20597",
@@ -6723,412 +6568,6 @@
             "url": "https://doi.org/10.1002/pam.20597"
         },
         "title": "Ten years of the Workforce Investment Act (WIA): Interpreting the research on WIA and related programs"
-    },
-    {
-        "Dimensions": {
-            "FOR": [
-                {
-                    "id": "3416",
-                    "name": "1605 Policy and Administration"
-                }
-            ],
-            "FOR_first": [
-                {
-                    "id": "2216",
-                    "name": "16 Studies in Human Society"
-                }
-            ],
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [
-                            {
-                                "city": "Madison",
-                                "city_id": 5261457,
-                                "country": "United States",
-                                "country_code": "US",
-                                "id": "grid.14003.36",
-                                "name": "University of Wisconsin–Madison",
-                                "state": "Wisconsin",
-                                "state_code": "US-WI"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "grid.14003.36",
-                        "email": "cheinrich@lafollette.wisc.edu",
-                        "first_name": "Carolyn J.",
-                        "first_name_original": "",
-                        "initials": "",
-                        "last_name": "Heinrich",
-                        "last_name_original": "",
-                        "orcid": "",
-                        "raw_affiliation_original": [],
-                        "researcher_id": "ur.015747037723.29"
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [
-                        {
-                            "city": "Madison",
-                            "city_id": 5261457,
-                            "country": "United States",
-                            "country_code": "US",
-                            "id": "grid.14003.36",
-                            "name": "University of Wisconsin–Madison",
-                            "state": "Wisconsin",
-                            "state_code": "US-WI"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "grid.14003.36",
-                    "email": "cheinrich@lafollette.wisc.edu",
-                    "first_name": "Carolyn J.",
-                    "first_name_original": "",
-                    "initials": "",
-                    "last_name": "Heinrich",
-                    "last_name_original": "",
-                    "orcid": "",
-                    "raw_affiliation_original": [],
-                    "researcher_id": "ur.015747037723.29"
-                }
-            ],
-            "category_for": [
-                {
-                    "id": "2215",
-                    "name": "15 Commerce, Management, Tourism and Services"
-                },
-                {
-                    "id": "2344",
-                    "name": "0102 Applied Mathematics"
-                },
-                {
-                    "id": "3335",
-                    "name": "1502 Banking, Finance and Investment"
-                },
-                {
-                    "id": "2358",
-                    "name": "0104 Statistics"
-                },
-                {
-                    "id": "2201",
-                    "name": "01 Mathematical Sciences"
-                }
-            ],
-            "category_hra": [
-                {
-                    "id": "3902",
-                    "name": "Health services & systems"
-                }
-            ],
-            "category_ua": [
-                {
-                    "id": "30017",
-                    "name": "C17 Business and Management Studies"
-                }
-            ],
-            "category_uoa": [
-                {
-                    "id": "30017",
-                    "name": "C17 Business and Management Studies"
-                }
-            ],
-            "concepts": [
-                "recent reforms",
-                "reform",
-                "responsive government",
-                "government",
-                "public attention",
-                "attention",
-                "analysis",
-                "use of information",
-                "agency performance",
-                "program outcomes",
-                "outcomes",
-                "cases",
-                "empirical study",
-                "questions",
-                "evidence",
-                "reliability of evidence",
-                "performance information",
-                "balance",
-                "process",
-                "rigorous information",
-                "decision making",
-                "making",
-                "democratic governance",
-                "governance",
-                "accountability",
-                "promising direction",
-                "direction",
-                "efforts",
-                "government effectiveness",
-                "effectiveness",
-                "acknowledgement",
-                "limitations",
-                "such efforts"
-            ],
-            "date": "2008-09-01",
-            "date_inserted": "2017-08-31",
-            "doi": "10.1002/asmb.725",
-            "field_citation_ratio": 0.91,
-            "id": "pub.1021154816",
-            "issn": [
-                "1524-1904",
-                "1526-4025",
-                "15264025"
-            ],
-            "issue": "5",
-            "journal": {
-                "id": "jour.1052074",
-                "title": "Applied Stochastic Models in Business and Industry"
-            },
-            "journal_lists": [
-                "Norwegian register level 1",
-                "ERA 2015",
-                "VABB-SHW",
-                "ERA 2018"
-            ],
-            "open_access_categories": [
-                {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
-                }
-            ],
-            "pages": "373-389",
-            "publisher": "Wiley",
-            "reference_ids": [
-                "pub.1039149297",
-                "pub.1040050745",
-                "pub.1102718082",
-                "pub.1009960212",
-                "pub.1054936938",
-                "pub.1068878386",
-                "pub.1022761471",
-                "pub.1070213999",
-                "pub.1021883725",
-                "pub.1102718066",
-                "pub.1000101717",
-                "pub.1016368226",
-                "pub.1063348954",
-                "pub.1045981231",
-                "pub.1038320111",
-                "pub.1023471202",
-                "pub.1034330745",
-                "pub.1027602451",
-                "pub.1110841476",
-                "pub.1063993106",
-                "pub.1058784375",
-                "pub.1058672752",
-                "pub.1050026863",
-                "pub.1059962408",
-                "pub.1053418410",
-                "pub.1064531302"
-            ],
-            "references": [
-                "pub.1039149297",
-                "pub.1040050745",
-                "pub.1102718082",
-                "pub.1009960212",
-                "pub.1054936938",
-                "pub.1068878386",
-                "pub.1022761471",
-                "pub.1070213999",
-                "pub.1021883725",
-                "pub.1102718066",
-                "pub.1000101717",
-                "pub.1016368226",
-                "pub.1063348954",
-                "pub.1045981231",
-                "pub.1038320111",
-                "pub.1023471202",
-                "pub.1034330745",
-                "pub.1027602451",
-                "pub.1110841476",
-                "pub.1063993106",
-                "pub.1058784375",
-                "pub.1058672752",
-                "pub.1050026863",
-                "pub.1059962408",
-                "pub.1053418410",
-                "pub.1064531302"
-            ],
-            "research_org_cities": [
-                {
-                    "id": 5261457,
-                    "name": "Madison"
-                }
-            ],
-            "research_org_countries": [
-                {
-                    "id": "US",
-                    "name": "United States"
-                }
-            ],
-            "research_org_country_names": [
-                "United States"
-            ],
-            "research_org_state_codes": [
-                {
-                    "id": "US-WI",
-                    "name": "Wisconsin"
-                }
-            ],
-            "research_org_state_names": [
-                "Wisconsin"
-            ],
-            "research_orgs": [
-                {
-                    "acronym": "UW",
-                    "city_name": "Madison",
-                    "country_name": "United States",
-                    "id": "grid.14003.36",
-                    "latitude": 43.076694,
-                    "linkout": [
-                        "http://www.wisc.edu/"
-                    ],
-                    "longitude": -89.41244,
-                    "name": "University of Wisconsin–Madison",
-                    "state_name": "Wisconsin",
-                    "types": [
-                        "Education"
-                    ]
-                }
-            ],
-            "researchers": [
-                {
-                    "first_name": "Carolyn Jean",
-                    "id": "ur.015747037723.29",
-                    "last_name": "Heinrich",
-                    "research_orgs": [
-                        "grid.185648.6",
-                        "grid.14003.36"
-                    ]
-                }
-            ],
-            "terms": [
-                "recent reforms",
-                "reform",
-                "responsive government",
-                "government",
-                "public attention",
-                "attention",
-                "analysis",
-                "use of information",
-                "agency performance",
-                "program outcomes",
-                "outcomes",
-                "cases",
-                "empirical study",
-                "questions",
-                "evidence",
-                "reliability of evidence",
-                "performance information",
-                "balance",
-                "process",
-                "rigorous information",
-                "decision making",
-                "making",
-                "democratic governance",
-                "governance",
-                "accountability",
-                "promising direction",
-                "direction",
-                "efforts",
-                "government effectiveness",
-                "effectiveness",
-                "acknowledgement",
-                "limitations",
-                "such efforts"
-            ],
-            "times_cited": 3,
-            "title": "Advancing public sector performance analysis",
-            "type": "article",
-            "volume": "24",
-            "year": 2008
-        },
-        "Unpaywall": {
-            "best_oa_location": null,
-            "data_standard": 2,
-            "doi": "10.1002/asmb.725",
-            "doi_url": "https://doi.org/10.1002/asmb.725",
-            "genre": "journal-article",
-            "has_repository_copy": false,
-            "is_oa": false,
-            "journal_is_in_doaj": false,
-            "journal_is_oa": false,
-            "journal_issn_l": "1524-1904",
-            "journal_issns": "1524-1904,1526-4025",
-            "journal_name": "Applied Stochastic Models in Business and Industry",
-            "oa_locations": [],
-            "oa_status": "closed",
-            "published_date": "2008-09-01",
-            "publisher": "Wiley-Blackwell",
-            "title": "Advancing public sector performance analysis",
-            "updated": "2018-06-16T02:55:47.090764",
-            "year": 2008,
-            "z_authors": [
-                {
-                    "family": "Heinrich",
-                    "given": "Carolyn J."
-                }
-            ]
-        },
-        "authors": [
-            "author-888c35e5d0fb7dc4eba6"
-        ],
-        "datasets": [
-            "dataset-343"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "name": {
-                            "first": "Carolyn J.",
-                            "last": "Heinrich"
-                        }
-                    }
-                ],
-                "classification": "OK",
-                "date": "2008-09-01",
-                "records": [
-                    {
-                        "doi": "10.1002/asmb.725",
-                        "identifier": "oai:crossref.org:10.1002/asmb.725",
-                        "issn": "1524-1904",
-                        "issue": "5",
-                        "journal": "Applied Stochastic Models in Business and Industry",
-                        "pages": "373-389",
-                        "policy": {
-                            "postprint": "restricted",
-                            "preprint": "can",
-                            "published": "cannot",
-                            "romeo_id": "2050"
-                        },
-                        "publisher": "Wiley-Blackwell",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1002/asmb.725",
-                        "type": "journal-article",
-                        "volume": "24"
-                    }
-                ],
-                "title": "Advancing public sector performance analysis",
-                "type": "journal-article"
-            },
-            "status": "ok"
-        },
-        "doi": "10.1002/asmb.725",
-        "original": {
-            "date_added": "2019-12-02 12:34:12",
-            "doi": "10.1002/asmb.725",
-            "journal": "Applied Stochastic Models in Business and Industry",
-            "search_term": "Workforce Investment Act Standardized Record Data",
-            "url": "https://doi.org/10.1002/asmb.725"
-        },
-        "title": "Advancing public sector performance analysis"
     },
     {
         "Dimensions": {
@@ -8673,6 +8112,7 @@
                 }
             ]
         },
+        "abstract": "Both the evidence-based policy and performance management movements aim to improve government effectiveness by developing and utilizing a more rigorous base of information and scientific evidence to guide decisions about program design, funding, implementation, and management. In practice, however, differences and tensions between these movements—such as their methods and standards for assembling and analyzing data, and the strategic timing and use of this information to influence policy and hold public managers accountable for performance—could limit their success. Using cases and empirical studies, this article considers questions about what should count as evidence, how it should be communicated, who should judge the quality and reliability of evidence and performance information, and how to achieve a balance between processes that produce rigorous information for decision making and those that foster democratic governance and accountability. Recommendations are made for improving government effectiven...",
         "authors": [
             "author-888c35e5d0fb7dc4eba6"
         ],
@@ -8730,6 +8170,108 @@
             "status": "ok"
         },
         "doi": "10.1177/0275074007301957",
+        "keyphrases": {
+            "accountability": {
+                "count": 1,
+                "rank_score": 0.05245781008018389
+            },
+            "both the evidence-based policy and performance management movements": {
+                "count": 1,
+                "rank_score": 0.0551630887156961
+            },
+            "cases": {
+                "count": 1,
+                "rank_score": 0.060117192600407834
+            },
+            "decision making": {
+                "count": 1,
+                "rank_score": 0.07768940503347281
+            },
+            "decisions": {
+                "count": 1,
+                "rank_score": 0.07327651795215882
+            },
+            "democratic governance": {
+                "count": 1,
+                "rank_score": 0.08181790224890292
+            },
+            "empirical studies": {
+                "count": 1,
+                "rank_score": 0.07765944772918747
+            },
+            "evidence": {
+                "count": 2,
+                "rank_score": 0.09001496654609094
+            },
+            "funding": {
+                "count": 1,
+                "rank_score": 0.05318327658248665
+            },
+            "government": {
+                "count": 1,
+                "rank_score": 0.07666627832533951
+            },
+            "government effectiveness": {
+                "count": 1,
+                "rank_score": 0.08523375391199976
+            },
+            "implementation": {
+                "count": 1,
+                "rank_score": 0.04457246547323811
+            },
+            "information": {
+                "count": 3,
+                "rank_score": 0.09800571672698158
+            },
+            "management": {
+                "count": 1,
+                "rank_score": 0.06331356779082459
+            },
+            "performance": {
+                "count": 2,
+                "rank_score": 0.08964489412550093
+            },
+            "policy": {
+                "count": 1,
+                "rank_score": 0.07533112720406578
+            },
+            "processes": {
+                "count": 1,
+                "rank_score": 0.056523119662227034
+            },
+            "program design": {
+                "count": 1,
+                "rank_score": 0.07158492930885654
+            },
+            "public managers": {
+                "count": 1,
+                "rank_score": 0.07165183134718396
+            },
+            "questions": {
+                "count": 1,
+                "rank_score": 0.05734658841073629
+            },
+            "reliability": {
+                "count": 1,
+                "rank_score": 0.04460594219599649
+            },
+            "rigorous information": {
+                "count": 1,
+                "rank_score": 0.1137096573853183
+            },
+            "scientific evidence": {
+                "count": 1,
+                "rank_score": 0.09430037840897579
+            },
+            "standards": {
+                "count": 1,
+                "rank_score": 0.05374737177968483
+            },
+            "tensions": {
+                "count": 1,
+                "rank_score": 0.05145073223167735
+            }
+        },
         "original": {
             "date_added": "2019-12-02 12:34:12",
             "doi": "10.1177/0275074007301957",
@@ -9276,6 +8818,7 @@
                 }
             ]
         },
+        "abstract": "The college participation rates of African Americans and Latinos continue to lag behind those of other racial and ethnic groups in the United States, despite the efforts of financial aid and affirmative action policies. Two recent federal policies that are “work-first” in nature threaten to further exacerbate racial and ethnic disparities in college access. This article examines the complex ways in which the 1996 welfare reform and the 1998 Workforce Investment Act differentially affect opportunities for college enrollment among disadvantaged adults. Utilizing national and state-level data, the authors argue that both policies restrict access to postsecondary education through the implementation of their guiding philosophy, “work-first,” which emphasizes rapid job placement as the strategy of choice in achieving stable employment and moving out of poverty. These policies have reduced the size of the clientele receiving welfare and restricted access to education and training for those who remain on the rol...",
         "authors": [
             "author-1f37426fe802e71f24a4",
             "author-57b183b9f2857c9489cd"
@@ -9338,6 +8881,108 @@
             "status": "ok"
         },
         "doi": "10.3102/01623737027004291",
+        "keyphrases": {
+            "access": {
+                "count": 2,
+                "rank_score": 0.0802992719255673
+            },
+            "affirmative action policies": {
+                "count": 1,
+                "rank_score": 0.09610324748101007
+            },
+            "african americans": {
+                "count": 2,
+                "rank_score": 0.07421229782911597
+            },
+            "both policies": {
+                "count": 2,
+                "rank_score": 0.04338043486458429
+            },
+            "choice": {
+                "count": 1,
+                "rank_score": 0.055700637880186976
+            },
+            "clientele receiving welfare": {
+                "count": 1,
+                "rank_score": 0.05303627719559342
+            },
+            "college access": {
+                "count": 1,
+                "rank_score": 0.10434146260066048
+            },
+            "college enrollment": {
+                "count": 1,
+                "rank_score": 0.09042492268074473
+            },
+            "college participation rates": {
+                "count": 1,
+                "rank_score": 0.059285286291913944
+            },
+            "complex ways": {
+                "count": 1,
+                "rank_score": 0.04201226411964615
+            },
+            "disadvantaged adults": {
+                "count": 1,
+                "rank_score": 0.0608837234795303
+            },
+            "education": {
+                "count": 1,
+                "rank_score": 0.06995467480784051
+            },
+            "financial aid": {
+                "count": 1,
+                "rank_score": 0.07346689105201193
+            },
+            "latinos": {
+                "count": 2,
+                "rank_score": 0.05858515689679725
+            },
+            "national and state-level data": {
+                "count": 1,
+                "rank_score": 0.04655476769628459
+            },
+            "nature": {
+                "count": 1,
+                "rank_score": 0.051103280524234136
+            },
+            "opportunities": {
+                "count": 1,
+                "rank_score": 0.05605900873220241
+            },
+            "other racial and ethnic groups": {
+                "count": 1,
+                "rank_score": 0.06509196993689806
+            },
+            "postsecondary education": {
+                "count": 1,
+                "rank_score": 0.0783598597251171
+            },
+            "racial and ethnic disparities": {
+                "count": 1,
+                "rank_score": 0.06211443063639922
+            },
+            "rapid job placement": {
+                "count": 1,
+                "rank_score": 0.08361307221776876
+            },
+            "stable employment": {
+                "count": 1,
+                "rank_score": 0.0780688793556178
+            },
+            "two recent federal policies": {
+                "count": 1,
+                "rank_score": 0.05606864580252758
+            },
+            "work": {
+                "count": 1,
+                "rank_score": 0.05258431891623342
+            },
+            "workforce investment act": {
+                "count": 2,
+                "rank_score": 0.07565314460622788
+            }
+        },
         "original": {
             "date_added": "2019-12-02 12:34:12",
             "doi": "10.3102/01623737027004291",

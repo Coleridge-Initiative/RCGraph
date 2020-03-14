@@ -6,15 +6,15 @@ from pathlib import Path
 from richcontext import graph as rc_graph
 from tqdm import tqdm
 import argparse
-import json
 import pytextrank
 import spacy
 
 
 DEFAULT_PARTITION = None
+DEFAULT_NUM_PHRASES = 25
 
 
-def extract_phrases (graph, nlp, partition, pub, pub_list, limit_keyphrase=15):
+def extract_phrases (graph, nlp, partition, pub, pub_list, limit_keyphrase=DEFAULT_NUM_PHRASES):
     """
     for each publication, find the abstract and extract key phrases
     """
@@ -25,10 +25,15 @@ def extract_phrases (graph, nlp, partition, pub, pub_list, limit_keyphrase=15):
         abstract = pub["abstract"]
         doc = nlp(abstract)  # abstract text
                 
-        for phrase in doc._.phrases[:limit_keyphrase]:
-            phrase_text = phrase.text.lower()
-            phrases[phrase_text] = {"count": phrase.count, "rank_score": phrase.rank}
-                
+        for phrase in doc._.phrases:
+            if len(phrases) < limit_keyphrase:
+                text, keep = graph.filter_topics(phrase.text)
+
+                if keep:
+                    phrases[text] = {"count": phrase.count, "rank_score": phrase.rank}
+            else:
+                break
+
         if len(phrases) > 0:
             pub["keyphrases"] = phrases
             pub_list.append(pub)
@@ -45,6 +50,7 @@ def main (args):
     if abstract exists and is not null. Report if the abstract is missing.
     """
     graph = rc_graph.RCGraph("keyphr")
+    graph.load_stopwords()
     
     # add PyTextRank into the spaCy pipeline
     nlp = spacy.load("en_core_web_sm")
