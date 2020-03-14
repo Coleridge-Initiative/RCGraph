@@ -128,10 +128,6 @@
         },
         "doi": "10.1177/0891242419859097",
         "keyphrases": {
-            "comprehensive": {
-                "count": 1,
-                "rank_score": 0.05892556509887896
-            },
             "economic development": {
                 "count": 1,
                 "rank_score": 0.1407158045764947
@@ -153,7 +149,7 @@
                 "rank_score": 0.06243077620319939
             },
             "tif": {
-                "count": 1,
+                "count": 2,
                 "rank_score": 0.11975254472565261
             }
         },
@@ -305,21 +301,6 @@
                     ]
                 },
                 {
-                    "city_name": "New York",
-                    "country_name": "United States",
-                    "id": "grid.453006.4",
-                    "latitude": 40.75918,
-                    "linkout": [
-                        "http://www.sloan.org/"
-                    ],
-                    "longitude": -73.977356,
-                    "name": "Alfred P. Sloan Foundation",
-                    "state_name": "New York",
-                    "types": [
-                        "Nonprofit"
-                    ]
-                },
-                {
                     "acronym": "NSF SBE",
                     "city_name": "Arlington",
                     "country_name": "United States",
@@ -333,6 +314,21 @@
                     "state_name": "Virginia",
                     "types": [
                         "Government"
+                    ]
+                },
+                {
+                    "city_name": "New York",
+                    "country_name": "United States",
+                    "id": "grid.453006.4",
+                    "latitude": 40.75918,
+                    "linkout": [
+                        "http://www.sloan.org/"
+                    ],
+                    "longitude": -73.977356,
+                    "name": "Alfred P. Sloan Foundation",
+                    "state_name": "New York",
+                    "types": [
+                        "Nonprofit"
                     ]
                 }
             ],
@@ -351,73 +347,62 @@
                 "Norwegian register level 1",
                 "ERA 2015"
             ],
-            "linkout": "http://pdfs.semanticscholar.org/38dc/1c460b8b601e958017e1bd3cb6490b69b571.pdf",
-            "open_access": [
-                "Open Access - all",
-                "Open Access - repository",
-                "Open Access - submitted"
-            ],
             "open_access_categories": [
                 {
-                    "description": "Article is freely available",
-                    "id": "oa_all",
-                    "name": "All OA"
-                },
-                {
-                    "description": "Free copy of submitted version, or where version is unknown, in an OA repository",
-                    "id": "green_sub",
-                    "name": "Green, Submitted"
+                    "description": "No freely available copy has been identified",
+                    "id": "closed",
+                    "name": "Closed"
                 }
             ],
             "pages": "1-11",
             "publisher": "Taylor & Francis",
             "reference_ids": [
-                "pub.1058575255",
                 "pub.1045408554",
-                "pub.1039488177",
-                "pub.1064527845",
-                "pub.1064525556",
-                "pub.1047705871",
-                "pub.1022773702",
-                "pub.1069979792",
-                "pub.1058919704",
-                "pub.1099435977",
-                "pub.1068329277",
-                "pub.1071225109",
-                "pub.1020284679",
-                "pub.1102272305",
-                "pub.1064530463",
-                "pub.1064523940",
-                "pub.1030641592",
                 "pub.1069979758",
+                "pub.1064523940",
+                "pub.1099435977",
+                "pub.1058919704",
+                "pub.1069979792",
+                "pub.1022773702",
                 "pub.1058529442",
-                "pub.1114178011",
+                "pub.1058712952",
                 "pub.1035706531",
-                "pub.1058712952"
+                "pub.1020284679",
+                "pub.1064530463",
+                "pub.1047705871",
+                "pub.1068329277",
+                "pub.1114178011",
+                "pub.1064525556",
+                "pub.1102272305",
+                "pub.1030641592",
+                "pub.1058575255",
+                "pub.1064527845",
+                "pub.1071225109",
+                "pub.1039488177"
             ],
             "references": [
-                "pub.1058575255",
                 "pub.1045408554",
-                "pub.1039488177",
-                "pub.1064527845",
-                "pub.1064525556",
-                "pub.1047705871",
-                "pub.1022773702",
-                "pub.1069979792",
-                "pub.1058919704",
-                "pub.1099435977",
-                "pub.1068329277",
-                "pub.1071225109",
-                "pub.1020284679",
-                "pub.1102272305",
-                "pub.1064530463",
-                "pub.1064523940",
-                "pub.1030641592",
                 "pub.1069979758",
+                "pub.1064523940",
+                "pub.1099435977",
+                "pub.1058919704",
+                "pub.1069979792",
+                "pub.1022773702",
                 "pub.1058529442",
-                "pub.1114178011",
+                "pub.1058712952",
                 "pub.1035706531",
-                "pub.1058712952"
+                "pub.1020284679",
+                "pub.1064530463",
+                "pub.1047705871",
+                "pub.1068329277",
+                "pub.1114178011",
+                "pub.1064525556",
+                "pub.1102272305",
+                "pub.1030641592",
+                "pub.1058575255",
+                "pub.1064527845",
+                "pub.1071225109",
+                "pub.1039488177"
             ],
             "research_org_cities": [
                 {
@@ -472,10 +457,10 @@
                 }
             ],
             "supporting_grant_ids": [
+                "grant.3004264",
                 "grant.3043128",
-                "grant.3051297",
                 "grant.2447069",
-                "grant.3004264"
+                "grant.3051297"
             ],
             "terms": [
                 "importance",
@@ -922,67 +907,71 @@
         "keyphrases": {
             "addition": {
                 "count": 1,
-                "rank_score": 0.04806800778771819
+                "rank_score": 0.04747690590957394
             },
             "article": {
                 "count": 3,
-                "rank_score": 0.052429369705376275
+                "rank_score": 0.051830550928956595
             },
             "causes": {
                 "count": 1,
-                "rank_score": 0.059139095345768694
+                "rank_score": 0.05830835229919893
             },
             "earnings instability": {
                 "count": 2,
-                "rank_score": 0.13438444731849952
+                "rank_score": 0.1319052362628365
             },
             "employee data": {
                 "count": 1,
-                "rank_score": 0.08532596372687747
+                "rank_score": 0.08577895857701925
             },
             "higher earning workers": {
                 "count": 1,
-                "rank_score": 0.12259278547274344
+                "rank_score": 0.12068896399333728
             },
             "importance": {
                 "count": 1,
-                "rank_score": 0.030773076381265557
+                "rank_score": 0.030250263552867588
             },
             "its correlates": {
                 "count": 1,
-                "rank_score": 0.04124400796720632
+                "rank_score": 0.040658132364708985
             },
             "lower earning workers": {
                 "count": 1,
-                "rank_score": 0.12691146755409097
+                "rank_score": 0.125101005597501
             },
             "positive and statistically significant relationship": {
                 "count": 1,
-                "rank_score": 0.04552887752549618
+                "rank_score": 0.04608552563748438
             },
             "relationship": {
                 "count": 1,
-                "rank_score": 0.049482640433947976
+                "rank_score": 0.05053390475998788
             },
             "significantly more volatility": {
                 "count": 1,
-                "rank_score": 0.052905927705916865
+                "rank_score": 0.05206978248744167
             },
             "their employing firms": {
                 "count": 1,
-                "rank_score": 0.06916470232782577
+                "rank_score": 0.06123157299381503
             },
             "us linked employer": {
                 "count": 1,
-                "rank_score": 0.1222869177027203
+                "rank_score": 0.12424117070918908
             },
             "volatile earnings": {
                 "count": 1,
-                "rank_score": 0.1351770842016499
+                "rank_score": 0.13237742457851243
             },
             "volatile firms": {
                 "count": 1,
-                "rank_score": 0.13538112195203292
+                "rank_score": 0.12301871532643642
+            },
+            "within-firm variation": {
+                "count": 1,
+                "rank_score": 0.034817649947742224
             }
         },
         "original": {
@@ -1230,7 +1219,7 @@
             "date": "2017-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1111/rurd.12057",
-            "field_citation_ratio": 1.26,
+            "field_citation_ratio": 1.25,
             "id": "pub.1023686274",
             "issn": [
                 "0917-0553",
@@ -1246,190 +1235,179 @@
                 "Norwegian register level 1",
                 "ERA 2015"
             ],
-            "linkout": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/rurd.12057",
-            "open_access": [
-                "Open Access - all",
-                "Open Access - publisher",
-                "Open Access - published"
-            ],
             "open_access_categories": [
                 {
-                    "description": "Article is freely available",
-                    "id": "oa_all",
-                    "name": "All OA"
-                },
-                {
-                    "description": "Freely available on publisher page, but without an open licence",
-                    "id": "gold_bronze",
-                    "name": "Bronze"
+                    "description": "No freely available copy has been identified",
+                    "id": "closed",
+                    "name": "Closed"
                 }
             ],
             "pages": "18-45",
             "publisher": "Wiley",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1069649678",
-                "pub.1018965892",
-                "pub.1040483595",
-                "pub.1049125405",
-                "pub.1069374665",
-                "pub.1005438612",
-                "pub.1054802802",
-                "pub.1045071672",
-                "pub.1062911085",
-                "pub.1099482755",
-                "pub.1012374439",
+                "pub.1074352130",
                 "pub.1099089358",
-                "pub.1034905714",
-                "pub.1058572206",
-                "pub.1050603595",
-                "pub.1069625960",
-                "pub.1084810106",
-                "pub.1073351639",
-                "pub.1015332843",
+                "pub.1058152346",
+                "pub.1038339701",
+                "pub.1025066460",
+                "pub.1013976782",
+                "pub.1070211534",
+                "pub.1010280838",
+                "pub.1023900155",
+                "pub.1071226028",
+                "pub.1053394438",
+                "pub.1018965892",
+                "pub.1058572205",
+                "pub.1038256721",
+                "pub.1012374439",
+                "pub.1019264556",
+                "pub.1008431816",
+                "pub.1034598988",
+                "pub.1024936231",
                 "pub.1030908692",
-                "pub.1018687728",
-                "pub.1063949123",
-                "pub.1031019051",
-                "pub.1048679478",
-                "pub.1070139651",
+                "pub.1052873346",
+                "pub.1084810106",
+                "pub.1109704038",
                 "pub.1042476043",
+                "pub.1024674275",
+                "pub.1058607380",
+                "pub.1070210775",
+                "pub.1048973971",
+                "pub.1045071672",
+                "pub.1010451262",
+                "pub.1017387344",
+                "pub.1022910833",
+                "pub.1034905714",
+                "pub.1058563507",
+                "pub.1003140729",
+                "pub.1033702979",
+                "pub.1070139651",
+                "pub.1068329573",
+                "pub.1048679478",
+                "pub.1050603595",
+                "pub.1069649678",
+                "pub.1039401405",
+                "pub.1073292819",
+                "pub.1051425519",
+                "pub.1069374665",
+                "pub.1099482755",
+                "pub.1058572206",
+                "pub.1058351107",
+                "pub.1040829025",
+                "pub.1019421860",
+                "pub.1007831481",
+                "pub.1058350751",
+                "pub.1042001580",
+                "pub.1073351639",
+                "pub.1018687728",
+                "pub.1016884854",
+                "pub.1069372301",
+                "pub.1033464067",
+                "pub.1069625960",
+                "pub.1025848000",
+                "pub.1002644939",
+                "pub.1054802802",
+                "pub.1029461199",
+                "pub.1040483595",
+                "pub.1005438612",
+                "pub.1059783497",
+                "pub.1061832944",
+                "pub.1070325125",
+                "pub.1013742923",
+                "pub.1062911085",
                 "pub.1061834954",
                 "pub.1029376421",
-                "pub.1068329573",
-                "pub.1025066460",
-                "pub.1023900155",
-                "pub.1058351107",
-                "pub.1058350751",
-                "pub.1010451262",
-                "pub.1024674275",
-                "pub.1034598988",
-                "pub.1070211534",
-                "pub.1070325125",
-                "pub.1010280838",
-                "pub.1019421860",
-                "pub.1059783497",
-                "pub.1042001580",
-                "pub.1109704038",
-                "pub.1039401405",
-                "pub.1069372301",
-                "pub.1038339701",
-                "pub.1048973971",
-                "pub.1002644939",
-                "pub.1061832944",
-                "pub.1019264556",
-                "pub.1029461199",
-                "pub.1024936231",
-                "pub.1074352130",
-                "pub.1025848000",
-                "pub.1013976782",
-                "pub.1033702979",
-                "pub.1008431816",
-                "pub.1058152346",
-                "pub.1073292819",
-                "pub.1071226028",
-                "pub.1052873346",
-                "pub.1013742923",
-                "pub.1007831481",
-                "pub.1003140729",
-                "pub.1053394438",
-                "pub.1051425519",
-                "pub.1022910833",
-                "pub.1058607380",
-                "pub.1038256721",
-                "pub.1040829025",
-                "pub.1070211319",
-                "pub.1016884854",
-                "pub.1070210775",
+                "pub.1049125405",
+                "pub.1010575828",
+                "pub.1031019051",
+                "pub.1015332843",
                 "pub.1069765544",
-                "pub.1033464067",
-                "pub.1058563507",
-                "pub.1058572205",
                 "pub.1047586575",
-                "pub.1017387344",
-                "pub.1010575828"
+                "pub.1070211319",
+                "pub.1063949123"
             ],
             "references": [
-                "pub.1069649678",
-                "pub.1018965892",
-                "pub.1040483595",
-                "pub.1049125405",
-                "pub.1069374665",
-                "pub.1005438612",
-                "pub.1054802802",
-                "pub.1045071672",
-                "pub.1062911085",
-                "pub.1099482755",
-                "pub.1012374439",
+                "pub.1074352130",
                 "pub.1099089358",
-                "pub.1034905714",
-                "pub.1058572206",
-                "pub.1050603595",
-                "pub.1069625960",
-                "pub.1084810106",
-                "pub.1073351639",
-                "pub.1015332843",
+                "pub.1058152346",
+                "pub.1038339701",
+                "pub.1025066460",
+                "pub.1013976782",
+                "pub.1070211534",
+                "pub.1010280838",
+                "pub.1023900155",
+                "pub.1071226028",
+                "pub.1053394438",
+                "pub.1018965892",
+                "pub.1058572205",
+                "pub.1038256721",
+                "pub.1012374439",
+                "pub.1019264556",
+                "pub.1008431816",
+                "pub.1034598988",
+                "pub.1024936231",
                 "pub.1030908692",
-                "pub.1018687728",
-                "pub.1063949123",
-                "pub.1031019051",
-                "pub.1048679478",
-                "pub.1070139651",
+                "pub.1052873346",
+                "pub.1084810106",
+                "pub.1109704038",
                 "pub.1042476043",
+                "pub.1024674275",
+                "pub.1058607380",
+                "pub.1070210775",
+                "pub.1048973971",
+                "pub.1045071672",
+                "pub.1010451262",
+                "pub.1017387344",
+                "pub.1022910833",
+                "pub.1034905714",
+                "pub.1058563507",
+                "pub.1003140729",
+                "pub.1033702979",
+                "pub.1070139651",
+                "pub.1068329573",
+                "pub.1048679478",
+                "pub.1050603595",
+                "pub.1069649678",
+                "pub.1039401405",
+                "pub.1073292819",
+                "pub.1051425519",
+                "pub.1069374665",
+                "pub.1099482755",
+                "pub.1058572206",
+                "pub.1058351107",
+                "pub.1040829025",
+                "pub.1019421860",
+                "pub.1007831481",
+                "pub.1058350751",
+                "pub.1042001580",
+                "pub.1073351639",
+                "pub.1018687728",
+                "pub.1016884854",
+                "pub.1069372301",
+                "pub.1033464067",
+                "pub.1069625960",
+                "pub.1025848000",
+                "pub.1002644939",
+                "pub.1054802802",
+                "pub.1029461199",
+                "pub.1040483595",
+                "pub.1005438612",
+                "pub.1059783497",
+                "pub.1061832944",
+                "pub.1070325125",
+                "pub.1013742923",
+                "pub.1062911085",
                 "pub.1061834954",
                 "pub.1029376421",
-                "pub.1068329573",
-                "pub.1025066460",
-                "pub.1023900155",
-                "pub.1058351107",
-                "pub.1058350751",
-                "pub.1010451262",
-                "pub.1024674275",
-                "pub.1034598988",
-                "pub.1070211534",
-                "pub.1070325125",
-                "pub.1010280838",
-                "pub.1019421860",
-                "pub.1059783497",
-                "pub.1042001580",
-                "pub.1109704038",
-                "pub.1039401405",
-                "pub.1069372301",
-                "pub.1038339701",
-                "pub.1048973971",
-                "pub.1002644939",
-                "pub.1061832944",
-                "pub.1019264556",
-                "pub.1029461199",
-                "pub.1024936231",
-                "pub.1074352130",
-                "pub.1025848000",
-                "pub.1013976782",
-                "pub.1033702979",
-                "pub.1008431816",
-                "pub.1058152346",
-                "pub.1073292819",
-                "pub.1071226028",
-                "pub.1052873346",
-                "pub.1013742923",
-                "pub.1007831481",
-                "pub.1003140729",
-                "pub.1053394438",
-                "pub.1051425519",
-                "pub.1022910833",
-                "pub.1058607380",
-                "pub.1038256721",
-                "pub.1040829025",
-                "pub.1070211319",
-                "pub.1016884854",
-                "pub.1070210775",
+                "pub.1049125405",
+                "pub.1010575828",
+                "pub.1031019051",
+                "pub.1015332843",
                 "pub.1069765544",
-                "pub.1033464067",
-                "pub.1058563507",
-                "pub.1058572205",
                 "pub.1047586575",
-                "pub.1017387344",
-                "pub.1010575828"
+                "pub.1070211319",
+                "pub.1063949123"
             ],
             "research_org_cities": [
                 {
@@ -1466,6 +1444,20 @@
             ],
             "research_orgs": [
                 {
+                    "city_name": "Panama City",
+                    "country_name": "Panama",
+                    "id": "grid.441420.7",
+                    "latitude": 32.50276,
+                    "linkout": [
+                        "http://www.columbus.edu/"
+                    ],
+                    "longitude": -84.941574,
+                    "name": "Columbus University",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
                     "acronym": "UW",
                     "city_name": "Madison",
                     "country_name": "United States",
@@ -1477,20 +1469,6 @@
                     "longitude": -89.41244,
                     "name": "University of Wisconsin–Madison",
                     "state_name": "Wisconsin",
-                    "types": [
-                        "Education"
-                    ]
-                },
-                {
-                    "city_name": "Panama City",
-                    "country_name": "Panama",
-                    "id": "grid.441420.7",
-                    "latitude": 32.50276,
-                    "linkout": [
-                        "http://www.columbus.edu/"
-                    ],
-                    "longitude": -84.941574,
-                    "name": "Columbus University",
                     "types": [
                         "Education"
                     ]
@@ -1736,6 +1714,10 @@
                 "count": 1,
                 "rank_score": 0.0772259627649226
             },
+            "influence interstate relocation patterns": {
+                "count": 1,
+                "rank_score": 0.13228310218442157
+            },
             "manufacturers": {
                 "count": 1,
                 "rank_score": 0.06867769967282467
@@ -1771,10 +1753,6 @@
             "supply-side view": {
                 "count": 1,
                 "rank_score": 0.042855889674047604
-            },
-            "tax policy changes": {
-                "count": 1,
-                "rank_score": 0.06466403535411962
             },
             "taxation": {
                 "count": 1,
@@ -2426,103 +2404,103 @@
         "keyphrases": {
             "administrative data": {
                 "count": 1,
-                "rank_score": 0.10503651699613162
+                "rank_score": 0.10533397760176086
             },
             "all researcher-accessible files": {
                 "count": 1,
-                "rank_score": 0.05518103456119396
+                "rank_score": 0.05118749966041794
             },
             "census bureaus": {
-                "count": 1,
-                "rank_score": 0.05132701781437435
+                "count": 2,
+                "rank_score": 0.0858123492383614
             },
             "censuses": {
                 "count": 1,
-                "rank_score": 0.047031416647770316
+                "rank_score": 0.04629927438459642
             },
             "comprehensive description": {
                 "count": 1,
-                "rank_score": 0.04591307987697874
+                "rank_score": 0.04599927950586499
             },
             "content": {
                 "count": 1,
-                "rank_score": 0.041215732802384594
+                "rank_score": 0.040699285142573226
             },
             "demographic and economic (business) surveys": {
                 "count": 1,
-                "rank_score": 0.03946276034938955
+                "rank_score": 0.03894115233019629
             },
             "detailed and comprehensive picture": {
                 "count": 1,
-                "rank_score": 0.042961523121983855
+                "rank_score": 0.043232727054294755
             },
             "document": {
                 "count": 2,
-                "rank_score": 0.03500753661272097
+                "rank_score": 0.03481317291163174
             },
             "employers": {
                 "count": 1,
-                "rank_score": 0.03932996560797091
+                "rank_score": 0.038960332391364844
             },
             "files": {
                 "count": 1,
-                "rank_score": 0.05709874240956487
+                "rank_score": 0.0503829383711096
             },
             "information": {
                 "count": 1,
-                "rank_score": 0.05114803922375015
+                "rank_score": 0.05086811343562218
             },
             "infrastructure files": {
                 "count": 1,
-                "rank_score": 0.12319672033433365
+                "rank_score": 0.10692981183530546
+            },
+            "lehd infrastructure": {
+                "count": 1,
+                "rank_score": 0.06006922354377976
             },
             "lehd infrastructure files": {
-                "count": 2,
-                "rank_score": 0.08627247693506758
-            },
-            "lehd) program": {
                 "count": 1,
-                "rank_score": 0.053570980642998596
+                "rank_score": 0.0637123395231451
             },
             "longitudinal employer-household dynamics": {
-                "count": 1,
-                "rank_score": 0.04642776321460211
+                "count": 2,
+                "rank_score": 0.046325814909015765
             },
             "other administrative data sources": {
                 "count": 1,
-                "rank_score": 0.11092636975068314
+                "rank_score": 0.11097259943131405
             },
             "research data center": {
                 "count": 1,
-                "rank_score": 0.09132681578543694
+                "rank_score": 0.09014275512776646
             },
             "researcher access": {
                 "count": 1,
-                "rank_score": 0.0909752777470638
-            },
-            "secure and restricted-access research data center network": {
-                "count": 1,
-                "rank_score": 0.06659667579278558
+                "rank_score": 0.09061768327145156
             },
             "several national research agencies": {
                 "count": 1,
-                "rank_score": 0.10268186203286857
+                "rank_score": 0.10176881471681233
+            },
+            "snapshot": {
+                "count": 1,
+                "rank_score": 0.03561624006283043
             },
             "state agencies": {
                 "count": 1,
-                "rank_score": 0.08754254833927466
+                "rank_score": 0.0871320847862996
             },
             "u.s. census bureau": {
                 "count": 2,
-                "rank_score": 0.06571432429797254
+                "rank_score": 0.06489228107222866
             },
             "u.s. economy": {
                 "count": 1,
-                "rank_score": 0.04873048300420964
+                "rank_score": 0.048140707663648585
             },
             "workers": {
                 "count": 1,
-                "rank_score": 0.05919123832971102
+                "rank_score": 0.05885904846224457
             }
         },
         "original": {
@@ -4443,7 +4421,7 @@
                 "rank_score": 0.10690449676496977
             },
             "employment": {
-                "count": 2,
+                "count": 1,
                 "rank_score": 0.09055779455386566
             },
             "employment effects": {
@@ -4465,10 +4443,6 @@
             "ezs": {
                 "count": 2,
                 "rank_score": 0.09006927161756836
-            },
-            "gis": {
-                "count": 2,
-                "rank_score": 0.07994294556471489
             },
             "immobile factors": {
                 "count": 1,
@@ -4513,6 +4487,10 @@
             "subsidy mixes": {
                 "count": 1,
                 "rank_score": 0.10829662034351409
+            },
+            "that": {
+                "count": 4,
+                "rank_score": 0.0
             },
             "urban ezs": {
                 "count": 1,
@@ -5175,103 +5153,103 @@
         "keyphrases": {
             "administrative data": {
                 "count": 1,
-                "rank_score": 0.1138705455685331
+                "rank_score": 0.11346720924421079
             },
-            "census bureau": {
-                "count": 2,
-                "rank_score": 0.06138911900312847
+            "census bureau’s research data center": {
+                "count": 1,
+                "rank_score": 0.09208919836079765
+            },
+            "census bureau’s research data center network": {
+                "count": 1,
+                "rank_score": 0.09438581826746237
             },
             "censuses": {
                 "count": 1,
-                "rank_score": 0.051558661569358386
+                "rank_score": 0.050112129215328996
             },
             "content": {
                 "count": 1,
-                "rank_score": 0.05013910143035451
+                "rank_score": 0.048699383150554595
             },
             "demographic and economic (business) surveys": {
                 "count": 1,
-                "rank_score": 0.04320187025870961
+                "rank_score": 0.042133322494911266
             },
             "detailed and comprehensive picture": {
                 "count": 1,
-                "rank_score": 0.045917938474673146
+                "rank_score": 0.0457919429661494
             },
             "document": {
                 "count": 1,
-                "rank_score": 0.03506621174816968
+                "rank_score": 0.03405931161046153
             },
             "employers": {
                 "count": 1,
-                "rank_score": 0.0446310619706793
+                "rank_score": 0.043707510395586444
+            },
+            "files": {
+                "count": 1,
+                "rank_score": 0.077544344626886
             },
             "information": {
                 "count": 1,
-                "rank_score": 0.05584914300425396
+                "rank_score": 0.05503630651208076
             },
             "infrastructure files": {
                 "count": 1,
-                "rank_score": 0.11840477865051978
+                "rank_score": 0.09750557244975268
+            },
+            "lehd infrastructure": {
+                "count": 1,
+                "rank_score": 0.06459043693481048
             },
             "lehd infrastructure files": {
-                "count": 2,
-                "rank_score": 0.08608351636090303
-            },
-            "lehd) program": {
                 "count": 1,
-                "rank_score": 0.057860172748352104
+                "rank_score": 0.06868017882460024
             },
             "longitudinal employer-household dynamics": {
-                "count": 1,
-                "rank_score": 0.050670898854690026
+                "count": 2,
+                "rank_score": 0.05000942262707768
             },
             "other administrative data sources": {
                 "count": 1,
-                "rank_score": 0.12044789698279194
-            },
-            "research data center": {
-                "count": 1,
-                "rank_score": 0.10327775624356153
-            },
-            "research data center network": {
-                "count": 1,
-                "rank_score": 0.10794260649536869
+                "rank_score": 0.11963136329020836
             },
             "set": {
                 "count": 1,
-                "rank_score": 0.029546241791893923
+                "rank_score": 0.029534318639133434
             },
             "several national research agencies": {
                 "count": 1,
-                "rank_score": 0.11146240663659274
+                "rank_score": 0.10932358077001127
             },
-            "snapshot of the lehd infrastructure": {
-                "count": 1,
-                "rank_score": 0.054326813661641875
+            "snapshot": {
+                "count": 2,
+                "rank_score": 0.038384615018934254
             },
             "state agencies": {
                 "count": 1,
-                "rank_score": 0.09655322333283578
+                "rank_score": 0.09531441586810882
             },
             "structure": {
                 "count": 1,
-                "rank_score": 0.04282147729319486
+                "rank_score": 0.04159190789722094
             },
             "support": {
                 "count": 1,
-                "rank_score": 0.027209036866183384
+                "rank_score": 0.02656841259468858
             },
             "u.s. census bureau": {
                 "count": 2,
-                "rank_score": 0.07663025118778491
+                "rank_score": 0.07443225768735333
             },
             "u.s. economy": {
                 "count": 1,
-                "rank_score": 0.051753417992268715
+                "rank_score": 0.04887928465298098
             },
             "workers": {
                 "count": 1,
-                "rank_score": 0.06839127247332905
+                "rank_score": 0.0672500298220265
             }
         },
         "original": {
@@ -6060,105 +6038,105 @@
         ],
         "doi": "10.4324/9780203883495",
         "keyphrases": {
-            "c. deller": {
-                "count": 2,
-                "rank_score": 0.08565716007498446
-            },
             "david barkley": {
                 "count": 2,
-                "rank_score": 0.06927816670153973
+                "rank_score": 0.06974563860101898
             },
             "david l. barkley": {
-                "count": 1,
-                "rank_score": 0.07432529992682008
+                "count": 2,
+                "rank_score": 0.07480208408965043
             },
             "david w. hughes": {
                 "count": 4,
-                "rank_score": 0.06597026791862123
+                "rank_score": 0.06642423776470012
             },
             "economic development policy": {
                 "count": 1,
-                "rank_score": 0.08326914256706396
+                "rank_score": 0.0785674934320307
             },
             "food industry clusters": {
                 "count": 1,
-                "rank_score": 0.0703698136432561
+                "rank_score": 0.06648377885709189
             },
             "great plains john c. leatherman": {
-                "count": 1,
-                "rank_score": 0.05878736876633501
+                "count": 2,
+                "rank_score": 0.05857347709093189
             },
             "industrial targeting": {
                 "count": 2,
-                "rank_score": 0.05856922369632134
+                "rank_score": 0.05884416455064895
+            },
+            "industry analysis": {
+                "count": 1,
+                "rank_score": 0.0671661215620419
             },
             "industry clusters": {
-                "count": 1,
-                "rank_score": 0.07129128995534671
+                "count": 2,
+                "rank_score": 0.05797822572378199
             },
             "industry targeting recommendations": {
                 "count": 1,
-                "rank_score": 0.07354112640843634
+                "rank_score": 0.07025991590602873
             },
             "james r. nelson": {
                 "count": 2,
-                "rank_score": 0.05937795405996082
+                "rank_score": 0.061862814814921764
             },
             "john c. leatherman": {
-                "count": 3,
-                "rank_score": 0.08683498915006167
+                "count": 2,
+                "rank_score": 0.08641523643539685
             },
             "john leatherman": {
-                "count": 1,
-                "rank_score": 0.06604733843945648
+                "count": 2,
+                "rank_score": 0.06620692632829463
+            },
+            "learned?steven c. deller": {
+                "count": 2,
+                "rank_score": 0.08061513896601681
             },
             "linda j. cox": {
                 "count": 2,
-                "rank_score": 0.06241218177987267
+                "rank_score": 0.06227540714008037
             },
             "martin shields": {
-                "count": 5,
-                "rank_score": 0.056845950372312735
+                "count": 6,
+                "rank_score": 0.057125130217590386
             },
             "regional cluster analysis": {
                 "count": 1,
-                "rank_score": 0.06590108617359834
+                "rank_score": 0.06422616686770345
             },
             "regional economic development": {
                 "count": 1,
-                "rank_score": 0.08408287626674224
-            },
-            "rural economic development": {
-                "count": 1,
-                "rank_score": 0.08252356792199832
+                "rank_score": 0.08138941547951063
             },
             "stephan j. goetz": {
                 "count": 8,
-                "rank_score": 0.07899078164563929
+                "rank_score": 0.07885315500050223
             },
             "steven c. deller": {
-                "count": 7,
-                "rank_score": 0.09347872509801884
+                "count": 8,
+                "rank_score": 0.09222210567697106
+            },
+            "target rural economic development": {
+                "count": 2,
+                "rank_score": 0.08232009198387132
             },
             "targeted industry analysis": {
                 "count": 1,
-                "rank_score": 0.06940419011363258
+                "rank_score": 0.06582334499044382
             },
-            "targeting industry clusters for regional economic development": {
+            "thomas g. johnson": {
                 "count": 1,
-                "rank_score": 0.06814455111327891
+                "rank_score": 0.0632275725551326
             },
             "thomas harris": {
                 "count": 2,
-                "rank_score": 0.071966541665498
+                "rank_score": 0.07153736484598677
             },
             "thomas r. harris": {
-                "count": 6,
-                "rank_score": 0.0809454646828747
-            },
-            "todd gabe part ii": {
-                "count": 1,
-                "rank_score": 0.06526396697762533
+                "count": 5,
+                "rank_score": 0.08108201698360497
             }
         },
         "original": {
@@ -7494,103 +7472,103 @@
         "keyphrases": {
             "advanced services firms": {
                 "count": 1,
-                "rank_score": 0.08142511360919158
+                "rank_score": 0.08244392773661031
             },
             "american": {
                 "count": 1,
-                "rank_score": 0.05912998604421768
+                "rank_score": 0.05958937063289961
             },
             "american communities": {
                 "count": 1,
-                "rank_score": 0.07691859142351627
+                "rank_score": 0.07750399857166088
             },
             "central cities": {
                 "count": 1,
-                "rank_score": 0.07812751978692106
-            },
-            "conclusions": {
-                "count": 1,
-                "rank_score": 0.05511712778020894
+                "rank_score": 0.07926791026174722
             },
             "continued pressures": {
                 "count": 1,
-                "rank_score": 0.07323445890836437
+                "rank_score": 0.07376689209588815
             },
             "descriptive and inferential statistical methods": {
                 "count": 1,
-                "rank_score": 0.056009538320021576
+                "rank_score": 0.056413993297886496
             },
             "different types": {
                 "count": 1,
-                "rank_score": 0.0688306322496394
+                "rank_score": 0.06958525239713723
             },
             "entrepreneurial performance": {
                 "count": 1,
-                "rank_score": 0.074065940155256
+                "rank_score": 0.07573282840376937
+            },
+            "globalization": {
+                "count": 1,
+                "rank_score": 0.06292961347679311
             },
             "growth": {
                 "count": 2,
-                "rank_score": 0.06390902162881103
+                "rank_score": 0.06474832288448965
             },
             "locations": {
                 "count": 2,
-                "rank_score": 0.07288872213877493
+                "rank_score": 0.07406043555352143
             },
             "many policymakers": {
                 "count": 1,
-                "rank_score": 0.07870678463478843
+                "rank_score": 0.08010995028735243
             },
             "metropolitan areas": {
                 "count": 1,
-                "rank_score": 0.07175799010060963
+                "rank_score": 0.06094281308396482
             },
             "new business creation": {
                 "count": 1,
-                "rank_score": 0.09179587982454351
+                "rank_score": 0.09334648787503722
             },
             "new firms entry": {
                 "count": 1,
-                "rank_score": 0.0615246163837005
+                "rank_score": 0.06247953325946459
             },
             "new manufacturing": {
                 "count": 1,
-                "rank_score": 0.08903582286809378
+                "rank_score": 0.09049877526454697
             },
             "performance": {
                 "count": 1,
-                "rank_score": 0.059800313055433936
+                "rank_score": 0.06093091112506886
             },
             "planners": {
                 "count": 2,
-                "rank_score": 0.0742854677465434
+                "rank_score": 0.07562193221579715
             },
             "policymakers": {
                 "count": 1,
-                "rank_score": 0.06893079132368951
-            },
-            "results": {
-                "count": 1,
-                "rank_score": 0.05511712778020894
+                "rank_score": 0.07025261329280919
             },
             "rural areas": {
                 "count": 1,
-                "rank_score": 0.08636198168969196
+                "rank_score": 0.08234963829517969
             },
             "small cities": {
                 "count": 1,
-                "rank_score": 0.07149801525886897
+                "rank_score": 0.07254325338050104
             },
             "suburbs": {
                 "count": 1,
-                "rank_score": 0.05503860365879468
+                "rank_score": 0.05575314643263186
+            },
+            "technological change": {
+                "count": 1,
+                "rank_score": 0.061852793911880394
             },
             "united states": {
                 "count": 1,
-                "rank_score": 0.06840985221634181
+                "rank_score": 0.06895143415909526
             },
             "urban co": {
                 "count": 1,
-                "rank_score": 0.0614337916905513
+                "rank_score": 0.06274635783248066
             }
         },
         "original": {
@@ -8304,6 +8282,10 @@
                 "count": 1,
                 "rank_score": 0.11423505137976564
             },
+            "national employment": {
+                "count": 1,
+                "rank_score": 0.11948122508570962
+            },
             "national establishment time-series database": {
                 "count": 1,
                 "rank_score": 0.07126252224274657
@@ -8971,105 +8953,105 @@
         },
         "doi": "10.1080/00036840500461865",
         "keyphrases": {
-            "administrative data": {
-                "count": 1,
-                "rank_score": 0.07705999143709422
-            },
             "benefits": {
                 "count": 1,
-                "rank_score": 0.06100594966487858
+                "rank_score": 0.062406518750870395
             },
             "earned income tax credit": {
                 "count": 2,
-                "rank_score": 0.06340451220957585
+                "rank_score": 0.06417810036251598
             },
             "employer": {
                 "count": 1,
-                "rank_score": 0.06094369294879446
+                "rank_score": 0.06024697629372315
             },
             "employment": {
                 "count": 1,
-                "rank_score": 0.05792031464300644
+                "rank_score": 0.05920553330596182
             },
             "exit rates": {
                 "count": 1,
-                "rank_score": 0.07472435318258858
+                "rank_score": 0.07548292299646238
             },
             "food stamps": {
-                "count": 1,
-                "rank_score": 0.06982124107579678
+                "count": 2,
+                "rank_score": 0.07123123439433976
             },
             "greater work effort": {
                 "count": 1,
-                "rank_score": 0.09542665902109668
+                "rank_score": 0.09704839523147205
             },
             "health insurance and child care subsidies": {
                 "count": 1,
-                "rank_score": 0.07109868205989056
+                "rank_score": 0.07114532685183683
             },
-            "income guarantee increase welfare dependency": {
+            "income guarantee": {
                 "count": 1,
-                "rank_score": 0.08369578592152835
+                "rank_score": 0.05249080333664419
             },
             "increased levels": {
                 "count": 1,
-                "rank_score": 0.07015163704495006
+                "rank_score": 0.07101558416099907
             },
             "medicaid": {
                 "count": 2,
-                "rank_score": 0.06714872233974592
-            },
-            "needy families": {
-                "count": 1,
-                "rank_score": 0.08249552316240373
+                "rank_score": 0.06815552888499722
             },
             "other work inducing factors": {
                 "count": 1,
-                "rank_score": 0.11313086472526368
+                "rank_score": 0.11508379876802725
             },
             "our null hypothesis": {
                 "count": 1,
-                "rank_score": 0.04547840967539078
+                "rank_score": 0.0458428258354411
             },
             "potential welfare recipients": {
                 "count": 1,
-                "rank_score": 0.11978235013377328
+                "rank_score": 0.11252862518367523
             },
             "tanf": {
                 "count": 1,
-                "rank_score": 0.05629069594594658
+                "rank_score": 0.08055901088661103
             },
             "tanf recipients": {
                 "count": 1,
-                "rank_score": 0.09122910460627728
+                "rank_score": 0.10658631233126127
             },
             "temporary assistance": {
                 "count": 1,
-                "rank_score": 0.08249552316240373
+                "rank_score": 0.07805670988756841
             },
             "wages": {
                 "count": 2,
-                "rank_score": 0.07126343038864147
+                "rank_score": 0.0667307933847293
             },
             "washington": {
                 "count": 1,
-                "rank_score": 0.0644621208072555
+                "rank_score": 0.05475494397695867
             },
             "washington state": {
                 "count": 1,
-                "rank_score": 0.07705999143709422
+                "rank_score": 0.0712096381004422
             },
             "welfare": {
                 "count": 1,
-                "rank_score": 0.10316202177416846
+                "rank_score": 0.08890037076400062
+            },
+            "welfare dependency": {
+                "count": 1,
+                "rank_score": 0.07771428395522212
             },
             "welfare recipients": {
                 "count": 1,
-                "rank_score": 0.12094930660801446
+                "rank_score": 0.11204151417996486
+            },
+            "welfare utility": {
+                "count": 1,
+                "rank_score": 0.08803853482680726
             },
             "work choice": {
                 "count": 1,
-                "rank_score": 0.05541788838985856
+                "rank_score": 0.056457558935994454
             }
         },
         "original": {
@@ -9565,103 +9547,103 @@
         "keyphrases": {
             "address-matched units": {
                 "count": 1,
-                "rank_score": 0.054327050359513115
+                "rank_score": 0.05389089771344869
             },
             "administrative samples": {
                 "count": 1,
-                "rank_score": 0.0744085224538549
+                "rank_score": 0.07393374569863932
             },
             "analysis": {
                 "count": 1,
-                "rank_score": 0.07437255501417298
+                "rank_score": 0.07643250386652248
             },
             "bias": {
                 "count": 1,
-                "rank_score": 0.05790020571353263
+                "rank_score": 0.057557378253594124
             },
             "confidential establishment-level covered wages": {
                 "count": 1,
-                "rank_score": 0.050657853986730186
+                "rank_score": 0.051617732965612256
             },
             "confidential micro data": {
                 "count": 1,
-                "rank_score": 0.09466595793806011
+                "rank_score": 0.08201620464973775
             },
             "confidential micro data series": {
                 "count": 1,
-                "rank_score": 0.0949072634910432
+                "rank_score": 0.09435520124576183
             },
-            "employment": {
+            "covered wages and employment": {
                 "count": 1,
-                "rank_score": 0.04995520321300785
+                "rank_score": 0.04833287927455579
+            },
+            "employment (es-202) data series": {
+                "count": 1,
+                "rank_score": 0.053701477928678513
             },
             "es-202 file": {
                 "count": 1,
-                "rank_score": 0.0593635631179575
+                "rank_score": 0.05868945176678299
             },
-            "geocoding": {
+            "geocode latitude/longitude coordinates": {
                 "count": 1,
-                "rank_score": 0.052723906374445115
+                "rank_score": 0.05596767760010504
             },
             "geographical research": {
                 "count": 1,
-                "rank_score": 0.08817192143956323
-            },
-            "key area": {
-                "count": 1,
-                "rank_score": 0.04446883416531563
+                "rank_score": 0.08852019050207101
             },
             "methods": {
                 "count": 1,
-                "rank_score": 0.051508287683192766
+                "rank_score": 0.05125542184784863
             },
             "other kinds": {
                 "count": 1,
-                "rank_score": 0.0669434401476979
+                "rank_score": 0.06748412611195281
+            },
+            "physical address information": {
+                "count": 1,
+                "rank_score": 0.09352306297387904
             },
             "physical addresses": {
                 "count": 1,
-                "rank_score": 0.08869685303442296
+                "rank_score": 0.087716756769035
             },
             "quantitative geographical research": {
                 "count": 1,
-                "rank_score": 0.09257936883002855
+                "rank_score": 0.09294306619247583
             },
             "regional science research": {
                 "count": 1,
-                "rank_score": 0.08552830014432233
+                "rank_score": 0.08585549080028501
             },
             "research": {
                 "count": 1,
-                "rank_score": 0.07287606040655653
-            },
-            "results": {
-                "count": 1,
-                "rank_score": 0.04445205424367853
+                "rank_score": 0.07326007948424795
             },
             "samples": {
                 "count": 1,
-                "rank_score": 0.06308966198613492
+                "rank_score": 0.06267789819734243
             },
             "several dimensions": {
                 "count": 1,
-                "rank_score": 0.06253406620543955
+                "rank_score": 0.062086484878749584
             },
             "small area economic analyses": {
                 "count": 1,
-                "rank_score": 0.09905384655834296
+                "rank_score": 0.1004152555840832
             },
             "spatial censoring": {
                 "count": 1,
-                "rank_score": 0.07496391660186254
+                "rank_score": 0.07659265835178616
             },
             "spatial identifiers": {
                 "count": 1,
-                "rank_score": 0.08372124715533515
+                "rank_score": 0.08743180014944454
             },
             "state es-202 files": {
                 "count": 1,
-                "rank_score": 0.10357029149088344
+                "rank_score": 0.10243267856344374
             }
         },
         "original": {
@@ -11401,10 +11383,6 @@
                 "count": 1,
                 "rank_score": 0.05755737495342756
             },
-            "broad regional distribution": {
-                "count": 1,
-                "rank_score": 0.0983371896028961
-            },
             "characteristics": {
                 "count": 1,
                 "rank_score": 0.029903600868784
@@ -11424,6 +11402,10 @@
             "discrete industrial complexes": {
                 "count": 1,
                 "rank_score": 0.11066738887237988
+            },
+            "getis": {
+                "count": 1,
+                "rank_score": 0.06798808178368787
             },
             "getis/ord local g statistic and detailed county-level industry employment data": {
                 "count": 1,
@@ -11453,10 +11435,6 @@
                 "count": 1,
                 "rank_score": 0.06490686259629964
             },
-            "other factors": {
-                "count": 1,
-                "rank_score": 0.07000579801701065
-            },
             "particular locations": {
                 "count": 1,
                 "rank_score": 0.08172441518667063
@@ -11464,10 +11442,6 @@
             "southeast": {
                 "count": 2,
                 "rank_score": 0.048390106523479276
-            },
-            "spatial extent": {
-                "count": 1,
-                "rank_score": 0.08620820499805498
             },
             "terms": {
                 "count": 1,
@@ -12972,103 +12946,103 @@
         "keyphrases": {
             "address records": {
                 "count": 1,
-                "rank_score": 0.043624067475601845
+                "rank_score": 0.04407521860744637
             },
             "administrative data": {
                 "count": 1,
-                "rank_score": 0.13190168113241646
+                "rank_score": 0.1305104097718535
             },
             "administrative data sources": {
                 "count": 1,
-                "rank_score": 0.12755497782996664
+                "rank_score": 0.12644191148543377
             },
             "administrative files": {
                 "count": 1,
-                "rank_score": 0.10346601787104598
+                "rank_score": 0.09753208076242639
             },
             "convenience": {
                 "count": 1,
-                "rank_score": 0.048514863643789
+                "rank_score": 0.04891891175008029
             },
             "demand": {
                 "count": 1,
-                "rank_score": 0.06181646474263764
+                "rank_score": 0.062381907112833875
+            },
+            "employment files": {
+                "count": 1,
+                "rank_score": 0.07726635305585339
             },
             "enormous research value": {
                 "count": 1,
-                "rank_score": 0.08083806946661462
+                "rank_score": 0.08261283668113993
             },
             "es-202 data": {
                 "count": 1,
-                "rank_score": 0.12367200771957801
+                "rank_score": 0.12490386302241019
             },
-            "es-202 employment files": {
+            "estimator": {
                 "count": 1,
-                "rank_score": 0.09633768726679902
+                "rank_score": 0.03163726606010297
             },
             "increased resolution": {
                 "count": 1,
-                "rank_score": 0.04113932811382579
+                "rank_score": 0.041489747904882544
             },
             "inferential analysis": {
                 "count": 1,
-                "rank_score": 0.07865538703204726
+                "rank_score": 0.0793508850421439
             },
             "north carolina": {
                 "count": 2,
-                "rank_score": 0.06450975204604448
+                "rank_score": 0.06511127689481697
             },
             "policy formation": {
                 "count": 1,
-                "rank_score": 0.06436869669524005
-            },
-            "programs": {
-                "count": 1,
-                "rank_score": 0.05873750143323434
+                "rank_score": 0.06492965628506372
             },
             "resulting point-referenced data": {
                 "count": 1,
-                "rank_score": 0.06114433940602442
+                "rank_score": 0.061707491600735256
             },
             "robust estimation method": {
                 "count": 1,
-                "rank_score": 0.05676958797632931
+                "rank_score": 0.05725156613354787
             },
             "serious validity problems": {
                 "count": 1,
-                "rank_score": 0.08934535755773229
+                "rank_score": 0.09007336785238455
             },
             "simulated data": {
                 "count": 1,
-                "rank_score": 0.11335797572368794
+                "rank_score": 0.11442899935568047
             },
             "small distances": {
                 "count": 1,
-                "rank_score": 0.06676137941050907
+                "rank_score": 0.06772049423658451
             },
             "spatial analysis": {
                 "count": 1,
-                "rank_score": 0.11247337060704475
+                "rank_score": 0.11352091747211053
             },
             "spatial mismatch studies": {
                 "count": 1,
-                "rank_score": 0.11313900329882323
+                "rank_score": 0.11444645052031018
             },
             "spatial pattern inference": {
                 "count": 1,
-                "rank_score": 0.11182114790677422
+                "rank_score": 0.11284183418341127
             },
             "spatially censored data": {
                 "count": 1,
-                "rank_score": 0.06636617100347056
+                "rank_score": 0.06699457760350869
             },
             "statistical inference": {
                 "count": 1,
-                "rank_score": 0.07697160076297761
+                "rank_score": 0.07761996952314931
             },
-            "study resolves": {
+            "welfare to work programs": {
                 "count": 1,
-                "rank_score": 0.0883174083822492
+                "rank_score": 0.041096592859399365
             }
         },
         "original": {
@@ -13238,72 +13212,72 @@
             "publisher": "SAGE Publications",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1011246887",
-                "pub.1058574901",
-                "pub.1069640196",
-                "pub.1064526838",
-                "pub.1058575579",
                 "pub.1040928680",
-                "pub.1006035902",
-                "pub.1058575494",
-                "pub.1058622775",
                 "pub.1018858719",
-                "pub.1003769009",
-                "pub.1063349054",
-                "pub.1103086939",
-                "pub.1069410702",
-                "pub.1004719795",
-                "pub.1038217534",
-                "pub.1069626279",
-                "pub.1069441265",
-                "pub.1032368966",
-                "pub.1015507979",
-                "pub.1058575123",
-                "pub.1069623432",
-                "pub.1047437021",
-                "pub.1064526797",
-                "pub.1069768905",
-                "pub.1070139581",
-                "pub.1002475184",
-                "pub.1033464067",
-                "pub.1058574961",
                 "pub.1014533168",
+                "pub.1063349054",
+                "pub.1032368966",
+                "pub.1069623432",
+                "pub.1015507979",
+                "pub.1064526838",
+                "pub.1069441265",
+                "pub.1069410702",
+                "pub.1069626279",
+                "pub.1006035902",
+                "pub.1058622775",
+                "pub.1069640196",
+                "pub.1002475184",
+                "pub.1058575494",
+                "pub.1058575123",
+                "pub.1011246887",
+                "pub.1070139581",
+                "pub.1033464067",
+                "pub.1103086939",
+                "pub.1058575579",
+                "pub.1058574901",
+                "pub.1003769009",
+                "pub.1069768905",
+                "pub.1038217534",
+                "pub.1058574961",
+                "pub.1047437021",
+                "pub.1004719795",
                 "pub.1058575337",
-                "pub.1033162116"
+                "pub.1033162116",
+                "pub.1064526797"
             ],
             "references": [
-                "pub.1011246887",
-                "pub.1058574901",
-                "pub.1069640196",
-                "pub.1064526838",
-                "pub.1058575579",
                 "pub.1040928680",
-                "pub.1006035902",
-                "pub.1058575494",
-                "pub.1058622775",
                 "pub.1018858719",
-                "pub.1003769009",
-                "pub.1063349054",
-                "pub.1103086939",
-                "pub.1069410702",
-                "pub.1004719795",
-                "pub.1038217534",
-                "pub.1069626279",
-                "pub.1069441265",
-                "pub.1032368966",
-                "pub.1015507979",
-                "pub.1058575123",
-                "pub.1069623432",
-                "pub.1047437021",
-                "pub.1064526797",
-                "pub.1069768905",
-                "pub.1070139581",
-                "pub.1002475184",
-                "pub.1033464067",
-                "pub.1058574961",
                 "pub.1014533168",
+                "pub.1063349054",
+                "pub.1032368966",
+                "pub.1069623432",
+                "pub.1015507979",
+                "pub.1064526838",
+                "pub.1069441265",
+                "pub.1069410702",
+                "pub.1069626279",
+                "pub.1006035902",
+                "pub.1058622775",
+                "pub.1069640196",
+                "pub.1002475184",
+                "pub.1058575494",
+                "pub.1058575123",
+                "pub.1011246887",
+                "pub.1070139581",
+                "pub.1033464067",
+                "pub.1103086939",
+                "pub.1058575579",
+                "pub.1058574901",
+                "pub.1003769009",
+                "pub.1069768905",
+                "pub.1038217534",
+                "pub.1058574961",
+                "pub.1047437021",
+                "pub.1004719795",
                 "pub.1058575337",
-                "pub.1033162116"
+                "pub.1033162116",
+                "pub.1064526797"
             ],
             "research_org_cities": [
                 {
@@ -13662,103 +13636,103 @@
         "keyphrases": {
             "comparable increase": {
                 "count": 2,
-                "rank_score": 0.0693468882372087
+                "rank_score": 0.06874690956106903
             },
             "effects": {
                 "count": 1,
-                "rank_score": 0.04922752660001027
+                "rank_score": 0.048669532705803674
             },
             "empirical results": {
                 "count": 1,
-                "rank_score": 0.07900356920217949
+                "rank_score": 0.0777161003481092
             },
             "employee earnings": {
                 "count": 1,
-                "rank_score": 0.08364560507293403
-            },
-            "establishment": {
-                "count": 1,
-                "rank_score": 0.05576596430863952
+                "rank_score": 0.08327977325633615
             },
             "establishment growth": {
                 "count": 1,
-                "rank_score": 0.12778877056028237
+                "rank_score": 0.1014806110337505
             },
             "establishment wages": {
                 "count": 1,
-                "rank_score": 0.11569593639726769
+                "rank_score": 0.10449302179957577
             },
-            "growth": {
+            "establishmentâ€": {
                 "count": 1,
-                "rank_score": 0.09108687952346814
+                "rank_score": 0.060722101455047486
             },
             "increase": {
                 "count": 1,
-                "rank_score": 0.055506452755286276
+                "rank_score": 0.05498411573404274
             },
             "increase inmunicipality size": {
                 "count": 1,
-                "rank_score": 0.07125828985374753
+                "rank_score": 0.07049669765337109
             },
             "industry agglomeration": {
                 "count": 2,
-                "rank_score": 0.15440529395956648
+                "rank_score": 0.15379450772175995
             },
             "industry location quotient": {
                 "count": 1,
-                "rank_score": 0.08599376696158707
+                "rank_score": 0.0855288069746505
             },
             "local industry agglomeration": {
                 "count": 2,
-                "rank_score": 0.15687208350577977
+                "rank_score": 0.15614072513505328
             },
             "maine": {
                 "count": 2,
-                "rank_score": 0.0736619910555655
+                "rank_score": 0.0730480285247063
             },
             "maine manufacturing": {
                 "count": 1,
-                "rank_score": 0.09249264894189016
+                "rank_score": 0.09157494806864755
             },
             "maine municipalities": {
                 "count": 1,
-                "rank_score": 0.08576841639671282
+                "rank_score": 0.0853551328466185
             },
             "nonmanufacturing businesses": {
                 "count": 1,
-                "rank_score": 0.07395745289688102
+                "rank_score": 0.07296204699798062
+            },
+            "other hand": {
+                "count": 1,
+                "rank_score": 0.03827558100201295
             },
             "population size": {
                 "count": 1,
-                "rank_score": 0.07763743495106774
+                "rank_score": 0.07668517212576018
             },
             "positive effect": {
                 "count": 1,
-                "rank_score": 0.06430499866984604
+                "rank_score": 0.06348832066281092
             },
             "positive relationship": {
                 "count": 1,
-                "rank_score": 0.05347091063338947
+                "rank_score": 0.05261602450807668
             },
             "relatively larger effect": {
                 "count": 1,
-                "rank_score": 0.041815857291707816
-            },
-            "sic": {
-                "count": 2,
-                "rank_score": 0.07014485588751894
+                "rank_score": 0.04134455880482333
             },
             "three-digit sic level": {
                 "count": 1,
-                "rank_score": 0.041413864195820625
+                "rank_score": 0.0389626617785163
             },
-            "two-digit standard industry classification": {
+            "two-digit standard industry classification (sic) level": {
                 "count": 1,
-                "rank_score": 0.059112986919881316
+                "rank_score": 0.05329405716207366
             },
             "u.s. industry average": {
                 "count": 1,
-                "rank_score": 0.08381582269108533
+                "rank_score": 0.08342123308927965
+            },
+            "wages": {
+                "count": 1,
+                "rank_score": 0.03638773049510094
             }
         },
         "original": {
@@ -14222,103 +14196,103 @@
         "keyphrases": {
             "detailed information": {
                 "count": 1,
-                "rank_score": 0.09754537200237193
+                "rank_score": 0.09827536490882895
             },
             "detailed workforce data": {
                 "count": 1,
-                "rank_score": 0.12183575136248055
+                "rank_score": 0.12275024975204814
             },
             "employee recruitment": {
                 "count": 1,
-                "rank_score": 0.08274345749682913
+                "rank_score": 0.08337564124815258
             },
             "employees": {
                 "count": 1,
-                "rank_score": 0.07435119017452732
+                "rank_score": 0.07492103169075782
             },
             "extensive survey": {
                 "count": 1,
-                "rank_score": 0.056000140231326885
+                "rank_score": 0.056417800594548324
             },
             "information": {
                 "count": 1,
-                "rank_score": 0.0733286931429396
+                "rank_score": 0.07387815746239625
             },
             "labor force": {
                 "count": 1,
-                "rank_score": 0.06019953558878184
+                "rank_score": 0.060690716640945684
             },
             "labor force mobility": {
                 "count": 1,
-                "rank_score": 0.107454108154947
+                "rank_score": 0.1083210228110873
             },
             "labor shortages": {
                 "count": 1,
-                "rank_score": 0.09156802399613621
+                "rank_score": 0.09234371936901736
             },
             "labor surpluses": {
                 "count": 1,
-                "rank_score": 0.08823286877104304
+                "rank_score": 0.0889620277981845
             },
             "maine": {
                 "count": 2,
-                "rank_score": 0.046101204064888185
+                "rank_score": 0.0464915191885571
             },
             "many economic development efforts": {
                 "count": 1,
-                "rank_score": 0.08688538143409541
+                "rank_score": 0.08752604891297788
             },
             "methods": {
                 "count": 2,
-                "rank_score": 0.07461949862860959
+                "rank_score": 0.0751661689305542
             },
             "other public data": {
                 "count": 1,
-                "rank_score": 0.11304296023527959
+                "rank_score": 0.11389180647407292
             },
             "phone and mail surveys": {
                 "count": 1,
-                "rank_score": 0.06446701794575935
+                "rank_score": 0.06494703919196025
             },
             "reports": {
                 "count": 1,
-                "rank_score": 0.04949017380781988
+                "rank_score": 0.04992637104883716
             },
             "skills": {
                 "count": 1,
-                "rank_score": 0.06853667403261104
+                "rank_score": 0.06903878092124299
             },
             "slow population growth region": {
                 "count": 1,
-                "rank_score": 0.07082189885992672
+                "rank_score": 0.07154027755638503
             },
             "standard public employment data": {
                 "count": 1,
-                "rank_score": 0.11200568298613156
+                "rank_score": 0.11284593262266968
             },
             "such studies": {
                 "count": 1,
-                "rank_score": 0.07678524203877767
+                "rank_score": 0.07731857233355008
             },
             "suggestions": {
                 "count": 1,
-                "rank_score": 0.06620541748795493
+                "rank_score": 0.0666904453457357
             },
             "survey data": {
                 "count": 1,
-                "rank_score": 0.07494043103819692
+                "rank_score": 0.0755029913103065
             },
             "surveys": {
                 "count": 1,
-                "rank_score": 0.04676364975436356
+                "rank_score": 0.04711245358972505
             },
             "their own regions": {
                 "count": 1,
-                "rank_score": 0.05502570182466625
+                "rank_score": 0.055851914428934
             },
             "training": {
                 "count": 1,
-                "rank_score": 0.049822485191627526
+                "rank_score": 0.05018748996281875
             }
         },
         "original": {
@@ -15219,103 +15193,103 @@
         "keyphrases": {
             "business": {
                 "count": 1,
-                "rank_score": 0.07022182703041874
+                "rank_score": 0.06556751498976096
             },
             "business openings": {
                 "count": 1,
-                "rank_score": 0.10990797617769893
+                "rank_score": 0.10766902693093422
             },
             "clusters": {
                 "count": 1,
-                "rank_score": 0.07448248775223346
+                "rank_score": 0.07369434746344397
             },
             "concentration levels": {
                 "count": 2,
-                "rank_score": 0.09534745697283784
+                "rank_score": 0.09459198338867023
+            },
+            "copyright 2003 gatton college": {
+                "count": 1,
+                "rank_score": 0.05719312162617688
             },
             "county-industries": {
                 "count": 2,
-                "rank_score": 0.06941884509320945
+                "rank_score": 0.06883735877628495
             },
             "economics": {
                 "count": 1,
-                "rank_score": 0.06014750799946239
+                "rank_score": 0.057820465927198195
             },
             "empirical findings": {
                 "count": 1,
-                "rank_score": 0.07188145983533083
+                "rank_score": 0.07116632001862544
             },
             "empirical results": {
                 "count": 1,
-                "rank_score": 0.06864747532040777
+                "rank_score": 0.06802253296010173
             },
-            "gatton college": {
+            "gatton college of business and economics": {
                 "count": 1,
-                "rank_score": 0.07533482189284593
+                "rank_score": 0.05206062086595102
             },
             "increased economic output": {
                 "count": 1,
-                "rank_score": 0.08678643586783044
+                "rank_score": 0.08313630810529807
             },
             "incumbent establishments": {
                 "count": 1,
-                "rank_score": 0.07648502119199056
+                "rank_score": 0.07529077438006047
             },
             "industry": {
                 "count": 1,
-                "rank_score": 0.055223271950079075
+                "rank_score": 0.054769715093953356
             },
             "industry clusters": {
                 "count": 1,
-                "rank_score": 0.11759953814951199
+                "rank_score": 0.1165394806062369
             },
             "industry concentration": {
                 "count": 1,
-                "rank_score": 0.12355800786646318
+                "rank_score": 0.12255013417610491
             },
             "innovative activity": {
                 "count": 1,
-                "rank_score": 0.07577840791928811
-            },
-            "maine county": {
-                "count": 1,
-                "rank_score": 0.07914559623653258
+                "rank_score": 0.07531364863986253
             },
             "model simulations": {
                 "count": 1,
-                "rank_score": 0.06614508438779691
+                "rank_score": 0.06565847669750476
             },
             "new business activity": {
                 "count": 1,
-                "rank_score": 0.13293793623825106
+                "rank_score": 0.13089739442613238
             },
             "new business formation": {
                 "count": 1,
-                "rank_score": 0.12856710454510514
+                "rank_score": 0.12638726144859694
             },
             "new business openings": {
                 "count": 1,
-                "rank_score": 0.12793910462089667
+                "rank_score": 0.12564143932043878
             },
             "new businesses": {
                 "count": 1,
-                "rank_score": 0.12897098426737444
+                "rank_score": 0.12668024383829268
             },
             "no initial industry presence": {
                 "count": 1,
-                "rank_score": 0.06743200769225606
+                "rank_score": 0.06688916965293644
             },
             "university": {
                 "count": 1,
-                "rank_score": 0.06291477603856387
+                "rank_score": 0.0613055970123894
             },
             "worker productivity": {
                 "count": 1,
-                "rank_score": 0.07129737586677726
+                "rank_score": 0.07387021371789942
             },
             "young and small establishments": {
                 "count": 1,
-                "rank_score": 0.055450056102291936
+                "rank_score": 0.05475296165422061
             }
         },
         "original": {

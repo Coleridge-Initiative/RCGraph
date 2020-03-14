@@ -2,7 +2,7 @@
     "messages": [
         "BAD DOI: |None| in original -- Transfer pricing as tax avoidance under different legislative schemes"
     ],
-    "status": "3828 successful DOI lookups",
+    "status": "3848 successful DOI lookups",
     "trouble": "publications that failed every DOI lookup",
     "misses": {
         "20190607_bundesbank_publications.json": [
@@ -748,8 +748,10 @@
             "Doctorate Recipients from U.S. Universities - 2015",
             "Doctorate Recipients from U.S. Universities - 2014"
         ],
+        "20191223_dimensions_ENOW_data_publications.json": [
+            "Accuracy Assessment of NOAA Coastal Change Analysis Program 2006-2010 Land Cover and Land Cover Change Data"
+        ],
         "20191231_noaa_manual_sbr.json": [
-            "Trends in United States Tidal Datum Statistics and Tide Range",
             "Mapping Coastal Risks and Social Vulnerability: Current Tools and Legal Risks",
             "A lifeline and social vulnerability analysis of sea level rise impacts on rural coastal communities",
             "NOAA Report on the U.S. Ocean and Great Lakes Economy"
@@ -849,15 +851,12 @@
             "Toward Reduced Poverty Across Generations: Early Findings from New York City's Conditional Cash Transfer Program",
             "Conditional Cash Transfers in New York City"
         ],
-        "20200225_federated_USDA_AgriculturalResourceManagementSurvey_part1_publications.json": [
-            "Carbon Dioxide Offsets from Anaerobic Digestion of Dairy Waste"
-        ],
         "20200225_federated_USDA_AgriculturalResourceManagementSurvey_part2_publications.json": [
-            "ESSAYS ON ORGANIC FOOD MARKETING IN THE U.S.",
-            "Farm Financial Stress in a Changing Economic Environment: Simulating Credit Risk with New Imputed ARMS Data on Farm Debt"
+            "ESSAYS ON ORGANIC FOOD MARKETING IN THE U.S."
         ],
         "20200226_bundesbank_external_rcc1_publicatins.json": [
             "Industries and the bank lending effects of bank credit demand and monetary policy in Germany",
+            "FDI and Domestic Investment: An Industry-Level View",
             "Intercompany Loans and Profit Shifting 2013 Evidence from Company-Level Data",
             "The impact of thin-capitalization rules on multinationals' financing and investment decisions",
             "At Your Service! The Role of Tax Havens in International Trade with Services"
@@ -897,47 +896,32 @@
             "The Future of Environmental Compliance Incentives in U.S. Agriculture",
             "Changing Farm Structure and the Distribution of Farm Payments and Federal Crop Insurance"
         ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part12_publications.json": [
-            "Farm Activities Associated With Rural Development Initiatives"
-        ],
         "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part13_publications.json": [
             "Financial Management and Portfolio Analysis for U.S. Farm and Nonfarm Households"
         ],
         "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part16_publications.json": [
-            "Income Stabilization Through Government Payments: How Is Farm Household Consumption Affected?",
             "Indirect Monetary Incentives for the 2004 ARMS Phase III Core"
         ],
         "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part17_publications.json": [
             "Intergenerational Management Transfers in Family Farm Businesses",
-            "Internet Access and Internet Purchasing Patterns of Farm Households",
-            "Item Response Rates for the Agricultural Resource Management Survey III in 2006 and 2007"
+            "Internet Access and Internet Purchasing Patterns of Farm Households"
         ],
         "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part19_publications.json": [
-            "Marketing Organic Milk in the United States: Findings from the Agricultural Resource Management Survey of 2005",
-            "Measuring Farm Household Well-Being: Comparing Consumption and Income-based Measures"
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part1_publications.json": [
-            "A Comparison of Farm and Nonfarm Households",
-            "A New U.S. Farm Household Typology: Implications for Agricultural Subsidies"
+            "Marketing Organic Milk in the United States: Findings from the Agricultural Resource Management Survey of 2005"
         ],
         "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part20_publications.json": [
             "Multiple Generation Farm Households: What Determines Primacy in Management?"
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part26_publications.json": [
-            "Targeted Data Collection Efforts for the 2013 ARMS III"
         ],
         "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part27_publications.json": [
             "The Economics of Glyphosate Resistance Management in Corn and Soybean Production"
         ],
         "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part28_publications.json": [
+            "The Impact of Natural Amenity on Farmland Values: A Quantile Regression Approach",
             "The Lebanese woman and the labor market.",
-            "The Mexican Common Property Forestry Sector",
-            "The Off-Farm Occupations of U.S. Farm Operators and Their Spouses"
+            "The Mexican Common Property Forestry Sector"
         ],
         "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part29_publications.json": [
-            "The Role of Goal Structure in Enterprise Selection in U.S. Agriculture",
             "The Role of Information and Prices in the Nitrogen Fertilizer Management Decision: New Evidence from the Agricultural Resource Management Survey",
-            "The Role of Risk and Risk-Aversion in Adoption of Alternative Marketing Arrangements by the U.S. Farmers",
             "The U.S. Farm Lease-Debt Relationship: Evidence from a National Survey"
         ],
         "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part2_publications.json": [
@@ -946,9 +930,6 @@
         "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part30_publications.json": [
             "U.S. Farm Succession Plans and the Process of Transferring Land Ownership",
             "Variance Estimation With USDA's Farm Costs and Returns Surveys and Agricultural Resource Management Study Surveys."
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part31_publications.json": [
-            "Welfare Decomposition in the Context of the Life Cycle of Farm Operators: What Does a National Survey Reveal?"
         ],
         "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part3_publications.json": [
             "Agricultural Resource Management Survey and National Animal Health Monitoring System Data Analysis: Cow-Calf Case Study",
@@ -960,10 +941,7 @@
         ],
         "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part5_publications.json": [
             "Assessing the Effect of Calibration on Nonresponse Bias in the 2005 ARMS Phase III Sample Using 2002 Census of Agriculture Data",
-            "Assessing the Effect of Calibration on Nonresponse Bias in the 2006 ARMS Phase III Sample Using Census 2002 Data",
-            "Assessing the Impact of Health Insurance and Other Socioeconomic Factors on Inequality in Health Care Expenditures among Farm Households",
-            "Broiler Farms' Organization, Management, and Performance",
-            "Can machine learning improve prediction - an application with farm survey data"
+            "Assessing the Effect of Calibration on Nonresponse Bias in the 2006 ARMS Phase III Sample Using Census 2002 Data"
         ],
         "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part6_publications.json": [
             "Categorizing Nonresponse in Phase III of the 2006 Agricultural Resource Management Survey in Washington State",
@@ -972,17 +950,7 @@
         ],
         "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part8_publications.json": [
             "Decomposition of Variability in Farm Household Assets and Debt",
-            "DECOUPLED PAYMENTS IN A CHANGING POLICY SETTING",
             "Determinants of Poverty among U.S. Farm Households"
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part9_publications.json": [
-            "Direct Payments, Cash Rents, Land Values, and the Effects of Imputation in U.S. Farm-level Data",
-            "Do nutrient management plans actually manage nutrients? Evidence from a nationally-representative survey of hog producers"
-        ],
-        "20200304_USDA_ERSAgriculturalResourceManagementSurvey_publications.json": [
-            "\"No-Till\" Farming Is a Growing Practice",
-            "Characteristics and Production Costs of U.S. Cotton Farms, 2007",
-            "Imputing for Missing Data in the ARMS Household Section: A Multivariate Imputation Approach"
         ]
     }
 }
