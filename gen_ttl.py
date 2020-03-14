@@ -23,10 +23,9 @@ PATH_VOCAB_JSONLD = Path("vocab.json")
 PATH_SKOSIFY_CFG = Path("adrf-onto/skosify.cfg")
 PATH_ADRF_TTL = Path("adrf-onto/adrf.ttl")
 PATH_VOC_TTL = Path("voc.ttl")
-PATH_STOPWORDS = Path("stop.txt")
 PATH_INDEX = Path("index.json")
 
-MIN_TOPIC_BREADTH = 1
+MIN_TOPIC_BREADTH = 2
 
 PREAMBLE = """
 @base <https://github.com/Coleridge-Initiative/adrf-onto/wiki/Vocabulary> .
@@ -238,22 +237,6 @@ def load_authors (graph, frags):
 ######################################################################
 ## build the topic index
 
-def load_stopwords ():
-    """
-    load the stopwords to be removed from topic modeling
-    """
-    stopwords = set([])
-
-    with codecs.open(PATH_STOPWORDS, "r", encoding="utf8") as f:
-        for phrase in f.read().split("\n"):
-            text = phrase.lower().strip()
-
-            if len(text) > 0:
-                stopwords.add(text)
-
-    return stopwords
-
-
 def update_topics (graph, frags, known_topics, topic_id, phrase, pub_id, rank, count):
     """
     update the known topics
@@ -283,7 +266,7 @@ def update_topics (graph, frags, known_topics, topic_id, phrase, pub_id, rank, c
     frags[t["uuid"]] = buf
 
 
-def prep_topics (graph, frags, known_topics, stopwords, pub, pub_id):
+def prep_topics (graph, frags, known_topics, pub, pub_id):
     """
     prepare the topic for one publication
     """
@@ -304,16 +287,15 @@ def prep_topics (graph, frags, known_topics, stopwords, pub, pub_id):
             count = val["count"]
             rank = val["rank_score"]
 
-            text = phrase.replace('"', "").replace("\n", "").strip()
-            text = text.replace("ﬁ", "fi").replace("ﬂ", "fl").replace("ﬀ", "ff")
+            text, keep = graph.filter_topics(phrase)
 
-            if text not in stopwords:
+            if keep:
                 id_list = [ text ]
                 topic_id = graph.get_hash(id_list, prefix="topic-")
                 update_topics(graph, frags, known_topics, topic_id, text, pub_id, rank, count)
 
 
-def prep_publications (graph, frags, stopwords, known_topics):
+def prep_publications (graph, frags, known_topics):
     """
     prep the publications, indexing topics
     """
@@ -337,7 +319,7 @@ def prep_publications (graph, frags, stopwords, known_topics):
                     pub_id = graph.get_hash(id_list, prefix="publication-")
 
                     # prep topics
-                    prep_topics(graph, frags, known_topics, stopwords, pub, pub_id)
+                    prep_topics(graph, frags, known_topics, pub, pub_id)
 
                 except:
                     traceback.print_exc()
@@ -596,10 +578,10 @@ def main (args):
     graph = rc_graph.RCGraph("corpus")
     graph.journals.load_entities()
     graph.authors.load_entities()
+    graph.load_stopwords()
 
     frags = {}
     used = set([])
-    stopwords = load_stopwords()
 
     known_providers = load_providers(graph, frags)
     known_datasets = load_datasets(graph, frags, used, known_providers)
@@ -608,7 +590,7 @@ def main (args):
 
     # build the topic index
     known_topics = {}
-    prep_publications(graph, frags, stopwords, known_topics)
+    prep_publications(graph, frags, known_topics)
     build_index(graph, known_topics)
 
     # generate the corpus

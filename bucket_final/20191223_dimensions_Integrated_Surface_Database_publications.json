@@ -3,7 +3,7 @@
         "abstract": "Abstract Vegetation barriers along roads can mitigate the effects of air pollution from traffic. Here, we measure a range of air pollutants in front and behind a hedge during the dormancy, greenup and part of the maturity vegetation cycle along with auxiliary variables. This is the first time a long time-series measuring multiple pollutants on both sides of a hedge is presented. This time-series allows assessing the influence of the annual vegetation cycle, wind direction and high versus low concentrations of both gaseous and particulate matter pollutants across a hedge. A marked jump in concentrations of particles happens after the hedge is greening up; this jump was not seen for gases. For example, a concentration difference for CO and PM1 of −8%, −1% for PM2.5 and −3% for NO2 and +10% for PM10 during dormancy and greenup was measured. At the beginning of the maturity phase, all three PM fractions experience a rapid increase in concentration difference, not seen for gases, to −52% for PM1, −44% for PM2.5 and −35% for PM10. The effect of wind direction is shown to be minor. These measurements are a first step towards an accurate assessment of city-scale air pollution mitigation potential of hedge-like vegetation.",
         "authors": [
             "author-cb58c2eb4dcdd72bd015",
-            "author-9da80fd9617ed13e0cae"
+            "author-97da790834faf96dfdaf"
         ],
         "datasets": [
             "dataset-621"
@@ -11,9 +11,9 @@
         "doi": "10.1016/j.scs.2019.101919",
         "journal": "journal-1203",
         "keyphrases": {
-            "+10%": {
+            "abstract vegetation": {
                 "count": 1,
-                "rank_score": 0.09595196706384494
+                "rank_score": 0.05934006249024805
             },
             "air pollutants": {
                 "count": 1,
@@ -22,6 +22,14 @@
             "air pollution": {
                 "count": 1,
                 "rank_score": 0.09401925549124768
+            },
+            "annual vegetation cycle": {
+                "count": 1,
+                "rank_score": 0.05870052524324881
+            },
+            "auxiliary variables": {
+                "count": 1,
+                "rank_score": 0.05358395256384603
             },
             "city-scale air pollution mitigation potential": {
                 "count": 1,
@@ -35,43 +43,76 @@
                 "count": 1,
                 "rank_score": 0.09312489268516624
             },
+            "dormancy": {
+                "count": 2,
+                "rank_score": 0.05134643279130369
+            },
+            "first time": {
+                "count": 1,
+                "rank_score": 0.04796751288025625
+            },
+            "gases": {
+                "count": 2,
+                "rank_score": 0.046161879850198304
+            },
+            "greenup": {
+                "count": 2,
+                "rank_score": 0.05255617270212521
+            },
+            "hedge": {
+                "count": 4,
+                "rank_score": 0.044016885611183956
+            },
+            "hedge-like vegetation": {
+                "count": 1,
+                "rank_score": 0.06210544445811168
+            },
+            "long time-series": {
+                "count": 1,
+                "rank_score": 0.04469548441308845
+            },
             "low concentrations": {
                 "count": 1,
                 "rank_score": 0.09288060378769748
+            },
+            "maturity vegetation cycle": {
+                "count": 1,
+                "rank_score": 0.06353784237182318
             },
             "multiple pollutants": {
                 "count": 1,
                 "rank_score": 0.07209055652553414
             },
+            "no2": {
+                "count": 2,
+                "rank_score": 0.04155541286068666
+            },
+            "pm1": {
+                "count": 2,
+                "rank_score": 0.060703285803702045
+            },
+            "pm10": {
+                "count": 2,
+                "rank_score": 0.052634213071747406
+            },
+            "pm2.5": {
+                "count": 2,
+                "rank_score": 0.05876434130664044
+            },
             "pm2.5 and −35%": {
                 "count": 1,
                 "rank_score": 0.06471476334532689
             },
+            "roads": {
+                "count": 1,
+                "rank_score": 0.054373877484893536
+            },
             "wind direction": {
                 "count": 2,
                 "rank_score": 0.08381049417376453
-            },
-            "−1%": {
-                "count": 1,
-                "rank_score": 0.09749482272331192
-            },
-            "−35%": {
-                "count": 1,
-                "rank_score": 0.0956439432171671
-            },
-            "−44%": {
-                "count": 1,
-                "rank_score": 0.0955403942949513
-            },
-            "−52%": {
-                "count": 1,
-                "rank_score": 0.09635172631912757
-            },
-            "−8%": {
-                "count": 1,
-                "rank_score": 0.09568642716748554
             }
         },
+        "pdf": "https://doi.org/10.1016/j.scs.2019.101919",
         "title": "The influence of the vegetation cycle on the mitigation of air pollution by a deciduous roadside hedge",
         "url": "https://doi.org/10.1016/j.scs.2019.101919"
     },
@@ -98,9 +139,13 @@
         "doi": "10.1016/j.envint.2019.105285",
         "journal": "journal-1204",
         "keyphrases": {
-            "a community vulnerability index": {
-                "count": 2,
-                "rank_score": 0.07229509213282015
+            "areas": {
+                "count": 3,
+                "rank_score": 0.06282935433551376
+            },
+            "cardiovascular diseases": {
+                "count": 1,
+                "rank_score": 0.06384543308720564
             },
             "communities": {
                 "count": 1,
@@ -114,9 +159,25 @@
                 "count": 1,
                 "rank_score": 0.11692689271035356
             },
+            "community vulnerability index": {
+                "count": 2,
+                "rank_score": 0.07229509213282015
+            },
+            "distributed lag nonlinear models": {
+                "count": 1,
+                "rank_score": 0.06420803942313984
+            },
             "downstate new york": {
                 "count": 1,
                 "rank_score": 0.06767841714615934
+            },
+            "emergency department visits": {
+                "count": 1,
+                "rank_score": 0.061871870042029
+            },
+            "group quarters": {
+                "count": 4,
+                "rank_score": 0.06313043437615448
             },
             "health risks": {
                 "count": 2,
@@ -142,13 +203,25 @@
                 "count": 1,
                 "rank_score": 0.06514980972303958
             },
+            "new york statewide planning and research cooperative system": {
+                "count": 2,
+                "rank_score": 0.058180765955507835
+            },
             "other factors": {
                 "count": 1,
                 "rank_score": 0.08879280449305066
             },
+            "other years": {
+                "count": 1,
+                "rank_score": 0.05859345255157103
+            },
             "population vulnerability": {
                 "count": 2,
                 "rank_score": 0.08378320972476014
+            },
+            "positive contributions": {
+                "count": 1,
+                "rank_score": 0.057172628421102475
             },
             "respiratory diseases": {
                 "count": 2,
@@ -157,8 +230,17 @@
             "several health conditions": {
                 "count": 1,
                 "rank_score": 0.07077691675430116
+            },
+            "substance abuse": {
+                "count": 1,
+                "rank_score": 0.06246043201509292
+            },
+            "superstorm sandy": {
+                "count": 2,
+                "rank_score": 0.05325976652799328
             }
         },
+        "pdf": "https://doi.org/10.1016/j.envint.2019.105285",
         "title": "How community vulnerability factors jointly affect multiple health outcomes after catastrophic storms",
         "url": "https://doi.org/10.1016/j.envint.2019.105285"
     },
@@ -176,9 +258,21 @@
         "doi": "10.1186/s12940-019-0483-5",
         "journal": "journal-839",
         "keyphrases": {
+            "adaptation measures": {
+                "count": 1,
+                "rank_score": 0.05437724555956691
+            },
+            "all non-accidental mortality": {
+                "count": 2,
+                "rank_score": 0.056124160257197575
+            },
             "baseline health rates": {
                 "count": 1,
                 "rank_score": 0.08209547172533932
+            },
+            "climate": {
+                "count": 1,
+                "rank_score": 0.05506065704414692
             },
             "climate change": {
                 "count": 2,
@@ -188,17 +282,29 @@
                 "count": 1,
                 "rank_score": 0.06947499415591185
             },
-            "eh": {
-                "count": 3,
-                "rank_score": 0.08261001134120977
-            },
             "eh days": {
                 "count": 4,
                 "rank_score": 0.09455955869692487
             },
+            "eh-associated ed visits": {
+                "count": 1,
+                "rank_score": 0.06553584106565244
+            },
             "eh-associated emergency department visits": {
                 "count": 1,
                 "rank_score": 0.07080791719650585
+            },
+            "eh-associated mortality": {
+                "count": 1,
+                "rank_score": 0.06334280406081769
+            },
+            "emergency room": {
+                "count": 1,
+                "rank_score": 0.05448773235938471
+            },
+            "ep-associated ed visits": {
+                "count": 1,
+                "rank_score": 0.06310648112256169
             },
             "health burden": {
                 "count": 1,
@@ -211,6 +317,18 @@
             "historical eh-associated hospitalization": {
                 "count": 1,
                 "rank_score": 0.06766674738858386
+            },
+            "inform adaptation strategies": {
+                "count": 1,
+                "rank_score": 0.05856331304522441
+            },
+            "michigan": {
+                "count": 6,
+                "rank_score": 0.06267341217679707
+            },
+            "morbidity": {
+                "count": 2,
+                "rank_score": 0.0526289379980619
             },
             "mortality": {
                 "count": 1,
@@ -227,6 +345,10 @@
             "public health intervention": {
                 "count": 1,
                 "rank_score": 0.07410942805464467
+            },
+            "resultsthe rate": {
+                "count": 1,
+                "rank_score": 0.05634686581265965
             },
             "substantial attributable burden": {
                 "count": 1,
@@ -261,13 +383,17 @@
                 "count": 1,
                 "rank_score": 0.07646311162918416
             },
-            "an efficient crop residue management system": {
-                "count": 1,
-                "rank_score": 0.0695953495349669
-            },
             "crop amounts": {
                 "count": 1,
                 "rank_score": 0.09045126294931019
+            },
+            "crop rotation system": {
+                "count": 1,
+                "rank_score": 0.0606631848129582
+            },
+            "efficient crop residue management system": {
+                "count": 1,
+                "rank_score": 0.0695953495349669
             },
             "episodic hazardous air quality": {
                 "count": 1,
@@ -277,9 +403,25 @@
                 "count": 1,
                 "rank_score": 0.0827767092171299
             },
+            "food grains": {
+                "count": 1,
+                "rank_score": 0.06481274841107668
+            },
             "india": {
                 "count": 4,
                 "rank_score": 0.07102886490427769
+            },
+            "indo-gangetic plain": {
+                "count": 1,
+                "rank_score": 0.04524992716887569
+            },
+            "nasa": {
+                "count": 2,
+                "rank_score": 0.050788583704733305
+            },
+            "net 60%": {
+                "count": 1,
+                "rank_score": 0.04971408025899869
             },
             "net ~60%": {
                 "count": 1,
@@ -297,6 +439,14 @@
                 "count": 2,
                 "rank_score": 0.07432204320957574
             },
+            "open field": {
+                "count": 1,
+                "rank_score": 0.06366049888967323
+            },
+            "pm2.5": {
+                "count": 1,
+                "rank_score": 0.04384599016830238
+            },
             "post-harvest agricultural fire activity": {
                 "count": 1,
                 "rank_score": 0.11110053101330808
@@ -305,17 +455,29 @@
                 "count": 1,
                 "rank_score": 0.10448454073696474
             },
-            "the post-monsoon rice crop production": {
+            "post-monsoon rice crop production": {
                 "count": 1,
                 "rank_score": 0.08338047007687088
+            },
+            "principal crops": {
+                "count": 1,
+                "rank_score": 0.05354487145611027
+            },
+            "rice": {
+                "count": 1,
+                "rank_score": 0.060257027695985434
+            },
+            "robust satellite-based relationship": {
+                "count": 1,
+                "rank_score": 0.04321839481678982
+            },
+            "seasonal agricultural burning": {
+                "count": 1,
+                "rank_score": 0.05018007267338401
             },
             "vegetation index": {
                 "count": 2,
                 "rank_score": 0.07181108200054975
-            },
-            "~60%": {
-                "count": 1,
-                "rank_score": 0.07861242611400299
             }
         },
         "pdf": "http://europepmc.org/articles/PMC6851147?pdf=render",
@@ -332,7 +494,7 @@
             "author-393146498fc830c624a9",
             "author-d2ed866b4ab65a777f32",
             "author-6e4613398dad6ef8d154",
-            "author-c79e29c79ae0d6ea54bc",
+            "author-981c308e320d76498fdd",
             "author-a0ffd7e51ea57632ea85",
             "author-12402ed8152b7f94551a",
             "author-090a29855171c77c2b12",
@@ -356,17 +518,37 @@
                 "count": 1,
                 "rank_score": 0.10379833299992845
             },
+            "citizen-science experiments": {
+                "count": 1,
+                "rank_score": 0.05480957575035598
+            },
+            "correlations": {
+                "count": 1,
+                "rank_score": 0.051281298405027154
+            },
+            "daily": {
+                "count": 1,
+                "rank_score": 0.051270415190177644
+            },
             "daily data": {
                 "count": 1,
                 "rank_score": 0.08241335164906934
             },
-            "data": {
+            "difficulties": {
+                "count": 2,
+                "rank_score": 0.054291542230919435
+            },
+            "future system": {
                 "count": 1,
-                "rank_score": 0.07362795341977542
+                "rank_score": 0.038056651064159536
             },
             "large datasets": {
                 "count": 2,
                 "rank_score": 0.09332502562130665
+            },
+            "long-standing health questions": {
+                "count": 1,
+                "rank_score": 0.039702222166694195
             },
             "mood": {
                 "count": 1,
@@ -392,6 +574,10 @@
                 "count": 1,
                 "rank_score": 0.06320890227121469
             },
+            "real-world populations": {
+                "count": 1,
+                "rank_score": 0.05041098114599109
+            },
             "relative humidity": {
                 "count": 1,
                 "rank_score": 0.06855253955900807
@@ -400,9 +586,21 @@
                 "count": 1,
                 "rank_score": 0.06903408626249316
             },
+            "significant yet modest relationships": {
+                "count": 1,
+                "rank_score": 0.05369451090834917
+            },
+            "smartphones": {
+                "count": 1,
+                "rank_score": 0.046205103979691756
+            },
             "speed": {
                 "count": 1,
                 "rank_score": 0.0584459166956534
+            },
+            "starting point": {
+                "count": 1,
+                "rank_score": 0.03858574833652741
             },
             "their pain symptoms": {
                 "count": 1,
@@ -411,6 +609,10 @@
             "weather conditions": {
                 "count": 1,
                 "rank_score": 0.06788984201746187
+            },
+            "wind": {
+                "count": 1,
+                "rank_score": 0.04787626177769759
             }
         },
         "pdf": "http://europepmc.org/articles/PMC6811599?pdf=render",
@@ -437,9 +639,21 @@
         "doi": "10.1038/s41598-019-38994-w",
         "journal": "journal-025",
         "keyphrases": {
+            "abundance": {
+                "count": 1,
+                "rank_score": 0.04634969230751455
+            },
+            "biological processes": {
+                "count": 1,
+                "rank_score": 0.05596765138216357
+            },
             "complex environmental dependence hamper model development": {
                 "count": 1,
                 "rank_score": 0.10476416835220011
+            },
+            "control": {
+                "count": 1,
+                "rank_score": 0.05597139852828954
             },
             "control dispersion": {
                 "count": 1,
@@ -457,6 +671,10 @@
                 "count": 1,
                 "rank_score": 0.06535969309114992
             },
+            "greece": {
+                "count": 2,
+                "rank_score": 0.049373516229483695
+            },
             "high predictive capacity": {
                 "count": 1,
                 "rank_score": 0.07769163155414743
@@ -468,6 +686,14 @@
             "laboratory experiments": {
                 "count": 1,
                 "rank_score": 0.06384423980690615
+            },
+            "leishmaniasis": {
+                "count": 2,
+                "rank_score": 0.04535039057455706
+            },
+            "model": {
+                "count": 2,
+                "rank_score": 0.046765589009348005
             },
             "model parameters": {
                 "count": 1,
@@ -481,6 +707,10 @@
                 "count": 1,
                 "rank_score": 0.087845373369408
             },
+            "phenotypic diversity": {
+                "count": 1,
+                "rank_score": 0.05458847543082414
+            },
             "population dynamics": {
                 "count": 1,
                 "rank_score": 0.08958862253363337
@@ -493,9 +723,21 @@
                 "count": 3,
                 "rank_score": 0.08522977845531993
             },
+            "surveillance dataset": {
+                "count": 1,
+                "rank_score": 0.043244966997193636
+            },
             "temperate regions": {
                 "count": 1,
                 "rank_score": 0.06069129080372519
+            },
+            "tropical and mediterranean countries": {
+                "count": 1,
+                "rank_score": 0.04716856530548233
+            },
+            "vector-borne diseases": {
+                "count": 1,
+                "rank_score": 0.05641135587042396
             }
         },
         "pdf": "http://europepmc.org/articles/PMC6385250?pdf=render",
@@ -527,6 +769,14 @@
                 "count": 1,
                 "rank_score": 0.11260907698794625
             },
+            "daymet": {
+                "count": 5,
+                "rank_score": 0.06397547626690885
+            },
+            "epidemiologic evaluations": {
+                "count": 1,
+                "rank_score": 0.07013312292868851
+            },
             "exposure": {
                 "count": 1,
                 "rank_score": 0.1056013659553427
@@ -555,6 +805,22 @@
                 "count": 1,
                 "rank_score": 0.11521281657045199
             },
+            "meteorological variables": {
+                "count": 1,
+                "rank_score": 0.0736545834942068
+            },
+            "nearest weather station": {
+                "count": 1,
+                "rank_score": 0.07483263017704408
+            },
+            "population-weighted county average temperatures": {
+                "count": 1,
+                "rank_score": 0.06569693861474485
+            },
+            "populations": {
+                "count": 1,
+                "rank_score": 0.06386155835846924
+            },
             "prism": {
                 "count": 7,
                 "rank_score": 0.08572188048330211
@@ -567,9 +833,25 @@
                 "count": 1,
                 "rank_score": 0.11821414383230873
             },
+            "single-pixel prism values": {
+                "count": 1,
+                "rank_score": 0.0609641471976398
+            },
+            "spatially resolved weather data": {
+                "count": 1,
+                "rank_score": 0.0700868984267926
+            },
+            "spatially-resolved exposure estimates": {
+                "count": 1,
+                "rank_score": 0.05973842621784003
+            },
             "substantial inter-county heterogeneity": {
                 "count": 1,
                 "rank_score": 0.08908295652198812
+            },
+            "united states": {
+                "count": 1,
+                "rank_score": 0.0631583151427442
             },
             "weather stations": {
                 "count": 3,
@@ -603,6 +885,30 @@
                 "count": 1,
                 "rank_score": 0.06180624759153196
             },
+            "calmet/calpuff accuracy evaluation": {
+                "count": 2,
+                "rank_score": 0.05339971173274768
+            },
+            "calmet/calpuff modeling system": {
+                "count": 1,
+                "rank_score": 0.04635637769001967
+            },
+            "calmet/calpuff models": {
+                "count": 1,
+                "rank_score": 0.04887956304714194
+            },
+            "calpuff": {
+                "count": 2,
+                "rank_score": 0.0478604774275823
+            },
+            "calpuff model": {
+                "count": 1,
+                "rank_score": 0.05301420099276738
+            },
+            "calpuff model results": {
+                "count": 1,
+                "rank_score": 0.062233502432112564
+            },
             "comparable model evaluation outcomes": {
                 "count": 1,
                 "rank_score": 0.0984165714584771
@@ -614,6 +920,18 @@
             "different topography": {
                 "count": 1,
                 "rank_score": 0.05769872272491496
+            },
+            "digital elevation model": {
+                "count": 2,
+                "rank_score": 0.059760913603634745
+            },
+            "dispersion model evaluation": {
+                "count": 1,
+                "rank_score": 0.06418549143796615
+            },
+            "effective and accurate modeling": {
+                "count": 1,
+                "rank_score": 0.048559310553544024
             },
             "emission source features": {
                 "count": 1,
@@ -631,17 +949,21 @@
                 "count": 1,
                 "rank_score": 0.07480588974346648
             },
-            "the calpuff model results": {
-                "count": 1,
-                "rank_score": 0.062233502432112564
+            "ned": {
+                "count": 3,
+                "rank_score": 0.04815266816589661
             },
-            "the digital elevation model": {
-                "count": 2,
-                "rank_score": 0.059760913603634745
-            },
-            "the dispersion model evaluation": {
+            "partial plume path adjustment method": {
                 "count": 1,
-                "rank_score": 0.06418549143796615
+                "rank_score": 0.05573585761467485
+            },
+            "srtm3": {
+                "count": 3,
+                "rank_score": 0.04647691503038025
+            },
+            "terrain adjustment method": {
+                "count": 1,
+                "rank_score": 0.056425574945557264
             },
             "tracer substance monitors": {
                 "count": 1,
@@ -653,7 +975,7 @@
             }
         },
         "title": "Parameterization and evaluation of the CALMET/CALPUFF model system in near-field and complex terrain - Terrain data, grid resolution and terrain adjustment method",
-        "url": "https://www.sciencedirect.com/science/article/pii/S0048969719329523?via%3Dihub"
+        "url": "https://doi.org/10.1016/j.scitotenv.2019.06.379"
     },
     {
         "abstract": "Historical reanalyses that span more than a century are needed for a wide range of studies, from understanding large‐scale climate trends to diagnosing the impacts of individual historical extreme weather events. The Twentieth Century Reanalysis (20CR) Project is an effort to fill this need. It is supported by the National Oceanic and Atmospheric Administration (NOAA), the Cooperative Institute for Research in Environmental Sciences (CIRES), and the U.S. Department of Energy (DOE), and is facilitated by collaboration with the international Atmospheric Circulation Reconstructions over the Earth initiative. 20CR is the first ensemble of sub‐daily global atmospheric conditions spanning over 100 years. This provides a best estimate of the weather at any given place and time as well as an estimate of its confidence and uncertainty. While extremely useful, version 2c of this dataset (20CRv2c) has several significant issues, including inaccurate estimates of confidence and a global sea level pressure bias in the mid‐19th century. These and other issues can reduce its effectiveness for studies at many spatial and temporal scales. Therefore, the 20CR system underwent a series of developments to generate a significant new version of the reanalysis. The version 3 system (NOAA‐CIRES‐DOE 20CRv3) uses upgraded data assimilation methods including an adaptive inflation algorithm; has a newer, higher‐resolution forecast model that specifies dry air mass; and assimilates a larger set of pressure observations. These changes have improved the ensemble‐based estimates of confidence, removed spin‐up effects in the precipitation fields, and diminished the sea‐level pressure bias. Other improvements include more accurate representations of storm intensity, smaller errors, and large‐scale reductions in model bias. The 20CRv3 system is comprehensively reviewed, focusing on the aspects that have ameliorated issues in 20CRv2c. Despite the many improvements, some challenges remain, including a systematic bias in tropical precipitation and time‐varying biases in southern high‐latitude pressure fields.",
@@ -682,7 +1004,7 @@
             "author-9b1de9bc783f2cac8f5f",
             "author-399d9b6d3998283a5bb3",
             "author-128893033f5f529e597e",
-            "author-779dbb63b554b636809b",
+            "author-8167927755f8bcad073b",
             "author-5ed963755c8907722826",
             "author-b5fc4b31f890675b2b7c",
             "author-ca7f25454517c29f617b",
@@ -713,10 +1035,6 @@
         "doi": "10.1002/qj.3598",
         "journal": "journal-1210",
         "keyphrases": {
-            "a global sea level pressure bias": {
-                "count": 1,
-                "rank_score": 0.06255202803944165
-            },
             "atmospheric administration": {
                 "count": 1,
                 "rank_score": 0.0653014284728059
@@ -729,6 +1047,26 @@
                 "count": 1,
                 "rank_score": 0.06703270348936463
             },
+            "confidence": {
+                "count": 3,
+                "rank_score": 0.057812144941957536
+            },
+            "dry air mass": {
+                "count": 1,
+                "rank_score": 0.05571518064609086
+            },
+            "environmental sciences": {
+                "count": 1,
+                "rank_score": 0.05416849477468662
+            },
+            "global sea level pressure bias": {
+                "count": 1,
+                "rank_score": 0.06255202803944165
+            },
+            "historical reanalyses": {
+                "count": 1,
+                "rank_score": 0.056122431406488135
+            },
             "inaccurate estimates": {
                 "count": 1,
                 "rank_score": 0.06584290016425774
@@ -737,9 +1075,21 @@
                 "count": 1,
                 "rank_score": 0.07121499905503992
             },
+            "international atmospheric circulation reconstructions": {
+                "count": 1,
+                "rank_score": 0.05178691376706132
+            },
+            "issues": {
+                "count": 1,
+                "rank_score": 0.053915566021358
+            },
             "large‐scale climate trends": {
                 "count": 1,
                 "rank_score": 0.06201152774466288
+            },
+            "large‐scale reductions": {
+                "count": 1,
+                "rank_score": 0.05269960899708745
             },
             "model bias": {
                 "count": 1,
@@ -761,6 +1111,10 @@
                 "count": 1,
                 "rank_score": 0.06444141646101677
             },
+            "sea‐level pressure bias": {
+                "count": 1,
+                "rank_score": 0.05316841002063359
+            },
             "several significant issues": {
                 "count": 1,
                 "rank_score": 0.06637678378952364
@@ -768,6 +1122,14 @@
             "southern high‐latitude pressure fields": {
                 "count": 1,
                 "rank_score": 0.0734586058019447
+            },
+            "storm intensity": {
+                "count": 1,
+                "rank_score": 0.050787179786399954
+            },
+            "tropical precipitation": {
+                "count": 1,
+                "rank_score": 0.052664048230758306
             },
             "upgraded data assimilation methods": {
                 "count": 1,
@@ -790,21 +1152,41 @@
         "doi": "10.1016/j.jweia.2019.103961",
         "journal": "journal-1211",
         "keyphrases": {
-            "a generalized extreme value distribution": {
+            "abstract winds": {
                 "count": 1,
-                "rank_score": 0.06153299192815902
+                "rank_score": 0.05608365285783222
             },
             "airport surface stations": {
                 "count": 1,
                 "rank_score": 0.07070308895629894
             },
+            "analysis": {
+                "count": 1,
+                "rank_score": 0.044027213706814006
+            },
+            "annual": {
+                "count": 1,
+                "rank_score": 0.04105086983340402
+            },
             "annual maximum wind": {
                 "count": 1,
                 "rank_score": 0.10404840136064447
             },
-            "data": {
-                "count": 2,
-                "rank_score": 0.06849549845598389
+            "average shape parameter": {
+                "count": 1,
+                "rank_score": 0.04730912457773666
+            },
+            "both non-directional and directional analyses": {
+                "count": 1,
+                "rank_score": 0.06127969318564838
+            },
+            "central united states": {
+                "count": 1,
+                "rank_score": 0.050285898950846994
+            },
+            "cluster analysis": {
+                "count": 1,
+                "rank_score": 0.05267268616509707
             },
             "different wind speed magnitudes": {
                 "count": 1,
@@ -814,6 +1196,22 @@
                 "count": 1,
                 "rank_score": 0.12590565368559165
             },
+            "fitted probability distribution": {
+                "count": 1,
+                "rank_score": 0.05288600585123877
+            },
+            "generalized extreme value distribution": {
+                "count": 1,
+                "rank_score": 0.06153299192815902
+            },
+            "gumbel": {
+                "count": 1,
+                "rank_score": 0.051062274184677466
+            },
+            "gumbel fit": {
+                "count": 1,
+                "rank_score": 0.0420685362696446
+            },
             "probability distributions": {
                 "count": 1,
                 "rank_score": 0.07930291020563851
@@ -822,6 +1220,10 @@
                 "count": 1,
                 "rank_score": 0.06435208520105064
             },
+            "simple data-driven methodology": {
+                "count": 1,
+                "rank_score": 0.04277310586110452
+            },
             "small sample sizes": {
                 "count": 1,
                 "rank_score": 0.07789064049503841
@@ -829,10 +1231,6 @@
             "statistical analysis": {
                 "count": 1,
                 "rank_score": 0.08876127649931151
-            },
-            "the wind speeds": {
-                "count": 1,
-                "rank_score": 0.0634175069871224
             },
             "thunderstorm wind": {
                 "count": 2,
@@ -849,10 +1247,14 @@
             "wind engineering": {
                 "count": 1,
                 "rank_score": 0.10277027674372474
+            },
+            "wind speeds": {
+                "count": 1,
+                "rank_score": 0.0634175069871224
             }
         },
         "title": "Characteristics of measured extreme thunderstorm near-surface wind gusts in the United States",
-        "url": "https://www.semanticscholar.org/paper/bcf47e15e556144589e9d42c91f1d0792d26bf69"
+        "url": "https://doi.org/10.1016/j.jweia.2019.103961"
     },
     {
         "abstract": "In recent decades, most big cities in China have experienced severe air pollution accompanied by rapid economic and social development. Analysis of measurements of air pollutants form a fundamental basis for understanding the characteristics of air pollution and are important references for policy-making. In this study, five-year measurements of air pollutants at 6 sites in Lhasa, a typical high altitude big city in southwestern China, were analyzed from January 2013 to December 2017. Air pollutants at all the 6 sites in Lhasa generally displayed similar patterns of both diurnal and monthly variations, indicating the mixed atmospheric environment and the overall effect of the meteorological conditions in the city. Spatially, the air pollutant concentrations at the 6 sites were generally characterized by high concentrations of SO2, NO2, CO, PM10 and PM2.5 at urban sites and high O3 concentrations at suburban sites. In comparison with other provincial capital cities in China, Lhasa has low concentrations of air pollutants, except for O3, and thus, better air quality. Although Lhasa has experienced rapid urbanization and economic development, air pollution conditions have remained rather stable and even decreased slightly in term of particular air pollutants. We suggested that the relatively isolated location, low air pollutant emissions associated with its industrial structure and renewable energy consumption, and effective air pollution control measures, collectively contributed to the synchronous improvement of the economy and air quality in Lhasa. Such \"Lhasa pattern\" may serve as a positive example for other regional hub cities in China and beyond that experience socioeconomic development and simultaneously seek to improve air quality.",
@@ -870,6 +1272,10 @@
         "doi": "10.1016/j.envpol.2019.06.113",
         "journal": "journal-1212",
         "keyphrases": {
+            "air pollutant concentrations": {
+                "count": 1,
+                "rank_score": 0.08109002786388436
+            },
             "air pollutants": {
                 "count": 4,
                 "rank_score": 0.1291695623251258
@@ -886,6 +1292,14 @@
                 "count": 1,
                 "rank_score": 0.12379842094568497
             },
+            "china": {
+                "count": 7,
+                "rank_score": 0.06804002737045342
+            },
+            "economic development": {
+                "count": 1,
+                "rank_score": 0.0753891131672584
+            },
             "effective air pollution control measures": {
                 "count": 1,
                 "rank_score": 0.12214641916031951
@@ -897,6 +1311,10 @@
             "high o3 concentrations": {
                 "count": 1,
                 "rank_score": 0.08770514958702545
+            },
+            "lhasa": {
+                "count": 11,
+                "rank_score": 0.07563771146111828
             },
             "low air pollutant emissions": {
                 "count": 1,
@@ -922,17 +1340,41 @@
                 "count": 1,
                 "rank_score": 0.12349597087999734
             },
+            "renewable energy consumption": {
+                "count": 1,
+                "rank_score": 0.06525092625617043
+            },
             "severe air pollution": {
                 "count": 1,
                 "rank_score": 0.13005681375566477
             },
-            "the air pollutant concentrations": {
+            "similar patterns": {
                 "count": 1,
-                "rank_score": 0.08109002786388436
+                "rank_score": 0.06368006496964083
+            },
+            "socioeconomic development": {
+                "count": 1,
+                "rank_score": 0.06424715048658464
+            },
+            "southwestern china": {
+                "count": 1,
+                "rank_score": 0.07077503746484799
+            },
+            "suburban sites": {
+                "count": 1,
+                "rank_score": 0.06656657201952287
+            },
+            "typical high altitude big city": {
+                "count": 1,
+                "rank_score": 0.06940803945851222
+            },
+            "urban sites": {
+                "count": 1,
+                "rank_score": 0.06744788559717584
             }
         },
         "title": "Gaseous and particulate pollutants in Lhasa, Tibet during 2013-2017: Spatial variability, temporal variations and implications",
-        "url": "https://www.sciencedirect.com/science/article/pii/S0269749119314848?via%3Dihub#bib30"
+        "url": "https://www.semanticscholar.org/paper/71c341c81ec55b56db1159a60cd3f849fb2d34dd"
     },
     {
         "abstract": "Abstract. Several field campaigns were conducted in the framework of the\nDynamics-Aerosol-Chemistry-Cloud Interactions in West Africa (DACCIWA)\nproject to measure a broad range of atmospheric constituents. Here we\npresent the analysis of an unprecedented and comprehensive dataset\nintegrating up to 56 volatile organic compounds (VOCs) from ambient\nsites and emission sources. VOCs were collected on multi-sorbent tubes in the\ncoastal city of Abidjan, Cote d'Ivoire, in winter and summer 2016 and\nlater analysed by gas chromatography coupled with flame ionization and mass\nspectrometer detectors (GC-FID and GC-MS) at the laboratory. The comparison between VOC emission source profiles and ambient profiles\nsuggests the substantial impact of two-stroke motorized two-wheel vehicles\nand domestic fires on the composition of Abidjan's atmosphere. However,\ndespite high VOC concentrations near-source, moderate ambient levels were\nobserved (by factors of 10 to 4000 lower), similar to the concentrations\nobserved in northern mid-latitude urban areas. Besides photochemistry, the\nreported high wind speeds seem to be an essential factor that regulates air\npollution levels in Abidjan. Emission ratios ( ΔVOC∕ΔCO ) were established based on\nreal-world measurements achieved for a selected number of representative\ncombustion sources. Maximum measured molar mass emissions were observed from\ntwo-wheel vehicles, surpassing other regional sources by 2 orders of\nmagnitude. Local practices like waste burning also make a significant\ncontribution to VOC emissions, higher than those from light-duty vehicles by\n1.5 to 8 orders of magnitude. These sources also largely govern the VOC's\natmospheric impacts in terms of OH reactivity, secondary organic aerosol\nformation (SOAP), and photochemical ozone creation potential (POCP). While\nthe contribution of aromatics dominates the atmospheric impact, our\nmeasurements reveal the systematic presence of anthropogenic terpenoids in\nall residential combustion sectors. Finally, emission factors were used to\nretrieve and quantify VOC emissions from the main anthropogenic source\nsectors at the national level. Our detailed estimation of VOC emissions\nsuggests that the road transport sector is the dominant source in Cote\nd'Ivoire, emitting around 1200  Gg yr−1 of gas-phase VOCs. These new\nestimates are 100 and 160 times larger than global inventory estimations\nfrom MACCity or EDGAR (v4.3.2), respectively. Additionally, the residential\nsector is largely underestimated in the global emission inventories, by\nfactors of 13 to 43. Considering only Cote d'Ivoire, these new estimates\nfor VOCs are 3 to 6 times higher than the whole of Europe. Given the\nsignificant underestimation of VOC emissions from the transport and residential\nsectors in Cote d'Ivoire, there is an urgent need to build more\nrealistic and region-specific emission inventories for the entire West\nAfrican region. This might be true not only for VOCs, but also for all atmospheric\npollutants. The lack of waste burning, wood fuel burning and charcoal\nburning, and fabrication representation in regional inventories also needs to\nbe addressed, particularly in low-income areas where these types of\nactivities are ubiquitous sources of VOC emissions.",
@@ -955,6 +1397,22 @@
         "doi": "10.5194/acp-19-11721-2019",
         "journal": "journal-1196",
         "keyphrases": {
+            "ambient profiles": {
+                "count": 1,
+                "rank_score": 0.05291126407131097
+            },
+            "atmospheric constituents": {
+                "count": 1,
+                "rank_score": 0.05102012862710158
+            },
+            "cote divoire": {
+                "count": 2,
+                "rank_score": 0.05390462827547949
+            },
+            "divoire": {
+                "count": 1,
+                "rank_score": 0.05200542916801053
+            },
             "emission factors": {
                 "count": 1,
                 "rank_score": 0.08331139797425337
@@ -962,6 +1420,14 @@
             "emission sources": {
                 "count": 1,
                 "rank_score": 0.10070161847390766
+            },
+            "gas chromatography": {
+                "count": 1,
+                "rank_score": 0.05279224720948762
+            },
+            "global emission inventories": {
+                "count": 1,
+                "rank_score": 0.05636862331772983
             },
             "global inventory estimations": {
                 "count": 1,
@@ -975,6 +1441,14 @@
                 "count": 1,
                 "rank_score": 0.0829652419298056
             },
+            "moderate ambient levels": {
+                "count": 1,
+                "rank_score": 0.055876302946505654
+            },
+            "multi-sorbent tubes": {
+                "count": 1,
+                "rank_score": 0.05597475746993105
+            },
             "northern mid-latitude urban areas": {
                 "count": 1,
                 "rank_score": 0.06394105007231823
@@ -987,13 +1461,17 @@
                 "count": 1,
                 "rank_score": 0.05911632699424938
             },
+            "sectors": {
+                "count": 1,
+                "rank_score": 0.054138859536401
+            },
+            "several field campaigns": {
+                "count": 1,
+                "rank_score": 0.05127899788253263
+            },
             "source": {
                 "count": 2,
                 "rank_score": 0.07251318012475186
-            },
-            "the global emission inventories": {
-                "count": 1,
-                "rank_score": 0.05636862331772983
             },
             "ubiquitous sources": {
                 "count": 1,
@@ -1014,6 +1492,10 @@
             "waste burning": {
                 "count": 1,
                 "rank_score": 0.05963816020132112
+            },
+            "wood fuel burning": {
+                "count": 1,
+                "rank_score": 0.05613340520200129
             }
         },
         "pdf": "https://www.atmos-chem-phys.net/19/11721/2019/acp-19-11721-2019.pdf",
@@ -1037,13 +1519,29 @@
         "doi": "10.5194/acp-19-11303-2019",
         "journal": "journal-1196",
         "keyphrases": {
+            "action plan": {
+                "count": 5,
+                "rank_score": 0.058398545384967845
+            },
             "air": {
                 "count": 2,
                 "rank_score": 0.08499178075027204
             },
+            "airpollutants": {
+                "count": 1,
+                "rank_score": 0.04810788042452657
+            },
             "ambient air quality": {
                 "count": 3,
                 "rank_score": 0.10972209356000232
+            },
+            "analyses": {
+                "count": 1,
+                "rank_score": 0.04680235618352398
+            },
+            "assessment": {
+                "count": 1,
+                "rank_score": 0.039378146922443416
             },
             "beijing": {
                 "count": 5,
@@ -1069,17 +1567,45 @@
                 "count": 1,
                 "rank_score": 0.060271372535364874
             },
+            "meteorology": {
+                "count": 1,
+                "rank_score": 0.03885977864961378
+            },
+            "new and independent methods": {
+                "count": 1,
+                "rank_score": 0.04472788034840093
+            },
             "new policies": {
                 "count": 1,
                 "rank_score": 0.06909068532170343
+            },
+            "no2": {
+                "count": 2,
+                "rank_score": 0.0416899652255595
             },
             "other regions": {
                 "count": 1,
                 "rank_score": 0.06166560498214508
             },
+            "otherdeveloping countries": {
+                "count": 1,
+                "rank_score": 0.04813782829304493
+            },
+            "plan": {
+                "count": 1,
+                "rank_score": 0.04141974392268019
+            },
+            "pm 2.5 mass concentration": {
+                "count": 1,
+                "rank_score": 0.04210662927900087
+            },
             "pollutant emissions": {
                 "count": 1,
                 "rank_score": 0.0649859682128422
+            },
+            "primary pollution emissions": {
+                "count": 1,
+                "rank_score": 0.04865850931131482
             },
             "quality": {
                 "count": 1,
@@ -1089,13 +1615,9 @@
                 "count": 3,
                 "rank_score": 0.05718605422868349
             },
-            "this action plan": {
-                "count": 5,
-                "rank_score": 0.058398545384967845
-            },
-            "µ g": {
-                "count": 1,
-                "rank_score": 0.06079804411784921
+            "winter": {
+                "count": 2,
+                "rank_score": 0.04564864078845969
             }
         },
         "pdf": "https://www.atmos-chem-phys.net/19/11303/2019/acp-19-11303-2019.pdf",
@@ -1117,6 +1639,30 @@
             "appropriate applications": {
                 "count": 1,
                 "rank_score": 0.08826045569421351
+            },
+            "backgound information": {
+                "count": 1,
+                "rank_score": 0.06411403528788655
+            },
+            "building performance database": {
+                "count": 1,
+                "rank_score": 0.05216885207204039
+            },
+            "building stock": {
+                "count": 1,
+                "rank_score": 0.04878904991933082
+            },
+            "buildings sector": {
+                "count": 1,
+                "rank_score": 0.04691300697243609
+            },
+            "commercial building energy consumption survey": {
+                "count": 2,
+                "rank_score": 0.06971165193344701
+            },
+            "common practice": {
+                "count": 1,
+                "rank_score": 0.05912748209357613
             },
             "current applications": {
                 "count": 1,
@@ -1150,29 +1696,45 @@
                 "count": 1,
                 "rank_score": 0.14575767589670038
             },
+            "existing public large-scale building energy datasets": {
+                "count": 1,
+                "rank_score": 0.08055830062004013
+            },
             "individual buildings": {
                 "count": 1,
                 "rank_score": 0.08460828211315914
+            },
+            "information": {
+                "count": 1,
+                "rank_score": 0.05660051984626505
+            },
+            "insight": {
+                "count": 2,
+                "rank_score": 0.06190589900275493
             },
             "novel applications": {
                 "count": 1,
                 "rank_score": 0.09209269982720607
             },
+            "opportunities": {
+                "count": 1,
+                "rank_score": 0.05458013817124038
+            },
             "regional energy flows": {
                 "count": 1,
                 "rank_score": 0.11853699639067981
+            },
+            "research and commercial applications": {
+                "count": 1,
+                "rank_score": 0.058519433206462336
             },
             "results": {
                 "count": 2,
                 "rank_score": 0.07243637626716086
             },
-            "the commercial building energy consumption survey": {
-                "count": 2,
-                "rank_score": 0.06971165193344701
-            },
-            "the existing public large-scale building energy datasets": {
+            "sparsity": {
                 "count": 1,
-                "rank_score": 0.08055830062004013
+                "rank_score": 0.04640119058561418
             }
         },
         "pdf": "https://www.frontiersin.org/articles/10.3389/fbuil.2019.00105/pdf",
@@ -1197,13 +1759,25 @@
                 "count": 1,
                 "rank_score": 0.07925148487168496
             },
+            "bearing": {
+                "count": 1,
+                "rank_score": 0.051337432092543246
+            },
             "behavioral agency theory": {
                 "count": 1,
                 "rank_score": 0.11799258423513755
             },
+            "behavioral consequences": {
+                "count": 1,
+                "rank_score": 0.05636024473469009
+            },
             "behavioral decision theory": {
                 "count": 1,
                 "rank_score": 0.11560067262058404
+            },
+            "both the extent": {
+                "count": 1,
+                "rank_score": 0.01963858525730302
             },
             "ceo accountability": {
                 "count": 1,
@@ -1217,6 +1791,10 @@
                 "count": 1,
                 "rank_score": 0.14652154067871645
             },
+            "executives": {
+                "count": 1,
+                "rank_score": 0.061463144680640576
+            },
             "further enrichment": {
                 "count": 1,
                 "rank_score": 0.0640423507793042
@@ -1224,6 +1802,10 @@
             "incentives": {
                 "count": 1,
                 "rank_score": 0.09348049880763634
+            },
+            "influence": {
+                "count": 2,
+                "rank_score": 0.03878700804112289
             },
             "influences agent risk behavior": {
                 "count": 1,
@@ -1233,9 +1815,25 @@
                 "count": 1,
                 "rank_score": 0.06224507642412118
             },
+            "longitudinal data set": {
+                "count": 1,
+                "rank_score": 0.06034673970936371
+            },
+            "mood": {
+                "count": 1,
+                "rank_score": 0.0482043160109906
+            },
+            "our expectations": {
+                "count": 1,
+                "rank_score": 0.03373580822032303
+            },
             "psychology": {
                 "count": 1,
                 "rank_score": 0.07318831656358374
+            },
+            "psychology literature": {
+                "count": 1,
+                "rank_score": 0.04857166341243291
             },
             "response": {
                 "count": 3,
@@ -1272,13 +1870,13 @@
         "doi": "10.1016/j.atmosenv.2019.06.015",
         "journal": "journal-1188",
         "keyphrases": {
-            "186 valid pm2.5 pollution episodes": {
-                "count": 1,
-                "rank_score": 0.086671818996527
-            },
             "abstract ambient pm2.5 pollution": {
                 "count": 1,
                 "rank_score": 0.1265806624078968
+            },
+            "beijings particulate pollution": {
+                "count": 1,
+                "rank_score": 0.08172185092258272
             },
             "categories": {
                 "count": 5,
@@ -1304,6 +1902,46 @@
                 "count": 1,
                 "rank_score": 0.0877538588087281
             },
+            "heavy or severe pollution": {
+                "count": 1,
+                "rank_score": 0.07679016232634533
+            },
+            "high relative humidity": {
+                "count": 1,
+                "rank_score": 0.06470278109722924
+            },
+            "high winds": {
+                "count": 1,
+                "rank_score": 0.06830914212127652
+            },
+            "high-level pollution": {
+                "count": 1,
+                "rank_score": 0.06282400290575461
+            },
+            "light or moderate pollution": {
+                "count": 1,
+                "rank_score": 0.07394603620930781
+            },
+            "low boundary layer heights": {
+                "count": 1,
+                "rank_score": 0.07595791280929151
+            },
+            "low wind speeds": {
+                "count": 1,
+                "rank_score": 0.07701061056780295
+            },
+            "low-level pollution": {
+                "count": 1,
+                "rank_score": 0.06427716836281444
+            },
+            "main pollution type": {
+                "count": 1,
+                "rank_score": 0.07409060270937015
+            },
+            "more local emissions": {
+                "count": 1,
+                "rank_score": 0.06396060434075522
+            },
             "particulate pollution": {
                 "count": 1,
                 "rank_score": 0.12709701519387293
@@ -1316,21 +1954,21 @@
                 "count": 2,
                 "rank_score": 0.09718640466687746
             },
+            "pm2.5 pollution patterns": {
+                "count": 1,
+                "rank_score": 0.084359408090632
+            },
             "pollution": {
                 "count": 1,
                 "rank_score": 0.12737380575257706
             },
+            "pollution categories": {
+                "count": 1,
+                "rank_score": 0.09043322861796473
+            },
             "pollution formation": {
                 "count": 1,
                 "rank_score": 0.1222618528781188
-            },
-            "the pm2.5 pollution patterns": {
-                "count": 1,
-                "rank_score": 0.084359408090632
-            },
-            "the pollution categories": {
-                "count": 1,
-                "rank_score": 0.09043322861796473
             }
         },
         "title": "Analysis of PM2.5 pollution episodes in Beijing from 2014 to 2017: Classification, interannual variations and associations with meteorological features",
@@ -1352,9 +1990,17 @@
                 "count": 1,
                 "rank_score": 0.1309210015977314
             },
+            "air-conditioning design": {
+                "count": 1,
+                "rank_score": 0.05306713397032159
+            },
             "building": {
                 "count": 2,
                 "rank_score": 0.07273133430373385
+            },
+            "cloud cover": {
+                "count": 1,
+                "rank_score": 0.06475827257258877
             },
             "cooling design": {
                 "count": 1,
@@ -1363,6 +2009,10 @@
             "daily": {
                 "count": 1,
                 "rank_score": 0.0724415163404585
+            },
+            "dry-bulb temperature difference": {
+                "count": 1,
+                "rank_score": 0.045292828664176304
             },
             "hourly": {
                 "count": 1,
@@ -1376,23 +2026,47 @@
                 "count": 1,
                 "rank_score": 0.15090764683204774
             },
+            "hourly values": {
+                "count": 1,
+                "rank_score": 0.0542782896700682
+            },
+            "hourly/daily radiation ratio": {
+                "count": 1,
+                "rank_score": 0.0684228594913448
+            },
+            "huang": {
+                "count": 3,
+                "rank_score": 0.0634645063912747
+            },
             "huang model": {
                 "count": 1,
                 "rank_score": 0.11212212331673602
+            },
+            "latest hourly solar radiation": {
+                "count": 1,
+                "rank_score": 0.1025679945049392
+            },
+            "latest typical meteorological year": {
+                "count": 1,
+                "rank_score": 0.06115466110784387
+            },
+            "new model": {
+                "count": 1,
+                "rank_score": 0.06293844708242241
+            },
+            "proposed model": {
+                "count": 2,
+                "rank_score": 0.06705841808313866
             },
             "relative humidity": {
                 "count": 1,
                 "rank_score": 0.07805675581307812
             },
-            "the hourly/daily radiation ratio": {
-                "count": 1,
-                "rank_score": 0.0684228594913448
+            "rmse": {
+                "count": 2,
+                "rank_score": 0.051676125219639255
             },
-            "the latest hourly solar radiation": {
-                "count": 1,
-                "rank_score": 0.1025679945049392
-            },
-            "the solar radiation models": {
+            "solar radiation models": {
                 "count": 1,
                 "rank_score": 0.10172809676581192
             },
@@ -1407,10 +2081,14 @@
             "zhang": {
                 "count": 4,
                 "rank_score": 0.06883383992021008
+            },
+            "zhang and huang model": {
+                "count": 2,
+                "rank_score": 0.05732748952126085
             }
         },
         "title": "Improvement of the hourly global solar model and solar radiation for air-conditioning design in China",
-        "url": "https://www.semanticscholar.org/paper/f9446cfae16e6f13cba758e1b3ed35ef4108b69f"
+        "url": "https://www.sciencedirect.com/science/article/pii/S096014811930223X?via%3Dihub"
     },
     {
         "abstract": "Abstract. Daily Fire Weather Index (FWI) System components calculated from the NASA he Modern-Era Retrospective Analysis for Research and Applications version 2 (MERRA2) are compared to FWI calculations from a global network of weather stations over 2004-2018, and short-term, experimental (8-day) daily FWI forecasts are evaluated for their skill across the Terrestrial Ecoregions of the World for 2018. FWI components from MERRA2 were, in general, biased low compared to station data, but this reflects a mix of coherent low and high biases of different magnitudes. Biases in different MERRA2 FWI components were related to different biases in weather input variables for different regions, but temperature and relative humidity biases were the most important overall. FWI forecasts had high skill for 1–2 day lead times for most of the world. For longer lead-times, forecast skill decreased most quickly at high latitudes, and was most closely related to decreasing skill of relative humidity forecasts. These results provide a baseline for the evaluation and use of fire weather products calculated from global analysis and forecast fields.",
@@ -1423,6 +2101,14 @@
         "doi": "10.5194/nhess-2019-197",
         "journal": "journal-1215",
         "keyphrases": {
+            "biases": {
+                "count": 1,
+                "rank_score": 0.07968587800165505
+            },
+            "coherent low and high biases": {
+                "count": 1,
+                "rank_score": 0.07340605817180262
+            },
             "daily fire weather index": {
                 "count": 1,
                 "rank_score": 0.08457934580008827
@@ -1438,6 +2124,10 @@
             "different biases": {
                 "count": 1,
                 "rank_score": 0.10554199417810062
+            },
+            "different magnitudes": {
+                "count": 1,
+                "rank_score": 0.0831453479552411
             },
             "different merra2 fwi components": {
                 "count": 1,
@@ -1459,6 +2149,14 @@
                 "count": 1,
                 "rank_score": 0.11158165996276243
             },
+            "fwi": {
+                "count": 1,
+                "rank_score": 0.055378165657307646
+            },
+            "fwi calculations": {
+                "count": 1,
+                "rank_score": 0.06690018123847222
+            },
             "fwi components": {
                 "count": 1,
                 "rank_score": 0.09415594491491058
@@ -1467,6 +2165,14 @@
                 "count": 1,
                 "rank_score": 0.1074088205880244
             },
+            "global analysis": {
+                "count": 1,
+                "rank_score": 0.07588390939381451
+            },
+            "high latitudes": {
+                "count": 1,
+                "rank_score": 0.06971214014072628
+            },
             "high skill": {
                 "count": 1,
                 "rank_score": 0.1000461471206095
@@ -1474,6 +2180,18 @@
             "relative humidity forecasts": {
                 "count": 1,
                 "rank_score": 0.10364667415776102
+            },
+            "station data": {
+                "count": 1,
+                "rank_score": 0.06538130240483858
+            },
+            "system components": {
+                "count": 1,
+                "rank_score": 0.07112030170504252
+            },
+            "temperature and relative humidity biases": {
+                "count": 1,
+                "rank_score": 0.06657944374781913
             },
             "weather input variables": {
                 "count": 1,
@@ -1502,9 +2220,9 @@
         "doi": "10.1016/j.heliyon.2019.e02105",
         "journal": "journal-1216",
         "keyphrases": {
-            "data": {
-                "count": 2,
-                "rank_score": 0.08605380994503625
+            "cloud cover": {
+                "count": 1,
+                "rank_score": 0.05752507720504538
             },
             "different visibility": {
                 "count": 1,
@@ -1518,33 +2236,69 @@
                 "count": 1,
                 "rank_score": 0.0786880523693258
             },
+            "high-resolution rapid refresh (hrrr) data": {
+                "count": 1,
+                "rank_score": 0.04936573282803493
+            },
             "hourly visibility": {
                 "count": 1,
                 "rank_score": 0.10845279264116897
+            },
+            "hrrr": {
+                "count": 1,
+                "rank_score": 0.059789359714309986
+            },
+            "hrrr and weather station observations": {
+                "count": 1,
+                "rank_score": 0.055395847037998255
             },
             "least squares": {
                 "count": 2,
                 "rank_score": 0.07445389720372336
             },
+            "locations": {
+                "count": 1,
+                "rank_score": 0.05021776229236727
+            },
             "low visibility": {
                 "count": 2,
                 "rank_score": 0.11294562240226888
+            },
+            "macro-level data": {
+                "count": 1,
+                "rank_score": 0.0649012815024915
             },
             "meteorological data": {
                 "count": 1,
                 "rank_score": 0.08743543463578365
             },
-            "nc": {
-                "count": 5,
-                "rank_score": 0.06775500988400404
+            "motorists": {
+                "count": 1,
+                "rank_score": 0.05150396265616273
+            },
+            "nearest weather station": {
+                "count": 1,
+                "rank_score": 0.06509084512164137
+            },
+            "north carolina": {
+                "count": 2,
+                "rank_score": 0.06032343843146851
+            },
+            "predictions": {
+                "count": 1,
+                "rank_score": 0.05862512720636268
+            },
+            "road link-level": {
+                "count": 1,
+                "rank_score": 0.04868755636561124
+            },
+            "selected regression model": {
+                "count": 1,
+                "rank_score": 0.06410475055894012
             },
             "state routes": {
                 "count": 1,
                 "rank_score": 0.08124427660089448
-            },
-            "the nearest weather station": {
-                "count": 1,
-                "rank_score": 0.06509084512164137
             },
             "us routes": {
                 "count": 1,
@@ -1557,6 +2311,10 @@
             "visibility related information": {
                 "count": 1,
                 "rank_score": 0.1129825527924991
+            },
+            "visibility sensor": {
+                "count": 1,
+                "rank_score": 0.06291447164829184
             },
             "weather stations": {
                 "count": 2,
@@ -1581,9 +2339,21 @@
         "doi": "10.1016/j.jfineco.2018.10.010",
         "journal": "journal-241",
         "keyphrases": {
+            "aggregate state-level macroeconomy": {
+                "count": 1,
+                "rank_score": 0.07360789755593539
+            },
+            "component": {
+                "count": 1,
+                "rank_score": 0.021247591792896262
+            },
             "decisions": {
                 "count": 1,
                 "rank_score": 0.08064249010282576
+            },
+            "economic expectations": {
+                "count": 1,
+                "rank_score": 0.08246057780946377
             },
             "firm-level decisions": {
                 "count": 1,
@@ -1593,6 +2363,14 @@
                 "count": 1,
                 "rank_score": 0.11322779866676794
             },
+            "investment": {
+                "count": 1,
+                "rank_score": 0.05840689384424592
+            },
+            "its impact": {
+                "count": 1,
+                "rank_score": 0.02655802350960998
+            },
             "managers": {
                 "count": 1,
                 "rank_score": 0.07741380997277283
@@ -1600,6 +2378,10 @@
             "mood": {
                 "count": 4,
                 "rank_score": 0.13457047802038724
+            },
+            "mood-induced economic expectations influence firm-level managerial decisions": {
+                "count": 1,
+                "rank_score": 0.0986999286926828
             },
             "more optimistic expectations": {
                 "count": 1,
@@ -1612,6 +2394,18 @@
             "periods": {
                 "count": 1,
                 "rank_score": 0.06974891572093728
+            },
+            "proxy": {
+                "count": 1,
+                "rank_score": 0.028395575317524013
+            },
+            "relatively sunnier periods": {
+                "count": 1,
+                "rank_score": 0.04754696675596834
+            },
+            "results": {
+                "count": 1,
+                "rank_score": 0.027846482361587148
             },
             "sky cloud cover": {
                 "count": 1,
@@ -1629,21 +2423,13 @@
                 "count": 1,
                 "rank_score": 0.09328389767433451
             },
-            "that mood-induced economic expectations influence firm-level managerial decisions": {
+            "their expectations": {
                 "count": 1,
-                "rank_score": 0.0986999286926828
-            },
-            "the aggregate state-level macroeconomy": {
-                "count": 1,
-                "rank_score": 0.07360789755593539
-            },
-            "the economic expectations": {
-                "count": 1,
-                "rank_score": 0.08246057780946377
+                "rank_score": 0.05740748189806452
             }
         },
         "title": "Mood, Firm Behavior, and Aggregate Economic Outcomes",
-        "url": "https://doi.org/10.1016/j.jfineco.2018.10.010"
+        "url": "https://www.semanticscholar.org/paper/077ce86d6821ab1a75695c67ab0c3aa4d48bd0fe"
     },
     {
         "abstract": "Winter storms pose numerous hazards to the Northeast United States, including rain, snow, strong wind, and flooding. These hazards can cause millions of dollars in damages from one storm alone. This study investigates meteorological intensity and impacts of winter storms from 2001 to 2014 on coastal counties in Connecticut, New Jersey, and New York and underscores the consequences of winter storms. The study selected 70 winter storms on the basis of station observations of surface wind strength, heavy precipitation, high storm tide, and snow extremes. Storm rankings differed between measures, suggesting that intensity is not easily defined with a single metric. Several storms fell into two or more categories (multiple-category storms). Following storm selection, property damages were examined to determine which types lead to high losses. The analysis of hazards (or events) and associated damages using the Storm Events Database of the National Centers for Environmental Information indicates that multiple-category storms were responsible for a greater portion of the damage. Flooding was responsible for the highest losses, but no discernible connection exists between the number of storms that afflict a county and the damage it faces. These results imply that losses may rely more on the incidence of specific hazards, infrastructure types, and property values, which vary throughout the region.",
@@ -1670,6 +2456,10 @@
                 "count": 3,
                 "rank_score": 0.07880711835322601
             },
+            "environmental information": {
+                "count": 1,
+                "rank_score": 0.06417627535413292
+            },
             "hazards": {
                 "count": 2,
                 "rank_score": 0.08369975623128403
@@ -1682,9 +2472,29 @@
                 "count": 1,
                 "rank_score": 0.12196455170779322
             },
+            "infrastructure types": {
+                "count": 1,
+                "rank_score": 0.06551347470317992
+            },
+            "losses": {
+                "count": 1,
+                "rank_score": 0.06399245597837766
+            },
+            "meteorological intensity": {
+                "count": 1,
+                "rank_score": 0.06590263059330503
+            },
             "multiple-category storms": {
                 "count": 2,
                 "rank_score": 0.07976447359244393
+            },
+            "new jersey": {
+                "count": 2,
+                "rank_score": 0.06742508221970797
+            },
+            "new york": {
+                "count": 2,
+                "rank_score": 0.06387779123651365
             },
             "numerous hazards": {
                 "count": 1,
@@ -1694,9 +2504,17 @@
                 "count": 1,
                 "rank_score": 0.09050854663128004
             },
+            "property values": {
+                "count": 1,
+                "rank_score": 0.06689822498864369
+            },
             "several storms": {
                 "count": 1,
                 "rank_score": 0.1148229344456773
+            },
+            "snow extremes": {
+                "count": 1,
+                "rank_score": 0.06306554262978356
             },
             "specific hazards": {
                 "count": 1,
@@ -1714,9 +2532,17 @@
                 "count": 2,
                 "rank_score": 0.11947739669966913
             },
+            "strong wind": {
+                "count": 1,
+                "rank_score": 0.06763752474808127
+            },
             "surface wind strength": {
                 "count": 1,
                 "rank_score": 0.07918710070388858
+            },
+            "winter": {
+                "count": 4,
+                "rank_score": 0.06933171996894605
             },
             "winter storms": {
                 "count": 4,
@@ -1749,6 +2575,10 @@
                 "count": 2,
                 "rank_score": 0.11722521761525989
             },
+            "cold thresholds": {
+                "count": 1,
+                "rank_score": 0.05492574118198787
+            },
             "cold wave effects": {
                 "count": 1,
                 "rank_score": 0.1168201642046558
@@ -1756,6 +2586,14 @@
             "cold weather": {
                 "count": 3,
                 "rank_score": 0.10987934335493069
+            },
+            "cold-mortality association": {
+                "count": 1,
+                "rank_score": 0.06043155362708904
+            },
+            "decreasing latitude": {
+                "count": 1,
+                "rank_score": 0.05892372592931222
             },
             "distributed lag non-linear models": {
                 "count": 1,
@@ -1772,6 +2610,14 @@
             "higher increased mortality risks": {
                 "count": 1,
                 "rank_score": 0.11814500238424996
+            },
+            "ischemic heart diseases": {
+                "count": 1,
+                "rank_score": 0.06940850238861412
+            },
+            "lower latitudes": {
+                "count": 1,
+                "rank_score": 0.06067465685105824
             },
             "mortality": {
                 "count": 2,
@@ -1793,9 +2639,29 @@
                 "count": 1,
                 "rank_score": 0.08937113782494359
             },
+            "respiratory diseases": {
+                "count": 1,
+                "rank_score": 0.06613088853950369
+            },
             "several msas": {
                 "count": 1,
                 "rank_score": 0.0773003643804561
+            },
+            "statistically significant cold wave-mortality associations": {
+                "count": 1,
+                "rank_score": 0.0668915118242675
+            },
+            "studies": {
+                "count": 3,
+                "rank_score": 0.060892622770018306
+            },
+            "temperature": {
+                "count": 2,
+                "rank_score": 0.06410318077634643
+            },
+            "texas": {
+                "count": 4,
+                "rank_score": 0.06688333445157518
             },
             "texas metropolitan areas": {
                 "count": 1,
@@ -1803,7 +2669,7 @@
             }
         },
         "title": "Impacts of cold weather on all-cause and cause-specific mortality in Texas, 1990-2011",
-        "url": "https://www.semanticscholar.org/paper/1773f03d9655a830bb5aad7303707fb59e21c11d"
+        "url": "https://doi.org/10.1016/j.envpol.2017.03.022"
     },
     {
         "abstract": "Abstract. The Canadian Forest Fire Weather Index (FWI) System is the mostly widely used fire danger rating system in the world. We have developed a global database of daily FWI System calculations, beginning in 1980, called the Global Fire WEather Database (GFWED) gridded to a spatial resolution of 0.5° latitude by 2/3° longitude. Input weather data were obtained from the NASA Modern Era Retrospective-Analysis for Research and Applications (MERRA), and two different estimates of daily precipitation from rain gauges over land. FWI System Drought Code calculations from the gridded data sets were compared to calculations from individual weather station data for a representative set of 48 stations in North, Central and South America, Europe, Russia, Southeast Asia and Australia. Agreement between gridded calculations and the station-based calculations tended to be most different at low latitudes for strictly MERRA-based calculations. Strong biases could be seen in either direction: MERRA DC over the Mato Grosso in Brazil reached unrealistically high values exceeding DC = 1500 during the dry season but was too low over Southeast Asia during the dry season. These biases are consistent with those previously identified in MERRA's precipitation, and they reinforce the need to consider alternative sources of precipitation data. GFWED can be used for analyzing historical relationships between fire weather and fire activity at continental and global scales, in identifying large-scale atmosphere–ocean controls on fire weather, and calibration of FWI-based fire prediction models.",
@@ -1828,9 +2694,21 @@
         "doi": "10.5194/nhess-15-1407-2015",
         "journal": "journal-1217",
         "keyphrases": {
+            "alternative sources": {
+                "count": 1,
+                "rank_score": 0.05987559534511698
+            },
             "calculations": {
                 "count": 1,
                 "rank_score": 0.08532075056545375
+            },
+            "canadian forest fire weather index": {
+                "count": 1,
+                "rank_score": 0.05580255641526357
+            },
+            "daily": {
+                "count": 2,
+                "rank_score": 0.06144348198244731
             },
             "daily fwi system calculations": {
                 "count": 1,
@@ -1847,6 +2725,10 @@
             "fire weather": {
                 "count": 2,
                 "rank_score": 0.10103305411501545
+            },
+            "fwi": {
+                "count": 1,
+                "rank_score": 0.06821451986702524
             },
             "fwi system": {
                 "count": 1,
@@ -1868,6 +2750,10 @@
                 "count": 1,
                 "rank_score": 0.08947386650076329
             },
+            "historical relationships": {
+                "count": 1,
+                "rank_score": 0.05472703267744273
+            },
             "individual weather station data": {
                 "count": 1,
                 "rank_score": 0.09356330060774266
@@ -1876,21 +2762,41 @@
                 "count": 1,
                 "rank_score": 0.08530111682361369
             },
+            "low latitudes": {
+                "count": 1,
+                "rank_score": 0.06375766080281134
+            },
+            "merra": {
+                "count": 2,
+                "rank_score": 0.06048033904618955
+            },
             "merra dc": {
                 "count": 1,
                 "rank_score": 0.07481615102403892
+            },
+            "ocean controls": {
+                "count": 1,
+                "rank_score": 0.054075461068968066
             },
             "precipitation data": {
                 "count": 1,
                 "rank_score": 0.07896060094717465
             },
+            "rain gauges": {
+                "count": 1,
+                "rank_score": 0.055677643013315556
+            },
             "southeast asia": {
                 "count": 4,
                 "rank_score": 0.07132418658980186
+            },
+            "strong biases": {
+                "count": 1,
+                "rank_score": 0.06192106369782771
             }
         },
         "pdf": "https://www.nat-hazards-earth-syst-sci.net/15/1407/2015/nhess-15-1407-2015.pdf",
         "title": "Development of a Global Fire Weather Database",
-        "url": "https://www.semanticscholar.org/paper/ad6e67e65291e09fbf1148bb94b2f6cfcaef6951"
+        "url": "https://www.researchgate.net/publication/273448189_Development_of_a_Global_Fire_Weather_Database"
     }
 ]
