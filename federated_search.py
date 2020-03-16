@@ -490,13 +490,6 @@ if __name__ == '__main__':
 
 
     a_search = dict()
-    a_search['terms'] = "Survey of Doctorate Recipients NSF"
-    a_search['dataset'] = "dataset-371"
-    terms.append(a_search)
-
-
-
-    a_search = dict()
     a_search['terms'] =  'Lisa Frehill Survey of Doctorate Recipients'
     a_search['dataset'] = "dataset-371"
     terms.append(a_search)
@@ -531,7 +524,7 @@ if __name__ == '__main__':
 
 
 
-    'Lisa Frehill Survey of Doctorate Recipients'
+
 
 
     #TODO check limit is an integer.
