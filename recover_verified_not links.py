@@ -7,9 +7,12 @@ import pandas as pd
 import json
 import numpy
 
+DEBUG = False
+
 PATH_DATADROPS = Path("richcontextmetadata/metadata")
 PATH_DATASETS = Path("datasets")
-DEBUG = False
+
+PATH_SHADOW_PARTITIONS = Path("not-links_partitions")
 
 DATADROP_SIZE_UPPER_LIMIT = 75 #Datadrops bigger than this are unlikely to be fully processed
 RATIO_LOWER_LIMIT = 0.15 # ratio defined as partition size / datadrop size. If is too low, it is probably that the reviewer did not process the whole datadrop
@@ -257,6 +260,9 @@ def main():
                 cant_files += 1
                 if shadow_partition:
                     cant_shadow_partition += 1
+
+                    with open(PATH_SHADOW_PARTITIONS / partition_name, 'w', encoding="utf-8") as outfile:
+                        json.dump(shadow_partition, outfile, indent=2, ensure_ascii=False)
 
         else:
             print(PATH_DATADROPS / datadrop_directory, "does not exists")
