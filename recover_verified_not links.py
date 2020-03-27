@@ -64,7 +64,7 @@ def create_pub_dict(linkages_dataframe):
         pub_dict_list.append(pub_dict)
     return pub_dict_list
 
-def recover_verified_not_links(filename, publications):
+def recover_verified_not_links(filename, valid_links):
 
     pubs_classified_as_not_valid = False
 
@@ -82,20 +82,40 @@ def recover_verified_not_links(filename, publications):
     else:
         print("valid column not present")
 
-    ratio = len(publications) / len(datadropDF)
-    print("partition size", len(publications),"| datadrop size", len(datadropDF),\
-          "valid/total ratio", str(ratio), "process:", ratio *100 > 12.5 and ratio *100 != 100)
+    ratio = len(valid_links) / len(datadropDF)
+    print("partition size", len(valid_links), "| datadrop size", len(datadropDF),\
+          "valid/total ratio", str(ratio), "process:", ratio * 100 > 12.5 and ratio * 100 != 100)
 
     #filter out datadrops
 
     if len(datadropDF) > DATADROP_SIZE_UPPER_LIMIT: # Datadrops too big
         return None
-    elif len(publications) == len(datadropDF): # cvs file most probably contains only valid links
+    elif len(valid_links) == len(datadropDF): # cvs file most probably contains only valid links
         return None
     elif ratio < RATIO_LOWER_LIMIT:
         return None
     else:
-        return create_pub_dict(  normalize_fields(datadropDF))
+
+        datadrop_links = create_pub_dict(normalize_fields(datadropDF))
+
+        shadow_partition = list()
+
+        for link in datadrop_links:
+            link_exists_in_partition = False
+            for valid_link in valid_links:
+                if "doi" in link["original"] and "doi" in valid_link["original"]:
+                    if link["original"]["doi"] == valid_link["original"]["doi"]:
+                        link_exists_in_partition = True
+                        break
+                elif "title" in link and "title" in valid_link:
+                    if link["title"] == valid_link["title"]:
+                        link_exists_in_partition = True
+                        break
+
+            if link_exists_in_partition == False:
+                shadow_partition.append(link)
+
+        return shadow_partition
 
 
 
@@ -169,7 +189,7 @@ def select_datadrop_file(datadrop_directory):
 
         except Exception as e:
             # debug this as an edge case
-            print("exception while trying to open", filename, str(e))
+            print("exception while selecting the datadrop file", filename, str(e))
             continue
 
 
@@ -200,25 +220,23 @@ def main():
 
 
 
-    ## for each partition, check if there is a metadata folder with a matching name
-
     graph = rc_graph.RCGraph()
     cant_partitions =0
     cant_dirs = 0
     cant_files = 0
     cant_shadow_partition =0
 
-    for partition_name, pub_iter in graph.iter_publications(graph.PATH_PUBLICATIONS):
+    ## for each partition, check if there is a metadata folder with a matching name
+    for partition_name, valid_links in graph.iter_publications(graph.PATH_PUBLICATIONS):
         cant_partitions += 1
 
-
+        # infer datadrop original directory from partition filename
         datadrop_directory = re.sub(".json$", "", partition_name)
 
         if datadrop_directory.endswith("_publications"):
             datadrop_directory = re.sub("_publications$", "", datadrop_directory)
-
         else:
-            print("not all partitions follows the name convention:",partition_name)
+            print("this partition or the datadrop directory don't follow the name convention:",partition_name)
 
         print("partition:",datadrop_directory)
 
@@ -229,12 +247,13 @@ def main():
         if (os.path.isdir(PATH_DATADROPS / datadrop_directory )):
             cant_dirs += 1
 
+            # select the best candidate from all CSV files in the datadrop directory
             datadrop_filename = select_datadrop_file(PATH_DATADROPS / datadrop_directory)
             print("selected file: "+ str(datadrop_filename))
 
-
             if datadrop_filename:
-                shadow_partition = recover_verified_not_links(PATH_DATADROPS / datadrop_directory / datadrop_filename, pub_iter)
+                # create a shadow partition with the verified not-links
+                shadow_partition = recover_verified_not_links(PATH_DATADROPS / datadrop_directory / datadrop_filename, valid_links)
                 cant_files += 1
                 if shadow_partition:
                     cant_shadow_partition += 1
