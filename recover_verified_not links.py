@@ -228,6 +228,7 @@ def main():
     cant_dirs = 0
     cant_files = 0
     cant_shadow_partition =0
+    cant_not_links = 0
 
     ## for each partition, check if there is a metadata folder with a matching name
     for partition_name, valid_links in graph.iter_publications(graph.PATH_PUBLICATIONS):
@@ -255,14 +256,18 @@ def main():
             print("selected file: "+ str(datadrop_filename))
 
             if datadrop_filename:
+                cant_files += 1
                 # create a shadow partition with the verified not-links
                 shadow_partition = recover_verified_not_links(PATH_DATADROPS / datadrop_directory / datadrop_filename, valid_links)
-                cant_files += 1
                 if shadow_partition:
                     cant_shadow_partition += 1
+                    cant_not_links += len(shadow_partition)
 
+                    # save the shadow partition preserving the original partition name.
+                        #also order links by title and internally order all metadata keys consistently in order to get an easier to read diff when tweaking the script
+                    shadow_partition = sorted(shadow_partition, key=lambda x: x["title"])
                     with open(PATH_SHADOW_PARTITIONS / partition_name, 'w', encoding="utf-8") as outfile:
-                        json.dump(shadow_partition, outfile, indent=2, ensure_ascii=False)
+                        json.dump(shadow_partition, outfile, indent=2, ensure_ascii=False, sort_keys=True)
 
         else:
             print(PATH_DATADROPS / datadrop_directory, "does not exists")
@@ -272,6 +277,7 @@ def main():
     print("matching directories by name",cant_dirs)
     print("matching files by name",cant_files)
     print("shadow partition",cant_shadow_partition)
+    print("not-links",cant_not_links)
 
 
 
