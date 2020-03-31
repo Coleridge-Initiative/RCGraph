@@ -92,6 +92,7 @@ def recover_verified_not_links(filename, valid_links):
     #filter out datadrops
 
     if len(datadropDF) > DATADROP_SIZE_UPPER_LIMIT: # Datadrops too big
+        print("Datadrop too big",len(datadropDF))
         return None
     elif len(valid_links) == len(datadropDF): # cvs file most probably contains only valid links
         return None
@@ -172,15 +173,28 @@ def select_datadrop_file(datadrop_directory):
                     datadrop_max_row_count = len(datadropDF)
                     longest_datadrop = filename
 
+            #testing case
+            if "valid" not in datadropDF.columns:
+                continue
+
             if "valid" in datadropDF.columns:
                 nunique_valid_values = datadropDF.valid.nunique()
+
+                # testing case
+                if nunique_valid_values < 2:
+                    continue
+
+                # if "valid" column has 1 value typically is "yes", so I change it to -1 to penalize it compared to an empty "valid" column which typically means that is the original datadrop
+                if nunique_valid_values == 1:
+                    nunique_valid_values = -1
+                print("valid nunique values:", nunique_valid_values)
 
                 if DEBUG:
                     if datadropDF.valid.nunique() > max_classes :
                         max_classes = datadropDF.valid.nunique()
                         datadrop_with_most_classes = filename
             else:
-                nunique_valid_values = 1
+                nunique_valid_values = 0
 
             auxDF = auxDF.append(
                 {
@@ -206,6 +220,7 @@ def select_datadrop_file(datadrop_directory):
     if len(auxDF) > 0:
 
         auxDF = auxDF.sort_values(["valid_nunique", "cant_rows","filename_lenght"], ascending=(False, False, True))
+        print(auxDF[["valid_nunique", "cant_rows","filename_lenght"]].head())
         return auxDF.iloc[0]["filename"]
     else:
         return None
