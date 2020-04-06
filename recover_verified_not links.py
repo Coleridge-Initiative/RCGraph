@@ -175,7 +175,7 @@ def select_datadrop_file(datadrop_directory):
                 datadropDF = pd.read_csv(datadrop_directory / filename, encoding="utf-8")
             except UnicodeDecodeError as e:
                 # when this exception is thrown I try one other thing that would normally fail to open the files
-                print("exception",str(e))
+                print("UnicodeDecodeError exception file",filename,str(e))
                 datadropDF = pd.read_csv(datadrop_directory / filename, engine="python")
 
             #print(datadropDF.head())
