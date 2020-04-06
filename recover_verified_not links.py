@@ -93,7 +93,7 @@ def recover_verified_not_links(datadropDF, valid_links):
 
     ratio = len(valid_links) / len(datadropDF)
     print("partition size", len(valid_links), "| datadrop size", len(datadropDF),\
-          "valid/total ratio", str(ratio), "process:", ratio * 100 > 12.5 and ratio * 100 != 100)
+          "valid/total ratio", str(ratio), "process:", ratio  > RATIO_LOWER_LIMIT and ratio != 1)
 
     # filter out datadrops
     if len(datadropDF) > DATADROP_SIZE_UPPER_LIMIT: # Datadrops too big
@@ -247,15 +247,15 @@ def main():
     ##TODO #Note: USDA ARMS datadrops where processed using only the abstract, here there might be several false negatives
 
     graph = rc_graph.RCGraph()
-    cant_partitions =0
-    cant_dirs = 0
-    cant_files = 0
-    cant_shadow_partition =0
-    cant_not_links = 0
+    count_partitions =0
+    count_dirs = 0
+    count_files = 0
+    count_shadow_partition =0
+    count_not_links = 0
 
     ## for each partition, check if there is a metadata folder with a matching name
     for partition_name, valid_links in graph.iter_publications(graph.PATH_PUBLICATIONS):
-        cant_partitions += 1
+        count_partitions += 1
 
         # infer datadrop original directory from partition filename
         datadrop_directory = re.sub(".json$", "", partition_name)
@@ -269,18 +269,18 @@ def main():
 
         #check if the partition filename matches with a datadrop directory
         if (os.path.isdir(PATH_DATADROPS / datadrop_directory )):
-            cant_dirs += 1
+            count_dirs += 1
 
             # select the best candidate from all CSV files in the datadrop directory
             datadropDF = select_datadrop_file(PATH_DATADROPS / datadrop_directory)
 
             if datadropDF is not None:
-                cant_files += 1
+                count_files += 1
                 # create a shadow partition with the verified not-links
                 shadow_partition = recover_verified_not_links(datadropDF, valid_links)
                 if shadow_partition:
-                    cant_shadow_partition += 1
-                    cant_not_links += len(shadow_partition)
+                    count_shadow_partition += 1
+                    count_not_links += len(shadow_partition)
 
                     # save the shadow partition preserving the original partition name.
                         #also order links by title and internally order all metadata keys consistently in order to get an easier to read diff when tweaking the script
@@ -291,11 +291,11 @@ def main():
         else:
             print(PATH_DATADROPS / datadrop_directory, "does not exists")
 
-    print("existing partitions",cant_partitions)
-    print("matching directories by name",cant_dirs)
-    print("matching files by name",cant_files)
-    print("shadow partition",cant_shadow_partition)
-    print("not-links",cant_not_links)
+    print("existing partitions",count_partitions)
+    print("matching directories by name",count_dirs)
+    print("matching files by name",count_files)
+    print("shadow partition",count_shadow_partition)
+    print("not-links",count_not_links)
 
 
 if __name__ == "__main__":
