@@ -22,7 +22,7 @@ def normalize_fields(datadropDF):
     # unify different column name for valid links
     replacements = {
         "valid": ["valid", "valid?", "Validation", "validation", "dataset_used?","Used dataset?"],
-        "dataset": ["dataset", "datasets", "dataset_id"]
+        "dataset": ["dataset", "datasets", "dataset_id", "dataset id"]
     }
     datadropDF.columns = datadropDF.columns.str.strip()
     datadropDF.rename(columns={el: k for k, v in replacements.items() for el in v}, inplace=True)
@@ -30,6 +30,23 @@ def normalize_fields(datadropDF):
 
     return datadropDF
 
+def normalize_valid_field_values(datadropDF):
+
+    print("before replace:",datadropDF.valid.unique())
+
+    # convert all values of "valid" column into strings and lowercase
+    datadropDF["valid"] = datadropDF.valid.astype(str).str.lower()
+
+    datadropDF.replace({'valid': {
+                            "0": "no" , "n": "no" ,
+                            "1": "yes", "y": "yes",
+                            "2": "maybe", "review" : "maybe",
+                            "dupe": "duplicated", "duped" : "duplicated",
+                            "unavailable" : "no access",
+                            "nan": "", " - ": "", " -": "",
+    }},inplace=True)
+
+    print("after replace:",datadropDF.valid.unique())
 
 #copied this function from publications_export_template.py and edited it
 def create_pub_dict(linkages_dataframe):
@@ -82,6 +99,7 @@ def recover_verified_not_links(filename, valid_links):
 
     if "valid" in datadropDF.columns:
         print("valid unique values:",datadropDF.valid.nunique())
+        normalize_valid_field_values(datadropDF)
     else:
         print("valid column not present")
 
@@ -148,8 +166,18 @@ def select_datadrop_file(datadrop_directory):
             continue
         print("analyzing file",filename)
 
+
         try:
-            datadropDF = pd.read_csv(datadrop_directory / filename, encoding="utf-8")
+
+            # some CSV files raised an UnicoDecodeError and those can be opened using engine="python" but not the rest
+            # that is why I use this nested try
+            try:
+                datadropDF = pd.read_csv(datadrop_directory / filename, encoding="utf-8")
+            except UnicodeDecodeError as e:
+                # when this exception is thrown I try one other thing that would normally fail to open the files
+                print("exception",str(e))
+                datadropDF = pd.read_csv(datadrop_directory / filename, engine="python")
+
             #print(datadropDF.head())
 
             datadropDF = normalize_fields(datadropDF)
