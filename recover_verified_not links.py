@@ -289,7 +289,7 @@ def main():
                         json.dump(shadow_partition, outfile, indent=2, ensure_ascii=False, sort_keys=True)
 
         else:
-            print(PATH_DATADROPS / datadrop_directory, "does not exists")
+            print(PATH_DATADROPS / datadrop_directory, "does not exist")
 
     print("existing partitions",count_partitions)
     print("matching directories by name",count_dirs)
