@@ -25,21 +25,24 @@ def gather_doi (schol, graph, partition, pub):
 
     for api in [schol.openaire, schol.europepmc, schol.dimensions]:
         try:
-            message = None
-
             if api.has_credentials():
-                meta, timing, message = api.title_search(title)
+                response = api.title_search(title)
+
+                if response.message:
+                    print("Issue with: ", title)
+                    print(api.name)
+                    print(response.message)
+                    continue
         except Exception:
             # debug this as an edge case
             traceback.print_exc()
             print(title)
             print(api.name)
-            print(message)
             continue
 
-        if meta and len(meta) > 0:
+        if response and response.meta and len(response.meta) > 0:
             title_match = True
-            meta = dict(meta)
+            meta = dict(response.meta)
             pub[api.name] = meta
 
     # send this publication along into the workflow stream
