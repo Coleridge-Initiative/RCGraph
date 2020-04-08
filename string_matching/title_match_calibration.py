@@ -10,6 +10,7 @@ from datasketch import MinHashLSHEnsemble, MinHash
 from sklearn import metrics
 from pathlib import Path
 import pandas as pd
+from richcontext import graph as rc_graph
 
 CALIBRATE_LSH = True
 LSH_THRESHOLD = 0.79  # Required when CALIBRATE_LSH == False
@@ -28,7 +29,10 @@ RC_PROVIDERS_JSON_PATH = "../datasets/providers.json"
 ADRF_DATASET_JSON_PATH = "adrf_data/2020_03_25/datasets_03_25_2020.json"
 RC_DATASET_JSON_PATH = "../datasets/datasets.json"
 
-class RCTextMatcher:
+class RCTitleMatcher:
+    pass
+
+class RCDatasetTitleMatcher(RCTitleMatcher):
 
     KNOWN = 1
     UNKNOWN = 0
@@ -492,9 +496,37 @@ class RCTextMatcher:
 
 
 ## ***************************************************************************
-def main (corpus_path, search_for_matches_path, classified_vector_path):
 
-    textMatcher = RCTextMatcher()
+class RCPublicationTitleMatcher(RCTitleMatcher):
+
+    def load_corpus (self):
+        """
+       Load publications from knowledge graph. Only DOI and Title fields
+       """
+        publications = dict()
+
+        graph = rc_graph.RCGraph("corpus")
+
+        pubs_path = Path("../",graph.BUCKET_FINAL)
+        for partition, pub_iter in graph.iter_publications(path=pubs_path):
+            for pub in pub_iter:
+                aPublication = dict()
+
+                if "doi" in pub:
+                    aPublication["doi"] = pub["doi"]
+                else:
+                    continue
+
+                aPublication["title"] = pub["title"]
+                publications[pub["doi"]] = aPublication
+
+        return publications
+
+
+## ***************************************************************************
+def main_dataset (corpus_path, search_for_matches_path, classified_vector_path):
+
+    textMatcher = RCDatasetTitleMatcher()
 
     # Load all dataset adrf_ids and titles from ADRF dump
     with codecs.open(search_for_matches_path, "r", encoding="utf8") as f:
@@ -513,6 +545,7 @@ def main (corpus_path, search_for_matches_path, classified_vector_path):
 
     print("creating MinHash for each RC dataset...")
 
+    ##TODO: refactor this to a load_corpus method
     # create a MinHash for each dataset title and a structure to access title and its set of unique words
     rc_corpus = dict()
     for dataset in rc_dataset_list:
@@ -580,6 +613,31 @@ def main (corpus_path, search_for_matches_path, classified_vector_path):
     print('SequenceMatcher timing:', timing_sm)
     print('FuzzyWuzzy timing:', timing_fw)
 
+def main_publications(classified_vector_path):
+
+    ## TODO
+    ##
+        # create a small classified vector manually. Later on make a search
+        # Open a classified vector
+        #   Calibrate LSH
+        # Calibrate SequenceMatcher
+        # Calibrate FuzzyWuzzy
+        # Use it with new publications
+
+    textMatcher = RCPublicationTitleMatcher()
+
+    rc_corpus = textMatcher.load_corpus()
+
+    # Load training vector
+    vectorDF = pd.read_csv(classified_vector_path, encoding="utf8", sep=";")
+
+    for index, row in vectorDF.iterrows():
+        if row["doi"] in rc_corpus.keys():
+            print("found",row["actual_title"])
+        else:
+            print("not found",row["actual_title"])
+
+    return
 
 if __name__ == '__main__':
     # Enforcing only 2 parameters.
@@ -596,4 +654,8 @@ if __name__ == '__main__':
     # TODO: classified vector is probably biased. It does not cover any edge case.
     classified_vector_path = "training_vector_1.01.csv"
 
-    main(corpus_path, search_for_matches_path, classified_vector_path)
+    #main_dataset(corpus_path, search_for_matches_path, classified_vector_path)
+
+    classified_vector_path = Path("publications_data/training_vector_1.0.csv")
+
+    main_publications(classified_vector_path)
