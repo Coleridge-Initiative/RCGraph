@@ -57,7 +57,7 @@ class RCTitleMatcher:
         return scores
 
 
-    def _generate_minhash (self, entities_list, target_text_field, id_field, other_fields = {}):
+    def generate_minhash (self, entities_list, target_text_field, id_field, other_fields = {}):
 
         entities_list_with_minhash = dict()
 
@@ -83,6 +83,72 @@ class RCTitleMatcher:
             entities_list_with_minhash[entity[id_field]] = d
 
         return entities_list_with_minhash
+
+
+    def create_lsh_ensemble (self, lsh_threshold, rc_corpus):
+        print("creating MinHashLSHEnsemble with threshold=%s, num_perm=128, num_part=16..." % lsh_threshold)
+        # Create an LSH Ensemble index with threshold and number of partition settings.
+        lshensemble = MinHashLSHEnsemble(threshold=lsh_threshold, num_perm=128, num_part=16)
+        print("indexing all RC dataset's MinHash...")
+        # Index takes an iterable of (key, minhash, size)
+        lshensemble.index([(key, values["min_hash"], len(values["words"])) for key, values in rc_corpus.items()])
+        return lshensemble
+
+
+    def test_lsh_threshold (self, classified_minhash, rc_corpus, lsh_threshold):
+
+        lshensemble = self.create_lsh_ensemble(lsh_threshold, rc_corpus)
+
+        # test by querying the LSH Ensemble with each classified entity title to explore potential matches
+        results = list()
+        for id, values in classified_minhash.items():
+            m1 = values["min_hash"]
+            set1 = values["words"]
+            # print("\nquery for '%s' yields datasets" % adrf_dataset["fields"]["title"])
+            matches = False
+            for key in lshensemble.query(m1, len(set1)):
+                # print(key, rc_corpus[key]["title"])
+                matches = True
+                break
+            if matches:
+                results.append(self.KNOWN)
+            else:
+                results.append(self.UNKNOWN)
+                # print("no matches")
+
+        return results
+
+
+    def calibrate_lsh_threshold (self, classified_minhash, rc_corpus, test_vector):
+        calibration_metrics = dict()
+        max_f1_score = 0
+        selected_lsh_threshold = 0
+        for step in range(60, 100, 1):
+
+            lsh_threshold = step / 100
+            print(lsh_threshold)
+
+            result = self.test_lsh_threshold(classified_minhash, rc_corpus, lsh_threshold)
+
+            scores = self.get_confusion_matrix_scores(test_vector, result)
+
+            print('confusion matrix for ' + str(lsh_threshold))
+            # print("\tTP: " + str(tp) + "\tFP: " + str(fp))
+            # print("\tFN: " + str(fn) + "\tTN: " + str(tn))
+            pprint(scores["confusion_matrix"])
+
+            calibration_metrics[lsh_threshold] = scores
+
+            if scores["f1_score"] > max_f1_score:
+                selected_lsh_threshold = lsh_threshold
+                max_f1_score = scores["f1_score"]
+        if DEBUG:
+            print("\nshowing all metrics...")
+            pprint(calibration_metrics)
+        print("Selected threshold:", selected_lsh_threshold)
+        pprint(calibration_metrics[selected_lsh_threshold])
+
+        return selected_lsh_threshold
 
 
 class RCDatasetTitleMatcher(RCTitleMatcher):
@@ -124,19 +190,9 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
              "provider": "provider_id"}
 
         # create a MinHash for each dataset title and a structure to access title and its set of unique words
-        rc_corpus = self._generate_minhash(entities_list=rc_dataset_list, target_text_field="title",
-                                           id_field="id", other_fields=fields)
+        rc_corpus = self.generate_minhash(entities_list=rc_dataset_list, target_text_field="title",
+                                          id_field="id", other_fields=fields)
         return rc_corpus
-
-
-    def create_lsh_ensemble (self, lsh_threshold, rc_corpus):
-        print("creating MinHashLSHEnsemble with threshold=%s, num_perm=128, num_part=16..." % lsh_threshold)
-        # Create an LSH Ensemble index with threshold and number of partition settings.
-        lshensemble = MinHashLSHEnsemble(threshold=lsh_threshold, num_perm=128, num_part=16)
-        print("indexing all RC dataset's MinHash...")
-        # Index takes an iterable of (key, minhash, size)
-        lshensemble.index([(key, values["min_hash"], len(values["words"])) for key, values in rc_corpus.items()])
-        return lshensemble
 
 
     def export_linkages_to_csv (self, resultDF, filename):
@@ -168,62 +224,6 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
 
         # write csv file
         resultDF.to_csv(filename, index=False, encoding="utf-8-sig")
-
-
-    def test_lsh_threshold (self, adrf_classified_minhash, rc_corpus, lsh_threshold):
-
-        lshensemble = self.create_lsh_ensemble(lsh_threshold, rc_corpus)
-
-        # test by querying the LSH Ensemble with each ADRF dataset title to explore potential matches
-        results = list()
-        for adrf_id, values in adrf_classified_minhash.items():
-            m1 = values["min_hash"]
-            set1 = values["words"]
-            # print("\nquery for '%s' yields datasets" % adrf_dataset["fields"]["title"])
-            matches = False
-            for key in lshensemble.query(m1, len(set1)):
-                # print(key, rc_corpus[key]["title"])
-                matches = True
-                break
-            if matches:
-                results.append(self.KNOWN)
-            else:
-                results.append(self.UNKNOWN)
-                # print("no matches")
-
-        return results
-
-
-    def calibrate_lsh_threshold (self, adrf_classified_minhash, rc_corpus, test_vector):
-        calibration_metrics = dict()
-        max_f1_score = 0
-        selected_lsh_threshold = 0
-        for step in range(60, 100, 1):
-
-            lsh_threshold = step / 100
-            print(lsh_threshold)
-
-            result = self.test_lsh_threshold(adrf_classified_minhash, rc_corpus, lsh_threshold)
-
-            scores = self.get_confusion_matrix_scores(test_vector, result)
-
-            print('confusion matrix for ' + str(lsh_threshold))
-            # print("\tTP: " + str(tp) + "\tFP: " + str(fp))
-            # print("\tFN: " + str(fn) + "\tTN: " + str(tn))
-            pprint(scores["confusion_matrix"])
-
-            calibration_metrics[lsh_threshold] = scores
-
-            if scores["f1_score"] > max_f1_score:
-                selected_lsh_threshold = lsh_threshold
-                max_f1_score = scores["f1_score"]
-        if DEBUG:
-            print("\nshowing all metrics...")
-            pprint(calibration_metrics)
-        print("Selected threshold:", selected_lsh_threshold)
-        pprint(calibration_metrics[selected_lsh_threshold])
-
-        return selected_lsh_threshold
 
 
     def test_sm_threshold (self, adrf_classified_minhash, lsh_ensemble, rc_corpus, sequenceMatcher_threshold):
@@ -554,15 +554,16 @@ class RCPublicationTitleMatcher(RCTitleMatcher):
         # search in the RC corpus the publication in the classified vector
         for index, row in vectorDF.iterrows():
             if row["doi"] in rc_corpus.keys():
-                print("found", row["actual_title"])
-                print("found", row["wrong_title"])
+                print("found actual", row["actual_title"])
+                print("found wrong ", row["wrong_title"])
+                print("corpus",rc_corpus[row["doi"]]["title"])
                 vector.append(self.KNOWN)
             else:
                 print("not found", row["actual_title"])
                 print("not found", row["wrong_title"])
                 vector.append(self.UNKNOWN)
 
-            classified.append(row["doi"])
+            classified.append(row)
 
         return vector, classified
 
@@ -586,8 +587,8 @@ class RCPublicationTitleMatcher(RCTitleMatcher):
         #fields = {} #right now I don't use other fields than title and doi
 
         # create a MinHash for each dataset title and a structure to access title and its set of unique words
-        rc_corpus = self._generate_minhash(entities_list=publication_list, target_text_field="title",
-                                           id_field="doi")
+        rc_corpus = self.generate_minhash(entities_list=publication_list, target_text_field="title",
+                                          id_field="doi")
 
         return rc_corpus
 
@@ -624,8 +625,8 @@ def main_dataset (corpus_path, search_for_matches_path, classified_vector_path):
             d["title"] = adrf_dataset["fields"]["title"]
             adrf_classified_datasets.append(d)
 
-    adrf_classified_minhash = textMatcher._generate_minhash(entities_list=adrf_classified_datasets, target_text_field="title",
-                                  id_field="adrf_id")
+    adrf_classified_minhash = textMatcher.generate_minhash(entities_list=adrf_classified_datasets, target_text_field="title",
+                                                           id_field="adrf_id")
 
     if CALIBRATE_LSH:
         print("***starting LSH Ensemble threshold calibration***")
@@ -675,8 +676,18 @@ def main_publications(classified_vector_path):
     rc_corpus = textMatcher.load_corpus()
 
     # Load training vector
-    vector, classified = textMatcher.load_classified_vector(classified_vector_path,rc_corpus)
+    test_vector, classified = textMatcher.load_classified_vector(classified_vector_path,rc_corpus)
 
+    # generate a minhash for each publication title to search
+    pub_classified_minhash = textMatcher.generate_minhash(classified,"actual_title","doi")
+
+    if CALIBRATE_LSH:
+        print("***starting LSH Ensemble threshold calibration***")
+        lsh_threshoild = textMatcher.calibrate_lsh_threshold(pub_classified_minhash, rc_corpus, test_vector)
+    else:
+        lsh_threshoild = LSH_THRESHOLD
+
+    print(lsh_threshoild)
 
     return
 
