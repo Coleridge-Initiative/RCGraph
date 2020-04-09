@@ -57,9 +57,9 @@ class RCTitleMatcher:
         return scores
 
 
-    def _create_corpus_with_minhash (self, entities_list, target_text_field, id_field, other_fields):
+    def _generate_minhash (self, entities_list, target_text_field, id_field, other_fields = {}):
 
-        rc_corpus = dict()
+        entities_list_with_minhash = dict()
 
         for entity in entities_list:
 
@@ -80,9 +80,9 @@ class RCTitleMatcher:
             for term in d["words"]:
                 mh.update(term.encode("utf8"))
             d["min_hash"] = mh
-            rc_corpus[entity[id_field]] = d
+            entities_list_with_minhash[entity[id_field]] = d
 
-        return rc_corpus
+        return entities_list_with_minhash
 
 
 class RCDatasetTitleMatcher(RCTitleMatcher):
@@ -124,8 +124,8 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
              "provider": "provider_id"}
 
         # create a MinHash for each dataset title and a structure to access title and its set of unique words
-        rc_corpus = self._create_corpus_with_minhash(entities_list=rc_dataset_list,target_text_field="title",
-                                                     id_field="id", other_fields=fields)
+        rc_corpus = self._generate_minhash(entities_list=rc_dataset_list, target_text_field="title",
+                                           id_field="id", other_fields=fields)
         return rc_corpus
 
 
@@ -583,11 +583,11 @@ class RCPublicationTitleMatcher(RCTitleMatcher):
         print("loaded RC publication corpus...", type(publication_list), len(publication_list))
 
         # fields I need in the rc_corpus list
-        fields = {} #right now I don't use other fields than title and doi
+        #fields = {} #right now I don't use other fields than title and doi
 
         # create a MinHash for each dataset title and a structure to access title and its set of unique words
-        rc_corpus = self._create_corpus_with_minhash(entities_list=publication_list, target_text_field="title",
-                                                     id_field="doi", other_fields=fields)
+        rc_corpus = self._generate_minhash(entities_list=publication_list, target_text_field="title",
+                                           id_field="doi")
 
         return rc_corpus
 
@@ -608,26 +608,24 @@ def main_dataset (corpus_path, search_for_matches_path, classified_vector_path):
 
     print("creating MinHash for each RC dataset...")
 
-    ##TODO: refactor this to a load_corpus method
+    # load RC dataset corpus and create a MinHash for each dataset title
     rc_corpus = textMatcher.load_corpus(corpus_path)
 
     # create a MinHash for each classified adrf dataset title
-    adrf_classified_minhash = dict()
+    # adrf_classified_minhash = textMatcher.generate_minhash_search_list(classified_ids, adrf_dataset_list)
+
+    adrf_classified_datasets = list()
     for adrf_dataset in adrf_dataset_list:
-
         adrf_id = adrf_dataset["fields"]["dataset_id"]
-        if adrf_id not in classified_ids:
-            continue  # skip the datasets not used in the test_vector
-        d = dict()
-        d["title"] = adrf_dataset["fields"]["title"]
-        d["words"] = textMatcher.get_set_of_words(adrf_dataset["fields"]["title"])
+        # skip the datasets not used in the test_vector
+        if adrf_id in classified_ids:
+            d = dict()
+            d["adrf_id"] = adrf_id
+            d["title"] = adrf_dataset["fields"]["title"]
+            adrf_classified_datasets.append(d)
 
-        mh = MinHash(num_perm=128)
-        for term in d["words"]:
-            mh.update(term.encode("utf8"))
-
-        d["min_hash"] = mh
-        adrf_classified_minhash[adrf_id] = d
+    adrf_classified_minhash = textMatcher._generate_minhash(entities_list=adrf_classified_datasets, target_text_field="title",
+                                  id_field="adrf_id")
 
     if CALIBRATE_LSH:
         print("***starting LSH Ensemble threshold calibration***")
