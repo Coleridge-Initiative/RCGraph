@@ -630,11 +630,11 @@ def main_dataset (corpus_path, search_for_matches_path, classified_vector_path):
 
     if CALIBRATE_LSH:
         print("***starting LSH Ensemble threshold calibration***")
-        lsh_threshoild = textMatcher.calibrate_lsh_threshold(adrf_classified_minhash, rc_corpus, test_vector)
+        lsh_threshold = textMatcher.calibrate_lsh_threshold(adrf_classified_minhash, rc_corpus, test_vector)
     else:
-        lsh_threshoild = LSH_THRESHOLD
+        lsh_threshold = LSH_THRESHOLD
 
-    lsh_ensemble = textMatcher.create_lsh_ensemble(lsh_threshoild, rc_corpus)
+    lsh_ensemble = textMatcher.create_lsh_ensemble(lsh_threshold, rc_corpus)
 
     if CALIBRATE_SEQUENCEMATCHER:
         print("***starting SequenceMatcher threshold calibration***")
