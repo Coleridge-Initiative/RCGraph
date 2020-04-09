@@ -30,6 +30,8 @@ RC_DATASET_JSON_PATH = "../datasets/datasets.json"
 
 class RCTitleMatcher:
 
+    UNKNOWN = 0
+    KNOWN = 1
 
     def get_set_of_words (self, text):
         return re.sub("[\W+]", " ", text).lower().split()
@@ -61,7 +63,7 @@ class RCTitleMatcher:
 
         for entity in entities_list:
 
-            # id_field is required
+            # id_field is required. If not present, the entity is skipped from the corpus list
             if id_field not in entity:
                 print("entity does not have field",id_field)
                 continue
@@ -84,10 +86,6 @@ class RCTitleMatcher:
 
 
 class RCDatasetTitleMatcher(RCTitleMatcher):
-
-    KNOWN = 1
-    UNKNOWN = 0
-
 
     def load_classified_vector (self, vector_path, adrf_dataset_list):
         vector = list()
@@ -546,6 +544,29 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
 
 class RCPublicationTitleMatcher(RCTitleMatcher):
 
+    def load_classified_vector (self, classified_vector_path, rc_corpus):
+
+        vector = list()
+        classified = list()
+
+        vectorDF = pd.read_csv(classified_vector_path, encoding="utf8", sep=";")
+
+        # search in the RC corpus the publication in the classified vector
+        for index, row in vectorDF.iterrows():
+            if row["doi"] in rc_corpus.keys():
+                print("found", row["actual_title"])
+                print("found", row["wrong_title"])
+                vector.append(self.KNOWN)
+            else:
+                print("not found", row["actual_title"])
+                print("not found", row["wrong_title"])
+                vector.append(self.UNKNOWN)
+
+            classified.append(row["doi"])
+
+        return vector, classified
+
+
     def load_corpus (self):
         """
        Load publications from knowledge graph. Only DOI and Title fields
@@ -581,8 +602,6 @@ def main_dataset (corpus_path, search_for_matches_path, classified_vector_path):
         adrf_dataset_list = json.load(f)
 
     print("loaded ADRF dataset corpus...", type(adrf_dataset_list), len(adrf_dataset_list))
-
-
 
     test_vector, classified_ids = textMatcher.load_classified_vector(classified_vector_path, adrf_dataset_list)
     print("loaded clasiffied data from", classified_vector_path, "|", len(test_vector), "data points")
@@ -658,13 +677,8 @@ def main_publications(classified_vector_path):
     rc_corpus = textMatcher.load_corpus()
 
     # Load training vector
-    vectorDF = pd.read_csv(classified_vector_path, encoding="utf8", sep=";")
+    vector, classified = textMatcher.load_classified_vector(classified_vector_path,rc_corpus)
 
-    for index, row in vectorDF.iterrows():
-        if row["doi"] in rc_corpus.keys():
-            print("found",row["actual_title"])
-        else:
-            print("not found",row["actual_title"])
 
     return
 
