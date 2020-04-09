@@ -1,5 +1,4 @@
 import re
-import sys
 import codecs
 import json
 import time
@@ -30,12 +29,7 @@ ADRF_DATASET_JSON_PATH = "adrf_data/2020_03_25/datasets_03_25_2020.json"
 RC_DATASET_JSON_PATH = "../datasets/datasets.json"
 
 class RCTitleMatcher:
-    pass
 
-class RCDatasetTitleMatcher(RCTitleMatcher):
-
-    KNOWN = 1
-    UNKNOWN = 0
 
     def get_set_of_words (self, text):
         return re.sub("[\W+]", " ", text).lower().split()
@@ -61,6 +55,40 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
         return scores
 
 
+    def _create_corpus_with_minhash (self, entities_list, target_text_field, id_field, other_fields):
+
+        rc_corpus = dict()
+
+        for entity in entities_list:
+
+            # id_field is required
+            if id_field not in entity:
+                print("entity does not have field",id_field)
+                continue
+
+            d = dict()
+            d[target_text_field] = entity[target_text_field]
+            d["words"] = self.get_set_of_words(entity[target_text_field])
+
+            for field_original_name, field_display_name in other_fields.items():
+                if field_original_name in entity:
+                    d[field_display_name] = entity[field_original_name]
+
+            mh = MinHash(num_perm=128)
+            for term in d["words"]:
+                mh.update(term.encode("utf8"))
+            d["min_hash"] = mh
+            rc_corpus[entity[id_field]] = d
+
+        return rc_corpus
+
+
+class RCDatasetTitleMatcher(RCTitleMatcher):
+
+    KNOWN = 1
+    UNKNOWN = 0
+
+
     def load_classified_vector (self, vector_path, adrf_dataset_list):
         vector = list()
         classified = list()
@@ -82,6 +110,25 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
                         break
 
         return vector, classified
+
+
+    def load_corpus (self, corpus_path):
+
+        # Load all dataset from dataset.json
+        with codecs.open(corpus_path, "r", encoding="utf8") as f:
+            rc_dataset_list = json.load(f)
+
+        print("loaded RC dataset corpus...", type(rc_dataset_list), len(rc_dataset_list))
+
+        # fields I need in the rc_corpus list
+        fields = {"url": "url",
+             "description": "description",
+             "provider": "provider_id"}
+
+        # create a MinHash for each dataset title and a structure to access title and its set of unique words
+        rc_corpus = self._create_corpus_with_minhash(entities_list=rc_dataset_list,target_text_field="title",
+                                                     id_field="id", other_fields=fields)
+        return rc_corpus
 
 
     def create_lsh_ensemble (self, lsh_threshold, rc_corpus):
@@ -503,24 +550,25 @@ class RCPublicationTitleMatcher(RCTitleMatcher):
         """
        Load publications from knowledge graph. Only DOI and Title fields
        """
-        publications = dict()
+        publication_list = list()
 
         graph = rc_graph.RCGraph("corpus")
 
+        # Load all publications from RCGraph
         pubs_path = Path("../",graph.BUCKET_FINAL)
         for partition, pub_iter in graph.iter_publications(path=pubs_path):
-            for pub in pub_iter:
-                aPublication = dict()
+            publication_list.extend(pub_iter)
 
-                if "doi" in pub:
-                    aPublication["doi"] = pub["doi"]
-                else:
-                    continue
+        print("loaded RC publication corpus...", type(publication_list), len(publication_list))
 
-                aPublication["title"] = pub["title"]
-                publications[pub["doi"]] = aPublication
+        # fields I need in the rc_corpus list
+        fields = {} #right now I don't use other fields than title and doi
 
-        return publications
+        # create a MinHash for each dataset title and a structure to access title and its set of unique words
+        rc_corpus = self._create_corpus_with_minhash(entities_list=publication_list, target_text_field="title",
+                                                     id_field="doi", other_fields=fields)
+
+        return rc_corpus
 
 
 ## ***************************************************************************
@@ -534,11 +582,7 @@ def main_dataset (corpus_path, search_for_matches_path, classified_vector_path):
 
     print("loaded ADRF dataset corpus...", type(adrf_dataset_list), len(adrf_dataset_list))
 
-    # Load all dataset ids and titles from dataset.json
-    with codecs.open(corpus_path, "r", encoding="utf8") as f:
-        rc_dataset_list = json.load(f)
 
-    print("loaded RC dataset corpus...", type(rc_dataset_list), len(rc_dataset_list))
 
     test_vector, classified_ids = textMatcher.load_classified_vector(classified_vector_path, adrf_dataset_list)
     print("loaded clasiffied data from", classified_vector_path, "|", len(test_vector), "data points")
@@ -546,23 +590,7 @@ def main_dataset (corpus_path, search_for_matches_path, classified_vector_path):
     print("creating MinHash for each RC dataset...")
 
     ##TODO: refactor this to a load_corpus method
-    # create a MinHash for each dataset title and a structure to access title and its set of unique words
-    rc_corpus = dict()
-    for dataset in rc_dataset_list:
-        d = dict()
-        d["title"] = dataset["title"]
-        d["words"] = textMatcher.get_set_of_words(dataset["title"])
-        if "url" in dataset:
-            d["url"] = dataset["url"]
-        if "description" in dataset:
-            d["description"] = dataset["description"]
-        d["provider_id"] = dataset["provider"]
-
-        mh = MinHash(num_perm=128)
-        for term in d["words"]:
-            mh.update(term.encode("utf8"))
-        d["min_hash"] = mh
-        rc_corpus[dataset["id"]] = d
+    rc_corpus = textMatcher.load_corpus(corpus_path)
 
     # create a MinHash for each classified adrf dataset title
     adrf_classified_minhash = dict()
@@ -612,6 +640,7 @@ def main_dataset (corpus_path, search_for_matches_path, classified_vector_path):
 
     print('SequenceMatcher timing:', timing_sm)
     print('FuzzyWuzzy timing:', timing_fw)
+
 
 def main_publications(classified_vector_path):
 
