@@ -38,6 +38,9 @@ class RCTitleMatcher:
     UNKNOWN = 0
     KNOWN = 1
 
+    sm_threshold = None
+    fuzzy_threshold = None
+
     def get_set_of_words (self, text):
         return re.sub("[\W+]", " ", text).lower().split()
 
@@ -220,7 +223,8 @@ class RCTitleMatcher:
         max_score = fuzzy_min_score
         for entity_id in lsh_ensemble.query(mh, len(words)):
             # print(entity_id, rc_corpus[entity_id]["title"])
-            ratio = fuzz.token_sort_ratio(rc_corpus[entity_id]["text_to_match"], text_to_match)
+            corpus_potential_match_text = rc_corpus[entity_id]["text_to_match"]
+            ratio = fuzz.token_sort_ratio(corpus_potential_match_text, text_to_match)
             # select the best match
             if ratio >= max_score:
                 best_match = entity_id
@@ -263,10 +267,22 @@ class RCTitleMatcher:
         print("Selected threshold:", selected_sm_threshold)
         pprint(calibration_metrics[selected_sm_threshold])
 
+        # set the internal SM threshold attribute
+        self.sm_threshold = selected_sm_threshold
+
         return selected_sm_threshold
 
 
-    ## TODO: the main logic in this method is the same as test_sm_threshold. Try to generalize it and deduplicate code.
+    def set_sm_threshold (self, sm_threshold):
+        # set the internal SM threshold attribute
+        self.sm_threshold = sm_threshold
+
+    def set_fuzzy_threshold (self, fuzzy_threshold):
+        # set the internal Fuzzy threshold attribute
+        self.fuzzy_threshold = fuzzy_threshold
+
+
+## TODO: the main logic in this method is the same as test_sm_threshold. Try to generalize it and deduplicate code.
     def test_fuzzy_threshold (self, classified_minhash, lsh_ensemble, rc_corpus, fuzzy_threshold):
         print("******** Fuzzy matcher threshold", fuzzy_threshold, "*******")
 
@@ -322,7 +338,29 @@ class RCTitleMatcher:
         print("Selected threshold:", selected_fuzzy_threshold)
         pprint(calibration_metrics[selected_fuzzy_threshold])
 
+        # set the internal Fuzzy threshold attribute
+        self.fuzzy_threshold = selected_fuzzy_threshold
+
         return selected_fuzzy_threshold
+
+
+    def sm_text_match (self, text1, text2):
+        s = SequenceMatcher(None, text1, text2)
+
+        if (s.ratio() >= self.sm_threshold):
+            return True, s.ratio()
+        else:
+            return False, None
+
+
+    def fuzzy_text_match (self, text1, text2):
+
+        ratio = fuzz.token_sort_ratio(text1, text2)
+
+        if ratio >= self.fuzzy_threshold:
+            return True, ratio
+        else:
+            return False, None
 
 
 class RCDatasetTitleMatcher(RCTitleMatcher):
@@ -678,7 +716,7 @@ def main_dataset (corpus_path, search_for_matches_path, classified_vector_path):
     print('FuzzyWuzzy timing:', timing_fw)
 
 
-def main_publications(classified_vector_path):
+def main_publications_calibrate(classified_vector_path):
 
     ## TODO
     ##
@@ -751,6 +789,27 @@ def main_publications(classified_vector_path):
             print("Searching for", search_for)
             print("NOT FOUND")
 
+    return sm_min_score, fuzzy_min_score
+
+
+def main_publications_test_search(sm_min_score, fuzzy_min_score):
+
+    text1 = "Profitability of organic and conventional soybean production under ‘green payments’ in carbon offset programs"
+    text2 = "Profitability of organic and conventional soybean production under 'green payments' in carbon offset programs"
+
+    ## Use the text matcher with known calibrated threshold
+    calibratedTextMatcher = RCPublicationTitleMatcher()
+
+    calibratedTextMatcher.set_sm_threshold(sm_min_score)
+    calibratedTextMatcher.set_fuzzy_threshold(fuzzy_min_score)
+
+    sm_result,sm_score = calibratedTextMatcher.sm_text_match(text1,text2)
+    fuzzy_result,fuzzy_score = calibratedTextMatcher.fuzzy_text_match(text1,text2)
+
+    print("SM match",sm_result,sm_score)
+    print("Fuzzy match",fuzzy_result, fuzzy_score)
+
+
     return
 
 if __name__ == '__main__':
@@ -767,4 +826,6 @@ if __name__ == '__main__':
 
     classified_vector_path = Path("publications_data/training_vector_1.0.csv")
 
-    main_publications(classified_vector_path)
+    sm_min_score, fuzzy_min_score = main_publications_calibrate(classified_vector_path)
+
+    main_publications_test_search(sm_min_score, fuzzy_min_score)
