@@ -13,9 +13,12 @@ from richcontext import graph as rc_graph
 
 CALIBRATE_LSH = True
 LSH_THRESHOLD = 0.79  # Required when CALIBRATE_LSH == False
+#LSH_THRESHOLD = 0.85  # Required when CALIBRATE_LSH == False
 
 CALIBRATE_SEQUENCEMATCHER = True
 SEQUENCEMATCHER_THRESHOLD = 0.55  # Required when CALIBRATE_SEQUENCEMATCHER == False
+
+#SEQUENCEMATCHER_THRESHOLD = 0.5  # Required when CALIBRATE_SEQUENCEMATCHER == False
 
 CALIBRATE_FUZZYWUZZY = True
 FUZZYWUZZY_THRESHOLD = 54  # Required when CALIBRATE_SEQUENCEMATCHER == False
@@ -29,6 +32,8 @@ ADRF_DATASET_JSON_PATH = "adrf_data/2020_03_25/datasets_03_25_2020.json"
 RC_DATASET_JSON_PATH = "../datasets/datasets.json"
 
 class RCTitleMatcher:
+
+# TODO: include a method to clean strings before doing the match evaluations
 
     UNKNOWN = 0
     KNOWN = 1
@@ -159,20 +164,9 @@ class RCTitleMatcher:
 
             m1 = values["min_hash"]
             set1 = values["words"]
-            matches = False
-            # this forces that any match will have at least the SM_threshold
-            max_score = sequenceMatcher_threshold
 
-            # search the adrf dataset title in the LSH index and for potential hits
-            for entity_id in lsh_ensemble.query(m1, len(set1)):
-                # print(entity_id, rc_corpus[entity_id]["title"])
-                # TODO: "text_to_match" is "title" but hardcoding "title" was be a bug. See if makes sense to have both "text_to_match" and "title"
-                s = SequenceMatcher(None, rc_corpus[entity_id]["text_to_match"], values["text_to_match"])
-                # select the best match
-                if (s.ratio() >= max_score):
-                    best_match = entity_id
-                    max_score = s.ratio()
-                    matches = True
+            best_match, matches, max_score = self.find_text_in_corpus_sm(m1, set1, values["text_to_match"], sequenceMatcher_threshold,
+                                                                         lsh_ensemble, rc_corpus)
 
             if matches:
                 if DEBUG:
@@ -184,6 +178,56 @@ class RCTitleMatcher:
                 results.append(self.UNKNOWN)
                 # print("no matches")
         return results
+
+
+    def find_text_in_corpus_sm (self, m1, set1, text_to_match, sequenceMatcher_threshold, lsh_ensemble, rc_corpus):
+
+        matches = False
+        best_match = None
+        # this forces that any match will have at least the SM_threshold
+        max_score = sequenceMatcher_threshold
+        # search the adrf dataset title in the LSH index and for potential hits
+        for entity_id in lsh_ensemble.query(m1, len(set1)):
+            # print(entity_id, rc_corpus[entity_id]["title"])
+            # TODO: "text_to_match" is "title" but hardcoding "title" was be a bug. See if makes sense to have both "text_to_match" and "title"
+            s = SequenceMatcher(None, rc_corpus[entity_id]["text_to_match"], text_to_match )
+            # select the best match
+            if (s.ratio() >= max_score):
+                best_match = entity_id
+                max_score = s.ratio()
+                matches = True
+
+        return best_match, matches, max_score
+
+    # TODO: make some kind of overloading for this
+    # def find_text_in_corpus_sm (self, search_for, text_to_match, sequenceMatcher_threshold, lsh_ensemble, rc_corpus):
+    #
+    #     words = self.get_set_of_words(search_for)
+    #
+    #     mh = MinHash(num_perm=128)
+    #     for term in words:
+    #         mh.update(term.encode("utf8"))
+    #
+    #     best_match, matches, max_score =  self.find_text_in_corpus_sm(mh, words, text_to_match, sequenceMatcher_threshold, lsh_ensemble, rc_corpus)
+    #
+    #     return best_match, matches, max_score
+
+
+    def find_text_in_corpus_fuzzy (self, mh, words, text_to_match, fuzzy_min_score, lsh_ensemble, rc_corpus):
+
+        matches = False
+        best_match = None
+        max_score = fuzzy_min_score
+        for entity_id in lsh_ensemble.query(mh, len(words)):
+            # print(entity_id, rc_corpus[entity_id]["title"])
+            ratio = fuzz.token_sort_ratio(rc_corpus[entity_id]["text_to_match"], text_to_match)
+            # select the best match
+            if ratio >= max_score:
+                best_match = entity_id
+                max_score = ratio
+                matches = True
+
+        return best_match, matches, max_score
 
 
     def calibrate_SequenceMatcher (self, lsh_ensemble, classified_minhash, rc_corpus, test_vector):
@@ -231,21 +275,9 @@ class RCTitleMatcher:
 
             m1 = values["min_hash"]
             set1 = values["words"]
-            matches = False
-            # this forces that any match will have at least the SM_threshold
-            max_score = fuzzy_threshold
 
-            # search the entity title in the LSH index and for potential hits
-            for entity_id in lsh_ensemble.query(m1, len(set1)):
-                # print(entity_id, rc_corpus[entity_id]["title"])
-
-                # TODO: "text_to_match" is "title" but hardcoding "title" was be a bug. See if makes sense to have both "text_to_match" and "title"
-                ratio = fuzz.token_sort_ratio(rc_corpus[entity_id]["text_to_match"], values["text_to_match"])
-                # select the best match
-                if ratio >= max_score:
-                    best_match = entity_id
-                    max_score = ratio
-                    matches = True
+            best_match, matches, max_score = self.find_text_in_corpus_fuzzy(m1, set1, values["text_to_match"], fuzzy_threshold,
+                                                                            lsh_ensemble, rc_corpus)
 
             if matches:
                 if DEBUG:
@@ -368,10 +400,6 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
         resultDF.to_csv(filename, index=False, encoding="utf-8-sig")
 
 
-
-
-
-
     def record_linking_sm (self, adrf_dataset_list, rc_corpus, lsh_ensemble, sm_min_score):
         # this is for measuring the time this method takes to do the record linkage
         t0 = time.time()
@@ -396,15 +424,8 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
             for term in words:
                 mh.update(term.encode("utf8"))
 
-            max_score = sm_min_score
-            for rc_dataset_id in lsh_ensemble.query(mh, len(words)):
-                # print(rc_dataset_id, rc_corpus[rc_dataset_id]["title"])
-                s = SequenceMatcher(None, rc_corpus[rc_dataset_id]["title"], title)
-                # select the best match
-                if (s.ratio() >= max_score):
-                    best_match = rc_dataset_id
-                    max_score = s.ratio()
-                    matches = True
+            best_match, matches, max_score = self.find_text_in_corpus_sm(mh, words, title, sm_min_score, lsh_ensemble,
+                                                                         rc_corpus)
 
             if matches:
                 # if DEBUG:
@@ -420,7 +441,7 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
 
                 rc_match = dict()
                 rc_match["dataset_id"] = best_match
-                rc_match["title"] = rc_corpus[best_match]["title"]
+                rc_match["title"] = rc_corpus[best_match]["text_to_match"]
 
                 if "url" in rc_corpus[best_match]:
                     rc_match["url"] = rc_corpus[best_match]["url"]
@@ -475,8 +496,6 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
 
         for adrf_dataset in adrf_dataset_list:
 
-            matches = False
-
             adrf_id = adrf_dataset["fields"]["dataset_id"]
             title = adrf_dataset["fields"]["title"]
             words = self.get_set_of_words(adrf_dataset["fields"]["title"])
@@ -485,15 +504,8 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
             for term in words:
                 mh.update(term.encode("utf8"))
 
-            max_score = fuzzy_min_score
-            for rc_dataset_id in lsh_ensemble.query(mh, len(words)):
-                # print(rc_dataset_id, rc_corpus[rc_dataset_id]["title"])
-                ratio = fuzz.token_sort_ratio(rc_corpus[rc_dataset_id]["title"], title)
-                # select the best match
-                if ratio >= max_score:
-                    best_match = rc_dataset_id
-                    max_score = ratio
-                    matches = True
+            best_match, matches,max_score = self.find_text_in_corpus_fuzzy(mh, words, title, fuzzy_min_score,
+                                                                           lsh_ensemble, rc_corpus)
 
             if matches:
 
@@ -506,7 +518,7 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
 
                 rc_match = dict()
                 rc_match["dataset_id"] = best_match
-                rc_match["title"] = rc_corpus[best_match]["title"]
+                rc_match["title"] = rc_corpus[best_match]["text_to_match"]
 
                 if "url" in rc_corpus[best_match]:
                     rc_match["url"] = rc_corpus[best_match]["url"]
@@ -713,15 +725,36 @@ def main_publications(classified_vector_path):
     #
     print("selected threshold for FuzzyWuzzy:", fuzzy_min_score)
 
+
+
+    print("-----------------------------------------------------")
+    # Test the matcher with the training vector ##TODO test better
+    vectorDF = pd.read_csv(classified_vector_path, encoding="utf8", sep=";")
+    for index, row in vectorDF.iterrows():
+
+        search_for = row["actual_title"]
+
+        words = textMatcher.get_set_of_words(search_for)
+
+        mh = MinHash(num_perm=128)
+        for term in words:
+            mh.update(term.encode("utf8"))
+
+        best_match, matches, max_score = textMatcher.find_text_in_corpus_sm(mh,words,
+                                                                            search_for,
+                                                                            sm_min_score, lsh_ensemble, rc_corpus)
+        if matches:
+            print("Searching for", search_for)
+            print("matches with", best_match, rc_corpus[best_match]["text_to_match"])
+            print("with a SequenceMatcher ratio", max_score)
+        else:
+            print("Searching for", search_for)
+            print("NOT FOUND")
+
     return
 
 if __name__ == '__main__':
-    # Enforcing only 2 parameters.
-    # if(len(sys.argv[1:]) != 2):
-    #     print("Only 2 parameters allowed")
-    #     exit(1)
-    # corpus_path = sys.argv[1]
-    # search_for_matches_path = sys.argv[2]
+    #
 
     # TODO using a temporal copy of datsets.json instead the most updated version˚
     corpus_path = RC_DATASET_JSON_PATH
