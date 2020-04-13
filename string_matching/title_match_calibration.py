@@ -2,6 +2,7 @@ import re
 import codecs
 import json
 import time
+import traceback
 from difflib import SequenceMatcher
 from pprint import pprint
 from fuzzywuzzy import fuzz
@@ -10,6 +11,7 @@ from sklearn import metrics
 from pathlib import Path
 import pandas as pd
 from richcontext import graph as rc_graph
+from richcontext import scholapi as rc_scholapi
 
 CALIBRATE_LSH = True
 LSH_THRESHOLD = 0.79  # Required when CALIBRATE_LSH == False
@@ -812,6 +814,82 @@ def main_publications_test_search(sm_min_score, fuzzy_min_score):
 
     return
 
+
+def search_publication_titles ():
+
+    schol = rc_scholapi.ScholInfraAPI(config_file="../rc.cfg", logger=None)
+
+    #get all APIs with publication_lookup
+    api_list = []
+    # get all atributes of schol object
+    schol_dict = schol.__dict__
+    for key, api in schol_dict.items():
+        try:  # __getattribute__ raises an exception when "full_text_search" is missing
+            # checks if api.full_text_search is defined and is a method.
+            if callable(api.__getattribute__("publication_lookup")):
+                #test if its actually implemented
+                try:
+                    response = api.publication_lookup("10.1016/j.envsoft.2010.05.009")
+                    if response is not None:
+                        test1 = response.title()
+                        api_list.append(api)
+                except NotImplementedError:
+                    pass
+        except Exception:
+            # print(api.name, "does NOT implement full_text_search")
+            continue
+
+    for api in api_list:
+        print(api.name)
+
+    # Load all publications from RCGraph that have a DOI
+    graph = rc_graph.RCGraph("corpus")
+    pubs_path = Path("../", graph.BUCKET_FINAL)
+    publications = dict()
+    for partition, pub_iter in graph.iter_publications(path=pubs_path):
+        for pub in pub_iter:
+            # skip publications with unknown DOI
+            if "doi" not in pub:
+                continue
+            publications[pub["doi"]] = pub["title"]
+
+    print("loaded", len(publications), "known publications")
+
+    retrieved_publications = list()
+    count=0
+    # I iterate first through the KG picking one DOI and making a search for that DOI in each API so I don't overload the API
+    for doi, title in publications.items():
+        print("lookup for",doi,title,"...")
+        known_titles = list()
+        known_titles.append(title.lower())
+        for api in api_list:
+            if api.name == "CORE" or api.name == "NSF PAR":
+                continue
+            try:
+                print(api.name,"publication_lookup...")
+                response = api.publication_lookup(doi)
+                if response is not None and response.title() is not None and response.title().lower() not in known_titles:
+                    d = dict()
+                    d["api"] = api.name
+                    d["doi"] = doi
+                    d["title"] = response.title()
+                    retrieved_publications.append(d)
+                    known_titles.append(d["title"].lower)
+                    count += 1
+            except Exception as e:
+                print("exception using publication_lookup of",api.name)
+                traceback.print_exc()
+        # if count > 40:
+        #     break
+        # wait a little bit before using again the APIs
+        print("wait 1 sec, count", count)
+        time.sleep(0.5)
+
+    # save publications retrieved into a CSV file
+    auxDF = pd.DataFrame(data=retrieved_publications)
+    auxDF.to_csv("publications_with_title_mismatch.csv", index=False, encoding="utf-8-sig")
+
+
 if __name__ == '__main__':
     #
 
@@ -823,6 +901,8 @@ if __name__ == '__main__':
     classified_vector_path = "training_vector_1.01.csv"
 
     #main_dataset(corpus_path, search_for_matches_path, classified_vector_path)
+
+    search_publication_titles()
 
     classified_vector_path = Path("publications_data/training_vector_1.0.csv")
 
