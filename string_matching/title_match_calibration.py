@@ -42,6 +42,7 @@ class RCTitleMatcher:
 
     sm_threshold = None
     fuzzy_threshold = None
+    lsh_threshold = None
 
     def get_set_of_words (self, text):
         return re.sub("[\W+]", " ", text).lower().split()
@@ -67,18 +68,23 @@ class RCTitleMatcher:
         return scores
 
 
-    def generate_minhash (self, entities_list, target_text_field, id_field, other_fields = {}):
+    def generate_minhash (self, entities_list, target_text_field, id_field, other_fields = {}, is_corpus = False):
 
-        entities_list_with_minhash = dict()
+    # TODO: not sure if this is the best design, but I need a dict() for the corpus that is going to be used for the LSH and I need a list() for the rest
+        if is_corpus:
+            entities_list_with_minhash = dict()
+        else:
+            entities_list_with_minhash = list()
 
         for entity in entities_list:
 
             # id_field is required. If not present, the entity is skipped from the corpus list
-            if id_field not in entity:
+            if is_corpus and id_field not in entity:
                 print("entity does not have field",id_field)
                 continue
 
             d = dict()
+            # d["id"] = entity[id_field] (never used for now)
             d["text_to_match"] = entity[target_text_field]
             d["words"] = self.get_set_of_words(entity[target_text_field])
 
@@ -90,7 +96,11 @@ class RCTitleMatcher:
             for term in d["words"]:
                 mh.update(term.encode("utf8"))
             d["min_hash"] = mh
-            entities_list_with_minhash[entity[id_field]] = d
+
+            if is_corpus:
+                entities_list_with_minhash[entity[id_field]] = d
+            else:
+                entities_list_with_minhash.append(d)
 
         return entities_list_with_minhash
 
@@ -111,7 +121,7 @@ class RCTitleMatcher:
 
         # test by querying the LSH Ensemble with each classified entity title to explore potential matches
         results = list()
-        for id, values in classified_minhash.items():
+        for values in classified_minhash:
             m1 = values["min_hash"]
             set1 = values["words"]
             # print("\nquery for '%s' yields datasets" % adrf_dataset["fields"]["title"])
@@ -133,7 +143,7 @@ class RCTitleMatcher:
         calibration_metrics = dict()
         max_f1_score = 0
         selected_lsh_threshold = 0
-        for step in range(60, 100, 1):
+        for step in range(60, 100, 5):
 
             lsh_threshold = step / 100
             print(lsh_threshold)
@@ -158,6 +168,8 @@ class RCTitleMatcher:
         print("Selected threshold:", selected_lsh_threshold)
         pprint(calibration_metrics[selected_lsh_threshold])
 
+        self.lsh_threshold = selected_lsh_threshold
+
         return selected_lsh_threshold
 
 
@@ -165,7 +177,7 @@ class RCTitleMatcher:
         print("******** SequenceMatcher threshold", sequenceMatcher_threshold, "*******")
 
         results = list()
-        for key, values in classified_minhash.items():
+        for values in classified_minhash:
 
             m1 = values["min_hash"]
             set1 = values["words"]
@@ -242,7 +254,7 @@ class RCTitleMatcher:
         calibration_metrics = dict()
         selected_sm_threshold = 0
 
-        for step in range(50, 100, 1):
+        for step in range(20, 100, 10):
 
             sequenceMatcher_threshold = step / 100
 
@@ -289,7 +301,7 @@ class RCTitleMatcher:
         print("******** Fuzzy matcher threshold", fuzzy_threshold, "*******")
 
         results = list()
-        for key, values in classified_minhash.items():
+        for values in classified_minhash:
 
             m1 = values["min_hash"]
             set1 = values["words"]
@@ -315,7 +327,7 @@ class RCTitleMatcher:
         calibration_metrics = dict()
         selected_fuzzy_threshold = 0
 
-        for step in range(50, 80, 1):
+        for step in range(50, 100, 5):
 
             fuzzy_threshold = step  # / 100 #fuzzy ratio is 1 to 100
 
@@ -607,18 +619,18 @@ class RCPublicationTitleMatcher(RCTitleMatcher):
         vector = list()
         classified = list()
 
-        vectorDF = pd.read_csv(classified_vector_path, encoding="utf8", sep=";")
+        vectorDF = pd.read_csv(classified_vector_path, encoding="utf8")
 
         # search in the RC corpus the publication in the classified vector
         for index, row in vectorDF.iterrows():
             if row["doi"] in rc_corpus.keys():
-                print("found actual", row["actual_title"])
-                print("found wrong ", row["wrong_title"])
-                print("corpus",rc_corpus[row["doi"]]["text_to_match"])
+                # print("found actual", row["actual_title"])
+                # print("found wrong ", row["wrong_title"])
+                # print("corpus",rc_corpus[row["doi"]]["text_to_match"])
                 vector.append(self.KNOWN)
             else:
-                print("not found", row["actual_title"])
-                print("not found", row["wrong_title"])
+                # print("not found", row["actual_title"])
+                # print("not found", row["wrong_title"])
                 vector.append(self.UNKNOWN)
 
             classified.append(row)
@@ -646,7 +658,7 @@ class RCPublicationTitleMatcher(RCTitleMatcher):
 
         # create a MinHash for each dataset title and a structure to access title and its set of unique words
         rc_corpus = self.generate_minhash(entities_list=publication_list, target_text_field="title",
-                                          id_field="doi")
+                                          id_field="doi", is_corpus=True)
 
         return rc_corpus
 
@@ -737,7 +749,7 @@ def main_publications_calibrate(classified_vector_path):
     test_vector, classified = textMatcher.load_classified_vector(classified_vector_path,rc_corpus)
 
     # generate a minhash for each publication title to search
-    pub_classified_minhash = textMatcher.generate_minhash(classified,"actual_title","doi")
+    pub_classified_minhash = textMatcher.generate_minhash(classified,"title","doi")
 
     if CALIBRATE_LSH:
         print("***starting LSH Ensemble threshold calibration***")
@@ -765,14 +777,14 @@ def main_publications_calibrate(classified_vector_path):
     #
     print("selected threshold for FuzzyWuzzy:", fuzzy_min_score)
 
-
+    return sm_min_score, fuzzy_min_score
 
     print("-----------------------------------------------------")
     # Test the matcher with the training vector ##TODO test better
-    vectorDF = pd.read_csv(classified_vector_path, encoding="utf8", sep=";")
+    vectorDF = pd.read_csv(classified_vector_path, encoding="utf8")
     for index, row in vectorDF.iterrows():
 
-        search_for = row["actual_title"]
+        search_for = row["title"]
 
         words = textMatcher.get_set_of_words(search_for)
 
@@ -780,7 +792,7 @@ def main_publications_calibrate(classified_vector_path):
         for term in words:
             mh.update(term.encode("utf8"))
 
-        best_match, matches, max_score = textMatcher.find_text_in_corpus_sm(mh,words,
+        best_match, matches, max_score = textMatcher.find_text_in_corpus_fuzzy(mh,words,
                                                                             search_for,
                                                                             sm_min_score, lsh_ensemble, rc_corpus)
         if matches:
@@ -874,7 +886,7 @@ def search_publication_titles ():
                     d["doi"] = doi
                     d["title"] = response.title()
                     retrieved_publications.append(d)
-                    known_titles.append(d["title"].lower)
+                    known_titles.append(d["title"].lower())
                     count += 1
             except Exception as e:
                 print("exception using publication_lookup of",api.name)
@@ -902,9 +914,9 @@ if __name__ == '__main__':
 
     #main_dataset(corpus_path, search_for_matches_path, classified_vector_path)
 
-    search_publication_titles()
+    #search_publication_titles()
 
-    classified_vector_path = Path("publications_data/training_vector_1.0.csv")
+    classified_vector_path = Path("publications_data/training_vector_3.0.csv")
 
     sm_min_score, fuzzy_min_score = main_publications_calibrate(classified_vector_path)
 
