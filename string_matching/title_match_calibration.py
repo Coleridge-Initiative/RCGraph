@@ -5,6 +5,7 @@ import time
 import traceback
 from difflib import SequenceMatcher
 from pprint import pprint
+import numpy
 from fuzzywuzzy import fuzz
 from datasketch import MinHashLSHEnsemble, MinHash
 from sklearn import metrics
@@ -112,12 +113,13 @@ class RCTitleMatcher:
         print("indexing all RC dataset's MinHash...")
         # Index takes an iterable of (key, minhash, size)
         lshensemble.index([(key, values["min_hash"], len(values["words"])) for key, values in rc_corpus.items()])
-        return lshensemble
+
+        self.lsh_ensemble = lshensemble
 
 
     def test_lsh_threshold (self, classified_minhash, rc_corpus, lsh_threshold):
 
-        lshensemble = self.create_lsh_ensemble(lsh_threshold, rc_corpus)
+        self.create_lsh_ensemble(lsh_threshold, rc_corpus)
 
         # test by querying the LSH Ensemble with each classified entity title to explore potential matches
         results = list()
@@ -126,7 +128,7 @@ class RCTitleMatcher:
             set1 = values["words"]
             # print("\nquery for '%s' yields datasets" % adrf_dataset["fields"]["title"])
             matches = False
-            for key in lshensemble.query(m1, len(set1)):
+            for key in self.lsh_ensemble.query(m1, len(set1)):
                 # print(key, rc_corpus[key]["title"])
                 matches = True
                 break
@@ -140,40 +142,22 @@ class RCTitleMatcher:
 
 
     def calibrate_lsh_threshold (self, classified_minhash, rc_corpus, test_vector):
-        calibration_metrics = dict()
-        max_f1_score = 0
-        selected_lsh_threshold = 0
-        for step in range(60, 100, 5):
 
-            lsh_threshold = step / 100
-            print(lsh_threshold)
+        # steps for the grid search of the LSH threshold
+        steps = numpy.arange(60, 100, 5, int)
 
-            result = self.test_lsh_threshold(classified_minhash, rc_corpus, lsh_threshold)
+        # doing this instead of generating a range using float to prevent having steps like 0.990000000001
+        steps = steps / 100
 
-            scores = self.get_confusion_matrix_scores(test_vector, result)
-
-            print('confusion matrix for ' + str(lsh_threshold))
-            # print("\tTP: " + str(tp) + "\tFP: " + str(fp))
-            # print("\tFN: " + str(fn) + "\tTN: " + str(tn))
-            pprint(scores["confusion_matrix"])
-
-            calibration_metrics[lsh_threshold] = scores
-
-            if scores["f1_score"] > max_f1_score:
-                selected_lsh_threshold = lsh_threshold
-                max_f1_score = scores["f1_score"]
-        if DEBUG:
-            print("\nshowing all metrics...")
-            pprint(calibration_metrics)
-        print("Selected threshold:", selected_lsh_threshold)
-        pprint(calibration_metrics[selected_lsh_threshold])
+        selected_lsh_threshold = self.calibrate_generic(classified_minhash, rc_corpus, test_vector,"f1_score",
+                               self.test_lsh_threshold, steps)
 
         self.lsh_threshold = selected_lsh_threshold
 
         return selected_lsh_threshold
 
 
-    def test_sm_threshold (self, classified_minhash, lsh_ensemble, rc_corpus, sequenceMatcher_threshold):
+    def test_sm_threshold (self, classified_minhash, rc_corpus, sequenceMatcher_threshold):
         print("******** SequenceMatcher threshold", sequenceMatcher_threshold, "*******")
 
         results = list()
@@ -182,8 +166,8 @@ class RCTitleMatcher:
             m1 = values["min_hash"]
             set1 = values["words"]
 
-            best_match, matches, max_score = self.find_text_in_corpus_sm(m1, set1, values["text_to_match"], sequenceMatcher_threshold,
-                                                                         lsh_ensemble, rc_corpus)
+            best_match, matches, max_score = self.find_text_in_corpus_sm(m1, set1, values["text_to_match"],
+                                                                         sequenceMatcher_threshold, rc_corpus)
 
             if matches:
                 if DEBUG:
@@ -197,14 +181,14 @@ class RCTitleMatcher:
         return results
 
 
-    def find_text_in_corpus_sm (self, m1, set1, text_to_match, sequenceMatcher_threshold, lsh_ensemble, rc_corpus):
+    def find_text_in_corpus_sm (self, m1, set1, text_to_match, sequenceMatcher_threshold, rc_corpus):
 
         matches = False
         best_match = None
         # this forces that any match will have at least the SM_threshold
         max_score = sequenceMatcher_threshold
         # search the adrf dataset title in the LSH index and for potential hits
-        for entity_id in lsh_ensemble.query(m1, len(set1)):
+        for entity_id in self.lsh_ensemble.query(m1, len(set1)):
             # print(entity_id, rc_corpus[entity_id]["title"])
             # TODO: "text_to_match" is "title" but hardcoding "title" was be a bug. See if makes sense to have both "text_to_match" and "title"
             s = SequenceMatcher(None, rc_corpus[entity_id]["text_to_match"], text_to_match )
@@ -230,12 +214,12 @@ class RCTitleMatcher:
     #     return best_match, matches, max_score
 
 
-    def find_text_in_corpus_fuzzy (self, mh, words, text_to_match, fuzzy_min_score, lsh_ensemble, rc_corpus):
+    def find_text_in_corpus_fuzzy (self, mh, words, text_to_match, fuzzy_min_score, rc_corpus):
 
         matches = False
         best_match = None
         max_score = fuzzy_min_score
-        for entity_id in lsh_ensemble.query(mh, len(words)):
+        for entity_id in self.lsh_ensemble.query(mh, len(words)):
             # print(entity_id, rc_corpus[entity_id]["title"])
             corpus_potential_match_text = rc_corpus[entity_id]["text_to_match"]
             ratio = fuzz.token_sort_ratio(corpus_potential_match_text, text_to_match)
@@ -247,39 +231,64 @@ class RCTitleMatcher:
 
         return best_match, matches, max_score
 
+    def calibrate_generic(self, classified_minhash, rc_corpus, test_vector,confusion_matrix_target_score,
+                          test_tool_threshold,steps):
 
-    def calibrate_SequenceMatcher (self, lsh_ensemble, classified_minhash, rc_corpus, test_vector):
+        implemented_confusion_matrix_scores = ["TN", "FP", "FN", "TP", "confusion_matrix", "accuracy_score",
+                                               "recall_score",
+                                               "precision_score", "f1_score", "specificity_score",
+                                               "False Positive Rate or Type I Error",
+                                               "False Negative Rate or Type II Error"]
+        if confusion_matrix_target_score not in implemented_confusion_matrix_scores:
+            raise ValueError("confusion_matrix_target_score: received", confusion_matrix_target_score,
+                             "but expected one of the folowing:", implemented_confusion_matrix_scores)
 
-        max_precision_score = 0
+        max_cm_score = 0
         calibration_metrics = dict()
-        selected_sm_threshold = 0
+        selected_threshold = 0
 
-        for step in range(20, 100, 10):
+        for step in steps:
 
-            sequenceMatcher_threshold = step / 100
+            threshold = step
 
-            results = self.test_sm_threshold(classified_minhash, lsh_ensemble, rc_corpus,
-                                             sequenceMatcher_threshold)
+            results = test_tool_threshold(classified_minhash, rc_corpus,
+                                             threshold)
 
             scores = self.get_confusion_matrix_scores(test_vector, results)
 
-            print('confusion matrix for ' + str(sequenceMatcher_threshold))
-            # print("\tTP: " + str(tp) + "\tFP: " + str(fp))
-            # print("\tFN: " + str(fn) + "\tTN: " + str(tn))
+            print('confusion matrix for ' + str(threshold))
+
             pprint(scores["confusion_matrix"])
 
-            calibration_metrics[sequenceMatcher_threshold] = scores
+            calibration_metrics[threshold] = scores
 
-            if scores["precision_score"] > max_precision_score:
-                selected_sm_threshold = sequenceMatcher_threshold
-                max_precision_score = scores["precision_score"]
+            if scores[confusion_matrix_target_score] > max_cm_score:
+                selected_threshold = threshold
+                max_cm_score = scores[confusion_matrix_target_score]
 
         if DEBUG:
             print("\nshowing all metrics...")
             pprint(calibration_metrics)
 
-        print("Selected threshold:", selected_sm_threshold)
-        pprint(calibration_metrics[selected_sm_threshold])
+        pprint(calibration_metrics)
+
+        print("Selected threshold:", selected_threshold)
+        pprint(calibration_metrics[selected_threshold])
+
+        return selected_threshold
+
+    def calibrate_SequenceMatcher (self, classified_minhash, rc_corpus, test_vector,confusion_matrix_target_score):
+
+        # steps for the grid search of the SequenceMatcher threshold
+        steps = numpy.arange(50,100,1, int)
+
+        # doing this instead of generating a range using float to prevent having steps like 0.990000000001
+        steps = steps / 100
+
+        # calibrate_generic will iterate through each step in steps and select the threshold that maximizes the
+        # confusion_matrix_target_score calling test_sm_threshold method -specific to SequenceMatcher- for each step
+        selected_sm_threshold = self.calibrate_generic(classified_minhash, rc_corpus, test_vector,
+                                                       confusion_matrix_target_score,self.test_sm_threshold, steps)
 
         # set the internal SM threshold attribute
         self.sm_threshold = selected_sm_threshold
@@ -297,7 +306,7 @@ class RCTitleMatcher:
 
 
 ## TODO: the main logic in this method is the same as test_sm_threshold. Try to generalize it and deduplicate code.
-    def test_fuzzy_threshold (self, classified_minhash, lsh_ensemble, rc_corpus, fuzzy_threshold):
+    def test_fuzzy_threshold (self, classified_minhash, rc_corpus, fuzzy_threshold):
         print("******** Fuzzy matcher threshold", fuzzy_threshold, "*******")
 
         results = list()
@@ -306,8 +315,8 @@ class RCTitleMatcher:
             m1 = values["min_hash"]
             set1 = values["words"]
 
-            best_match, matches, max_score = self.find_text_in_corpus_fuzzy(m1, set1, values["text_to_match"], fuzzy_threshold,
-                                                                            lsh_ensemble, rc_corpus)
+            best_match, matches, max_score = self.find_text_in_corpus_fuzzy(m1, set1, values["text_to_match"],
+                                                                            fuzzy_threshold, rc_corpus)
 
             if matches:
                 if DEBUG:
@@ -320,37 +329,17 @@ class RCTitleMatcher:
                 # print("no matches")
         return results
 
-    ## TODO: the logic in this method is the same as calibrate_SequenceMatcher. Try to generalize it and deduplicate code.
-    def calibrate_FuzzyWuzzy (self, lsh_ensemble, classified_minhash, rc_corpus, test_vector):
 
-        max_precision_score = 0
-        calibration_metrics = dict()
-        selected_fuzzy_threshold = 0
+    def calibrate_FuzzyWuzzy (self, classified_minhash, rc_corpus, test_vector,confusion_matrix_target_score):
 
-        for step in range(50, 100, 5):
+        steps = numpy.arange(50, 100, 1)
 
-            fuzzy_threshold = step  # / 100 #fuzzy ratio is 1 to 100
-
-            results = self.test_fuzzy_threshold(classified_minhash, lsh_ensemble, rc_corpus, fuzzy_threshold)
-
-            scores = self.get_confusion_matrix_scores(test_vector, results)
-
-            print('confusion matrix for ' + str(fuzzy_threshold))
-
-            pprint(scores["confusion_matrix"])
-
-            calibration_metrics[fuzzy_threshold] = scores
-
-            if scores["precision_score"] > max_precision_score:
-                selected_fuzzy_threshold = fuzzy_threshold
-                max_precision_score = scores["precision_score"]
-
-        if DEBUG:
-            print("\nshowing all metrics...")
-            pprint(calibration_metrics)
-
-        print("Selected threshold:", selected_fuzzy_threshold)
-        pprint(calibration_metrics[selected_fuzzy_threshold])
+        # calibrate_generic will iterate through each step in steps and select the threshold that maximizes the
+        # confusion_matrix_target_score calling self.test_fuzzy_threshold
+        # method -specific to FuzzyWuzzy matcher- for each step
+        selected_fuzzy_threshold = self.calibrate_generic( classified_minhash, rc_corpus, test_vector,
+                                                       confusion_matrix_target_score,
+                                                       self.test_fuzzy_threshold, steps)
 
         # set the internal Fuzzy threshold attribute
         self.fuzzy_threshold = selected_fuzzy_threshold
@@ -417,7 +406,7 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
 
         # create a MinHash for each dataset title and a structure to access title and its set of unique words
         rc_corpus = self.generate_minhash(entities_list=rc_dataset_list, target_text_field="title",
-                                          id_field="id", other_fields=fields)
+                                          id_field="id", other_fields=fields,is_corpus=True)
         return rc_corpus
 
 
@@ -452,7 +441,7 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
         resultDF.to_csv(filename, index=False, encoding="utf-8-sig")
 
 
-    def record_linking_sm (self, adrf_dataset_list, rc_corpus, lsh_ensemble, sm_min_score):
+    def record_linking_sm (self, adrf_dataset_list, rc_corpus, sm_min_score):
         # this is for measuring the time this method takes to do the record linkage
         t0 = time.time()
 
@@ -476,7 +465,7 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
             for term in words:
                 mh.update(term.encode("utf8"))
 
-            best_match, matches, max_score = self.find_text_in_corpus_sm(mh, words, title, sm_min_score, lsh_ensemble,
+            best_match, matches, max_score = self.find_text_in_corpus_sm(mh, words, title, sm_min_score,
                                                                          rc_corpus)
 
             if matches:
@@ -534,7 +523,7 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
         return timing
 
 
-    def record_linking_fuzzy (self, adrf_dataset_list, rc_corpus, lsh_ensemble, fuzzy_min_score):
+    def record_linking_fuzzy (self, adrf_dataset_list, rc_corpus, fuzzy_min_score):
         # this is for measuring the time this method takes to do the record linkage
         t0 = time.time()
 
@@ -556,8 +545,8 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
             for term in words:
                 mh.update(term.encode("utf8"))
 
-            best_match, matches,max_score = self.find_text_in_corpus_fuzzy(mh, words, title, fuzzy_min_score,
-                                                                           lsh_ensemble, rc_corpus)
+            best_match, matches,max_score = self.find_text_in_corpus_fuzzy(mh, words, title,
+                                                                        fuzzy_min_score, rc_corpus)
 
             if matches:
 
@@ -704,27 +693,29 @@ def main_dataset (corpus_path, search_for_matches_path, classified_vector_path):
     else:
         lsh_threshold = LSH_THRESHOLD
 
-    lsh_ensemble = textMatcher.create_lsh_ensemble(lsh_threshold, rc_corpus)
+    textMatcher.create_lsh_ensemble(lsh_threshold, rc_corpus)
 
     if CALIBRATE_SEQUENCEMATCHER:
         print("***starting SequenceMatcher threshold calibration***")
-        sm_min_score = textMatcher.calibrate_SequenceMatcher(lsh_ensemble, adrf_classified_minhash, rc_corpus, test_vector)
+        sm_min_score = textMatcher.calibrate_SequenceMatcher(adrf_classified_minhash, rc_corpus, test_vector,
+                                                             "precision_score")
     else:
         sm_min_score = SEQUENCEMATCHER_THRESHOLD
 
     print("selected threshold for SequenceMatcher:", sm_min_score)
 
-    timing_sm = textMatcher.record_linking_sm(adrf_dataset_list, rc_corpus, lsh_ensemble, sm_min_score)
+    timing_sm = textMatcher.record_linking_sm(adrf_dataset_list, rc_corpus, sm_min_score)
     #
     if CALIBRATE_FUZZYWUZZY:
         print("***starting FuzzyWuzzy threshold calibration***")
-        fuzzy_min_score = textMatcher.calibrate_FuzzyWuzzy(lsh_ensemble, adrf_classified_minhash, rc_corpus, test_vector)
+        fuzzy_min_score = textMatcher.calibrate_FuzzyWuzzy( adrf_classified_minhash, rc_corpus, test_vector,
+                                                           "precision_score")
     else:
         fuzzy_min_score = FUZZYWUZZY_THRESHOLD
     #
     print("selected threshold for FuzzyWuzzy:", fuzzy_min_score)
 
-    timing_fw = textMatcher.record_linking_fuzzy(adrf_dataset_list, rc_corpus, lsh_ensemble, fuzzy_min_score)
+    timing_fw = textMatcher.record_linking_fuzzy(adrf_dataset_list, rc_corpus, fuzzy_min_score)
 
     print('SequenceMatcher timing:', timing_sm)
     print('FuzzyWuzzy timing:', timing_fw)
@@ -759,11 +750,12 @@ def main_publications_calibrate(classified_vector_path):
 
     print(lsh_threshold)
 
-    lsh_ensemble = textMatcher.create_lsh_ensemble(lsh_threshold, rc_corpus)
+    textMatcher.create_lsh_ensemble(lsh_threshold, rc_corpus)
 
     if CALIBRATE_SEQUENCEMATCHER:
         print("***starting SequenceMatcher threshold calibration***")
-        sm_min_score = textMatcher.calibrate_SequenceMatcher(lsh_ensemble, pub_classified_minhash, rc_corpus, test_vector)
+        sm_min_score = textMatcher.calibrate_SequenceMatcher(pub_classified_minhash, rc_corpus, test_vector,
+                                                             "f1_score")
     else:
         sm_min_score = SEQUENCEMATCHER_THRESHOLD
 
@@ -771,7 +763,8 @@ def main_publications_calibrate(classified_vector_path):
 
     if CALIBRATE_FUZZYWUZZY:
         print("***starting FuzzyWuzzy threshold calibration***")
-        fuzzy_min_score = textMatcher.calibrate_FuzzyWuzzy(lsh_ensemble, pub_classified_minhash, rc_corpus, test_vector)
+        fuzzy_min_score = textMatcher.calibrate_FuzzyWuzzy( pub_classified_minhash, rc_corpus, test_vector,
+                                                            "f1_score")
     else:
         fuzzy_min_score = FUZZYWUZZY_THRESHOLD
     #
@@ -792,9 +785,8 @@ def main_publications_calibrate(classified_vector_path):
         for term in words:
             mh.update(term.encode("utf8"))
 
-        best_match, matches, max_score = textMatcher.find_text_in_corpus_fuzzy(mh,words,
-                                                                            search_for,
-                                                                            sm_min_score, lsh_ensemble, rc_corpus)
+        best_match, matches, max_score = textMatcher.find_text_in_corpus_fuzzy(mh,words,search_for,
+                                                                            sm_min_score, rc_corpus)
         if matches:
             print("Searching for", search_for)
             print("matches with", best_match, rc_corpus[best_match]["text_to_match"])
