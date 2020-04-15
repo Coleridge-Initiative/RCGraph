@@ -24,6 +24,7 @@ PATH_SKOSIFY_CFG = Path("adrf-onto/skosify.cfg")
 PATH_ADRF_TTL = Path("adrf-onto/adrf.ttl")
 PATH_VOC_TTL = Path("voc.ttl")
 PATH_INDEX = Path("index.json")
+PATH_DATA = Path("data_uuid.json")
 
 MIN_TOPIC_BREADTH = 2
 
@@ -587,6 +588,11 @@ def main (args):
     known_datasets = load_datasets(graph, frags, used, known_providers)
     known_journals = load_journals(graph, frags)
     known_authors = load_authors(graph, frags)
+
+    # create an index of dataset IDs => UUIDs to import into ADRF
+    with codecs.open(PATH_DATA, "wb", encoding="utf8") as f:
+        dat = { id: d["uuid"] for (id, d) in known_datasets.items() }
+        json.dump(dat, f, indent=4, sort_keys=True, ensure_ascii=False)
 
     # build the topic index
     known_topics = {}
