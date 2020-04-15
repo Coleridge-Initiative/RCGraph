@@ -894,6 +894,26 @@ def search_publication_titles ():
     auxDF.to_csv("publications_with_title_mismatch.csv", index=False, encoding="utf-8-sig")
 
 
+def load_rejected_publications():
+
+    # get publications from the verified not-links "shadow" partitions to balance the training set
+    from pandas.io.json import json_normalize
+
+    publication_list = list()
+    graph = rc_graph.RCGraph("corpus")
+    # Load all publications from RCGraph
+    pubs_path = Path("../", "not-links_partitions")
+    for partition, pub_iter in graph.iter_publications(path=pubs_path):
+        publication_list.extend(pub_iter)
+
+    publication_list = json_normalize(publication_list)
+
+    # save publications retrieved into a CSV file
+    auxDF = pd.DataFrame(data=publication_list)
+    print(auxDF.columns)
+    auxDF.to_csv("not-links_publications.csv", index=False, encoding="utf-8-sig",columns=["original.doi","title"])
+
+
 if __name__ == '__main__':
     #
 
@@ -906,7 +926,11 @@ if __name__ == '__main__':
 
     #main_dataset(corpus_path, search_for_matches_path, classified_vector_path)
 
+    # this uses scholapi to search publications by DOI using all possible APIs, the result was used to create the training vector 3.0
     #search_publication_titles()
+
+    # this recover all publications produced by recover_verified_not_links.py and those were used to create the training vector 3.0
+    # load_rejected_publications()
 
     classified_vector_path = Path("publications_data/training_vector_3.0.csv")
 
