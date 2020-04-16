@@ -13,6 +13,7 @@ from pathlib import Path
 import pandas as pd
 from richcontext import graph as rc_graph
 from richcontext import scholapi as rc_scholapi
+import pickle
 
 CALIBRATE_LSH = True
 LSH_THRESHOLD = 0.79  # Required when CALIBRATE_LSH == False
@@ -38,12 +39,30 @@ class RCTitleMatcher:
 
 # TODO: include a method to clean strings before doing the match evaluations
 
-    UNKNOWN = 0
-    KNOWN = 1
 
-    sm_threshold = None
-    fuzzy_threshold = None
-    lsh_threshold = None
+    def __init__(self,sm_threshold = None,fuzzy_threshold = None,lsh_threshold = None, lsh_ensemble = None, rc_corpus = None):
+        self.sm_threshold = sm_threshold
+        self.fuzzy_threshold = fuzzy_threshold
+        self.lsh_threshold = lsh_threshold
+        self.lsh_ensemble = lsh_ensemble
+        self.rc_corpus = rc_corpus
+        self.UNKNOWN = 0
+        self.KNOWN = 1
+
+
+    # use pickle to persist the calibrated thresholds and other object attributes
+    def save_model(self, filename="RCTitleMatcher.pkl"):
+        outfile = open(filename, 'wb')
+        pickle.dump(self, outfile)
+        outfile.close()
+
+    # retunrs an object
+    def load_model(self = None, filename="RCTitleMatcher.pkl"):
+        infile = open(filename, 'rb')
+        tm = pickle.load(infile)
+        infile.close()
+        return tm
+
 
     def get_set_of_words (self, text):
         return re.sub("[\W+]", " ", text).lower().split()
@@ -106,20 +125,20 @@ class RCTitleMatcher:
         return entities_list_with_minhash
 
 
-    def create_lsh_ensemble (self, lsh_threshold, rc_corpus):
+    def create_lsh_ensemble (self, lsh_threshold):
         print("creating MinHashLSHEnsemble with threshold=%s, num_perm=128, num_part=16..." % lsh_threshold)
         # Create an LSH Ensemble index with threshold and number of partition settings.
         lshensemble = MinHashLSHEnsemble(threshold=lsh_threshold, num_perm=128, num_part=16)
         print("indexing all RC dataset's MinHash...")
         # Index takes an iterable of (key, minhash, size)
-        lshensemble.index([(key, values["min_hash"], len(values["words"])) for key, values in rc_corpus.items()])
+        lshensemble.index([(key, values["min_hash"], len(values["words"])) for key, values in self.rc_corpus.items()])
 
         self.lsh_ensemble = lshensemble
 
 
-    def test_lsh_threshold (self, classified_minhash, rc_corpus, lsh_threshold):
+    def test_lsh_threshold (self, classified_minhash, lsh_threshold):
 
-        self.create_lsh_ensemble(lsh_threshold, rc_corpus)
+        self.create_lsh_ensemble(lsh_threshold)
 
         # test by querying the LSH Ensemble with each classified entity title to explore potential matches
         results = list()
@@ -141,7 +160,7 @@ class RCTitleMatcher:
         return results
 
 
-    def calibrate_lsh_threshold (self, classified_minhash, rc_corpus, test_vector):
+    def calibrate_lsh_threshold (self, classified_minhash, test_vector):
 
         # steps for the grid search of the LSH threshold
         steps = numpy.arange(60, 100, 5, int)
@@ -149,7 +168,7 @@ class RCTitleMatcher:
         # doing this instead of generating a range using float to prevent having steps like 0.990000000001
         steps = steps / 100
 
-        selected_lsh_threshold = self.calibrate_generic(classified_minhash, rc_corpus, test_vector,"f1_score",
+        selected_lsh_threshold = self.calibrate_generic(classified_minhash, test_vector,"f1_score",
                                self.test_lsh_threshold, steps)
 
         self.lsh_threshold = selected_lsh_threshold
@@ -157,7 +176,7 @@ class RCTitleMatcher:
         return selected_lsh_threshold
 
 
-    def test_sm_threshold (self, classified_minhash, rc_corpus, sequenceMatcher_threshold):
+    def test_sm_threshold (self, classified_minhash, sequenceMatcher_threshold):
         print("******** SequenceMatcher threshold", sequenceMatcher_threshold, "*******")
 
         results = list()
@@ -167,12 +186,12 @@ class RCTitleMatcher:
             set1 = values["words"]
 
             best_match, matches, max_score = self.find_text_in_corpus_sm(m1, set1, values["text_to_match"],
-                                                                         sequenceMatcher_threshold, rc_corpus)
+                                                                         sequenceMatcher_threshold)
 
             if matches:
                 if DEBUG:
                     print("Searching for", values["text_to_match"])
-                    print("matches with", best_match, rc_corpus[best_match]["text_to_match"])
+                    print("matches with", best_match, self.rc_corpus[best_match]["text_to_match"])
                     print("with a SequenceMatcher ratio", max_score)
                 results.append(self.KNOWN)
             else:
@@ -181,7 +200,7 @@ class RCTitleMatcher:
         return results
 
 
-    def find_text_in_corpus_sm (self, m1, set1, text_to_match, sequenceMatcher_threshold, rc_corpus):
+    def find_text_in_corpus_sm (self, m1, set1, text_to_match, sequenceMatcher_threshold):
 
         matches = False
         best_match = None
@@ -191,7 +210,7 @@ class RCTitleMatcher:
         for entity_id in self.lsh_ensemble.query(m1, len(set1)):
             # print(entity_id, rc_corpus[entity_id]["title"])
             # TODO: "text_to_match" is "title" but hardcoding "title" was be a bug. See if makes sense to have both "text_to_match" and "title"
-            s = SequenceMatcher(None, rc_corpus[entity_id]["text_to_match"], text_to_match )
+            s = SequenceMatcher(None, self.rc_corpus[entity_id]["text_to_match"], text_to_match )
             # select the best match
             if (s.ratio() >= max_score):
                 best_match = entity_id
@@ -214,14 +233,14 @@ class RCTitleMatcher:
     #     return best_match, matches, max_score
 
 
-    def find_text_in_corpus_fuzzy (self, mh, words, text_to_match, fuzzy_min_score, rc_corpus):
+    def find_text_in_corpus_fuzzy (self, mh, words, text_to_match, fuzzy_min_score):
 
         matches = False
         best_match = None
         max_score = fuzzy_min_score
         for entity_id in self.lsh_ensemble.query(mh, len(words)):
             # print(entity_id, rc_corpus[entity_id]["title"])
-            corpus_potential_match_text = rc_corpus[entity_id]["text_to_match"]
+            corpus_potential_match_text = self.rc_corpus[entity_id]["text_to_match"]
             ratio = fuzz.token_sort_ratio(corpus_potential_match_text, text_to_match)
             # select the best match
             if ratio >= max_score:
@@ -231,7 +250,7 @@ class RCTitleMatcher:
 
         return best_match, matches, max_score
 
-    def calibrate_generic(self, classified_minhash, rc_corpus, test_vector,confusion_matrix_target_score,
+    def calibrate_generic(self, classified_minhash, test_vector,confusion_matrix_target_score,
                           test_tool_threshold,steps):
 
         implemented_confusion_matrix_scores = ["TN", "FP", "FN", "TP", "confusion_matrix", "accuracy_score",
@@ -251,7 +270,7 @@ class RCTitleMatcher:
 
             threshold = step
 
-            results = test_tool_threshold(classified_minhash, rc_corpus,
+            results = test_tool_threshold(classified_minhash,
                                              threshold)
 
             scores = self.get_confusion_matrix_scores(test_vector, results)
@@ -277,7 +296,7 @@ class RCTitleMatcher:
 
         return selected_threshold
 
-    def calibrate_SequenceMatcher (self, classified_minhash, rc_corpus, test_vector,confusion_matrix_target_score):
+    def calibrate_SequenceMatcher (self, classified_minhash, test_vector,confusion_matrix_target_score):
 
         # steps for the grid search of the SequenceMatcher threshold
         steps = numpy.arange(50,100,1, int)
@@ -287,7 +306,7 @@ class RCTitleMatcher:
 
         # calibrate_generic will iterate through each step in steps and select the threshold that maximizes the
         # confusion_matrix_target_score calling test_sm_threshold method -specific to SequenceMatcher- for each step
-        selected_sm_threshold = self.calibrate_generic(classified_minhash, rc_corpus, test_vector,
+        selected_sm_threshold = self.calibrate_generic(classified_minhash, test_vector,
                                                        confusion_matrix_target_score,self.test_sm_threshold, steps)
 
         # set the internal SM threshold attribute
@@ -306,7 +325,7 @@ class RCTitleMatcher:
 
 
 ## TODO: the main logic in this method is the same as test_sm_threshold. Try to generalize it and deduplicate code.
-    def test_fuzzy_threshold (self, classified_minhash, rc_corpus, fuzzy_threshold):
+    def test_fuzzy_threshold (self, classified_minhash, fuzzy_threshold):
         print("******** Fuzzy matcher threshold", fuzzy_threshold, "*******")
 
         results = list()
@@ -316,12 +335,12 @@ class RCTitleMatcher:
             set1 = values["words"]
 
             best_match, matches, max_score = self.find_text_in_corpus_fuzzy(m1, set1, values["text_to_match"],
-                                                                            fuzzy_threshold, rc_corpus)
+                                                                            fuzzy_threshold)
 
             if matches:
                 if DEBUG:
                     print("Searching for", values["text_to_match"])
-                    print("matches with", best_match, rc_corpus[best_match]["text_to_match"])
+                    print("matches with", best_match, self.rc_corpus[best_match]["text_to_match"])
                     print("with a Fuzzy matcher ratio", max_score)
                 results.append(self.KNOWN)
             else:
@@ -330,14 +349,14 @@ class RCTitleMatcher:
         return results
 
 
-    def calibrate_FuzzyWuzzy (self, classified_minhash, rc_corpus, test_vector,confusion_matrix_target_score):
+    def calibrate_FuzzyWuzzy (self, classified_minhash, test_vector,confusion_matrix_target_score):
 
         steps = numpy.arange(50, 100, 1)
 
         # calibrate_generic will iterate through each step in steps and select the threshold that maximizes the
         # confusion_matrix_target_score calling self.test_fuzzy_threshold
         # method -specific to FuzzyWuzzy matcher- for each step
-        selected_fuzzy_threshold = self.calibrate_generic( classified_minhash, rc_corpus, test_vector,
+        selected_fuzzy_threshold = self.calibrate_generic( classified_minhash, test_vector,
                                                        confusion_matrix_target_score,
                                                        self.test_fuzzy_threshold, steps)
 
@@ -407,7 +426,7 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
         # create a MinHash for each dataset title and a structure to access title and its set of unique words
         rc_corpus = self.generate_minhash(entities_list=rc_dataset_list, target_text_field="title",
                                           id_field="id", other_fields=fields,is_corpus=True)
-        return rc_corpus
+        self.rc_corpus = rc_corpus
 
 
     def export_linkages_to_csv (self, resultDF, filename):
@@ -441,7 +460,7 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
         resultDF.to_csv(filename, index=False, encoding="utf-8-sig")
 
 
-    def record_linking_sm (self, adrf_dataset_list, rc_corpus, sm_min_score):
+    def record_linking_sm (self, adrf_dataset_list, sm_min_score):
         # this is for measuring the time this method takes to do the record linkage
         t0 = time.time()
 
@@ -465,8 +484,7 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
             for term in words:
                 mh.update(term.encode("utf8"))
 
-            best_match, matches, max_score = self.find_text_in_corpus_sm(mh, words, title, sm_min_score,
-                                                                         rc_corpus)
+            best_match, matches, max_score = self.find_text_in_corpus_sm(mh, words, title, sm_min_score)
 
             if matches:
                 # if DEBUG:
@@ -482,15 +500,15 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
 
                 rc_match = dict()
                 rc_match["dataset_id"] = best_match
-                rc_match["title"] = rc_corpus[best_match]["text_to_match"]
+                rc_match["title"] = self.rc_corpus[best_match]["text_to_match"]
 
-                if "url" in rc_corpus[best_match]:
-                    rc_match["url"] = rc_corpus[best_match]["url"]
+                if "url" in self.rc_corpus[best_match]:
+                    rc_match["url"] = self.rc_corpus[best_match]["url"]
 
-                if "description" in rc_corpus[best_match]:
-                    rc_match["description"] = rc_corpus[best_match]["description"]
+                if "description" in self.rc_corpus[best_match]:
+                    rc_match["description"] = self.rc_corpus[best_match]["description"]
 
-                rc_match["rc_provider_id"] = rc_corpus[best_match]["provider_id"]
+                rc_match["rc_provider_id"] = self.rc_corpus[best_match]["provider_id"]
 
                 result_list.append(adrf_match)
                 result_list.append(rc_match)
@@ -523,7 +541,7 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
         return timing
 
 
-    def record_linking_fuzzy (self, adrf_dataset_list, rc_corpus, fuzzy_min_score):
+    def record_linking_fuzzy (self, adrf_dataset_list, fuzzy_min_score):
         # this is for measuring the time this method takes to do the record linkage
         t0 = time.time()
 
@@ -545,8 +563,7 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
             for term in words:
                 mh.update(term.encode("utf8"))
 
-            best_match, matches,max_score = self.find_text_in_corpus_fuzzy(mh, words, title,
-                                                                        fuzzy_min_score, rc_corpus)
+            best_match, matches,max_score = self.find_text_in_corpus_fuzzy(mh, words, title,fuzzy_min_score)
 
             if matches:
 
@@ -559,15 +576,15 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
 
                 rc_match = dict()
                 rc_match["dataset_id"] = best_match
-                rc_match["title"] = rc_corpus[best_match]["text_to_match"]
+                rc_match["title"] = self.rc_corpus[best_match]["text_to_match"]
 
-                if "url" in rc_corpus[best_match]:
-                    rc_match["url"] = rc_corpus[best_match]["url"]
+                if "url" in self.rc_corpus[best_match]:
+                    rc_match["url"] = self.rc_corpus[best_match]["url"]
 
-                if "description" in rc_corpus[best_match]:
-                    rc_match["description"] = rc_corpus[best_match]["description"]
+                if "description" in self.rc_corpus[best_match]:
+                    rc_match["description"] = self.rc_corpus[best_match]["description"]
 
-                rc_match["rc_provider_id"] = rc_corpus[best_match]["provider_id"]
+                rc_match["rc_provider_id"] = self.rc_corpus[best_match]["provider_id"]
 
                 result_list.append(adrf_match)
                 result_list.append(rc_match)
@@ -603,7 +620,7 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
 
 class RCPublicationTitleMatcher(RCTitleMatcher):
 
-    def load_classified_vector (self, classified_vector_path, rc_corpus):
+    def load_classified_vector (self, classified_vector_path):
 
         vector = list()
         classified = list()
@@ -612,7 +629,7 @@ class RCPublicationTitleMatcher(RCTitleMatcher):
 
         # search in the RC corpus the publication in the classified vector
         for index, row in vectorDF.iterrows():
-            if row["doi"] in rc_corpus.keys():
+            if row["doi"] in self.rc_corpus.keys():
                 # print("found actual", row["actual_title"])
                 # print("found wrong ", row["wrong_title"])
                 # print("corpus",rc_corpus[row["doi"]]["text_to_match"])
@@ -649,7 +666,7 @@ class RCPublicationTitleMatcher(RCTitleMatcher):
         rc_corpus = self.generate_minhash(entities_list=publication_list, target_text_field="title",
                                           id_field="doi", is_corpus=True)
 
-        return rc_corpus
+        self.rc_corpus = rc_corpus
 
 
 ## ***************************************************************************
@@ -669,7 +686,7 @@ def main_dataset (corpus_path, search_for_matches_path, classified_vector_path):
     print("creating MinHash for each RC dataset...")
 
     # load RC dataset corpus and create a MinHash for each dataset title
-    rc_corpus = textMatcher.load_corpus(corpus_path)
+    textMatcher.load_corpus(corpus_path)
 
     # create a MinHash for each classified adrf dataset title
     # adrf_classified_minhash = textMatcher.generate_minhash_search_list(classified_ids, adrf_dataset_list)
@@ -689,33 +706,37 @@ def main_dataset (corpus_path, search_for_matches_path, classified_vector_path):
 
     if CALIBRATE_LSH:
         print("***starting LSH Ensemble threshold calibration***")
-        lsh_threshold = textMatcher.calibrate_lsh_threshold(adrf_classified_minhash, rc_corpus, test_vector)
+        lsh_threshold = textMatcher.calibrate_lsh_threshold(adrf_classified_minhash, test_vector)
     else:
         lsh_threshold = LSH_THRESHOLD
 
-    textMatcher.create_lsh_ensemble(lsh_threshold, rc_corpus)
+    textMatcher.create_lsh_ensemble(lsh_threshold)
 
     if CALIBRATE_SEQUENCEMATCHER:
         print("***starting SequenceMatcher threshold calibration***")
-        sm_min_score = textMatcher.calibrate_SequenceMatcher(adrf_classified_minhash, rc_corpus, test_vector,
+        sm_min_score = textMatcher.calibrate_SequenceMatcher(adrf_classified_minhash, test_vector,
                                                              "precision_score")
     else:
         sm_min_score = SEQUENCEMATCHER_THRESHOLD
 
     print("selected threshold for SequenceMatcher:", sm_min_score)
 
-    timing_sm = textMatcher.record_linking_sm(adrf_dataset_list, rc_corpus, sm_min_score)
     #
     if CALIBRATE_FUZZYWUZZY:
         print("***starting FuzzyWuzzy threshold calibration***")
-        fuzzy_min_score = textMatcher.calibrate_FuzzyWuzzy( adrf_classified_minhash, rc_corpus, test_vector,
+        fuzzy_min_score = textMatcher.calibrate_FuzzyWuzzy( adrf_classified_minhash, test_vector,
                                                            "precision_score")
     else:
         fuzzy_min_score = FUZZYWUZZY_THRESHOLD
     #
     print("selected threshold for FuzzyWuzzy:", fuzzy_min_score)
 
-    timing_fw = textMatcher.record_linking_fuzzy(adrf_dataset_list, rc_corpus, fuzzy_min_score)
+    textMatcher.save_model()
+
+    loadedTextMatcher = RCDatasetTitleMatcher.load_model()
+
+    timing_sm = loadedTextMatcher.record_linking_sm(adrf_dataset_list, sm_min_score)
+    timing_fw = loadedTextMatcher.record_linking_fuzzy(adrf_dataset_list, fuzzy_min_score)
 
     print('SequenceMatcher timing:', timing_sm)
     print('FuzzyWuzzy timing:', timing_fw)
@@ -734,27 +755,27 @@ def main_publications_calibrate(classified_vector_path):
 
     textMatcher = RCPublicationTitleMatcher()
 
-    rc_corpus = textMatcher.load_corpus()
+    textMatcher.load_corpus()
 
     # Load training vector
-    test_vector, classified = textMatcher.load_classified_vector(classified_vector_path,rc_corpus)
+    test_vector, classified = textMatcher.load_classified_vector(classified_vector_path)
 
     # generate a minhash for each publication title to search
     pub_classified_minhash = textMatcher.generate_minhash(classified,"title","doi")
 
     if CALIBRATE_LSH:
         print("***starting LSH Ensemble threshold calibration***")
-        lsh_threshold = textMatcher.calibrate_lsh_threshold(pub_classified_minhash, rc_corpus, test_vector)
+        lsh_threshold = textMatcher.calibrate_lsh_threshold(pub_classified_minhash, test_vector)
     else:
         lsh_threshold = LSH_THRESHOLD
 
     print(lsh_threshold)
 
-    textMatcher.create_lsh_ensemble(lsh_threshold, rc_corpus)
+    textMatcher.create_lsh_ensemble(lsh_threshold)
 
     if CALIBRATE_SEQUENCEMATCHER:
         print("***starting SequenceMatcher threshold calibration***")
-        sm_min_score = textMatcher.calibrate_SequenceMatcher(pub_classified_minhash, rc_corpus, test_vector,
+        sm_min_score = textMatcher.calibrate_SequenceMatcher(pub_classified_minhash, test_vector,
                                                              "f1_score")
     else:
         sm_min_score = SEQUENCEMATCHER_THRESHOLD
@@ -763,7 +784,7 @@ def main_publications_calibrate(classified_vector_path):
 
     if CALIBRATE_FUZZYWUZZY:
         print("***starting FuzzyWuzzy threshold calibration***")
-        fuzzy_min_score = textMatcher.calibrate_FuzzyWuzzy( pub_classified_minhash, rc_corpus, test_vector,
+        fuzzy_min_score = textMatcher.calibrate_FuzzyWuzzy( pub_classified_minhash, test_vector,
                                                             "f1_score")
     else:
         fuzzy_min_score = FUZZYWUZZY_THRESHOLD
@@ -786,10 +807,10 @@ def main_publications_calibrate(classified_vector_path):
             mh.update(term.encode("utf8"))
 
         best_match, matches, max_score = textMatcher.find_text_in_corpus_fuzzy(mh,words,search_for,
-                                                                            sm_min_score, rc_corpus)
+                                                                            sm_min_score)
         if matches:
             print("Searching for", search_for)
-            print("matches with", best_match, rc_corpus[best_match]["text_to_match"])
+            print("matches with", best_match, self.rc_corpus[best_match]["text_to_match"])
             print("with a SequenceMatcher ratio", max_score)
         else:
             print("Searching for", search_for)
@@ -924,7 +945,7 @@ if __name__ == '__main__':
     # TODO: classified vector is probably biased. It does not cover any edge case.
     classified_vector_path = "training_vector_1.01.csv"
 
-    #main_dataset(corpus_path, search_for_matches_path, classified_vector_path)
+    main_dataset(corpus_path, search_for_matches_path, classified_vector_path)
 
     # this uses scholapi to search publications by DOI using all possible APIs, the result was used to create the training vector 3.0
     #search_publication_titles()
@@ -934,6 +955,7 @@ if __name__ == '__main__':
 
     classified_vector_path = Path("publications_data/training_vector_3.0.csv")
 
-    sm_min_score, fuzzy_min_score = main_publications_calibrate(classified_vector_path)
+    #sm_min_score, fuzzy_min_score = main_publications_calibrate(classified_vector_path)
 
-    main_publications_test_search(sm_min_score, fuzzy_min_score)
+    # TODO: this just compares 2 publication titles. Maybe it makes sense to search in the entire corpus.
+    #main_publications_test_search(sm_min_score, fuzzy_min_score)
