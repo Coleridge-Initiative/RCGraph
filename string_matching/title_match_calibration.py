@@ -17,15 +17,19 @@ import pickle
 
 CALIBRATE_LSH = True
 LSH_THRESHOLD = 0.79  # Required when CALIBRATE_LSH == False
-#LSH_THRESHOLD = 0.85  # Required when CALIBRATE_LSH == False
+
+LSH_THRESHOLD = 0.65  # Required when CALIBRATE_LSH == False
 
 CALIBRATE_SEQUENCEMATCHER = True
 SEQUENCEMATCHER_THRESHOLD = 0.55  # Required when CALIBRATE_SEQUENCEMATCHER == False
 
-#SEQUENCEMATCHER_THRESHOLD = 0.5  # Required when CALIBRATE_SEQUENCEMATCHER == False
+# TODO: review criteria for this calibration (publication titles)
+SEQUENCEMATCHER_THRESHOLD = 0.99  # Required when CALIBRATE_SEQUENCEMATCHER == False
 
 CALIBRATE_FUZZYWUZZY = True
 FUZZYWUZZY_THRESHOLD = 54  # Required when CALIBRATE_SEQUENCEMATCHER == False
+
+FUZZYWUZZY_THRESHOLD = 71  # Required when CALIBRATE_SEQUENCEMATCHER == False
 
 DEBUG = False
 
@@ -58,6 +62,7 @@ class RCTitleMatcher:
 
     # retunrs an object
     def load_model(self = None, filename="RCTitleMatcher.pkl"):
+        #TODO: this does not work
         infile = open(filename, 'rb')
         tm = pickle.load(infile)
         infile.close()
@@ -200,7 +205,10 @@ class RCTitleMatcher:
         return results
 
 
-    def find_text_in_corpus_sm (self, m1, set1, text_to_match, sequenceMatcher_threshold):
+    def find_text_in_corpus_sm (self, m1, set1, text_to_match, sequenceMatcher_threshold = None):
+
+        if sequenceMatcher_threshold is None:
+            sequenceMatcher_threshold = self.sm_threshold
 
         matches = False
         best_match = None
@@ -210,7 +218,7 @@ class RCTitleMatcher:
         for entity_id in self.lsh_ensemble.query(m1, len(set1)):
             # print(entity_id, rc_corpus[entity_id]["title"])
             # TODO: "text_to_match" is "title" but hardcoding "title" was be a bug. See if makes sense to have both "text_to_match" and "title"
-            s = SequenceMatcher(None, self.rc_corpus[entity_id]["text_to_match"], text_to_match )
+            s = SequenceMatcher(None, self.rc_corpus[entity_id]["text_to_match"].lower(), text_to_match.lower() )
             # select the best match
             if (s.ratio() >= max_score):
                 best_match = entity_id
@@ -233,7 +241,10 @@ class RCTitleMatcher:
     #     return best_match, matches, max_score
 
 
-    def find_text_in_corpus_fuzzy (self, mh, words, text_to_match, fuzzy_min_score):
+    def find_text_in_corpus_fuzzy (self, mh, words, text_to_match, fuzzy_min_score = None):
+
+        if fuzzy_min_score is None:
+            fuzzy_min_score = self.fuzzy_threshold
 
         matches = False
         best_match = None
@@ -241,7 +252,7 @@ class RCTitleMatcher:
         for entity_id in self.lsh_ensemble.query(mh, len(words)):
             # print(entity_id, rc_corpus[entity_id]["title"])
             corpus_potential_match_text = self.rc_corpus[entity_id]["text_to_match"]
-            ratio = fuzz.token_sort_ratio(corpus_potential_match_text, text_to_match)
+            ratio = fuzz.token_sort_ratio(corpus_potential_match_text.lower(), text_to_match.lower())
             # select the best match
             if ratio >= max_score:
                 best_match = entity_id
@@ -270,6 +281,7 @@ class RCTitleMatcher:
 
             threshold = step
 
+            # TODO: instead of passing a method dinamically I could create a class TextMatcher with a method TextMatcher.test_threshold() and extended with TextMatcherFuzzy and TextMatcherSequenceMatcher
             results = test_tool_threshold(classified_minhash,
                                              threshold)
 
@@ -299,7 +311,7 @@ class RCTitleMatcher:
     def calibrate_SequenceMatcher (self, classified_minhash, test_vector,confusion_matrix_target_score):
 
         # steps for the grid search of the SequenceMatcher threshold
-        steps = numpy.arange(50,100,1, int)
+        steps = numpy.arange(65,75,1, int) #TODO: this can be done first with a step of 5 or 10 and then a second round around the selected threshold but with a step of 1
 
         # doing this instead of generating a range using float to prevent having steps like 0.990000000001
         steps = steps / 100
@@ -351,7 +363,7 @@ class RCTitleMatcher:
 
     def calibrate_FuzzyWuzzy (self, classified_minhash, test_vector,confusion_matrix_target_score):
 
-        steps = numpy.arange(50, 100, 1)
+        steps = numpy.arange(60, 80, 1)
 
         # calibrate_generic will iterate through each step in steps and select the threshold that maximizes the
         # confusion_matrix_target_score calling self.test_fuzzy_threshold
@@ -453,7 +465,7 @@ class RCDatasetTitleMatcher(RCTitleMatcher):
         resultDF = resultDF.rename(columns={"title": "RC_Provider", "fields.name": "ADRF_Provider"})
 
         # reorder columns
-        resultDF = resultDF[['RC_id', 'ADRF_id', 'RC_title', 'ADRF_title', 'RC_Provider', 'ADRF_Provider', \
+        resultDF = resultDF[['RC_id', 'ADRF_id', 'RC_title', 'ADRF_title', 'RC_Provider', 'ADRF_Provider',
                              'RC_description', 'ADRF_description', 'RC_provider_id', 'ADRF_provider_id']]
 
         # write csv file
@@ -659,6 +671,13 @@ class RCPublicationTitleMatcher(RCTitleMatcher):
 
         print("loaded RC publication corpus...", type(publication_list), len(publication_list))
 
+        # # for helping debug results
+        # df = pd.DataFrame(columns=['doi','title'])
+        # for pub in publication_list:
+        #     df = df.append({"doi":pub["doi"],"title":pub["title"]}, ignore_index=True)
+        #
+        # df.to_csv("known_publications.csv", index=False, encoding="utf-8-sig")
+
         # fields I need in the rc_corpus list
         #fields = {} #right now I don't use other fields than title and doi
 
@@ -791,13 +810,33 @@ def main_publications_calibrate(classified_vector_path):
     #
     print("selected threshold for FuzzyWuzzy:", fuzzy_min_score)
 
+
+    textMatcher.save_model("publications.pkl")
+
     return sm_min_score, fuzzy_min_score
+
+
+def publications_test_bulk_search():
 
     print("-----------------------------------------------------")
     # Test the matcher with the training vector ##TODO test better
+
+    # textMatcher = RCDatasetTitleMatcher.load_model("publications.pkl")
+
+    count_matches = 0
+
+    pickled_file = open("publications.pkl", 'rb')
+    textMatcher = pickle.load(pickled_file)
+    pickled_file.close()
+
+    # dataframe to export results to a CSV
+    resultDF = pd.DataFrame(
+        columns=['find_doi','RC_doi', 'find_title', 'RC_title', 'score' ,'origin'])
+
     vectorDF = pd.read_csv(classified_vector_path, encoding="utf8")
     for index, row in vectorDF.iterrows():
 
+        result = dict()
         search_for = row["title"]
 
         words = textMatcher.get_set_of_words(search_for)
@@ -806,17 +845,33 @@ def main_publications_calibrate(classified_vector_path):
         for term in words:
             mh.update(term.encode("utf8"))
 
-        best_match, matches, max_score = textMatcher.find_text_in_corpus_fuzzy(mh,words,search_for,
-                                                                            sm_min_score)
+        best_match, matches, max_score = textMatcher.find_text_in_corpus_fuzzy(mh,words,search_for)
         if matches:
-            print("Searching for", search_for)
-            print("matches with", best_match, self.rc_corpus[best_match]["text_to_match"])
-            print("with a SequenceMatcher ratio", max_score)
-        else:
-            print("Searching for", search_for)
-            print("NOT FOUND")
+            # print("Searching for", search_for)
+            # print("matches with", best_match, textMatcher.rc_corpus[best_match]["text_to_match"])
+            # print("with a SequenceMatcher ratio", max_score)
+            result["RC_title"] = textMatcher.rc_corpus[best_match]["text_to_match"]
+            result["RC_doi"] = best_match
+            count_matches += 1
 
-    return sm_min_score, fuzzy_min_score
+        else:
+            # print("Searching for", search_for)
+            # print("NOT FOUND")
+            result["RC_title"] = "not found"
+            result["RC_doi"] = "not found"
+            max_score = 0
+
+        result["find_doi"] = row["doi"]
+        result["find_title"] = search_for
+        result["origin"] = row["origin"]
+        result["score"] = max_score
+
+        resultDF = resultDF.append( result, ignore_index=True)
+
+    resultDF.to_csv("test_publications_FuzzyWuzzy.csv", index=False, encoding="utf-8-sig")
+    print("matched titles:",count_matches)
+
+
 
 
 def main_publications_test_search(sm_min_score, fuzzy_min_score):
@@ -945,7 +1000,7 @@ if __name__ == '__main__':
     # TODO: classified vector is probably biased. It does not cover any edge case.
     classified_vector_path = "training_vector_1.01.csv"
 
-    main_dataset(corpus_path, search_for_matches_path, classified_vector_path)
+    #main_dataset(corpus_path, search_for_matches_path, classified_vector_path)
 
     # this uses scholapi to search publications by DOI using all possible APIs, the result was used to create the training vector 3.0
     #search_publication_titles()
@@ -953,9 +1008,11 @@ if __name__ == '__main__':
     # this recover all publications produced by recover_verified_not_links.py and those were used to create the training vector 3.0
     # load_rejected_publications()
 
-    classified_vector_path = Path("publications_data/training_vector_3.0.csv")
+    classified_vector_path = Path("publications_data/training_vector_3.2.csv")
 
     #sm_min_score, fuzzy_min_score = main_publications_calibrate(classified_vector_path)
 
     # TODO: this just compares 2 publication titles. Maybe it makes sense to search in the entire corpus.
     #main_publications_test_search(sm_min_score, fuzzy_min_score)
+
+    publications_test_bulk_search()
