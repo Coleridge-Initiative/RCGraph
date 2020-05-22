@@ -1126,6 +1126,13 @@
                 }
             ]
         },
+        "abstract": "Automated and accurate radar dealiasing algorithms are very important for their assimilation into operational numerical weather forecasting models. A radar radial velocity dealiasing algorithm aimed at radar data assimilation is introduced and assessed using from several S-band and C-band radar observations under the severe weather conditions of hurricanes, typhoons, and deep continental convection in this paper. This dealiasing algorithm, named automated dealiasing for data assimilation (ADDA), is a further development of the dealiasing algorithm named the China radar network (CINRAD) improved dealiasing algorithm (CIDA), originally developed for China’s CINRAD (China Next Generation Weather Radar) radar network. The improved scheme contains five modules employed to remove noisy data, select the suitable first radial, preserve the convective regions, execute multipass dealiasing in both azimuthal and radial directions and conduct the final local dealiasing with an error check. This new dealiasing algorithm was applied to two hurricane cases, two typhoon cases, and three intense-convection cases that were observed from the CINRAD of China, Taiwan‘s radar network, and NEXRAD (Next Generation Weather Radar) of the U.S. with a continuous period of more than 12 h for each case. The dealiasing results demonstrated that ADDA performed better than CIDA for all selected cases. This algorithm not only produced a high success rate for the S-band radar, but also a reasonable performance for the C-band radar.",
+        "authors": [
+            "author-5147a58558773099faf8",
+            "author-13f18f85fad39cabd668",
+            "author-cf481e97b953b4b0ed0d",
+            "author-54ea7ff2f81b38309437"
+        ],
         "datasets": [
             "dataset-612"
         ],
@@ -1190,6 +1197,108 @@
             "status": "ok"
         },
         "doi": "10.3390/rs11202457",
+        "keyphrases": {
+            "adda": {
+                "count": 2,
+                "rank_score": 0.04960445650781414
+            },
+            "algorithm": {
+                "count": 1,
+                "rank_score": 0.047361846302196836
+            },
+            "algorithm (cida": {
+                "count": 1,
+                "rank_score": 0.050307517087558117
+            },
+            "algorithms": {
+                "count": 5,
+                "rank_score": 0.08169388079740553
+            },
+            "all selected cases": {
+                "count": 1,
+                "rank_score": 0.04808872626489229
+            },
+            "automated and accurate radar": {
+                "count": 1,
+                "rank_score": 0.061388191521820124
+            },
+            "c-band radar": {
+                "count": 1,
+                "rank_score": 0.049737681461364314
+            },
+            "china": {
+                "count": 5,
+                "rank_score": 0.06860857301818242
+            },
+            "cinrad": {
+                "count": 4,
+                "rank_score": 0.05849700294092833
+            },
+            "data assimilation": {
+                "count": 1,
+                "rank_score": 0.07878579112380575
+            },
+            "dealiasing algorithm": {
+                "count": 2,
+                "rank_score": 0.07615297374955665
+            },
+            "dealiasing results": {
+                "count": 1,
+                "rank_score": 0.06552028132640325
+            },
+            "deep continental convection": {
+                "count": 1,
+                "rank_score": 0.07243422111123154
+            },
+            "hurricanes": {
+                "count": 1,
+                "rank_score": 0.05223623929176549
+            },
+            "new dealiasing algorithm": {
+                "count": 1,
+                "rank_score": 0.07800393054513316
+            },
+            "next generation weather radar": {
+                "count": 2,
+                "rank_score": 0.08389834051088563
+            },
+            "noisy data": {
+                "count": 1,
+                "rank_score": 0.0675564813902996
+            },
+            "operational numerical weather forecasting models": {
+                "count": 1,
+                "rank_score": 0.08149054478956992
+            },
+            "radar data assimilation": {
+                "count": 1,
+                "rank_score": 0.0760984596501715
+            },
+            "radar radial velocity": {
+                "count": 1,
+                "rank_score": 0.0640631967477485
+            },
+            "s-band radar": {
+                "count": 1,
+                "rank_score": 0.05136142917241838
+            },
+            "several s-band and c-band radar observations": {
+                "count": 1,
+                "rank_score": 0.054679780904219336
+            },
+            "taiwan‘s radar network": {
+                "count": 1,
+                "rank_score": 0.09660419492592948
+            },
+            "two hurricane cases": {
+                "count": 1,
+                "rank_score": 0.046793444357387894
+            },
+            "typhoons": {
+                "count": 1,
+                "rank_score": 0.04929648821597228
+            }
+        },
         "original": {
             "authors": "He, Guangxin, Sun, Juanzhen, Ying, Zhuming, Zhang, Lejian",
             "date_added": "2020-01-15 12:00:16",
@@ -3053,6 +3162,14 @@
                 }
             ]
         },
+        "abstract": "In this paper, a system-specific phased-array radar system simulator was developed, based on a time-domain modeling and simulation method, mainly for system performance evaluation of the future Spectrum-Efficient National Surveillance Radar (SENSR). The goal of the simulation study was to establish a complete data quality prediction method based on specific radar hardware and electronics designs. The distributed weather targets were modeled using a covariance matrix-based method. The data quality analysis was conducted using Next-Generation Radar (NEXRAD) Level-II data as a basis, in which the impact of various pulse compression waveforms and channel electronic instability on weather radar data quality was evaluated. Two typical weather scenarios were employed to assess the simulator’s performance, including a tornado case and a convective precipitation case. Also, modeling of some demonstration systems was evaluated, including a generic weather radar, a planar polarimetric phased-array radar, and a cylindrical polarimetric phased-array radar. Corresponding error statistics were provided to help multifunction phased-array radar (MPAR) designers perform trade-off studies.",
+        "authors": [
+            "author-7d968b8c89a1fe448952",
+            "author-72c5ac795b6882c63694",
+            "author-89ac9e9818eb3b3d988f",
+            "author-a65f4346af93c0be6478",
+            "author-582d1d8076fd59aa0361"
+        ],
         "datasets": [
             "dataset-612"
         ],
@@ -3123,6 +3240,108 @@
             "status": "ok"
         },
         "doi": "10.3390/rs11040422",
+        "keyphrases": {
+            "channel electronic instability": {
+                "count": 1,
+                "rank_score": 0.07203927006920546
+            },
+            "complete data quality prediction method": {
+                "count": 1,
+                "rank_score": 0.07760125488991557
+            },
+            "convective precipitation case": {
+                "count": 1,
+                "rank_score": 0.047328107316426955
+            },
+            "corresponding error statistics": {
+                "count": 1,
+                "rank_score": 0.06972624892154965
+            },
+            "covariance matrix-based method": {
+                "count": 1,
+                "rank_score": 0.04849261897307388
+            },
+            "cylindrical polarimetric phased-array radar": {
+                "count": 1,
+                "rank_score": 0.06643916248430588
+            },
+            "data quality analysis": {
+                "count": 1,
+                "rank_score": 0.053082169048618344
+            },
+            "distributed weather targets": {
+                "count": 1,
+                "rank_score": 0.0570691309912877
+            },
+            "future spectrum-efficient national surveillance radar": {
+                "count": 1,
+                "rank_score": 0.05448740112157975
+            },
+            "generic weather radar": {
+                "count": 1,
+                "rank_score": 0.07318877130836834
+            },
+            "level-ii data": {
+                "count": 1,
+                "rank_score": 0.05271135347933739
+            },
+            "modeling": {
+                "count": 1,
+                "rank_score": 0.055313057963831694
+            },
+            "multifunction phased-array radar": {
+                "count": 1,
+                "rank_score": 0.08315752622021023
+            },
+            "next-generation radar": {
+                "count": 2,
+                "rank_score": 0.05286903241313373
+            },
+            "performance": {
+                "count": 1,
+                "rank_score": 0.04833840122973901
+            },
+            "polarimetric phased-array radar": {
+                "count": 1,
+                "rank_score": 0.0840693826143151
+            },
+            "simulation method": {
+                "count": 1,
+                "rank_score": 0.08191685146706722
+            },
+            "some demonstration systems": {
+                "count": 1,
+                "rank_score": 0.046579786478632625
+            },
+            "specific radar hardware and electronics designs": {
+                "count": 1,
+                "rank_score": 0.07058311282831664
+            },
+            "spectrum-efficient national surveillance radar": {
+                "count": 1,
+                "rank_score": 0.06521535452323683
+            },
+            "system performance evaluation": {
+                "count": 1,
+                "rank_score": 0.08414671486173556
+            },
+            "system-specific phased-array radar system simulator": {
+                "count": 1,
+                "rank_score": 0.06885051140543061
+            },
+            "two typical weather scenarios": {
+                "count": 1,
+                "rank_score": 0.056340458709186275
+            },
+            "various pulse compression waveforms": {
+                "count": 1,
+                "rank_score": 0.08463113193979664
+            },
+            "weather radar data quality": {
+                "count": 1,
+                "rank_score": 0.13454965636538913
+            }
+        },
         "original": {
             "authors": "Zhe Li, Sudantha Perera, Yan Zhang, Guifu Zhang, Richard Doviak",
             "date_added": "2020-01-15 12:00:16",
@@ -3132,1018 +3351,6 @@
             "url": "https://www.mdpi.com/2072-4292/11/4/422/htm"
         },
         "title": "Phased-Array Radar System Simulator (PASIM): Development and Simulation Result Assessment"
-    },
-    {
-        "Dimensions": {
-            "FOR": [
-                {
-                    "id": "2891",
-                    "name": "0909 Geomatic Engineering"
-                }
-            ],
-            "FOR_first": [
-                {
-                    "id": "2209",
-                    "name": "09 Engineering"
-                }
-            ],
-            "altmetric_id": 0,
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [
-                            {
-                                "city": "Taoyuan City",
-                                "city_id": 6696918,
-                                "country": "Taiwan",
-                                "country_code": "TW",
-                                "id": "grid.37589.30",
-                                "name": "National Central University",
-                                "state": null,
-                                "state_code": null
-                            },
-                            {
-                                "city": "Madison",
-                                "city_id": 5261457,
-                                "country": "United States",
-                                "country_code": "US",
-                                "id": "grid.14003.36",
-                                "name": "University of Wisconsin–Madison",
-                                "state": "Wisconsin",
-                                "state_code": "US-WI"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "C.-Y.",
-                        "initials": "",
-                        "last_name": "Liu",
-                        "orcid": "",
-                        "researcher_id": ""
-                    },
-                    {
-                        "affiliations": [
-                            {
-                                "city": "Madison",
-                                "city_id": 5261457,
-                                "country": "United States",
-                                "country_code": "US",
-                                "id": "grid.14003.36",
-                                "name": "University of Wisconsin–Madison",
-                                "state": "Wisconsin",
-                                "state_code": "US-WI"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "S. A.",
-                        "initials": "",
-                        "last_name": "Ackerman",
-                        "orcid": "",
-                        "researcher_id": ""
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [
-                        {
-                            "city": "Taoyuan City",
-                            "city_id": 6696918,
-                            "country": "Taiwan",
-                            "country_code": "TW",
-                            "id": "grid.37589.30",
-                            "name": "National Central University",
-                            "state": null,
-                            "state_code": null
-                        },
-                        {
-                            "city": "Madison",
-                            "city_id": 5261457,
-                            "country": "United States",
-                            "country_code": "US",
-                            "id": "grid.14003.36",
-                            "name": "University of Wisconsin–Madison",
-                            "state": "Wisconsin",
-                            "state_code": "US-WI"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "C.-Y.",
-                    "initials": "",
-                    "last_name": "Liu",
-                    "orcid": "",
-                    "researcher_id": ""
-                },
-                {
-                    "affiliations": [
-                        {
-                            "city": "Madison",
-                            "city_id": 5261457,
-                            "country": "United States",
-                            "country_code": "US",
-                            "id": "grid.14003.36",
-                            "name": "University of Wisconsin–Madison",
-                            "state": "Wisconsin",
-                            "state_code": "US-WI"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "S. A.",
-                    "initials": "",
-                    "last_name": "Ackerman",
-                    "orcid": "",
-                    "researcher_id": ""
-                }
-            ],
-            "category_for": [
-                {
-                    "id": "2209",
-                    "name": "09 Engineering"
-                },
-                {
-                    "id": "2891",
-                    "name": "0909 Geomatic Engineering"
-                }
-            ],
-            "category_ua": [
-                {
-                    "id": "30007",
-                    "name": "B07 Earth Systems and Environmental Sciences"
-                }
-            ],
-            "category_uoa": [
-                {
-                    "id": "30007",
-                    "name": "B07 Earth Systems and Environmental Sciences"
-                }
-            ],
-            "concepts": [
-                "upper-level undergraduate course",
-                "undergraduate course",
-                "radar",
-                "satellite meteorology",
-                "meteorology",
-                "oceanic sciences",
-                "science",
-                "University",
-                "Wisconsin-Madison",
-                "components",
-                "laboratory exercises",
-                "satellite data",
-                "data",
-                "student feedback",
-                "feedback",
-                "severe weather",
-                "weather",
-                "computer-equipped classrooms",
-                "severe weather outbreaks",
-                "decision-making environment",
-                "environment",
-                "radar data",
-                "Integrated Data Viewer",
-                "data viewer",
-                "viewers",
-                "software package",
-                "package",
-                "bundling",
-                "features",
-                "instructors",
-                "delay",
-                "radar volume scans",
-                "volume scans",
-                "teams of students",
-                "team",
-                "evolution",
-                "situation",
-                "severe weather warnings",
-                "weather warnings",
-                "warning",
-                "analysis skills",
-                "skills",
-                "lab",
-                "warning decisions",
-                "decisions",
-                "clock",
-                "time",
-                "operational experience",
-                "experience",
-                "undergraduate curriculum",
-                "inherent portability",
-                "portability",
-                "flexibility",
-                "severe weather events",
-                "Weather Nowcasting",
-                "nowcasting"
-            ],
-            "date": "2012-09-05",
-            "date_inserted": "2017-08-31",
-            "doi": "10.5194/isprsarchives-xxxviii-6-w27-41-2011",
-            "field_citation_ratio": 0.0,
-            "id": "pub.1024510776",
-            "issn": [
-                "1682-1750",
-                "2194-9034",
-                "1682-1777"
-            ],
-            "issue": "1",
-            "journal": {
-                "id": "jour.1313806",
-                "title": "ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences"
-            },
-            "journal_lists": [
-                "DOAJ",
-                "ERA 2018",
-                "Norwegian register level 1"
-            ],
-            "linkout": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XXXVIII-6-W27/41/2011/isprsarchives-XXXVIII-6-W27-41-2011.pdf",
-            "noun_phrases": [
-                "severe weather",
-                "upper-level undergraduate course",
-                "meteorology",
-                "University of Wisconsin-Madison",
-                "component",
-                "lecture",
-                "theory",
-                "laboratory",
-                "radar",
-                "satellite data",
-                "student feedback",
-                "classroom",
-                "operational decision",
-                "next-generation",
-                "integrated data",
-                "software package",
-                "bundling",
-                "instructor",
-                "radar data",
-                "reflectivity",
-                "relative",
-                "feed",
-                "delay",
-                "volume",
-                "team",
-                "evolution",
-                "analysis skill",
-                "lab",
-                "storm",
-                "warning",
-                "exercise",
-                "undergraduate curriculum",
-                "portability",
-                "Pliability",
-                "adapt",
-                "severe weather event",
-                "mesoscale"
-            ],
-            "open_access": [
-                "Open Access - all",
-                "Open Access - publisher",
-                "Open Access - published"
-            ],
-            "open_access_categories": [
-                {
-                    "description": "Article is freely available",
-                    "id": "oa_all",
-                    "name": "All OA"
-                },
-                {
-                    "description": "Version Of Record (VOR) is free under an open licence from a full OA journal",
-                    "id": "gold_pure",
-                    "name": "Pure Gold"
-                }
-            ],
-            "pages": "41-43",
-            "publisher": "Copernicus Publications",
-            "recent_citations": 0,
-            "research_org_cities": [
-                {
-                    "id": 5261457,
-                    "name": "Madison"
-                },
-                {
-                    "id": 6696918,
-                    "name": "Taoyuan City"
-                }
-            ],
-            "research_org_countries": [
-                {
-                    "id": "US",
-                    "name": "United States"
-                },
-                {
-                    "id": "TW",
-                    "name": "Taiwan"
-                }
-            ],
-            "research_org_country_names": [
-                "Taiwan",
-                "United States"
-            ],
-            "research_org_names": [
-                "National Central University",
-                "University of Wisconsin–Madison"
-            ],
-            "research_org_state_codes": [
-                {
-                    "id": "US-WI",
-                    "name": "Wisconsin"
-                }
-            ],
-            "research_org_state_names": [
-                "Wisconsin"
-            ],
-            "research_orgs": [
-                {
-                    "acronym": "UW",
-                    "city_name": "Madison",
-                    "country_name": "United States",
-                    "id": "grid.14003.36",
-                    "latitude": 43.076694,
-                    "linkout": [
-                        "http://www.wisc.edu/"
-                    ],
-                    "longitude": -89.41244,
-                    "name": "University of Wisconsin–Madison",
-                    "state_name": "Wisconsin",
-                    "types": [
-                        "Education"
-                    ]
-                },
-                {
-                    "acronym": "NCU",
-                    "city_name": "Taoyuan City",
-                    "country_name": "Taiwan",
-                    "id": "grid.37589.30",
-                    "latitude": 24.96828,
-                    "linkout": [
-                        "http://www.ncu.edu.tw/en"
-                    ],
-                    "longitude": 121.19289,
-                    "name": "National Central University",
-                    "types": [
-                        "Education"
-                    ]
-                }
-            ],
-            "terms": [
-                "upper-level undergraduate course",
-                "undergraduate course",
-                "radar",
-                "satellite meteorology",
-                "meteorology",
-                "oceanic sciences",
-                "science",
-                "University",
-                "Wisconsin-Madison",
-                "components",
-                "laboratory exercises",
-                "satellite data",
-                "data",
-                "student feedback",
-                "feedback",
-                "severe weather",
-                "weather",
-                "computer-equipped classrooms",
-                "severe weather outbreaks",
-                "decision-making environment",
-                "environment",
-                "radar data",
-                "Integrated Data Viewer",
-                "data viewer",
-                "viewers",
-                "software package",
-                "package",
-                "bundling",
-                "features",
-                "instructors",
-                "delay",
-                "radar volume scans",
-                "volume scans",
-                "teams of students",
-                "team",
-                "evolution",
-                "situation",
-                "severe weather warnings",
-                "weather warnings",
-                "warning",
-                "analysis skills",
-                "skills",
-                "lab",
-                "warning decisions",
-                "decisions",
-                "clock",
-                "time",
-                "operational experience",
-                "experience",
-                "undergraduate curriculum",
-                "inherent portability",
-                "portability",
-                "flexibility",
-                "severe weather events",
-                "Weather Nowcasting",
-                "nowcasting"
-            ],
-            "times_cited": 0,
-            "title": "A SIMULATED REAL-TIME SEVERE WEATHER NOWCASTING",
-            "type": "article",
-            "volume": "XXXVIII-6-W27",
-            "year": 2012
-        },
-        "OpenAIRE": {
-            "authors": [
-                "C.-Y. Liu",
-                "S. A. Ackerman"
-            ],
-            "open": true,
-            "url": "http://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XXXVIII-6-W27/41/2011/isprsarchives-XXXVIII-6-W27-41-2011.pdf"
-        },
-        "Semantic Scholar": {
-            "message": "Forbidden"
-        },
-        "Unpaywall": {
-            "best_oa_location": {
-                "endpoint_id": null,
-                "evidence": "open (via page says license)",
-                "host_type": "publisher",
-                "is_best": true,
-                "license": "cc-by",
-                "pmh_id": null,
-                "repository_institution": null,
-                "updated": "2018-07-17T10:59:50.636901",
-                "url": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XXXVIII-6-W27/41/2011/isprsarchives-XXXVIII-6-W27-41-2011.pdf",
-                "url_for_landing_page": "https://doi.org/10.5194/isprsarchives-xxxviii-6-w27-41-2011",
-                "url_for_pdf": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XXXVIII-6-W27/41/2011/isprsarchives-XXXVIII-6-W27-41-2011.pdf",
-                "version": "publishedVersion"
-            },
-            "data_standard": 2,
-            "doi": "10.5194/isprsarchives-xxxviii-6-w27-41-2011",
-            "doi_url": "https://doi.org/10.5194/isprsarchives-xxxviii-6-w27-41-2011",
-            "genre": "journal-article",
-            "has_repository_copy": true,
-            "is_oa": true,
-            "is_paratext": false,
-            "journal_is_in_doaj": false,
-            "journal_is_oa": false,
-            "journal_issn_l": "1682-1750",
-            "journal_issns": "1682-1777",
-            "journal_name": "ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
-            "oa_locations": [
-                {
-                    "endpoint_id": null,
-                    "evidence": "open (via page says license)",
-                    "host_type": "publisher",
-                    "is_best": true,
-                    "license": "cc-by",
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2018-07-17T10:59:50.636901",
-                    "url": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XXXVIII-6-W27/41/2011/isprsarchives-XXXVIII-6-W27-41-2011.pdf",
-                    "url_for_landing_page": "https://doi.org/10.5194/isprsarchives-xxxviii-6-w27-41-2011",
-                    "url_for_pdf": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XXXVIII-6-W27/41/2011/isprsarchives-XXXVIII-6-W27-41-2011.pdf",
-                    "version": "publishedVersion"
-                },
-                {
-                    "endpoint_id": null,
-                    "evidence": "oa repository (semantic scholar lookup)",
-                    "host_type": "repository",
-                    "is_best": false,
-                    "license": null,
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2019-10-01T00:00:00",
-                    "url": "http://pdfs.semanticscholar.org/b57e/d70b1378dd01efa122b4acf5b6245e6ebee0.pdf",
-                    "url_for_landing_page": "https://semanticscholar.org/paper/6c082c400761572c8d2688b08cd522912a53595d",
-                    "url_for_pdf": "http://pdfs.semanticscholar.org/b57e/d70b1378dd01efa122b4acf5b6245e6ebee0.pdf",
-                    "version": "submittedVersion"
-                }
-            ],
-            "oa_status": "hybrid",
-            "published_date": "2012-09-05",
-            "publisher": "Copernicus GmbH",
-            "title": "A SIMULATED REAL-TIME SEVERE WEATHER NOWCASTING",
-            "updated": "2019-12-14T08:54:54.429868",
-            "year": 2012,
-            "z_authors": [
-                {
-                    "family": "Liu",
-                    "given": "C.-Y."
-                },
-                {
-                    "family": "Ackerman",
-                    "given": "S. A."
-                }
-            ]
-        },
-        "datasets": [
-            "dataset-612"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "name": {
-                            "first": "C.-Y.",
-                            "last": "Liu"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "S. A.",
-                            "last": "Ackerman"
-                        }
-                    }
-                ],
-                "classification": "OA",
-                "date": "2012-09-05",
-                "pdf_url": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XXXVIII-6-W27/41/2011/isprsarchives-XXXVIII-6-W27-41-2011.pdf",
-                "records": [
-                    {
-                        "doi": "10.5194/isprsarchives-xxxviii-6-w27-41-2011",
-                        "identifier": "oadoi:http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.221.9051",
-                        "pdf_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.221.9051",
-                        "source": "oadoi_repo",
-                        "splash_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.221.9051",
-                        "type": "journal-article"
-                    },
-                    {
-                        "doi": "10.5194/isprsarchives-xxxviii-6-w27-41-2011",
-                        "identifier": "oai:crossref.org:10.5194/isprsarchives-xxxviii-6-w27-41-2011",
-                        "journal": "Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci.",
-                        "pages": "41-43",
-                        "pdf_url": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XXXVIII-6-W27/41/2011/isprsarchives-XXXVIII-6-W27-41-2011.pdf",
-                        "publisher": "Copernicus GmbH",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.5194/isprsarchives-xxxviii-6-w27-41-2011",
-                        "type": "journal-article",
-                        "volume": "XXXVIII-6/W27"
-                    },
-                    {
-                        "doi": "10.5194/isprsarchives-xxxviii-6-w27-41-2011",
-                        "identifier": "oadoi:http://www.isprs.org/proceedings/XXXVIII/6-W27/pdf/P_689_9-7-22.pdf",
-                        "pdf_url": "http://www.isprs.org/proceedings/XXXVIII/6-W27/pdf/P_689_9-7-22.pdf",
-                        "source": "oadoi_repo",
-                        "splash_url": "http://www.isprs.org/proceedings/XXXVIII/6-W27/pdf/P_689_9-7-22.pdf",
-                        "type": "journal-article"
-                    }
-                ],
-                "title": "A Simulated Real-Time Severe Weather Nowcasting",
-                "type": "journal-article"
-            },
-            "status": "ok"
-        },
-        "doi": "10.5194/isprsarchives-xxxviii-6-w27-41-2011",
-        "original": {
-            "authors": "C.-Y. Liu, S. A. Ackerman",
-            "date_added": "2020-01-15 12:00:16",
-            "doi": "10.5194/isprsarchives-XXXVIII-6-W27-41-2011",
-            "journal": "The International Archives of the Photogrammetry",
-            "pdf": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XXXVIII-6-W27/41/2011/isprsarchives-XXXVIII-6-W27-41-2011.pdf",
-            "search_term": "Next Generation Weather Radar",
-            "url": "http://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XXXVIII-6-W27/41/2011/isprsarchives-XXXVIII-6-W27-41-2011.pdf"
-        },
-        "title": "A SIMULATED REAL-TIME SEVERE WEATHER NOWCASTING"
-    },
-    {
-        "Dimensions": {
-            "FOR": [
-                {
-                    "id": "2746",
-                    "name": "0801 Artificial Intelligence and Image Processing"
-                }
-            ],
-            "FOR_first": [
-                {
-                    "id": "2208",
-                    "name": "08 Information and Computing Sciences"
-                }
-            ],
-            "altmetric": 9.0,
-            "altmetric_id": 5036298,
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "Timothy D.",
-                        "initials": "",
-                        "last_name": "Crum",
-                        "orcid": "",
-                        "researcher_id": "ur.010134630077.76"
-                    },
-                    {
-                        "affiliations": [],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "Ron L.",
-                        "initials": "",
-                        "last_name": "Alberty",
-                        "orcid": "",
-                        "researcher_id": "ur.011527571077.30"
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "Timothy D.",
-                    "initials": "",
-                    "last_name": "Crum",
-                    "orcid": "",
-                    "researcher_id": "ur.010134630077.76"
-                },
-                {
-                    "affiliations": [],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "Ron L.",
-                    "initials": "",
-                    "last_name": "Alberty",
-                    "orcid": "",
-                    "researcher_id": "ur.011527571077.30"
-                }
-            ],
-            "category_for": [
-                {
-                    "id": "2377",
-                    "name": "0201 Astronomical and Space Sciences"
-                },
-                {
-                    "id": "2539",
-                    "name": "0406 Physical Geography and Environmental Geoscience"
-                },
-                {
-                    "id": "2202",
-                    "name": "02 Physical Sciences"
-                },
-                {
-                    "id": "2204",
-                    "name": "04 Earth Sciences"
-                },
-                {
-                    "id": "2493",
-                    "name": "0401 Atmospheric Sciences"
-                }
-            ],
-            "category_ua": [
-                {
-                    "id": "30012",
-                    "name": "B12 Engineering"
-                }
-            ],
-            "category_uoa": [
-                {
-                    "id": "30012",
-                    "name": "B12 Engineering"
-                }
-            ],
-            "concepts": [
-                "Weather Surveillance Radar-1988 Doppler (WSR-88D) systems",
-                "Doppler system",
-                "system",
-                "radar program",
-                "joint effort",
-                "efforts",
-                "U.S. Department",
-                "transportation",
-                "common needs",
-                "need",
-                "overseas sites",
-                "Doppler capability",
-                "capability",
-                "receiver sensitivity",
-                "real-time display",
-                "display",
-                "base",
-                "derived products",
-                "forecasters",
-                "detection",
-                "advanced warning",
-                "warning",
-                "severe weather events",
-                "weather",
-                "hydrological applications",
-                "applications",
-                "operational life",
-                "requirements",
-                "technological advancements",
-                "advancement",
-                "real-time operation",
-                "operation",
-                "Operational Support Facility",
-                "support facilities",
-                "facilities",
-                "operator training",
-                "software",
-                "maintenance",
-                "engineering support",
-                "support",
-                "overview",
-                "NEXRAD program",
-                "WSR-88D systems",
-                "WSR-88D",
-                "users",
-                "example"
-            ],
-            "date": "1993-09-01",
-            "date_inserted": "2017-08-31",
-            "doi": "10.1175/1520-0477(1993)074<1669:twatwo>2.0.co;2",
-            "id": "pub.1044977318",
-            "issn": [
-                "0003-0007",
-                "1520-0477"
-            ],
-            "issue": "9",
-            "journal": {
-                "id": "jour.1053654",
-                "title": "Bulletin of the American Meteorological Society"
-            },
-            "journal_lists": [
-                "Norwegian register level 2",
-                "ERA 2018",
-                "ERA 2015"
-            ],
-            "linkout": "http://journals.ametsoc.org/doi/pdf/10.1175/1520-0477%281993%29074%3C1669%3ATWATWO%3E2.0.CO%3B2",
-            "noun_phrases": [
-                "Operational Support",
-                "joint effort",
-                "U.S",
-                "Department of Commerce",
-                "defense",
-                "transportation",
-                "United State",
-                "capability",
-                "receiver",
-                "base",
-                "derived product",
-                "forecaster",
-                "warning",
-                "severe weather event",
-                "weather",
-                "operational life",
-                "technological advancement",
-                "improved understanding",
-                "real-time operation",
-                "operator training",
-                "software",
-                "paper",
-                "overview",
-                "user",
-                "product"
-            ],
-            "open_access": [
-                "Open Access - all",
-                "Open Access - publisher",
-                "Open Access - published"
-            ],
-            "open_access_categories": [
-                {
-                    "description": "Article is freely available",
-                    "id": "oa_all",
-                    "name": "All OA"
-                },
-                {
-                    "description": "Freely available on publisher page, but without an open licence",
-                    "id": "gold_bronze",
-                    "name": "Bronze"
-                }
-            ],
-            "pages": "1669-1687",
-            "publisher": "American Meteorological Society",
-            "recent_citations": 57,
-            "researchers": [
-                {
-                    "first_name": "Timothy D",
-                    "id": "ur.010134630077.76",
-                    "last_name": "Crum"
-                },
-                {
-                    "first_name": "Ron L",
-                    "id": "ur.011527571077.30",
-                    "last_name": "Alberty"
-                }
-            ],
-            "terms": [
-                "Weather Surveillance Radar-1988 Doppler (WSR-88D) systems",
-                "Doppler system",
-                "system",
-                "radar program",
-                "joint effort",
-                "efforts",
-                "U.S. Department",
-                "transportation",
-                "common needs",
-                "need",
-                "overseas sites",
-                "Doppler capability",
-                "capability",
-                "receiver sensitivity",
-                "real-time display",
-                "display",
-                "base",
-                "derived products",
-                "forecasters",
-                "detection",
-                "advanced warning",
-                "warning",
-                "severe weather events",
-                "weather",
-                "hydrological applications",
-                "applications",
-                "operational life",
-                "requirements",
-                "technological advancements",
-                "advancement",
-                "real-time operation",
-                "operation",
-                "Operational Support Facility",
-                "support facilities",
-                "facilities",
-                "operator training",
-                "software",
-                "maintenance",
-                "engineering support",
-                "support",
-                "overview",
-                "NEXRAD program",
-                "WSR-88D systems",
-                "WSR-88D",
-                "users",
-                "example"
-            ],
-            "times_cited": 320,
-            "title": "The WSR-88D and the WSR-88D Operational Support Facility",
-            "type": "article",
-            "volume": "74",
-            "year": 1993
-        },
-        "OpenAIRE": {
-            "authors": [
-                "Crum, Timothy D.",
-                "Alberty, Ron L."
-            ],
-            "open": true,
-            "url": "https://zenodo.org/record/1234705"
-        },
-        "Semantic Scholar": {
-            "message": "Forbidden"
-        },
-        "Unpaywall": {
-            "best_oa_location": {
-                "endpoint_id": null,
-                "evidence": "open (via free pdf)",
-                "host_type": "publisher",
-                "is_best": true,
-                "license": null,
-                "pmh_id": null,
-                "repository_institution": null,
-                "updated": "2018-12-12T01:16:42.858302",
-                "url": "http://journals.ametsoc.org/doi/pdf/10.1175/1520-0477%281993%29074%3C1669%3ATWATWO%3E2.0.CO%3B2",
-                "url_for_landing_page": "https://doi.org/10.1175/1520-0477(1993)074<1669:twatwo>2.0.co;2",
-                "url_for_pdf": "http://journals.ametsoc.org/doi/pdf/10.1175/1520-0477%281993%29074%3C1669%3ATWATWO%3E2.0.CO%3B2",
-                "version": "publishedVersion"
-            },
-            "data_standard": 2,
-            "doi": "10.1175/1520-0477(1993)074<1669:twatwo>2.0.co;2",
-            "doi_url": "https://doi.org/10.1175/1520-0477(1993)074<1669:twatwo>2.0.co;2",
-            "genre": "journal-article",
-            "has_repository_copy": true,
-            "is_oa": true,
-            "is_paratext": false,
-            "journal_is_in_doaj": false,
-            "journal_is_oa": false,
-            "journal_issn_l": "0003-0007",
-            "journal_issns": "0003-0007,1520-0477",
-            "journal_name": "Bulletin of the American Meteorological Society",
-            "oa_locations": [
-                {
-                    "endpoint_id": null,
-                    "evidence": "open (via free pdf)",
-                    "host_type": "publisher",
-                    "is_best": true,
-                    "license": null,
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2018-12-12T01:16:42.858302",
-                    "url": "http://journals.ametsoc.org/doi/pdf/10.1175/1520-0477%281993%29074%3C1669%3ATWATWO%3E2.0.CO%3B2",
-                    "url_for_landing_page": "https://doi.org/10.1175/1520-0477(1993)074<1669:twatwo>2.0.co;2",
-                    "url_for_pdf": "http://journals.ametsoc.org/doi/pdf/10.1175/1520-0477%281993%29074%3C1669%3ATWATWO%3E2.0.CO%3B2",
-                    "version": "publishedVersion"
-                },
-                {
-                    "endpoint_id": "kmlgamtfmx4w6tf78ykl",
-                    "evidence": "oa repository (via OAI-PMH doi match)",
-                    "host_type": "repository",
-                    "is_best": false,
-                    "license": "cc0",
-                    "pmh_id": "oai:zenodo.org:1234705",
-                    "repository_institution": "CERN European Organization for Nuclear Research - Zenodo",
-                    "updated": "2019-04-09T05:01:38.837521",
-                    "url": "https://zenodo.org/record/1234705/files/article.pdf",
-                    "url_for_landing_page": "https://zenodo.org/record/1234705",
-                    "url_for_pdf": "https://zenodo.org/record/1234705/files/article.pdf",
-                    "version": "submittedVersion"
-                }
-            ],
-            "oa_status": "bronze",
-            "published_date": "1993-09-01",
-            "publisher": "American Meteorological Society",
-            "title": "The WSR-88D and the WSR-88D Operational Support Facility",
-            "updated": "2019-11-02T02:28:10.015225",
-            "year": 1993,
-            "z_authors": [
-                {
-                    "family": "Crum",
-                    "given": "Timothy D."
-                },
-                {
-                    "family": "Alberty",
-                    "given": "Ron L."
-                }
-            ]
-        },
-        "datasets": [
-            "dataset-612"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "name": {
-                            "first": "Timothy D.",
-                            "last": "Crum"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "Ron L.",
-                            "last": "Alberty"
-                        }
-                    }
-                ],
-                "classification": "OA",
-                "date": "1993-08-30",
-                "pdf_url": "http://journals.ametsoc.org/doi/pdf/10.1175/1520-0477%281993%29074%3C1669%3ATWATWO%3E2.0.CO%3B2",
-                "records": [
-                    {
-                        "doi": "10.1175/1520-0477(1993)074<1669:twatwo>2.0.co;2",
-                        "identifier": "deposition:3:1234705",
-                        "pdf_url": "https://zenodo.org/record/1234705/files/article.pdf",
-                        "source": "zenodo",
-                        "splash_url": "https://zenodo.org/record/1234705",
-                        "type": "journal-article"
-                    },
-                    {
-                        "doi": "10.1175/1520-0477(1993)074<1669:twatwo>2.0.co;2",
-                        "identifier": "oai:crossref.org:10.1175/1520-0477(1993)074<1669:twatwo>2.0.co;2",
-                        "issn": "0003-0007",
-                        "issue": "9",
-                        "journal": "Bulletin of the American Meteorological Society",
-                        "pages": "1669-1687",
-                        "pdf_url": "http://journals.ametsoc.org/doi/pdf/10.1175/1520-0477%281993%29074%3C1669%3ATWATWO%3E2.0.CO%3B2",
-                        "policy": {
-                            "postprint": "cannot",
-                            "preprint": "can",
-                            "published": "restricted",
-                            "romeo_id": "9"
-                        },
-                        "publisher": "American Meteorological Society",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1175/1520-0477(1993)074<1669:twatwo>2.0.co;2",
-                        "type": "journal-article",
-                        "volume": "74"
-                    },
-                    {
-                        "abstract": "",
-                        "contributors": "",
-                        "doi": "10.1175/1520-0477(1993)074&lt;1669:twatwo&gt;2.0.co;2",
-                        "identifier": "oai:researchgate.net:234272641",
-                        "keywords": "",
-                        "source": "researchgate",
-                        "splash_url": "https://www.researchgate.net/publication/234272641_The_WSR-88D_and_the_WSR-88D_operational_support_facility",
-                        "type": "journal-article"
-                    }
-                ],
-                "title": "The WSR-88D and the WSR-88D operational support facility",
-                "type": "journal-article"
-            },
-            "status": "ok"
-        },
-        "doi": "10.1175/1520-0477(1993)074<1669:twatwo>2.0.co;2",
-        "original": {
-            "authors": "Crum, Timothy D., Alberty, Ron L.",
-            "date_added": "2020-01-15 12:00:16",
-            "doi": "10.1175/1520-0477(1993)074",
-            "pdf": "https://journals.ametsoc.org/doi/pdf/10.1175/1520-0477%281993%29074%3C1669%3ATWATWO%3E2.0.CO%3B2",
-            "search_term": "Next Generation Weather Radar",
-            "url": "https://journals.ametsoc.org/doi/pdf/10.1175/1520-0477%281993%29074%3C1669%3ATWATWO%3E2.0.CO%3B2"
-        },
-        "title": "The WSR-88D and the WSR-88D operational support facility"
     },
     {
         "Semantic Scholar": {
@@ -5177,6 +4384,15 @@
                 }
             ]
         },
+        "abstract": "The upgrade of the national network of next-generation weather surveillance radars (NEXRAD) in the United States to dual polarizations has been completed, providing three additional routine data products: total differential phase (ψDP), differential reflectivity (ZDR), and copolar correlation coefficient (ρHV). The application and interpretation of these products in the context of aerial bird, bat, and insect movements is an actively developing research front, with potential implications for ecological and conservation studies. The following conceptually derives the definition of these products specifically for NEXRAD weather surveillance radars in the case of biological scatterers. Several cases are presented that illustrate characteristic values and variability of polarimetric quantities for birds and insects, and highlight site-specific differences within the NEXRAD network. Finally, a short prospectus of future directions and applications within the field of polarimetric radar aeroecology is outlined.",
+        "authors": [
+            "author-1191af65f2516c99d5fd",
+            "author-58a5dcdc6e2675db1c90",
+            "author-c42d8d1cc3c0bdd92126",
+            "author-38f03f1baca928659bd8",
+            "author-146ae264b1777377b0dd",
+            "author-27e6ee1655f561ea3166"
+        ],
         "datasets": [
             "dataset-612"
         ],
@@ -5250,6 +4466,108 @@
             "status": "ok"
         },
         "doi": "10.1002/ecs2.1539",
+        "keyphrases": {
+            "aerial bird": {
+                "count": 1,
+                "rank_score": 0.08225094367337327
+            },
+            "bat": {
+                "count": 1,
+                "rank_score": 0.056306833100234516
+            },
+            "biological scatterers": {
+                "count": 1,
+                "rank_score": 0.059743880386216835
+            },
+            "birds": {
+                "count": 1,
+                "rank_score": 0.07187242375363814
+            },
+            "copolar correlation coefficient": {
+                "count": 1,
+                "rank_score": 0.08407471792006066
+            },
+            "differential reflectivity": {
+                "count": 1,
+                "rank_score": 0.08098314514312072
+            },
+            "dual polarizations": {
+                "count": 1,
+                "rank_score": 0.07483788770655597
+            },
+            "ecological and conservation studies": {
+                "count": 1,
+                "rank_score": 0.05336022762067891
+            },
+            "future directions": {
+                "count": 1,
+                "rank_score": 0.0748633284220938
+            },
+            "highlight site-specific differences": {
+                "count": 1,
+                "rank_score": 0.05728046233027332
+            },
+            "illustrate characteristic values": {
+                "count": 1,
+                "rank_score": 0.05083990096204068
+            },
+            "insect movements": {
+                "count": 1,
+                "rank_score": 0.06078029048670009
+            },
+            "insects": {
+                "count": 1,
+                "rank_score": 0.04512299338435499
+            },
+            "nexrad": {
+                "count": 2,
+                "rank_score": 0.06603995180337177
+            },
+            "nexrad network": {
+                "count": 1,
+                "rank_score": 0.04529640559571489
+            },
+            "nexrad weather surveillance radars": {
+                "count": 1,
+                "rank_score": 0.11680101173367881
+            },
+            "next-generation weather surveillance radars": {
+                "count": 1,
+                "rank_score": 0.08057735500349342
+            },
+            "polarimetric quantities": {
+                "count": 1,
+                "rank_score": 0.07756877358662663
+            },
+            "polarimetric radar aeroecology": {
+                "count": 1,
+                "rank_score": 0.10445563677197306
+            },
+            "potential implications": {
+                "count": 1,
+                "rank_score": 0.07119545904381405
+            },
+            "several cases": {
+                "count": 1,
+                "rank_score": 0.07349807072662015
+            },
+            "three additional routine data products": {
+                "count": 1,
+                "rank_score": 0.06985980009927395
+            },
+            "total differential phase": {
+                "count": 1,
+                "rank_score": 0.09140657395104061
+            },
+            "variability": {
+                "count": 1,
+                "rank_score": 0.0576462622396451
+            },
+            "zdr": {
+                "count": 2,
+                "rank_score": 0.04494443894742657
+            }
+        },
         "original": {
             "authors": "Phillip M. Stepanian, Kyle G. Horton, Valery M. Melnikov, Dušan S. Zrnić, Sidney A. Gauthreaux Jr.",
             "date_added": "2020-01-15 12:00:16",
@@ -6751,6 +6069,15 @@
                 }
             ]
         },
+        "abstract": "The U.S. Department of Energy (DOE) Atmospheric Radiation Measurement (ARM) program's Southern Great Plains (SGP) site includes a heterogeneous distributed scanning Doppler radar network suitable for collecting coordinated Doppler velocity measurements in deep convective clouds. The surrounding National Weather Service (NWS) Next Generation Weather Surveillance Radar 1988 Doppler (NEXRAD WSR-88D) further supplements this network. Radar velocity measurements are assimilated in a three-dimensional variational (3DVAR) algorithm that retrieves horizontal and vertical air motions over a large analysis domain (100 km x 100 km) at storm-scale resolutions (250 m). For the first time, direct evaluation of retrieved vertical velocities with those from collocated 915-MHz radar wind profilers is performed. Mean absolute and root-mean-square differences between the two methods are on the order of 1 m s −1 and 2 m s −1 , respectively. Moderate time-height correlations on the order of 0.5 are also shown to exist between the two methods. An empirical sensitivity analysis is done to determine a range of 3DVAR constraint weights that adequately satisfy both velocity observations and anelastic mass continuity. It is shown that the vertical velocity spread over this range is on the order of 1 m s −1 . A similar sensitivity analysis reveals that iterative multi-Doppler techniques have difficulty satisfying velocity observations and mass continuity simultaneously. These results provide a form of assurance in the use of 3DVAR retrieved vertical velocities for evaluating numerical simulations of deep convective clouds.",
+        "authors": [
+            "author-a224b85d1123cac9ff50",
+            "author-012c380b5dcb15ca7162",
+            "author-7d728c9e4c1addc62563",
+            "author-31d37093a1c945bf8f8e",
+            "author-0dc36f3d339e4087e5f5",
+            "author-6bda8dc9b6466e2c5048"
+        ],
         "datasets": [
             "dataset-612",
             "dataset-665"
@@ -6847,6 +6174,108 @@
             "status": "ok"
         },
         "doi": "10.5194/amt-10-2785-2017",
+        "keyphrases": {
+            "anelastic mass continuity": {
+                "count": 1,
+                "rank_score": 0.05746952907436638
+            },
+            "atmospheric radiation measurement": {
+                "count": 1,
+                "rank_score": 0.06508870991861997
+            },
+            "collocated 915-mhz radar wind profilers": {
+                "count": 1,
+                "rank_score": 0.049397156439131326
+            },
+            "coordinated doppler velocity measurements": {
+                "count": 1,
+                "rank_score": 0.10556385629525399
+            },
+            "deep convective clouds": {
+                "count": 2,
+                "rank_score": 0.06836186543093574
+            },
+            "direct evaluation": {
+                "count": 1,
+                "rank_score": 0.05765551500002553
+            },
+            "doppler": {
+                "count": 3,
+                "rank_score": 0.07138775474487342
+            },
+            "empirical sensitivity analysis": {
+                "count": 1,
+                "rank_score": 0.047696568967467795
+            },
+            "energy": {
+                "count": 1,
+                "rank_score": 0.053638885527190386
+            },
+            "heterogeneous distributed scanning doppler radar network": {
+                "count": 1,
+                "rank_score": 0.06946071923966621
+            },
+            "horizontal and vertical air motions": {
+                "count": 1,
+                "rank_score": 0.05407084134192977
+            },
+            "iterative multi-doppler techniques": {
+                "count": 1,
+                "rank_score": 0.07345111092052065
+            },
+            "mass continuity": {
+                "count": 1,
+                "rank_score": 0.049628061384223945
+            },
+            "moderate time-height correlations": {
+                "count": 1,
+                "rank_score": 0.04940371604402995
+            },
+            "national weather service": {
+                "count": 1,
+                "rank_score": 0.07409685693875645
+            },
+            "next generation weather surveillance": {
+                "count": 1,
+                "rank_score": 0.07439992029607495
+            },
+            "numerical simulations": {
+                "count": 1,
+                "rank_score": 0.0514398625581605
+            },
+            "radar velocity measurements": {
+                "count": 1,
+                "rank_score": 0.10313984003954296
+            },
+            "retrieved vertical velocities": {
+                "count": 2,
+                "rank_score": 0.10822636452432671
+            },
+            "sgp": {
+                "count": 1,
+                "rank_score": 0.0463972217210816
+            },
+            "similar sensitivity analysis": {
+                "count": 1,
+                "rank_score": 0.04881222105134754
+            },
+            "storm-scale resolutions": {
+                "count": 1,
+                "rank_score": 0.04442338074655934
+            },
+            "surrounding national weather service": {
+                "count": 1,
+                "rank_score": 0.05161092197129791
+            },
+            "velocity observations": {
+                "count": 2,
+                "rank_score": 0.09738481256619211
+            },
+            "vertical velocity": {
+                "count": 1,
+                "rank_score": 0.06251605056506426
+            }
+        },
         "original": {
             "authors": "K. W. North, M. Oue, P. Kollias, P. Kollias, S. E. Giangrande, S. M. Collis, C. K. Potvin, C. K. Potvin",
             "date_added": "2020-01-15 12:00:16",
@@ -8045,6 +7474,12 @@
                 }
             ]
         },
+        "abstract": "Abstract. Rainfall observed on the ground is dependent on the four dimensional structure of precipitation aloft. Scanning radars can observe the four dimensional structure of precipitation. Neural network is a nonparametric method to represent the nonlinear relationship between radar measurements and rainfall rate. The relationship is derived directly from a dataset consisting of radar measurements and rain gauge measurements. The performance of neural network based rainfall estimation is subject to many factors, such as the representativeness and sufficiency of the training dataset, the generalization capability of the network to new data, seasonal changes, and regional changes. Improving the performance of the neural network for real time applications is of great interest. The goal of this paper is to investigate the performance of rainfall estimation based on Radial Basis Function (RBF) neural networks using radar reflectivity as input and rain gauge as the target. Data from Melbourne, Florida NEXRAD (Next Generation Weather Radar) ground radar (KMLB) over different years along with rain gauge measurements are used to conduct various investigations related to this problem. A direct gauge comparison study is done to demonstrate the improvement brought in by the neural networks and to show the feasibility of this system. The principal components analysis (PCA) technique is also used to reduce the dimensionality of the training dataset. Reducing the dimensionality of the input training data will reduce the training time as well as reduce the network complexity which will also avoid over fitting.",
+        "authors": [
+            "author-7a4cda0ff1f1d8574585",
+            "author-d76d0a2dcfb59f59f6ce",
+            "author-bb9a0864cd96347c61ee"
+        ],
         "datasets": [
             "dataset-612"
         ],
@@ -8111,6 +7546,108 @@
             "status": "ok"
         },
         "doi": "10.5194/nhess-13-535-2013",
+        "keyphrases": {
+            "direct gauge comparison study": {
+                "count": 1,
+                "rank_score": 0.05723652018676666
+            },
+            "florida nexrad": {
+                "count": 1,
+                "rank_score": 0.06022367408030376
+            },
+            "great interest": {
+                "count": 1,
+                "rank_score": 0.05067255830045917
+            },
+            "ground radar": {
+                "count": 1,
+                "rank_score": 0.09285492441194175
+            },
+            "input training data": {
+                "count": 1,
+                "rank_score": 0.060516633786050274
+            },
+            "many factors": {
+                "count": 1,
+                "rank_score": 0.05795289055473747
+            },
+            "network": {
+                "count": 1,
+                "rank_score": 0.05250329895918225
+            },
+            "network complexity": {
+                "count": 1,
+                "rank_score": 0.05753087276276443
+            },
+            "neural network": {
+                "count": 4,
+                "rank_score": 0.11306414782631785
+            },
+            "new data": {
+                "count": 1,
+                "rank_score": 0.06945129888758146
+            },
+            "next generation weather radar": {
+                "count": 1,
+                "rank_score": 0.07638230062994998
+            },
+            "radar measurements": {
+                "count": 2,
+                "rank_score": 0.10589609009688425
+            },
+            "radar reflectivity": {
+                "count": 1,
+                "rank_score": 0.09032359544312533
+            },
+            "radial basis function": {
+                "count": 2,
+                "rank_score": 0.06369221946474726
+            },
+            "rain gauge": {
+                "count": 1,
+                "rank_score": 0.08843066285929428
+            },
+            "rain gauge measurements": {
+                "count": 2,
+                "rank_score": 0.10291918912209418
+            },
+            "rainfall": {
+                "count": 1,
+                "rank_score": 0.0714905808430307
+            },
+            "rainfall estimation": {
+                "count": 1,
+                "rank_score": 0.07710312615220719
+            },
+            "rainfall rate": {
+                "count": 1,
+                "rank_score": 0.07218430077075524
+            },
+            "rbf) neural networks": {
+                "count": 1,
+                "rank_score": 0.07076733619115366
+            },
+            "real time": {
+                "count": 1,
+                "rank_score": 0.06159685285897934
+            },
+            "regional changes": {
+                "count": 1,
+                "rank_score": 0.05599213429096033
+            },
+            "scanning radars": {
+                "count": 1,
+                "rank_score": 0.08916779979867102
+            },
+            "seasonal changes": {
+                "count": 1,
+                "rank_score": 0.05846541166345979
+            },
+            "various investigations": {
+                "count": 1,
+                "rank_score": 0.059587387143944265
+            }
+        },
         "original": {
             "authors": "A. Alqudah, V. Chandrasekar, M. Le",
             "date_added": "2020-01-15 12:00:16",
@@ -8120,574 +7657,6 @@
             "url": "https://www.nat-hazards-earth-syst-sci.net/13/535/2013/nhess-13-535-2013.pdf"
         },
         "title": "Investigating rainfall estimation from radar measurements using neural networks"
-    },
-    {
-        "Dimensions": {
-            "FOR": [
-                {
-                    "id": "2421",
-                    "name": "0299 Other Physical Sciences"
-                }
-            ],
-            "FOR_first": [
-                {
-                    "id": "2202",
-                    "name": "02 Physical Sciences"
-                }
-            ],
-            "altmetric": 1.0,
-            "altmetric_id": 70256023,
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [],
-                        "corresponding": "",
-                        "current_organization_id": "grid.170430.1",
-                        "first_name": "Abdusalam",
-                        "initials": "",
-                        "last_name": "Alasgah",
-                        "orcid": "",
-                        "researcher_id": "ur.010554102574.84"
-                    },
-                    {
-                        "affiliations": [],
-                        "corresponding": "",
-                        "current_organization_id": "grid.10692.3c",
-                        "first_name": "Maria",
-                        "initials": "",
-                        "last_name": "Jacob",
-                        "orcid": "['0000-0002-0662-0716']",
-                        "researcher_id": "ur.015437363375.09"
-                    },
-                    {
-                        "affiliations": [],
-                        "corresponding": "",
-                        "current_organization_id": "grid.170430.1",
-                        "first_name": "Linwood",
-                        "initials": "",
-                        "last_name": "Jones",
-                        "orcid": "['0000-0001-8796-4598']",
-                        "researcher_id": "ur.07551523770.08"
-                    },
-                    {
-                        "affiliations": [],
-                        "corresponding": "",
-                        "current_organization_id": "grid.170430.1",
-                        "first_name": "Larry",
-                        "initials": "",
-                        "last_name": "Schneider",
-                        "orcid": "",
-                        "researcher_id": "ur.014501160665.17"
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [],
-                    "corresponding": "",
-                    "current_organization_id": "grid.170430.1",
-                    "first_name": "Abdusalam",
-                    "initials": "",
-                    "last_name": "Alasgah",
-                    "orcid": "",
-                    "researcher_id": "ur.010554102574.84"
-                },
-                {
-                    "affiliations": [],
-                    "corresponding": "",
-                    "current_organization_id": "grid.10692.3c",
-                    "first_name": "Maria",
-                    "initials": "",
-                    "last_name": "Jacob",
-                    "orcid": "['0000-0002-0662-0716']",
-                    "researcher_id": "ur.015437363375.09"
-                },
-                {
-                    "affiliations": [],
-                    "corresponding": "",
-                    "current_organization_id": "grid.170430.1",
-                    "first_name": "Linwood",
-                    "initials": "",
-                    "last_name": "Jones",
-                    "orcid": "['0000-0001-8796-4598']",
-                    "researcher_id": "ur.07551523770.08"
-                },
-                {
-                    "affiliations": [],
-                    "corresponding": "",
-                    "current_organization_id": "grid.170430.1",
-                    "first_name": "Larry",
-                    "initials": "",
-                    "last_name": "Schneider",
-                    "orcid": "",
-                    "researcher_id": "ur.014501160665.17"
-                }
-            ],
-            "category_for": [
-                {
-                    "id": "2202",
-                    "name": "02 Physical Sciences"
-                },
-                {
-                    "id": "2421",
-                    "name": "0299 Other Physical Sciences"
-                }
-            ],
-            "category_ua": [
-                {
-                    "id": "30012",
-                    "name": "B12 Engineering"
-                }
-            ],
-            "category_uoa": [
-                {
-                    "id": "30012",
-                    "name": "B12 Engineering"
-                }
-            ],
-            "concepts": [
-                "Airborne Hurricane Imaging Radiometer",
-                "Hurricane Imaging Radiometer",
-                "Imaging Radiometer",
-                "radiometer",
-                "surface wind speed",
-                "wind speed",
-                "speed",
-                "rain rate",
-                "rate",
-                "high-altitude aircraft",
-                "aircraft",
-                "approach",
-                "brightness temperature measurements",
-                "temperature measurements",
-                "measurements",
-                "wide frequency range",
-                "frequency range",
-                "range",
-                "absence of rain",
-                "rain",
-                "high rain rates",
-                "forward radiative transfer model",
-                "radiative transfer model",
-                "transfer model",
-                "model",
-                "geometry",
-                "atmospheric path",
-                "path",
-                "results",
-                "unplanned opportunities",
-                "brightness temperature",
-                "temperature",
-                "tropical squall line",
-                "squall line",
-                "ground",
-                "NEXRAD radar",
-                "radar",
-                "rain fields",
-                "field",
-                "surface truth",
-                "input",
-                "comparison",
-                "accuracy",
-                "validation",
-                "convective rain events",
-                "rain events"
-            ],
-            "date": "2019-11-13",
-            "date_inserted": "2019-11-15",
-            "doi": "10.3390/rs11222650",
-            "id": "pub.1122575469",
-            "issn": [
-                "2315-4675",
-                "2072-4292"
-            ],
-            "issue": "22",
-            "journal": {
-                "id": "jour.1049580",
-                "title": "Remote Sensing"
-            },
-            "journal_lists": [
-                "VABB-SHW",
-                "ERA 2018",
-                "Norwegian register level 1",
-                "DOAJ",
-                "ERA 2015"
-            ],
-            "linkout": "https://www.mdpi.com/2072-4292/11/22/2650/pdf",
-            "noun_phrases": [
-                "validation",
-                "radiometer",
-                "radiative transfer model",
-                "surface wind",
-                "WS",
-                "rain rate",
-                "high altitude",
-                "temperature measurement",
-                "wide frequency range",
-                "absence",
-                "rain",
-                "retrieval",
-                "paper",
-                "geometry",
-                "path",
-                "empirical result",
-                "temperature",
-                "squall line",
-                "weather radar",
-                "radar",
-                "surface",
-                "input",
-                "favorable result",
-                "comparison",
-                "accuracy"
-            ],
-            "open_access": [
-                "Open Access - all",
-                "Open Access - publisher",
-                "Open Access - published"
-            ],
-            "open_access_categories": [
-                {
-                    "description": "Article is freely available",
-                    "id": "oa_all",
-                    "name": "All OA"
-                },
-                {
-                    "description": "Version Of Record (VOR) is free under an open licence from a full OA journal",
-                    "id": "gold_pure",
-                    "name": "Pure Gold"
-                }
-            ],
-            "pages": "2650",
-            "publisher": "MDPI",
-            "recent_citations": 0,
-            "reference_ids": [
-                "pub.1061498800",
-                "pub.1061162099",
-                "pub.1021132464",
-                "pub.1037804446",
-                "pub.1061611967",
-                "pub.1033815829",
-                "pub.1061359008",
-                "pub.1009851914",
-                "pub.1092120755"
-            ],
-            "references": [
-                "pub.1061498800",
-                "pub.1061162099",
-                "pub.1021132464",
-                "pub.1037804446",
-                "pub.1061611967",
-                "pub.1033815829",
-                "pub.1061359008",
-                "pub.1009851914",
-                "pub.1092120755"
-            ],
-            "researchers": [
-                {
-                    "first_name": "Abdusalam",
-                    "id": "ur.010554102574.84",
-                    "last_name": "Alasgah",
-                    "research_orgs": [
-                        "grid.170430.1"
-                    ]
-                },
-                {
-                    "first_name": "Maria Marta",
-                    "id": "ur.015437363375.09",
-                    "last_name": "Jacob",
-                    "orcid_id": [
-                        "0000-0002-0662-0716"
-                    ],
-                    "research_orgs": [
-                        "grid.10692.3c",
-                        "grid.462026.4",
-                        "grid.170430.1"
-                    ]
-                },
-                {
-                    "first_name": "Linwood",
-                    "id": "ur.07551523770.08",
-                    "last_name": "Jones",
-                    "research_orgs": [
-                        "grid.170430.1"
-                    ]
-                },
-                {
-                    "first_name": "Larry",
-                    "id": "ur.014501160665.17",
-                    "last_name": "Schneider",
-                    "research_orgs": [
-                        "grid.170430.1"
-                    ]
-                }
-            ],
-            "terms": [
-                "Airborne Hurricane Imaging Radiometer",
-                "Hurricane Imaging Radiometer",
-                "Imaging Radiometer",
-                "radiometer",
-                "surface wind speed",
-                "wind speed",
-                "speed",
-                "rain rate",
-                "rate",
-                "high-altitude aircraft",
-                "aircraft",
-                "approach",
-                "brightness temperature measurements",
-                "temperature measurements",
-                "measurements",
-                "wide frequency range",
-                "frequency range",
-                "range",
-                "absence of rain",
-                "rain",
-                "high rain rates",
-                "forward radiative transfer model",
-                "radiative transfer model",
-                "transfer model",
-                "model",
-                "geometry",
-                "atmospheric path",
-                "path",
-                "results",
-                "unplanned opportunities",
-                "brightness temperature",
-                "temperature",
-                "tropical squall line",
-                "squall line",
-                "ground",
-                "NEXRAD radar",
-                "radar",
-                "rain fields",
-                "field",
-                "surface truth",
-                "input",
-                "comparison",
-                "accuracy",
-                "validation",
-                "convective rain events",
-                "rain events"
-            ],
-            "times_cited": 0,
-            "title": "Validation of the Hurricane Imaging Radiometer Forward Radiative Transfer Model for a Convective Rain Event",
-            "type": "article",
-            "volume": "11",
-            "year": 2019
-        },
-        "OpenAIRE": {
-            "authors": [
-                "Alasgah, Abdusalam",
-                "Jacob, Maria",
-                "Jones, Linwood",
-                "Schneider, Larry"
-            ],
-            "open": true,
-            "url": "http://dx.doi.org/10.3390/rs11222650"
-        },
-        "Semantic Scholar": {
-            "abstract": null,
-            "arxivId": null,
-            "authors": [
-                {
-                    "authorId": "30811002",
-                    "name": "Abdusalam Alasgah",
-                    "url": "https://www.semanticscholar.org/author/30811002"
-                },
-                {
-                    "authorId": "39211440",
-                    "name": "Maria Jacob",
-                    "url": "https://www.semanticscholar.org/author/39211440"
-                },
-                {
-                    "authorId": "153584340",
-                    "name": "Linwood Jones",
-                    "url": "https://www.semanticscholar.org/author/153584340"
-                },
-                {
-                    "authorId": "50351959",
-                    "name": "Larry Schneider",
-                    "url": "https://www.semanticscholar.org/author/50351959"
-                }
-            ],
-            "citationVelocity": 0,
-            "citations": [],
-            "doi": "10.3390/rs11222650",
-            "influentialCitationCount": 0,
-            "is_publisher_licensed": false,
-            "paperId": "2a42ea4e13bdcb854a3d57417bf682d557f5ba05",
-            "references": [],
-            "title": "Validation of the Hurricane Imaging Radiometer Forward Radiative Transfer Model for a Convective Rain Event",
-            "topics": [],
-            "url": "https://www.semanticscholar.org/paper/2a42ea4e13bdcb854a3d57417bf682d557f5ba05",
-            "venue": "Remote Sensing",
-            "year": 2019
-        },
-        "Unpaywall": {
-            "best_oa_location": {
-                "endpoint_id": null,
-                "evidence": "open (via page says license)",
-                "host_type": "publisher",
-                "is_best": true,
-                "license": "cc-by",
-                "pmh_id": null,
-                "repository_institution": null,
-                "updated": "2020-01-12T17:07:04.232119",
-                "url": "https://www.mdpi.com/2072-4292/11/22/2650/pdf",
-                "url_for_landing_page": "https://doi.org/10.3390/rs11222650",
-                "url_for_pdf": "https://www.mdpi.com/2072-4292/11/22/2650/pdf",
-                "version": "publishedVersion"
-            },
-            "data_standard": 2,
-            "doi": "10.3390/rs11222650",
-            "doi_url": "https://doi.org/10.3390/rs11222650",
-            "genre": "journal-article",
-            "has_repository_copy": false,
-            "is_oa": true,
-            "is_paratext": false,
-            "journal_is_in_doaj": true,
-            "journal_is_oa": true,
-            "journal_issn_l": "2072-4292",
-            "journal_issns": "2072-4292",
-            "journal_name": "Remote Sensing",
-            "oa_locations": [
-                {
-                    "endpoint_id": null,
-                    "evidence": "open (via page says license)",
-                    "host_type": "publisher",
-                    "is_best": true,
-                    "license": "cc-by",
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2020-01-12T17:07:04.232119",
-                    "url": "https://www.mdpi.com/2072-4292/11/22/2650/pdf",
-                    "url_for_landing_page": "https://doi.org/10.3390/rs11222650",
-                    "url_for_pdf": "https://www.mdpi.com/2072-4292/11/22/2650/pdf",
-                    "version": "publishedVersion"
-                },
-                {
-                    "endpoint_id": null,
-                    "evidence": "oa journal (via doaj)",
-                    "host_type": "publisher",
-                    "is_best": false,
-                    "license": "cc-by",
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2020-02-04T18:45:08.716689",
-                    "url": "https://doi.org/10.3390/rs11222650",
-                    "url_for_landing_page": "https://doi.org/10.3390/rs11222650",
-                    "url_for_pdf": null,
-                    "version": "publishedVersion"
-                }
-            ],
-            "oa_status": "gold",
-            "published_date": "2019-11-13",
-            "publisher": "MDPI AG",
-            "title": "Validation of the Hurricane Imaging Radiometer Forward Radiative Transfer Model for a Convective Rain Event",
-            "updated": "2019-12-04T00:35:00.139994",
-            "year": 2019,
-            "z_authors": [
-                {
-                    "family": "Alasgah",
-                    "given": "Abdusalam",
-                    "sequence": "first"
-                },
-                {
-                    "ORCID": "http://orcid.org/0000-0002-0662-0716",
-                    "authenticated-orcid": false,
-                    "family": "Jacob",
-                    "given": "Maria",
-                    "sequence": "additional"
-                },
-                {
-                    "ORCID": "http://orcid.org/0000-0001-8796-4598",
-                    "authenticated-orcid": false,
-                    "family": "Jones",
-                    "given": "Linwood",
-                    "sequence": "additional"
-                },
-                {
-                    "family": "Schneider",
-                    "given": "Larry",
-                    "sequence": "additional"
-                }
-            ]
-        },
-        "datasets": [
-            "dataset-612"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "name": {
-                            "first": "Abdusalam",
-                            "last": "Alasgah"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "Maria",
-                            "last": "Jacob"
-                        },
-                        "orcid": "0000-0002-0662-0716"
-                    },
-                    {
-                        "name": {
-                            "first": "Linwood",
-                            "last": "Jones"
-                        },
-                        "orcid": "0000-0001-8796-4598"
-                    },
-                    {
-                        "name": {
-                            "first": "Larry",
-                            "last": "Schneider"
-                        }
-                    }
-                ],
-                "classification": "OA",
-                "date": "2019-11-13",
-                "pdf_url": "https://doi.org/10.3390/rs11222650",
-                "records": [
-                    {
-                        "abstract": "The airborne Hurricane Imaging Radiometer (HIRAD) was developed to remotely sense hurricane surface wind speed (WS) and rain rate (RR) from a high-altitude aircraft. The approach was to obtain simultaneous brightness temperature measurements over a wide frequency range to independently retrieve the WS and RR. In the absence of rain, the WS retrieval has been robust; however, for moderate to high rain rates, the joint WS/RR retrieval has not been successful. The objective of this paper was to resolve this issue by developing an improved forward radiative transfer model (RTM) for the HIRAD cross-track viewing geometry, with separated upwelling and specularly reflected downwelling atmospheric paths. Furthermore, this paper presents empirical results from an unplanned opportunity that occurred when HIRAD measured brightness temperatures over an intense tropical squall line, which was simultaneously observed by a ground based NEXRAD (Next Generation Weather Radar) radar. The independently derived NEXRAD RR created the simultaneous 3D rain field “surface truth”, which was used as an input to the RTM to generate HIRAD modeled brightness temperatures. This paper presents favorable results of comparisons of theoretical and the simultaneous, collocated HIRAD brightness temperature measurements that validate the accuracy of this new HIRAD RTM.",
-                        "doi": "10.3390/rs11222650",
-                        "identifier": "oai:crossref.org:10.3390/rs11222650",
-                        "issn": "2072-4292",
-                        "issue": "22",
-                        "journal": "Remote Sensing",
-                        "pages": "2650",
-                        "pdf_url": "https://doi.org/10.3390/rs11222650",
-                        "policy": {
-                            "postprint": "can",
-                            "preprint": "can",
-                            "published": "can",
-                            "romeo_id": "487"
-                        },
-                        "publisher": "MDPI AG",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.3390/rs11222650",
-                        "type": "journal-article",
-                        "volume": "11"
-                    }
-                ],
-                "title": "Validation of the Hurricane Imaging Radiometer Forward Radiative Transfer Model for a Convective Rain Event",
-                "type": "journal-article"
-            },
-            "status": "ok"
-        },
-        "doi": "10.3390/rs11222650",
-        "original": {
-            "authors": "Alasgah, Abdusalam, Jacob, Maria, Jones, Linwood, Schneider, Larry",
-            "date_added": "2020-01-15 12:00:16",
-            "doi": "10.3390/rs11222650",
-            "journal": "Remote Sensing",
-            "search_term": "Next Generation Weather Radar",
-            "url": "https://www.mdpi.com/2072-4292/11/22/2650/htm"
-        },
-        "title": "Validation of the Hurricane Imaging Radiometer Forward Radiative Transfer Model for a Convective Rain Event"
     },
     {
         "Dimensions": {
@@ -11726,6 +10695,16 @@
                 }
             ]
         },
+        "abstract": "Abstract. X-band Synthetic Aperture Radars (X-SARs), able to image the Earth's surface at metric resolution, may provide a unique opportunity to measure rainfall over land with spatial resolution of about few hundred meters, due to the atmospheric moving-target degradation effects. This capability has become very appealing due to the recent launch of several X-SAR satellites, even though several remote sensing issues are still open. This work is devoted to: (i) explore the potential of X-band high-resolution detection and retrieval of rainfall fields from space using X-SAR signal backscattering amplitude and interferometric phase; (ii) evaluate the effects of spatial resolution degradation by precipitation and inhomogeneous beam filling when comparing to other satellite-based sensors. Our X-SAR analysis of precipitation effects has been carried out using both a TerraSAR-X (TSX) case study of Hurricane \"Gustav\" in 2008 over Mississippi (USA) and a COSMO-SkyMed (CSK) X-SAR case study of orographic rainfall over Central Italy in 2009. For the TSX case study the near-surface rain rate has been retrieved from the normalized radar cross section by means of a modified regression empirical algorithm (MREA). A relatively simple method to account for the geometric effect of X-SAR observation on estimated rainfall rate and first-order volumetric effects has been developed and applied. The TSX-retrieved rain fields have been compared to those estimated from the Next Generation Weather Radar (NEXRAD) in Mobile (AL, USA). The rainfall detection capability of X-SAR has been tested on the CSK case study using the repeat-pass coherence response and qualitatively comparing its signature with ground-based Mt. Midia C-band radar in central Italy. A numerical simulator to represent the effect of the spatial resolution and the antenna pattern of TRMM satellite Precipitation Radar (PR) and Microwave Imager (TMI), using high-resolution TSX-retrieved rain images, has been also set up in order to evaluate the rainfall beam filling phenomenon. As expected, the spatial average can modify the statistics of the high-resolution precipitation fields, strongly reducing its dynamics in a way non-linearly dependent on the rain rate local average value.",
+        "authors": [
+            "author-5f14483d3ae903c1697b",
+            "author-8e4471bd7ae4067b8c55",
+            "author-d61bca24a2fad5382178",
+            "author-8b18d4172d44b229579e",
+            "author-9e37f6f1996bfcac6cf2",
+            "author-13ae3aa5ad26dbc51a64",
+            "author-8f8030ca6924fa9985aa"
+        ],
         "datasets": [
             "dataset-612"
         ],
@@ -11855,6 +10834,108 @@
             "status": "ok"
         },
         "doi": "10.5194/hess-15-859-2011",
+        "keyphrases": {
+            "estimated rainfall rate": {
+                "count": 1,
+                "rank_score": 0.07924326131148379
+            },
+            "first-order volumetric effects": {
+                "count": 1,
+                "rank_score": 0.047841471783227375
+            },
+            "high-resolution tsx-retrieved rain images": {
+                "count": 1,
+                "rank_score": 0.050692896431012845
+            },
+            "inhomogeneous beam": {
+                "count": 1,
+                "rank_score": 0.05049047793498981
+            },
+            "metric resolution": {
+                "count": 1,
+                "rank_score": 0.07375025085839906
+            },
+            "mt. midia c": {
+                "count": 1,
+                "rank_score": 0.051395813053740226
+            },
+            "orographic rainfall": {
+                "count": 1,
+                "rank_score": 0.07006225818579942
+            },
+            "our x-sar analysis": {
+                "count": 1,
+                "rank_score": 0.07002711766036684
+            },
+            "precipitation": {
+                "count": 1,
+                "rank_score": 0.04802063377445365
+            },
+            "precipitation effects": {
+                "count": 1,
+                "rank_score": 0.07434157134769963
+            },
+            "rain rate local average value": {
+                "count": 1,
+                "rank_score": 0.0489616663166346
+            },
+            "rainfall": {
+                "count": 1,
+                "rank_score": 0.06895028347788823
+            },
+            "rainfall fields": {
+                "count": 1,
+                "rank_score": 0.07763018261756283
+            },
+            "several remote sensing issues": {
+                "count": 1,
+                "rank_score": 0.06264690998928175
+            },
+            "several x-sar satellites": {
+                "count": 1,
+                "rank_score": 0.09118862601083602
+            },
+            "spatial resolution": {
+                "count": 2,
+                "rank_score": 0.08428761498558329
+            },
+            "spatial resolution degradation": {
+                "count": 1,
+                "rank_score": 0.08506640904850139
+            },
+            "synthetic aperture radars": {
+                "count": 1,
+                "rank_score": 0.05997719542301823
+            },
+            "trmm satellite precipitation radar": {
+                "count": 1,
+                "rank_score": 0.07297727112554703
+            },
+            "x-band high-resolution detection": {
+                "count": 1,
+                "rank_score": 0.0796632854704533
+            },
+            "x-band synthetic aperture radars": {
+                "count": 1,
+                "rank_score": 0.09821437042553356
+            },
+            "x-sar": {
+                "count": 1,
+                "rank_score": 0.09384284547137205
+            },
+            "x-sar observation": {
+                "count": 1,
+                "rank_score": 0.10355715758172422
+            },
+            "x-sar signal": {
+                "count": 1,
+                "rank_score": 0.10366062720098536
+            },
+            "x-sars": {
+                "count": 1,
+                "rank_score": 0.09915551442998961
+            }
+        },
         "original": {
             "authors": "F. S. Marzano, S. Mori, M. Chini, L. Pulvirenti, N. Pierdicca, M. Montopoli, J. A. Weinman",
             "date_added": "2020-01-15 12:00:16",
@@ -11865,50 +10946,6 @@
             "url": "http://www.hydrol-earth-syst-sci.net/15/859/2011/hess-15-859-2011.pdf"
         },
         "title": "Potential of high-resolution detection and retrieval of precipitation fields from X-band spaceborne synthetic aperture radar over land"
-    },
-    {
-        "OpenAIRE": {
-            "authors": [
-                "Bela, Megan M.",
-                "Barth, Mary C.",
-                "Toon, Owen B.",
-                "Fried, Alan",
-                "Homeyer, Cameron R.",
-                "Morrison, Hugh",
-                "Cummings, Kristin A.",
-                "Li, Yunyao",
-                "Pickering, Kenneth E.",
-                "Allen, Dale J.",
-                "Yang, Qing",
-                "Wennberg, Paul O.",
-                "Crounse, John D.",
-                "St. Clair, Jason M.",
-                "Teng, Alex P.",
-                "O'Sullivan, Daniel",
-                "Huey, L. Gregory",
-                "Chen, Dexian",
-                "Liu, Xiaoxi",
-                "Blake, Donald R.",
-                "Blake, Nicola J.",
-                "Apel, Eric C.",
-                "Hornbrook, Rebecca S.",
-                "Flocke, Frank",
-                "Campos, Teresa",
-                "Diskin, Glenn"
-            ],
-            "open": true,
-            "url": "https://authors.library.caltech.edu/69109/"
-        },
-        "datasets": [
-            "dataset-612"
-        ],
-        "original": {
-            "authors": "Bela, Megan M., Barth, Mary C., Toon, Owen B., Fried, Alan, Homeyer, Cameron R., Morrison, Hugh, Cummings, Kristin A., Li, Yunyao, Pickering, Kenneth E., Allen, Dale J., Yang, Qing, Wennberg, Paul O., Crounse, John D., St. Clair, Jason M., Teng, Alex P., O'Sullivan, Daniel, Huey, L. Gregory, Chen, Dexian, Liu, Xiaoxi, Blake, Donald R., Blake, Nicola J., Apel, Eric C., Hornbrook, Rebecca S., Flocke, Frank, Campos, Teresa, Diskin, Glenn",
-            "date_added": "2020-01-15 12:00:16",
-            "search_term": "Next Generation Weather Radar",
-            "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015JD024623"
-        },
-        "title": "Wet scavenging of soluble gases in DC3 deep convective storms using WRF-Chem simulations and aircraft observations"
     },
     {
         "OpenAIRE": {
@@ -14003,6 +13040,11 @@
                 }
             ]
         },
+        "abstract": "The Global Precipitation Measurement (GPM) mission Core Observatory is equipped with a dual-frequency precipitation radar (DPR) with capability of measuring precipitation simultaneously at frequencies of 13.6 GHz (Ku-band) and 35.5 GHz (Ka-band). Since the GPM-DPR cannot use information from polarization diversity, radar reflectivity factor is the most important parameter used in all retrievals. In this study, GPM’s observations of reflectivity at dual-frequency and instantaneous rainfall products are compared quantitatively against dual-polarization ground-based NEXRAD radars from the GPM Validation Network (VN). The ground radars, chosen for this study, are located in the southeastern plains of the U.S.A. with altitudes varying from 5 to 210 m. It is a challenging task to quantitatively compare measurements from space-based and ground-based platforms due to their difference in resolution volumes and viewing geometry. To perform comparisons on a point-to-point basis, radar observations need to be volume matched by averaging data in common volume or by re-sampling data to a common grid system. In this study, a 3-D volume matching technique first proposed by Bolen and Chandrasekar (2003) and later modified by Schwaller and Morris (2011) is applied to both radar data. DPR and ground radar observations and products are cross validated against each other with a large data set. Over 250 GPM overpass cases at 5 NEXRAD locations, starting from April 2014 to June 2018, have been considered. Analysis shows that DPR Kuand Ka-Band reflectivities are well matched with ground radar with correlation coefficient as high as 0.9 for Ku-band and 0.85 for Ka-band. Ground radar calibration is also checked by observing variation in mean biases of reflectivity between DPR and GR over time. DPR rainfall products are also evaluated. Though DPR underestimates higher rainfall rates in convective cases, its overall performance is found to be satisfactory.",
+        "authors": [
+            "author-d13f0fe29f995a956f7f",
+            "author-d76d0a2dcfb59f59f6ce"
+        ],
         "datasets": [
             "dataset-612",
             "dataset-664",
@@ -14056,6 +13098,108 @@
             "status": "ok"
         },
         "doi": "10.3390/rs10111773",
+        "keyphrases": {
+            "both radar data": {
+                "count": 1,
+                "rank_score": 0.0626451783056507
+            },
+            "common volume": {
+                "count": 1,
+                "rank_score": 0.07930583738654404
+            },
+            "convective cases": {
+                "count": 1,
+                "rank_score": 0.058549159619137835
+            },
+            "core observatory": {
+                "count": 1,
+                "rank_score": 0.053588438634154766
+            },
+            "dpr and ground radar observations": {
+                "count": 1,
+                "rank_score": 0.0840885213341167
+            },
+            "dpr kuand ka-band reflectivities": {
+                "count": 1,
+                "rank_score": 0.06716469199487506
+            },
+            "dpr rainfall products": {
+                "count": 1,
+                "rank_score": 0.10018950273865844
+            },
+            "dual-frequency precipitation radar": {
+                "count": 1,
+                "rank_score": 0.055948270500685
+            },
+            "dual-polarization ground-based nexrad radars": {
+                "count": 1,
+                "rank_score": 0.06723811188022433
+            },
+            "frequencies": {
+                "count": 1,
+                "rank_score": 0.0541820684659996
+            },
+            "ground radar": {
+                "count": 2,
+                "rank_score": 0.11507316207540014
+            },
+            "ground radar calibration": {
+                "count": 1,
+                "rank_score": 0.1105991159182377
+            },
+            "higher rainfall rates": {
+                "count": 1,
+                "rank_score": 0.07847107316288346
+            },
+            "mean biases": {
+                "count": 1,
+                "rank_score": 0.05217422636348833
+            },
+            "observing variation": {
+                "count": 1,
+                "rank_score": 0.0536651087201244
+            },
+            "polarization diversity": {
+                "count": 1,
+                "rank_score": 0.059219062404190406
+            },
+            "precipitation": {
+                "count": 1,
+                "rank_score": 0.05146243651392788
+            },
+            "products": {
+                "count": 1,
+                "rank_score": 0.0606746419224288
+            },
+            "radar observations": {
+                "count": 1,
+                "rank_score": 0.10394285082439911
+            },
+            "radar reflectivity factor": {
+                "count": 1,
+                "rank_score": 0.10350843837887909
+            },
+            "re-sampling data": {
+                "count": 1,
+                "rank_score": 0.0705211567584724
+            },
+            "reflectivity": {
+                "count": 2,
+                "rank_score": 0.06410963639998624
+            },
+            "resolution volumes": {
+                "count": 1,
+                "rank_score": 0.07321384722059351
+            },
+            "schwaller": {
+                "count": 2,
+                "rank_score": 0.05263446004239028
+            },
+            "volume": {
+                "count": 1,
+                "rank_score": 0.06965865018539913
+            }
+        },
         "original": {
             "authors": "Guillod, B.P., Orlowsky, B., Miralles, D., Teuling, A.J., Blanken, P.D., Buchmann, N.",
             "date_added": "2020-01-15 12:00:16",
@@ -16750,6 +15894,11 @@
                 }
             ]
         },
+        "abstract": "Since the advent of dual-polarization radar technology, many studies have been conducted to determine the extent to which the differential reflectivity (ZDR) and specific differential phase shift (KDP) add benefits to estimating rain rates ( R ) compared to reflectivity ( Z ) alone. It has been previously noted that this new technology provides significant improvement to rain-rate estimation, primarily for ranges within 125 km of the radar. Beyond this range, it is unclear as to whether the National Weather Service (NWS) conventional R ( Z )-convective algorithm is superior, as little research has investigated radar precipitation estimate performance at larger ranges. The current study investigates the performance of three radars – St. Louis (KLSX), Kansas City (KEAX), and Springfield (KSGF), MO – with 15 tipping bucket gauges serving as ground truth to the radars. With over 300 h of precipitation data being analyzed for the current study, it was found that, in general, performance degraded with range beyond, approximately, 150 km from each of the radars. Probability of detection (PoD) in addition to bias values decreased, while the false alarm rates increased as range increased. Bright-band contamination was observed to play a potential role as large increases in the absolute bias and overall error values near 120 km for the cool season and 150 km in the warm season. Furthermore, upwards of 60 % of the total error was due to precipitation being falsely estimated, while 20 % of the total error was due to missed precipitation. Correlation coefficient values increased by as much as 0.4 when these instances were removed from the analyses (i.e., hits only). Overall, due to the lowest normalized standard error (NSE) of less than 1.0, a National Severe Storms Laboratory (NSSL) R ( Z ,ZDR) equation was determined to be the most robust, while a R (ZDR,KDP) algorithm recorded NSE values as high as 5. The addition of dual-polarized technology was shown to estimate quantitative precipitation estimates (QPEs) better than the conventional equation. The analyses further our understanding of the strengths and limitations of the Next Generation Radar (NEXRAD) system overall and from a seasonal perspective.",
+        "authors": [
+            "author-3a8959c6b56b41a41cd9",
+            "author-d663a094f39e6234da0b"
+        ],
         "datasets": [
             "dataset-612"
         ],
@@ -16801,6 +15950,108 @@
             "status": "ok"
         },
         "doi": "10.5194/hess-22-3375-2018",
+        "keyphrases": {
+            "bias values": {
+                "count": 1,
+                "rank_score": 0.07516840803717725
+            },
+            "conventional r": {
+                "count": 1,
+                "rank_score": 0.061652301088529426
+            },
+            "correlation coefficient values": {
+                "count": 1,
+                "rank_score": 0.06975869673100958
+            },
+            "dual-polarization radar technology": {
+                "count": 1,
+                "rank_score": 0.05735293016306925
+            },
+            "ground truth": {
+                "count": 1,
+                "rank_score": 0.048094630036563585
+            },
+            "kansas city": {
+                "count": 2,
+                "rank_score": 0.05195323617267429
+            },
+            "kdp": {
+                "count": 3,
+                "rank_score": 0.050669141215997006
+            },
+            "ksgf": {
+                "count": 2,
+                "rank_score": 0.04969139695796749
+            },
+            "large increases": {
+                "count": 1,
+                "rank_score": 0.05448735499101061
+            },
+            "larger ranges": {
+                "count": 1,
+                "rank_score": 0.0621160823525744
+            },
+            "missed precipitation": {
+                "count": 1,
+                "rank_score": 0.06770760621717532
+            },
+            "national severe storms laboratory": {
+                "count": 2,
+                "rank_score": 0.06871403346401263
+            },
+            "nse": {
+                "count": 3,
+                "rank_score": 0.05211763577199161
+            },
+            "nse values": {
+                "count": 1,
+                "rank_score": 0.07722222933446327
+            },
+            "overall error values": {
+                "count": 1,
+                "rank_score": 0.08351774570538656
+            },
+            "precipitation": {
+                "count": 1,
+                "rank_score": 0.06786165462631986
+            },
+            "precipitation data": {
+                "count": 1,
+                "rank_score": 0.07030269777450386
+            },
+            "quantitative precipitation estimates": {
+                "count": 1,
+                "rank_score": 0.08022719964885137
+            },
+            "radar precipitation estimate performance": {
+                "count": 1,
+                "rank_score": 0.10077800196229766
+            },
+            "rain rates": {
+                "count": 1,
+                "rank_score": 0.06993703630925259
+            },
+            "ranges": {
+                "count": 4,
+                "rank_score": 0.04852798099781802
+            },
+            "significant improvement": {
+                "count": 1,
+                "rank_score": 0.05339559664339602
+            },
+            "specific differential phase shift": {
+                "count": 1,
+                "rank_score": 0.06540860118233283
+            },
+            "st. louis": {
+                "count": 2,
+                "rank_score": 0.048735178546627414
+            },
+            "zdr": {
+                "count": 5,
+                "rank_score": 0.0534153445413764
+            }
+        },
         "original": {
             "authors": "M. J. Simpson, N. I. Fox",
             "date_added": "2020-01-15 12:00:16",

@@ -770,6 +770,16 @@
                 }
             ]
         },
+        "abstract": "The Soil and Water Assessment Tool (SWAT) is widely used in the United States (U.S.) to simulate hydrology and water quality simulation. Process-based models like SWAT require a great deal of data to accurately represent the natural world, including topography, land use, soils, weather, and management. With the exception of management, all these data are available nationally from multiple sources. To date, credible SWAT studies in the U.S. have assembled suitable management data (operation scheduling, fertilization application rates, and plant growth parameterization). In this research, we develop a national management database for SWAT using existing U.S. Department of Agriculture data sources. These data are compatible with existing SWAT interfaces and are relatively easy to use. Although management data from local sources is preferred, these data are not always available. This work is intended to fill this void with more reasonable management data than the existing defaults. This national database covers all major cultivated crops and should facilitate improved SWAT applications in the U.S. These data were tested in two case studies and found to produce satisfactory SWAT predictions. The database developed in this research is freely available on the web.",
+        "authors": [
+            "author-d03d04e811a746839c2b",
+            "author-c051b860eeca304e3e43",
+            "author-842be6a2074fe35c7617",
+            "author-bdbf41ccde168a1b1908",
+            "author-839a6cd13d5f7131e01a",
+            "author-582802f9b5dc790b4e20",
+            "author-733789d625f77a143b1a"
+        ],
         "datasets": [
             "dataset-870",
             "dataset-903",
@@ -878,6 +888,108 @@
             "status": "ok"
         },
         "doi": "10.1111/1752-1688.12384",
+        "keyphrases": {
+            "agriculture": {
+                "count": 1,
+                "rank_score": 0.04846643138011143
+            },
+            "all major cultivated crops": {
+                "count": 1,
+                "rank_score": 0.04641017297075497
+            },
+            "credible swat studies": {
+                "count": 1,
+                "rank_score": 0.11502157293552635
+            },
+            "existing defaults": {
+                "count": 1,
+                "rank_score": 0.042211481306114976
+            },
+            "existing swat interfaces": {
+                "count": 1,
+                "rank_score": 0.11931113917766814
+            },
+            "fertilization application rates": {
+                "count": 1,
+                "rank_score": 0.08028917112255113
+            },
+            "hydrology": {
+                "count": 1,
+                "rank_score": 0.05028913733564906
+            },
+            "improved swat applications": {
+                "count": 1,
+                "rank_score": 0.11905942691196734
+            },
+            "land use": {
+                "count": 1,
+                "rank_score": 0.06763958529756679
+            },
+            "local sources": {
+                "count": 1,
+                "rank_score": 0.07094818720135651
+            },
+            "management data": {
+                "count": 1,
+                "rank_score": 0.12782356643695844
+            },
+            "more reasonable management data": {
+                "count": 1,
+                "rank_score": 0.07962191974761185
+            },
+            "multiple sources": {
+                "count": 1,
+                "rank_score": 0.06581158383796594
+            },
+            "national database": {
+                "count": 1,
+                "rank_score": 0.04609394791119422
+            },
+            "national management database": {
+                "count": 1,
+                "rank_score": 0.06644491373998891
+            },
+            "operation scheduling": {
+                "count": 1,
+                "rank_score": 0.06414200420732125
+            },
+            "plant growth parameterization": {
+                "count": 1,
+                "rank_score": 0.07193564877764921
+            },
+            "process-based models": {
+                "count": 1,
+                "rank_score": 0.043464245691800865
+            },
+            "satisfactory swat predictions": {
+                "count": 1,
+                "rank_score": 0.11303403798185602
+            },
+            "soils": {
+                "count": 1,
+                "rank_score": 0.04905951897364017
+            },
+            "suitable management data": {
+                "count": 1,
+                "rank_score": 0.12498270735214928
+            },
+            "swat": {
+                "count": 10,
+                "rank_score": 0.11506112582949685
+            },
+            "topography": {
+                "count": 1,
+                "rank_score": 0.0547214470336409
+            },
+            "united states (u.s.": {
+                "count": 1,
+                "rank_score": 0.04134024222084685
+            },
+            "water quality simulation": {
+                "count": 1,
+                "rank_score": 0.07514386479156468
+            }
+        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-06 14:01:43",
@@ -886,1429 +998,6 @@
             "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=Development%20of%20a%20Cropland%20Management%20Dataset%20to%20Support%20U.S.%20Swat%20Assessments"
         },
         "title": "Development of a Cropland Management Dataset to Support U.S. Swat Assessments"
-    },
-    {
-        "Dimensions": {
-            "FOR": [
-                {
-                    "id": "3292",
-                    "name": "1402 Applied Economics"
-                },
-                {
-                    "id": "3313",
-                    "name": "1403 Econometrics"
-                }
-            ],
-            "FOR_first": [
-                {
-                    "id": "2214",
-                    "name": "14 Economics"
-                },
-                {
-                    "id": "2214",
-                    "name": "14 Economics"
-                }
-            ],
-            "RCDC": [
-                {
-                    "id": "497",
-                    "name": "Basic Behavioral and Social Science"
-                },
-                {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                }
-            ],
-            "altmetric_id": 0,
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [
-                            {
-                                "city": "Washington D.C.",
-                                "city_id": 4140963,
-                                "country": "United States",
-                                "country_code": "US",
-                                "id": "grid.482034.9",
-                                "name": "Bureau of Economic Analysis",
-                                "state": "District of Columbia",
-                                "state_code": "US-DC"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "Sarah Anne",
-                        "initials": "",
-                        "last_name": "Stutzman",
-                        "orcid": "",
-                        "researcher_id": ""
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [
-                        {
-                            "city": "Washington D.C.",
-                            "city_id": 4140963,
-                            "country": "United States",
-                            "country_code": "US",
-                            "id": "grid.482034.9",
-                            "name": "Bureau of Economic Analysis",
-                            "state": "District of Columbia",
-                            "state_code": "US-DC"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "Sarah Anne",
-                    "initials": "",
-                    "last_name": "Stutzman",
-                    "orcid": "",
-                    "researcher_id": ""
-                }
-            ],
-            "category_for": [
-                {
-                    "id": "2215",
-                    "name": "15 Commerce, Management, Tourism and Services"
-                },
-                {
-                    "id": "3335",
-                    "name": "1502 Banking, Finance and Investment"
-                }
-            ],
-            "category_rcdc": [
-                {
-                    "id": "497",
-                    "name": "Basic Behavioral and Social Science"
-                },
-                {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                }
-            ],
-            "category_ua": [
-                {
-                    "id": "30006",
-                    "name": "A06 Agriculture, Veterinary and Food Science"
-                }
-            ],
-            "category_uoa": [
-                {
-                    "id": "30006",
-                    "name": "A06 Agriculture, Veterinary and Food Science"
-                }
-            ],
-            "concepts": [
-                "purpose",
-                "paper",
-                "impact of changes",
-                "impact",
-                "changes",
-                "economic conditions",
-                "macroeconomic trends",
-                "trends",
-                "capital expenditure",
-                "expenditure",
-                "Design/methodology/approach",
-                "methodology/approach",
-                "approach",
-                "synthetic panel",
-                "panel",
-                "Agricultural Resource Management Survey data",
-                "Management Survey data",
-                "survey data",
-                "data",
-                "regression models",
-                "model",
-                "farms",
-                "whole",
-                "typology categories",
-                "categories",
-                "farm typology",
-                "typology",
-                "relative magnitude",
-                "magnitude",
-                "estimates",
-                "sales levels",
-                "levels",
-                "primary occupation",
-                "occupation",
-                "findings change",
-                "farm income levels",
-                "income level",
-                "tax depreciation rate",
-                "depreciation rate",
-                "rate",
-                "interest rates",
-                "significant impact",
-                "farm investment",
-                "investment",
-                "output prices",
-                "prices",
-                "specialization level",
-                "farm capital investment",
-                "capital investment",
-                "relative significance",
-                "greater responsiveness",
-                "responsiveness",
-                "policy variables",
-                "variables",
-                "crop farms",
-                "debt",
-                "asset ratio",
-                "livestock farms",
-                "large changes",
-                "commercial crops",
-                "crops",
-                "equivalent changes",
-                "farm sales",
-                "sales",
-                "return",
-                "Research limitations/implications",
-                "limitations/implications",
-                "implications",
-                "findings",
-                "interest",
-                "agricultural economists",
-                "economists",
-                "investment model",
-                "panel method",
-                "agricultural equipment",
-                "manufacturing sector",
-                "sector",
-                "Inventory",
-                "plan",
-                "production",
-                "tax policy",
-                "policy",
-                "potential impact",
-                "tax changes",
-                "agricultural investment",
-                "lending sector",
-                "lending programs",
-                "program",
-                "Originality/value",
-                "values",
-                "level of investment",
-                "ARMS data",
-                "rich panel data set",
-                "panel data set",
-                "data sets",
-                "set",
-                "producers",
-                "production type",
-                "efforts",
-                "cross-sectional data",
-                "dynamic model",
-                "farm behavior",
-                "behavior"
-            ],
-            "date": "2018-02-05",
-            "date_inserted": "2017-11-26",
-            "doi": "10.1108/afr-01-2017-0002",
-            "field_citation_ratio": 1.45,
-            "id": "pub.1093000562",
-            "issn": [
-                "0002-1466",
-                "2041-6326"
-            ],
-            "issue": "Issue 1",
-            "journal": {
-                "id": "jour.1142144",
-                "title": "Agricultural Finance Review"
-            },
-            "journal_lists": [
-                "Norwegian register level 1",
-                "ERA 2015",
-                "VABB-SHW",
-                "ERA 2018"
-            ],
-            "noun_phrases": [
-                "difference",
-                "typology",
-                "capital investment",
-                "paper",
-                "condition",
-                "macroeconomics",
-                "capital expenditure",
-                "panel",
-                "resource management",
-                "regression model",
-                "farm",
-                "comparison",
-                "relative magnitude",
-                "operator",
-                "occupation",
-                "income level",
-                "Tax",
-                "interest rate",
-                "significant impact",
-                "investment",
-                "output",
-                "Specialization",
-                "relative significance",
-                "magnitude",
-                "significant difference",
-                "responsiveness",
-                "policy variable",
-                "crop",
-                "debt",
-                "asset",
-                "intermediate",
-                "large change",
-                "commercial",
-                "Research",
-                "economist",
-                "pseudo",
-                "manufacturing sector",
-                "Equipment and Supply",
-                "tax policy",
-                "potential impact",
-                "tax change",
-                "lending",
-                "panel data set",
-                "producer",
-                "crop production",
-                "construction method",
-                "cross-sectional data",
-                "dynamic model",
-                "behavior"
-            ],
-            "open_access_categories": [
-                {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
-                }
-            ],
-            "pages": "41-64",
-            "publisher": "Emerald",
-            "recent_citations": 1,
-            "reference_ids": [
-                "pub.1069869282",
-                "pub.1061922025",
-                "pub.1024381944",
-                "pub.1061833768",
-                "pub.1032039764",
-                "pub.1064199019",
-                "pub.1069408981",
-                "pub.1061922026",
-                "pub.1004421921",
-                "pub.1047813222",
-                "pub.1011089652",
-                "pub.1024680104",
-                "pub.1012026573",
-                "pub.1061832880",
-                "pub.1069440991",
-                "pub.1020274797",
-                "pub.1047853430",
-                "pub.1061934120"
-            ],
-            "references": [
-                "pub.1069869282",
-                "pub.1061922025",
-                "pub.1024381944",
-                "pub.1061833768",
-                "pub.1032039764",
-                "pub.1064199019",
-                "pub.1069408981",
-                "pub.1061922026",
-                "pub.1004421921",
-                "pub.1047813222",
-                "pub.1011089652",
-                "pub.1024680104",
-                "pub.1012026573",
-                "pub.1061832880",
-                "pub.1069440991",
-                "pub.1020274797",
-                "pub.1047853430",
-                "pub.1061934120"
-            ],
-            "research_org_cities": [
-                {
-                    "id": 4140963,
-                    "name": "Washington, D.C."
-                }
-            ],
-            "research_org_countries": [
-                {
-                    "id": "US",
-                    "name": "United States"
-                }
-            ],
-            "research_org_country_names": [
-                "United States"
-            ],
-            "research_org_names": [
-                "Bureau of Economic Analysis"
-            ],
-            "research_org_state_codes": [
-                {
-                    "id": "US-DC",
-                    "name": "District of Columbia"
-                }
-            ],
-            "research_org_state_names": [
-                "District of Columbia"
-            ],
-            "research_orgs": [
-                {
-                    "acronym": "BEA",
-                    "city_name": "Washington D.C.",
-                    "country_name": "United States",
-                    "id": "grid.482034.9",
-                    "latitude": 38.903996,
-                    "linkout": [
-                        "https://www.bea.gov/"
-                    ],
-                    "longitude": -77.03369,
-                    "name": "Bureau of Economic Analysis",
-                    "state_name": "District of Columbia",
-                    "types": [
-                        "Government"
-                    ]
-                }
-            ],
-            "terms": [
-                "purpose",
-                "paper",
-                "impact of changes",
-                "impact",
-                "changes",
-                "economic conditions",
-                "macroeconomic trends",
-                "trends",
-                "capital expenditure",
-                "expenditure",
-                "Design/methodology/approach",
-                "methodology/approach",
-                "approach",
-                "synthetic panel",
-                "panel",
-                "Agricultural Resource Management Survey data",
-                "Management Survey data",
-                "survey data",
-                "data",
-                "regression models",
-                "model",
-                "farms",
-                "whole",
-                "typology categories",
-                "categories",
-                "farm typology",
-                "typology",
-                "relative magnitude",
-                "magnitude",
-                "estimates",
-                "sales levels",
-                "levels",
-                "primary occupation",
-                "occupation",
-                "findings change",
-                "farm income levels",
-                "income level",
-                "tax depreciation rate",
-                "depreciation rate",
-                "rate",
-                "interest rates",
-                "significant impact",
-                "farm investment",
-                "investment",
-                "output prices",
-                "prices",
-                "specialization level",
-                "farm capital investment",
-                "capital investment",
-                "relative significance",
-                "greater responsiveness",
-                "responsiveness",
-                "policy variables",
-                "variables",
-                "crop farms",
-                "debt",
-                "asset ratio",
-                "livestock farms",
-                "large changes",
-                "commercial crops",
-                "crops",
-                "equivalent changes",
-                "farm sales",
-                "sales",
-                "return",
-                "Research limitations/implications",
-                "limitations/implications",
-                "implications",
-                "findings",
-                "interest",
-                "agricultural economists",
-                "economists",
-                "investment model",
-                "panel method",
-                "agricultural equipment",
-                "manufacturing sector",
-                "sector",
-                "Inventory",
-                "plan",
-                "production",
-                "tax policy",
-                "policy",
-                "potential impact",
-                "tax changes",
-                "agricultural investment",
-                "lending sector",
-                "lending programs",
-                "program",
-                "Originality/value",
-                "values",
-                "level of investment",
-                "ARMS data",
-                "rich panel data set",
-                "panel data set",
-                "data sets",
-                "set",
-                "producers",
-                "production type",
-                "efforts",
-                "cross-sectional data",
-                "dynamic model",
-                "farm behavior",
-                "behavior"
-            ],
-            "times_cited": 1,
-            "title": "Differences across farm typologies in capital investment during 1996-2013",
-            "type": "article",
-            "volume": "Volume 78",
-            "year": 2018
-        },
-        "Semantic Scholar": {
-            "message": "Forbidden"
-        },
-        "Unpaywall": {
-            "best_oa_location": null,
-            "data_standard": 2,
-            "doi": "10.1108/afr-01-2017-0002",
-            "doi_url": "https://doi.org/10.1108/afr-01-2017-0002",
-            "genre": "journal-article",
-            "has_repository_copy": false,
-            "is_oa": false,
-            "is_paratext": false,
-            "journal_is_in_doaj": false,
-            "journal_is_oa": false,
-            "journal_issn_l": "0002-1466",
-            "journal_issns": "0002-1466",
-            "journal_name": "Agricultural Finance Review",
-            "oa_locations": [],
-            "oa_status": "closed",
-            "published_date": "2018-02-05",
-            "publisher": "Emerald",
-            "title": "Differences across farm typologies in capital investment during 1996-2013",
-            "updated": "2020-03-09T13:10:27.418586",
-            "year": 2018,
-            "z_authors": [
-                {
-                    "affiliation": [
-                        {
-                            "name": "Research Branch, Bureau of Economic Analysis, Washington, District of Columbia, USA"
-                        }
-                    ],
-                    "family": "Stutzman",
-                    "given": "Sarah Anne",
-                    "sequence": "first"
-                }
-            ]
-        },
-        "datasets": [
-            "dataset-870",
-            "dataset-058"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "affiliation": "Research Branch, Bureau of Economic Analysis, Washington, District of Columbia, USA",
-                        "name": {
-                            "first": "Sarah Anne",
-                            "last": "Stutzman"
-                        }
-                    }
-                ],
-                "classification": "OK",
-                "date": "2018-02-05",
-                "records": [
-                    {
-                        "doi": "10.1108/afr-01-2017-0002",
-                        "identifier": "oai:crossref.org:10.1108/afr-01-2017-0002",
-                        "issn": "0002-1466",
-                        "issue": "1",
-                        "journal": "Agricultural Finance Review",
-                        "pages": "41-64",
-                        "policy": {
-                            "postprint": "can",
-                            "preprint": "can",
-                            "published": "cannot",
-                            "romeo_id": "31"
-                        },
-                        "publisher": "Emerald",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1108/afr-01-2017-0002",
-                        "type": "journal-article",
-                        "volume": "78"
-                    }
-                ],
-                "title": "Differences across farm typologies in capital investment during 1996-2013",
-                "type": "journal-article"
-            },
-            "status": "ok"
-        },
-        "doi": "10.1108/afr-01-2017-0002",
-        "original": {
-            "api": "dimensions",
-            "date_added": "2020-03-06 14:01:43",
-            "doi": "10.1108/afr-01-2017-0002",
-            "search_term": "Agricultural Resource Management Survey",
-            "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=Differences%20across%20farm%20typologies%20in%20capital%20investment%20during%201996-2013"
-        },
-        "title": "Differences across farm typologies in capital investment during 1996-2013"
-    },
-    {
-        "Dimensions": {
-            "FOR": [
-                {
-                    "id": "3292",
-                    "name": "1402 Applied Economics"
-                }
-            ],
-            "FOR_first": [
-                {
-                    "id": "2214",
-                    "name": "14 Economics"
-                }
-            ],
-            "altmetric_id": 0,
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [
-                            {
-                                "city": "Washington D.C.",
-                                "city_id": 4140963,
-                                "country": "United States",
-                                "country_code": "US",
-                                "id": "grid.482913.5",
-                                "name": "Economic Research Service",
-                                "state": "District of Columbia",
-                                "state_code": "US-DC"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "grid.463419.d",
-                        "first_name": "Hisham S.",
-                        "initials": "",
-                        "last_name": "El-Osta",
-                        "orcid": "",
-                        "researcher_id": "ur.01175423072.92"
-                    },
-                    {
-                        "affiliations": [
-                            {
-                                "city": "Washington D.C.",
-                                "city_id": 4140963,
-                                "country": "United States",
-                                "country_code": "US",
-                                "id": "grid.482913.5",
-                                "name": "Economic Research Service",
-                                "state": "District of Columbia",
-                                "state_code": "US-DC"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "grid.215654.1",
-                        "first_name": "Ashok K.",
-                        "initials": "",
-                        "last_name": "Mishra",
-                        "orcid": "['0000-0002-0988-1428']",
-                        "researcher_id": "ur.015700235443.95"
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [
-                        {
-                            "city": "Washington D.C.",
-                            "city_id": 4140963,
-                            "country": "United States",
-                            "country_code": "US",
-                            "id": "grid.482913.5",
-                            "name": "Economic Research Service",
-                            "state": "District of Columbia",
-                            "state_code": "US-DC"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "grid.463419.d",
-                    "first_name": "Hisham S.",
-                    "initials": "",
-                    "last_name": "El-Osta",
-                    "orcid": "",
-                    "researcher_id": "ur.01175423072.92"
-                },
-                {
-                    "affiliations": [
-                        {
-                            "city": "Washington D.C.",
-                            "city_id": 4140963,
-                            "country": "United States",
-                            "country_code": "US",
-                            "id": "grid.482913.5",
-                            "name": "Economic Research Service",
-                            "state": "District of Columbia",
-                            "state_code": "US-DC"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "grid.215654.1",
-                    "first_name": "Ashok K.",
-                    "initials": "",
-                    "last_name": "Mishra",
-                    "orcid": "['0000-0002-0988-1428']",
-                    "researcher_id": "ur.015700235443.95"
-                }
-            ],
-            "category_for": [
-                {
-                    "id": "3292",
-                    "name": "1402 Applied Economics"
-                },
-                {
-                    "id": "2214",
-                    "name": "14 Economics"
-                }
-            ],
-            "category_ua": [
-                {
-                    "id": "30017",
-                    "name": "C17 Business and Management Studies"
-                }
-            ],
-            "category_uoa": [
-                {
-                    "id": "30017",
-                    "name": "C17 Business and Management Studies"
-                }
-            ],
-            "concepts": [
-                "paper",
-                "microlevel data",
-                "data",
-                "Agricultural Resource Management Survey",
-                "Resource Management Survey",
-                "Management Survey",
-                "survey",
-                "changes",
-                "distribution",
-                "household wealth",
-                "wealth",
-                "farm subsidies",
-                "subsidies",
-                "factors",
-                "empirical analysis",
-                "analysis",
-                "concept",
-                "Gini coefficient",
-                "regression procedure",
-                "fixed-effects estimation",
-                "estimation",
-                "negative correlation",
-                "government payments",
-                "payments",
-                "wealth dispersion",
-                "effect",
-                "positive relation",
-                "relation",
-                "regional dummies",
-                "dummy",
-                "dimensions",
-                "farm operator households",
-                "households",
-                "assessment",
-                "impact"
-            ],
-            "date": "2005-04-01",
-            "date_inserted": "2017-08-31",
-            "doi": "10.1017/s1074070800007197",
-            "field_citation_ratio": 0.9,
-            "id": "pub.1008560941",
-            "issn": [
-                "1074-0708",
-                "2056-7405"
-            ],
-            "issue": "1",
-            "journal": {
-                "id": "jour.1149520",
-                "title": "Journal of Agricultural and Applied Economics"
-            },
-            "journal_lists": [
-                "ERA 2018",
-                "Norwegian register level 1",
-                "DOAJ",
-                "ERA 2015",
-                "ERIH PLUS"
-            ],
-            "linkout": "http://ageconsearch.umn.edu/record/43733/files/405-187.pdf",
-            "noun_phrases": [
-                "dimension",
-                "dispersion",
-                "assessment",
-                "subsidy",
-                "paper",
-                "resource management",
-                "distribution",
-                "household wealth",
-                "empirical analysis",
-                "concept",
-                "coefficient",
-                "fixed effect",
-                "negative correlation",
-                "government",
-                "relation",
-                "dummy"
-            ],
-            "open_access": [
-                "Open Access - all",
-                "Open Access - repository",
-                "Open Access - submitted"
-            ],
-            "open_access_categories": [
-                {
-                    "description": "Article is freely available",
-                    "id": "oa_all",
-                    "name": "All OA"
-                },
-                {
-                    "description": "Free copy of submitted version, or where version is unknown, in an OA repository",
-                    "id": "green_sub",
-                    "name": "Green, Submitted"
-                }
-            ],
-            "pages": "187-208",
-            "publisher": "Cambridge University Press (CUP)",
-            "recent_citations": 0,
-            "reference_ids": [
-                "pub.1083624062",
-                "pub.1069408806",
-                "pub.1006029312",
-                "pub.1018703138",
-                "pub.1102025121",
-                "pub.1102025378",
-                "pub.1003544932",
-                "pub.1083807174",
-                "pub.1064531106",
-                "pub.1054921863",
-                "pub.1069409413",
-                "pub.1109700913",
-                "pub.1037661917",
-                "pub.1069650194",
-                "pub.1083624140",
-                "pub.1070219069",
-                "pub.1008314545",
-                "pub.1028083004",
-                "pub.1069441064",
-                "pub.1069407049",
-                "pub.1069407124",
-                "pub.1102025331"
-            ],
-            "references": [
-                "pub.1083624062",
-                "pub.1069408806",
-                "pub.1006029312",
-                "pub.1018703138",
-                "pub.1102025121",
-                "pub.1102025378",
-                "pub.1003544932",
-                "pub.1083807174",
-                "pub.1064531106",
-                "pub.1054921863",
-                "pub.1069409413",
-                "pub.1109700913",
-                "pub.1037661917",
-                "pub.1069650194",
-                "pub.1083624140",
-                "pub.1070219069",
-                "pub.1008314545",
-                "pub.1028083004",
-                "pub.1069441064",
-                "pub.1069407049",
-                "pub.1069407124",
-                "pub.1102025331"
-            ],
-            "research_org_cities": [
-                {
-                    "id": 4140963,
-                    "name": "Washington, D.C."
-                }
-            ],
-            "research_org_countries": [
-                {
-                    "id": "US",
-                    "name": "United States"
-                }
-            ],
-            "research_org_country_names": [
-                "United States"
-            ],
-            "research_org_names": [
-                "Economic Research Service"
-            ],
-            "research_org_state_codes": [
-                {
-                    "id": "US-DC",
-                    "name": "District of Columbia"
-                }
-            ],
-            "research_org_state_names": [
-                "District of Columbia"
-            ],
-            "research_orgs": [
-                {
-                    "acronym": "ERS",
-                    "city_name": "Washington D.C.",
-                    "country_name": "United States",
-                    "id": "grid.482913.5",
-                    "latitude": 38.88383,
-                    "linkout": [
-                        "https://www.ers.usda.gov/"
-                    ],
-                    "longitude": -77.01658,
-                    "name": "Economic Research Service",
-                    "state_name": "District of Columbia",
-                    "types": [
-                        "Government"
-                    ]
-                }
-            ],
-            "researchers": [
-                {
-                    "first_name": "Hisham Said",
-                    "id": "ur.01175423072.92",
-                    "last_name": "El-Osta",
-                    "research_orgs": [
-                        "grid.482913.5",
-                        "grid.463419.d"
-                    ]
-                },
-                {
-                    "first_name": "Ashok Kumar",
-                    "id": "ur.015700235443.95",
-                    "last_name": "Mishra",
-                    "orcid_id": [
-                        "0000-0002-0988-1428"
-                    ],
-                    "research_orgs": [
-                        "grid.250060.1",
-                        "grid.259234.b",
-                        "grid.417548.b",
-                        "grid.64337.35",
-                        "grid.215654.1",
-                        "grid.410428.b",
-                        "grid.482913.5",
-                        "grid.463419.d",
-                        "grid.419387.0"
-                    ]
-                }
-            ],
-            "terms": [
-                "paper",
-                "microlevel data",
-                "data",
-                "Agricultural Resource Management Survey",
-                "Resource Management Survey",
-                "Management Survey",
-                "survey",
-                "changes",
-                "distribution",
-                "household wealth",
-                "wealth",
-                "farm subsidies",
-                "subsidies",
-                "factors",
-                "empirical analysis",
-                "analysis",
-                "concept",
-                "Gini coefficient",
-                "regression procedure",
-                "fixed-effects estimation",
-                "estimation",
-                "negative correlation",
-                "government payments",
-                "payments",
-                "wealth dispersion",
-                "effect",
-                "positive relation",
-                "relation",
-                "regional dummies",
-                "dummy",
-                "dimensions",
-                "farm operator households",
-                "households",
-                "assessment",
-                "impact"
-            ],
-            "times_cited": 3,
-            "title": "Dimensions of Wealth Dispersion Among Farm Operator Households: An Assessment of the Impact of Farm Subsidies",
-            "type": "article",
-            "volume": "37",
-            "year": 2005
-        },
-        "OpenAIRE": {
-            "authors": [
-                "El-Osta, Hisham S.",
-                "Mishra, Ashok K.",
-                "El-Osta, Hisham S.",
-                "Mishra, Ashok K."
-            ],
-            "open": false,
-            "url": "http://dx.doi.org/10.22004/ag.econ.43733"
-        },
-        "Semantic Scholar": {
-            "message": "Forbidden"
-        },
-        "datasets": [
-            "dataset-870"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "name": {
-                            "first": "Hisham S.",
-                            "last": "El-Osta"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "Ashok K.",
-                            "last": "Mishra"
-                        }
-                    }
-                ],
-                "classification": "OA",
-                "date": "2005-04-01",
-                "pdf_url": "https://doi.org/10.22004/ag.econ.43733",
-                "records": [
-                    {
-                        "abstract": "This paper uses microlevel data from the Agricultural Resource Management Survey to examine the changes in the distributions of household wealth and to assess the role farm subsidies play, among other factors, in affecting these distributions. The empirical analysis relies on the concept of the adjusted Gini coefficient and on fixed-effect regression procedures. Coefficients from fixed-effect estimation indicate a negative correlation between government payments and wealth dispersion, with the effect shifting toward more of a positive relation when government payments were allowed to interact with regional dummies.",
-                        "doi": "10.22004/ag.econ.43733",
-                        "identifier": "oai:crossref.org:10.22004/ag.econ.43733",
-                        "issue": "",
-                        "journal": "Unknown",
-                        "pages": "",
-                        "pdf_url": "",
-                        "publisher": "Unknown",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.22004/ag.econ.43733",
-                        "type": "journal-article",
-                        "volume": ""
-                    },
-                    {
-                        "abstract": "This paper uses microlevel data from the Agricultural Resource Management Survey to examine the changes in the distributions of household wealth and to assess the role farm subsidies play, among other factors, in affecting these distributions. The empirical analysis relies on the concept of the adjusted Gini coefficient and on fixed-effect regression procedures. Coefficients from fixed-effect estimation indicate a negative correlation between government payments and wealth dispersion, with the effect shifting toward more of a positive relation when government payments were allowed to interact with regional dummies.",
-                        "contributors": "",
-                        "identifier": "ftagecon:oai:ageconsearch.umn.edu:43733",
-                        "keywords": "adjusted Gini coefficient Agricultural Resource Management Survey fixed-effects regression government subsidies life cycle wealth dispersion Environmental Economics and Policy Farm Management Livestock Production/Industries Production Economics C33 D31 D63 O18 Q15",
-                        "source": "base",
-                        "splash_url": "http://purl.umn.edu/43733",
-                        "type": "journal-article"
-                    },
-                    {
-                        "abstract": "This paper uses microlevel data from the Agricultural Resource Management Survey to examine the changes in the distributions of household wealth and to assess the role farm subsidies play, among other factors, in affecting these distributions. The empirical analysis relies on the concept of the adjusted Gini coefficient and on fixed-effect regression procedures. Coefficients from fixed-effects estimation indicate a negative correlation between government payments and wealth dispersion, with the effect shifting toward more of a positive relation when government payments were allowed to interact with regional dummies.",
-                        "contributors": "",
-                        "identifier": "ftagspace:oai:ddr.nal.usda.gov:10113/36786",
-                        "keywords": "farm operator households farm operators income and wealth agricultural subsidies data analysis sociodemographic characteristics socioeconomic status regression analysis agricultural policy farm assets",
-                        "source": "base",
-                        "splash_url": "http://hdl.handle.net/10113/36786",
-                        "type": "journal-article"
-                    },
-                    {
-                        "abstract": "This paper uses microlevel data from the Agricultural Resource Management Survey to examine the changes in the distributions of household wealth and to assess the role farm subsidies play, among other factors, in affecting these distributions. The empirical analysis relies on the concept of the adjusted Gini coefficient and on fixed-effect regression procedures. Coefficients from fixed-effect estimation indicate a negative correlation between government payments and wealth dispersion, with the effect shifting toward more of a positive relation when government payments were allowed to interact with regional dummies.",
-                        "contributors": "",
-                        "identifier": "oai:researchgate.net:23944838",
-                        "keywords": "",
-                        "pdf_url": "https://www.researchgate.net/profile/Ashok_Mishra4/publication/23944838_Dimensions_of_Wealth_Dispersion_Among_Farm_Operator_Households_An_Assessment_of_the_Impact_of_Farm_Subsidies/links/09e41508a85b2f0999000000.pdf",
-                        "source": "researchgate",
-                        "splash_url": "https://www.researchgate.net/publication/23944838_Dimensions_of_Wealth_Dispersion_Among_Farm_Operator_Households_An_Assessment_of_the_Impact_of_Farm_Subsidies",
-                        "type": "journal-article"
-                    },
-                    {
-                        "doi": "10.1017/s1074070800007197",
-                        "identifier": "oai:crossref.org:10.1017/s1074070800007197",
-                        "issn": "1074-0708",
-                        "issue": "01",
-                        "journal": "Journal of Agricultural and Applied Economics",
-                        "pages": "187-208",
-                        "pdf_url": "https://doi.org/10.1017/s1074070800007197",
-                        "policy": {
-                            "postprint": "can",
-                            "preprint": "can",
-                            "published": "can",
-                            "romeo_id": "1599"
-                        },
-                        "publisher": "Cambridge University Press (CUP)",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1017/s1074070800007197",
-                        "type": "journal-article",
-                        "volume": "37"
-                    }
-                ],
-                "title": "Dimensions of Wealth Dispersion Among Farm Operator Households: An Assessment of the Impact of Farm Subsidies",
-                "type": "journal-article"
-            },
-            "status": "ok"
-        },
-        "doi": "10.22004/ag.econ.43733",
-        "original": {
-            "api": "openaire",
-            "date_added": "2020-03-06 14:01:43",
-            "doi": "10.22004/ag.econ.43733",
-            "search_term": "Agricultural Resource Management Survey",
-            "url": "http://dx.doi.org/10.22004/ag.econ.43733"
-        },
-        "title": "Dimensions of Wealth Dispersion Among Farm Operator Households: An Assessment of the Impact of Farm Subsidies"
-    },
-    {
-        "Dimensions": {
-            "FOR": [
-                {
-                    "id": "3292",
-                    "name": "1402 Applied Economics"
-                }
-            ],
-            "FOR_first": [
-                {
-                    "id": "2214",
-                    "name": "14 Economics"
-                }
-            ],
-            "altmetric": 3.0,
-            "altmetric_id": 66692378,
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [
-                            {
-                                "name": "RAND Corporation in Pittsburgh, Pennsylvania"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "Michael W.",
-                        "initials": "",
-                        "last_name": "Robbins",
-                        "orcid": "",
-                        "researcher_id": ""
-                    },
-                    {
-                        "affiliations": [
-                            {
-                                "name": "U.S. Census Bureau's Center for Economic Studies"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "T. Kirk",
-                        "initials": "",
-                        "last_name": "White",
-                        "orcid": "",
-                        "researcher_id": "ur.012362500705.60"
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [
-                        {
-                            "name": "RAND Corporation in Pittsburgh, Pennsylvania"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "Michael W.",
-                    "initials": "",
-                    "last_name": "Robbins",
-                    "orcid": "",
-                    "researcher_id": ""
-                },
-                {
-                    "affiliations": [
-                        {
-                            "name": "U.S. Census Bureau's Center for Economic Studies"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "T. Kirk",
-                    "initials": "",
-                    "last_name": "White",
-                    "orcid": "",
-                    "researcher_id": "ur.012362500705.60"
-                }
-            ],
-            "category_for": [
-                {
-                    "id": "3292",
-                    "name": "1402 Applied Economics"
-                },
-                {
-                    "id": "2214",
-                    "name": "14 Economics"
-                }
-            ],
-            "category_ua": [
-                {
-                    "id": "30006",
-                    "name": "A06 Agriculture, Veterinary and Food Science"
-                }
-            ],
-            "category_uoa": [
-                {
-                    "id": "30006",
-                    "name": "A06 Agriculture, Veterinary and Food Science"
-                }
-            ],
-            "concepts": [
-                "research",
-                "Agricultural Resource Management Survey",
-                "Resource Management Survey",
-                "Management Survey",
-                "survey",
-                "data",
-                "direct government payments",
-                "government payments",
-                "payments",
-                "farmers",
-                "rents",
-                "price of land",
-                "prices",
-                "land",
-                "ARMS data",
-                "relationship",
-                "variables",
-                "imputation methods",
-                "benefits",
-                "wide scope",
-                "scope",
-                "additional dollar",
-                "dollars",
-                "direct payments",
-                "land values",
-                "values",
-                "acre",
-                "imputation",
-                "small models",
-                "model",
-                "cash rent",
-                "effects of imputation",
-                "effect",
-                "farm-level data"
-            ],
-            "date": "2014-12-01",
-            "date_inserted": "2017-08-31",
-            "doi": "10.1017/s1068280500005542",
-            "field_citation_ratio": 0.0,
-            "id": "pub.1054922027",
-            "issn": [
-                "1068-2805",
-                "2372-2614"
-            ],
-            "issue": "3",
-            "journal": {
-                "id": "jour.1156341",
-                "title": "Agricultural and Resource Economics Review"
-            },
-            "journal_lists": [
-                "VABB-SHW",
-                "ERA 2018",
-                "Norwegian register level 1",
-                "DOAJ",
-                "ERA 2015"
-            ],
-            "linkout": "http://ageconsearch.umn.edu/record/188002/files/ARER2014%2012%20White%20AEPrepubl.pdf",
-            "noun_phrases": [
-                "payment",
-                "cash",
-                "land value",
-                "imputation",
-                "Research",
-                "resource management",
-                "government",
-                "farmer",
-                "Commerce",
-                "variable",
-                "imputation method",
-                "benefit",
-                "method",
-                "wide scope",
-                "dollar",
-                "acre",
-                "regression"
-            ],
-            "open_access": [
-                "Open Access - all",
-                "Open Access - repository",
-                "Open Access - published"
-            ],
-            "open_access_categories": [
-                {
-                    "description": "Article is freely available",
-                    "id": "oa_all",
-                    "name": "All OA"
-                },
-                {
-                    "description": "Free copy of published version in an OA repository",
-                    "id": "green_pub",
-                    "name": "Green, Published"
-                }
-            ],
-            "pages": "451-470",
-            "publisher": "Cambridge University Press (CUP)",
-            "recent_citations": 0,
-            "reference_ids": [
-                "pub.1107030376",
-                "pub.1064198467",
-                "pub.1058303435",
-                "pub.1109489390",
-                "pub.1070211133",
-                "pub.1020457349",
-                "pub.1058303257",
-                "pub.1109411044",
-                "pub.1061833827",
-                "pub.1098662402",
-                "pub.1058305983",
-                "pub.1102364641"
-            ],
-            "references": [
-                "pub.1107030376",
-                "pub.1064198467",
-                "pub.1058303435",
-                "pub.1109489390",
-                "pub.1070211133",
-                "pub.1020457349",
-                "pub.1058303257",
-                "pub.1109411044",
-                "pub.1061833827",
-                "pub.1098662402",
-                "pub.1058305983",
-                "pub.1102364641"
-            ],
-            "research_org_cities": [
-                {
-                    "id": 5393212,
-                    "name": "Santa Monica"
-                }
-            ],
-            "research_org_countries": [
-                {
-                    "id": "US",
-                    "name": "United States"
-                }
-            ],
-            "research_org_country_names": [
-                "United States"
-            ],
-            "research_org_names": [
-                "RAND Corporation in Pittsburgh, Pennsylvania",
-                "U.S. Census Bureau's Center for Economic Studies"
-            ],
-            "research_org_state_codes": [
-                {
-                    "id": "US-PA",
-                    "name": "Pennsylvania"
-                },
-                {
-                    "id": "US-CA",
-                    "name": "California"
-                }
-            ],
-            "research_org_state_names": [
-                "California",
-                "Pennsylvania"
-            ],
-            "researchers": [
-                {
-                    "first_name": "T Kirk",
-                    "id": "ur.012362500705.60",
-                    "last_name": "White"
-                }
-            ],
-            "terms": [
-                "research",
-                "Agricultural Resource Management Survey",
-                "Resource Management Survey",
-                "Management Survey",
-                "survey",
-                "data",
-                "direct government payments",
-                "government payments",
-                "payments",
-                "farmers",
-                "rents",
-                "price of land",
-                "prices",
-                "land",
-                "ARMS data",
-                "relationship",
-                "variables",
-                "imputation methods",
-                "benefits",
-                "wide scope",
-                "scope",
-                "additional dollar",
-                "dollars",
-                "direct payments",
-                "land values",
-                "values",
-                "acre",
-                "imputation",
-                "small models",
-                "model",
-                "cash rent",
-                "effects of imputation",
-                "effect",
-                "farm-level data"
-            ],
-            "times_cited": 0,
-            "title": "Direct Payments, Cash Rents, Land Values, and the Effects of Imputation in U.S. Farm-level Data",
-            "type": "article",
-            "volume": "43",
-            "year": 2014
-        },
-        "OpenAIRE": {
-            "authors": [
-                "Robbins, Michael W.",
-                "White, T. Kirk",
-                "Robbins, Michael W.",
-                "White, T. Kirk"
-            ],
-            "open": false,
-            "url": "http://dx.doi.org/10.22004/ag.econ.190997"
-        },
-        "Semantic Scholar": {
-            "message": "Forbidden"
-        },
-        "datasets": [
-            "dataset-870",
-            "dataset-881"
-        ],
-        "doi": "10.22004/ag.econ.188002, 10.1017/s1068280500005542",
-        "original": {
-            "api": "openaire",
-            "date_added": "2020-03-06 14:01:43",
-            "doi": "10.22004/ag.econ.188002, 10.1017/s1068280500005542",
-            "search_term": "Agricultural Resource Management Survey",
-            "url": "http://dx.doi.org/10.22004/ag.econ.190997"
-        },
-        "title": "Direct Payments, Cash Rents, Land Values, and the Effects of Imputation in U.S. Farm-level Data"
     },
     {
         "Dimensions": {
@@ -2707,6 +1396,10 @@
                 }
             ]
         },
+        "abstract": "Promoting the continuous use of conservation practices by farmers is an important environmental policy issue to minimize the impact of agriculture on environmental quality. The effectiveness of env...",
+        "authors": [
+            "author-7b7eab8ee02d535ac1b9"
+        ],
         "datasets": [
             "dataset-870",
             "dataset-881"
@@ -2753,6 +1446,44 @@
             "status": "ok"
         },
         "doi": "10.1080/09640568.2019.1661832",
+        "keyphrases": {
+            "agriculture": {
+                "count": 1,
+                "rank_score": 0.11609991351526378
+            },
+            "conservation practices": {
+                "count": 1,
+                "rank_score": 0.15773674324191583
+            },
+            "continuous use": {
+                "count": 1,
+                "rank_score": 0.09437666016173427
+            },
+            "effectiveness": {
+                "count": 1,
+                "rank_score": 0.0625
+            },
+            "env": {
+                "count": 1,
+                "rank_score": 0.11785113019775792
+            },
+            "environmental quality": {
+                "count": 1,
+                "rank_score": 0.15702949925130943
+            },
+            "farmers": {
+                "count": 1,
+                "rank_score": 0.11229424504320924
+            },
+            "impact": {
+                "count": 1,
+                "rank_score": 0.05182420236061588
+            },
+            "important environmental policy issue": {
+                "count": 1,
+                "rank_score": 0.13875148535670428
+            }
+        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-06 14:01:43",
@@ -3444,6 +2175,10 @@
                 }
             ]
         },
+        "abstract": "Agricultural production and support in Canada, the United States, and the European Union are highly concentrated on larger farms, which have higher income levels than the average of all farms. Smaller farms, though, are more dependent on support (in particular, payments) which accounts for a larger share of their gross receipts. As payments to farmers are more equally distributed than production, government support reduces income inequality by farm size and farm type. This study, carried out in the context of the OECD Network for Farm Level Analysis, concludes that improved efficiency and equity of policies will require better targeting of income support and, in turn, better information on the income and wealth situation of the agricultural population.",
+        "authors": [
+            "author-b4f2efaca22cbe775914"
+        ],
         "datasets": [
             "dataset-870",
             "dataset-922",
@@ -3496,6 +2231,108 @@
             "status": "ok"
         },
         "doi": "10.1787/5kgch21wkmbx-en",
+        "keyphrases": {
+            "agricultural population": {
+                "count": 1,
+                "rank_score": 0.044526541004313115
+            },
+            "agricultural production": {
+                "count": 1,
+                "rank_score": 0.09582242799626367
+            },
+            "all farms": {
+                "count": 1,
+                "rank_score": 0.056702356271128664
+            },
+            "better information": {
+                "count": 1,
+                "rank_score": 0.09316166227432027
+            },
+            "better targeting": {
+                "count": 1,
+                "rank_score": 0.1001280207732966
+            },
+            "canada": {
+                "count": 2,
+                "rank_score": 0.057197860541151564
+            },
+            "equity": {
+                "count": 1,
+                "rank_score": 0.06672555701808831
+            },
+            "farm level analysis": {
+                "count": 1,
+                "rank_score": 0.10141417179292256
+            },
+            "farm size": {
+                "count": 1,
+                "rank_score": 0.11621434947922468
+            },
+            "farm type": {
+                "count": 1,
+                "rank_score": 0.10874983148672962
+            },
+            "farmers": {
+                "count": 1,
+                "rank_score": 0.04573036653492711
+            },
+            "government support": {
+                "count": 1,
+                "rank_score": 0.12059479340765494
+            },
+            "higher income levels": {
+                "count": 1,
+                "rank_score": 0.11775778067715117
+            },
+            "improved efficiency": {
+                "count": 1,
+                "rank_score": 0.07868242085977736
+            },
+            "income and wealth situation": {
+                "count": 1,
+                "rank_score": 0.05664109666767038
+            },
+            "income inequality": {
+                "count": 1,
+                "rank_score": 0.12413358176901852
+            },
+            "income support": {
+                "count": 1,
+                "rank_score": 0.14798000585799226
+            },
+            "larger farms": {
+                "count": 1,
+                "rank_score": 0.12093574526576126
+            },
+            "larger share": {
+                "count": 1,
+                "rank_score": 0.053237995769178294
+            },
+            "oecd network": {
+                "count": 1,
+                "rank_score": 0.050703500558357345
+            },
+            "oecd network for farm level analysis": {
+                "count": 1,
+                "rank_score": 0.06265034823154249
+            },
+            "payments": {
+                "count": 1,
+                "rank_score": 0.0715493428930849
+            },
+            "policies": {
+                "count": 1,
+                "rank_score": 0.06435618273874674
+            },
+            "smaller farms": {
+                "count": 1,
+                "rank_score": 0.10491050116390693
+            },
+            "their gross receipts": {
+                "count": 1,
+                "rank_score": 0.04482027100158065
+            }
+        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-06 14:01:43",
@@ -3504,398 +2341,6 @@
             "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=Distribution%20of%20Support%20and%20Income%20in%20Agriculture"
         },
         "title": "Distribution of Support and Income in Agriculture"
-    },
-    {
-        "Dimensions": {
-            "FOR": [
-                {
-                    "id": "3292",
-                    "name": "1402 Applied Economics"
-                }
-            ],
-            "FOR_first": [
-                {
-                    "id": "2214",
-                    "name": "14 Economics"
-                }
-            ],
-            "altmetric": 1.0,
-            "altmetric_id": 66905333,
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "Siraj G.",
-                        "initials": "",
-                        "last_name": "Bawa",
-                        "orcid": "",
-                        "researcher_id": ""
-                    },
-                    {
-                        "affiliations": [],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "James M.",
-                        "initials": "",
-                        "last_name": "Williamson",
-                        "orcid": "",
-                        "researcher_id": ""
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "Siraj G.",
-                    "initials": "",
-                    "last_name": "Bawa",
-                    "orcid": "",
-                    "researcher_id": ""
-                },
-                {
-                    "affiliations": [],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "James M.",
-                    "initials": "",
-                    "last_name": "Williamson",
-                    "orcid": "",
-                    "researcher_id": ""
-                }
-            ],
-            "category_for": [
-                {
-                    "id": "3292",
-                    "name": "1402 Applied Economics"
-                },
-                {
-                    "id": "2214",
-                    "name": "14 Economics"
-                }
-            ],
-            "category_ua": [
-                {
-                    "id": "30016",
-                    "name": "C16 Economics and Econometrics"
-                }
-            ],
-            "category_uoa": [
-                {
-                    "id": "30016",
-                    "name": "C16 Economics and Econometrics"
-                }
-            ],
-            "concepts": [
-                "paper",
-                "years",
-                "USDA's Agricultural Resource Management Survey data",
-                "Agricultural Resource Management Survey data",
-                "Management Survey data",
-                "survey data",
-                "data",
-                "impact",
-                "tax cuts",
-                "cut",
-                "Jobs Act",
-                "act",
-                "income tax returns",
-                "tax returns",
-                "return",
-                "household level",
-                "levels",
-                "survey",
-                "information",
-                "farm households",
-                "households",
-                "income distribution",
-                "distribution",
-                "TCJA",
-                "experience",
-                "increase",
-                "income tax liability",
-                "tax liability",
-                "liability",
-                "progressivity",
-                "tax code",
-                "farm household income",
-                "household income",
-                "income",
-                "distributional impact",
-                "household microdata",
-                "microdata"
-            ],
-            "date": "2020-02-07",
-            "date_inserted": "2019-06-28",
-            "doi": "10.1093/aepp/ppz012",
-            "funder_countries": [
-                {
-                    "id": "US",
-                    "name": "United States"
-                }
-            ],
-            "funders": [
-                {
-                    "acronym": "USDA",
-                    "city_name": "Washington D.C.",
-                    "country_name": "United States",
-                    "id": "grid.417548.b",
-                    "latitude": 38.88794,
-                    "linkout": [
-                        "http://www.usda.gov/"
-                    ],
-                    "longitude": -77.03003,
-                    "name": "United States Department of Agriculture",
-                    "state_name": "District of Columbia",
-                    "types": [
-                        "Government"
-                    ]
-                }
-            ],
-            "id": "pub.1117549185",
-            "issn": [
-                "2040-5790",
-                "2040-5804"
-            ],
-            "journal": {
-                "id": "jour.1297336",
-                "title": "Applied Economic Perspectives and Policy"
-            },
-            "journal_lists": [
-                "Norwegian register level 1",
-                "ERA 2015",
-                "VABB-SHW",
-                "ERA 2018"
-            ],
-            "noun_phrases": [
-                "Tax",
-                "microdata",
-                "paper",
-                "resource management",
-                "income tax",
-                "household level",
-                "Data Collection",
-                "demographic information",
-                "farm",
-                "income",
-                "family",
-                "bottom",
-                "distribution",
-                "slight increase",
-                "household income"
-            ],
-            "open_access_categories": [
-                {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
-                }
-            ],
-            "publisher": "Wiley",
-            "recent_citations": 0,
-            "reference_ids": [
-                "pub.1069765703",
-                "pub.1083624062",
-                "pub.1052764194",
-                "pub.1022489685",
-                "pub.1028043644",
-                "pub.1103339825",
-                "pub.1023689359",
-                "pub.1047813222",
-                "pub.1026848426",
-                "pub.1083624140",
-                "pub.1007941488",
-                "pub.1069409420",
-                "pub.1064529282"
-            ],
-            "references": [
-                "pub.1069765703",
-                "pub.1083624062",
-                "pub.1052764194",
-                "pub.1022489685",
-                "pub.1028043644",
-                "pub.1103339825",
-                "pub.1023689359",
-                "pub.1047813222",
-                "pub.1026848426",
-                "pub.1083624140",
-                "pub.1007941488",
-                "pub.1069409420",
-                "pub.1064529282"
-            ],
-            "terms": [
-                "paper",
-                "years",
-                "USDA's Agricultural Resource Management Survey data",
-                "Agricultural Resource Management Survey data",
-                "Management Survey data",
-                "survey data",
-                "data",
-                "impact",
-                "tax cuts",
-                "cut",
-                "Jobs Act",
-                "act",
-                "income tax returns",
-                "tax returns",
-                "return",
-                "household level",
-                "levels",
-                "survey",
-                "information",
-                "farm households",
-                "households",
-                "income distribution",
-                "distribution",
-                "TCJA",
-                "experience",
-                "increase",
-                "income tax liability",
-                "tax liability",
-                "liability",
-                "progressivity",
-                "tax code",
-                "farm household income",
-                "household income",
-                "income",
-                "distributional impact",
-                "household microdata",
-                "microdata"
-            ],
-            "times_cited": 0,
-            "title": "Distributional Impacts of the Tax Cuts and Jobs Act Using Farm Household Microdata",
-            "type": "article",
-            "year": 2020
-        },
-        "Semantic Scholar": {
-            "abstract": null,
-            "arxivId": null,
-            "authors": [
-                {
-                    "authorId": "145672372",
-                    "name": "Siraj G. Bawa",
-                    "url": "https://www.semanticscholar.org/author/145672372"
-                },
-                {
-                    "authorId": "48628859",
-                    "name": "James M. Williamson",
-                    "url": "https://www.semanticscholar.org/author/48628859"
-                }
-            ],
-            "citationVelocity": 0,
-            "citations": [],
-            "corpusId": 203463754,
-            "doi": "10.1093/aepp/ppz012",
-            "fieldsOfStudy": [
-                "Economics"
-            ],
-            "influentialCitationCount": 0,
-            "is_open_access": true,
-            "is_publisher_licensed": false,
-            "paperId": "cf60c88c9fadba290083d067363339366c97ff5e",
-            "references": [],
-            "title": "Distributional Impacts of the Tax Cuts and Jobs Act Using Farm Household Microdata",
-            "topics": [],
-            "url": "https://www.semanticscholar.org/paper/cf60c88c9fadba290083d067363339366c97ff5e",
-            "venue": "",
-            "year": 2019
-        },
-        "Unpaywall": {
-            "best_oa_location": null,
-            "data_standard": 2,
-            "doi": "10.1093/aepp/ppz012",
-            "doi_url": "https://doi.org/10.1093/aepp/ppz012",
-            "genre": "journal-article",
-            "has_repository_copy": false,
-            "is_oa": false,
-            "is_paratext": false,
-            "journal_is_in_doaj": false,
-            "journal_is_oa": false,
-            "journal_issn_l": "2040-5790",
-            "journal_issns": "2040-5790,2040-5804",
-            "journal_name": "Applied Economic Perspectives and Policy",
-            "oa_locations": [],
-            "oa_status": "closed",
-            "published_date": "2019-09-10",
-            "publisher": "Wiley",
-            "title": "Distributional Impacts of the Tax Cuts and Jobs Act Using Farm Household Microdata",
-            "updated": "2020-03-09T02:04:58.302259",
-            "year": 2019,
-            "z_authors": [
-                {
-                    "family": "Bawa",
-                    "given": "Siraj G.",
-                    "sequence": "first"
-                },
-                {
-                    "family": "Williamson",
-                    "given": "James M.",
-                    "sequence": "additional"
-                }
-            ]
-        },
-        "datasets": [
-            "dataset-870",
-            "dataset-058"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "name": {
-                            "first": "Siraj G.",
-                            "last": "Bawa"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "James M.",
-                            "last": "Williamson"
-                        }
-                    }
-                ],
-                "classification": "OK",
-                "date": "2019-09-10",
-                "records": [
-                    {
-                        "abstract": "",
-                        "doi": "10.1093/aepp/ppz012",
-                        "identifier": "oai:crossref.org:10.1093/aepp/ppz012",
-                        "issn": "2040-5790",
-                        "issue": "",
-                        "journal": "Applied Economic Perspectives and Policy",
-                        "pages": "",
-                        "pdf_url": "",
-                        "policy": {
-                            "postprint": "can",
-                            "preprint": "can",
-                            "published": "cannot",
-                            "romeo_id": "2705"
-                        },
-                        "publisher": "Wiley",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1093/aepp/ppz012",
-                        "type": "journal-article",
-                        "volume": ""
-                    }
-                ],
-                "title": "Distributional Impacts of the Tax Cuts and Jobs Act Using Farm Household Microdata",
-                "type": "journal-article"
-            },
-            "status": "ok"
-        },
-        "doi": "10.1093/aepp/ppz012",
-        "original": {
-            "api": "dimensions",
-            "date_added": "2020-03-06 14:01:43",
-            "doi": "10.1093/aepp/ppz012",
-            "search_term": "Agricultural Resource Management Survey",
-            "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=Distributional%20Impacts%20of%20the%20Tax%20Cuts%20and%20Jobs%20Act%20Using%20Farm%20Household%20Microdata"
-        },
-        "title": "Distributional Impacts of the Tax Cuts and Jobs Act Using Farm Household Microdata"
     },
     {
         "Dimensions": {
@@ -4311,6 +2756,10 @@
                 }
             ]
         },
+        "abstract": "Farmers in the United States receive billions of dollars per year from federal farm support programs. While the nature of these programs has evolved since the Great Depression, they both persist and expand with the passage of every farm bill. This paper studies the political activities of individual farmers and the political action committees that represent their interests by exploiting a vote to amend the 2008 farm bill that, had it passed, would have curtailed a cotton subsidy program. I find evidence that cotton farmers contribute substantially to campaigns in the House of Representatives. The more a cotton farmer receives in farm subsidies, the more likely they are to make political contributions. Further, there is evidence that cotton farmers contribute substantially to non-local races, and that these contribution patterns closely resemble those of cotton political action committees. Results on the effectiveness of these contributions in influencing legislative outcomes is inconclusive. Key Words: Agricultural Policy, Lobbying, Rent Seeking, Campaign Finance",
+        "authors": [
+            "author-f8ed6efd2d124bc05931"
+        ],
         "datasets": [
             "dataset-870"
         ],
@@ -4356,6 +2805,108 @@
             "status": "ok"
         },
         "doi": "10.1017/aae.2019.9",
+        "keyphrases": {
+            "agricultural policy": {
+                "count": 1,
+                "rank_score": 0.0797600189079811
+            },
+            "billions": {
+                "count": 1,
+                "rank_score": 0.056975540797813876
+            },
+            "billions of dollars": {
+                "count": 1,
+                "rank_score": 0.04146387669331255
+            },
+            "campaign finance": {
+                "count": 1,
+                "rank_score": 0.0787110624656418
+            },
+            "campaigns": {
+                "count": 1,
+                "rank_score": 0.07131845716165473
+            },
+            "contribution patterns": {
+                "count": 1,
+                "rank_score": 0.05044807987045068
+            },
+            "contributions": {
+                "count": 1,
+                "rank_score": 0.04293166391188713
+            },
+            "cotton farmers": {
+                "count": 3,
+                "rank_score": 0.12868373141471887
+            },
+            "cotton political action committees": {
+                "count": 1,
+                "rank_score": 0.132800879726518
+            },
+            "cotton subsidy program": {
+                "count": 1,
+                "rank_score": 0.07893513964182088
+            },
+            "dollars": {
+                "count": 1,
+                "rank_score": 0.05102963740082875
+            },
+            "every farm bill": {
+                "count": 2,
+                "rank_score": 0.05731162858664298
+            },
+            "farm subsidies": {
+                "count": 1,
+                "rank_score": 0.10584228452868044
+            },
+            "farmers": {
+                "count": 1,
+                "rank_score": 0.09308065695922693
+            },
+            "federal farm support programs": {
+                "count": 1,
+                "rank_score": 0.11666744411404008
+            },
+            "individual farmers": {
+                "count": 1,
+                "rank_score": 0.09640093844987523
+            },
+            "key words": {
+                "count": 1,
+                "rank_score": 0.06964589825188121
+            },
+            "legislative outcomes": {
+                "count": 1,
+                "rank_score": 0.07879509526655137
+            },
+            "lobbying": {
+                "count": 1,
+                "rank_score": 0.06412146048830437
+            },
+            "non-local races": {
+                "count": 1,
+                "rank_score": 0.08945481890150973
+            },
+            "political action committees": {
+                "count": 1,
+                "rank_score": 0.07110109695386091
+            },
+            "political activities": {
+                "count": 1,
+                "rank_score": 0.058557250717770945
+            },
+            "political contributions": {
+                "count": 1,
+                "rank_score": 0.11299699370639128
+            },
+            "rent seeking": {
+                "count": 1,
+                "rank_score": 0.07812643569660518
+            },
+            "representatives": {
+                "count": 1,
+                "rank_score": 0.04164836495915396
+            }
+        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-06 14:01:43",
@@ -5469,6 +4020,12 @@
                 }
             ]
         },
+        "abstract": "Using farm-level data this study investigates factors associated with the choice of three direct marketing strategies (DMSs). Particular attention is given to the role of management and marketing skills in selection of DMSs. Additionally, the study applies a selectivity-based approach for the multinomial logit model to assess the relationship between DMSs and the financial performance of the business. Results suggest that both management and marketing skills significantly affect direct-to-consumer sales. Farmers choosing the strategy of sales only through direct-to-consumer outlets report earnings that are significantly lower than earnings from the other marketing strategies. Marketing skills prove to be beneficial to direct-to-consumer (DTC) earnings. Finally, the selectivity correction terms in the direct sales model are significantly negative in the choice of DTC, indicating the presence of sample selection effects. Accounting for selectivity is essential to ensure unbiased and consistent estimates.",
+        "authors": [
+            "author-0b5f2ad9f782e1a58087",
+            "author-d45d779aaa7038821d8d",
+            "author-bbeb8e29409ef6556484"
+        ],
         "datasets": [
             "dataset-870"
         ],
@@ -5538,6 +4095,104 @@
             "status": "ok"
         },
         "doi": "10.1111/agec.12042",
+        "keyphrases": {
+            "consumer": {
+                "count": 3,
+                "rank_score": 0.06854351142719466
+            },
+            "direct sales model": {
+                "count": 1,
+                "rank_score": 0.07272344691354755
+            },
+            "dmss": {
+                "count": 3,
+                "rank_score": 0.07032664921519213
+            },
+            "dtc": {
+                "count": 1,
+                "rank_score": 0.06318397298163589
+            },
+            "earnings": {
+                "count": 2,
+                "rank_score": 0.07686195256835997
+            },
+            "farm-level data": {
+                "count": 1,
+                "rank_score": 0.057922329611503655
+            },
+            "farmers": {
+                "count": 1,
+                "rank_score": 0.04720973741060214
+            },
+            "financial performance": {
+                "count": 1,
+                "rank_score": 0.04350483879311898
+            },
+            "management and marketing skills": {
+                "count": 2,
+                "rank_score": 0.08176916693641666
+            },
+            "marketing skills": {
+                "count": 1,
+                "rank_score": 0.12085259886445285
+            },
+            "multinomial logit model": {
+                "count": 1,
+                "rank_score": 0.059314548062817385
+            },
+            "other marketing strategies": {
+                "count": 1,
+                "rank_score": 0.07620254498277046
+            },
+            "particular attention": {
+                "count": 1,
+                "rank_score": 0.07170860153954117
+            },
+            "relationship": {
+                "count": 1,
+                "rank_score": 0.025504182161498815
+            },
+            "sales": {
+                "count": 1,
+                "rank_score": 0.06530515485236835
+            },
+            "sample selection effects": {
+                "count": 1,
+                "rank_score": 0.08884084654133617
+            },
+            "selection": {
+                "count": 1,
+                "rank_score": 0.07424172956422281
+            },
+            "selectivity": {
+                "count": 1,
+                "rank_score": 0.09154764868881039
+            },
+            "selectivity correction terms": {
+                "count": 1,
+                "rank_score": 0.06369044811174371
+            },
+            "selectivity-based approach": {
+                "count": 1,
+                "rank_score": 0.048680166173802185
+            },
+            "strategy": {
+                "count": 1,
+                "rank_score": 0.04383768642892765
+            },
+            "three": {
+                "count": 1,
+                "rank_score": 0.0
+            },
+            "three direct marketing strategies": {
+                "count": 1,
+                "rank_score": 0.08592409314751515
+            },
+            "unbiased and consistent estimates": {
+                "count": 1,
+                "rank_score": 0.056578396342533345
+            }
+        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-06 14:01:43",
@@ -5786,6 +4441,19 @@
                 }
             ]
         },
+        "abstract": "BACKGROUND\nIt has been frequently argued that growers have less incentive to manage the evolution and spread of herbicide resistant weeds on leased than owned land. This is because resistance management provides long-term rather than short-term benefits that operators may be less assured of capturing on land they do not own. Yet, empirical evidence supporting this argument has been lacking.\n\n\nRESULTS\nThis study reports on results from a large-scale national survey of weed management and other crop production practices on U.S. agricultural fields. Up to eleven weed management practices were compared across owner-operated versus renter-operated fields. Analysis of survey data from corn and soybean fields did not support the hypothesis that adoption of resistance manage practices is lower on rented acres. In most instances, there were no statistically significant differences in herbicide use or weed management practices on rented versus owned land. This was true at both national and regional levels of analysis. Where there were significant differences, practices associated with greater herbicide resistance management were, as often as not, more prevalent on rented than owned land.\n\n\nCONCLUSIONS\nA useful area of future research would be to test for land tenure differences in resistance management using multivariate analysis to control for confounding effects. Unobserved farmer or land characteristics may be confounding results and masking land tenure effects. Results here, however, suggest that these other effects are dominating any obvious disincentive effects of land leasing on resistance management. Of greater concern, the adoption of key resistance management practices was low on both owned and rented land. This article is protected by copyright. All rights reserved.",
+        "authors": [
+            "author-a98eb5141622ce7ca079",
+            "author-3e230a1d1d0bc464b37c",
+            "author-c56d336f27534dc5ecac",
+            "author-5a99cd8e6ee1c0094f42",
+            "author-d006c8337e5f702e556d",
+            "author-f3a95dcf4e32c2fa9abc",
+            "author-88a53dba3d7e32f9cb88",
+            "author-8c8b1d36f104ac09991a",
+            "author-453d4b20f6402755cdff",
+            "author-70a1c2f1cbd19048ec3d"
+        ],
         "datasets": [
             "dataset-870"
         ],
@@ -5894,6 +4562,108 @@
             "status": "ok"
         },
         "doi": "10.1002/ps.5737",
+        "keyphrases": {
+            "confounding effects": {
+                "count": 1,
+                "rank_score": 0.07595776929736556
+            },
+            "empirical evidence": {
+                "count": 1,
+                "rank_score": 0.056990709507600934
+            },
+            "future research": {
+                "count": 1,
+                "rank_score": 0.06450243708437571
+            },
+            "greater herbicide resistance management": {
+                "count": 1,
+                "rank_score": 0.11591305968161207
+            },
+            "herbicide resistant weeds": {
+                "count": 1,
+                "rank_score": 0.08011978843156305
+            },
+            "herbicide use": {
+                "count": 1,
+                "rank_score": 0.06871782057391262
+            },
+            "key resistance management practices": {
+                "count": 1,
+                "rank_score": 0.12206374407001594
+            },
+            "land": {
+                "count": 3,
+                "rank_score": 0.09334323299505837
+            },
+            "land characteristics": {
+                "count": 1,
+                "rank_score": 0.09435422251780422
+            },
+            "land tenure differences": {
+                "count": 1,
+                "rank_score": 0.10149461645019504
+            },
+            "land tenure effects": {
+                "count": 1,
+                "rank_score": 0.10611206779178838
+            },
+            "less incentive": {
+                "count": 1,
+                "rank_score": 0.06498287535462097
+            },
+            "most instances": {
+                "count": 1,
+                "rank_score": 0.062354028605690365
+            },
+            "multivariate analysis": {
+                "count": 1,
+                "rank_score": 0.06812611440237117
+            },
+            "other crop production practices": {
+                "count": 1,
+                "rank_score": 0.095062336364536
+            },
+            "owned land": {
+                "count": 2,
+                "rank_score": 0.09996707696665937
+            },
+            "rented acres": {
+                "count": 1,
+                "rank_score": 0.06500722946811943
+            },
+            "rented versus owned land": {
+                "count": 1,
+                "rank_score": 0.06820624945765069
+            },
+            "resistance": {
+                "count": 1,
+                "rank_score": 0.08412037515634654
+            },
+            "resistance management": {
+                "count": 3,
+                "rank_score": 0.11289947127525554
+            },
+            "significant differences": {
+                "count": 2,
+                "rank_score": 0.059490148107900695
+            },
+            "survey data": {
+                "count": 1,
+                "rank_score": 0.0653407787682581
+            },
+            "u.s. agricultural fields": {
+                "count": 1,
+                "rank_score": 0.07065028924828745
+            },
+            "weed management": {
+                "count": 1,
+                "rank_score": 0.058070033500169885
+            },
+            "weed management practices": {
+                "count": 2,
+                "rank_score": 0.11484560315094693
+            }
+        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-06 14:01:43",
@@ -6768,6 +5538,10 @@
                 }
             ]
         },
+        "abstract": "This article explores whether income underreporting for tax purposes can explain why the majority of U.S. farmers earn low or negative net farm income. Using 10 years of U.S. Department of Agriculture farm-level data, the extent of underreporting is estimated by exploiting the fact that farm households face an incentive to underreport farm income that varies with their reported off-farm income. Results indicate that 39% of total farm income is underreported. For large farms, the results imply a substantial discrepancy between reported and earned farm income. For small-scale operations, underreporting reduces but does not eliminate the gap between farm and off-farm wages.",
+        "authors": [
+            "author-db8a12b59583e142495d"
+        ],
         "datasets": [
             "dataset-870",
             "dataset-573"
@@ -6815,6 +5589,68 @@
             "status": "ok"
         },
         "doi": "10.1017/aae.2019.26",
+        "keyphrases": {
+            "agriculture": {
+                "count": 1,
+                "rank_score": 0.06489925017171626
+            },
+            "extent": {
+                "count": 1,
+                "rank_score": 0.030352884798782787
+            },
+            "farm households": {
+                "count": 1,
+                "rank_score": 0.16124334776962262
+            },
+            "farm income": {
+                "count": 2,
+                "rank_score": 0.1875352187463596
+            },
+            "gap": {
+                "count": 1,
+                "rank_score": 0.02994183512076241
+            },
+            "incentive": {
+                "count": 1,
+                "rank_score": 0.03444253793818216
+            },
+            "large farms": {
+                "count": 1,
+                "rank_score": 0.15346392429898176
+            },
+            "low or negative net farm income": {
+                "count": 1,
+                "rank_score": 0.12295083656720165
+            },
+            "reduces": {
+                "count": 1,
+                "rank_score": 0.0511477972238418
+            },
+            "small-scale operations": {
+                "count": 1,
+                "rank_score": 0.05815116681605198
+            },
+            "substantial discrepancy": {
+                "count": 1,
+                "rank_score": 0.04791457848338768
+            },
+            "tax purposes": {
+                "count": 1,
+                "rank_score": 0.08925719507087689
+            },
+            "total farm income": {
+                "count": 1,
+                "rank_score": 0.1798070427016103
+            },
+            "u.s. farmers": {
+                "count": 1,
+                "rank_score": 0.09621387188747248
+            },
+            "underreporting": {
+                "count": 1,
+                "rank_score": 0.059810386279667734
+            }
+        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-06 14:01:43",
@@ -6823,98 +5659,5 @@
             "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=Do%20Most%20U.S.%20Farms%20Really%20Lose%20Money%3F%20Taxation%20and%20Farm%20Income%20Underreporting"
         },
         "title": "Do Most U.S. Farms Really Lose Money? Taxation and Farm Income Underreporting"
-    },
-    {
-        "OpenAIRE": {
-            "authors": [
-                "Sneeringer, Stacy",
-                "Pon, Shirley",
-                "Sneeringer, Stacy",
-                "Pon, Shirley"
-            ],
-            "open": false,
-            "url": "http://dx.doi.org/10.22004/ag.econ.235681"
-        },
-        "Semantic Scholar": {
-            "message": "Forbidden"
-        },
-        "datasets": [
-            "dataset-870"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "affiliation": "U.S. Department of Agriculture",
-                        "name": {
-                            "first": "Stacy",
-                            "last": "Sneeringer"
-                        }
-                    },
-                    {
-                        "affiliation": "U.S. Department of Agriculture",
-                        "name": {
-                            "first": "Nigel",
-                            "last": "Key"
-                        }
-                    },
-                    {
-                        "affiliation": "NMR Group, Inc., but began work on this article while an intern for ERS",
-                        "name": {
-                            "first": "Shirley",
-                            "last": "Pon"
-                        }
-                    }
-                ],
-                "classification": "OA",
-                "date": "2018-02-20",
-                "pdf_url": "https://doi.org/10.22004/ag.econ.235681",
-                "records": [
-                    {
-                        "abstract": "A much-touted policy tool to reduce nutrient pollution from livestock agriculture is the nutrient management plan (NMP). NMPs can be voluntary or required, and oblige farms to match the nutrients applied as manure or commercial fertilizer with the absorptive capacity of land and crops. However, little research examines whether these plans are implemented, even if farms have records of having plans. In this paper we use nationally-representative Agricultural and Resource Management Survey (ARMS) data on hog producers to compare the nutrient application practices of farms with and without NMPs to see whether having an NMP makes a farm less likely to over-apply nutrients, as well as to adopt other nutrient management practices. We also examine whether the effect of having an NMP on nutrient management is strengthened by state NMP requirements, proximity to urban areas, regional nutrient balance, and watershed water quality oversight. Our preliminary findings suggest that NMPs are effective in encouraging nutrient testing but not in reducing over application of nutrients to farmland; they have the most effect in states with more stringent regulation.",
-                        "doi": "10.22004/ag.econ.235681",
-                        "identifier": "oai:crossref.org:10.22004/ag.econ.235681",
-                        "issue": "",
-                        "journal": "Unknown",
-                        "pages": "",
-                        "pdf_url": "",
-                        "publisher": "Unknown",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.22004/ag.econ.235681",
-                        "type": "journal-article",
-                        "volume": ""
-                    },
-                    {
-                        "doi": "10.1093/aepp/ppx057",
-                        "identifier": "oai:crossref.org:10.1093/aepp/ppx057",
-                        "issn": "2040-5790",
-                        "journal": "Applied Economic Perspectives and Policy",
-                        "pdf_url": "https://doi.org/10.1093/aepp/ppx057",
-                        "policy": {
-                            "postprint": "can",
-                            "preprint": "can",
-                            "published": "cannot",
-                            "romeo_id": "2705"
-                        },
-                        "publisher": "Oxford University Press (OUP)",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1093/aepp/ppx057",
-                        "type": "journal-article"
-                    }
-                ],
-                "title": "Do Nutrient Management Plans Actually Manage Nutrients? Evidence from a Nationally-Representative Survey of Hog Producers",
-                "type": "journal-article"
-            },
-            "status": "ok"
-        },
-        "doi": "10.22004/ag.econ.235681",
-        "original": {
-            "api": "openaire",
-            "date_added": "2020-03-06 14:01:43",
-            "doi": "10.22004/ag.econ.235681",
-            "search_term": "Agricultural Resource Management Survey",
-            "url": "http://dx.doi.org/10.22004/ag.econ.235681"
-        },
-        "title": "Do nutrient management plans actually manage nutrients? Evidence from a nationally-representative survey of hog producers"
     }
 ]

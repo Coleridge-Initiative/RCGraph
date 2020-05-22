@@ -1933,6 +1933,13 @@
                 }
             ]
         },
+        "abstract": "PURPOSE\nTo analyze the relationship among National Institutes of Health (NIH) R01 Type 1 applicant degree, institution type, and race/ethnicity, and application award probability.\n\n\nMETHOD\nThe authors used 2000-2006 data from the NIH IMPAC II grants database and other sources to determine which individual and institutional characteristics of applicants may affect the probability of applications being awarded funding. They used descriptive statistics and probit models to estimate correlations between race/ethnicity, degree (MD or PhD), and institution type (medical school or other institution), and application award probability, controlling for a large set of observable characteristics.\n\n\nRESULTS\nApplications from medical schools were significantly more likely than those from other institutions to receive funding, as were applications from MDs versus PhDs. Overall, applications from blacks and Asians were less likely than those from whites to be awarded funding; however, among applications from MDs at medical schools, there was no difference in funding probability between whites and Asians, and the difference between blacks and whites decreased to 7.8%. The inclusion of human subjects significantly decreased the likelihood of receiving funding.\n\n\nCONCLUSIONS\nCompared with applications from whites, applications from blacks have a lower probability of being awarded R01 Type 1 funding, regardless of the investigator's degree. However, funding probability is increased for applications with MD investigators and for those from medical schools. To some degree, these advantages combine so that applications from black MDs at medical schools have the smallest difference in funding probability compared with those from whites.",
+        "authors": [
+            "author-8491d9558cde44e2fbbd",
+            "author-cb1217c4f275cfea685c",
+            "author-239cce8e177d180a0258",
+            "author-210a4cd21502b246cd4c"
+        ],
         "datasets": [
             "dataset-370",
             "dataset-493",
@@ -2033,6 +2040,108 @@
             "status": "ok"
         },
         "doi": "10.1097/ACM.0b013e31826d726b",
+        "keyphrases": {
+            "applicants": {
+                "count": 1,
+                "rank_score": 0.06732034209322312
+            },
+            "application award probability": {
+                "count": 2,
+                "rank_score": 0.1274808096212018
+            },
+            "black mds": {
+                "count": 1,
+                "rank_score": 0.07330349986056067
+            },
+            "blacks": {
+                "count": 3,
+                "rank_score": 0.06455522871614788
+            },
+            "degree": {
+                "count": 2,
+                "rank_score": 0.06799129025672802
+            },
+            "descriptive statistics": {
+                "count": 1,
+                "rank_score": 0.07357669406249512
+            },
+            "funding": {
+                "count": 4,
+                "rank_score": 0.07498039307080778
+            },
+            "funding probability": {
+                "count": 1,
+                "rank_score": 0.11146532379882795
+            },
+            "health": {
+                "count": 1,
+                "rank_score": 0.05459502964717708
+            },
+            "human subjects": {
+                "count": 1,
+                "rank_score": 0.0675749193461888
+            },
+            "institution type": {
+                "count": 2,
+                "rank_score": 0.08981725062838658
+            },
+            "lower probability": {
+                "count": 1,
+                "rank_score": 0.05554474260576276
+            },
+            "md investigators": {
+                "count": 1,
+                "rank_score": 0.06392125053504238
+            },
+            "mds": {
+                "count": 2,
+                "rank_score": 0.06807013766641994
+            },
+            "medical school": {
+                "count": 5,
+                "rank_score": 0.09825654325227953
+            },
+            "national institutes": {
+                "count": 1,
+                "rank_score": 0.07359480725612097
+            },
+            "nih": {
+                "count": 3,
+                "rank_score": 0.06427375998855009
+            },
+            "nih impac ii grants database": {
+                "count": 1,
+                "rank_score": 0.06814269026628089
+            },
+            "observable characteristics": {
+                "count": 1,
+                "rank_score": 0.07388260858277598
+            },
+            "other institution": {
+                "count": 2,
+                "rank_score": 0.09145950430116266
+            },
+            "probit models": {
+                "count": 1,
+                "rank_score": 0.0748915754573381
+            },
+            "r01": {
+                "count": 3,
+                "rank_score": 0.05258023665911822
+            },
+            "r01 type 1 funding": {
+                "count": 1,
+                "rank_score": 0.05464693534134664
+            },
+            "type 1 applicant degree": {
+                "count": 1,
+                "rank_score": 0.06349168673520943
+            },
+            "whites": {
+                "count": 5,
+                "rank_score": 0.06687090223007655
+            }
+        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-12 17:01:30",
@@ -3887,6 +3996,16 @@
                 }
             ]
         },
+        "abstract": "Currently, the U.S. population is undergoing major racial and ethnic demographic shifts that could affect the pool of individuals interested in pursuing a career in biomedical research. To achieve its mission of improving health, the National Institutes of Health must recruit and train outstanding individuals for the biomedical workforce. In this study, we examined the educational transition rates in the biomedical sciences by gender, race, and ethnicity, from high school to academic career outcomes. Using a number of educational databases, we investigated gender and racial/ethnic representation at typical educational and career milestones en route to faculty careers in biomedicine. We then employed multivariate regression methods to examine faculty career outcomes, using the National Science Foundation’s Survey of Doctorate Recipients. We find that while transitions between milestones are distinctive by gender and race/ethnicity, the transitions between high school and college and between college and graduate school are critical points at which underrepresented minorities are lost from the biomedical pipeline, suggesting some specific targets for policy intervention.",
+        "authors": [
+            "author-8491d9558cde44e2fbbd",
+            "author-239cce8e177d180a0258",
+            "author-20da663673924638e198",
+            "author-735246a125a07fa3435b",
+            "author-37eb4a27f17dd69c8c18",
+            "author-cb1217c4f275cfea685c",
+            "author-210a4cd21502b246cd4c"
+        ],
         "datasets": [
             "dataset-370"
         ],
@@ -3969,6 +4088,108 @@
             "status": "ok"
         },
         "doi": "10.2139/ssrn.1677993",
+        "keyphrases": {
+            "academic career outcomes": {
+                "count": 1,
+                "rank_score": 0.10547434901929605
+            },
+            "biomedical research": {
+                "count": 1,
+                "rank_score": 0.08495121339318228
+            },
+            "careers": {
+                "count": 2,
+                "rank_score": 0.09775398818736604
+            },
+            "college": {
+                "count": 1,
+                "rank_score": 0.05507383542580644
+            },
+            "college and graduate school": {
+                "count": 1,
+                "rank_score": 0.056609764122395594
+            },
+            "critical points": {
+                "count": 1,
+                "rank_score": 0.06143100204488719
+            },
+            "doctorate recipients": {
+                "count": 1,
+                "rank_score": 0.059396293831999604
+            },
+            "educational databases": {
+                "count": 1,
+                "rank_score": 0.0795928135331331
+            },
+            "educational transition rates": {
+                "count": 1,
+                "rank_score": 0.06021185450394917
+            },
+            "faculty career outcomes": {
+                "count": 1,
+                "rank_score": 0.11105240011007356
+            },
+            "gender": {
+                "count": 2,
+                "rank_score": 0.06815097117119957
+            },
+            "health": {
+                "count": 1,
+                "rank_score": 0.05515566205613372
+            },
+            "high school": {
+                "count": 2,
+                "rank_score": 0.08894692678059746
+            },
+            "individuals": {
+                "count": 1,
+                "rank_score": 0.06475287555711493
+            },
+            "major racial and ethnic demographic shifts": {
+                "count": 1,
+                "rank_score": 0.06979334129176953
+            },
+            "milestones": {
+                "count": 1,
+                "rank_score": 0.05579514946458131
+            },
+            "multivariate regression methods": {
+                "count": 1,
+                "rank_score": 0.07731587890188364
+            },
+            "national science foundation": {
+                "count": 2,
+                "rank_score": 0.054667540196444986
+            },
+            "outstanding individuals": {
+                "count": 1,
+                "rank_score": 0.07403784474046315
+            },
+            "policy intervention": {
+                "count": 1,
+                "rank_score": 0.06338844596397097
+            },
+            "race": {
+                "count": 1,
+                "rank_score": 0.051690059654554595
+            },
+            "racial/ethnic representation": {
+                "count": 1,
+                "rank_score": 0.05901634363212534
+            },
+            "transitions": {
+                "count": 2,
+                "rank_score": 0.07036117284463855
+            },
+            "typical educational and career milestones": {
+                "count": 1,
+                "rank_score": 0.07655378310020175
+            },
+            "underrepresented minorities": {
+                "count": 1,
+                "rank_score": 0.06213377559206519
+            }
+        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-12 17:01:30",
@@ -3978,633 +4199,6 @@
             "valid": "yes"
         },
         "title": "Diversity in Academic Biomedicine: An Evaluation of Education and Career Outcomes with Implications for Policy"
-    },
-    {
-        "Dimensions": {
-            "FOR": [
-                {
-                    "id": "3460",
-                    "name": "1699 Other Studies In Human Society"
-                }
-            ],
-            "FOR_first": [
-                {
-                    "id": "2216",
-                    "name": "16 Studies in Human Society"
-                }
-            ],
-            "RCDC": [
-                {
-                    "id": "295",
-                    "name": "Aging"
-                }
-            ],
-            "altmetric": 169.0,
-            "altmetric_id": 9097088,
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [
-                            {
-                                "city": "Lawrence",
-                                "city_id": 4274277,
-                                "country": "United States",
-                                "country_code": "US",
-                                "id": "grid.266515.3",
-                                "name": "University of Kansas",
-                                "state": "Kansas",
-                                "state_code": "US-KS"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "grid.266515.3",
-                        "first_name": "Donna K",
-                        "initials": "",
-                        "last_name": "Ginther",
-                        "orcid": "['0000-0002-0881-7969']",
-                        "researcher_id": "ur.01010703160.12"
-                    },
-                    {
-                        "affiliations": [],
-                        "corresponding": "",
-                        "current_organization_id": "grid.189504.1",
-                        "first_name": "Shulamit",
-                        "initials": "",
-                        "last_name": "Kahn",
-                        "orcid": "['0000-0002-6553-0219']",
-                        "researcher_id": "ur.01024163240.71"
-                    },
-                    {
-                        "affiliations": [],
-                        "corresponding": "",
-                        "current_organization_id": "grid.94365.3d",
-                        "first_name": "Walter T",
-                        "initials": "",
-                        "last_name": "Schaffer",
-                        "orcid": "['0000-0002-2276-4656']",
-                        "researcher_id": "ur.01125131560.26"
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [
-                        {
-                            "city": "Lawrence",
-                            "city_id": 4274277,
-                            "country": "United States",
-                            "country_code": "US",
-                            "id": "grid.266515.3",
-                            "name": "University of Kansas",
-                            "state": "Kansas",
-                            "state_code": "US-KS"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "grid.266515.3",
-                    "first_name": "Donna K",
-                    "initials": "",
-                    "last_name": "Ginther",
-                    "orcid": "['0000-0002-0881-7969']",
-                    "researcher_id": "ur.01010703160.12"
-                },
-                {
-                    "affiliations": [],
-                    "corresponding": "",
-                    "current_organization_id": "grid.189504.1",
-                    "first_name": "Shulamit",
-                    "initials": "",
-                    "last_name": "Kahn",
-                    "orcid": "['0000-0002-6553-0219']",
-                    "researcher_id": "ur.01024163240.71"
-                },
-                {
-                    "affiliations": [],
-                    "corresponding": "",
-                    "current_organization_id": "grid.94365.3d",
-                    "first_name": "Walter T",
-                    "initials": "",
-                    "last_name": "Schaffer",
-                    "orcid": "['0000-0002-2276-4656']",
-                    "researcher_id": "ur.01125131560.26"
-                }
-            ],
-            "category_for": [
-                {
-                    "id": "2211",
-                    "name": "11 Medical and Health Sciences"
-                },
-                {
-                    "id": "3053",
-                    "name": "1103 Clinical Sciences"
-                },
-                {
-                    "id": "2213",
-                    "name": "13 Education"
-                },
-                {
-                    "id": "3253",
-                    "name": "1302 Curriculum and Pedagogy"
-                }
-            ],
-            "category_hra": [
-                {
-                    "id": "3903",
-                    "name": "Population & Society"
-                }
-            ],
-            "category_rcdc": [
-                {
-                    "id": "295",
-                    "name": "Aging"
-                }
-            ],
-            "category_ua": [
-                {
-                    "id": "30017",
-                    "name": "C17 Business and Management Studies"
-                }
-            ],
-            "category_uoa": [
-                {
-                    "id": "30017",
-                    "name": "C17 Business and Management Studies"
-                }
-            ],
-            "concepts": [
-                "relationship",
-                "gender",
-                "race/ethnicity",
-                "ethnicity",
-                "grants",
-                "National Institute",
-                "Institute",
-                "health",
-                "authors",
-                "management",
-                "planning",
-                "year 2000",
-                "gender differences",
-                "differences",
-                "awards",
-                "descriptive statistics",
-                "investigator experience",
-                "experience",
-                "PhD",
-                "white men",
-                "men",
-                "white women",
-                "women",
-                "black women",
-                "funding",
-                "grant applications",
-                "blacks",
-                "investigators",
-                "women of color",
-                "findings",
-                "likelihood",
-                "research",
-                "policy",
-                "ethnic diversity",
-                "workforce",
-                "funding outcomes",
-                "outcomes",
-                "Research Award"
-            ],
-            "date": "2016-08-01",
-            "date_inserted": "2017-08-31",
-            "doi": "10.1097/acm.0000000000001278",
-            "field_citation_ratio": 23.82,
-            "funder_countries": [
-                {
-                    "id": "US",
-                    "name": "United States"
-                }
-            ],
-            "funders": [
-                {
-                    "acronym": "NIA",
-                    "city_name": "Baltimore",
-                    "country_name": "United States",
-                    "id": "grid.419475.a",
-                    "latitude": 39.003796,
-                    "linkout": [
-                        "https://www.nia.nih.gov/"
-                    ],
-                    "longitude": -77.101166,
-                    "name": "National Institute on Aging",
-                    "state_name": "Maryland",
-                    "types": [
-                        "Facility"
-                    ]
-                }
-            ],
-            "id": "pub.1024992658",
-            "issn": [
-                "1040-2446",
-                "1938-808X"
-            ],
-            "issue": "8",
-            "journal": {
-                "id": "jour.1017748",
-                "title": "Academic Medicine"
-            },
-            "journal_lists": [
-                "VABB-SHW",
-                "ERA 2018",
-                "Norwegian register level 1",
-                "DOAJ",
-                "ERA 2015",
-                "PubMed"
-            ],
-            "linkout": "https://journals.lww.com/academicmedicine/Fulltext/2016/08000/Gender,_Race_Ethnicity,_and_National_Institutes_of.23.aspx",
-            "mesh_terms": [
-                "African Continental Ancestry Group",
-                "Asian Continental Ancestry Group",
-                "Awards and Prizes",
-                "Continental Population Groups",
-                "Ethnic Groups",
-                "European Continental Ancestry Group",
-                "Female",
-                "Humans",
-                "Male",
-                "National Institutes of Health (U.S.)",
-                "Probability",
-                "Research Personnel",
-                "Sex Factors",
-                "United States"
-            ],
-            "noun_phrases": [
-                "Gender Identity",
-                "race/ethnicity",
-                "National Institute of Health",
-                "probability",
-                "R01 grant",
-                "method",
-                "used data",
-                "grant management",
-                "gender difference",
-                "R01",
-                "descriptive statistic",
-                "probit",
-                "R01 award",
-                "large set",
-                "characteristic",
-                "white woman",
-                "PhD and MD",
-                "white men",
-                "black woman",
-                "woman",
-                "grant application",
-                "black",
-                "conclusion",
-                "difference",
-                "color",
-                "advantage",
-                "men",
-                "submission",
-                "increased likelihood",
-                "competition",
-                "policy",
-                "racial and ethnic diversity",
-                "biomedical workforce"
-            ],
-            "open_access": [
-                "Open Access - all",
-                "Open Access - publisher",
-                "Open Access - published"
-            ],
-            "open_access_categories": [
-                {
-                    "description": "Article is freely available",
-                    "id": "oa_all",
-                    "name": "All OA"
-                },
-                {
-                    "description": "Freely available on publisher page, but without an open licence",
-                    "id": "gold_bronze",
-                    "name": "Bronze"
-                }
-            ],
-            "pages": "1098-1107",
-            "pmcid": "PMC4965301",
-            "pmid": "27306969",
-            "publisher": "Wolters Kluwer",
-            "recent_citations": 29,
-            "reference_ids": [
-                "pub.1102292748",
-                "pub.1043109260",
-                "pub.1062459009",
-                "pub.1035877499",
-                "pub.1043590820",
-                "pub.1064526404",
-                "pub.1063352836",
-                "pub.1063353049",
-                "pub.1062595009",
-                "pub.1047065546",
-                "pub.1003926485"
-            ],
-            "references": [
-                "pub.1102292748",
-                "pub.1043109260",
-                "pub.1062459009",
-                "pub.1035877499",
-                "pub.1043590820",
-                "pub.1064526404",
-                "pub.1063352836",
-                "pub.1063353049",
-                "pub.1062595009",
-                "pub.1047065546",
-                "pub.1003926485"
-            ],
-            "relative_citation_ratio": 3.39,
-            "research_org_cities": [
-                {
-                    "id": 4274277,
-                    "name": "Lawrence"
-                }
-            ],
-            "research_org_countries": [
-                {
-                    "id": "US",
-                    "name": "United States"
-                }
-            ],
-            "research_org_country_names": [
-                "United States"
-            ],
-            "research_org_names": [
-                "University of Kansas"
-            ],
-            "research_org_state_codes": [
-                {
-                    "id": "US-KS",
-                    "name": "Kansas"
-                }
-            ],
-            "research_org_state_names": [
-                "Kansas"
-            ],
-            "research_orgs": [
-                {
-                    "acronym": "KU",
-                    "city_name": "Lawrence",
-                    "country_name": "United States",
-                    "id": "grid.266515.3",
-                    "latitude": 38.954586,
-                    "linkout": [
-                        "http://www.ku.edu/"
-                    ],
-                    "longitude": -95.25585,
-                    "name": "University of Kansas",
-                    "state_name": "Kansas",
-                    "types": [
-                        "Education"
-                    ]
-                }
-            ],
-            "researchers": [
-                {
-                    "first_name": "Donna K",
-                    "id": "ur.01010703160.12",
-                    "last_name": "Ginther",
-                    "orcid_id": [
-                        "0000-0002-0881-7969"
-                    ],
-                    "research_orgs": [
-                        "grid.12295.3d",
-                        "grid.250279.b",
-                        "grid.29857.31",
-                        "grid.266515.3",
-                        "grid.4367.6",
-                        "grid.263864.d"
-                    ]
-                },
-                {
-                    "first_name": "Shulamit",
-                    "id": "ur.01024163240.71",
-                    "last_name": "Kahn",
-                    "orcid_id": [
-                        "0000-0002-6553-0219"
-                    ],
-                    "research_orgs": [
-                        "grid.266093.8",
-                        "grid.250279.b",
-                        "grid.189504.1"
-                    ]
-                },
-                {
-                    "first_name": "Walter T",
-                    "id": "ur.01125131560.26",
-                    "last_name": "Schaffer",
-                    "orcid_id": [
-                        "0000-0002-2276-4656"
-                    ],
-                    "research_orgs": [
-                        "grid.94365.3d",
-                        "grid.266515.3",
-                        "grid.453125.4"
-                    ]
-                }
-            ],
-            "supporting_grant_ids": [
-                "grant.2448707"
-            ],
-            "terms": [
-                "relationship",
-                "gender",
-                "race/ethnicity",
-                "ethnicity",
-                "grants",
-                "National Institute",
-                "Institute",
-                "health",
-                "authors",
-                "management",
-                "planning",
-                "year 2000",
-                "gender differences",
-                "differences",
-                "awards",
-                "descriptive statistics",
-                "investigator experience",
-                "experience",
-                "PhD",
-                "white men",
-                "men",
-                "white women",
-                "women",
-                "black women",
-                "funding",
-                "grant applications",
-                "blacks",
-                "investigators",
-                "women of color",
-                "findings",
-                "likelihood",
-                "research",
-                "policy",
-                "ethnic diversity",
-                "workforce",
-                "funding outcomes",
-                "outcomes",
-                "Research Award"
-            ],
-            "times_cited": 40,
-            "title": "Gender, Race/Ethnicity, and National Institutes of Health R01 Research Awards",
-            "type": "article",
-            "volume": "91",
-            "year": 2016
-        },
-        "Semantic Scholar": {
-            "message": "Forbidden"
-        },
-        "Unpaywall": {
-            "best_oa_location": {
-                "endpoint_id": "pubmedcentral.nih.gov",
-                "evidence": "oa repository (via OAI-PMH doi match)",
-                "host_type": "repository",
-                "is_best": true,
-                "license": null,
-                "pmh_id": "oai:pubmedcentral.nih.gov:4965301",
-                "repository_institution": "pubmedcentral.nih.gov",
-                "updated": "2017-10-21T12:00:22.971842",
-                "url": "http://europepmc.org/articles/pmc4965301?pdf=render",
-                "url_for_landing_page": "http://europepmc.org/articles/pmc4965301",
-                "url_for_pdf": "http://europepmc.org/articles/pmc4965301?pdf=render",
-                "version": "acceptedVersion"
-            },
-            "data_standard": 2,
-            "doi": "10.1097/acm.0000000000001278",
-            "doi_url": "https://doi.org/10.1097/acm.0000000000001278",
-            "genre": "journal-article",
-            "has_repository_copy": true,
-            "is_oa": true,
-            "is_paratext": false,
-            "journal_is_in_doaj": false,
-            "journal_is_oa": false,
-            "journal_issn_l": "1040-2446",
-            "journal_issns": "1040-2446",
-            "journal_name": "Academic Medicine",
-            "oa_locations": [
-                {
-                    "endpoint_id": "pubmedcentral.nih.gov",
-                    "evidence": "oa repository (via OAI-PMH doi match)",
-                    "host_type": "repository",
-                    "is_best": true,
-                    "license": null,
-                    "pmh_id": "oai:pubmedcentral.nih.gov:4965301",
-                    "repository_institution": "pubmedcentral.nih.gov",
-                    "updated": "2017-10-21T12:00:22.971842",
-                    "url": "http://europepmc.org/articles/pmc4965301?pdf=render",
-                    "url_for_landing_page": "http://europepmc.org/articles/pmc4965301",
-                    "url_for_pdf": "http://europepmc.org/articles/pmc4965301?pdf=render",
-                    "version": "acceptedVersion"
-                },
-                {
-                    "endpoint_id": null,
-                    "evidence": "oa repository (via pmcid lookup)",
-                    "host_type": "repository",
-                    "is_best": false,
-                    "license": null,
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2020-03-13T13:30:26.488845",
-                    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4965301",
-                    "url_for_landing_page": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4965301",
-                    "url_for_pdf": null,
-                    "version": "acceptedVersion"
-                }
-            ],
-            "oa_status": "green",
-            "published_date": "2016-08-01",
-            "publisher": "Ovid Technologies (Wolters Kluwer Health)",
-            "title": "Gender, Race/Ethnicity, and National Institutes of Health R01 Research Awards",
-            "updated": "2020-02-05T16:58:26.799808",
-            "year": 2016,
-            "z_authors": [
-                {
-                    "family": "Ginther",
-                    "given": "Donna K.",
-                    "sequence": "first"
-                },
-                {
-                    "family": "Kahn",
-                    "given": "Shulamit",
-                    "sequence": "additional"
-                },
-                {
-                    "family": "Schaffer",
-                    "given": "Walter T.",
-                    "sequence": "additional"
-                }
-            ]
-        },
-        "datasets": [
-            "dataset-370",
-            "dataset-935"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "name": {
-                            "first": "Donna K.",
-                            "last": "Ginther"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "Shulamit",
-                            "last": "Kahn"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "Walter T.",
-                            "last": "Schaffer"
-                        }
-                    }
-                ],
-                "classification": "UNK",
-                "date": "2016-08-01",
-                "pdf_url": "http://dx.doi.org/10.1097/ACM.0000000000001278",
-                "records": [
-                    {
-                        "doi": "10.1097/acm.0000000000001278",
-                        "identifier": "oadoi:http://europepmc.org/articles/pmc4965301?pdf=render",
-                        "pdf_url": "http://europepmc.org/articles/pmc4965301?pdf=render",
-                        "source": "oadoi_repo",
-                        "splash_url": "http://europepmc.org/articles/pmc4965301?pdf=render",
-                        "type": "journal-article"
-                    },
-                    {
-                        "abstract": "",
-                        "contributors": "",
-                        "doi": "10.1097/acm.0000000000001278",
-                        "identifier": "ftpubmed:oai:www.ncbi.nlm.nih.gov/pmc:4965301",
-                        "keywords": "Article",
-                        "pdf_url": "http://dx.doi.org/10.1097/ACM.0000000000001278",
-                        "source": "base",
-                        "splash_url": "http://dx.doi.org/10.1097/ACM.0000000000001278",
-                        "type": "journal-article"
-                    }
-                ],
-                "title": "Gender, Race/Ethnicity, and National Institutes of Health R01 Research Awards: Is There Evidence of a Double Bind for Women of Color?",
-                "type": "journal-article"
-            },
-            "status": "ok"
-        },
-        "doi": "10.1097/acm.0000000000001278",
-        "original": {
-            "api": "dimensions",
-            "date_added": "2020-03-12 17:01:30",
-            "doi": "10.1097/acm.0000000000001278",
-            "search_term": "Survey of Earned Doctorates Donna Ginther",
-            "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=Gender%2C%20Race/Ethnicity%2C%20and%20National%20Institutes%20of%20Health%20R01%20Research%20Awards",
-            "valid": "yes"
-        },
-        "title": "Gender, Race/Ethnicity, and National Institutes of Health R01 Research Awards"
     },
     {
         "Dimensions": {
@@ -4971,6 +4565,12 @@
                 }
             ]
         },
+        "abstract": "The proportion female in the economics profession in the U.S. has been low historically compared with other disciplines. Although the percentage of Ph.D. degrees awarded to women and the representation of women on faculties have increased over time, economics still lags many other fields. Previous research has documented gender gaps in tenure, promotion and publication, some of which may have narrowed over time. This study examines another aspect of women's representation within the economics profession: their participation in a session at the American Economic Association annual meeting. We examine the characteristics of Ph.D. economists on the program at the 1985 and 2006 meetings to determine how women's participation at this important venue has changed over the past 20 years. We find that, despite sizable increases in women's representation within the profession during this time, most of our measures do not indicate a significant increase in the proportion of female participants.",
+        "authors": [
+            "author-daeb1245b51bb02f1a80",
+            "author-3f75d556d86467543282",
+            "author-e4ec1f338bd26dde54aa"
+        ],
         "datasets": [
             "dataset-370"
         ],
@@ -5010,6 +4610,108 @@
             "status": "ok"
         },
         "doi": "10.2139/ssrn.1153554",
+        "keyphrases": {
+            "american economic association": {
+                "count": 1,
+                "rank_score": 0.06071148694216239
+            },
+            "american economic association annual meeting": {
+                "count": 1,
+                "rank_score": 0.07598066054933994
+            },
+            "characteristics": {
+                "count": 1,
+                "rank_score": 0.03286778160237485
+            },
+            "economics": {
+                "count": 1,
+                "rank_score": 0.06009822995577919
+            },
+            "economics profession": {
+                "count": 2,
+                "rank_score": 0.05603611156468028
+            },
+            "faculties": {
+                "count": 1,
+                "rank_score": 0.05094027783928796
+            },
+            "female participants": {
+                "count": 1,
+                "rank_score": 0.07622918348816907
+            },
+            "gender gaps": {
+                "count": 1,
+                "rank_score": 0.08789115510290997
+            },
+            "important venue": {
+                "count": 1,
+                "rank_score": 0.04637566317578049
+            },
+            "many other fields": {
+                "count": 1,
+                "rank_score": 0.10023632030065009
+            },
+            "other disciplines": {
+                "count": 1,
+                "rank_score": 0.08521388802309593
+            },
+            "ph.d. degrees": {
+                "count": 1,
+                "rank_score": 0.09283093878967327
+            },
+            "ph.d. economists": {
+                "count": 1,
+                "rank_score": 0.09163482209963343
+            },
+            "previous research": {
+                "count": 1,
+                "rank_score": 0.07543030450380911
+            },
+            "profession": {
+                "count": 1,
+                "rank_score": 0.042781658504686425
+            },
+            "promotion": {
+                "count": 1,
+                "rank_score": 0.06015621325539072
+            },
+            "proportion": {
+                "count": 1,
+                "rank_score": 0.03542533202018543
+            },
+            "representation": {
+                "count": 1,
+                "rank_score": 0.040136348095428376
+            },
+            "significant increase": {
+                "count": 1,
+                "rank_score": 0.04920844986643565
+            },
+            "sizable increases": {
+                "count": 1,
+                "rank_score": 0.08199465379892415
+            },
+            "tenure": {
+                "count": 1,
+                "rank_score": 0.06595620833221874
+            },
+            "their participation": {
+                "count": 1,
+                "rank_score": 0.03588932036114142
+            },
+            "women": {
+                "count": 2,
+                "rank_score": 0.10848745844039745
+            },
+            "womens participation": {
+                "count": 1,
+                "rank_score": 0.06931575639971307
+            },
+            "womens representation": {
+                "count": 2,
+                "rank_score": 0.07170811670215654
+            }
+        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-12 17:01:30",
@@ -5453,6 +5155,10 @@
                 }
             ]
         },
+        "abstract": "This study presents new findings on tenure-track job outcomes for mothers who parented children during graduate school. Using NSF Survey of Earned Doctorates (2000–2005) and Survey of Doctorate Recipients data (2000–2013), I explore how PhD mothers’ accumulation of career-related resources in graduate school influences their likelihood of attaining tenure-track jobs.",
+        "authors": [
+            "author-298ca854d0763f7fef26"
+        ],
         "datasets": [
             "dataset-370",
             "dataset-371"
@@ -5498,6 +5204,56 @@
             "status": "ok"
         },
         "doi": "10.1007/s11162-019-09561-z",
+        "keyphrases": {
+            "attaining tenure-track jobs": {
+                "count": 1,
+                "rank_score": 0.10228464070240297
+            },
+            "career-related resources": {
+                "count": 1,
+                "rank_score": 0.07481559745849477
+            },
+            "children": {
+                "count": 1,
+                "rank_score": 0.08371672926952858
+            },
+            "doctorate recipients": {
+                "count": 1,
+                "rank_score": 0.1122671109179732
+            },
+            "earned doctorates": {
+                "count": 1,
+                "rank_score": 0.10283621985145171
+            },
+            "graduate school": {
+                "count": 2,
+                "rank_score": 0.13533988014693235
+            },
+            "new findings": {
+                "count": 1,
+                "rank_score": 0.11140512457288247
+            },
+            "nsf": {
+                "count": 1,
+                "rank_score": 0.0858204476465507
+            },
+            "nsf survey": {
+                "count": 1,
+                "rank_score": 0.1339822065123104
+            },
+            "phd mothers’ accumulation": {
+                "count": 1,
+                "rank_score": 0.08481243132288117
+            },
+            "tenure-track job outcomes": {
+                "count": 1,
+                "rank_score": 0.10234117497823148
+            },
+            "their likelihood": {
+                "count": 1,
+                "rank_score": 0.043968190850022834
+            }
+        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-12 17:01:30",
@@ -5507,922 +5263,6 @@
             "valid": "yes"
         },
         "title": "Parenting on the Path to the Professoriate: A Focus on Graduate Student Mothers"
-    },
-    {
-        "Dimensions": {
-            "altmetric": 6.0,
-            "altmetric_id": 69160545,
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [
-                            {
-                                "name": "View further author information"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "grid.223827.e",
-                        "first_name": "Nicholas H.",
-                        "initials": "",
-                        "last_name": "Wolfinger",
-                        "orcid": "",
-                        "researcher_id": "ur.01263146247.97"
-                    },
-                    {
-                        "affiliations": [
-                            {
-                                "name": "View further author information"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "grid.47840.3f",
-                        "first_name": "Mary Ann",
-                        "initials": "",
-                        "last_name": "Mason",
-                        "orcid": "",
-                        "researcher_id": "ur.011244373575.15"
-                    },
-                    {
-                        "affiliations": [
-                            {
-                                "name": "View further author information"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "grid.47840.3f",
-                        "first_name": "Marc",
-                        "initials": "",
-                        "last_name": "Goulden",
-                        "orcid": "",
-                        "researcher_id": "ur.016354503775.05"
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [
-                        {
-                            "name": "View further author information"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "grid.223827.e",
-                    "first_name": "Nicholas H.",
-                    "initials": "",
-                    "last_name": "Wolfinger",
-                    "orcid": "",
-                    "researcher_id": "ur.01263146247.97"
-                },
-                {
-                    "affiliations": [
-                        {
-                            "name": "View further author information"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "grid.47840.3f",
-                    "first_name": "Mary Ann",
-                    "initials": "",
-                    "last_name": "Mason",
-                    "orcid": "",
-                    "researcher_id": "ur.011244373575.15"
-                },
-                {
-                    "affiliations": [
-                        {
-                            "name": "View further author information"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "grid.47840.3f",
-                    "first_name": "Marc",
-                    "initials": "",
-                    "last_name": "Goulden",
-                    "orcid": "",
-                    "researcher_id": "ur.016354503775.05"
-                }
-            ],
-            "category_for": [
-                {
-                    "id": "3243",
-                    "name": "1301 Education Systems"
-                },
-                {
-                    "id": "2213",
-                    "name": "13 Education"
-                }
-            ],
-            "concepts": [
-                "gender",
-                "fertility"
-            ],
-            "date": "2008-07-01",
-            "date_inserted": "2017-08-31",
-            "doi": "10.1080/00221546.2008.11772108",
-            "field_citation_ratio": 36.2,
-            "id": "pub.1091130668",
-            "issn": [
-                "0022-1546",
-                "1538-4640"
-            ],
-            "issue": "4",
-            "journal": {
-                "id": "jour.1086361",
-                "title": "The Journal of Higher Education"
-            },
-            "journal_lists": [
-                "VABB-SHW",
-                "ERA 2018",
-                "Norwegian register level 1",
-                "ERA 2015",
-                "ERIH PLUS"
-            ],
-            "open_access_categories": [
-                {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
-                }
-            ],
-            "pages": "388-405",
-            "publisher": "Taylor & Francis",
-            "recent_citations": 63,
-            "reference_ids": [
-                "pub.1006238931",
-                "pub.1026515099",
-                "pub.1025216318",
-                "pub.1031779993",
-                "pub.1023953098",
-                "pub.1009903710",
-                "pub.1073364764",
-                "pub.1102740268",
-                "pub.1056497268",
-                "pub.1102189163",
-                "pub.1060033394",
-                "pub.1042956510",
-                "pub.1108429657",
-                "pub.1060032926",
-                "pub.1001029670",
-                "pub.1006869482",
-                "pub.1059215856",
-                "pub.1014136783",
-                "pub.1069758132",
-                "pub.1070049107",
-                "pub.1071225435",
-                "pub.1070096106",
-                "pub.1050153659",
-                "pub.1023141960",
-                "pub.1018681937",
-                "pub.1021420301",
-                "pub.1040919893",
-                "pub.1041784929",
-                "pub.1033049113",
-                "pub.1016255605",
-                "pub.1064524967",
-                "pub.1021837433",
-                "pub.1052957498",
-                "pub.1025247418"
-            ],
-            "references": [
-                "pub.1006238931",
-                "pub.1026515099",
-                "pub.1025216318",
-                "pub.1031779993",
-                "pub.1023953098",
-                "pub.1009903710",
-                "pub.1073364764",
-                "pub.1102740268",
-                "pub.1056497268",
-                "pub.1102189163",
-                "pub.1060033394",
-                "pub.1042956510",
-                "pub.1108429657",
-                "pub.1060032926",
-                "pub.1001029670",
-                "pub.1006869482",
-                "pub.1059215856",
-                "pub.1014136783",
-                "pub.1069758132",
-                "pub.1070049107",
-                "pub.1071225435",
-                "pub.1070096106",
-                "pub.1050153659",
-                "pub.1023141960",
-                "pub.1018681937",
-                "pub.1021420301",
-                "pub.1040919893",
-                "pub.1041784929",
-                "pub.1033049113",
-                "pub.1016255605",
-                "pub.1064524967",
-                "pub.1021837433",
-                "pub.1052957498",
-                "pub.1025247418"
-            ],
-            "research_org_names": [
-                "View further author information"
-            ],
-            "researchers": [
-                {
-                    "first_name": "Nicholas H",
-                    "id": "ur.01263146247.97",
-                    "last_name": "Wolfinger",
-                    "research_orgs": [
-                        "grid.223827.e",
-                        "grid.19006.3e"
-                    ]
-                },
-                {
-                    "first_name": "Mary Ann",
-                    "id": "ur.011244373575.15",
-                    "last_name": "Mason",
-                    "research_orgs": [
-                        "grid.47840.3f"
-                    ]
-                },
-                {
-                    "first_name": "Marc",
-                    "id": "ur.016354503775.05",
-                    "last_name": "Goulden",
-                    "research_orgs": [
-                        "grid.47840.3f"
-                    ]
-                }
-            ],
-            "terms": [
-                "gender",
-                "fertility"
-            ],
-            "times_cited": 91,
-            "title": "Problems in the Pipeline: Gender, Marriage, and Fertility in the Ivory Tower",
-            "type": "article",
-            "volume": "79",
-            "year": 2008
-        },
-        "Semantic Scholar": {
-            "message": "Forbidden"
-        },
-        "Unpaywall": {
-            "best_oa_location": null,
-            "data_standard": 2,
-            "doi": "10.1080/00221546.2008.11772108",
-            "doi_url": "https://doi.org/10.1080/00221546.2008.11772108",
-            "genre": "journal-article",
-            "has_repository_copy": false,
-            "is_oa": false,
-            "is_paratext": false,
-            "journal_is_in_doaj": false,
-            "journal_is_oa": false,
-            "journal_issn_l": "0022-1546",
-            "journal_issns": "0022-1546,1538-4640",
-            "journal_name": "The Journal of Higher Education",
-            "oa_locations": [],
-            "oa_status": "closed",
-            "published_date": "2008-07-01",
-            "publisher": "Informa UK Limited",
-            "title": "Problems in the Pipeline: Gender, Marriage, and Fertility in the Ivory Tower",
-            "updated": "2020-03-01T14:26:58.393548",
-            "year": 2008,
-            "z_authors": [
-                {
-                    "family": "Wolfinger",
-                    "given": "Nicholas H.",
-                    "sequence": "first"
-                },
-                {
-                    "family": "Mason",
-                    "given": "Mary Ann",
-                    "sequence": "additional"
-                },
-                {
-                    "family": "Goulden",
-                    "given": "Marc",
-                    "sequence": "additional"
-                }
-            ]
-        },
-        "datasets": [
-            "dataset-370",
-            "dataset-371"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "name": {
-                            "first": "Nicholas H.",
-                            "last": "Wolfinger"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "",
-                            "last": "Mary Ann Mason"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "Marc",
-                            "last": "Goulden"
-                        }
-                    }
-                ],
-                "classification": "OK",
-                "date": "2008-07-01",
-                "pdf_url": "https://www.researchgate.net/profile/Nicholas_Wolfinger/publication/41432899_Problems_in_the_Pipeline_Gender_Marriage_and_Fertility_in_the_Ivory_Tower/links/53d5809c0cf2a7fbb2ea5a65.pdf",
-                "records": [
-                    {
-                        "doi": "10.1080/00221546.2008.11772108",
-                        "identifier": "oai:crossref.org:10.1080/00221546.2008.11772108",
-                        "issn": "0022-1546",
-                        "issue": "4",
-                        "journal": "Journal of Higher Education",
-                        "pages": "388-405",
-                        "policy": {
-                            "postprint": "can",
-                            "preprint": "cannot",
-                            "published": "cannot",
-                            "romeo_id": "2383"
-                        },
-                        "publisher": "Informa UK Limited",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1080/00221546.2008.11772108",
-                        "type": "journal-article",
-                        "volume": "79"
-                    },
-                    {
-                        "abstract": "Women have traditionally fared worse than men in the workplace. In few places has this been more apparent than higher education (Jacobs, 1996). In 2003, women received 47% of PhDs awarded (National Center for Education Statistics [NCES], 2005a) but comprised only 35% of tenured or tenure-track faculty (NCES, 2005b). The gender gap widens incrementally higher up on the academic career ladder: among full-time faculty members, 48% of women are tenured compared to 68% of men (Bellas, 2001). Perhaps more striking, just 26% of full professors are women (American Association of University Professors, 2001). In light of these imbalances, concerns regarding Title IX, which prohibits sex-based exclusion from educational programs receiving federal funds, have prompted congressional calls for inquiry (Wyden, 2003). Journal Article",
-                        "contributors": "",
-                        "doi": "10.1353/jhe.0.0015",
-                        "identifier": "oai:researchgate.net:41432899",
-                        "keywords": "",
-                        "pdf_url": "https://www.researchgate.net/profile/Nicholas_Wolfinger/publication/41432899_Problems_in_the_Pipeline_Gender_Marriage_and_Fertility_in_the_Ivory_Tower/links/53d5809c0cf2a7fbb2ea5a65.pdf",
-                        "source": "researchgate",
-                        "splash_url": "https://www.researchgate.net/publication/41432899_Problems_in_the_Pipeline_Gender_Marriage_and_Fertility_in_the_Ivory_Tower",
-                        "type": "journal-article"
-                    },
-                    {
-                        "doi": "10.1353/jhe.0.0015",
-                        "identifier": "oai:crossref.org:10.1353/jhe.0.0015",
-                        "issue": "4",
-                        "journal": "The Journal of Higher Education",
-                        "pages": "388-405",
-                        "policy": {
-                            "postprint": "can",
-                            "preprint": "can",
-                            "published": "cannot",
-                            "romeo_id": "96"
-                        },
-                        "publisher": "Johns Hopkins University Press",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1353/jhe.0.0015",
-                        "type": "journal-article",
-                        "volume": "79"
-                    }
-                ],
-                "title": "Problems in the Pipeline: Gender, Marriage, and Fertility in the Ivory Tower",
-                "type": "journal-article"
-            },
-            "status": "ok"
-        },
-        "doi": "10.1080/00221546.2008.11772108",
-        "original": {
-            "api": "dimensions",
-            "date_added": "2020-03-12 17:01:30",
-            "doi": "10.1080/00221546.2008.11772108",
-            "pdf": "https://www.tandfonline.com/doi/pdf/10.1080/00221546.2008.11772108?needAccess=true",
-            "search_term": "Survey of Earned Doctorates Donna Ginther",
-            "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=Problems%20in%20the%20Pipeline%3A%20Gender%2C%20Marriage%2C%20and%20Fertility%20in%20the%20Ivory%20Tower",
-            "valid": "yes"
-        },
-        "title": "Problems in the Pipeline: Gender, Marriage, and Fertility in the Ivory Tower"
-    },
-    {
-        "Dimensions": {
-            "altmetric": 6.0,
-            "altmetric_id": 69160545,
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [
-                            {
-                                "name": "View further author information"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "grid.223827.e",
-                        "first_name": "Nicholas H.",
-                        "initials": "",
-                        "last_name": "Wolfinger",
-                        "orcid": "",
-                        "researcher_id": "ur.01263146247.97"
-                    },
-                    {
-                        "affiliations": [
-                            {
-                                "name": "View further author information"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "grid.47840.3f",
-                        "first_name": "Mary Ann",
-                        "initials": "",
-                        "last_name": "Mason",
-                        "orcid": "",
-                        "researcher_id": "ur.011244373575.15"
-                    },
-                    {
-                        "affiliations": [
-                            {
-                                "name": "View further author information"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "grid.47840.3f",
-                        "first_name": "Marc",
-                        "initials": "",
-                        "last_name": "Goulden",
-                        "orcid": "",
-                        "researcher_id": "ur.016354503775.05"
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [
-                        {
-                            "name": "View further author information"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "grid.223827.e",
-                    "first_name": "Nicholas H.",
-                    "initials": "",
-                    "last_name": "Wolfinger",
-                    "orcid": "",
-                    "researcher_id": "ur.01263146247.97"
-                },
-                {
-                    "affiliations": [
-                        {
-                            "name": "View further author information"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "grid.47840.3f",
-                    "first_name": "Mary Ann",
-                    "initials": "",
-                    "last_name": "Mason",
-                    "orcid": "",
-                    "researcher_id": "ur.011244373575.15"
-                },
-                {
-                    "affiliations": [
-                        {
-                            "name": "View further author information"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "grid.47840.3f",
-                    "first_name": "Marc",
-                    "initials": "",
-                    "last_name": "Goulden",
-                    "orcid": "",
-                    "researcher_id": "ur.016354503775.05"
-                }
-            ],
-            "category_for": [
-                {
-                    "id": "3243",
-                    "name": "1301 Education Systems"
-                },
-                {
-                    "id": "2213",
-                    "name": "13 Education"
-                }
-            ],
-            "concepts": [
-                "gender",
-                "fertility"
-            ],
-            "date": "2008-07-01",
-            "date_inserted": "2017-08-31",
-            "doi": "10.1080/00221546.2008.11772108",
-            "field_citation_ratio": 36.2,
-            "id": "pub.1091130668",
-            "issn": [
-                "0022-1546",
-                "1538-4640"
-            ],
-            "issue": "4",
-            "journal": {
-                "id": "jour.1086361",
-                "title": "The Journal of Higher Education"
-            },
-            "journal_lists": [
-                "VABB-SHW",
-                "ERA 2018",
-                "Norwegian register level 1",
-                "ERA 2015",
-                "ERIH PLUS"
-            ],
-            "open_access_categories": [
-                {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
-                }
-            ],
-            "pages": "388-405",
-            "publisher": "Taylor & Francis",
-            "recent_citations": 63,
-            "reference_ids": [
-                "pub.1006238931",
-                "pub.1026515099",
-                "pub.1025216318",
-                "pub.1031779993",
-                "pub.1023953098",
-                "pub.1009903710",
-                "pub.1073364764",
-                "pub.1102740268",
-                "pub.1056497268",
-                "pub.1102189163",
-                "pub.1060033394",
-                "pub.1042956510",
-                "pub.1108429657",
-                "pub.1060032926",
-                "pub.1001029670",
-                "pub.1006869482",
-                "pub.1059215856",
-                "pub.1014136783",
-                "pub.1069758132",
-                "pub.1070049107",
-                "pub.1071225435",
-                "pub.1070096106",
-                "pub.1050153659",
-                "pub.1023141960",
-                "pub.1018681937",
-                "pub.1021420301",
-                "pub.1040919893",
-                "pub.1041784929",
-                "pub.1033049113",
-                "pub.1016255605",
-                "pub.1064524967",
-                "pub.1021837433",
-                "pub.1052957498",
-                "pub.1025247418"
-            ],
-            "references": [
-                "pub.1006238931",
-                "pub.1026515099",
-                "pub.1025216318",
-                "pub.1031779993",
-                "pub.1023953098",
-                "pub.1009903710",
-                "pub.1073364764",
-                "pub.1102740268",
-                "pub.1056497268",
-                "pub.1102189163",
-                "pub.1060033394",
-                "pub.1042956510",
-                "pub.1108429657",
-                "pub.1060032926",
-                "pub.1001029670",
-                "pub.1006869482",
-                "pub.1059215856",
-                "pub.1014136783",
-                "pub.1069758132",
-                "pub.1070049107",
-                "pub.1071225435",
-                "pub.1070096106",
-                "pub.1050153659",
-                "pub.1023141960",
-                "pub.1018681937",
-                "pub.1021420301",
-                "pub.1040919893",
-                "pub.1041784929",
-                "pub.1033049113",
-                "pub.1016255605",
-                "pub.1064524967",
-                "pub.1021837433",
-                "pub.1052957498",
-                "pub.1025247418"
-            ],
-            "research_org_names": [
-                "View further author information"
-            ],
-            "researchers": [
-                {
-                    "first_name": "Nicholas H",
-                    "id": "ur.01263146247.97",
-                    "last_name": "Wolfinger",
-                    "research_orgs": [
-                        "grid.223827.e",
-                        "grid.19006.3e"
-                    ]
-                },
-                {
-                    "first_name": "Mary Ann",
-                    "id": "ur.011244373575.15",
-                    "last_name": "Mason",
-                    "research_orgs": [
-                        "grid.47840.3f"
-                    ]
-                },
-                {
-                    "first_name": "Marc",
-                    "id": "ur.016354503775.05",
-                    "last_name": "Goulden",
-                    "research_orgs": [
-                        "grid.47840.3f"
-                    ]
-                }
-            ],
-            "terms": [
-                "gender",
-                "fertility"
-            ],
-            "times_cited": 91,
-            "title": "Problems in the Pipeline: Gender, Marriage, and Fertility in the Ivory Tower",
-            "type": "article",
-            "volume": "79",
-            "year": 2008
-        },
-        "Semantic Scholar": {
-            "message": "Forbidden"
-        },
-        "Unpaywall": {
-            "best_oa_location": null,
-            "data_standard": 2,
-            "doi": "10.1353/jhe.0.0015",
-            "doi_url": "https://doi.org/10.1353/jhe.0.0015",
-            "genre": "journal-article",
-            "has_repository_copy": false,
-            "is_oa": false,
-            "is_paratext": false,
-            "journal_is_in_doaj": false,
-            "journal_is_oa": false,
-            "journal_issn_l": "0022-1546",
-            "journal_issns": "1538-4640",
-            "journal_name": "The Journal of Higher Education",
-            "oa_locations": [],
-            "oa_status": "closed",
-            "published_date": "2008-01-01",
-            "publisher": "Informa UK Limited",
-            "title": "Problems in the Pipeline: Gender, Marriage, and Fertility in the Ivory Tower",
-            "updated": "2020-03-08T19:17:24.794578",
-            "year": 2008,
-            "z_authors": [
-                {
-                    "family": "Nicholas H. Wolfinger",
-                    "sequence": "first"
-                },
-                {
-                    "family": "Mary Ann Mason",
-                    "sequence": "additional"
-                },
-                {
-                    "family": "Marc Goulden",
-                    "sequence": "additional"
-                }
-            ]
-        },
-        "datasets": [
-            "dataset-370",
-            "dataset-371"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "name": {
-                            "first": "Nicholas H.",
-                            "last": "Wolfinger"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "",
-                            "last": "Mary Ann Mason"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "Marc",
-                            "last": "Goulden"
-                        }
-                    }
-                ],
-                "classification": "OK",
-                "date": "2008-07-01",
-                "pdf_url": "https://www.researchgate.net/profile/Nicholas_Wolfinger/publication/41432899_Problems_in_the_Pipeline_Gender_Marriage_and_Fertility_in_the_Ivory_Tower/links/53d5809c0cf2a7fbb2ea5a65.pdf",
-                "records": [
-                    {
-                        "doi": "10.1080/00221546.2008.11772108",
-                        "identifier": "oai:crossref.org:10.1080/00221546.2008.11772108",
-                        "issn": "0022-1546",
-                        "issue": "4",
-                        "journal": "Journal of Higher Education",
-                        "pages": "388-405",
-                        "pdf_url": "",
-                        "policy": {
-                            "postprint": "can",
-                            "preprint": "cannot",
-                            "published": "cannot",
-                            "romeo_id": "2383"
-                        },
-                        "publisher": "Informa UK Limited",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1080/00221546.2008.11772108",
-                        "type": "journal-article",
-                        "volume": "79"
-                    },
-                    {
-                        "abstract": "Women have traditionally fared worse than men in the workplace. In few places has this been more apparent than higher education (Jacobs, 1996). In 2003, women received 47% of PhDs awarded (National Center for Education Statistics [NCES], 2005a) but comprised only 35% of tenured or tenure-track faculty (NCES, 2005b). The gender gap widens incrementally higher up on the academic career ladder: among full-time faculty members, 48% of women are tenured compared to 68% of men (Bellas, 2001). Perhaps more striking, just 26% of full professors are women (American Association of University Professors, 2001). In light of these imbalances, concerns regarding Title IX, which prohibits sex-based exclusion from educational programs receiving federal funds, have prompted congressional calls for inquiry (Wyden, 2003). Journal Article",
-                        "contributors": "",
-                        "doi": "10.1353/jhe.0.0015",
-                        "identifier": "oai:researchgate.net:41432899",
-                        "keywords": "",
-                        "pdf_url": "https://www.researchgate.net/profile/Nicholas_Wolfinger/publication/41432899_Problems_in_the_Pipeline_Gender_Marriage_and_Fertility_in_the_Ivory_Tower/links/53d5809c0cf2a7fbb2ea5a65.pdf",
-                        "source": "researchgate",
-                        "splash_url": "https://www.researchgate.net/publication/41432899_Problems_in_the_Pipeline_Gender_Marriage_and_Fertility_in_the_Ivory_Tower",
-                        "type": "journal-article"
-                    },
-                    {
-                        "doi": "10.1353/jhe.0.0015",
-                        "identifier": "oai:crossref.org:10.1353/jhe.0.0015",
-                        "issue": "4",
-                        "journal": "The Journal of Higher Education",
-                        "pages": "388-405",
-                        "policy": {
-                            "postprint": "can",
-                            "preprint": "can",
-                            "published": "cannot",
-                            "romeo_id": "96"
-                        },
-                        "publisher": "Johns Hopkins University Press",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1353/jhe.0.0015",
-                        "type": "journal-article",
-                        "volume": "79"
-                    }
-                ],
-                "title": "Problems in the Pipeline: Gender, Marriage, and Fertility in the Ivory Tower",
-                "type": "journal-article"
-            },
-            "status": "ok"
-        },
-        "doi": "10.1353/jhe.0.0015",
-        "original": {
-            "api": "dimensions",
-            "date_added": "2020-03-12 17:01:30",
-            "doi": "10.1353/jhe.0.0015",
-            "search_term": "Survey of Earned Doctorates Donna Ginther",
-            "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=Problems%20in%20the%20Pipeline%3A%20Gender%2C%20Marriage%2C%20and%20Fertility%20in%20the%20Ivory%20Tower",
-            "valid": "yes"
-        },
-        "title": "Problems in the Pipeline: Gender, Marriage, and Fertility in the Ivory Tower"
-    },
-    {
-        "Semantic Scholar": {
-            "abstract": null,
-            "arxivId": null,
-            "authors": [
-                {
-                    "authorId": "113359927",
-                    "name": "Amanda M. Kulp",
-                    "url": "https://www.semanticscholar.org/author/113359927"
-                }
-            ],
-            "citationVelocity": 0,
-            "citations": [
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "91714781",
-                            "name": "Eileen O'Donnell",
-                            "url": "https://www.semanticscholar.org/author/91714781"
-                        },
-                        {
-                            "authorId": "1405456707",
-                            "name": "Liam A O'Donnell",
-                            "url": "https://www.semanticscholar.org/author/1405456707"
-                        }
-                    ],
-                    "doi": "10.4018/978-1-5225-7730-0.ch006",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "78f93c067e44927dc70409b2900d700d9654c98b",
-                    "title": "Towards Supporting Academic Authors, Researchers, and PhD Students in Higher Education",
-                    "url": "https://www.semanticscholar.org/paper/78f93c067e44927dc70409b2900d700d9654c98b",
-                    "venue": "",
-                    "year": 2019
-                }
-            ],
-            "corpusId": 157377252,
-            "doi": "10.1002/he.20211",
-            "fieldsOfStudy": [
-                "Economics"
-            ],
-            "influentialCitationCount": 0,
-            "is_open_access": false,
-            "is_publisher_licensed": false,
-            "paperId": "7a1a4f146937d9af3f40a384517d5bc4d34f3483",
-            "references": [],
-            "title": "The Effects of Parenthood During Graduate School on PhD Recipients’ Paths to the Professoriate: A Focus on Motherhood: The Effects of Parenthood During Graduate",
-            "topics": [],
-            "url": "https://www.semanticscholar.org/paper/7a1a4f146937d9af3f40a384517d5bc4d34f3483",
-            "venue": "",
-            "year": 2016
-        },
-        "Unpaywall": {
-            "best_oa_location": null,
-            "data_standard": 2,
-            "doi": "10.1002/he.20211",
-            "doi_url": "https://doi.org/10.1002/he.20211",
-            "genre": "journal-article",
-            "has_repository_copy": false,
-            "is_oa": false,
-            "is_paratext": false,
-            "journal_is_in_doaj": false,
-            "journal_is_oa": false,
-            "journal_issn_l": "0271-0560",
-            "journal_issns": "0271-0560",
-            "journal_name": "New Directions for Higher Education",
-            "oa_locations": [],
-            "oa_status": "closed",
-            "published_date": "2016-12-01",
-            "publisher": "Wiley",
-            "title": "The Effects of Parenthood During Graduate School on PhD Recipients’ Paths to the Professoriate: A Focus on Motherhood",
-            "updated": "2020-03-13T10:08:14.542684",
-            "year": 2016,
-            "z_authors": [
-                {
-                    "affiliation": [
-                        {
-                            "name": "University of Kansas"
-                        }
-                    ],
-                    "family": "Kulp",
-                    "given": "Amanda M.",
-                    "sequence": "first"
-                }
-            ]
-        },
-        "datasets": [
-            "dataset-370",
-            "dataset-371"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "affiliation": "University of Kansas",
-                        "name": {
-                            "first": "Amanda M.",
-                            "last": "Kulp"
-                        }
-                    }
-                ],
-                "classification": "OK",
-                "date": "2016-12-01",
-                "records": [
-                    {
-                        "doi": "10.1002/he.20211",
-                        "identifier": "oai:crossref.org:10.1002/he.20211",
-                        "issn": "0271-0560",
-                        "issue": "176",
-                        "journal": "New Directions for Higher Education",
-                        "pages": "81-95",
-                        "policy": {
-                            "postprint": "restricted",
-                            "preprint": "can",
-                            "published": "cannot",
-                            "romeo_id": "1499"
-                        },
-                        "publisher": "Wiley",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1002/he.20211",
-                        "type": "journal-article",
-                        "volume": "2016"
-                    }
-                ],
-                "title": "The Effects of Parenthood During Graduate School on PhD Recipients’ Paths to the Professoriate: A Focus on Motherhood: The Effects of Parenthood During Graduate",
-                "type": "journal-article"
-            },
-            "status": "ok"
-        },
-        "doi": "10.1002/he.20211",
-        "original": {
-            "api": "dimensions",
-            "date_added": "2020-03-12 17:01:30",
-            "doi": "10.1002/he.20211",
-            "search_term": "Survey of Earned Doctorates Donna Ginther",
-            "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=The%20Effects%20of%20Parenthood%20During%20Graduate%20School%20on%20PhD%20Recipients%E2%80%99%20Paths%20to%20the%20Professoriate%3A%20A%20Focus%20on%20Motherhood",
-            "valid": "yes"
-        },
-        "title": "The Effects of Parenthood During Graduate School on PhD Recipients' Paths to the Professoriate: A Focus on Motherhood"
     },
     {
         "Dimensions": {
@@ -8205,6 +7045,10 @@
                 }
             ]
         },
+        "abstract": "While it is generally understood that a gender gap exists in science, technology, engineering, and math (STEM) fields, less research has been done on women entrepreneurs in the STEM fields. This report expands on the limited literature specific to women entrepreneurs within STEM fields. In addition, it aims to identify any significant factors or trends that may prove useful to those interested in policies directed at increasing participation of women entrepreneurs in STEM fields.Recognizing that STEM fields contribute to high-quality job growth and economic innovation, Congress reauthorized the America Competes Act in 2010, increasing funding for STEM education and research. In addition, the U.S. Census Bureau’s 2011 American Community Survey reports significant reductions in earnings gaps for STEM workers relative to all workers. These results were consistent across gender and race/ethnicity. Finally, beyond potential economic contributions, male and female STEM PhDs who engage in entrepreneurial ventures are significantly more likely to report high levels of job satisfaction. As such, STEM fields contribute to a wide spectrum of economic growth opportunities.",
+        "authors": [
+            "author-1719985b7b4211e86e07"
+        ],
         "datasets": [
             "dataset-370",
             "dataset-371",
@@ -8241,6 +7085,108 @@
             "status": "ok"
         },
         "doi": "10.2139/ssrn.2506835",
+        "keyphrases": {
+            "america competes act": {
+                "count": 2,
+                "rank_score": 0.045803277485475205
+            },
+            "american community survey": {
+                "count": 2,
+                "rank_score": 0.07733165324755775
+            },
+            "any significant factors": {
+                "count": 1,
+                "rank_score": 0.045945419730572125
+            },
+            "congress": {
+                "count": 2,
+                "rank_score": 0.05236039173689472
+            },
+            "earnings gaps": {
+                "count": 1,
+                "rank_score": 0.07743128070718502
+            },
+            "economic growth opportunities": {
+                "count": 1,
+                "rank_score": 0.09421227680697397
+            },
+            "economic innovation": {
+                "count": 1,
+                "rank_score": 0.08868731343616675
+            },
+            "engineering": {
+                "count": 1,
+                "rank_score": 0.04419475819262421
+            },
+            "entrepreneurial ventures": {
+                "count": 1,
+                "rank_score": 0.05829984680591292
+            },
+            "entrepreneurs": {
+                "count": 1,
+                "rank_score": 0.07389753634214413
+            },
+            "gender gap": {
+                "count": 1,
+                "rank_score": 0.0528724151309892
+            },
+            "high-quality job growth": {
+                "count": 1,
+                "rank_score": 0.0643390529436113
+            },
+            "increasing participation": {
+                "count": 1,
+                "rank_score": 0.06983319950255079
+            },
+            "job satisfaction": {
+                "count": 1,
+                "rank_score": 0.06784973919602455
+            },
+            "less research": {
+                "count": 1,
+                "rank_score": 0.059130360342699806
+            },
+            "male and female stem phds": {
+                "count": 1,
+                "rank_score": 0.05613951856784019
+            },
+            "policies": {
+                "count": 1,
+                "rank_score": 0.04575964297506921
+            },
+            "potential economic contributions": {
+                "count": 1,
+                "rank_score": 0.0867504751125554
+            },
+            "significant reductions": {
+                "count": 1,
+                "rank_score": 0.08205552726912066
+            },
+            "stem education": {
+                "count": 1,
+                "rank_score": 0.10251772587993363
+            },
+            "stem fields": {
+                "count": 1,
+                "rank_score": 0.0872831599137563
+            },
+            "stem workers": {
+                "count": 1,
+                "rank_score": 0.10508770236751028
+            },
+            "such, stem fields": {
+                "count": 1,
+                "rank_score": 0.07500090919907372
+            },
+            "women": {
+                "count": 1,
+                "rank_score": 0.07230162465849083
+            },
+            "women entrepreneurs": {
+                "count": 2,
+                "rank_score": 0.09496479804277916
+            }
+        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-12 17:01:30",
@@ -8648,6 +7594,10 @@
                 }
             ]
         },
+        "abstract": "In this article, I describe how data and econometric methods can be used to study the science of broadening participation. I start by showing that theory can be used to structure the approach to us...",
+        "authors": [
+            "author-8491d9558cde44e2fbbd"
+        ],
         "datasets": [
             "dataset-370"
         ],
@@ -8691,6 +7641,16 @@
             "status": "ok"
         },
         "doi": "10.1177/0002764218768865",
+        "keyphrases": {
+            "broadening participation": {
+                "count": 1,
+                "rank_score": 0.1410230612748338
+            },
+            "data and econometric methods": {
+                "count": 1,
+                "rank_score": 0.11637252134164261
+            }
+        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-12 17:01:30",
@@ -10093,6 +9053,11 @@
                 }
             ]
         },
+        "abstract": "Studies of rescuing early-career scientists often take narrow approaches and focus on PhD students or postdoc populations. In a multi-method systems approach, we examine the inter-relations between the two ends of the pipeline and ask: what are the effects of late retirement on aging and hiring in academia? With a simulation model, we postulate that the decline in the retirement rate in academia contributes to the aging pattern through two mechanisms: (a) direct effect: longer stay of established professors, and (b) indirect effect: a hiring decline in tenure-track positions. Late retirement explains more than half of the growth in average age and brings about 20% decline in hiring. We provide empirical evidence based on the natural experimental set-up of the removal of mandatory retirement in the 1990s.",
+        "authors": [
+            "author-18f93a74696269c78630",
+            "author-4f5bca06b8c863f9fef9"
+        ],
         "datasets": [
             "dataset-371"
         ],
@@ -10145,6 +9110,108 @@
             "status": "ok"
         },
         "doi": "10.1371/journal.pone.0208411",
+        "keyphrases": {
+            "a) direct effect": {
+                "count": 1,
+                "rank_score": 0.03484974286026437
+            },
+            "about 20% decline": {
+                "count": 1,
+                "rank_score": 0.03736474769751683
+            },
+            "academia": {
+                "count": 1,
+                "rank_score": 0.060281013239671624
+            },
+            "aging pattern": {
+                "count": 1,
+                "rank_score": 0.04696902632963579
+            },
+            "decline": {
+                "count": 1,
+                "rank_score": 0.03996885564372075
+            },
+            "early-career scientists": {
+                "count": 1,
+                "rank_score": 0.05797267018210411
+            },
+            "empirical evidence": {
+                "count": 1,
+                "rank_score": 0.07449333251130223
+            },
+            "established professors": {
+                "count": 1,
+                "rank_score": 0.06800423683412324
+            },
+            "growth": {
+                "count": 1,
+                "rank_score": 0.03003815762436989
+            },
+            "hiring decline": {
+                "count": 1,
+                "rank_score": 0.05938410905241813
+            },
+            "inter-relations": {
+                "count": 1,
+                "rank_score": 0.05263821563188385
+            },
+            "late retirement": {
+                "count": 2,
+                "rank_score": 0.11050267729342175
+            },
+            "mandatory retirement": {
+                "count": 1,
+                "rank_score": 0.0981980021703111
+            },
+            "more than half": {
+                "count": 2,
+                "rank_score": 0.043724413070603964
+            },
+            "multi-method systems approach": {
+                "count": 1,
+                "rank_score": 0.07331598876919337
+            },
+            "narrow approaches": {
+                "count": 1,
+                "rank_score": 0.09029285771373652
+            },
+            "natural experimental set-up": {
+                "count": 1,
+                "rank_score": 0.0474932740417162
+            },
+            "phd students": {
+                "count": 1,
+                "rank_score": 0.07826341786563325
+            },
+            "pipeline": {
+                "count": 1,
+                "rank_score": 0.03776302954710232
+            },
+            "postdoc populations": {
+                "count": 1,
+                "rank_score": 0.06873493411239008
+            },
+            "removal": {
+                "count": 1,
+                "rank_score": 0.029367063090774116
+            },
+            "retirement rate": {
+                "count": 1,
+                "rank_score": 0.059764635658482446
+            },
+            "simulation model": {
+                "count": 1,
+                "rank_score": 0.0393548096929981
+            },
+            "tenure-track positions": {
+                "count": 1,
+                "rank_score": 0.05155044856176786
+            },
+            "two mechanisms": {
+                "count": 1,
+                "rank_score": 0.021851930558810958
+            }
+        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-12 17:01:30",
@@ -10945,6 +10012,10 @@
                 }
             ]
         },
+        "abstract": "Executive Summary Considerable attention has focused in recent years on the role the academy plays in fostering innovation. Here we demonstrate that the foreign born are a large and growing component of the U.S. university community. They compose more than 25% of the tenure‐track faculty, make up approximately 60% of the postdoctoral population, and represent more than 43% of the doctoral degrees awarded in science and engineering. Almost 50% of the latter come from the three countries of China, India, and South Korea. The foreign born contribute to the productivity of the university. For example, 44% of the first authors of U.S. papers in Science are foreign. There is some evidence that the foreign born contribute disproportionately to exceptional contributions in science and engineering and, at least at elite universities, that their marginal product is higher than that of the native born. They also constitute approximately one‐third of the placements of new PhDs with U.S. firms—a major mechanism by whi...",
+        "authors": [
+            "author-8ec83b960827db7a954a"
+        ],
         "datasets": [
             "dataset-370",
             "dataset-371"
@@ -11000,6 +10071,108 @@
             "status": "ok"
         },
         "doi": "10.1086/605854",
+        "keyphrases": {
+            "china": {
+                "count": 2,
+                "rank_score": 0.06331163276156651
+            },
+            "doctoral degrees": {
+                "count": 1,
+                "rank_score": 0.04321031687759703
+            },
+            "elite universities": {
+                "count": 1,
+                "rank_score": 0.0803039971151605
+            },
+            "engineering": {
+                "count": 2,
+                "rank_score": 0.04673623165550754
+            },
+            "exceptional contributions": {
+                "count": 1,
+                "rank_score": 0.06776123220017977
+            },
+            "executive summary considerable": {
+                "count": 1,
+                "rank_score": 0.08347686093658652
+            },
+            "executive summary considerable attention": {
+                "count": 1,
+                "rank_score": 0.0917919758723862
+            },
+            "first authors": {
+                "count": 1,
+                "rank_score": 0.04257254589924709
+            },
+            "foreign": {
+                "count": 1,
+                "rank_score": 0.03870732145998295
+            },
+            "india": {
+                "count": 2,
+                "rank_score": 0.06244222111588138
+            },
+            "innovation": {
+                "count": 1,
+                "rank_score": 0.04816085510852032
+            },
+            "large and growing component": {
+                "count": 1,
+                "rank_score": 0.0385056194797197
+            },
+            "major mechanism": {
+                "count": 1,
+                "rank_score": 0.04293578298471892
+            },
+            "more than 25%": {
+                "count": 4,
+                "rank_score": 0.04700665922168178
+            },
+            "new phds": {
+                "count": 1,
+                "rank_score": 0.07734540721940533
+            },
+            "phds": {
+                "count": 1,
+                "rank_score": 0.06329162517668514
+            },
+            "postdoctoral population": {
+                "count": 1,
+                "rank_score": 0.039566927192738695
+            },
+            "south korea": {
+                "count": 2,
+                "rank_score": 0.07234159341250032
+            },
+            "tenure‐track": {
+                "count": 1,
+                "rank_score": 0.060994635117364894
+            },
+            "tenure‐track faculty": {
+                "count": 1,
+                "rank_score": 0.04338262886636928
+            },
+            "their marginal product": {
+                "count": 1,
+                "rank_score": 0.04377831248617667
+            },
+            "u.s. firms": {
+                "count": 1,
+                "rank_score": 0.10318341648414445
+            },
+            "u.s. papers": {
+                "count": 1,
+                "rank_score": 0.1029959604663009
+            },
+            "u.s. university community": {
+                "count": 1,
+                "rank_score": 0.07030544321557454
+            },
+            "whi": {
+                "count": 1,
+                "rank_score": 0.05138608536405115
+            }
+        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-12 17:01:30",

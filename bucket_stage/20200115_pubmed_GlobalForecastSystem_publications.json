@@ -1265,6 +1265,12 @@
                 }
             ]
         },
+        "abstract": "This paper estimates marine boundary layer height (MBLH) over the western North Pacific (WNP) based on Global Positioning System Radio Occultation (GPS-RO) profiles from the Formosa Satellite Mission 3 (FORMOSAT-3)/Constellation Observing System for Meteorology, Ionosphere, and Climate (COSMIC) satellites, island soundings, and numerical models. The seasonally-averaged MBLHs computed from nine years (2007⁻2015) of GPS-RO data are inter-compared with those obtained from sounding observations at 15 island stations and from the European Centre for Medium-Range Weather Forecasts (ECMWF) Reanalysis (ERA-Interim) and National Centers for Environmental Prediction Global Forecast System (NCEP GFS) data over the WNP from 2012 to 2015. It is found that the MBLH using nine years of GPS-RO data is smoother and more consistent with that obtained from sounding observations than is the MBLH using four years of GPS-RO data in a previous study. In winter, higher MBLHs are found around the subtropical latitudes and over oceans east of Japan, which are approximately located within the paths of the North Equatorial Current and the Kuroshio Current. The MBLH is also significantly higher in winter than in summer over the WNP. The above MBLH pattern is generally similar to those obtained from the analysis data of the ERA-Interim and NCEP GFS, but the heights are about 200 m higher. The verification with soundings suggests that the ERA-Interim has a better MBLH estimation than the NCEP GFS. Thus, the MBLH distributions obtained from both the nine-year GPS-RO and the ERA-Interim data can represent well the climatological MBLH over the WNP, but the heights should be adjusted about 30 m lower for the former and ~200 m higher for the latter. A positive correlation between the MBLH and the instability of the lower atmosphere exists over large near-shore areas of the WNP, where cold air can move over warm oceans from the land in winter, resulting in an increase in lower-atmospheric instability and providing favorable conditions for convection to yield a higher MBLH. During summer, the lower-atmospheric instability becomes smaller and the MBLH is thus lower over near-shore oceans.",
+        "authors": [
+            "author-8f4d44986c63f1fbe8cc",
+            "author-a970e77b7f40c196c120",
+            "author-198b2d831678224ae318"
+        ],
         "datasets": [
             "dataset-620"
         ],
@@ -1322,6 +1328,108 @@
             "status": "ok"
         },
         "doi": "10.3390/s19010155",
+        "keyphrases": {
+            "above mblh pattern": {
+                "count": 1,
+                "rank_score": 0.05414101613157846
+            },
+            "better mblh estimation": {
+                "count": 1,
+                "rank_score": 0.054157990781375155
+            },
+            "climatological mblh": {
+                "count": 1,
+                "rank_score": 0.05003213345237678
+            },
+            "cold air": {
+                "count": 1,
+                "rank_score": 0.04963313859731462
+            },
+            "environmental prediction global forecast system": {
+                "count": 1,
+                "rank_score": 0.08204495025181474
+            },
+            "favorable conditions": {
+                "count": 1,
+                "rank_score": 0.05032393230052913
+            },
+            "global positioning system radio occultation": {
+                "count": 1,
+                "rank_score": 0.08024971736588599
+            },
+            "gps-ro": {
+                "count": 6,
+                "rank_score": 0.047963050713256634
+            },
+            "gps-ro data": {
+                "count": 1,
+                "rank_score": 0.051326046476865735
+            },
+            "higher mblh": {
+                "count": 1,
+                "rank_score": 0.05846094278242695
+            },
+            "higher mblhs": {
+                "count": 1,
+                "rank_score": 0.07219672023805973
+            },
+            "island soundings": {
+                "count": 1,
+                "rank_score": 0.06607350287106377
+            },
+            "lower-atmospheric instability": {
+                "count": 2,
+                "rank_score": 0.054107461222964136
+            },
+            "marine boundary layer height": {
+                "count": 1,
+                "rank_score": 0.07314043763132577
+            },
+            "mblh": {
+                "count": 17,
+                "rank_score": 0.08720350651805914
+            },
+            "mblh distributions": {
+                "count": 1,
+                "rank_score": 0.05006308522941153
+            },
+            "medium-range weather forecasts": {
+                "count": 1,
+                "rank_score": 0.04907243074485882
+            },
+            "national centers for environmental prediction global forecast system": {
+                "count": 1,
+                "rank_score": 0.06096557536139538
+            },
+            "ncep gfs": {
+                "count": 6,
+                "rank_score": 0.06238409020590219
+            },
+            "north pacific": {
+                "count": 1,
+                "rank_score": 0.06271764067519328
+            },
+            "oceans": {
+                "count": 1,
+                "rank_score": 0.05560808607906306
+            },
+            "soundings": {
+                "count": 1,
+                "rank_score": 0.05373559357455776
+            },
+            "warm oceans": {
+                "count": 1,
+                "rank_score": 0.06096460330901359
+            },
+            "winter": {
+                "count": 6,
+                "rank_score": 0.050495373552845405
+            },
+            "wnp": {
+                "count": 10,
+                "rank_score": 0.05605425791466877
+            }
+        },
         "original": {
             "authors": "Chien, Fang-Ching, Hong, Jing-Shan, Kuo, Ying-Hwa",
             "date_added": "2020-01-22 12:12:11",
@@ -2911,6 +3019,17 @@
                 }
             ]
         },
+        "abstract": "The atmosphere-ocean coupled Hurricane Weather Research and Forecast model (HWRF) developed at the National Centers for Environmental Prediction (NCEP) is used as an example to illustrate the impact of model vertical resolution on track forecasts of tropical cyclones. A number of HWRF forecasting experiments were carried out at different vertical resolutions for Hurricane Joaquin, which occurred from September 27 to October 8, 2015, in the Atlantic Basin. The results show that the track prediction for Hurricane Joaquin is much more accurate with higher vertical resolution. The positive impacts of higher vertical resolution on hurricane track forecasts suggest that National Oceanic and Atmospheric Administration/NCEP should upgrade both HWRF and the Global Forecast System to have more vertical levels.",
+        "authors": [
+            "author-91f65de483a43af2341f",
+            "author-5d9cc0235bde76b4e778",
+            "author-79a03d48e1d6f692ebad",
+            "author-50ee9a87e617dc1b8c25",
+            "author-e29ecec7e4d17d6ab3e9",
+            "author-eb3673bb670089743652",
+            "author-bb47e6d9b834df49f41c",
+            "author-971dd9130a95ba3c8d7d"
+        ],
         "datasets": [
             "dataset-620"
         ],
@@ -3022,6 +3141,108 @@
             "status": "ok"
         },
         "doi": "10.1073/pnas.1613800113",
+        "keyphrases": {
+            "atlantic basin": {
+                "count": 2,
+                "rank_score": 0.049180740904221164
+            },
+            "atmospheric administration": {
+                "count": 1,
+                "rank_score": 0.08027510667904189
+            },
+            "different vertical resolutions": {
+                "count": 1,
+                "rank_score": 0.13558170702817132
+            },
+            "environmental prediction": {
+                "count": 1,
+                "rank_score": 0.07736391521055945
+            },
+            "forecast": {
+                "count": 1,
+                "rank_score": 0.07448105612725239
+            },
+            "global forecast system": {
+                "count": 2,
+                "rank_score": 0.058818758787341094
+            },
+            "higher vertical resolution": {
+                "count": 2,
+                "rank_score": 0.1430222162679873
+            },
+            "hurricane joaquin": {
+                "count": 4,
+                "rank_score": 0.10363276644525779
+            },
+            "hurricane track forecasts": {
+                "count": 1,
+                "rank_score": 0.11784476740311858
+            },
+            "hurricane weather research": {
+                "count": 1,
+                "rank_score": 0.11028998273596734
+            },
+            "hurricane weather research and forecast model": {
+                "count": 1,
+                "rank_score": 0.08368815359035717
+            },
+            "hwrf": {
+                "count": 5,
+                "rank_score": 0.09257325172353471
+            },
+            "hwrf forecasting experiments": {
+                "count": 1,
+                "rank_score": 0.10758679312884337
+            },
+            "model vertical resolution": {
+                "count": 1,
+                "rank_score": 0.13523123114304267
+            },
+            "more vertical levels": {
+                "count": 1,
+                "rank_score": 0.11237634499537393
+            },
+            "national centers": {
+                "count": 1,
+                "rank_score": 0.05249742546291273
+            },
+            "national centers for environmental prediction": {
+                "count": 1,
+                "rank_score": 0.05293814696432221
+            },
+            "national oceanic": {
+                "count": 1,
+                "rank_score": 0.0918006428275287
+            },
+            "national oceanic and atmospheric administration": {
+                "count": 1,
+                "rank_score": 0.07096361873077255
+            },
+            "ncep": {
+                "count": 3,
+                "rank_score": 0.07529633613640062
+            },
+            "positive impacts": {
+                "count": 1,
+                "rank_score": 0.047415318464959534
+            },
+            "september": {
+                "count": 1,
+                "rank_score": 0.061694777602426316
+            },
+            "track forecasts": {
+                "count": 1,
+                "rank_score": 0.1136133762319645
+            },
+            "track prediction": {
+                "count": 1,
+                "rank_score": 0.05835723318145762
+            },
+            "tropical cyclones": {
+                "count": 1,
+                "rank_score": 0.06505986180082027
+            }
+        },
         "original": {
             "authors": "Zhang, Banglin, Lindzen, Richard S, Tallapragada, Vijay, Weng, Fuzhong, Liu, Qingfu, Sippel, Jason A, Ma, Zaizhong, Bender, Morris A",
             "date_added": "2020-01-22 12:12:11",
@@ -5316,6 +5537,16 @@
                 }
             ]
         },
+        "abstract": "UNLABELLED\nThe Korean national air quality forecasting system, consisting of the Weather Research and Forecasting, the Sparse Matrix Operator Kernel Emissions, and the Community Modeling and Analysis (CMAQ), commenced from August 31, 2013 with target pollutants of particulate matters (PM) and ozone. Factors contributing to PM forecasting accuracy include CMAQ inputs of meteorological field and emissions, forecasters' capacity, and inherent CMAQ limit. Four numerical experiments were conducted including two global meteorological inputs from the Global Forecast System (GFS) and the Unified Model (UM), two emissions from the Model Intercomparison Study Asia (MICS-Asia) and the Intercontinental Chemical Transport Experiment (INTEX-B) for the Northeast Asia with Clear Air Policy Support System (CAPSS) for South Korea, and data assimilation of the Monitoring Atmospheric Composition and Climate (MACC). Significant PM underpredictions by using both emissions were found for PM mass and major components (sulfate and organic carbon). CMAQ predicts PM2.5 much better than PM10 (NMB of PM2.5: -20~-25%, PM10: -43~-47%). Forecasters' error usually occurred at the next day of high PM event. Once CMAQ fails to predict high PM event the day before, forecasters are likely to dismiss the model predictions on the next day which turns out to be true. The best combination of CMAQ inputs is the set of UM global meteorological field, MICS-Asia and CAPSS 2010 emissions with the NMB of -12.3%, the RMSE of 16.6μ/m(3) and the R(2) of 0.68. By using MACC data as an initial and boundary condition, the performance skill of CMAQ would be improved, especially in the case of undefined coarse emission. A variety of methods such as ensemble and data assimilation are considered to improve further the accuracy of air quality forecasting, especially for high PM events to be comparable to for all cases.\n\n\nIMPLICATIONS\nThe growing utilization of the air quality forecast induced the public strongly to demand that the accuracy of the national forecasting be improved. In this study, we investigated the problems in the current forecasting as well as various alternatives to solve the problems. Such efforts to improve the accuracy of the forecast are expected to contribute to the protection of public health by increasing the availability of the forecast system.",
+        "authors": [
+            "author-51a93f1e73a2809ad295",
+            "author-741e8dc3f895a4ecf282",
+            "author-30954bdf4b5ea80a735d",
+            "author-edc9b20103755200ade5",
+            "author-70ac52191e2112c1fd6d",
+            "author-a970e77b7f40c196c120",
+            "author-c2e4f68ba12b6fd1e663"
+        ],
         "datasets": [
             "dataset-620"
         ],
@@ -5403,6 +5634,108 @@
             "status": "ok"
         },
         "doi": "10.1080/10962247.2016.1206995",
+        "keyphrases": {
+            "air quality forecast": {
+                "count": 1,
+                "rank_score": 0.05029793444381911
+            },
+            "air quality forecasting": {
+                "count": 1,
+                "rank_score": 0.08605727675588465
+            },
+            "clear air policy support system": {
+                "count": 2,
+                "rank_score": 0.06889145086017727
+            },
+            "cmaq": {
+                "count": 6,
+                "rank_score": 0.07802262940621102
+            },
+            "cmaq inputs": {
+                "count": 1,
+                "rank_score": 0.08748511997541515
+            },
+            "data assimilation": {
+                "count": 1,
+                "rank_score": 0.06358651303613808
+            },
+            "emissions": {
+                "count": 4,
+                "rank_score": 0.056550489378169616
+            },
+            "high pm event": {
+                "count": 3,
+                "rank_score": 0.0935603309634709
+            },
+            "inherent cmaq limit": {
+                "count": 1,
+                "rank_score": 0.076640690851495
+            },
+            "inputs": {
+                "count": 1,
+                "rank_score": 0.054621034498732804
+            },
+            "korean national air quality forecasting system": {
+                "count": 1,
+                "rank_score": 0.062102888250064193
+            },
+            "macc data": {
+                "count": 1,
+                "rank_score": 0.05909890710112943
+            },
+            "meteorological field": {
+                "count": 1,
+                "rank_score": 0.06339121591086784
+            },
+            "model intercomparison study asia": {
+                "count": 2,
+                "rank_score": 0.0450534783046421
+            },
+            "particulate matters": {
+                "count": 1,
+                "rank_score": 0.048190034341625124
+            },
+            "pm forecasting accuracy": {
+                "count": 1,
+                "rank_score": 0.1005692975275627
+            },
+            "pm mass and major components": {
+                "count": 1,
+                "rank_score": 0.05599309410366108
+            },
+            "public health": {
+                "count": 1,
+                "rank_score": 0.04842458177174201
+            },
+            "significant pm underpredictions": {
+                "count": 1,
+                "rank_score": 0.0788519252653568
+            },
+            "sparse matrix operator kernel emissions": {
+                "count": 2,
+                "rank_score": 0.046719382345043844
+            },
+            "such efforts": {
+                "count": 1,
+                "rank_score": 0.04775446329368417
+            },
+            "two global meteorological inputs": {
+                "count": 1,
+                "rank_score": 0.04848019208409732
+            },
+            "um global meteorological field": {
+                "count": 1,
+                "rank_score": 0.07371383403182624
+            },
+            "undefined coarse emission": {
+                "count": 1,
+                "rank_score": 0.0641358424930402
+            },
+            "various alternatives": {
+                "count": 1,
+                "rank_score": 0.0470057265876886
+            }
+        },
         "original": {
             "authors": "Chang, Lim-Seok, Cho, Ara, Park, Hyunju, Nam, Kipyo, Kim, Deokrae, Hong, Ji-Hyoung, Song, Chang-Keun",
             "date_added": "2020-01-22 12:12:11",
@@ -6297,6 +6630,14 @@
                 }
             ]
         },
+        "abstract": "The Lagrangian FLEXible PARTicle (FLEXPART) dispersion model and National Centers for Environmental Prediction/Global Forecast System (NCEP/GFS) meteorological data were used to simulate the long range transport pathways of three artificial radionuclides: (131)I, (137)Cs, and (133)Xe, coming into Korean Peninsula during the Fukushima Dai-ichi nuclear accident. Using emission rates of these radionuclides estimated from previous studies, three distinctive transport routes of these radionuclides toward the Korean Peninsula for a period from 10 March to 20 April 2011 were exploited by three spatial scales: 1) intercontinental scale - plume released since mid-March 2011 and transported to the North to arrive Korea on 23 March 2011, 2) global (hemispherical) scale - plume traveling over the whole northern hemisphere passing through the Pacific Ocean/Europe to reach the Korean Peninsula with relatively low concentrations in late March 2011 and, 3) regional scale - plume released on early April 2011 arrived at the Korean Peninsula via southwest sea of Japan influenced directly by veering mesoscale wind circulations. Our identification of these transport routes at three different scales of meteorological circulations suggests the feasibility of a multi-scale approach for more accurate prediction of radionuclide transport in the study area. In light of the fact that the observed arrival/duration time of peaks were explained well by the FLEXPART model coupled with NCEP/GFS input data, our approach can be used meaningfully as a decision support model for radiation emergency situations.",
+        "authors": [
+            "author-172a6fa2fcbe4e28c8e3",
+            "author-25b3bc701f215770f9bd",
+            "author-3a59ff1c411d0d5704e3",
+            "author-bcc25dd1690fb736c6a8",
+            "author-2023e8a5aea87817777d"
+        ],
         "datasets": [
             "dataset-620"
         ],
@@ -6374,6 +6715,108 @@
             "status": "ok"
         },
         "doi": "10.1016/j.jenvrad.2015.06.007",
+        "keyphrases": {
+            "decision support model": {
+                "count": 1,
+                "rank_score": 0.048694341350609155
+            },
+            "early april": {
+                "count": 2,
+                "rank_score": 0.06020616294273866
+            },
+            "emission rates": {
+                "count": 1,
+                "rank_score": 0.04882045421104655
+            },
+            "environmental prediction/global forecast system": {
+                "count": 1,
+                "rank_score": 0.051377092150992475
+            },
+            "flexpart": {
+                "count": 2,
+                "rank_score": 0.054989561415318314
+            },
+            "flexpart model": {
+                "count": 1,
+                "rank_score": 0.049205825240554286
+            },
+            "korean peninsula": {
+                "count": 8,
+                "rank_score": 0.08777713039234376
+            },
+            "late march": {
+                "count": 1,
+                "rank_score": 0.0687164994742265
+            },
+            "long range transport pathways": {
+                "count": 1,
+                "rank_score": 0.05635157916696771
+            },
+            "mesoscale wind circulations": {
+                "count": 1,
+                "rank_score": 0.06845280087111848
+            },
+            "meteorological circulations": {
+                "count": 1,
+                "rank_score": 0.07334282385780713
+            },
+            "mid-march": {
+                "count": 2,
+                "rank_score": 0.07251225390925527
+            },
+            "more accurate prediction": {
+                "count": 1,
+                "rank_score": 0.06561248341591779
+            },
+            "multi-scale approach": {
+                "count": 1,
+                "rank_score": 0.05130519647530227
+            },
+            "national centers": {
+                "count": 1,
+                "rank_score": 0.05811086337869929
+            },
+            "national centers for environmental prediction/global forecast system": {
+                "count": 1,
+                "rank_score": 0.047572785543860685
+            },
+            "ncep/gfs input data": {
+                "count": 1,
+                "rank_score": 0.05284701064577039
+            },
+            "northern hemisphere": {
+                "count": 1,
+                "rank_score": 0.05523044456287367
+            },
+            "peaks": {
+                "count": 1,
+                "rank_score": 0.04929629684433127
+            },
+            "previous studies": {
+                "count": 1,
+                "rank_score": 0.0617333905429392
+            },
+            "radiation emergency situations": {
+                "count": 1,
+                "rank_score": 0.06121858540213892
+            },
+            "radionuclide transport": {
+                "count": 1,
+                "rank_score": 0.07387167004434744
+            },
+            "southwest sea": {
+                "count": 2,
+                "rank_score": 0.05835180738801447
+            },
+            "three distinctive transport routes": {
+                "count": 1,
+                "rank_score": 0.05123688853834802
+            },
+            "transport routes": {
+                "count": 1,
+                "rank_score": 0.04644759991908198
+            }
+        },
         "original": {
             "authors": "Lee, Kwan-Hee, Kim, Ki-Hyun, Lee, Jin-Hong, Yun, Ju-Yong, Kim, Cheol-Hee",
             "date_added": "2020-01-22 12:12:11",

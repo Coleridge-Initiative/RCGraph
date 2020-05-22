@@ -1848,6 +1848,12 @@
                 }
             ]
         },
+        "abstract": "In estuaries, land-surface and tidal elevation conspire to influence the amount of salt-water inundation in a specific location, ultimately affecting the distribution of estuary vegetation. Plants vary in their tolerances to salinity and inundation. Understanding even small changes in land-surface elevation at a site scale provides relevant information to managers seeking to design effective long-term restoration projects. Restoration of estuary habitats has been identified as a tool to mediate some anticipated effects of climate change, including flooding from sea-level rise, precipitation regimes, and storminess. Further, habitat restoration that is effective in the face of climate uncertainty is critical to the sustainable production of seafood and maintenance of ecosystem functions. We offer a simple method that links tidal elevations to upslope topography, allowing managers to determine where tidal inundation of upslope areas may occur. This method does not require complex modeling, rather we combine existing high-accuracy tide-gage information with LiDAR imagery. However, we found that if LiDAR is not flown at low tide, or at consistent tidal heights, it poses significant challenges in the interpretation of tidal elevations. Where LiDAR is consistently collected at low tide, this method of linking the tidal datum to upslope topography is not data-intensive, and does not require long-term data collection. Along with locally specific information, the types of map products that can be developed using this method should identify places that may be potentially vulnerable to salt-water inundation, along with places that may be effective migration corridors for marshes and other habitats.",
+        "authors": [
+            "author-1c626af7c8986d311a9d",
+            "author-32e27ab48559973fe103",
+            "author-0a3c92763fd986e277ed"
+        ],
         "datasets": [
             "dataset-610",
             "dataset-614"
@@ -1904,6 +1910,108 @@
             "status": "ok"
         },
         "doi": "10.1007/s11852-018-0605-1",
+        "keyphrases": {
+            "climate change": {
+                "count": 1,
+                "rank_score": 0.07570017523118283
+            },
+            "climate uncertainty": {
+                "count": 1,
+                "rank_score": 0.06536681423778573
+            },
+            "consistent tidal heights": {
+                "count": 1,
+                "rank_score": 0.08008832853591522
+            },
+            "ecosystem functions": {
+                "count": 1,
+                "rank_score": 0.05278990652469828
+            },
+            "effective long-term restoration projects": {
+                "count": 1,
+                "rank_score": 0.06230614484097391
+            },
+            "effective migration corridors": {
+                "count": 1,
+                "rank_score": 0.07058168505489779
+            },
+            "estuary habitats": {
+                "count": 1,
+                "rank_score": 0.06242578352773065
+            },
+            "estuary vegetation": {
+                "count": 1,
+                "rank_score": 0.05435675547542927
+            },
+            "habitat restoration": {
+                "count": 1,
+                "rank_score": 0.05758977384994947
+            },
+            "inundation": {
+                "count": 1,
+                "rank_score": 0.06458878405372362
+            },
+            "land-surface elevation": {
+                "count": 1,
+                "rank_score": 0.05324225831270815
+            },
+            "lidar": {
+                "count": 2,
+                "rank_score": 0.05505596755157272
+            },
+            "lidar imagery": {
+                "count": 1,
+                "rank_score": 0.058951020623170494
+            },
+            "long-term data collection": {
+                "count": 1,
+                "rank_score": 0.05299655546795293
+            },
+            "low tide": {
+                "count": 1,
+                "rank_score": 0.0544893317093694
+            },
+            "managers": {
+                "count": 2,
+                "rank_score": 0.05295797445504878
+            },
+            "map products": {
+                "count": 1,
+                "rank_score": 0.05265086567521844
+            },
+            "other habitats": {
+                "count": 1,
+                "rank_score": 0.05471849215334866
+            },
+            "precipitation regimes": {
+                "count": 1,
+                "rank_score": 0.05851147064920405
+            },
+            "relevant information": {
+                "count": 1,
+                "rank_score": 0.07580671212343561
+            },
+            "restoration": {
+                "count": 1,
+                "rank_score": 0.05693944421736866
+            },
+            "tidal elevations": {
+                "count": 2,
+                "rank_score": 0.09719752701643392
+            },
+            "tidal inundation": {
+                "count": 1,
+                "rank_score": 0.09396144016070737
+            },
+            "topography": {
+                "count": 2,
+                "rank_score": 0.053991592753747264
+            },
+            "upslope areas": {
+                "count": 1,
+                "rank_score": 0.06300810424326285
+            }
+        },
         "original": {
             "authors": "Flitcroft, Rebecca, Clinton, Patrick, Christiansen, Kelly",
             "date_added": "2020-01-22 12:16:54",
@@ -3061,6 +3169,14 @@
                 }
             ]
         },
+        "abstract": "Modeling of groundwater levels in a portion of the low-lying coastal Arch Creek basin in northern Miami-Dade County in Southeast Florida USA, which is subject to repetitive flooding, reveals that rain-induced short-term water table rises can be viewed as a primary driver of flooding events under current conditions. Areas below 0.9m North American Vertical Datum (NAVD) elevation are particularly vulnerable and areas below 1.5m NAVD are vulnerable to exceptionally large rainfall events. Long-term water table rise is evident in the groundwater data, and the rate appears to be consistent with local rates of sea level rise. Linear extrapolation of long-term observed groundwater levels to 2060 suggest roughly a doubling of the number of days when groundwater levels exceed 0.9m NAVD and a threefold increase in the number of days when levels exceed 1.5m NAVD. Projected sea level rise of 0.61m by 2060 together with increased rainfall lead to a model prediction of frequent groundwater-related flooding in areas<0.9m NAVD. However, current simulations do not consider the range of rainfall events that have led to water table elevations>1.5m NAVD and widespread flooding of the area in the past. Tidal fluctuations in the water table are predicted to be more pronounced within 600m of a tidally influenced water control structure that is hydrodynamically connected to Biscayne Bay. The inland influence of tidal fluctuations appears to increase with increased sea level, but the principal driver of high groundwater levels under the 2060 scenario conditions remains groundwater recharge due to rainfall events.",
+        "authors": [
+            "author-0d516670b9b4efd5464a",
+            "author-3ec46d53d387d1093aa8",
+            "author-87ba9569b6782580f2fc",
+            "author-dba304ed6ab43d806b10",
+            "author-c79d29a449ad16e856fe"
+        ],
         "datasets": [
             "dataset-703"
         ],
@@ -3126,6 +3242,108 @@
             "status": "ok"
         },
         "doi": "10.1016/j.scitotenv.2017.10.170",
+        "keyphrases": {
+            "arch creek": {
+                "count": 1,
+                "rank_score": 0.06488208291702165
+            },
+            "areas<0.9m navd": {
+                "count": 1,
+                "rank_score": 0.10649255210317539
+            },
+            "biscayne bay": {
+                "count": 2,
+                "rank_score": 0.06185895741317419
+            },
+            "current conditions": {
+                "count": 1,
+                "rank_score": 0.0634396553357173
+            },
+            "elevations>1.5m navd": {
+                "count": 1,
+                "rank_score": 0.10602670155508452
+            },
+            "flooding events": {
+                "count": 1,
+                "rank_score": 0.07313763299718762
+            },
+            "frequent groundwater-related flooding": {
+                "count": 1,
+                "rank_score": 0.06778847925633222
+            },
+            "groundwater levels": {
+                "count": 2,
+                "rank_score": 0.12037686780918018
+            },
+            "groundwater recharge": {
+                "count": 1,
+                "rank_score": 0.09171638248408956
+            },
+            "high groundwater levels": {
+                "count": 1,
+                "rank_score": 0.11703295927680471
+            },
+            "increased rainfall lead": {
+                "count": 1,
+                "rank_score": 0.0766439901901119
+            },
+            "increased sea level": {
+                "count": 1,
+                "rank_score": 0.1067818645840109
+            },
+            "levels": {
+                "count": 1,
+                "rank_score": 0.09494585666568198
+            },
+            "local rates": {
+                "count": 1,
+                "rank_score": 0.05536284939453989
+            },
+            "long-term observed groundwater levels": {
+                "count": 1,
+                "rank_score": 0.08496806961495565
+            },
+            "long-term water table rise": {
+                "count": 1,
+                "rank_score": 0.08279097616126453
+            },
+            "projected sea level rise": {
+                "count": 1,
+                "rank_score": 0.11011638486932362
+            },
+            "rain-induced short-term water table": {
+                "count": 1,
+                "rank_score": 0.06048841983091718
+            },
+            "rainfall events": {
+                "count": 2,
+                "rank_score": 0.08128803907846718
+            },
+            "repetitive flooding": {
+                "count": 1,
+                "rank_score": 0.07012885206160241
+            },
+            "sea level rise": {
+                "count": 1,
+                "rank_score": 0.11432338485427336
+            },
+            "southeast florida usa": {
+                "count": 2,
+                "rank_score": 0.06600787334389664
+            },
+            "tidal fluctuations": {
+                "count": 2,
+                "rank_score": 0.06612240005175894
+            },
+            "water table": {
+                "count": 2,
+                "rank_score": 0.1007270909094949
+            },
+            "widespread flooding": {
+                "count": 1,
+                "rank_score": 0.06797389676877358
+            }
+        },
         "original": {
             "authors": "Sukop, Michael C, Rogers, Martina, Guannel, Greg, Infanti, Johnna M, Hagemann, Katherine",
             "date_added": "2020-01-22 12:16:54",
@@ -5610,6 +5828,12 @@
                 }
             ]
         },
+        "abstract": "To thrive in a time of rapid sea-level rise, tidal marshes will need to migrate upslope into adjacent uplands. Yet little is known about the mechanics of this process, especially in urbanized estuaries, where the adjacent upland is likely to be a mowed lawn rather than a wooded natural area. We studied marsh migration in a Long Island Sound salt marsh using detailed hydrologic, edaphic, and biotic sampling along marsh-to-upland transects in both wooded and lawn environments. We found that the overall pace of marsh development was largely unaffected by whether the upland being invaded was lawn or wooded, but the marsh-edge plant communities that developed in these two environments were quite different, and some indicators (soil salinity, foraminifera) appeared to migrate more easily into lawns. In addition, we found that different aspects of marsh structure and function migrated at different rates: Wetland vegetation appeared to be a leading indicator of marsh migration, while soil characteristics such as redox potential and surface salinity developed later in the process. We defined a 'hydrologic migration zone', consisting of elevations that experience tidal inundation with frequencies ranging from 20% to 0.5% of high tides. This hydrologically defined zone - which extended to an elevation higher than the highest astronomical tide datum - captured the biotic and edaphic marsh-upland ecotone. Tidal inundation at the upper border of this migration zone is highly variable over time and may be rising more rapidly than mean sea level. Our results indicate that land management practices at the upland periphery of tidal marshes can facilitate or impede ecosystem migration in response to rising sea level. These findings are applicable to large areas of tidal marsh along the U.S. Atlantic coast and in other urbanized coastal settings.",
+        "authors": [
+            "author-2ac17f1d000bdef45a1a",
+            "author-741a01cf80717ab74e0a",
+            "author-bf7a82b51514441d27ab"
+        ],
         "datasets": [
             "dataset-614"
         ],
@@ -5667,6 +5891,108 @@
             "status": "ok"
         },
         "doi": "10.1111/gcb.13398",
+        "keyphrases": {
+            "adjacent uplands": {
+                "count": 2,
+                "rank_score": 0.06242952404101832
+            },
+            "detailed hydrologic": {
+                "count": 1,
+                "rank_score": 0.06234840220337539
+            },
+            "different rates": {
+                "count": 1,
+                "rank_score": 0.0654607820293798
+            },
+            "ecosystem migration": {
+                "count": 1,
+                "rank_score": 0.06950337837154455
+            },
+            "high tides": {
+                "count": 1,
+                "rank_score": 0.06694937038490874
+            },
+            "land management practices": {
+                "count": 1,
+                "rank_score": 0.0647130679427236
+            },
+            "large areas": {
+                "count": 1,
+                "rank_score": 0.05996357505406634
+            },
+            "lawn": {
+                "count": 2,
+                "rank_score": 0.05525985137713435
+            },
+            "long island sound salt marsh": {
+                "count": 1,
+                "rank_score": 0.05755688091605942
+            },
+            "marsh development": {
+                "count": 1,
+                "rank_score": 0.06890673376664176
+            },
+            "marsh migration": {
+                "count": 2,
+                "rank_score": 0.06651805011335722
+            },
+            "marsh structure": {
+                "count": 2,
+                "rank_score": 0.08037473228947775
+            },
+            "mean sea level": {
+                "count": 1,
+                "rank_score": 0.07429289679777584
+            },
+            "other urbanized coastal settings": {
+                "count": 1,
+                "rank_score": 0.07343053669506529
+            },
+            "rapid sea-level rise": {
+                "count": 1,
+                "rank_score": 0.05255399915700243
+            },
+            "redox potential": {
+                "count": 1,
+                "rank_score": 0.05592426913146975
+            },
+            "rising sea level": {
+                "count": 1,
+                "rank_score": 0.0782068132254688
+            },
+            "soil characteristics": {
+                "count": 1,
+                "rank_score": 0.05894863132162006
+            },
+            "soil salinity": {
+                "count": 1,
+                "rank_score": 0.0668233977077716
+            },
+            "surface salinity": {
+                "count": 1,
+                "rank_score": 0.061358460754173505
+            },
+            "tidal inundation": {
+                "count": 2,
+                "rank_score": 0.08798209847786978
+            },
+            "tidal marshes": {
+                "count": 2,
+                "rank_score": 0.09842188580408665
+            },
+            "u.s. atlantic": {
+                "count": 1,
+                "rank_score": 0.04975354371332237
+            },
+            "urbanized estuaries": {
+                "count": 1,
+                "rank_score": 0.05324419240163589
+            },
+            "wetland vegetation": {
+                "count": 1,
+                "rank_score": 0.052016633867223064
+            }
+        },
         "original": {
             "authors": "Anisfeld, Shimon C, Cooper, Katharine R, Kemp, Andrew C",
             "date_added": "2020-01-22 12:16:54",

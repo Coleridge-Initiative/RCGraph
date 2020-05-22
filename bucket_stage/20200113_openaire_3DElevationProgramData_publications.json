@@ -1645,6 +1645,13 @@
                 }
             ]
         },
+        "abstract": "Data acquired by Harris Corporation’s (Melbourne, FL, USA) Geiger-mode IntelliEarth™ sensor and Sigma Space Corporation’s (Lanham-Seabrook, MD, USA) Single Photon HRQLS sensor were evaluated and compared to accepted 3D Elevation Program (3DEP) data and survey ground control to assess the suitability of these new technologies for the 3DEP. While not able to collect data currently to meet USGS lidar base specification, this is partially due to the fact that the specification was written for linear-mode systems specifically. With little effort on part of the manufacturers of the new lidar systems and the USGS Lidar specifications team, data from these systems could soon serve the 3DEP program and its users. Many of the shortcomings noted in this study have been reported to have been corrected or improved upon in the next generation sensors.",
+        "authors": [
+            "author-2a1b7b67585351fc66e1",
+            "author-1764adbbd36336102a22",
+            "author-6c60d03e586f9beeaa21",
+            "author-acb750c996eda4ab1b1e"
+        ],
         "datasets": [
             "dataset-611"
         ],
@@ -1707,6 +1714,84 @@
             "status": "ok"
         },
         "doi": "10.3390/rs8090767",
+        "keyphrases": {
+            "harris corporation": {
+                "count": 2,
+                "rank_score": 0.08525776404120944
+            },
+            "intelliearth": {
+                "count": 1,
+                "rank_score": 0.05366225808431842
+            },
+            "its users": {
+                "count": 1,
+                "rank_score": 0.020106356436136594
+            },
+            "lanham-seabrook": {
+                "count": 2,
+                "rank_score": 0.0387331087641924
+            },
+            "linear-mode systems": {
+                "count": 1,
+                "rank_score": 0.059186851026675695
+            },
+            "little effort": {
+                "count": 1,
+                "rank_score": 0.06870829166811733
+            },
+            "manufacturers": {
+                "count": 1,
+                "rank_score": 0.026309178124597286
+            },
+            "melbourne": {
+                "count": 1,
+                "rank_score": 0.04887980801090365
+            },
+            "new lidar systems": {
+                "count": 1,
+                "rank_score": 0.05582061703669628
+            },
+            "new technologies": {
+                "count": 1,
+                "rank_score": 0.0380638360736844
+            },
+            "next generation sensors": {
+                "count": 1,
+                "rank_score": 0.06163295397722755
+            },
+            "shortcomings": {
+                "count": 1,
+                "rank_score": 0.03386281656321871
+            },
+            "sigma space corporation": {
+                "count": 2,
+                "rank_score": 0.09104691955884309
+            },
+            "single photon hrqls sensor": {
+                "count": 1,
+                "rank_score": 0.10566879722813077
+            },
+            "specification": {
+                "count": 1,
+                "rank_score": 0.03880860279030205
+            },
+            "suitability": {
+                "count": 1,
+                "rank_score": 0.0265335035435989
+            },
+            "usgs lidar": {
+                "count": 1,
+                "rank_score": 0.05131321517384932
+            },
+            "usgs lidar base specification": {
+                "count": 1,
+                "rank_score": 0.10329267346806219
+            },
+            "usgs lidar specifications team": {
+                "count": 1,
+                "rank_score": 0.07112431211854785
+            }
+        },
         "original": {
             "authors": "Jason M. Stoker, Qassim A. Abdullah, Amar Nayegandhi, Jayna Winehouse",
             "date_added": "2020-01-14 12:58:41",
@@ -2325,6 +2410,12 @@
                 }
             ]
         },
+        "abstract": "The National Map provides geospatial data that support various uses such as resource management, disaster response, and science investigations. To properly support these needs, data themes of the National Map must be regularly updated and spatially integrated as the features on the ground change because of environmental or man-made events. The elevation theme of the National Map is managed through the 3D Elevation Program (3DEP), which is currently (2019) coordinating collection of high resolution (HR) elevation data for the United States over an eight-year period (Sugarbaker et al. 2014). Through this program, lidar point-cloud data are being collected for the conterminous United States, Hawaii, and U.S. territories, with coarser resolution interferometric synthetic aperture radar (ifsar) data being collected for the remote areas of Alaska. HR digital elevation models (DEMs) can be generated at 1 and 3 meter resolution from the lidar point-cloud data and are also furnished by 3DEP.This research develops automated methods to update the hydrography and transportation themes of the National Map in a manner that integrates with the HR elevation and image layers. Surface water drainage networks can be extracted from a HR DEM using flow-direction and flow-accumulation modelling, but results of these methods vary depending on environmental conditions and the existence of anthropogenic features that may affect the accuracy of the elevation model, such as vegetative cover, roads, bridges, and other urban structures. Hydrologic conditioning or enforcement of a HR DEM overcome some of these issues and improve flow modelling for drainage network extraction through techniques such as filtering (Passalaqua et al. 2010), filling sinks (Tarboton 1997), cutting channels through embankments at culvert and bridge locations (Poppenga et al. 2012), or burning-in existing streams (Maidment 1996). However, drainage network extraction results can vary substantially with these techniques and the methods generally require some manual intervention and/or tuning of parameters (Poppenga et al. 2013). Consequently, additional work is needed to streamline and further automate such methods for the various landscape conditions within the United States.",
+        "authors": [
+            "author-3180eda24b9dd18f2fce",
+            "author-78cfd3096be523518aa4",
+            "author-e0cde4256b0a8c863769"
+        ],
         "datasets": [
             "dataset-611"
         ],
@@ -2374,6 +2465,108 @@
             "status": "ok"
         },
         "doi": "10.5194/ica-abs-1-350-2019",
+        "keyphrases": {
+            "additional work": {
+                "count": 1,
+                "rank_score": 0.04584826243655171
+            },
+            "anthropogenic features": {
+                "count": 1,
+                "rank_score": 0.054915048476852094
+            },
+            "automated methods": {
+                "count": 1,
+                "rank_score": 0.07109594022076837
+            },
+            "coarser resolution interferometric synthetic aperture radar (ifsar) data": {
+                "count": 1,
+                "rank_score": 0.05223768432732702
+            },
+            "data themes": {
+                "count": 1,
+                "rank_score": 0.053250517853481
+            },
+            "disaster response": {
+                "count": 1,
+                "rank_score": 0.04877298740171254
+            },
+            "drainage network extraction": {
+                "count": 1,
+                "rank_score": 0.07838636077267937
+            },
+            "drainage network extraction results": {
+                "count": 1,
+                "rank_score": 0.08092714770789071
+            },
+            "environmental conditions": {
+                "count": 1,
+                "rank_score": 0.057922486115511734
+            },
+            "geospatial data": {
+                "count": 1,
+                "rank_score": 0.07019965617755926
+            },
+            "hr digital elevation models": {
+                "count": 1,
+                "rank_score": 0.07039713937405258
+            },
+            "hr elevation": {
+                "count": 1,
+                "rank_score": 0.04992121676993978
+            },
+            "lidar": {
+                "count": 1,
+                "rank_score": 0.04433078106333311
+            },
+            "lidar point-cloud data": {
+                "count": 1,
+                "rank_score": 0.05219513191394548
+            },
+            "other urban structures": {
+                "count": 1,
+                "rank_score": 0.052501881561215685
+            },
+            "passalaqua et al. 2010": {
+                "count": 1,
+                "rank_score": 0.05231563217626424
+            },
+            "poppenga": {
+                "count": 1,
+                "rank_score": 0.047448357613624766
+            },
+            "resource management": {
+                "count": 1,
+                "rank_score": 0.05092131345790045
+            },
+            "such methods": {
+                "count": 1,
+                "rank_score": 0.08126353469911883
+            },
+            "sugarbaker et al": {
+                "count": 1,
+                "rank_score": 0.07356448990275892
+            },
+            "sugarbaker et al.": {
+                "count": 1,
+                "rank_score": 0.07973863561225653
+            },
+            "surface water drainage networks": {
+                "count": 1,
+                "rank_score": 0.07189996083550507
+            },
+            "united states": {
+                "count": 5,
+                "rank_score": 0.058584567180894775
+            },
+            "various uses": {
+                "count": 1,
+                "rank_score": 0.05415320060817748
+            },
+            "vegetative cover": {
+                "count": 1,
+                "rank_score": 0.044039723807771526
+            }
+        },
         "original": {
             "authors": "Stanislawski, Lawrence, Brockmeyer, Tyler, Shavers, Ethan",
             "date_added": "2020-01-14 12:58:41",
@@ -2383,865 +2576,6 @@
             "url": "https://www.abstr-int-cartogr-assoc.net/1/350/2019/"
         },
         "title": "Automated Extraction of Drainage Channels and Roads through Deep Learning"
-    },
-    {
-        "Dimensions": {
-            "FOR": [
-                {
-                    "id": "2358",
-                    "name": "0104 Statistics"
-                }
-            ],
-            "FOR_first": [
-                {
-                    "id": "2201",
-                    "name": "01 Mathematical Sciences"
-                }
-            ],
-            "altmetric": 5.0,
-            "altmetric_id": 70914799,
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [
-                            {
-                                "name": "KBR, Contractor to U.S. Geological Survey (USGS) Earth Resources Observation and Science (EROS), Sioux Falls, SD 57198, USA"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "Minsu",
-                        "initials": "",
-                        "last_name": "Kim",
-                        "orcid": "",
-                        "researcher_id": ""
-                    },
-                    {
-                        "affiliations": [
-                            {
-                                "name": "United Support Services (USS), Contractor to USGS EROS, Sioux Falls, SD 57198, USA;, seonkyungpark@contractor.usgs.gov"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "Seonkyung",
-                        "initials": "",
-                        "last_name": "Park",
-                        "orcid": "",
-                        "researcher_id": ""
-                    },
-                    {
-                        "affiliations": [
-                            {
-                                "name": "USGS EROS, Sioux Falls, SD 57198, USA;, daniels@usgs.gov, (J.D.);, jrirwin@usgs.gov, (J.I.);, stensaas@usgs.gov, (G.S.)"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "Jeffrey",
-                        "initials": "",
-                        "last_name": "Danielson",
-                        "orcid": "",
-                        "researcher_id": ""
-                    },
-                    {
-                        "affiliations": [
-                            {
-                                "name": "USGS EROS, Sioux Falls, SD 57198, USA;, daniels@usgs.gov, (J.D.);, jrirwin@usgs.gov, (J.I.);, stensaas@usgs.gov, (G.S.)"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "Jeffrey",
-                        "initials": "",
-                        "last_name": "Irwin",
-                        "orcid": "",
-                        "researcher_id": ""
-                    },
-                    {
-                        "affiliations": [
-                            {
-                                "name": "USGS EROS, Sioux Falls, SD 57198, USA;, daniels@usgs.gov, (J.D.);, jrirwin@usgs.gov, (J.I.);, stensaas@usgs.gov, (G.S.)"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "Gregory",
-                        "initials": "",
-                        "last_name": "Stensaas",
-                        "orcid": "",
-                        "researcher_id": ""
-                    },
-                    {
-                        "affiliations": [
-                            {
-                                "city": "Reston",
-                                "city_id": 4781530,
-                                "country": "United States",
-                                "country_code": "US",
-                                "id": "grid.2865.9",
-                                "name": "United States Geological Survey",
-                                "state": "Virginia",
-                                "state_code": "US-VA"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "Jason",
-                        "initials": "",
-                        "last_name": "Stoker",
-                        "orcid": "",
-                        "researcher_id": ""
-                    },
-                    {
-                        "affiliations": [
-                            {
-                                "city": "Reston",
-                                "city_id": 4781530,
-                                "country": "United States",
-                                "country_code": "US",
-                                "id": "grid.2865.9",
-                                "name": "United States Geological Survey",
-                                "state": "Virginia",
-                                "state_code": "US-VA"
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "",
-                        "first_name": "Joshua",
-                        "initials": "",
-                        "last_name": "Nimetz",
-                        "orcid": "",
-                        "researcher_id": ""
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [
-                        {
-                            "name": "KBR, Contractor to U.S. Geological Survey (USGS) Earth Resources Observation and Science (EROS), Sioux Falls, SD 57198, USA"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "Minsu",
-                    "initials": "",
-                    "last_name": "Kim",
-                    "orcid": "",
-                    "researcher_id": ""
-                },
-                {
-                    "affiliations": [
-                        {
-                            "name": "United Support Services (USS), Contractor to USGS EROS, Sioux Falls, SD 57198, USA;, seonkyungpark@contractor.usgs.gov"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "Seonkyung",
-                    "initials": "",
-                    "last_name": "Park",
-                    "orcid": "",
-                    "researcher_id": ""
-                },
-                {
-                    "affiliations": [
-                        {
-                            "name": "USGS EROS, Sioux Falls, SD 57198, USA;, daniels@usgs.gov, (J.D.);, jrirwin@usgs.gov, (J.I.);, stensaas@usgs.gov, (G.S.)"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "Jeffrey",
-                    "initials": "",
-                    "last_name": "Danielson",
-                    "orcid": "",
-                    "researcher_id": ""
-                },
-                {
-                    "affiliations": [
-                        {
-                            "name": "USGS EROS, Sioux Falls, SD 57198, USA;, daniels@usgs.gov, (J.D.);, jrirwin@usgs.gov, (J.I.);, stensaas@usgs.gov, (G.S.)"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "Jeffrey",
-                    "initials": "",
-                    "last_name": "Irwin",
-                    "orcid": "",
-                    "researcher_id": ""
-                },
-                {
-                    "affiliations": [
-                        {
-                            "name": "USGS EROS, Sioux Falls, SD 57198, USA;, daniels@usgs.gov, (J.D.);, jrirwin@usgs.gov, (J.I.);, stensaas@usgs.gov, (G.S.)"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "Gregory",
-                    "initials": "",
-                    "last_name": "Stensaas",
-                    "orcid": "",
-                    "researcher_id": ""
-                },
-                {
-                    "affiliations": [
-                        {
-                            "city": "Reston",
-                            "city_id": 4781530,
-                            "country": "United States",
-                            "country_code": "US",
-                            "id": "grid.2865.9",
-                            "name": "United States Geological Survey",
-                            "state": "Virginia",
-                            "state_code": "US-VA"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "Jason",
-                    "initials": "",
-                    "last_name": "Stoker",
-                    "orcid": "",
-                    "researcher_id": ""
-                },
-                {
-                    "affiliations": [
-                        {
-                            "city": "Reston",
-                            "city_id": 4781530,
-                            "country": "United States",
-                            "country_code": "US",
-                            "id": "grid.2865.9",
-                            "name": "United States Geological Survey",
-                            "state": "Virginia",
-                            "state_code": "US-VA"
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "",
-                    "first_name": "Joshua",
-                    "initials": "",
-                    "last_name": "Nimetz",
-                    "orcid": "",
-                    "researcher_id": ""
-                }
-            ],
-            "category_for": [
-                {
-                    "id": "2209",
-                    "name": "09 Engineering"
-                },
-                {
-                    "id": "2891",
-                    "name": "0909 Geomatic Engineering"
-                },
-                {
-                    "id": "2539",
-                    "name": "0406 Physical Geography and Environmental Geoscience"
-                },
-                {
-                    "id": "2202",
-                    "name": "02 Physical Sciences"
-                },
-                {
-                    "id": "2395",
-                    "name": "0203 Classical Physics"
-                },
-                {
-                    "id": "2204",
-                    "name": "04 Earth Sciences"
-                }
-            ],
-            "category_ua": [
-                {
-                    "id": "30014",
-                    "name": "C14 Geography and Environmental Studies"
-                }
-            ],
-            "category_uoa": [
-                {
-                    "id": "30014",
-                    "name": "C14 Geography and Environmental Studies"
-                }
-            ],
-            "concepts": [
-                "accuracy",
-                "LiDAR data",
-                "RMSEz",
-                "accuracy assessment",
-                "LiDAR point clouds",
-                "point clouds",
-                "cloud",
-                "full 3D",
-                "main challenges",
-                "point",
-                "uncertainty values",
-                "values",
-                "airborne LiDAR data",
-                "results",
-                "unwanted errors",
-                "error",
-                "positional uncertainty",
-                "uncertainty",
-                "additional errors",
-                "accuracy assessment results",
-                "assessment results",
-                "inherent uncertainty",
-                "external uncertainties",
-                "point identification",
-                "uncertainty model",
-                "model",
-                "account",
-                "method",
-                "LiDAR point cloud data",
-                "point cloud data",
-                "cloud data",
-                "wide range",
-                "range",
-                "sensor quality",
-                "quality",
-                "point density",
-                "density",
-                "size",
-                "features of interest",
-                "semi-analytical function",
-                "plane",
-                "input",
-                "surface precision",
-                "precision",
-                "lidar system",
-                "system",
-                "quantitative guidelines",
-                "conditions",
-                "geometric features",
-                "applications",
-                "modeling",
-                "intersection points",
-                "absolute accuracy assessment"
-            ],
-            "date": "2019-11-21",
-            "date_inserted": "2019-11-24",
-            "doi": "10.3390/rs11232737",
-            "id": "pub.1122842998",
-            "issn": [
-                "2315-4675",
-                "2072-4292"
-            ],
-            "issue": "23",
-            "journal": {
-                "id": "jour.1049580",
-                "title": "Remote Sensing"
-            },
-            "journal_lists": [
-                "VABB-SHW",
-                "ERA 2018",
-                "Norwegian register level 1",
-                "DOAJ",
-                "ERA 2015"
-            ],
-            "linkout": "https://www.mdpi.com/2072-4292/11/23/2737/pdf",
-            "noun_phrases": [
-                "uncertainty model",
-                "point cloud",
-                "traditional practice",
-                "accuracy",
-                "LiDAR data",
-                "mean square error",
-                "vertical component",
-                "assessment",
-                "dimension",
-                "main challenge",
-                "conjugate point",
-                "checkpoint",
-                "uncertainty",
-                "airborne LiDAR",
-                "error",
-                "assessment result",
-                "inherent uncertainty",
-                "intersection",
-                "precision",
-                "density",
-                "method",
-                "point cloud data",
-                "wide range",
-                "sensor",
-                "feature",
-                "plane",
-                "input",
-                "general function",
-                "smooth surface",
-                "lidar system",
-                "guideline",
-                "condition",
-                "geometric feature",
-                "U.S. Geological Survey",
-                "elevation",
-                "library",
-                "modeling"
-            ],
-            "open_access": [
-                "Open Access - all",
-                "Open Access - publisher",
-                "Open Access - published"
-            ],
-            "open_access_categories": [
-                {
-                    "description": "Article is freely available",
-                    "id": "oa_all",
-                    "name": "All OA"
-                },
-                {
-                    "description": "Version Of Record (VOR) is free under an open licence from a full OA journal",
-                    "id": "gold_pure",
-                    "name": "Pure Gold"
-                }
-            ],
-            "pages": "2737",
-            "publisher": "MDPI",
-            "recent_citations": 1,
-            "reference_ids": [
-                "pub.1104344535",
-                "pub.1061612106",
-                "pub.1040803351",
-                "pub.1002520712",
-                "pub.1114005562",
-                "pub.1028186702",
-                "pub.1001996805",
-                "pub.1029167939",
-                "pub.1061638460",
-                "pub.1035910449",
-                "pub.1025757935",
-                "pub.1061155634",
-                "pub.1099098815",
-                "pub.1007208238",
-                "pub.1085763176",
-                "pub.1038768092",
-                "pub.1032396121",
-                "pub.1099056617",
-                "pub.1021898059",
-                "pub.1013159821",
-                "pub.1094793027",
-                "pub.1117315948",
-                "pub.1014500977"
-            ],
-            "references": [
-                "pub.1104344535",
-                "pub.1061612106",
-                "pub.1040803351",
-                "pub.1002520712",
-                "pub.1114005562",
-                "pub.1028186702",
-                "pub.1001996805",
-                "pub.1029167939",
-                "pub.1061638460",
-                "pub.1035910449",
-                "pub.1025757935",
-                "pub.1061155634",
-                "pub.1099098815",
-                "pub.1007208238",
-                "pub.1085763176",
-                "pub.1038768092",
-                "pub.1032396121",
-                "pub.1099056617",
-                "pub.1021898059",
-                "pub.1013159821",
-                "pub.1094793027",
-                "pub.1117315948",
-                "pub.1014500977"
-            ],
-            "research_org_cities": [
-                {
-                    "id": 4781530,
-                    "name": "Reston"
-                },
-                {
-                    "id": 5231851,
-                    "name": "Sioux Falls"
-                }
-            ],
-            "research_org_countries": [
-                {
-                    "id": "US",
-                    "name": "United States"
-                }
-            ],
-            "research_org_country_names": [
-                "United States"
-            ],
-            "research_org_names": [
-                "KBR, Contractor to U.S. Geological Survey (USGS) Earth Resources Observation and Science (EROS), Sioux Falls, SD 57198, USA",
-                "United States Geological Survey",
-                "USGS EROS, Sioux Falls, SD 57198, USA;, daniels@usgs.gov, (J.D.);, jrirwin@usgs.gov, (J.I.);, stensaas@usgs.gov, (G.S.)",
-                "United Support Services (USS), Contractor to USGS EROS, Sioux Falls, SD 57198, USA;, seonkyungpark@contractor.usgs.gov"
-            ],
-            "research_org_state_codes": [
-                {
-                    "id": "US-SD",
-                    "name": "South Dakota"
-                },
-                {
-                    "id": "US-VA",
-                    "name": "Virginia"
-                }
-            ],
-            "research_org_state_names": [
-                "Virginia",
-                "South Dakota"
-            ],
-            "research_orgs": [
-                {
-                    "acronym": "USGS",
-                    "city_name": "Reston",
-                    "country_name": "United States",
-                    "id": "grid.2865.9",
-                    "latitude": 38.94762,
-                    "linkout": [
-                        "http://www.usgs.gov/"
-                    ],
-                    "longitude": -77.36789,
-                    "name": "United States Geological Survey",
-                    "state_name": "Virginia",
-                    "types": [
-                        "Government"
-                    ]
-                }
-            ],
-            "terms": [
-                "accuracy",
-                "LiDAR data",
-                "RMSEz",
-                "accuracy assessment",
-                "LiDAR point clouds",
-                "point clouds",
-                "cloud",
-                "full 3D",
-                "main challenges",
-                "point",
-                "uncertainty values",
-                "values",
-                "airborne LiDAR data",
-                "results",
-                "unwanted errors",
-                "error",
-                "positional uncertainty",
-                "uncertainty",
-                "additional errors",
-                "accuracy assessment results",
-                "assessment results",
-                "inherent uncertainty",
-                "external uncertainties",
-                "point identification",
-                "uncertainty model",
-                "model",
-                "account",
-                "method",
-                "LiDAR point cloud data",
-                "point cloud data",
-                "cloud data",
-                "wide range",
-                "range",
-                "sensor quality",
-                "quality",
-                "point density",
-                "density",
-                "size",
-                "features of interest",
-                "semi-analytical function",
-                "plane",
-                "input",
-                "surface precision",
-                "precision",
-                "lidar system",
-                "system",
-                "quantitative guidelines",
-                "conditions",
-                "geometric features",
-                "applications",
-                "modeling",
-                "intersection points",
-                "absolute accuracy assessment"
-            ],
-            "times_cited": 1,
-            "title": "General External Uncertainty Models of Three-Plane Intersection Point for 3D Absolute Accuracy Assessment of Lidar Point Cloud",
-            "type": "article",
-            "volume": "11",
-            "year": 2019
-        },
-        "OpenAIRE": {
-            "authors": [
-                "Kim, Minsu",
-                "Park, Seonkyung",
-                "Danielson, Jeffrey",
-                "Irwin, Jeffrey",
-                "Stensaas, Gregory",
-                "Stoker, Jason",
-                "Nimetz, Joshua"
-            ],
-            "open": true,
-            "url": "http://dx.doi.org/10.3390/rs11232737"
-        },
-        "Semantic Scholar": {
-            "abstract": null,
-            "arxivId": null,
-            "authors": [
-                {
-                    "authorId": "49108421",
-                    "name": "Minsu Kim",
-                    "url": "https://www.semanticscholar.org/author/49108421"
-                },
-                {
-                    "authorId": "11517339",
-                    "name": "Seonkyung Park",
-                    "url": "https://www.semanticscholar.org/author/11517339"
-                },
-                {
-                    "authorId": "2581334",
-                    "name": "Jeffrey Danielson",
-                    "url": "https://www.semanticscholar.org/author/2581334"
-                },
-                {
-                    "authorId": "153778641",
-                    "name": "Jeffrey Irwin",
-                    "url": "https://www.semanticscholar.org/author/153778641"
-                },
-                {
-                    "authorId": "1486492740",
-                    "name": "Gregory Stensaas",
-                    "url": "https://www.semanticscholar.org/author/1486492740"
-                },
-                {
-                    "authorId": "49329155",
-                    "name": "Jason M. Stoker",
-                    "url": "https://www.semanticscholar.org/author/49329155"
-                },
-                {
-                    "authorId": "1486483011",
-                    "name": "Joshua Nimetz",
-                    "url": "https://www.semanticscholar.org/author/1486483011"
-                }
-            ],
-            "citationVelocity": 0,
-            "citations": [],
-            "doi": "10.3390/rs11232737",
-            "influentialCitationCount": 0,
-            "is_publisher_licensed": false,
-            "paperId": "8f334c53bf2845a983ebc07e8881afffd726dfdb",
-            "references": [],
-            "title": "General External Uncertainty Models of Three-Plane Intersection Point for 3D Absolute Accuracy Assessment of Lidar Point Cloud",
-            "topics": [
-                {
-                    "topic": "Point cloud",
-                    "topicId": "8292",
-                    "url": "https://www.semanticscholar.org/topic/8292"
-                }
-            ],
-            "url": "https://www.semanticscholar.org/paper/8f334c53bf2845a983ebc07e8881afffd726dfdb",
-            "venue": "Remote Sensing",
-            "year": 2019
-        },
-        "Unpaywall": {
-            "best_oa_location": {
-                "endpoint_id": null,
-                "evidence": "open (via page says license)",
-                "host_type": "publisher",
-                "is_best": true,
-                "license": "cc-by",
-                "pmh_id": null,
-                "repository_institution": null,
-                "updated": "2020-01-01T05:00:52.666453",
-                "url": "https://www.mdpi.com/2072-4292/11/23/2737/pdf",
-                "url_for_landing_page": "https://doi.org/10.3390/rs11232737",
-                "url_for_pdf": "https://www.mdpi.com/2072-4292/11/23/2737/pdf",
-                "version": "publishedVersion"
-            },
-            "data_standard": 2,
-            "doi": "10.3390/rs11232737",
-            "doi_url": "https://doi.org/10.3390/rs11232737",
-            "genre": "journal-article",
-            "has_repository_copy": false,
-            "is_oa": true,
-            "journal_is_in_doaj": true,
-            "journal_is_oa": true,
-            "journal_issn_l": "2072-4292",
-            "journal_issns": "2072-4292",
-            "journal_name": "Remote Sensing",
-            "oa_locations": [
-                {
-                    "endpoint_id": null,
-                    "evidence": "open (via page says license)",
-                    "host_type": "publisher",
-                    "is_best": true,
-                    "license": "cc-by",
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2020-01-01T05:00:52.666453",
-                    "url": "https://www.mdpi.com/2072-4292/11/23/2737/pdf",
-                    "url_for_landing_page": "https://doi.org/10.3390/rs11232737",
-                    "url_for_pdf": "https://www.mdpi.com/2072-4292/11/23/2737/pdf",
-                    "version": "publishedVersion"
-                },
-                {
-                    "endpoint_id": null,
-                    "evidence": "oa journal (via doaj)",
-                    "host_type": "publisher",
-                    "is_best": false,
-                    "license": "cc-by",
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2020-01-17T23:23:21.559520",
-                    "url": "https://doi.org/10.3390/rs11232737",
-                    "url_for_landing_page": "https://doi.org/10.3390/rs11232737",
-                    "url_for_pdf": null,
-                    "version": "publishedVersion"
-                }
-            ],
-            "oa_status": "gold",
-            "published_date": "2019-11-21",
-            "publisher": "MDPI AG",
-            "title": "General External Uncertainty Models of Three-Plane Intersection Point for 3D Absolute Accuracy Assessment of Lidar Point Cloud",
-            "updated": "2019-11-22T21:28:29.355572",
-            "year": 2019,
-            "z_authors": [
-                {
-                    "ORCID": "http://orcid.org/0000-0003-4472-0926",
-                    "authenticated-orcid": false,
-                    "family": "Kim",
-                    "given": "Minsu",
-                    "sequence": "first"
-                },
-                {
-                    "family": "Park",
-                    "given": "Seonkyung",
-                    "sequence": "additional"
-                },
-                {
-                    "ORCID": "http://orcid.org/0000-0003-0907-034X",
-                    "authenticated-orcid": false,
-                    "family": "Danielson",
-                    "given": "Jeffrey",
-                    "sequence": "additional"
-                },
-                {
-                    "family": "Irwin",
-                    "given": "Jeffrey",
-                    "sequence": "additional"
-                },
-                {
-                    "family": "Stensaas",
-                    "given": "Gregory",
-                    "sequence": "additional"
-                },
-                {
-                    "ORCID": "http://orcid.org/0000-0003-2455-0931",
-                    "authenticated-orcid": false,
-                    "family": "Stoker",
-                    "given": "Jason",
-                    "sequence": "additional"
-                },
-                {
-                    "family": "Nimetz",
-                    "given": "Joshua",
-                    "sequence": "additional"
-                }
-            ]
-        },
-        "datasets": [
-            "dataset-611"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "name": {
-                            "first": "Minsu",
-                            "last": "Kim"
-                        },
-                        "orcid": "0000-0003-4472-0926"
-                    },
-                    {
-                        "name": {
-                            "first": "Seonkyung",
-                            "last": "Park"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "Jeffrey",
-                            "last": "Danielson"
-                        },
-                        "orcid": "0000-0003-0907-034X"
-                    },
-                    {
-                        "name": {
-                            "first": "Jeffrey",
-                            "last": "Irwin"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "Gregory",
-                            "last": "Stensaas"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "Jason",
-                            "last": "Stoker"
-                        },
-                        "orcid": "0000-0003-2455-0931"
-                    },
-                    {
-                        "name": {
-                            "first": "Joshua",
-                            "last": "Nimetz"
-                        }
-                    }
-                ],
-                "classification": "OA",
-                "date": "2019-11-21",
-                "pdf_url": "https://doi.org/10.3390/rs11232737",
-                "records": [
-                    {
-                        "abstract": "The traditional practice to assess accuracy in lidar data involves calculating RMSEz (root mean square error of the vertical component). Accuracy assessment of lidar point clouds in full 3D (three dimension) is not routinely performed. The main challenge in assessing accuracy in full 3D is how to identify a conjugate point of a ground-surveyed checkpoint in the lidar point cloud with the smallest possible uncertainty value. Relatively coarse point-spacing in airborne lidar data makes it challenging to determine a conjugate point accurately. As a result, a substantial unwanted error is added to the inherent positional uncertainty of the lidar data. Unless we keep this additional error small enough, the 3D accuracy assessment result will not properly represent the inherent uncertainty. We call this added error “external uncertainty,” which is associated with conjugate point identification. This research developed a general external uncertainty model using three-plane intersections and accounts for several factors (sensor precision, feature dimension, and point density). This method can be used for lidar point cloud data from a wide range of sensor qualities, point densities, and sizes of the features of interest. The external uncertainty model was derived as a semi-analytical function that takes the number of points on a plane as an input. It is a normalized general function that can be scaled by smooth surface precision (SSP) of a lidar system. This general uncertainty model provides a quantitative guideline on the required conditions for the conjugate point based on the geometric features. Applications of the external uncertainty model were demonstrated using various lidar point cloud data from the U.S. Geological Survey (USGS) 3D Elevation Program (3DEP) library to determine the valid conditions for a conjugate point from three-plane modeling.",
-                        "doi": "10.3390/rs11232737",
-                        "identifier": "oai:crossref.org:10.3390/rs11232737",
-                        "issn": "2072-4292",
-                        "issue": "23",
-                        "journal": "Remote Sensing",
-                        "pages": "2737",
-                        "pdf_url": "https://doi.org/10.3390/rs11232737",
-                        "policy": {
-                            "postprint": "can",
-                            "preprint": "can",
-                            "published": "can",
-                            "romeo_id": "487"
-                        },
-                        "publisher": "MDPI AG",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.3390/rs11232737",
-                        "type": "journal-article",
-                        "volume": "11"
-                    }
-                ],
-                "title": "General External Uncertainty Models of Three-Plane Intersection Point for 3D Absolute Accuracy Assessment of Lidar Point Cloud",
-                "type": "journal-article"
-            },
-            "status": "ok"
-        },
-        "doi": "10.3390/rs11232737",
-        "original": {
-            "authors": "Kim, Minsu, Park, Seonkyung, Danielson, Jeffrey, Irwin, Jeffrey, Stensaas, Gregory, Stoker, Jason, Nimetz, Joshua",
-            "date_added": "2020-01-14 12:58:41",
-            "doi": "10.3390/rs11232737",
-            "journal": "Remote Sensing",
-            "search_term": "3D Elevation Program Data",
-            "url": "https://www.mdpi.com/2072-4292/11/23/2737/htm"
-        },
-        "title": "General External Uncertainty Models of Three-Plane Intersection Point for 3D Absolute Accuracy Assessment of Lidar Point Cloud"
     },
     {
         "Dimensions": {
@@ -3914,6 +3248,11 @@
                 }
             ]
         },
+        "abstract": "Abstract. Spot elevations published on historical U.S. Geological Survey (USGS) topographic maps were established as needed to enhance information imparted by the quadrangle’s contours. In addition to a number of other features like road intersections, section corners, lakes and water wells, labels were routinely placed on mountain peaks, local high points, passes and saddles. While some elevations were established through field survey triangulation, many were “dropped” during photogrammetric stereocompilation. The average accuracy, which varied with method, terrain, and map vintage, was on the order of ± 10 feet. Today, inexpensive consumer devices deliver comparable accuracy using the Global Positioning System (GPS). Professional equipment can achieve even better accuracies. These methods have replaced the field- and funding-intensive traditional triangulation methods in the geographic sciences. However, since GPS measurements require visiting the feature location, a national dataset containing high-accuracy spot elevations has not yet been created. Consequently, modern US Topo maps are devoid of mountain peak or other spot elevations. Additionally, no government agency is currently mandated to create one. Still, US Topo map users continue to demand the display of spot heights, particularly mountain peak elevations. As lidar data are collected through the 3D Elevation Program (3DEP), the source for higher accuracy spot heights increases. Therefore, a pilot study was conducted to evaluate the feasibility of automatically generating elevation values at summits named in the Board on Geographic Name’s Geographic Names Information System (GNIS), using 3DEP data. As the 3DEP incorporates more lidar data, these values should become increasingly more accurate. The first step in the automation process involved “snapping” GNIS summits to the highest and most accurate nearby point (pixel) in the 3DEP one-third arc second seamless dataset (1/3 a-s). Development of this step was completed in a prior study and will be reported elsewhere. In Step 2, a process similar to Step 1 was implemented to identify the highest pixel in the 3DEP one-meter dataset (1-m) from an area defined by a one-pixel buffer around the snapped point pixel. After finding the highest pixel in the 1-m dataset, the same process for Step 2 was repeated on the lidar point cloud dataset (LPC). In the latter case, the highest lidar point within the buffered area was chosen where there were more than one, which was the case in most instances. In the case that the next higher resolution data were unavailable, the summit spot elevation was set to the value obtained from the lower resolution layer. Hence, if 1-m data were unavailable, but LPC data did exist, the program in its current state was unable use the higher resolution data. This is due to the fact that the 1-m data are employed to drive the software to a more precise location of the summit. Without that intermediate step the method fails to identify the correct LPC point. Work in progress is aimed at overcoming this disadvantage, which is particularly important until the time when the 1-m dataset is populated for the entire nation. The National Geospatial Program estimates the completion of lidar acquisition by 2023. Processing from acquisition to update of the 1-m dataset, including quality assessment and revisions, currently requires between two and three years. Resulting elevation values are compared to those published by Peakbagger.com and TOPOZONE.com. Preliminary results from 40 summits indicate that values derived from lidar are generally higher, whereas those populated from the 1/3 arc-second are generally lower. A thorough understanding of these relationships will require the evaluation of more points.",
+        "authors": [
+            "author-c901ee13907e1eaa3fa8",
+            "author-585a6bf1bb3c778199c8"
+        ],
         "datasets": [
             "dataset-611"
         ],
@@ -3957,6 +3296,108 @@
             "status": "ok"
         },
         "doi": "10.5194/ica-abs-1-17-2019",
+        "keyphrases": {
+            "comparable accuracy": {
+                "count": 1,
+                "rank_score": 0.05974592390891419
+            },
+            "field survey triangulation": {
+                "count": 1,
+                "rank_score": 0.049344520090323266
+            },
+            "geographic names information system": {
+                "count": 1,
+                "rank_score": 0.05511588367890056
+            },
+            "high-accuracy spot elevations": {
+                "count": 1,
+                "rank_score": 0.06462572988643815
+            },
+            "higher accuracy spot heights": {
+                "count": 1,
+                "rank_score": 0.08861404351693539
+            },
+            "higher resolution data": {
+                "count": 1,
+                "rank_score": 0.05467454454263315
+            },
+            "highest lidar point": {
+                "count": 1,
+                "rank_score": 0.0587372133051682
+            },
+            "lidar": {
+                "count": 1,
+                "rank_score": 0.05578044937183353
+            },
+            "lidar acquisition": {
+                "count": 1,
+                "rank_score": 0.060230238891902384
+            },
+            "lidar data": {
+                "count": 1,
+                "rank_score": 0.07310216674862058
+            },
+            "local high points": {
+                "count": 1,
+                "rank_score": 0.08232550875184404
+            },
+            "lpc data": {
+                "count": 1,
+                "rank_score": 0.06337738247674145
+            },
+            "modern us topo maps": {
+                "count": 1,
+                "rank_score": 0.0575370266495632
+            },
+            "more lidar data": {
+                "count": 1,
+                "rank_score": 0.07332222707920194
+            },
+            "more points": {
+                "count": 1,
+                "rank_score": 0.06177105579559891
+            },
+            "mountain peaks": {
+                "count": 2,
+                "rank_score": 0.05231340512931448
+            },
+            "next higher resolution data": {
+                "count": 1,
+                "rank_score": 0.05617942890690979
+            },
+            "other spot elevations": {
+                "count": 1,
+                "rank_score": 0.0730848889666099
+            },
+            "resulting elevation values": {
+                "count": 1,
+                "rank_score": 0.06973621766317213
+            },
+            "spot elevations": {
+                "count": 1,
+                "rank_score": 0.07163809223926636
+            },
+            "spot heights": {
+                "count": 1,
+                "rank_score": 0.058302142830629074
+            },
+            "summit spot elevation": {
+                "count": 1,
+                "rank_score": 0.050132082286124174
+            },
+            "summits": {
+                "count": 3,
+                "rank_score": 0.04996085795219102
+            },
+            "us topo map users": {
+                "count": 1,
+                "rank_score": 0.05948373056488969
+            },
+            "values": {
+                "count": 3,
+                "rank_score": 0.05496327478462995
+            }
+        },
         "original": {
             "authors": "Arundel, Samantha T., Chan, Arthur",
             "date_added": "2020-01-14 12:58:41",
@@ -4881,11 +4322,119 @@
                 }
             ]
         },
+        "abstract": "Historic lead and zinc (Pb-Zn) mining in southeast Missouri’s “Old Lead Belt” has left large chat piles dominating the landscape where prior to 1972 mining was the major industry of the region. As a result of variable beneficiation methods over the history of mining activity, these piles remain with large quantities of unrecovered Pb and Zn and to a lesser extent cadmium (Cd). Quantifying the residual content of trace metals in chat piles is problematic because of the extensive field effort that must go into collecting elevation points for volumetric analysis. This investigation demonstrates that publicly available lidar point data from the U.S. Geological Survey 3D Elevation Program (3DEP) can be used to effectively calculate chat pile volumes as a method of more accurately estimating the total residual trace metal content in these mining wastes. Five chat piles located in St. Francois County, Missouri, were quantified for residual trace metal content. Utilizing lidar point cloud data collected in 2011 and existing trace metal concentration data obtained during remedial investigations, residual content of these chat piles ranged from 9247 to 88,579 metric tons Pb, 1925 to 52,306 metric tons Zn, and 51 to 1107 metric tons Cd. Development of new beneficiation methods for recovering these constituents from chat piles would need to achieve current Federal soil screening standards. To achieve this for the five chat piles investigated, 42 to 72% of residual Pb would require mitigation to the 1200 mg/kg Federal non-playground standard, 88 to 98% of residual Zn would require mitigation to the Ecological Soil Screening level (ESSL) for plant life, and 70% to 98% of Cd would require mitigation to achieve the ESSL. Achieving these goals through an existing or future beneficiation method(s) would remediate chat to a trace metal concentration level that would support its use as a safe agricultural soil amendment.",
+        "authors": [
+            "author-e79c5f2eca72ce08465e",
+            "author-bf6610f8827b9106d58e",
+            "author-560fd18ac86b27d4d67f"
+        ],
         "datasets": [
             "dataset-611",
             "dataset-633"
         ],
         "doi": "10.3934/environsci.2016.3.509",
+        "keyphrases": {
+            "chat": {
+                "count": 1,
+                "rank_score": 0.08286310778667386
+            },
+            "chat pile volumes": {
+                "count": 1,
+                "rank_score": 0.1057511132688419
+            },
+            "chat piles": {
+                "count": 5,
+                "rank_score": 0.10917133044119984
+            },
+            "current federal soil screening standards": {
+                "count": 1,
+                "rank_score": 0.07472553669455728
+            },
+            "elevation points": {
+                "count": 1,
+                "rank_score": 0.067947691792877
+            },
+            "existing trace metal concentration data": {
+                "count": 1,
+                "rank_score": 0.09684190748582122
+            },
+            "historic lead": {
+                "count": 1,
+                "rank_score": 0.05613608914238398
+            },
+            "large chat piles": {
+                "count": 1,
+                "rank_score": 0.10928278101190401
+            },
+            "large quantities": {
+                "count": 1,
+                "rank_score": 0.05657436836369595
+            },
+            "lidar point cloud data": {
+                "count": 1,
+                "rank_score": 0.08485424637320815
+            },
+            "mg/kg federal non-playground standard": {
+                "count": 2,
+                "rank_score": 0.05710757096368056
+            },
+            "mining activity": {
+                "count": 1,
+                "rank_score": 0.06199829532394023
+            },
+            "new beneficiation methods": {
+                "count": 1,
+                "rank_score": 0.07536198212466116
+            },
+            "old lead belt": {
+                "count": 2,
+                "rank_score": 0.05497482276866126
+            },
+            "publicly available lidar point data": {
+                "count": 1,
+                "rank_score": 0.056744257997024955
+            },
+            "residual content": {
+                "count": 2,
+                "rank_score": 0.08595832853557536
+            },
+            "residual pb": {
+                "count": 1,
+                "rank_score": 0.08324789513448679
+            },
+            "residual trace metal content": {
+                "count": 1,
+                "rank_score": 0.10570093033093855
+            },
+            "residual zn": {
+                "count": 1,
+                "rank_score": 0.08354877794180059
+            },
+            "st. francois county": {
+                "count": 2,
+                "rank_score": 0.056759186018688026
+            },
+            "total residual trace metal content": {
+                "count": 1,
+                "rank_score": 0.07248861576987345
+            },
+            "trace metal concentration level": {
+                "count": 1,
+                "rank_score": 0.06362202884446481
+            },
+            "trace metals": {
+                "count": 1,
+                "rank_score": 0.08771711784871347
+            },
+            "unrecovered pb": {
+                "count": 1,
+                "rank_score": 0.058697667692421816
+            },
+            "variable beneficiation methods": {
+                "count": 1,
+                "rank_score": 0.07536198212466116
+            }
+        },
         "original": {
             "authors": "Emitt C. Witt III",
             "date_added": "2020-01-14 12:58:41",
@@ -4895,577 +4444,6 @@
             "url": "http://www.aimspress.com/environmental/article/916/fulltext.html"
         },
         "title": "Use of lidar point cloud data to support estimation of residual trace metals stored in mine chat piles in the Old Lead Belt of southeastern, Missouri"
-    },
-    {
-        "Dimensions": {
-            "FOR": [
-                {
-                    "id": "2891",
-                    "name": "0909 Geomatic Engineering"
-                },
-                {
-                    "id": "2746",
-                    "name": "0801 Artificial Intelligence and Image Processing"
-                }
-            ],
-            "FOR_first": [
-                {
-                    "id": "2209",
-                    "name": "09 Engineering"
-                },
-                {
-                    "id": "2208",
-                    "name": "08 Information and Computing Sciences"
-                }
-            ],
-            "altmetric_id": 0,
-            "author_affiliations": [
-                [
-                    {
-                        "affiliations": [
-                            {
-                                "city": "Munich",
-                                "city_id": 2867714,
-                                "country": "Germany",
-                                "country_code": "DE",
-                                "id": "grid.7752.7",
-                                "name": "Bundeswehr University Munich",
-                                "state": null,
-                                "state_code": null
-                            }
-                        ],
-                        "corresponding": "",
-                        "current_organization_id": "grid.7752.7",
-                        "first_name": "W.",
-                        "initials": "",
-                        "last_name": "Tampubolon",
-                        "orcid": "['0000-0002-2504-8620']",
-                        "researcher_id": "ur.014521675045.25"
-                    },
-                    {
-                        "affiliations": [],
-                        "corresponding": "",
-                        "current_organization_id": "grid.7752.7",
-                        "first_name": "W.",
-                        "initials": "",
-                        "last_name": "Reinhardt",
-                        "orcid": "",
-                        "researcher_id": "ur.07347616005.20"
-                    }
-                ]
-            ],
-            "authors": [
-                {
-                    "affiliations": [
-                        {
-                            "city": "Munich",
-                            "city_id": 2867714,
-                            "country": "Germany",
-                            "country_code": "DE",
-                            "id": "grid.7752.7",
-                            "name": "Bundeswehr University Munich",
-                            "state": null,
-                            "state_code": null
-                        }
-                    ],
-                    "corresponding": "",
-                    "current_organization_id": "grid.7752.7",
-                    "first_name": "W.",
-                    "initials": "",
-                    "last_name": "Tampubolon",
-                    "orcid": "['0000-0002-2504-8620']",
-                    "researcher_id": "ur.014521675045.25"
-                },
-                {
-                    "affiliations": [],
-                    "corresponding": "",
-                    "current_organization_id": "grid.7752.7",
-                    "first_name": "W.",
-                    "initials": "",
-                    "last_name": "Reinhardt",
-                    "orcid": "",
-                    "researcher_id": "ur.07347616005.20"
-                }
-            ],
-            "category_for": [
-                {
-                    "id": "2209",
-                    "name": "09 Engineering"
-                },
-                {
-                    "id": "2891",
-                    "name": "0909 Geomatic Engineering"
-                }
-            ],
-            "category_ua": [
-                {
-                    "id": "30014",
-                    "name": "C14 Geography and Environmental Studies"
-                }
-            ],
-            "category_uoa": [
-                {
-                    "id": "30014",
-                    "name": "C14 Geography and Environmental Studies"
-                }
-            ],
-            "concepts": [
-                "large scale topographical mapping",
-                "mapping",
-                "prominent challenges",
-                "challenges",
-                "geospatial industry",
-                "industry",
-                "side",
-                "demand",
-                "limited budget",
-                "budget",
-                "project",
-                "advent",
-                "geospatial information",
-                "information",
-                "development e.",
-                "e.",
-                "relies",
-                "survey campaign",
-                "order",
-                "geospatial data sources",
-                "data sources",
-                "source",
-                "AERO model",
-                "model",
-                "unmanned aerial vehicles",
-                "aerial vehicles",
-                "vehicle",
-                "acquisition possibilities",
-                "possibility",
-                "small area",
-                "area",
-                "interest (ROI) i.",
-                "spatial planning purposes",
-                "planning purposes",
-                "area size",
-                "size",
-                "mapping units",
-                "units",
-                "different cameras",
-                "camera",
-                "processing software system",
-                "system",
-                "components",
-                "combination",
-                "data processing scheme",
-                "processing scheme",
-                "scheme",
-                "AOI",
-                "detailed accuracy assessment",
-                "accuracy assessment",
-                "object features",
-                "features",
-                "objects",
-                "digital terrain model",
-                "terrain model",
-                "digital elevation model",
-                "elevation model",
-                "main interest",
-                "interest",
-                "mapping activities",
-                "research",
-                "optimum amount",
-                "amount",
-                "GCP",
-                "data processing",
-                "processing",
-                "accuracy",
-                "high resolution",
-                "resolution",
-                "ground sampling distance",
-                "sampling distance",
-                "distance",
-                "results",
-                "benchmarks",
-                "geospatial data acquisition",
-                "data acquisition",
-                "acquisition",
-                "map scale",
-                "scale",
-                "UAV data processing"
-            ],
-            "date": "2014-06-06",
-            "date_inserted": "2017-08-31",
-            "doi": "10.5194/isprsarchives-xl-5-565-2014",
-            "field_citation_ratio": 2.39,
-            "id": "pub.1015761168",
-            "issn": [
-                "1682-1750",
-                "2194-9034"
-            ],
-            "issue": "1",
-            "journal": {
-                "id": "jour.1313806",
-                "title": "ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences"
-            },
-            "journal_lists": [
-                "DOAJ",
-                "ERA 2018",
-                "Norwegian register level 1"
-            ],
-            "linkout": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XL-5/565/2014/isprsarchives-XL-5-565-2014.pdf",
-            "noun_phrases": [
-                "data processing",
-                "large scale",
-                "third world country",
-                "challenge",
-                "industry",
-                "demand",
-                "limited budget",
-                "mapping project",
-                "advent",
-                "geospatial information",
-                "high priority",
-                "development",
-                "spatial planning",
-                "campaign",
-                "high resolution",
-                "hobby",
-                "aero",
-                "unmanned aerial vehicle",
-                "data acquisition",
-                "hectare",
-                "Indonesia",
-                "mapping",
-                "concentrate",
-                "district",
-                "camera",
-                "processing software",
-                "processing scheme",
-                "selected area",
-                "cultural heritage",
-                "temple",
-                "wonder",
-                "assessment",
-                "object feature",
-                "first place",
-                "compilation",
-                "digital terrain model",
-                "digital elevation model",
-                "main interest",
-                "topographic mapping",
-                "optimum",
-                "accuracy",
-                "cm",
-                "sampling",
-                "benchmark",
-                "scale"
-            ],
-            "open_access": [
-                "Open Access - all",
-                "Open Access - publisher",
-                "Open Access - published"
-            ],
-            "open_access_categories": [
-                {
-                    "description": "Article is freely available",
-                    "id": "oa_all",
-                    "name": "All OA"
-                },
-                {
-                    "description": "Version Of Record (VOR) is free under an open licence from a full OA journal",
-                    "id": "gold_pure",
-                    "name": "Pure Gold"
-                }
-            ],
-            "pages": "565-572",
-            "publisher": "Copernicus Publications",
-            "recent_citations": 7,
-            "research_org_cities": [
-                {
-                    "id": 2867714,
-                    "name": "Munich"
-                }
-            ],
-            "research_org_countries": [
-                {
-                    "id": "DE",
-                    "name": "Germany"
-                }
-            ],
-            "research_org_country_names": [
-                "Germany"
-            ],
-            "research_org_names": [
-                "Bundeswehr University Munich"
-            ],
-            "research_orgs": [
-                {
-                    "city_name": "Munich",
-                    "country_name": "Germany",
-                    "id": "grid.7752.7",
-                    "latitude": 48.080276,
-                    "linkout": [
-                        "http://www.unibw.de/"
-                    ],
-                    "longitude": 11.638056,
-                    "name": "Bundeswehr University Munich",
-                    "state_name": "Bayern",
-                    "types": [
-                        "Education"
-                    ]
-                }
-            ],
-            "researchers": [
-                {
-                    "first_name": "W",
-                    "id": "ur.014521675045.25",
-                    "last_name": "Tampubolon",
-                    "orcid_id": [
-                        "0000-0002-2504-8620"
-                    ],
-                    "research_orgs": [
-                        "grid.7752.7"
-                    ]
-                },
-                {
-                    "first_name": "W",
-                    "id": "ur.07347616005.20",
-                    "last_name": "Reinhardt",
-                    "research_orgs": [
-                        "grid.7752.7"
-                    ]
-                }
-            ],
-            "terms": [
-                "large scale topographical mapping",
-                "mapping",
-                "prominent challenges",
-                "challenges",
-                "geospatial industry",
-                "industry",
-                "side",
-                "demand",
-                "limited budget",
-                "budget",
-                "project",
-                "advent",
-                "geospatial information",
-                "information",
-                "development e.",
-                "e.",
-                "relies",
-                "survey campaign",
-                "order",
-                "geospatial data sources",
-                "data sources",
-                "source",
-                "AERO model",
-                "model",
-                "unmanned aerial vehicles",
-                "aerial vehicles",
-                "vehicle",
-                "acquisition possibilities",
-                "possibility",
-                "small area",
-                "area",
-                "interest (ROI) i.",
-                "spatial planning purposes",
-                "planning purposes",
-                "area size",
-                "size",
-                "mapping units",
-                "units",
-                "different cameras",
-                "camera",
-                "processing software system",
-                "system",
-                "components",
-                "combination",
-                "data processing scheme",
-                "processing scheme",
-                "scheme",
-                "AOI",
-                "detailed accuracy assessment",
-                "accuracy assessment",
-                "object features",
-                "features",
-                "objects",
-                "digital terrain model",
-                "terrain model",
-                "digital elevation model",
-                "elevation model",
-                "main interest",
-                "interest",
-                "mapping activities",
-                "research",
-                "optimum amount",
-                "amount",
-                "GCP",
-                "data processing",
-                "processing",
-                "accuracy",
-                "high resolution",
-                "resolution",
-                "ground sampling distance",
-                "sampling distance",
-                "distance",
-                "results",
-                "benchmarks",
-                "geospatial data acquisition",
-                "data acquisition",
-                "acquisition",
-                "map scale",
-                "scale",
-                "UAV data processing"
-            ],
-            "times_cited": 10,
-            "title": "UAV Data Processing for Large Scale Topographical Mapping",
-            "type": "article",
-            "volume": "XL-5",
-            "year": 2014
-        },
-        "OpenAIRE": {
-            "authors": [
-                "Tampubolon, W.",
-                "Reinhardt, W."
-            ],
-            "open": true,
-            "url": "https://doaj.org/toc/2194-9034"
-        },
-        "Semantic Scholar": {
-            "message": "Forbidden"
-        },
-        "Unpaywall": {
-            "best_oa_location": {
-                "endpoint_id": null,
-                "evidence": "open (via page says license)",
-                "host_type": "publisher",
-                "is_best": true,
-                "license": "cc-by",
-                "pmh_id": null,
-                "repository_institution": null,
-                "updated": "2018-06-28T13:13:19.269948",
-                "url": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XL-5/565/2014/isprsarchives-XL-5-565-2014.pdf",
-                "url_for_landing_page": "https://doi.org/10.5194/isprsarchives-xl-5-565-2014",
-                "url_for_pdf": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XL-5/565/2014/isprsarchives-XL-5-565-2014.pdf",
-                "version": "publishedVersion"
-            },
-            "data_standard": 2,
-            "doi": "10.5194/isprsarchives-xl-5-565-2014",
-            "doi_url": "https://doi.org/10.5194/isprsarchives-xl-5-565-2014",
-            "genre": "journal-article",
-            "has_repository_copy": false,
-            "is_oa": true,
-            "journal_is_in_doaj": true,
-            "journal_is_oa": true,
-            "journal_issn_l": "1682-1750",
-            "journal_issns": "2194-9034",
-            "journal_name": "ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
-            "oa_locations": [
-                {
-                    "endpoint_id": null,
-                    "evidence": "open (via page says license)",
-                    "host_type": "publisher",
-                    "is_best": true,
-                    "license": "cc-by",
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2018-06-28T13:13:19.269948",
-                    "url": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XL-5/565/2014/isprsarchives-XL-5-565-2014.pdf",
-                    "url_for_landing_page": "https://doi.org/10.5194/isprsarchives-xl-5-565-2014",
-                    "url_for_pdf": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XL-5/565/2014/isprsarchives-XL-5-565-2014.pdf",
-                    "version": "publishedVersion"
-                },
-                {
-                    "endpoint_id": null,
-                    "evidence": "oa journal (via doaj)",
-                    "host_type": "publisher",
-                    "is_best": false,
-                    "license": "cc-by",
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2020-01-17T23:23:27.834612",
-                    "url": "https://doi.org/10.5194/isprsarchives-xl-5-565-2014",
-                    "url_for_landing_page": "https://doi.org/10.5194/isprsarchives-xl-5-565-2014",
-                    "url_for_pdf": null,
-                    "version": "publishedVersion"
-                }
-            ],
-            "oa_status": "gold",
-            "published_date": "2014-06-06",
-            "publisher": "Copernicus GmbH",
-            "title": "UAV Data Processing for Large Scale Topographical Mapping",
-            "updated": "2019-12-05T11:14:46.441426",
-            "year": 2014,
-            "z_authors": [
-                {
-                    "family": "Tampubolon",
-                    "given": "W."
-                },
-                {
-                    "family": "Reinhardt",
-                    "given": "W."
-                }
-            ]
-        },
-        "datasets": [
-            "dataset-611",
-            "dataset-631"
-        ],
-        "dissemin": {
-            "paper": {
-                "authors": [
-                    {
-                        "name": {
-                            "first": "W.",
-                            "last": "Tampubolon"
-                        }
-                    },
-                    {
-                        "name": {
-                            "first": "W.",
-                            "last": "Reinhardt"
-                        }
-                    }
-                ],
-                "classification": "OA",
-                "date": "2014-06-06",
-                "pdf_url": "http://dx.doi.org/10.5194/isprsarchives-xl-5-565-2014",
-                "records": [
-                    {
-                        "doi": "10.5194/isprsarchives-xl-5-565-2014",
-                        "identifier": "oai:crossref.org:10.5194/isprsarchives-xl-5-565-2014",
-                        "issn": "1682-1750",
-                        "journal": "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
-                        "pages": "565-572",
-                        "pdf_url": "http://dx.doi.org/10.5194/isprsarchives-xl-5-565-2014",
-                        "policy": {
-                            "postprint": "can",
-                            "preprint": "can",
-                            "published": "can",
-                            "romeo_id": "215"
-                        },
-                        "publisher": "Copernicus GmbH",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.5194/isprsarchives-xl-5-565-2014",
-                        "type": "journal-article",
-                        "volume": "XL-5"
-                    }
-                ],
-                "title": "UAV Data Processing for Large Scale Topographical Mapping",
-                "type": "journal-article"
-            },
-            "status": "ok"
-        },
-        "doi": "10.5194/isprsarchives-xl-5-565-2014",
-        "original": {
-            "authors": "Tampubolon, W., Reinhardt, W.",
-            "date_added": "2020-01-14 12:58:41",
-            "doi": "10.5194/isprsarchives-XL-5-565-2014",
-            "journal": "The International Archives of the Photogrammetry",
-            "pdf": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XL-5/565/2014/isprsarchives-XL-5-565-2014.pdf",
-            "search_term": "3D Elevation Program Data",
-            "url": "https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XL-5/565/2014/isprsarchives-XL-5-565-2014.pdf"
-        },
-        "title": "UAV Data Processing for Large Scale Topographical Mapping"
     },
     {
         "Dimensions": {
@@ -6206,6 +5184,19 @@
                 }
             ]
         },
+        "abstract": "Close range digital photogrammetry, which involves the application of unmanned aerial vehicle (UAV), has been used in a growing number of diverse applications across different scientific disciplines. Our objective was to use the mentioned method in the survey of the contemporary geoecological conditions of the coastal area on the example of Portuguese northwest coastal zone. The coastal zone can be subdivided into two geomorphological sectors: Sector 1, between the Minho River and the town of Espinho, where the coastal segments consist of estuaries, sandy and shingle beaches with rocky outcrops, and Holocene dune systems. The estuaries and the foredunes in particular are very degraded by human activities; and Sector 2, between Espinho and the Mondego Cape, where coastal lagoons and Holocene dune systems occur. We chose two beaches for surveying – Agucadoura and Ramalha to which the drone swinglet CAM took the photos. We used the ground control software eMotion 2 to plan the flights over the study area and controlled the drone’s trajectory during flight. After processing the obtained images in the program of AgisoftPhotoscanPro, we generated the 2D orthophotos and 3D digital elevation models (DEM) of the research sections. At this stage of study we derived the above product without using the ground control points, or we used only the camera GPS data. Based on these models the compilation of the large-scale maps of high resolution (1cm-5cm) will be possible in the GISs for monitoring and management of the geoecological state of the mentioned beaches in case to precise the x, y and z values of the models with the geodetic device of Differential GPSs in the selected ground control points (GCP).",
+        "authors": [
+            "author-5c9a7ae4afd7a18f700c",
+            "author-fe73bc12bfd4d6f388c4",
+            "author-4cc533a9d1505a78adcb",
+            "author-1ebc0639f8745d0cbece",
+            "author-d6147c1ad895140be33e",
+            "author-53355ecf381ed8af4277",
+            "author-c69cc47ac0fae2ef4e55",
+            "author-c064b431f1c0dcf35115",
+            "author-f0de0d85fcd5c09efc59",
+            "author-57b7b8139d0890e79e47"
+        ],
         "datasets": [
             "dataset-611",
             "dataset-631"
@@ -6307,6 +5298,108 @@
             "status": "ok"
         },
         "doi": "10.11648/j.earth.s.2015040501.17",
+        "keyphrases": {
+            "agucadoura": {
+                "count": 1,
+                "rank_score": 0.04168344246649403
+            },
+            "beaches": {
+                "count": 2,
+                "rank_score": 0.06476573585480373
+            },
+            "cam": {
+                "count": 2,
+                "rank_score": 0.045539169344777364
+            },
+            "case": {
+                "count": 1,
+                "rank_score": 0.04129439626741224
+            },
+            "close range digital photogrammetry": {
+                "count": 1,
+                "rank_score": 0.07143784368360098
+            },
+            "coastal area": {
+                "count": 1,
+                "rank_score": 0.04544975740275735
+            },
+            "coastal lagoons": {
+                "count": 1,
+                "rank_score": 0.07338059162950038
+            },
+            "coastal segments": {
+                "count": 1,
+                "rank_score": 0.044120473352583914
+            },
+            "coastal zone": {
+                "count": 1,
+                "rank_score": 0.04748713802191196
+            },
+            "different scientific disciplines": {
+                "count": 1,
+                "rank_score": 0.05856253752773832
+            },
+            "differential gpss": {
+                "count": 2,
+                "rank_score": 0.05137981892583447
+            },
+            "diverse applications": {
+                "count": 1,
+                "rank_score": 0.06680921040508102
+            },
+            "estuaries": {
+                "count": 2,
+                "rank_score": 0.046526056145310864
+            },
+            "ground control points": {
+                "count": 1,
+                "rank_score": 0.05341265464003232
+            },
+            "ground control software emotion": {
+                "count": 1,
+                "rank_score": 0.05467997038337084
+            },
+            "high resolution": {
+                "count": 1,
+                "rank_score": 0.0558243242578376
+            },
+            "holocene": {
+                "count": 2,
+                "rank_score": 0.05532056905487705
+            },
+            "holocene dune systems": {
+                "count": 2,
+                "rank_score": 0.0722782290946356
+            },
+            "human activities": {
+                "count": 1,
+                "rank_score": 0.05752252167663806
+            },
+            "mentioned beaches": {
+                "count": 1,
+                "rank_score": 0.04435205612955948
+            },
+            "portuguese": {
+                "count": 1,
+                "rank_score": 0.04211844130296128
+            },
+            "portuguese northwest coastal zone": {
+                "count": 1,
+                "rank_score": 0.08374547117068751
+            },
+            "rocky outcrops": {
+                "count": 1,
+                "rank_score": 0.05102047890537234
+            },
+            "selected ground control points": {
+                "count": 1,
+                "rank_score": 0.05696572962434267
+            },
+            "unmanned aerial vehicle": {
+                "count": 1,
+                "rank_score": 0.06212852577154407
+            }
+        },
         "original": {
             "authors": "Chikhradze, Nino, Henriques, Renato F., Elashvili M, Janelidze, Z., Bolashvili N., Lominadze G.",
             "date_added": "2020-01-14 12:58:41",
@@ -7294,6 +6387,13 @@
                 }
             ]
         },
+        "abstract": "Barrier systems around the world are experiencing accelerated sea-level rise, reduced sediment supply, and frequent hurricane impacts. However, detailed quantitative field-based studies concerning the response to these external forcing mechanisms are scarce, particularly on the scale of entire islands. The Mississippi - Alabama barrier island chain, located along the U.S. Gulf of Mexico coastline has lost land on the order of hectares per year since records began in the 1840s, putting mainland coastal communities and important ecosystems at risk. Here we present an analysis of Light Detection and Ranging (LiDAR) digital elevation models, revealing erosional/depositional patterns and geomorphologic changes around the most vulnerable of these islands, Ship Island. Four LiDAR datasets (2004, 2007, 2010, and 2012), capturing the complete topography of the island and some bathymetry in the inlet and surrounding shallows to depths of up to 8 m, are used to investigate subaerial and subaqueous sediment volume changes between these years. The impact of Hurricane Katrina, which produced the highest storm surge ever recorded in the United States, is captured in the 2004-2007 dataset. During this time, sediment comparable to 1.5 times the 2004 subaerial island volume was lost from the area included in the topographic/bathymetric dataset. Only 1/5 of this volume was recovered to this area between 2007 and 2010. The island returned to a state of sediment loss between 2010 and 2012, albeit within the error bounds, while the areal extent of the islands continued to increase. This study examines the impact severe storm events can have on vulnerable barrier islands. It highlights the importance of utilizing 3D datasets that include both topographic and bathymetric data for morphodynamic analyses of barrier island systems.",
+        "authors": [
+            "author-cd6e2e68ab5c9d239c6d",
+            "author-9a72fc421c5e600ba05a",
+            "author-6f830688041cd9d4e2a2",
+            "author-ef6218ded2104ae800a7"
+        ],
         "datasets": [
             "dataset-611",
             "dataset-631"
@@ -7354,6 +6454,108 @@
             "status": "ok"
         },
         "doi": "10.1016/j.geomorph.2018.04.001",
+        "keyphrases": {
+            "accelerated sea-level rise": {
+                "count": 1,
+                "rank_score": 0.046862933548716595
+            },
+            "barrier island systems": {
+                "count": 1,
+                "rank_score": 0.06483489444200496
+            },
+            "barrier systems": {
+                "count": 1,
+                "rank_score": 0.050124783502134326
+            },
+            "detailed quantitative field-based studies": {
+                "count": 1,
+                "rank_score": 0.05143322064027859
+            },
+            "entire islands": {
+                "count": 1,
+                "rank_score": 0.09315401670008754
+            },
+            "erosional/depositional patterns": {
+                "count": 1,
+                "rank_score": 0.04026320721860033
+            },
+            "frequent hurricane impacts": {
+                "count": 1,
+                "rank_score": 0.06858981029980164
+            },
+            "geomorphologic changes": {
+                "count": 1,
+                "rank_score": 0.05885348277989806
+            },
+            "highest storm surge": {
+                "count": 1,
+                "rank_score": 0.04369386268699881
+            },
+            "hurricane katrina": {
+                "count": 2,
+                "rank_score": 0.04676179207731334
+            },
+            "important ecosystems": {
+                "count": 1,
+                "rank_score": 0.0552802352100443
+            },
+            "islands": {
+                "count": 4,
+                "rank_score": 0.05070553659200478
+            },
+            "light detection": {
+                "count": 1,
+                "rank_score": 0.051607019482010776
+            },
+            "mainland coastal communities": {
+                "count": 1,
+                "rank_score": 0.06717469238541951
+            },
+            "mexico": {
+                "count": 2,
+                "rank_score": 0.044106243691393585
+            },
+            "mississippi - alabama barrier island chain": {
+                "count": 1,
+                "rank_score": 0.053145339298553786
+            },
+            "morphodynamic analyses": {
+                "count": 1,
+                "rank_score": 0.06711140306257418
+            },
+            "reduced sediment supply": {
+                "count": 1,
+                "rank_score": 0.06401651444135388
+            },
+            "sediment": {
+                "count": 1,
+                "rank_score": 0.0480778122035678
+            },
+            "sediment loss": {
+                "count": 1,
+                "rank_score": 0.0570522518694694
+            },
+            "severe storm events": {
+                "count": 1,
+                "rank_score": 0.07301710217624267
+            },
+            "shallows": {
+                "count": 1,
+                "rank_score": 0.043713148690479625
+            },
+            "ship island": {
+                "count": 2,
+                "rank_score": 0.04392075828377239
+            },
+            "subaerial and subaqueous sediment volume changes": {
+                "count": 1,
+                "rank_score": 0.05915808542412681
+            },
+            "vulnerable barrier islands": {
+                "count": 1,
+                "rank_score": 0.09896023250811883
+            }
+        },
         "original": {
             "authors": "Eisemann, Eve R, Wallace, Davin J, Buijsman, Maarten C, Pierce, Troy",
             "date_added": "2020-01-14 12:58:41",
@@ -9285,6 +8487,15 @@
                 }
             ]
         },
+        "abstract": "Among the different types of natural disasters, floods are the most devastating, widespread, and frequent. Floods account for approximately 30% of the total loss caused by natural disasters. Accurate flood-risk mapping is critical in reducing such damages by correctly predicting the extent of a flood when coupled with rain and stage gage data, supporting emergency-response planning, developing land use plans and regulations with regard to the construction of structures and infrastructures, and providing damage assessment in both spatial and temporal measurements. The reliability and accuracy of such flood assessment maps is dependent on the quality of the digital elevation model (DEM) in flood conditions. This study investigates the quality of an Unmanned Aerial Vehicle (UAV)-based DEM for spatial flood assessment mapping and evaluating the extent of a flood event in Princeville, North Carolina during Hurricane Matthew. The challenges and problems of on-demand DEM production during a flooding event were discussed. An accuracy analysis was performed by comparing the water surface extracted from the UAV-derived DEM with the water surface/stage obtained using the nearby US Geologic Survey (USGS) stream gauge station and LiDAR data.",
+        "authors": [
+            "author-a7b85cc84a1be579eb9c",
+            "author-7e70147e543197f79ae6",
+            "author-de8f62cf11e41662f0d4",
+            "author-afda37289bcae7e62f09",
+            "author-e088926b3b22ccb618fa",
+            "author-3a5bd56ca42665e44671"
+        ],
         "datasets": [
             "dataset-611",
             "dataset-631"
@@ -9356,6 +8567,108 @@
             "status": "ok"
         },
         "doi": "10.3390/s18113843",
+        "keyphrases": {
+            "accuracy": {
+                "count": 1,
+                "rank_score": 0.05704927807950664
+            },
+            "accurate flood-risk mapping": {
+                "count": 1,
+                "rank_score": 0.07180068883779991
+            },
+            "damage assessment": {
+                "count": 1,
+                "rank_score": 0.08447404621146748
+            },
+            "dem": {
+                "count": 5,
+                "rank_score": 0.08110251175530718
+            },
+            "emergency-response planning": {
+                "count": 1,
+                "rank_score": 0.04550423500098658
+            },
+            "flood conditions": {
+                "count": 1,
+                "rank_score": 0.09957576340651347
+            },
+            "flood event": {
+                "count": 1,
+                "rank_score": 0.06307272273581323
+            },
+            "floods": {
+                "count": 3,
+                "rank_score": 0.10464164232947015
+            },
+            "hurricane matthew": {
+                "count": 2,
+                "rank_score": 0.056830119399841714
+            },
+            "land use plans": {
+                "count": 1,
+                "rank_score": 0.07385147807245822
+            },
+            "lidar data": {
+                "count": 1,
+                "rank_score": 0.06618502405523477
+            },
+            "natural disasters": {
+                "count": 2,
+                "rank_score": 0.07673298491640232
+            },
+            "nearby us geologic survey (usgs) stream gauge station": {
+                "count": 1,
+                "rank_score": 0.047569143415320925
+            },
+            "north carolina": {
+                "count": 2,
+                "rank_score": 0.06461860755375506
+            },
+            "princeville": {
+                "count": 2,
+                "rank_score": 0.05053810548983632
+            },
+            "rain and stage gage data": {
+                "count": 1,
+                "rank_score": 0.056572536139911075
+            },
+            "regard": {
+                "count": 1,
+                "rank_score": 0.04262043665793479
+            },
+            "regulations": {
+                "count": 1,
+                "rank_score": 0.04709406438984409
+            },
+            "spatial flood assessment mapping": {
+                "count": 1,
+                "rank_score": 0.12335043264214779
+            },
+            "structures": {
+                "count": 1,
+                "rank_score": 0.04397165867614956
+            },
+            "such damages": {
+                "count": 1,
+                "rank_score": 0.07464797684693732
+            },
+            "such flood assessment maps": {
+                "count": 1,
+                "rank_score": 0.1184440056057484
+            },
+            "uav": {
+                "count": 1,
+                "rank_score": 0.04384178792486626
+            },
+            "unmanned aerial vehicle": {
+                "count": 1,
+                "rank_score": 0.04330647841189739
+            },
+            "water surface": {
+                "count": 1,
+                "rank_score": 0.04363998926372725
+            }
+        },
         "original": {
             "authors": "Hashemi-Beni, Leila, Jones, Jeffery, Thompson, Gary, Johnson, Curt, Gebrehiwot, Asmamaw",
             "date_added": "2020-01-14 12:58:41",
