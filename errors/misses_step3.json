@@ -2,7 +2,7 @@
     "messages": [
         "BAD DOI: |None| in original -- Transfer pricing as tax avoidance under different legislative schemes"
     ],
-    "status": "3848 successful DOI lookups",
+    "status": "3882 successful DOI lookups",
     "trouble": "publications that failed every DOI lookup",
     "misses": {
         "20190607_bundesbank_publications.json": [
@@ -41,6 +41,7 @@
             "Exports versus FDI revisited: does finance matter?",
             "Tax vs. Regulation Policy and the Location of ,Financial Sector FDI*",
             "Environmental Regulation and Foreign Direct Investment: The Role of the Mode of Entry",
+            "Tax Influence on Financial Structures of M&As",
             "Corporation Taxes and the Debt Policy of Multinational Firms - Evidence from German Multinationals",
             "Tax Status and Tax Response Heterogeneity of Multinationals' Dept Finance",
             "Bilateral Internal Debt Financing, Tax Planning, and the Effectiveness of Anti-Tax Avoidance Rules",
@@ -255,6 +256,7 @@
             "Repo funding and internal capital markets in the financial crisis",
             "Securities trading by banks and credit supply: Micro-evidence",
             "Stress testing of real credit portfolios",
+            "Tax Influence on Financial Structures of M&As",
             "Tax vs. Regulation Policy and the Location of Financial Sector FDI",
             "Taxes and the financial structure of German outbound FDI",
             "Testing the O-ring theory for FDI",
@@ -430,7 +432,6 @@
             "National Surveys Reveal Modest Improvement in the Types of Foods Available in Americans' Homes",
             "America's Eating Habits: Food Away From Home",
             "Consumers Balance Time and Money in Purchasing Convenience Foods",
-            "Re-Examining the SNAP Benefit Cycle Allowing for Heterogeneity",
             "What Keeps Columbus Cooking? A Survey of Cooking Behavior",
             "U.S. Consumers' Perception, Intention, and Purchase Behavior of Grass-Fed Beef",
             "Eat at Home or Away from Home? The Role of Grocery and Restaurant Food Sales Taxes",
@@ -453,7 +454,6 @@
             "Mother Child Eating and Drinking Patterns by Weight and Ethnicity",
             "If You Don't Snooze You Lose: Evidence on Health and Weight",
             "Mother Child Eating and Drinking Patterns by Weight and Ethnicity",
-            "Health Status and Allocation Time",
             "Timing is Everything: The Role of Time and the Business Cycle in Fast-Food Purchasing Behavior in the United States",
             "Social Determinants and International Comparisons of Health and Module",
             "The Effect of Work and Parental Role Occupancy and Role",
@@ -472,8 +472,6 @@
             "The La Crosse County Senior Dining Program: Implications for the Elderly Population in La Crosse County",
             "Association of Food Insecurity and Malnutrition among Young Children (6-36 Months)",
             "Situating Food Insecurity in a Historic Albuquerque Community: The Whorled Relationship between Food Insecurity and Place",
-            "Risk for Type 2 Diabetes Among SNAP Participants With Prediabetes",
-            "Changes in Low-Income Households' Spending and Time Use Patterns in Response to the 2013 Sunset of the ARRA-SNAP Benefit",
             "Eat at Home or Away from Home? The Role of Grocery and Restaurant Food Sales Taxes",
             "A Profile of Food Insecurity Dynamics in Rural and Small Town Ethiopia",
             "An Assessment of the Household Food Security Status and Local Foods Grown in Rural Bahamas",
@@ -736,7 +734,6 @@
             "Long-Term Neighborhood Effects on Low-Income Families:Evidence from Moving to Opportunity",
             "Neighborhoods, Obesity, and Diabetes: A Randomized Social Experiment",
             "Public and Private Spheres of Neighborhood Disorder: Assessing Pathways to Violence Using Large-scale Digital Records",
-            "Children of Incarcerated Parents",
             "Classifying Adult Probationers by Forecasting Future Offending",
             "Validation of the Employment Retention Inventory",
             "Can Escaping from Poor Neighborhoods Increase Employment and earnings"
@@ -748,16 +745,10 @@
             "Doctorate Recipients from U.S. Universities - 2015",
             "Doctorate Recipients from U.S. Universities - 2014"
         ],
-        "20191223_dimensions_ENOW_data_publications.json": [
-            "Accuracy Assessment of NOAA Coastal Change Analysis Program 2006-2010 Land Cover and Land Cover Change Data"
-        ],
         "20191231_noaa_manual_sbr.json": [
             "Mapping Coastal Risks and Social Vulnerability: Current Tools and Legal Risks",
             "A lifeline and social vulnerability analysis of sea level rise impacts on rural coastal communities",
             "NOAA Report on the U.S. Ocean and Great Lakes Economy"
-        ],
-        "20200113_openaire_CoastalChangeAnalysisProgramData_publications.json": [
-            "Voluntary Restoration: Mitigation's Silent Partner in the Quest to Reverse Coastal Wetland Loss in the USA"
         ],
         "20200113_openaire_ERA5Reanalysis_publications.json": [
             "Spatio-temporal variability of cloud cover types in West Africa with satellite-based and reanalysis data"
@@ -767,15 +758,6 @@
         ],
         "20200113_openaire_SeaLevelRiseInundation_publications.json": [
             "Impact of Sea Level Rise for the Conterminous United States. An analysis on Inhabitant Displacement and GDP Production Impediment due to Land Inundation"
-        ],
-        "20200115_openaire_Billion-DollarWeatherandClimateDisasters_publications.json": [
-            "Climatology of the Arbuckle-Simpson Aquifer Region: A Report of the Water Decisions for Sustainability of the Arbuckle-Simpson Project"
-        ],
-        "20200115_openaire_NationalDataBuoyCenter_publications.json": [
-            "Ideal Buoy Location Data (Southern California)"
-        ],
-        "20200115_openaire_TidalDatum_publications.json": [
-            "A comparison of datums derived from CO-OPS verified data products and Tidal Analysis Datum Calculator."
         ],
         "20200122_tdc_virginia_publications.json": [
             "The Cost of Asset Testing for the CalWORKs Program - January 2015",
@@ -851,12 +833,8 @@
             "Toward Reduced Poverty Across Generations: Early Findings from New York City's Conditional Cash Transfer Program",
             "Conditional Cash Transfers in New York City"
         ],
-        "20200225_federated_USDA_AgriculturalResourceManagementSurvey_part2_publications.json": [
-            "ESSAYS ON ORGANIC FOOD MARKETING IN THE U.S."
-        ],
         "20200226_bundesbank_external_rcc1_publicatins.json": [
             "Industries and the bank lending effects of bank credit demand and monetary policy in Germany",
-            "FDI and Domestic Investment: An Industry-Level View",
             "Intercompany Loans and Profit Shifting 2013 Evidence from Company-Level Data",
             "The impact of thin-capitalization rules on multinationals' financing and investment decisions",
             "At Your Service! The Role of Tax Havens in International Trade with Services"
@@ -896,61 +874,9 @@
             "The Future of Environmental Compliance Incentives in U.S. Agriculture",
             "Changing Farm Structure and the Distribution of Farm Payments and Federal Crop Insurance"
         ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part13_publications.json": [
-            "Financial Management and Portfolio Analysis for U.S. Farm and Nonfarm Households"
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part16_publications.json": [
-            "Indirect Monetary Incentives for the 2004 ARMS Phase III Core"
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part17_publications.json": [
-            "Intergenerational Management Transfers in Family Farm Businesses",
-            "Internet Access and Internet Purchasing Patterns of Farm Households"
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part19_publications.json": [
-            "Marketing Organic Milk in the United States: Findings from the Agricultural Resource Management Survey of 2005"
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part20_publications.json": [
-            "Multiple Generation Farm Households: What Determines Primacy in Management?"
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part27_publications.json": [
-            "The Economics of Glyphosate Resistance Management in Corn and Soybean Production"
-        ],
         "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part28_publications.json": [
-            "The Impact of Natural Amenity on Farmland Values: A Quantile Regression Approach",
             "The Lebanese woman and the labor market.",
             "The Mexican Common Property Forestry Sector"
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part29_publications.json": [
-            "The Role of Information and Prices in the Nitrogen Fertilizer Management Decision: New Evidence from the Agricultural Resource Management Survey",
-            "The U.S. Farm Lease-Debt Relationship: Evidence from a National Survey"
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part2_publications.json": [
-            "A Structural Model of US Corn Farmers' Pest Control Decisions: Rootworm Resistance in US Corn Fields"
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part30_publications.json": [
-            "U.S. Farm Succession Plans and the Process of Transferring Land Ownership",
-            "Variance Estimation With USDA's Farm Costs and Returns Surveys and Agricultural Resource Management Study Surveys."
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part3_publications.json": [
-            "Agricultural Resource Management Survey and National Animal Health Monitoring System Data Analysis: Cow-Calf Case Study",
-            "AN ANALYSIS OF TAX-DEFERRED RETIREMENT SAVINGS OF FARM HOUSEHOLDS"
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part4_publications.json": [
-            "Analysis of Market Segmentation in Farm Credit Markets",
-            "Assessing structural change in agriculture with a parametric Markov chain model. Illustrative applications to EU-15 and the USA"
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part5_publications.json": [
-            "Assessing the Effect of Calibration on Nonresponse Bias in the 2005 ARMS Phase III Sample Using 2002 Census of Agriculture Data",
-            "Assessing the Effect of Calibration on Nonresponse Bias in the 2006 ARMS Phase III Sample Using Census 2002 Data"
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part6_publications.json": [
-            "Categorizing Nonresponse in Phase III of the 2006 Agricultural Resource Management Survey in Washington State",
-            "Characteristics and Production Costs of U.S. Cow-Calf Operations",
-            "Clusters of Organic Operations and their Impact on Regional Economic Growth in the United States"
-        ],
-        "20200302_federated2_USDA_AgriculturalResourceManagementSurvey_part8_publications.json": [
-            "Decomposition of Variability in Farm Household Assets and Debt",
-            "Determinants of Poverty among U.S. Farm Households"
         ]
     }
 }

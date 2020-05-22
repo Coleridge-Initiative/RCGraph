@@ -13,20 +13,17 @@
                     "name": "14 Economics"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "grid.35403.31",
-                        "email": "",
                         "first_name": "Barrett E.",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Kirwan",
-                        "last_name_original": "",
                         "orcid": "['0000-0003-1994-2789']",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.010550663115.75"
                     }
                 ]
@@ -36,14 +33,10 @@
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "grid.35403.31",
-                    "email": "",
                     "first_name": "Barrett E.",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Kirwan",
-                    "last_name_original": "",
                     "orcid": "['0000-0003-1994-2789']",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.010550663115.75"
                 }
             ],
@@ -105,7 +98,7 @@
             "date": "2017-02-06",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/13504851.2016.1178837",
-            "field_citation_ratio": 2.84,
+            "field_citation_ratio": 2.62,
             "id": "pub.1049725281",
             "issn": [
                 "1744-6546",
@@ -123,6 +116,27 @@
                 "ERA 2015",
                 "VABB-SHW",
                 "ERA 2018"
+            ],
+            "noun_phrases": [
+                "dynamic",
+                "distribution",
+                "subsidy",
+                "instability",
+                "agricultural sector",
+                "fundamental premise",
+                "agricultural policy",
+                "individual",
+                "US",
+                "article",
+                "US Census",
+                "resource management",
+                "farm",
+                "substantial variation",
+                "expansion",
+                "contraction",
+                "variation",
+                "sector",
+                "US Department of Agriculture"
             ],
             "open_access_categories": [
                 {
@@ -357,10 +371,6 @@
                 }
             ]
         },
-        "abstract": "ABSTRACTThe persistent instability of the agricultural sector is the fundamental premise of most agricultural policy. Yet no research has ever quantified the aggregate dynamics of individual farms in the US. This article is the first to combine the US Census of Agriculture with the Agricultural Resource Management Survey to observe the dynamics of nearly 1.5 million farms. The data reveal substantial variation in farm size expansion and contraction. Most of this variation is unobservable in the sector totals reported by the US Department of Agriculture each year. The distribution of agricultural subsidies suggests that subsidies become more important as farms get smaller and may play a role in slowing farm size contraction.",
-        "authors": [
-            "author-9b928bede1583fc5972a"
-        ],
         "datasets": [
             "dataset-870",
             "dataset-881"
@@ -415,96 +425,6 @@
             "status": "ok"
         },
         "doi": "10.1080/13504851.2016.1178837",
-        "keyphrases": {
-            "abstractthe persistent instability": {
-                "count": 1,
-                "rank_score": 0.09012967629472232
-            },
-            "aggregate dynamics": {
-                "count": 1,
-                "rank_score": 0.053831417473706886
-            },
-            "agricultural resource management survey": {
-                "count": 2,
-                "rank_score": 0.07232742977109584
-            },
-            "agricultural sector": {
-                "count": 1,
-                "rank_score": 0.06704059444300543
-            },
-            "agricultural subsidies": {
-                "count": 1,
-                "rank_score": 0.1177688114625845
-            },
-            "agriculture": {
-                "count": 2,
-                "rank_score": 0.08630388116190157
-            },
-            "contraction": {
-                "count": 1,
-                "rank_score": 0.06910140231532355
-            },
-            "distribution": {
-                "count": 1,
-                "rank_score": 0.02664356850860776
-            },
-            "dynamics": {
-                "count": 1,
-                "rank_score": 0.0407943575832228
-            },
-            "farm size expansion": {
-                "count": 1,
-                "rank_score": 0.1283150637502632
-            },
-            "farms": {
-                "count": 2,
-                "rank_score": 0.11507937256212536
-            },
-            "fundamental premise": {
-                "count": 1,
-                "rank_score": 0.04726192015826499
-            },
-            "individual farms": {
-                "count": 1,
-                "rank_score": 0.11919045856736568
-            },
-            "most agricultural policy": {
-                "count": 1,
-                "rank_score": 0.10983691616882343
-            },
-            "nearly 1.5 million": {
-                "count": 1,
-                "rank_score": 0.0
-            },
-            "no research": {
-                "count": 1,
-                "rank_score": 0.023234265536785238
-            },
-            "sector totals": {
-                "count": 1,
-                "rank_score": 0.05136604958757055
-            },
-            "slowing farm size contraction": {
-                "count": 1,
-                "rank_score": 0.1335347421977841
-            },
-            "subsidies": {
-                "count": 1,
-                "rank_score": 0.08544279868401529
-            },
-            "substantial variation": {
-                "count": 1,
-                "rank_score": 0.10108195479970496
-            },
-            "us census": {
-                "count": 1,
-                "rank_score": 0.05993867019436951
-            },
-            "variation": {
-                "count": 1,
-                "rank_score": 0.046527301562475566
-            }
-        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-10 13:21:38",
@@ -514,6 +434,744 @@
             "valid": "yes"
         },
         "title": "U.S. farm dynamics and the distribution of U.S. agricultural subsidies"
+    },
+    {
+        "OpenAIRE": {
+            "authors": [
+                "Harris, J. Michael",
+                "Mishra, Ashok K.",
+                "Harris, J. Michael",
+                "Mishra, Ashok K."
+            ],
+            "open": false,
+            "url": "http://dx.doi.org/10.22004/ag.econ.235954"
+        },
+        "Semantic Scholar": {
+            "message": "Forbidden"
+        },
+        "datasets": [
+            "dataset-870",
+            "dataset-931"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "name": {
+                            "first": "J. Michael",
+                            "last": "Harris"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Ashok K.",
+                            "last": "Mishra"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "J. Michael",
+                            "last": "Harris"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Ashok K.",
+                            "last": "Mishra"
+                        }
+                    }
+                ],
+                "classification": "UNK",
+                "date": "2016-01-01",
+                "records": [
+                    {
+                        "abstract": "Using the 2013 Agricultural Resource Management Survey (ARMS) and 2014 TOTAL survey data we find that nearly 30 percent of U.S. farm businesses have a succession plan and forty percent of the designated successors are family members. Twenty-one percent of ARMS farms indicate they will retire in 5 years and 38 percent of these farm businesses plan to turn over management and operation of their farm business but retain some ownership. Only 19 percent will sell and 15 percent will rent. The TOTAL survey also indicates that 36 percent of farms planning to retire in 5 years have succession plans and 30 percent will be sold to relatives and 58 percent is planned to be transferred by some form of legal transfer.",
+                        "doi": "10.22004/ag.econ.235954",
+                        "identifier": "oai:crossref.org:10.22004/ag.econ.235954",
+                        "issue": "",
+                        "journal": "Unknown",
+                        "pages": "",
+                        "pdf_url": "",
+                        "publisher": "Unknown",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.22004/ag.econ.235954",
+                        "type": "journal-article",
+                        "volume": ""
+                    }
+                ],
+                "title": "U.S. Farm Succession Plans and the Process of Transferring Land Ownership",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
+        "doi": "10.22004/ag.econ.235954",
+        "original": {
+            "api": "openaire",
+            "date_added": "2020-03-10 13:21:38",
+            "doi": "10.22004/ag.econ.235954",
+            "search_term": "Agricultural Resource Management Survey",
+            "url": "http://dx.doi.org/10.22004/ag.econ.235954",
+            "valid": "yes"
+        },
+        "title": "U.S. Farm Succession Plans and the Process of Transferring Land Ownership"
+    },
+    {
+        "Dimensions": {
+            "FOR": [
+                {
+                    "id": "3292",
+                    "name": "1402 Applied Economics"
+                }
+            ],
+            "FOR_first": [
+                {
+                    "id": "2214",
+                    "name": "14 Economics"
+                }
+            ],
+            "altmetric_id": 0,
+            "author_affiliations": [
+                [
+                    {
+                        "affiliations": [
+                            {
+                                "city": "Clarksville",
+                                "city_id": 4613868,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.252567.1",
+                                "name": "Austin Peay State University",
+                                "state": "Tennessee",
+                                "state_code": "US-TN"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.252567.1",
+                        "first_name": "Isaac",
+                        "initials": "",
+                        "last_name": "Sitienei",
+                        "orcid": "",
+                        "researcher_id": "ur.013166403173.49"
+                    },
+                    {
+                        "affiliations": [
+                            {
+                                "city": "Washington D.C.",
+                                "city_id": 4140963,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.482913.5",
+                                "name": "Economic Research Service",
+                                "state": "District of Columbia",
+                                "state_code": "US-DC"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.482913.5",
+                        "first_name": "Jeffrey",
+                        "initials": "",
+                        "last_name": "Gillespie",
+                        "orcid": "",
+                        "researcher_id": "ur.01214244502.40"
+                    },
+                    {
+                        "affiliations": [
+                            {
+                                "city": "Baton Rouge",
+                                "city_id": 4315588,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.250060.1",
+                                "name": "Louisiana State University Agricultural Center",
+                                "state": "Louisiana",
+                                "state_code": "US-LA"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.64337.35",
+                        "first_name": "Guillermo",
+                        "initials": "",
+                        "last_name": "Scaglia",
+                        "orcid": "",
+                        "researcher_id": "ur.01233010015.23"
+                    }
+                ]
+            ],
+            "authors": [
+                {
+                    "affiliations": [
+                        {
+                            "city": "Clarksville",
+                            "city_id": 4613868,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.252567.1",
+                            "name": "Austin Peay State University",
+                            "state": "Tennessee",
+                            "state_code": "US-TN"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.252567.1",
+                    "first_name": "Isaac",
+                    "initials": "",
+                    "last_name": "Sitienei",
+                    "orcid": "",
+                    "researcher_id": "ur.013166403173.49"
+                },
+                {
+                    "affiliations": [
+                        {
+                            "city": "Washington D.C.",
+                            "city_id": 4140963,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.482913.5",
+                            "name": "Economic Research Service",
+                            "state": "District of Columbia",
+                            "state_code": "US-DC"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.482913.5",
+                    "first_name": "Jeffrey",
+                    "initials": "",
+                    "last_name": "Gillespie",
+                    "orcid": "",
+                    "researcher_id": "ur.01214244502.40"
+                },
+                {
+                    "affiliations": [
+                        {
+                            "city": "Baton Rouge",
+                            "city_id": 4315588,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.250060.1",
+                            "name": "Louisiana State University Agricultural Center",
+                            "state": "Louisiana",
+                            "state_code": "US-LA"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.64337.35",
+                    "first_name": "Guillermo",
+                    "initials": "",
+                    "last_name": "Scaglia",
+                    "orcid": "",
+                    "researcher_id": "ur.01233010015.23"
+                }
+            ],
+            "category_for": [
+                {
+                    "id": "3292",
+                    "name": "1402 Applied Economics"
+                },
+                {
+                    "id": "2214",
+                    "name": "14 Economics"
+                }
+            ],
+            "category_ua": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
+            "concepts": [
+                "Abstract",
+                "relative importance",
+                "importance",
+                "beef producers",
+                "producers",
+                "farms",
+                "reasons",
+                "enterprises",
+                "factors",
+                "study",
+                "mail survey",
+                "survey",
+                "important reason",
+                "healthy beef",
+                "beef",
+                "GFB",
+                "environment",
+                "environmental sustainability reasons",
+                "sustainability reasons",
+                "profitability",
+                "strong demand",
+                "demand",
+                "low importance",
+                "enterprise selection",
+                "selection"
+            ],
+            "date": "2020-02-01",
+            "date_inserted": "2019-10-16",
+            "doi": "10.1017/aae.2019.36",
+            "id": "pub.1121802113",
+            "issn": [
+                "1074-0708",
+                "2056-7405"
+            ],
+            "issue": "1",
+            "journal": {
+                "id": "jour.1149520",
+                "title": "Journal of Agricultural and Applied Economics"
+            },
+            "journal_lists": [
+                "ERA 2018",
+                "Norwegian register level 1",
+                "DOAJ",
+                "ERA 2015",
+                "ERIH PLUS"
+            ],
+            "linkout": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8DD3C96D2FEEEC9D27292833DCC9B8C2/S1074070819000361a.pdf/div-class-title-u-s-grass-fed-beef-producers-goal-structure-and-reasons-for-enterprise-selection-div.pdf",
+            "noun_phrases": [
+                "U.S.",
+                "producer",
+                "enterprise",
+                "relative importance",
+                "beef",
+                "farm",
+                "mail survey",
+                "important reason",
+                "environment",
+                "environmental sustainability",
+                "profitability",
+                "strong demand"
+            ],
+            "open_access": [
+                "Open Access - all",
+                "Open Access - publisher",
+                "Open Access - published"
+            ],
+            "open_access_categories": [
+                {
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Version Of Record (VOR) is free under an open licence from a full OA journal",
+                    "id": "gold_pure",
+                    "name": "Pure Gold"
+                }
+            ],
+            "pages": "78-95",
+            "publisher": "Cambridge University Press (CUP)",
+            "recent_citations": 0,
+            "reference_ids": [
+                "pub.1011179906",
+                "pub.1091905023",
+                "pub.1020919339",
+                "pub.1042787681",
+                "pub.1026825508",
+                "pub.1021625304",
+                "pub.1020120183",
+                "pub.1036937647",
+                "pub.1103910921",
+                "pub.1011547561",
+                "pub.1012110869",
+                "pub.1042971380",
+                "pub.1051535340",
+                "pub.1102347313",
+                "pub.1017697615",
+                "pub.1009483714",
+                "pub.1061833626",
+                "pub.1041862612",
+                "pub.1040845925",
+                "pub.1032292832",
+                "pub.1069408147",
+                "pub.1042577619",
+                "pub.1102378580",
+                "pub.1102025064",
+                "pub.1069407163"
+            ],
+            "references": [
+                "pub.1011179906",
+                "pub.1091905023",
+                "pub.1020919339",
+                "pub.1042787681",
+                "pub.1026825508",
+                "pub.1021625304",
+                "pub.1020120183",
+                "pub.1036937647",
+                "pub.1103910921",
+                "pub.1011547561",
+                "pub.1012110869",
+                "pub.1042971380",
+                "pub.1051535340",
+                "pub.1102347313",
+                "pub.1017697615",
+                "pub.1009483714",
+                "pub.1061833626",
+                "pub.1041862612",
+                "pub.1040845925",
+                "pub.1032292832",
+                "pub.1069408147",
+                "pub.1042577619",
+                "pub.1102378580",
+                "pub.1102025064",
+                "pub.1069407163"
+            ],
+            "research_org_cities": [
+                {
+                    "id": 4140963,
+                    "name": "Washington, D.C."
+                },
+                {
+                    "id": 4613868,
+                    "name": "Clarksville"
+                },
+                {
+                    "id": 4315588,
+                    "name": "Baton Rouge"
+                }
+            ],
+            "research_org_countries": [
+                {
+                    "id": "US",
+                    "name": "United States"
+                }
+            ],
+            "research_org_country_names": [
+                "United States"
+            ],
+            "research_org_names": [
+                "Economic Research Service",
+                "Louisiana State University Agricultural Center",
+                "Austin Peay State University"
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-TN",
+                    "name": "Tennessee"
+                },
+                {
+                    "id": "US-DC",
+                    "name": "District of Columbia"
+                },
+                {
+                    "id": "US-LA",
+                    "name": "Louisiana"
+                }
+            ],
+            "research_org_state_names": [
+                "Tennessee",
+                "Louisiana",
+                "District of Columbia"
+            ],
+            "research_orgs": [
+                {
+                    "acronym": "ERS",
+                    "city_name": "Washington D.C.",
+                    "country_name": "United States",
+                    "id": "grid.482913.5",
+                    "latitude": 38.88383,
+                    "linkout": [
+                        "https://www.ers.usda.gov/"
+                    ],
+                    "longitude": -77.01658,
+                    "name": "Economic Research Service",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
+                },
+                {
+                    "acronym": "APSU",
+                    "city_name": "Clarksville",
+                    "country_name": "United States",
+                    "id": "grid.252567.1",
+                    "latitude": 36.5323,
+                    "linkout": [
+                        "http://www.apsu.edu/"
+                    ],
+                    "longitude": -87.35457,
+                    "name": "Austin Peay State University",
+                    "state_name": "Tennessee",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
+                    "city_name": "Baton Rouge",
+                    "country_name": "United States",
+                    "id": "grid.250060.1",
+                    "latitude": 30.414,
+                    "linkout": [
+                        "http://www.lsuagcenter.com/"
+                    ],
+                    "longitude": -91.1783,
+                    "name": "Louisiana State University Agricultural Center",
+                    "state_name": "Louisiana",
+                    "types": [
+                        "Education"
+                    ]
+                }
+            ],
+            "researchers": [
+                {
+                    "first_name": "Isaac",
+                    "id": "ur.013166403173.49",
+                    "last_name": "Sitienei",
+                    "research_orgs": [
+                        "grid.264772.2",
+                        "grid.252567.1",
+                        "grid.64337.35"
+                    ]
+                },
+                {
+                    "first_name": "Jeffrey M",
+                    "id": "ur.01214244502.40",
+                    "last_name": "Gillespie",
+                    "research_orgs": [
+                        "grid.482913.5",
+                        "grid.250060.1",
+                        "grid.463419.d",
+                        "grid.64337.35",
+                        "grid.441248.f"
+                    ]
+                },
+                {
+                    "first_name": "Guillermo",
+                    "id": "ur.01233010015.23",
+                    "last_name": "Scaglia",
+                    "research_orgs": [
+                        "grid.250060.1",
+                        "grid.438526.e",
+                        "grid.264756.4",
+                        "grid.64337.35"
+                    ]
+                }
+            ],
+            "terms": [
+                "Abstract",
+                "relative importance",
+                "importance",
+                "beef producers",
+                "producers",
+                "farms",
+                "reasons",
+                "enterprises",
+                "factors",
+                "study",
+                "mail survey",
+                "survey",
+                "important reason",
+                "healthy beef",
+                "beef",
+                "GFB",
+                "environment",
+                "environmental sustainability reasons",
+                "sustainability reasons",
+                "profitability",
+                "strong demand",
+                "demand",
+                "low importance",
+                "enterprise selection",
+                "selection"
+            ],
+            "times_cited": 0,
+            "title": "U.S. Grass-Fed Beef Producers: Goal Structure and Reasons for Enterprise Selection",
+            "type": "article",
+            "volume": "52",
+            "year": 2020
+        },
+        "Semantic Scholar": {
+            "abstract": null,
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "108645017",
+                    "name": "Isaac Sitienei",
+                    "url": "https://www.semanticscholar.org/author/108645017"
+                },
+                {
+                    "authorId": "145546932",
+                    "name": "Jeffrey M. Gillespie",
+                    "url": "https://www.semanticscholar.org/author/145546932"
+                },
+                {
+                    "authorId": "48088565",
+                    "name": "Guillermo Scaglia",
+                    "url": "https://www.semanticscholar.org/author/48088565"
+                }
+            ],
+            "citationVelocity": 0,
+            "citations": [],
+            "corpusId": 211395899,
+            "doi": "10.1017/aae.2019.36",
+            "fieldsOfStudy": [
+                "Economics"
+            ],
+            "influentialCitationCount": 0,
+            "is_open_access": true,
+            "is_publisher_licensed": false,
+            "paperId": "7202986eb4c1d6bf0061bc4c27d4a5c5d884501a",
+            "references": [],
+            "title": "U.S. Grass-Fed Beef Producers: Goal Structure and Reasons for Enterprise Selection",
+            "topics": [],
+            "url": "https://www.semanticscholar.org/paper/7202986eb4c1d6bf0061bc4c27d4a5c5d884501a",
+            "venue": "",
+            "year": 2019
+        },
+        "Unpaywall": {
+            "best_oa_location": {
+                "endpoint_id": null,
+                "evidence": "open (via page says license)",
+                "host_type": "publisher",
+                "is_best": true,
+                "license": "cc-by",
+                "pmh_id": null,
+                "repository_institution": null,
+                "updated": "2020-03-08T16:04:05.208579",
+                "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8DD3C96D2FEEEC9D27292833DCC9B8C2/S1074070819000361a.pdf/div-class-title-u-s-grass-fed-beef-producers-goal-structure-and-reasons-for-enterprise-selection-div.pdf",
+                "url_for_landing_page": "https://doi.org/10.1017/aae.2019.36",
+                "url_for_pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8DD3C96D2FEEEC9D27292833DCC9B8C2/S1074070819000361a.pdf/div-class-title-u-s-grass-fed-beef-producers-goal-structure-and-reasons-for-enterprise-selection-div.pdf",
+                "version": "publishedVersion"
+            },
+            "data_standard": 2,
+            "doi": "10.1017/aae.2019.36",
+            "doi_url": "https://doi.org/10.1017/aae.2019.36",
+            "genre": "journal-article",
+            "has_repository_copy": false,
+            "is_oa": true,
+            "is_paratext": false,
+            "journal_is_in_doaj": true,
+            "journal_is_oa": true,
+            "journal_issn_l": "1074-0708",
+            "journal_issns": "1074-0708,2056-7405",
+            "journal_name": "Journal of Agricultural and Applied Economics",
+            "oa_locations": [
+                {
+                    "endpoint_id": null,
+                    "evidence": "open (via page says license)",
+                    "host_type": "publisher",
+                    "is_best": true,
+                    "license": "cc-by",
+                    "pmh_id": null,
+                    "repository_institution": null,
+                    "updated": "2020-03-08T16:04:05.208579",
+                    "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8DD3C96D2FEEEC9D27292833DCC9B8C2/S1074070819000361a.pdf/div-class-title-u-s-grass-fed-beef-producers-goal-structure-and-reasons-for-enterprise-selection-div.pdf",
+                    "url_for_landing_page": "https://doi.org/10.1017/aae.2019.36",
+                    "url_for_pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8DD3C96D2FEEEC9D27292833DCC9B8C2/S1074070819000361a.pdf/div-class-title-u-s-grass-fed-beef-producers-goal-structure-and-reasons-for-enterprise-selection-div.pdf",
+                    "version": "publishedVersion"
+                },
+                {
+                    "endpoint_id": null,
+                    "evidence": "oa journal (via doaj)",
+                    "host_type": "publisher",
+                    "is_best": false,
+                    "license": "cc-by-nc-nd",
+                    "pmh_id": null,
+                    "repository_institution": null,
+                    "updated": "2020-03-13T13:27:10.841921",
+                    "url": "https://doi.org/10.1017/aae.2019.36",
+                    "url_for_landing_page": "https://doi.org/10.1017/aae.2019.36",
+                    "url_for_pdf": null,
+                    "version": "publishedVersion"
+                }
+            ],
+            "oa_status": "gold",
+            "published_date": "2019-10-14",
+            "publisher": "Cambridge University Press (CUP)",
+            "title": "U.S. Grass-Fed Beef Producers: Goal Structure and Reasons for Enterprise Selection",
+            "updated": "2020-02-07T18:20:31.114833",
+            "year": 2019,
+            "z_authors": [
+                {
+                    "ORCID": "http://orcid.org/0000-0002-9351-2253",
+                    "authenticated-orcid": false,
+                    "family": "Sitienei",
+                    "given": "Isaac",
+                    "sequence": "first"
+                },
+                {
+                    "family": "Gillespie",
+                    "given": "Jeffrey",
+                    "sequence": "additional"
+                },
+                {
+                    "family": "Scaglia",
+                    "given": "Guillermo",
+                    "sequence": "additional"
+                }
+            ]
+        },
+        "datasets": [
+            "dataset-870"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "name": {
+                            "first": "Isaac",
+                            "last": "Sitienei"
+                        },
+                        "orcid": "0000-0002-9351-2253"
+                    },
+                    {
+                        "name": {
+                            "first": "Jeffrey",
+                            "last": "Gillespie"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Guillermo",
+                            "last": "Scaglia"
+                        }
+                    }
+                ],
+                "classification": "OA",
+                "date": "2019-10-14",
+                "pdf_url": "https://doi.org/10.1017/aae.2019.36",
+                "records": [
+                    {
+                        "abstract": "AbstractWe examine the relative importance of eight goals U.S. grass-fed beef (GFB) producers have for their farms and the relative importance of nine reasons for selecting the GFB enterprise. We further analyze factors affecting goal structure and reasons for selecting the enterprise. The data used for this study are from a 2013 mail survey of U.S. GFB producers. The most important reasons for selecting the GFB enterprise included “producing healthy beef” and “GFB is good for the environment,” classified in the study as social and environmental sustainability reasons, respectively. Reasons such as “profitability” and “strong demand for GFB” were generally of lower importance.",
+                        "doi": "10.1017/aae.2019.36",
+                        "identifier": "oai:crossref.org:10.1017/aae.2019.36",
+                        "issn": "1074-0708",
+                        "issue": "1",
+                        "journal": "Journal of Agricultural and Applied Economics",
+                        "pages": "78-95",
+                        "pdf_url": "https://doi.org/10.1017/aae.2019.36",
+                        "policy": {
+                            "postprint": "can",
+                            "preprint": "can",
+                            "published": "can",
+                            "romeo_id": "1599"
+                        },
+                        "publisher": "Cambridge University Press (CUP)",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.1017/aae.2019.36",
+                        "type": "journal-article",
+                        "volume": "52"
+                    }
+                ],
+                "title": "U.S. Grass-Fed Beef Producers: Goal Structure and Reasons for Enterprise Selection",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
+        "doi": "10.1017/aae.2019.36",
+        "original": {
+            "api": "dimensions",
+            "date_added": "2020-03-10 13:21:38",
+            "doi": "10.1017/aae.2019.36",
+            "search_term": "Agricultural Resource Management Survey",
+            "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=U.S.%20Grass-Fed%20Beef%20Producers%3A%20Goal%20Structure%20and%20Reasons%20for%20Enterprise%20Selection",
+            "valid": "yes"
+        },
+        "title": "U.S. Grass-Fed Beef Producers: Goal Structure and Reasons for Enterprise Selection"
     },
     {
         "Dimensions": {
@@ -529,6 +1187,7 @@
                     "name": "07 Agricultural and Veterinary Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -539,14 +1198,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "",
                         "first_name": "William D.",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "McBride",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     }
                 ]
@@ -560,14 +1215,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "",
                     "first_name": "William D.",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "McBride",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 }
             ],
@@ -656,6 +1307,7 @@
             "date": "2018-01-01",
             "date_inserted": "2019-01-12",
             "doi": "10.2139/ssrn.3304604",
+            "field_citation_ratio": 0.0,
             "id": "pub.1111339644",
             "issn": [
                 "1556-5068"
@@ -668,6 +1320,42 @@
                 "Norwegian register level 0"
             ],
             "linkout": "http://ageconsearch.umn.edu/record/281175/files/EIB-202.pdf",
+            "noun_phrases": [
+                "rice production",
+                "IN",
+                "practice",
+                "farm",
+                "Oryza sativa",
+                "operation",
+                "total number",
+                "U.S.",
+                "average rate",
+                "average",
+                "acre",
+                "South",
+                "advantage",
+                "economy",
+                "significant change",
+                "production technology",
+                "introduction",
+                "adoption",
+                "seed",
+                "producer",
+                "herbicide",
+                "technology",
+                "monitor",
+                "guidance system",
+                "tractor",
+                "machine",
+                "production cost",
+                "high cost",
+                "productivity gain",
+                "productivity change",
+                "consumer",
+                "Commerce",
+                "competitiveness",
+                "global market"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -686,6 +1374,7 @@
                 }
             ],
             "publisher": "Elsevier",
+            "recent_citations": 0,
             "reference_ids": [
                 "pub.1102244606",
                 "pub.1102279433",
@@ -710,6 +1399,15 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "U.S. Department of Agriculture (USDA) - Economic Research Service (ERS)"
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-DC",
+                    "name": "District of Columbia"
+                }
             ],
             "research_org_state_names": [
                 "Washington, D.C."
@@ -774,6 +1472,7 @@
                 "millennium",
                 "practice"
             ],
+            "times_cited": 0,
             "title": "U.S. Rice Production in the New Millennium: Changes in Structure, Practices, and Costs",
             "type": "preprint",
             "year": 2018
@@ -899,10 +1598,6 @@
                 }
             ]
         },
-        "abstract": "Farms growing rice changed significantly over the past two decades in terms of operation size and the ways in which rice is produced. As the total number of farms growing rice declined (from 9,627 in 1997 to 5,591 in 2012), total U.S. planted rice acres also dropped at an annual average rate of about 0.75 percent between 1995 and 2017. U.S. farms growing rice expanded that acreage more than 50 percent between 2000 and 2013 to an average of 600 acres per farm. Farm size increased most in the South where larger farms were able to take advantage of size economies. The most significant change in rice production technologies from 2000 to 2013 was the introduction and adoption of new rice seed varieties. Southern rice producers increasingly planted hybrid and non-genetically modified herbicide-tolerant seed. Precision farming technologies also proliferated, especially the use of yield monitors and guidance systems for tractors and other self-propelled machines. The adoption of new technologies in rice farming pushed per-acre production costs higher, but rice yields also increased, offsetting much of the higher costs. U.S. rice production saw an estimated productivity gain of 29 percent from 2000 to 2013, about 2.2 percent annually. Structural and productivity changes on U.S. farms growing rice benefited U.S. domestic rice consumers by helping to keep prices low and enhanced the competitiveness of U.S. rice producers in global markets.",
-        "authors": [
-            "author-42a90e72e5293ed24bd4"
-        ],
         "datasets": [
             "dataset-870"
         ],
@@ -946,108 +1641,6 @@
             "status": "ok"
         },
         "doi": "10.2139/ssrn.3304604",
-        "keyphrases": {
-            "acre": {
-                "count": 3,
-                "rank_score": 0.06788712734560806
-            },
-            "adoption": {
-                "count": 2,
-                "rank_score": 0.05149540611724463
-            },
-            "farm size": {
-                "count": 1,
-                "rank_score": 0.1096318979035169
-            },
-            "farms": {
-                "count": 3,
-                "rank_score": 0.09659124844611085
-            },
-            "growing rice": {
-                "count": 2,
-                "rank_score": 0.15239582536498142
-            },
-            "guidance systems": {
-                "count": 1,
-                "rank_score": 0.06448542562432198
-            },
-            "larger farms": {
-                "count": 1,
-                "rank_score": 0.09677839529167036
-            },
-            "new rice seed varieties": {
-                "count": 1,
-                "rank_score": 0.13445051303772448
-            },
-            "new technologies": {
-                "count": 1,
-                "rank_score": 0.07933657051733865
-            },
-            "operation size": {
-                "count": 1,
-                "rank_score": 0.07446329732846133
-            },
-            "other self-propelled machines": {
-                "count": 1,
-                "rank_score": 0.05319101765644366
-            },
-            "precision farming technologies": {
-                "count": 1,
-                "rank_score": 0.07782130145382586
-            },
-            "rice": {
-                "count": 3,
-                "rank_score": 0.14645008369112356
-            },
-            "rice acres": {
-                "count": 2,
-                "rank_score": 0.1482733755763899
-            },
-            "rice farming": {
-                "count": 1,
-                "rank_score": 0.14364764842034805
-            },
-            "rice production technologies": {
-                "count": 1,
-                "rank_score": 0.146760395024163
-            },
-            "rice yields": {
-                "count": 1,
-                "rank_score": 0.14360686462335975
-            },
-            "size economies": {
-                "count": 1,
-                "rank_score": 0.07341368413763434
-            },
-            "southern rice producers": {
-                "count": 1,
-                "rank_score": 0.13765384974043418
-            },
-            "total u.s.": {
-                "count": 1,
-                "rank_score": 0.09794153491831115
-            },
-            "tractors": {
-                "count": 1,
-                "rank_score": 0.05440884083926959
-            },
-            "u.s. domestic rice consumers": {
-                "count": 1,
-                "rank_score": 0.14728824331249524
-            },
-            "u.s. rice producers": {
-                "count": 1,
-                "rank_score": 0.15728646326844925
-            },
-            "u.s. rice production": {
-                "count": 1,
-                "rank_score": 0.15853970412304275
-            },
-            "yield monitors": {
-                "count": 1,
-                "rank_score": 0.0695643249271109
-            }
-        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-10 13:21:38",
@@ -1057,6 +1650,455 @@
             "valid": "yes"
         },
         "title": "U.S. Rice Production in the New Millennium: Changes in Structure, Practices, and Costs"
+    },
+    {
+        "OpenAIRE": {
+            "authors": [
+                "Vocke, Gary",
+                "Ali, Mir",
+                "Vocke, Gary",
+                "Ali, Mir"
+            ],
+            "open": false,
+            "url": "http://dx.doi.org/10.22004/ag.econ.262124"
+        },
+        "Semantic Scholar": {
+            "message": "Forbidden"
+        },
+        "datasets": [
+            "dataset-870"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "name": {
+                            "first": "Gary",
+                            "last": "Vocke"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Mir",
+                            "last": "Ali"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Gary",
+                            "last": "Vocke"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Mir",
+                            "last": "Ali"
+                        }
+                    }
+                ],
+                "classification": "UNK",
+                "date": "2013-01-01",
+                "records": [
+                    {
+                        "abstract": "The study explores the variation in wheat yields and production costs across U.S. regions, based on data from the 2009 Agricultural Resource Management Survey.",
+                        "doi": "10.22004/ag.econ.262124",
+                        "identifier": "oai:crossref.org:10.22004/ag.econ.262124",
+                        "issue": "",
+                        "journal": "Unknown",
+                        "pages": "",
+                        "pdf_url": "",
+                        "publisher": "Unknown",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.22004/ag.econ.262124",
+                        "type": "journal-article",
+                        "volume": ""
+                    }
+                ],
+                "title": "U.S. Wheat Production Practices, Costs, and Yields: Variations Across Regions",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
+        "doi": "10.22004/ag.econ.262124",
+        "original": {
+            "api": "openaire",
+            "date_added": "2020-03-10 13:21:38",
+            "doi": "10.22004/ag.econ.262124",
+            "search_term": "Agricultural Resource Management Survey",
+            "url": "http://dx.doi.org/10.22004/ag.econ.262124",
+            "valid": "yes"
+        },
+        "title": "U.S. Wheat Production Practices, Costs, and Yields: Variations Across Regions"
+    },
+    {
+        "Dimensions": {
+            "altmetric": 3.0,
+            "altmetric_id": 78427052,
+            "author_affiliations": [
+                [
+                    {
+                        "affiliations": [],
+                        "corresponding": "",
+                        "current_organization_id": "",
+                        "first_name": "Dennis U.",
+                        "initials": "",
+                        "last_name": "Fisher",
+                        "orcid": "",
+                        "researcher_id": ""
+                    },
+                    {
+                        "affiliations": [],
+                        "corresponding": "",
+                        "current_organization_id": "",
+                        "first_name": "Ronald D.",
+                        "initials": "",
+                        "last_name": "Knutson",
+                        "orcid": "",
+                        "researcher_id": ""
+                    }
+                ]
+            ],
+            "authors": [
+                {
+                    "affiliations": [],
+                    "corresponding": "",
+                    "current_organization_id": "",
+                    "first_name": "Dennis U.",
+                    "initials": "",
+                    "last_name": "Fisher",
+                    "orcid": "",
+                    "researcher_id": ""
+                },
+                {
+                    "affiliations": [],
+                    "corresponding": "",
+                    "current_organization_id": "",
+                    "first_name": "Ronald D.",
+                    "initials": "",
+                    "last_name": "Knutson",
+                    "orcid": "",
+                    "researcher_id": ""
+                }
+            ],
+            "category_for": [
+                {
+                    "id": "3292",
+                    "name": "1402 Applied Economics"
+                },
+                {
+                    "id": "2214",
+                    "name": "14 Economics"
+                }
+            ],
+            "date": "2013-01-01",
+            "date_inserted": "2017-08-31",
+            "doi": "10.1093/ajae/aas088",
+            "field_citation_ratio": 5.05,
+            "id": "pub.1059380002",
+            "issn": [
+                "0002-9092",
+                "1467-8276"
+            ],
+            "issue": "2",
+            "journal": {
+                "id": "jour.1027463",
+                "title": "American Journal of Agricultural Economics"
+            },
+            "journal_lists": [
+                "Norwegian register level 1",
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "open_access_categories": [
+                {
+                    "description": "No freely available copy has been identified",
+                    "id": "closed",
+                    "name": "Closed"
+                }
+            ],
+            "pages": "463-469",
+            "publisher": "Wiley",
+            "recent_citations": 6,
+            "reference_ids": [
+                "pub.1102346505",
+                "pub.1061933706",
+                "pub.1050478655",
+                "pub.1102229180",
+                "pub.1059379826"
+            ],
+            "references": [
+                "pub.1102346505",
+                "pub.1061933706",
+                "pub.1050478655",
+                "pub.1102229180",
+                "pub.1059379826"
+            ],
+            "times_cited": 9,
+            "title": "Uniqueness of Agricultural Labor Markets",
+            "type": "article",
+            "volume": "95",
+            "year": 2013
+        },
+        "OpenAIRE": {
+            "authors": [
+                "Dennis U. Fisher",
+                "Ronald D. Knutson"
+            ],
+            "open": true,
+            "url": "http://hdl.handle.net/10.1093/ajae/aas088"
+        },
+        "Semantic Scholar": {
+            "abstract": null,
+            "arxivId": null,
+            "authors": [
+                {
+                    "authorId": "119436916",
+                    "name": "Dennis U. Fisher",
+                    "url": "https://www.semanticscholar.org/author/119436916"
+                },
+                {
+                    "authorId": "50823124",
+                    "name": "Ronald D. Knutson",
+                    "url": "https://www.semanticscholar.org/author/50823124"
+                }
+            ],
+            "citationVelocity": 0,
+            "citations": [
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "31798405",
+                            "name": "Andrew L. Stevens",
+                            "url": "https://www.semanticscholar.org/author/31798405"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "0ad3cb030b48eb58353039e65887cc90d5a7b6c9",
+                    "title": "Temperature , Wages , and Agricultural Labor Productivity ∗",
+                    "url": "https://www.semanticscholar.org/paper/0ad3cb030b48eb58353039e65887cc90d5a7b6c9",
+                    "venue": "",
+                    "year": 2017
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "50652985",
+                            "name": "Xuan Wei",
+                            "url": "https://www.semanticscholar.org/author/50652985"
+                        },
+                        {
+                            "authorId": "89444719",
+                            "name": "Zhengfei Guan",
+                            "url": "https://www.semanticscholar.org/author/89444719"
+                        },
+                        {
+                            "authorId": "12804816",
+                            "name": "Gulcan Onel",
+                            "url": "https://www.semanticscholar.org/author/12804816"
+                        },
+                        {
+                            "authorId": "35265238",
+                            "name": "F. M. Roka",
+                            "url": "https://www.semanticscholar.org/author/35265238"
+                        }
+                    ],
+                    "doi": null,
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "9e7671631afbf27ebb55d1d2bcb1893464408725",
+                    "title": "Imperfect Substitution between Immigrant and Native Farm Workers in the United States",
+                    "url": "https://www.semanticscholar.org/paper/9e7671631afbf27ebb55d1d2bcb1893464408725",
+                    "venue": "",
+                    "year": 2016
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "52638886",
+                            "name": "Gustavo Magalhães de Oliveira",
+                            "url": "https://www.semanticscholar.org/author/52638886"
+                        },
+                        {
+                            "authorId": "97815580",
+                            "name": "Decio Zylbersztajn",
+                            "url": "https://www.semanticscholar.org/author/97815580"
+                        }
+                    ],
+                    "doi": "10.18461/pfsd.2017.1739",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "538bc3806c3fab8c2d06336c713cac25c3477a43",
+                    "title": "Determinants of Outsourcing Contracts in Agricultural Mechanization Services: the Brazilian Coffee Agribusiness Case",
+                    "url": "https://www.semanticscholar.org/paper/538bc3806c3fab8c2d06336c713cac25c3477a43",
+                    "venue": "",
+                    "year": 2017
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "150344846",
+                            "name": "Xuan Wei",
+                            "url": "https://www.semanticscholar.org/author/150344846"
+                        },
+                        {
+                            "authorId": "119641544",
+                            "name": "Gülcan Önel",
+                            "url": "https://www.semanticscholar.org/author/119641544"
+                        },
+                        {
+                            "authorId": "89444719",
+                            "name": "Zhengfei Guan",
+                            "url": "https://www.semanticscholar.org/author/89444719"
+                        },
+                        {
+                            "authorId": "35265238",
+                            "name": "F. M. Roka",
+                            "url": "https://www.semanticscholar.org/author/35265238"
+                        }
+                    ],
+                    "doi": "10.2478/izajodm-2019-0007",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "a15a9cf81f282691833f49deb4268d70802cdb15",
+                    "title": "Substitution between Immigrant and Native Farmworkers in the United States: Does Legal Status Matter?",
+                    "url": "https://www.semanticscholar.org/paper/a15a9cf81f282691833f49deb4268d70802cdb15",
+                    "venue": "",
+                    "year": 2019
+                },
+                {
+                    "arxivId": null,
+                    "authors": [
+                        {
+                            "authorId": "1886233",
+                            "name": "Timothy J. Richards",
+                            "url": "https://www.semanticscholar.org/author/1886233"
+                        }
+                    ],
+                    "doi": "10.1093/ajae/aay027",
+                    "intent": [],
+                    "isInfluential": false,
+                    "paperId": "98e143eb419fc0d3d8ffb9b92bc644caa23b19ef",
+                    "title": "Immigration Reform and Farm Labor Markets",
+                    "url": "https://www.semanticscholar.org/paper/98e143eb419fc0d3d8ffb9b92bc644caa23b19ef",
+                    "venue": "",
+                    "year": 2018
+                }
+            ],
+            "corpusId": 154523475,
+            "doi": "10.1093/ajae/aas088",
+            "fieldsOfStudy": [
+                "Economics"
+            ],
+            "influentialCitationCount": 0,
+            "is_open_access": false,
+            "is_publisher_licensed": false,
+            "paperId": "e82709270fa2f96b075ff7cb88e4d3870467aa85",
+            "references": [],
+            "title": "Uniqueness of Agricultural Labor Markets",
+            "topics": [],
+            "url": "https://www.semanticscholar.org/paper/e82709270fa2f96b075ff7cb88e4d3870467aa85",
+            "venue": "",
+            "year": 2013
+        },
+        "Unpaywall": {
+            "best_oa_location": null,
+            "data_standard": 2,
+            "doi": "10.1093/ajae/aas088",
+            "doi_url": "https://doi.org/10.1093/ajae/aas088",
+            "genre": "journal-article",
+            "has_repository_copy": false,
+            "is_oa": false,
+            "is_paratext": false,
+            "journal_is_in_doaj": false,
+            "journal_is_oa": false,
+            "journal_issn_l": "0002-9092",
+            "journal_issns": "0002-9092,1467-8276",
+            "journal_name": "American Journal of Agricultural Economics",
+            "oa_locations": [],
+            "oa_status": "closed",
+            "published_date": "2013-01-01",
+            "publisher": "Wiley",
+            "title": "Uniqueness of Agricultural Labor Markets",
+            "updated": "2020-02-25T13:50:31.457093",
+            "year": 2013,
+            "z_authors": [
+                {
+                    "family": "Fisher",
+                    "given": "Dennis U.",
+                    "sequence": "first"
+                },
+                {
+                    "family": "Knutson",
+                    "given": "Ronald D.",
+                    "sequence": "additional"
+                }
+            ]
+        },
+        "datasets": [
+            "dataset-870",
+            "dataset-881"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "name": {
+                            "first": "D. U.",
+                            "last": "Fisher"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "R. D.",
+                            "last": "Knutson"
+                        }
+                    }
+                ],
+                "classification": "OK",
+                "date": "2013-01-01",
+                "records": [
+                    {
+                        "doi": "10.1093/ajae/aas088",
+                        "identifier": "oai:crossref.org:10.1093/ajae/aas088",
+                        "issn": "0002-9092",
+                        "issue": "2",
+                        "journal": "American Journal of Agricultural Economics",
+                        "pages": "463-469",
+                        "policy": {
+                            "postprint": "can",
+                            "preprint": "can",
+                            "published": "cannot",
+                            "romeo_id": "2704"
+                        },
+                        "publisher": "Oxford University Press (OUP)",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.1093/ajae/aas088",
+                        "type": "journal-article",
+                        "volume": "95"
+                    }
+                ],
+                "title": "Uniqueness of Agricultural Labor Markets",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
+        "doi": "10.1093/ajae/aas088",
+        "original": {
+            "api": "dimensions",
+            "date_added": "2020-03-10 13:21:38",
+            "doi": "10.1093/ajae/aas088",
+            "search_term": "Agricultural Resource Management Survey",
+            "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=Uniqueness%20of%20Agricultural%20Labor%20Markets",
+            "valid": "yes"
+        },
+        "title": "Uniqueness of Agricultural Labor Markets"
     },
     {
         "Dimensions": {
@@ -1072,6 +2114,7 @@
                     "name": "14 Economics"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -1089,14 +2132,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.36567.31",
-                        "email": "",
                         "first_name": "Brian C.",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Briggeman",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.016650272216.15"
                     },
                     {
@@ -1107,14 +2146,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "",
                         "first_name": "Steven R.",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Koenig",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.016042462501.12"
                     },
                     {
@@ -1132,14 +2167,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.15276.37",
-                        "email": "",
                         "first_name": "Charles B.",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Moss",
-                        "last_name_original": "",
                         "orcid": "['0000-0002-1172-7112']",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.016472132503.21"
                     }
                 ]
@@ -1160,14 +2191,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.36567.31",
-                    "email": "",
                     "first_name": "Brian C.",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Briggeman",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.016650272216.15"
                 },
                 {
@@ -1178,14 +2205,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "",
                     "first_name": "Steven R.",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Koenig",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.016042462501.12"
                 },
                 {
@@ -1203,14 +2226,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.15276.37",
-                    "email": "",
                     "first_name": "Charles B.",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Moss",
-                    "last_name_original": "",
                     "orcid": "['0000-0002-1172-7112']",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.016472132503.21"
                 }
             ],
@@ -1282,6 +2301,7 @@
             "date": "2012-07-27",
             "date_inserted": "2017-08-31",
             "doi": "10.1108/00021461211250483",
+            "field_citation_ratio": 0.0,
             "id": "pub.1041886987",
             "issn": [
                 "0002-1466",
@@ -1298,6 +2318,35 @@
                 "VABB-SHW",
                 "ERA 2018"
             ],
+            "noun_phrases": [
+                "farm",
+                "arm",
+                "author",
+                "credit",
+                "period",
+                "severe stress",
+                "negative effect",
+                "lender",
+                "policymakers",
+                "reliable data",
+                "supply",
+                "paper",
+                "current availability",
+                "accuracy",
+                "review",
+                "Data Collection",
+                "resource management",
+                "manuscript",
+                "potential issue",
+                "debt",
+                "empirical result",
+                "break",
+                "evidence",
+                "overall level",
+                "United State Department of Agriculture",
+                "modification",
+                "external review"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -1307,6 +2356,7 @@
             ],
             "pages": "254-261",
             "publisher": "Emerald",
+            "recent_citations": 0,
             "research_org_cities": [
                 {
                     "id": 4274994,
@@ -1330,18 +2380,23 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Farm Credit Administration, McLean, Virginia, USA",
+                "University of Florida",
+                "Kansas State University"
+            ],
             "research_org_state_codes": [
                 {
-                    "id": "US-FL",
-                    "name": "Florida"
+                    "id": "US-KS",
+                    "name": "Kansas"
                 },
                 {
                     "id": "US-VA",
                     "name": "Virginia"
                 },
                 {
-                    "id": "US-KS",
-                    "name": "Kansas"
+                    "id": "US-FL",
+                    "name": "Florida"
                 }
             ],
             "research_org_state_names": [
@@ -1455,6 +2510,7 @@
                 "Originality/value",
                 "values"
             ],
+            "times_cited": 0,
             "title": "US farm debt: the role of ARMS",
             "type": "article",
             "volume": "Volume 72",
@@ -1581,12 +2637,6 @@
                 }
             ]
         },
-        "abstract": "Purpose - To identify periods of severe stress, and potentially take action to avoid or dampen their negative effects, lenders and policymakers need accurate and reliable data on US farm debt supply and credit needs. The purpose of this paper is to assess the current availability of information on US farm debt as well as its accuracy. Design/methodology/approach - A review of the farm debt information and survey methodology of the Agricultural Resource Management Survey (ARMS). Findings - This manuscript examines several potential issues involving the debt and lender data within ARMS. First, the empirical results indicate that there is an informational break in ARMS beginning in 2000. Second, the paper presents evidence that the overall level of debt reported by USDA is not consistent with information reported by lenders for other regulatory sources. Finally, the paper proposes a modification of the debt question to improve the data collection. Originality/value - The paper offers an external review of farm debt information in ARMS.",
-        "authors": [
-            "author-961d2128bb0abcb9ae3f",
-            "author-f1c022d1d6acb7738a2d",
-            "author-7d53e229486e3f1173c4"
-        ],
         "datasets": [
             "dataset-870"
         ],
@@ -1641,108 +2691,6 @@
             "status": "ok"
         },
         "doi": "10.1108/00021461211250483",
-        "keyphrases": {
-            "accurate and reliable data": {
-                "count": 1,
-                "rank_score": 0.05623396792712377
-            },
-            "agricultural resource management survey": {
-                "count": 2,
-                "rank_score": 0.05708370155846182
-            },
-            "arms": {
-                "count": 2,
-                "rank_score": 0.06109615073756276
-            },
-            "credit needs": {
-                "count": 1,
-                "rank_score": 0.05691580381084506
-            },
-            "current availability": {
-                "count": 1,
-                "rank_score": 0.03687697381078998
-            },
-            "data collection": {
-                "count": 1,
-                "rank_score": 0.0452345957526032
-            },
-            "debt": {
-                "count": 1,
-                "rank_score": 0.11650575440655449
-            },
-            "debt and lender data": {
-                "count": 1,
-                "rank_score": 0.0661432160743493
-            },
-            "debt question": {
-                "count": 1,
-                "rank_score": 0.0666623760233378
-            },
-            "empirical results": {
-                "count": 1,
-                "rank_score": 0.04310367350884081
-            },
-            "external review": {
-                "count": 1,
-                "rank_score": 0.044031532402899046
-            },
-            "farm debt information": {
-                "count": 2,
-                "rank_score": 0.14495396127549975
-            },
-            "informational break": {
-                "count": 1,
-                "rank_score": 0.04310367350884081
-            },
-            "lenders": {
-                "count": 2,
-                "rank_score": 0.08474204295788487
-            },
-            "methodology": {
-                "count": 1,
-                "rank_score": 0.0623878248344586
-            },
-            "originality/value": {
-                "count": 1,
-                "rank_score": 0.04310367350884081
-            },
-            "other regulatory sources": {
-                "count": 1,
-                "rank_score": 0.07155959897646923
-            },
-            "overall level": {
-                "count": 1,
-                "rank_score": 0.03610241834357593
-            },
-            "periods": {
-                "count": 1,
-                "rank_score": 0.0579658329143197
-            },
-            "policymakers": {
-                "count": 1,
-                "rank_score": 0.047042976152623206
-            },
-            "several potential issues": {
-                "count": 1,
-                "rank_score": 0.08535254430752098
-            },
-            "severe stress": {
-                "count": 1,
-                "rank_score": 0.0695849198195017
-            },
-            "their negative effects": {
-                "count": 1,
-                "rank_score": 0.03902081724910203
-            },
-            "us farm debt": {
-                "count": 1,
-                "rank_score": 0.13568107920794079
-            },
-            "us farm debt supply": {
-                "count": 1,
-                "rank_score": 0.13410526111336415
-            }
-        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-10 13:21:38",
@@ -1752,6 +2700,80 @@
             "valid": "yes"
         },
         "title": "US farm debt: the role of ARMS"
+    },
+    {
+        "OpenAIRE": {
+            "authors": [
+                "Gerling, Michael W.",
+                "Gerling, Michael W."
+            ],
+            "open": false,
+            "url": "http://dx.doi.org/10.22004/ag.econ.235026"
+        },
+        "Semantic Scholar": {
+            "message": "Forbidden"
+        },
+        "datasets": [
+            "dataset-870"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "name": {
+                            "first": "Michael W.",
+                            "last": "Gerling"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "United",
+                            "last": "States"
+                        }
+                    }
+                ],
+                "classification": "UNK",
+                "date": "2005-01-01",
+                "records": [
+                    {
+                        "abstract": "The National Agricultural Statistics Service conducts hundreds of surveys on United States and Puerto Rico agriculture for the purpose of making estimates on crops, livestock, production practices, economics, etc. One of these surveys conducted annually is the Agricultural Resource Management Survey. The survey has multiple purposes ranging from collecting information on chemical use and production practices on specific targeted crops to obtaining information on the financial well-being of agricultural operations. One aspect of the survey requires obtaining the latitude and longitude coordinates of sampled agricultural fields containing the target commodity. The current method involves the enumerator marking the location of these fields onto county highway maps, followed by the use of mapping software by office staff. This process is time consuming and lends itself to human error. Hence, the Research and Development Division and the Washington Field Office joined efforts to investigate whether equipping field enumerators with low-cost handheld GPS receivers would save staff time and improve the accuracy of recording where the sampled fields are located.",
+                        "doi": "10.22004/ag.econ.235026",
+                        "identifier": "oai:crossref.org:10.22004/ag.econ.235026",
+                        "issue": "",
+                        "journal": "Unknown",
+                        "pages": "",
+                        "pdf_url": "",
+                        "publisher": "Unknown",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.22004/ag.econ.235026",
+                        "type": "journal-article",
+                        "volume": ""
+                    },
+                    {
+                        "abstract": "",
+                        "contributors": "",
+                        "identifier": "ftagspace:oai:ddr.nal.usda.gov:10113/43527",
+                        "keywords": "Agricultural surveys global positioning systems portable equipment Agricultural Resource Management Study United States",
+                        "source": "base",
+                        "splash_url": "http://hdl.handle.net/10113/43527",
+                        "type": "book"
+                    }
+                ],
+                "title": "Using handheld global positioning system receivers for Phase II of the Agricultural Resource Management Survey.",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
+        "doi": "10.22004/ag.econ.235026",
+        "original": {
+            "api": "openaire",
+            "date_added": "2020-03-10 13:21:38",
+            "doi": "10.22004/ag.econ.235026",
+            "search_term": "Agricultural Resource Management Survey",
+            "url": "http://dx.doi.org/10.22004/ag.econ.235026",
+            "valid": "yes"
+        },
+        "title": "Using Handheld Global Positioning System Receivers for Phase II of the Agricultural Resource Management Survey"
     },
     {
         "OpenAIRE": {
@@ -2007,11 +3029,6 @@
             "venue": "",
             "year": 2009
         },
-        "abstract": "In an effort to increase response rates, the National Agricultural Statistics Service (NASS) began experimenting with monetary incentives in 2004. Follow-up assessments of the monetary incentive in 2005 demonstrated that ATM cash cards are beneficial in increasing Agricultural Resource Management Survey Phase III (ARMS III) response rates and decreasing survey costs; however, it is unknown which sampled units would have responded without the incentive. This paper discusses the use of data mining to identify likely ARMS III respondents. A series of models were built using 2002 Census of Agriculture data to predict several years of ARMS III sample respondents before (2003-2004) incentives were introduced. These models were applied to the years after incentives were introduced (2005-2007) to confirm that they continued to identify likely respondents. The respondent prediction models discussed in this report enable NASS to flag persons likely to respond given no incentive. Providing incentives to these respondents requires substantial costs, but likely does not increase overall response rates. In addition, if providing them incentives does increase response rates, it may increase them in such a way that NASS estimates are further biased if only more of the same type of operations opt to respond.",
-        "authors": [
-            "author-7daa66d1c751bbb2f936",
-            "author-e1113516a3433e2b5aad"
-        ],
         "datasets": [
             "dataset-870",
             "dataset-881"
@@ -2065,108 +3082,6 @@
             "status": "ok"
         },
         "doi": "10.22004/ag.econ.235087",
-        "keyphrases": {
-            "agricultural resource management": {
-                "count": 1,
-                "rank_score": 0.08652917551707627
-            },
-            "agriculture": {
-                "count": 1,
-                "rank_score": 0.046227570026950805
-            },
-            "arms iii sample respondents": {
-                "count": 1,
-                "rank_score": 0.05319528861893272
-            },
-            "arms iii) response rates": {
-                "count": 1,
-                "rank_score": 0.047969831892552946
-            },
-            "atm": {
-                "count": 1,
-                "rank_score": 0.047557103310872983
-            },
-            "atm cash cards": {
-                "count": 1,
-                "rank_score": 0.07249678377456252
-            },
-            "data mining": {
-                "count": 1,
-                "rank_score": 0.07615965756312246
-            },
-            "decreasing survey costs": {
-                "count": 1,
-                "rank_score": 0.0732300197553831
-            },
-            "flag persons": {
-                "count": 1,
-                "rank_score": 0.06638022145500386
-            },
-            "incentives": {
-                "count": 6,
-                "rank_score": 0.09382147828796696
-            },
-            "increasing agricultural resource management survey phase iii": {
-                "count": 1,
-                "rank_score": 0.1049525652258828
-            },
-            "likely arms iii respondents": {
-                "count": 1,
-                "rank_score": 0.06603308497835707
-            },
-            "likely respondents": {
-                "count": 1,
-                "rank_score": 0.10324575819016395
-            },
-            "monetary incentives": {
-                "count": 2,
-                "rank_score": 0.10207509283205424
-            },
-            "nass": {
-                "count": 1,
-                "rank_score": 0.05291450314932722
-            },
-            "nass estimates": {
-                "count": 1,
-                "rank_score": 0.07582042051762615
-            },
-            "national agricultural statistics service": {
-                "count": 2,
-                "rank_score": 0.057945871934310236
-            },
-            "operations": {
-                "count": 1,
-                "rank_score": 0.0551212234167747
-            },
-            "overall response rates": {
-                "count": 1,
-                "rank_score": 0.09730045846839482
-            },
-            "respondent prediction models": {
-                "count": 1,
-                "rank_score": 0.05395869140181176
-            },
-            "response rates": {
-                "count": 2,
-                "rank_score": 0.09850496977760413
-            },
-            "same type": {
-                "count": 1,
-                "rank_score": 0.038670664304518286
-            },
-            "several years": {
-                "count": 2,
-                "rank_score": 0.07085579150801821
-            },
-            "substantial costs": {
-                "count": 1,
-                "rank_score": 0.06722462815503905
-            },
-            "units": {
-                "count": 1,
-                "rank_score": 0.05525128845637731
-            }
-        },
         "original": {
             "api": "openaire",
             "date_added": "2020-03-10 13:21:38",
@@ -2191,6 +3106,7 @@
                     "name": "01 Mathematical Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -2208,14 +3124,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "",
                         "first_name": "Freddie L.",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Barnard",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.011023340555.92"
                     },
                     {
@@ -2233,14 +3145,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.17635.36",
-                        "email": "",
                         "first_name": "Dale W.",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Nordquist",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.01274355042.66"
                     }
                 ]
@@ -2261,14 +3169,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "",
                     "first_name": "Freddie L.",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Barnard",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.011023340555.92"
                 },
                 {
@@ -2286,14 +3190,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.17635.36",
-                    "email": "",
                     "first_name": "Dale W.",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Nordquist",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.01274355042.66"
                 }
             ],
@@ -2359,6 +3259,7 @@
             "date": "2012-07-27",
             "date_inserted": "2017-08-31",
             "doi": "10.1108/00021461211250500",
+            "field_citation_ratio": 0.0,
             "id": "pub.1049788423",
             "issn": [
                 "0002-1466",
@@ -2375,6 +3276,27 @@
                 "VABB-SHW",
                 "ERA 2018"
             ],
+            "noun_phrases": [
+                "statement",
+                "arm",
+                "equity",
+                "cash flow",
+                "agricultural sector",
+                "paper",
+                "feasibility",
+                "resource management",
+                "supplement",
+                "sector",
+                "individual",
+                "format",
+                "collection",
+                "independent data",
+                "dialog",
+                "possible alternative",
+                "Data Collection",
+                "shortfall",
+                "inaccuracy"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -2384,6 +3306,7 @@
             ],
             "pages": "273-285",
             "publisher": "Emerald",
+            "recent_citations": 0,
             "research_org_cities": [
                 {
                     "id": 4928096,
@@ -2402,6 +3325,10 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "University of Minnesota",
+                "Purdue University West Lafayette"
             ],
             "research_org_state_codes": [
                 {
@@ -2504,6 +3431,7 @@
                 "shortfall",
                 "financial statements"
             ],
+            "times_cited": 0,
             "title": "Using sector financial statements and ARMS data to prepare statements of owner equity and cash flows for the agricultural sector",
             "type": "article",
             "volume": "Volume 72",
@@ -2574,11 +3502,6 @@
                 }
             ]
         },
-        "abstract": "Purpose - The purpose of this paper is to discuss the feasibility of preparing a statement of owner equity (SOE) and statement of cash flows (SOCF) for the agricultural sector. Also, the use of the Agricultural Resource Management Survey (ARMS) to collect data needed to supplement the US farm sector accounts to prepare a sector SOE and SOCF is discussed. Design/methodology/approach - An SOE and SOCF for an individual producer was used to provide an example format for preparing an SOE and SOCF for the agricultural sector and to identify the data needed from the ARMS survey to supplement farm sector accounts. Findings - The format and data needed to prepare a sector SOE and SOCF were identified and the feasibility of the collection of that data using current ERS/USDA survey collection methods would provide the data needed to prepare the statements. However, the use of two independent data collection authorities to collect the data would result in an agricultural sector SOE and SOCF that would not reconcile. Originality/value - The paper initiates a dialog of possible alternatives available to the ERS/USDA and researchers concerning data needed and data sources available to prepare an agricultural sector SOE and SOCF, as well as the shortfalls and inaccuracies that would result.",
-        "authors": [
-            "author-55b85a230d776dde5eb3",
-            "author-bb6a1dcea5450fcef42e"
-        ],
         "datasets": [
             "dataset-870"
         ],
@@ -2627,108 +3550,6 @@
             "status": "ok"
         },
         "doi": "10.1108/00021461211250500",
-        "keyphrases": {
-            "agricultural resource management survey": {
-                "count": 2,
-                "rank_score": 0.058676965550409105
-            },
-            "agricultural sector": {
-                "count": 2,
-                "rank_score": 0.06573040151061048
-            },
-            "agricultural sector soe": {
-                "count": 2,
-                "rank_score": 0.08170630553980034
-            },
-            "arms": {
-                "count": 2,
-                "rank_score": 0.05929198827241382
-            },
-            "arms survey": {
-                "count": 1,
-                "rank_score": 0.04738152537904197
-            },
-            "cash flows": {
-                "count": 1,
-                "rank_score": 0.05809002015671535
-            },
-            "collection": {
-                "count": 1,
-                "rank_score": 0.03953483971209152
-            },
-            "current ers/usda survey collection methods": {
-                "count": 1,
-                "rank_score": 0.07763225557195483
-            },
-            "data sources": {
-                "count": 1,
-                "rank_score": 0.11478605228896667
-            },
-            "design/methodology/approach": {
-                "count": 1,
-                "rank_score": 0.03814062036281928
-            },
-            "ers": {
-                "count": 2,
-                "rank_score": 0.06163131285507848
-            },
-            "ers/usda": {
-                "count": 1,
-                "rank_score": 0.03589562650622645
-            },
-            "example format": {
-                "count": 1,
-                "rank_score": 0.03609588218318258
-            },
-            "farm sector accounts": {
-                "count": 1,
-                "rank_score": 0.10740380925434574
-            },
-            "inaccuracies": {
-                "count": 1,
-                "rank_score": 0.05038561512108057
-            },
-            "individual producer": {
-                "count": 1,
-                "rank_score": 0.035110458655511115
-            },
-            "originality/value": {
-                "count": 1,
-                "rank_score": 0.04512254810614031
-            },
-            "owner equity": {
-                "count": 1,
-                "rank_score": 0.05746450293255832
-            },
-            "possible alternatives": {
-                "count": 1,
-                "rank_score": 0.06546057637285843
-            },
-            "researchers": {
-                "count": 1,
-                "rank_score": 0.047127169349443
-            },
-            "sector soe": {
-                "count": 2,
-                "rank_score": 0.07350769863879358
-            },
-            "socf": {
-                "count": 2,
-                "rank_score": 0.04199572107903586
-            },
-            "soe": {
-                "count": 7,
-                "rank_score": 0.08991934631630939
-            },
-            "statement": {
-                "count": 3,
-                "rank_score": 0.06277704575518815
-            },
-            "two independent data collection authorities": {
-                "count": 1,
-                "rank_score": 0.08260390610880299
-            }
-        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-10 13:21:38",
@@ -2781,6 +3602,7 @@
                     "name": "Emerging Infectious Diseases"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -2798,14 +3620,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.17088.36",
-                        "email": "ligmannz@msu.edu",
                         "first_name": "Arika",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Ligmann-Zielinska",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.013411053367.14"
                     },
                     {
@@ -2833,14 +3651,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.17088.36",
-                        "email": "",
                         "first_name": "Daniel B.",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Kramer",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.01363063315.25"
                     },
                     {
@@ -2868,14 +3682,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.17088.36",
-                        "email": "",
                         "first_name": "Kendra Spence",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Cheruvelil",
-                        "last_name_original": "",
                         "orcid": "['0000-0003-1880-2880']",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.01212453150.26"
                     },
                     {
@@ -2893,14 +3703,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.17088.36",
-                        "email": "",
                         "first_name": "Patricia A.",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Soranno",
-                        "last_name_original": "",
                         "orcid": "['0000-0003-1668-9271']",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.01113646220.38"
                     }
                 ]
@@ -2921,14 +3727,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.17088.36",
-                    "email": "ligmannz@msu.edu",
                     "first_name": "Arika",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Ligmann-Zielinska",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.013411053367.14"
                 },
                 {
@@ -2956,14 +3758,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.17088.36",
-                    "email": "",
                     "first_name": "Daniel B.",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Kramer",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.01363063315.25"
                 },
                 {
@@ -2991,14 +3789,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.17088.36",
-                    "email": "",
                     "first_name": "Kendra Spence",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Cheruvelil",
-                    "last_name_original": "",
                     "orcid": "['0000-0003-1880-2880']",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.01212453150.26"
                 },
                 {
@@ -3016,14 +3810,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.17088.36",
-                    "email": "",
                     "first_name": "Patricia A.",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Soranno",
-                    "last_name_original": "",
                     "orcid": "['0000-0003-1668-9271']",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.01113646220.38"
                 }
             ],
@@ -3144,7 +3934,7 @@
             "date": "2014-10-23",
             "date_inserted": "2017-08-31",
             "doi": "10.1371/journal.pone.0109779",
-            "field_citation_ratio": 12.2,
+            "field_citation_ratio": 12.11,
             "funder_countries": [
                 {
                     "id": "US",
@@ -3201,6 +3991,50 @@
                 "Soil",
                 "Uncertainty"
             ],
+            "noun_phrases": [
+                "uncertainty",
+                "agent-based model",
+                "Improve",
+                "analytical performance",
+                "micro level",
+                "agent",
+                "emergent phenomenon",
+                "proper handling",
+                "simulation framework",
+                "sensitivity analysis",
+                "exploration",
+                "low probability",
+                "consequence",
+                "policy implication",
+                "explanation",
+                "model behavior",
+                "high accuracy",
+                "conservation",
+                "land use change",
+                "decomposition",
+                "random sampling",
+                "input",
+                "computational experiment",
+                "uncertainty analysis",
+                "distribution",
+                "informs",
+                "expected value",
+                "independent data",
+                "variance",
+                "mean",
+                "extreme",
+                "simpler",
+                "initial model",
+                "output",
+                "simplification",
+                "model outcome",
+                "outlier",
+                "important consideration",
+                "Robust",
+                "explanatory",
+                "small number",
+                "steady state"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -3222,170 +4056,170 @@
             "pmcid": "PMC4207681",
             "pmid": "25340764",
             "publisher": "Public Library of Science (PLoS)",
-            "recent_citations": 13,
+            "recent_citations": 14,
             "reference_ids": [
-                "pub.1033753669",
-                "pub.1034784907",
-                "pub.1008765936",
-                "pub.1030345775",
-                "pub.1043878218",
-                "pub.1073096291",
                 "pub.1113376965",
-                "pub.1035383352",
-                "pub.1041166696",
-                "pub.1006770414",
                 "pub.1052946418",
-                "pub.1050548902",
-                "pub.1020468538",
-                "pub.1051517482",
-                "pub.1098661237",
-                "pub.1042680914",
-                "pub.1024165193",
-                "pub.1043288056",
-                "pub.1013286393",
                 "pub.1058157063",
-                "pub.1009070391",
-                "pub.1015971036",
-                "pub.1047969404",
-                "pub.1002767593",
-                "pub.1042158447",
-                "pub.1051166366",
-                "pub.1036298075",
-                "pub.1039932011",
-                "pub.1008804954",
-                "pub.1027266712",
-                "pub.1048786251",
-                "pub.1003519148",
-                "pub.1095909715",
-                "pub.1070459288",
-                "pub.1067457147",
-                "pub.1050527633",
-                "pub.1049746426",
-                "pub.1108780398",
-                "pub.1069973775",
-                "pub.1068662883",
-                "pub.1053261137",
-                "pub.1042722955",
-                "pub.1015277955",
-                "pub.1098661635",
-                "pub.1005387453",
-                "pub.1001290411",
-                "pub.1015994310",
-                "pub.1015153705",
-                "pub.1011346588",
-                "pub.1015517955",
-                "pub.1061122429",
-                "pub.1018095886",
-                "pub.1027628518",
-                "pub.1017010464",
-                "pub.1010661998",
-                "pub.1007799969",
-                "pub.1023544897",
+                "pub.1020468538",
                 "pub.1031855531",
+                "pub.1012409937",
+                "pub.1009070391",
+                "pub.1051517482",
+                "pub.1008765936",
+                "pub.1027628518",
+                "pub.1008259310",
                 "pub.1019782636",
-                "pub.1045170844",
-                "pub.1043410969",
-                "pub.1059569822",
-                "pub.1018893167",
-                "pub.1058157045",
-                "pub.1073096367",
-                "pub.1040483709",
-                "pub.1073096436",
-                "pub.1023664604",
+                "pub.1042722955",
                 "pub.1030703354",
+                "pub.1051166366",
+                "pub.1073096367",
+                "pub.1050548902",
+                "pub.1018893167",
+                "pub.1103750763",
+                "pub.1108780398",
+                "pub.1010661998",
+                "pub.1073096291",
+                "pub.1041221380",
+                "pub.1018095886",
+                "pub.1001290411",
                 "pub.1006438873",
+                "pub.1047969404",
+                "pub.1013286393",
+                "pub.1041166696",
+                "pub.1030345775",
+                "pub.1027266712",
+                "pub.1058157045",
+                "pub.1008804954",
+                "pub.1043288056",
+                "pub.1005387453",
+                "pub.1015153705",
+                "pub.1069973775",
+                "pub.1024224097",
+                "pub.1052109431",
+                "pub.1073096288",
+                "pub.1024165193",
+                "pub.1015517955",
+                "pub.1034784907",
+                "pub.1006770414",
+                "pub.1068662883",
+                "pub.1003519148",
+                "pub.1053261137",
+                "pub.1045170844",
+                "pub.1095909715",
+                "pub.1039932011",
+                "pub.1098661635",
+                "pub.1070459288",
+                "pub.1061122429",
+                "pub.1049746426",
+                "pub.1035383352",
+                "pub.1015971036",
+                "pub.1011346588",
+                "pub.1073096436",
+                "pub.1017010464",
+                "pub.1043410969",
+                "pub.1048786251",
+                "pub.1042680914",
+                "pub.1040483709",
                 "pub.1029050096",
                 "pub.1020480935",
-                "pub.1024224097",
-                "pub.1008259310",
-                "pub.1041221380",
-                "pub.1052109431",
-                "pub.1103750763",
-                "pub.1073096288",
+                "pub.1015277955",
+                "pub.1033753669",
                 "pub.1040214383",
-                "pub.1012409937"
+                "pub.1002767593",
+                "pub.1007799969",
+                "pub.1015994310",
+                "pub.1050527633",
+                "pub.1042158447",
+                "pub.1043878218",
+                "pub.1098661237",
+                "pub.1067457147",
+                "pub.1036298075",
+                "pub.1059569822",
+                "pub.1023544897",
+                "pub.1023664604"
             ],
             "references": [
-                "pub.1033753669",
-                "pub.1034784907",
-                "pub.1008765936",
-                "pub.1030345775",
-                "pub.1043878218",
-                "pub.1073096291",
                 "pub.1113376965",
-                "pub.1035383352",
-                "pub.1041166696",
-                "pub.1006770414",
                 "pub.1052946418",
-                "pub.1050548902",
-                "pub.1020468538",
-                "pub.1051517482",
-                "pub.1098661237",
-                "pub.1042680914",
-                "pub.1024165193",
-                "pub.1043288056",
-                "pub.1013286393",
                 "pub.1058157063",
-                "pub.1009070391",
-                "pub.1015971036",
-                "pub.1047969404",
-                "pub.1002767593",
-                "pub.1042158447",
-                "pub.1051166366",
-                "pub.1036298075",
-                "pub.1039932011",
-                "pub.1008804954",
-                "pub.1027266712",
-                "pub.1048786251",
-                "pub.1003519148",
-                "pub.1095909715",
-                "pub.1070459288",
-                "pub.1067457147",
-                "pub.1050527633",
-                "pub.1049746426",
-                "pub.1108780398",
-                "pub.1069973775",
-                "pub.1068662883",
-                "pub.1053261137",
-                "pub.1042722955",
-                "pub.1015277955",
-                "pub.1098661635",
-                "pub.1005387453",
-                "pub.1001290411",
-                "pub.1015994310",
-                "pub.1015153705",
-                "pub.1011346588",
-                "pub.1015517955",
-                "pub.1061122429",
-                "pub.1018095886",
-                "pub.1027628518",
-                "pub.1017010464",
-                "pub.1010661998",
-                "pub.1007799969",
-                "pub.1023544897",
+                "pub.1020468538",
                 "pub.1031855531",
+                "pub.1012409937",
+                "pub.1009070391",
+                "pub.1051517482",
+                "pub.1008765936",
+                "pub.1027628518",
+                "pub.1008259310",
                 "pub.1019782636",
-                "pub.1045170844",
-                "pub.1043410969",
-                "pub.1059569822",
-                "pub.1018893167",
-                "pub.1058157045",
-                "pub.1073096367",
-                "pub.1040483709",
-                "pub.1073096436",
-                "pub.1023664604",
+                "pub.1042722955",
                 "pub.1030703354",
+                "pub.1051166366",
+                "pub.1073096367",
+                "pub.1050548902",
+                "pub.1018893167",
+                "pub.1103750763",
+                "pub.1108780398",
+                "pub.1010661998",
+                "pub.1073096291",
+                "pub.1041221380",
+                "pub.1018095886",
+                "pub.1001290411",
                 "pub.1006438873",
+                "pub.1047969404",
+                "pub.1013286393",
+                "pub.1041166696",
+                "pub.1030345775",
+                "pub.1027266712",
+                "pub.1058157045",
+                "pub.1008804954",
+                "pub.1043288056",
+                "pub.1005387453",
+                "pub.1015153705",
+                "pub.1069973775",
+                "pub.1024224097",
+                "pub.1052109431",
+                "pub.1073096288",
+                "pub.1024165193",
+                "pub.1015517955",
+                "pub.1034784907",
+                "pub.1006770414",
+                "pub.1068662883",
+                "pub.1003519148",
+                "pub.1053261137",
+                "pub.1045170844",
+                "pub.1095909715",
+                "pub.1039932011",
+                "pub.1098661635",
+                "pub.1070459288",
+                "pub.1061122429",
+                "pub.1049746426",
+                "pub.1035383352",
+                "pub.1015971036",
+                "pub.1011346588",
+                "pub.1073096436",
+                "pub.1017010464",
+                "pub.1043410969",
+                "pub.1048786251",
+                "pub.1042680914",
+                "pub.1040483709",
                 "pub.1029050096",
                 "pub.1020480935",
-                "pub.1024224097",
-                "pub.1008259310",
-                "pub.1041221380",
-                "pub.1052109431",
-                "pub.1103750763",
-                "pub.1073096288",
+                "pub.1015277955",
+                "pub.1033753669",
                 "pub.1040214383",
-                "pub.1012409937"
+                "pub.1002767593",
+                "pub.1007799969",
+                "pub.1015994310",
+                "pub.1050527633",
+                "pub.1042158447",
+                "pub.1043878218",
+                "pub.1098661237",
+                "pub.1067457147",
+                "pub.1036298075",
+                "pub.1059569822",
+                "pub.1023544897",
+                "pub.1023664604"
             ],
             "relative_citation_ratio": 0.67,
             "research_org_cities": [
@@ -3402,6 +4236,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Michigan State University"
             ],
             "research_org_state_codes": [
                 {
@@ -3469,8 +4306,8 @@
                         "0000-0003-1668-9271"
                     ],
                     "research_orgs": [
-                        "grid.17088.36",
                         "grid.14003.36",
+                        "grid.17088.36",
                         "grid.28803.31"
                     ]
                 }
@@ -3542,7 +4379,7 @@
                 "state",
                 "performance"
             ],
-            "times_cited": 24,
+            "times_cited": 25,
             "title": "Using Uncertainty and Sensitivity Analyses in Socioecological Agent-Based Models to Improve Their Analytical Performance and Policy Relevance",
             "type": "article",
             "volume": "9",
@@ -7410,15 +8247,6 @@
                 }
             ]
         },
-        "abstract": "Agent-based models (ABMs) have been widely used to study socioecological systems. They are useful for studying such systems because of their ability to incorporate micro-level behaviors among interacting agents, and to understand emergent phenomena due to these interactions. However, ABMs are inherently stochastic and require proper handling of uncertainty. We propose a simulation framework based on quantitative uncertainty and sensitivity analyses to build parsimonious ABMs that serve two purposes: exploration of the outcome space to simulate low-probability but high-consequence events that may have significant policy implications, and explanation of model behavior to describe the system with higher accuracy. The proposed framework is applied to the problem of modeling farmland conservation resulting in land use change. We employ output variance decomposition based on quasi-random sampling of the input space and perform three computational experiments. First, we perform uncertainty analysis to improve model legitimacy, where the distribution of results informs us about the expected value that can be validated against independent data, and provides information on the variance around this mean as well as the extreme results. In our last two computational experiments, we employ sensitivity analysis to produce two simpler versions of the ABM. First, input space is reduced only to inputs that produced the variance of the initial ABM, resulting in a model with output distribution similar to the initial model. Second, we refine the value of the most influential input, producing a model that maintains the mean of the output of initial ABM but with less spread. These simplifications can be used to 1) efficiently explore model outcomes, including outliers that may be important considerations in the design of robust policies, and 2) conduct explanatory analysis that exposes the smallest number of inputs influencing the steady state of the modeled system.",
-        "authors": [
-            "author-c281495b638d58d379da",
-            "author-e76ddf9f51f5ff42d267",
-            "author-72ec4a7b24e08819a892",
-            "author-e463997672f95785aef7",
-            "author-57a204cee6a4f0aafbfb",
-            "author-f49cdb6cdf5db5101238"
-        ],
         "datasets": [
             "dataset-870"
         ],
@@ -7525,108 +8353,6 @@
             "status": "ok"
         },
         "doi": "10.1371/journal.pone.0109779",
-        "keyphrases": {
-            "agent-based models": {
-                "count": 1,
-                "rank_score": 0.0609490506836722
-            },
-            "emergent phenomena": {
-                "count": 1,
-                "rank_score": 0.05657759563453445
-            },
-            "explanatory analysis": {
-                "count": 1,
-                "rank_score": 0.0734967649320108
-            },
-            "farmland conservation": {
-                "count": 1,
-                "rank_score": 0.05552641351947252
-            },
-            "higher accuracy": {
-                "count": 1,
-                "rank_score": 0.054873378273628697
-            },
-            "independent data": {
-                "count": 1,
-                "rank_score": 0.054112425182651705
-            },
-            "initial abm": {
-                "count": 2,
-                "rank_score": 0.06723279492251887
-            },
-            "input space": {
-                "count": 2,
-                "rank_score": 0.08172338450075806
-            },
-            "inputs": {
-                "count": 1,
-                "rank_score": 0.07068320908168926
-            },
-            "land use change": {
-                "count": 1,
-                "rank_score": 0.05754445146635112
-            },
-            "micro-level behaviors": {
-                "count": 1,
-                "rank_score": 0.07984605138947388
-            },
-            "model behavior": {
-                "count": 1,
-                "rank_score": 0.09142665000129471
-            },
-            "model legitimacy": {
-                "count": 1,
-                "rank_score": 0.08091855590965619
-            },
-            "model outcomes": {
-                "count": 1,
-                "rank_score": 0.08537031418560073
-            },
-            "output distribution": {
-                "count": 1,
-                "rank_score": 0.07225858383744498
-            },
-            "output variance decomposition": {
-                "count": 1,
-                "rank_score": 0.0777911564875652
-            },
-            "parsimonious abms": {
-                "count": 1,
-                "rank_score": 0.059286331780697483
-            },
-            "quantitative uncertainty": {
-                "count": 1,
-                "rank_score": 0.06383866562471459
-            },
-            "quasi-random sampling": {
-                "count": 1,
-                "rank_score": 0.07002699483372622
-            },
-            "robust policies": {
-                "count": 1,
-                "rank_score": 0.05642765533770486
-            },
-            "sensitivity analyses": {
-                "count": 2,
-                "rank_score": 0.07976670977379874
-            },
-            "significant policy implications": {
-                "count": 1,
-                "rank_score": 0.06401048698222744
-            },
-            "socioecological systems": {
-                "count": 1,
-                "rank_score": 0.06706478166663406
-            },
-            "such systems": {
-                "count": 1,
-                "rank_score": 0.06717774203436314
-            },
-            "uncertainty": {
-                "count": 2,
-                "rank_score": 0.05731566725303654
-            }
-        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-10 13:21:38",
@@ -7636,5 +8362,70 @@
             "valid": "yes"
         },
         "title": "Using Uncertainty and Sensitivity Analyses in Socioecological Agent-Based Models to Improve Their Analytical Performance and Policy Relevance"
+    },
+    {
+        "OpenAIRE": {
+            "authors": [
+                "Dubman, Robert",
+                "Dubman, Robert"
+            ],
+            "open": false,
+            "url": "http://dx.doi.org/10.22004/ag.econ.276685"
+        },
+        "Semantic Scholar": {
+            "message": "Forbidden"
+        },
+        "datasets": [
+            "dataset-870"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "name": {
+                            "first": "Robert",
+                            "last": "Dubman"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Robert",
+                            "last": "Dubman"
+                        }
+                    }
+                ],
+                "classification": "UNK",
+                "date": "2000-01-01",
+                "records": [
+                    {
+                        "abstract": "USDA's annual Farm Costs and Returns Surveys and Agricultural Resource Management Study surveys apply complex stratified, multiple-frame, probability-weighted, and sometimes multiple-phase sampling methods to provide financial measures of the agricultural sector. This paper is an overview of survey estimators, sample design, hypothesis testing, disclosure rules, and reliability measures for the two surveys followed by statistical program documentation. Sums, ratios, means, multiple regression, binomial logit analysis, and order statistics are covered.",
+                        "doi": "10.22004/ag.econ.276685",
+                        "identifier": "oai:crossref.org:10.22004/ag.econ.276685",
+                        "issue": "",
+                        "journal": "Unknown",
+                        "pages": "",
+                        "pdf_url": "",
+                        "publisher": "Unknown",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.22004/ag.econ.276685",
+                        "type": "journal-article",
+                        "volume": ""
+                    }
+                ],
+                "title": "Variance Estimation With USDA's Farm Costs and Returns Surveys and Agricultural Resource Management Study Surveys.",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
+        "doi": "10.22004/ag.econ.276685",
+        "original": {
+            "api": "openaire",
+            "date_added": "2020-03-10 13:21:38",
+            "doi": "10.22004/ag.econ.276685",
+            "search_term": "Agricultural Resource Management Survey",
+            "url": "http://dx.doi.org/10.22004/ag.econ.276685",
+            "valid": "yes"
+        },
+        "title": "Variance Estimation With USDA's Farm Costs and Returns Surveys and Agricultural Resource Management Study Surveys."
     }
 ]

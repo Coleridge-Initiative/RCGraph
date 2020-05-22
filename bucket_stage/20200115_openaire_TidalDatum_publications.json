@@ -13,6 +13,7 @@
                     "name": "04 Earth Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -30,28 +31,20 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.486861.5",
-                        "email": "jindong.wang@gmail.com",
                         "first_name": "Jindong",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Wang",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.010635611465.28"
                     },
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "edward.myers@noaa.gov",
                         "first_name": "Edward",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Myers",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     }
                 ]
@@ -72,28 +65,20 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.486861.5",
-                    "email": "jindong.wang@gmail.com",
                     "first_name": "Jindong",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Wang",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.010635611465.28"
                 },
                 {
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "edward.myers@noaa.gov",
                     "first_name": "Edward",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Myers",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 }
             ],
@@ -141,7 +126,7 @@
             "date": "2016-11-18",
             "date_inserted": "2017-08-31",
             "doi": "10.3390/jmse4040079",
-            "field_citation_ratio": 0.22,
+            "field_citation_ratio": 0.2,
             "funder_countries": [
                 {
                     "id": "US",
@@ -181,6 +166,27 @@
                 "Norwegian register level 1"
             ],
             "linkout": "https://www.mdpi.com/2077-1312/4/4/79/pdf",
+            "noun_phrases": [
+                "datum",
+                "morphological change",
+                "National",
+                "version",
+                "product",
+                "North Carolina",
+                "coastal water",
+                "initial version",
+                "high resolution",
+                "tide",
+                "bathymetry",
+                "shoreline",
+                "Bay",
+                "quantifying",
+                "simulation",
+                "depth",
+                "magnitude",
+                "barrier island",
+                "flux"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -202,28 +208,28 @@
             "publisher": "MDPI",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1053620921",
+                "pub.1064927846",
+                "pub.1050607451",
+                "pub.1013490631",
+                "pub.1003342364",
+                "pub.1045977613",
+                "pub.1011183927",
+                "pub.1053181507",
                 "pub.1005997968",
                 "pub.1023649273",
-                "pub.1064927846",
-                "pub.1053181507",
-                "pub.1013490631",
-                "pub.1045977613",
-                "pub.1050607451",
-                "pub.1003342364",
-                "pub.1011183927"
+                "pub.1053620921"
             ],
             "references": [
-                "pub.1053620921",
+                "pub.1064927846",
+                "pub.1050607451",
+                "pub.1013490631",
+                "pub.1003342364",
+                "pub.1045977613",
+                "pub.1011183927",
+                "pub.1053181507",
                 "pub.1005997968",
                 "pub.1023649273",
-                "pub.1064927846",
-                "pub.1053181507",
-                "pub.1013490631",
-                "pub.1045977613",
-                "pub.1050607451",
-                "pub.1003342364",
-                "pub.1011183927"
+                "pub.1053620921"
             ],
             "research_org_cities": [
                 {
@@ -239,6 +245,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Earth Resources Technology (United States)"
             ],
             "research_org_state_codes": [
                 {
@@ -1103,11 +1112,6 @@
                 }
             ]
         },
-        "abstract": "In support of the National Oceanic and Atmospheric Administration’s VDatum program, a new version of a tidal datum product for the North Carolina coastal waters has been developed to replace the initial version released in 2004. Compared with the initial version, the new version used a higher resolution grid to cover more areas and incorporated up-to-date tide, bathymetry, and shoreline data. Particularly, the old bathymetry datasets that were collected from the 1930s to the 1970s and were used in the initial version have been replaced by the new bathymetry datasets collected in the 2010s in the new version around five North Carolina inlets. This study aims at evaluating and quantifying tidal datum changes induced by morphological changes over about 40 to 80 years around the inlets. A series of tidal simulations with either the old or new bathymetry datasets used around five inlets were conducted to quantify the consequent tidal datum changes. The results showed that around certain inlets, approximately 10% change in the averaged depth could result in over 30% change in the tidal datum magnitude. Further investigation also revealed that tidal datum changes behind the barrier islands are closely associated with the cross-inlet tidal flux changes.",
-        "authors": [
-            "author-0ff14408d240a7888272",
-            "author-c8216636180f092474fc"
-        ],
         "datasets": [
             "dataset-614",
             "dataset-714"
@@ -1169,108 +1173,6 @@
             "status": "ok"
         },
         "doi": "10.3390/jmse4040079",
-        "keyphrases": {
-            "approximately 10% change": {
-                "count": 2,
-                "rank_score": 0.04428350116135426
-            },
-            "atmospheric administration": {
-                "count": 1,
-                "rank_score": 0.07896529898904506
-            },
-            "bathymetry": {
-                "count": 1,
-                "rank_score": 0.08237204146160773
-            },
-            "certain inlets": {
-                "count": 1,
-                "rank_score": 0.07844126664970774
-            },
-            "consequent tidal datum changes": {
-                "count": 1,
-                "rank_score": 0.09951248833972462
-            },
-            "cross-inlet tidal flux changes": {
-                "count": 1,
-                "rank_score": 0.09648268651704166
-            },
-            "either the old or new bathymetry datasets": {
-                "count": 1,
-                "rank_score": 0.05068053853465819
-            },
-            "further investigation": {
-                "count": 1,
-                "rank_score": 0.057142981737796014
-            },
-            "higher resolution grid": {
-                "count": 1,
-                "rank_score": 0.05035801511494963
-            },
-            "initial version": {
-                "count": 3,
-                "rank_score": 0.059441901122325634
-            },
-            "inlets": {
-                "count": 3,
-                "rank_score": 0.06977914028446743
-            },
-            "more areas": {
-                "count": 1,
-                "rank_score": 0.07190024931181661
-            },
-            "morphological changes": {
-                "count": 1,
-                "rank_score": 0.10344774824758203
-            },
-            "national oceanic": {
-                "count": 1,
-                "rank_score": 0.04302599089753192
-            },
-            "national oceanic and atmospheric administration": {
-                "count": 1,
-                "rank_score": 0.04826107506503052
-            },
-            "new bathymetry datasets": {
-                "count": 1,
-                "rank_score": 0.07601918939318514
-            },
-            "new version": {
-                "count": 3,
-                "rank_score": 0.06799667845666912
-            },
-            "north carolina": {
-                "count": 3,
-                "rank_score": 0.08338916624241424
-            },
-            "north carolina coastal waters": {
-                "count": 1,
-                "rank_score": 0.062101847360423026
-            },
-            "old bathymetry datasets": {
-                "count": 1,
-                "rank_score": 0.06404506228473972
-            },
-            "shoreline data": {
-                "count": 1,
-                "rank_score": 0.08910824710801629
-            },
-            "tidal datum changes": {
-                "count": 2,
-                "rank_score": 0.15252801324090404
-            },
-            "tidal datum magnitude": {
-                "count": 1,
-                "rank_score": 0.08187400233413983
-            },
-            "tidal datum product": {
-                "count": 1,
-                "rank_score": 0.08288223474131964
-            },
-            "tidal simulations": {
-                "count": 1,
-                "rank_score": 0.1128975379818535
-            }
-        },
         "original": {
             "authors": "Jindong Wang, Edward Myers",
             "date_added": "2020-01-27 15:55:48",
@@ -1325,14 +1227,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.486861.5",
-                        "email": "cuong.hoang@noaa.gov",
                         "first_name": "Liujuan",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Tang",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.012123347665.91"
                     },
                     {
@@ -1350,14 +1248,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.3532.7",
-                        "email": "edward.myers@noaa.gov",
                         "first_name": "Edward",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Myers",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.016161532663.08"
                     },
                     {
@@ -1375,14 +1269,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "liujuan.tang@noaa.gov",
                         "first_name": "Lei",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Shi",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
@@ -1400,14 +1290,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "l.shi@noaa.gov",
                         "first_name": "Kurt",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Hess",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
@@ -1428,14 +1314,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "michael.michalski@noaa.gov",
                         "first_name": "Alison",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Carisio",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
@@ -1453,14 +1335,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "michael.michalski@noaa.gov",
                         "first_name": "Michael",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Michalski",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
@@ -1478,14 +1356,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.410486.f",
-                        "email": "stephen.a.white@noaa.gov",
                         "first_name": "Stephen",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "White",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.014315760351.91"
                     },
                     {
@@ -1503,14 +1377,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "cuong.hoang@noaa.gov",
                         "first_name": "Cuong",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Hoang",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     }
                 ]
@@ -1541,14 +1411,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.486861.5",
-                    "email": "cuong.hoang@noaa.gov",
                     "first_name": "Liujuan",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Tang",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.012123347665.91"
                 },
                 {
@@ -1566,14 +1432,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.3532.7",
-                    "email": "edward.myers@noaa.gov",
                     "first_name": "Edward",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Myers",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.016161532663.08"
                 },
                 {
@@ -1591,14 +1453,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "liujuan.tang@noaa.gov",
                     "first_name": "Lei",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Shi",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
@@ -1616,14 +1474,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "l.shi@noaa.gov",
                     "first_name": "Kurt",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Hess",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
@@ -1644,14 +1498,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "michael.michalski@noaa.gov",
                     "first_name": "Alison",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Carisio",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
@@ -1669,14 +1519,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "michael.michalski@noaa.gov",
                     "first_name": "Michael",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Michalski",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
@@ -1694,14 +1540,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.410486.f",
-                    "email": "stephen.a.white@noaa.gov",
                     "first_name": "Stephen",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "White",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.014315760351.91"
                 },
                 {
@@ -1719,14 +1561,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "cuong.hoang@noaa.gov",
                     "first_name": "Cuong",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Hoang",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 }
             ],
@@ -1802,7 +1640,7 @@
             "date": "2018-10-11",
             "date_inserted": "2018-10-14",
             "doi": "10.3390/jmse6040114",
-            "field_citation_ratio": 0.49,
+            "field_citation_ratio": 0.42,
             "id": "pub.1107573123",
             "issn": [
                 "2077-1312"
@@ -1818,6 +1656,37 @@
                 "Norwegian register level 1"
             ],
             "linkout": "https://www.mdpi.com/2077-1312/6/4/114/pdf",
+            "noun_phrases": [
+                "datum",
+                "uncertainty",
+                "Mexico",
+                "Gulf of Mexico",
+                "tide",
+                "National",
+                "survey data",
+                "shoreline",
+                "product",
+                "co-op",
+                "technique",
+                "wavelength",
+                "long wave",
+                "deep ocean",
+                "efficiency",
+                "creation",
+                "model result",
+                "observation",
+                "measurement error",
+                "variational approach",
+                "model error",
+                "large uncertainty",
+                "high quality",
+                "coastal area",
+                "placement",
+                "high precision",
+                "accurate representation",
+                "decision-making",
+                "tide gage"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -1839,18 +1708,18 @@
             "publisher": "MDPI",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1029609124",
                 "pub.1000661967",
+                "pub.1029609124",
                 "pub.1036040760",
-                "pub.1098692542",
-                "pub.1026705504"
+                "pub.1026705504",
+                "pub.1098692542"
             ],
             "references": [
-                "pub.1029609124",
                 "pub.1000661967",
+                "pub.1029609124",
                 "pub.1036040760",
-                "pub.1098692542",
-                "pub.1026705504"
+                "pub.1026705504",
+                "pub.1098692542"
             ],
             "research_org_cities": [
                 {
@@ -1879,14 +1748,24 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Earth Resources Technology (United States)",
+                "National Oceanic and Atmospheric Administration",
+                "Lynker Technologies, Boulder, CO 80301, USA",
+                "National Geodetic Survey"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-DC",
-                    "name": "District of Columbia"
-                },
                 {
                     "id": "US-MD",
                     "name": "Maryland"
+                },
+                {
+                    "id": "US-CO",
+                    "name": "Colorado"
+                },
+                {
+                    "id": "US-DC",
+                    "name": "District of Columbia"
                 }
             ],
             "research_org_state_names": [
@@ -3014,17 +2893,6 @@
                 }
             ]
         },
-        "abstract": "We conducted a VDatum-spatially varying uncertainty study for the North-East Gulf of Mexico. The newly developed tide model incorporated the latest available National Ocean Service (NOS) bathymetry survey data and National Geodetic Survey (NGS) shoreline data, and the datum products reflected the updated tidal datum data from the Center for Operational Oceanographic Products and Services (CO-OPS). A gridding technique based on the wavelength of long waves in the deep ocean was applied to improve model efficiency. In this study, we highlight the creation of the tidal datum products and associated spatially varying uncertainty, which was developed by blending the model results, observations, and measurement errors together using a spatially varying uncertainty method based on a variational approach. The study found that model errors, measurement errors, and lack of observations can contribute to large uncertainty in the tidal datum products. The need for high quality bathymetry data in coastal areas is essential for reducing model error. As for the large uncertainty due to lack of observations or large measurement error, this can be improved by placement of new observations with high precision. Compared to a single uncertainty value, the spatially varying uncertainty provides more accurate representation of the uncertainty for the tidal datum products in VDatum. The uncertainty results will be used to help with decision-making on placement of new tide gauges to further reduce the uncertainty in the VDatum products.",
-        "authors": [
-            "author-651e4a3fcd69ab8e877e",
-            "author-c8216636180f092474fc",
-            "author-e27402f4a1d86a82c9fc",
-            "author-a73cf5de5c0d66fc5ea8",
-            "author-9a7cf45b26470fbd55b6",
-            "author-89ee70e1ffaa22d14b77",
-            "author-8b76df39dcaada46b5e2",
-            "author-c499d69d5090944f41a1"
-        ],
         "datasets": [
             "dataset-614",
             "dataset-819",
@@ -3114,108 +2982,6 @@
             "status": "ok"
         },
         "doi": "10.3390/jmse6040114",
-        "keyphrases": {
-            "coastal areas": {
-                "count": 1,
-                "rank_score": 0.055345933764631886
-            },
-            "datum products": {
-                "count": 1,
-                "rank_score": 0.06805579519946134
-            },
-            "high precision": {
-                "count": 1,
-                "rank_score": 0.06168160026272279
-            },
-            "high quality bathymetry data": {
-                "count": 1,
-                "rank_score": 0.10756447790663932
-            },
-            "large measurement error": {
-                "count": 1,
-                "rank_score": 0.0920237346226239
-            },
-            "large uncertainty": {
-                "count": 2,
-                "rank_score": 0.1061031165912142
-            },
-            "latest available national ocean service (nos) bathymetry survey data": {
-                "count": 1,
-                "rank_score": 0.05975168766578331
-            },
-            "long waves": {
-                "count": 1,
-                "rank_score": 0.05933021945864238
-            },
-            "measurement errors": {
-                "count": 2,
-                "rank_score": 0.08622614744178685
-            },
-            "model efficiency": {
-                "count": 1,
-                "rank_score": 0.0854217537046086
-            },
-            "model errors": {
-                "count": 2,
-                "rank_score": 0.10334091623486648
-            },
-            "model results": {
-                "count": 1,
-                "rank_score": 0.05495505978791205
-            },
-            "national geodetic survey": {
-                "count": 2,
-                "rank_score": 0.07341425943721488
-            },
-            "national ocean service": {
-                "count": 1,
-                "rank_score": 0.07749532877331951
-            },
-            "new observations": {
-                "count": 1,
-                "rank_score": 0.08365787659139101
-            },
-            "new tide gauges": {
-                "count": 1,
-                "rank_score": 0.07266927428109561
-            },
-            "observations": {
-                "count": 3,
-                "rank_score": 0.07370132093763976
-            },
-            "operational oceanographic products": {
-                "count": 1,
-                "rank_score": 0.07368114716697699
-            },
-            "placement": {
-                "count": 2,
-                "rank_score": 0.055124812302533466
-            },
-            "shoreline data": {
-                "count": 1,
-                "rank_score": 0.10157916298141328
-            },
-            "single uncertainty value": {
-                "count": 1,
-                "rank_score": 0.06401293476474722
-            },
-            "spatially varying uncertainty": {
-                "count": 2,
-                "rank_score": 0.06325426577515035
-            },
-            "tidal datum products": {
-                "count": 3,
-                "rank_score": 0.0783181455059124
-            },
-            "uncertainty results": {
-                "count": 1,
-                "rank_score": 0.06231448888549688
-            },
-            "updated tidal datum data": {
-                "count": 1,
-                "rank_score": 0.09164091771688057
-            }
-        },
         "original": {
             "authors": "Liujuan Tang, Edward Myers, Lei Shi, Kurt Hess, Alison Carisio, Michael Michalski, Stephen White, Cuong Hoang",
             "date_added": "2020-01-27 15:55:48",
@@ -3241,90 +3007,67 @@
                     "name": "01 Mathematical Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "",
                         "first_name": "Wei",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Wu",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "",
                         "first_name": "Edward",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Myers",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "",
                         "first_name": "Lei",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Shi",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "",
                         "first_name": "Kurt",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Hess",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "",
                         "first_name": "Michael",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Michalski",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "",
                         "first_name": "Stephen",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "White",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     }
                 ]
@@ -3334,84 +3077,60 @@
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "",
                     "first_name": "Wei",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Wu",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "",
                     "first_name": "Edward",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Myers",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "",
                     "first_name": "Lei",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Shi",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "",
                     "first_name": "Kurt",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Hess",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "",
                     "first_name": "Michael",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Michalski",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "",
                     "first_name": "Stephen",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "White",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 }
             ],
@@ -3535,6 +3254,38 @@
                 "Norwegian register level 1"
             ],
             "linkout": "https://www.mdpi.com/2077-1312/7/2/44/pdf",
+            "noun_phrases": [
+                "modeling",
+                "uncertainty",
+                "coastal water",
+                "datum",
+                "key component",
+                "NOAA's",
+                "transformation",
+                "water level",
+                "reference system",
+                "initial application",
+                "Texas",
+                "Louisiana",
+                "current work",
+                "shoreline",
+                "bathymetry",
+                "station",
+                "interpolation",
+                "polygon",
+                "population",
+                "defined model",
+                "paper",
+                "modeling work",
+                "obtained result",
+                "effective method",
+                "model performance",
+                "lesson",
+                "model assessment",
+                "improvement",
+                "current",
+                "comparison"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -3554,25 +3305,26 @@
             ],
             "pages": "44",
             "publisher": "MDPI",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1036040760",
                 "pub.1008219935",
-                "pub.1029609124",
-                "pub.1087311314",
+                "pub.1052690863",
                 "pub.1091103451",
-                "pub.1004336375",
+                "pub.1087311314",
                 "pub.1000661967",
-                "pub.1052690863"
+                "pub.1029609124",
+                "pub.1036040760",
+                "pub.1004336375"
             ],
             "references": [
-                "pub.1036040760",
                 "pub.1008219935",
-                "pub.1029609124",
-                "pub.1087311314",
+                "pub.1052690863",
                 "pub.1091103451",
-                "pub.1004336375",
+                "pub.1087311314",
                 "pub.1000661967",
-                "pub.1052690863"
+                "pub.1029609124",
+                "pub.1036040760",
+                "pub.1004336375"
             ],
             "terms": [
                 "tidal data",
@@ -3614,6 +3366,7 @@
                 "improvement",
                 "comparison"
             ],
+            "times_cited": 0,
             "title": "Modeling Tidal Datums and Spatially Varying Uncertainty in the Texas and Western Louisiana Coastal Waters",
             "type": "article",
             "volume": "7",
@@ -3775,15 +3528,6 @@
                 }
             ]
         },
-        "abstract": "Tidal datums are key components in NOAA’s Vertical Datum transformation project (VDatum), which enables effective vertical transformation of the water level between tidal, orthometric, and ellipsoid -based three-dimensional reference systems. An initial application of modeling tidal datums was developed for the coastal waters of Texas and western Louisiana in 2013. The goals of the current work include: (1) updating the tidal model by using the best available shoreline, bathymetry, and tide station data; (2) implementing a recently developed statistical interpolation method for interpolating modeled tidal datums and computing tidal datum uncertainties; and (3) using modeled tidal datums to upgrade non-tidal polygons for enhancing the quality of the VDatum marine grid population. The updated tidal model outperformed the previous tidal model in most cases. The statistical interpolation method is able to limit the interpolated tidal datums to within a user-defined model error (0.01 m in this work) and produce a spatially varying uncertainty field for each interpolated tidal datum field. The upgraded non-tidal polygons enhanced the quality of the VDatum marine grid population. This paper will introduce the detailed procedures of this modeling work, present and discuss the obtained results, share the effective methods used for improving model performance and lessons learned in the model assessments, and analyze the improvement of the current tidal model in comparison with the previous tidal model.",
-        "authors": [
-            "author-28e36f9572922c8578be",
-            "author-c8216636180f092474fc",
-            "author-e27402f4a1d86a82c9fc",
-            "author-a73cf5de5c0d66fc5ea8",
-            "author-89ee70e1ffaa22d14b77",
-            "author-8b76df39dcaada46b5e2"
-        ],
         "datasets": [
             "dataset-614",
             "dataset-631",
@@ -3861,108 +3605,6 @@
             "status": "ok"
         },
         "doi": "10.3390/jmse7020044",
-        "keyphrases": {
-            "current tidal model": {
-                "count": 1,
-                "rank_score": 0.09722798665977933
-            },
-            "current work": {
-                "count": 1,
-                "rank_score": 0.048544455522582707
-            },
-            "each interpolated tidal datum field": {
-                "count": 1,
-                "rank_score": 0.09859797125192922
-            },
-            "effective vertical transformation": {
-                "count": 1,
-                "rank_score": 0.0776540423984025
-            },
-            "interpolated tidal datums": {
-                "count": 1,
-                "rank_score": 0.09623458696690482
-            },
-            "key components": {
-                "count": 1,
-                "rank_score": 0.05312081156504197
-            },
-            "model assessments": {
-                "count": 1,
-                "rank_score": 0.05866178353240476
-            },
-            "model performance": {
-                "count": 1,
-                "rank_score": 0.10188717655904804
-            },
-            "modeled tidal datums": {
-                "count": 2,
-                "rank_score": 0.15032657172000816
-            },
-            "noaa’s vertical datum transformation project": {
-                "count": 1,
-                "rank_score": 0.05773016535041815
-            },
-            "non-tidal polygons": {
-                "count": 1,
-                "rank_score": 0.13131623046960264
-            },
-            "previous tidal model": {
-                "count": 2,
-                "rank_score": 0.09573746742451787
-            },
-            "statistical interpolation method": {
-                "count": 1,
-                "rank_score": 0.05384083148307884
-            },
-            "texas": {
-                "count": 2,
-                "rank_score": 0.05247833402853781
-            },
-            "tidal datum uncertainties": {
-                "count": 1,
-                "rank_score": 0.14570849422986173
-            },
-            "tidal datums": {
-                "count": 2,
-                "rank_score": 0.15195324957403417
-            },
-            "tidal model": {
-                "count": 1,
-                "rank_score": 0.09158577271223126
-            },
-            "tide station data": {
-                "count": 1,
-                "rank_score": 0.09303138141748271
-            },
-            "updated tidal model": {
-                "count": 1,
-                "rank_score": 0.09460859614743285
-            },
-            "upgraded non-tidal polygons": {
-                "count": 1,
-                "rank_score": 0.089176380216021
-            },
-            "user-defined model error": {
-                "count": 1,
-                "rank_score": 0.0496485682091647
-            },
-            "vdatum": {
-                "count": 2,
-                "rank_score": 0.062443572940905356
-            },
-            "vdatum marine": {
-                "count": 1,
-                "rank_score": 0.07286625709834746
-            },
-            "vdatum marine grid population": {
-                "count": 2,
-                "rank_score": 0.05626415282227108
-            },
-            "western louisiana": {
-                "count": 1,
-                "rank_score": 0.053077382364736955
-            }
-        },
         "original": {
             "authors": "Wei Wu, Edward Myers, Lei Shi, Kurt Hess, Michael Michalski, Stephen White",
             "date_added": "2020-01-27 15:55:48",
@@ -3973,6 +3615,32 @@
             "url": "https://www.mdpi.com/2077-1312/7/2/44"
         },
         "title": "Modeling Tidal Datums and Spatially Varying Uncertainty in the Texas and Western Louisiana Coastal Waters"
+    },
+    {
+        "OpenAIRE": {
+            "authors": [
+                "Licate, Louis A.",
+                "Huang, Lijuan",
+                "Dusek, Greg"
+            ],
+            "open": false,
+            "url": "http://dx.doi.org/10.7289/v5/tr-nos-coops-085"
+        },
+        "Semantic Scholar": {
+            "message": "Forbidden"
+        },
+        "datasets": [
+            "dataset-614"
+        ],
+        "doi": "10.7289/v5/tr-nos-coops-085",
+        "original": {
+            "authors": "Licate, Louis A., Huang, Lijuan, Dusek, Greg",
+            "date_added": "2020-01-27 15:55:48",
+            "doi": "10.7289/v5/tr-nos-coops-085",
+            "search_term": "Tidal Datum",
+            "url": "http://dx.doi.org/10.7289/v5/tr-nos-coops-085"
+        },
+        "title": "A comparison of datums derived from CO-OPS verified data products and Tidal Analysis Datum Calculator."
     },
     {
         "Dimensions": {
@@ -3988,62 +3656,47 @@
                     "name": "04 Earth Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "",
                         "first_name": "Lei",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Shi",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "",
                         "first_name": "Jindong",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Wang",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "",
                         "first_name": "Edward",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Myers",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "",
                         "first_name": "Lijuan",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Huang",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     }
                 ]
@@ -4053,56 +3706,40 @@
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "",
                     "first_name": "Lei",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Shi",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "",
                     "first_name": "Jindong",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Wang",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "",
                     "first_name": "Edward",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Myers",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "",
                     "first_name": "Lijuan",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Huang",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 }
             ],
@@ -4177,7 +3814,7 @@
             "date": "2014-03-10",
             "date_inserted": "2017-08-31",
             "doi": "10.3390/jmse2010171",
-            "field_citation_ratio": 0.29,
+            "field_citation_ratio": 0.43,
             "id": "pub.1029709927",
             "issn": [
                 "2077-1312"
@@ -4193,6 +3830,34 @@
                 "Norwegian register level 1"
             ],
             "linkout": "http://www.mdpi.com/2077-1312/2/1/171/pdf",
+            "noun_phrases": [
+                "development",
+                "Alaska",
+                "National",
+                "observation",
+                "hydrodynamic model",
+                "interpolation",
+                "product",
+                "service",
+                "computation",
+                "datum",
+                "transformation",
+                "estimation",
+                "characteristic",
+                "progress",
+                "setup",
+                "high resolution",
+                "tide",
+                "location",
+                "correctors",
+                "bathymetry",
+                "chart",
+                "western Alaska",
+                "integration",
+                "improved information",
+                "future work",
+                "methodology"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -4212,40 +3877,40 @@
             ],
             "pages": "171-193",
             "publisher": "MDPI",
-            "recent_citations": 1,
+            "recent_citations": 2,
             "reference_ids": [
-                "pub.1029609124",
-                "pub.1024198768",
-                "pub.1052098889",
                 "pub.1008219935",
-                "pub.1014783274",
-                "pub.1022179267",
-                "pub.1017060862",
                 "pub.1010895372",
-                "pub.1008521531",
                 "pub.1029530743",
+                "pub.1029609124",
+                "pub.1052098889",
+                "pub.1024198768",
+                "pub.1017060862",
+                "pub.1014783274",
                 "pub.1024431836",
+                "pub.1022179267",
                 "pub.1047931375",
-                "pub.1097233342",
+                "pub.1008521531",
+                "pub.1032076609",
                 "pub.1049153745",
-                "pub.1032076609"
+                "pub.1097233342"
             ],
             "references": [
-                "pub.1029609124",
-                "pub.1024198768",
-                "pub.1052098889",
                 "pub.1008219935",
-                "pub.1014783274",
-                "pub.1022179267",
-                "pub.1017060862",
                 "pub.1010895372",
-                "pub.1008521531",
                 "pub.1029530743",
+                "pub.1029609124",
+                "pub.1052098889",
+                "pub.1024198768",
+                "pub.1017060862",
+                "pub.1014783274",
                 "pub.1024431836",
+                "pub.1022179267",
                 "pub.1047931375",
-                "pub.1097233342",
+                "pub.1008521531",
+                "pub.1032076609",
                 "pub.1049153745",
-                "pub.1032076609"
+                "pub.1097233342"
             ],
             "terms": [
                 "National Oceanic",
@@ -4293,7 +3958,7 @@
                 "hydrographic surveying",
                 "surveying"
             ],
-            "times_cited": 2,
+            "times_cited": 3,
             "title": "Development and Use of Tide Models in Alaska Supporting VDatum and Hydrographic Surveying",
             "type": "article",
             "volume": "2",
@@ -5172,13 +4837,6 @@
                 }
             ]
         },
-        "abstract": "National Oceanic and Atmospheric Administration’s National Ocean Service uses observations, hydrodynamic models and interpolation techniques to develop many of its products and services. We examine how two projects, computation of tidal datums for vertical datum transformation and the estimation of tidal characteristics for hydrographic surveys, are being developed in Alaska and how they may be more seamlessly integrated. Preliminary VDatum development for Alaska is in progress for the Alaska Panhandle through the setup of a high resolution tide model that will be used to compute spatially varying tidal datums. Tide models such as these can be used for other projects that traditionally rely on estimation of tides in between data locations, such as the planning for hydrographic surveys that need correctors to adjust bathymetry to the chart datum. We therefore also examine how an existing model in western Alaska can be used for better supporting hydrographic survey planning. The results show that integration of tide models with nearshore observations can provide improved information for these correctors and future work will further evaluate this methodology with existing VDatum tide models.",
-        "authors": [
-            "author-e27402f4a1d86a82c9fc",
-            "author-0ff14408d240a7888272",
-            "author-c8216636180f092474fc",
-            "author-1b600cbbaea10931b88c"
-        ],
         "datasets": [
             "dataset-614",
             "dataset-631"
@@ -5252,108 +4910,6 @@
             "status": "ok"
         },
         "doi": "10.3390/jmse2010171",
-        "keyphrases": {
-            "alaska": {
-                "count": 6,
-                "rank_score": 0.0813801295605711
-            },
-            "atmospheric administration": {
-                "count": 1,
-                "rank_score": 0.06875135972956199
-            },
-            "correctors": {
-                "count": 2,
-                "rank_score": 0.07045362479948848
-            },
-            "data locations": {
-                "count": 1,
-                "rank_score": 0.0835552796357186
-            },
-            "existing model": {
-                "count": 1,
-                "rank_score": 0.06967368856779743
-            },
-            "existing vdatum tide models": {
-                "count": 1,
-                "rank_score": 0.12916778651146485
-            },
-            "future work": {
-                "count": 1,
-                "rank_score": 0.06643256108633505
-            },
-            "high resolution tide model": {
-                "count": 1,
-                "rank_score": 0.08037546167719073
-            },
-            "hydrodynamic models": {
-                "count": 1,
-                "rank_score": 0.11110301091992125
-            },
-            "hydrographic survey planning": {
-                "count": 1,
-                "rank_score": 0.0998200039242378
-            },
-            "hydrographic surveys": {
-                "count": 2,
-                "rank_score": 0.0933750765106303
-            },
-            "improved information": {
-                "count": 1,
-                "rank_score": 0.0664402447984764
-            },
-            "interpolation techniques": {
-                "count": 1,
-                "rank_score": 0.07138169046568339
-            },
-            "national ocean service": {
-                "count": 2,
-                "rank_score": 0.08581854981090839
-            },
-            "national oceanic": {
-                "count": 1,
-                "rank_score": 0.07528507994862021
-            },
-            "nearshore observations": {
-                "count": 1,
-                "rank_score": 0.08674755718133464
-            },
-            "observations": {
-                "count": 1,
-                "rank_score": 0.0759063252992819
-            },
-            "other projects": {
-                "count": 1,
-                "rank_score": 0.06722514033428852
-            },
-            "preliminary vdatum development": {
-                "count": 1,
-                "rank_score": 0.07929189712446749
-            },
-            "tidal characteristics": {
-                "count": 1,
-                "rank_score": 0.08257128741292838
-            },
-            "tidal datums": {
-                "count": 2,
-                "rank_score": 0.1016308586575867
-            },
-            "tide models": {
-                "count": 1,
-                "rank_score": 0.10979793774567022
-            },
-            "tides": {
-                "count": 1,
-                "rank_score": 0.07424393495674973
-            },
-            "vertical datum transformation": {
-                "count": 1,
-                "rank_score": 0.09113086150255134
-            },
-            "western alaska": {
-                "count": 1,
-                "rank_score": 0.08822882076185648
-            }
-        },
         "original": {
             "authors": "Shi, Lei, Wang, Jindong, Myers, Edward, Huang, Lijuan",
             "date_added": "2020-01-27 15:55:48",
@@ -5379,6 +4935,7 @@
                     "name": "01 Mathematical Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -5396,28 +4953,20 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.486861.5",
-                        "email": "l.shi@noaa.gov",
                         "first_name": "Lei",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Shi",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.011456562204.10"
                     },
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "edward.myers@noaa.gov",
                         "first_name": "Edward",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Myers",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.015242044604.35"
                     }
                 ]
@@ -5438,28 +4987,20 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.486861.5",
-                    "email": "l.shi@noaa.gov",
                     "first_name": "Lei",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Shi",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.011456562204.10"
                 },
                 {
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "edward.myers@noaa.gov",
                     "first_name": "Edward",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Myers",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.015242044604.35"
                 }
             ],
@@ -5546,7 +5087,7 @@
             "date": "2016-09-22",
             "date_inserted": "2017-08-31",
             "doi": "10.3390/jmse4040064",
-            "field_citation_ratio": 0.88,
+            "field_citation_ratio": 0.83,
             "funder_countries": [
                 {
                     "id": "US",
@@ -5586,6 +5127,37 @@
                 "Norwegian register level 1"
             ],
             "linkout": "https://www.mdpi.com/2077-1312/4/4/64/pdf",
+            "noun_phrases": [
+                "interpolation",
+                "datum",
+                "computation",
+                "uncertainty",
+                "key component",
+                "NOAA's",
+                "transformation",
+                "paper",
+                "variational principle",
+                "implementation",
+                "Chesapeake",
+                "great advantage",
+                "foremost",
+                "advantage",
+                "capability",
+                "different source",
+                "accuracy",
+                "spatial location",
+                "second advantage",
+                "entire domain",
+                "decision-making process",
+                "instrument",
+                "case result",
+                "bias",
+                "maximum",
+                "error",
+                "mean square error",
+                "comparison",
+                "deterministic approach"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -5607,16 +5179,16 @@
             "publisher": "MDPI",
             "recent_citations": 3,
             "reference_ids": [
-                "pub.1029609124",
                 "pub.1084924244",
-                "pub.1022179267",
-                "pub.1084923847"
+                "pub.1029609124",
+                "pub.1084923847",
+                "pub.1022179267"
             ],
             "references": [
-                "pub.1029609124",
                 "pub.1084924244",
-                "pub.1022179267",
-                "pub.1084923847"
+                "pub.1029609124",
+                "pub.1084923847",
+                "pub.1022179267"
             ],
             "research_org_cities": [
                 {
@@ -5632,6 +5204,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Earth Resources Technology (United States)"
             ],
             "research_org_state_codes": [
                 {
@@ -6245,11 +5820,6 @@
                 }
             ]
         },
-        "abstract": "Tidal datums are key components in NOAA’s Vertical Datum transformation project (VDatum). In this paper, we propose a statistical interpolation method, derived from the variational principle, to calculate tidal datums by blending the modeled and the observed tidal datums. Through the implementation of this statistical interpolation method in the Chesapeake and Delaware Bays, we conclude that the statistical interpolation method for tidal datums has great advantages over the currently used deterministic interpolation method. The foremost, and inherent, advantage of the statistical interpolation is its capability to integrate data from different sources and with different accuracies without concern for their relative spatial locations. The second advantage is that it provides a spatially varying uncertainty for the entire domain in which data is being integrated. The latter is especially helpful for the decision-making process of where new instruments would be most effectively placed. Lastly, the test case results show that the statistical interpolation reduced the bias, maximum absolute error, mean absolute error, and root mean square error in comparison to the current deterministic approach.",
-        "authors": [
-            "author-e27402f4a1d86a82c9fc",
-            "author-c8216636180f092474fc"
-        ],
         "datasets": [
             "dataset-614"
         ],
@@ -6300,108 +5870,6 @@
             "status": "ok"
         },
         "doi": "10.3390/jmse4040064",
-        "keyphrases": {
-            "absolute error": {
-                "count": 1,
-                "rank_score": 0.09084345856635394
-            },
-            "bias, maximum absolute error": {
-                "count": 1,
-                "rank_score": 0.04924539580261115
-            },
-            "chesapeake": {
-                "count": 1,
-                "rank_score": 0.05105691305019806
-            },
-            "current deterministic approach": {
-                "count": 1,
-                "rank_score": 0.04701134239266263
-            },
-            "currently used deterministic interpolation method": {
-                "count": 1,
-                "rank_score": 0.06259851981583806
-            },
-            "decision-making process": {
-                "count": 1,
-                "rank_score": 0.041951312498260764
-            },
-            "delaware": {
-                "count": 1,
-                "rank_score": 0.044681184831678614
-            },
-            "different accuracies": {
-                "count": 1,
-                "rank_score": 0.07483617167757152
-            },
-            "different sources": {
-                "count": 1,
-                "rank_score": 0.07697217766529205
-            },
-            "entire domain": {
-                "count": 1,
-                "rank_score": 0.04084695724793457
-            },
-            "great advantages": {
-                "count": 1,
-                "rank_score": 0.07397996924539132
-            },
-            "inherent, advantage": {
-                "count": 1,
-                "rank_score": 0.04434924517353936
-            },
-            "key components": {
-                "count": 1,
-                "rank_score": 0.06557702005876044
-            },
-            "new instruments": {
-                "count": 1,
-                "rank_score": 0.07421355097909652
-            },
-            "noaa’s vertical datum transformation project": {
-                "count": 1,
-                "rank_score": 0.06678632736356306
-            },
-            "observed tidal datums": {
-                "count": 1,
-                "rank_score": 0.07545386285995292
-            },
-            "root": {
-                "count": 1,
-                "rank_score": 0.048674907961167975
-            },
-            "second advantage": {
-                "count": 1,
-                "rank_score": 0.03987359402732333
-            },
-            "square error": {
-                "count": 1,
-                "rank_score": 0.08428780271693093
-            },
-            "statistical interpolation": {
-                "count": 2,
-                "rank_score": 0.07396896770984661
-            },
-            "statistical interpolation method": {
-                "count": 3,
-                "rank_score": 0.08773368113239507
-            },
-            "test case results": {
-                "count": 1,
-                "rank_score": 0.04837209251694845
-            },
-            "their relative spatial locations": {
-                "count": 1,
-                "rank_score": 0.04943860203788483
-            },
-            "tidal datums": {
-                "count": 3,
-                "rank_score": 0.12028530328092046
-            },
-            "vdatum": {
-                "count": 1,
-                "rank_score": 0.04336590186169828
-            }
-        },
         "original": {
             "authors": "Lei Shi, Edward Myers",
             "date_added": "2020-01-27 15:55:48",
@@ -6454,14 +5922,10 @@
                         ],
                         "corresponding": true,
                         "current_organization_id": "grid.497403.d",
-                        "email": "rflitcroft@fs.fed.us",
                         "first_name": "Rebecca",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Flitcroft",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.011157776377.03"
                     },
                     {
@@ -6479,14 +5943,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.418698.a",
-                        "email": "",
                         "first_name": "Patrick",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Clinton",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.013015005564.55"
                     },
                     {
@@ -6504,14 +5964,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.463419.d",
-                        "email": "",
                         "first_name": "Kelly",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Christiansen",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.011034540173.62"
                     }
                 ]
@@ -6532,14 +5988,10 @@
                     ],
                     "corresponding": true,
                     "current_organization_id": "grid.497403.d",
-                    "email": "rflitcroft@fs.fed.us",
                     "first_name": "Rebecca",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Flitcroft",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.011157776377.03"
                 },
                 {
@@ -6557,14 +6009,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.418698.a",
-                    "email": "",
                     "first_name": "Patrick",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Clinton",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.013015005564.55"
                 },
                 {
@@ -6582,14 +6030,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.463419.d",
-                    "email": "",
                     "first_name": "Kelly",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Christiansen",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.011034540173.62"
                 }
             ],
@@ -6603,6 +6047,7 @@
                     "name": "0502 Environmental Science and Management"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30014",
@@ -6689,7 +6134,7 @@
             "date": "2018-08-01",
             "date_inserted": "2018-03-20",
             "doi": "10.1007/s11852-018-0605-1",
-            "field_citation_ratio": 0.55,
+            "field_citation_ratio": 0.49,
             "funder_countries": [
                 {
                     "id": "US",
@@ -6748,6 +6193,58 @@
                 "PubMed"
             ],
             "linkout": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6416087",
+            "noun_phrases": [
+                "toolbox",
+                "inundation",
+                "estuarine",
+                "estuary",
+                "land surface",
+                "elevation",
+                "salt water",
+                "specific location",
+                "distribution",
+                "vegetation",
+                "plant",
+                "tolerance",
+                "salinity",
+                "small change",
+                "surface elevation",
+                "scale",
+                "relevant information",
+                "manager",
+                "restoration project",
+                "restoration",
+                "tool",
+                "anticipated effect",
+                "climate change",
+                "sea level rise",
+                "precipitation regime",
+                "storminess",
+                "habitat restoration",
+                "face",
+                "uncertainty",
+                "sustainable production",
+                "seafood",
+                "ecosystem function",
+                "simple method",
+                "topography",
+                "method",
+                "complex modeling",
+                "high accuracy",
+                "imagery",
+                "lidar",
+                "low tide",
+                "height",
+                "significant challenge",
+                "interpretation",
+                "datum",
+                "long-term data",
+                "specific information",
+                "product",
+                "migration",
+                "wetland",
+                "ecosystem"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -6771,55 +6268,56 @@
             "publisher": "Springer Nature",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1038635530",
-                "pub.1013330434",
-                "pub.1009499099",
-                "pub.1028397994",
-                "pub.1021140147",
-                "pub.1016202155",
-                "pub.1033816043",
                 "pub.1039476649",
-                "pub.1073096522",
-                "pub.1047102464",
-                "pub.1005669051",
-                "pub.1022369169",
-                "pub.1073096501",
-                "pub.1048503572",
-                "pub.1071172792",
-                "pub.1073096536",
-                "pub.1003075089",
-                "pub.1012467090",
                 "pub.1034703404",
-                "pub.1020772842",
+                "pub.1073096501",
                 "pub.1083764812",
+                "pub.1073096536",
+                "pub.1048503572",
+                "pub.1005669051",
+                "pub.1028397994",
+                "pub.1033816043",
+                "pub.1071172792",
+                "pub.1073096522",
+                "pub.1016202155",
+                "pub.1020772842",
+                "pub.1013330434",
+                "pub.1021140147",
+                "pub.1000249905",
+                "pub.1009499099",
+                "pub.1038635530",
+                "pub.1012467090",
                 "pub.1063815490",
-                "pub.1000249905"
+                "pub.1022369169",
+                "pub.1003075089",
+                "pub.1047102464"
             ],
             "references": [
-                "pub.1038635530",
-                "pub.1013330434",
-                "pub.1009499099",
-                "pub.1028397994",
-                "pub.1021140147",
-                "pub.1016202155",
-                "pub.1033816043",
                 "pub.1039476649",
-                "pub.1073096522",
-                "pub.1047102464",
-                "pub.1005669051",
-                "pub.1022369169",
-                "pub.1073096501",
-                "pub.1048503572",
-                "pub.1071172792",
-                "pub.1073096536",
-                "pub.1003075089",
-                "pub.1012467090",
                 "pub.1034703404",
-                "pub.1020772842",
+                "pub.1073096501",
                 "pub.1083764812",
+                "pub.1073096536",
+                "pub.1048503572",
+                "pub.1005669051",
+                "pub.1028397994",
+                "pub.1033816043",
+                "pub.1071172792",
+                "pub.1073096522",
+                "pub.1016202155",
+                "pub.1020772842",
+                "pub.1013330434",
+                "pub.1021140147",
+                "pub.1000249905",
+                "pub.1009499099",
+                "pub.1038635530",
+                "pub.1012467090",
                 "pub.1063815490",
-                "pub.1000249905"
+                "pub.1022369169",
+                "pub.1003075089",
+                "pub.1047102464"
             ],
+            "relative_citation_ratio": 0.0,
             "research_org_cities": [
                 {
                     "id": 5746545,
@@ -6838,6 +6336,10 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Environmental Protection Agency",
+                "Pacific Northwest Research Station"
             ],
             "research_org_state_codes": [
                 {
@@ -8228,12 +7730,6 @@
                 }
             ]
         },
-        "abstract": "In estuaries, land-surface and tidal elevation conspire to influence the amount of salt-water inundation in a specific location, ultimately affecting the distribution of estuary vegetation. Plants vary in their tolerances to salinity and inundation. Understanding even small changes in land-surface elevation at a site scale provides relevant information to managers seeking to design effective long-term restoration projects. Restoration of estuary habitats has been identified as a tool to mediate some anticipated effects of climate change, including flooding from sea-level rise, precipitation regimes, and storminess. Further, habitat restoration that is effective in the face of climate uncertainty is critical to the sustainable production of seafood and maintenance of ecosystem functions. We offer a simple method that links tidal elevations to upslope topography, allowing managers to determine where tidal inundation of upslope areas may occur. This method does not require complex modeling, rather we combine existing high-accuracy tide-gage information with LiDAR imagery. However, we found that if LiDAR is not flown at low tide, or at consistent tidal heights, it poses significant challenges in the interpretation of tidal elevations. Where LiDAR is consistently collected at low tide, this method of linking the tidal datum to upslope topography is not data-intensive, and does not require long-term data collection. Along with locally specific information, the types of map products that can be developed using this method should identify places that may be potentially vulnerable to salt-water inundation, along with places that may be effective migration corridors for marshes and other habitats.",
-        "authors": [
-            "author-1c626af7c8986d311a9d",
-            "author-32e27ab48559973fe103",
-            "author-0a3c92763fd986e277ed"
-        ],
         "datasets": [
             "dataset-614",
             "dataset-756"
@@ -8290,108 +7786,6 @@
             "status": "ok"
         },
         "doi": "10.1007/s11852-018-0605-1",
-        "keyphrases": {
-            "climate change": {
-                "count": 1,
-                "rank_score": 0.07570017523118283
-            },
-            "climate uncertainty": {
-                "count": 1,
-                "rank_score": 0.06536681423778573
-            },
-            "consistent tidal heights": {
-                "count": 1,
-                "rank_score": 0.08008832853591522
-            },
-            "ecosystem functions": {
-                "count": 1,
-                "rank_score": 0.05278990652469828
-            },
-            "effective long-term restoration projects": {
-                "count": 1,
-                "rank_score": 0.06230614484097391
-            },
-            "effective migration corridors": {
-                "count": 1,
-                "rank_score": 0.07058168505489779
-            },
-            "estuary habitats": {
-                "count": 1,
-                "rank_score": 0.06242578352773065
-            },
-            "estuary vegetation": {
-                "count": 1,
-                "rank_score": 0.05435675547542927
-            },
-            "habitat restoration": {
-                "count": 1,
-                "rank_score": 0.05758977384994947
-            },
-            "inundation": {
-                "count": 1,
-                "rank_score": 0.06458878405372362
-            },
-            "land-surface elevation": {
-                "count": 1,
-                "rank_score": 0.05324225831270815
-            },
-            "lidar": {
-                "count": 2,
-                "rank_score": 0.05505596755157272
-            },
-            "lidar imagery": {
-                "count": 1,
-                "rank_score": 0.058951020623170494
-            },
-            "long-term data collection": {
-                "count": 1,
-                "rank_score": 0.05299655546795293
-            },
-            "low tide": {
-                "count": 1,
-                "rank_score": 0.0544893317093694
-            },
-            "managers": {
-                "count": 2,
-                "rank_score": 0.05295797445504878
-            },
-            "map products": {
-                "count": 1,
-                "rank_score": 0.05265086567521844
-            },
-            "other habitats": {
-                "count": 1,
-                "rank_score": 0.05471849215334866
-            },
-            "precipitation regimes": {
-                "count": 1,
-                "rank_score": 0.05851147064920405
-            },
-            "relevant information": {
-                "count": 1,
-                "rank_score": 0.07580671212343561
-            },
-            "restoration": {
-                "count": 1,
-                "rank_score": 0.05693944421736866
-            },
-            "tidal elevations": {
-                "count": 2,
-                "rank_score": 0.09719752701643392
-            },
-            "tidal inundation": {
-                "count": 1,
-                "rank_score": 0.09396144016070737
-            },
-            "topography": {
-                "count": 2,
-                "rank_score": 0.053991592753747264
-            },
-            "upslope areas": {
-                "count": 1,
-                "rank_score": 0.06300810424326285
-            }
-        },
         "original": {
             "authors": "Flitcroft, Rebecca, Clinton, Patrick, Christiansen, Kelly",
             "date_added": "2020-01-27 15:55:48",
@@ -8424,48 +7818,37 @@
                     "name": "04 Earth Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "grid.266900.b",
-                        "email": "cmszpilka@ou.edu",
                         "first_name": "Christine",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Szpilka",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.012621201713.97"
                     },
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "grid.266900.b",
-                        "email": "dresback@ou.edu",
                         "first_name": "Kendra",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Dresback",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.012061251317.91"
                     },
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "grid.266900.b",
-                        "email": "kolar@ou.edu",
                         "first_name": "Randall",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Kolar",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.01015116014.39"
                     },
                     {
@@ -8476,14 +7859,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "Jesse.Feyen@noaa.gov",
                         "first_name": "Jesse",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Feyen",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
@@ -8501,14 +7880,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.486861.5",
-                        "email": "jindong.wang@gmail.com",
                         "first_name": "Jindong",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Wang",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.010635611465.28"
                     }
                 ]
@@ -8518,42 +7893,30 @@
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "grid.266900.b",
-                    "email": "cmszpilka@ou.edu",
                     "first_name": "Christine",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Szpilka",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.012621201713.97"
                 },
                 {
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "grid.266900.b",
-                    "email": "dresback@ou.edu",
                     "first_name": "Kendra",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Dresback",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.012061251317.91"
                 },
                 {
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "grid.266900.b",
-                    "email": "kolar@ou.edu",
                     "first_name": "Randall",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Kolar",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.01015116014.39"
                 },
                 {
@@ -8564,14 +7927,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "Jesse.Feyen@noaa.gov",
                     "first_name": "Jesse",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Feyen",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
@@ -8589,14 +7948,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.486861.5",
-                    "email": "jindong.wang@gmail.com",
                     "first_name": "Jindong",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Wang",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.010635611465.28"
                 }
             ],
@@ -8679,7 +8034,7 @@
             "date": "2016-11-08",
             "date_inserted": "2017-08-31",
             "doi": "10.3390/jmse4040072",
-            "field_citation_ratio": 2.18,
+            "field_citation_ratio": 1.98,
             "funder_countries": [
                 {
                     "id": "US",
@@ -8719,6 +8074,45 @@
                 "Norwegian register level 1"
             ],
             "linkout": "https://www.mdpi.com/2077-1312/4/4/72/pdf",
+            "noun_phrases": [
+                "improvement",
+                "Western North Atlantic",
+                "Gulf",
+                "Mexico",
+                "database",
+                "Research",
+                "development",
+                "validation",
+                "constituent",
+                "regional database",
+                "high resolution",
+                "global database",
+                "user",
+                "sub-regions",
+                "hydrodynamic model",
+                "solves",
+                "shallow water equation",
+                "continuity",
+                "main area",
+                "placement",
+                "open ocean",
+                "resolution",
+                "datum",
+                "bathymetry",
+                "boundary",
+                "bottom friction",
+                "improved model",
+                "skill",
+                "predecessor",
+                "harmonic",
+                "National",
+                "product",
+                "co-op",
+                "station",
+                "International",
+                "error",
+                "regional model"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -8740,68 +8134,68 @@
             "publisher": "MDPI",
             "recent_citations": 10,
             "reference_ids": [
-                "pub.1017964645",
+                "pub.1057645713",
                 "pub.1042720228",
-                "pub.1024431836",
-                "pub.1052157202",
-                "pub.1049924444",
-                "pub.1030671043",
-                "pub.1023658417",
-                "pub.1032076609",
-                "pub.1057607817",
+                "pub.1053433853",
+                "pub.1071177948",
+                "pub.1048082015",
+                "pub.1017964645",
                 "pub.1000259923",
+                "pub.1057607817",
+                "pub.1049924444",
+                "pub.1042647854",
+                "pub.1011836911",
+                "pub.1024431836",
+                "pub.1005997968",
+                "pub.1040962464",
+                "pub.1096397899",
+                "pub.1022769574",
+                "pub.1023658417",
+                "pub.1052157202",
+                "pub.1039153895",
+                "pub.1032076609",
+                "pub.1096576366",
+                "pub.1030671043",
+                "pub.1037920726",
+                "pub.1007456388",
+                "pub.1030738023",
                 "pub.1057592868",
                 "pub.1025882149",
-                "pub.1023649273",
-                "pub.1096397899",
-                "pub.1053433853",
                 "pub.1098732913",
-                "pub.1096576366",
-                "pub.1007456388",
-                "pub.1042647854",
-                "pub.1027771917",
-                "pub.1030738023",
-                "pub.1037920726",
-                "pub.1040962464",
-                "pub.1011836911",
-                "pub.1057645713",
-                "pub.1071177948",
-                "pub.1005997968",
-                "pub.1048082015",
-                "pub.1039153895",
-                "pub.1022769574"
+                "pub.1023649273",
+                "pub.1027771917"
             ],
             "references": [
-                "pub.1017964645",
+                "pub.1057645713",
                 "pub.1042720228",
-                "pub.1024431836",
-                "pub.1052157202",
-                "pub.1049924444",
-                "pub.1030671043",
-                "pub.1023658417",
-                "pub.1032076609",
-                "pub.1057607817",
+                "pub.1053433853",
+                "pub.1071177948",
+                "pub.1048082015",
+                "pub.1017964645",
                 "pub.1000259923",
+                "pub.1057607817",
+                "pub.1049924444",
+                "pub.1042647854",
+                "pub.1011836911",
+                "pub.1024431836",
+                "pub.1005997968",
+                "pub.1040962464",
+                "pub.1096397899",
+                "pub.1022769574",
+                "pub.1023658417",
+                "pub.1052157202",
+                "pub.1039153895",
+                "pub.1032076609",
+                "pub.1096576366",
+                "pub.1030671043",
+                "pub.1037920726",
+                "pub.1007456388",
+                "pub.1030738023",
                 "pub.1057592868",
                 "pub.1025882149",
-                "pub.1023649273",
-                "pub.1096397899",
-                "pub.1053433853",
                 "pub.1098732913",
-                "pub.1096576366",
-                "pub.1007456388",
-                "pub.1042647854",
-                "pub.1027771917",
-                "pub.1030738023",
-                "pub.1037920726",
-                "pub.1040962464",
-                "pub.1011836911",
-                "pub.1057645713",
-                "pub.1071177948",
-                "pub.1005997968",
-                "pub.1048082015",
-                "pub.1039153895",
-                "pub.1022769574"
+                "pub.1023649273",
+                "pub.1027771917"
             ],
             "research_org_cities": [
                 {
@@ -8817,6 +8211,10 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Jesse.Feyen@noaa.gov",
+                "Earth Resources Technology (United States)"
             ],
             "research_org_state_codes": [
                 {
@@ -11300,14 +10698,6 @@
                 }
             ]
         },
-        "abstract": "This research details the development and validation of an updated constituent tidal database for the Western North Atlantic, Caribbean and Gulf of Mexico (WNAT) region, referred to as the EC2015 database. Regional databases, such as EC2015, provide much higher resolution than global databases allowing users to more accurately define the tidal forcing on smaller sub-region domains. The database last underwent major updates in 2001 and was developed using the two-dimensional, depth-integrated form of the coastal hydrodynamic model, ADvanced CIRCulation (ADCIRC), which solves the shallow-water equations in the generalized wave continuity equation form. Six main areas of improvement are examined: (1) placement of the open ocean boundary; (2) higher coastal resolution using Vertical Datum (VDatum) models; (3) updated bathymetry from global databases; (4) updated boundary forcing compared using two global tidal databases; (5) updated bottom friction formulations; and (6) improved model physics by incorporating the advective terms in ADCIRC. The skill of the improved database is compared to that of its predecessor and is calculated using harmonic data from the National Oceanic and Atmospheric Administration Center for Operational Oceanographic Products and Services (NOAA CO-OPS) stations and historic International Hydrographic Organization (IHO) data. Overall, the EC2015 database significantly reduces errors realized in the EC2001 database and improves the quality of coastal tidal constituents available for smaller sub-regional models in the Western North Atlantic, Caribbean and Gulf of Mexico (WNAT) region.",
-        "authors": [
-            "author-edad93f3dd7a5386f326",
-            "author-59ea15a353e9fb9562fe",
-            "author-2cd19e661ec0ee1e44ff",
-            "author-861923d7453f0682f387",
-            "author-0ff14408d240a7888272"
-        ],
         "datasets": [
             "dataset-614",
             "dataset-816"
@@ -11377,108 +10767,6 @@
             "status": "ok"
         },
         "doi": "10.3390/jmse4040072",
-        "keyphrases": {
-            "adcirc": {
-                "count": 3,
-                "rank_score": 0.04528931856982654
-            },
-            "advanced circulation": {
-                "count": 2,
-                "rank_score": 0.05362073733559658
-            },
-            "atmospheric administration center": {
-                "count": 1,
-                "rank_score": 0.06943699944994956
-            },
-            "caribbean": {
-                "count": 4,
-                "rank_score": 0.04763603234478676
-            },
-            "coastal hydrodynamic model": {
-                "count": 1,
-                "rank_score": 0.04772066966594027
-            },
-            "coastal tidal constituents": {
-                "count": 1,
-                "rank_score": 0.08357358889747186
-            },
-            "database": {
-                "count": 1,
-                "rank_score": 0.050315477327517504
-            },
-            "ec2001 database": {
-                "count": 1,
-                "rank_score": 0.05525798536306928
-            },
-            "ec2015 database": {
-                "count": 2,
-                "rank_score": 0.055022995454205643
-            },
-            "generalized wave continuity equation form": {
-                "count": 1,
-                "rank_score": 0.060859420636934364
-            },
-            "global databases": {
-                "count": 2,
-                "rank_score": 0.10561001805829533
-            },
-            "harmonic data": {
-                "count": 1,
-                "rank_score": 0.0578836196869599
-            },
-            "historic international hydrographic organization (iho) data": {
-                "count": 1,
-                "rank_score": 0.047018918550004896
-            },
-            "improved database": {
-                "count": 1,
-                "rank_score": 0.05579810337751275
-            },
-            "improvement": {
-                "count": 1,
-                "rank_score": 0.054687852817835676
-            },
-            "international hydrographic organization": {
-                "count": 1,
-                "rank_score": 0.06937030748101683
-            },
-            "major updates": {
-                "count": 1,
-                "rank_score": 0.05200675658431403
-            },
-            "operational oceanographic products": {
-                "count": 1,
-                "rank_score": 0.06845982272790639
-            },
-            "regional databases": {
-                "count": 1,
-                "rank_score": 0.09731673978088928
-            },
-            "smaller sub-region domains": {
-                "count": 1,
-                "rank_score": 0.08694073717578786
-            },
-            "smaller sub-regional models": {
-                "count": 1,
-                "rank_score": 0.09571323811577012
-            },
-            "tidal forcing": {
-                "count": 1,
-                "rank_score": 0.042046629706795145
-            },
-            "two global tidal databases": {
-                "count": 1,
-                "rank_score": 0.07193467368241384
-            },
-            "updated constituent tidal database": {
-                "count": 1,
-                "rank_score": 0.07671976540355396
-            },
-            "western north atlantic": {
-                "count": 4,
-                "rank_score": 0.04386260542923362
-            }
-        },
         "original": {
             "authors": "Christine Szpilka, Kendra Dresback, Randall Kolar, Jesse Feyen, Jindong Wang",
             "date_added": "2020-01-27 15:55:48",

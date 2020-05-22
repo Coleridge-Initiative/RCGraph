@@ -1,6 +1,7 @@
 [
     {
         "Dimensions": {
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -11,14 +12,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "robbins@niss.org",
                         "first_name": "Michael W.",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Robbins",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": ""
                     },
                     {
@@ -29,14 +26,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "",
-                        "email": "",
                         "first_name": "T. Kirk",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "White",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.012362500705.60"
                     }
                 ]
@@ -50,14 +43,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "robbins@niss.org",
                     "first_name": "Michael W.",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Robbins",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": ""
                 },
                 {
@@ -68,14 +57,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "",
-                    "email": "",
                     "first_name": "T. Kirk",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "White",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.012362500705.60"
                 }
             ],
@@ -97,7 +82,7 @@
             "date": "2011-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1093/ajae/aaq166",
-            "field_citation_ratio": 0.95,
+            "field_citation_ratio": 0.93,
             "id": "pub.1059379755",
             "issn": [
                 "0002-9092",
@@ -123,18 +108,19 @@
             ],
             "pages": "606-612",
             "publisher": "Wiley",
+            "recent_citations": 0,
             "reference_ids": [
                 "pub.1107030376",
-                "pub.1109411044",
                 "pub.1109489390",
                 "pub.1020457349",
+                "pub.1109411044",
                 "pub.1020224519"
             ],
             "references": [
                 "pub.1107030376",
-                "pub.1109411044",
                 "pub.1109489390",
                 "pub.1020457349",
+                "pub.1109411044",
                 "pub.1020224519"
             ],
             "research_org_cities": [
@@ -156,7 +142,15 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "National Institute for Statistical Sciences",
+                "Economic Research Service (ERS), USDA"
+            ],
             "research_org_state_codes": [
+                {
+                    "id": "US-DC",
+                    "name": "District of Columbia"
+                },
                 {
                     "id": "US-NC",
                     "name": "North Carolina"
@@ -447,11 +441,6 @@
                 }
             ]
         },
-        "abstract": "Item non response is a pervasive problem in survey data, and a large literature in statistics has developed to address missing data due to item non response. Government statistical agencies regularly impute for missing values in the microdata that they make available to researchers. Unfortunately, while the imputation methods typically used by government statistical agencies may be suitable for the main objectives of the agency—usually, publishing aggregated descriptive statistics—these imputations are usually unsuitable for multivariate analysis of microdata. Using USDA’s Agricultural Resource Management Survey (ARMS), we apply a new imputation method to missing 2008ARMS data on federal government farm commodity payments and off-farm household income items. We find that the choice of imputation method can have a noticeable effect on important economic indicators, even when the rate of missingness is small.",
-        "authors": [
-            "author-f8915207768acd3fb5e6",
-            "author-c5acde38af838e30dccc"
-        ],
         "datasets": [
             "dataset-870"
         ],
@@ -497,104 +486,6 @@
             "status": "ok"
         },
         "doi": "10.1093/ajae/aaq166",
-        "keyphrases": {
-            "agency": {
-                "count": 1,
-                "rank_score": 0.0408241679490005
-            },
-            "agricultural resource management survey": {
-                "count": 1,
-                "rank_score": 0.098015690676985
-            },
-            "arms": {
-                "count": 1,
-                "rank_score": 0.046079506889635115
-            },
-            "federal government farm commodity payments": {
-                "count": 1,
-                "rank_score": 0.10710890252222738
-            },
-            "government statistical agencies": {
-                "count": 2,
-                "rank_score": 0.11487995005727454
-            },
-            "important economic indicators": {
-                "count": 1,
-                "rank_score": 0.08674089934671336
-            },
-            "imputation method": {
-                "count": 2,
-                "rank_score": 0.1129197778694136
-            },
-            "imputations": {
-                "count": 1,
-                "rank_score": 0.04979090525629313
-            },
-            "item": {
-                "count": 1,
-                "rank_score": 0.07870174326873319
-            },
-            "item non response": {
-                "count": 1,
-                "rank_score": 0.09837568029494081
-            },
-            "large literature": {
-                "count": 1,
-                "rank_score": 0.03690330249520705
-            },
-            "main objectives": {
-                "count": 1,
-                "rank_score": 0.03568544252383265
-            },
-            "microdata": {
-                "count": 1,
-                "rank_score": 0.02675172947985502
-            },
-            "missingness": {
-                "count": 1,
-                "rank_score": 0.07234603015736892
-            },
-            "multivariate analysis": {
-                "count": 1,
-                "rank_score": 0.07712984602447823
-            },
-            "new imputation method": {
-                "count": 1,
-                "rank_score": 0.07230990208590816
-            },
-            "non response": {
-                "count": 1,
-                "rank_score": 0.07819836637728805
-            },
-            "noticeable effect": {
-                "count": 1,
-                "rank_score": 0.04418857398687725
-            },
-            "pervasive problem": {
-                "count": 1,
-                "rank_score": 0.03944818803402769
-            },
-            "researchers": {
-                "count": 1,
-                "rank_score": 0.05460512597065021
-            },
-            "statistics": {
-                "count": 1,
-                "rank_score": 0.0808967446243982
-            },
-            "survey data": {
-                "count": 1,
-                "rank_score": 0.08710094623224922
-            },
-            "usda’s agricultural resource management survey": {
-                "count": 1,
-                "rank_score": 0.0705384677268071
-            },
-            "values": {
-                "count": 1,
-                "rank_score": 0.0541262926792386
-            }
-        },
         "original": {
             "api": "openaire",
             "date_added": "2020-03-11 16:03:51",
@@ -2620,10 +2511,6 @@
             "venue": "",
             "year": 2016
         },
-        "abstract": "Precision agriculture (PA) and its suite of information technologies—such as soil and yield mapping using a global positioning system (GPS), GPS tractor guidance systems, and variable-rate input application—allow farm operators to fine-tune their production practices. Access to detailed, within-field information can decrease input costs and increase yields. USDA’s Agricultural Resource Management Survey shows that these PA technologies were used on roughly 30 to 50 percent of U.S. corn and soybean acres in 2010-12. Previous studies suggest that use of PA is associated with higher profits under certain conditions, but aggregate estimates of these gains have not been available. In this report, a treatment-effects model is developed to estimate factors associated with PA technology adoption rates and the impacts of adoption on profits. Labor and machinery used in production and certain farm characteristics, like farm size, are associated with adoption as well as with two profit measures, net returns and operating profits. The impact of these PA technologies on profits for U.S. corn producers is positive, but small.",
-        "authors": [
-            "author-56b481bb0dfa5bad2492"
-        ],
         "datasets": [
             "dataset-870",
             "dataset-901"
@@ -2668,108 +2555,6 @@
             "status": "ok"
         },
         "doi": "10.22004/ag.econ.249773",
-        "keyphrases": {
-            "adoption": {
-                "count": 2,
-                "rank_score": 0.057547495452459324
-            },
-            "aggregate estimates": {
-                "count": 1,
-                "rank_score": 0.0648671680999987
-            },
-            "agricultural resource management survey": {
-                "count": 1,
-                "rank_score": 0.08634198708981007
-            },
-            "certain conditions": {
-                "count": 1,
-                "rank_score": 0.07229366735442196
-            },
-            "certain farm characteristics": {
-                "count": 1,
-                "rank_score": 0.09028408257360973
-            },
-            "farm operators": {
-                "count": 1,
-                "rank_score": 0.08026946668947639
-            },
-            "farm size": {
-                "count": 1,
-                "rank_score": 0.07661649133577068
-            },
-            "global positioning system": {
-                "count": 1,
-                "rank_score": 0.0519974666670293
-            },
-            "gps": {
-                "count": 2,
-                "rank_score": 0.060206913487940585
-            },
-            "gps tractor guidance systems": {
-                "count": 1,
-                "rank_score": 0.08605453753609904
-            },
-            "higher profits": {
-                "count": 1,
-                "rank_score": 0.08908676641126366
-            },
-            "information technologies": {
-                "count": 1,
-                "rank_score": 0.09176253604029033
-            },
-            "input costs": {
-                "count": 1,
-                "rank_score": 0.08385877637952842
-            },
-            "net returns": {
-                "count": 1,
-                "rank_score": 0.06634159344208916
-            },
-            "operating profits": {
-                "count": 1,
-                "rank_score": 0.08951386564003487
-            },
-            "pa technologies": {
-                "count": 2,
-                "rank_score": 0.06472077070898863
-            },
-            "pa technology adoption rates": {
-                "count": 1,
-                "rank_score": 0.11576826822525216
-            },
-            "previous studies": {
-                "count": 1,
-                "rank_score": 0.0627306038371799
-            },
-            "profits": {
-                "count": 2,
-                "rank_score": 0.08647576728467793
-            },
-            "two profit measures": {
-                "count": 1,
-                "rank_score": 0.052828298800533836
-            },
-            "u.s. corn and soybean acres": {
-                "count": 1,
-                "rank_score": 0.06208895907132857
-            },
-            "u.s. corn producers": {
-                "count": 1,
-                "rank_score": 0.0925409836735548
-            },
-            "usda’s agricultural resource management survey": {
-                "count": 1,
-                "rank_score": 0.06111911661069041
-            },
-            "variable-rate input application": {
-                "count": 1,
-                "rank_score": 0.061760385583653044
-            },
-            "yield mapping": {
-                "count": 1,
-                "rank_score": 0.06356085279490886
-            }
-        },
         "original": {
             "api": "openaire",
             "date_added": "2020-03-11 16:03:51",
@@ -2814,14 +2599,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.463419.d",
-                        "email": "nkey@ers.usda.gov",
                         "first_name": "Nigel",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Key",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.010264604160.16"
                     }
                 ]
@@ -2842,14 +2623,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.463419.d",
-                    "email": "nkey@ers.usda.gov",
                     "first_name": "Nigel",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Key",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.010264604160.16"
                 }
             ],
@@ -2871,6 +2648,7 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30014",
@@ -2944,7 +2722,6 @@
                 "0306-9192",
                 "1873-5657"
             ],
-            "issue": "J. Dev. Econ. 46 1 1995",
             "journal": {
                 "id": "jour.1327407",
                 "title": "Food Policy"
@@ -2955,6 +2732,34 @@
                 "VABB-SHW",
                 "ERA 2018"
             ],
+            "noun_phrases": [
+                "farm",
+                "productivity growth",
+                "United State",
+                "recent decade",
+                "agricultural production",
+                "U.S.",
+                "shift",
+                "large scale operation",
+                "economic viability",
+                "economy",
+                "motivation",
+                "consolidation",
+                "total factor productivity",
+                "size class",
+                "heartland",
+                "belt",
+                "census",
+                "difference",
+                "positive relationship",
+                "sector",
+                "structural change",
+                "technological change",
+                "explores",
+                "tradeoff",
+                "policy",
+                "efficiency"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -2964,32 +2769,38 @@
             ],
             "pages": "186-195",
             "publisher": "Elsevier",
-            "recent_citations": 9,
+            "recent_citations": 11,
             "reference_ids": [
+                "pub.1069638830",
+                "pub.1005984694",
+                "pub.1005899082",
                 "pub.1004514860",
-                "pub.1040091368",
                 "pub.1045131693",
-                "pub.1047831812",
                 "pub.1069410675",
                 "pub.1024631193",
+                "pub.1064530700",
                 "pub.1061933686",
+                "pub.1047831812",
                 "pub.1069408846",
                 "pub.1006664079",
-                "pub.1069638830",
-                "pub.1064530700"
+                "pub.1040091368",
+                "pub.1102648691"
             ],
             "references": [
+                "pub.1069638830",
+                "pub.1005984694",
+                "pub.1005899082",
                 "pub.1004514860",
-                "pub.1040091368",
                 "pub.1045131693",
-                "pub.1047831812",
                 "pub.1069410675",
                 "pub.1024631193",
+                "pub.1064530700",
                 "pub.1061933686",
+                "pub.1047831812",
                 "pub.1069408846",
                 "pub.1006664079",
-                "pub.1069638830",
-                "pub.1064530700"
+                "pub.1040091368",
+                "pub.1102648691"
             ],
             "research_org_cities": [
                 {
@@ -3005,6 +2816,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Economic Research Service"
             ],
             "research_org_state_codes": [
                 {
@@ -3098,7 +2912,7 @@
                 "United States Corn Belt",
                 "Corn Belt"
             ],
-            "times_cited": 9,
+            "times_cited": 11,
             "title": "Farm size and productivity growth in the United States Corn Belt",
             "type": "article",
             "volume": "84",
@@ -3258,10 +3072,6 @@
                 }
             ]
         },
-        "abstract": "Abstract In recent decades, agricultural production in the U.S. has continued to shift to large-scale operations, raising concerns about the economic viability of small and midsized farms. To understand whether economies of size provided an incentive for the consolidation of production, the study estimates the total factor productivity (TFP) of five size classes of grain-producing farms in the U.S. Heartland (Corn Belt) region. Using quinquennial Agricultural Census data from 1982 to 2012 the study also compares TFP growth rates across farm sizes to gain insight into whether observed productivity differences are likely to persist. The finding of a strong positive relationship between farm size and TFP suggests that consolidation of production has contributed to recent aggregate productivity growth in the crop sector. The study estimates the extent to which sectoral productivity growth can be attributed to structural change versus other factors including technological change. The study also explores some tradeoffs associated with policies that raise the productivity of small versus large farms.",
-        "authors": [
-            "author-db8a12b59583e142495d"
-        ],
         "datasets": [
             "dataset-870",
             "dataset-881",
@@ -3304,108 +3114,6 @@
             "status": "ok"
         },
         "doi": "10.1016/j.foodpol.2018.03.017",
-        "keyphrases": {
-            "agricultural census": {
-                "count": 1,
-                "rank_score": 0.07559243495322879
-            },
-            "agricultural production": {
-                "count": 1,
-                "rank_score": 0.07607714908631377
-            },
-            "consolidation": {
-                "count": 2,
-                "rank_score": 0.05768688349327521
-            },
-            "economies": {
-                "count": 1,
-                "rank_score": 0.0527558604564373
-            },
-            "farm sizes": {
-                "count": 2,
-                "rank_score": 0.12393510180734665
-            },
-            "five size classes": {
-                "count": 1,
-                "rank_score": 0.054852337524109285
-            },
-            "grain-producing farms": {
-                "count": 1,
-                "rank_score": 0.06455666118826124
-            },
-            "insight": {
-                "count": 1,
-                "rank_score": 0.0480800514653213
-            },
-            "large-scale operations": {
-                "count": 1,
-                "rank_score": 0.05220022046475228
-            },
-            "observed productivity differences": {
-                "count": 1,
-                "rank_score": 0.0980558483922846
-            },
-            "policies": {
-                "count": 1,
-                "rank_score": 0.05114924895922485
-            },
-            "productivity": {
-                "count": 1,
-                "rank_score": 0.04923042263284459
-            },
-            "quinquennial agricultural census data": {
-                "count": 1,
-                "rank_score": 0.08937040550635562
-            },
-            "recent aggregate productivity growth": {
-                "count": 1,
-                "rank_score": 0.11876814169571165
-            },
-            "recent decades": {
-                "count": 2,
-                "rank_score": 0.07200917019324021
-            },
-            "sectoral productivity growth": {
-                "count": 1,
-                "rank_score": 0.11577600670286786
-            },
-            "size": {
-                "count": 1,
-                "rank_score": 0.09265151079512396
-            },
-            "small and midsized farms": {
-                "count": 1,
-                "rank_score": 0.06860745039289991
-            },
-            "small versus large farms": {
-                "count": 1,
-                "rank_score": 0.07308925767118278
-            },
-            "strong positive relationship": {
-                "count": 1,
-                "rank_score": 0.04998652073172946
-            },
-            "structural change": {
-                "count": 1,
-                "rank_score": 0.07255924242004928
-            },
-            "technological change": {
-                "count": 1,
-                "rank_score": 0.07521578464334763
-            },
-            "tfp": {
-                "count": 4,
-                "rank_score": 0.07652408983595416
-            },
-            "tfp growth rates": {
-                "count": 1,
-                "rank_score": 0.1084194555619896
-            },
-            "total factor productivity": {
-                "count": 1,
-                "rank_score": 0.06915281535695186
-            }
-        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-11 16:03:51",
@@ -3439,6 +3147,7 @@
                     "name": "14 Economics"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -3456,28 +3165,20 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.255951.f",
-                        "email": "rfaria2@utep.edu",
                         "first_name": "João Ricardo",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Faria",
-                        "last_name_original": "",
                         "orcid": "['0000-0001-6484-3566']",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.016104710567.20"
                     },
                     {
                         "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "grid.254590.f",
-                        "email": "mixon_franklin@columbusstate.edu",
                         "first_name": "Franklin G.",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Mixon",
-                        "last_name_original": "",
                         "orcid": "['0000-0001-9998-7412']",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.013515227131.12"
                     }
                 ]
@@ -3498,28 +3199,20 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.255951.f",
-                    "email": "rfaria2@utep.edu",
                     "first_name": "João Ricardo",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Faria",
-                    "last_name_original": "",
                     "orcid": "['0000-0001-6484-3566']",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.016104710567.20"
                 },
                 {
                     "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "grid.254590.f",
-                    "email": "mixon_franklin@columbusstate.edu",
                     "first_name": "Franklin G.",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Mixon",
-                    "last_name_original": "",
                     "orcid": "['0000-0001-9998-7412']",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.013515227131.12"
                 }
             ],
@@ -3591,7 +3284,7 @@
             "date": "2016-09-28",
             "date_inserted": "2017-08-31",
             "doi": "10.3390/admsci6040013",
-            "field_citation_ratio": 0.67,
+            "field_citation_ratio": 0.62,
             "id": "pub.1018442432",
             "issn": [
                 "2076-3387"
@@ -3606,6 +3299,32 @@
                 "Norwegian register level 1"
             ],
             "linkout": "https://www.mdpi.com/2076-3387/6/4/13/pdf",
+            "noun_phrases": [
+                "entrepreneur",
+                "innovation",
+                "development cycle",
+                "Research",
+                "development",
+                "Food Handling",
+                "paper",
+                "market",
+                "processing",
+                "explosive",
+                "path",
+                "target",
+                "dynamic adjustment",
+                "shadow",
+                "output",
+                "equilibrium",
+                "invention",
+                "farm",
+                "agricultural research",
+                "Commerce",
+                "good",
+                "patent",
+                "steady state",
+                "opportunity cost"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -3627,56 +3346,56 @@
             "publisher": "MDPI",
             "recent_citations": 1,
             "reference_ids": [
+                "pub.1069411075",
+                "pub.1016103627",
+                "pub.1069411234",
+                "pub.1003355442",
+                "pub.1007768615",
+                "pub.1069409704",
+                "pub.1048124461",
+                "pub.1027529130",
+                "pub.1029143920",
+                "pub.1026003336",
+                "pub.1059380165",
+                "pub.1059379839",
+                "pub.1023711304",
+                "pub.1041976778",
                 "pub.1023654287",
                 "pub.1027280397",
-                "pub.1048124461",
-                "pub.1069410284",
-                "pub.1069411234",
                 "pub.1102602547",
-                "pub.1041976778",
-                "pub.1069411144",
-                "pub.1026003336",
-                "pub.1003355442",
-                "pub.1023711304",
-                "pub.1025645568",
-                "pub.1029143920",
-                "pub.1016103627",
-                "pub.1069411075",
-                "pub.1007768615",
-                "pub.1032702665",
-                "pub.1059380165",
-                "pub.1027529130",
-                "pub.1059379839",
-                "pub.1000767575",
-                "pub.1061922028",
                 "pub.1019263843",
-                "pub.1069409704"
+                "pub.1069410284",
+                "pub.1069411144",
+                "pub.1061922028",
+                "pub.1000767575",
+                "pub.1032702665",
+                "pub.1025645568"
             ],
             "references": [
+                "pub.1069411075",
+                "pub.1016103627",
+                "pub.1069411234",
+                "pub.1003355442",
+                "pub.1007768615",
+                "pub.1069409704",
+                "pub.1048124461",
+                "pub.1027529130",
+                "pub.1029143920",
+                "pub.1026003336",
+                "pub.1059380165",
+                "pub.1059379839",
+                "pub.1023711304",
+                "pub.1041976778",
                 "pub.1023654287",
                 "pub.1027280397",
-                "pub.1048124461",
-                "pub.1069410284",
-                "pub.1069411234",
                 "pub.1102602547",
-                "pub.1041976778",
-                "pub.1069411144",
-                "pub.1026003336",
-                "pub.1003355442",
-                "pub.1023711304",
-                "pub.1025645568",
-                "pub.1029143920",
-                "pub.1016103627",
-                "pub.1069411075",
-                "pub.1007768615",
-                "pub.1032702665",
-                "pub.1059380165",
-                "pub.1027529130",
-                "pub.1059379839",
-                "pub.1000767575",
-                "pub.1061922028",
                 "pub.1019263843",
-                "pub.1069409704"
+                "pub.1069410284",
+                "pub.1069411144",
+                "pub.1061922028",
+                "pub.1000767575",
+                "pub.1032702665",
+                "pub.1025645568"
             ],
             "research_org_cities": [
                 {
@@ -3692,6 +3411,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "The University of Texas at El Paso"
             ],
             "research_org_state_codes": [
                 {
@@ -3748,12 +3470,12 @@
                         "0000-0001-9998-7412"
                     ],
                     "research_orgs": [
-                        "grid.259906.1",
                         "grid.252546.2",
-                        "grid.263831.d",
-                        "grid.19873.34",
                         "grid.254590.f",
-                        "grid.267193.8"
+                        "grid.259906.1",
+                        "grid.263831.d",
+                        "grid.267193.8",
+                        "grid.19873.34"
                     ]
                 }
             ],
@@ -4801,11 +4523,6 @@
                 }
             ]
         },
-        "abstract": "Abstract: Private sector research and development (RD it only reduces the opportunitycost of RD research and development cycles 1. Introduction With the globalization and greater market integration that have been occurring in recent years,the rural economy is now more heavily inﬂuenced by farmer-entrepreneurs who are more responsiveto shifts in market demand related to changes in preferences, fads, and fashions [1]. Put differently,farmer-entrepreneurs are more connected to supply chains, integrated in industry, and active in thecreation of new networks compared with more traditional farmers. Thus, it is not surprising thatresearch over the past two decades that discusses the sources of (and policies related to) agriculturalwealth creation provide a number of strategies for developing the rural economy that are each aimedat generating entrepreneurial capacity [2–5], while also acknowledging that each strategy also dependson that entrepreneurial capacity [6–8]. According to a recent study, the farmer-entrepreneurs shaped bythese strategies are more receptive to new technologies and assistance from extension, more attentiveto changes in prices and the availability of credit, and less risk averse [9].Within the modern rural economy described above, relatively little is known abouthow farmer-entrepreneurs’ innovations relate to their industrial partners, such as those inthe food processing sector, and to research and development (R&D). One view holds that,as farmer-entrepreneurs look for more efﬁcient and proﬁtable ways to produce, they are more open toinnovation and the application of the innovation of their partners, such as when farmer-entrepreneursseek greater integration with the food processing sector. These sectors of the economy markedly differ,however, in terms of market structure. Farmers are generally seen as price takers, while the foodprocessing sector tends to be concentrated and non-competitive [10–12]. As such, it may be the casethat increasing integration drives farmer-entrepreneurs to adapt technological innovations from theprocessing sector [13,14]. It may also be the case that agricultural innovation impacts technological",
-        "authors": [
-            "author-e1a97ea1f553320d8b12",
-            "author-1c00fbee8563b1712beb"
-        ],
         "datasets": [
             "dataset-596"
         ],
@@ -4856,108 +4573,6 @@
             "status": "ok"
         },
         "doi": "10.3390/admsci6040013",
-        "keyphrases": {
-            "agricultural innovation": {
-                "count": 1,
-                "rank_score": 0.07266463577655097
-            },
-            "agriculturalwealth creation": {
-                "count": 1,
-                "rank_score": 0.05109686192969915
-            },
-            "bythese strategies": {
-                "count": 1,
-                "rank_score": 0.0630733564548418
-            },
-            "development": {
-                "count": 2,
-                "rank_score": 0.055493048708678855
-            },
-            "entrepreneurial capacity": {
-                "count": 2,
-                "rank_score": 0.06151226434175799
-            },
-            "farmer-entrepreneurs": {
-                "count": 5,
-                "rank_score": 0.06526887111153334
-            },
-            "farmer-entrepreneurs’ innovations": {
-                "count": 1,
-                "rank_score": 0.05650674459735279
-            },
-            "farmers": {
-                "count": 1,
-                "rank_score": 0.08840771110879087
-            },
-            "food processing sector": {
-                "count": 1,
-                "rank_score": 0.052149493435355576
-            },
-            "greater market integration": {
-                "count": 1,
-                "rank_score": 0.08171844417221426
-            },
-            "inthe food processing sector": {
-                "count": 1,
-                "rank_score": 0.055629980786307355
-            },
-            "less risk averse": {
-                "count": 1,
-                "rank_score": 0.06188516489496352
-            },
-            "market demand": {
-                "count": 1,
-                "rank_score": 0.06755854231076691
-            },
-            "market structure": {
-                "count": 1,
-                "rank_score": 0.06347420511312624
-            },
-            "more attentiveto changes": {
-                "count": 1,
-                "rank_score": 0.07758365379596521
-            },
-            "more responsiveto shifts": {
-                "count": 1,
-                "rank_score": 0.07018934915123815
-            },
-            "more traditional farmers": {
-                "count": 1,
-                "rank_score": 0.05099914837060157
-            },
-            "new networks": {
-                "count": 1,
-                "rank_score": 0.062101685482172014
-            },
-            "new technologies": {
-                "count": 1,
-                "rank_score": 0.061557650303223035
-            },
-            "price takers": {
-                "count": 1,
-                "rank_score": 0.05502346454029372
-            },
-            "private sector research": {
-                "count": 1,
-                "rank_score": 0.08510214812153982
-            },
-            "rd research and development cycles": {
-                "count": 1,
-                "rank_score": 0.05074201189475514
-            },
-            "sector": {
-                "count": 2,
-                "rank_score": 0.07251725317502705
-            },
-            "surprising thatresearch": {
-                "count": 1,
-                "rank_score": 0.05295978514976117
-            },
-            "technological innovations": {
-                "count": 1,
-                "rank_score": 0.07798062132088875
-            }
-        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-11 16:03:51",
@@ -6577,12 +6192,6 @@
                 }
             ]
         },
-        "abstract": "Agritourism is an alternative source of farm income. We examine farmersâ€™ participation in agritourism activities to assess the impact of participation on farm household income and return to assets using a large farm-level survey. The results reveal that older, educated, and female operators are more likely to participate in agritourism. However, government subsidies and the population of the county are negatively correlated with agritourism. Of the types of farm operations examined, small-scale farms that involved agritourism generated the greatest household incomes and returns to assets. For operators of small farms, agritourism can boost the economic well-being of farm households.",
-        "authors": [
-            "author-c6b794dae02a3189d97d",
-            "author-8529f2f60594a1e21df7",
-            "author-d45d779aaa7038821d8d"
-        ],
         "datasets": [
             "dataset-870"
         ],
@@ -6658,96 +6267,6 @@
             "status": "ok"
         },
         "doi": "10.1017/s1068280500004949",
-        "keyphrases": {
-            "agritourism": {
-                "count": 5,
-                "rank_score": 0.12197884205576183
-            },
-            "agritourism activities": {
-                "count": 1,
-                "rank_score": 0.12524426000933273
-            },
-            "alternative source": {
-                "count": 1,
-                "rank_score": 0.04481474896282268
-            },
-            "assets": {
-                "count": 2,
-                "rank_score": 0.06508928486357343
-            },
-            "county": {
-                "count": 1,
-                "rank_score": 0.03529151049956731
-            },
-            "economic well-being": {
-                "count": 1,
-                "rank_score": 0.04648110640021055
-            },
-            "farm household income": {
-                "count": 1,
-                "rank_score": 0.16776778338360518
-            },
-            "farm households": {
-                "count": 1,
-                "rank_score": 0.16336368340492644
-            },
-            "farm income": {
-                "count": 1,
-                "rank_score": 0.15857035346198048
-            },
-            "farm operations": {
-                "count": 1,
-                "rank_score": 0.15052503381842042
-            },
-            "farmersâ€™": {
-                "count": 1,
-                "rank_score": 0.027200162785753833
-            },
-            "farmersâ€™ participation": {
-                "count": 1,
-                "rank_score": 0.05480765051780787
-            },
-            "government subsidies": {
-                "count": 1,
-                "rank_score": 0.0859206839353312
-            },
-            "greatest household incomes": {
-                "count": 1,
-                "rank_score": 0.07829597474202867
-            },
-            "impact": {
-                "count": 1,
-                "rank_score": 0.02810620234863228
-            },
-            "large farm-level survey": {
-                "count": 1,
-                "rank_score": 0.07503176089409418
-            },
-            "older, educated, and female operators": {
-                "count": 1,
-                "rank_score": 0.047737705485007935
-            },
-            "operators": {
-                "count": 1,
-                "rank_score": 0.07369235393468473
-            },
-            "population": {
-                "count": 1,
-                "rank_score": 0.0376374567170931
-            },
-            "small farms": {
-                "count": 1,
-                "rank_score": 0.15826460055026814
-            },
-            "small-scale farms": {
-                "count": 1,
-                "rank_score": 0.09849094868291136
-            },
-            "types": {
-                "count": 1,
-                "rank_score": 0.026833356648345092
-            }
-        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-11 16:03:51",
@@ -6785,6 +6304,7 @@
                     "name": "Rural Health"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -6802,14 +6322,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.36567.31",
-                        "email": "",
                         "first_name": "Brian C.",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Briggeman",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.016650272216.15"
                     },
                     {
@@ -6827,14 +6343,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.65519.3e",
-                        "email": "",
                         "first_name": "Brian E.",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Whitacre",
-                        "last_name_original": "",
                         "orcid": "['0000-0002-5083-1828']",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.0576564754.20"
                     }
                 ]
@@ -6855,14 +6367,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.36567.31",
-                    "email": "",
                     "first_name": "Brian C.",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Briggeman",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.016650272216.15"
                 },
                 {
@@ -6880,14 +6388,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.65519.3e",
-                    "email": "",
                     "first_name": "Brian E.",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Whitacre",
-                    "last_name_original": "",
                     "orcid": "['0000-0002-5083-1828']",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.0576564754.20"
                 }
             ],
@@ -6947,7 +6451,7 @@
             "date": "2010-10-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1017/s1068280500007528",
-            "field_citation_ratio": 5.89,
+            "field_citation_ratio": 6.59,
             "id": "pub.1054922192",
             "issn": [
                 "1068-2805",
@@ -6966,6 +6470,28 @@
                 "ERA 2015"
             ],
             "linkout": "http://pdfs.semanticscholar.org/246a/f611e9831b0370d90fa6da4cd76e273f2c63.pdf",
+            "noun_phrases": [
+                "farming",
+                "Internet",
+                "non-use",
+                "infrastructure",
+                "service",
+                "significant amount",
+                "American Recovery and Reinvestment Act",
+                "broadband",
+                "rural area",
+                "farmer",
+                "paper",
+                "resource management",
+                "majority",
+                "farm",
+                "policymakers",
+                "Internet service",
+                "security",
+                "educational program",
+                "perceived barrier",
+                "Internet use"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -6985,46 +6511,46 @@
             ],
             "pages": "571-584",
             "publisher": "Cambridge University Press (CUP)",
-            "recent_citations": 6,
+            "recent_citations": 8,
             "reference_ids": [
-                "pub.1102209972",
-                "pub.1045108954",
-                "pub.1031017811",
-                "pub.1051588649",
-                "pub.1054922276",
-                "pub.1031502791",
-                "pub.1068879346",
-                "pub.1069409105",
-                "pub.1052371254",
                 "pub.1014764354",
                 "pub.1046360997",
-                "pub.1042579834",
+                "pub.1069409105",
+                "pub.1020531217",
+                "pub.1054922276",
+                "pub.1031017811",
+                "pub.1102209972",
                 "pub.1039389985",
-                "pub.1069491025",
                 "pub.1028940504",
+                "pub.1045108954",
                 "pub.1069639310",
+                "pub.1031502791",
+                "pub.1069491025",
+                "pub.1042579834",
+                "pub.1051588649",
                 "pub.1061936280",
-                "pub.1020531217"
+                "pub.1068879346",
+                "pub.1052371254"
             ],
             "references": [
-                "pub.1102209972",
-                "pub.1045108954",
-                "pub.1031017811",
-                "pub.1051588649",
-                "pub.1054922276",
-                "pub.1031502791",
-                "pub.1068879346",
-                "pub.1069409105",
-                "pub.1052371254",
                 "pub.1014764354",
                 "pub.1046360997",
-                "pub.1042579834",
+                "pub.1069409105",
+                "pub.1020531217",
+                "pub.1054922276",
+                "pub.1031017811",
+                "pub.1102209972",
                 "pub.1039389985",
-                "pub.1069491025",
                 "pub.1028940504",
+                "pub.1045108954",
                 "pub.1069639310",
+                "pub.1031502791",
+                "pub.1069491025",
+                "pub.1042579834",
+                "pub.1051588649",
                 "pub.1061936280",
-                "pub.1020531217"
+                "pub.1068879346",
+                "pub.1052371254"
             ],
             "research_org_cities": [
                 {
@@ -7045,14 +6571,18 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Oklahoma State University",
+                "Federal Reserve Bank of Kansas City"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-OK",
-                    "name": "Oklahoma"
-                },
                 {
                     "id": "US-MO",
                     "name": "Missouri"
+                },
+                {
+                    "id": "US-OK",
+                    "name": "Oklahoma"
                 }
             ],
             "research_org_state_names": [
@@ -7112,8 +6642,8 @@
                     ],
                     "research_orgs": [
                         "grid.65519.3e",
-                        "grid.438526.e",
-                        "grid.411363.2"
+                        "grid.411363.2",
+                        "grid.438526.e"
                     ]
                 }
             ],
@@ -7136,7 +6666,7 @@
                 "Internet use",
                 "use"
             ],
-            "times_cited": 14,
+            "times_cited": 16,
             "title": "Farming and the Internet: Reasons for Non-Use",
             "type": "article",
             "volume": "39",
@@ -7153,1192 +6683,8 @@
             "url": "http://dx.doi.org/10.22004/ag.econ.97008"
         },
         "Semantic Scholar": {
-            "abstract": "Rural broadband infrastructure and service has received a significant amount of funding through the American Recovery and Reinvestment Act of 2009. These funds should increase broadband availability, but will broadband be used in rural areas and in particular by farmers? This paper uses Agricultural Resource Management Survey data to investigate why the majority of U.S. farmers choose not to use the Internet in their farm business. Although frequently cited by policymakers, concerns about inadequate Internet service or security actually account for a small percentage of responses. This research identifies targeted educational programs that focus on alleviating perceived barriers to Internet use.",
-            "arxivId": null,
-            "authors": [
-                {
-                    "authorId": "96178941",
-                    "name": "Brian C. Briggeman",
-                    "url": "https://www.semanticscholar.org/author/96178941"
-                },
-                {
-                    "authorId": "2515407",
-                    "name": "Brian E. Whitacre",
-                    "url": "https://www.semanticscholar.org/author/2515407"
-                }
-            ],
-            "citationVelocity": 0,
-            "citations": [
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": null,
-                            "name": "O JeffreyK.",
-                            "url": null
-                        },
-                        {
-                            "authorId": "121846209",
-                            "name": "Hara",
-                            "url": "https://www.semanticscholar.org/author/121846209"
-                        },
-                        {
-                            "authorId": "47173795",
-                            "name": "Sarah A. Low",
-                            "url": "https://www.semanticscholar.org/author/47173795"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background",
-                        "result"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "3bbfe350e073a646478a451b4bce7b2a955387ec",
-                    "title": "Online Sales: A Direct Marketing Opportunity for Rural Farms?",
-                    "url": "https://www.semanticscholar.org/paper/3bbfe350e073a646478a451b4bce7b2a955387ec",
-                    "venue": "",
-                    "year": 2020
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "104957571",
-                            "name": "Angela Hersey",
-                            "url": "https://www.semanticscholar.org/author/104957571"
-                        },
-                        {
-                            "authorId": "47673861",
-                            "name": "Michelle Adams",
-                            "url": "https://www.semanticscholar.org/author/47673861"
-                        }
-                    ],
-                    "doi": "10.5304/jafscd.2017.073.006",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "990163ad16115d6878d2287bf0d3b7116e7eb00c",
-                    "title": "Using Contribution Analysis to Assess the Influence of Farm Link Programs in the U.S.",
-                    "url": "https://www.semanticscholar.org/paper/990163ad16115d6878d2287bf0d3b7116e7eb00c",
-                    "venue": "",
-                    "year": 2017
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "148027503",
-                            "name": "Sherrill Cooper",
-                            "url": "https://www.semanticscholar.org/author/148027503"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "29d10c10900d5495252db7d1a4c9ca96cc9120ce",
-                    "title": "Key Factors Affecting Queensland Horticultural Farmers' Effective Use of Internet Based Extension Tools",
-                    "url": "https://www.semanticscholar.org/paper/29d10c10900d5495252db7d1a4c9ca96cc9120ce",
-                    "venue": "",
-                    "year": 2019
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "103631110",
-                            "name": "Michael Vassalos",
-                            "url": "https://www.semanticscholar.org/author/103631110"
-                        },
-                        {
-                            "authorId": "13248465",
-                            "name": "Kar Ho Lim",
-                            "url": "https://www.semanticscholar.org/author/13248465"
-                        }
-                    ],
-                    "doi": "10.22004/ag.econ.234959",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "d808186d564cdca48642bd7825f0079600d5d030",
-                    "title": "Farmers’ Willingness to Pay for Various Features of Electronic Food Marketing Platforms",
-                    "url": "https://www.semanticscholar.org/paper/d808186d564cdca48642bd7825f0079600d5d030",
-                    "venue": "",
-                    "year": 2016
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "115379639",
-                            "name": "Marius Michels",
-                            "url": "https://www.semanticscholar.org/author/115379639"
-                        },
-                        {
-                            "authorId": "51134889",
-                            "name": "Wilm Fecke",
-                            "url": "https://www.semanticscholar.org/author/51134889"
-                        },
-                        {
-                            "authorId": "95729515",
-                            "name": "Jan-Henning Feil",
-                            "url": "https://www.semanticscholar.org/author/95729515"
-                        },
-                        {
-                            "authorId": "98686697",
-                            "name": "Oliver Musshoff",
-                            "url": "https://www.semanticscholar.org/author/98686697"
-                        },
-                        {
-                            "authorId": "147133048",
-                            "name": "Johanna Pigisch",
-                            "url": "https://www.semanticscholar.org/author/147133048"
-                        },
-                        {
-                            "authorId": "148077694",
-                            "name": "Saskia Krone",
-                            "url": "https://www.semanticscholar.org/author/148077694"
-                        }
-                    ],
-                    "doi": "10.1007/s11119-019-09675-5",
-                    "intent": [
-                        "background",
-                        "result"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "2986c1e2067066446b8c175f59c5f12eb738aa1c",
-                    "title": "Smartphone adoption and use in agriculture: empirical evidence from Germany",
-                    "url": "https://www.semanticscholar.org/paper/2986c1e2067066446b8c175f59c5f12eb738aa1c",
-                    "venue": "Precision Agriculture",
-                    "year": 2019
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "95841337",
-                            "name": "Jessica R. Hooper",
-                            "url": "https://www.semanticscholar.org/author/95841337"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "992d3853ebf7ad13771ff8c51e271833010e0086",
-                    "title": "Internet marketing trends: An Analysis of website and social media use in New York state's equine industry",
-                    "url": "https://www.semanticscholar.org/paper/992d3853ebf7ad13771ff8c51e271833010e0086",
-                    "venue": "",
-                    "year": 2013
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "145921320",
-                            "name": "Amy M. G. Kandilov",
-                            "url": "https://www.semanticscholar.org/author/145921320"
-                        },
-                        {
-                            "authorId": "119310090",
-                            "name": "Ivan T. Kandilov",
-                            "url": "https://www.semanticscholar.org/author/119310090"
-                        },
-                        {
-                            "authorId": "49543281",
-                            "name": "Xiangping Liu",
-                            "url": "https://www.semanticscholar.org/author/49543281"
-                        },
-                        {
-                            "authorId": "89179894",
-                            "name": "Mitch Renkow",
-                            "url": "https://www.semanticscholar.org/author/89179894"
-                        }
-                    ],
-                    "doi": "10.1093/aepp/ppx022",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "584f06bfbbb1a5420b81cf1d451b4bab60fdf5c8",
-                    "title": "The Impact of Broadband on U.S. Agriculture: An Evaluation of the USDA Broadband Loan Program",
-                    "url": "https://www.semanticscholar.org/paper/584f06bfbbb1a5420b81cf1d451b4bab60fdf5c8",
-                    "venue": "",
-                    "year": 2011
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "116167795",
-                            "name": "Francisca Chinyeaka Mbagwu",
-                            "url": "https://www.semanticscholar.org/author/116167795"
-                        },
-                        {
-                            "authorId": "84244148",
-                            "name": "Oyemike Victor Benson",
-                            "url": "https://www.semanticscholar.org/author/84244148"
-                        },
-                        {
-                            "authorId": "98769074",
-                            "name": "Charis O. Onuoha",
-                            "url": "https://www.semanticscholar.org/author/98769074"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "2b47844ff6b397fbbfa3ffa9277ce92c2852aa8e",
-                    "title": "Challenges of meeting information needs of rural farmers through internet-based services: experiences from developing countries in Africa",
-                    "url": "https://www.semanticscholar.org/paper/2b47844ff6b397fbbfa3ffa9277ce92c2852aa8e",
-                    "venue": "",
-                    "year": 2017
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "39114763",
-                            "name": "Mark D. McGregor",
-                            "url": "https://www.semanticscholar.org/author/39114763"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "36fdd203394d22a61868f65cec818c48237647e0",
-                    "title": "An Investigation of the Marketing Practices of Local Food Businesses in Southwestern Ontario",
-                    "url": "https://www.semanticscholar.org/paper/36fdd203394d22a61868f65cec818c48237647e0",
-                    "venue": "",
-                    "year": 2016
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "114536250",
-                            "name": "Vanessa Bonke",
-                            "url": "https://www.semanticscholar.org/author/114536250"
-                        },
-                        {
-                            "authorId": "51134889",
-                            "name": "Wilm Fecke",
-                            "url": "https://www.semanticscholar.org/author/51134889"
-                        },
-                        {
-                            "authorId": "115379639",
-                            "name": "Marius Michels",
-                            "url": "https://www.semanticscholar.org/author/115379639"
-                        },
-                        {
-                            "authorId": "98686697",
-                            "name": "Oliver Musshoff",
-                            "url": "https://www.semanticscholar.org/author/98686697"
-                        }
-                    ],
-                    "doi": "10.1007/s13593-018-0532-4",
-                    "intent": [
-                        "background",
-                        "result"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "69c767a462518c30e66d7eaa535ec80ba2d230f0",
-                    "title": "Willingness to pay for smartphone apps facilitating sustainable crop protection",
-                    "url": "https://www.semanticscholar.org/paper/69c767a462518c30e66d7eaa535ec80ba2d230f0",
-                    "venue": "Agronomy for Sustainable Development",
-                    "year": 2018
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "93809308",
-                            "name": "Sara Flecher",
-                            "url": "https://www.semanticscholar.org/author/93809308"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "02db77c3496492887e40430b87b3f68456fc64d3",
-                    "title": "An Assessment of Technology Adoptability in Sugarcane Burning Smoke Plume Mitigation",
-                    "url": "https://www.semanticscholar.org/paper/02db77c3496492887e40430b87b3f68456fc64d3",
-                    "venue": "",
-                    "year": 2013
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "115379639",
-                            "name": "Marius Michels",
-                            "url": "https://www.semanticscholar.org/author/115379639"
-                        },
-                        {
-                            "authorId": "114536250",
-                            "name": "Vanessa Bonke",
-                            "url": "https://www.semanticscholar.org/author/114536250"
-                        },
-                        {
-                            "authorId": "98686697",
-                            "name": "Oliver Musshoff",
-                            "url": "https://www.semanticscholar.org/author/98686697"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background",
-                        "result"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "913d8a8f7702e1d4eb980a6821359b1375f7b1d7",
-                    "title": "Understanding the adoption of crop protection smartphone apps : An application of the Unified Theory of Acceptance and Use of Technology",
-                    "url": "https://www.semanticscholar.org/paper/913d8a8f7702e1d4eb980a6821359b1375f7b1d7",
-                    "venue": "",
-                    "year": 2019
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "104957571",
-                            "name": "Angela Hersey",
-                            "url": "https://www.semanticscholar.org/author/104957571"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "eddff784b35a932403a5a0e9a470df9ffabaa5f2",
-                    "title": "Using Contribution Analysis to Evaluate U.S. Farm Link Programs: Opportunities to improve non-family succession of the 'family farm'",
-                    "url": "https://www.semanticscholar.org/paper/eddff784b35a932403a5a0e9a470df9ffabaa5f2",
-                    "venue": "",
-                    "year": 2014
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "121553484",
-                            "name": "Shenique Carmichael",
-                            "url": "https://www.semanticscholar.org/author/121553484"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background",
-                        "methodology"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "76ceb7ae6dc93fb136ea5fa0c4e02965ae970de8",
-                    "title": "Small Farm Management of Information Communication Technology, E-Commerce, and Organization Performance",
-                    "url": "https://www.semanticscholar.org/paper/76ceb7ae6dc93fb136ea5fa0c4e02965ae970de8",
-                    "venue": "",
-                    "year": 2017
-                }
-            ],
-            "corpusId": 55907036,
-            "doi": "10.1017/s1068280500007528",
-            "fieldsOfStudy": [
-                "Economics"
-            ],
-            "influentialCitationCount": 6,
-            "is_open_access": true,
-            "is_publisher_licensed": false,
-            "paperId": "246af611e9831b0370d90fa6da4cd76e273f2c63",
-            "references": [
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "2821667",
-                            "name": "David Hartley",
-                            "url": "https://www.semanticscholar.org/author/2821667"
-                        }
-                    ],
-                    "doi": "10.2105/AJPH.94.10.1675",
-                    "intent": [
-                        "methodology"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "d20d376818f8095a7ee255400f460fa9bff347a3",
-                    "title": "Rural health disparities, population health, and rural culture.",
-                    "url": "https://www.semanticscholar.org/paper/d20d376818f8095a7ee255400f460fa9bff347a3",
-                    "venue": "American journal of public health",
-                    "year": 2004
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "2275492",
-                            "name": "Ashok K. Mishra",
-                            "url": "https://www.semanticscholar.org/author/2275492"
-                        },
-                        {
-                            "authorId": "122440775",
-                            "name": "Robert J P Williams",
-                            "url": "https://www.semanticscholar.org/author/122440775"
-                        }
-                    ],
-                    "doi": "10.22004/ag.econ.21106",
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "12b6329c33107be3b779f0a1abe4f5736fc4b56f",
-                    "title": "Internet Access and Use by Farm Households",
-                    "url": "https://www.semanticscholar.org/paper/12b6329c33107be3b779f0a1abe4f5736fc4b56f",
-                    "venue": "",
-                    "year": 2006
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "2484239",
-                            "name": "James E. Prieger",
-                            "url": "https://www.semanticscholar.org/author/2484239"
-                        }
-                    ],
-                    "doi": "10.1093/ei/cbg013",
-                    "intent": [
-                        "result"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "7a47661093fea1b9c5b763d627597da86519943c",
-                    "title": "The Supply Side of the Digital Divide: Is There Equal Availability in the Broadband Internet Access Market?",
-                    "url": "https://www.semanticscholar.org/paper/7a47661093fea1b9c5b763d627597da86519943c",
-                    "venue": "",
-                    "year": 2003
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "47899560",
-                            "name": "William H. Greene",
-                            "url": "https://www.semanticscholar.org/author/47899560"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background",
-                        "methodology"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "894a58f5954d219ee6d4cbfe9bb911aab35b84b7",
-                    "title": "Econometric Analysis 5th ed",
-                    "url": "https://www.semanticscholar.org/paper/894a58f5954d219ee6d4cbfe9bb911aab35b84b7",
-                    "venue": "",
-                    "year": 2003
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "71583885",
-                            "name": "Bonnie D. Belleau",
-                            "url": "https://www.semanticscholar.org/author/71583885"
-                        },
-                        {
-                            "authorId": "70385798",
-                            "name": "Teresa A. Summers",
-                            "url": "https://www.semanticscholar.org/author/70385798"
-                        }
-                    ],
-                    "doi": "10.1111/j.1470-6431.1993.tb00171.x",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "45bf3e4aa94ed43be7b4afd0e3eefc5428f0dbf2",
-                    "title": "Comparison of selected computer attitude scales",
-                    "url": "https://www.semanticscholar.org/paper/45bf3e4aa94ed43be7b4afd0e3eefc5428f0dbf2",
-                    "venue": "",
-                    "year": 1993
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "2225668",
-                            "name": "Thomas W. Valente",
-                            "url": "https://www.semanticscholar.org/author/2225668"
-                        }
-                    ],
-                    "doi": "10.1097/00125817-200303000-00003",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "1e0d4986ac7f6dd98424f57b6bc02395edc5b39b",
-                    "title": "Diffusion of innovations",
-                    "url": "https://www.semanticscholar.org/paper/1e0d4986ac7f6dd98424f57b6bc02395edc5b39b",
-                    "venue": "Genetics in Medicine",
-                    "year": 2003
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "98834179",
-                            "name": "Leah J. Tsoodle",
-                            "url": "https://www.semanticscholar.org/author/98834179"
-                        },
-                        {
-                            "authorId": "8553543",
-                            "name": "Allen M. Featherstone",
-                            "url": "https://www.semanticscholar.org/author/8553543"
-                        },
-                        {
-                            "authorId": "41211999",
-                            "name": "Bill B. Golden",
-                            "url": "https://www.semanticscholar.org/author/41211999"
-                        }
-                    ],
-                    "doi": "10.1108/00214660780001206",
-                    "intent": [
-                        "methodology"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "a5c44c4e3ad5b1051971f2810b5ea2d815144723",
-                    "title": "Combining hedonic and negative exponential techniques to estimate the market value of land",
-                    "url": "https://www.semanticscholar.org/paper/a5c44c4e3ad5b1051971f2810b5ea2d815144723",
-                    "venue": "",
-                    "year": 2007
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "3456865",
-                            "name": "Daniel S. Putler",
-                            "url": "https://www.semanticscholar.org/author/3456865"
-                        },
-                        {
-                            "authorId": "118662367",
-                            "name": "David Zilberman",
-                            "url": "https://www.semanticscholar.org/author/118662367"
-                        }
-                    ],
-                    "doi": "10.2307/1241920",
-                    "intent": [
-                        "result"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "cbe109669e91ae9152ef03c926fae4508a91b9c0",
-                    "title": "Computer Use in Agriculture: Evidence from Tulare County, California",
-                    "url": "https://www.semanticscholar.org/paper/cbe109669e91ae9152ef03c926fae4508a91b9c0",
-                    "venue": "",
-                    "year": 1988
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "96831893",
-                            "name": "Aaron Drake Smith",
-                            "url": "https://www.semanticscholar.org/author/96831893"
-                        },
-                        {
-                            "authorId": "49681731",
-                            "name": "Catherine J. Morrison Paul",
-                            "url": "https://www.semanticscholar.org/author/49681731"
-                        },
-                        {
-                            "authorId": "104795754",
-                            "name": "W. Richard Goe",
-                            "url": "https://www.semanticscholar.org/author/104795754"
-                        },
-                        {
-                            "authorId": "145163215",
-                            "name": "Martin Kenney",
-                            "url": "https://www.semanticscholar.org/author/145163215"
-                        }
-                    ],
-                    "doi": "10.2139/ssrn.711262",
-                    "intent": [
-                        "methodology",
-                        "background",
-                        "result"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "e6c37aabc8d7a4c6ba827960db34f50a64bdd864",
-                    "title": "Computer and Internet Use by Great Plains Farmers",
-                    "url": "https://www.semanticscholar.org/paper/e6c37aabc8d7a4c6ba827960db34f50a64bdd864",
-                    "venue": "",
-                    "year": 2004
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "69046128",
-                            "name": "James W. McConnaughey",
-                            "url": "https://www.semanticscholar.org/author/69046128"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "ddacbe97cb33d9027cc07ae62bd957f1fd95861e",
-                    "title": "Falling through the net II: New data on the digital divide",
-                    "url": "https://www.semanticscholar.org/paper/ddacbe97cb33d9027cc07ae62bd957f1fd95861e",
-                    "venue": "",
-                    "year": 1998
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "118610073",
-                            "name": "Stan Ernst",
-                            "url": "https://www.semanticscholar.org/author/118610073"
-                        },
-                        {
-                            "authorId": "103726134",
-                            "name": "Mark Tucker",
-                            "url": "https://www.semanticscholar.org/author/103726134"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "1338fe3babbb4dca415eeb78a7fe2771e6622d3a",
-                    "title": "Perceptions and Adoption of Information Technologies: Implications for Ohio's Produce Industry in the New Economy*",
-                    "url": "https://www.semanticscholar.org/paper/1338fe3babbb4dca415eeb78a7fe2771e6622d3a",
-                    "venue": "",
-                    "year": 2001
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "2126549",
-                            "name": "Robert LaRose",
-                            "url": "https://www.semanticscholar.org/author/2126549"
-                        },
-                        {
-                            "authorId": "34681042",
-                            "name": "Jennifer L. Gregg",
-                            "url": "https://www.semanticscholar.org/author/34681042"
-                        },
-                        {
-                            "authorId": "2388999",
-                            "name": "Sharon Strover",
-                            "url": "https://www.semanticscholar.org/author/2388999"
-                        },
-                        {
-                            "authorId": "3011344",
-                            "name": "Joseph D. Straubhaar",
-                            "url": "https://www.semanticscholar.org/author/3011344"
-                        },
-                        {
-                            "authorId": "51036053",
-                            "name": "Nobuya Inagaki",
-                            "url": "https://www.semanticscholar.org/author/51036053"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "eca0d7dfeef8f7e1dba7fb7a5b3f8b36afeab008",
-                    "title": "Closing the Rural Broadband Gap",
-                    "url": "https://www.semanticscholar.org/paper/eca0d7dfeef8f7e1dba7fb7a5b3f8b36afeab008",
-                    "venue": "",
-                    "year": 2009
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "50424829",
-                            "name": "Dana L. Hoag",
-                            "url": "https://www.semanticscholar.org/author/50424829"
-                        },
-                        {
-                            "authorId": "1694059",
-                            "name": "James C. Ascough",
-                            "url": "https://www.semanticscholar.org/author/1694059"
-                        },
-                        {
-                            "authorId": "70069866",
-                            "name": "W. Marshall Frasier",
-                            "url": "https://www.semanticscholar.org/author/70069866"
-                        }
-                    ],
-                    "doi": "10.1017/S0081305200028776",
-                    "intent": [
-                        "result"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "0cb128ece2e4d294e0a93cb2c92156e6f4973881",
-                    "title": "FARM COMPUTER ADOPTION IN THE GREAT PLAINS",
-                    "url": "https://www.semanticscholar.org/paper/0cb128ece2e4d294e0a93cb2c92156e6f4973881",
-                    "venue": "",
-                    "year": 1999
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "49733902",
-                            "name": "Jason R. Henderson",
-                            "url": "https://www.semanticscholar.org/author/49733902"
-                        },
-                        {
-                            "authorId": "5488946",
-                            "name": "Frank J. Dooley",
-                            "url": "https://www.semanticscholar.org/author/5488946"
-                        },
-                        {
-                            "authorId": "35701350",
-                            "name": "Jay T. Akridge",
-                            "url": "https://www.semanticscholar.org/author/35701350"
-                        }
-                    ],
-                    "doi": "10.1111/j.1467-9353.2004.00196.x",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "a43cc93c1642cb6a82a5b19f1edb0ed6b40cca66",
-                    "title": "Internet and E-Commerce Adoption by Agricultural Input Firms",
-                    "url": "https://www.semanticscholar.org/paper/a43cc93c1642cb6a82a5b19f1edb0ed6b40cca66",
-                    "venue": "",
-                    "year": 2004
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "2124933",
-                            "name": "Jerry Hausman",
-                            "url": "https://www.semanticscholar.org/author/2124933"
-                        },
-                        {
-                            "authorId": "97977949",
-                            "name": "Daniel Mcfadden",
-                            "url": "https://www.semanticscholar.org/author/97977949"
-                        }
-                    ],
-                    "doi": "10.2307/1910997",
-                    "intent": [
-                        "methodology"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "d54c0bc99be49ce9d67bbc1e139e079568e10786",
-                    "title": "Specification Tests for the Multinomial Logit Model",
-                    "url": "https://www.semanticscholar.org/paper/d54c0bc99be49ce9d67bbc1e139e079568e10786",
-                    "venue": "",
-                    "year": 1984
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "121328026",
-                            "name": "April Beasley",
-                            "url": "https://www.semanticscholar.org/author/121328026"
-                        },
-                        {
-                            "authorId": "113042706",
-                            "name": "James H. Nelson",
-                            "url": "https://www.semanticscholar.org/author/113042706"
-                        },
-                        {
-                            "authorId": "121270482",
-                            "name": "Ruby Miles Stroschein",
-                            "url": "https://www.semanticscholar.org/author/121270482"
-                        },
-                        {
-                            "authorId": "115556236",
-                            "name": "Joel R. Hamilton",
-                            "url": "https://www.semanticscholar.org/author/115556236"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "methodology",
-                        "result"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "c6ded3ac954524ced188b0955617a49f16a5f5b7",
-                    "title": "Determinants of Farmland Values In the Rapidly Developing Boise, Idaho Metro Area: Applying Mathematical Modeling to Highest and Best Use Analysis",
-                    "url": "https://www.semanticscholar.org/paper/c6ded3ac954524ced188b0955617a49f16a5f5b7",
-                    "venue": "",
-                    "year": 2007
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "88401259",
-                            "name": "Joseph Befecadu",
-                            "url": "https://www.semanticscholar.org/author/88401259"
-                        },
-                        {
-                            "authorId": "104734352",
-                            "name": "Duncan M. Chembezi",
-                            "url": "https://www.semanticscholar.org/author/104734352"
-                        },
-                        {
-                            "authorId": "119757450",
-                            "name": "Dionne McFarlane",
-                            "url": "https://www.semanticscholar.org/author/119757450"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [],
-                    "isInfluential": false,
-                    "paperId": "5dde783bfab823d325378921492f68f3b803a9ea",
-                    "title": "Internet Adoption And Use Of E-Commerce Strategies By Agribusiness Firms In Alabama",
-                    "url": "https://www.semanticscholar.org/paper/5dde783bfab823d325378921492f68f3b803a9ea",
-                    "venue": "",
-                    "year": 2003
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "6114628",
-                            "name": "Brent A. Gloy",
-                            "url": "https://www.semanticscholar.org/author/6114628"
-                        },
-                        {
-                            "authorId": "35701350",
-                            "name": "Jay T. Akridge",
-                            "url": "https://www.semanticscholar.org/author/35701350"
-                        }
-                    ],
-                    "doi": "10.1016/S1096-7508(01)00051-9",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "f760fa5ff2fc1d44653796ec5ec77dc6a9b68381",
-                    "title": "COMPUTER AND INTERNET ADOPTION ON LARGE U.S. FARMS",
-                    "url": "https://www.semanticscholar.org/paper/f760fa5ff2fc1d44653796ec5ec77dc6a9b68381",
-                    "venue": "",
-                    "year": 2000
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "66573809",
-                            "name": "William A. Amponsah",
-                            "url": "https://www.semanticscholar.org/author/66573809"
-                        }
-                    ],
-                    "doi": "10.1017/S1074070800028595",
-                    "intent": [
-                        "result"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "47b6cec38a0b86c8f4111236cc55130ed004a230",
-                    "title": "COMPUTER ADOPTION AND USE OF INFORMATION SERVICES BY NORTH CAROLINA COMMERCIAL FARMERS",
-                    "url": "https://www.semanticscholar.org/paper/47b6cec38a0b86c8f4111236cc55130ed004a230",
-                    "venue": "",
-                    "year": 1995
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "3137105",
-                            "name": "Lakshman S. Yapa",
-                            "url": "https://www.semanticscholar.org/author/3137105"
-                        },
-                        {
-                            "authorId": "101479050",
-                            "name": "Robert C. Mayfield",
-                            "url": "https://www.semanticscholar.org/author/101479050"
-                        }
-                    ],
-                    "doi": "10.2307/142849",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "d2572971724598d03d7cf1dc8d0a33d53a7730ff",
-                    "title": "NON-ADOPTION OF INNOVATIONS: EVIDENCE FROM DISCRIMINANT ANALYSIS",
-                    "url": "https://www.semanticscholar.org/paper/d2572971724598d03d7cf1dc8d0a33d53a7730ff",
-                    "venue": "",
-                    "year": 1978
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "118968258",
-                            "name": "Robert W. Dubman",
-                            "url": "https://www.semanticscholar.org/author/118968258"
-                        }
-                    ],
-                    "doi": null,
-                    "intent": [
-                        "methodology"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "1f9677f8c5a18e9daee3643f7c3bfd9650e87513",
-                    "title": "Variance Estimation With USDA's Farm Costs and Returns Surveys and Agricultural Resource Management Study Surveys",
-                    "url": "https://www.semanticscholar.org/paper/1f9677f8c5a18e9daee3643f7c3bfd9650e87513",
-                    "venue": "",
-                    "year": 2000
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "145546932",
-                            "name": "Jeffrey M. Gillespie",
-                            "url": "https://www.semanticscholar.org/author/145546932"
-                        },
-                        {
-                            "authorId": "1728214",
-                            "name": "Seon-Ae Kim",
-                            "url": "https://www.semanticscholar.org/author/1728214"
-                        },
-                        {
-                            "authorId": "38282114",
-                            "name": "Krishna P Paudel",
-                            "url": "https://www.semanticscholar.org/author/38282114"
-                        }
-                    ],
-                    "doi": "10.1111/j.1574-0862.2007.00179.x",
-                    "intent": [
-                        "result",
-                        "background",
-                        "methodology"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "1d2f6f16400d3ebcc0077760a437ce128a273fc9",
-                    "title": "Why don't producers adopt best management practices? An analysis of the beef cattle industry",
-                    "url": "https://www.semanticscholar.org/paper/1d2f6f16400d3ebcc0077760a437ce128a273fc9",
-                    "venue": "",
-                    "year": 2007
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "144555702",
-                            "name": "John Rolfe",
-                            "url": "https://www.semanticscholar.org/author/144555702"
-                        },
-                        {
-                            "authorId": "2743113",
-                            "name": "Shirley Gregor",
-                            "url": "https://www.semanticscholar.org/author/2743113"
-                        },
-                        {
-                            "authorId": "2535275",
-                            "name": "Don Menzies",
-                            "url": "https://www.semanticscholar.org/author/2535275"
-                        }
-                    ],
-                    "doi": "10.1016/S1567-4223(03)00004-8",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": true,
-                    "paperId": "e6b51364e076c9f28ddbbfb108f07d95ea7c895b",
-                    "title": "Reasons why farmers in Australia adopt the Internet",
-                    "url": "https://www.semanticscholar.org/paper/e6b51364e076c9f28ddbbfb108f07d95ea7c895b",
-                    "venue": "Electron. Commer. Res. Appl.",
-                    "year": 2003
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "2275492",
-                            "name": "Ashok K. Mishra",
-                            "url": "https://www.semanticscholar.org/author/2275492"
-                        },
-                        {
-                            "authorId": "15871896",
-                            "name": "Timothy A. Park",
-                            "url": "https://www.semanticscholar.org/author/15871896"
-                        }
-                    ],
-                    "doi": "10.1017/s1068280500008406",
-                    "intent": [
-                        "background"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "58096cd638d6d1307ca3e820d14e9be7cd4e302f",
-                    "title": "An Empirical Analysis of Internet Use by U.S. Farmers",
-                    "url": "https://www.semanticscholar.org/paper/58096cd638d6d1307ca3e820d14e9be7cd4e302f",
-                    "venue": "",
-                    "year": 2005
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "2388999",
-                            "name": "Sharon Strover",
-                            "url": "https://www.semanticscholar.org/author/2388999"
-                        }
-                    ],
-                    "doi": "10.1016/S0740-624X(03)00038-8",
-                    "intent": [
-                        "result"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "1a691ae5e34323f8defde372bfcc279cc47f2341",
-                    "title": "The prospects for broadband deployment in rural America",
-                    "url": "https://www.semanticscholar.org/paper/1a691ae5e34323f8defde372bfcc279cc47f2341",
-                    "venue": "Gov. Inf. Q.",
-                    "year": 2003
-                },
-                {
-                    "arxivId": null,
-                    "authors": [
-                        {
-                            "authorId": "2515407",
-                            "name": "Brian E. Whitacre",
-                            "url": "https://www.semanticscholar.org/author/2515407"
-                        },
-                        {
-                            "authorId": "33554669",
-                            "name": "Bradford F. Mills",
-                            "url": "https://www.semanticscholar.org/author/33554669"
-                        }
-                    ],
-                    "doi": "10.1177/0160017607301606",
-                    "intent": [
-                        "background",
-                        "result"
-                    ],
-                    "isInfluential": false,
-                    "paperId": "8131d98a68697eb47438e6715d7eb28a63a6dd13",
-                    "title": "Infrastructure and the Rural—urban Divide in High-speed Residential Internet Access:",
-                    "url": "https://www.semanticscholar.org/paper/8131d98a68697eb47438e6715d7eb28a63a6dd13",
-                    "venue": "",
-                    "year": 2007
-                }
-            ],
-            "title": "Farming and the Internet: Reasons for Non-Use",
-            "topics": [
-                {
-                    "topic": "Internet",
-                    "topicId": "7952",
-                    "url": "https://www.semanticscholar.org/topic/7952"
-                },
-                {
-                    "topic": "Agriculture",
-                    "topicId": "4230",
-                    "url": "https://www.semanticscholar.org/topic/4230"
-                }
-            ],
-            "url": "https://www.semanticscholar.org/paper/246af611e9831b0370d90fa6da4cd76e273f2c63",
-            "venue": "",
-            "year": 2010
+            "message": "Forbidden"
         },
-        "Unpaywall": {
-            "best_oa_location": {
-                "endpoint_id": "mf79cjfoywym4fwvffbh",
-                "evidence": "oa repository (via OAI-PMH title and first author match)",
-                "host_type": "repository",
-                "is_best": true,
-                "license": null,
-                "pmh_id": "oai:ageconsearch.umn.edu:97008",
-                "repository_institution": "University of Minnesota, USA - AgEcon Search",
-                "updated": "2020-03-11T20:41:11.057164",
-                "url": "http://ageconsearch.umn.edu/record/97008/files/briggeman%20and%20whitacre%20-%20current.pdf",
-                "url_for_landing_page": "http://ageconsearch.umn.edu/record/97008/files/briggeman%20and%20whitacre%20-%20current.pdf",
-                "url_for_pdf": "http://ageconsearch.umn.edu/record/97008/files/briggeman%20and%20whitacre%20-%20current.pdf",
-                "version": "publishedVersion"
-            },
-            "data_standard": 2,
-            "doi": "10.1017/s1068280500007528",
-            "doi_url": "https://doi.org/10.1017/s1068280500007528",
-            "genre": "journal-article",
-            "has_repository_copy": true,
-            "is_oa": true,
-            "is_paratext": false,
-            "journal_is_in_doaj": false,
-            "journal_is_oa": false,
-            "journal_issn_l": "1068-2805",
-            "journal_issns": "1068-2805,2372-2614",
-            "journal_name": "Agricultural and Resource Economics Review",
-            "oa_locations": [
-                {
-                    "endpoint_id": "mf79cjfoywym4fwvffbh",
-                    "evidence": "oa repository (via OAI-PMH title and first author match)",
-                    "host_type": "repository",
-                    "is_best": true,
-                    "license": null,
-                    "pmh_id": "oai:ageconsearch.umn.edu:97008",
-                    "repository_institution": "University of Minnesota, USA - AgEcon Search",
-                    "updated": "2020-03-11T20:41:11.057164",
-                    "url": "http://ageconsearch.umn.edu/record/97008/files/briggeman%20and%20whitacre%20-%20current.pdf",
-                    "url_for_landing_page": "http://ageconsearch.umn.edu/record/97008/files/briggeman%20and%20whitacre%20-%20current.pdf",
-                    "url_for_pdf": "http://ageconsearch.umn.edu/record/97008/files/briggeman%20and%20whitacre%20-%20current.pdf",
-                    "version": "publishedVersion"
-                },
-                {
-                    "endpoint_id": "mf79cjfoywym4fwvffbh",
-                    "evidence": "oa repository (via OAI-PMH title and first author match)",
-                    "host_type": "repository",
-                    "is_best": false,
-                    "license": null,
-                    "pmh_id": "oai:ageconsearch.umn.edu:97008",
-                    "repository_institution": "University of Minnesota, USA - AgEcon Search",
-                    "updated": "2020-03-11T20:11:35.351951",
-                    "url": "https://ageconsearch.umn.edu/record/97008/files/briggeman%20and%20whitacre%20-%20current.pdf",
-                    "url_for_landing_page": "http://ageconsearch.umn.edu/record/97008",
-                    "url_for_pdf": "https://ageconsearch.umn.edu/record/97008/files/briggeman%20and%20whitacre%20-%20current.pdf",
-                    "version": "publishedVersion"
-                },
-                {
-                    "endpoint_id": null,
-                    "evidence": "oa repository (semantic scholar lookup)",
-                    "host_type": "repository",
-                    "is_best": false,
-                    "license": null,
-                    "pmh_id": null,
-                    "repository_institution": null,
-                    "updated": "2019-10-01T00:00:00",
-                    "url": "http://pdfs.semanticscholar.org/246a/f611e9831b0370d90fa6da4cd76e273f2c63.pdf",
-                    "url_for_landing_page": "https://semanticscholar.org/paper/246af611e9831b0370d90fa6da4cd76e273f2c63",
-                    "url_for_pdf": "http://pdfs.semanticscholar.org/246a/f611e9831b0370d90fa6da4cd76e273f2c63.pdf",
-                    "version": "submittedVersion"
-                }
-            ],
-            "oa_status": "green",
-            "published_date": "2010-10-01",
-            "publisher": "Cambridge University Press (CUP)",
-            "title": "Farming and the Internet: Reasons for Non-Use",
-            "updated": "2020-03-01T15:57:09.577095",
-            "year": 2010,
-            "z_authors": [
-                {
-                    "family": "Briggeman",
-                    "given": "Brian C.",
-                    "sequence": "first"
-                },
-                {
-                    "family": "Whitacre",
-                    "given": "Brian E.",
-                    "sequence": "additional"
-                }
-            ]
-        },
-        "abstract": "Rural broadband infrastructure and service has received a significant amount of funding through the American Recovery and Reinvestment Act of 2009. These funds should increase broadband availability, but will broadband be used in rural areas and in particular by farmers? This paper uses Agricultural Resource Management Survey data to investigate why the majority of U.S. farmers choose not to use the Internet in their farm business. Although frequently cited by policymakers, concerns about inadequate Internet service or security actually account for a small percentage of responses. This research identifies targeted educational programs that focus on alleviating perceived barriers to Internet use.",
-        "authors": [
-            "author-961d2128bb0abcb9ae3f",
-            "author-5df45376d3402e3274b8"
-        ],
         "datasets": [
             "dataset-870"
         ],
@@ -8356,41 +6702,36 @@
                             "first": "Brian E.",
                             "last": "Whitacre"
                         }
-                    }
-                ],
-                "classification": "OA",
-                "date": "2010-10-01",
-                "pdf_url": "https://doi.org/10.1017/s1068280500007528",
-                "records": [
-                    {
-                        "doi": "10.1017/s1068280500007528",
-                        "identifier": "oai:crossref.org:10.1017/s1068280500007528",
-                        "issn": "1068-2805",
-                        "issue": "03",
-                        "journal": "Agricultural and Resource Economics Review",
-                        "pages": "571-584",
-                        "pdf_url": "https://doi.org/10.1017/s1068280500007528",
-                        "policy": {
-                            "postprint": "can",
-                            "preprint": "can",
-                            "published": "can",
-                            "romeo_id": "1599"
-                        },
-                        "publisher": "Cambridge University Press (CUP)",
-                        "source": "crossref",
-                        "splash_url": "https://doi.org/10.1017/s1068280500007528",
-                        "type": "journal-article",
-                        "volume": "39"
                     },
                     {
+                        "name": {
+                            "first": "Brian C.",
+                            "last": "Briggeman"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Brian E.",
+                            "last": "Whitacre"
+                        }
+                    }
+                ],
+                "classification": "UNK",
+                "date": "2010-01-01",
+                "records": [
+                    {
                         "abstract": "Rural broadband infrastructure and service has received a significant amount of funding through the American Recovery and Reinvestment Act of 2009. These funds should increase broadband availability, but will broadband be used in rural areas and in particular by farmers? This paper uses Agricultural Resource Management Survey data to investigate why the majority of U.S. farmers choose not to use the Internet in their farm business. Although frequently cited by policymakers, concerns about inadequate Internet service or security actually account for a small percentage of responses. This research identifies targeted educational programs that focus on alleviating perceived barriers to Internet use.",
-                        "contributors": "",
-                        "identifier": "oai:researchgate.net:227365572",
-                        "keywords": "",
-                        "pdf_url": "https://www.researchgate.net/profile/Brian_Whitacre/publication/227365572_Farming_and_the_Internet_Reasons_for_Non-Use/links/5462182f0cf27487b45581ad.pdf",
-                        "source": "researchgate",
-                        "splash_url": "https://www.researchgate.net/publication/227365572_Farming_and_the_Internet_Reasons_for_Non-Use",
-                        "type": "journal-article"
+                        "doi": "10.22004/ag.econ.97008",
+                        "identifier": "oai:crossref.org:10.22004/ag.econ.97008",
+                        "issue": "",
+                        "journal": "Unknown",
+                        "pages": "",
+                        "pdf_url": "",
+                        "publisher": "Unknown",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.22004/ag.econ.97008",
+                        "type": "journal-article",
+                        "volume": ""
                     }
                 ],
                 "title": "Farming and the Internet: Reasons for Non-Use",
@@ -8398,101 +6739,7 @@
             },
             "status": "ok"
         },
-        "doi": "10.1017/s1068280500007528",
-        "keyphrases": {
-            "agricultural resource management survey": {
-                "count": 1,
-                "rank_score": 0.11022456440433318
-            },
-            "agricultural resource management survey data": {
-                "count": 1,
-                "rank_score": 0.11346528126392305
-            },
-            "american recovery and reinvestment act": {
-                "count": 2,
-                "rank_score": 0.05284714428509941
-            },
-            "broadband": {
-                "count": 1,
-                "rank_score": 0.09175201215672468
-            },
-            "broadband availability": {
-                "count": 1,
-                "rank_score": 0.10234309871206507
-            },
-            "educational programs": {
-                "count": 1,
-                "rank_score": 0.08943834622556432
-            },
-            "farmers": {
-                "count": 1,
-                "rank_score": 0.06906481148253871
-            },
-            "funding": {
-                "count": 1,
-                "rank_score": 0.0643428677771671
-            },
-            "funds": {
-                "count": 1,
-                "rank_score": 0.029665146303543156
-            },
-            "inadequate internet service": {
-                "count": 1,
-                "rank_score": 0.12080270107842982
-            },
-            "internet": {
-                "count": 1,
-                "rank_score": 0.05323752602415691
-            },
-            "internet use": {
-                "count": 1,
-                "rank_score": 0.10325871458827965
-            },
-            "perceived barriers": {
-                "count": 1,
-                "rank_score": 0.08752824537089858
-            },
-            "policymakers": {
-                "count": 1,
-                "rank_score": 0.06066942501641063
-            },
-            "responses": {
-                "count": 1,
-                "rank_score": 0.05950768465086485
-            },
-            "rural areas": {
-                "count": 1,
-                "rank_score": 0.07936153726838409
-            },
-            "rural broadband infrastructure": {
-                "count": 1,
-                "rank_score": 0.10634896144042566
-            },
-            "security": {
-                "count": 1,
-                "rank_score": 0.061872829132333815
-            },
-            "service": {
-                "count": 1,
-                "rank_score": 0.08063492948880618
-            },
-            "significant amount": {
-                "count": 1,
-                "rank_score": 0.04867013808823338
-            },
-            "small percentage": {
-                "count": 1,
-                "rank_score": 0.04999962925768328
-            },
-            "their farm business": {
-                "count": 1,
-                "rank_score": 0.039644647544801605
-            },
-            "u.s. farmers": {
-                "count": 1,
-                "rank_score": 0.08426220953317792
-            }
-        },
+        "doi": "10.22004/ag.econ.97008",
         "original": {
             "api": "openaire",
             "date_added": "2020-03-11 16:03:51",
@@ -8503,6 +6750,76 @@
             "valid": 1
         },
         "title": "Farming and the Internet: Reasons for Non-Use"
+    },
+    {
+        "OpenAIRE": {
+            "authors": [
+                "Katchova, Ani L.",
+                "Katchova, Ani L."
+            ],
+            "open": false,
+            "url": "http://dx.doi.org/10.22004/ag.econ.48143"
+        },
+        "Semantic Scholar": {
+            "message": "Forbidden"
+        },
+        "datasets": [
+            "dataset-870",
+            "dataset-507"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "name": {
+                            "first": "Ani L.",
+                            "last": "Katchova"
+                        }
+                    }
+                ],
+                "classification": "UNK",
+                "date": "2008-01-01",
+                "records": [
+                    {
+                        "abstract": "This study examines the portfolio allocation of assets for farm and nonfarm households using the Agricultural Resource Management Survey and the Survey of Consumer Finances. The stylized facts of household finance, including limited participation in equity markets and heterogeneity of asset portfolios, are also confirmed for farm households. However, farm households show fewer differences in participation rates and asset allocation across wealth groups. Probit and conditional regression models indicate that fewer demographic factors affect participation rates and portfolio shares of risky assets for farm than nonfarm households. The aggregate statistics seem overwhelmingly influenced by households with large holdings of risky assets as shown by quantile regressions.",
+                        "doi": "10.22004/ag.econ.48143",
+                        "identifier": "oai:crossref.org:10.22004/ag.econ.48143",
+                        "issue": "",
+                        "journal": "Unknown",
+                        "pages": "",
+                        "pdf_url": "",
+                        "publisher": "Unknown",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.22004/ag.econ.48143",
+                        "type": "journal-article",
+                        "volume": ""
+                    },
+                    {
+                        "abstract": "This study examines the portfolio allocation of assets for farm and nonfarm households using the Agricultural Resource Management Survey and the Survey of Consumer Finances. The stylized facts of household finance, including limited participation in equity markets and heterogeneity of asset portfolios, are also confirmed for farm households. However, farm households show fewer differences in participation rates and asset allocation across wealth groups. Probit and conditional regression models indicate that fewer demographic factors affect participation rates and portfolio shares of risky assets for farm than nonfarm households. The aggregate statistics seem overwhelmingly influenced by households with large holdings of risky assets as shown by quantile regressions.",
+                        "contributors": "",
+                        "identifier": "ftagecon:oai:ageconsearch.umn.edu:48143",
+                        "keywords": "farm households financial management nonfarm households portfolio analysis quantile regression Agricultural Finance Financial Economics",
+                        "source": "base",
+                        "splash_url": "http://purl.umn.edu/48143",
+                        "type": "journal-article"
+                    }
+                ],
+                "title": "Financial Management and Portfolio Analysis for U.S. Farm and Nonfarm Households",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
+        "doi": "10.22004/ag.econ.48143",
+        "original": {
+            "api": "openaire",
+            "date_added": "2020-03-11 16:03:51",
+            "doi": "10.22004/ag.econ.48143",
+            "notes": "no open link for pdf",
+            "search_term": "Agricultural Resource Management Survey",
+            "url": "http://dx.doi.org/10.22004/ag.econ.48143",
+            "valid": 1
+        },
+        "title": "Financial Management and Portfolio Analysis for U.S. Farm and Nonfarm Households"
     },
     {
         "Dimensions": {
@@ -8518,6 +6835,622 @@
                     "name": "14 Economics"
                 }
             ],
+            "altmetric": 2.0,
+            "altmetric_id": 26963392,
+            "author_affiliations": [
+                [
+                    {
+                        "affiliations": [],
+                        "corresponding": "",
+                        "current_organization_id": "grid.280741.8",
+                        "first_name": "Aditya R.",
+                        "initials": "",
+                        "last_name": "Khanal",
+                        "orcid": "['0000-0002-7933-3937']",
+                        "researcher_id": "ur.015102655043.12"
+                    },
+                    {
+                        "affiliations": [],
+                        "corresponding": "",
+                        "current_organization_id": "grid.215654.1",
+                        "first_name": "Ashok K.",
+                        "initials": "",
+                        "last_name": "Mishra",
+                        "orcid": "['0000-0002-0988-1428']",
+                        "researcher_id": "ur.015700235443.95"
+                    }
+                ]
+            ],
+            "authors": [
+                {
+                    "affiliations": [],
+                    "corresponding": "",
+                    "current_organization_id": "grid.280741.8",
+                    "first_name": "Aditya R.",
+                    "initials": "",
+                    "last_name": "Khanal",
+                    "orcid": "['0000-0002-7933-3937']",
+                    "researcher_id": "ur.015102655043.12"
+                },
+                {
+                    "affiliations": [],
+                    "corresponding": "",
+                    "current_organization_id": "grid.215654.1",
+                    "first_name": "Ashok K.",
+                    "initials": "",
+                    "last_name": "Mishra",
+                    "orcid": "['0000-0002-0988-1428']",
+                    "researcher_id": "ur.015700235443.95"
+                }
+            ],
+            "category_bra": [
+                {
+                    "id": "4003",
+                    "name": "Public Health"
+                }
+            ],
+            "category_for": [
+                {
+                    "id": "3292",
+                    "name": "1402 Applied Economics"
+                },
+                {
+                    "id": "2214",
+                    "name": "14 Economics"
+                }
+            ],
+            "category_ua": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
+            "category_uoa": [
+                {
+                    "id": "30017",
+                    "name": "C17 Business and Management Studies"
+                }
+            ],
+            "concepts": [
+                "purpose",
+                "paper",
+                "impact",
+                "Internet usage",
+                "usage",
+                "financial performance",
+                "performance",
+                "business households",
+                "households",
+                "USA",
+                "authors",
+                "small farm businesses",
+                "farm businesses",
+                "business",
+                "main occupation",
+                "occupation",
+                "farm-level data",
+                "data",
+                "non-parametric matching estimators",
+                "matching estimators",
+                "estimator",
+                "significant positive impact",
+                "positive impact",
+                "gross cash income",
+                "cash income",
+                "income",
+                "total household income",
+                "household income",
+                "off-farm income",
+                "benefits",
+                "income risk",
+                "risk",
+                "off-farm income sources",
+                "income sources",
+                "source",
+                "marketing",
+                "storage cost",
+                "cost",
+                "transportation",
+                "expense",
+                "Design/methodology/approach",
+                "methodology/approach",
+                "approach",
+                "Abadie",
+                "Imbens",
+                "index",
+                "estimation",
+                "probit",
+                "logit model estimation",
+                "model estimation",
+                "probit model",
+                "model",
+                "variables",
+                "likelihood",
+                "Internet use",
+                "findings",
+                "Internet",
+                "terms",
+                "gross cash farm income",
+                "farm income",
+                "counterparts",
+                "estimates",
+                "NFI",
+                "farm revenue",
+                "revenue",
+                "Practical implications",
+                "implications",
+                "end Internet",
+                "role",
+                "information gathering",
+                "gathering",
+                "exchange information",
+                "information",
+                "communication facilitation",
+                "new areas",
+                "commerce",
+                "social networking",
+                "networking",
+                "recreational activities",
+                "producers",
+                "consumers",
+                "advantages of Internet",
+                "advantages",
+                "competitive aspects",
+                "aspects",
+                "economic activity",
+                "information asymmetry",
+                "asymmetry",
+                "economic agents",
+                "farmers",
+                "assistance",
+                "farming operations",
+                "operation",
+                "land grant universities",
+                "University",
+                "electronic extension",
+                "concise manner",
+                "Originality/value Studies",
+                "Values Study",
+                "farm households",
+                "factors",
+                "Internet adoption",
+                "adoption",
+                "analysis of communication",
+                "analysis",
+                "information technology",
+                "technology",
+                "agricultural business",
+                "reference",
+                "access",
+                "small farm households",
+                "being",
+                "role of Internet"
+            ],
+            "date": "2016-11-07",
+            "date_inserted": "2017-08-31",
+            "doi": "10.1108/caer-12-2014-0147",
+            "field_citation_ratio": 2.85,
+            "id": "pub.1041688996",
+            "issn": [
+                "1756-137X",
+                "1756-1388"
+            ],
+            "issue": "Issue 4",
+            "journal": {
+                "id": "jour.1143270",
+                "title": "China Agricultural Economic Review"
+            },
+            "journal_lists": [
+                "Norwegian register level 1",
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "financial performance",
+                "farm",
+                "Internet",
+                "paper",
+                "Internet usage",
+                "USA",
+                "author",
+                "owner",
+                "occupation",
+                "estimator",
+                "significant positive impact",
+                "income",
+                "household income",
+                "benefit",
+                "reduction",
+                "marketing",
+                "storage",
+                "transportation",
+                "vehicle",
+                "near neighbor",
+                "method",
+                "treatment evaluation",
+                "weighting",
+                "observation",
+                "estimation",
+                "probit",
+                "model estimation",
+                "se",
+                "balancing",
+                "association",
+                "variable",
+                "likelihood",
+                "Internet use",
+                "control group",
+                "representation",
+                "counterpart",
+                "estimate",
+                "NFI",
+                "revenue",
+                "practical implication",
+                "important role",
+                "information gathering",
+                "convenient mean",
+                "exchange information",
+                "communication",
+                "Commerce",
+                "social networking",
+                "recreational activity",
+                "producer",
+                "consumer",
+                "advantage",
+                "aspect",
+                "economic activity",
+                "information asymmetry",
+                "economic agent",
+                "social implication",
+                "assistance",
+                "interpreting data",
+                "operation",
+                "land grant university",
+                "delivery",
+                "electronics",
+                "concise",
+                "pattern",
+                "impact analysis",
+                "information technology",
+                "reference",
+                "large scale",
+                "access",
+                "well-being"
+            ],
+            "open_access_categories": [
+                {
+                    "description": "No freely available copy has been identified",
+                    "id": "closed",
+                    "name": "Closed"
+                }
+            ],
+            "pages": "553-571",
+            "publisher": "Emerald",
+            "recent_citations": 4,
+            "reference_ids": [
+                "pub.1059570189",
+                "pub.1026278280",
+                "pub.1049147602",
+                "pub.1061933660",
+                "pub.1051588649",
+                "pub.1014390860",
+                "pub.1098700693",
+                "pub.1054921836",
+                "pub.1036077829",
+                "pub.1061835007",
+                "pub.1054922276",
+                "pub.1110073266",
+                "pub.1110073335",
+                "pub.1050359955",
+                "pub.1041444994",
+                "pub.1019212794",
+                "pub.1009378598",
+                "pub.1054921942",
+                "pub.1054922192",
+                "pub.1064200858",
+                "pub.1006168701",
+                "pub.1061921962",
+                "pub.1007744672",
+                "pub.1050081371",
+                "pub.1009665115",
+                "pub.1102717871"
+            ],
+            "references": [
+                "pub.1059570189",
+                "pub.1026278280",
+                "pub.1049147602",
+                "pub.1061933660",
+                "pub.1051588649",
+                "pub.1014390860",
+                "pub.1098700693",
+                "pub.1054921836",
+                "pub.1036077829",
+                "pub.1061835007",
+                "pub.1054922276",
+                "pub.1110073266",
+                "pub.1110073335",
+                "pub.1050359955",
+                "pub.1041444994",
+                "pub.1019212794",
+                "pub.1009378598",
+                "pub.1054921942",
+                "pub.1054922192",
+                "pub.1064200858",
+                "pub.1006168701",
+                "pub.1061921962",
+                "pub.1007744672",
+                "pub.1050081371",
+                "pub.1009665115",
+                "pub.1102717871"
+            ],
+            "researchers": [
+                {
+                    "first_name": "Aditya R",
+                    "id": "ur.015102655043.12",
+                    "last_name": "Khanal",
+                    "orcid_id": [
+                        "0000-0002-7933-3937",
+                        "0000-0001-8127-2320"
+                    ],
+                    "research_orgs": [
+                        "grid.280741.8",
+                        "grid.250060.1",
+                        "grid.64337.35"
+                    ]
+                },
+                {
+                    "first_name": "Ashok Kumar",
+                    "id": "ur.015700235443.95",
+                    "last_name": "Mishra",
+                    "orcid_id": [
+                        "0000-0002-0988-1428"
+                    ],
+                    "research_orgs": [
+                        "grid.250060.1",
+                        "grid.259234.b",
+                        "grid.417548.b",
+                        "grid.64337.35",
+                        "grid.215654.1",
+                        "grid.410428.b",
+                        "grid.482913.5",
+                        "grid.463419.d",
+                        "grid.419387.0"
+                    ]
+                }
+            ],
+            "terms": [
+                "purpose",
+                "paper",
+                "impact",
+                "Internet usage",
+                "usage",
+                "financial performance",
+                "performance",
+                "business households",
+                "households",
+                "USA",
+                "authors",
+                "small farm businesses",
+                "farm businesses",
+                "business",
+                "main occupation",
+                "occupation",
+                "farm-level data",
+                "data",
+                "non-parametric matching estimators",
+                "matching estimators",
+                "estimator",
+                "significant positive impact",
+                "positive impact",
+                "gross cash income",
+                "cash income",
+                "income",
+                "total household income",
+                "household income",
+                "off-farm income",
+                "benefits",
+                "income risk",
+                "risk",
+                "off-farm income sources",
+                "income sources",
+                "source",
+                "marketing",
+                "storage cost",
+                "cost",
+                "transportation",
+                "expense",
+                "Design/methodology/approach",
+                "methodology/approach",
+                "approach",
+                "Abadie",
+                "Imbens",
+                "index",
+                "estimation",
+                "probit",
+                "logit model estimation",
+                "model estimation",
+                "probit model",
+                "model",
+                "variables",
+                "likelihood",
+                "Internet use",
+                "findings",
+                "Internet",
+                "terms",
+                "gross cash farm income",
+                "farm income",
+                "counterparts",
+                "estimates",
+                "NFI",
+                "farm revenue",
+                "revenue",
+                "Practical implications",
+                "implications",
+                "end Internet",
+                "role",
+                "information gathering",
+                "gathering",
+                "exchange information",
+                "information",
+                "communication facilitation",
+                "new areas",
+                "commerce",
+                "social networking",
+                "networking",
+                "recreational activities",
+                "producers",
+                "consumers",
+                "advantages of Internet",
+                "advantages",
+                "competitive aspects",
+                "aspects",
+                "economic activity",
+                "information asymmetry",
+                "asymmetry",
+                "economic agents",
+                "farmers",
+                "assistance",
+                "farming operations",
+                "operation",
+                "land grant universities",
+                "University",
+                "electronic extension",
+                "concise manner",
+                "Originality/value Studies",
+                "Values Study",
+                "farm households",
+                "factors",
+                "Internet adoption",
+                "adoption",
+                "analysis of communication",
+                "analysis",
+                "information technology",
+                "technology",
+                "agricultural business",
+                "reference",
+                "access",
+                "small farm households",
+                "being",
+                "role of Internet"
+            ],
+            "times_cited": 4,
+            "title": "Financial performance of small farm business households: the role of internet",
+            "type": "article",
+            "volume": "Volume 8",
+            "year": 2016
+        },
+        "Semantic Scholar": {
+            "message": "Forbidden"
+        },
+        "Unpaywall": {
+            "best_oa_location": null,
+            "data_standard": 2,
+            "doi": "10.1108/caer-12-2014-0147",
+            "doi_url": "https://doi.org/10.1108/caer-12-2014-0147",
+            "genre": "journal-article",
+            "has_repository_copy": false,
+            "is_oa": false,
+            "is_paratext": false,
+            "journal_is_in_doaj": false,
+            "journal_is_oa": false,
+            "journal_issn_l": "1756-137X",
+            "journal_issns": "1756-137X",
+            "journal_name": "China Agricultural Economic Review",
+            "oa_locations": [],
+            "oa_status": "closed",
+            "published_date": "2016-11-07",
+            "publisher": "Emerald",
+            "title": "Financial performance of small farm business households: the role of internet",
+            "updated": "2020-02-28T16:12:35.916789",
+            "year": 2016,
+            "z_authors": [
+                {
+                    "family": "Khanal",
+                    "given": "Aditya R.",
+                    "sequence": "first"
+                },
+                {
+                    "family": "Mishra",
+                    "given": "Ashok K.",
+                    "sequence": "additional"
+                }
+            ]
+        },
+        "datasets": [
+            "dataset-870"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "name": {
+                            "first": "Aditya R.",
+                            "last": "Khanal"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Ashok K.",
+                            "last": "Mishra"
+                        }
+                    }
+                ],
+                "classification": "OK",
+                "date": "2016-11-07",
+                "records": [
+                    {
+                        "doi": "10.1108/caer-12-2014-0147",
+                        "identifier": "oai:crossref.org:10.1108/caer-12-2014-0147",
+                        "issn": "1756-137X",
+                        "issue": "4",
+                        "journal": "China Agricultural Economic Review",
+                        "pages": "553-571",
+                        "policy": {
+                            "postprint": "can",
+                            "preprint": "can",
+                            "published": "cannot",
+                            "romeo_id": "31"
+                        },
+                        "publisher": "Emerald",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.1108/caer-12-2014-0147",
+                        "type": "journal-article",
+                        "volume": "8"
+                    }
+                ],
+                "title": "Financial performance of small farm business households: the role of internet",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
+        "doi": "10.1108/caer-12-2014-0147",
+        "original": {
+            "api": "dimensions",
+            "date_added": "2020-03-11 16:03:51",
+            "doi": "10.1108/caer-12-2014-0147",
+            "pdf": "https://www.emerald.com/insight/content/doi/10.1108/CAER-12-2014-0147/full/pdf?title=financial-performance-of-small-farm-business-households-the-role-of-internet",
+            "search_term": "Agricultural Resource Management Survey",
+            "url": "https://www.emerald.com/insight/content/doi/10.1108/CAER-12-2014-0147/full/html",
+            "valid": 1
+        },
+        "title": "Financial performance of small farm business households: the role of internet"
+    },
+    {
+        "Dimensions": {
+            "FOR": [
+                {
+                    "id": "3292",
+                    "name": "1402 Applied Economics"
+                }
+            ],
+            "FOR_first": [
+                {
+                    "id": "2214",
+                    "name": "14 Economics"
+                }
+            ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -8535,14 +7468,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.194632.b",
-                        "email": "",
                         "first_name": "Bruce L.",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Ahrendsen",
-                        "last_name_original": "",
                         "orcid": "",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.014437624117.51"
                     },
                     {
@@ -8560,14 +7489,10 @@
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.261331.4",
-                        "email": "",
                         "first_name": "Ani L.",
-                        "first_name_original": "",
                         "initials": "",
                         "last_name": "Katchova",
-                        "last_name_original": "",
                         "orcid": "['0000-0002-7307-4073']",
-                        "raw_affiliation_original": [],
                         "researcher_id": "ur.01122607702.28"
                     }
                 ]
@@ -8588,14 +7513,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.194632.b",
-                    "email": "",
                     "first_name": "Bruce L.",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Ahrendsen",
-                    "last_name_original": "",
                     "orcid": "",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.014437624117.51"
                 },
                 {
@@ -8613,14 +7534,10 @@
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.261331.4",
-                    "email": "",
                     "first_name": "Ani L.",
-                    "first_name_original": "",
                     "initials": "",
                     "last_name": "Katchova",
-                    "last_name_original": "",
                     "orcid": "['0000-0002-7307-4073']",
-                    "raw_affiliation_original": [],
                     "researcher_id": "ur.01122607702.28"
                 }
             ],
@@ -8700,7 +7617,7 @@
             "date": "2012-07-27",
             "date_inserted": "2017-08-31",
             "doi": "10.1108/00021461211250492",
-            "field_citation_ratio": 3.98,
+            "field_citation_ratio": 3.83,
             "funder_countries": [
                 {
                     "id": "US",
@@ -8742,6 +7659,37 @@
                 "ERA 2018"
             ],
             "linkout": "http://pdfs.semanticscholar.org/02d7/3d062392b7fc5b78c037fbde07ca3a65abb7.pdf",
+            "noun_phrases": [
+                "ratio",
+                "authorship",
+                "economic research",
+                "US Department",
+                "author",
+                "University of Arkansas",
+                "agriculture",
+                "Kentucky",
+                "US Department of Agriculture",
+                "financial performance",
+                "economic resource",
+                "resource management",
+                "Evaluation Study as Topic",
+                "calculation method",
+                "assumption",
+                "recommendation",
+                "Council",
+                "software",
+                "alternative method",
+                "calculate",
+                "note",
+                "calculating",
+                "review",
+                "policy",
+                "farm",
+                "critical zone",
+                "method",
+                "mean",
+                "sample"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -8763,14 +7711,14 @@
             "publisher": "Emerald",
             "recent_citations": 3,
             "reference_ids": [
+                "pub.1048669858",
                 "pub.1011288009",
-                "pub.1006411058",
-                "pub.1048669858"
+                "pub.1006411058"
             ],
             "references": [
+                "pub.1048669858",
                 "pub.1011288009",
-                "pub.1006411058",
-                "pub.1048669858"
+                "pub.1006411058"
             ],
             "research_org_cities": [
                 {
@@ -8791,14 +7739,18 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "University of Arkansas at Fayetteville",
+                "University of Kentucky"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-AR",
-                    "name": "Arkansas"
-                },
                 {
                     "id": "US-KY",
                     "name": "Kentucky"
+                },
+                {
+                    "id": "US-AR",
+                    "name": "Arkansas"
                 }
             ],
             "research_org_state_names": [
@@ -8856,11 +7808,11 @@
                         "0000-0002-7307-4073"
                     ],
                     "research_orgs": [
-                        "grid.261331.4",
-                        "grid.5173.0",
-                        "grid.36567.31",
                         "grid.35403.31",
-                        "grid.266539.d"
+                        "grid.5173.0",
+                        "grid.266539.d",
+                        "grid.261331.4",
+                        "grid.36567.31"
                     ]
                 }
             ],
@@ -9591,11 +8543,6 @@
                 }
             ]
         },
-        "abstract": "The purpose of this research is to evaluate the financial performance measures calculated and reported by Economic Resource Service (ERS) from ARMS data. The evaluation includes the calculation method and the underlying assumptions used in obtaining the reported values. The financial measures calculated and reported are compared with those recommended by the Farm Financial Standards Council (FFSC). The underlying assumptions are identified by analyzing the software code used in calculating the values reported. The values obtained from the various calculation methods are compared and contrasted.",
-        "authors": [
-            "author-a886757ae578f7e000bf",
-            "author-479bd7bed983d8db9dcd"
-        ],
         "datasets": [
             "dataset-870"
         ],
@@ -9644,64 +8591,6 @@
             "status": "ok"
         },
         "doi": "10.1108/00021461211250492",
-        "keyphrases": {
-            "arms": {
-                "count": 1,
-                "rank_score": 0.07369302147315634
-            },
-            "arms data": {
-                "count": 1,
-                "rank_score": 0.08550502696973562
-            },
-            "calculation method": {
-                "count": 1,
-                "rank_score": 0.07183902171350742
-            },
-            "economic resource service": {
-                "count": 2,
-                "rank_score": 0.11067705711904366
-            },
-            "ers": {
-                "count": 2,
-                "rank_score": 0.07871988190927291
-            },
-            "evaluation": {
-                "count": 1,
-                "rank_score": 0.03177394575363655
-            },
-            "farm financial standards council": {
-                "count": 2,
-                "rank_score": 0.08851036195067807
-            },
-            "financial measures": {
-                "count": 1,
-                "rank_score": 0.06785827807354222
-            },
-            "financial performance measures": {
-                "count": 1,
-                "rank_score": 0.07865002289958878
-            },
-            "reported values": {
-                "count": 1,
-                "rank_score": 0.0749705795684304
-            },
-            "software code": {
-                "count": 1,
-                "rank_score": 0.054604983129629865
-            },
-            "underlying assumptions": {
-                "count": 2,
-                "rank_score": 0.06296007707374446
-            },
-            "values": {
-                "count": 2,
-                "rank_score": 0.04121248107581582
-            },
-            "various calculation methods": {
-                "count": 1,
-                "rank_score": 0.0803480504845361
-            }
-        },
         "original": {
             "api": "dimensions",
             "date_added": "2020-03-11 16:03:51",
@@ -9712,5 +8601,644 @@
             "valid": 1
         },
         "title": "Financial ratio analysis using ARMS data"
+    },
+    {
+        "Dimensions": {
+            "FOR": [
+                {
+                    "id": "3313",
+                    "name": "1403 Econometrics"
+                }
+            ],
+            "FOR_first": [
+                {
+                    "id": "2214",
+                    "name": "14 Economics"
+                }
+            ],
+            "altmetric_id": 0,
+            "author_affiliations": [
+                [
+                    {
+                        "affiliations": [
+                            {
+                                "city": "Columbus",
+                                "city_id": 4509177,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.261331.4",
+                                "name": "The Ohio State University",
+                                "state": "Ohio",
+                                "state_code": "US-OH"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.261331.4",
+                        "first_name": "Robert",
+                        "initials": "",
+                        "last_name": "Dinterman",
+                        "orcid": "",
+                        "researcher_id": "ur.016313466510.50"
+                    },
+                    {
+                        "affiliations": [
+                            {
+                                "city": "Columbus",
+                                "city_id": 4509177,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.261331.4",
+                                "name": "The Ohio State University",
+                                "state": "Ohio",
+                                "state_code": "US-OH"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "grid.261331.4",
+                        "first_name": "Ani L.",
+                        "initials": "",
+                        "last_name": "Katchova",
+                        "orcid": "['0000-0002-7307-4073']",
+                        "researcher_id": "ur.01122607702.28"
+                    },
+                    {
+                        "affiliations": [
+                            {
+                                "name": "ERS/USDA, Washington, District of Columbia, USA"
+                            }
+                        ],
+                        "corresponding": "",
+                        "current_organization_id": "",
+                        "first_name": "James Michael",
+                        "initials": "",
+                        "last_name": "Harris",
+                        "orcid": "",
+                        "researcher_id": ""
+                    }
+                ]
+            ],
+            "authors": [
+                {
+                    "affiliations": [
+                        {
+                            "city": "Columbus",
+                            "city_id": 4509177,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.261331.4",
+                            "name": "The Ohio State University",
+                            "state": "Ohio",
+                            "state_code": "US-OH"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.261331.4",
+                    "first_name": "Robert",
+                    "initials": "",
+                    "last_name": "Dinterman",
+                    "orcid": "",
+                    "researcher_id": "ur.016313466510.50"
+                },
+                {
+                    "affiliations": [
+                        {
+                            "city": "Columbus",
+                            "city_id": 4509177,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.261331.4",
+                            "name": "The Ohio State University",
+                            "state": "Ohio",
+                            "state_code": "US-OH"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "grid.261331.4",
+                    "first_name": "Ani L.",
+                    "initials": "",
+                    "last_name": "Katchova",
+                    "orcid": "['0000-0002-7307-4073']",
+                    "researcher_id": "ur.01122607702.28"
+                },
+                {
+                    "affiliations": [
+                        {
+                            "name": "ERS/USDA, Washington, District of Columbia, USA"
+                        }
+                    ],
+                    "corresponding": "",
+                    "current_organization_id": "",
+                    "first_name": "James Michael",
+                    "initials": "",
+                    "last_name": "Harris",
+                    "orcid": "",
+                    "researcher_id": ""
+                }
+            ],
+            "category_for": [
+                {
+                    "id": "2215",
+                    "name": "15 Commerce, Management, Tourism and Services"
+                },
+                {
+                    "id": "3335",
+                    "name": "1502 Banking, Finance and Investment"
+                }
+            ],
+            "category_ua": [
+                {
+                    "id": "30018",
+                    "name": "C18 Law"
+                }
+            ],
+            "category_uoa": [
+                {
+                    "id": "30018",
+                    "name": "C18 Law"
+                }
+            ],
+            "concepts": [
+                "purpose",
+                "farm financial stress",
+                "financial stress",
+                "USA",
+                "years",
+                "economic factors",
+                "factors",
+                "farm businesses",
+                "business",
+                "effect",
+                "Bankruptcy Abuse Prevention",
+                "Consumer Protection Act",
+                "Protection Act",
+                "act",
+                "Chapter 12 bankruptcy",
+                "bankruptcy",
+                "farmers",
+                "temporary measure",
+                "measures",
+                "BAPCPA",
+                "Chapter 12",
+                "permanent fixture",
+                "bankruptcy law",
+                "law",
+                "bankruptcy filings",
+                "filing",
+                "proxy",
+                "panel",
+                "effects model",
+                "model",
+                "relevant factors",
+                "macroeconomic perspective",
+                "perspective",
+                "regime",
+                "findings",
+                "results",
+                "macroeconomic factors",
+                "farm bankruptcies",
+                "farms",
+                "agricultural land values",
+                "land values",
+                "values",
+                "agricultural factors",
+                "dynamic relationship",
+                "relationship",
+                "year values",
+                "Originality/value",
+                "authors",
+                "analysis",
+                "literature",
+                "discussion",
+                "US agriculture",
+                "agriculture"
+            ],
+            "date": "2018-08-06",
+            "date_inserted": "2018-02-10",
+            "doi": "10.1108/afr-05-2017-0030",
+            "field_citation_ratio": 4.34,
+            "id": "pub.1100926109",
+            "issn": [
+                "0002-1466",
+                "2041-6326"
+            ],
+            "issue": "Issue 4",
+            "journal": {
+                "id": "jour.1142144",
+                "title": "Agricultural Finance Review"
+            },
+            "journal_lists": [
+                "Norwegian register level 1",
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "linkout": "http://pdfs.semanticscholar.org/aac0/f17b2f464ae6387a8c0314a4c52cdbd21ccc.pdf",
+            "noun_phrases": [
+                "financial stress",
+                "bankruptcy",
+                "US agriculture",
+                "paper",
+                "USA",
+                "Economics",
+                "farm",
+                "consumer protection",
+                "farmer",
+                "fixture",
+                "bankruptcy law",
+                "chapter",
+                "proxy",
+                "fixed effect model",
+                "relevant factor",
+                "macroeconomics",
+                "regime",
+                "unemployment rate",
+                "strong predictor",
+                "agricultural land",
+                "significant predictor",
+                "dynamic relationship",
+                "land value",
+                "author",
+                "illuminate"
+            ],
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - submitted"
+            ],
+            "open_access_categories": [
+                {
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Free copy of submitted version, or where version is unknown, in an OA repository",
+                    "id": "green_sub",
+                    "name": "Green, Submitted"
+                }
+            ],
+            "pages": "441-456",
+            "publisher": "Emerald",
+            "recent_citations": 2,
+            "reference_ids": [
+                "pub.1102220066",
+                "pub.1069407857",
+                "pub.1069407701",
+                "pub.1031604587",
+                "pub.1061934216",
+                "pub.1015648906",
+                "pub.1030247130"
+            ],
+            "references": [
+                "pub.1102220066",
+                "pub.1069407857",
+                "pub.1069407701",
+                "pub.1031604587",
+                "pub.1061934216",
+                "pub.1015648906",
+                "pub.1030247130"
+            ],
+            "research_org_cities": [
+                {
+                    "id": 4509177,
+                    "name": "Columbus"
+                },
+                {
+                    "id": 4140963,
+                    "name": "Washington, D.C."
+                }
+            ],
+            "research_org_countries": [
+                {
+                    "id": "US",
+                    "name": "United States"
+                }
+            ],
+            "research_org_country_names": [
+                "United States"
+            ],
+            "research_org_names": [
+                "ERS/USDA, Washington, District of Columbia, USA",
+                "The Ohio State University"
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-DC",
+                    "name": "District of Columbia"
+                },
+                {
+                    "id": "US-OH",
+                    "name": "Ohio"
+                }
+            ],
+            "research_org_state_names": [
+                "Ohio",
+                "Washington, D.C."
+            ],
+            "research_orgs": [
+                {
+                    "acronym": "OSU",
+                    "city_name": "Columbus",
+                    "country_name": "United States",
+                    "id": "grid.261331.4",
+                    "latitude": 40.0,
+                    "linkout": [
+                        "http://www.osu.edu/"
+                    ],
+                    "longitude": -83.0145,
+                    "name": "The Ohio State University",
+                    "state_name": "Ohio",
+                    "types": [
+                        "Education"
+                    ]
+                }
+            ],
+            "researchers": [
+                {
+                    "first_name": "Robert",
+                    "id": "ur.016313466510.50",
+                    "last_name": "Dinterman",
+                    "research_orgs": [
+                        "grid.261331.4"
+                    ]
+                },
+                {
+                    "first_name": "Ani L",
+                    "id": "ur.01122607702.28",
+                    "last_name": "Katchova",
+                    "orcid_id": [
+                        "0000-0002-7307-4073"
+                    ],
+                    "research_orgs": [
+                        "grid.35403.31",
+                        "grid.5173.0",
+                        "grid.266539.d",
+                        "grid.261331.4",
+                        "grid.36567.31"
+                    ]
+                }
+            ],
+            "terms": [
+                "purpose",
+                "farm financial stress",
+                "financial stress",
+                "USA",
+                "years",
+                "economic factors",
+                "factors",
+                "farm businesses",
+                "business",
+                "effect",
+                "Bankruptcy Abuse Prevention",
+                "Consumer Protection Act",
+                "Protection Act",
+                "act",
+                "Chapter 12 bankruptcy",
+                "bankruptcy",
+                "farmers",
+                "temporary measure",
+                "measures",
+                "BAPCPA",
+                "Chapter 12",
+                "permanent fixture",
+                "bankruptcy law",
+                "law",
+                "bankruptcy filings",
+                "filing",
+                "proxy",
+                "panel",
+                "effects model",
+                "model",
+                "relevant factors",
+                "macroeconomic perspective",
+                "perspective",
+                "regime",
+                "findings",
+                "results",
+                "macroeconomic factors",
+                "farm bankruptcies",
+                "farms",
+                "agricultural land values",
+                "land values",
+                "values",
+                "agricultural factors",
+                "dynamic relationship",
+                "relationship",
+                "year values",
+                "Originality/value",
+                "authors",
+                "analysis",
+                "literature",
+                "discussion",
+                "US agriculture",
+                "agriculture"
+            ],
+            "times_cited": 2,
+            "title": "Financial stress and farm bankruptcies in US agriculture",
+            "type": "article",
+            "volume": "Volume 78",
+            "year": 2018
+        },
+        "Semantic Scholar": {
+            "message": "Forbidden"
+        },
+        "Unpaywall": {
+            "best_oa_location": {
+                "endpoint_id": "mf79cjfoywym4fwvffbh",
+                "evidence": "oa repository (via OAI-PMH title and first author match)",
+                "host_type": "repository",
+                "is_best": true,
+                "license": null,
+                "pmh_id": "oai:ageconsearch.umn.edu:260823",
+                "repository_institution": "University of Minnesota, USA - AgEcon Search",
+                "updated": "2020-03-09T05:18:28.018796",
+                "url": "http://ageconsearch.umn.edu/record/260823/files/Financial%20Stress%20And%20Farm%20Bankruptcies%20In%20US%20Agriculture.pdf",
+                "url_for_landing_page": "http://ageconsearch.umn.edu/record/260823/files/Financial%20Stress%20And%20Farm%20Bankruptcies%20In%20US%20Agriculture.pdf",
+                "url_for_pdf": "http://ageconsearch.umn.edu/record/260823/files/Financial%20Stress%20And%20Farm%20Bankruptcies%20In%20US%20Agriculture.pdf",
+                "version": "publishedVersion"
+            },
+            "data_standard": 2,
+            "doi": "10.1108/afr-05-2017-0030",
+            "doi_url": "https://doi.org/10.1108/afr-05-2017-0030",
+            "genre": "journal-article",
+            "has_repository_copy": true,
+            "is_oa": true,
+            "is_paratext": false,
+            "journal_is_in_doaj": false,
+            "journal_is_oa": false,
+            "journal_issn_l": "0002-1466",
+            "journal_issns": "0002-1466",
+            "journal_name": "Agricultural Finance Review",
+            "oa_locations": [
+                {
+                    "endpoint_id": "mf79cjfoywym4fwvffbh",
+                    "evidence": "oa repository (via OAI-PMH title and first author match)",
+                    "host_type": "repository",
+                    "is_best": true,
+                    "license": null,
+                    "pmh_id": "oai:ageconsearch.umn.edu:260823",
+                    "repository_institution": "University of Minnesota, USA - AgEcon Search",
+                    "updated": "2020-03-09T05:18:28.018796",
+                    "url": "http://ageconsearch.umn.edu/record/260823/files/Financial%20Stress%20And%20Farm%20Bankruptcies%20In%20US%20Agriculture.pdf",
+                    "url_for_landing_page": "http://ageconsearch.umn.edu/record/260823/files/Financial%20Stress%20And%20Farm%20Bankruptcies%20In%20US%20Agriculture.pdf",
+                    "url_for_pdf": "http://ageconsearch.umn.edu/record/260823/files/Financial%20Stress%20And%20Farm%20Bankruptcies%20In%20US%20Agriculture.pdf",
+                    "version": "publishedVersion"
+                },
+                {
+                    "endpoint_id": "mf79cjfoywym4fwvffbh",
+                    "evidence": "oa repository (via OAI-PMH title and first author match)",
+                    "host_type": "repository",
+                    "is_best": false,
+                    "license": null,
+                    "pmh_id": "oai:ageconsearch.umn.edu:260823",
+                    "repository_institution": "University of Minnesota, USA - AgEcon Search",
+                    "updated": "2020-03-09T04:45:35.354881",
+                    "url": "http://ageconsearch.umn.edu/record/260823/files/Financial%20Stress%20And%20Farm%20Bankruptcies%20In%20US%20Agriculture.pdf?subformat=pdfa",
+                    "url_for_landing_page": "http://ageconsearch.umn.edu/record/260823/files/Financial%20Stress%20And%20Farm%20Bankruptcies%20In%20US%20Agriculture.pdf?subformat=pdfa",
+                    "url_for_pdf": "http://ageconsearch.umn.edu/record/260823/files/Financial%20Stress%20And%20Farm%20Bankruptcies%20In%20US%20Agriculture.pdf?subformat=pdfa",
+                    "version": "publishedVersion"
+                },
+                {
+                    "endpoint_id": "mf79cjfoywym4fwvffbh",
+                    "evidence": "oa repository (via OAI-PMH title and first author match)",
+                    "host_type": "repository",
+                    "is_best": false,
+                    "license": null,
+                    "pmh_id": "oai:ageconsearch.umn.edu:260823",
+                    "repository_institution": "University of Minnesota, USA - AgEcon Search",
+                    "updated": "2020-03-11T22:16:56.016703",
+                    "url": "https://ageconsearch.umn.edu/record/260823/files/Financial%20Stress%20And%20Farm%20Bankruptcies%20In%20US%20Agriculture.pdf",
+                    "url_for_landing_page": "http://ageconsearch.umn.edu/record/260823",
+                    "url_for_pdf": "https://ageconsearch.umn.edu/record/260823/files/Financial%20Stress%20And%20Farm%20Bankruptcies%20In%20US%20Agriculture.pdf",
+                    "version": "publishedVersion"
+                },
+                {
+                    "endpoint_id": null,
+                    "evidence": "oa repository (semantic scholar lookup)",
+                    "host_type": "repository",
+                    "is_best": false,
+                    "license": null,
+                    "pmh_id": null,
+                    "repository_institution": null,
+                    "updated": "2019-10-01T00:00:00",
+                    "url": "http://pdfs.semanticscholar.org/aac0/f17b2f464ae6387a8c0314a4c52cdbd21ccc.pdf",
+                    "url_for_landing_page": "https://semanticscholar.org/paper/aac0f17b2f464ae6387a8c0314a4c52cdbd21ccc",
+                    "url_for_pdf": "http://pdfs.semanticscholar.org/aac0/f17b2f464ae6387a8c0314a4c52cdbd21ccc.pdf",
+                    "version": "submittedVersion"
+                }
+            ],
+            "oa_status": "green",
+            "published_date": "2018-08-06",
+            "publisher": "Emerald",
+            "title": "Financial stress and farm bankruptcies in US agriculture",
+            "updated": "2020-03-06T15:52:51.141213",
+            "year": 2018,
+            "z_authors": [
+                {
+                    "affiliation": [
+                        {
+                            "name": "Department of Agricultural, Environmental, and Development Economics, The Ohio State University, Columbus, Ohio, USA"
+                        }
+                    ],
+                    "family": "Dinterman",
+                    "given": "Robert",
+                    "sequence": "first"
+                },
+                {
+                    "ORCID": "http://orcid.org/0000-0002-7307-4073",
+                    "affiliation": [
+                        {
+                            "name": "Department of Agricultural, Environmental, and Development Economics, The Ohio State University, Columbus, Ohio, USA"
+                        }
+                    ],
+                    "authenticated-orcid": false,
+                    "family": "Katchova",
+                    "given": "Ani L.",
+                    "sequence": "additional"
+                },
+                {
+                    "affiliation": [
+                        {
+                            "name": "ERS/USDA, Washington, District of Columbia, USA"
+                        }
+                    ],
+                    "family": "Harris",
+                    "given": "James Michael",
+                    "sequence": "additional"
+                }
+            ]
+        },
+        "datasets": [
+            "dataset-870",
+            "dataset-932",
+            "dataset-933",
+            "dataset-934",
+            "dataset-750",
+            "dataset-576"
+        ],
+        "dissemin": {
+            "paper": {
+                "authors": [
+                    {
+                        "affiliation": "Department of Agricultural, Environmental, and Development Economics, The Ohio State University, Columbus, Ohio, USA",
+                        "name": {
+                            "first": "Robert",
+                            "last": "Dinterman"
+                        }
+                    },
+                    {
+                        "name": {
+                            "first": "Ani L.",
+                            "last": "Katchova"
+                        },
+                        "orcid": "0000-0002-7307-4073"
+                    },
+                    {
+                        "affiliation": "ERS/USDA, Washington, District of Columbia, USA",
+                        "name": {
+                            "first": "James Michael",
+                            "last": "Harris"
+                        }
+                    }
+                ],
+                "classification": "OK",
+                "date": "2018-08-06",
+                "records": [
+                    {
+                        "doi": "10.1108/afr-05-2017-0030",
+                        "identifier": "oai:crossref.org:10.1108/afr-05-2017-0030",
+                        "issn": "0002-1466",
+                        "issue": "4",
+                        "journal": "Agricultural Finance Review",
+                        "pages": "441-456",
+                        "policy": {
+                            "postprint": "can",
+                            "preprint": "can",
+                            "published": "cannot",
+                            "romeo_id": "31"
+                        },
+                        "publisher": "Emerald",
+                        "source": "crossref",
+                        "splash_url": "https://doi.org/10.1108/afr-05-2017-0030",
+                        "type": "journal-article",
+                        "volume": "78"
+                    }
+                ],
+                "title": "Financial stress and farm bankruptcies in US agriculture",
+                "type": "journal-article"
+            },
+            "status": "ok"
+        },
+        "doi": "10.1108/afr-05-2017-0030",
+        "original": {
+            "api": "dimensions",
+            "date_added": "2020-03-11 16:03:51",
+            "doi": "10.1108/afr-05-2017-0030",
+            "pdf": "https://www.emerald.com/insight/content/doi/10.1108/AFR-05-2017-0030/full/pdf?title=financial-stress-and-farm-bankruptcies-in-us-agriculture",
+            "search_term": "Agricultural Resource Management Survey",
+            "url": "https://www.emerald.com/insight/content/doi/10.1108/AFR-05-2017-0030/full/html",
+            "valid": 1
+        },
+        "title": "Financial stress and farm bankruptcies in US agriculture"
     }
 ]
