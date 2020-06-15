@@ -34,11 +34,12 @@ def reconcile_journal (schol, graph, pub, disputed):
             api = schol.pubmed
 
             if api.has_credentials():
-                meta, timing, message = api.journal_lookup(best_issn)
+                response = api.journal_lookup(best_issn)
+                message = response.message
 
-                if meta:
+                if response.meta:
                     # add the NCBI metadata into this journal
-                    journal["NCBI"] = meta
+                    journal["NCBI"] = response.meta
                     graph.journals.gather_issn(journal)
 
     return journal_list, message, freq_issn
