@@ -5,7 +5,6 @@
             "altmetric_id": 65649267,
             "book_series_title": "Lecture Notes in Geoinformation and Cartography",
             "concepts": [
-                "Empire",
                 "colonial cartography",
                 "cartography",
                 "land",
@@ -34,8 +33,8 @@
                 }
             ],
             "publisher": "Springer Nature",
+            "recent_citations": 0,
             "terms": [
-                "Empire",
                 "colonial cartography",
                 "cartography",
                 "land",
@@ -45,6 +44,7 @@
                 "Commission",
                 "history"
             ],
+            "times_cited": 0,
             "title": "Mapping Empires: Colonial Cartographies of Land and Sea, 7th International Symposium of the ICA Commission on the History of Cartography, 2018",
             "type": "book",
             "year": 2020
@@ -1346,9 +1346,13 @@
         ],
         "doi": "10.1007/978-3-030-23447-8",
         "keyphrases": {
-            "a geological map": {
-                "count": 2,
-                "rank_score": 0.06183806753678665
+            "american": {
+                "count": 1,
+                "rank_score": 0.045507794137659846
+            },
+            "asian": {
+                "count": 1,
+                "rank_score": 0.045731663067753676
             },
             "benjamin smith lyman": {
                 "count": 2,
@@ -1358,9 +1362,29 @@
                 "count": 1,
                 "rank_score": 0.056757005354238804
             },
-            "control": {
+            "depth": {
                 "count": 1,
-                "rank_score": 0.05630138455807172
+                "rank_score": 0.04464355294162013
+            },
+            "earlier american survey": {
+                "count": 1,
+                "rank_score": 0.04886137264975679
+            },
+            "earliest accounts": {
+                "count": 1,
+                "rank_score": 0.04044993207496397
+            },
+            "ezo": {
+                "count": 2,
+                "rank_score": 0.03950223166372481
+            },
+            "first modern geological map": {
+                "count": 1,
+                "rank_score": 0.07108906991090644
+            },
+            "geological map": {
+                "count": 2,
+                "rank_score": 0.06183806753678665
             },
             "hokkaido": {
                 "count": 3,
@@ -1378,9 +1402,21 @@
                 "count": 1,
                 "rank_score": 0.0712415139172953
             },
+            "japanese government": {
+                "count": 1,
+                "rank_score": 0.04117593542311733
+            },
             "late-nineteenth century inter-imperial society": {
                 "count": 1,
                 "rank_score": 0.06763116813647777
+            },
+            "longer history": {
+                "count": 1,
+                "rank_score": 0.04836718470794552
+            },
+            "mapping": {
+                "count": 1,
+                "rank_score": 0.042080842896892214
             },
             "mineral deposits": {
                 "count": 1,
@@ -1390,21 +1426,25 @@
                 "count": 1,
                 "rank_score": 0.07188206285854012
             },
+            "new means": {
+                "count": 1,
+                "rank_score": 0.04377807120177348
+            },
             "northern japan": {
                 "count": 1,
                 "rank_score": 0.06492572320061758
+            },
+            "previous tokugawa government": {
+                "count": 1,
+                "rank_score": 0.04304813402781456
             },
             "territorial authority": {
                 "count": 1,
                 "rank_score": 0.061718189543720395
             },
-            "the first modern geological map": {
+            "various strata atop": {
                 "count": 1,
-                "rank_score": 0.07108906991090644
-            },
-            "this map": {
-                "count": 4,
-                "rank_score": 0.050966855313540525
+                "rank_score": 0.04538880320312768
             }
         },
         "original": {
@@ -1437,14 +1477,15 @@
             ],
             "RCDC": [
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
-                },
-                {
                     "id": "443",
                     "name": "Health Services"
+                },
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -1463,6 +1504,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.40803.3f",
                         "first_name": "Julie Simmons",
+                        "initials": "",
                         "last_name": "Ivy",
                         "orcid": "",
                         "researcher_id": "ur.012047152147.12"
@@ -1483,6 +1525,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.166341.7",
                         "first_name": "Muge",
+                        "initials": "",
                         "last_name": "Capan",
                         "orcid": "",
                         "researcher_id": "ur.01123116015.43"
@@ -1503,6 +1546,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.10698.36",
                         "first_name": "Karen",
+                        "initials": "",
                         "last_name": "Hicklin",
                         "orcid": "",
                         "researcher_id": "ur.013207263651.03"
@@ -1523,6 +1567,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Nisha",
+                        "initials": "",
                         "last_name": "Nataraj",
                         "orcid": "",
                         "researcher_id": ""
@@ -1543,6 +1588,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.40803.3f",
                         "first_name": "Irem Sengul",
+                        "initials": "",
                         "last_name": "Orgut",
                         "orcid": "",
                         "researcher_id": "ur.015644771521.49"
@@ -1571,8 +1617,9 @@
                             }
                         ],
                         "corresponding": "",
-                        "current_organization_id": "grid.40803.3f",
+                        "current_organization_id": "grid.217197.b",
                         "first_name": "Amy Craig",
+                        "initials": "",
                         "last_name": "Reamer",
                         "orcid": "",
                         "researcher_id": "ur.014010000732.53"
@@ -1593,6 +1640,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Anita",
+                        "initials": "",
                         "last_name": "Vila-Parrish",
                         "orcid": "",
                         "researcher_id": ""
@@ -1616,6 +1664,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.40803.3f",
                     "first_name": "Julie Simmons",
+                    "initials": "",
                     "last_name": "Ivy",
                     "orcid": "",
                     "researcher_id": "ur.012047152147.12"
@@ -1636,6 +1685,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.166341.7",
                     "first_name": "Muge",
+                    "initials": "",
                     "last_name": "Capan",
                     "orcid": "",
                     "researcher_id": "ur.01123116015.43"
@@ -1656,6 +1706,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.10698.36",
                     "first_name": "Karen",
+                    "initials": "",
                     "last_name": "Hicklin",
                     "orcid": "",
                     "researcher_id": "ur.013207263651.03"
@@ -1676,6 +1727,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Nisha",
+                    "initials": "",
                     "last_name": "Nataraj",
                     "orcid": "",
                     "researcher_id": ""
@@ -1696,6 +1748,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.40803.3f",
                     "first_name": "Irem Sengul",
+                    "initials": "",
                     "last_name": "Orgut",
                     "orcid": "",
                     "researcher_id": "ur.015644771521.49"
@@ -1724,8 +1777,9 @@
                         }
                     ],
                     "corresponding": "",
-                    "current_organization_id": "grid.40803.3f",
+                    "current_organization_id": "grid.217197.b",
                     "first_name": "Amy Craig",
+                    "initials": "",
                     "last_name": "Reamer",
                     "orcid": "",
                     "researcher_id": "ur.014010000732.53"
@@ -1746,6 +1800,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Anita",
+                    "initials": "",
                     "last_name": "Vila-Parrish",
                     "orcid": "",
                     "researcher_id": ""
@@ -1778,14 +1833,15 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
-                },
-                {
                     "id": "443",
                     "name": "Health Services"
+                },
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30011",
@@ -1799,12 +1855,10 @@
                 }
             ],
             "concepts": [
-                "decision",
                 "way",
                 "solution",
                 "chapter",
                 "overview",
-                "areas of decision",
                 "conditions of uncertainty",
                 "conditions",
                 "uncertainty",
@@ -1826,14 +1880,10 @@
                 "decision analysis",
                 "analysis",
                 "real-world problems",
-                "world problems",
                 "researchers",
                 "issues",
+                "hunger relief",
                 "performance",
-                "medical decision-making",
-                "decision-making",
-                "making",
-                "Wise",
                 "decision modeling",
                 "modeling"
             ],
@@ -1845,6 +1895,41 @@
                 "2509-6427",
                 "2509-6435"
             ],
+            "noun_phrases": [
+                "Be",
+                "WISE",
+                "Decision Support Technique",
+                "policy",
+                "hunger",
+                "decision-making",
+                "health",
+                "food",
+                "Education",
+                "complex",
+                "solution",
+                "chapter",
+                "overview",
+                "former student",
+                "condition",
+                "uncertainty",
+                "decision problem",
+                "primary area",
+                "Delivery of Health Care",
+                "humanitarian logistics",
+                "decision quality",
+                "theory",
+                "Markov decision process",
+                "optimization",
+                "simulation",
+                "Bayesian",
+                "real-world problem",
+                "practitioner",
+                "societal issue",
+                "health disparity",
+                "public health preparedness",
+                "student performance",
+                "medical decision-making"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -1854,155 +1939,156 @@
             ],
             "pages": "233-274",
             "publisher": "Springer Nature",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1005487267",
-                "pub.1067701573",
-                "pub.1023342583",
-                "pub.1015962782",
-                "pub.1001233120",
-                "pub.1074489915",
-                "pub.1038040267",
-                "pub.1085147014",
-                "pub.1109701494",
-                "pub.1015437246",
-                "pub.1034626417",
-                "pub.1067701572",
-                "pub.1007384795",
-                "pub.1038247735",
-                "pub.1013016611",
-                "pub.1109496258",
-                "pub.1047972048",
                 "pub.1064725549",
-                "pub.1046185489",
-                "pub.1022268226",
-                "pub.1027360542",
-                "pub.1010988781",
-                "pub.1046495222",
-                "pub.1105003747",
-                "pub.1045696843",
-                "pub.1026003957",
-                "pub.1013299760",
-                "pub.1003343960",
-                "pub.1030822177",
-                "pub.1068872116",
-                "pub.1029165800",
-                "pub.1007286955",
-                "pub.1045377609",
-                "pub.1074742336",
-                "pub.1001644391",
-                "pub.1026514771",
-                "pub.1014653637",
-                "pub.1020867297",
-                "pub.1017928674",
-                "pub.1029622836",
-                "pub.1017550750",
-                "pub.1043016051",
-                "pub.1005766557",
-                "pub.1054743611",
-                "pub.1014340681",
-                "pub.1093461969",
-                "pub.1017443196",
-                "pub.1047233543",
-                "pub.1107134024",
-                "pub.1033265263",
-                "pub.1047135433",
-                "pub.1036743763",
-                "pub.1068965251",
-                "pub.1048900021",
                 "pub.1049922069",
-                "pub.1048514310",
-                "pub.1043506052",
-                "pub.1031955016",
-                "pub.1064293422",
-                "pub.1012297388",
-                "pub.1037285169",
-                "pub.1070730403",
-                "pub.1036257476",
-                "pub.1101094477",
-                "pub.1006136381",
-                "pub.1043069349",
-                "pub.1095396251",
-                "pub.1090866479",
-                "pub.1085286290",
-                "pub.1028210375",
-                "pub.1038314184",
+                "pub.1015962782",
+                "pub.1033265263",
+                "pub.1036743763",
                 "pub.1043090236",
-                "pub.1029234308"
+                "pub.1036257476",
+                "pub.1017928674",
+                "pub.1048514310",
+                "pub.1043069349",
+                "pub.1090866479",
+                "pub.1045377609",
+                "pub.1037285169",
+                "pub.1014340681",
+                "pub.1028210375",
+                "pub.1045696843",
+                "pub.1067701572",
+                "pub.1007286955",
+                "pub.1105003747",
+                "pub.1015437246",
+                "pub.1054743611",
+                "pub.1074742336",
+                "pub.1026514771",
+                "pub.1095396251",
+                "pub.1034626417",
+                "pub.1029234308",
+                "pub.1012297388",
+                "pub.1013299760",
+                "pub.1046185489",
+                "pub.1014653637",
+                "pub.1003343960",
+                "pub.1017443196",
+                "pub.1027360542",
+                "pub.1093461969",
+                "pub.1005766557",
+                "pub.1067701573",
+                "pub.1068965251",
+                "pub.1074489915",
+                "pub.1109496258",
+                "pub.1101094477",
+                "pub.1070730403",
+                "pub.1022268226",
+                "pub.1064293422",
+                "pub.1010988781",
+                "pub.1001233120",
+                "pub.1013016611",
+                "pub.1020867297",
+                "pub.1026003957",
+                "pub.1043506052",
+                "pub.1007384795",
+                "pub.1038040267",
+                "pub.1029165800",
+                "pub.1031955016",
+                "pub.1068872116",
+                "pub.1085147014",
+                "pub.1029622836",
+                "pub.1085286290",
+                "pub.1038247735",
+                "pub.1005487267",
+                "pub.1038314184",
+                "pub.1046495222",
+                "pub.1006136381",
+                "pub.1048900021",
+                "pub.1107134024",
+                "pub.1047233543",
+                "pub.1017550750",
+                "pub.1047135433",
+                "pub.1109701494",
+                "pub.1001644391",
+                "pub.1043016051",
+                "pub.1023342583",
+                "pub.1047972048",
+                "pub.1030822177"
             ],
             "references": [
-                "pub.1005487267",
-                "pub.1067701573",
-                "pub.1023342583",
-                "pub.1015962782",
-                "pub.1001233120",
-                "pub.1074489915",
-                "pub.1038040267",
-                "pub.1085147014",
-                "pub.1109701494",
-                "pub.1015437246",
-                "pub.1034626417",
-                "pub.1067701572",
-                "pub.1007384795",
-                "pub.1038247735",
-                "pub.1013016611",
-                "pub.1109496258",
-                "pub.1047972048",
                 "pub.1064725549",
-                "pub.1046185489",
-                "pub.1022268226",
-                "pub.1027360542",
-                "pub.1010988781",
-                "pub.1046495222",
-                "pub.1105003747",
-                "pub.1045696843",
-                "pub.1026003957",
-                "pub.1013299760",
-                "pub.1003343960",
-                "pub.1030822177",
-                "pub.1068872116",
-                "pub.1029165800",
-                "pub.1007286955",
-                "pub.1045377609",
-                "pub.1074742336",
-                "pub.1001644391",
-                "pub.1026514771",
-                "pub.1014653637",
-                "pub.1020867297",
-                "pub.1017928674",
-                "pub.1029622836",
-                "pub.1017550750",
-                "pub.1043016051",
-                "pub.1005766557",
-                "pub.1054743611",
-                "pub.1014340681",
-                "pub.1093461969",
-                "pub.1017443196",
-                "pub.1047233543",
-                "pub.1107134024",
-                "pub.1033265263",
-                "pub.1047135433",
-                "pub.1036743763",
-                "pub.1068965251",
-                "pub.1048900021",
                 "pub.1049922069",
-                "pub.1048514310",
-                "pub.1043506052",
-                "pub.1031955016",
-                "pub.1064293422",
-                "pub.1012297388",
-                "pub.1037285169",
-                "pub.1070730403",
-                "pub.1036257476",
-                "pub.1101094477",
-                "pub.1006136381",
-                "pub.1043069349",
-                "pub.1095396251",
-                "pub.1090866479",
-                "pub.1085286290",
-                "pub.1028210375",
-                "pub.1038314184",
+                "pub.1015962782",
+                "pub.1033265263",
+                "pub.1036743763",
                 "pub.1043090236",
-                "pub.1029234308"
+                "pub.1036257476",
+                "pub.1017928674",
+                "pub.1048514310",
+                "pub.1043069349",
+                "pub.1090866479",
+                "pub.1045377609",
+                "pub.1037285169",
+                "pub.1014340681",
+                "pub.1028210375",
+                "pub.1045696843",
+                "pub.1067701572",
+                "pub.1007286955",
+                "pub.1105003747",
+                "pub.1015437246",
+                "pub.1054743611",
+                "pub.1074742336",
+                "pub.1026514771",
+                "pub.1095396251",
+                "pub.1034626417",
+                "pub.1029234308",
+                "pub.1012297388",
+                "pub.1013299760",
+                "pub.1046185489",
+                "pub.1014653637",
+                "pub.1003343960",
+                "pub.1017443196",
+                "pub.1027360542",
+                "pub.1093461969",
+                "pub.1005766557",
+                "pub.1067701573",
+                "pub.1068965251",
+                "pub.1074489915",
+                "pub.1109496258",
+                "pub.1101094477",
+                "pub.1070730403",
+                "pub.1022268226",
+                "pub.1064293422",
+                "pub.1010988781",
+                "pub.1001233120",
+                "pub.1013016611",
+                "pub.1020867297",
+                "pub.1026003957",
+                "pub.1043506052",
+                "pub.1007384795",
+                "pub.1038040267",
+                "pub.1029165800",
+                "pub.1031955016",
+                "pub.1068872116",
+                "pub.1085147014",
+                "pub.1029622836",
+                "pub.1085286290",
+                "pub.1038247735",
+                "pub.1005487267",
+                "pub.1038314184",
+                "pub.1046495222",
+                "pub.1006136381",
+                "pub.1048900021",
+                "pub.1107134024",
+                "pub.1047233543",
+                "pub.1017550750",
+                "pub.1047135433",
+                "pub.1109701494",
+                "pub.1001644391",
+                "pub.1043016051",
+                "pub.1023342583",
+                "pub.1047972048",
+                "pub.1030822177"
             ],
             "research_org_cities": [
                 {
@@ -2039,46 +2125,39 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Gaertner (United States)",
+                "Drexel University",
+                "University of North Carolina at Chapel Hill",
+                "University of Alabama, Tuscaloosa",
+                "University of North Carolina Wilmington",
+                "North Carolina State University"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-AL",
-                    "name": "Alabama"
-                },
                 {
                     "id": "US-CT",
                     "name": "Connecticut"
                 },
                 {
-                    "id": "US-NC",
-                    "name": "North Carolina"
-                },
-                {
                     "id": "US-PA",
                     "name": "Pennsylvania"
+                },
+                {
+                    "id": "US-AL",
+                    "name": "Alabama"
+                },
+                {
+                    "id": "US-NC",
+                    "name": "North Carolina"
                 }
             ],
             "research_org_state_names": [
                 "Pennsylvania",
                 "North Carolina",
-                "Alabama",
-                "Connecticut"
+                "Connecticut",
+                "Alabama"
             ],
             "research_orgs": [
-                {
-                    "city_name": "Tuscaloosa",
-                    "country_name": "United States",
-                    "id": "grid.411015.0",
-                    "latitude": 33.20944,
-                    "linkout": [
-                        "https://www.ua.edu/"
-                    ],
-                    "longitude": -87.5415,
-                    "name": "University of Alabama, Tuscaloosa",
-                    "state_name": "Alabama",
-                    "types": [
-                        "Education"
-                    ]
-                },
                 {
                     "city_name": "Philadelphia",
                     "country_name": "United States",
@@ -2095,32 +2174,16 @@
                     ]
                 },
                 {
-                    "acronym": "UNC",
-                    "city_name": "Chapel Hill",
+                    "acronym": "NCSU",
+                    "city_name": "Raleigh",
                     "country_name": "United States",
-                    "id": "grid.10698.36",
-                    "latitude": 35.905163,
+                    "id": "grid.40803.3f",
+                    "latitude": 35.784386,
                     "linkout": [
-                        "http://www.unc.edu/"
+                        "https://www.ncsu.edu/"
                     ],
-                    "longitude": -79.04694,
-                    "name": "University of North Carolina at Chapel Hill",
-                    "state_name": "North Carolina",
-                    "types": [
-                        "Education"
-                    ]
-                },
-                {
-                    "acronym": "UNCW",
-                    "city_name": "Wilmington",
-                    "country_name": "United States",
-                    "id": "grid.217197.b",
-                    "latitude": 34.226982,
-                    "linkout": [
-                        "http://uncw.edu/"
-                    ],
-                    "longitude": -77.86325,
-                    "name": "University of North Carolina Wilmington",
+                    "longitude": -78.682785,
+                    "name": "North Carolina State University",
                     "state_name": "North Carolina",
                     "types": [
                         "Education"
@@ -2142,16 +2205,47 @@
                     ]
                 },
                 {
-                    "acronym": "NCSU",
-                    "city_name": "Raleigh",
+                    "city_name": "Tuscaloosa",
                     "country_name": "United States",
-                    "id": "grid.40803.3f",
-                    "latitude": 35.784386,
+                    "id": "grid.411015.0",
+                    "latitude": 33.20944,
                     "linkout": [
-                        "https://www.ncsu.edu/"
+                        "https://www.ua.edu/"
                     ],
-                    "longitude": -78.682785,
-                    "name": "North Carolina State University",
+                    "longitude": -87.5415,
+                    "name": "University of Alabama, Tuscaloosa",
+                    "state_name": "Alabama",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
+                    "acronym": "UNCW",
+                    "city_name": "Wilmington",
+                    "country_name": "United States",
+                    "id": "grid.217197.b",
+                    "latitude": 34.226982,
+                    "linkout": [
+                        "http://uncw.edu/"
+                    ],
+                    "longitude": -77.86325,
+                    "name": "University of North Carolina Wilmington",
+                    "state_name": "North Carolina",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
+                    "acronym": "UNC",
+                    "city_name": "Chapel Hill",
+                    "country_name": "United States",
+                    "id": "grid.10698.36",
+                    "latitude": 35.905163,
+                    "linkout": [
+                        "http://www.unc.edu/"
+                    ],
+                    "longitude": -79.04694,
+                    "name": "University of North Carolina at Chapel Hill",
                     "state_name": "North Carolina",
                     "types": [
                         "Education"
@@ -2164,9 +2258,9 @@
                     "id": "ur.012047152147.12",
                     "last_name": "Ivy",
                     "research_orgs": [
+                        "grid.40803.3f",
                         "grid.214458.e",
-                        "grid.440896.7",
-                        "grid.40803.3f"
+                        "grid.440896.7"
                     ]
                 },
                 {
@@ -2174,22 +2268,22 @@
                     "id": "ur.01123116015.43",
                     "last_name": "Capan",
                     "research_orgs": [
-                        "grid.25879.31",
-                        "grid.27755.32",
-                        "grid.417993.1",
                         "grid.6734.6",
-                        "grid.411017.2",
-                        "grid.239552.a",
-                        "grid.213917.f",
-                        "grid.414316.5",
-                        "grid.39381.30",
-                        "grid.411843.b",
-                        "grid.40803.3f",
-                        "grid.415232.3",
-                        "grid.214458.e",
-                        "grid.21925.3d",
                         "grid.411461.7",
-                        "grid.166341.7"
+                        "grid.417993.1",
+                        "grid.166341.7",
+                        "grid.213917.f",
+                        "grid.25879.31",
+                        "grid.40803.3f",
+                        "grid.21925.3d",
+                        "grid.411017.2",
+                        "grid.415232.3",
+                        "grid.411843.b",
+                        "grid.214458.e",
+                        "grid.414316.5",
+                        "grid.27755.32",
+                        "grid.39381.30",
+                        "grid.239552.a"
                     ]
                 },
                 {
@@ -2206,8 +2300,8 @@
                     "id": "ur.015644771521.49",
                     "last_name": "Orgut",
                     "research_orgs": [
-                        "grid.411015.0",
-                        "grid.40803.3f"
+                        "grid.40803.3f",
+                        "grid.411015.0"
                     ]
                 },
                 {
@@ -2221,12 +2315,10 @@
                 }
             ],
             "terms": [
-                "decision",
                 "way",
                 "solution",
                 "chapter",
                 "overview",
-                "areas of decision",
                 "conditions of uncertainty",
                 "conditions",
                 "uncertainty",
@@ -2248,17 +2340,14 @@
                 "decision analysis",
                 "analysis",
                 "real-world problems",
-                "world problems",
                 "researchers",
                 "issues",
+                "hunger relief",
                 "performance",
-                "medical decision-making",
-                "decision-making",
-                "making",
-                "Wise",
                 "decision modeling",
                 "modeling"
             ],
+            "times_cited": 0,
             "title": "To Be Healthy, Wealthy, and Wise: Using Decision Modeling to Personalize Policy in Health, Hunger Relief, and Education",
             "type": "chapter",
             "year": 2020
@@ -2459,9 +2548,9 @@
         },
         "doi": "10.1007/978-3-030-11866-2_11",
         "keyphrases": {
-            "-markov": {
+            "basic human needs": {
                 "count": 1,
-                "rank_score": 0.0668744073524192
+                "rank_score": 0.05718481757017718
             },
             "bayesian decision analysis": {
                 "count": 1,
@@ -2478,6 +2567,10 @@
             "decision-making": {
                 "count": 1,
                 "rank_score": 0.08152371958034489
+            },
+            "education": {
+                "count": 2,
+                "rank_score": 0.05018256981595962
             },
             "health": {
                 "count": 1,
@@ -2503,21 +2596,57 @@
                 "count": 1,
                 "rank_score": 0.07037303300867481
             },
+            "markov": {
+                "count": 1,
+                "rank_score": 0.04594724262148109
+            },
+            "mdps": {
+                "count": 1,
+                "rank_score": 0.04568440253473655
+            },
+            "my research": {
+                "count": 4,
+                "rank_score": 0.04470397209017625
+            },
             "personalized medical decision-making": {
                 "count": 1,
                 "rank_score": 0.09074710977964769
+            },
+            "pomdps": {
+                "count": 1,
+                "rank_score": 0.048480880414734424
+            },
+            "practitioners": {
+                "count": 1,
+                "rank_score": 0.054391084374395694
             },
             "public health preparedness": {
                 "count": 1,
                 "rank_score": 0.10242778014901917
             },
+            "researchers": {
+                "count": 1,
+                "rank_score": 0.04916860060792387
+            },
+            "simulation": {
+                "count": 1,
+                "rank_score": 0.044663565003319985
+            },
+            "solutions": {
+                "count": 1,
+                "rank_score": 0.04878328458656245
+            },
             "student performance": {
                 "count": 1,
                 "rank_score": 0.07210534039526759
             },
-            "the basic human needs": {
+            "three primary areas": {
                 "count": 1,
-                "rank_score": 0.05718481757017718
+                "rank_score": 0.04660127229018343
+            },
+            "uncertainty": {
+                "count": 1,
+                "rank_score": 0.04482987278312989
             }
         },
         "original": {
@@ -2548,7 +2677,7 @@
                     "name": "Rural Health"
                 }
             ],
-            "altmetric": 159.0,
+            "altmetric": 157.0,
             "altmetric_id": 68123313,
             "author_affiliations": [
                 [
@@ -2568,6 +2697,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.252873.9",
                         "first_name": "Mara Casey",
+                        "initials": "",
                         "last_name": "Tieken",
                         "orcid": "",
                         "researcher_id": "ur.011501543221.70"
@@ -2588,6 +2718,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Trevor Ray",
+                        "initials": "",
                         "last_name": "Auldridge-Reveles",
                         "orcid": "",
                         "researcher_id": ""
@@ -2611,6 +2742,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.252873.9",
                     "first_name": "Mara Casey",
+                    "initials": "",
                     "last_name": "Tieken",
                     "orcid": "",
                     "researcher_id": "ur.011501543221.70"
@@ -2631,6 +2763,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Trevor Ray",
+                    "initials": "",
                     "last_name": "Auldridge-Reveles",
                     "orcid": "",
                     "researcher_id": ""
@@ -2660,6 +2793,7 @@
                     "name": "Rural Health"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30023",
@@ -2709,6 +2843,7 @@
                 "communities of color",
                 "negative effects",
                 "students",
+                "adults",
                 "access",
                 "community institutions",
                 "institutions",
@@ -2729,9 +2864,39 @@
                 "title": "Review of Educational Research"
             },
             "journal_lists": [
-                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018",
                 "Norwegian register level 2",
+                "ERA 2015",
                 "ERIH PLUS"
+            ],
+            "noun_phrases": [
+                "school closure",
+                "injustice",
+                "school",
+                "city",
+                "United State",
+                "headline",
+                "rural school",
+                "closure",
+                "large body",
+                "motivation",
+                "policy implication",
+                "reexamine",
+                "advocate",
+                "academic",
+                "efficiency",
+                "equality",
+                "poor community",
+                "Residence Characteristic",
+                "color",
+                "negative effect",
+                "harming",
+                "adult",
+                "access",
+                "community institution",
+                "recommendation",
+                "practice"
             ],
             "open_access_categories": [
                 {
@@ -2742,187 +2907,188 @@
             ],
             "pages": "917-953",
             "publisher": "American Educational Research Association (AERA)",
+            "recent_citations": 4,
             "reference_ids": [
-                "pub.1049499136",
-                "pub.1054033127",
-                "pub.1053396892",
-                "pub.1016901906",
-                "pub.1058805558",
-                "pub.1039482349",
-                "pub.1030790256",
-                "pub.1010078108",
-                "pub.1100146740",
-                "pub.1011993896",
-                "pub.1070972101",
-                "pub.1018347947",
-                "pub.1113401924",
-                "pub.1020057246",
-                "pub.1085868645",
-                "pub.1110783244",
-                "pub.1022032192",
-                "pub.1053329908",
-                "pub.1034159448",
-                "pub.1011878383",
-                "pub.1000079608",
-                "pub.1033643078",
-                "pub.1039788401",
-                "pub.1003889636",
-                "pub.1030445516",
-                "pub.1004873775",
-                "pub.1106042995",
-                "pub.1027428008",
-                "pub.1085868646",
-                "pub.1046245708",
-                "pub.1038351649",
-                "pub.1049171208",
-                "pub.1070967626",
-                "pub.1103363484",
-                "pub.1044989300",
-                "pub.1008537537",
-                "pub.1072260025",
                 "pub.1040108694",
+                "pub.1065050045",
+                "pub.1111694773",
+                "pub.1016901906",
+                "pub.1012740211",
+                "pub.1100146740",
                 "pub.1046308657",
-                "pub.1031229870",
-                "pub.1004568200",
-                "pub.1084316158",
-                "pub.1034127511",
-                "pub.1067332079",
-                "pub.1000934456",
-                "pub.1032629193",
-                "pub.1043733294",
-                "pub.1042171883",
+                "pub.1046559146",
+                "pub.1010078108",
+                "pub.1046245708",
+                "pub.1110783244",
+                "pub.1107810748",
+                "pub.1004873775",
+                "pub.1001867690",
+                "pub.1068741639",
+                "pub.1039793956",
+                "pub.1022032192",
+                "pub.1072260025",
+                "pub.1027428008",
                 "pub.1000347511",
+                "pub.1053903992",
+                "pub.1049171208",
                 "pub.1092118686",
+                "pub.1085868645",
+                "pub.1104595188",
+                "pub.1070972101",
+                "pub.1011993896",
                 "pub.1099114723",
+                "pub.1070046891",
+                "pub.1058805557",
+                "pub.1042171883",
+                "pub.1107605621",
+                "pub.1030445516",
+                "pub.1004568200",
+                "pub.1018347947",
+                "pub.1008537537",
+                "pub.1075175239",
+                "pub.1049499136",
+                "pub.1073225722",
+                "pub.1019612081",
+                "pub.1090252587",
+                "pub.1058156805",
+                "pub.1026371163",
+                "pub.1011878383",
                 "pub.1029065518",
                 "pub.1057604501",
-                "pub.1052410702",
-                "pub.1075175239",
-                "pub.1001977911",
-                "pub.1058805557",
-                "pub.1053903992",
-                "pub.1107810748",
-                "pub.1053853158",
-                "pub.1012740211",
                 "pub.1099511989",
-                "pub.1046559146",
-                "pub.1026371163",
-                "pub.1069867269",
-                "pub.1073225722",
-                "pub.1070046891",
-                "pub.1029680520",
-                "pub.1025729612",
-                "pub.1099470782",
-                "pub.1107605621",
-                "pub.1065050045",
-                "pub.1043821052",
-                "pub.1033056602",
-                "pub.1049517332",
-                "pub.1090252587",
-                "pub.1070967560",
-                "pub.1085868644",
-                "pub.1019612081",
-                "pub.1044200791",
-                "pub.1070970506",
-                "pub.1104595188",
-                "pub.1058156805",
+                "pub.1039482349",
                 "pub.1107309828",
-                "pub.1039793956",
+                "pub.1044989300",
+                "pub.1032629193",
+                "pub.1070970506",
+                "pub.1085868646",
+                "pub.1103363484",
+                "pub.1053396892",
+                "pub.1003889636",
+                "pub.1043733294",
+                "pub.1039788401",
+                "pub.1058805558",
+                "pub.1031229870",
+                "pub.1052410702",
+                "pub.1034159448",
+                "pub.1053329908",
+                "pub.1000934456",
+                "pub.1099470782",
+                "pub.1000079608",
+                "pub.1070967626",
+                "pub.1038351649",
                 "pub.1004487603",
-                "pub.1068741639",
-                "pub.1001867690",
-                "pub.1111694773"
+                "pub.1070967560",
+                "pub.1033643078",
+                "pub.1033056602",
+                "pub.1085868644",
+                "pub.1106042995",
+                "pub.1069867269",
+                "pub.1054033127",
+                "pub.1001977911",
+                "pub.1025729612",
+                "pub.1049517332",
+                "pub.1043821052",
+                "pub.1113401924",
+                "pub.1029680520",
+                "pub.1034127511",
+                "pub.1030790256",
+                "pub.1067332079",
+                "pub.1084316158",
+                "pub.1053853158",
+                "pub.1020057246",
+                "pub.1044200791"
             ],
             "references": [
-                "pub.1049499136",
-                "pub.1054033127",
-                "pub.1053396892",
-                "pub.1016901906",
-                "pub.1058805558",
-                "pub.1039482349",
-                "pub.1030790256",
-                "pub.1010078108",
-                "pub.1100146740",
-                "pub.1011993896",
-                "pub.1070972101",
-                "pub.1018347947",
-                "pub.1113401924",
-                "pub.1020057246",
-                "pub.1085868645",
-                "pub.1110783244",
-                "pub.1022032192",
-                "pub.1053329908",
-                "pub.1034159448",
-                "pub.1011878383",
-                "pub.1000079608",
-                "pub.1033643078",
-                "pub.1039788401",
-                "pub.1003889636",
-                "pub.1030445516",
-                "pub.1004873775",
-                "pub.1106042995",
-                "pub.1027428008",
-                "pub.1085868646",
-                "pub.1046245708",
-                "pub.1038351649",
-                "pub.1049171208",
-                "pub.1070967626",
-                "pub.1103363484",
-                "pub.1044989300",
-                "pub.1008537537",
-                "pub.1072260025",
                 "pub.1040108694",
+                "pub.1065050045",
+                "pub.1111694773",
+                "pub.1016901906",
+                "pub.1012740211",
+                "pub.1100146740",
                 "pub.1046308657",
-                "pub.1031229870",
-                "pub.1004568200",
-                "pub.1084316158",
-                "pub.1034127511",
-                "pub.1067332079",
-                "pub.1000934456",
-                "pub.1032629193",
-                "pub.1043733294",
-                "pub.1042171883",
+                "pub.1046559146",
+                "pub.1010078108",
+                "pub.1046245708",
+                "pub.1110783244",
+                "pub.1107810748",
+                "pub.1004873775",
+                "pub.1001867690",
+                "pub.1068741639",
+                "pub.1039793956",
+                "pub.1022032192",
+                "pub.1072260025",
+                "pub.1027428008",
                 "pub.1000347511",
+                "pub.1053903992",
+                "pub.1049171208",
                 "pub.1092118686",
+                "pub.1085868645",
+                "pub.1104595188",
+                "pub.1070972101",
+                "pub.1011993896",
                 "pub.1099114723",
+                "pub.1070046891",
+                "pub.1058805557",
+                "pub.1042171883",
+                "pub.1107605621",
+                "pub.1030445516",
+                "pub.1004568200",
+                "pub.1018347947",
+                "pub.1008537537",
+                "pub.1075175239",
+                "pub.1049499136",
+                "pub.1073225722",
+                "pub.1019612081",
+                "pub.1090252587",
+                "pub.1058156805",
+                "pub.1026371163",
+                "pub.1011878383",
                 "pub.1029065518",
                 "pub.1057604501",
-                "pub.1052410702",
-                "pub.1075175239",
-                "pub.1001977911",
-                "pub.1058805557",
-                "pub.1053903992",
-                "pub.1107810748",
-                "pub.1053853158",
-                "pub.1012740211",
                 "pub.1099511989",
-                "pub.1046559146",
-                "pub.1026371163",
-                "pub.1069867269",
-                "pub.1073225722",
-                "pub.1070046891",
-                "pub.1029680520",
-                "pub.1025729612",
-                "pub.1099470782",
-                "pub.1107605621",
-                "pub.1065050045",
-                "pub.1043821052",
-                "pub.1033056602",
-                "pub.1049517332",
-                "pub.1090252587",
-                "pub.1070967560",
-                "pub.1085868644",
-                "pub.1019612081",
-                "pub.1044200791",
-                "pub.1070970506",
-                "pub.1104595188",
-                "pub.1058156805",
+                "pub.1039482349",
                 "pub.1107309828",
-                "pub.1039793956",
+                "pub.1044989300",
+                "pub.1032629193",
+                "pub.1070970506",
+                "pub.1085868646",
+                "pub.1103363484",
+                "pub.1053396892",
+                "pub.1003889636",
+                "pub.1043733294",
+                "pub.1039788401",
+                "pub.1058805558",
+                "pub.1031229870",
+                "pub.1052410702",
+                "pub.1034159448",
+                "pub.1053329908",
+                "pub.1000934456",
+                "pub.1099470782",
+                "pub.1000079608",
+                "pub.1070967626",
+                "pub.1038351649",
                 "pub.1004487603",
-                "pub.1068741639",
-                "pub.1001867690",
-                "pub.1111694773"
+                "pub.1070967560",
+                "pub.1033643078",
+                "pub.1033056602",
+                "pub.1085868644",
+                "pub.1106042995",
+                "pub.1069867269",
+                "pub.1054033127",
+                "pub.1001977911",
+                "pub.1025729612",
+                "pub.1049517332",
+                "pub.1043821052",
+                "pub.1113401924",
+                "pub.1029680520",
+                "pub.1034127511",
+                "pub.1030790256",
+                "pub.1067332079",
+                "pub.1084316158",
+                "pub.1053853158",
+                "pub.1020057246",
+                "pub.1044200791"
             ],
             "research_org_cities": [
                 {
@@ -2943,14 +3109,18 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "University of California, Santa Barbara",
+                "Bates College"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-ME",
-                    "name": "Maine"
-                },
                 {
                     "id": "US-CA",
                     "name": "California"
+                },
+                {
+                    "id": "US-ME",
+                    "name": "Maine"
                 }
             ],
             "research_org_state_names": [
@@ -3037,12 +3207,14 @@
                 "communities of color",
                 "negative effects",
                 "students",
+                "adults",
                 "access",
                 "community institutions",
                 "institutions",
                 "recommendations",
                 "practice"
             ],
+            "times_cited": 4,
             "title": "Rethinking the School Closure Research: School Closure as Spatial Injustice",
             "type": "article",
             "volume": "89",
@@ -3175,10 +3347,6 @@
         },
         "doi": "10.3102/0034654319877151",
         "keyphrases": {
-            "cities": {
-                "count": 1,
-                "rank_score": 0.12008176041803637
-            },
             "headlines": {
                 "count": 1,
                 "rank_score": 0.1127450034619848
@@ -3195,11 +3363,11 @@
                 "count": 1,
                 "rank_score": 0.17077582949784775
             },
-            "the united states": {
+            "united states": {
                 "count": 2,
                 "rank_score": 0.07395124855242113
             },
-            "these urban closures": {
+            "urban closures": {
                 "count": 1,
                 "rank_score": 0.07529088316792748
             },
@@ -3255,16 +3423,12 @@
             ],
             "RCDC": [
                 {
-                    "id": "332",
-                    "name": "Child Abuse and Neglect Research"
+                    "id": "588",
+                    "name": "Violence Research"
                 },
                 {
                     "id": "498",
                     "name": "Behavioral and Social Science"
-                },
-                {
-                    "id": "589",
-                    "name": "Youth Violence"
                 },
                 {
                     "id": "507",
@@ -3275,8 +3439,8 @@
                     "name": "Pediatric"
                 },
                 {
-                    "id": "497",
-                    "name": "Basic Behavioral and Social Science"
+                    "id": "589",
+                    "name": "Youth Violence"
                 },
                 {
                     "id": "314",
@@ -3287,8 +3451,12 @@
                     "name": "Injury - Childhood Injuries"
                 },
                 {
-                    "id": "588",
-                    "name": "Violence Research"
+                    "id": "497",
+                    "name": "Basic Behavioral and Social Science"
+                },
+                {
+                    "id": "332",
+                    "name": "Child Abuse and Neglect Research"
                 }
             ],
             "altmetric": 6.0,
@@ -3311,6 +3479,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.28046.38",
                         "first_name": "Kelly",
+                        "initials": "",
                         "last_name": "Weegar",
                         "orcid": "",
                         "researcher_id": "ur.01006564064.46"
@@ -3331,6 +3500,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.28046.38",
                         "first_name": "Elisa",
+                        "initials": "",
                         "last_name": "Romano",
                         "orcid": "",
                         "researcher_id": "ur.01222323622.49"
@@ -3354,6 +3524,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.28046.38",
                     "first_name": "Kelly",
+                    "initials": "",
                     "last_name": "Weegar",
                     "orcid": "",
                     "researcher_id": "ur.01006564064.46"
@@ -3374,6 +3545,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.28046.38",
                     "first_name": "Elisa",
+                    "initials": "",
                     "last_name": "Romano",
                     "orcid": "",
                     "researcher_id": "ur.01222323622.49"
@@ -3425,16 +3597,12 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "332",
-                    "name": "Child Abuse and Neglect Research"
+                    "id": "588",
+                    "name": "Violence Research"
                 },
                 {
                     "id": "498",
                     "name": "Behavioral and Social Science"
-                },
-                {
-                    "id": "589",
-                    "name": "Youth Violence"
                 },
                 {
                     "id": "507",
@@ -3445,8 +3613,8 @@
                     "name": "Pediatric"
                 },
                 {
-                    "id": "497",
-                    "name": "Basic Behavioral and Social Science"
+                    "id": "589",
+                    "name": "Youth Violence"
                 },
                 {
                     "id": "314",
@@ -3457,8 +3625,12 @@
                     "name": "Injury - Childhood Injuries"
                 },
                 {
-                    "id": "588",
-                    "name": "Violence Research"
+                    "id": "497",
+                    "name": "Basic Behavioral and Social Science"
+                },
+                {
+                    "id": "332",
+                    "name": "Child Abuse and Neglect Research"
                 }
             ],
             "category_ua": [
@@ -3487,14 +3659,12 @@
                 "vital role",
                 "role",
                 "life",
-                "maltreated children",
                 "children",
                 "Canada",
                 "training",
                 "support",
                 "study",
                 "multi-informant assessment",
-                "informant assessment",
                 "assessment",
                 "training needs",
                 "need",
@@ -3519,10 +3689,10 @@
                 "caregivers",
                 "participants",
                 "experience",
+                "maltreated children",
                 "delivery",
                 "child maltreatment training",
                 "response",
-                "behavior",
                 "schools",
                 "findings",
                 "consensus",
@@ -3531,11 +3701,7 @@
                 "classroom strategies",
                 "strategies",
                 "multi-level factors",
-                "level factors",
-                "teachers’ decisions",
-                "decision",
                 "action",
-                "level influences",
                 "influence",
                 "recommendations",
                 "teacher training",
@@ -3544,10 +3710,7 @@
                 "staff",
                 "professionals",
                 "future directions",
-                "direction",
-                "research",
-                "Training Needs Assessment",
-                "needs assessment"
+                "research"
             ],
             "date": "2019-12-01",
             "date_inserted": "2019-03-21",
@@ -3565,6 +3728,44 @@
             "journal_lists": [
                 "Norwegian register level 1"
             ],
+            "noun_phrases": [
+                "maltreatment",
+                "teacher",
+                "Need Assessment",
+                "gap",
+                "false belief",
+                "skill",
+                "Child Abuse",
+                "vital role",
+                "life",
+                "maltreated child",
+                "Canada",
+                "multi-informant",
+                "identified factor",
+                "teacher training",
+                "qualitative information",
+                "informant",
+                "Canadian city",
+                "school",
+                "Child Welfare",
+                "caregiver",
+                "culture",
+                "delivery",
+                "related behavior",
+                "consensus",
+                "participant group",
+                "identified gap",
+                "classroom",
+                "multi-level factor",
+                "decision-making",
+                "educational resource",
+                "overburden",
+                "recommendation",
+                "implication",
+                "school staff",
+                "professional",
+                "future direction"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -3574,75 +3775,76 @@
             ],
             "pages": "741-753",
             "publisher": "Springer Nature",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1026678319",
-                "pub.1014261213",
                 "pub.1030482373",
-                "pub.1036941258",
-                "pub.1041696686",
-                "pub.1041981415",
-                "pub.1020968811",
-                "pub.1038366211",
-                "pub.1000403728",
-                "pub.1083745768",
-                "pub.1059485246",
-                "pub.1046625604",
-                "pub.1023309418",
                 "pub.1063957295",
-                "pub.1000072526",
-                "pub.1013157464",
-                "pub.1033443763",
-                "pub.1090901393",
-                "pub.1027110217",
-                "pub.1030863169",
-                "pub.1101413034",
-                "pub.1052470690",
-                "pub.1007941014",
                 "pub.1037573546",
-                "pub.1038427775",
-                "pub.1005749753",
-                "pub.1017418969",
-                "pub.1011042373",
-                "pub.1044317175",
-                "pub.1018124762",
+                "pub.1000403728",
+                "pub.1052470690",
+                "pub.1030863169",
+                "pub.1020968811",
                 "pub.1078457624",
+                "pub.1005749753",
+                "pub.1014261213",
+                "pub.1017418969",
+                "pub.1041981415",
+                "pub.1083745768",
+                "pub.1044317175",
+                "pub.1033443763",
+                "pub.1026678319",
+                "pub.1059485246",
+                "pub.1011042373",
+                "pub.1041696686",
                 "pub.1003132782",
-                "pub.1001858748"
+                "pub.1001858748",
+                "pub.1023309418",
+                "pub.1007941014",
+                "pub.1027110217",
+                "pub.1046625604",
+                "pub.1000072526",
+                "pub.1090901393",
+                "pub.1038366211",
+                "pub.1013157464",
+                "pub.1036941258",
+                "pub.1018124762",
+                "pub.1101413034",
+                "pub.1038427775"
             ],
             "references": [
-                "pub.1026678319",
-                "pub.1014261213",
                 "pub.1030482373",
-                "pub.1036941258",
-                "pub.1041696686",
-                "pub.1041981415",
-                "pub.1020968811",
-                "pub.1038366211",
-                "pub.1000403728",
-                "pub.1083745768",
-                "pub.1059485246",
-                "pub.1046625604",
-                "pub.1023309418",
                 "pub.1063957295",
-                "pub.1000072526",
-                "pub.1013157464",
-                "pub.1033443763",
-                "pub.1090901393",
-                "pub.1027110217",
-                "pub.1030863169",
-                "pub.1101413034",
-                "pub.1052470690",
-                "pub.1007941014",
                 "pub.1037573546",
-                "pub.1038427775",
-                "pub.1005749753",
-                "pub.1017418969",
-                "pub.1011042373",
-                "pub.1044317175",
-                "pub.1018124762",
+                "pub.1000403728",
+                "pub.1052470690",
+                "pub.1030863169",
+                "pub.1020968811",
                 "pub.1078457624",
+                "pub.1005749753",
+                "pub.1014261213",
+                "pub.1017418969",
+                "pub.1041981415",
+                "pub.1083745768",
+                "pub.1044317175",
+                "pub.1033443763",
+                "pub.1026678319",
+                "pub.1059485246",
+                "pub.1011042373",
+                "pub.1041696686",
                 "pub.1003132782",
-                "pub.1001858748"
+                "pub.1001858748",
+                "pub.1023309418",
+                "pub.1007941014",
+                "pub.1027110217",
+                "pub.1046625604",
+                "pub.1000072526",
+                "pub.1090901393",
+                "pub.1038366211",
+                "pub.1013157464",
+                "pub.1036941258",
+                "pub.1018124762",
+                "pub.1101413034",
+                "pub.1038427775"
             ],
             "research_org_cities": [
                 {
@@ -3658,6 +3860,9 @@
             ],
             "research_org_country_names": [
                 "Canada"
+            ],
+            "research_org_names": [
+                "University of Ottawa"
             ],
             "research_org_state_codes": [
                 {
@@ -3720,14 +3925,12 @@
                 "vital role",
                 "role",
                 "life",
-                "maltreated children",
                 "children",
                 "Canada",
                 "training",
                 "support",
                 "study",
                 "multi-informant assessment",
-                "informant assessment",
                 "assessment",
                 "training needs",
                 "need",
@@ -3752,10 +3955,10 @@
                 "caregivers",
                 "participants",
                 "experience",
+                "maltreated children",
                 "delivery",
                 "child maltreatment training",
                 "response",
-                "behavior",
                 "schools",
                 "findings",
                 "consensus",
@@ -3764,11 +3967,7 @@
                 "classroom strategies",
                 "strategies",
                 "multi-level factors",
-                "level factors",
-                "teachers’ decisions",
-                "decision",
                 "action",
-                "level influences",
                 "influence",
                 "recommendations",
                 "teacher training",
@@ -3777,11 +3976,9 @@
                 "staff",
                 "professionals",
                 "future directions",
-                "direction",
-                "research",
-                "Training Needs Assessment",
-                "needs assessment"
+                "research"
             ],
+            "times_cited": 0,
             "title": "Child Maltreatment Knowledge and Responses Among Teachers: A Training Needs Assessment",
             "type": "article",
             "volume": "11",
@@ -3912,6 +4109,14 @@
                 "count": 1,
                 "rank_score": 0.1219165107499891
             },
+            "future directions": {
+                "count": 1,
+                "rank_score": 0.06106994820677428
+            },
+            "gaps": {
+                "count": 2,
+                "rank_score": 0.05889124875231439
+            },
             "identified factors": {
                 "count": 1,
                 "rank_score": 0.07526650045183325
@@ -3919,6 +4124,10 @@
             "knowledge gaps": {
                 "count": 1,
                 "rank_score": 0.08096367120705984
+            },
+            "limited skills": {
+                "count": 1,
+                "rank_score": 0.06311659979583473
             },
             "maltreated children": {
                 "count": 2,
@@ -3928,13 +4137,37 @@
                 "count": 1,
                 "rank_score": 0.10075942239282383
             },
+            "maltreatment-related behaviour": {
+                "count": 1,
+                "rank_score": 0.06550820855064811
+            },
             "maltreatment-related knowledge": {
                 "count": 1,
                 "rank_score": 0.07156833534005835
             },
+            "multi-informant assessment": {
+                "count": 1,
+                "rank_score": 0.06173307405038343
+            },
             "multi-level factors": {
                 "count": 1,
                 "rank_score": 0.09714175996053973
+            },
+            "other professionals": {
+                "count": 1,
+                "rank_score": 0.06727220769191103
+            },
+            "other supports": {
+                "count": 1,
+                "rank_score": 0.06439562754669433
+            },
+            "school": {
+                "count": 1,
+                "rank_score": 0.058322804187594265
+            },
+            "school staff": {
+                "count": 1,
+                "rank_score": 0.06846256864679698
             },
             "suspected maltreatment": {
                 "count": 1,
@@ -3955,6 +4188,10 @@
             "teachers’ maltreatment-related knowledge": {
                 "count": 1,
                 "rank_score": 0.07431378510343563
+            },
+            "teachers’ responses": {
+                "count": 1,
+                "rank_score": 0.07141663964273902
             },
             "teachers’ training participation": {
                 "count": 1,
@@ -4334,6 +4571,10 @@
                 "count": 3,
                 "rank_score": 0.06422075296309165
             },
+            "case records": {
+                "count": 1,
+                "rank_score": 0.05987972392663079
+            },
             "child abuse investigations": {
                 "count": 1,
                 "rank_score": 0.073918275287754
@@ -4362,21 +4603,53 @@
                 "count": 1,
                 "rank_score": 0.06618948998202007
             },
+            "emergency health care utilization": {
+                "count": 1,
+                "rank_score": 0.061792166628860425
+            },
             "families": {
                 "count": 4,
                 "rank_score": 0.06768989209560541
+            },
+            "fc brief universal program": {
+                "count": 1,
+                "rank_score": 0.05310514754679944
+            },
+            "health and child protective services records": {
+                "count": 1,
+                "rank_score": 0.058225591521299996
             },
             "intervention penetration": {
                 "count": 1,
                 "rank_score": 0.06805342400891885
             },
+            "interventions": {
+                "count": 2,
+                "rank_score": 0.05830563172517464
+            },
             "maternal mental health": {
                 "count": 1,
                 "rank_score": 0.0698744575893363
             },
+            "maternal postpartum care compliance": {
+                "count": 1,
+                "rank_score": 0.06331154344687749
+            },
+            "nurse home visitation program": {
+                "count": 1,
+                "rank_score": 0.05357438647738814
+            },
             "other communities": {
                 "count": 1,
                 "rank_score": 0.07210299254149151
+            },
+            "possible maternal anxiety": {
+                "count": 1,
+                "rank_score": 0.0605099736134323
+            },
+            "postnatal home visitation": {
+                "count": 1,
+                "rank_score": 0.059309953572569074
             },
             "program penetration": {
                 "count": 1,
@@ -4385,6 +4658,10 @@
             "sustained community connections": {
                 "count": 1,
                 "rank_score": 0.07226197228821776
+            },
+            "university efficacy studies": {
+                "count": 1,
+                "rank_score": 0.05350577188581773
             }
         },
         "original": {
@@ -4411,6 +4688,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Joshua T B",
+                        "initials": "",
                         "last_name": "Williams",
                         "orcid": "",
                         "researcher_id": ""
@@ -4427,6 +4705,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Joshua T B",
+                    "initials": "",
                     "last_name": "Williams",
                     "orcid": "",
                     "researcher_id": ""
@@ -4450,6 +4729,7 @@
                     "name": "14 Economics"
                 }
             ],
+            "category_sdg": [],
             "concepts": [
                 "pediatricians",
                 "vision",
@@ -4475,10 +4755,19 @@
                 "title": "Health Affairs"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
+                "ERA 2015",
                 "VABB-SHW",
+                "ERA 2018",
                 "PubMed"
+            ],
+            "noun_phrases": [
+                "measles",
+                "mumps",
+                "vaccine",
+                "pediatrician",
+                "Ocular Vision",
+                "public health"
             ],
             "open_access_categories": [
                 {
@@ -4490,6 +4779,10 @@
             "pages": "1944-1947",
             "pmid": "31682514",
             "publisher": "Health Affairs",
+            "recent_citations": 0,
+            "research_org_names": [
+                "Joshua T. B. Williams ( Joshua. Williams@dhha. org ) is a general pediatrician at Denver Health Medical Center and an assistant professor of pediatrics at the University of Colorado School of Medicine, in Denver, Colorado. He thanks Annie Dominguez, Abraham Nussbaum, and Romana Hasnain-Wynia for their thoughtful and constructive feedback on earlier versions of this essay."
+            ],
             "terms": [
                 "pediatricians",
                 "vision",
@@ -4501,6 +4794,7 @@
                 "measles",
                 "mumps"
             ],
+            "times_cited": 0,
             "title": "Measles, Mumps, And Communion: A Vision For Vaccine Policy",
             "type": "article",
             "volume": "38",
@@ -4632,10 +4926,6 @@
         },
         "doi": "10.1377/hlthaff.2019.00446",
         "keyphrases": {
-            "a vision": {
-                "count": 1,
-                "rank_score": 0.08522736504017557
-            },
             "pediatrician": {
                 "count": 2,
                 "rank_score": 0.12171660165281781
@@ -4651,6 +4941,10 @@
             "vaccine policy": {
                 "count": 1,
                 "rank_score": 0.1879850626359893
+            },
+            "vision": {
+                "count": 1,
+                "rank_score": 0.08522736504017557
             }
         },
         "original": {
@@ -4888,21 +5182,53 @@
                 "count": 1,
                 "rank_score": 0.07064545596497934
             },
+            "education": {
+                "count": 1,
+                "rank_score": 0.061585822640161665
+            },
             "gestational age": {
                 "count": 3,
                 "rank_score": 0.1054662462728245
+            },
+            "gestational ages association": {
+                "count": 1,
+                "rank_score": 0.06628415225907876
             },
             "gestational week": {
                 "count": 1,
                 "rank_score": 0.09379033301083226
             },
+            "high school": {
+                "count": 1,
+                "rank_score": 0.060351464761231544
+            },
             "higher levels": {
                 "count": 1,
                 "rank_score": 0.06962502007466938
             },
+            "kindergarten-level literacy skills": {
+                "count": 1,
+                "rank_score": 0.05509732817176963
+            },
             "later academic performance": {
                 "count": 1,
                 "rank_score": 0.06879475189086824
+            },
+            "longitudinal wisconsin birth cohort": {
+                "count": 1,
+                "rank_score": 0.05570920888825041
+            },
+            "medicaid coverage": {
+                "count": 1,
+                "rank_score": 0.06601279903868126
+            },
+            "medicaid-covered births": {
+                "count": 1,
+                "rank_score": 0.05318083962803406
+            },
+            "multivariable linear regressions": {
+                "count": 1,
+                "rank_score": 0.0578093690570615
             },
             "non-medicaid": {
                 "count": 2,
@@ -4923,6 +5249,14 @@
             "shorter gestational age": {
                 "count": 1,
                 "rank_score": 0.10062107578808227
+            },
+            "standardised scores": {
+                "count": 2,
+                "rank_score": 0.05932078044019646
+            },
+            "weeks": {
+                "count": 1,
+                "rank_score": 0.060128566664445694
             },
             "worse academic performance": {
                 "count": 1,
@@ -5052,9 +5386,21 @@
         },
         "doi": "10.1007/s10803-019-04190-y",
         "keyphrases": {
+            "acceptability": {
+                "count": 1,
+                "rank_score": 0.030146519030228403
+            },
             "autism": {
                 "count": 1,
                 "rank_score": 0.08145521865091429
+            },
+            "autism intervention literature": {
+                "count": 1,
+                "rank_score": 0.06853909815657773
+            },
+            "caseload": {
+                "count": 1,
+                "rank_score": 0.029931784600644912
             },
             "contextual alignment": {
                 "count": 1,
@@ -5063,6 +5409,14 @@
             "evidence-based practice": {
                 "count": 2,
                 "rank_score": 0.07507288885912569
+            },
+            "feasibility": {
+                "count": 1,
+                "rank_score": 0.055368995079556546
+            },
+            "frequency": {
+                "count": 1,
+                "rank_score": 0.055188581350494405
             },
             "greater knowledge": {
                 "count": 1,
@@ -5076,9 +5430,9 @@
                 "count": 1,
                 "rank_score": 0.07884192940306399
             },
-            "knowledge": {
+            "its relationship": {
                 "count": 1,
-                "rank_score": 0.09619757559815803
+                "rank_score": 0.029787114726878186
             },
             "knowledge level": {
                 "count": 1,
@@ -5088,6 +5442,14 @@
                 "count": 1,
                 "rank_score": 0.07047045830324196
             },
+            "modeling": {
+                "count": 1,
+                "rank_score": 0.054329021565869835
+            },
+            "more frequent use": {
+                "count": 1,
+                "rank_score": 0.04987074270378093
+            },
             "more students": {
                 "count": 1,
                 "rank_score": 0.08674737326679408
@@ -5096,21 +5458,33 @@
                 "count": 3,
                 "rank_score": 0.09320692135088873
             },
+            "prompting": {
+                "count": 1,
+                "rank_score": 0.06276509600614265
+            },
             "regression analysis": {
                 "count": 1,
                 "rank_score": 0.07065087231208042
+            },
+            "reinforcement": {
+                "count": 1,
+                "rank_score": 0.059375409154128846
             },
             "social validity": {
                 "count": 3,
                 "rank_score": 0.12368310754120088
             },
-            "use": {
-                "count": 2,
-                "rank_score": 0.07394888239189994
+            "teachers implementation": {
+                "count": 1,
+                "rank_score": 0.04250177391121956
             },
             "visual supports": {
                 "count": 1,
                 "rank_score": 0.07568591214404781
+            },
+            "vital role": {
+                "count": 1,
+                "rank_score": 0.047253868715861555
             }
         },
         "original": {
@@ -5172,6 +5546,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.189504.1",
                         "first_name": "Ariel",
+                        "initials": "",
                         "last_name": "Tichnor-Wagner",
                         "orcid": "",
                         "researcher_id": "ur.013434213535.96"
@@ -5195,6 +5570,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.189504.1",
                     "first_name": "Ariel",
+                    "initials": "",
                     "last_name": "Tichnor-Wagner",
                     "orcid": "",
                     "researcher_id": "ur.013434213535.96"
@@ -5214,6 +5590,7 @@
                     "name": "13 Education"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30023",
@@ -5232,8 +5609,7 @@
                 "focus",
                 "math achievement",
                 "achievement",
-                "social–emotional learning",
-                "emotional learning",
+                "social-emotional learning",
                 "learning",
                 "coursework",
                 "students",
@@ -5247,7 +5623,6 @@
                 "implementers",
                 "global education",
                 "education",
-                "teaching",
                 "subject areas",
                 "area",
                 "qualitative comparative case study",
@@ -5255,17 +5630,22 @@
                 "case study",
                 "education implementation",
                 "implementation",
-                "will",
                 "building capacity",
                 "organization",
                 "specific strategies",
                 "strategies",
                 "preferences",
+                "down",
+                "bottom approach",
+                "approach",
+                "system changes",
+                "changes",
                 "common strategy",
-                "specific way",
+                "specific ways",
                 "way",
                 "district leaders",
                 "agencies",
+                "teaching",
                 "twenty-first century skills",
                 "century skills",
                 "skills",
@@ -5274,8 +5654,6 @@
                 "new questions",
                 "questions",
                 "implementation approach",
-                "approach",
-                "changes",
                 "schools",
                 "classroom"
             ],
@@ -5293,10 +5671,43 @@
                 "title": "Journal of Educational Change"
             },
             "journal_lists": [
-                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018",
                 "Norwegian register level 2",
-                "ERIH PLUS",
-                "VABB-SHW"
+                "ERA 2015",
+                "ERIH PLUS"
+            ],
+            "noun_phrases": [
+                "district",
+                "implementing",
+                "comparative case study",
+                "Education",
+                "reform",
+                "reading",
+                "math achievement",
+                "coursework",
+                "college",
+                "career",
+                "citizenship",
+                "study address",
+                "leader",
+                "school district",
+                "mid-level",
+                "subject area",
+                "implementation",
+                "building capacity",
+                "specific strategy",
+                "preference",
+                "top-down",
+                "bottom",
+                "system change",
+                "common strategy",
+                "specific way",
+                "skill",
+                "interconnected world",
+                "implementation approach",
+                "school",
+                "classroom"
             ],
             "open_access_categories": [
                 {
@@ -5307,87 +5718,88 @@
             ],
             "pages": "495-525",
             "publisher": "Springer Nature",
+            "recent_citations": 1,
             "reference_ids": [
-                "pub.1070972052",
-                "pub.1070971607",
-                "pub.1070966977",
-                "pub.1070970389",
-                "pub.1009226850",
-                "pub.1012219245",
-                "pub.1048702082",
-                "pub.1034788243",
-                "pub.1067332022",
-                "pub.1008045776",
-                "pub.1020520904",
-                "pub.1070971969",
-                "pub.1035740538",
-                "pub.1058801177",
-                "pub.1007798462",
-                "pub.1017643273",
-                "pub.1016438708",
-                "pub.1099010633",
-                "pub.1003605203",
-                "pub.1070971579",
-                "pub.1002557441",
-                "pub.1011434968",
-                "pub.1008222943",
-                "pub.1024915515",
-                "pub.1070971518",
-                "pub.1019650229",
-                "pub.1058729181",
-                "pub.1026599671",
-                "pub.1053861507",
-                "pub.1048742853",
-                "pub.1070970471",
-                "pub.1050843749",
                 "pub.1012759119",
-                "pub.1019072131",
-                "pub.1042284502",
-                "pub.1070971922",
-                "pub.1045136698",
+                "pub.1019650229",
+                "pub.1020520904",
+                "pub.1050843749",
+                "pub.1007798462",
+                "pub.1070971579",
+                "pub.1099010633",
                 "pub.1070966988",
-                "pub.1046210786"
+                "pub.1045136698",
+                "pub.1070970389",
+                "pub.1070966977",
+                "pub.1019072131",
+                "pub.1070971969",
+                "pub.1046210786",
+                "pub.1009226850",
+                "pub.1016438708",
+                "pub.1012219245",
+                "pub.1058729181",
+                "pub.1070972052",
+                "pub.1008045776",
+                "pub.1048702082",
+                "pub.1070971922",
+                "pub.1058801177",
+                "pub.1067332022",
+                "pub.1026599671",
+                "pub.1002557441",
+                "pub.1053861507",
+                "pub.1003605203",
+                "pub.1035740538",
+                "pub.1070970471",
+                "pub.1034788243",
+                "pub.1008222943",
+                "pub.1048742853",
+                "pub.1011434968",
+                "pub.1042284502",
+                "pub.1024915515",
+                "pub.1017643273",
+                "pub.1070971518",
+                "pub.1070971607"
             ],
             "references": [
-                "pub.1070972052",
-                "pub.1070971607",
-                "pub.1070966977",
-                "pub.1070970389",
-                "pub.1009226850",
-                "pub.1012219245",
-                "pub.1048702082",
-                "pub.1034788243",
-                "pub.1067332022",
-                "pub.1008045776",
-                "pub.1020520904",
-                "pub.1070971969",
-                "pub.1035740538",
-                "pub.1058801177",
-                "pub.1007798462",
-                "pub.1017643273",
-                "pub.1016438708",
-                "pub.1099010633",
-                "pub.1003605203",
-                "pub.1070971579",
-                "pub.1002557441",
-                "pub.1011434968",
-                "pub.1008222943",
-                "pub.1024915515",
-                "pub.1070971518",
-                "pub.1019650229",
-                "pub.1058729181",
-                "pub.1026599671",
-                "pub.1053861507",
-                "pub.1048742853",
-                "pub.1070970471",
-                "pub.1050843749",
                 "pub.1012759119",
-                "pub.1019072131",
-                "pub.1042284502",
-                "pub.1070971922",
-                "pub.1045136698",
+                "pub.1019650229",
+                "pub.1020520904",
+                "pub.1050843749",
+                "pub.1007798462",
+                "pub.1070971579",
+                "pub.1099010633",
                 "pub.1070966988",
-                "pub.1046210786"
+                "pub.1045136698",
+                "pub.1070970389",
+                "pub.1070966977",
+                "pub.1019072131",
+                "pub.1070971969",
+                "pub.1046210786",
+                "pub.1009226850",
+                "pub.1016438708",
+                "pub.1012219245",
+                "pub.1058729181",
+                "pub.1070972052",
+                "pub.1008045776",
+                "pub.1048702082",
+                "pub.1070971922",
+                "pub.1058801177",
+                "pub.1067332022",
+                "pub.1026599671",
+                "pub.1002557441",
+                "pub.1053861507",
+                "pub.1003605203",
+                "pub.1035740538",
+                "pub.1070970471",
+                "pub.1034788243",
+                "pub.1008222943",
+                "pub.1048742853",
+                "pub.1011434968",
+                "pub.1042284502",
+                "pub.1024915515",
+                "pub.1017643273",
+                "pub.1070971518",
+                "pub.1070971607"
             ],
             "research_org_cities": [
                 {
@@ -5403,6 +5815,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Boston University"
             ],
             "research_org_state_codes": [
                 {
@@ -5437,10 +5852,10 @@
                     "id": "ur.013434213535.96",
                     "last_name": "Tichnor-Wagner",
                     "research_orgs": [
-                        "grid.189504.1",
                         "grid.10698.36",
-                        "grid.410711.2",
-                        "grid.487542.8"
+                        "grid.189504.1",
+                        "grid.487542.8",
+                        "grid.410711.2"
                     ]
                 }
             ],
@@ -5450,8 +5865,7 @@
                 "focus",
                 "math achievement",
                 "achievement",
-                "social–emotional learning",
-                "emotional learning",
+                "social-emotional learning",
                 "learning",
                 "coursework",
                 "students",
@@ -5465,7 +5879,6 @@
                 "implementers",
                 "global education",
                 "education",
-                "teaching",
                 "subject areas",
                 "area",
                 "qualitative comparative case study",
@@ -5473,17 +5886,22 @@
                 "case study",
                 "education implementation",
                 "implementation",
-                "will",
                 "building capacity",
                 "organization",
                 "specific strategies",
                 "strategies",
                 "preferences",
+                "down",
+                "bottom approach",
+                "approach",
+                "system changes",
+                "changes",
                 "common strategy",
-                "specific way",
+                "specific ways",
                 "way",
                 "district leaders",
                 "agencies",
+                "teaching",
                 "twenty-first century skills",
                 "century skills",
                 "skills",
@@ -5492,11 +5910,10 @@
                 "new questions",
                 "questions",
                 "implementation approach",
-                "approach",
-                "changes",
                 "schools",
                 "classroom"
             ],
+            "times_cited": 1,
             "title": "District agency in implementing instructional reform: A comparative case study of global education",
             "type": "article",
             "volume": "20",
@@ -5599,6 +6016,14 @@
         },
         "doi": "10.1007/s10833-019-09346-2",
         "keyphrases": {
+            "agency": {
+                "count": 1,
+                "rank_score": 0.05048202773100924
+            },
+            "both districts": {
+                "count": 1,
+                "rank_score": 0.046203756888830244
+            },
             "building capacity": {
                 "count": 1,
                 "rank_score": 0.059655369703439966
@@ -5606,6 +6031,10 @@
             "common strategies": {
                 "count": 1,
                 "rank_score": 0.0651110603819531
+            },
+            "coursework": {
+                "count": 1,
+                "rank_score": 0.04865022368297141
             },
             "district leaders": {
                 "count": 1,
@@ -5643,9 +6072,29 @@
                 "count": 1,
                 "rank_score": 0.07621501383421359
             },
+            "new questions": {
+                "count": 1,
+                "rank_score": 0.05839138375543311
+            },
+            "preferences": {
+                "count": 1,
+                "rank_score": 0.048248064186808076
+            },
+            "qualitative comparative case study": {
+                "count": 1,
+                "rank_score": 0.05748953317534767
+            },
+            "reading": {
+                "count": 1,
+                "rank_score": 0.05253071159180692
+            },
             "schools": {
                 "count": 1,
                 "rank_score": 0.06935403720207192
+            },
+            "social–emotional learning": {
+                "count": 1,
+                "rank_score": 0.05123943706184588
             },
             "specific strategies": {
                 "count": 1,
@@ -5655,9 +6104,17 @@
                 "count": 1,
                 "rank_score": 0.07151162716345241
             },
+            "students": {
+                "count": 2,
+                "rank_score": 0.05423647343847672
+            },
             "two school districts": {
                 "count": 2,
                 "rank_score": 0.06036704902148171
+            },
+            "which district-level implementation approaches": {
+                "count": 1,
+                "rank_score": 0.056250079596425785
             }
         },
         "original": {
@@ -5703,6 +6160,7 @@
                     "name": "Pediatric"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -5721,6 +6179,7 @@
                         "corresponding": true,
                         "current_organization_id": "",
                         "first_name": "Ron",
+                        "initials": "",
                         "last_name": "Shadbegian",
                         "orcid": "",
                         "researcher_id": ""
@@ -5741,6 +6200,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Dennis",
+                        "initials": "",
                         "last_name": "Guignet",
                         "orcid": "",
                         "researcher_id": ""
@@ -5761,6 +6221,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.418698.a",
                         "first_name": "Heather",
+                        "initials": "",
                         "last_name": "Klemick",
                         "orcid": "['0000-0003-2141-2023']",
                         "researcher_id": "ur.015614052655.91"
@@ -5781,6 +6242,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Linda",
+                        "initials": "",
                         "last_name": "Bui",
                         "orcid": "",
                         "researcher_id": ""
@@ -5804,6 +6266,7 @@
                     "corresponding": true,
                     "current_organization_id": "",
                     "first_name": "Ron",
+                    "initials": "",
                     "last_name": "Shadbegian",
                     "orcid": "",
                     "researcher_id": ""
@@ -5824,6 +6287,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Dennis",
+                    "initials": "",
                     "last_name": "Guignet",
                     "orcid": "",
                     "researcher_id": ""
@@ -5844,6 +6308,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.418698.a",
                     "first_name": "Heather",
+                    "initials": "",
                     "last_name": "Klemick",
                     "orcid": "['0000-0003-2141-2023']",
                     "researcher_id": "ur.015614052655.91"
@@ -5864,6 +6329,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Linda",
+                    "initials": "",
                     "last_name": "Bui",
                     "orcid": "",
                     "researcher_id": ""
@@ -5901,6 +6367,7 @@
                     "name": "Pediatric"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30023",
@@ -5920,32 +6387,32 @@
                 "lead exposure",
                 "exposure",
                 "behavioral effects",
-                "effects",
+                "effect",
                 "blood lead levels",
-                "lead levels",
                 "levels",
                 "extent",
+                "exposure persist",
+                "persist",
                 "grade",
                 "educational performance",
                 "grade 3",
                 "low grade",
                 "children",
                 "schools",
-                "patterns",
                 "persistence",
                 "data",
                 "North Carolina",
                 "Carolina",
-                "age 0",
+                "ages 0",
                 "years",
                 "standardized math",
+                "math",
+                "reading scores",
                 "scores",
-                "socio",
                 "school information",
                 "information",
                 "early childhood exposure",
                 "childhood exposure",
-                "low lead levels",
                 "persistent deficits",
                 "deficits",
                 "higher blood lead levels",
@@ -6000,10 +6467,65 @@
                 "title": "Environmental Research"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 2",
+                "ERA 2015",
                 "VABB-SHW",
+                "ERA 2018",
                 "PubMed"
+            ],
+            "mesh_terms": [
+                "Academic Performance",
+                "Adolescent",
+                "Adult",
+                "Child",
+                "Child, Preschool",
+                "Environmental Exposure",
+                "Female",
+                "Humans",
+                "Lead",
+                "Lead Poisoning",
+                "Male",
+                "North Carolina",
+                "Schools",
+                "Young Adult"
+            ],
+            "noun_phrases": [
+                "early childhood",
+                "exposure",
+                "persistence",
+                "consequence",
+                "consensus",
+                "behavioral effect",
+                "blood level",
+                "blood",
+                "childhood",
+                "grade",
+                "childhood exposure",
+                "educational performance",
+                "grade 3-8",
+                "low grade",
+                "progress",
+                "school",
+                "pattern",
+                "method",
+                "child",
+                "North Carolina",
+                "age",
+                "math",
+                "reading",
+                "panel",
+                "observation",
+                "technique",
+                "control",
+                "confounding effect",
+                "deficit",
+                "average",
+                "score",
+                "primary model",
+                "conclusion",
+                "adverse effect",
+                "early adolescence",
+                "magnitude"
             ],
             "open_access_categories": [
                 {
@@ -6013,76 +6535,77 @@
                 }
             ],
             "pages": "108643",
+            "pmcid": "PMC7038535",
             "pmid": "31473504",
             "publisher": "Elsevier",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1046562002",
-                "pub.1019829011",
-                "pub.1090764477",
-                "pub.1025019267",
-                "pub.1028007919",
-                "pub.1031472249",
-                "pub.1013665652",
-                "pub.1024068583",
-                "pub.1021648061",
-                "pub.1078774352",
+                "pub.1068876589",
                 "pub.1100180882",
-                "pub.1014925285",
+                "pub.1105158624",
                 "pub.1015540051",
-                "pub.1084005725",
-                "pub.1040111211",
+                "pub.1013665652",
                 "pub.1050816808",
-                "pub.1015100642",
+                "pub.1046562002",
+                "pub.1070970442",
+                "pub.1062769952",
+                "pub.1090764477",
+                "pub.1041840521",
+                "pub.1031472249",
+                "pub.1068846341",
+                "pub.1018271768",
+                "pub.1029331638",
+                "pub.1024068583",
+                "pub.1005741663",
+                "pub.1028007919",
+                "pub.1078774352",
+                "pub.1019829011",
+                "pub.1025019267",
                 "pub.1064526407",
                 "pub.1037423496",
-                "pub.1068876589",
-                "pub.1005741663",
-                "pub.1070970442",
-                "pub.1048615162",
-                "pub.1025478177",
-                "pub.1029331638",
                 "pub.1076467473",
-                "pub.1041840521",
-                "pub.1062769952",
+                "pub.1025478177",
+                "pub.1021648061",
+                "pub.1015100642",
+                "pub.1048615162",
                 "pub.1002371961",
-                "pub.1105158624",
-                "pub.1018271768",
-                "pub.1068846341"
+                "pub.1084005725",
+                "pub.1040111211",
+                "pub.1014925285"
             ],
             "references": [
-                "pub.1046562002",
-                "pub.1019829011",
-                "pub.1090764477",
-                "pub.1025019267",
-                "pub.1028007919",
-                "pub.1031472249",
-                "pub.1013665652",
-                "pub.1024068583",
-                "pub.1021648061",
-                "pub.1078774352",
+                "pub.1068876589",
                 "pub.1100180882",
-                "pub.1014925285",
+                "pub.1105158624",
                 "pub.1015540051",
-                "pub.1084005725",
-                "pub.1040111211",
+                "pub.1013665652",
                 "pub.1050816808",
-                "pub.1015100642",
+                "pub.1046562002",
+                "pub.1070970442",
+                "pub.1062769952",
+                "pub.1090764477",
+                "pub.1041840521",
+                "pub.1031472249",
+                "pub.1068846341",
+                "pub.1018271768",
+                "pub.1029331638",
+                "pub.1024068583",
+                "pub.1005741663",
+                "pub.1028007919",
+                "pub.1078774352",
+                "pub.1019829011",
+                "pub.1025019267",
                 "pub.1064526407",
                 "pub.1037423496",
-                "pub.1068876589",
-                "pub.1005741663",
-                "pub.1070970442",
-                "pub.1048615162",
-                "pub.1025478177",
-                "pub.1029331638",
                 "pub.1076467473",
-                "pub.1041840521",
-                "pub.1062769952",
+                "pub.1025478177",
+                "pub.1021648061",
+                "pub.1015100642",
+                "pub.1048615162",
                 "pub.1002371961",
-                "pub.1105158624",
-                "pub.1018271768",
-                "pub.1068846341"
+                "pub.1084005725",
+                "pub.1040111211",
+                "pub.1014925285"
             ],
             "research_org_cities": [
                 {
@@ -6107,40 +6630,45 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Appalachian State University",
+                "Environmental Protection Agency",
+                "Brandeis University"
+            ],
             "research_org_state_codes": [
                 {
                     "id": "US-MA",
                     "name": "Massachusetts"
                 },
                 {
-                    "id": "US-NC",
-                    "name": "North Carolina"
-                },
-                {
                     "id": "US-DC",
                     "name": "District of Columbia"
+                },
+                {
+                    "id": "US-NC",
+                    "name": "North Carolina"
                 }
             ],
             "research_org_state_names": [
                 "Massachusetts",
-                "District of Columbia",
-                "North Carolina"
+                "North Carolina",
+                "District of Columbia"
             ],
             "research_orgs": [
                 {
-                    "acronym": "ASU",
-                    "city_name": "Boone",
+                    "acronym": "EPA",
+                    "city_name": "Washington D.C.",
                     "country_name": "United States",
-                    "id": "grid.252323.7",
-                    "latitude": 36.213844,
+                    "id": "grid.418698.a",
+                    "latitude": 38.89374,
                     "linkout": [
-                        "http://www.appstate.edu/"
+                        "http://www2.epa.gov/"
                     ],
-                    "longitude": -81.67862,
-                    "name": "Appalachian State University",
-                    "state_name": "North Carolina",
+                    "longitude": -77.03043,
+                    "name": "Environmental Protection Agency",
+                    "state_name": "District of Columbia",
                     "types": [
-                        "Education"
+                        "Government"
                     ]
                 },
                 {
@@ -6159,19 +6687,19 @@
                     ]
                 },
                 {
-                    "acronym": "EPA",
-                    "city_name": "Washington D.C.",
+                    "acronym": "ASU",
+                    "city_name": "Boone",
                     "country_name": "United States",
-                    "id": "grid.418698.a",
-                    "latitude": 38.89374,
+                    "id": "grid.252323.7",
+                    "latitude": 36.213844,
                     "linkout": [
-                        "http://www2.epa.gov/"
+                        "http://www.appstate.edu/"
                     ],
-                    "longitude": -77.03043,
-                    "name": "Environmental Protection Agency",
-                    "state_name": "District of Columbia",
+                    "longitude": -81.67862,
+                    "name": "Appalachian State University",
+                    "state_name": "North Carolina",
                     "types": [
-                        "Government"
+                        "Education"
                     ]
                 }
             ],
@@ -6195,32 +6723,32 @@
                 "lead exposure",
                 "exposure",
                 "behavioral effects",
-                "effects",
+                "effect",
                 "blood lead levels",
-                "lead levels",
                 "levels",
                 "extent",
+                "exposure persist",
+                "persist",
                 "grade",
                 "educational performance",
                 "grade 3",
                 "low grade",
                 "children",
                 "schools",
-                "patterns",
                 "persistence",
                 "data",
                 "North Carolina",
                 "Carolina",
-                "age 0",
+                "ages 0",
                 "years",
                 "standardized math",
+                "math",
+                "reading scores",
                 "scores",
-                "socio",
                 "school information",
                 "information",
                 "early childhood exposure",
                 "childhood exposure",
-                "low lead levels",
                 "persistent deficits",
                 "deficits",
                 "higher blood lead levels",
@@ -7013,9 +7541,21 @@
         },
         "doi": "10.1016/j.envres.2019.108643",
         "keyphrases": {
+            "adverse cognitive and behavioral effects": {
+                "count": 1,
+                "rank_score": 0.06315043791982373
+            },
+            "adverse effects": {
+                "count": 1,
+                "rank_score": 0.05495411594632196
+            },
             "average, lower percentile scores": {
                 "count": 1,
                 "rank_score": 0.0722044070596181
+            },
+            "bll": {
+                "count": 2,
+                "rank_score": 0.05689866938192663
             },
             "blood lead levels": {
                 "count": 1,
@@ -7049,9 +7589,13 @@
                 "count": 2,
                 "rank_score": 0.14000378424364351
             },
-            "effects": {
-                "count": 3,
-                "rank_score": 0.08245396702744986
+            "educational performance": {
+                "count": 2,
+                "rank_score": 0.06444868652741774
+            },
+            "grades": {
+                "count": 7,
+                "rank_score": 0.0721281629088113
             },
             "higher blood lead levels": {
                 "count": 1,
@@ -7069,9 +7613,33 @@
                 "count": 1,
                 "rank_score": 0.10164148714494363
             },
+            "matching techniques": {
+                "count": 1,
+                "rank_score": 0.06195519431904939
+            },
+            "math": {
+                "count": 2,
+                "rank_score": 0.055806705530258266
+            },
+            "north carolina": {
+                "count": 2,
+                "rank_score": 0.05586316315248932
+            },
+            "percentiles": {
+                "count": 1,
+                "rank_score": 0.06200999830146032
+            },
             "persistent deficits": {
                 "count": 1,
                 "rank_score": 0.07457516562103199
+            },
+            "school": {
+                "count": 2,
+                "rank_score": 0.06198282046036768
+            },
+            "scores": {
+                "count": 1,
+                "rank_score": 0.07098003879788539
             }
         },
         "original": {
@@ -8965,29 +9533,17 @@
         },
         "doi": "10.1177/2167702619859336",
         "keyphrases": {
-            "(t1": {
-                "count": 1,
-                "rank_score": 0.041941074010264486
-            },
-            "388": {
-                "count": 2,
-                "rank_score": 0.0
-            },
-            "388 adolescents’ digital technology use": {
-                "count": 1,
-                "rank_score": 0.10395139626385777
-            },
             "adolescents": {
                 "count": 1,
                 "rank_score": 0.14766302851861182
             },
-            "an initial time": {
-                "count": 1,
-                "rank_score": 0.09240159152399335
-            },
             "early adolescence": {
                 "count": 1,
                 "rank_score": 0.15616970575124062
+            },
+            "initial time": {
+                "count": 1,
+                "rank_score": 0.09240159152399335
             },
             "mental-health symptoms": {
                 "count": 1,
@@ -8996,10 +9552,6 @@
             "midadolescence": {
                 "count": 1,
                 "rank_score": 0.09486056947941703
-            },
-            "this study": {
-                "count": 1,
-                "rank_score": 0.04386332810618281
             }
         },
         "original": {

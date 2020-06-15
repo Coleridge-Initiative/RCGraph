@@ -39,6 +39,7 @@
                     "name": "Behavioral and Social Science"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -57,6 +58,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.36425.36",
                         "first_name": "Carrie L.",
+                        "initials": "",
                         "last_name": "Shandra",
                         "orcid": "['0000-0003-0901-0750']",
                         "researcher_id": "ur.0627555625.51"
@@ -80,6 +82,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.36425.36",
                     "first_name": "Carrie L.",
+                    "initials": "",
                     "last_name": "Shandra",
                     "orcid": "['0000-0003-0901-0750']",
                     "researcher_id": "ur.0627555625.51"
@@ -133,6 +136,7 @@
                     "name": "Behavioral and Social Science"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30002",
@@ -147,27 +151,26 @@
             ],
             "concepts": [
                 "population-level estimates",
-                "level estimates",
-                "patients",
+                "patient-reported time",
                 "medical care",
                 "care",
                 "United States",
                 "disability status",
                 "status",
                 "likelihood",
-                "average day",
+                "average days",
                 "days",
                 "number of minutes",
                 "number",
                 "minutes",
                 "data",
                 "American Time Use Survey",
-                "Time Use Survey",
                 "Use Survey",
                 "survey",
                 "linear regression models",
                 "regression models",
                 "association",
+                "sensory",
                 "multiple disabilities",
                 "disability",
                 "net of age",
@@ -176,20 +179,20 @@
                 "race/ethnicity",
                 "ethnicity",
                 "education",
-                "employment",
                 "nativity",
                 "marital status",
                 "parental status",
                 "income",
                 "metropolitan area",
+                "self-rated health",
                 "health",
                 "presence",
-                "more total time",
+                "patients",
                 "total time",
                 "differences",
                 "sociodemographic disparities",
                 "disparities",
-                "poor self",
+                "poor self-rated health",
                 "Patient time burden",
                 "time burden",
                 "burden",
@@ -206,15 +209,16 @@
                 "1936-6574",
                 "1876-7583"
             ],
-            "issue": "The American journal of managed care 21 2015",
+            "issue": "3",
             "journal": {
                 "id": "jour.1038666",
                 "title": "Disability and Health Journal"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
+                "ERA 2015",
                 "VABB-SHW",
+                "ERA 2018",
                 "PubMed"
             ],
             "mesh_terms": [
@@ -242,6 +246,40 @@
                 "United States",
                 "Young Adult"
             ],
+            "noun_phrases": [
+                "disability",
+                "self-rated health",
+                "medical care",
+                "population level",
+                "patient",
+                "United State",
+                "disability status",
+                "likelihood",
+                "care",
+                "method",
+                "American Time Use Survey",
+                "linear regression model",
+                "association",
+                "sensory",
+                "net",
+                "age",
+                "sex",
+                "race/ethnicity",
+                "Education",
+                "employment",
+                "nativity",
+                "marital status",
+                "status",
+                "income",
+                "metropolitan area",
+                "total time",
+                "travel time",
+                "difference",
+                "sociodemographics",
+                "conclusion",
+                "social disparity",
+                "delivery"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -252,73 +290,76 @@
             "pages": "394-402",
             "pmid": "30898529",
             "publisher": "Elsevier",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1024112477",
-                "pub.1026159729",
-                "pub.1043958883",
-                "pub.1068847405",
-                "pub.1003396891",
-                "pub.1044808666",
-                "pub.1013455545",
-                "pub.1001453292",
-                "pub.1045674939",
-                "pub.1078965093",
-                "pub.1103362840",
-                "pub.1030989893",
-                "pub.1013369269",
-                "pub.1048111871",
                 "pub.1049157361",
-                "pub.1051268297",
-                "pub.1064753051",
-                "pub.1085217571",
-                "pub.1043954983",
-                "pub.1015259818",
-                "pub.1030488857",
-                "pub.1079137712",
-                "pub.1082824080",
-                "pub.1043344352",
-                "pub.1063924487",
-                "pub.1041687135",
-                "pub.1010943853",
-                "pub.1025846607",
-                "pub.1068568887",
-                "pub.1021743030",
+                "pub.1030989893",
                 "pub.1025234805",
-                "pub.1039538583"
+                "pub.1043958883",
+                "pub.1078965093",
+                "pub.1045674939",
+                "pub.1082824080",
+                "pub.1043954983",
+                "pub.1103362840",
+                "pub.1044808666",
+                "pub.1010943853",
+                "pub.1043344352",
+                "pub.1068568887",
+                "pub.1030488857",
+                "pub.1024112477",
+                "pub.1003396891",
+                "pub.1021743030",
+                "pub.1001453292",
+                "pub.1064753051",
+                "pub.1119842193",
+                "pub.1041687135",
+                "pub.1048111871",
+                "pub.1079137712",
+                "pub.1039538583",
+                "pub.1013369269",
+                "pub.1013455545",
+                "pub.1085217571",
+                "pub.1063924487",
+                "pub.1051268297",
+                "pub.1026159729",
+                "pub.1025846607",
+                "pub.1068847405",
+                "pub.1015259818"
             ],
             "references": [
-                "pub.1024112477",
-                "pub.1026159729",
-                "pub.1043958883",
-                "pub.1068847405",
-                "pub.1003396891",
-                "pub.1044808666",
-                "pub.1013455545",
-                "pub.1001453292",
-                "pub.1045674939",
-                "pub.1078965093",
-                "pub.1103362840",
-                "pub.1030989893",
-                "pub.1013369269",
-                "pub.1048111871",
                 "pub.1049157361",
-                "pub.1051268297",
-                "pub.1064753051",
-                "pub.1085217571",
-                "pub.1043954983",
-                "pub.1015259818",
-                "pub.1030488857",
-                "pub.1079137712",
-                "pub.1082824080",
-                "pub.1043344352",
-                "pub.1063924487",
-                "pub.1041687135",
-                "pub.1010943853",
-                "pub.1025846607",
-                "pub.1068568887",
-                "pub.1021743030",
+                "pub.1030989893",
                 "pub.1025234805",
-                "pub.1039538583"
+                "pub.1043958883",
+                "pub.1078965093",
+                "pub.1045674939",
+                "pub.1082824080",
+                "pub.1043954983",
+                "pub.1103362840",
+                "pub.1044808666",
+                "pub.1010943853",
+                "pub.1043344352",
+                "pub.1068568887",
+                "pub.1030488857",
+                "pub.1024112477",
+                "pub.1003396891",
+                "pub.1021743030",
+                "pub.1001453292",
+                "pub.1064753051",
+                "pub.1119842193",
+                "pub.1041687135",
+                "pub.1048111871",
+                "pub.1079137712",
+                "pub.1039538583",
+                "pub.1013369269",
+                "pub.1013455545",
+                "pub.1085217571",
+                "pub.1063924487",
+                "pub.1051268297",
+                "pub.1026159729",
+                "pub.1025846607",
+                "pub.1068847405",
+                "pub.1015259818"
             ],
             "research_org_cities": [
                 {
@@ -334,6 +375,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Stony Brook University"
             ],
             "research_org_state_codes": [
                 {
@@ -371,35 +415,34 @@
                         "0000-0003-0901-0750"
                     ],
                     "research_orgs": [
-                        "grid.36425.36",
                         "grid.257060.6",
+                        "grid.36425.36",
                         "grid.40263.33"
                     ]
                 }
             ],
             "terms": [
                 "population-level estimates",
-                "level estimates",
-                "patients",
+                "patient-reported time",
                 "medical care",
                 "care",
                 "United States",
                 "disability status",
                 "status",
                 "likelihood",
-                "average day",
+                "average days",
                 "days",
                 "number of minutes",
                 "number",
                 "minutes",
                 "data",
                 "American Time Use Survey",
-                "Time Use Survey",
                 "Use Survey",
                 "survey",
                 "linear regression models",
                 "regression models",
                 "association",
+                "sensory",
                 "multiple disabilities",
                 "disability",
                 "net of age",
@@ -408,20 +451,20 @@
                 "race/ethnicity",
                 "ethnicity",
                 "education",
-                "employment",
                 "nativity",
                 "marital status",
                 "parental status",
                 "income",
                 "metropolitan area",
+                "self-rated health",
                 "health",
                 "presence",
-                "more total time",
+                "patients",
                 "total time",
                 "differences",
                 "sociodemographic disparities",
                 "disparities",
-                "poor self",
+                "poor self-rated health",
                 "Patient time burden",
                 "time burden",
                 "burden",
@@ -430,6 +473,7 @@
                 "equitable care",
                 "Self-Rated Health"
             ],
+            "times_cited": 0,
             "title": "Disability, Self-Rated Health, and Time Seeking Medical Care",
             "type": "article",
             "volume": "12",
@@ -577,10 +621,6 @@
                 "count": 1,
                 "rank_score": 0.0819369410143323
             },
-            "care": {
-                "count": 1,
-                "rank_score": 0.09913097336743681
-            },
             "disabilities": {
                 "count": 3,
                 "rank_score": 0.10033840092021001
@@ -588,6 +628,18 @@
             "disability status": {
                 "count": 3,
                 "rank_score": 0.12039002672118705
+            },
+            "education": {
+                "count": 1,
+                "rank_score": 0.04757036724035761
+            },
+            "employment": {
+                "count": 1,
+                "rank_score": 0.044924518819848824
+            },
+            "income": {
+                "count": 1,
+                "rank_score": 0.051887645011403874
             },
             "longer clinical and travel time": {
                 "count": 1,
@@ -601,9 +653,21 @@
                 "count": 6,
                 "rank_score": 0.12349789610611024
             },
+            "metropolitan area": {
+                "count": 1,
+                "rank_score": 0.056464445721581144
+            },
+            "minutes": {
+                "count": 2,
+                "rank_score": 0.04405795558673962
+            },
             "more total time": {
                 "count": 1,
                 "rank_score": 0.09659260903017666
+            },
+            "nativity": {
+                "count": 1,
+                "rank_score": 0.048024692568126914
             },
             "other social disparities": {
                 "count": 1,
@@ -625,13 +689,33 @@
                 "count": 2,
                 "rank_score": 0.06526812134660137
             },
+            "poorer self-rated health": {
+                "count": 1,
+                "rank_score": 0.057365327245169025
+            },
+            "self-rated health": {
+                "count": 1,
+                "rank_score": 0.05255516908549594
+            },
+            "sex": {
+                "count": 1,
+                "rank_score": 0.04677646380775997
+            },
             "sociodemographic disparities": {
                 "count": 1,
                 "rank_score": 0.07240921357072647
             },
-            "time": {
+            "surveys": {
                 "count": 1,
-                "rank_score": 0.09320311863059874
+                "rank_score": 0.05182147162243145
+            },
+            "timely and equitable care": {
+                "count": 1,
+                "rank_score": 0.061945645376780614
+            },
+            "weighted logistic and linear regression models": {
+                "count": 1,
+                "rank_score": 0.06076162439822836
             }
         },
         "original": {
@@ -684,6 +768,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.438526.e",
                         "first_name": "Wen",
+                        "initials": "",
                         "last_name": "You",
                         "orcid": "['0000-0003-3240-6526']",
                         "researcher_id": "ur.0651561137.92"
@@ -699,11 +784,22 @@
                                 "name": "Virginia Tech",
                                 "state": "Virginia",
                                 "state_code": "US-VA"
+                            },
+                            {
+                                "city": "Blacksburg",
+                                "city_id": 4747845,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.438526.e",
+                                "name": "Virginia Tech",
+                                "state": "Virginia",
+                                "state_code": "US-VA"
                             }
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.438526.e",
                         "first_name": "George C.",
+                        "initials": "",
                         "last_name": "Davis",
                         "orcid": "",
                         "researcher_id": "ur.01243315371.06"
@@ -727,6 +823,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.438526.e",
                     "first_name": "Wen",
+                    "initials": "",
                     "last_name": "You",
                     "orcid": "['0000-0003-3240-6526']",
                     "researcher_id": "ur.0651561137.92"
@@ -742,11 +839,22 @@
                             "name": "Virginia Tech",
                             "state": "Virginia",
                             "state_code": "US-VA"
+                        },
+                        {
+                            "city": "Blacksburg",
+                            "city_id": 4747845,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.438526.e",
+                            "name": "Virginia Tech",
+                            "state": "Virginia",
+                            "state_code": "US-VA"
                         }
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.438526.e",
                     "first_name": "George C.",
+                    "initials": "",
                     "last_name": "Davis",
                     "orcid": "",
                     "researcher_id": "ur.01243315371.06"
@@ -768,6 +876,7 @@
                     "name": "Nutrition"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30014",
@@ -804,11 +913,14 @@
                 "food production",
                 "production",
                 "paper",
-                "multipliers",
+                "time adjustment",
+                "adjustment",
                 "inadequacy",
                 "data",
+                "deficit gap",
                 "time contribution",
                 "contribution",
+                "benefit shortfalls",
                 "shortfall",
                 "findings",
                 "importance",
@@ -826,22 +938,6 @@
                 }
             ],
             "funders": [
-                {
-                    "acronym": "USDA",
-                    "city_name": "Washington D.C.",
-                    "country_name": "United States",
-                    "id": "grid.417548.b",
-                    "latitude": 38.88794,
-                    "linkout": [
-                        "http://www.usda.gov/"
-                    ],
-                    "longitude": -77.03003,
-                    "name": "United States Department of Agriculture",
-                    "state_name": "District of Columbia",
-                    "types": [
-                        "Government"
-                    ]
-                },
                 {
                     "acronym": "NIFA",
                     "city_name": "Washington D.C.",
@@ -872,6 +968,22 @@
                     "types": [
                         "Education"
                     ]
+                },
+                {
+                    "acronym": "USDA",
+                    "city_name": "Washington D.C.",
+                    "country_name": "United States",
+                    "id": "grid.417548.b",
+                    "latitude": 38.88794,
+                    "linkout": [
+                        "http://www.usda.gov/"
+                    ],
+                    "longitude": -77.03003,
+                    "name": "United States Department of Agriculture",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
                 }
             ],
             "id": "pub.1100790625",
@@ -885,9 +997,35 @@
                 "title": "Review of Economics of the Household"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "Time",
+                "food production",
+                "implication",
+                "resource allocation",
+                "important implication",
+                "policy",
+                "welfare",
+                "recent literature",
+                "Food Assistance",
+                "benefit",
+                "diet",
+                "deficit",
+                "gap",
+                "paper",
+                "multiplier",
+                "inadequacy",
+                "method",
+                "limited data",
+                "Family Characteristic",
+                "contribution",
+                "shortfall",
+                "time allocation",
+                "adequacy"
             ],
             "open_access_categories": [
                 {
@@ -900,68 +1038,68 @@
             "publisher": "Springer Nature",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1069843051",
-                "pub.1025577017",
-                "pub.1008926058",
-                "pub.1041974808",
-                "pub.1006305309",
-                "pub.1036078457",
-                "pub.1023398521",
-                "pub.1006867671",
-                "pub.1102715901",
-                "pub.1061933571",
-                "pub.1013790075",
-                "pub.1011827098",
-                "pub.1022157959",
-                "pub.1008383064",
-                "pub.1041904252",
-                "pub.1047218364",
-                "pub.1042334302",
                 "pub.1019628055",
-                "pub.1010085964",
-                "pub.1001916955",
-                "pub.1032439457",
-                "pub.1037183051",
-                "pub.1022165695",
-                "pub.1039987860",
+                "pub.1008926058",
                 "pub.1036752115",
-                "pub.1109732122",
+                "pub.1001916955",
+                "pub.1022157959",
+                "pub.1061933571",
+                "pub.1036078457",
+                "pub.1006305309",
                 "pub.1041778442",
+                "pub.1069843051",
+                "pub.1000490995",
+                "pub.1041904252",
+                "pub.1042334302",
+                "pub.1011827098",
+                "pub.1006867671",
+                "pub.1037183051",
                 "pub.1005910786",
+                "pub.1102715901",
+                "pub.1025577017",
+                "pub.1023398521",
+                "pub.1008383064",
                 "pub.1000863940",
-                "pub.1000490995"
+                "pub.1010085964",
+                "pub.1047218364",
+                "pub.1013790075",
+                "pub.1041974808",
+                "pub.1039987860",
+                "pub.1022165695",
+                "pub.1032439457",
+                "pub.1109732122"
             ],
             "references": [
-                "pub.1069843051",
-                "pub.1025577017",
-                "pub.1008926058",
-                "pub.1041974808",
-                "pub.1006305309",
-                "pub.1036078457",
-                "pub.1023398521",
-                "pub.1006867671",
-                "pub.1102715901",
-                "pub.1061933571",
-                "pub.1013790075",
-                "pub.1011827098",
-                "pub.1022157959",
-                "pub.1008383064",
-                "pub.1041904252",
-                "pub.1047218364",
-                "pub.1042334302",
                 "pub.1019628055",
-                "pub.1010085964",
-                "pub.1001916955",
-                "pub.1032439457",
-                "pub.1037183051",
-                "pub.1022165695",
-                "pub.1039987860",
+                "pub.1008926058",
                 "pub.1036752115",
-                "pub.1109732122",
+                "pub.1001916955",
+                "pub.1022157959",
+                "pub.1061933571",
+                "pub.1036078457",
+                "pub.1006305309",
                 "pub.1041778442",
+                "pub.1069843051",
+                "pub.1000490995",
+                "pub.1041904252",
+                "pub.1042334302",
+                "pub.1011827098",
+                "pub.1006867671",
+                "pub.1037183051",
                 "pub.1005910786",
+                "pub.1102715901",
+                "pub.1025577017",
+                "pub.1023398521",
+                "pub.1008383064",
                 "pub.1000863940",
-                "pub.1000490995"
+                "pub.1010085964",
+                "pub.1047218364",
+                "pub.1013790075",
+                "pub.1041974808",
+                "pub.1039987860",
+                "pub.1022165695",
+                "pub.1032439457",
+                "pub.1109732122"
             ],
             "research_org_cities": [
                 {
@@ -977,6 +1115,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Virginia Tech"
             ],
             "research_org_state_codes": [
                 {
@@ -1050,11 +1191,14 @@
                 "food production",
                 "production",
                 "paper",
-                "multipliers",
+                "time adjustment",
+                "adjustment",
                 "inadequacy",
                 "data",
+                "deficit gap",
                 "time contribution",
                 "contribution",
+                "benefit shortfalls",
                 "shortfall",
                 "findings",
                 "importance",
@@ -1180,25 +1324,41 @@
         },
         "doi": "10.1007/s11150-018-9403-7",
         "keyphrases": {
+            "about $107": {
+                "count": 3,
+                "rank_score": 0.0
+            },
             "account intrahousehold time allocation": {
                 "count": 1,
                 "rank_score": 0.1361889905853311
+            },
+            "adequacy": {
+                "count": 1,
+                "rank_score": 0.02167947472856229
             },
             "adjusted benefits": {
                 "count": 2,
                 "rank_score": 0.1066279672560957
             },
+            "benefit inadequacy": {
+                "count": 1,
+                "rank_score": 0.06193027484773657
+            },
+            "benefit shortfall": {
+                "count": 1,
+                "rank_score": 0.06143822238233089
+            },
             "dual headed households": {
                 "count": 2,
                 "rank_score": 0.13013045784884286
             },
+            "estimated time deficit gap": {
+                "count": 1,
+                "rank_score": 0.09250603859244284
+            },
             "food production": {
                 "count": 2,
                 "rank_score": 0.08212622237390592
-            },
-            "household": {
-                "count": 2,
-                "rank_score": 0.1095247220984309
             },
             "household resources": {
                 "count": 1,
@@ -1212,6 +1372,22 @@
                 "count": 1,
                 "rank_score": 0.09562503293150873
             },
+            "limited data": {
+                "count": 1,
+                "rank_score": 0.05999743994223103
+            },
+            "nutritious diet": {
+                "count": 1,
+                "rank_score": 0.04003207243721577
+            },
+            "policies": {
+                "count": 1,
+                "rank_score": 0.05196608821332147
+            },
+            "recent literature": {
+                "count": 1,
+                "rank_score": 0.06435391380806309
+            },
             "single and dual headed households": {
                 "count": 1,
                 "rank_score": 0.0924616589941183
@@ -1224,21 +1400,21 @@
                 "count": 1,
                 "rank_score": 0.1317989163708239
             },
-            "the estimated time deficit gap": {
-                "count": 1,
-                "rank_score": 0.09250603859244284
-            },
-            "the spousal time contribution": {
+            "spousal time contribution": {
                 "count": 2,
                 "rank_score": 0.08495425875679191
             },
-            "the supplemental nutrition assistance program": {
+            "supplemental nutrition assistance program": {
                 "count": 2,
                 "rank_score": 0.0717539720742597
             },
-            "the supplemental nutrition assistance program benefits": {
+            "supplemental nutrition assistance program benefits": {
                 "count": 2,
                 "rank_score": 0.08955154633670878
+            },
+            "unadjusted benefits": {
+                "count": 2,
+                "rank_score": 0.06304163435116673
             }
         },
         "original": {
@@ -1273,28 +1449,28 @@
             ],
             "RCDC": [
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
+                    "id": "497",
+                    "name": "Basic Behavioral and Social Science"
                 },
                 {
                     "id": "389",
                     "name": "Obesity"
                 },
                 {
+                    "id": "507",
+                    "name": "Clinical Research"
+                },
+                {
                     "id": "558",
                     "name": "Prevention"
                 },
                 {
-                    "id": "497",
-                    "name": "Basic Behavioral and Social Science"
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 },
                 {
                     "id": "388",
                     "name": "Nutrition"
-                },
-                {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
                 }
             ],
             "altmetric": 2.0,
@@ -1317,6 +1493,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.266583.c",
                         "first_name": "Margaret",
+                        "initials": "",
                         "last_name": "Gough",
                         "orcid": "['0000-0003-1352-2222']",
                         "researcher_id": "ur.01104504422.63"
@@ -1337,6 +1514,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.241116.1",
                         "first_name": "Adam M.",
+                        "initials": "",
                         "last_name": "Lippert",
                         "orcid": "",
                         "researcher_id": "ur.01210704053.10"
@@ -1357,6 +1535,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.29857.31",
                         "first_name": "Molly A.",
+                        "initials": "",
                         "last_name": "Martin",
                         "orcid": "",
                         "researcher_id": "ur.0674020435.61"
@@ -1380,6 +1559,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.266583.c",
                     "first_name": "Margaret",
+                    "initials": "",
                     "last_name": "Gough",
                     "orcid": "['0000-0003-1352-2222']",
                     "researcher_id": "ur.01104504422.63"
@@ -1400,6 +1580,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.241116.1",
                     "first_name": "Adam M.",
+                    "initials": "",
                     "last_name": "Lippert",
                     "orcid": "",
                     "researcher_id": "ur.01210704053.10"
@@ -1420,6 +1601,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.29857.31",
                     "first_name": "Molly A.",
+                    "initials": "",
                     "last_name": "Martin",
                     "orcid": "",
                     "researcher_id": "ur.0674020435.61"
@@ -1455,28 +1637,28 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
+                    "id": "497",
+                    "name": "Basic Behavioral and Social Science"
                 },
                 {
                     "id": "389",
                     "name": "Obesity"
                 },
                 {
+                    "id": "507",
+                    "name": "Clinical Research"
+                },
+                {
                     "id": "558",
                     "name": "Prevention"
                 },
                 {
-                    "id": "497",
-                    "name": "Basic Behavioral and Social Science"
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 },
                 {
                     "id": "388",
                     "name": "Nutrition"
-                },
-                {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
                 }
             ],
             "category_ua": [
@@ -1499,29 +1681,30 @@
                 "women's time",
                 "efforts",
                 "low-income families",
-                "income families",
                 "differences",
                 "time use",
                 "use",
+                "risk of overweight",
                 "risk",
-                "obesity",
                 "women",
                 "different income brackets",
                 "income brackets",
                 "brackets",
                 "data",
+                "women ages 18",
+                "age 18",
                 "years",
                 "American Time Use Survey",
                 "Time Use Survey",
                 "Use Survey",
                 "survey",
                 "particular activity",
-                "activity",
                 "logistic regression",
                 "regression",
                 "ordinary least squares model",
+                "least squares model",
+                "squares model",
                 "model",
-                "woman's risk",
                 "conditional relationship",
                 "relationship",
                 "income level",
@@ -1537,19 +1720,17 @@
                 "motherhood",
                 "income status",
                 "women's time use",
-                "overweight",
-                "high risk",
                 "economic hardship",
                 "hardship",
                 "additional research",
+                "important health disparities",
                 "health disparities",
                 "disparities",
                 "role",
-                "time use behavior",
+                "time use behaviour",
                 "use behaviors",
                 "risk of obesity",
-                "low-income mothers",
-                "income mothers"
+                "low-income mothers"
             ],
             "date": "2019-01-01",
             "date_inserted": "2018-11-19",
@@ -1583,17 +1764,18 @@
                 "1049-3867",
                 "1878-4321"
             ],
-            "issue": "Sleep Medicine 11 5 2010",
+            "issue": "1",
             "journal": {
                 "id": "jour.1358289",
                 "title": "Women's Health Issues"
             },
             "journal_lists": [
-                "ERA 2015",
+                "ERA 2018",
                 "Norwegian register level 1",
+                "ERA 2015",
                 "PubMed"
             ],
-            "linkout": "http://www.whijournal.com/article/S1049386717307272/pdf",
+            "linkout": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6295251",
             "mesh_terms": [
                 "Adolescent",
                 "Adult",
@@ -1611,10 +1793,43 @@
                 "Time Factors",
                 "Young Adult"
             ],
+            "noun_phrases": [
+                "time use",
+                "obesity",
+                "low-income mother",
+                "responsibility",
+                "demand",
+                "woman",
+                "low-income family",
+                "childrearing",
+                "difference",
+                "risk",
+                "overweight",
+                "bracket",
+                "method",
+                "use data",
+                "woman age",
+                "American Time Use Survey",
+                "particular activity",
+                "Logistic Model",
+                "ordinary least square",
+                "income level",
+                "motherhood",
+                "Research",
+                "great risk",
+                "mother",
+                "odds ratio",
+                "income",
+                "child",
+                "high risk",
+                "conclusion",
+                "economic hardship",
+                "important health"
+            ],
             "open_access": [
                 "Open Access - all",
-                "Open Access - publisher",
-                "Open Access - published"
+                "Open Access - repository",
+                "Open Access - accepted"
             ],
             "open_access_categories": [
                 {
@@ -1623,100 +1838,101 @@
                     "name": "All OA"
                 },
                 {
-                    "description": "Freely available on publisher page, but without an open licence",
-                    "id": "gold_bronze",
-                    "name": "Bronze"
+                    "description": "Free copy of accepted version in an OA repository",
+                    "id": "green_acc",
+                    "name": "Green, Accepted"
                 }
             ],
             "pages": "23-30",
             "pmcid": "PMC6295251",
             "pmid": "30446329",
             "publisher": "Elsevier",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1011764661",
-                "pub.1031629240",
-                "pub.1011255536",
-                "pub.1020913452",
-                "pub.1041989146",
-                "pub.1018267535",
-                "pub.1048547605",
-                "pub.1039960633",
-                "pub.1016030406",
-                "pub.1076596737",
-                "pub.1040912566",
-                "pub.1037628624",
-                "pub.1014512195",
-                "pub.1023278055",
-                "pub.1052279638",
-                "pub.1014127911",
-                "pub.1058788551",
-                "pub.1015215674",
-                "pub.1065049931",
-                "pub.1037185655",
-                "pub.1022099746",
-                "pub.1004178252",
-                "pub.1006949154",
                 "pub.1034216449",
-                "pub.1045736074",
-                "pub.1026275008",
-                "pub.1007181969",
                 "pub.1073278500",
-                "pub.1032439457",
-                "pub.1025866440",
-                "pub.1074950352",
-                "pub.1006731795",
-                "pub.1022892199",
+                "pub.1076596737",
                 "pub.1007785346",
-                "pub.1034269956",
-                "pub.1014986041",
-                "pub.1068846566",
                 "pub.1028997000",
-                "pub.1039740738",
+                "pub.1015215674",
+                "pub.1034269956",
+                "pub.1052279638",
+                "pub.1065049931",
+                "pub.1022892199",
+                "pub.1018267535",
+                "pub.1025866440",
+                "pub.1020913452",
+                "pub.1024207529",
+                "pub.1039960633",
+                "pub.1014986041",
+                "pub.1004178252",
+                "pub.1058788551",
+                "pub.1016030406",
+                "pub.1022099746",
+                "pub.1014127911",
                 "pub.1044822133",
-                "pub.1024207529"
+                "pub.1007181969",
+                "pub.1039740738",
+                "pub.1041989146",
+                "pub.1040912566",
+                "pub.1011255536",
+                "pub.1074950352",
+                "pub.1023278055",
+                "pub.1031629240",
+                "pub.1037628624",
+                "pub.1032439457",
+                "pub.1011764661",
+                "pub.1037185655",
+                "pub.1026275008",
+                "pub.1014512195",
+                "pub.1006949154",
+                "pub.1068846566",
+                "pub.1045736074",
+                "pub.1006731795",
+                "pub.1048547605"
             ],
             "references": [
-                "pub.1011764661",
-                "pub.1031629240",
-                "pub.1011255536",
-                "pub.1020913452",
-                "pub.1041989146",
-                "pub.1018267535",
-                "pub.1048547605",
-                "pub.1039960633",
-                "pub.1016030406",
-                "pub.1076596737",
-                "pub.1040912566",
-                "pub.1037628624",
-                "pub.1014512195",
-                "pub.1023278055",
-                "pub.1052279638",
-                "pub.1014127911",
-                "pub.1058788551",
-                "pub.1015215674",
-                "pub.1065049931",
-                "pub.1037185655",
-                "pub.1022099746",
-                "pub.1004178252",
-                "pub.1006949154",
                 "pub.1034216449",
-                "pub.1045736074",
-                "pub.1026275008",
-                "pub.1007181969",
                 "pub.1073278500",
-                "pub.1032439457",
-                "pub.1025866440",
-                "pub.1074950352",
-                "pub.1006731795",
-                "pub.1022892199",
+                "pub.1076596737",
                 "pub.1007785346",
-                "pub.1034269956",
-                "pub.1014986041",
-                "pub.1068846566",
                 "pub.1028997000",
-                "pub.1039740738",
+                "pub.1015215674",
+                "pub.1034269956",
+                "pub.1052279638",
+                "pub.1065049931",
+                "pub.1022892199",
+                "pub.1018267535",
+                "pub.1025866440",
+                "pub.1020913452",
+                "pub.1024207529",
+                "pub.1039960633",
+                "pub.1014986041",
+                "pub.1004178252",
+                "pub.1058788551",
+                "pub.1016030406",
+                "pub.1022099746",
+                "pub.1014127911",
                 "pub.1044822133",
-                "pub.1024207529"
+                "pub.1007181969",
+                "pub.1039740738",
+                "pub.1041989146",
+                "pub.1040912566",
+                "pub.1011255536",
+                "pub.1074950352",
+                "pub.1023278055",
+                "pub.1031629240",
+                "pub.1037628624",
+                "pub.1032439457",
+                "pub.1011764661",
+                "pub.1037185655",
+                "pub.1026275008",
+                "pub.1014512195",
+                "pub.1006949154",
+                "pub.1068846566",
+                "pub.1045736074",
+                "pub.1006731795",
+                "pub.1048547605"
             ],
             "research_org_cities": [
                 {
@@ -1741,14 +1957,19 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "University of Colorado Denver",
+                "University of La Verne",
+                "Pennsylvania State University"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-CA",
-                    "name": "California"
-                },
                 {
                     "id": "US-PA",
                     "name": "Pennsylvania"
+                },
+                {
+                    "id": "US-CA",
+                    "name": "California"
                 },
                 {
                     "id": "US-CO",
@@ -1756,8 +1977,8 @@
                 }
             ],
             "research_org_state_names": [
-                "California",
                 "Pennsylvania",
+                "California",
                 "Colorado"
             ],
             "research_orgs": [
@@ -1778,22 +1999,6 @@
                     ]
                 },
                 {
-                    "acronym": "UCD",
-                    "city_name": "Denver",
-                    "country_name": "United States",
-                    "id": "grid.241116.1",
-                    "latitude": 39.74327,
-                    "linkout": [
-                        "http://www.ucdenver.edu/pages/ucdwelcomepage.aspx"
-                    ],
-                    "longitude": -105.00311,
-                    "name": "University of Colorado Denver",
-                    "state_name": "Colorado",
-                    "types": [
-                        "Education"
-                    ]
-                },
-                {
                     "acronym": "PSU",
                     "city_name": "State College",
                     "country_name": "United States",
@@ -1808,6 +2013,22 @@
                     "types": [
                         "Education"
                     ]
+                },
+                {
+                    "acronym": "UCD",
+                    "city_name": "Denver",
+                    "country_name": "United States",
+                    "id": "grid.241116.1",
+                    "latitude": 39.74327,
+                    "linkout": [
+                        "http://www.ucdenver.edu/pages/ucdwelcomepage.aspx"
+                    ],
+                    "longitude": -105.00311,
+                    "name": "University of Colorado Denver",
+                    "state_name": "Colorado",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -1819,9 +2040,9 @@
                         "0000-0003-1352-2222"
                     ],
                     "research_orgs": [
-                        "grid.38142.3c",
+                        "grid.214458.e",
                         "grid.266583.c",
-                        "grid.214458.e"
+                        "grid.38142.3c"
                     ]
                 },
                 {
@@ -1829,8 +2050,8 @@
                     "id": "ur.01210704053.10",
                     "last_name": "Lippert",
                     "research_orgs": [
-                        "grid.29857.31",
-                        "grid.241116.1"
+                        "grid.241116.1",
+                        "grid.29857.31"
                     ]
                 },
                 {
@@ -1853,29 +2074,30 @@
                 "women's time",
                 "efforts",
                 "low-income families",
-                "income families",
                 "differences",
                 "time use",
                 "use",
+                "risk of overweight",
                 "risk",
-                "obesity",
                 "women",
                 "different income brackets",
                 "income brackets",
                 "brackets",
                 "data",
+                "women ages 18",
+                "age 18",
                 "years",
                 "American Time Use Survey",
                 "Time Use Survey",
                 "Use Survey",
                 "survey",
                 "particular activity",
-                "activity",
                 "logistic regression",
                 "regression",
                 "ordinary least squares model",
+                "least squares model",
+                "squares model",
                 "model",
-                "woman's risk",
                 "conditional relationship",
                 "relationship",
                 "income level",
@@ -1891,20 +2113,19 @@
                 "motherhood",
                 "income status",
                 "women's time use",
-                "overweight",
-                "high risk",
                 "economic hardship",
                 "hardship",
                 "additional research",
+                "important health disparities",
                 "health disparities",
                 "disparities",
                 "role",
-                "time use behavior",
+                "time use behaviour",
                 "use behaviors",
                 "risk of obesity",
-                "low-income mothers",
-                "income mothers"
+                "low-income mothers"
             ],
+            "times_cited": 0,
             "title": "The Role of Time Use Behaviors in the Risk of Obesity among Low-Income Mothers",
             "type": "article",
             "volume": "29",
@@ -2123,17 +2344,25 @@
                 "count": 1,
                 "rank_score": 0.08373563725431943
             },
-            "additional research": {
-                "count": 1,
-                "rank_score": 0.08201152513993135
-            },
             "american time use surveys": {
                 "count": 1,
                 "rank_score": 0.08436791059209227
             },
+            "conditional relationships": {
+                "count": 1,
+                "rank_score": 0.06450448949750753
+            },
+            "demands": {
+                "count": 1,
+                "rank_score": 0.06359764614598323
+            },
             "different income brackets": {
                 "count": 1,
                 "rank_score": 0.09661081292303475
+            },
+            "economic hardship": {
+                "count": 1,
+                "rank_score": 0.06698598101522173
             },
             "greater risk": {
                 "count": 2,
@@ -2142,6 +2371,26 @@
             "income level": {
                 "count": 1,
                 "rank_score": 0.10033193985476724
+            },
+            "logistic regression": {
+                "count": 2,
+                "rank_score": 0.06799742562794522
+            },
+            "low and subpoverty incomes": {
+                "count": 1,
+                "rank_score": 0.06754944411666905
+            },
+            "low-income families": {
+                "count": 1,
+                "rank_score": 0.06754944411666905
+            },
+            "motherhood and income status": {
+                "count": 1,
+                "rank_score": 0.06701266198650378
+            },
+            "motherhood status": {
+                "count": 1,
+                "rank_score": 0.06864920903050103
             },
             "obesity": {
                 "count": 5,
@@ -2163,6 +2412,10 @@
                 "count": 2,
                 "rank_score": 0.08028230222524972
             },
+            "prior research": {
+                "count": 1,
+                "rank_score": 0.06839849425782148
+            },
             "time use": {
                 "count": 2,
                 "rank_score": 0.10350750982690027
@@ -2174,6 +2427,14 @@
             "women": {
                 "count": 3,
                 "rank_score": 0.09998753939867994
+            },
+            "womens risk": {
+                "count": 1,
+                "rank_score": 0.06809527426841977
+            },
+            "womens time": {
+                "count": 1,
+                "rank_score": 0.06883595531545057
             },
             "womens time use": {
                 "count": 1,
@@ -2443,9 +2704,21 @@
         },
         "doi": "10.1002/oby.22261",
         "keyphrases": {
+            "actual exposure": {
+                "count": 1,
+                "rank_score": 0.04232935184039485
+            },
+            "broader research paradigm": {
+                "count": 1,
+                "rank_score": 0.05524410603741239
+            },
             "consumption": {
                 "count": 1,
                 "rank_score": 0.06471088904810841
+            },
+            "databases": {
+                "count": 1,
+                "rank_score": 0.03889214687570695
             },
             "dietary guidelines advisory committee": {
                 "count": 2,
@@ -2455,6 +2728,14 @@
                 "count": 2,
                 "rank_score": 0.09506303610926234
             },
+            "foods": {
+                "count": 1,
+                "rank_score": 0.04898036068216188
+            },
+            "fuller picture": {
+                "count": 1,
+                "rank_score": 0.042259671138723455
+            },
             "health": {
                 "count": 1,
                 "rank_score": 0.05887469310108279
@@ -2462,6 +2743,10 @@
             "health outcomes": {
                 "count": 1,
                 "rank_score": 0.06814037681956268
+            },
+            "impact": {
+                "count": 1,
+                "rank_score": 0.05558910458060029
             },
             "individual nutrient consumption": {
                 "count": 1,
@@ -2471,13 +2756,29 @@
                 "count": 12,
                 "rank_score": 0.12233947028041127
             },
+            "low-calorie sweeteners": {
+                "count": 1,
+                "rank_score": 0.05465867881489152
+            },
             "most research": {
                 "count": 1,
                 "rank_score": 0.07745063696290094
             },
+            "national challenges": {
+                "count": 1,
+                "rank_score": 0.05364029462490033
+            },
+            "national emphasis": {
+                "count": 1,
+                "rank_score": 0.05636949019512747
+            },
             "national-level databases": {
                 "count": 1,
                 "rank_score": 0.06836092220401034
+            },
+            "obesity": {
+                "count": 1,
+                "rank_score": 0.05520158936051437
             },
             "overweight": {
                 "count": 1,
@@ -2495,13 +2796,13 @@
                 "count": 1,
                 "rank_score": 0.08634220426050299
             },
-            "the national emphasis": {
+            "us diet": {
                 "count": 1,
-                "rank_score": 0.05636949019512747
+                "rank_score": 0.041516708072880805
             },
-            "us": {
-                "count": 2,
-                "rank_score": 0.06648850621886873
+            "us population": {
+                "count": 1,
+                "rank_score": 0.041516708072880805
             }
         },
         "original": {
@@ -2528,6 +2829,7 @@
                     "name": "14 Economics"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -2539,6 +2841,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Di",
+                        "initials": "",
                         "last_name": "Xiang",
                         "orcid": "",
                         "researcher_id": ""
@@ -2552,6 +2855,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Lue",
+                        "initials": "",
                         "last_name": "Zhan",
                         "orcid": "",
                         "researcher_id": ""
@@ -2565,6 +2869,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Massimo",
+                        "initials": "",
                         "last_name": "Bordignon",
                         "orcid": "",
                         "researcher_id": ""
@@ -2581,6 +2886,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Di",
+                    "initials": "",
                     "last_name": "Xiang",
                     "orcid": "",
                     "researcher_id": ""
@@ -2594,6 +2900,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Lue",
+                    "initials": "",
                     "last_name": "Zhan",
                     "orcid": "",
                     "researcher_id": ""
@@ -2607,6 +2914,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Massimo",
+                    "initials": "",
                     "last_name": "Bordignon",
                     "orcid": "",
                     "researcher_id": ""
@@ -2638,9 +2946,8 @@
                 "impact",
                 "hypothetical tax",
                 "tax",
+                "sugar-sweetened beverages",
                 "beverages",
-                "US households",
-                "households",
                 "purchase",
                 "welfare changes",
                 "changes",
@@ -2649,19 +2956,21 @@
                 "traditional approaches",
                 "approach",
                 "home",
-                "market goods",
-                "goods",
-                "consumers",
+                "market",
+                "consumer demand",
                 "demand",
                 "assumption",
-                "utility subject",
+                "households",
+                "utility",
                 "money",
+                "time constraints",
                 "constraints",
                 "model",
                 "demand system",
                 "data sets",
                 "set",
                 "recent wave",
+                "US consumer expenditure",
                 "consumer expenditure",
                 "expenditure",
                 "Time Use Survey",
@@ -2676,10 +2985,11 @@
                 "SSB prices",
                 "prices",
                 "energy purchase",
+                "annual health benefits",
                 "terms",
                 "household medical expenditure",
                 "medical expenditures",
-                "welfare loss",
+                "welfare losses",
                 "reconsideration",
                 "beverage tax",
                 "household production model",
@@ -2688,6 +2998,7 @@
             "date": "2018-01-01",
             "date_inserted": "2018-05-26",
             "doi": "10.2139/ssrn.3170334",
+            "field_citation_ratio": 0.0,
             "id": "pub.1104209591",
             "issn": [
                 "1556-5068"
@@ -2700,6 +3011,38 @@
                 "Norwegian register level 0"
             ],
             "linkout": "https://www.cesifo-group.de/DocDL/cesifo1_wp7087.pdf",
+            "noun_phrases": [
+                "reconsideration",
+                "household production",
+                "Tax",
+                "sugar-sweetened beverage",
+                "sweetened beverage",
+                "nutrient",
+                "welfare",
+                "Insurance Benefit",
+                "traditional approach",
+                "at-home",
+                "home",
+                "market",
+                "consumer demand",
+                "assumption",
+                "Family Characteristic",
+                "utility",
+                "money",
+                "time constraint",
+                "affine",
+                "demand system",
+                "Dataset",
+                "wave",
+                "consumer",
+                "time use",
+                "time cost",
+                "food production",
+                "decrease",
+                "purchase",
+                "benefit",
+                "medical expenditure"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -2718,53 +3061,54 @@
                 }
             ],
             "publisher": "Elsevier",
+            "recent_citations": 0,
             "reference_ids": [
                 "pub.1061933860",
-                "pub.1064528029",
+                "pub.1064528039",
                 "pub.1058575306",
+                "pub.1014480866",
+                "pub.1008996326",
+                "pub.1030944841",
+                "pub.1030495097",
+                "pub.1060004764",
+                "pub.1009314263",
+                "pub.1064528029",
+                "pub.1064527622",
                 "pub.1015319969",
                 "pub.1069639794",
-                "pub.1060004764",
-                "pub.1036752115",
-                "pub.1030495097",
-                "pub.1028420340",
-                "pub.1030944841",
-                "pub.1008996326",
-                "pub.1009314263",
-                "pub.1058640343",
                 "pub.1005250718",
-                "pub.1070139880",
-                "pub.1064527622",
-                "pub.1058573803",
-                "pub.1014480866",
-                "pub.1064528039",
-                "pub.1023740837",
+                "pub.1036752115",
+                "pub.1028420340",
                 "pub.1035259483",
-                "pub.1027474247"
+                "pub.1058640343",
+                "pub.1027474247",
+                "pub.1070139880",
+                "pub.1023740837",
+                "pub.1058573803"
             ],
             "references": [
                 "pub.1061933860",
-                "pub.1064528029",
+                "pub.1064528039",
                 "pub.1058575306",
+                "pub.1014480866",
+                "pub.1008996326",
+                "pub.1030944841",
+                "pub.1030495097",
+                "pub.1060004764",
+                "pub.1009314263",
+                "pub.1064528029",
+                "pub.1064527622",
                 "pub.1015319969",
                 "pub.1069639794",
-                "pub.1060004764",
-                "pub.1036752115",
-                "pub.1030495097",
-                "pub.1028420340",
-                "pub.1030944841",
-                "pub.1008996326",
-                "pub.1009314263",
-                "pub.1058640343",
                 "pub.1005250718",
-                "pub.1070139880",
-                "pub.1064527622",
-                "pub.1058573803",
-                "pub.1014480866",
-                "pub.1064528039",
-                "pub.1023740837",
+                "pub.1036752115",
+                "pub.1028420340",
                 "pub.1035259483",
-                "pub.1027474247"
+                "pub.1058640343",
+                "pub.1027474247",
+                "pub.1070139880",
+                "pub.1023740837",
+                "pub.1058573803"
             ],
             "research_org_cities": [
                 {
@@ -2778,25 +3122,29 @@
             ],
             "research_org_countries": [
                 {
-                    "id": "CN",
-                    "name": "China"
-                },
-                {
                     "id": "IT",
                     "name": "Italy"
+                },
+                {
+                    "id": "CN",
+                    "name": "China"
                 }
             ],
             "research_org_country_names": [
-                "Italy",
-                "China"
+                "China",
+                "Italy"
+            ],
+            "research_org_names": [
+                "Universita Cattolica; CESifo (Center for Economic Studies and Ifo Institute)",
+                "Southwestern University of Finance and Economics (SWUFE)",
+                "Independent"
             ],
             "terms": [
                 "impact",
                 "hypothetical tax",
                 "tax",
+                "sugar-sweetened beverages",
                 "beverages",
-                "US households",
-                "households",
                 "purchase",
                 "welfare changes",
                 "changes",
@@ -2805,19 +3153,21 @@
                 "traditional approaches",
                 "approach",
                 "home",
-                "market goods",
-                "goods",
-                "consumers",
+                "market",
+                "consumer demand",
                 "demand",
                 "assumption",
-                "utility subject",
+                "households",
+                "utility",
                 "money",
+                "time constraints",
                 "constraints",
                 "model",
                 "demand system",
                 "data sets",
                 "set",
                 "recent wave",
+                "US consumer expenditure",
                 "consumer expenditure",
                 "expenditure",
                 "Time Use Survey",
@@ -2832,15 +3182,17 @@
                 "SSB prices",
                 "prices",
                 "energy purchase",
+                "annual health benefits",
                 "terms",
                 "household medical expenditure",
                 "medical expenditures",
-                "welfare loss",
+                "welfare losses",
                 "reconsideration",
                 "beverage tax",
                 "household production model",
                 "production model"
             ],
+            "times_cited": 0,
             "title": "A Reconsideration of the Sugar Sweetened Beverage Tax in a Household Production Model",
             "type": "preprint",
             "year": 2018
@@ -3786,6 +4138,18 @@
         },
         "doi": "10.2139/ssrn.3170334",
         "keyphrases": {
+            "annual health benefits": {
+                "count": 1,
+                "rank_score": 0.04718119680268662
+            },
+            "consumers’ demands": {
+                "count": 1,
+                "rank_score": 0.0473194967648564
+            },
+            "easi": {
+                "count": 2,
+                "rank_score": 0.0525527051044795
+            },
             "estimated welfare losses": {
                 "count": 1,
                 "rank_score": 0.09518949832081545
@@ -3806,9 +4170,17 @@
                 "count": 1,
                 "rank_score": 0.08844814783933695
             },
+            "home(fah": {
+                "count": 1,
+                "rank_score": 0.0336084320495884
+            },
             "household nutrients purchase": {
                 "count": 1,
                 "rank_score": 0.10836503357998824
+            },
+            "hypothetical tax": {
+                "count": 1,
+                "rank_score": 0.049292494497339065
             },
             "neglecting time costs": {
                 "count": 1,
@@ -3826,21 +4198,41 @@
                 "count": 1,
                 "rank_score": 0.07561342275046008
             },
-            "the us consumer expenditure": {
+            "ssb tax": {
+                "count": 1,
+                "rank_score": 0.05390707582947975
+            },
+            "ssbs": {
+                "count": 1,
+                "rank_score": 0.04410323738664132
+            },
+            "sugar - sweetened beverages": {
+                "count": 1,
+                "rank_score": 0.050544545349791574
+            },
+            "surveys": {
+                "count": 1,
+                "rank_score": 0.03997323492741059
+            },
+            "tax": {
+                "count": 1,
+                "rank_score": 0.03949417094397554
+            },
+            "time constraint": {
+                "count": 1,
+                "rank_score": 0.0477631335386534
+            },
+            "traditional approach": {
+                "count": 1,
+                "rank_score": 0.033980484995000955
+            },
+            "us consumer expenditure": {
                 "count": 1,
                 "rank_score": 0.0620490914730274
             },
-            "the us households’ nutrients purchase": {
+            "us households’ nutrients purchase": {
                 "count": 1,
                 "rank_score": 0.05761896833120332
-            },
-            "time": {
-                "count": 1,
-                "rank_score": 0.08231701574034936
-            },
-            "us": {
-                "count": 2,
-                "rank_score": 0.05659906347596719
             },
             "welfare change": {
                 "count": 1,
@@ -3903,6 +4295,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.266093.8",
                         "first_name": "Mienah Z.",
+                        "initials": "",
                         "last_name": "Sharif",
                         "orcid": "",
                         "researcher_id": "ur.01210220677.46"
@@ -3923,6 +4316,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.36425.36",
                         "first_name": "Héctor E.",
+                        "initials": "",
                         "last_name": "Alcalá",
                         "orcid": "",
                         "researcher_id": "ur.01117366743.15"
@@ -3935,7 +4329,7 @@
                                 "country": "United States",
                                 "country_code": "US",
                                 "id": "grid.19006.3e",
-                                "name": "University of California Los Angeles",
+                                "name": "University of California, Los Angeles",
                                 "state": "California",
                                 "state_code": "US-CA"
                             }
@@ -3943,6 +4337,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.19006.3e",
                         "first_name": "Stephanie L.",
+                        "initials": "",
                         "last_name": "Albert",
                         "orcid": "",
                         "researcher_id": "ur.0735046232.91"
@@ -3963,6 +4358,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Heidi",
+                        "initials": "",
                         "last_name": "Fischer",
                         "orcid": "",
                         "researcher_id": ""
@@ -3986,6 +4382,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.266093.8",
                     "first_name": "Mienah Z.",
+                    "initials": "",
                     "last_name": "Sharif",
                     "orcid": "",
                     "researcher_id": "ur.01210220677.46"
@@ -4006,6 +4403,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.36425.36",
                     "first_name": "Héctor E.",
+                    "initials": "",
                     "last_name": "Alcalá",
                     "orcid": "",
                     "researcher_id": "ur.01117366743.15"
@@ -4018,7 +4416,7 @@
                             "country": "United States",
                             "country_code": "US",
                             "id": "grid.19006.3e",
-                            "name": "University of California Los Angeles",
+                            "name": "University of California, Los Angeles",
                             "state": "California",
                             "state_code": "US-CA"
                         }
@@ -4026,6 +4424,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.19006.3e",
                     "first_name": "Stephanie L.",
+                    "initials": "",
                     "last_name": "Albert",
                     "orcid": "",
                     "researcher_id": "ur.0735046232.91"
@@ -4046,6 +4445,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Heidi",
+                    "initials": "",
                     "last_name": "Fischer",
                     "orcid": "",
                     "researcher_id": ""
@@ -4118,11 +4518,12 @@
                 "single men",
                 "men",
                 "lower odds",
+                "married males",
+                "married women",
                 "women",
                 "male counterparts",
                 "counterparts",
                 "single women",
-                "dual-headed households",
                 "headed households",
                 "households",
                 "employment status",
@@ -4140,7 +4541,7 @@
             "date": "2017-07-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.appet.2017.03.032",
-            "field_citation_ratio": 11.1,
+            "field_citation_ratio": 11.85,
             "funder_countries": [
                 {
                     "id": "US",
@@ -4148,38 +4549,6 @@
                 }
             ],
             "funders": [
-                {
-                    "acronym": "NIA",
-                    "city_name": "Baltimore",
-                    "country_name": "United States",
-                    "id": "grid.419475.a",
-                    "latitude": 39.003796,
-                    "linkout": [
-                        "https://www.nia.nih.gov/"
-                    ],
-                    "longitude": -77.101166,
-                    "name": "National Institute on Aging",
-                    "state_name": "Maryland",
-                    "types": [
-                        "Facility"
-                    ]
-                },
-                {
-                    "acronym": "NICHD",
-                    "city_name": "Bethesda",
-                    "country_name": "United States",
-                    "id": "grid.420089.7",
-                    "latitude": 39.001095,
-                    "linkout": [
-                        "http://www.nichd.nih.gov/Pages/index.aspx"
-                    ],
-                    "longitude": -77.10042,
-                    "name": "National Institute of Child Health and Human Development",
-                    "state_name": "Maryland",
-                    "types": [
-                        "Facility"
-                    ]
-                },
                 {
                     "acronym": "NHLBI",
                     "city_name": "Bethesda",
@@ -4211,6 +4580,38 @@
                     "types": [
                         "Government"
                     ]
+                },
+                {
+                    "acronym": "NIA",
+                    "city_name": "Baltimore",
+                    "country_name": "United States",
+                    "id": "grid.419475.a",
+                    "latitude": 39.003796,
+                    "linkout": [
+                        "https://www.nia.nih.gov/"
+                    ],
+                    "longitude": -77.101166,
+                    "name": "National Institute on Aging",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
+                },
+                {
+                    "acronym": "NICHD",
+                    "city_name": "Bethesda",
+                    "country_name": "United States",
+                    "id": "grid.420089.7",
+                    "latitude": 39.001095,
+                    "linkout": [
+                        "http://www.nichd.nih.gov/Pages/index.aspx"
+                    ],
+                    "longitude": -77.10042,
+                    "name": "National Institute of Child Health and Human Development",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1084058931",
@@ -4223,9 +4624,10 @@
                 "title": "Appetite"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
+                "ERA 2015",
                 "VABB-SHW",
+                "ERA 2018",
                 "PubMed"
             ],
             "linkout": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5926186",
@@ -4235,12 +4637,12 @@
                 "Adult",
                 "Aged",
                 "Aged, 80 and over",
+                "Diet, Healthy",
                 "Employment",
                 "Family",
                 "Family Characteristics",
                 "Family Relations",
                 "Female",
-                "Healthy Diet",
                 "Humans",
                 "Male",
                 "Meals",
@@ -4252,6 +4654,31 @@
                 "Spouses",
                 "United States",
                 "Young Adult"
+            ],
+            "noun_phrases": [
+                "family",
+                "family structure",
+                "Gender Identity",
+                "employment",
+                "odds",
+                "parental employment",
+                "method",
+                "used data",
+                "American Time Use Survey",
+                "multivariate analysis",
+                "parent",
+                "child",
+                "men",
+                "comparison",
+                "male",
+                "woman",
+                "male counterpart",
+                "difference",
+                "conclusion",
+                "future research",
+                "trend",
+                "disparity",
+                "household composition"
             ],
             "open_access": [
                 "Open Access - all",
@@ -4274,120 +4701,118 @@
             "pmcid": "PMC5926186",
             "pmid": "28347778",
             "publisher": "Elsevier",
-            "recent_citations": 9,
+            "recent_citations": 10,
             "reference_ids": [
-                "pub.1053914375",
-                "pub.1075122022",
-                "pub.1020913452",
-                "pub.1002406581",
-                "pub.1014533225",
-                "pub.1038122361",
-                "pub.1004814866",
-                "pub.1007374502",
-                "pub.1052429086",
-                "pub.1071055591",
-                "pub.1008323809",
-                "pub.1040283604",
-                "pub.1045779754",
-                "pub.1012853881",
-                "pub.1039488628",
-                "pub.1053620783",
-                "pub.1007812888",
-                "pub.1052516833",
-                "pub.1032439457",
-                "pub.1041564951",
-                "pub.1013083626",
-                "pub.1030236716",
-                "pub.1008297559",
-                "pub.1014543036",
-                "pub.1016039594",
-                "pub.1052248276",
-                "pub.1020091489",
-                "pub.1008439391",
-                "pub.1000717513",
                 "pub.1027516226",
-                "pub.1041564605",
-                "pub.1013893807",
-                "pub.1013066201",
-                "pub.1037628624",
-                "pub.1058677356",
                 "pub.1005082176",
-                "pub.1017767766",
+                "pub.1008439391",
+                "pub.1013066201",
+                "pub.1004814866",
                 "pub.1021211256",
-                "pub.1003533289",
-                "pub.1054084984",
-                "pub.1022907816",
-                "pub.1043865600",
-                "pub.1017348586",
-                "pub.1036221360",
-                "pub.1046487209",
-                "pub.1064525893",
-                "pub.1032019642",
-                "pub.1043123488",
-                "pub.1002715636",
-                "pub.1024284979",
                 "pub.1027657185",
+                "pub.1052429086",
+                "pub.1040283604",
+                "pub.1075122022",
+                "pub.1007812888",
+                "pub.1007374502",
+                "pub.1024284979",
+                "pub.1012853881",
                 "pub.1014707388",
+                "pub.1040849249",
+                "pub.1016039594",
+                "pub.1039488628",
+                "pub.1046487209",
+                "pub.1071055591",
+                "pub.1058677356",
+                "pub.1002406581",
+                "pub.1008297559",
+                "pub.1064525893",
+                "pub.1036221360",
+                "pub.1013893807",
+                "pub.1017348586",
+                "pub.1053620783",
+                "pub.1000717513",
+                "pub.1032019642",
+                "pub.1041564951",
                 "pub.1052118030",
-                "pub.1040849249"
+                "pub.1022907816",
+                "pub.1054084984",
+                "pub.1013083626",
+                "pub.1020091489",
+                "pub.1053914375",
+                "pub.1002715636",
+                "pub.1045779754",
+                "pub.1014543036",
+                "pub.1017767766",
+                "pub.1008323809",
+                "pub.1020913452",
+                "pub.1043865600",
+                "pub.1043123488",
+                "pub.1041564605",
+                "pub.1032439457",
+                "pub.1014533225",
+                "pub.1052248276",
+                "pub.1030236716",
+                "pub.1003533289",
+                "pub.1038122361",
+                "pub.1037628624"
             ],
             "references": [
-                "pub.1053914375",
-                "pub.1075122022",
-                "pub.1020913452",
-                "pub.1002406581",
-                "pub.1014533225",
-                "pub.1038122361",
-                "pub.1004814866",
-                "pub.1007374502",
-                "pub.1052429086",
-                "pub.1071055591",
-                "pub.1008323809",
-                "pub.1040283604",
-                "pub.1045779754",
-                "pub.1012853881",
-                "pub.1039488628",
-                "pub.1053620783",
-                "pub.1007812888",
-                "pub.1052516833",
-                "pub.1032439457",
-                "pub.1041564951",
-                "pub.1013083626",
-                "pub.1030236716",
-                "pub.1008297559",
-                "pub.1014543036",
-                "pub.1016039594",
-                "pub.1052248276",
-                "pub.1020091489",
-                "pub.1008439391",
-                "pub.1000717513",
                 "pub.1027516226",
-                "pub.1041564605",
-                "pub.1013893807",
-                "pub.1013066201",
-                "pub.1037628624",
-                "pub.1058677356",
                 "pub.1005082176",
-                "pub.1017767766",
+                "pub.1008439391",
+                "pub.1013066201",
+                "pub.1004814866",
                 "pub.1021211256",
-                "pub.1003533289",
-                "pub.1054084984",
-                "pub.1022907816",
-                "pub.1043865600",
-                "pub.1017348586",
-                "pub.1036221360",
-                "pub.1046487209",
-                "pub.1064525893",
-                "pub.1032019642",
-                "pub.1043123488",
-                "pub.1002715636",
-                "pub.1024284979",
                 "pub.1027657185",
+                "pub.1052429086",
+                "pub.1040283604",
+                "pub.1075122022",
+                "pub.1007812888",
+                "pub.1007374502",
+                "pub.1024284979",
+                "pub.1012853881",
                 "pub.1014707388",
+                "pub.1040849249",
+                "pub.1016039594",
+                "pub.1039488628",
+                "pub.1046487209",
+                "pub.1071055591",
+                "pub.1058677356",
+                "pub.1002406581",
+                "pub.1008297559",
+                "pub.1064525893",
+                "pub.1036221360",
+                "pub.1013893807",
+                "pub.1017348586",
+                "pub.1053620783",
+                "pub.1000717513",
+                "pub.1032019642",
+                "pub.1041564951",
                 "pub.1052118030",
-                "pub.1040849249"
+                "pub.1022907816",
+                "pub.1054084984",
+                "pub.1013083626",
+                "pub.1020091489",
+                "pub.1053914375",
+                "pub.1002715636",
+                "pub.1045779754",
+                "pub.1014543036",
+                "pub.1017767766",
+                "pub.1008323809",
+                "pub.1020913452",
+                "pub.1043865600",
+                "pub.1043123488",
+                "pub.1041564605",
+                "pub.1032439457",
+                "pub.1014533225",
+                "pub.1052248276",
+                "pub.1030236716",
+                "pub.1003533289",
+                "pub.1038122361",
+                "pub.1037628624"
             ],
-            "relative_citation_ratio": 0.96,
+            "relative_citation_ratio": 0.64,
             "research_org_cities": [
                 {
                     "id": 5359777,
@@ -4415,6 +4840,12 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "University of California, Irvine",
+                "University of Virginia",
+                "Kaiser Permanente",
+                "University of California, Los Angeles"
+            ],
             "research_org_state_codes": [
                 {
                     "id": "US-VA",
@@ -4426,10 +4857,26 @@
                 }
             ],
             "research_org_state_names": [
-                "California",
-                "Virginia"
+                "Virginia",
+                "California"
             ],
             "research_orgs": [
+                {
+                    "acronym": "UVA",
+                    "city_name": "Charlottesville",
+                    "country_name": "United States",
+                    "id": "grid.27755.32",
+                    "latitude": 38.035,
+                    "linkout": [
+                        "http://www.virginia.edu/"
+                    ],
+                    "longitude": -78.505,
+                    "name": "University of Virginia",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Education"
+                    ]
+                },
                 {
                     "acronym": "KP",
                     "city_name": "Oakland",
@@ -4447,17 +4894,17 @@
                     ]
                 },
                 {
-                    "acronym": "UVA",
-                    "city_name": "Charlottesville",
+                    "acronym": "UCLA",
+                    "city_name": "Los Angeles",
                     "country_name": "United States",
-                    "id": "grid.27755.32",
-                    "latitude": 38.035,
+                    "id": "grid.19006.3e",
+                    "latitude": 34.072224,
                     "linkout": [
-                        "http://www.virginia.edu/"
+                        "http://www.ucla.edu/"
                     ],
-                    "longitude": -78.505,
-                    "name": "University of Virginia",
-                    "state_name": "Virginia",
+                    "longitude": -118.4441,
+                    "name": "University of California, Los Angeles",
+                    "state_name": "California",
                     "types": [
                         "Education"
                     ]
@@ -4477,22 +4924,6 @@
                     "types": [
                         "Education"
                     ]
-                },
-                {
-                    "acronym": "UCLA",
-                    "city_name": "Los Angeles",
-                    "country_name": "United States",
-                    "id": "grid.19006.3e",
-                    "latitude": 34.072224,
-                    "linkout": [
-                        "http://www.ucla.edu/"
-                    ],
-                    "longitude": -118.4441,
-                    "name": "University of California, Los Angeles",
-                    "state_name": "California",
-                    "types": [
-                        "Education"
-                    ]
                 }
             ],
             "researchers": [
@@ -4501,9 +4932,9 @@
                     "id": "ur.01210220677.46",
                     "last_name": "Sharif",
                     "research_orgs": [
+                        "grid.19006.3e",
                         "grid.266093.8",
-                        "grid.36425.36",
-                        "grid.19006.3e"
+                        "grid.36425.36"
                     ]
                 },
                 {
@@ -4511,10 +4942,10 @@
                     "id": "ur.01117366743.15",
                     "last_name": "Alcalá",
                     "research_orgs": [
+                        "grid.19006.3e",
                         "grid.27755.32",
-                        "grid.36425.36",
                         "grid.166341.7",
-                        "grid.19006.3e"
+                        "grid.36425.36"
                     ]
                 },
                 {
@@ -4527,11 +4958,11 @@
                 }
             ],
             "supporting_grant_ids": [
+                "grant.2621390",
                 "grant.2623610",
                 "grant.4241633",
-                "grant.2621390",
-                "grant.2681738",
-                "grant.2440827"
+                "grant.2440827",
+                "grant.2681738"
             ],
             "terms": [
                 "odds",
@@ -4554,11 +4985,12 @@
                 "single men",
                 "men",
                 "lower odds",
+                "married males",
+                "married women",
                 "women",
                 "male counterparts",
                 "counterparts",
                 "single women",
-                "dual-headed households",
                 "headed households",
                 "households",
                 "employment status",
@@ -4573,7 +5005,7 @@
                 "disparities",
                 "household composition"
             ],
-            "times_cited": 10,
+            "times_cited": 11,
             "title": "Deconstructing family meals: Do family structure, gender and employment status influence the odds of having a family meal?",
             "type": "article",
             "volume": "114",
@@ -6684,13 +7116,33 @@
         },
         "doi": "10.1016/j.appet.2017.03.032",
         "keyphrases": {
-            "a family dinner": {
-                "count": 7,
-                "rank_score": 0.07822250087194081
+            "american time use survey": {
+                "count": 2,
+                "rank_score": 0.07024962008929464
+            },
+            "atus": {
+                "count": 1,
+                "rank_score": 0.050009833048952165
+            },
+            "children": {
+                "count": 4,
+                "rank_score": 0.04793430646753376
+            },
+            "disparities": {
+                "count": 1,
+                "rank_score": 0.06598083127265983
+            },
+            "dual-headed households": {
+                "count": 2,
+                "rank_score": 0.03586684013106963
             },
             "employed male/non-employed female": {
                 "count": 1,
                 "rank_score": 0.07665980262762558
+            },
+            "family dinner": {
+                "count": 7,
+                "rank_score": 0.07822250087194081
             },
             "family meals": {
                 "count": 1,
@@ -6700,6 +7152,10 @@
                 "count": 1,
                 "rank_score": 0.06645325021081244
             },
+            "future research": {
+                "count": 1,
+                "rank_score": 0.056897297427093874
+            },
             "household compositions": {
                 "count": 1,
                 "rank_score": 0.07833169148496988
@@ -6708,9 +7164,9 @@
                 "count": 2,
                 "rank_score": 0.11151774336503997
             },
-            "odds": {
-                "count": 6,
-                "rank_score": 0.10461485213714872
+            "multivariate analyses": {
+                "count": 1,
+                "rank_score": 0.0600949926109903
             },
             "parental employment": {
                 "count": 1,
@@ -6724,6 +7180,10 @@
                 "count": 1,
                 "rank_score": 0.06792730795848413
             },
+            "parents": {
+                "count": 2,
+                "rank_score": 0.05148782670538653
+            },
             "partnered/married males": {
                 "count": 2,
                 "rank_score": 0.0728737439744127
@@ -6732,13 +7192,25 @@
                 "count": 1,
                 "rank_score": 0.07337835591781433
             },
+            "single men": {
+                "count": 1,
+                "rank_score": 0.06596416653802406
+            },
             "single women": {
                 "count": 1,
                 "rank_score": 0.08443902013282512
             },
-            "the american time use survey": {
-                "count": 2,
-                "rank_score": 0.07024962008929464
+            "their employment status": {
+                "count": 1,
+                "rank_score": 0.04368516976757386
+            },
+            "their partner": {
+                "count": 1,
+                "rank_score": 0.03238298500942749
+            },
+            "their partnered/married male counterparts": {
+                "count": 1,
+                "rank_score": 0.05272592015994142
             },
             "women": {
                 "count": 1,
@@ -6809,6 +7281,7 @@
                         "corresponding": true,
                         "current_organization_id": "",
                         "first_name": "Jennifer Bennett",
+                        "initials": "",
                         "last_name": "Shinall",
                         "orcid": "['0000-0001-6848-1152']",
                         "researcher_id": "ur.013712015555.98"
@@ -6832,6 +7305,7 @@
                     "corresponding": true,
                     "current_organization_id": "",
                     "first_name": "Jennifer Bennett",
+                    "initials": "",
                     "last_name": "Shinall",
                     "orcid": "['0000-0001-6848-1152']",
                     "researcher_id": "ur.013712015555.98"
@@ -6880,7 +7354,6 @@
                 }
             ],
             "concepts": [
-                "Congress",
                 "expansion",
                 "Americans",
                 "Disabilities Act",
@@ -6891,7 +7364,7 @@
                 "individuals",
                 "coverage of obesity",
                 "coverage",
-                "effects",
+                "effect",
                 "legal changes",
                 "changes",
                 "improvement",
@@ -6899,16 +7372,18 @@
                 "consequences",
                 "earlier estimates",
                 "estimates",
+                "stated goal",
                 "goal",
                 "J21",
                 "definition",
                 "disability change",
+                "case of obesity",
                 "cases"
             ],
             "date": "2016-12-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1186/s40172-016-0041-0",
-            "field_citation_ratio": 0.74,
+            "field_citation_ratio": 0.71,
             "id": "pub.1048399610",
             "issn": [
                 "2193-8997"
@@ -6919,10 +7394,27 @@
                 "title": "IZA Journal of Labor Economics"
             },
             "journal_lists": [
-                "DOAJ",
-                "VABB-SHW"
+                "VABB-SHW",
+                "DOAJ"
             ],
             "linkout": "https://izajole.springeropen.com/track/pdf/10.1186/s40172-016-0041-0",
+            "noun_phrases": [
+                "definition",
+                "disability",
+                "obesity",
+                "paper",
+                "expansion",
+                "Americans with Disabilities Act",
+                "labor market outcome",
+                "individual",
+                "obese individual",
+                "variation",
+                "coverage",
+                "legal change",
+                "improvement",
+                "unintended consequence",
+                "stated goal"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -6944,46 +7436,46 @@
             "publisher": "De Gruyter",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1102717998",
-                "pub.1019380133",
-                "pub.1102718351",
-                "pub.1018632749",
-                "pub.1052305838",
-                "pub.1071225357",
-                "pub.1102718250",
-                "pub.1102717341",
-                "pub.1102251036",
                 "pub.1102718115",
-                "pub.1102289269",
-                "pub.1102717884",
+                "pub.1052305838",
+                "pub.1102717341",
+                "pub.1102718351",
                 "pub.1018770275",
+                "pub.1019380133",
                 "pub.1028048551",
+                "pub.1102717998",
+                "pub.1058623928",
+                "pub.1071225357",
+                "pub.1018632749",
+                "pub.1071225424",
                 "pub.1078443645",
                 "pub.1099498025",
-                "pub.1058623928",
-                "pub.1071225424",
-                "pub.1018366106"
+                "pub.1018366106",
+                "pub.1102718250",
+                "pub.1102717884",
+                "pub.1102289269",
+                "pub.1102251036"
             ],
             "references": [
-                "pub.1102717998",
-                "pub.1019380133",
-                "pub.1102718351",
-                "pub.1018632749",
-                "pub.1052305838",
-                "pub.1071225357",
-                "pub.1102718250",
-                "pub.1102717341",
-                "pub.1102251036",
                 "pub.1102718115",
-                "pub.1102289269",
-                "pub.1102717884",
+                "pub.1052305838",
+                "pub.1102717341",
+                "pub.1102718351",
                 "pub.1018770275",
+                "pub.1019380133",
                 "pub.1028048551",
+                "pub.1102717998",
+                "pub.1058623928",
+                "pub.1071225357",
+                "pub.1018632749",
+                "pub.1071225424",
                 "pub.1078443645",
                 "pub.1099498025",
-                "pub.1058623928",
-                "pub.1071225424",
-                "pub.1018366106"
+                "pub.1018366106",
+                "pub.1102718250",
+                "pub.1102717884",
+                "pub.1102289269",
+                "pub.1102251036"
             ],
             "research_org_cities": [
                 {
@@ -6999,6 +7491,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Vanderbilt University"
             ],
             "research_org_state_codes": [
                 {
@@ -7041,7 +7536,6 @@
                 }
             ],
             "terms": [
-                "Congress",
                 "expansion",
                 "Americans",
                 "Disabilities Act",
@@ -7052,7 +7546,7 @@
                 "individuals",
                 "coverage of obesity",
                 "coverage",
-                "effects",
+                "effect",
                 "legal changes",
                 "changes",
                 "improvement",
@@ -7060,10 +7554,12 @@
                 "consequences",
                 "earlier estimates",
                 "estimates",
+                "stated goal",
                 "goal",
                 "J21",
                 "definition",
                 "disability change",
+                "case of obesity",
                 "cases"
             ],
             "times_cited": 1,
@@ -7579,17 +8075,29 @@
         },
         "doi": "10.1186/s40172-016-0041-0",
         "keyphrases": {
-            "act": {
+            "abstractthis paper": {
                 "count": 1,
-                "rank_score": 0.06573878709976123
+                "rank_score": 0.032364275762831296
             },
             "ada": {
                 "count": 3,
                 "rank_score": 0.08055302328205832
             },
+            "americans": {
+                "count": 1,
+                "rank_score": 0.0352725920091967
+            },
+            "americans with disabilities act": {
+                "count": 1,
+                "rank_score": 0.04676329819490913
+            },
             "congress": {
                 "count": 3,
                 "rank_score": 0.09943357211652881
+            },
+            "congress’s 2008 expansion": {
+                "count": 1,
+                "rank_score": 0.054185892882366866
             },
             "coverage": {
                 "count": 1,
@@ -7599,9 +8107,13 @@
                 "count": 1,
                 "rank_score": 0.06573878709976123
             },
-            "effects": {
+            "early estimates": {
                 "count": 1,
-                "rank_score": 0.07606237310259865
+                "rank_score": 0.050036122018680185
+            },
+            "expansion": {
+                "count": 3,
+                "rank_score": 0.04855373888893831
             },
             "j14": {
                 "count": 2,
@@ -7623,17 +8135,41 @@
                 "count": 1,
                 "rank_score": 0.08853261815790953
             },
+            "k31": {
+                "count": 2,
+                "rank_score": 0.05536629687818258
+            },
             "labor market outcomes": {
                 "count": 3,
                 "rank_score": 0.14927951723681346
+            },
+            "legal change": {
+                "count": 1,
+                "rank_score": 0.04680704750703197
+            },
+            "newly covered individuals": {
+                "count": 1,
+                "rank_score": 0.05490978251608737
+            },
+            "obese": {
+                "count": 1,
+                "rank_score": 0.0624205697621689
             },
             "obese individuals": {
                 "count": 1,
                 "rank_score": 0.09613421130375518
             },
+            "obesity": {
+                "count": 1,
+                "rank_score": 0.05026867560347713
+            },
             "stated goals": {
                 "count": 1,
                 "rank_score": 0.08635670601052206
+            },
+            "unintended consequences": {
+                "count": 1,
+                "rank_score": 0.04968701996011331
             },
             "variation": {
                 "count": 1,
@@ -7666,18 +8202,19 @@
             ],
             "RCDC": [
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
+                    "id": "388",
+                    "name": "Nutrition"
                 },
                 {
                     "id": "497",
                     "name": "Basic Behavioral and Social Science"
                 },
                 {
-                    "id": "388",
-                    "name": "Nutrition"
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -7689,6 +8226,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.4991.5",
                         "first_name": "Ewa",
+                        "initials": "",
                         "last_name": "Jarosz",
                         "orcid": "",
                         "researcher_id": "ur.014471243057.90"
@@ -7705,6 +8243,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.4991.5",
                     "first_name": "Ewa",
+                    "initials": "",
                     "last_name": "Jarosz",
                     "orcid": "",
                     "researcher_id": "ur.014471243057.90"
@@ -7712,28 +8251,20 @@
             ],
             "category_for": [
                 {
-                    "id": "3136",
-                    "name": "1111 Nutrition and Dietetics"
+                    "id": "3448",
+                    "name": "1608 Sociology"
                 },
                 {
-                    "id": "3320",
-                    "name": "1499 Other Economics"
+                    "id": "3577",
+                    "name": "2002 Cultural Studies"
                 },
                 {
-                    "id": "2211",
-                    "name": "11 Medical and Health Sciences"
-                },
-                {
-                    "id": "2214",
-                    "name": "14 Economics"
+                    "id": "2220",
+                    "name": "20 Language, Communication and Culture"
                 },
                 {
                     "id": "2216",
                     "name": "16 Studies in Human Society"
-                },
-                {
-                    "id": "3448",
-                    "name": "1608 Sociology"
                 }
             ],
             "category_hra": [
@@ -7744,16 +8275,16 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
+                    "id": "388",
+                    "name": "Nutrition"
                 },
                 {
                     "id": "497",
                     "name": "Basic Behavioral and Social Science"
                 },
                 {
-                    "id": "388",
-                    "name": "Nutrition"
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
             "category_ua": [
@@ -7785,27 +8316,26 @@
                 "Poland",
                 "United States",
                 "state",
-                "differences",
                 "countries",
                 "circumstances",
                 "people",
                 "labour market",
                 "market",
                 "household characteristics",
+                "analysed dimensions",
                 "dimensions",
                 "social eating",
                 "eating",
                 "high time expenditure",
                 "time expenditure",
                 "expenditure",
-                "food",
                 "thought",
                 "comparative analysis"
             ],
             "date": "2016-10-01",
             "date_inserted": "2017-12-01",
             "doi": "10.1080/15528014.2016.1243766",
-            "field_citation_ratio": 2.0,
+            "field_citation_ratio": 3.97,
             "funder_countries": [
                 {
                     "id": "GB",
@@ -7842,7 +8372,34 @@
             },
             "journal_lists": [
                 "ERA 2015",
-                "VABB-SHW"
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "food",
+                "thought",
+                "comparative analysis",
+                "United State",
+                "Poland",
+                "Armenia",
+                "important consequence",
+                "individual health",
+                "well-being",
+                "habit",
+                "comparative perspective",
+                "behavior",
+                "society",
+                "paper",
+                "representative data",
+                "pattern",
+                "significant difference",
+                "country",
+                "circumstance",
+                "difference",
+                "labor market",
+                "household characteristic",
+                "dimension",
+                "Time"
             ],
             "open_access_categories": [
                 {
@@ -7855,82 +8412,84 @@
             "publisher": "Taylor & Francis",
             "recent_citations": 3,
             "reference_ids": [
-                "pub.1051782824",
-                "pub.1079019073",
-                "pub.1018771628",
-                "pub.1027635437",
-                "pub.1020934917",
                 "pub.1033219662",
-                "pub.1021976175",
-                "pub.1050913174",
-                "pub.1073465519",
-                "pub.1091047540",
-                "pub.1032636854",
-                "pub.1039551882",
                 "pub.1022924285",
-                "pub.1077259801",
-                "pub.1018533832",
-                "pub.1020372622",
-                "pub.1020085314",
-                "pub.1020605073",
-                "pub.1024717279",
-                "pub.1046447142",
-                "pub.1077369366",
-                "pub.1040785118",
-                "pub.1073317943",
-                "pub.1013850492",
-                "pub.1004601909",
+                "pub.1073465519",
+                "pub.1018771628",
+                "pub.1021976175",
                 "pub.1099378868",
-                "pub.1035341209",
-                "pub.1028425125",
-                "pub.1028688879",
-                "pub.1005532566",
-                "pub.1045166103",
+                "pub.1046447142",
+                "pub.1020372622",
+                "pub.1020934917",
+                "pub.1020605073",
+                "pub.1032636854",
+                "pub.1020085314",
+                "pub.1009837276",
                 "pub.1034812895",
-                "pub.1004955309",
-                "pub.1007463253",
-                "pub.1035681720",
+                "pub.1018533832",
+                "pub.1039551882",
+                "pub.1051782824",
+                "pub.1035341209",
+                "pub.1024717279",
+                "pub.1077369366",
+                "pub.1050913174",
                 "pub.1009622861",
-                "pub.1020789987"
+                "pub.1073317943",
+                "pub.1004955309",
+                "pub.1028425125",
+                "pub.1040785118",
+                "pub.1013850492",
+                "pub.1007463253",
+                "pub.1020789987",
+                "pub.1028688879",
+                "pub.1091047540",
+                "pub.1035681720",
+                "pub.1005532566",
+                "pub.1077259801",
+                "pub.1045166103",
+                "pub.1079019073",
+                "pub.1027635437",
+                "pub.1004601909"
             ],
             "references": [
-                "pub.1051782824",
-                "pub.1079019073",
-                "pub.1018771628",
-                "pub.1027635437",
-                "pub.1020934917",
                 "pub.1033219662",
-                "pub.1021976175",
-                "pub.1050913174",
-                "pub.1073465519",
-                "pub.1091047540",
-                "pub.1032636854",
-                "pub.1039551882",
                 "pub.1022924285",
-                "pub.1077259801",
-                "pub.1018533832",
-                "pub.1020372622",
-                "pub.1020085314",
-                "pub.1020605073",
-                "pub.1024717279",
-                "pub.1046447142",
-                "pub.1077369366",
-                "pub.1040785118",
-                "pub.1073317943",
-                "pub.1013850492",
-                "pub.1004601909",
+                "pub.1073465519",
+                "pub.1018771628",
+                "pub.1021976175",
                 "pub.1099378868",
-                "pub.1035341209",
-                "pub.1028425125",
-                "pub.1028688879",
-                "pub.1005532566",
-                "pub.1045166103",
+                "pub.1046447142",
+                "pub.1020372622",
+                "pub.1020934917",
+                "pub.1020605073",
+                "pub.1032636854",
+                "pub.1020085314",
+                "pub.1009837276",
                 "pub.1034812895",
-                "pub.1004955309",
-                "pub.1007463253",
-                "pub.1035681720",
+                "pub.1018533832",
+                "pub.1039551882",
+                "pub.1051782824",
+                "pub.1035341209",
+                "pub.1024717279",
+                "pub.1077369366",
+                "pub.1050913174",
                 "pub.1009622861",
-                "pub.1020789987"
+                "pub.1073317943",
+                "pub.1004955309",
+                "pub.1028425125",
+                "pub.1040785118",
+                "pub.1013850492",
+                "pub.1007463253",
+                "pub.1020789987",
+                "pub.1028688879",
+                "pub.1091047540",
+                "pub.1035681720",
+                "pub.1005532566",
+                "pub.1077259801",
+                "pub.1045166103",
+                "pub.1079019073",
+                "pub.1027635437",
+                "pub.1004601909"
             ],
             "research_org_cities": [
                 {
@@ -7956,6 +8515,9 @@
                 "Poland",
                 "United Kingdom"
             ],
+            "research_org_names": [
+                "University of Oxford; Polish Academy of Sciences"
+            ],
             "researchers": [
                 {
                     "first_name": "Ewa Katarzyna",
@@ -7969,8 +8531,8 @@
                 }
             ],
             "supporting_grant_ids": [
-                "grant.3560794",
-                "grant.2778037"
+                "grant.2778037",
+                "grant.3560794"
             ],
             "terms": [
                 "important consequences",
@@ -7989,20 +8551,19 @@
                 "Poland",
                 "United States",
                 "state",
-                "differences",
                 "countries",
                 "circumstances",
                 "people",
                 "labour market",
                 "market",
                 "household characteristics",
+                "analysed dimensions",
                 "dimensions",
                 "social eating",
                 "eating",
                 "high time expenditure",
                 "time expenditure",
                 "expenditure",
-                "food",
                 "thought",
                 "comparative analysis"
             ],
@@ -8176,6 +8737,10 @@
         },
         "doi": "10.1080/15528014.2016.1243766",
         "keyphrases": {
+            "all societies": {
+                "count": 1,
+                "rank_score": 0.03342545756164045
+            },
             "armenia": {
                 "count": 2,
                 "rank_score": 0.06597255426758701
@@ -8184,17 +8749,25 @@
                 "count": 1,
                 "rank_score": 0.06580572446893383
             },
+            "circumstances": {
+                "count": 1,
+                "rank_score": 0.023969348569304813
+            },
+            "comparative perspective": {
+                "count": 1,
+                "rank_score": 0.04732335805690946
+            },
             "countries": {
                 "count": 2,
                 "rank_score": 0.07786360119094493
             },
-            "daily": {
-                "count": 1,
-                "rank_score": 0.05396483733138781
-            },
             "daily eating habits": {
                 "count": 1,
                 "rank_score": 0.10320228751288683
+            },
+            "given society": {
+                "count": 1,
+                "rank_score": 0.04435166364203381
             },
             "higher time expenditures": {
                 "count": 1,
@@ -8216,9 +8789,13 @@
                 "count": 1,
                 "rank_score": 0.09146939874418085
             },
-            "patterns": {
+            "most analyzed dimensions": {
                 "count": 1,
-                "rank_score": 0.05313856332965059
+                "rank_score": 0.04464703188806777
+            },
+            "nationally representative data": {
+                "count": 1,
+                "rank_score": 0.04623888235065691
             },
             "people": {
                 "count": 1,
@@ -8235,6 +8812,10 @@
             "social eating": {
                 "count": 1,
                 "rank_score": 0.09868077100793296
+            },
+            "united states": {
+                "count": 2,
+                "rank_score": 0.04440585187960407
             }
         },
         "original": {
@@ -8267,23 +8848,19 @@
                     "name": "Stroke"
                 },
                 {
+                    "id": "906",
+                    "name": "Metabolic and Endocrine"
+                },
+                {
                     "id": "911",
                     "name": "Cancer"
                 },
                 {
                     "id": "894",
                     "name": "Cardiovascular"
-                },
-                {
-                    "id": "906",
-                    "name": "Metabolic and Endocrine"
                 }
             ],
             "RCDC": [
-                {
-                    "id": "478",
-                    "name": "Sleep Research"
-                },
                 {
                     "id": "388",
                     "name": "Nutrition"
@@ -8293,20 +8870,24 @@
                     "name": "Obesity"
                 },
                 {
-                    "id": "558",
-                    "name": "Prevention"
-                },
-                {
                     "id": "497",
                     "name": "Basic Behavioral and Social Science"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
+                },
+                {
+                    "id": "558",
+                    "name": "Prevention"
                 },
                 {
                     "id": "507",
                     "name": "Clinical Research"
                 },
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
+                    "id": "478",
+                    "name": "Sleep Research"
                 }
             ],
             "altmetric": 19.0,
@@ -8329,6 +8910,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Viral C.",
+                        "initials": "",
                         "last_name": "Patel",
                         "orcid": "",
                         "researcher_id": ""
@@ -8349,6 +8931,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.25879.31",
                         "first_name": "Andrea M.",
+                        "initials": "",
                         "last_name": "Spaeth",
                         "orcid": "",
                         "researcher_id": "ur.01215277225.76"
@@ -8369,6 +8952,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.25879.31",
                         "first_name": "Mathias",
+                        "initials": "",
                         "last_name": "Basner",
                         "orcid": "",
                         "researcher_id": "ur.01235773767.25"
@@ -8392,6 +8976,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Viral C.",
+                    "initials": "",
                     "last_name": "Patel",
                     "orcid": "",
                     "researcher_id": ""
@@ -8412,6 +8997,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.25879.31",
                     "first_name": "Andrea M.",
+                    "initials": "",
                     "last_name": "Spaeth",
                     "orcid": "",
                     "researcher_id": "ur.01215277225.76"
@@ -8432,6 +9018,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.25879.31",
                     "first_name": "Mathias",
+                    "initials": "",
                     "last_name": "Basner",
                     "orcid": "",
                     "researcher_id": "ur.01235773767.25"
@@ -8453,23 +9040,19 @@
                     "name": "Stroke"
                 },
                 {
+                    "id": "906",
+                    "name": "Metabolic and Endocrine"
+                },
+                {
                     "id": "911",
                     "name": "Cancer"
                 },
                 {
                     "id": "894",
                     "name": "Cardiovascular"
-                },
-                {
-                    "id": "906",
-                    "name": "Metabolic and Endocrine"
                 }
             ],
             "category_rcdc": [
-                {
-                    "id": "478",
-                    "name": "Sleep Research"
-                },
                 {
                     "id": "388",
                     "name": "Nutrition"
@@ -8479,20 +9062,24 @@
                     "name": "Obesity"
                 },
                 {
-                    "id": "558",
-                    "name": "Prevention"
-                },
-                {
                     "id": "497",
                     "name": "Basic Behavioral and Social Science"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
+                },
+                {
+                    "id": "558",
+                    "name": "Prevention"
                 },
                 {
                     "id": "507",
                     "name": "Clinical Research"
                 },
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
+                    "id": "478",
+                    "name": "Sleep Research"
                 }
             ],
             "category_ua": [
@@ -8508,7 +9095,6 @@
                 }
             ],
             "concepts": [
-                "time use",
                 "use",
                 "obesity",
                 "study",
@@ -8516,7 +9102,6 @@
                 "survey",
                 "continuous cross-sectional survey",
                 "cross-sectional survey",
-                "sectional survey",
                 "logistic regression",
                 "regression",
                 "sociodemographic characteristics",
@@ -8537,12 +9122,12 @@
                 "sleep",
                 "weekdays",
                 "night",
+                "sleeping",
                 "days",
                 "amount of time",
                 "BMI individuals",
                 "hours",
                 "further differences",
-                "health",
                 "household activities",
                 "timing of sleep",
                 "work activities",
@@ -8558,7 +9143,7 @@
             "date": "2016-10-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1002/oby.21596",
-            "field_citation_ratio": 1.05,
+            "field_citation_ratio": 1.78,
             "funder_countries": [
                 {
                     "id": "US",
@@ -8566,22 +9151,6 @@
                 }
             ],
             "funders": [
-                {
-                    "acronym": "NCI",
-                    "city_name": "Rockville",
-                    "country_name": "United States",
-                    "id": "grid.48336.3a",
-                    "latitude": 39.004326,
-                    "linkout": [
-                        "http://www.cancer.gov/"
-                    ],
-                    "longitude": -77.10119,
-                    "name": "National Cancer Institute",
-                    "state_name": "Maryland",
-                    "types": [
-                        "Government"
-                    ]
-                },
                 {
                     "acronym": "NINR",
                     "city_name": "Bethesda",
@@ -8610,8 +9179,10 @@
                 "title": "Obesity"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018",
                 "PubMed"
             ],
             "linkout": "http://europepmc.org/articles/pmc5039068?pdf=render",
@@ -8634,6 +9205,39 @@
                 "United States",
                 "Young Adult"
             ],
+            "noun_phrases": [
+                "time use",
+                "obesity",
+                "representative sample",
+                "american",
+                "representative",
+                "America",
+                "behavior",
+                "method",
+                "observation",
+                "individual",
+                "American Time Use Survey",
+                "Logistic Model",
+                "sociodemographic characteristic",
+                "participation",
+                "association",
+                "Time",
+                "BMI",
+                "difference",
+                "timing",
+                "category",
+                "nite",
+                "sleeping",
+                "television",
+                "household activity",
+                "conclusion",
+                "work activity",
+                "motivation",
+                "exercise",
+                "appropriate target",
+                "intervention",
+                "sedentary activity"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -8655,86 +9259,86 @@
             "pmcid": "PMC5039068",
             "pmid": "27542679",
             "publisher": "Wiley",
-            "recent_citations": 3,
+            "recent_citations": 4,
             "reference_ids": [
-                "pub.1051808636",
-                "pub.1014545162",
-                "pub.1073065750",
                 "pub.1023779639",
+                "pub.1001060460",
+                "pub.1073065750",
+                "pub.1000017496",
+                "pub.1016630038",
+                "pub.1051808636",
+                "pub.1053207907",
+                "pub.1015218698",
+                "pub.1002406581",
+                "pub.1042793515",
+                "pub.1051190609",
+                "pub.1024387101",
+                "pub.1004602892",
                 "pub.1062427748",
-                "pub.1077644696",
-                "pub.1077493563",
-                "pub.1004474218",
+                "pub.1073065811",
+                "pub.1013136288",
+                "pub.1024207529",
+                "pub.1062447269",
+                "pub.1013269363",
+                "pub.1037753603",
+                "pub.1112535417",
+                "pub.1006945770",
                 "pub.1059948246",
                 "pub.1040319107",
-                "pub.1015218698",
-                "pub.1004602892",
-                "pub.1016630038",
-                "pub.1062447269",
                 "pub.1032429476",
-                "pub.1051190609",
-                "pub.1053207907",
-                "pub.1024387101",
-                "pub.1013269363",
-                "pub.1073065811",
-                "pub.1020626655",
-                "pub.1006945770",
-                "pub.1058302878",
-                "pub.1013136288",
-                "pub.1079102408",
-                "pub.1037628624",
-                "pub.1001060460",
-                "pub.1024207529",
-                "pub.1037753603",
-                "pub.1031497763",
+                "pub.1014545162",
                 "pub.1028440350",
-                "pub.1112535417",
-                "pub.1000017496",
+                "pub.1079102408",
+                "pub.1020626655",
+                "pub.1004474218",
                 "pub.1022630734",
-                "pub.1042793515",
+                "pub.1058302878",
+                "pub.1077644696",
+                "pub.1077493563",
+                "pub.1031497763",
                 "pub.1010885723",
-                "pub.1002406581"
+                "pub.1037628624"
             ],
             "references": [
-                "pub.1051808636",
-                "pub.1014545162",
-                "pub.1073065750",
                 "pub.1023779639",
+                "pub.1001060460",
+                "pub.1073065750",
+                "pub.1000017496",
+                "pub.1016630038",
+                "pub.1051808636",
+                "pub.1053207907",
+                "pub.1015218698",
+                "pub.1002406581",
+                "pub.1042793515",
+                "pub.1051190609",
+                "pub.1024387101",
+                "pub.1004602892",
                 "pub.1062427748",
-                "pub.1077644696",
-                "pub.1077493563",
-                "pub.1004474218",
+                "pub.1073065811",
+                "pub.1013136288",
+                "pub.1024207529",
+                "pub.1062447269",
+                "pub.1013269363",
+                "pub.1037753603",
+                "pub.1112535417",
+                "pub.1006945770",
                 "pub.1059948246",
                 "pub.1040319107",
-                "pub.1015218698",
-                "pub.1004602892",
-                "pub.1016630038",
-                "pub.1062447269",
                 "pub.1032429476",
-                "pub.1051190609",
-                "pub.1053207907",
-                "pub.1024387101",
-                "pub.1013269363",
-                "pub.1073065811",
-                "pub.1020626655",
-                "pub.1006945770",
-                "pub.1058302878",
-                "pub.1013136288",
-                "pub.1079102408",
-                "pub.1037628624",
-                "pub.1001060460",
-                "pub.1024207529",
-                "pub.1037753603",
-                "pub.1031497763",
+                "pub.1014545162",
                 "pub.1028440350",
-                "pub.1112535417",
-                "pub.1000017496",
+                "pub.1079102408",
+                "pub.1020626655",
+                "pub.1004474218",
                 "pub.1022630734",
-                "pub.1042793515",
+                "pub.1058302878",
+                "pub.1077644696",
+                "pub.1077493563",
+                "pub.1031497763",
                 "pub.1010885723",
-                "pub.1002406581"
+                "pub.1037628624"
             ],
-            "relative_citation_ratio": 0.65,
+            "relative_citation_ratio": 0.51,
             "research_org_cities": [
                 {
                     "id": 5150529,
@@ -8754,19 +9358,23 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "University of Pennsylvania",
+                "Case Western Reserve University"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-OH",
-                    "name": "Ohio"
-                },
                 {
                     "id": "US-PA",
                     "name": "Pennsylvania"
+                },
+                {
+                    "id": "US-OH",
+                    "name": "Ohio"
                 }
             ],
             "research_org_state_names": [
-                "Pennsylvania",
-                "Ohio"
+                "Ohio",
+                "Pennsylvania"
             ],
             "research_orgs": [
                 {
@@ -8816,13 +9424,13 @@
                     "id": "ur.01235773767.25",
                     "last_name": "Basner",
                     "research_orgs": [
-                        "grid.35403.31",
-                        "grid.47100.32",
                         "grid.32224.35",
-                        "grid.168010.e",
                         "grid.7551.6",
+                        "grid.35403.31",
+                        "grid.168010.e",
                         "grid.413103.4",
                         "grid.25879.31",
+                        "grid.47100.32",
                         "grid.419491.0"
                     ]
                 }
@@ -8831,7 +9439,6 @@
                 "grant.2553336"
             ],
             "terms": [
-                "time use",
                 "use",
                 "obesity",
                 "study",
@@ -8839,7 +9446,6 @@
                 "survey",
                 "continuous cross-sectional survey",
                 "cross-sectional survey",
-                "sectional survey",
                 "logistic regression",
                 "regression",
                 "sociodemographic characteristics",
@@ -8860,12 +9466,12 @@
                 "sleep",
                 "weekdays",
                 "night",
+                "sleeping",
                 "days",
                 "amount of time",
                 "BMI individuals",
                 "hours",
                 "further differences",
-                "health",
                 "household activities",
                 "timing of sleep",
                 "work activities",
@@ -8878,7 +9484,7 @@
                 "samples",
                 "Americans"
             ],
-            "times_cited": 3,
+            "times_cited": 4,
             "title": "Relationships between time use and obesity in a representative sample of Americans",
             "type": "article",
             "volume": "24",
@@ -9287,10 +9893,6 @@
         },
         "doi": "10.1002/oby.21596",
         "keyphrases": {
-            "activities": {
-                "count": 1,
-                "rank_score": 0.11042989017601332
-            },
             "activity participation levels": {
                 "count": 1,
                 "rank_score": 0.11171899195213955
@@ -9303,6 +9905,18 @@
                 "count": 1,
                 "rank_score": 0.1131719294284298
             },
+            "america": {
+                "count": 4,
+                "rank_score": 0.05326630273039519
+            },
+            "american time use survey": {
+                "count": 2,
+                "rank_score": 0.05465726555933248
+            },
+            "amounts": {
+                "count": 1,
+                "rank_score": 0.05338949665789093
+            },
             "bmi": {
                 "count": 1,
                 "rank_score": 0.07584222004081494
@@ -9310,6 +9924,14 @@
             "bmi categories": {
                 "count": 1,
                 "rank_score": 0.0777401239640938
+            },
+            "continuous cross-sectional survey": {
+                "count": 1,
+                "rank_score": 0.06130810569337132
+            },
+            "further differences": {
+                "count": 1,
+                "rank_score": 0.06527453654822922
             },
             "household activities": {
                 "count": 1,
@@ -9319,6 +9941,14 @@
                 "count": 1,
                 "rank_score": 0.07764210380919212
             },
+            "individuals": {
+                "count": 2,
+                "rank_score": 0.06675079283426573
+            },
+            "logistic regressions": {
+                "count": 1,
+                "rank_score": 0.06667787682345327
+            },
             "nonlinear associations": {
                 "count": 1,
                 "rank_score": 0.0688518830372451
@@ -9327,17 +9957,33 @@
                 "count": 1,
                 "rank_score": 0.0707135159882133
             },
+            "normal-bmi individuals": {
+                "count": 1,
+                "rank_score": 0.060209274478021546
+            },
+            "obesity": {
+                "count": 5,
+                "rank_score": 0.06646528967027124
+            },
             "sedentary activities": {
                 "count": 1,
                 "rank_score": 0.11286320213331758
+            },
+            "short and long sleep": {
+                "count": 2,
+                "rank_score": 0.05500401330290048
+            },
+            "sleep": {
+                "count": 1,
+                "rank_score": 0.06592281352960376
             },
             "sociodemographic characteristics": {
                 "count": 1,
                 "rank_score": 0.06713548047778817
             },
-            "time": {
+            "television": {
                 "count": 2,
-                "rank_score": 0.09573930066662213
+                "rank_score": 0.05825696271533116
             },
             "time use": {
                 "count": 2,
@@ -10784,21 +11430,25 @@
         },
         "doi": "10.1371/journal.pone.0158422",
         "keyphrases": {
-            "a simulated benefit month": {
-                "count": 1,
-                "rank_score": 0.07169423491712451
-            },
             "american time use survey and eating & health module": {
                 "count": 1,
                 "rank_score": 0.06902544952229171
             },
-            "days": {
-                "count": 4,
-                "rank_score": 0.07256510530868875
+            "benefit issuance cycle": {
+                "count": 1,
+                "rank_score": 0.07688288545889328
             },
             "descriptive statistics": {
                 "count": 1,
                 "rank_score": 0.09171957614093429
+            },
+            "eating": {
+                "count": 1,
+                "rank_score": 0.06850599227050463
+            },
+            "end of the month": {
+                "count": 1,
+                "rank_score": 0.026988114988146603
             },
             "food": {
                 "count": 1,
@@ -10812,37 +11462,65 @@
                 "count": 1,
                 "rank_score": 0.07957348197244048
             },
-            "monthly": {
-                "count": 3,
-                "rank_score": 0.08600630827205442
+            "hunger": {
+                "count": 1,
+                "rank_score": 0.05599331801413682
+            },
+            "individuals": {
+                "count": 1,
+                "rank_score": 0.052973843725953186
+            },
+            "logit model": {
+                "count": 1,
+                "rank_score": 0.0414064189679105
             },
             "monthly benefits": {
                 "count": 1,
                 "rank_score": 0.12392964558033584
             },
+            "monthly cycle": {
+                "count": 1,
+                "rank_score": 0.05882563993542998
+            },
+            "no eating occurrences": {
+                "count": 2,
+                "rank_score": 0.05107964816977425
+            },
+            "nonparticipants": {
+                "count": 1,
+                "rank_score": 0.05621743011441542
+            },
+            "simulated benefit month": {
+                "count": 1,
+                "rank_score": 0.07169423491712451
+            },
+            "situation": {
+                "count": 1,
+                "rank_score": 0.034756972912188405
+            },
             "snap": {
                 "count": 4,
                 "rank_score": 0.08972634025963402
+            },
+            "snap monthly benefit issuance policy": {
+                "count": 1,
+                "rank_score": 0.09675445038146632
             },
             "snap participants": {
                 "count": 1,
                 "rank_score": 0.09379675499821334
             },
-            "the benefit issuance cycle": {
+            "some report feelings": {
                 "count": 1,
-                "rank_score": 0.07688288545889328
-            },
-            "the snap monthly benefit issuance policy": {
-                "count": 1,
-                "rank_score": 0.09675445038146632
-            },
-            "the u.s. supplemental nutrition assistance program": {
-                "count": 2,
-                "rank_score": 0.07316726426149675
+                "rank_score": 0.04650021930572693
             },
             "time diaries": {
                 "count": 1,
                 "rank_score": 0.08086715717934756
+            },
+            "u.s. supplemental nutrition assistance program": {
+                "count": 2,
+                "rank_score": 0.07316726426149675
             }
         },
         "original": {
@@ -10871,12 +11549,12 @@
             ],
             "RCDC": [
                 {
-                    "id": "389",
-                    "name": "Obesity"
-                },
-                {
                     "id": "388",
                     "name": "Nutrition"
+                },
+                {
+                    "id": "389",
+                    "name": "Obesity"
                 }
             ],
             "altmetric": 18.0,
@@ -10899,6 +11577,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.432923.d",
                         "first_name": "Joelle",
+                        "initials": "",
                         "last_name": "Abramowitz",
                         "orcid": "",
                         "researcher_id": "ur.01366640066.90"
@@ -10922,6 +11601,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.432923.d",
                     "first_name": "Joelle",
+                    "initials": "",
                     "last_name": "Abramowitz",
                     "orcid": "",
                     "researcher_id": "ur.01366640066.90"
@@ -10949,12 +11629,12 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "389",
-                    "name": "Obesity"
-                },
-                {
                     "id": "388",
                     "name": "Nutrition"
+                },
+                {
+                    "id": "389",
+                    "name": "Obesity"
                 }
             ],
             "category_ua": [
@@ -10984,24 +11664,27 @@
                 "body mass index",
                 "mass index",
                 "index",
-                "possible mechanisms",
+                "possible mechanism",
                 "mechanism",
                 "relationship",
+                "use data",
                 "data",
                 "workers",
-                "strenuous jobs",
                 "additional hour",
                 "women",
                 "men",
                 "pounds",
+                "strenuous jobs",
                 "effect of time",
-                "effects",
+                "effect",
                 "exercise",
                 "food preparation",
                 "screen time",
                 "eating",
                 "differences",
                 "effect of hours",
+                "BMI decrease",
+                "decrease",
                 "findings",
                 "association",
                 "obesity"
@@ -11009,7 +11692,7 @@
             "date": "2016-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/s11150-014-9267-4",
-            "field_citation_ratio": 3.71,
+            "field_citation_ratio": 3.48,
             "id": "pub.1008460118",
             "issn": [
                 "1569-5239",
@@ -11021,9 +11704,39 @@
                 "title": "Review of Economics of the Household"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "connection",
+                "body mass index",
+                "U.S.",
+                "use analysis",
+                "recent decade",
+                "american",
+                "job",
+                "dramatic increase",
+                "demographic group",
+                "body",
+                "possible mechanism",
+                "time use",
+                "paper",
+                "worker",
+                "woman",
+                "men",
+                "pound",
+                "sleeping",
+                "exercise",
+                "food preparation",
+                "screen time",
+                "single time",
+                "large difference",
+                "estimated effect",
+                "plausible mechanism",
+                "association",
+                "obesity"
             ],
             "open_access_categories": [
                 {
@@ -11036,84 +11749,84 @@
             "publisher": "Springer Nature",
             "recent_citations": 3,
             "reference_ids": [
-                "pub.1063348807",
-                "pub.1008187402",
-                "pub.1058854862",
-                "pub.1058799198",
-                "pub.1009714894",
-                "pub.1058573361",
-                "pub.1017088980",
-                "pub.1051533348",
-                "pub.1032439457",
-                "pub.1062427779",
-                "pub.1030833770",
-                "pub.1064526080",
-                "pub.1043588087",
-                "pub.1069846096",
-                "pub.1017611689",
-                "pub.1050738491",
-                "pub.1045227796",
-                "pub.1019035222",
-                "pub.1037628624",
-                "pub.1048396491",
-                "pub.1058575194",
-                "pub.1009536059",
-                "pub.1016141592",
-                "pub.1008299546",
-                "pub.1010422418",
-                "pub.1026768287",
-                "pub.1063352845",
-                "pub.1045761734",
                 "pub.1035341209",
-                "pub.1030876270",
-                "pub.1071225399",
-                "pub.1036496157",
-                "pub.1006752725",
-                "pub.1002468939",
-                "pub.1053537346",
+                "pub.1009536059",
+                "pub.1010422418",
+                "pub.1058575194",
                 "pub.1051013748",
+                "pub.1058854862",
+                "pub.1008299546",
+                "pub.1030876270",
+                "pub.1032439457",
+                "pub.1058573361",
+                "pub.1019035222",
+                "pub.1048396491",
+                "pub.1026768287",
+                "pub.1058799198",
+                "pub.1064526080",
+                "pub.1016141592",
+                "pub.1030833770",
+                "pub.1053537346",
+                "pub.1043588087",
+                "pub.1041887408",
+                "pub.1050738491",
+                "pub.1069846096",
+                "pub.1062427779",
+                "pub.1036496157",
+                "pub.1045761734",
+                "pub.1071225399",
+                "pub.1037628624",
+                "pub.1051533348",
+                "pub.1009714894",
+                "pub.1002468939",
+                "pub.1063348807",
+                "pub.1017088980",
                 "pub.1077142427",
-                "pub.1041887408"
+                "pub.1006752725",
+                "pub.1017611689",
+                "pub.1063352845",
+                "pub.1045227796",
+                "pub.1008187402"
             ],
             "references": [
-                "pub.1063348807",
-                "pub.1008187402",
-                "pub.1058854862",
-                "pub.1058799198",
-                "pub.1009714894",
-                "pub.1058573361",
-                "pub.1017088980",
-                "pub.1051533348",
-                "pub.1032439457",
-                "pub.1062427779",
-                "pub.1030833770",
-                "pub.1064526080",
-                "pub.1043588087",
-                "pub.1069846096",
-                "pub.1017611689",
-                "pub.1050738491",
-                "pub.1045227796",
-                "pub.1019035222",
-                "pub.1037628624",
-                "pub.1048396491",
-                "pub.1058575194",
-                "pub.1009536059",
-                "pub.1016141592",
-                "pub.1008299546",
-                "pub.1010422418",
-                "pub.1026768287",
-                "pub.1063352845",
-                "pub.1045761734",
                 "pub.1035341209",
-                "pub.1030876270",
-                "pub.1071225399",
-                "pub.1036496157",
-                "pub.1006752725",
-                "pub.1002468939",
-                "pub.1053537346",
+                "pub.1009536059",
+                "pub.1010422418",
+                "pub.1058575194",
                 "pub.1051013748",
+                "pub.1058854862",
+                "pub.1008299546",
+                "pub.1030876270",
+                "pub.1032439457",
+                "pub.1058573361",
+                "pub.1019035222",
+                "pub.1048396491",
+                "pub.1026768287",
+                "pub.1058799198",
+                "pub.1064526080",
+                "pub.1016141592",
+                "pub.1030833770",
+                "pub.1053537346",
+                "pub.1043588087",
+                "pub.1041887408",
+                "pub.1050738491",
+                "pub.1069846096",
+                "pub.1062427779",
+                "pub.1036496157",
+                "pub.1045761734",
+                "pub.1071225399",
+                "pub.1037628624",
+                "pub.1051533348",
+                "pub.1009714894",
+                "pub.1002468939",
+                "pub.1063348807",
+                "pub.1017088980",
                 "pub.1077142427",
-                "pub.1041887408"
+                "pub.1006752725",
+                "pub.1017611689",
+                "pub.1063352845",
+                "pub.1045227796",
+                "pub.1008187402"
             ],
             "research_org_cities": [
                 {
@@ -11129,6 +11842,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "United States Census Bureau"
             ],
             "research_org_state_codes": [
                 {
@@ -11182,24 +11898,27 @@
                 "body mass index",
                 "mass index",
                 "index",
-                "possible mechanisms",
+                "possible mechanism",
                 "mechanism",
                 "relationship",
+                "use data",
                 "data",
                 "workers",
-                "strenuous jobs",
                 "additional hour",
                 "women",
                 "men",
                 "pounds",
+                "strenuous jobs",
                 "effect of time",
-                "effects",
+                "effect",
                 "exercise",
                 "food preparation",
                 "screen time",
                 "eating",
                 "differences",
                 "effect of hours",
+                "BMI decrease",
+                "decrease",
                 "findings",
                 "association",
                 "obesity"
@@ -11522,13 +12241,37 @@
                 "count": 1,
                 "rank_score": 0.08299159281926766
             },
+            "americans": {
+                "count": 2,
+                "rank_score": 0.05847170416068551
+            },
             "bmi": {
                 "count": 7,
                 "rank_score": 0.08499768593144998
             },
-            "hours": {
-                "count": 4,
-                "rank_score": 0.06748061854052624
+            "certain demographic groups": {
+                "count": 1,
+                "rank_score": 0.06669162879114733
+            },
+            "channel": {
+                "count": 1,
+                "rank_score": 0.05674952211948334
+            },
+            "decreases": {
+                "count": 1,
+                "rank_score": 0.039877966249259364
+            },
+            "dramatic increases": {
+                "count": 1,
+                "rank_score": 0.06578213306983985
+            },
+            "estimated effect": {
+                "count": 1,
+                "rank_score": 0.04411072482051861
+            },
+            "exercise and food preparation": {
+                "count": 1,
+                "rank_score": 0.042144614071327254
             },
             "increased body mass index": {
                 "count": 1,
@@ -11546,25 +12289,33 @@
                 "count": 1,
                 "rank_score": 0.08143100408879053
             },
+            "recent decades": {
+                "count": 2,
+                "rank_score": 0.06542234902229066
+            },
+            "research documents": {
+                "count": 1,
+                "rank_score": 0.06192152485559346
+            },
             "screen time": {
                 "count": 2,
                 "rank_score": 0.1291751680403918
+            },
+            "secondary eating": {
+                "count": 1,
+                "rank_score": 0.05910129023348522
             },
             "sedentary jobs": {
                 "count": 1,
                 "rank_score": 0.08113509304525975
             },
-            "strenuous jobs": {
-                "count": 1,
-                "rank_score": 0.094303608177772
-            },
-            "the single time": {
+            "single time": {
                 "count": 1,
                 "rank_score": 0.07698264432440577
             },
-            "time": {
-                "count": 9,
-                "rank_score": 0.13473033392863581
+            "strenuous jobs": {
+                "count": 1,
+                "rank_score": 0.094303608177772
             },
             "use channels": {
                 "count": 1,
@@ -11573,6 +12324,14 @@
             "women": {
                 "count": 7,
                 "rank_score": 0.08176069163829841
+            },
+            "workers": {
+                "count": 3,
+                "rank_score": 0.0518363637552581
+            },
+            "working": {
+                "count": 1,
+                "rank_score": 0.05348675398979191
             },
             "working time": {
                 "count": 1,
@@ -11623,6 +12382,7 @@
                     "name": "Clinical Research"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -11641,6 +12401,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Miguel",
+                        "initials": "",
                         "last_name": "Lugo",
                         "orcid": "",
                         "researcher_id": ""
@@ -11661,6 +12422,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.15276.37",
                         "first_name": "Sivaramakrishnan",
+                        "initials": "",
                         "last_name": "Srinivasan",
                         "orcid": "",
                         "researcher_id": "ur.012365664403.59"
@@ -11684,6 +12446,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Miguel",
+                    "initials": "",
                     "last_name": "Lugo",
                     "orcid": "",
                     "researcher_id": ""
@@ -11704,6 +12467,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.15276.37",
                     "first_name": "Sivaramakrishnan",
+                    "initials": "",
                     "last_name": "Srinivasan",
                     "orcid": "",
                     "researcher_id": "ur.012365664403.59"
@@ -11782,10 +12546,8 @@
             "concepts": [
                 "feasibility",
                 "data",
-                "travel choices",
                 "choice",
                 "measures",
-                "disaggregate level",
                 "record linkage software",
                 "linkage software",
                 "software",
@@ -11798,27 +12560,27 @@
                 "algorithm",
                 "health information",
                 "information",
-                "master data set",
-                "data sets",
-                "set",
+                "master data",
                 "model",
-                "multimodal travel choice",
                 "walking",
                 "use",
+                "moderate users",
                 "users",
                 "end",
                 "bike trips",
-                "trips",
                 "proof",
                 "concept",
                 "data fusion techniques",
-                "fusion technique",
+                "fusion techniques",
                 "technique",
-                "multiple data sets"
+                "multiple data sets",
+                "data sets",
+                "set"
             ],
             "date": "2016-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.3141/2598-05",
+            "field_citation_ratio": 0.0,
             "id": "pub.1071052368",
             "issn": [
                 "0361-1981",
@@ -11830,9 +12592,53 @@
                 "title": "Transportation Research Record Journal of the Transportation Research Board"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "transportation",
+                "exploratory analysis",
+                "feasibility",
+                "large scale",
+                "health",
+                "comprehensive data set",
+                "transit",
+                "vehicle",
+                "travel",
+                "Weight and Measure",
+                "body mass index",
+                "physical health",
+                "Health Survey",
+                "record linkage",
+                "Plus",
+                "data fusion",
+                "methodology",
+                "EHS",
+                "American Time Use Survey",
+                "algorithm",
+                "MATCH",
+                "health information",
+                "National",
+                "master",
+                "statistical analysis",
+                "good health",
+                "nonusers",
+                "mode",
+                "high level",
+                "poor health",
+                "user",
+                "spectrum",
+                "quartile",
+                "high body mass index",
+                "middle",
+                "significant effect",
+                "bike",
+                "health measure",
+                "proof-of-concept",
+                "multiple data set",
+                "comprehensive study"
             ],
             "open_access_categories": [
                 {
@@ -11843,37 +12649,38 @@
             ],
             "pages": "37-45",
             "publisher": "SAGE Publications",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1021073635",
-                "pub.1071050017",
-                "pub.1073275971",
                 "pub.1058300501",
-                "pub.1071050147",
-                "pub.1045278999",
-                "pub.1068844954",
+                "pub.1021073635",
                 "pub.1005666421",
-                "pub.1058303762",
                 "pub.1003772650",
+                "pub.1045278999",
+                "pub.1001263282",
+                "pub.1071050017",
                 "pub.1026589176",
+                "pub.1073275971",
+                "pub.1071050147",
                 "pub.1050480109",
-                "pub.1068846884",
-                "pub.1001263282"
+                "pub.1068844954",
+                "pub.1058303762",
+                "pub.1068846884"
             ],
             "references": [
-                "pub.1021073635",
-                "pub.1071050017",
-                "pub.1073275971",
                 "pub.1058300501",
-                "pub.1071050147",
-                "pub.1045278999",
-                "pub.1068844954",
+                "pub.1021073635",
                 "pub.1005666421",
-                "pub.1058303762",
                 "pub.1003772650",
+                "pub.1045278999",
+                "pub.1001263282",
+                "pub.1071050017",
                 "pub.1026589176",
+                "pub.1073275971",
+                "pub.1071050147",
                 "pub.1050480109",
-                "pub.1068846884",
-                "pub.1001263282"
+                "pub.1068844954",
+                "pub.1058303762",
+                "pub.1068846884"
             ],
             "research_org_cities": [
                 {
@@ -11889,6 +12696,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "University of Florida"
             ],
             "research_org_state_codes": [
                 {
@@ -11931,10 +12741,8 @@
             "terms": [
                 "feasibility",
                 "data",
-                "travel choices",
                 "choice",
                 "measures",
-                "disaggregate level",
                 "record linkage software",
                 "linkage software",
                 "software",
@@ -11947,24 +12755,24 @@
                 "algorithm",
                 "health information",
                 "information",
-                "master data set",
-                "data sets",
-                "set",
+                "master data",
                 "model",
-                "multimodal travel choice",
                 "walking",
                 "use",
+                "moderate users",
                 "users",
                 "end",
                 "bike trips",
-                "trips",
                 "proof",
                 "concept",
                 "data fusion techniques",
-                "fusion technique",
+                "fusion techniques",
                 "technique",
-                "multiple data sets"
+                "multiple data sets",
+                "data sets",
+                "set"
             ],
+            "times_cited": 0,
             "title": "Multimodal Transportation Choices and Health: Exploratory Analysis Using Data Fusion Techniques",
             "type": "article",
             "volume": "2598",
@@ -12081,17 +12889,41 @@
         },
         "doi": "10.3141/2598-05",
         "keyphrases": {
-            "a health survey": {
+            "american time use surveys": {
                 "count": 1,
-                "rank_score": 0.07304749424845809
+                "rank_score": 0.061819256065221886
             },
-            "a self-assessed physical health score": {
+            "atus": {
+                "count": 3,
+                "rank_score": 0.05428637279593987
+            },
+            "biking": {
                 "count": 1,
-                "rank_score": 0.06413673606689141
+                "rank_score": 0.05032111023792481
+            },
+            "bmi": {
+                "count": 1,
+                "rank_score": 0.04544721947967116
+            },
+            "data fusion purposes": {
+                "count": 1,
+                "rank_score": 0.04600323158634252
+            },
+            "eating and health module": {
+                "count": 1,
+                "rank_score": 0.05507982765228602
             },
             "health": {
                 "count": 3,
                 "rank_score": 0.11654799383629574
+            },
+            "health information": {
+                "count": 1,
+                "rank_score": 0.0681898104544722
+            },
+            "health survey": {
+                "count": 1,
+                "rank_score": 0.07304749424845809
             },
             "large-scale travel and health surveys": {
                 "count": 1,
@@ -12109,33 +12941,49 @@
                 "count": 1,
                 "rank_score": 0.09824436976158278
             },
+            "national household travel surveys": {
+                "count": 2,
+                "rank_score": 0.06334421690634692
+            },
+            "nhts": {
+                "count": 2,
+                "rank_score": 0.04113264181750375
+            },
+            "probabilistic record linkage software": {
+                "count": 1,
+                "rank_score": 0.058764580928797314
+            },
+            "resulting master data set": {
+                "count": 1,
+                "rank_score": 0.059593363987865584
+            },
+            "saphs": {
+                "count": 1,
+                "rank_score": 0.0401435604980005
+            },
+            "self-assessed physical health score": {
+                "count": 1,
+                "rank_score": 0.06413673606689141
+            },
             "surveys": {
                 "count": 1,
                 "rank_score": 0.07542737395552994
             },
-            "the american time use surveys": {
+            "transit": {
                 "count": 1,
-                "rank_score": 0.061819256065221886
+                "rank_score": 0.05351595368860746
             },
-            "the health information": {
+            "travel survey": {
                 "count": 1,
-                "rank_score": 0.0681898104544722
-            },
-            "the national household travel surveys": {
-                "count": 2,
-                "rank_score": 0.06334421690634692
-            },
-            "the probabilistic record linkage software": {
-                "count": 1,
-                "rank_score": 0.058764580928797314
-            },
-            "the resulting master data set": {
-                "count": 1,
-                "rank_score": 0.059593363987865584
+                "rank_score": 0.0574740611288533
             },
             "vehicle usage": {
                 "count": 1,
                 "rank_score": 0.06473423627859004
+            },
+            "walking": {
+                "count": 1,
+                "rank_score": 0.055572339585706204
             },
             "weekly": {
                 "count": 1,

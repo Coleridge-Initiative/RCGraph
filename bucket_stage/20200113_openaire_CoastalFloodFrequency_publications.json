@@ -1943,10 +1943,6 @@
         },
         "doi": "10.5194/nhess-19-1955-2019",
         "keyphrases": {
-            "areas": {
-                "count": 3,
-                "rank_score": 0.0653452332968426
-            },
             "daily resolution": {
                 "count": 1,
                 "rank_score": 0.0681179318301661
@@ -1971,21 +1967,45 @@
                 "count": 1,
                 "rank_score": 0.07115727838709769
             },
+            "growing trend": {
+                "count": 1,
+                "rank_score": 0.04013577907676843
+            },
             "high spatio-temporal resolution": {
                 "count": 1,
                 "rank_score": 0.05963799531113699
             },
-            "information": {
-                "count": 2,
-                "rank_score": 0.06222520312088237
+            "highly developed areas": {
+                "count": 1,
+                "rank_score": 0.04087617336797344
+            },
+            "hotspots": {
+                "count": 1,
+                "rank_score": 0.04662847222099405
             },
             "intensity": {
                 "count": 2,
                 "rank_score": 0.05481260752219417
             },
+            "main newspapers": {
+                "count": 1,
+                "rank_score": 0.038746039755317985
+            },
+            "main novelty": {
+                "count": 1,
+                "rank_score": 0.03960805776982208
+            },
+            "more complex floodscenario": {
+                "count": 1,
+                "rank_score": 0.041039863032687314
+            },
             "municipality": {
                 "count": 2,
                 "rank_score": 0.06022739543371972
+            },
+            "names": {
+                "count": 1,
+                "rank_score": 0.04330826010716669
             },
             "new actions": {
                 "count": 1,
@@ -2002,6 +2022,26 @@
             "southern spain": {
                 "count": 1,
                 "rank_score": 0.061842251740153814
+            },
+            "spain": {
+                "count": 3,
+                "rank_score": 0.04993396711047145
+            },
+            "spanish mediterranean coastal flood": {
+                "count": 1,
+                "rank_score": 0.05352177859085466
+            },
+            "spanish mediterranean coastal flood (smc-flood) database": {
+                "count": 1,
+                "rank_score": 0.0414497810056903
+            },
+            "study area": {
+                "count": 1,
+                "rank_score": 0.045148072003508594
+            },
+            "thehigh-resolution spatial analysis": {
+                "count": 1,
+                "rank_score": 0.03956853577593474
             }
         },
         "original": {
@@ -2039,6 +2079,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.212340.6",
                         "first_name": "Brianne",
+                        "initials": "",
                         "last_name": "Smith",
                         "orcid": "['0000-0003-1314-9536']",
                         "researcher_id": "ur.07421624733.44"
@@ -2048,6 +2089,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Stephanie",
+                        "initials": "",
                         "last_name": "Rodriguez",
                         "orcid": "",
                         "researcher_id": ""
@@ -2060,6 +2102,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.212340.6",
                     "first_name": "Brianne",
+                    "initials": "",
                     "last_name": "Smith",
                     "orcid": "['0000-0003-1314-9536']",
                     "researcher_id": "ur.07421624733.44"
@@ -2069,6 +2112,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Stephanie",
+                    "initials": "",
                     "last_name": "Rodriguez",
                     "orcid": "",
                     "researcher_id": ""
@@ -2084,6 +2128,7 @@
                     "name": "04 Earth Sciences"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30012",
@@ -2098,28 +2143,25 @@
             ],
             "concepts": [
                 "city",
-                "urban regions",
                 "region",
                 "impervious cover",
                 "cover",
                 "stream channels",
                 "channels",
                 "flood studies",
-                "presence",
                 "stream gauges",
                 "gauge",
                 "flood stage",
                 "stage",
                 "discharge",
-                "urban areas",
                 "area",
                 "rainfall datasets",
-                "dataset",
+                "datasets",
                 "flash flooding",
                 "flooding",
                 "results",
-                "land–sea boundary",
-                "sea boundary",
+                "urban areas",
+                "land-sea boundary",
                 "boundaries",
                 "important impact",
                 "impact",
@@ -2129,7 +2171,7 @@
                 "rainfall",
                 "contrast",
                 "hourly rainfall",
-                "rainfall maxima",
+                "rainfall maximum",
                 "maximum",
                 "city center",
                 "center",
@@ -2139,18 +2181,16 @@
                 "high groundwater table",
                 "groundwater table",
                 "table",
-                "more coastal areas",
                 "coastal areas",
                 "high rain rates",
                 "rain rate",
                 "rate",
                 "rain volume",
                 "volume",
-                "more inland areas",
                 "inland areas",
                 "strong relationship",
                 "relationship",
-                "sewer type",
+                "sewer types",
                 "types",
                 "flood frequency",
                 "frequency",
@@ -2158,7 +2198,6 @@
                 "sewer area",
                 "one-hour",
                 "one-day rainfall",
-                "day rainfall",
                 "less rain",
                 "rain",
                 "daily maximum",
@@ -2172,7 +2211,7 @@
             "date": "2017-09-27",
             "date_inserted": "2017-09-28",
             "doi": "10.3390/w9100736",
-            "field_citation_ratio": 2.0,
+            "field_citation_ratio": 1.78,
             "id": "pub.1091928470",
             "issn": [
                 "2073-4441"
@@ -2183,12 +2222,47 @@
                 "title": "Water"
             },
             "journal_lists": [
-                "DOAJ",
-                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "DOAJ",
+                "ERA 2015"
             ],
             "linkout": "https://www.mdpi.com/2073-4441/9/10/736/pdf",
+            "noun_phrases": [
+                "high-resolution radar",
+                "flash",
+                "New York City",
+                "urban region",
+                "stream channel",
+                "flood",
+                "gage",
+                "discharge",
+                "method",
+                "urban area",
+                "citizen",
+                "expert",
+                "city",
+                "boundary",
+                "important impact",
+                "spatial variability",
+                "heavy rainfall",
+                "flooding",
+                "contrast",
+                "rainfall",
+                "city center",
+                "extended region",
+                "groundwater",
+                "coastal area",
+                "rain rate",
+                "volume",
+                "inland",
+                "strong relationship",
+                "sewer",
+                "frequency",
+                "maximum",
+                "rain"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -2210,90 +2284,90 @@
             "publisher": "MDPI",
             "recent_citations": 7,
             "reference_ids": [
-                "pub.1041620938",
-                "pub.1031402258",
-                "pub.1037498640",
-                "pub.1057634044",
-                "pub.1118150035",
-                "pub.1062519822",
-                "pub.1024731104",
-                "pub.1053392735",
-                "pub.1013219929",
-                "pub.1014763245",
-                "pub.1033153853",
-                "pub.1018014118",
-                "pub.1083719633",
-                "pub.1003589420",
-                "pub.1009108406",
-                "pub.1024447023",
-                "pub.1010714502",
-                "pub.1012540836",
-                "pub.1026060169",
                 "pub.1069134741",
-                "pub.1008399842",
-                "pub.1009465679",
-                "pub.1001477659",
-                "pub.1038242276",
-                "pub.1063455533",
-                "pub.1001642793",
-                "pub.1000908459",
-                "pub.1011040774",
-                "pub.1031725232",
+                "pub.1014763245",
+                "pub.1009108406",
+                "pub.1021356862",
+                "pub.1010714502",
+                "pub.1024447023",
+                "pub.1026060169",
                 "pub.1045183864",
+                "pub.1031402258",
+                "pub.1012540836",
+                "pub.1063455533",
+                "pub.1057634044",
+                "pub.1013219929",
+                "pub.1024731104",
+                "pub.1008399842",
+                "pub.1037772189",
+                "pub.1040826145",
+                "pub.1001642793",
                 "pub.1021930362",
+                "pub.1041620938",
+                "pub.1026764959",
+                "pub.1027416591",
                 "pub.1005319976",
                 "pub.1024374879",
-                "pub.1026764959",
-                "pub.1021356862",
+                "pub.1033153853",
+                "pub.1009465679",
+                "pub.1011040774",
+                "pub.1083719633",
                 "pub.1015136007",
+                "pub.1118150035",
                 "pub.1045623964",
-                "pub.1040826145",
-                "pub.1037772189",
-                "pub.1027416591",
-                "pub.1034330062"
+                "pub.1001477659",
+                "pub.1062519822",
+                "pub.1053392735",
+                "pub.1018014118",
+                "pub.1003589420",
+                "pub.1034330062",
+                "pub.1037498640",
+                "pub.1031725232",
+                "pub.1000908459",
+                "pub.1038242276"
             ],
             "references": [
-                "pub.1041620938",
-                "pub.1031402258",
-                "pub.1037498640",
-                "pub.1057634044",
-                "pub.1118150035",
-                "pub.1062519822",
-                "pub.1024731104",
-                "pub.1053392735",
-                "pub.1013219929",
-                "pub.1014763245",
-                "pub.1033153853",
-                "pub.1018014118",
-                "pub.1083719633",
-                "pub.1003589420",
-                "pub.1009108406",
-                "pub.1024447023",
-                "pub.1010714502",
-                "pub.1012540836",
-                "pub.1026060169",
                 "pub.1069134741",
-                "pub.1008399842",
-                "pub.1009465679",
-                "pub.1001477659",
-                "pub.1038242276",
-                "pub.1063455533",
-                "pub.1001642793",
-                "pub.1000908459",
-                "pub.1011040774",
-                "pub.1031725232",
+                "pub.1014763245",
+                "pub.1009108406",
+                "pub.1021356862",
+                "pub.1010714502",
+                "pub.1024447023",
+                "pub.1026060169",
                 "pub.1045183864",
+                "pub.1031402258",
+                "pub.1012540836",
+                "pub.1063455533",
+                "pub.1057634044",
+                "pub.1013219929",
+                "pub.1024731104",
+                "pub.1008399842",
+                "pub.1037772189",
+                "pub.1040826145",
+                "pub.1001642793",
                 "pub.1021930362",
+                "pub.1041620938",
+                "pub.1026764959",
+                "pub.1027416591",
                 "pub.1005319976",
                 "pub.1024374879",
-                "pub.1026764959",
-                "pub.1021356862",
+                "pub.1033153853",
+                "pub.1009465679",
+                "pub.1011040774",
+                "pub.1083719633",
                 "pub.1015136007",
+                "pub.1118150035",
                 "pub.1045623964",
-                "pub.1040826145",
-                "pub.1037772189",
-                "pub.1027416591",
-                "pub.1034330062"
+                "pub.1001477659",
+                "pub.1062519822",
+                "pub.1053392735",
+                "pub.1018014118",
+                "pub.1003589420",
+                "pub.1034330062",
+                "pub.1037498640",
+                "pub.1031725232",
+                "pub.1000908459",
+                "pub.1038242276"
             ],
             "researchers": [
                 {
@@ -2304,35 +2378,31 @@
                         "0000-0003-1314-9536"
                     ],
                     "research_orgs": [
-                        "grid.183006.c",
-                        "grid.212340.6"
+                        "grid.183006.c"
                     ]
                 }
             ],
             "terms": [
                 "city",
-                "urban regions",
                 "region",
                 "impervious cover",
                 "cover",
                 "stream channels",
                 "channels",
                 "flood studies",
-                "presence",
                 "stream gauges",
                 "gauge",
                 "flood stage",
                 "stage",
                 "discharge",
-                "urban areas",
                 "area",
                 "rainfall datasets",
-                "dataset",
+                "datasets",
                 "flash flooding",
                 "flooding",
                 "results",
-                "land–sea boundary",
-                "sea boundary",
+                "urban areas",
+                "land-sea boundary",
                 "boundaries",
                 "important impact",
                 "impact",
@@ -2342,7 +2412,7 @@
                 "rainfall",
                 "contrast",
                 "hourly rainfall",
-                "rainfall maxima",
+                "rainfall maximum",
                 "maximum",
                 "city center",
                 "center",
@@ -2352,18 +2422,16 @@
                 "high groundwater table",
                 "groundwater table",
                 "table",
-                "more coastal areas",
                 "coastal areas",
                 "high rain rates",
                 "rain rate",
                 "rate",
                 "rain volume",
                 "volume",
-                "more inland areas",
                 "inland areas",
                 "strong relationship",
                 "relationship",
-                "sewer type",
+                "sewer types",
                 "types",
                 "flood frequency",
                 "frequency",
@@ -2371,7 +2439,6 @@
                 "sewer area",
                 "one-hour",
                 "one-day rainfall",
-                "day rainfall",
                 "less rain",
                 "rain",
                 "daily maximum",
@@ -4137,9 +4204,17 @@
         ],
         "doi": "10.3390/w9100736",
         "keyphrases": {
+            "both heavy rainfall": {
+                "count": 1,
+                "rank_score": 0.05306647640903608
+            },
             "combined sewer areas": {
                 "count": 1,
                 "rank_score": 0.09131890337197875
+            },
+            "daily and hourly rainfall": {
+                "count": 1,
+                "rank_score": 0.061330099536718696
             },
             "fewer floods": {
                 "count": 1,
@@ -4169,6 +4244,10 @@
                 "count": 1,
                 "rank_score": 0.09610276652277798
             },
+            "high-resolution radar rainfall": {
+                "count": 1,
+                "rank_score": 0.055703155362355046
+            },
             "higher rainfall downwind": {
                 "count": 1,
                 "rank_score": 0.10657581496799316
@@ -4185,9 +4264,29 @@
                 "count": 1,
                 "rank_score": 0.08655557735937142
             },
+            "new york city": {
+                "count": 2,
+                "rank_score": 0.06422180539130413
+            },
+            "nyc": {
+                "count": 5,
+                "rank_score": 0.0666521198902576
+            },
             "other cities": {
                 "count": 1,
                 "rank_score": 0.08458154068054205
+            },
+            "sewer type": {
+                "count": 1,
+                "rank_score": 0.07043895733502112
+            },
+            "stream channels": {
+                "count": 1,
+                "rank_score": 0.06617949941359746
+            },
+            "stream gages": {
+                "count": 1,
+                "rank_score": 0.07175607798836522
             },
             "traditional flood studies": {
                 "count": 1,
@@ -4196,6 +4295,14 @@
             "ultra-urban areas": {
                 "count": 1,
                 "rank_score": 0.10184013921130407
+            },
+            "ultra-urban region": {
+                "count": 1,
+                "rank_score": 0.06197687650014534
+            },
+            "urban area": {
+                "count": 1,
+                "rank_score": 0.05442894273974666
             }
         },
         "original": {
@@ -4224,7 +4331,7 @@
                     "name": "04 Earth Sciences"
                 }
             ],
-            "altmetric": 161.0,
+            "altmetric": 160.0,
             "altmetric_id": 25101917,
             "author_affiliations": [
                 [
@@ -4254,6 +4361,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.10388.32",
                         "first_name": "Makan A.",
+                        "initials": "",
                         "last_name": "Karegar",
                         "orcid": "['0000-0001-7120-0649']",
                         "researcher_id": "ur.016450202207.53"
@@ -4274,6 +4382,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.170693.a",
                         "first_name": "Timothy H.",
+                        "initials": "",
                         "last_name": "Dixon",
                         "orcid": "",
                         "researcher_id": "ur.0740737430.22"
@@ -4294,6 +4403,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.170693.a",
                         "first_name": "Rocco",
+                        "initials": "",
                         "last_name": "Malservisi",
                         "orcid": "['0000-0003-1767-8187']",
                         "researcher_id": "ur.01036740106.05"
@@ -4314,6 +4424,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.10388.32",
                         "first_name": "Jürgen",
+                        "initials": "",
                         "last_name": "Kusche",
                         "orcid": "['0000-0001-7069-021X']",
                         "researcher_id": "ur.01136454151.18"
@@ -4334,6 +4445,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.20431.34",
                         "first_name": "Simon E.",
+                        "initials": "",
                         "last_name": "Engelhart",
                         "orcid": "['0000-0002-4431-4664']",
                         "researcher_id": "ur.014374043273.98"
@@ -4367,6 +4479,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.10388.32",
                     "first_name": "Makan A.",
+                    "initials": "",
                     "last_name": "Karegar",
                     "orcid": "['0000-0001-7120-0649']",
                     "researcher_id": "ur.016450202207.53"
@@ -4387,6 +4500,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.170693.a",
                     "first_name": "Timothy H.",
+                    "initials": "",
                     "last_name": "Dixon",
                     "orcid": "",
                     "researcher_id": "ur.0740737430.22"
@@ -4407,6 +4521,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.170693.a",
                     "first_name": "Rocco",
+                    "initials": "",
                     "last_name": "Malservisi",
                     "orcid": "['0000-0003-1767-8187']",
                     "researcher_id": "ur.01036740106.05"
@@ -4427,6 +4542,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.10388.32",
                     "first_name": "Jürgen",
+                    "initials": "",
                     "last_name": "Kusche",
                     "orcid": "['0000-0001-7069-021X']",
                     "researcher_id": "ur.01136454151.18"
@@ -4447,6 +4563,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.20431.34",
                     "first_name": "Simon E.",
+                    "initials": "",
                     "last_name": "Engelhart",
                     "orcid": "['0000-0002-4431-4664']",
                     "researcher_id": "ur.014374043273.98"
@@ -4454,22 +4571,15 @@
             ],
             "category_for": [
                 {
-                    "id": "2581",
-                    "name": "0601 Biochemistry and Cell Biology"
+                    "id": "2539",
+                    "name": "0406 Physical Geography and Environmental Geoscience"
                 },
                 {
-                    "id": "2421",
-                    "name": "0299 Other Physical Sciences"
-                },
-                {
-                    "id": "2206",
-                    "name": "06 Biological Sciences"
-                },
-                {
-                    "id": "2202",
-                    "name": "02 Physical Sciences"
+                    "id": "2204",
+                    "name": "04 Earth Sciences"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30007",
@@ -4484,10 +4594,8 @@
             ],
             "concepts": [
                 "sea-level rise",
-                "level rise",
                 "rise",
                 "inundation",
-                "low-lying coastal areas",
                 "coastal areas",
                 "area",
                 "meteorological effects",
@@ -4497,9 +4605,11 @@
                 "sea level",
                 "global average",
                 "average",
+                "catastrophic coastal flooding",
                 "coastal flooding",
                 "flooding",
-                "wind",
+                "storm surge",
+                "surge",
                 "large areas",
                 "relative contribution",
                 "contribution",
@@ -4547,7 +4657,7 @@
             "date": "2017-12-01",
             "date_inserted": "2017-09-15",
             "doi": "10.1038/s41598-017-11544-y",
-            "field_citation_ratio": 5.63,
+            "field_citation_ratio": 5.61,
             "funder_countries": [
                 {
                     "id": "US",
@@ -4614,13 +4724,52 @@
                 "title": "Scientific Reports"
             },
             "journal_lists": [
+                "VABB-SHW",
+                "ERA 2018",
+                "Norwegian register level 1",
                 "DOAJ",
                 "ERA 2015",
-                "Norwegian register level 1",
-                "VABB-SHW",
                 "PubMed"
             ],
             "linkout": "https://www.nature.com/articles/s41598-017-11544-y.pdf",
+            "noun_phrases": [
+                "nuisance",
+                "relative sea level rise",
+                "sea level",
+                "rise",
+                "inundation",
+                "coastal area",
+                "Earth's",
+                "risk",
+                "additional factor",
+                "subsidence",
+                "relative sea-level",
+                "global average",
+                "coastal flooding",
+                "wind-driven",
+                "relative contribution",
+                "sea level rise",
+                "frequency",
+                "small scale",
+                "tide",
+                "recent increase",
+                "global warming",
+                "flooding",
+                "early indicator",
+                "location",
+                "eastern seaboard",
+                "North America",
+                "motion",
+                "anthropogenic activity",
+                "glacial isostatic adjustment",
+                "implication",
+                "susceptibility",
+                "forecasting",
+                "mitigation",
+                "management",
+                "groundwater",
+                "coastal aquifer"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -4642,136 +4791,136 @@
             "pmcid": "PMC5593944",
             "pmid": "28894195",
             "publisher": "Springer Nature",
-            "recent_citations": 18,
+            "recent_citations": 21,
             "reference_ids": [
-                "pub.1008229624",
-                "pub.1016357215",
-                "pub.1004878498",
-                "pub.1034600793",
-                "pub.1027461262",
-                "pub.1004148722",
-                "pub.1006087509",
-                "pub.1050758815",
-                "pub.1046546023",
-                "pub.1002403133",
-                "pub.1024090692",
-                "pub.1035950642",
+                "pub.1045656731",
                 "pub.1021208109",
+                "pub.1005445601",
                 "pub.1014921162",
-                "pub.1038905555",
-                "pub.1050612841",
-                "pub.1014127089",
-                "pub.1062734125",
+                "pub.1023255642",
+                "pub.1001857686",
+                "pub.1050758815",
                 "pub.1003724113",
-                "pub.1045470640",
+                "pub.1030781289",
+                "pub.1032619631",
+                "pub.1040775589",
+                "pub.1004878498",
+                "pub.1005403996",
                 "pub.1050172106",
+                "pub.1037860715",
+                "pub.1035950642",
+                "pub.1040245438",
+                "pub.1006705639",
+                "pub.1006087509",
+                "pub.1038114348",
+                "pub.1038905555",
+                "pub.1014127089",
+                "pub.1030380003",
+                "pub.1006317445",
+                "pub.1047807781",
+                "pub.1016357215",
+                "pub.1037113036",
+                "pub.1004148722",
+                "pub.1010006819",
+                "pub.1002174483",
+                "pub.1050612841",
+                "pub.1025960094",
+                "pub.1026520489",
+                "pub.1064409500",
+                "pub.1034600793",
+                "pub.1052134502",
+                "pub.1010566579",
+                "pub.1046031707",
+                "pub.1002403133",
+                "pub.1027461262",
+                "pub.1046546023",
+                "pub.1002062900",
                 "pub.1034496796",
                 "pub.1036280798",
-                "pub.1002174483",
-                "pub.1002062900",
-                "pub.1006705639",
-                "pub.1030781289",
-                "pub.1010566579",
-                "pub.1005403996",
-                "pub.1037860715",
-                "pub.1085416663",
-                "pub.1064409500",
-                "pub.1046031707",
-                "pub.1040775589",
-                "pub.1045656731",
-                "pub.1006317445",
-                "pub.1023255642",
-                "pub.1031211535",
-                "pub.1052134502",
-                "pub.1013706513",
-                "pub.1032619631",
-                "pub.1085415777",
-                "pub.1038114348",
-                "pub.1025245685",
-                "pub.1001857686",
-                "pub.1052782012",
-                "pub.1010594625",
-                "pub.1062459093",
-                "pub.1005445601",
-                "pub.1003302607",
-                "pub.1025960094",
-                "pub.1009374237",
-                "pub.1040245438",
-                "pub.1010006819",
-                "pub.1030380003",
-                "pub.1026520489",
                 "pub.1059636827",
-                "pub.1047807781",
+                "pub.1010594625",
+                "pub.1041400238",
+                "pub.1008229624",
+                "pub.1024090692",
+                "pub.1025245685",
+                "pub.1003302607",
                 "pub.1025479351",
+                "pub.1045470640",
+                "pub.1009374237",
+                "pub.1031211535",
+                "pub.1013706513",
+                "pub.1062459093",
+                "pub.1052782012",
+                "pub.1062734125",
                 "pub.1053427965",
-                "pub.1037113036",
-                "pub.1041400238"
+                "pub.1085416663",
+                "pub.1085415777"
             ],
             "references": [
-                "pub.1008229624",
-                "pub.1016357215",
-                "pub.1004878498",
-                "pub.1034600793",
-                "pub.1027461262",
-                "pub.1004148722",
-                "pub.1006087509",
-                "pub.1050758815",
-                "pub.1046546023",
-                "pub.1002403133",
-                "pub.1024090692",
-                "pub.1035950642",
+                "pub.1045656731",
                 "pub.1021208109",
+                "pub.1005445601",
                 "pub.1014921162",
-                "pub.1038905555",
-                "pub.1050612841",
-                "pub.1014127089",
-                "pub.1062734125",
+                "pub.1023255642",
+                "pub.1001857686",
+                "pub.1050758815",
                 "pub.1003724113",
-                "pub.1045470640",
+                "pub.1030781289",
+                "pub.1032619631",
+                "pub.1040775589",
+                "pub.1004878498",
+                "pub.1005403996",
                 "pub.1050172106",
+                "pub.1037860715",
+                "pub.1035950642",
+                "pub.1040245438",
+                "pub.1006705639",
+                "pub.1006087509",
+                "pub.1038114348",
+                "pub.1038905555",
+                "pub.1014127089",
+                "pub.1030380003",
+                "pub.1006317445",
+                "pub.1047807781",
+                "pub.1016357215",
+                "pub.1037113036",
+                "pub.1004148722",
+                "pub.1010006819",
+                "pub.1002174483",
+                "pub.1050612841",
+                "pub.1025960094",
+                "pub.1026520489",
+                "pub.1064409500",
+                "pub.1034600793",
+                "pub.1052134502",
+                "pub.1010566579",
+                "pub.1046031707",
+                "pub.1002403133",
+                "pub.1027461262",
+                "pub.1046546023",
+                "pub.1002062900",
                 "pub.1034496796",
                 "pub.1036280798",
-                "pub.1002174483",
-                "pub.1002062900",
-                "pub.1006705639",
-                "pub.1030781289",
-                "pub.1010566579",
-                "pub.1005403996",
-                "pub.1037860715",
-                "pub.1085416663",
-                "pub.1064409500",
-                "pub.1046031707",
-                "pub.1040775589",
-                "pub.1045656731",
-                "pub.1006317445",
-                "pub.1023255642",
-                "pub.1031211535",
-                "pub.1052134502",
-                "pub.1013706513",
-                "pub.1032619631",
-                "pub.1085415777",
-                "pub.1038114348",
-                "pub.1025245685",
-                "pub.1001857686",
-                "pub.1052782012",
-                "pub.1010594625",
-                "pub.1062459093",
-                "pub.1005445601",
-                "pub.1003302607",
-                "pub.1025960094",
-                "pub.1009374237",
-                "pub.1040245438",
-                "pub.1010006819",
-                "pub.1030380003",
-                "pub.1026520489",
                 "pub.1059636827",
-                "pub.1047807781",
+                "pub.1010594625",
+                "pub.1041400238",
+                "pub.1008229624",
+                "pub.1024090692",
+                "pub.1025245685",
+                "pub.1003302607",
                 "pub.1025479351",
+                "pub.1045470640",
+                "pub.1009374237",
+                "pub.1031211535",
+                "pub.1013706513",
+                "pub.1062459093",
+                "pub.1052782012",
+                "pub.1062734125",
                 "pub.1053427965",
-                "pub.1037113036",
-                "pub.1041400238"
+                "pub.1085416663",
+                "pub.1085415777"
             ],
-            "relative_citation_ratio": 0.08,
+            "relative_citation_ratio": 0.25,
             "research_org_cities": [
                 {
                     "id": 4174757,
@@ -4788,17 +4937,22 @@
             ],
             "research_org_countries": [
                 {
-                    "id": "DE",
-                    "name": "Germany"
-                },
-                {
                     "id": "US",
                     "name": "United States"
+                },
+                {
+                    "id": "DE",
+                    "name": "Germany"
                 }
             ],
             "research_org_country_names": [
-                "United States",
-                "Germany"
+                "Germany",
+                "United States"
+            ],
+            "research_org_names": [
+                "University of Rhode Island",
+                "University of Bonn",
+                "University of South Florida"
             ],
             "research_org_state_codes": [
                 {
@@ -4815,6 +4969,22 @@
                 "Rhode Island"
             ],
             "research_orgs": [
+                {
+                    "acronym": "URI",
+                    "city_name": "Kingston",
+                    "country_name": "United States",
+                    "id": "grid.20431.34",
+                    "latitude": 41.48513,
+                    "linkout": [
+                        "http://ww2.uri.edu/#"
+                    ],
+                    "longitude": -71.529945,
+                    "name": "University of Rhode Island",
+                    "state_name": "Rhode Island",
+                    "types": [
+                        "Education"
+                    ]
+                },
                 {
                     "acronym": "USF",
                     "city_name": "Tampa",
@@ -4844,22 +5014,6 @@
                     "types": [
                         "Education"
                     ]
-                },
-                {
-                    "acronym": "URI",
-                    "city_name": "Kingston",
-                    "country_name": "United States",
-                    "id": "grid.20431.34",
-                    "latitude": 41.48513,
-                    "linkout": [
-                        "http://ww2.uri.edu/#"
-                    ],
-                    "longitude": -71.529945,
-                    "name": "University of Rhode Island",
-                    "state_name": "Rhode Island",
-                    "types": [
-                        "Education"
-                    ]
                 }
             ],
             "researchers": [
@@ -4871,8 +5025,8 @@
                         "0000-0001-7120-0649"
                     ],
                     "research_orgs": [
-                        "grid.10388.32",
-                        "grid.170693.a"
+                        "grid.170693.a",
+                        "grid.10388.32"
                     ]
                 },
                 {
@@ -4880,14 +5034,14 @@
                     "id": "ur.0740737430.22",
                     "last_name": "Dixon",
                     "research_orgs": [
+                        "grid.16753.36",
                         "grid.39381.30",
                         "grid.23731.34",
-                        "grid.217200.6",
-                        "grid.211367.0",
-                        "grid.170693.a",
-                        "grid.16753.36",
                         "grid.20861.3d",
-                        "grid.26790.3a"
+                        "grid.170693.a",
+                        "grid.26790.3a",
+                        "grid.211367.0",
+                        "grid.217200.6"
                     ]
                 },
                 {
@@ -4898,9 +5052,9 @@
                         "0000-0003-1767-8187"
                     ],
                     "research_orgs": [
+                        "grid.26790.3a",
                         "grid.170693.a",
                         "grid.5252.0",
-                        "grid.26790.3a",
                         "grid.29857.31"
                     ]
                 },
@@ -4912,21 +5066,21 @@
                         "0000-0001-7069-021X"
                     ],
                     "research_orgs": [
-                        "grid.6936.a",
-                        "grid.21107.35",
-                        "grid.6734.6",
-                        "grid.469888.3",
-                        "grid.413454.3",
-                        "grid.23731.34",
+                        "grid.4488.0",
                         "grid.10388.32",
+                        "grid.6936.a",
+                        "grid.5252.0",
+                        "grid.6734.6",
+                        "grid.7839.5",
+                        "grid.5292.c",
+                        "grid.10894.34",
                         "grid.10253.35",
                         "grid.420182.d",
-                        "grid.7839.5",
-                        "grid.10894.34",
-                        "grid.6190.e",
-                        "grid.5252.0",
-                        "grid.4488.0",
-                        "grid.5292.c"
+                        "grid.413454.3",
+                        "grid.21107.35",
+                        "grid.469888.3",
+                        "grid.23731.34",
+                        "grid.6190.e"
                     ]
                 },
                 {
@@ -4937,22 +5091,20 @@
                         "0000-0002-4431-4664"
                     ],
                     "research_orgs": [
-                        "grid.20431.34",
+                        "grid.25879.31",
                         "grid.8250.f",
-                        "grid.25879.31"
+                        "grid.20431.34"
                     ]
                 }
             ],
             "supporting_grant_ids": [
-                "grant.3982418",
-                "grant.3948966"
+                "grant.3948966",
+                "grant.3982418"
             ],
             "terms": [
                 "sea-level rise",
-                "level rise",
                 "rise",
                 "inundation",
-                "low-lying coastal areas",
                 "coastal areas",
                 "area",
                 "meteorological effects",
@@ -4962,9 +5114,11 @@
                 "sea level",
                 "global average",
                 "average",
+                "catastrophic coastal flooding",
                 "coastal flooding",
                 "flooding",
-                "wind",
+                "storm surge",
+                "surge",
                 "large areas",
                 "relative contribution",
                 "contribution",
@@ -5009,7 +5163,7 @@
                 "relative sea-level rise",
                 "importance"
             ],
-            "times_cited": 18,
+            "times_cited": 21,
             "title": "Nuisance Flooding and Relative Sea-Level Rise: the Importance of Present-Day Land Motion",
             "type": "article",
             "volume": "7",
@@ -7669,10 +7823,6 @@
         },
         "doi": "10.1038/s41598-017-11544-y",
         "keyphrases": {
-            "areas": {
-                "count": 2,
-                "rank_score": 0.08489952335986473
-            },
             "catastrophic coastal flooding": {
                 "count": 1,
                 "rank_score": 0.1137368561456703
@@ -7685,9 +7835,29 @@
                 "count": 1,
                 "rank_score": 0.10076944763180622
             },
+            "flood susceptibility": {
+                "count": 1,
+                "rank_score": 0.06648023463533216
+            },
             "flooding": {
                 "count": 1,
                 "rank_score": 0.10030651996318925
+            },
+            "frequency": {
+                "count": 3,
+                "rank_score": 0.06309771462159125
+            },
+            "glacial isostatic adjustment": {
+                "count": 1,
+                "rank_score": 0.0714226259160688
+            },
+            "groundwater extraction": {
+                "count": 1,
+                "rank_score": 0.06403170475308652
+            },
+            "high tides": {
+                "count": 1,
+                "rank_score": 0.06323574920325914
             },
             "increased catastrophic flooding": {
                 "count": 1,
@@ -7701,13 +7871,29 @@
                 "count": 1,
                 "rank_score": 0.11642048987189685
             },
+            "land loss": {
+                "count": 1,
+                "rank_score": 0.06588733508225254
+            },
+            "land subsidence": {
+                "count": 1,
+                "rank_score": 0.06085860791881497
+            },
             "large areas": {
                 "count": 1,
                 "rank_score": 0.08895203460156209
             },
+            "north america": {
+                "count": 2,
+                "rank_score": 0.05917174655017558
+            },
             "nuisance flooding": {
                 "count": 1,
                 "rank_score": 0.1047904823296652
+            },
+            "only nuisance flooding": {
+                "count": 1,
+                "rank_score": 0.05807418462427844
             },
             "recent anthropogenic activity": {
                 "count": 1,
@@ -7721,9 +7907,17 @@
                 "count": 1,
                 "rank_score": 0.10254609528013853
             },
+            "sea-level rise": {
+                "count": 3,
+                "rank_score": 0.06850825383655183
+            },
             "several additional factors": {
                 "count": 1,
                 "rank_score": 0.07353395287327595
+            },
+            "small scale “nuisance flooding": {
+                "count": 1,
+                "rank_score": 0.06836379259286762
             },
             "vertical land motion": {
                 "count": 1,

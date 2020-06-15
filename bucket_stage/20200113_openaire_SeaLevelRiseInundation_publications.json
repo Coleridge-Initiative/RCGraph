@@ -1555,6 +1555,10 @@
                 "count": 1,
                 "rank_score": 0.09412696830976788
             },
+            "decades": {
+                "count": 1,
+                "rank_score": 0.04038321711730691
+            },
             "disruptive future inundation": {
                 "count": 1,
                 "rank_score": 0.09440354641788175
@@ -1575,9 +1579,33 @@
                 "count": 1,
                 "rank_score": 0.11223145338299023
             },
+            "intermediate-high and highest sea level rise scenarios": {
+                "count": 1,
+                "rank_score": 0.07152332895920631
+            },
+            "livability": {
+                "count": 1,
+                "rank_score": 0.041060141227209544
+            },
             "livable land area": {
                 "count": 1,
                 "rank_score": 0.0797769102935557
+            },
+            "national climate assessment": {
+                "count": 1,
+                "rank_score": 0.07017543981656894
+            },
+            "new, online interactive tool": {
+                "count": 1,
+                "rank_score": 0.04244394650018136
+            },
+            "paris climate agreement": {
+                "count": 2,
+                "rank_score": 0.04321194768467873
+            },
+            "recent studies": {
+                "count": 1,
+                "rank_score": 0.05272568446082533
             },
             "sea level": {
                 "count": 1,
@@ -1587,9 +1615,17 @@
                 "count": 3,
                 "rank_score": 0.13668415002860096
             },
+            "such flooding": {
+                "count": 1,
+                "rank_score": 0.06519113715873914
+            },
             "three localized sea level rise scenarios": {
                 "count": 1,
                 "rank_score": 0.09355517579411164
+            },
+            "tidally driven coastal flooding": {
+                "count": 1,
+                "rank_score": 0.053820138304541354
             },
             "us coastal communities": {
                 "count": 1,
@@ -1598,6 +1634,10 @@
             "us communities": {
                 "count": 1,
                 "rank_score": 0.10411385136951477
+            },
+            "users": {
+                "count": 1,
+                "rank_score": 0.04900200832477534
             }
         },
         "original": {
@@ -1625,6 +1665,7 @@
                     "name": "04 Earth Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -1643,6 +1684,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Martin Yahya",
+                        "initials": "",
                         "last_name": "Surya",
                         "orcid": "",
                         "researcher_id": ""
@@ -1673,6 +1715,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.13402.34",
                         "first_name": "Zhiguo",
+                        "initials": "",
                         "last_name": "He",
                         "orcid": "['0000-0002-0612-9062']",
                         "researcher_id": "ur.016222033227.90"
@@ -1703,6 +1746,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.13402.34",
                         "first_name": "Yuezhang",
+                        "initials": "",
                         "last_name": "Xia",
                         "orcid": "",
                         "researcher_id": "ur.013227162347.78"
@@ -1731,8 +1775,9 @@
                             }
                         ],
                         "corresponding": "",
-                        "current_organization_id": "grid.13402.34",
+                        "current_organization_id": "grid.453137.7",
                         "first_name": "Li",
+                        "initials": "",
                         "last_name": "Li",
                         "orcid": "['0000-0003-3373-2999']",
                         "researcher_id": "ur.013161643231.08"
@@ -1756,6 +1801,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Martin Yahya",
+                    "initials": "",
                     "last_name": "Surya",
                     "orcid": "",
                     "researcher_id": ""
@@ -1786,6 +1832,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.13402.34",
                     "first_name": "Zhiguo",
+                    "initials": "",
                     "last_name": "He",
                     "orcid": "['0000-0002-0612-9062']",
                     "researcher_id": "ur.016222033227.90"
@@ -1816,6 +1863,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.13402.34",
                     "first_name": "Yuezhang",
+                    "initials": "",
                     "last_name": "Xia",
                     "orcid": "",
                     "researcher_id": "ur.013227162347.78"
@@ -1844,8 +1892,9 @@
                         }
                     ],
                     "corresponding": "",
-                    "current_organization_id": "grid.13402.34",
+                    "current_organization_id": "grid.453137.7",
                     "first_name": "Li",
+                    "initials": "",
                     "last_name": "Li",
                     "orcid": "['0000-0003-3373-2999']",
                     "researcher_id": "ur.013161643231.08"
@@ -1861,6 +1910,7 @@
                     "name": "04 Earth Sciences"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30012",
@@ -1888,7 +1938,7 @@
                 "discharge",
                 "tidal dynamics",
                 "dynamics",
-                "flooding area",
+                "flooding areas",
                 "area",
                 "finite-volume coastal ocean model",
                 "Coastal Ocean Model",
@@ -1904,13 +1954,12 @@
                 "sea level",
                 "diurnal tidal components",
                 "inundation area",
-                "tidal forcing",
-                "forcing",
-                "amplitude increases",
-                "increase",
+                "K1 amplitudes",
+                "amplitude",
                 "coastline",
+                "current magnitude increases",
                 "magnitude increase",
-                "area increases",
+                "increase",
                 "elevation areas",
                 "km2",
                 "river mouth",
@@ -1924,14 +1973,13 @@
                 "conditions",
                 "combined increase",
                 "tidal currents",
-                "currents",
+                "current",
                 "fluvial forcing",
+                "forcing",
                 "construction",
                 "tidal prism",
                 "prism",
                 "dissipation effects",
-                "K1 amplitudes",
-                "amplitude",
                 "tidal level",
                 "changes",
                 "phase lag",
@@ -1978,12 +2026,49 @@
                 "title": "Water"
             },
             "journal_lists": [
-                "DOAJ",
-                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "DOAJ",
+                "ERA 2015"
             ],
             "linkout": "https://www.mdpi.com/2073-4441/11/7/1384/pdf",
+            "noun_phrases": [
+                "sea level rise",
+                "river discharge",
+                "Jakarta",
+                "Indonesia",
+                "giant",
+                "city",
+                "dynamic",
+                "flooding",
+                "finite volume",
+                "model result",
+                "Bay",
+                "component",
+                "diurnal tide",
+                "tide",
+                "eastward",
+                "rise",
+                "level increase",
+                "inundation",
+                "amplitude",
+                "cm",
+                "coastline",
+                "magnitude increase",
+                "m/s",
+                "elevation",
+                "km2",
+                "river mouth",
+                "K1",
+                "tidal current",
+                "construction",
+                "decrease",
+                "prism",
+                "dissipation",
+                "significant change",
+                "lag"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -2003,49 +2088,50 @@
             ],
             "pages": "1384",
             "publisher": "MDPI",
+            "recent_citations": 1,
             "reference_ids": [
-                "pub.1027133602",
-                "pub.1073067350",
+                "pub.1063451320",
+                "pub.1013738581",
+                "pub.1015423770",
+                "pub.1103007572",
+                "pub.1014524678",
                 "pub.1003115402",
+                "pub.1024431836",
+                "pub.1029419464",
+                "pub.1026099907",
+                "pub.1013161121",
+                "pub.1073067350",
+                "pub.1036300068",
+                "pub.1027133602",
                 "pub.1106395825",
                 "pub.1037819655",
-                "pub.1029419464",
-                "pub.1040040183",
-                "pub.1024431836",
-                "pub.1052159155",
-                "pub.1026099907",
-                "pub.1014524678",
-                "pub.1013161121",
-                "pub.1073067356",
-                "pub.1013738581",
-                "pub.1105149642",
-                "pub.1063451320",
-                "pub.1015423770",
                 "pub.1048563761",
-                "pub.1036300068",
-                "pub.1103007572"
+                "pub.1052159155",
+                "pub.1105149642",
+                "pub.1040040183",
+                "pub.1073067356"
             ],
             "references": [
-                "pub.1027133602",
-                "pub.1073067350",
+                "pub.1063451320",
+                "pub.1013738581",
+                "pub.1015423770",
+                "pub.1103007572",
+                "pub.1014524678",
                 "pub.1003115402",
+                "pub.1024431836",
+                "pub.1029419464",
+                "pub.1026099907",
+                "pub.1013161121",
+                "pub.1073067350",
+                "pub.1036300068",
+                "pub.1027133602",
                 "pub.1106395825",
                 "pub.1037819655",
-                "pub.1029419464",
-                "pub.1040040183",
-                "pub.1024431836",
-                "pub.1052159155",
-                "pub.1026099907",
-                "pub.1014524678",
-                "pub.1013161121",
-                "pub.1073067356",
-                "pub.1013738581",
-                "pub.1105149642",
-                "pub.1063451320",
-                "pub.1015423770",
                 "pub.1048563761",
-                "pub.1036300068",
-                "pub.1103007572"
+                "pub.1052159155",
+                "pub.1105149642",
+                "pub.1040040183",
+                "pub.1073067356"
             ],
             "research_org_cities": [
                 {
@@ -2066,7 +2152,25 @@
             "research_org_country_names": [
                 "China"
             ],
+            "research_org_names": [
+                "Ministry of Natural Resources",
+                "Zhejiang University"
+            ],
             "research_orgs": [
+                {
+                    "city_name": "Beijing",
+                    "country_name": "China",
+                    "id": "grid.453137.7",
+                    "latitude": 39.924377,
+                    "linkout": [
+                        "http://www.mnr.gov.cn/"
+                    ],
+                    "longitude": 116.36991,
+                    "name": "Ministry of Natural Resources",
+                    "types": [
+                        "Government"
+                    ]
+                },
                 {
                     "acronym": "ZJU",
                     "city_name": "Hangzhou",
@@ -2082,46 +2186,35 @@
                     "types": [
                         "Education"
                     ]
-                },
-                {
-                    "city_name": "Beijing",
-                    "country_name": "China",
-                    "id": "grid.453137.7",
-                    "latitude": 39.924377,
-                    "linkout": [
-                        "http://www.mnr.gov.cn/"
-                    ],
-                    "longitude": 116.36991,
-                    "name": "Ministry of Natural Resources",
-                    "types": [
-                        "Government"
-                    ]
                 }
             ],
             "researchers": [
                 {
-                    "first_name": "Zhi Guo",
+                    "first_name": "Zhi-Guo",
                     "id": "ur.016222033227.90",
                     "last_name": "He",
                     "orcid_id": [
                         "0000-0002-0612-9062"
                     ],
                     "research_orgs": [
-                        "grid.473484.8",
-                        "grid.13402.34",
+                        "grid.453137.7",
                         "grid.251313.7",
-                        "grid.453137.7"
+                        "grid.13402.34",
+                        "grid.473484.8"
                     ]
                 },
                 {
                     "first_name": "Yue-Zhang",
                     "id": "ur.013227162347.78",
                     "last_name": "Xia",
+                    "orcid_id": [
+                        "0000-0001-9832-7279"
+                    ],
                     "research_orgs": [
+                        "grid.453137.7",
                         "grid.13402.34",
                         "grid.12527.33",
-                        "grid.473484.8",
-                        "grid.453137.7"
+                        "grid.473484.8"
                     ]
                 },
                 {
@@ -2132,12 +2225,12 @@
                         "0000-0003-3373-2999"
                     ],
                     "research_orgs": [
+                        "grid.97008.36",
+                        "grid.453137.7",
+                        "grid.1005.4",
                         "grid.12955.3a",
                         "grid.13402.34",
-                        "grid.453137.7",
-                        "grid.473484.8",
-                        "grid.1005.4",
-                        "grid.97008.36"
+                        "grid.473484.8"
                     ]
                 }
             ],
@@ -2156,7 +2249,7 @@
                 "discharge",
                 "tidal dynamics",
                 "dynamics",
-                "flooding area",
+                "flooding areas",
                 "area",
                 "finite-volume coastal ocean model",
                 "Coastal Ocean Model",
@@ -2172,13 +2265,12 @@
                 "sea level",
                 "diurnal tidal components",
                 "inundation area",
-                "tidal forcing",
-                "forcing",
-                "amplitude increases",
-                "increase",
+                "K1 amplitudes",
+                "amplitude",
                 "coastline",
+                "current magnitude increases",
                 "magnitude increase",
-                "area increases",
+                "increase",
                 "elevation areas",
                 "km2",
                 "river mouth",
@@ -2192,14 +2284,13 @@
                 "conditions",
                 "combined increase",
                 "tidal currents",
-                "currents",
+                "current",
                 "fluvial forcing",
+                "forcing",
                 "construction",
                 "tidal prism",
                 "prism",
                 "dissipation effects",
-                "K1 amplitudes",
-                "amplitude",
                 "tidal level",
                 "changes",
                 "phase lag",
@@ -2210,6 +2301,7 @@
                 "hydrodynamic characteristics",
                 "characteristics"
             ],
+            "times_cited": 1,
             "title": "Impacts of Sea Level Rise and River Discharge on the Hydrodynamics Characteristics of Jakarta Bay (Indonesia)",
             "type": "article",
             "volume": "11",
@@ -2429,13 +2521,29 @@
         },
         "doi": "10.3390/w11071384",
         "keyphrases": {
-            "%": {
-                "count": 12,
-                "rank_score": 0.07027167598227253
+            "diurnal tidal component": {
+                "count": 2,
+                "rank_score": 0.06698707117548298
+            },
+            "finite-volume coastal ocean model": {
+                "count": 1,
+                "rank_score": 0.04799275214496466
+            },
+            "gsw": {
+                "count": 3,
+                "rank_score": 0.05877146058989927
             },
             "increased fluvial forcing": {
                 "count": 1,
                 "rank_score": 0.09679332244721883
+            },
+            "increased tidal forcing": {
+                "count": 1,
+                "rank_score": 0.07727634474357048
+            },
+            "inundation areas": {
+                "count": 6,
+                "rank_score": 0.05330118723732869
             },
             "jakarta bay": {
                 "count": 3,
@@ -2449,13 +2557,41 @@
                 "count": 4,
                 "rank_score": 0.07896737724752895
             },
-            "k1": {
-                "count": 5,
-                "rank_score": 0.07388224347028359
+            "k1 amplitude": {
+                "count": 3,
+                "rank_score": 0.04760519501008962
+            },
+            "k1 component": {
+                "count": 1,
+                "rank_score": 0.048631177491211416
+            },
+            "k1 tidal component": {
+                "count": 1,
+                "rank_score": 0.07136547818567611
+            },
+            "k1 tidal phase": {
+                "count": 1,
+                "rank_score": 0.07247064869193491
+            },
+            "low land elevation areas": {
+                "count": 1,
+                "rank_score": 0.05613179809181033
+            },
+            "model results": {
+                "count": 1,
+                "rank_score": 0.06681301497908922
+            },
+            "phase lag": {
+                "count": 1,
+                "rank_score": 0.06247652031058227
             },
             "river discharge": {
                 "count": 2,
                 "rank_score": 0.09116556822768418
+            },
+            "river discharge amplifies": {
+                "count": 1,
+                "rank_score": 0.05740073012513536
             },
             "river discharge conditions": {
                 "count": 1,
@@ -2469,25 +2605,21 @@
                 "count": 7,
                 "rank_score": 0.1227800911233699
             },
-            "the diurnal tidal component": {
-                "count": 2,
-                "rank_score": 0.06698707117548298
-            },
-            "the increased tidal forcing": {
+            "tidal currents": {
                 "count": 1,
-                "rank_score": 0.07727634474357048
+                "rank_score": 0.05554115398869193
             },
-            "the k1 tidal component": {
+            "tidal dynamics": {
                 "count": 1,
-                "rank_score": 0.07136547818567611
+                "rank_score": 0.05589299263212608
             },
-            "the k1 tidal phase": {
-                "count": 1,
-                "rank_score": 0.07247064869193491
-            },
-            "the tidal level": {
+            "tidal level": {
                 "count": 1,
                 "rank_score": 0.07044081382766915
+            },
+            "tidal prism and dissipation effects": {
+                "count": 1,
+                "rank_score": 0.05009666141659798
             }
         },
         "original": {
@@ -2522,7 +2654,7 @@
                     "name": "04 Earth Sciences"
                 }
             ],
-            "altmetric": 1.0,
+            "altmetric": 2.0,
             "altmetric_id": 40796493,
             "author_affiliations": [
                 [
@@ -2542,6 +2674,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.410681.a",
                         "first_name": "David J.",
+                        "initials": "",
                         "last_name": "Hanslow",
                         "orcid": "['0000-0001-6398-2476']",
                         "researcher_id": "ur.012666242067.12"
@@ -2562,6 +2695,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.410681.a",
                         "first_name": "Bradley D.",
+                        "initials": "",
                         "last_name": "Morris",
                         "orcid": "",
                         "researcher_id": "ur.013217020617.53"
@@ -2582,6 +2716,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.410681.a",
                         "first_name": "Edwina",
+                        "initials": "",
                         "last_name": "Foulsham",
                         "orcid": "",
                         "researcher_id": "ur.011621173307.94"
@@ -2602,6 +2737,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.1013.3",
                         "first_name": "Michael A.",
+                        "initials": "",
                         "last_name": "Kinsela",
                         "orcid": "['0000-0003-2509-6806']",
                         "researcher_id": "ur.011053706263.59"
@@ -2625,6 +2761,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.410681.a",
                     "first_name": "David J.",
+                    "initials": "",
                     "last_name": "Hanslow",
                     "orcid": "['0000-0001-6398-2476']",
                     "researcher_id": "ur.012666242067.12"
@@ -2645,6 +2782,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.410681.a",
                     "first_name": "Bradley D.",
+                    "initials": "",
                     "last_name": "Morris",
                     "orcid": "",
                     "researcher_id": "ur.013217020617.53"
@@ -2665,6 +2803,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.410681.a",
                     "first_name": "Edwina",
+                    "initials": "",
                     "last_name": "Foulsham",
                     "orcid": "",
                     "researcher_id": "ur.011621173307.94"
@@ -2685,6 +2824,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.1013.3",
                     "first_name": "Michael A.",
+                    "initials": "",
                     "last_name": "Kinsela",
                     "orcid": "['0000-0003-2509-6806']",
                     "researcher_id": "ur.011053706263.59"
@@ -2692,22 +2832,19 @@
             ],
             "category_for": [
                 {
-                    "id": "2581",
-                    "name": "0601 Biochemistry and Cell Biology"
+                    "id": "2539",
+                    "name": "0406 Physical Geography and Environmental Geoscience"
                 },
                 {
-                    "id": "2421",
-                    "name": "0299 Other Physical Sciences"
+                    "id": "2204",
+                    "name": "04 Earth Sciences"
                 },
                 {
-                    "id": "2206",
-                    "name": "06 Biological Sciences"
-                },
-                {
-                    "id": "2202",
-                    "name": "02 Physical Sciences"
+                    "id": "2534",
+                    "name": "0405 Oceanography"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30014",
@@ -2733,8 +2870,9 @@
                 "data",
                 "tide gauges",
                 "gauge",
-                "harbor",
-                "port",
+                "Harbour",
+                "ports",
+                "mapping inundation",
                 "inundation",
                 "estuary",
                 "coast",
@@ -2746,8 +2884,8 @@
                 "east Australia",
                 "Australia",
                 "water level data sets",
-                "level data sets",
                 "data sets",
+                "set",
                 "water level",
                 "different types",
                 "types",
@@ -2770,12 +2908,11 @@
                 "sea level",
                 "large coastal river",
                 "coastal rivers",
-                "low-lying plains",
                 "Plain",
                 "potential inundation",
                 "regional scale approach",
                 "scale approach",
-                "currents",
+                "current",
                 "potential future exposure",
                 "future exposure",
                 "tidal inundation"
@@ -2783,7 +2920,7 @@
             "date": "2018-12-01",
             "date_inserted": "2018-05-02",
             "doi": "10.1038/s41598-018-25410-y",
-            "field_citation_ratio": 3.93,
+            "field_citation_ratio": 3.72,
             "id": "pub.1103719925",
             "issn": [
                 "2045-2322"
@@ -2794,13 +2931,44 @@
                 "title": "Scientific Reports"
             },
             "journal_lists": [
+                "VABB-SHW",
+                "ERA 2018",
+                "Norwegian register level 1",
                 "DOAJ",
                 "ERA 2015",
-                "Norwegian register level 1",
-                "VABB-SHW",
                 "PubMed"
             ],
-            "linkout": "https://www.nature.com/articles/s41598-018-25410-y.pdf",
+            "linkout": "https://doi.org/10.1038/s41598-018-25410-y",
+            "noun_phrases": [
+                "regional scale",
+                "Assessing",
+                "exposure",
+                "inundation",
+                "different type",
+                "estuary",
+                "assessment",
+                "sea level rise",
+                "ocean water",
+                "tide gage",
+                "harbor",
+                "port",
+                "coast",
+                "River",
+                "instance",
+                "ocean",
+                "potential impact",
+                "Australia",
+                "water level",
+                "method",
+                "variation",
+                "future sea-level rise",
+                "suitability",
+                "lake system",
+                "development",
+                "proximity",
+                "sea level",
+                "low-lying"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -2822,83 +2990,84 @@
             "pmcid": "PMC5935728",
             "pmid": "29728624",
             "publisher": "Springer Nature",
-            "recent_citations": 7,
+            "recent_citations": 9,
             "reference_ids": [
-                "pub.1099922189",
-                "pub.1033472693",
-                "pub.1044606960",
-                "pub.1032076609",
+                "pub.1042766412",
+                "pub.1013144879",
+                "pub.1020034641",
+                "pub.1032539613",
                 "pub.1004301446",
-                "pub.1083826653",
+                "pub.1029654514",
+                "pub.1032076609",
                 "pub.1040221676",
                 "pub.1071159422",
-                "pub.1032539613",
-                "pub.1038355018",
-                "pub.1050833505",
-                "pub.1098706391",
-                "pub.1097145202",
-                "pub.1020034641",
-                "pub.1029654514",
                 "pub.1034420665",
-                "pub.1042766412",
-                "pub.1011432519",
-                "pub.1098698621",
-                "pub.1028582703",
-                "pub.1005726675",
-                "pub.1074147397",
-                "pub.1037860715",
-                "pub.1026310377",
                 "pub.1016136084",
-                "pub.1062469287",
+                "pub.1037860715",
                 "pub.1039732843",
-                "pub.1002006869",
-                "pub.1021853219",
-                "pub.1035586576",
                 "pub.1035481622",
-                "pub.1006405146",
+                "pub.1098706391",
+                "pub.1098698621",
+                "pub.1021853219",
+                "pub.1050833505",
+                "pub.1083826653",
+                "pub.1099922189",
+                "pub.1097145202",
                 "pub.1051677911",
+                "pub.1044606960",
+                "pub.1062469287",
+                "pub.1074147397",
+                "pub.1011432519",
+                "pub.1035586576",
+                "pub.1033472693",
                 "pub.1022535374",
+                "pub.1028582703",
                 "pub.1010006819",
-                "pub.1013144879"
+                "pub.1005726675",
+                "pub.1038355018",
+                "pub.1002006869",
+                "pub.1026310377",
+                "pub.1006405146"
             ],
             "references": [
-                "pub.1099922189",
-                "pub.1033472693",
-                "pub.1044606960",
-                "pub.1032076609",
+                "pub.1042766412",
+                "pub.1013144879",
+                "pub.1020034641",
+                "pub.1032539613",
                 "pub.1004301446",
-                "pub.1083826653",
+                "pub.1029654514",
+                "pub.1032076609",
                 "pub.1040221676",
                 "pub.1071159422",
-                "pub.1032539613",
-                "pub.1038355018",
-                "pub.1050833505",
-                "pub.1098706391",
-                "pub.1097145202",
-                "pub.1020034641",
-                "pub.1029654514",
                 "pub.1034420665",
-                "pub.1042766412",
-                "pub.1011432519",
-                "pub.1098698621",
-                "pub.1028582703",
-                "pub.1005726675",
-                "pub.1074147397",
-                "pub.1037860715",
-                "pub.1026310377",
                 "pub.1016136084",
-                "pub.1062469287",
+                "pub.1037860715",
                 "pub.1039732843",
-                "pub.1002006869",
-                "pub.1021853219",
-                "pub.1035586576",
                 "pub.1035481622",
-                "pub.1006405146",
+                "pub.1098706391",
+                "pub.1098698621",
+                "pub.1021853219",
+                "pub.1050833505",
+                "pub.1083826653",
+                "pub.1099922189",
+                "pub.1097145202",
                 "pub.1051677911",
+                "pub.1044606960",
+                "pub.1062469287",
+                "pub.1074147397",
+                "pub.1011432519",
+                "pub.1035586576",
+                "pub.1033472693",
                 "pub.1022535374",
+                "pub.1028582703",
                 "pub.1010006819",
-                "pub.1013144879"
+                "pub.1005726675",
+                "pub.1038355018",
+                "pub.1002006869",
+                "pub.1026310377",
+                "pub.1006405146"
             ],
+            "relative_citation_ratio": 0.0,
             "research_org_cities": [
                 {
                     "id": 2147714,
@@ -2913,6 +3082,9 @@
             ],
             "research_org_country_names": [
                 "Australia"
+            ],
+            "research_org_names": [
+                "NSW Office of Environment & Heritage"
             ],
             "research_org_state_codes": [
                 {
@@ -2995,8 +3167,9 @@
                 "data",
                 "tide gauges",
                 "gauge",
-                "harbor",
-                "port",
+                "Harbour",
+                "ports",
+                "mapping inundation",
                 "inundation",
                 "estuary",
                 "coast",
@@ -3008,8 +3181,8 @@
                 "east Australia",
                 "Australia",
                 "water level data sets",
-                "level data sets",
                 "data sets",
+                "set",
                 "water level",
                 "different types",
                 "types",
@@ -3032,17 +3205,16 @@
                 "sea level",
                 "large coastal river",
                 "coastal rivers",
-                "low-lying plains",
                 "Plain",
                 "potential inundation",
                 "regional scale approach",
                 "scale approach",
-                "currents",
+                "current",
                 "potential future exposure",
                 "future exposure",
                 "tidal inundation"
             ],
-            "times_cited": 7,
+            "times_cited": 9,
             "title": "A Regional Scale Approach to Assessing Current and Potential Future Exposure to Tidal Inundation in Different Types of Estuaries",
             "type": "article",
             "volume": "8",
@@ -4881,6 +5053,14 @@
         },
         "doi": "10.1038/s41598-018-25410-y",
         "keyphrases": {
+            "broad scale assessments": {
+                "count": 1,
+                "rank_score": 0.06665435283539824
+            },
+            "considerable exposure": {
+                "count": 1,
+                "rank_score": 0.06815963238199803
+            },
             "different estuaries": {
                 "count": 1,
                 "rank_score": 0.0942689400345223
@@ -4893,9 +5073,25 @@
                 "count": 1,
                 "rank_score": 0.13334085219667846
             },
+            "impacts": {
+                "count": 1,
+                "rank_score": 0.06487074543108251
+            },
             "inundation": {
                 "count": 1,
                 "rank_score": 0.07578484967059301
+            },
+            "larger coastal rivers": {
+                "count": 1,
+                "rank_score": 0.074436204200253
+            },
+            "many coasts": {
+                "count": 1,
+                "rank_score": 0.06094824672030136
+            },
+            "many instances": {
+                "count": 1,
+                "rank_score": 0.06094824672030136
             },
             "mapping inundation": {
                 "count": 1,
@@ -4925,9 +5121,21 @@
                 "count": 1,
                 "rank_score": 0.08454273511384403
             },
+            "rivers": {
+                "count": 1,
+                "rank_score": 0.06468548769852711
+            },
             "sea level rise": {
                 "count": 3,
                 "rank_score": 0.13669005706206358
+            },
+            "south east": {
+                "count": 1,
+                "rank_score": 0.06421852764495162
+            },
+            "south east australia": {
+                "count": 1,
+                "rank_score": 0.06839105925975754
             },
             "tidal lake systems": {
                 "count": 1,
@@ -4936,6 +5144,10 @@
             "tidal processes": {
                 "count": 1,
                 "rank_score": 0.07526670768512063
+            },
+            "tide gauges": {
+                "count": 1,
+                "rank_score": 0.06538000406943266
             },
             "water levels": {
                 "count": 1,
@@ -4955,6 +5167,7 @@
     },
     {
         "Dimensions": {
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -4962,6 +5175,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Noah",
+                        "initials": "",
                         "last_name": "Knowles",
                         "orcid": "",
                         "researcher_id": ""
@@ -4974,13 +5188,14 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Noah",
+                    "initials": "",
                     "last_name": "Knowles",
                     "orcid": "",
                     "researcher_id": ""
                 }
             ],
             "concepts": [
-                "region"
+                "levels"
             ],
             "date": "2010-05-22",
             "date_inserted": "2017-08-31",
@@ -5017,10 +5232,10 @@
                     "name": "Pure Gold"
                 }
             ],
-            "publisher": "San Francisco Estuary and Watershed Science",
+            "publisher": "California Digital Library (CDL)",
             "recent_citations": 8,
             "terms": [
-                "region"
+                "levels"
             ],
             "times_cited": 41,
             "title": "Potential Inundation Due to Rising Sea Levels in the San Francisco Bay Region",
@@ -7668,9 +7883,9 @@
         ],
         "doi": "10.15447/sfews.2010v8iss1art1",
         "keyphrases": {
-            "areas": {
-                "count": 1,
-                "rank_score": 0.08044895750308177
+            "central and south bays": {
+                "count": 2,
+                "rank_score": 0.04753764525809959
             },
             "climate model outputs": {
                 "count": 1,
@@ -7680,13 +7895,25 @@
                 "count": 1,
                 "rank_score": 0.09018248820962396
             },
+            "el nino": {
+                "count": 2,
+                "rank_score": 0.05406307874057486
+            },
             "extreme water levels": {
                 "count": 1,
                 "rank_score": 0.09348926808153718
             },
+            "highest resolution elevation data": {
+                "count": 1,
+                "rank_score": 0.052074250007177456
+            },
             "hourly water levels": {
                 "count": 1,
                 "rank_score": 0.09357371667667058
+            },
+            "interactive viewing": {
+                "count": 1,
+                "rank_score": 0.055899379603050595
             },
             "inundation": {
                 "count": 3,
@@ -7695,6 +7922,14 @@
             "long-term sea level rise influences": {
                 "count": 1,
                 "rank_score": 0.07376697769979622
+            },
+            "maps": {
+                "count": 2,
+                "rank_score": 0.05641337922941321
+            },
+            "maps portray areas": {
+                "count": 1,
+                "rank_score": 0.056749456588815916
             },
             "mid-century": {
                 "count": 2,
@@ -7708,6 +7943,14 @@
                 "count": 1,
                 "rank_score": 0.07733633200518251
             },
+            "quantify extreme": {
+                "count": 1,
+                "rank_score": 0.04840017588046448
+            },
+            "san francisco bay region": {
+                "count": 2,
+                "rank_score": 0.058506941019022686
+            },
             "sea level rise": {
                 "count": 2,
                 "rank_score": 0.11299999311147542
@@ -7716,13 +7959,25 @@
                 "count": 1,
                 "rank_score": 0.07649784362385129
             },
+            "some developed fill areas": {
+                "count": 1,
+                "rank_score": 0.05590427278151674
+            },
             "south bay": {
                 "count": 2,
                 "rank_score": 0.07930692618669095
             },
+            "specific amounts": {
+                "count": 1,
+                "rank_score": 0.05253136293243567
+            },
             "tidal datums": {
                 "count": 1,
                 "rank_score": 0.06719419980753083
+            },
+            "various sources": {
+                "count": 1,
+                "rank_score": 0.054794282117088366
             },
             "vulnerable areas": {
                 "count": 1,
@@ -7770,6 +8025,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.1007.6",
                         "first_name": "Kristian",
+                        "initials": "",
                         "last_name": "Kumbier",
                         "orcid": "",
                         "researcher_id": "ur.012431435235.41"
@@ -7779,6 +8035,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.1007.6",
                         "first_name": "Rafael C.",
+                        "initials": "",
                         "last_name": "Carvalho",
                         "orcid": "['0000-0003-0790-5614']",
                         "researcher_id": "ur.014430024233.36"
@@ -7788,6 +8045,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.1007.6",
                         "first_name": "Colin D.",
+                        "initials": "",
                         "last_name": "Woodroffe",
                         "orcid": "['0000-0003-4476-6158']",
                         "researcher_id": "ur.01311253352.54"
@@ -7800,6 +8058,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.1007.6",
                     "first_name": "Kristian",
+                    "initials": "",
                     "last_name": "Kumbier",
                     "orcid": "",
                     "researcher_id": "ur.012431435235.41"
@@ -7809,6 +8068,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.1007.6",
                     "first_name": "Rafael C.",
+                    "initials": "",
                     "last_name": "Carvalho",
                     "orcid": "['0000-0003-0790-5614']",
                     "researcher_id": "ur.014430024233.36"
@@ -7818,6 +8078,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.1007.6",
                     "first_name": "Colin D.",
+                    "initials": "",
                     "last_name": "Woodroffe",
                     "orcid": "['0000-0003-4476-6158']",
                     "researcher_id": "ur.01311253352.54"
@@ -7831,16 +8092,9 @@
                 {
                     "id": "2204",
                     "name": "04 Earth Sciences"
-                },
-                {
-                    "id": "2597",
-                    "name": "0602 Ecology"
-                },
-                {
-                    "id": "2206",
-                    "name": "06 Biological Sciences"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30014",
@@ -7863,7 +8117,6 @@
             ],
             "concepts": [
                 "sea-level rise",
-                "level rise",
                 "rise",
                 "hydrodynamics",
                 "characteristics of estuaries",
@@ -7877,20 +8130,18 @@
                 "coastal flooding",
                 "flooding",
                 "drivers",
-                "spring-tide",
-                "tide",
                 "storm surge",
                 "surge",
                 "river inflow",
                 "inflow",
                 "sea-level increase",
-                "level increases",
                 "increase",
                 "evolutionary stages",
                 "stage",
                 "infill",
                 "results",
                 "estuarine response",
+                "varies",
                 "different types",
                 "types",
                 "detailed modelling",
@@ -7921,13 +8172,12 @@
                 "estuarine geomorphology",
                 "hydrodynamic impact",
                 "impact",
-                "waves",
                 "Australian estuaries"
             ],
             "date": "2018-06-05",
             "date_inserted": "2018-06-07",
             "doi": "10.3390/jmse6020066",
-            "field_citation_ratio": 3.69,
+            "field_citation_ratio": 2.87,
             "funder_countries": [
                 {
                     "id": "AU",
@@ -7979,9 +8229,47 @@
             },
             "journal_lists": [
                 "DOAJ",
+                "ERA 2018",
                 "Norwegian register level 1"
             ],
             "linkout": "https://www.mdpi.com/2077-1312/6/2/66/pdf",
+            "noun_phrases": [
+                "modelling",
+                "sea level rise",
+                "Hydrodynamics",
+                "characteristic",
+                "estuary",
+                "geomorphology",
+                "estuarine system",
+                "numerical modelling",
+                "coastal flooding",
+                "driver",
+                "spring",
+                "storm surge",
+                "inflow",
+                "level increase",
+                "stage",
+                "infill",
+                "estuarine",
+                "different type",
+                "nature",
+                "inundation",
+                "comparison",
+                "modelling result",
+                "floodplain",
+                "estimate",
+                "depth",
+                "considerable increase",
+                "certain threshold",
+                "elevation",
+                "contrast",
+                "substantial change",
+                "current velocity",
+                "unique nature",
+                "generalisation",
+                "classification",
+                "certain type"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -8003,80 +8291,80 @@
             "publisher": "MDPI",
             "recent_citations": 7,
             "reference_ids": [
-                "pub.1012093118",
-                "pub.1000041268",
-                "pub.1101020364",
-                "pub.1101114165",
-                "pub.1020461846",
-                "pub.1000259923",
                 "pub.1016925799",
-                "pub.1009480479",
-                "pub.1083991243",
-                "pub.1083826653",
-                "pub.1011973776",
                 "pub.1013374950",
-                "pub.1085616052",
-                "pub.1062668750",
-                "pub.1044252084",
-                "pub.1019675859",
-                "pub.1026310377",
-                "pub.1002641007",
-                "pub.1015078993",
-                "pub.1090957614",
-                "pub.1000069426",
-                "pub.1009051698",
-                "pub.1101538762",
-                "pub.1112724213",
+                "pub.1083826653",
                 "pub.1083410090",
-                "pub.1015951712",
-                "pub.1090657307",
-                "pub.1099922189",
-                "pub.1029654514",
-                "pub.1016136084",
-                "pub.1010789228",
-                "pub.1085199661",
-                "pub.1003122712",
+                "pub.1101538762",
                 "pub.1103719925",
+                "pub.1000259923",
+                "pub.1003122712",
+                "pub.1010789228",
+                "pub.1085616052",
+                "pub.1101114165",
+                "pub.1099922189",
+                "pub.1009480479",
+                "pub.1029654514",
+                "pub.1011973776",
+                "pub.1012093118",
+                "pub.1000069426",
+                "pub.1015951712",
+                "pub.1112724213",
+                "pub.1083991243",
+                "pub.1062668750",
+                "pub.1020461846",
+                "pub.1000041268",
+                "pub.1016136084",
+                "pub.1044252084",
+                "pub.1002641007",
+                "pub.1009051698",
+                "pub.1101020364",
+                "pub.1015078993",
                 "pub.1073626950",
-                "pub.1100980358"
+                "pub.1100980358",
+                "pub.1026310377",
+                "pub.1090957614",
+                "pub.1085199661",
+                "pub.1090657307",
+                "pub.1019675859"
             ],
             "references": [
-                "pub.1012093118",
-                "pub.1000041268",
-                "pub.1101020364",
-                "pub.1101114165",
-                "pub.1020461846",
-                "pub.1000259923",
                 "pub.1016925799",
-                "pub.1009480479",
-                "pub.1083991243",
-                "pub.1083826653",
-                "pub.1011973776",
                 "pub.1013374950",
-                "pub.1085616052",
-                "pub.1062668750",
-                "pub.1044252084",
-                "pub.1019675859",
-                "pub.1026310377",
-                "pub.1002641007",
-                "pub.1015078993",
-                "pub.1090957614",
-                "pub.1000069426",
-                "pub.1009051698",
-                "pub.1101538762",
-                "pub.1112724213",
+                "pub.1083826653",
                 "pub.1083410090",
-                "pub.1015951712",
-                "pub.1090657307",
-                "pub.1099922189",
-                "pub.1029654514",
-                "pub.1016136084",
-                "pub.1010789228",
-                "pub.1085199661",
-                "pub.1003122712",
+                "pub.1101538762",
                 "pub.1103719925",
+                "pub.1000259923",
+                "pub.1003122712",
+                "pub.1010789228",
+                "pub.1085616052",
+                "pub.1101114165",
+                "pub.1099922189",
+                "pub.1009480479",
+                "pub.1029654514",
+                "pub.1011973776",
+                "pub.1012093118",
+                "pub.1000069426",
+                "pub.1015951712",
+                "pub.1112724213",
+                "pub.1083991243",
+                "pub.1062668750",
+                "pub.1020461846",
+                "pub.1000041268",
+                "pub.1016136084",
+                "pub.1044252084",
+                "pub.1002641007",
+                "pub.1009051698",
+                "pub.1101020364",
+                "pub.1015078993",
                 "pub.1073626950",
-                "pub.1100980358"
+                "pub.1100980358",
+                "pub.1026310377",
+                "pub.1090957614",
+                "pub.1085199661",
+                "pub.1090657307",
+                "pub.1019675859"
             ],
             "researchers": [
                 {
@@ -8109,8 +8397,8 @@
                     ],
                     "research_orgs": [
                         "grid.170693.a",
-                        "grid.1007.6",
                         "grid.9654.e",
+                        "grid.1007.6",
                         "grid.1001.0"
                     ]
                 }
@@ -8120,7 +8408,6 @@
             ],
             "terms": [
                 "sea-level rise",
-                "level rise",
                 "rise",
                 "hydrodynamics",
                 "characteristics of estuaries",
@@ -8134,20 +8421,18 @@
                 "coastal flooding",
                 "flooding",
                 "drivers",
-                "spring-tide",
-                "tide",
                 "storm surge",
                 "surge",
                 "river inflow",
                 "inflow",
                 "sea-level increase",
-                "level increases",
                 "increase",
                 "evolutionary stages",
                 "stage",
                 "infill",
                 "results",
                 "estuarine response",
+                "varies",
                 "different types",
                 "types",
                 "detailed modelling",
@@ -8178,7 +8463,6 @@
                 "estuarine geomorphology",
                 "hydrodynamic impact",
                 "impact",
-                "waves",
                 "Australian estuaries"
             ],
             "times_cited": 7,
@@ -10190,6 +10474,18 @@
         },
         "doi": "10.3390/jmse6020066",
         "keyphrases": {
+            "coastal flooding": {
+                "count": 1,
+                "rank_score": 0.05933620182450804
+            },
+            "current velocity": {
+                "count": 1,
+                "rank_score": 0.05665176913048246
+            },
+            "depths": {
+                "count": 1,
+                "rank_score": 0.05713604303203752
+            },
             "detailed modelling": {
                 "count": 1,
                 "rank_score": 0.07937001516908106
@@ -10198,9 +10494,13 @@
                 "count": 1,
                 "rank_score": 0.08284651636722332
             },
-            "different types": {
+            "elevation": {
                 "count": 1,
-                "rank_score": 0.07882370901430175
+                "rank_score": 0.061237358853756314
+            },
+            "estuaries": {
+                "count": 4,
+                "rank_score": 0.07036124919551265
             },
             "estuarine geomorphology": {
                 "count": 1,
@@ -10210,9 +10510,17 @@
                 "count": 1,
                 "rank_score": 0.10074725035044065
             },
+            "extent": {
+                "count": 1,
+                "rank_score": 0.06842552496671554
+            },
             "floodplain elevation": {
                 "count": 1,
                 "rank_score": 0.0722012727257279
+            },
+            "hydrodynamics": {
+                "count": 2,
+                "rank_score": 0.06646549718899386
             },
             "immature estuarine systems": {
                 "count": 1,
@@ -10246,9 +10554,25 @@
                 "count": 1,
                 "rank_score": 0.09173065700631786
             },
+            "river inflows": {
+                "count": 1,
+                "rank_score": 0.06517523270635196
+            },
+            "slr": {
+                "count": 6,
+                "rank_score": 0.07198873528121585
+            },
             "slr varies": {
                 "count": 1,
                 "rank_score": 0.07832837674626161
+            },
+            "substantial changes": {
+                "count": 1,
+                "rank_score": 0.060476604276077796
+            },
+            "tidal range": {
+                "count": 1,
+                "rank_score": 0.06719057156178898
             }
         },
         "original": {
@@ -14015,6 +14339,14 @@
                 "count": 1,
                 "rank_score": 0.08496810228612399
             },
+            "atlantic salt marsh ecosystem dominant": {
+                "count": 1,
+                "rank_score": 0.07076848705231314
+            },
+            "belowground biomass production": {
+                "count": 1,
+                "rank_score": 0.06841640650473896
+            },
             "current loss patterns": {
                 "count": 1,
                 "rank_score": 0.08792691339333086
@@ -14039,13 +14371,33 @@
                 "count": 1,
                 "rank_score": 0.08666353048342113
             },
+            "marsh": {
+                "count": 1,
+                "rank_score": 0.0741142641150026
+            },
             "marsh elevation": {
                 "count": 2,
                 "rank_score": 0.0853286765870297
             },
+            "marsh islands": {
+                "count": 2,
+                "rank_score": 0.07440218211526917
+            },
             "marshes": {
                 "count": 2,
                 "rank_score": 0.08589403564513722
+            },
+            "new england": {
+                "count": 2,
+                "rank_score": 0.069668559248761
+            },
+            "salt": {
+                "count": 1,
+                "rank_score": 0.0788549990546002
+            },
+            "salt marsh aerial extent": {
+                "count": 1,
+                "rank_score": 0.07813448169251415
             },
             "salt marsh vegetation loss": {
                 "count": 1,
@@ -14055,9 +14407,21 @@
                 "count": 2,
                 "rank_score": 0.08457112883495027
             },
+            "southern new england": {
+                "count": 1,
+                "rank_score": 0.08120527278762651
+            },
             "southern new england salt marshes": {
                 "count": 1,
                 "rank_score": 0.11197442407254934
+            },
+            "tidal channel networks": {
+                "count": 1,
+                "rank_score": 0.07084300650365548
+            },
+            "tidal flooding increases": {
+                "count": 1,
+                "rank_score": 0.0713511778049805
             },
             "tidal salt marsh": {
                 "count": 1,
@@ -17141,6 +17505,10 @@
                 "count": 1,
                 "rank_score": 0.08213073535475185
             },
+            "accelerated sea-level rise": {
+                "count": 1,
+                "rank_score": 0.06290326496483778
+            },
             "biomass": {
                 "count": 3,
                 "rank_score": 0.0740087024927425
@@ -17152,6 +17520,14 @@
             "climate change impacts": {
                 "count": 1,
                 "rank_score": 0.08342551269090182
+            },
+            "existing marsh elevations": {
+                "count": 1,
+                "rank_score": 0.07322787746607783
+            },
+            "gradient hypothesis": {
+                "count": 1,
+                "rank_score": 0.07190922790956629
             },
             "higher marsh elevations": {
                 "count": 1,
@@ -17165,21 +17541,49 @@
                 "count": 2,
                 "rank_score": 0.08265367394166254
             },
+            "multifactor manipulation experiments": {
+                "count": 1,
+                "rank_score": 0.06102703614563248
+            },
+            "plant response": {
+                "count": 1,
+                "rank_score": 0.06574654526039792
+            },
             "potential ecosystem response": {
                 "count": 1,
                 "rank_score": 0.07391367603471455
+            },
+            "potential future sea-level rise conditions": {
+                "count": 1,
+                "rank_score": 0.07218567031148007
+            },
+            "schoenoplectus acutus": {
+                "count": 1,
+                "rank_score": 0.06334608584744135
             },
             "sea level": {
                 "count": 1,
                 "rank_score": 0.08853802803827553
             },
+            "sea-level rise": {
+                "count": 1,
+                "rank_score": 0.06101104285949079
+            },
             "stress factors": {
                 "count": 1,
                 "rank_score": 0.10150833593926246
             },
+            "stress gradient hypothesis": {
+                "count": 1,
+                "rank_score": 0.06997002673087271
+            },
             "stress gradients": {
                 "count": 1,
                 "rank_score": 0.11222921871645766
+            },
+            "stress tolerator": {
+                "count": 1,
+                "rank_score": 0.058734102301990616
             },
             "stresses": {
                 "count": 2,
@@ -17223,6 +17627,7 @@
                     "name": "04 Earth Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -17241,6 +17646,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.2865.9",
                         "first_name": "Daniel J.",
+                        "initials": "",
                         "last_name": "Hoover",
                         "orcid": "",
                         "researcher_id": "ur.010616462457.00"
@@ -17271,6 +17677,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.205975.c",
                         "first_name": "Kingsley O.",
+                        "initials": "",
                         "last_name": "Odigie",
                         "orcid": "",
                         "researcher_id": "ur.01311077452.49"
@@ -17291,6 +17698,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.2865.9",
                         "first_name": "Peter W.",
+                        "initials": "",
                         "last_name": "Swarzenski",
                         "orcid": "['0000-0003-0116-0578']",
                         "researcher_id": "ur.012303567444.25"
@@ -17311,6 +17719,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.2865.9",
                         "first_name": "Patrick",
+                        "initials": "",
                         "last_name": "Barnard",
                         "orcid": "['0000-0003-1414-6476']",
                         "researcher_id": "ur.016102432347.00"
@@ -17334,6 +17743,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.2865.9",
                     "first_name": "Daniel J.",
+                    "initials": "",
                     "last_name": "Hoover",
                     "orcid": "",
                     "researcher_id": "ur.010616462457.00"
@@ -17364,6 +17774,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.205975.c",
                     "first_name": "Kingsley O.",
+                    "initials": "",
                     "last_name": "Odigie",
                     "orcid": "",
                     "researcher_id": "ur.01311077452.49"
@@ -17384,6 +17795,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.2865.9",
                     "first_name": "Peter W.",
+                    "initials": "",
                     "last_name": "Swarzenski",
                     "orcid": "['0000-0003-0116-0578']",
                     "researcher_id": "ur.012303567444.25"
@@ -17404,6 +17816,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.2865.9",
                     "first_name": "Patrick",
+                    "initials": "",
                     "last_name": "Barnard",
                     "orcid": "['0000-0003-1414-6476']",
                     "researcher_id": "ur.016102432347.00"
@@ -17419,6 +17832,7 @@
                     "name": "04 Earth Sciences"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30012",
@@ -17448,6 +17862,7 @@
                 "vulnerability",
                 "SLR",
                 "groundwater emergence",
+                "lying",
                 "coastal sites",
                 "inundation scenarios",
                 "scenarios",
@@ -17458,11 +17873,11 @@
                 "topography",
                 "groundwater surface",
                 "surface",
+                "well data",
                 "data",
                 "level contours",
                 "contours",
                 "New hydrological insights",
-                "hydrological insights",
                 "insights",
                 "impact",
                 "serious concern",
@@ -17472,6 +17887,7 @@
                 "importance",
                 "groundwater inundation",
                 "inundation",
+                "study",
                 "potential",
                 "SLR scenarios",
                 "coastal plain",
@@ -17508,14 +17924,13 @@
                 "response",
                 "mitigation",
                 "sea-level rise",
-                "level rise",
                 "rise",
                 "select sites"
             ],
             "date": "2017-06-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.ejrh.2015.12.055",
-            "field_citation_ratio": 6.57,
+            "field_citation_ratio": 5.86,
             "id": "pub.1047351361",
             "issn": [
                 "2214-5818"
@@ -17526,9 +17941,50 @@
             },
             "journal_lists": [
                 "DOAJ",
+                "ERA 2018",
                 "Norwegian register level 1"
             ],
             "linkout": "https://doi.org/10.1016/j.ejrh.2015.12.055",
+            "noun_phrases": [
+                "sea level rise",
+                "groundwater",
+                "select site",
+                "California",
+                "USA",
+                "study region",
+                "coastal California",
+                "primary site",
+                "beach",
+                "lagoon",
+                "projection",
+                "vulnerability",
+                "low-lying",
+                "coastal site",
+                "inundation",
+                "digital elevation model",
+                "study site",
+                "groundwater level",
+                "serious concern",
+                "coastline",
+                "possible importance",
+                "northern California",
+                "Coastal Plain",
+                "coastal development",
+                "developed area",
+                "coastal lagoon",
+                "shallow groundwater",
+                "Southern California",
+                "absence",
+                "vulnerability analysis",
+                "coastal aquifer",
+                "agricultural use",
+                "saline aquifer",
+                "increase vulnerability",
+                "shoaling",
+                "improved understanding",
+                "mitigation",
+                "adaptation"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -17550,52 +18006,52 @@
             "publisher": "Elsevier",
             "recent_citations": 19,
             "reference_ids": [
-                "pub.1042894172",
-                "pub.1088799230",
-                "pub.1037676390",
-                "pub.1025112759",
-                "pub.1043598711",
-                "pub.1050899496",
-                "pub.1031922306",
-                "pub.1062454939",
-                "pub.1025503564",
-                "pub.1012540836",
-                "pub.1035559187",
-                "pub.1004571075",
-                "pub.1018582679",
                 "pub.1055503639",
-                "pub.1028036621",
                 "pub.1030993999",
+                "pub.1037676390",
+                "pub.1012540836",
+                "pub.1028036621",
+                "pub.1025503564",
+                "pub.1042894172",
+                "pub.1018582679",
+                "pub.1088799230",
                 "pub.1029838544",
-                "pub.1045221791",
-                "pub.1014813794",
                 "pub.1004947549",
+                "pub.1004571075",
+                "pub.1025112759",
+                "pub.1050899496",
+                "pub.1062454939",
+                "pub.1043598711",
+                "pub.1031922306",
+                "pub.1012796425",
+                "pub.1045221791",
                 "pub.1017568363",
-                "pub.1012796425"
+                "pub.1035559187",
+                "pub.1014813794"
             ],
             "references": [
-                "pub.1042894172",
-                "pub.1088799230",
-                "pub.1037676390",
-                "pub.1025112759",
-                "pub.1043598711",
-                "pub.1050899496",
-                "pub.1031922306",
-                "pub.1062454939",
-                "pub.1025503564",
-                "pub.1012540836",
-                "pub.1035559187",
-                "pub.1004571075",
-                "pub.1018582679",
                 "pub.1055503639",
-                "pub.1028036621",
                 "pub.1030993999",
+                "pub.1037676390",
+                "pub.1012540836",
+                "pub.1028036621",
+                "pub.1025503564",
+                "pub.1042894172",
+                "pub.1018582679",
+                "pub.1088799230",
                 "pub.1029838544",
-                "pub.1045221791",
-                "pub.1014813794",
                 "pub.1004947549",
+                "pub.1004571075",
+                "pub.1025112759",
+                "pub.1050899496",
+                "pub.1062454939",
+                "pub.1043598711",
+                "pub.1031922306",
+                "pub.1012796425",
+                "pub.1045221791",
                 "pub.1017568363",
-                "pub.1012796425"
+                "pub.1035559187",
+                "pub.1014813794"
             ],
             "research_org_cities": [
                 {
@@ -17616,6 +18072,10 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "United States Geological Survey",
+                "University of California, Santa Cruz"
+            ],
             "research_org_state_codes": [
                 {
                     "id": "US-VA",
@@ -17627,8 +18087,8 @@
                 }
             ],
             "research_org_state_names": [
-                "Virginia",
-                "California"
+                "California",
+                "Virginia"
             ],
             "research_orgs": [
                 {
@@ -17678,10 +18138,10 @@
                     "id": "ur.01311077452.49",
                     "last_name": "Odigie",
                     "research_orgs": [
-                        "grid.205975.c",
                         "grid.30389.31",
                         "grid.2865.9",
-                        "grid.186587.5"
+                        "grid.186587.5",
+                        "grid.205975.c"
                     ]
                 },
                 {
@@ -17692,8 +18152,8 @@
                         "0000-0003-0116-0578"
                     ],
                     "research_orgs": [
-                        "grid.2865.9",
-                        "grid.448526.9"
+                        "grid.448526.9",
+                        "grid.2865.9"
                     ]
                 },
                 {
@@ -17706,8 +18166,8 @@
                     "research_orgs": [
                         "grid.30389.31",
                         "grid.266097.c",
-                        "grid.2865.9",
-                        "grid.250008.f"
+                        "grid.250008.f",
+                        "grid.2865.9"
                     ]
                 }
             ],
@@ -17728,6 +18188,7 @@
                 "vulnerability",
                 "SLR",
                 "groundwater emergence",
+                "lying",
                 "coastal sites",
                 "inundation scenarios",
                 "scenarios",
@@ -17738,11 +18199,11 @@
                 "topography",
                 "groundwater surface",
                 "surface",
+                "well data",
                 "data",
                 "level contours",
                 "contours",
                 "New hydrological insights",
-                "hydrological insights",
                 "insights",
                 "impact",
                 "serious concern",
@@ -17752,6 +18213,7 @@
                 "importance",
                 "groundwater inundation",
                 "inundation",
+                "study",
                 "potential",
                 "SLR scenarios",
                 "coastal plain",
@@ -17788,7 +18250,6 @@
                 "response",
                 "mitigation",
                 "sea-level rise",
-                "level rise",
                 "rise",
                 "select sites"
             ],
@@ -18701,7 +19162,7 @@
             "author-c32a6e0cad3f339557bd",
             "author-cb703620b7e522f4956f",
             "author-cce44ed8120241566e49",
-            "author-8f4745e7be7e7ccb6872"
+            "author-8627e5503fcb9f1cf9b4"
         ],
         "datasets": [
             "dataset-610",
@@ -18781,6 +19242,14 @@
                 "count": 1,
                 "rank_score": 0.09370070173433348
             },
+            "c t study region": {
+                "count": 1,
+                "rank_score": 0.0744291731546773
+            },
+            "california": {
+                "count": 5,
+                "rank_score": 0.08218795114631719
+            },
             "california coastal aquifers": {
                 "count": 1,
                 "rank_score": 0.11961520760747985
@@ -18800,6 +19269,10 @@
             "coastal lagoons": {
                 "count": 1,
                 "rank_score": 0.09956754069093755
+            },
+            "developed areas": {
+                "count": 1,
+                "rank_score": 0.06389028381686711
             },
             "groundwater level contours": {
                 "count": 1,
@@ -18825,9 +19298,21 @@
                 "count": 1,
                 "rank_score": 0.10318729571930768
             },
+            "shallow saline aquifers": {
+                "count": 1,
+                "rank_score": 0.0681435251613992
+            },
+            "significant and widespread groundwater emergence": {
+                "count": 1,
+                "rank_score": 0.0678701497199594
+            },
             "slr": {
                 "count": 6,
                 "rank_score": 0.09009547675730584
+            },
+            "slr and groundwater emergence": {
+                "count": 1,
+                "rank_score": 0.07963897057118917
             },
             "slr impacts": {
                 "count": 1,
@@ -18836,6 +19321,22 @@
             "slr-driven groundwater emergence": {
                 "count": 2,
                 "rank_score": 0.08401828477225057
+            },
+            "slr-driven groundwater inundation": {
+                "count": 2,
+                "rank_score": 0.08288305559365111
+            },
+            "study region spans coastal california": {
+                "count": 1,
+                "rank_score": 0.08173582935795769
+            },
+            "study site topography": {
+                "count": 1,
+                "rank_score": 0.07919256343458558
+            },
+            "vulnerability analysis": {
+                "count": 1,
+                "rank_score": 0.06068087075417265
             }
         },
         "original": {

@@ -1,84 +1,5 @@
 [
     {
-        "abstract": "In this paper, we focus on the interconnectedness of banks and the price they pay for liquidity. We assess how the concentration of credit relationships and the position of a bank in the network topology of the system influence the bank’s ability to meet liquidity demand. We use quarterly data of bilateral interbank credit exposure among all German banks from 2000 to 2008 to measure interbank relationships and network characteristics. We match these data with bids placed by individual banks in the European Central Bank’s (ECB) weekly repo auctions. The bids measure each bank’s willingness to pay for liquidity, since they had variable rate tenders with a “pay-your-bid” price. Controlling for bank characteristics and the daily fulfillment of reserve requirements, we find that banks with a more diversified borrowing structure in the interbank market bid significantly less aggressively and pay a lower price for liquidity in the ECB’s main refinancing operations. These findings suggest that incentives to diversify banks’ liquidity risk dominate the benefits of private information. When the network position of the bank is taken into account, we find that central lenders in the money market bid more aggressively in auctions.",
-        "authors": [
-            "author-b109da13fdeb3695f700",
-            "author-9c7c0d73832798a76b8a",
-            "author-bfd340dc254d33d47787"
-        ],
-        "datasets": [
-            "dataset-013",
-            "dataset-005"
-        ],
-        "doi": "10.1016/j.jbankfin.2014.12.022",
-        "journal": "journal-240",
-        "keyphrases": {
-            "all german banks": {
-                "count": 1,
-                "rank_score": 0.07257810209206476
-            },
-            "bank characteristics": {
-                "count": 1,
-                "rank_score": 0.12979392798124514
-            },
-            "banks": {
-                "count": 6,
-                "rank_score": 0.12735514460421238
-            },
-            "banks’ liquidity risk": {
-                "count": 1,
-                "rank_score": 0.09003762588224098
-            },
-            "bids": {
-                "count": 3,
-                "rank_score": 0.07351547055633459
-            },
-            "bilateral interbank credit exposure": {
-                "count": 1,
-                "rank_score": 0.10392002821556885
-            },
-            "credit relationships": {
-                "count": 1,
-                "rank_score": 0.08509889350699135
-            },
-            "ecb": {
-                "count": 1,
-                "rank_score": 0.07192559264453327
-            },
-            "individual banks": {
-                "count": 1,
-                "rank_score": 0.12485623789641803
-            },
-            "interbank relationships": {
-                "count": 1,
-                "rank_score": 0.09977190023396053
-            },
-            "liquidity": {
-                "count": 3,
-                "rank_score": 0.09116042002505526
-            },
-            "liquidity demand": {
-                "count": 1,
-                "rank_score": 0.09212559235321445
-            },
-            "network characteristics": {
-                "count": 1,
-                "rank_score": 0.08215667420842025
-            },
-            "quarterly data": {
-                "count": 1,
-                "rank_score": 0.08103538884598299
-            },
-            "variable rate tenders": {
-                "count": 1,
-                "rank_score": 0.08164965809277261
-            }
-        },
-        "pdf": "https://www.clevelandfed.org/~/media/content/newsroom%20and%20events/publications/working%20papers/2014/wp%201421%20the%20role%20of%20relationships%20and%20liquidity%20needs%20pdf.pdf?la=en",
-        "title": "The role of interbank relationships and liquidity needs",
-        "url": "https://www.semanticscholar.org/paper/8dffb08cc3c3ef1de5994b543c3c64288d97a89c"
-    },
-    {
         "abstract": "We identify frictions in the market for liquidity as well as bank-specific and market-wide factors that affect the prices that banks pay for liquidity, captured here by borrowing rates in repos with the central bank and benchmarked by the overnight index swap. We have price data at the individual bank level and, unique to this paper, data on individual banks’ reserve requirements and actual reserve holdings, thus allowing us to gauge the extent to which a bank is short or long liquidity. We find that the price a bank pays for liquidity depends on the liquidity positions of other banks, as well as its own. There is evidence that liquidity squeezes occasionally occur and short banks pay more the larger is the potential for a squeeze. The price paid for liquidity is decreasing in bank size and small banks are more adversely affected by an increased potential for a squeeze. Healthier banks pay less, but contrary to what one might expect, banks in formal liquidity networks do not.",
         "authors": [
             "author-9c7c0d73832798a76b8a",
@@ -99,17 +20,41 @@
                 "count": 1,
                 "rank_score": 0.1556303640085839
             },
+            "bank-specific and market-wide factors": {
+                "count": 1,
+                "rank_score": 0.06874515567649352
+            },
             "banks": {
                 "count": 4,
                 "rank_score": 0.15932528513552913
+            },
+            "central bank": {
+                "count": 1,
+                "rank_score": 0.09170221842149247
+            },
+            "extent": {
+                "count": 1,
+                "rank_score": 0.02508636802366146
             },
             "formal liquidity networks": {
                 "count": 1,
                 "rank_score": 0.12206320033544252
             },
+            "frictions": {
+                "count": 1,
+                "rank_score": 0.0562821934975494
+            },
             "healthier banks": {
                 "count": 1,
                 "rank_score": 0.15375066989420166
+            },
+            "increased potential": {
+                "count": 1,
+                "rank_score": 0.05130176475404683
+            },
+            "individual bank level": {
+                "count": 1,
+                "rank_score": 0.09865481640250683
             },
             "individual banks’ reserve requirements": {
                 "count": 1,
@@ -119,13 +64,33 @@
                 "count": 5,
                 "rank_score": 0.12630031821546803
             },
-            "other banks": {
+            "liquidity positions": {
                 "count": 1,
-                "rank_score": 0.153702387629161
+                "rank_score": 0.07386670193671753
+            },
+            "market": {
+                "count": 1,
+                "rank_score": 0.03912064452801085
+            },
+            "overnight index swap": {
+                "count": 1,
+                "rank_score": 0.054944865337527224
             },
             "price data": {
                 "count": 1,
                 "rank_score": 0.0977969357832799
+            },
+            "prices": {
+                "count": 3,
+                "rank_score": 0.044549500297103764
+            },
+            "rates": {
+                "count": 1,
+                "rank_score": 0.052270901500277855
+            },
+            "repos": {
+                "count": 1,
+                "rank_score": 0.06121330285039772
             },
             "short banks": {
                 "count": 1,
@@ -139,22 +104,14 @@
                 "count": 1,
                 "rank_score": 0.1535759093254919
             },
-            "the central bank": {
-                "count": 1,
-                "rank_score": 0.09170221842149247
-            },
-            "the individual bank level": {
-                "count": 1,
-                "rank_score": 0.09865481640250683
-            },
-            "the liquidity positions": {
-                "count": 1,
-                "rank_score": 0.07386670193671753
+            "squeeze": {
+                "count": 2,
+                "rank_score": 0.029991064264210096
             }
         },
         "pdf": "https://www.econstor.eu/bitstream/10419/76033/1/638485843.pdf",
         "title": "The price of liquidity: bank characteristics and market conditions",
-        "url": "http://hdl.handle.net/10419/27654"
+        "url": "https://www.semanticscholar.org/paper/f07ce5246f8b4b995f33ab96ef93a246255e0807"
     },
     {
         "abstract": "This study investigates the bank competition-stability nexus using a unique regulatory dataset provided by the Deutsche Bundesbank over the period 1994 to 2010. First, we use outright bank defaults as the most direct measure of bank risk available and contrast the results to weaker forms of bank distress. Second, we control for a wide array of different time-varying characteristics of banks which are likely to influence the competition-risk taking channel. Third, we include different measures of competition, contestability and market power, each corresponding to a different contextual level of a bank's competitive environment. Our results indicate that political implications derived from empirical banking market studies must recognize the theoretical properties of the indicators for market power and competition. Using the Lerner Index as a proxy for bank-specific market power, our results support the view that market power tends to reduce banks' default probability. In contrast, using the Boone Indicator (derived on the state level) and/or the regional branch share as a measure of competition, we find strong support that increased competition lowers the riskiness of banks.",
@@ -168,6 +125,10 @@
         "doi": "10.1093/rof/rfu019",
         "journal": "journal-857",
         "keyphrases": {
+            "bank competition-stability nexus": {
+                "count": 1,
+                "rank_score": 0.07293768740990982
+            },
             "bank distress": {
                 "count": 1,
                 "rank_score": 0.12162884544219119
@@ -184,13 +145,37 @@
                 "count": 2,
                 "rank_score": 0.12673706494306342
             },
+            "banks competitive environment": {
+                "count": 1,
+                "rank_score": 0.05675123656616773
+            },
             "banks default probability": {
                 "count": 1,
                 "rank_score": 0.07861511980097308
             },
+            "channel": {
+                "count": 1,
+                "rank_score": 0.03928469329139423
+            },
             "competition": {
                 "count": 4,
                 "rank_score": 0.10077779473974359
+            },
+            "competition-risk": {
+                "count": 1,
+                "rank_score": 0.048233466820364904
+            },
+            "contestability": {
+                "count": 1,
+                "rank_score": 0.04225939334636125
+            },
+            "deutsche bundesbank": {
+                "count": 2,
+                "rank_score": 0.038617582298262676
+            },
+            "different contextual level": {
+                "count": 1,
+                "rank_score": 0.05644018797049476
             },
             "different measures": {
                 "count": 1,
@@ -204,6 +189,10 @@
                 "count": 1,
                 "rank_score": 0.10519831755052257
             },
+            "lerner": {
+                "count": 1,
+                "rank_score": 0.040340684343201635
+            },
             "market power": {
                 "count": 3,
                 "rank_score": 0.11239618093758799
@@ -216,17 +205,25 @@
                 "count": 1,
                 "rank_score": 0.06599871940069856
             },
+            "state level": {
+                "count": 1,
+                "rank_score": 0.03572115244491578
+            },
             "strong support": {
                 "count": 1,
                 "rank_score": 0.06378881567830366
             },
-            "the bank competition-stability nexus": {
+            "unique regulatory dataset": {
                 "count": 1,
-                "rank_score": 0.07293768740990982
+                "rank_score": 0.05066771672718973
             },
             "weaker forms": {
                 "count": 1,
                 "rank_score": 0.06230361835982963
+            },
+            "wide array": {
+                "count": 1,
+                "rank_score": 0.03815626099785357
             }
         },
         "title": "Bank risk taking and competition: Evidence from regional banking markets",
@@ -253,6 +250,10 @@
                 "count": 1,
                 "rank_score": 0.07020374915728189
             },
+            "approximately 1,000 mergers": {
+                "count": 1,
+                "rank_score": 0.04693096716123643
+            },
             "bank mergers": {
                 "count": 1,
                 "rank_score": 0.14458496344451774
@@ -265,9 +266,13 @@
                 "count": 1,
                 "rank_score": 0.05577251332408407
             },
-            "data": {
+            "desire": {
                 "count": 1,
-                "rank_score": 0.06004066999017359
+                "rank_score": 0.03106685718604235
+            },
+            "determinants": {
+                "count": 1,
+                "rank_score": 0.029237394369211675
             },
             "distressed banks": {
                 "count": 1,
@@ -276,6 +281,10 @@
             "hidden bailouts": {
                 "count": 1,
                 "rank_score": 0.08202585752685479
+            },
+            "inability": {
+                "count": 1,
+                "rank_score": 0.025469124472774055
             },
             "merging banks": {
                 "count": 1,
@@ -289,25 +298,33 @@
                 "count": 3,
                 "rank_score": 0.1621142343955324
             },
+            "our control group": {
+                "count": 1,
+                "rank_score": 0.041295968642148746
+            },
             "regulatory intervention": {
                 "count": 1,
                 "rank_score": 0.10308992441291334
+            },
+            "regulatory intervention history": {
+                "count": 1,
+                "rank_score": 0.06880782075158483
             },
             "serious future financial distress": {
                 "count": 1,
                 "rank_score": 0.11350233321153604
             },
-            "the regulatory intervention history": {
+            "targets": {
                 "count": 1,
-                "rank_score": 0.06880782075158483
-            },
-            "the worst profiles": {
-                "count": 1,
-                "rank_score": 0.06285232909566628
+                "rank_score": 0.04486649081489116
             },
             "worse camel profiles": {
                 "count": 1,
                 "rank_score": 0.1091701889383116
+            },
+            "worst profiles": {
+                "count": 1,
+                "rank_score": 0.06285232909566628
             }
         },
         "pdf": "https://www.econstor.eu/bitstream/10419/19742/1/200509dkp_b.pdf",
@@ -326,9 +343,13 @@
         "doi": "10.2139/ssrn.726408",
         "journal": "journal-003",
         "keyphrases": {
-            "a merger wave": {
+            "approximately every second merger": {
                 "count": 1,
-                "rank_score": 0.06368363149167695
+                "rank_score": 0.045856319295691034
+            },
+            "average": {
+                "count": 1,
+                "rank_score": 0.024338577890123347
             },
             "bank mergers": {
                 "count": 1,
@@ -338,25 +359,41 @@
                 "count": 1,
                 "rank_score": 0.10917322177089968
             },
-            "ce": {
-                "count": 2,
-                "rank_score": 0.08895907788403513
+            "basis": {
+                "count": 1,
+                "rank_score": 0.026599801986550098
             },
             "ce changes": {
                 "count": 1,
                 "rank_score": 0.10432561543154627
             },
+            "ce differential": {
+                "count": 1,
+                "rank_score": 0.05274586882505175
+            },
             "ce levels": {
                 "count": 1,
                 "rank_score": 0.0946878456469058
+            },
+            "continuous matter": {
+                "count": 1,
+                "rank_score": 0.04477780259291414
             },
             "cost efficiency": {
                 "count": 1,
                 "rank_score": 0.07794842404226819
             },
+            "debate": {
+                "count": 1,
+                "rank_score": 0.047228436926303435
+            },
             "efficiency changes": {
                 "count": 1,
                 "rank_score": 0.09096169649213634
+            },
+            "german": {
+                "count": 1,
+                "rank_score": 0.04259563609173093
             },
             "german banks": {
                 "count": 1,
@@ -370,9 +407,21 @@
                 "count": 1,
                 "rank_score": 0.07133444397794059
             },
+            "merger wave": {
+                "count": 1,
+                "rank_score": 0.06368363149167695
+            },
             "non-merging banks": {
                 "count": 3,
                 "rank_score": 0.14919175591171935
+            },
+            "one percentage point": {
+                "count": 1,
+                "rank_score": 0.03465304870331027
+            },
+            "our main conclusions": {
+                "count": 1,
+                "rank_score": 0.04705068397672104
             },
             "post-merger performance": {
                 "count": 1,
@@ -382,9 +431,17 @@
                 "count": 4,
                 "rank_score": 0.09130573181871834
             },
+            "taxonomy": {
+                "count": 2,
+                "rank_score": 0.03913785281773612
+            },
             "three important policy issues": {
                 "count": 1,
                 "rank_score": 0.05647990497789878
+            },
+            "various key-performance and structural indicators": {
+                "count": 1,
+                "rank_score": 0.056309760717716456
             }
         },
         "pdf": "https://dspace.library.uu.nl/bitstream/1874/14991/1/05-16.pdf",
@@ -406,9 +463,21 @@
                 "count": 1,
                 "rank_score": 0.07709863393250921
             },
+            "crucial implications": {
+                "count": 1,
+                "rank_score": 0.06241476762681472
+            },
             "esfdi": {
                 "count": 9,
                 "rank_score": 0.09543390539536452
+            },
+            "export-supporting distribution": {
+                "count": 1,
+                "rank_score": 0.05744209431685964
+            },
+            "export-supporting fdi (esfdi) activity": {
+                "count": 1,
+                "rank_score": 0.05570222495336616
             },
             "falling trade costs": {
                 "count": 1,
@@ -418,9 +487,13 @@
                 "count": 2,
                 "rank_score": 0.10831460519869124
             },
-            "firms": {
+            "foreign market": {
+                "count": 2,
+                "rank_score": 0.047258260442931715
+            },
+            "german": {
                 "count": 1,
-                "rank_score": 0.09238973907430567
+                "rank_score": 0.060018230032692965
             },
             "german firm level fdi data": {
                 "count": 1,
@@ -434,6 +507,14 @@
                 "count": 1,
                 "rank_score": 0.10985650067904233
             },
+            "little attention": {
+                "count": 1,
+                "rank_score": 0.07134754817536278
+            },
+            "manufacturing account": {
+                "count": 1,
+                "rank_score": 0.060367339481541424
+            },
             "overall affiliate sales": {
                 "count": 1,
                 "rank_score": 0.09396944709762099
@@ -446,9 +527,25 @@
                 "count": 1,
                 "rank_score": 0.10151049661993967
             },
+            "parents": {
+                "count": 1,
+                "rank_score": 0.06063609261358359
+            },
+            "possible explanation": {
+                "count": 1,
+                "rank_score": 0.041604827730299526
+            },
+            "quantitative importance": {
+                "count": 1,
+                "rank_score": 0.04071437640739515
+            },
             "service activities": {
                 "count": 1,
                 "rank_score": 0.08105938688805751
+            },
+            "theoretical model": {
+                "count": 1,
+                "rank_score": 0.0405157221167657
             },
             "trade": {
                 "count": 3,
@@ -464,7 +561,7 @@
             }
         },
         "title": "Export-Supporting FDI",
-        "url": "http://hdl.handle.net/1814/7164"
+        "url": "https://www.semanticscholar.org/paper/227ede552a1bc05396847f462ce29d8e3fbbb2e5"
     },
     {
         "abstract": "Abstract We investigate German banks’ exposure to interest rate risk. In finance, higher demand for a risky asset is typically associated with higher expected return. However, employing a utility function which implies both risk-averse and risk-seeking behavior depending on the level of profits, we show that this relationship may get weaker and even change its sign at low profit levels. For the period 2005-14, we find not only the common positive relationship of higher expected returns and rising interest rate exposure but also that this relationship does become weaker with falling operative income, its sign eventually changing.",
@@ -481,14 +578,6 @@
         "doi": "10.1111/geer.12131",
         "journal": "journal-807",
         "keyphrases": {
-            "a risky asset": {
-                "count": 1,
-                "rank_score": 0.047027073564814746
-            },
-            "a utility function": {
-                "count": 1,
-                "rank_score": 0.05628050113873315
-            },
             "both risk-averse and risk-seeking behavior": {
                 "count": 1,
                 "rank_score": 0.05222443897012598
@@ -525,183 +614,46 @@
                 "count": 1,
                 "rank_score": 0.13101255543443394
             },
+            "its sign": {
+                "count": 1,
+                "rank_score": 0.0439193240327028
+            },
             "low profit levels": {
                 "count": 1,
                 "rank_score": 0.11058689447767318
+            },
+            "not only the common positive relationship": {
+                "count": 1,
+                "rank_score": 0.045983232074271116
+            },
+            "period": {
+                "count": 2,
+                "rank_score": 0.015066438819193274
             },
             "profits": {
                 "count": 1,
                 "rank_score": 0.08324858888036457
             },
+            "relationship": {
+                "count": 2,
+                "rank_score": 0.05664719196285212
+            },
             "rising interest rate exposure": {
                 "count": 1,
                 "rank_score": 0.1331560752356251
             },
-            "this relationship": {
-                "count": 2,
-                "rank_score": 0.05664719196285212
+            "risky asset": {
+                "count": 1,
+                "rank_score": 0.047027073564814746
+            },
+            "utility function": {
+                "count": 1,
+                "rank_score": 0.05628050113873315
             }
         },
         "pdf": "https://www.econstor.eu/bitstream/10419/142700/1/862557410.pdf",
         "title": "Banks' Interest Rate Risk and Search for Yield: A Theoretical Rationale and Some Empirical Evidence",
         "url": "http://hdl.handle.net/10419/142700"
-    },
-    {
-        "abstract": "We investigate how differential exposures by German banks to the US real estate market during the recent financial crisis affect their corporate lending in Germany. Using unique bank-level exposure data, we distinguish between three different types of bank exposures, i.e. direct exposure to the US real estate sector, direct exposure to subprime lenders in the US, and indirect exposure through the liquidity provided to ABCP conduits. We find that banks with a higher exposure to the US real estate sector and to conduits cut their lending to German firms by more following a decrease in US home prices than banks that do not have such an exposure. Moreover, these banks then also shift their lending to industry-region combinations with lower insolvency ratios. Hence possible losses abroad shift bank lending at home, and the size of this effect depends on the type and the degree of exposure the bank has.",
-        "authors": [
-            "author-a6fa49e769a2b520f365",
-            "author-bfd340dc254d33d47787",
-            "author-cac771bf0aab1e06b055"
-        ],
-        "datasets": [
-            "dataset-006",
-            "dataset-013",
-            "dataset-005"
-        ],
-        "doi": "10.1093/rof/rfy011",
-        "journal": "journal-857",
-        "keyphrases": {
-            "bank exposures": {
-                "count": 1,
-                "rank_score": 0.16650744573968573
-            },
-            "bank lending": {
-                "count": 1,
-                "rank_score": 0.14915253136952705
-            },
-            "banks": {
-                "count": 4,
-                "rank_score": 0.1265073244798758
-            },
-            "differential exposures": {
-                "count": 1,
-                "rank_score": 0.12918470217862596
-            },
-            "direct exposure": {
-                "count": 2,
-                "rank_score": 0.13406088650990222
-            },
-            "exposure": {
-                "count": 2,
-                "rank_score": 0.12982617418653133
-            },
-            "german banks": {
-                "count": 1,
-                "rank_score": 0.1312104363951201
-            },
-            "german firms": {
-                "count": 1,
-                "rank_score": 0.07953415723750355
-            },
-            "indirect exposure": {
-                "count": 1,
-                "rank_score": 0.1256317046177569
-            },
-            "lower insolvency ratios": {
-                "count": 1,
-                "rank_score": 0.09167288068286766
-            },
-            "the us real estate market": {
-                "count": 1,
-                "rank_score": 0.08733512093382795
-            },
-            "the us real estate sector": {
-                "count": 2,
-                "rank_score": 0.09199917553115161
-            },
-            "unique bank-level exposure data": {
-                "count": 1,
-                "rank_score": 0.10842199461335122
-            },
-            "us": {
-                "count": 6,
-                "rank_score": 0.1068846959429239
-            },
-            "us home prices": {
-                "count": 1,
-                "rank_score": 0.11641908255056976
-            }
-        },
-        "pdf": "https://www.econstor.eu/bitstream/10419/110959/1/827483279.pdf",
-        "title": "Do exposures to sagging real estate, subprime or conduits abroad lead to contraction and flight to quality in bank lending at home?",
-        "url": "http://hdl.handle.net/10419/110959"
-    },
-    {
-        "abstract": "We document a new business cycle fact: the cross-sectional standard deviation of firm-level investment (investment dispersion) is robustly and significantly procyclical. This makes investment dispersion different from the dispersion of productivity and output growth, which is countercyclical. Investment dispersion is more procyclical in the goods-producing sectors, for smaller firms and for structures. We show that a heterogeneous-firm real business cycle model with countercyclical idiosyncratic firm risk and non-convex adjustment costs calibrated to match moments of the long-run investment rate distribution, produces a time series correlation coefficient between investment dispersion and aggregate output of 0.58, close to the 0.45 in the data. We argue, more generally, that cross-sectional business cycle dynamics impose tight empirical restrictions on the physical environments and the structural parameters of heterogeneous-firm models.",
-        "authors": [
-            "author-93f1cae730663c3439a5",
-            "author-38f6c83a8522aff36a47"
-        ],
-        "datasets": [
-            "dataset-869"
-        ],
-        "doi": "10.1257/aer.104.4.1392",
-        "journal": "journal-256",
-        "keyphrases": {
-            "a heterogeneous-firm real business cycle model": {
-                "count": 1,
-                "rank_score": 0.08150485313157536
-            },
-            "a new business cycle fact": {
-                "count": 1,
-                "rank_score": 0.08162271948240526
-            },
-            "a time series correlation coefficient": {
-                "count": 1,
-                "rank_score": 0.06334473660244914
-            },
-            "aggregate output": {
-                "count": 1,
-                "rank_score": 0.07256557649809088
-            },
-            "countercyclical idiosyncratic firm risk": {
-                "count": 1,
-                "rank_score": 0.09818752790980204
-            },
-            "cross-sectional business cycle dynamics": {
-                "count": 1,
-                "rank_score": 0.1393233728482576
-            },
-            "firm-level investment": {
-                "count": 1,
-                "rank_score": 0.0755660150781539
-            },
-            "heterogeneous-firm models": {
-                "count": 1,
-                "rank_score": 0.07194525495868125
-            },
-            "investment dispersion": {
-                "count": 4,
-                "rank_score": 0.13356526527663848
-            },
-            "non-convex adjustment costs": {
-                "count": 1,
-                "rank_score": 0.1125674999756431
-            },
-            "productivity and output growth": {
-                "count": 1,
-                "rank_score": 0.05068776800915313
-            },
-            "smaller firms": {
-                "count": 1,
-                "rank_score": 0.08496958847858124
-            },
-            "the cross-sectional standard deviation": {
-                "count": 1,
-                "rank_score": 0.08053665635146642
-            },
-            "the dispersion": {
-                "count": 1,
-                "rank_score": 0.051420609133423674
-            },
-            "tight empirical restrictions": {
-                "count": 1,
-                "rank_score": 0.08667261133054414
-            }
-        },
-        "pdf": "http://pdfs.semanticscholar.org/b916/68eb2519f2064771befab568f5d0d32464ec.pdf",
-        "title": "Investment dispersion and the business cycle",
-        "url": "https://semanticscholar.org/paper/b91668eb2519f2064771befab568f5d0d32464ec"
     },
     {
         "abstract": "Multinational labor demand responds to wage differentials at the extensive margin, when a multinational enterprise (MNE) expands into foreign locations, and at the intensive margin, when an MNE operates existing affiliates across locations. We derive conditions for parametric and nonparametric identification of an MNE model to infer elasticities of labor substitution at both margins, controlling for location selectivity. Prior studies have rarely found foreign wages or operations to affect employment. Our strategy detects salient adjustments at the extensive margin for German MNEs. With every percentage increase in German wages, German MNEs allocate 2,000 manufacturing jobs to Eastern Europe at the extensive margin and 4,000 jobs overall.",
@@ -716,13 +668,37 @@
         "doi": "10.1257/aer.100.5.1999",
         "journal": "journal-256",
         "keyphrases": {
+            "both margins": {
+                "count": 1,
+                "rank_score": 0.051169160877713005
+            },
+            "differentials": {
+                "count": 1,
+                "rank_score": 0.057947360784607896
+            },
             "eastern europe": {
                 "count": 2,
                 "rank_score": 0.07721181443242535
             },
+            "elasticities": {
+                "count": 1,
+                "rank_score": 0.06770508557131677
+            },
+            "employment": {
+                "count": 1,
+                "rank_score": 0.05654514114668639
+            },
+            "every percentage increase": {
+                "count": 1,
+                "rank_score": 0.04195913170747257
+            },
             "existing affiliates": {
                 "count": 1,
                 "rank_score": 0.08879385767465683
+            },
+            "extensive margin": {
+                "count": 3,
+                "rank_score": 0.06965173839065286
             },
             "foreign locations": {
                 "count": 1,
@@ -744,6 +720,10 @@
                 "count": 1,
                 "rank_score": 0.1297907496941896
             },
+            "intensive margin": {
+                "count": 1,
+                "rank_score": 0.05659186610634999
+            },
             "labor substitution": {
                 "count": 1,
                 "rank_score": 0.09116020225867533
@@ -760,6 +740,14 @@
                 "count": 5,
                 "rank_score": 0.1002422808840095
             },
+            "mne model": {
+                "count": 1,
+                "rank_score": 0.0633337646117252
+            },
+            "multinational enterprise": {
+                "count": 1,
+                "rank_score": 0.04869920184583052
+            },
             "multinational labor demand": {
                 "count": 1,
                 "rank_score": 0.10794074506483392
@@ -767,6 +755,10 @@
             "operations": {
                 "count": 1,
                 "rank_score": 0.07289730394164082
+            },
+            "parametric and nonparametric identification": {
+                "count": 1,
+                "rank_score": 0.06471328671015458
             },
             "prior studies": {
                 "count": 1,
@@ -793,18 +785,6 @@
         "doi": "10.1080/00036840802360120",
         "journal": "journal-255",
         "keyphrases": {
-            "a certain real sales growth regime": {
-                "count": 1,
-                "rank_score": 0.1127041109755619
-            },
-            "a firm": {
-                "count": 2,
-                "rank_score": 0.047460742290271904
-            },
-            "a high growth rate": {
-                "count": 1,
-                "rank_score": 0.08877266965260505
-            },
             "another regime": {
                 "count": 3,
                 "rank_score": 0.06139238351819429
@@ -812,6 +792,18 @@
             "bundesbank": {
                 "count": 1,
                 "rank_score": 0.068848032285
+            },
+            "business cycle position": {
+                "count": 1,
+                "rank_score": 0.0739128512048536
+            },
+            "certain real sales growth regime": {
+                "count": 1,
+                "rank_score": 0.1127041109755619
+            },
+            "firm level": {
+                "count": 1,
+                "rank_score": 0.06569285902909218
             },
             "germany": {
                 "count": 1,
@@ -825,6 +817,10 @@
                 "count": 1,
                 "rank_score": 0.13910671511854172
             },
+            "high growth rate": {
+                "count": 1,
+                "rank_score": 0.08877266965260505
+            },
             "longitudinal firm-level data": {
                 "count": 1,
                 "rank_score": 0.08298429528591021
@@ -833,21 +829,21 @@
                 "count": 1,
                 "rank_score": 0.12884018614864742
             },
+            "next period": {
+                "count": 2,
+                "rank_score": 0.04512170259755309
+            },
+            "probabilities": {
+                "count": 1,
+                "rank_score": 0.05128237325270676
+            },
             "stylised facts": {
                 "count": 1,
                 "rank_score": 0.09453250740772051
             },
-            "the business cycle position": {
+            "subsequent period": {
                 "count": 1,
-                "rank_score": 0.0739128512048536
-            },
-            "the firm level": {
-                "count": 1,
-                "rank_score": 0.06569285902909218
-            },
-            "these probabilities": {
-                "count": 1,
-                "rank_score": 0.05128237325270676
+                "rank_score": 0.04515857508056187
             },
             "transition probabilities": {
                 "count": 1,
@@ -856,7 +852,7 @@
         },
         "pdf": "https://www.ssoar.info/ssoar/bitstream/document/24187/1/ssoar-appecon-2009-29-doepke_et_al-the_within-distribution_business_cycle_dynamics.pdf",
         "title": "he within-distribution business cycle dynamics of German firms",
-        "url": "https://www.tandfonline.com/doi/abs/10.1080/00036840802360120"
+        "url": "https://www.semanticscholar.org/paper/2ce244aa597ba775cc67bda59cb2b365e6cdc5be"
     },
     {
         "abstract": "type=\"main\" xml:id=\"twec12133-abs-0001\"> This paper estimates the exporter premium in bank lending. We examine credit relationships in Germany, covering all loans of more than 1.5 million euro over the period from 2005 to 2010. Having controlled for a wide range of other firm and bank characteristics, our results indicate that exporting firms take out loans around 15 per cent larger than those of non-exporters.",
@@ -871,10 +867,6 @@
         "doi": "10.1111/twec.12133",
         "journal": "journal-247",
         "keyphrases": {
-            "a wide range": {
-                "count": 1,
-                "rank_score": 0.06208396179865165
-            },
             "around 15 per cent": {
                 "count": 1,
                 "rank_score": 0.04550587378306482
@@ -895,6 +887,10 @@
                 "count": 1,
                 "rank_score": 0.11114663236966305
             },
+            "exporter premium": {
+                "count": 1,
+                "rank_score": 0.07588985723711235
+            },
             "exporting firms": {
                 "count": 1,
                 "rank_score": 0.13591629633746555
@@ -903,9 +899,17 @@
                 "count": 2,
                 "rank_score": 0.08506581552803602
             },
+            "id=twec12133-abs-0001": {
+                "count": 1,
+                "rank_score": 0.03171009961029961
+            },
             "loans": {
                 "count": 2,
                 "rank_score": 0.10412365436912954
+            },
+            "more than 1.5 million euro": {
+                "count": 2,
+                "rank_score": 0.031896528640588714
             },
             "non-exporters": {
                 "count": 1,
@@ -915,21 +919,17 @@
                 "count": 1,
                 "rank_score": 0.13673493799963687
             },
-            "our results": {
-                "count": 1,
-                "rank_score": 0.04065283893091133
-            },
-            "the exporter premium": {
-                "count": 1,
-                "rank_score": 0.07588985723711235
-            },
-            "the period": {
+            "period": {
                 "count": 1,
                 "rank_score": 0.043420842143242176
             },
-            "type=\"main\" xml": {
+            "type=main xml": {
                 "count": 1,
                 "rank_score": 0.0627697184435531
+            },
+            "wide range": {
+                "count": 1,
+                "rank_score": 0.06208396179865165
             }
         },
         "pdf": "http://www.vwl2.wi.tu-darmstadt.de/media/vwl2/pdfs/20130718_extra_credit.pdf",
@@ -951,9 +951,9 @@
         "doi": "10.1111/j.1468-0475.2009.00472.x",
         "journal": "journal-807",
         "keyphrases": {
-            "a new parametric approach": {
-                "count": 1,
-                "rank_score": 0.0646452641880336
+            "belgium": {
+                "count": 2,
+                "rank_score": 0.045839317752207315
             },
             "countries": {
                 "count": 2,
@@ -967,6 +967,30 @@
                 "count": 1,
                 "rank_score": 0.14623138660178442
             },
+            "echp": {
+                "count": 2,
+                "rank_score": 0.051138614643806174
+            },
+            "europe": {
+                "count": 2,
+                "rank_score": 0.04452359334065429
+            },
+            "european": {
+                "count": 1,
+                "rank_score": 0.04822817765993687
+            },
+            "european community household panel": {
+                "count": 2,
+                "rank_score": 0.07183492099299127
+            },
+            "generalized hyperbolic distribution": {
+                "count": 1,
+                "rank_score": 0.060933890775648855
+            },
+            "greece": {
+                "count": 2,
+                "rank_score": 0.04972036718908874
+            },
             "increasing rigidity": {
                 "count": 1,
                 "rank_score": 0.11762140429064033
@@ -975,9 +999,21 @@
                 "count": 2,
                 "rank_score": 0.05597230979387217
             },
+            "new parametric approach": {
+                "count": 1,
+                "rank_score": 0.0646452641880336
+            },
+            "portugal": {
+                "count": 2,
+                "rank_score": 0.04849509243096695
+            },
             "price stability": {
                 "count": 1,
                 "rank_score": 0.08904763932910208
+            },
+            "proposed approach": {
+                "count": 1,
+                "rank_score": 0.049460200068445204
             },
             "rigidity": {
                 "count": 1,
@@ -991,21 +1027,25 @@
                 "count": 1,
                 "rank_score": 0.06181953834291978
             },
-            "the european community household panel": {
-                "count": 2,
-                "rank_score": 0.07183492099299127
-            },
-            "the generalized hyperbolic distribution": {
+            "ten european countries": {
                 "count": 1,
-                "rank_score": 0.060933890775648855
+                "rank_score": 0.04583592828956945
             },
             "thick tales": {
                 "count": 1,
                 "rank_score": 0.07931128957324603
             },
+            "user data base": {
+                "count": 2,
+                "rank_score": 0.05549765185523682
+            },
             "wage change distributions": {
                 "count": 1,
                 "rank_score": 0.12178262382326387
+            },
+            "yearly": {
+                "count": 1,
+                "rank_score": 0.054214209974319506
             },
             "yearly estimates": {
                 "count": 1,
@@ -1031,14 +1071,6 @@
         "doi": "10.1016/j.euroecorev.2012.02.001",
         "journal": "journal-254",
         "keyphrases": {
-            "a comprehensive firm-bank level": {
-                "count": 1,
-                "rank_score": 0.06922304415010498
-            },
-            "a concentrated regional lending market": {
-                "count": 1,
-                "rank_score": 0.07695173710521916
-            },
             "bank relationships": {
                 "count": 1,
                 "rank_score": 0.13204351917634133
@@ -1046,6 +1078,14 @@
             "banks": {
                 "count": 2,
                 "rank_score": 0.12164021657568308
+            },
+            "comprehensive firm-bank level": {
+                "count": 1,
+                "rank_score": 0.06922304415010498
+            },
+            "concentrated regional lending market": {
+                "count": 1,
+                "rank_score": 0.07695173710521916
             },
             "corporate borrowing": {
                 "count": 1,
@@ -1055,13 +1095,13 @@
                 "count": 2,
                 "rank_score": 0.1006237122838822
             },
+            "determinants": {
+                "count": 1,
+                "rank_score": 0.03511408864486813
+            },
             "equal financing shares": {
                 "count": 1,
                 "rank_score": 0.09972875287379429
-            },
-            "firms": {
-                "count": 2,
-                "rank_score": 0.11546526836092214
             },
             "german": {
                 "count": 1,
@@ -1071,21 +1111,45 @@
                 "count": 1,
                 "rank_score": 0.12353764095797046
             },
+            "largest firms": {
+                "count": 1,
+                "rank_score": 0.06648846045539414
+            },
             "leveraged firms": {
                 "count": 1,
                 "rank_score": 0.11645397986530784
+            },
+            "literature": {
+                "count": 1,
+                "rank_score": 0.034798399818402395
             },
             "lower monitoring costs": {
                 "count": 1,
                 "rank_score": 0.09897433186107871
             },
+            "more redeployable assets": {
+                "count": 1,
+                "rank_score": 0.04743265101716124
+            },
             "multiple banking": {
                 "count": 1,
                 "rank_score": 0.09467180103917094
             },
-            "the largest firms": {
+            "our sample": {
                 "count": 1,
-                "rank_score": 0.06648846045539414
+                "rank_score": 0.021933389601742025
+            },
+            "relationship lender": {
+                "count": 1,
+                "rank_score": 0.05364035284435544
+            },
+            "their borrowing": {
+                "count": 1,
+                "rank_score": 0.05306388102965699
+            },
+            "time period": {
+                "count": 2,
+                "rank_score": 0.042987811908192064
             },
             "unequal, asymmetric or concentrated bank borrowing": {
                 "count": 1,
@@ -1108,6 +1172,10 @@
         "doi": "10.2139/ssrn.3164103",
         "journal": "journal-003",
         "keyphrases": {
+            "affiliated companies": {
+                "count": 1,
+                "rank_score": 0.05123920040503606
+            },
             "anti-avoidance legislation": {
                 "count": 1,
                 "rank_score": 0.09492139363927268
@@ -1116,13 +1184,29 @@
                 "count": 1,
                 "rank_score": 0.09593545030673231
             },
+            "base erosion": {
+                "count": 1,
+                "rank_score": 0.05587707583622156
+            },
             "case": {
                 "count": 3,
                 "rank_score": 0.07024980413597776
             },
+            "empirical evidence": {
+                "count": 1,
+                "rank_score": 0.0645549051305127
+            },
+            "intellectual property": {
+                "count": 1,
+                "rank_score": 0.05743868045563873
+            },
             "internal transfer prices": {
                 "count": 1,
                 "rank_score": 0.10952115917472759
+            },
+            "international trade": {
+                "count": 1,
+                "rank_score": 0.06033534698929517
             },
             "ip-related transfer pricing": {
                 "count": 1,
@@ -1132,13 +1216,33 @@
                 "count": 1,
                 "rank_score": 0.07061937073214403
             },
+            "microdatabase direct investment": {
+                "count": 2,
+                "rank_score": 0.045805993890939256
+            },
             "mnes’ international service transactions": {
                 "count": 1,
                 "rank_score": 0.07067657193906823
             },
+            "mnes’ transaction partners": {
+                "count": 1,
+                "rank_score": 0.06329380965208042
+            },
+            "multinational enterprises": {
+                "count": 1,
+                "rank_score": 0.05290670007270725
+            },
+            "obligatory documentation requirements": {
+                "count": 1,
+                "rank_score": 0.06837397626627878
+            },
             "observable market values": {
                 "count": 1,
                 "rank_score": 0.07566608009070769
+            },
+            "prices": {
+                "count": 1,
+                "rank_score": 0.06768517668695286
             },
             "service transactions": {
                 "count": 2,
@@ -1174,85 +1278,6 @@
         "url": "http://hdl.handle.net/10419/145929"
     },
     {
-        "abstract": "Abstract Previous empirical work on the link between domestic and foreign investment has provided mixed results. This may partly be due to the level of aggregation of the data. In this paper, we argue that the impact of FDI on the domestic capital stock depends on the structure of industries. Using industry-level data on the stock of German FDI, we test our predictions. We use panel cointegration methods which address the potential endogeneity of FDI. We find evidence for a positive long-run impact of FDI on the domestic capital stock.",
-        "authors": [
-            "author-0d4a4bd00069077dc5e7",
-            "author-6d3e23188c94b7815669",
-            "author-03654894229ff3836d41",
-            "author-03654894229ff3836d41"
-        ],
-        "datasets": [
-            "dataset-008"
-        ],
-        "doi": "10.2202/1935-1682.2295",
-        "journal": "journal-272",
-        "keyphrases": {
-            "a positive long-run impact": {
-                "count": 1,
-                "rank_score": 0.06580033860265642
-            },
-            "abstract previous empirical work": {
-                "count": 1,
-                "rank_score": 0.11774831337716112
-            },
-            "aggregation": {
-                "count": 1,
-                "rank_score": 0.05913962635424492
-            },
-            "domestic and foreign investment": {
-                "count": 1,
-                "rank_score": 0.08184708298397936
-            },
-            "evidence": {
-                "count": 1,
-                "rank_score": 0.07064033255690037
-            },
-            "fdi": {
-                "count": 3,
-                "rank_score": 0.11742062764396927
-            },
-            "german": {
-                "count": 1,
-                "rank_score": 0.05537691266535942
-            },
-            "german fdi": {
-                "count": 1,
-                "rank_score": 0.1192507296651634
-            },
-            "industries": {
-                "count": 1,
-                "rank_score": 0.07833636786102949
-            },
-            "industry-level data": {
-                "count": 1,
-                "rank_score": 0.07710493982432984
-            },
-            "mixed results": {
-                "count": 1,
-                "rank_score": 0.08464440704346926
-            },
-            "panel cointegration methods": {
-                "count": 1,
-                "rank_score": 0.10839977151922309
-            },
-            "the domestic capital stock": {
-                "count": 2,
-                "rank_score": 0.09171914540191445
-            },
-            "the potential endogeneity": {
-                "count": 1,
-                "rank_score": 0.051712559122358635
-            },
-            "the stock": {
-                "count": 1,
-                "rank_score": 0.053004349996801585
-            }
-        },
-        "pdf": "https://epub.ub.uni-muenchen.de/13340/1/212.pdf",
-        "title": "FDI and Domestic Investment: An Industry-Level View",
-        "url": "http://hdl.handle.net/10419/94017"
-    },
-    {
         "abstract": "Using a firm-level panel data set this paper investigates the impact of taxation on the decision of German multinationals to hold or establish a subsidiary in other European countries or abroad. Taking account of unobserved local characteristics as well as firm-specific preferences for potential locations, the results confirm significant effects of tax incentives, market size, and of labor cost on cross-border location decisions. In accordance with Devereux and Griffith (1998) we find that the marginal effective tax rate has no predictive power for location decisions. However, the results indicate a considerably weaker predictive power of the effective average tax rate as compared to the statutory tax rate.",
         "authors": [
             "author-f6168d55d12cc7c6e7ca",
@@ -1264,21 +1289,53 @@
         "doi": "10.1007/s10797-006-8721-5",
         "journal": "journal-263",
         "keyphrases": {
+            "accordance": {
+                "count": 1,
+                "rank_score": 0.055299164490745484
+            },
+            "considerably weaker predictive power": {
+                "count": 1,
+                "rank_score": 0.04527843370631607
+            },
             "cross-border location decisions": {
                 "count": 1,
                 "rank_score": 0.12586014581724603
+            },
+            "decision": {
+                "count": 1,
+                "rank_score": 0.045088434942066664
             },
             "devereux": {
                 "count": 2,
                 "rank_score": 0.07608394520536414
             },
+            "effective average tax rate": {
+                "count": 1,
+                "rank_score": 0.08585156806637069
+            },
             "european": {
                 "count": 1,
                 "rank_score": 0.06569317333317867
             },
+            "firm-level panel data": {
+                "count": 1,
+                "rank_score": 0.05437098357136209
+            },
+            "firm-specific preferences": {
+                "count": 1,
+                "rank_score": 0.054721379022108954
+            },
+            "german": {
+                "count": 1,
+                "rank_score": 0.058075335788832935
+            },
             "german multinationals": {
                 "count": 1,
                 "rank_score": 0.07544207418966137
+            },
+            "griffith": {
+                "count": 1,
+                "rank_score": 0.055299164490745484
             },
             "labor cost": {
                 "count": 1,
@@ -1288,9 +1345,17 @@
                 "count": 1,
                 "rank_score": 0.11531061027216732
             },
+            "marginal effective tax rate": {
+                "count": 1,
+                "rank_score": 0.08779969073922546
+            },
             "market size": {
                 "count": 1,
                 "rank_score": 0.06692691333141783
+            },
+            "no predictive power": {
+                "count": 1,
+                "rank_score": 0.05221198559718358
             },
             "other european countries": {
                 "count": 1,
@@ -1304,21 +1369,21 @@
                 "count": 1,
                 "rank_score": 0.0825075099472266
             },
+            "statutory tax rate": {
+                "count": 1,
+                "rank_score": 0.07736393693472521
+            },
+            "subsidiary": {
+                "count": 1,
+                "rank_score": 0.034589048157195344
+            },
             "tax incentives": {
                 "count": 1,
                 "rank_score": 0.10848251392773114
             },
-            "the effective average tax rate": {
+            "taxation": {
                 "count": 1,
-                "rank_score": 0.08585156806637069
-            },
-            "the marginal effective tax rate": {
-                "count": 1,
-                "rank_score": 0.08779969073922546
-            },
-            "the statutory tax rate": {
-                "count": 1,
-                "rank_score": 0.07736393693472521
+                "rank_score": 0.04853398759842714
             },
             "unobserved local characteristics": {
                 "count": 1,
@@ -1327,7 +1392,7 @@
         },
         "pdf": "https://ub-madoc.bib.uni-mannheim.de/926/1/dp0476.pdf",
         "title": "Tax incentives and the location of FDI: evidence from a panel of German multinationals",
-        "url": "http://hdl.handle.net/10419/24083"
+        "url": "http://www.econstor.eu/bitstream/10419/24083/1/dp0476.pdf"
     },
     {
         "abstract": "This paper provides the first in-depth study of the organization of knowledge in multinational firms. The paper develops a theoretical model that studies how firms optimally split knowledge between their headquarters and their production plants if communication costs impede the access of production plants to headquarter knowledge. The paper assumes that the foreign plants of multinational firms face higher communication costs with headquarters than their domestic plants, and shows that multinational firms therefore systematically assign more knowledge to both their foreign and domestic plants than non-multinationals. This helps explain why multinational firms pay higher wages to their production workers than non-multinational firms, and why their sales and their investment probability decrease across space. Empirical evidence from data on corporate transferees confirms the model predictions for multinationals' organization of knowledge. Data on German multinational firms corroborate the implications of the model in relation to the geography of multinationals' sales and investments.",
@@ -1348,13 +1413,17 @@
                 "count": 1,
                 "rank_score": 0.07390018551582174
             },
-            "data": {
-                "count": 2,
-                "rank_score": 0.07223843596993719
-            },
-            "firms": {
+            "empirical evidence": {
                 "count": 1,
-                "rank_score": 0.1236860556448664
+                "rank_score": 0.06186861648735964
+            },
+            "foreign plants": {
+                "count": 1,
+                "rank_score": 0.06366374765015581
+            },
+            "german": {
+                "count": 1,
+                "rank_score": 0.054437028899314024
             },
             "german multinational firms": {
                 "count": 1,
@@ -1363,6 +1432,10 @@
             "headquarter knowledge": {
                 "count": 1,
                 "rank_score": 0.0939067993654564
+            },
+            "headquarters": {
+                "count": 1,
+                "rank_score": 0.04733453730858995
             },
             "higher communication costs": {
                 "count": 1,
@@ -1376,9 +1449,13 @@
                 "count": 1,
                 "rank_score": 0.06699016050359452
             },
-            "knowledge": {
-                "count": 3,
-                "rank_score": 0.0902856304584079
+            "model": {
+                "count": 1,
+                "rank_score": 0.046523534338384465
+            },
+            "model predictions": {
+                "count": 1,
+                "rank_score": 0.055601217725158865
             },
             "more knowledge": {
                 "count": 1,
@@ -1387,6 +1464,14 @@
             "multinational firms": {
                 "count": 4,
                 "rank_score": 0.15397367846947874
+            },
+            "multinationals organization": {
+                "count": 1,
+                "rank_score": 0.048915165860071746
+            },
+            "multinationals sales": {
+                "count": 1,
+                "rank_score": 0.05261315589721469
             },
             "non-multinational firms": {
                 "count": 1,
@@ -1399,88 +1484,31 @@
             "production plants": {
                 "count": 2,
                 "rank_score": 0.11670112863834245
+            },
+            "space": {
+                "count": 1,
+                "rank_score": 0.0515769470083162
+            },
+            "their domestic plants": {
+                "count": 1,
+                "rank_score": 0.06349440380630986
+            },
+            "their investment probability": {
+                "count": 1,
+                "rank_score": 0.04904374863645084
+            },
+            "their production workers": {
+                "count": 1,
+                "rank_score": 0.049432376488102094
+            },
+            "theoretical model": {
+                "count": 1,
+                "rank_score": 0.05801064475443466
             }
         },
         "pdf": "https://rationality-and-competition.de/wp-content/uploads/discussion_paper/29.pdf",
         "title": "The organization of knowledge in multinational firms",
-        "url": "https://www.econstor.eu/bitstream/10419/121462/1/837897491.pdf"
-    },
-    {
-        "abstract": "This paper investigates how multinational firms choose the capital structure of their foreign affiliates in response to political risk. We focus on two choice variables, the leverage and the ownership structure of the foreign affiliate, and we distinguish different types of political risk, such as expropriation, unreliable intellectual property rights and confiscatory taxation. In our theoretical analysis we find that, as political risk increases, the ownership share tends to decrease, whereas leverage can both increase or decrease, depending on the type of political risk. Using the Microdatabase Direct Investment of the Deutsche Bundesbank, we find supportive evidence for these different effects.",
-        "authors": [
-            "author-4e769c517e6991d12df4",
-            "author-03654894229ff3836d41"
-        ],
-        "datasets": [
-            "dataset-008"
-        ],
-        "doi": "10.1016/j.jinteco.2010.07.005",
-        "journal": "journal-253",
-        "keyphrases": {
-            "confiscatory taxation": {
-                "count": 1,
-                "rank_score": 0.07732413755679053
-            },
-            "different types": {
-                "count": 1,
-                "rank_score": 0.1079922335705209
-            },
-            "expropriation": {
-                "count": 1,
-                "rank_score": 0.06176467474630602
-            },
-            "leverage": {
-                "count": 2,
-                "rank_score": 0.08435462067675183
-            },
-            "multinational firms": {
-                "count": 1,
-                "rank_score": 0.0950118416784276
-            },
-            "political risk": {
-                "count": 3,
-                "rank_score": 0.12455320988223083
-            },
-            "political risk increases": {
-                "count": 1,
-                "rank_score": 0.12524286079850586
-            },
-            "response": {
-                "count": 1,
-                "rank_score": 0.06565312115373634
-            },
-            "supportive evidence": {
-                "count": 1,
-                "rank_score": 0.08234118060005446
-            },
-            "the capital structure": {
-                "count": 1,
-                "rank_score": 0.05353873569657153
-            },
-            "the microdatabase direct investment": {
-                "count": 1,
-                "rank_score": 0.0682521902350666
-            },
-            "the ownership share": {
-                "count": 1,
-                "rank_score": 0.05465277215543379
-            },
-            "the ownership structure": {
-                "count": 1,
-                "rank_score": 0.05938862696091915
-            },
-            "their foreign affiliates": {
-                "count": 2,
-                "rank_score": 0.05186261147797863
-            },
-            "unreliable intellectual property rights": {
-                "count": 1,
-                "rank_score": 0.11585748683140133
-            }
-        },
-        "pdf": "http://epub.ub.uni-muenchen.de/13339/1/213.pdf",
-        "title": "Who is afraid of political risk? Multinational firms and their choice of capital structure",
-        "url": "http://hdl.handle.net/10419/94181"
+        "url": "http://hdl.handle.net/10419/121462"
     },
     {
         "abstract": "Wholesale and retail trade affiliates owned by parent firms in manufacturing account for a considerable fraction of overall affiliate sales. Although quantitatively important, this Export-Supporting FDI (ESFDI) activity has received little attention in the literature. This paper includes ESFDI into a model of trade and horizontal FDI with heterogeneous firms. ESFDI is characterized by export-supporting distribution and service activities in the foreign market while production remains in the home country. This introduces some complementarity between trade and FDI. In the model falling trade costs lead to an increase in both overall trade and overall FDI activity. This provides a possible explanation for the simultaneous rise in trade and FDI in the data. An empirical analysis using German firm level FDI data confirms the quantitative importance of ESFDI. The data also support crucial implications of the theoretical model. Parents choosing ESFDI are smaller than firms choosing to produce in the foreign market. And the importance of ESFDI relative to horizontal FDI is strongest when variable trade costs are low.",
@@ -1497,9 +1525,21 @@
                 "count": 1,
                 "rank_score": 0.07709863393250921
             },
+            "crucial implications": {
+                "count": 1,
+                "rank_score": 0.06241476762681472
+            },
             "esfdi": {
                 "count": 9,
                 "rank_score": 0.09543390539536452
+            },
+            "export-supporting distribution": {
+                "count": 1,
+                "rank_score": 0.05744209431685964
+            },
+            "export-supporting fdi (esfdi) activity": {
+                "count": 1,
+                "rank_score": 0.05570222495336616
             },
             "falling trade costs": {
                 "count": 1,
@@ -1509,9 +1549,13 @@
                 "count": 2,
                 "rank_score": 0.10831460519869124
             },
-            "firms": {
+            "foreign market": {
+                "count": 2,
+                "rank_score": 0.047258260442931715
+            },
+            "german": {
                 "count": 1,
-                "rank_score": 0.09238973907430567
+                "rank_score": 0.060018230032692965
             },
             "german firm level fdi data": {
                 "count": 1,
@@ -1525,6 +1569,14 @@
                 "count": 1,
                 "rank_score": 0.10985650067904233
             },
+            "little attention": {
+                "count": 1,
+                "rank_score": 0.07134754817536278
+            },
+            "manufacturing account": {
+                "count": 1,
+                "rank_score": 0.060367339481541424
+            },
             "overall affiliate sales": {
                 "count": 1,
                 "rank_score": 0.09396944709762099
@@ -1537,9 +1589,25 @@
                 "count": 1,
                 "rank_score": 0.10151049661993967
             },
+            "parents": {
+                "count": 1,
+                "rank_score": 0.06063609261358359
+            },
+            "possible explanation": {
+                "count": 1,
+                "rank_score": 0.041604827730299526
+            },
+            "quantitative importance": {
+                "count": 1,
+                "rank_score": 0.04071437640739515
+            },
             "service activities": {
                 "count": 1,
                 "rank_score": 0.08105938688805751
+            },
+            "theoretical model": {
+                "count": 1,
+                "rank_score": 0.0405157221167657
             },
             "trade": {
                 "count": 3,
@@ -1555,7 +1623,7 @@
             }
         },
         "title": "Export-Supporting FDI",
-        "url": "http://hdl.handle.net/1814/7164"
+        "url": "https://www.semanticscholar.org/paper/227ede552a1bc05396847f462ce29d8e3fbbb2e5"
     },
     {
         "abstract": "Using data on German and Swedish multinational enterprises (MNEs), this paper analyzes determinants of location choice and the degree of substitutability of labor across locations. Countries with highly skilled labor strongly attract German but not necessarily Swedish MNEs. In MNEs from either country, affiliate employment tends to substitute for employment at the parent firm. At the margin, substitutability is the strongest with respect to affiliate employment in Western Europe. A one percent larger wage gap between Germany and locations in Central and Eastern Europe (CEE) is associated with 760 fewer jobs at German parents and 4,620 more jobs at affiliates in CEE. A one percent larger wage gap between Sweden and CEE is associated with 140 fewer jobs at Swedish parents and 260 more jobs at affiliates in CEE.",
@@ -1583,6 +1651,22 @@
                 "count": 8,
                 "rank_score": 0.08416870154099683
             },
+            "central": {
+                "count": 1,
+                "rank_score": 0.06226861471584828
+            },
+            "central and eastern europe": {
+                "count": 1,
+                "rank_score": 0.062147845952232085
+            },
+            "countries": {
+                "count": 2,
+                "rank_score": 0.06889544468931232
+            },
+            "determinants": {
+                "count": 1,
+                "rank_score": 0.07662617137410813
+            },
             "eastern europe": {
                 "count": 1,
                 "rank_score": 0.08861174868073153
@@ -1603,6 +1687,18 @@
                 "count": 1,
                 "rank_score": 0.12385089408877764
             },
+            "germany": {
+                "count": 2,
+                "rank_score": 0.05836475129966562
+            },
+            "highly skilled labor": {
+                "count": 1,
+                "rank_score": 0.055551362635341515
+            },
+            "labor": {
+                "count": 1,
+                "rank_score": 0.08056105955931313
+            },
             "location choice": {
                 "count": 1,
                 "rank_score": 0.10222001515298812
@@ -1611,9 +1707,21 @@
                 "count": 2,
                 "rank_score": 0.08819764645852375
             },
+            "one percent larger wage gap": {
+                "count": 2,
+                "rank_score": 0.0653377858117374
+            },
+            "respect": {
+                "count": 1,
+                "rank_score": 0.062032168843122966
+            },
             "substitutability": {
                 "count": 2,
                 "rank_score": 0.08122860526238625
+            },
+            "sweden": {
+                "count": 2,
+                "rank_score": 0.0562547575136637
             },
             "swedish": {
                 "count": 3,
@@ -1648,25 +1756,69 @@
         "doi": "10.1007/s10290-005-0051-7",
         "journal": "journal-261",
         "keyphrases": {
-            "a german subsidiary": {
+            "case": {
                 "count": 1,
-                "rank_score": 0.0691229483360756
+                "rank_score": 0.02361213651133705
             },
-            "firms": {
+            "cent": {
                 "count": 2,
-                "rank_score": 0.09098258293402729
+                "rank_score": 0.037054574398227146
+            },
+            "corporate tax rate": {
+                "count": 1,
+                "rank_score": 0.08405337653344899
+            },
+            "cross-border intra-company loans": {
+                "count": 1,
+                "rank_score": 0.11783248080814158
+            },
+            "equity": {
+                "count": 1,
+                "rank_score": 0.05957275083064151
+            },
+            "financial structure": {
+                "count": 2,
+                "rank_score": 0.06109317259500878
+            },
+            "foreign investor": {
+                "count": 1,
+                "rank_score": 0.050588065456065
+            },
+            "foreign parent": {
+                "count": 1,
+                "rank_score": 0.05955685979494924
+            },
+            "frequent concern": {
+                "count": 1,
+                "rank_score": 0.045750629978487146
             },
             "german": {
                 "count": 5,
                 "rank_score": 0.12148029785554668
             },
+            "german affiliate": {
+                "count": 1,
+                "rank_score": 0.0691229483360756
+            },
+            "german corporate tax rate": {
+                "count": 1,
+                "rank_score": 0.10538712408636947
+            },
             "german inward fdi": {
                 "count": 1,
                 "rank_score": 0.12194740000399369
             },
+            "german subsidiary": {
+                "count": 1,
+                "rank_score": 0.0691229483360756
+            },
             "high german taxes": {
                 "count": 1,
                 "rank_score": 0.1435064381422572
+            },
+            "higher the tax rate": {
+                "count": 1,
+                "rank_score": 0.06974958415159993
             },
             "intra-company borrowing": {
                 "count": 1,
@@ -1680,33 +1832,29 @@
                 "count": 1,
                 "rank_score": 0.06522884310236278
             },
-            "the corporate tax rate": {
+            "losses": {
                 "count": 1,
-                "rank_score": 0.08405337653344899
+                "rank_score": 0.04757478592246524
             },
-            "the cross-border intra-company loans": {
+            "lower the tax rate": {
                 "count": 1,
-                "rank_score": 0.11783248080814158
+                "rank_score": 0.06073938152934324
             },
-            "the financial structure": {
+            "no significant impact": {
+                "count": 1,
+                "rank_score": 0.04001290049340687
+            },
+            "parent": {
                 "count": 2,
-                "rank_score": 0.06109317259500878
+                "rank_score": 0.04174913305201898
             },
-            "the german affiliate": {
+            "subsidiaries": {
                 "count": 1,
-                "rank_score": 0.0691229483360756
+                "rank_score": 0.038742072218673346
             },
-            "the german corporate tax rate": {
+            "taxation": {
                 "count": 1,
-                "rank_score": 0.10538712408636947
-            },
-            "the high levels": {
-                "count": 2,
-                "rank_score": 0.06742834207235088
-            },
-            "the higher the tax rate": {
-                "count": 1,
-                "rank_score": 0.06974958415159993
+                "rank_score": 0.025781246066094346
             }
         },
         "pdf": "http://publikationen.ub.uni-frankfurt.de/files/4847/cesifo1_wp1355.pdf",
@@ -1728,9 +1876,33 @@
                 "count": 1,
                 "rank_score": 0.07844427043589022
             },
+            "ce sens qu’ils": {
+                "count": 1,
+                "rank_score": 0.05912563364235351
+            },
+            "cette strategie est associee aux possibilites": {
+                "count": 1,
+                "rank_score": 0.06762978393390573
+            },
+            "corporate taxation": {
+                "count": 2,
+                "rank_score": 0.06705376510522637
+            },
+            "dans": {
+                "count": 2,
+                "rank_score": 0.06393523896247469
+            },
             "dans le cas d’investissements": {
                 "count": 1,
                 "rank_score": 0.08246370018583433
+            },
+            "de la fiscalite": {
+                "count": 1,
+                "rank_score": 0.06398310424239523
+            },
+            "des entreprises": {
+                "count": 1,
+                "rank_score": 0.06168864374654014
             },
             "du fait que": {
                 "count": 1,
@@ -1756,6 +1928,18 @@
                 "count": 1,
                 "rank_score": 0.08167261392898051
             },
+            "international tax planning": {
+                "count": 1,
+                "rank_score": 0.06128678851950653
+            },
+            "le regime d’investissement": {
+                "count": 1,
+                "rank_score": 0.0665623612343486
+            },
+            "multinational firms": {
+                "count": 1,
+                "rank_score": 0.059435976294228414
+            },
             "ou indirect": {
                 "count": 1,
                 "rank_score": 0.07393180672029395
@@ -1772,6 +1956,10 @@
                 "count": 1,
                 "rank_score": 0.06821254986472979
             },
+            "sont souvent complexes": {
+                "count": 1,
+                "rank_score": 0.06357067888670727
+            },
             "tax effects": {
                 "count": 1,
                 "rank_score": 0.06868519008148688
@@ -1787,7 +1975,7 @@
         },
         "pdf": "http://www.socialpolitik.ovgu.de/sozialpolitik_media/papers/wamser_georg_uid40_pid19.pdf",
         "title": "Foreign (in)direct investment and corporate taxation",
-        "url": "https://www.researchgate.net/publication/45135701_Foreign_InDirect_Investment_and_Corporate_Taxation_Investissements_InDirects_A_L'Etranger_Et_Fiscalite_Des_Entreprises"
+        "url": "https://www.semanticscholar.org/paper/425d68b8dc92c5ae50195af6e312534b06cebb00"
     },
     {
         "abstract": "The paper considers profit shifting behavior using data on German inbound and outbound FDI. It finds an empirical correlation between the home country tax rate of a parent and the net of tax profitability of its German affiliate that is consistent with profit shifting behavior. For profitable affiliates that are directly owned by a foreign investor the evidence suggests that a 10-percentage point increase in the parent’s home country tax rate leads to roughly half a percentage point increase in the profitability of the German subsidiary. On the outbound side of German FDI, the data provides some evidence that tax rate changes in the host country lead to a stronger change in after-tax profitability for affiliates that are wholly owned, which may reflect the larger flexibility of these firms in carrying out tax minimizing behavior without interference of minority owners.",
@@ -1800,13 +1988,21 @@
         "doi": "10.1007/s10797-008-9068-x",
         "journal": "journal-263",
         "keyphrases": {
+            "affiliates": {
+                "count": 1,
+                "rank_score": 0.07025059627189331
+            },
             "behavior": {
                 "count": 2,
                 "rank_score": 0.09043595033781018
             },
-            "data": {
-                "count": 2,
-                "rank_score": 0.08300629573706442
+            "empirical correlation": {
+                "count": 1,
+                "rank_score": 0.0463102997523246
+            },
+            "foreign investor": {
+                "count": 1,
+                "rank_score": 0.0472509743222179
             },
             "german": {
                 "count": 4,
@@ -1820,9 +2016,45 @@
                 "count": 1,
                 "rank_score": 0.10598526980633145
             },
+            "german subsidiary": {
+                "count": 1,
+                "rank_score": 0.05692983944050265
+            },
+            "home country tax rate": {
+                "count": 1,
+                "rank_score": 0.10143456756363228
+            },
+            "host country": {
+                "count": 1,
+                "rank_score": 0.0556298553797996
+            },
+            "interference": {
+                "count": 1,
+                "rank_score": 0.06868147154855331
+            },
+            "its german affiliate": {
+                "count": 1,
+                "rank_score": 0.06537040582136343
+            },
+            "larger flexibility": {
+                "count": 1,
+                "rank_score": 0.05145608849672327
+            },
+            "minority owners": {
+                "count": 1,
+                "rank_score": 0.07027307139202171
+            },
             "outbound fdi": {
                 "count": 1,
                 "rank_score": 0.0877844530402029
+            },
+            "outbound side": {
+                "count": 1,
+                "rank_score": 0.04709149402418798
+            },
+            "parent’s home country tax rate": {
+                "count": 1,
+                "rank_score": 0.0829672874068085
             },
             "profit": {
                 "count": 1,
@@ -1835,6 +2067,10 @@
             "profitable affiliates": {
                 "count": 1,
                 "rank_score": 0.07379614714048938
+            },
+            "stronger change": {
+                "count": 1,
+                "rank_score": 0.04172662565001178
             },
             "tax": {
                 "count": 1,
@@ -1851,14 +2087,6 @@
             "tax rate changes": {
                 "count": 1,
                 "rank_score": 0.13556651092233976
-            },
-            "the home country tax rate": {
-                "count": 1,
-                "rank_score": 0.10143456756363228
-            },
-            "the parent’s home country tax rate": {
-                "count": 1,
-                "rank_score": 0.0829672874068085
             }
         },
         "pdf": "http://www.ifs.org.uk/conferences/etpf_weichenreider.pdf",
@@ -1880,9 +2108,9 @@
         "doi": "10.1007/s10693-007-0017-0",
         "journal": "journal-258",
         "keyphrases": {
-            "983 german banks": {
+            "acharya": {
                 "count": 1,
-                "rank_score": 0.0673127697561423
+                "rank_score": 0.05915015431739633
             },
             "acharya et al": {
                 "count": 3,
@@ -1904,41 +2132,81 @@
                 "count": 1,
                 "rank_score": 0.07531635183092322
             },
+            "different industries": {
+                "count": 1,
+                "rank_score": 0.06373595031095491
+            },
             "diversification": {
                 "count": 5,
                 "rank_score": 0.09199880226045715
             },
-            "et al": {
+            "geographical regions": {
                 "count": 1,
-                "rank_score": 0.06663574738915183
+                "rank_score": 0.05607952151362373
             },
             "increased performance": {
                 "count": 1,
                 "rank_score": 0.06904190363125468
             },
+            "individual bank loan portfolios": {
+                "count": 1,
+                "rank_score": 0.08380713268193127
+            },
             "industrial diversification": {
                 "count": 1,
                 "rank_score": 0.09330474384057487
+            },
+            "italian": {
+                "count": 1,
+                "rank_score": 0.04474618054939567
             },
             "italian banks": {
                 "count": 1,
                 "rank_score": 0.11649630992821086
             },
+            "j bus": {
+                "count": 3,
+                "rank_score": 0.06414123199043409
+            },
             "large performance benefits": {
                 "count": 1,
                 "rank_score": 0.08257530340772862
+            },
+            "little evidence": {
+                "count": 1,
+                "rank_score": 0.06046098731149879
+            },
+            "minnesota": {
+                "count": 1,
+                "rank_score": 0.04937594340777514
+            },
+            "reductions": {
+                "count": 1,
+                "rank_score": 0.04305992412885197
             },
             "risk": {
                 "count": 3,
                 "rank_score": 0.0883278956704366
             },
-            "the individual bank loan portfolios": {
+            "risk variable": {
                 "count": 1,
-                "rank_score": 0.08380713268193127
+                "rank_score": 0.054849583282366804
+            },
+            "statistically significant positive relationships": {
+                "count": 1,
+                "rank_score": 0.043115176595113366
             },
             "their portfolio diversification": {
                 "count": 1,
                 "rank_score": 0.06541620299940805
+            },
+            "traditional portfolio and banking theory": {
+                "count": 1,
+                "rank_score": 0.06178362897080179
+            },
+            "working paper": {
+                "count": 2,
+                "rank_score": 0.06414123199043409
             }
         },
         "pdf": "https://www.econstor.eu/bitstream/10419/19752/1/200605dkp_b.pdf",
@@ -1957,17 +2225,21 @@
         "doi": "10.1016/j.jfi.2009.10.002",
         "journal": "journal-235",
         "keyphrases": {
-            "a target capital ratio compensate": {
-                "count": 1,
-                "rank_score": 0.08897634303862986
-            },
             "adjustment rates": {
                 "count": 1,
                 "rank_score": 0.0977306320203351
             },
+            "adjustment speed": {
+                "count": 1,
+                "rank_score": 0.06788660854787192
+            },
             "adjustments": {
                 "count": 1,
                 "rank_score": 0.09735072071636511
+            },
+            "asset side": {
+                "count": 1,
+                "rank_score": 0.0502494232828445
             },
             "bank capital": {
                 "count": 1,
@@ -1981,13 +2253,29 @@
                 "count": 1,
                 "rank_score": 0.10565684691158345
             },
+            "capital ratio": {
+                "count": 2,
+                "rank_score": 0.06984960608957647
+            },
+            "german": {
+                "count": 1,
+                "rank_score": 0.050894546289924125
+            },
             "high adjustment speeds": {
                 "count": 1,
                 "rank_score": 0.12628115242572716
             },
+            "high level": {
+                "count": 1,
+                "rank_score": 0.062165505480383965
+            },
             "individual adjustment speeds": {
                 "count": 1,
                 "rank_score": 0.11675172768207634
+            },
+            "large cross-sectional variation": {
+                "count": 1,
+                "rank_score": 0.08573291042825733
             },
             "large german banks": {
                 "count": 1,
@@ -2013,9 +2301,29 @@
                 "count": 1,
                 "rank_score": 0.10140438905302962
             },
+            "panel regressions": {
+                "count": 1,
+                "rank_score": 0.06445031025280129
+            },
             "private commercial banks": {
                 "count": 1,
                 "rank_score": 0.11874031732339752
+            },
+            "proprietary trading": {
+                "count": 1,
+                "rank_score": 0.06870401104806094
+            },
+            "regulatory minimum": {
+                "count": 1,
+                "rank_score": 0.05008671011519808
+            },
+            "target capital ratio compensate": {
+                "count": 1,
+                "rank_score": 0.08897634303862986
+            },
+            "target level": {
+                "count": 2,
+                "rank_score": 0.06515698845092804
             }
         },
         "title": "How do banks adjust their capital ratios? Evidence from Germany",
@@ -2033,13 +2341,9 @@
         "doi": "10.1080/00036840802360245",
         "journal": "journal-255",
         "keyphrases": {
-            "a monetary tightening": {
+            "bank capital channel theory": {
                 "count": 1,
-                "rank_score": 0.06651304537841374
-            },
-            "a quarterly regulatory dataset": {
-                "count": 1,
-                "rank_score": 0.053915789026671164
+                "rank_score": 0.11325344061594673
             },
             "banks": {
                 "count": 1,
@@ -2049,9 +2353,9 @@
                 "count": 1,
                 "rank_score": 0.11697370859101827
             },
-            "evidence": {
+            "dynamic panel regression results": {
                 "count": 1,
-                "rank_score": 0.08487251714880845
+                "rank_score": 0.0934173782519467
             },
             "favor": {
                 "count": 1,
@@ -2081,17 +2385,25 @@
                 "count": 1,
                 "rank_score": 0.11438677618965634
             },
-            "the bank capital channel theory": {
+            "monetary tightening": {
                 "count": 1,
-                "rank_score": 0.11325344061594673
+                "rank_score": 0.06651304537841374
             },
-            "the dynamic panel regression results": {
-                "count": 1,
-                "rank_score": 0.0934173782519467
+            "quarterly": {
+                "count": 2,
+                "rank_score": 0.0
             },
-            "the effects": {
+            "quarterly regulatory dataset": {
                 "count": 1,
-                "rank_score": 0.04515245302748866
+                "rank_score": 0.053915789026671164
+            },
+            "their peers": {
+                "count": 1,
+                "rank_score": 0.033894686232905785
+            },
+            "transmission": {
+                "count": 1,
+                "rank_score": 0.04409256551840239
             }
         },
         "pdf": "https://www.ssoar.info/ssoar/bitstream/document/24206/1/ssoar-appecon-2009-16-merkl_et_al-banks_regulatory_buffers.pdf",
@@ -2110,9 +2422,13 @@
         "doi": "10.2139/ssrn.1687615",
         "journal": "journal-003",
         "keyphrases": {
-            "a multi-factor asset value model": {
+            "analytic approximation formulae": {
                 "count": 1,
-                "rank_score": 0.06579798810170004
+                "rank_score": 0.06330454888144352
+            },
+            "analytic approximations": {
+                "count": 1,
+                "rank_score": 0.059798585085742116
             },
             "approximating economic capital": {
                 "count": 1,
@@ -2130,9 +2446,25 @@
                 "count": 5,
                 "rank_score": 0.11069296241642836
             },
+            "german": {
+                "count": 1,
+                "rank_score": 0.04819251800865602
+            },
+            "german central credit register": {
+                "count": 1,
+                "rank_score": 0.05367199574010721
+            },
+            "heterogeneity": {
+                "count": 1,
+                "rank_score": 0.05909293786461381
+            },
             "increasing sector concentration": {
                 "count": 1,
                 "rank_score": 0.09852315216874213
+            },
+            "indicative results": {
+                "count": 1,
+                "rank_score": 0.05775903357240049
             },
             "individual pds": {
                 "count": 1,
@@ -2146,9 +2478,17 @@
                 "count": 1,
                 "rank_score": 0.07437895796213267
             },
+            "monte carlo": {
+                "count": 1,
+                "rank_score": 0.05880772405914316
+            },
             "monte carlo simulations": {
                 "count": 1,
                 "rank_score": 0.06530983415717083
+            },
+            "multi-factor asset value model": {
+                "count": 1,
+                "rank_score": 0.06579798810170004
             },
             "pd heterogeneity": {
                 "count": 2,
@@ -2158,9 +2498,21 @@
                 "count": 3,
                 "rank_score": 0.08349554974968677
             },
+            "risk": {
+                "count": 2,
+                "rank_score": 0.059248105557176814
+            },
             "risk parameters": {
                 "count": 1,
                 "rank_score": 0.07467468753108367
+            },
+            "sector composition": {
+                "count": 1,
+                "rank_score": 0.048890062821937565
+            },
+            "sector level": {
+                "count": 2,
+                "rank_score": 0.04989490484119128
             },
             "typical credit portfolios": {
                 "count": 1,

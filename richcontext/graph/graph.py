@@ -333,6 +333,7 @@ class RCJournals:
 
 class RCPublications:
     def __init__ (self):
+        self.pub_count = 0
         self.title_hits = 0
         self.doi_hits = 0
         self.pdf_hits = 0
@@ -1106,6 +1107,10 @@ class RCGraph:
     PATH_MANUAL = Path("human/manual/partitions")
     PATH_PUBLICATIONS = Path("publications/partitions")
 
+    PATH_STOPWORDS = Path("stop.txt")
+    DET_SET = set([ "a", "an", "the", "these", "those", "this", "that" ])
+    MIN_TOPIC_LEN = 3
+
 
     def __init__ (self, step_name="generic"):
         self.step_name = step_name
@@ -1114,6 +1119,7 @@ class RCGraph:
         self.journals = RCJournals()
         self.publications = RCPublications()
         self.authors = RCAuthors()
+        self.stopwords = set([])
 
 
     @classmethod
@@ -1200,6 +1206,53 @@ class RCGraph:
             return all([result.scheme, result.netloc, result.path])
         except:
             return False
+
+
+    def load_stopwords (self):
+        """
+        load the stopwords to be removed from topic modeling
+        """
+        self.stopwords = set([])
+
+        with codecs.open(self.PATH_STOPWORDS, "r", encoding="utf8") as f:
+            for phrase in f.read().split("\n"):
+                text = phrase.lower().strip()
+
+                if len(text) > 0:
+                    self.stopwords.add(text)
+
+
+    def filter_topics (self, text):
+        """
+        determine whether the given text should be used as a topic
+        """
+        keep = True
+
+        text = text.lower()
+        text = text.replace('"', "").replace("\n", "").strip()
+        text = text.replace("ﬁ", "fi").replace("ﬂ", "fl").replace("ﬀ", "ff")
+
+        # remove determinants
+        terms = text.split(" ")
+        url = urlparse(text)
+
+        if len(terms) > 1 and terms[0] in self.DET_SET:
+            text = " ".join(terms[1:])
+
+        # apply rules
+        if len(text) < self.MIN_TOPIC_LEN:
+            keep = False
+
+        elif not text[0] in string.ascii_letters:
+            keep = False
+
+        elif url[0] != "":
+            keep = False
+
+        elif text in self.stopwords:
+            keep = False
+
+        return text, keep
 
 
     def report_error (self, message):

@@ -27,14 +27,15 @@
                     "name": "Health Services"
                 },
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
-                },
-                {
                     "id": "508",
                     "name": "Clinical Trials and Supportive Activities"
+                },
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -53,6 +54,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.15276.37",
                         "first_name": "Christa L",
+                        "initials": "",
                         "last_name": "Cook",
                         "orcid": "['0000-0002-2378-8043']",
                         "researcher_id": "ur.011623027215.95"
@@ -62,6 +64,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.265892.2",
                         "first_name": "Allyson G",
+                        "initials": "",
                         "last_name": "Hall",
                         "orcid": "",
                         "researcher_id": "ur.01246117160.33"
@@ -71,6 +74,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.15276.37",
                         "first_name": "Cynthia S",
+                        "initials": "",
                         "last_name": "Garvan",
                         "orcid": "",
                         "researcher_id": "ur.012316114233.18"
@@ -80,6 +84,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.10698.36",
                         "first_name": "Shawn M",
+                        "initials": "",
                         "last_name": "Kneipp",
                         "orcid": "['0000-0002-8907-0587']",
                         "researcher_id": "ur.01051564604.67"
@@ -103,6 +108,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.15276.37",
                     "first_name": "Christa L",
+                    "initials": "",
                     "last_name": "Cook",
                     "orcid": "['0000-0002-2378-8043']",
                     "researcher_id": "ur.011623027215.95"
@@ -112,6 +118,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.265892.2",
                     "first_name": "Allyson G",
+                    "initials": "",
                     "last_name": "Hall",
                     "orcid": "",
                     "researcher_id": "ur.01246117160.33"
@@ -121,6 +128,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.15276.37",
                     "first_name": "Cynthia S",
+                    "initials": "",
                     "last_name": "Garvan",
                     "orcid": "",
                     "researcher_id": "ur.012316114233.18"
@@ -130,6 +138,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.10698.36",
                     "first_name": "Shawn M",
+                    "initials": "",
                     "last_name": "Kneipp",
                     "orcid": "['0000-0002-8907-0587']",
                     "researcher_id": "ur.01051564604.67"
@@ -167,12 +176,12 @@
                     "name": "Health Services"
                 },
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
-                },
-                {
                     "id": "508",
                     "name": "Clinical Trials and Supportive Activities"
+                },
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
                 }
             ],
             "category_ua": [
@@ -218,15 +227,37 @@
                 "outcomes",
                 "vulnerable populations",
                 "population",
-                "Public Health Nursing Model",
-                "nursing model",
-                "Needy Families (TANF) benefits",
-                "benefits",
+                "family",
                 "primary care"
             ],
             "date": "2015-12-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1891/1521-0987.16.4.203",
+            "field_citation_ratio": 0.0,
+            "funder_countries": [
+                {
+                    "id": "US",
+                    "name": "United States"
+                }
+            ],
+            "funders": [
+                {
+                    "acronym": "NINR",
+                    "city_name": "Bethesda",
+                    "country_name": "United States",
+                    "id": "grid.280738.6",
+                    "latitude": 38.996788,
+                    "linkout": [
+                        "https://www.ninr.nih.gov/"
+                    ],
+                    "longitude": -77.09921,
+                    "name": "National Institute of Nursing Research",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
+                }
+            ],
             "id": "pub.1033196655",
             "issn": [
                 "1521-0987",
@@ -251,6 +282,29 @@
                 "Social Welfare",
                 "Women's Health"
             ],
+            "noun_phrases": [
+                "public health",
+                "assistance",
+                "benefit",
+                "Identify",
+                "usual source",
+                "care",
+                "Florida's",
+                "Temporary Assistance for Needy Families",
+                "high rate",
+                "chronic health problem",
+                "variable",
+                "study enrollment",
+                "case management intervention",
+                "secondary analysis",
+                "woman",
+                "chronic health condition",
+                "nursing intervention",
+                "CI",
+                "effective way",
+                "improved health outcome",
+                "vulnerable population"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -261,6 +315,8 @@
             "pages": "203-207",
             "pmid": "26673916",
             "publisher": "Springer Publishing Company",
+            "recent_citations": 0,
+            "relative_citation_ratio": 0.0,
             "research_org_cities": [
                 {
                     "id": 4156404,
@@ -275,6 +331,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "University of Florida"
             ],
             "research_org_state_codes": [
                 {
@@ -312,9 +371,9 @@
                         "0000-0002-2378-8043"
                     ],
                     "research_orgs": [
-                        "grid.21925.3d",
                         "grid.15276.37",
-                        "grid.170430.1"
+                        "grid.170430.1",
+                        "grid.21925.3d"
                     ]
                 },
                 {
@@ -322,13 +381,13 @@
                     "id": "ur.01246117160.33",
                     "last_name": "Hall",
                     "research_orgs": [
-                        "grid.15276.37",
-                        "grid.417048.e",
-                        "grid.265892.2",
                         "grid.217197.b",
                         "grid.14003.36",
                         "grid.413103.4",
-                        "grid.21107.35"
+                        "grid.417048.e",
+                        "grid.265892.2",
+                        "grid.21107.35",
+                        "grid.15276.37"
                     ]
                 },
                 {
@@ -347,13 +406,16 @@
                         "0000-0002-8907-0587"
                     ],
                     "research_orgs": [
-                        "grid.15276.37",
+                        "grid.34477.33",
+                        "grid.462984.5",
                         "grid.10698.36",
                         "grid.410711.2",
-                        "grid.34477.33",
-                        "grid.462984.5"
+                        "grid.15276.37"
                     ]
                 }
+            ],
+            "supporting_grant_ids": [
+                "grant.2553727"
             ],
             "terms": [
                 "women",
@@ -386,12 +448,10 @@
                 "outcomes",
                 "vulnerable populations",
                 "population",
-                "Public Health Nursing Model",
-                "nursing model",
-                "Needy Families (TANF) benefits",
-                "benefits",
+                "family",
                 "primary care"
             ],
+            "times_cited": 0,
             "title": "A Public Health Nursing Model Assists Women Receiving Temporary Assistance for Needy Families Benefits to Identify a Usual Source of Primary Care",
             "type": "article",
             "volume": "16",
@@ -950,17 +1010,9 @@
         },
         "doi": "10.1891/1521-0987.16.4.203",
         "keyphrases": {
-            "a public health nursing case management intervention": {
-                "count": 3,
-                "rank_score": 0.10757836917565407
-            },
-            "a usual source": {
-                "count": 6,
-                "rank_score": 0.06750607382794811
-            },
-            "care": {
-                "count": 6,
-                "rank_score": 0.08313795165465716
+            "aims": {
+                "count": 1,
+                "rank_score": 0.03146570698759324
             },
             "chronic health conditions": {
                 "count": 1,
@@ -969,6 +1021,10 @@
             "chronic health problems": {
                 "count": 1,
                 "rank_score": 0.11525655220128445
+            },
+            "effective way": {
+                "count": 1,
+                "rank_score": 0.043527283833041996
             },
             "florida": {
                 "count": 1,
@@ -990,21 +1046,45 @@
                 "count": 1,
                 "rank_score": 0.07155007487233014
             },
+            "obtainment": {
+                "count": 1,
+                "rank_score": 0.022110876932660083
+            },
+            "public health nursing case management intervention": {
+                "count": 3,
+                "rank_score": 0.10757836917565407
+            },
+            "public health nursing intervention": {
+                "count": 1,
+                "rank_score": 0.09587141989258799
+            },
+            "randomized controlled trial": {
+                "count": 1,
+                "rank_score": 0.050674320383088056
+            },
+            "secondary analysis": {
+                "count": 1,
+                "rank_score": 0.04523976958464008
+            },
             "study enrollment": {
                 "count": 2,
                 "rank_score": 0.07708919159764875
+            },
+            "tanf": {
+                "count": 1,
+                "rank_score": 0.05027133274908738
             },
             "tanf participants": {
                 "count": 1,
                 "rank_score": 0.06390202279647723
             },
-            "the public health nursing intervention": {
-                "count": 1,
-                "rank_score": 0.09587141989258799
+            "usual source": {
+                "count": 6,
+                "rank_score": 0.06750607382794811
             },
-            "time": {
-                "count": 2,
-                "rank_score": 0.05913642054382579
+            "vulnerable population": {
+                "count": 1,
+                "rank_score": 0.035151690190722173
             },
             "women": {
                 "count": 5,

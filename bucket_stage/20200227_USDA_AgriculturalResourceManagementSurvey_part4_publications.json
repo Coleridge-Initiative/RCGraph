@@ -13,6 +13,7 @@
                     "name": "05 Environmental Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -31,6 +32,7 @@
                         "corresponding": true,
                         "current_organization_id": "",
                         "first_name": "Erdal",
+                        "initials": "",
                         "last_name": "Kara",
                         "orcid": "",
                         "researcher_id": ""
@@ -51,6 +53,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.482913.5",
                         "first_name": "Marc",
+                        "initials": "",
                         "last_name": "Ribaudo",
                         "orcid": "",
                         "researcher_id": "ur.01015232101.31"
@@ -81,6 +84,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.482913.5",
                         "first_name": "Robert C.",
+                        "initials": "",
                         "last_name": "Johansson",
                         "orcid": "",
                         "researcher_id": "ur.015404547345.51"
@@ -104,6 +108,7 @@
                     "corresponding": true,
                     "current_organization_id": "",
                     "first_name": "Erdal",
+                    "initials": "",
                     "last_name": "Kara",
                     "orcid": "",
                     "researcher_id": ""
@@ -124,6 +129,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.482913.5",
                     "first_name": "Marc",
+                    "initials": "",
                     "last_name": "Ribaudo",
                     "orcid": "",
                     "researcher_id": "ur.01015232101.31"
@@ -154,6 +160,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.482913.5",
                     "first_name": "Robert C.",
+                    "initials": "",
                     "last_name": "Johansson",
                     "orcid": "",
                     "researcher_id": "ur.015404547345.51"
@@ -182,12 +189,12 @@
                 }
             ],
             "concepts": [
-                "federal environmental regulation",
+                "federal environmental regulations",
                 "environmental regulations",
                 "regulation",
                 "agricultural production",
                 "production",
-                "US",
+                "uses",
                 "environmental rules",
                 "management practices",
                 "practice",
@@ -209,9 +216,9 @@
                 "conservation practices",
                 "urban population",
                 "population",
-                "effects",
+                "effect",
                 "adoption decisions",
-                "decision",
+                "decisions",
                 "influence adoption",
                 "best management practices",
                 "agriculture"
@@ -219,7 +226,7 @@
             "date": "2008-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.jenvman.2007.07.029",
-            "field_citation_ratio": 1.48,
+            "field_citation_ratio": 1.45,
             "id": "pub.1020611825",
             "issn": [
                 "0301-4797",
@@ -231,9 +238,10 @@
                 "title": "Journal of Environmental Management"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
+                "ERA 2015",
                 "VABB-SHW",
+                "ERA 2018",
                 "PubMed"
             ],
             "mesh_terms": [
@@ -242,6 +250,24 @@
                 "Diffusion of Innovation",
                 "Likelihood Functions",
                 "United States"
+            ],
+            "noun_phrases": [
+                "stringency",
+                "adoption",
+                "management practice",
+                "agriculture",
+                "environmental regulation",
+                "agricultural production",
+                "US",
+                "state",
+                "farm",
+                "population center",
+                "agricultural producer",
+                "stringent environmental regulation",
+                "likelihood",
+                "conservation practice",
+                "constant",
+                "urban population"
             ],
             "open_access_categories": [
                 {
@@ -255,28 +281,28 @@
             "publisher": "Elsevier",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1061921990",
-                "pub.1029513166",
                 "pub.1010336631",
-                "pub.1022830208",
-                "pub.1061833430",
-                "pub.1051163862",
+                "pub.1029513166",
                 "pub.1061832886",
-                "pub.1023890802",
-                "pub.1110073295"
+                "pub.1022830208",
+                "pub.1051163862",
+                "pub.1061921990",
+                "pub.1110073295",
+                "pub.1061833430",
+                "pub.1023890802"
             ],
             "references": [
-                "pub.1061921990",
-                "pub.1029513166",
                 "pub.1010336631",
-                "pub.1022830208",
-                "pub.1061833430",
-                "pub.1051163862",
+                "pub.1029513166",
                 "pub.1061832886",
-                "pub.1023890802",
-                "pub.1110073295"
+                "pub.1022830208",
+                "pub.1051163862",
+                "pub.1061921990",
+                "pub.1110073295",
+                "pub.1061833430",
+                "pub.1023890802"
             ],
-            "relative_citation_ratio": 0.38,
+            "relative_citation_ratio": 0.34,
             "research_org_cities": [
                 {
                     "id": 4140963,
@@ -296,6 +322,10 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "University of Wyoming",
+                "Economic Research Service"
+            ],
             "research_org_state_codes": [
                 {
                     "id": "US-DC",
@@ -312,22 +342,6 @@
             ],
             "research_orgs": [
                 {
-                    "acronym": "ERS",
-                    "city_name": "Washington D.C.",
-                    "country_name": "United States",
-                    "id": "grid.482913.5",
-                    "latitude": 38.88383,
-                    "linkout": [
-                        "https://www.ers.usda.gov/"
-                    ],
-                    "longitude": -77.01658,
-                    "name": "Economic Research Service",
-                    "state_name": "District of Columbia",
-                    "types": [
-                        "Government"
-                    ]
-                },
-                {
                     "acronym": "UW",
                     "city_name": "Laramie",
                     "country_name": "United States",
@@ -341,6 +355,22 @@
                     "state_name": "Wyoming",
                     "types": [
                         "Education"
+                    ]
+                },
+                {
+                    "acronym": "ERS",
+                    "city_name": "Washington D.C.",
+                    "country_name": "United States",
+                    "id": "grid.482913.5",
+                    "latitude": 38.88383,
+                    "linkout": [
+                        "https://www.ers.usda.gov/"
+                    ],
+                    "longitude": -77.01658,
+                    "name": "Economic Research Service",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
                     ]
                 }
             ],
@@ -361,20 +391,20 @@
                     "id": "ur.015404547345.51",
                     "last_name": "Johansson",
                     "research_orgs": [
-                        "grid.135963.b",
-                        "grid.463419.d",
                         "grid.482913.5",
-                        "grid.417548.b"
+                        "grid.463419.d",
+                        "grid.417548.b",
+                        "grid.135963.b"
                     ]
                 }
             ],
             "terms": [
-                "federal environmental regulation",
+                "federal environmental regulations",
                 "environmental regulations",
                 "regulation",
                 "agricultural production",
                 "production",
-                "US",
+                "uses",
                 "environmental rules",
                 "management practices",
                 "practice",
@@ -396,9 +426,9 @@
                 "conservation practices",
                 "urban population",
                 "population",
-                "effects",
+                "effect",
                 "adoption decisions",
-                "decision",
+                "decisions",
                 "influence adoption",
                 "best management practices",
                 "agriculture"
@@ -1581,6 +1611,10 @@
                 "count": 1,
                 "rank_score": 0.09014840157959726
             },
+            "adoption decisions": {
+                "count": 1,
+                "rank_score": 0.055236128285864536
+            },
             "agricultural producers": {
                 "count": 1,
                 "rank_score": 0.09236563962496469
@@ -1605,9 +1639,21 @@
                 "count": 1,
                 "rank_score": 0.07584911269614376
             },
+            "likelihood": {
+                "count": 1,
+                "rank_score": 0.03503833750313323
+            },
+            "management practices": {
+                "count": 1,
+                "rank_score": 0.0601590738593801
+            },
             "many local and state environmental rules": {
                 "count": 1,
                 "rank_score": 0.09631153701244316
+            },
+            "relationships": {
+                "count": 1,
+                "rank_score": 0.03050098817068394
             },
             "relatively few federal environmental regulations": {
                 "count": 1,
@@ -1617,10 +1663,6 @@
                 "count": 1,
                 "rank_score": 0.14792626933543493
             },
-            "the management practices": {
-                "count": 1,
-                "rank_score": 0.0601590738593801
-            },
             "urban population centers": {
                 "count": 1,
                 "rank_score": 0.12305953488167572
@@ -1628,10 +1670,6 @@
             "urban populations": {
                 "count": 1,
                 "rank_score": 0.11600637615869383
-            },
-            "us": {
-                "count": 3,
-                "rank_score": 0.07751916078668858
             },
             "us farms": {
                 "count": 1,
@@ -1662,6 +1700,7 @@
                     "name": "14 Economics"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -1673,6 +1712,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.34477.33",
                         "first_name": "Joyce Smith",
+                        "initials": "",
                         "last_name": "Cooper",
                         "orcid": "",
                         "researcher_id": "ur.011150020501.63"
@@ -1686,6 +1726,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Michael",
+                        "initials": "",
                         "last_name": "Noon",
                         "orcid": "",
                         "researcher_id": "ur.011617375475.49"
@@ -1699,6 +1740,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.483014.a",
                         "first_name": "Ezra",
+                        "initials": "",
                         "last_name": "Kahn",
                         "orcid": "",
                         "researcher_id": "ur.012571207445.73"
@@ -1715,6 +1757,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.34477.33",
                     "first_name": "Joyce Smith",
+                    "initials": "",
                     "last_name": "Cooper",
                     "orcid": "",
                     "researcher_id": "ur.011150020501.63"
@@ -1728,6 +1771,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Michael",
+                    "initials": "",
                     "last_name": "Noon",
                     "orcid": "",
                     "researcher_id": "ur.011617375475.49"
@@ -1741,6 +1785,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.483014.a",
                     "first_name": "Ezra",
+                    "initials": "",
                     "last_name": "Kahn",
                     "orcid": "",
                     "researcher_id": "ur.012571207445.73"
@@ -1785,28 +1830,27 @@
                 "data",
                 "raw data",
                 "number",
-                "process dataset",
-                "dataset",
+                "unit process datasets",
+                "process datasets",
+                "datasets",
                 "database",
                 "paper",
                 "parameterization method",
                 "method",
-                "data systems",
+                "Data System",
                 "system",
-                "ecoinvent v3",
                 "US Department",
                 "digital commons",
                 "intent",
                 "advances",
                 "respect",
                 "uncertainty distribution",
+                "Smirnov transform",
                 "transform",
                 "sum",
                 "interest",
                 "categories of parameters",
-                "categories",
                 "parameters",
-                "process",
                 "raw data points",
                 "data points",
                 "point",
@@ -1819,10 +1863,9 @@
                 "way",
                 "transparency",
                 "usability",
-                "LCI data",
+                "transferability",
                 "use",
                 "computational methods",
-                "inventory data",
                 "representation of uncertainty",
                 "representation",
                 "uncertainty"
@@ -1830,7 +1873,7 @@
             "date": "2012-07-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/s11367-012-0411-1",
-            "field_citation_ratio": 3.37,
+            "field_citation_ratio": 3.39,
             "funder_countries": [
                 {
                     "id": "US",
@@ -1866,9 +1909,52 @@
                 "title": "The International Journal of Life Cycle Assessment"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 2",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "parameterization",
+                "life cycle assessment",
+                "review",
+                "current use",
+                "representation",
+                "practice",
+                "raw data",
+                "formula",
+                "unit process",
+                "database",
+                "paper",
+                "life-cycle",
+                "V3",
+                "US Department",
+                "intent",
+                "respect",
+                "Economics",
+                "emission rate",
+                "thermodynamic property",
+                "process efficiency",
+                "distribution",
+                "sampling",
+                "individual",
+                "market",
+                "sum",
+                "total value",
+                "category",
+                "parameter",
+                "data point",
+                "emission factor",
+                "additional parameter",
+                "presentation",
+                "uncertainty information",
+                "uncertainty",
+                "powerful way",
+                "transparency",
+                "usability",
+                "transferability",
+                "frequency",
+                "computational method"
             ],
             "open_access_categories": [
                 {
@@ -1881,42 +1967,42 @@
             "publisher": "Springer Nature",
             "recent_citations": 6,
             "reference_ids": [
-                "pub.1024083165",
-                "pub.1015202137",
-                "pub.1020000557",
-                "pub.1012265709",
-                "pub.1014566008",
-                "pub.1039965445",
-                "pub.1068976658",
                 "pub.1054922058",
-                "pub.1003394418",
+                "pub.1020000557",
                 "pub.1015027488",
-                "pub.1002224456",
-                "pub.1041389481",
                 "pub.1044861465",
+                "pub.1015202137",
+                "pub.1012265709",
+                "pub.1024083165",
+                "pub.1044269736",
+                "pub.1068976658",
                 "pub.1018410426",
                 "pub.1010577005",
+                "pub.1039965445",
+                "pub.1041389481",
+                "pub.1003394418",
                 "pub.1051401866",
-                "pub.1044269736"
+                "pub.1014566008",
+                "pub.1002224456"
             ],
             "references": [
-                "pub.1024083165",
-                "pub.1015202137",
-                "pub.1020000557",
-                "pub.1012265709",
-                "pub.1014566008",
-                "pub.1039965445",
-                "pub.1068976658",
                 "pub.1054922058",
-                "pub.1003394418",
+                "pub.1020000557",
                 "pub.1015027488",
-                "pub.1002224456",
-                "pub.1041389481",
                 "pub.1044861465",
+                "pub.1015202137",
+                "pub.1012265709",
+                "pub.1024083165",
+                "pub.1044269736",
+                "pub.1068976658",
                 "pub.1018410426",
                 "pub.1010577005",
+                "pub.1039965445",
+                "pub.1041389481",
+                "pub.1003394418",
                 "pub.1051401866",
-                "pub.1044269736"
+                "pub.1014566008",
+                "pub.1002224456"
             ],
             "research_org_cities": [
                 {
@@ -1930,21 +2016,39 @@
             ],
             "research_org_countries": [
                 {
-                    "id": "US",
-                    "name": "United States"
-                },
-                {
                     "id": "AU",
                     "name": "Australia"
+                },
+                {
+                    "id": "US",
+                    "name": "United States"
                 }
             ],
             "research_org_country_names": [
                 "Australia",
                 "United States"
             ],
+            "research_org_names": [
+                "Design for Environment Laboratory, University of Washington, Box 352700, 98195-2600, Seattle, WA, USA"
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-WA",
+                    "name": "Washington"
+                },
+                {
+                    "id": "AU-WA",
+                    "name": "Western Australia"
+                },
+                {
+                    "id": "US-MO",
+                    "name": "Missouri"
+                }
+            ],
             "research_org_state_names": [
                 "Washington",
-                "Western Australia"
+                "Western Australia",
+                "Missouri"
             ],
             "researchers": [
                 {
@@ -1952,8 +2056,8 @@
                     "id": "ur.011150020501.63",
                     "last_name": "Cooper",
                     "research_orgs": [
-                        "grid.33647.35",
-                        "grid.34477.33"
+                        "grid.34477.33",
+                        "grid.33647.35"
                     ]
                 },
                 {
@@ -1966,8 +2070,8 @@
                     "id": "ur.012571207445.73",
                     "last_name": "Kahn",
                     "research_orgs": [
-                        "grid.483014.a",
-                        "grid.463419.d"
+                        "grid.463419.d",
+                        "grid.483014.a"
                     ]
                 }
             ],
@@ -1976,28 +2080,27 @@
                 "data",
                 "raw data",
                 "number",
-                "process dataset",
-                "dataset",
+                "unit process datasets",
+                "process datasets",
+                "datasets",
                 "database",
                 "paper",
                 "parameterization method",
                 "method",
-                "data systems",
+                "Data System",
                 "system",
-                "ecoinvent v3",
                 "US Department",
                 "digital commons",
                 "intent",
                 "advances",
                 "respect",
                 "uncertainty distribution",
+                "Smirnov transform",
                 "transform",
                 "sum",
                 "interest",
                 "categories of parameters",
-                "categories",
                 "parameters",
-                "process",
                 "raw data points",
                 "data points",
                 "point",
@@ -2010,10 +2113,9 @@
                 "way",
                 "transparency",
                 "usability",
-                "LCI data",
+                "transferability",
                 "use",
                 "computational methods",
-                "inventory data",
                 "representation of uncertainty",
                 "representation",
                 "uncertainty"
@@ -3282,25 +3384,65 @@
         },
         "doi": "10.1007/s11367-012-0411-1",
         "keyphrases": {
+            "agricultures digital commons": {
+                "count": 1,
+                "rank_score": 0.049886783763144774
+            },
             "computational methods": {
                 "count": 1,
                 "rank_score": 0.06606323242618885
+            },
+            "computed numbers": {
+                "count": 1,
+                "rank_score": 0.049512302322327215
             },
             "consumption parameters": {
                 "count": 1,
                 "rank_score": 0.08438912616771697
             },
-            "data": {
+            "continued methodological and coding advances": {
                 "count": 1,
-                "rank_score": 0.0933857474054631
+                "rank_score": 0.051374805226127016
+            },
+            "elcd": {
+                "count": 1,
+                "rank_score": 0.05345633144066087
+            },
+            "emission factors": {
+                "count": 1,
+                "rank_score": 0.06199305080022098
+            },
+            "engineering relationships": {
+                "count": 1,
+                "rank_score": 0.053779274902807386
+            },
+            "european reference life cycle data system": {
+                "count": 2,
+                "rank_score": 0.06634128865789815
+            },
+            "five additional parameter categories": {
+                "count": 1,
+                "rank_score": 0.06090889313062922
+            },
+            "formulas": {
+                "count": 5,
+                "rank_score": 0.06279552602360429
             },
             "lci data": {
                 "count": 1,
                 "rank_score": 0.09130198552476582
             },
+            "life cycle assessment (lca) data": {
+                "count": 1,
+                "rank_score": 0.058924041295551975
+            },
             "methodsparameterized data": {
                 "count": 1,
                 "rank_score": 0.09102129301085521
+            },
+            "paper reviews parameterization methods": {
+                "count": 1,
+                "rank_score": 0.054880098156514845
             },
             "parameters": {
                 "count": 4,
@@ -3326,9 +3468,9 @@
                 "count": 1,
                 "rank_score": 0.06752793670817417
             },
-            "the european reference life cycle data system": {
-                "count": 2,
-                "rank_score": 0.06634128865789815
+            "uncertain individual fractions": {
+                "count": 1,
+                "rank_score": 0.06596454533934644
             },
             "uncertainty information": {
                 "count": 1,
@@ -3387,6 +3529,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.214572.7",
                         "first_name": "Silvia",
+                        "initials": "",
                         "last_name": "Secchi",
                         "orcid": "['0000-0003-0095-0789']",
                         "researcher_id": "ur.01106203446.65"
@@ -3407,6 +3550,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.34421.30",
                         "first_name": "Philip W.",
+                        "initials": "",
                         "last_name": "Gassman",
                         "orcid": "['0000-0001-9926-6500']",
                         "researcher_id": "ur.0771533554.04"
@@ -3427,6 +3571,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.261037.1",
                         "first_name": "Manoj",
+                        "initials": "",
                         "last_name": "Jha",
                         "orcid": "",
                         "researcher_id": "ur.01371002367.82"
@@ -3447,6 +3592,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.261037.1",
                         "first_name": "Lyubov",
+                        "initials": "",
                         "last_name": "Kurkalova",
                         "orcid": "",
                         "researcher_id": "ur.012127014702.29"
@@ -3462,11 +3608,22 @@
                                 "name": "Iowa State University",
                                 "state": "Iowa",
                                 "state_code": "US-IA"
+                            },
+                            {
+                                "city": "Ames",
+                                "city_id": 4846834,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.34421.30",
+                                "name": "Iowa State University",
+                                "state": "Iowa",
+                                "state_code": "US-IA"
                             }
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.34421.30",
                         "first_name": "Catherine L.",
+                        "initials": "",
                         "last_name": "Kling",
                         "orcid": "['0000-0002-4785-7154']",
                         "researcher_id": "ur.01216004310.18"
@@ -3490,6 +3647,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.214572.7",
                     "first_name": "Silvia",
+                    "initials": "",
                     "last_name": "Secchi",
                     "orcid": "['0000-0003-0095-0789']",
                     "researcher_id": "ur.01106203446.65"
@@ -3510,6 +3668,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.34421.30",
                     "first_name": "Philip W.",
+                    "initials": "",
                     "last_name": "Gassman",
                     "orcid": "['0000-0001-9926-6500']",
                     "researcher_id": "ur.0771533554.04"
@@ -3530,6 +3689,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.261037.1",
                     "first_name": "Manoj",
+                    "initials": "",
                     "last_name": "Jha",
                     "orcid": "",
                     "researcher_id": "ur.01371002367.82"
@@ -3550,6 +3710,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.261037.1",
                     "first_name": "Lyubov",
+                    "initials": "",
                     "last_name": "Kurkalova",
                     "orcid": "",
                     "researcher_id": "ur.012127014702.29"
@@ -3565,11 +3726,22 @@
                             "name": "Iowa State University",
                             "state": "Iowa",
                             "state_code": "US-IA"
+                        },
+                        {
+                            "city": "Ames",
+                            "city_id": 4846834,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.34421.30",
+                            "name": "Iowa State University",
+                            "state": "Iowa",
+                            "state_code": "US-IA"
                         }
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.34421.30",
                     "first_name": "Catherine L.",
+                    "initials": "",
                     "last_name": "Kling",
                     "orcid": "['0000-0002-4785-7154']",
                     "researcher_id": "ur.01216004310.18"
@@ -3589,6 +3761,7 @@
                     "name": "07 Agricultural and Veterinary Sciences"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30007",
@@ -3603,17 +3776,17 @@
             ],
             "concepts": [
                 "biofuels",
+                "fuel benefits",
                 "benefits",
                 "downside",
                 "terms",
                 "water quality",
                 "quality",
-                "environmental stressors",
                 "corn",
-                "feedstock",
                 "consequences",
                 "corn production",
                 "production",
+                "additional corn",
                 "turn",
                 "characteristics of land",
                 "characteristics",
@@ -3621,24 +3794,18 @@
                 "profitability",
                 "rule of thumb",
                 "rules",
+                "thumb",
                 "acreage",
                 "historical land use",
                 "land use",
-                "use",
-                "understanding",
+                "heuristics",
+                "phenomenon",
                 "modeling system",
-                "system",
-                "economics",
                 "land use model",
                 "use model",
                 "model",
-                "watershed",
-                "water quality model",
-                "quality model",
                 "Upper Mississippi River Basin",
-                "Mississippi River Basin",
                 "River Basin",
-                "basin",
                 "water quality changes",
                 "quality changes",
                 "changes",
@@ -3646,9 +3813,8 @@
                 "corn prices",
                 "prices",
                 "scenarios",
+                "realistic pairs",
                 "soybean prices",
-                "scale",
-                "soybean",
                 "corn price ratio",
                 "price ratio",
                 "land use change",
@@ -3656,38 +3822,34 @@
                 "estimates",
                 "water quality effects",
                 "quality effects",
-                "effects",
+                "effect",
                 "current biofuel policies",
                 "biofuel policies",
                 "policy",
                 "analysis",
                 "cost",
                 "environmental consequences",
+                "implementation strategies",
                 "strategies",
                 "biofuel mandates",
                 "mandate",
+                "energy bills",
                 "bill",
-                "amount",
-                "total N",
                 "outlet",
-                "rise",
                 "region",
                 "results",
                 "intensification",
                 "profitable locations",
-                "location",
                 "increase",
-                "nitrogen load",
                 "total phosphorus loads",
-                "phosphorus load",
                 "Grafton",
                 "aggressive scenario",
                 "crop prices",
                 "conservative increase",
-                "nutrients",
                 "previous studies",
                 "focus",
                 "cropland",
+                "potential water quality changes",
                 "expansion"
             ],
             "date": "2011-06-01",
@@ -3700,6 +3862,22 @@
                 }
             ],
             "funders": [
+                {
+                    "acronym": "NSF ENG",
+                    "city_name": "Arlington",
+                    "country_name": "United States",
+                    "id": "grid.457810.f",
+                    "latitude": 38.88058,
+                    "linkout": [
+                        "http://www.nsf.gov/dir/index.jsp?org=ENG"
+                    ],
+                    "longitude": -77.111,
+                    "name": "Directorate for Engineering",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Government"
+                    ]
+                },
                 {
                     "acronym": "USDA",
                     "city_name": "Washington D.C.",
@@ -3731,22 +3909,6 @@
                     "types": [
                         "Government"
                     ]
-                },
-                {
-                    "acronym": "NSF ENG",
-                    "city_name": "Arlington",
-                    "country_name": "United States",
-                    "id": "grid.457810.f",
-                    "latitude": 38.88058,
-                    "linkout": [
-                        "http://www.nsf.gov/dir/index.jsp?org=ENG"
-                    ],
-                    "longitude": -77.111,
-                    "name": "Directorate for Engineering",
-                    "state_name": "Virginia",
-                    "types": [
-                        "Government"
-                    ]
                 }
             ],
             "id": "pub.1046206525",
@@ -3760,11 +3922,12 @@
                 "title": "Ecological Applications"
             },
             "journal_lists": [
-                "ERA 2015",
+                "ERA 2018",
                 "Norwegian register level 1",
+                "ERA 2015",
                 "PubMed"
             ],
-            "linkout": "https://opensiuc.lib.siu.edu/cgi/viewcontent.cgi?article=1002&context=agecon_articles",
+            "linkout": "http://pdfs.semanticscholar.org/3b36/4671f24577a72576a0b084ac6c183a5e4dc7.pdf",
             "mesh_terms": [
                 "Agriculture",
                 "Biofuels",
@@ -3775,6 +3938,51 @@
                 "United States",
                 "Water Supply",
                 "Zea mays"
+            ],
+            "noun_phrases": [
+                "water quality",
+                "expansion",
+                "upper Mississippi River",
+                "biofuels",
+                "benefit",
+                "downside",
+                "environmental stressor",
+                "Zea May",
+                "feedstock",
+                "consequence",
+                "characteristic",
+                "profitability",
+                "previous work",
+                "rule",
+                "thumb",
+                "allocating",
+                "land use",
+                "heuristic",
+                "phenomenon",
+                "modeling system",
+                "use model",
+                "relative",
+                "pair",
+                "soybean",
+                "scale",
+                "ratio",
+                "land use change",
+                "current",
+                "environmental consequence",
+                "implementation strategy",
+                "energy bill",
+                "outlet",
+                "Illinois",
+                "USA",
+                "rise",
+                "intensification",
+                "location",
+                "total nitrogen",
+                "phosphorus",
+                "crop",
+                "nutrient",
+                "previous study",
+                "cropland"
             ],
             "open_access": [
                 "Open Access - all",
@@ -3798,126 +4006,126 @@
             "publisher": "Wiley",
             "recent_citations": 12,
             "reference_ids": [
-                "pub.1040483687",
-                "pub.1011971030",
-                "pub.1018211100",
-                "pub.1055500885",
-                "pub.1055498896",
-                "pub.1027785352",
-                "pub.1074433581",
-                "pub.1062599128",
-                "pub.1064892748",
-                "pub.1023567298",
-                "pub.1069009785",
-                "pub.1058921490",
-                "pub.1004950971",
-                "pub.1071174232",
-                "pub.1025033588",
-                "pub.1009668479",
-                "pub.1006726069",
-                "pub.1064892822",
-                "pub.1052177532",
-                "pub.1057606085",
-                "pub.1044507583",
-                "pub.1069008086",
-                "pub.1042261055",
-                "pub.1064892499",
+                "pub.1064890836",
+                "pub.1068992829",
+                "pub.1062458495",
                 "pub.1055500376",
-                "pub.1000540240",
-                "pub.1002022973",
-                "pub.1010740384",
-                "pub.1027125827",
-                "pub.1031664563",
+                "pub.1064892822",
+                "pub.1025033588",
+                "pub.1018211100",
+                "pub.1058921490",
+                "pub.1061923139",
+                "pub.1064892748",
                 "pub.1055499567",
-                "pub.1016305190",
+                "pub.1027125827",
+                "pub.1069008086",
+                "pub.1000619601",
+                "pub.1004950971",
+                "pub.1069008189",
+                "pub.1069009785",
+                "pub.1042261055",
+                "pub.1071174232",
+                "pub.1011971030",
+                "pub.1002022973",
+                "pub.1009668479",
+                "pub.1069009360",
                 "pub.1051210876",
-                "pub.1006143608",
-                "pub.1068994246",
-                "pub.1023410354",
-                "pub.1070853999",
-                "pub.1063452418",
-                "pub.1012882666",
+                "pub.1055500885",
                 "pub.1068995082",
-                "pub.1064892948",
-                "pub.1041626897",
+                "pub.1024697440",
+                "pub.1044507583",
+                "pub.1002877739",
+                "pub.1062599128",
+                "pub.1031166782",
+                "pub.1012882666",
+                "pub.1000540240",
                 "pub.1064892888",
                 "pub.1068995038",
-                "pub.1069008189",
-                "pub.1069009360",
-                "pub.1068992829",
-                "pub.1024697440",
-                "pub.1064890836",
-                "pub.1031166782",
-                "pub.1061923139",
-                "pub.1050341930",
                 "pub.1013942597",
-                "pub.1062458495",
+                "pub.1006726069",
+                "pub.1055498896",
+                "pub.1010740384",
+                "pub.1041626897",
+                "pub.1052177532",
+                "pub.1040483687",
+                "pub.1023567298",
+                "pub.1064892948",
+                "pub.1068994246",
+                "pub.1023410354",
+                "pub.1031664563",
+                "pub.1070853999",
+                "pub.1027785352",
+                "pub.1063452418",
+                "pub.1074433581",
+                "pub.1050341930",
+                "pub.1016305190",
+                "pub.1006143608",
+                "pub.1057606085",
+                "pub.1064892499",
                 "pub.1062461157",
-                "pub.1093857115",
-                "pub.1000619601",
-                "pub.1002877739"
+                "pub.1093857115"
             ],
             "references": [
-                "pub.1040483687",
-                "pub.1011971030",
-                "pub.1018211100",
-                "pub.1055500885",
-                "pub.1055498896",
-                "pub.1027785352",
-                "pub.1074433581",
-                "pub.1062599128",
-                "pub.1064892748",
-                "pub.1023567298",
-                "pub.1069009785",
-                "pub.1058921490",
-                "pub.1004950971",
-                "pub.1071174232",
-                "pub.1025033588",
-                "pub.1009668479",
-                "pub.1006726069",
-                "pub.1064892822",
-                "pub.1052177532",
-                "pub.1057606085",
-                "pub.1044507583",
-                "pub.1069008086",
-                "pub.1042261055",
-                "pub.1064892499",
+                "pub.1064890836",
+                "pub.1068992829",
+                "pub.1062458495",
                 "pub.1055500376",
-                "pub.1000540240",
-                "pub.1002022973",
-                "pub.1010740384",
-                "pub.1027125827",
-                "pub.1031664563",
+                "pub.1064892822",
+                "pub.1025033588",
+                "pub.1018211100",
+                "pub.1058921490",
+                "pub.1061923139",
+                "pub.1064892748",
                 "pub.1055499567",
-                "pub.1016305190",
+                "pub.1027125827",
+                "pub.1069008086",
+                "pub.1000619601",
+                "pub.1004950971",
+                "pub.1069008189",
+                "pub.1069009785",
+                "pub.1042261055",
+                "pub.1071174232",
+                "pub.1011971030",
+                "pub.1002022973",
+                "pub.1009668479",
+                "pub.1069009360",
                 "pub.1051210876",
-                "pub.1006143608",
-                "pub.1068994246",
-                "pub.1023410354",
-                "pub.1070853999",
-                "pub.1063452418",
-                "pub.1012882666",
+                "pub.1055500885",
                 "pub.1068995082",
-                "pub.1064892948",
-                "pub.1041626897",
+                "pub.1024697440",
+                "pub.1044507583",
+                "pub.1002877739",
+                "pub.1062599128",
+                "pub.1031166782",
+                "pub.1012882666",
+                "pub.1000540240",
                 "pub.1064892888",
                 "pub.1068995038",
-                "pub.1069008189",
-                "pub.1069009360",
-                "pub.1068992829",
-                "pub.1024697440",
-                "pub.1064890836",
-                "pub.1031166782",
-                "pub.1061923139",
-                "pub.1050341930",
                 "pub.1013942597",
-                "pub.1062458495",
+                "pub.1006726069",
+                "pub.1055498896",
+                "pub.1010740384",
+                "pub.1041626897",
+                "pub.1052177532",
+                "pub.1040483687",
+                "pub.1023567298",
+                "pub.1064892948",
+                "pub.1068994246",
+                "pub.1023410354",
+                "pub.1031664563",
+                "pub.1070853999",
+                "pub.1027785352",
+                "pub.1063452418",
+                "pub.1074433581",
+                "pub.1050341930",
+                "pub.1016305190",
+                "pub.1006143608",
+                "pub.1057606085",
+                "pub.1064892499",
                 "pub.1062461157",
-                "pub.1093857115",
-                "pub.1000619601",
-                "pub.1002877739"
+                "pub.1093857115"
             ],
-            "relative_citation_ratio": 0.64,
+            "relative_citation_ratio": 0.68,
             "research_org_cities": [
                 {
                     "id": 4235193,
@@ -3941,11 +4149,12 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Iowa State University",
+                "Southern Illinois University System",
+                "North Carolina Agricultural and Technical State University"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-NC",
-                    "name": "North Carolina"
-                },
                 {
                     "id": "US-IL",
                     "name": "Illinois"
@@ -3953,6 +4162,10 @@
                 {
                     "id": "US-IA",
                     "name": "Iowa"
+                },
+                {
+                    "id": "US-NC",
+                    "name": "North Carolina"
                 }
             ],
             "research_org_state_names": [
@@ -3961,21 +4174,6 @@
                 "Illinois"
             ],
             "research_orgs": [
-                {
-                    "city_name": "Greensboro",
-                    "country_name": "United States",
-                    "id": "grid.261037.1",
-                    "latitude": 36.077106,
-                    "linkout": [
-                        "http://www.ncat.edu/"
-                    ],
-                    "longitude": -79.76849,
-                    "name": "North Carolina Agricultural and Technical State University",
-                    "state_name": "North Carolina",
-                    "types": [
-                        "Education"
-                    ]
-                },
                 {
                     "city_name": "Carbondale",
                     "country_name": "United States",
@@ -3987,6 +4185,21 @@
                     "longitude": -89.211655,
                     "name": "Southern Illinois University System",
                     "state_name": "Illinois",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
+                    "city_name": "Greensboro",
+                    "country_name": "United States",
+                    "id": "grid.261037.1",
+                    "latitude": 36.077106,
+                    "linkout": [
+                        "http://www.ncat.edu/"
+                    ],
+                    "longitude": -79.76849,
+                    "name": "North Carolina Agricultural and Technical State University",
+                    "state_name": "North Carolina",
                     "types": [
                         "Education"
                     ]
@@ -4017,11 +4230,11 @@
                         "0000-0003-0095-0789"
                     ],
                     "research_orgs": [
-                        "grid.411026.0",
+                        "grid.34421.30",
                         "grid.263856.c",
-                        "grid.261037.1",
                         "grid.214572.7",
-                        "grid.34421.30"
+                        "grid.411026.0",
+                        "grid.261037.1"
                     ]
                 },
                 {
@@ -4040,8 +4253,8 @@
                     "id": "ur.01371002367.82",
                     "last_name": "Jha",
                     "research_orgs": [
-                        "grid.261037.1",
-                        "grid.34421.30"
+                        "grid.34421.30",
+                        "grid.261037.1"
                     ]
                 },
                 {
@@ -4049,13 +4262,13 @@
                     "id": "ur.012127014702.29",
                     "last_name": "Kurkalova",
                     "research_orgs": [
-                        "grid.261037.1",
                         "grid.280418.7",
-                        "grid.34421.30",
-                        "grid.463419.d",
                         "grid.411026.0",
                         "grid.263856.c",
-                        "grid.40803.3f"
+                        "grid.463419.d",
+                        "grid.34421.30",
+                        "grid.40803.3f",
+                        "grid.261037.1"
                     ]
                 },
                 {
@@ -4068,9 +4281,9 @@
                     "research_orgs": [
                         "grid.27860.3b",
                         "grid.34421.30",
+                        "grid.5386.8",
                         "grid.218364.a",
-                        "grid.411461.7",
-                        "grid.5386.8"
+                        "grid.411461.7"
                     ]
                 }
             ],
@@ -4079,17 +4292,17 @@
             ],
             "terms": [
                 "biofuels",
+                "fuel benefits",
                 "benefits",
                 "downside",
                 "terms",
                 "water quality",
                 "quality",
-                "environmental stressors",
                 "corn",
-                "feedstock",
                 "consequences",
                 "corn production",
                 "production",
+                "additional corn",
                 "turn",
                 "characteristics of land",
                 "characteristics",
@@ -4097,24 +4310,18 @@
                 "profitability",
                 "rule of thumb",
                 "rules",
+                "thumb",
                 "acreage",
                 "historical land use",
                 "land use",
-                "use",
-                "understanding",
+                "heuristics",
+                "phenomenon",
                 "modeling system",
-                "system",
-                "economics",
                 "land use model",
                 "use model",
                 "model",
-                "watershed",
-                "water quality model",
-                "quality model",
                 "Upper Mississippi River Basin",
-                "Mississippi River Basin",
                 "River Basin",
-                "basin",
                 "water quality changes",
                 "quality changes",
                 "changes",
@@ -4122,9 +4329,8 @@
                 "corn prices",
                 "prices",
                 "scenarios",
+                "realistic pairs",
                 "soybean prices",
-                "scale",
-                "soybean",
                 "corn price ratio",
                 "price ratio",
                 "land use change",
@@ -4132,38 +4338,34 @@
                 "estimates",
                 "water quality effects",
                 "quality effects",
-                "effects",
+                "effect",
                 "current biofuel policies",
                 "biofuel policies",
                 "policy",
                 "analysis",
                 "cost",
                 "environmental consequences",
+                "implementation strategies",
                 "strategies",
                 "biofuel mandates",
                 "mandate",
+                "energy bills",
                 "bill",
-                "amount",
-                "total N",
                 "outlet",
-                "rise",
                 "region",
                 "results",
                 "intensification",
                 "profitable locations",
-                "location",
                 "increase",
-                "nitrogen load",
                 "total phosphorus loads",
-                "phosphorus load",
                 "Grafton",
                 "aggressive scenario",
                 "crop prices",
                 "conservative increase",
-                "nutrients",
                 "previous studies",
                 "focus",
                 "cropland",
+                "potential water quality changes",
                 "expansion"
             ],
             "times_cited": 61,
@@ -7424,6 +7626,14 @@
         },
         "doi": "10.1890/09-0619.1",
         "keyphrases": {
+            "additional corn": {
+                "count": 1,
+                "rank_score": 0.05651102045633617
+            },
+            "biofuels": {
+                "count": 1,
+                "rank_score": 0.057168618536998284
+            },
             "corn": {
                 "count": 1,
                 "rank_score": 0.09965234768478626
@@ -7447,6 +7657,14 @@
             "corn production": {
                 "count": 1,
                 "rank_score": 0.10401545543009522
+            },
+            "current biofuel policies": {
+                "count": 1,
+                "rank_score": 0.06681784819085734
+            },
+            "environmental consequences": {
+                "count": 1,
+                "rank_score": 0.059360527957572164
             },
             "higher relative corn prices": {
                 "count": 1,
@@ -7472,17 +7690,41 @@
                 "count": 2,
                 "rank_score": 0.07628922934505813
             },
+            "other environmental stressors": {
+                "count": 1,
+                "rank_score": 0.061184520529606594
+            },
+            "price-driven land use changes": {
+                "count": 1,
+                "rank_score": 0.05813451514505685
+            },
             "reach crop prices": {
                 "count": 1,
                 "rank_score": 0.07117690820633708
+            },
+            "renewable fuel benefits": {
+                "count": 1,
+                "rank_score": 0.06109908533499188
             },
             "total n": {
                 "count": 1,
                 "rank_score": 0.0707199759914426
             },
+            "total nitrogen loads": {
+                "count": 1,
+                "rank_score": 0.06841845036553786
+            },
+            "total phosphorus loads": {
+                "count": 1,
+                "rank_score": 0.07044131625935866
+            },
             "water quality": {
                 "count": 1,
                 "rank_score": 0.0805417240213094
+            },
+            "water quality changes": {
+                "count": 1,
+                "rank_score": 0.05422918124648869
             }
         },
         "original": {
@@ -7522,6 +7764,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Nigel",
+                        "initials": "",
                         "last_name": "Key",
                         "orcid": "",
                         "researcher_id": ""
@@ -7535,6 +7778,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "William",
+                        "initials": "",
                         "last_name": "McBride",
                         "orcid": "",
                         "researcher_id": ""
@@ -7551,6 +7795,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Nigel",
+                    "initials": "",
                     "last_name": "Key",
                     "orcid": "",
                     "researcher_id": ""
@@ -7564,6 +7809,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "William",
+                    "initials": "",
                     "last_name": "McBride",
                     "orcid": "",
                     "researcher_id": ""
@@ -7579,6 +7825,7 @@
                     "name": "14 Economics"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30017",
@@ -7593,6 +7840,7 @@
             ],
             "concepts": [
                 "article",
+                "impact of contracting",
                 "impact",
                 "contracting",
                 "total factor productivity",
@@ -7608,9 +7856,9 @@
                 "unobservable variables",
                 "variables",
                 "operator decisions",
-                "decision",
+                "decisions",
+                "farm productivity",
                 "results",
-                "use",
                 "production contracts",
                 "contracts",
                 "substantial increase",
@@ -7619,16 +7867,15 @@
                 "improvement",
                 "production",
                 "determinants",
-                "farmers' decisions",
+                "farmers’ decisions",
                 "factors",
-                "farm productivity",
                 "hog sector",
                 "sector"
             ],
             "date": "2003-02-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1111/1467-8276.00107",
-            "field_citation_ratio": 15.97,
+            "field_citation_ratio": 16.3,
             "id": "pub.1061833632",
             "issn": [
                 "0002-9092",
@@ -7640,9 +7887,28 @@
                 "title": "American Journal of Agricultural Economics"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "contract",
+                "U.S",
+                "sector",
+                "article",
+                "contracting",
+                "total factor productivity",
+                "production technology",
+                "operation",
+                "sample selection",
+                "variable",
+                "operator",
+                "farm",
+                "substantial increase",
+                "technological improvement",
+                "determinant",
+                "farmer"
             ],
             "open_access_categories": [
                 {
@@ -7653,30 +7919,30 @@
             ],
             "pages": "121-133",
             "publisher": "Wiley",
-            "recent_citations": 9,
+            "recent_citations": 10,
             "reference_ids": [
+                "pub.1041654860",
                 "pub.1027130035",
-                "pub.1069441246",
-                "pub.1017260474",
+                "pub.1028285228",
                 "pub.1069410881",
                 "pub.1102211186",
                 "pub.1069441189",
                 "pub.1069410429",
-                "pub.1028285228",
-                "pub.1041654860",
-                "pub.1083621144"
+                "pub.1017260474",
+                "pub.1083621144",
+                "pub.1069441246"
             ],
             "references": [
+                "pub.1041654860",
                 "pub.1027130035",
-                "pub.1069441246",
-                "pub.1017260474",
+                "pub.1028285228",
                 "pub.1069410881",
                 "pub.1102211186",
                 "pub.1069441189",
                 "pub.1069410429",
-                "pub.1028285228",
-                "pub.1041654860",
-                "pub.1083621144"
+                "pub.1017260474",
+                "pub.1083621144",
+                "pub.1069441246"
             ],
             "research_org_cities": [
                 {
@@ -7693,8 +7959,21 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Economic Research Service, USDA"
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-DC",
+                    "name": "District of Columbia"
+                }
+            ],
+            "research_org_state_names": [
+                "Washington, D.C."
+            ],
             "terms": [
                 "article",
+                "impact of contracting",
                 "impact",
                 "contracting",
                 "total factor productivity",
@@ -7710,9 +7989,9 @@
                 "unobservable variables",
                 "variables",
                 "operator decisions",
-                "decision",
+                "decisions",
+                "farm productivity",
                 "results",
-                "use",
                 "production contracts",
                 "contracts",
                 "substantial increase",
@@ -7721,13 +8000,12 @@
                 "improvement",
                 "production",
                 "determinants",
-                "farmers' decisions",
+                "farmers’ decisions",
                 "factors",
-                "farm productivity",
                 "hog sector",
                 "sector"
             ],
-            "times_cited": 54,
+            "times_cited": 55,
             "title": "Production Contracts and Productivity in the U.S. Hog Sector",
             "type": "article",
             "volume": "85",
@@ -10272,13 +10550,21 @@
         },
         "doi": "10.1111/1467-8276.00107",
         "keyphrases": {
-            "a sample selection model": {
+            "both the operators decision": {
                 "count": 1,
-                "rank_score": 0.0641631714588277
+                "rank_score": 0.02804858352129084
             },
             "contract": {
                 "count": 1,
                 "rank_score": 0.0980879252575414
+            },
+            "contracting": {
+                "count": 1,
+                "rank_score": 0.05941090379912378
+            },
+            "copyright 2003, oxford university press": {
+                "count": 1,
+                "rank_score": 0.05797213274999454
             },
             "determinants": {
                 "count": 1,
@@ -10292,13 +10578,17 @@
                 "count": 1,
                 "rank_score": 0.11876247423798614
             },
+            "farmers decisions": {
+                "count": 1,
+                "rank_score": 0.054428852443695705
+            },
+            "impact": {
+                "count": 1,
+                "rank_score": 0.04018687146592355
+            },
             "independent production": {
                 "count": 1,
                 "rank_score": 0.10495755822311265
-            },
-            "other factors": {
-                "count": 1,
-                "rank_score": 0.11307563022787301
             },
             "oxford university press": {
                 "count": 1,
@@ -10312,17 +10602,21 @@
                 "count": 1,
                 "rank_score": 0.12585001589973666
             },
-            "results": {
-                "count": 2,
-                "rank_score": 0.0693576881681258
-            },
-            "the production technology": {
+            "production technology": {
                 "count": 1,
                 "rank_score": 0.062463275176488
             },
-            "u.s.": {
+            "sample selection model": {
                 "count": 1,
-                "rank_score": 0.07398114916018796
+                "rank_score": 0.0641631714588277
+            },
+            "substantial increase": {
+                "count": 1,
+                "rank_score": 0.04543808526579618
+            },
+            "technological improvement": {
+                "count": 1,
+                "rank_score": 0.05141319445131446
             },
             "u.s. hog operations": {
                 "count": 1,
@@ -10357,6 +10651,7 @@
                     "name": "07 Agricultural and Veterinary Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -10375,6 +10670,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.36567.31",
                         "first_name": "Glynn T.",
+                        "initials": "",
                         "last_name": "Tonsor",
                         "orcid": "['0000-0003-3824-6084']",
                         "researcher_id": "ur.011627307135.89"
@@ -10395,6 +10691,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.36567.31",
                         "first_name": "Allen M.",
+                        "initials": "",
                         "last_name": "Featherstone",
                         "orcid": "",
                         "researcher_id": "ur.012303364661.44"
@@ -10418,6 +10715,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.36567.31",
                     "first_name": "Glynn T.",
+                    "initials": "",
                     "last_name": "Tonsor",
                     "orcid": "['0000-0003-3824-6084']",
                     "researcher_id": "ur.011627307135.89"
@@ -10438,6 +10736,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.36567.31",
                     "first_name": "Allen M.",
+                    "initials": "",
                     "last_name": "Featherstone",
                     "orcid": "",
                     "researcher_id": "ur.012303364661.44"
@@ -10467,6 +10766,7 @@
             ],
             "concepts": [
                 "types",
+                "feeders",
                 "variation",
                 "specialization",
                 "analysis",
@@ -10474,8 +10774,6 @@
                 "swine industry",
                 "diverse specializations",
                 "findings",
-                "further understanding",
-                "understanding",
                 "rapid changes",
                 "changes",
                 "form",
@@ -10486,7 +10784,7 @@
             "date": "2009-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1111/j.1467-9353.2009.01450.x",
-            "field_citation_ratio": 2.7,
+            "field_citation_ratio": 3.08,
             "id": "pub.1052286375",
             "issn": [
                 "2040-5790",
@@ -10498,9 +10796,25 @@
                 "title": "Applied Economic Perspectives and Policy"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "production efficiency",
+                "producer",
+                "efficiency",
+                "swine",
+                "Specialization",
+                "scale",
+                "overall efficiency",
+                "operation",
+                "variation",
+                "industry",
+                "future analysis",
+                "rapid change",
+                "increased production"
             ],
             "open_access_categories": [
                 {
@@ -10511,48 +10825,48 @@
             ],
             "pages": "493-510",
             "publisher": "Oxford University Press (OUP)",
-            "recent_citations": 1,
+            "recent_citations": 2,
             "reference_ids": [
-                "pub.1069441060",
-                "pub.1061833632",
-                "pub.1061923143",
-                "pub.1022524825",
-                "pub.1022594741",
-                "pub.1027925775",
-                "pub.1064719934",
-                "pub.1025270245",
                 "pub.1012495047",
-                "pub.1069649988",
+                "pub.1027925775",
                 "pub.1031970240",
-                "pub.1061832884",
-                "pub.1061832886",
-                "pub.1061833729",
-                "pub.1039768414",
-                "pub.1064721676",
-                "pub.1059569723",
                 "pub.1025171324",
-                "pub.1102211186"
+                "pub.1064719934",
+                "pub.1061832884",
+                "pub.1061833729",
+                "pub.1025270245",
+                "pub.1102211186",
+                "pub.1061923143",
+                "pub.1064721676",
+                "pub.1061833632",
+                "pub.1061832886",
+                "pub.1069649988",
+                "pub.1022594741",
+                "pub.1069441060",
+                "pub.1039768414",
+                "pub.1022524825",
+                "pub.1059569723"
             ],
             "references": [
-                "pub.1069441060",
-                "pub.1061833632",
-                "pub.1061923143",
-                "pub.1022524825",
-                "pub.1022594741",
-                "pub.1027925775",
-                "pub.1064719934",
-                "pub.1025270245",
                 "pub.1012495047",
-                "pub.1069649988",
+                "pub.1027925775",
                 "pub.1031970240",
-                "pub.1061832884",
-                "pub.1061832886",
-                "pub.1061833729",
-                "pub.1039768414",
-                "pub.1064721676",
-                "pub.1059569723",
                 "pub.1025171324",
-                "pub.1102211186"
+                "pub.1064719934",
+                "pub.1061832884",
+                "pub.1061833729",
+                "pub.1025270245",
+                "pub.1102211186",
+                "pub.1061923143",
+                "pub.1064721676",
+                "pub.1061833632",
+                "pub.1061832886",
+                "pub.1069649988",
+                "pub.1022594741",
+                "pub.1069441060",
+                "pub.1039768414",
+                "pub.1022524825",
+                "pub.1059569723"
             ],
             "research_org_cities": [
                 {
@@ -10573,19 +10887,23 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Michigan State University",
+                "Kansas State University"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-MI",
-                    "name": "Michigan"
-                },
                 {
                     "id": "US-KS",
                     "name": "Kansas"
+                },
+                {
+                    "id": "US-MI",
+                    "name": "Michigan"
                 }
             ],
             "research_org_state_names": [
-                "Kansas",
-                "Michigan"
+                "Michigan",
+                "Kansas"
             ],
             "research_orgs": [
                 {
@@ -10629,8 +10947,8 @@
                         "0000-0003-3824-6084"
                     ],
                     "research_orgs": [
-                        "grid.17088.36",
-                        "grid.36567.31"
+                        "grid.36567.31",
+                        "grid.17088.36"
                     ]
                 },
                 {
@@ -10638,14 +10956,15 @@
                     "id": "ur.012303364661.44",
                     "last_name": "Featherstone",
                     "research_orgs": [
-                        "grid.261331.4",
                         "grid.10985.35",
+                        "grid.261331.4",
                         "grid.36567.31"
                     ]
                 }
             ],
             "terms": [
                 "types",
+                "feeders",
                 "variation",
                 "specialization",
                 "analysis",
@@ -10653,8 +10972,6 @@
                 "swine industry",
                 "diverse specializations",
                 "findings",
-                "further understanding",
-                "understanding",
                 "rapid changes",
                 "changes",
                 "form",
@@ -10662,7 +10979,7 @@
                 "swine producers",
                 "producers"
             ],
-            "times_cited": 7,
+            "times_cited": 8,
             "title": "Production Efficiency of Specialized Swine Producers",
             "type": "article",
             "volume": "31",
@@ -10987,13 +11304,17 @@
         },
         "doi": "10.1111/j.1467-9353.2009.01450.x",
         "keyphrases": {
-            "an efficiency evaluation": {
+            "diverse specializations": {
                 "count": 1,
-                "rank_score": 0.07380375003166906
+                "rank_score": 0.0749093222009411
             },
             "efficiency": {
                 "count": 1,
                 "rank_score": 0.11809898365260163
+            },
+            "efficiency evaluation": {
+                "count": 1,
+                "rank_score": 0.07380375003166906
             },
             "efficiency measures": {
                 "count": 1,
@@ -11006,6 +11327,10 @@
             "feeder": {
                 "count": 3,
                 "rank_score": 0.05967297677976448
+            },
+            "finish": {
+                "count": 2,
+                "rank_score": 0.05677745719884872
             },
             "future analyses": {
                 "count": 1,
@@ -11023,6 +11348,10 @@
                 "count": 1,
                 "rank_score": 0.08854756478724986
             },
+            "rapid change": {
+                "count": 1,
+                "rank_score": 0.05382503698329758
+            },
             "specialization type": {
                 "count": 1,
                 "rank_score": 0.12930996156575053
@@ -11035,13 +11364,13 @@
                 "count": 1,
                 "rank_score": 0.08769336724176972
             },
-            "the diverse specializations": {
-                "count": 1,
-                "rank_score": 0.0749093222009411
-            },
-            "the swine industry": {
+            "swine industry": {
                 "count": 2,
                 "rank_score": 0.06945019141554765
+            },
+            "technical, allocative, scale, and overall efficiency": {
+                "count": 1,
+                "rank_score": 0.0499672764988162
             },
             "variation": {
                 "count": 1,
@@ -11092,6 +11421,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.5386.8",
                         "first_name": "David R.",
+                        "initials": "",
                         "last_name": "Just",
                         "orcid": "",
                         "researcher_id": "ur.01315173403.28"
@@ -11112,6 +11442,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.15276.37",
                         "first_name": "Jaclyn D.",
+                        "initials": "",
                         "last_name": "Kropp",
                         "orcid": "",
                         "researcher_id": "ur.0575436161.47"
@@ -11135,6 +11466,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.5386.8",
                     "first_name": "David R.",
+                    "initials": "",
                     "last_name": "Just",
                     "orcid": "",
                     "researcher_id": "ur.01315173403.28"
@@ -11155,6 +11487,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.15276.37",
                     "first_name": "Jaclyn D.",
+                    "initials": "",
                     "last_name": "Kropp",
                     "orcid": "",
                     "researcher_id": "ur.0575436161.47"
@@ -11183,6 +11516,7 @@
                 }
             ],
             "concepts": [
+                "past production",
                 "production",
                 "restriction",
                 "land",
@@ -11190,9 +11524,8 @@
                 "crops",
                 "static framework",
                 "production decisions",
-                "decision",
-                "profit change",
-                "changes",
+                "decisions",
+                "profit",
                 "output",
                 "profitable production",
                 "program crops",
@@ -11200,6 +11533,7 @@
                 "fruit",
                 "vegetables",
                 "trade distortions",
+                "production subsidies",
                 "subsidies",
                 "incentives",
                 "decoupling"
@@ -11207,7 +11541,7 @@
             "date": "2013-10-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1093/ajae/aat060",
-            "field_citation_ratio": 4.0,
+            "field_citation_ratio": 3.89,
             "funder_countries": [
                 {
                     "id": "US",
@@ -11243,9 +11577,26 @@
                 "title": "American Journal of Agricultural Economics"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "decoupling",
+                "land use",
+                "payment",
+                "restriction",
+                "crop",
+                "current production",
+                "relative",
+                "current",
+                "endeavor",
+                "cultivating",
+                "vegetable",
+                "distortion",
+                "magnitude",
+                "direct production"
             ],
             "open_access_categories": [
                 {
@@ -11258,38 +11609,38 @@
             "publisher": "Wiley",
             "recent_citations": 4,
             "reference_ids": [
-                "pub.1059379557",
-                "pub.1061933624",
-                "pub.1069410740",
-                "pub.1010442811",
-                "pub.1109732404",
-                "pub.1026470260",
-                "pub.1058575460",
-                "pub.1034912848",
-                "pub.1020274797",
-                "pub.1069410772",
-                "pub.1069408986",
                 "pub.1061933660",
+                "pub.1109732404",
                 "pub.1070218962",
+                "pub.1010442811",
+                "pub.1061933624",
+                "pub.1058575460",
+                "pub.1026470260",
+                "pub.1069410772",
                 "pub.1001117048",
-                "pub.1058751865"
+                "pub.1069410740",
+                "pub.1069408986",
+                "pub.1058751865",
+                "pub.1059379557",
+                "pub.1020274797",
+                "pub.1034912848"
             ],
             "references": [
-                "pub.1059379557",
-                "pub.1061933624",
-                "pub.1069410740",
-                "pub.1010442811",
-                "pub.1109732404",
-                "pub.1026470260",
-                "pub.1058575460",
-                "pub.1034912848",
-                "pub.1020274797",
-                "pub.1069410772",
-                "pub.1069408986",
                 "pub.1061933660",
+                "pub.1109732404",
                 "pub.1070218962",
+                "pub.1010442811",
+                "pub.1061933624",
+                "pub.1058575460",
+                "pub.1026470260",
+                "pub.1069410772",
                 "pub.1001117048",
-                "pub.1058751865"
+                "pub.1069410740",
+                "pub.1069408986",
+                "pub.1058751865",
+                "pub.1059379557",
+                "pub.1020274797",
+                "pub.1034912848"
             ],
             "research_org_cities": [
                 {
@@ -11310,14 +11661,18 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "University of Florida",
+                "Cornell University"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-FL",
-                    "name": "Florida"
-                },
                 {
                     "id": "US-NY",
                     "name": "New York"
+                },
+                {
+                    "id": "US-FL",
+                    "name": "Florida"
                 }
             ],
             "research_org_state_names": [
@@ -11364,10 +11719,10 @@
                     "id": "ur.01315173403.28",
                     "last_name": "Just",
                     "research_orgs": [
+                        "grid.47840.3f",
                         "grid.5386.8",
-                        "grid.27860.3b",
                         "grid.261331.4",
-                        "grid.47840.3f"
+                        "grid.27860.3b"
                     ]
                 },
                 {
@@ -11375,13 +11730,14 @@
                     "id": "ur.0575436161.47",
                     "last_name": "Kropp",
                     "research_orgs": [
-                        "grid.15276.37",
                         "grid.26090.3d",
-                        "grid.5386.8"
+                        "grid.5386.8",
+                        "grid.15276.37"
                     ]
                 }
             ],
             "terms": [
+                "past production",
                 "production",
                 "restriction",
                 "land",
@@ -11389,9 +11745,8 @@
                 "crops",
                 "static framework",
                 "production decisions",
-                "decision",
-                "profit change",
-                "changes",
+                "decisions",
+                "profit",
                 "output",
                 "profitable production",
                 "program crops",
@@ -11399,6 +11754,7 @@
                 "fruit",
                 "vegetables",
                 "trade distortions",
+                "production subsidies",
                 "subsidies",
                 "incentives",
                 "decoupling"
@@ -11687,6 +12043,10 @@
         },
         "doi": "10.1093/ajae/aat060",
         "keyphrases": {
+            "copyright": {
+                "count": 1,
+                "rank_score": 0.05117280133713066
+            },
             "crops": {
                 "count": 1,
                 "rank_score": 0.08599249750810053
@@ -11702,6 +12062,14 @@
             "direct production subsidies": {
                 "count": 1,
                 "rank_score": 0.12563178588221594
+            },
+            "distortions": {
+                "count": 1,
+                "rank_score": 0.04572444280749535
+            },
+            "fruits": {
+                "count": 1,
+                "rank_score": 0.0642916843193803
             },
             "land": {
                 "count": 2,
@@ -11723,6 +12091,14 @@
                 "count": 1,
                 "rank_score": 0.12426100924911185
             },
+            "payments": {
+                "count": 3,
+                "rank_score": 0.06675852894390533
+            },
+            "potentially more profitable endeavors": {
+                "count": 1,
+                "rank_score": 0.04046239402606455
+            },
             "production and trade distortions": {
                 "count": 1,
                 "rank_score": 0.0870332641521731
@@ -11735,17 +12111,17 @@
                 "count": 1,
                 "rank_score": 0.08681360028129013
             },
-            "restrictions": {
-                "count": 2,
-                "rank_score": 0.07830862058286683
+            "static framework": {
+                "count": 1,
+                "rank_score": 0.04290662676332827
             },
             "support payments": {
                 "count": 1,
                 "rank_score": 0.12480671178417689
             },
-            "these payments": {
-                "count": 3,
-                "rank_score": 0.06675852894390533
+            "vegetables": {
+                "count": 1,
+                "rank_score": 0.054614412793834506
             }
         },
         "original": {
@@ -12019,6 +12395,10 @@
                 "count": 2,
                 "rank_score": 0.07490254638266992
             },
+            "choices": {
+                "count": 1,
+                "rank_score": 0.05171860066770531
+            },
             "decisionâ€": {
                 "count": 1,
                 "rank_score": 0.06940169367003071
@@ -12030,6 +12410,14 @@
             "economists": {
                 "count": 1,
                 "rank_score": 0.06835633755940787
+            },
+            "failure": {
+                "count": 1,
+                "rank_score": 0.03163329583281205
+            },
+            "impacts": {
+                "count": 1,
+                "rank_score": 0.06180220775261168
             },
             "indirect effects": {
                 "count": 1,
@@ -12051,17 +12439,29 @@
                 "count": 1,
                 "rank_score": 0.08491306278961451
             },
+            "more complete understanding": {
+                "count": 1,
+                "rank_score": 0.03120303645578702
+            },
             "other characteristics": {
                 "count": 1,
                 "rank_score": 0.10532551698794364
             },
+            "policymakers": {
+                "count": 1,
+                "rank_score": 0.06143393856030383
+            },
+            "producers": {
+                "count": 1,
+                "rank_score": 0.04968127351399522
+            },
+            "puzzle": {
+                "count": 1,
+                "rank_score": 0.026082318860188646
+            },
             "relationships": {
                 "count": 1,
                 "rank_score": 0.06528575447707874
-            },
-            "research": {
-                "count": 1,
-                "rank_score": 0.061836948491985316
             },
             "risk": {
                 "count": 1,
@@ -12071,9 +12471,17 @@
                 "count": 4,
                 "rank_score": 0.1482658225461017
             },
-            "the risk management decisionâ€ making process": {
+            "risk management decisionâ€ making process": {
                 "count": 1,
                 "rank_score": 0.09583704571038167
+            },
+            "structure": {
+                "count": 1,
+                "rank_score": 0.03470106675320097
+            },
+            "their influence": {
+                "count": 1,
+                "rank_score": 0.02475032707235461
             }
         },
         "original": {
@@ -12100,6 +12508,7 @@
                     "name": "14 Economics"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -12118,6 +12527,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.482913.5",
                         "first_name": "Richard",
+                        "initials": "",
                         "last_name": "Nehring",
                         "orcid": "",
                         "researcher_id": "ur.016661112713.26"
@@ -12138,6 +12548,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.482913.5",
                         "first_name": "Jeffrey",
+                        "initials": "",
                         "last_name": "Gillespie",
                         "orcid": "",
                         "researcher_id": "ur.01214244502.40"
@@ -12158,6 +12569,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.482913.5",
                         "first_name": "Carmen",
+                        "initials": "",
                         "last_name": "Sandretto",
                         "orcid": "",
                         "researcher_id": "ur.010661354541.06"
@@ -12178,6 +12590,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.482913.5",
                         "first_name": "Charlie",
+                        "initials": "",
                         "last_name": "Hallahan",
                         "orcid": "",
                         "researcher_id": "ur.014205345031.90"
@@ -12201,6 +12614,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.482913.5",
                     "first_name": "Richard",
+                    "initials": "",
                     "last_name": "Nehring",
                     "orcid": "",
                     "researcher_id": "ur.016661112713.26"
@@ -12221,6 +12635,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.482913.5",
                     "first_name": "Jeffrey",
+                    "initials": "",
                     "last_name": "Gillespie",
                     "orcid": "",
                     "researcher_id": "ur.01214244502.40"
@@ -12241,6 +12656,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.482913.5",
                     "first_name": "Carmen",
+                    "initials": "",
                     "last_name": "Sandretto",
                     "orcid": "",
                     "researcher_id": "ur.010661354541.06"
@@ -12261,6 +12677,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.482913.5",
                     "first_name": "Charlie",
+                    "initials": "",
                     "last_name": "Hallahan",
                     "orcid": "",
                     "researcher_id": "ur.014205345031.90"
@@ -12298,7 +12715,7 @@
                 "structure",
                 "small farmers",
                 "farmers",
-                "Upper Midwest",
+                "one",
                 "large farms",
                 "farms",
                 "new production regions",
@@ -12306,9 +12723,8 @@
                 "region",
                 "small farms",
                 "competitiveness",
+                "improved management",
                 "management",
-                "low-input systems",
-                "input system",
                 "system",
                 "data",
                 "USDA’s Agricultural Resource Management Survey",
@@ -12318,6 +12734,7 @@
                 "survey",
                 "extent",
                 "U.S.",
+                "pasture-based milk production",
                 "production",
                 "net returns",
                 "return",
@@ -12342,14 +12759,12 @@
                 "large conventional farms",
                 "conventional farms",
                 "profitability measures",
-                "measures",
-                "U.S. dairy farms",
-                "dairy farms"
+                "measures"
             ],
             "date": "2009-11-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1111/j.1574-0862.2009.00418.x",
-            "field_citation_ratio": 6.55,
+            "field_citation_ratio": 8.08,
             "id": "pub.1000589010",
             "issn": [
                 "0169-5150",
@@ -12362,57 +12777,95 @@
                 "title": "Agricultural Economics"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "linkout": "http://ageconsearch.umn.edu/record/52869/files/134.pdf",
+            "noun_phrases": [
+                "dairy farm",
+                "dairy industry",
+                "structural change",
+                "small farmer",
+                "upper Midwest",
+                "farm",
+                "competitiveness",
+                "improved management",
+                "low input",
+                "resource management",
+                "U.S.",
+                "milk production",
+                "estimate",
+                "efficiency",
+                "technical efficiency",
+                "different operation",
+                "financial performance",
+                "producer",
+                "large scale",
+                "frontier",
+                "period",
+                "technology",
+                "logit",
+                "profitability"
+            ],
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - published"
             ],
             "open_access_categories": [
                 {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Free copy of published version in an OA repository",
+                    "id": "green_pub",
+                    "name": "Green, Published"
                 }
             ],
             "pages": "817-825",
             "publisher": "Wiley",
-            "recent_citations": 3,
+            "recent_citations": 7,
             "reference_ids": [
-                "pub.1049883932",
-                "pub.1020989694",
-                "pub.1032249665",
                 "pub.1045121439",
-                "pub.1069012318",
                 "pub.1022830798",
-                "pub.1074970725",
-                "pub.1102244462",
-                "pub.1029766433",
-                "pub.1075272540",
                 "pub.1086075943",
-                "pub.1074555264",
+                "pub.1029766433",
+                "pub.1032249665",
+                "pub.1074970725",
+                "pub.1020989694",
+                "pub.1069012318",
+                "pub.1075272540",
                 "pub.1075002763",
+                "pub.1102244462",
+                "pub.1020585049",
                 "pub.1003596039",
                 "pub.1061933736",
-                "pub.1006670978",
-                "pub.1020585049"
+                "pub.1049883932",
+                "pub.1074555264",
+                "pub.1006670978"
             ],
             "references": [
-                "pub.1049883932",
-                "pub.1020989694",
-                "pub.1032249665",
                 "pub.1045121439",
-                "pub.1069012318",
                 "pub.1022830798",
-                "pub.1074970725",
-                "pub.1102244462",
-                "pub.1029766433",
-                "pub.1075272540",
                 "pub.1086075943",
-                "pub.1074555264",
+                "pub.1029766433",
+                "pub.1032249665",
+                "pub.1074970725",
+                "pub.1020989694",
+                "pub.1069012318",
+                "pub.1075272540",
                 "pub.1075002763",
+                "pub.1102244462",
+                "pub.1020585049",
                 "pub.1003596039",
                 "pub.1061933736",
-                "pub.1006670978",
-                "pub.1020585049"
+                "pub.1049883932",
+                "pub.1074555264",
+                "pub.1006670978"
             ],
             "research_org_cities": [
                 {
@@ -12433,6 +12886,10 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Louisiana State University Agricultural Center",
+                "Economic Research Service"
+            ],
             "research_org_state_codes": [
                 {
                     "id": "US-DC",
@@ -12449,21 +12906,6 @@
             ],
             "research_orgs": [
                 {
-                    "city_name": "Baton Rouge",
-                    "country_name": "United States",
-                    "id": "grid.250060.1",
-                    "latitude": 30.414,
-                    "linkout": [
-                        "http://www.lsuagcenter.com/"
-                    ],
-                    "longitude": -91.1783,
-                    "name": "Louisiana State University Agricultural Center",
-                    "state_name": "Louisiana",
-                    "types": [
-                        "Education"
-                    ]
-                },
-                {
                     "acronym": "ERS",
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
@@ -12478,6 +12920,21 @@
                     "types": [
                         "Government"
                     ]
+                },
+                {
+                    "city_name": "Baton Rouge",
+                    "country_name": "United States",
+                    "id": "grid.250060.1",
+                    "latitude": 30.414,
+                    "linkout": [
+                        "http://www.lsuagcenter.com/"
+                    ],
+                    "longitude": -91.1783,
+                    "name": "Louisiana State University Agricultural Center",
+                    "state_name": "Louisiana",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -12486,10 +12943,10 @@
                     "id": "ur.016661112713.26",
                     "last_name": "Nehring",
                     "research_orgs": [
-                        "grid.250060.1",
+                        "grid.482913.5",
                         "grid.463419.d",
                         "grid.417548.b",
-                        "grid.482913.5"
+                        "grid.250060.1"
                     ]
                 },
                 {
@@ -12497,11 +12954,11 @@
                     "id": "ur.01214244502.40",
                     "last_name": "Gillespie",
                     "research_orgs": [
-                        "grid.250060.1",
                         "grid.482913.5",
-                        "grid.441248.f",
+                        "grid.250060.1",
+                        "grid.463419.d",
                         "grid.64337.35",
-                        "grid.463419.d"
+                        "grid.441248.f"
                     ]
                 },
                 {
@@ -12532,7 +12989,7 @@
                 "structure",
                 "small farmers",
                 "farmers",
-                "Upper Midwest",
+                "one",
                 "large farms",
                 "farms",
                 "new production regions",
@@ -12540,9 +12997,8 @@
                 "region",
                 "small farms",
                 "competitiveness",
+                "improved management",
                 "management",
-                "low-input systems",
-                "input system",
                 "system",
                 "data",
                 "USDA’s Agricultural Resource Management Survey",
@@ -12552,6 +13008,7 @@
                 "survey",
                 "extent",
                 "U.S.",
+                "pasture-based milk production",
                 "production",
                 "net returns",
                 "return",
@@ -12576,11 +13033,9 @@
                 "large conventional farms",
                 "conventional farms",
                 "profitability measures",
-                "measures",
-                "U.S. dairy farms",
-                "dairy farms"
+                "measures"
             ],
-            "times_cited": 17,
+            "times_cited": 21,
             "title": "Small U.S. dairy farms: can they compete?",
             "type": "article",
             "volume": "40",
@@ -13812,10 +14267,10 @@
         },
         "abstract": "The U.S. dairy industry is undergoing rapid structural change, evolving from a structure including many small farmers in the Upper Midwest and Northeast to one that includes very large farms in new production regions. Small farms are struggling to retain competitiveness via improved management and low-input systems. Using data from USDA’s Agricultural Resource Management Survey, we determine the extent of U.S. conventional and pasture-based milk production during 2003-2007, and estimate net returns, scale efficiency, and technical efficiency associated with the systems across different operation sizes. We compare the financial performance of small conventional and pasture-based producers with one another and with largescale producers. A stochastic production frontier is used to analyze performance over the period for conventional and pasture technologies identified using a binomial logit model. Large conventional farms generally outperformed smaller farms using most economic measures – technical efficiency, various profitability measures, and returns to scale.",
         "authors": [
-            "author-728d2a4f000a921c7a9a",
+            "author-bb0ab303190804e8000c",
             "author-90bc4481530141e6afc5",
             "author-4ce4d32ee0b038f68e0d",
-            "author-44d1ea3cbd33b8502d55"
+            "author-81f0cc8f6f5a0235a94f"
         ],
         "datasets": [
             "dataset-870"
@@ -13919,6 +14374,10 @@
                 "count": 1,
                 "rank_score": 0.08674880503513123
             },
+            "competitiveness": {
+                "count": 1,
+                "rank_score": 0.05562633420516972
+            },
             "conventional and pasture technologies": {
                 "count": 1,
                 "rank_score": 0.06804797297047438
@@ -13934,6 +14393,14 @@
             "large conventional farms": {
                 "count": 1,
                 "rank_score": 0.11143938836513759
+            },
+            "largescale producers": {
+                "count": 1,
+                "rank_score": 0.05525432111867939
+            },
+            "low-input systems": {
+                "count": 1,
+                "rank_score": 0.052807751736400996
             },
             "many small farmers": {
                 "count": 1,
@@ -13951,9 +14418,17 @@
                 "count": 1,
                 "rank_score": 0.08079333971252434
             },
+            "performance": {
+                "count": 1,
+                "rank_score": 0.06621734394577358
+            },
             "rapid structural change": {
                 "count": 1,
                 "rank_score": 0.07990225072026219
+            },
+            "returns": {
+                "count": 1,
+                "rank_score": 0.0677274101554944
             },
             "scale efficiency": {
                 "count": 1,
@@ -13967,13 +14442,33 @@
                 "count": 2,
                 "rank_score": 0.11562150883114389
             },
+            "stochastic production frontier": {
+                "count": 1,
+                "rank_score": 0.0505236294679471
+            },
             "technical efficiency": {
                 "count": 2,
                 "rank_score": 0.0905904521217114
             },
+            "u.s. conventional and pasture-based milk production": {
+                "count": 1,
+                "rank_score": 0.06739216024596881
+            },
+            "u.s. dairy industry": {
+                "count": 1,
+                "rank_score": 0.049633085133721784
+            },
+            "usda’s agricultural resource management survey": {
+                "count": 1,
+                "rank_score": 0.06426255035481332
+            },
             "various profitability measures": {
                 "count": 1,
                 "rank_score": 0.08179730903926134
+            },
+            "very large farms": {
+                "count": 1,
+                "rank_score": 0.05592425223763002
             }
         },
         "original": {
@@ -15214,6 +15709,10 @@
                 "count": 3,
                 "rank_score": 0.06897158792837639
             },
+            "antimicrobial drug-resistant bacteria": {
+                "count": 1,
+                "rank_score": 0.05317381566714244
+            },
             "antimicrobial drugs": {
                 "count": 1,
                 "rank_score": 0.07539394664352517
@@ -15221,6 +15720,18 @@
             "feed efficiency": {
                 "count": 1,
                 "rank_score": 0.07413205172619561
+            },
+            "growth promotion": {
+                "count": 1,
+                "rank_score": 0.05063877553287922
+            },
+            "improvements": {
+                "count": 1,
+                "rank_score": 0.0527501123043585
+            },
+            "livestock": {
+                "count": 1,
+                "rank_score": 0.04926876275703089
             },
             "nearest neighbor": {
                 "count": 1,
@@ -15230,21 +15741,37 @@
                 "count": 1,
                 "rank_score": 0.07657006878680697
             },
-            "output": {
-                "count": 2,
-                "rank_score": 0.07234104473138572
-            },
             "output variability": {
                 "count": 1,
                 "rank_score": 0.07643646318396
+            },
+            "point estimates": {
+                "count": 1,
+                "rank_score": 0.05081030578966289
             },
             "production purposes": {
                 "count": 1,
                 "rank_score": 0.06579588352630529
             },
+            "productivity": {
+                "count": 1,
+                "rank_score": 0.05608280817575082
+            },
+            "productivity and production risk": {
+                "count": 1,
+                "rank_score": 0.05193537366403195
+            },
             "sta use": {
                 "count": 2,
                 "rank_score": 0.08439716828287477
+            },
+            "stochastic frontier model": {
+                "count": 1,
+                "rank_score": 0.04951920192525561
+            },
+            "sub-therapeutic antibiotic (sta) users": {
+                "count": 1,
+                "rank_score": 0.05972830199332102
             },
             "sub-therapeutic levels": {
                 "count": 1,
@@ -15253,6 +15780,10 @@
             "technical efficiency": {
                 "count": 1,
                 "rank_score": 0.0649464366739502
+            },
+            "technological improvement": {
+                "count": 1,
+                "rank_score": 0.05850856744402326
             },
             "u.s. hog producers": {
                 "count": 1,
@@ -15269,6 +15800,10 @@
             "users": {
                 "count": 1,
                 "rank_score": 0.06538902335404743
+            },
+            "weight gain": {
+                "count": 1,
+                "rank_score": 0.05216181797198248
             }
         },
         "original": {
@@ -16501,6 +17036,10 @@
                 "count": 3,
                 "rank_score": 0.06897158792837639
             },
+            "antimicrobial drug-resistant bacteria": {
+                "count": 1,
+                "rank_score": 0.05317381566714244
+            },
             "antimicrobial drugs": {
                 "count": 1,
                 "rank_score": 0.07539394664352517
@@ -16508,6 +17047,18 @@
             "feed efficiency": {
                 "count": 1,
                 "rank_score": 0.07413205172619561
+            },
+            "growth promotion": {
+                "count": 1,
+                "rank_score": 0.05063877553287922
+            },
+            "improvements": {
+                "count": 1,
+                "rank_score": 0.0527501123043585
+            },
+            "livestock": {
+                "count": 1,
+                "rank_score": 0.04926876275703089
             },
             "nearest neighbor": {
                 "count": 1,
@@ -16517,21 +17068,37 @@
                 "count": 1,
                 "rank_score": 0.07657006878680697
             },
-            "output": {
-                "count": 2,
-                "rank_score": 0.07234104473138572
-            },
             "output variability": {
                 "count": 1,
                 "rank_score": 0.07643646318396
+            },
+            "point estimates": {
+                "count": 1,
+                "rank_score": 0.05081030578966289
             },
             "production purposes": {
                 "count": 1,
                 "rank_score": 0.06579588352630529
             },
+            "productivity": {
+                "count": 1,
+                "rank_score": 0.05608280817575082
+            },
+            "productivity and production risk": {
+                "count": 1,
+                "rank_score": 0.05193537366403195
+            },
             "sta use": {
                 "count": 2,
                 "rank_score": 0.08439716828287477
+            },
+            "stochastic frontier model": {
+                "count": 1,
+                "rank_score": 0.04951920192525561
+            },
+            "sub-therapeutic antibiotic (sta) users": {
+                "count": 1,
+                "rank_score": 0.05972830199332102
             },
             "sub-therapeutic levels": {
                 "count": 1,
@@ -16540,6 +17107,10 @@
             "technical efficiency": {
                 "count": 1,
                 "rank_score": 0.0649464366739502
+            },
+            "technological improvement": {
+                "count": 1,
+                "rank_score": 0.05850856744402326
             },
             "u.s. hog producers": {
                 "count": 1,
@@ -16556,6 +17127,10 @@
             "users": {
                 "count": 1,
                 "rank_score": 0.06538902335404743
+            },
+            "weight gain": {
+                "count": 1,
+                "rank_score": 0.05216181797198248
             }
         },
         "original": {
@@ -16597,11 +17172,22 @@
                                 "name": "Colorado State University",
                                 "state": "Colorado",
                                 "state_code": "US-CO"
+                            },
+                            {
+                                "city": "Fort Collins",
+                                "city_id": 5577147,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.47894.36",
+                                "name": "Colorado State University",
+                                "state": "Colorado",
+                                "state_code": "US-CO"
                             }
                         ],
                         "corresponding": true,
                         "current_organization_id": "grid.47894.36",
                         "first_name": "Trung H.",
+                        "initials": "",
                         "last_name": "Nguyen",
                         "orcid": "",
                         "researcher_id": "ur.015413636052.40"
@@ -16620,8 +17206,9 @@
                             }
                         ],
                         "corresponding": "",
-                        "current_organization_id": "grid.47894.36",
+                        "current_organization_id": "grid.10388.32",
                         "first_name": "Duy",
+                        "initials": "",
                         "last_name": "Nong",
                         "orcid": "['0000-0002-4632-9835']",
                         "researcher_id": "ur.07750413631.89"
@@ -16637,11 +17224,22 @@
                                 "name": "Colorado State University",
                                 "state": "Colorado",
                                 "state_code": "US-CO"
+                            },
+                            {
+                                "city": "Fort Collins",
+                                "city_id": 5577147,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.47894.36",
+                                "name": "Colorado State University",
+                                "state": "Colorado",
+                                "state_code": "US-CO"
                             }
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.47894.36",
                         "first_name": "Keith",
+                        "initials": "",
                         "last_name": "Paustian",
                         "orcid": "",
                         "researcher_id": "ur.01334304274.89"
@@ -16660,11 +17258,22 @@
                             "name": "Colorado State University",
                             "state": "Colorado",
                             "state_code": "US-CO"
+                        },
+                        {
+                            "city": "Fort Collins",
+                            "city_id": 5577147,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.47894.36",
+                            "name": "Colorado State University",
+                            "state": "Colorado",
+                            "state_code": "US-CO"
                         }
                     ],
                     "corresponding": true,
                     "current_organization_id": "grid.47894.36",
                     "first_name": "Trung H.",
+                    "initials": "",
                     "last_name": "Nguyen",
                     "orcid": "",
                     "researcher_id": "ur.015413636052.40"
@@ -16683,8 +17292,9 @@
                         }
                     ],
                     "corresponding": "",
-                    "current_organization_id": "grid.47894.36",
+                    "current_organization_id": "grid.10388.32",
                     "first_name": "Duy",
+                    "initials": "",
                     "last_name": "Nong",
                     "orcid": "['0000-0002-4632-9835']",
                     "researcher_id": "ur.07750413631.89"
@@ -16700,11 +17310,22 @@
                             "name": "Colorado State University",
                             "state": "Colorado",
                             "state_code": "US-CO"
+                        },
+                        {
+                            "city": "Fort Collins",
+                            "city_id": 5577147,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.47894.36",
+                            "name": "Colorado State University",
+                            "state": "Colorado",
+                            "state_code": "US-CO"
                         }
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.47894.36",
                     "first_name": "Keith",
+                    "initials": "",
                     "last_name": "Paustian",
                     "orcid": "",
                     "researcher_id": "ur.01334304274.89"
@@ -16720,6 +17341,7 @@
                     "name": "0801 Artificial Intelligence and Image Processing"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30006",
@@ -16734,7 +17356,7 @@
             ],
             "concepts": [
                 "use",
-                "surrogate",
+                "surrogate-based optimization framework",
                 "management optimization",
                 "corn production systems",
                 "production systems",
@@ -16744,9 +17366,8 @@
                 "USA",
                 "case study",
                 "study",
+                "surrogate",
                 "simulation model",
-                "trade-off",
-                "off",
                 "different objectives",
                 "objective",
                 "different scales",
@@ -16757,8 +17378,7 @@
                 "water use",
                 "corn grain",
                 "grains",
-                "corn stover",
-                "stover",
+                "corn",
                 "soil organic carbon",
                 "organic carbon",
                 "carbon",
@@ -16769,7 +17389,7 @@
                 "leaching",
                 "results",
                 "variation",
-                "simulated output",
+                "DAYCENT",
                 "output",
                 "time",
                 "DAYCENT model",
@@ -16829,15 +17449,43 @@
                 "0304-3800",
                 "1872-7026"
             ],
-            "issue": "Simul. Model. Pract. Theory Simul. Oper. Res. 12 2004",
             "journal": {
                 "id": "jour.1126651",
                 "title": "Ecological Modelling"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "multi-objective optimization",
+                "management option",
+                "agricultural landscape",
+                "artificial neural network",
+                "optimization framework",
+                "landscape management",
+                "production system",
+                "Colorado",
+                "USA",
+                "Case Report",
+                "simulation model",
+                "trade-off",
+                "different objective",
+                "different scale",
+                "profit",
+                "irrigation water",
+                "corn stover",
+                "soil organic carbon",
+                "greenhouse gas",
+                "emission",
+                "nitrogen",
+                "variation",
+                "output",
+                "optimization",
+                "Cereal",
+                "greenhouse gas emission"
             ],
             "open_access_categories": [
                 {
@@ -16848,104 +17496,104 @@
             ],
             "pages": "1-13",
             "publisher": "Elsevier",
-            "recent_citations": 2,
+            "recent_citations": 4,
             "reference_ids": [
-                "pub.1037568593",
-                "pub.1068995372",
-                "pub.1021999593",
-                "pub.1062837892",
-                "pub.1018367015",
-                "pub.1068995813",
-                "pub.1005605717",
-                "pub.1008015688",
-                "pub.1026341695",
-                "pub.1062883626",
-                "pub.1049232775",
-                "pub.1002331928",
-                "pub.1041490498",
-                "pub.1000187242",
-                "pub.1038762424",
-                "pub.1002393228",
-                "pub.1045333551",
-                "pub.1002751584",
-                "pub.1025609808",
-                "pub.1012971067",
-                "pub.1051018142",
+                "pub.1032608570",
                 "pub.1069009648",
-                "pub.1009049404",
-                "pub.1020553206",
-                "pub.1046637383",
-                "pub.1005997521",
-                "pub.1032445162",
+                "pub.1026341695",
                 "pub.1002127971",
-                "pub.1037306325",
-                "pub.1036448940",
+                "pub.1032445162",
+                "pub.1002331928",
+                "pub.1005605717",
+                "pub.1051018142",
+                "pub.1009635558",
+                "pub.1030320495",
+                "pub.1045333551",
+                "pub.1012971067",
+                "pub.1034169987",
+                "pub.1038762424",
+                "pub.1041490498",
+                "pub.1015501936",
+                "pub.1069135217",
+                "pub.1037430393",
+                "pub.1037568593",
                 "pub.1068996197",
-                "pub.1101769192",
+                "pub.1037306325",
+                "pub.1002393228",
+                "pub.1104604596",
                 "pub.1038201433",
+                "pub.1000187242",
+                "pub.1009049404",
+                "pub.1036448940",
+                "pub.1062883626",
+                "pub.1025307321",
+                "pub.1062837892",
+                "pub.1111776140",
+                "pub.1046637383",
+                "pub.1025609808",
+                "pub.1021999593",
+                "pub.1049232775",
+                "pub.1002751584",
+                "pub.1005997521",
+                "pub.1053691172",
+                "pub.1020553206",
+                "pub.1068995813",
+                "pub.1018367015",
                 "pub.1012548044",
                 "pub.1101086657",
-                "pub.1032608570",
-                "pub.1025307321",
-                "pub.1104604596",
-                "pub.1037430393",
                 "pub.1046137831",
-                "pub.1111776140",
-                "pub.1053691172",
-                "pub.1015501936",
-                "pub.1034169987",
-                "pub.1030320495",
-                "pub.1069135217",
-                "pub.1009635558"
+                "pub.1101769192",
+                "pub.1008015688",
+                "pub.1068995372"
             ],
             "references": [
-                "pub.1037568593",
-                "pub.1068995372",
-                "pub.1021999593",
-                "pub.1062837892",
-                "pub.1018367015",
-                "pub.1068995813",
-                "pub.1005605717",
-                "pub.1008015688",
-                "pub.1026341695",
-                "pub.1062883626",
-                "pub.1049232775",
-                "pub.1002331928",
-                "pub.1041490498",
-                "pub.1000187242",
-                "pub.1038762424",
-                "pub.1002393228",
-                "pub.1045333551",
-                "pub.1002751584",
-                "pub.1025609808",
-                "pub.1012971067",
-                "pub.1051018142",
+                "pub.1032608570",
                 "pub.1069009648",
-                "pub.1009049404",
-                "pub.1020553206",
-                "pub.1046637383",
-                "pub.1005997521",
-                "pub.1032445162",
+                "pub.1026341695",
                 "pub.1002127971",
-                "pub.1037306325",
-                "pub.1036448940",
+                "pub.1032445162",
+                "pub.1002331928",
+                "pub.1005605717",
+                "pub.1051018142",
+                "pub.1009635558",
+                "pub.1030320495",
+                "pub.1045333551",
+                "pub.1012971067",
+                "pub.1034169987",
+                "pub.1038762424",
+                "pub.1041490498",
+                "pub.1015501936",
+                "pub.1069135217",
+                "pub.1037430393",
+                "pub.1037568593",
                 "pub.1068996197",
-                "pub.1101769192",
+                "pub.1037306325",
+                "pub.1002393228",
+                "pub.1104604596",
                 "pub.1038201433",
+                "pub.1000187242",
+                "pub.1009049404",
+                "pub.1036448940",
+                "pub.1062883626",
+                "pub.1025307321",
+                "pub.1062837892",
+                "pub.1111776140",
+                "pub.1046637383",
+                "pub.1025609808",
+                "pub.1021999593",
+                "pub.1049232775",
+                "pub.1002751584",
+                "pub.1005997521",
+                "pub.1053691172",
+                "pub.1020553206",
+                "pub.1068995813",
+                "pub.1018367015",
                 "pub.1012548044",
                 "pub.1101086657",
-                "pub.1032608570",
-                "pub.1025307321",
-                "pub.1104604596",
-                "pub.1037430393",
                 "pub.1046137831",
-                "pub.1111776140",
-                "pub.1053691172",
-                "pub.1015501936",
-                "pub.1034169987",
-                "pub.1030320495",
-                "pub.1069135217",
-                "pub.1009635558"
+                "pub.1101769192",
+                "pub.1008015688",
+                "pub.1068995372"
             ],
             "research_org_cities": [
                 {
@@ -16968,8 +17616,12 @@
                 }
             ],
             "research_org_country_names": [
-                "Germany",
-                "United States"
+                "United States",
+                "Germany"
+            ],
+            "research_org_names": [
+                "University of Bonn",
+                "Colorado State University"
             ],
             "research_org_state_codes": [
                 {
@@ -16982,6 +17634,20 @@
             ],
             "research_orgs": [
                 {
+                    "city_name": "Bonn",
+                    "country_name": "Germany",
+                    "id": "grid.10388.32",
+                    "latitude": 50.73389,
+                    "linkout": [
+                        "http://www3.uni-bonn.de/the-university"
+                    ],
+                    "longitude": 7.102222,
+                    "name": "University of Bonn",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
                     "acronym": "CSU",
                     "city_name": "Fort Collins",
                     "country_name": "United States",
@@ -16993,20 +17659,6 @@
                     "longitude": -105.086555,
                     "name": "Colorado State University",
                     "state_name": "Colorado",
-                    "types": [
-                        "Education"
-                    ]
-                },
-                {
-                    "city_name": "Bonn",
-                    "country_name": "Germany",
-                    "id": "grid.10388.32",
-                    "latitude": 50.73389,
-                    "linkout": [
-                        "http://www3.uni-bonn.de/the-university"
-                    ],
-                    "longitude": 7.102222,
-                    "name": "University of Bonn",
                     "types": [
                         "Education"
                     ]
@@ -17030,8 +17682,9 @@
                         "0000-0002-4632-9835"
                     ],
                     "research_orgs": [
-                        "grid.47894.36",
                         "grid.1020.3",
+                        "grid.493032.f",
+                        "grid.47894.36",
                         "grid.10388.32"
                     ]
                 },
@@ -17040,18 +17693,18 @@
                     "id": "ur.01334304274.89",
                     "last_name": "Paustian",
                     "research_orgs": [
-                        "grid.411461.7",
-                        "grid.5386.8",
                         "grid.47894.36",
-                        "grid.463419.d",
-                        "grid.36567.31",
-                        "grid.24434.35",
                         "grid.6341.0",
                         "grid.41891.35",
-                        "grid.419357.d",
-                        "grid.42752.36",
+                        "grid.24434.35",
+                        "grid.17088.36",
+                        "grid.411461.7",
+                        "grid.463419.d",
                         "grid.434554.7",
-                        "grid.17088.36"
+                        "grid.42752.36",
+                        "grid.36567.31",
+                        "grid.5386.8",
+                        "grid.419357.d"
                     ]
                 }
             ],
@@ -17060,7 +17713,7 @@
             ],
             "terms": [
                 "use",
-                "surrogate",
+                "surrogate-based optimization framework",
                 "management optimization",
                 "corn production systems",
                 "production systems",
@@ -17070,9 +17723,8 @@
                 "USA",
                 "case study",
                 "study",
+                "surrogate",
                 "simulation model",
-                "trade-off",
-                "off",
                 "different objectives",
                 "objective",
                 "different scales",
@@ -17083,8 +17735,7 @@
                 "water use",
                 "corn grain",
                 "grains",
-                "corn stover",
-                "stover",
+                "corn",
                 "soil organic carbon",
                 "organic carbon",
                 "carbon",
@@ -17095,7 +17746,7 @@
                 "leaching",
                 "results",
                 "variation",
-                "simulated output",
+                "DAYCENT",
                 "output",
                 "time",
                 "DAYCENT model",
@@ -17108,7 +17759,7 @@
                 "agricultural landscapes",
                 "landscape"
             ],
-            "times_cited": 2,
+            "times_cited": 4,
             "title": "Surrogate-based multi-objective optimization of management options for agricultural landscapes using artificial neural networks",
             "type": "article",
             "volume": "400",
@@ -17262,9 +17913,13 @@
         },
         "doi": "10.1016/j.ecolmodel.2019.02.018",
         "keyphrases": {
-            "a surrogate-based optimization framework": {
+            "artificial neural network": {
                 "count": 1,
-                "rank_score": 0.05995351371411856
+                "rank_score": 0.051706163827053675
+            },
+            "colorado": {
+                "count": 1,
+                "rank_score": 0.05171204110273442
             },
             "corn grain": {
                 "count": 1,
@@ -17277,6 +17932,14 @@
             "daycent": {
                 "count": 4,
                 "rank_score": 0.08264259294181364
+            },
+            "daycent biogeochemical simulation model": {
+                "count": 1,
+                "rank_score": 0.06944761989434217
+            },
+            "daycent model": {
+                "count": 1,
+                "rank_score": 0.057818018664303375
             },
             "different scales": {
                 "count": 1,
@@ -17294,9 +17957,17 @@
                 "count": 1,
                 "rank_score": 0.0735156755576862
             },
+            "ghg": {
+                "count": 2,
+                "rank_score": 0.052760542617534656
+            },
             "grain yield": {
                 "count": 1,
                 "rank_score": 0.07380150529695909
+            },
+            "greenhouse gas": {
+                "count": 1,
+                "rank_score": 0.05827223684674289
             },
             "irrigated corn production systems": {
                 "count": 1,
@@ -17306,9 +17977,29 @@
                 "count": 1,
                 "rank_score": 0.08445220751693544
             },
+            "large-scale and high-resolution landscape management optimization": {
+                "count": 1,
+                "rank_score": 0.056792010025747325
+            },
+            "nitrogen leaching": {
+                "count": 1,
+                "rank_score": 0.05924318408897761
+            },
+            "our optimization": {
+                "count": 1,
+                "rank_score": 0.05294615886096349
+            },
             "reduced ghg emissions": {
                 "count": 1,
                 "rank_score": 0.084953036679422
+            },
+            "seven different objectives": {
+                "count": 1,
+                "rank_score": 0.04312356047028833
+            },
+            "simulated outputs": {
+                "count": 1,
+                "rank_score": 0.05934221851416096
             },
             "soc": {
                 "count": 1,
@@ -17318,9 +18009,9 @@
                 "count": 1,
                 "rank_score": 0.0789409150737489
             },
-            "the daycent biogeochemical simulation model": {
+            "surrogate-based optimization framework": {
                 "count": 1,
-                "rank_score": 0.06944761989434217
+                "rank_score": 0.05995351371411856
             }
         },
         "original": {
@@ -17349,16 +18040,16 @@
             ],
             "RCDC": [
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
+                    "id": "508",
+                    "name": "Clinical Trials and Supportive Activities"
                 },
                 {
                     "id": "295",
                     "name": "Aging"
                 },
                 {
-                    "id": "508",
-                    "name": "Clinical Trials and Supportive Activities"
+                    "id": "507",
+                    "name": "Clinical Research"
                 }
             ],
             "altmetric": 1.0,
@@ -17381,6 +18072,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
                         "first_name": "Fengxia",
+                        "initials": "",
                         "last_name": "Dong",
                         "orcid": "",
                         "researcher_id": "ur.012520150346.31"
@@ -17411,6 +18103,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.17088.36",
                         "first_name": "David A.",
+                        "initials": "",
                         "last_name": "Hennessy",
                         "orcid": "",
                         "researcher_id": "ur.010670534704.69"
@@ -17431,6 +18124,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.34421.30",
                         "first_name": "Helen H.",
+                        "initials": "",
                         "last_name": "Jensen",
                         "orcid": "['0000-0001-6878-1729']",
                         "researcher_id": "ur.0733235376.05"
@@ -17451,6 +18145,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.253547.2",
                         "first_name": "Richard J.",
+                        "initials": "",
                         "last_name": "Volpe",
                         "orcid": "",
                         "researcher_id": "ur.010133057547.25"
@@ -17474,6 +18169,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
                     "first_name": "Fengxia",
+                    "initials": "",
                     "last_name": "Dong",
                     "orcid": "",
                     "researcher_id": "ur.012520150346.31"
@@ -17504,6 +18200,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.17088.36",
                     "first_name": "David A.",
+                    "initials": "",
                     "last_name": "Hennessy",
                     "orcid": "",
                     "researcher_id": "ur.010670534704.69"
@@ -17524,6 +18221,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.34421.30",
                     "first_name": "Helen H.",
+                    "initials": "",
                     "last_name": "Jensen",
                     "orcid": "['0000-0001-6878-1729']",
                     "researcher_id": "ur.0733235376.05"
@@ -17544,6 +18242,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.253547.2",
                     "first_name": "Richard J.",
+                    "initials": "",
                     "last_name": "Volpe",
                     "orcid": "",
                     "researcher_id": "ur.010133057547.25"
@@ -17561,16 +18260,16 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
+                    "id": "508",
+                    "name": "Clinical Trials and Supportive Activities"
                 },
                 {
                     "id": "295",
                     "name": "Aging"
                 },
                 {
-                    "id": "508",
-                    "name": "Clinical Trials and Supportive Activities"
+                    "id": "507",
+                    "name": "Clinical Research"
                 }
             ],
             "category_ua": [
@@ -17599,11 +18298,9 @@
                 "U.S. dairy farms",
                 "dairy farms",
                 "farms",
-                "average herd size",
                 "herd size",
                 "size",
                 "exit",
-                "small herds",
                 "productive farms",
                 "operation size",
                 "efficient farms",
@@ -17615,8 +18312,6 @@
                 "cost",
                 "technical efficiency",
                 "efficiency",
-                "stochastic production frontier analysis",
-                "production frontier analysis",
                 "frontier analysis",
                 "analysis",
                 "endogenous inputs",
@@ -17629,7 +18324,7 @@
             "date": "2016-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1111/agec.12253",
-            "field_citation_ratio": 9.68,
+            "field_citation_ratio": 9.28,
             "funder_countries": [
                 {
                     "id": "US",
@@ -17665,9 +18360,34 @@
                 "title": "Agricultural Economics"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "technical efficiency",
+                "herd",
+                "intention",
+                "dairy farm",
+                "dairy industry",
+                "major restructuring",
+                "recent decade",
+                "sharp decline",
+                "average",
+                "exit",
+                "farm",
+                "operation",
+                "strong incentive",
+                "arm",
+                "production practice",
+                "return",
+                "frontier",
+                "input",
+                "efficiency",
+                "hypothesise",
+                "successor",
+                "operator"
             ],
             "open_access_categories": [
                 {
@@ -17680,132 +18400,134 @@
             "publisher": "Wiley",
             "recent_citations": 11,
             "reference_ids": [
-                "pub.1061835195",
-                "pub.1008548399",
-                "pub.1039193306",
-                "pub.1059569083",
-                "pub.1010309311",
-                "pub.1061934131",
-                "pub.1077890233",
-                "pub.1012353089",
-                "pub.1032156468",
-                "pub.1083931543",
-                "pub.1059380075",
-                "pub.1031717691",
-                "pub.1032775270",
-                "pub.1014131101",
-                "pub.1017150571",
-                "pub.1061832797",
-                "pub.1064526370",
-                "pub.1059379566",
-                "pub.1042006139",
-                "pub.1064525511",
-                "pub.1077720839",
-                "pub.1037791434",
-                "pub.1017399618",
-                "pub.1073417393",
-                "pub.1110073698",
-                "pub.1013789585",
-                "pub.1040532753",
-                "pub.1059379589",
-                "pub.1058575100",
-                "pub.1064530700",
-                "pub.1045316917",
+                "pub.1041206214",
+                "pub.1115026397",
+                "pub.1058574556",
+                "pub.1058623920",
                 "pub.1074970726",
-                "pub.1013374027",
+                "pub.1044674002",
+                "pub.1045316917",
+                "pub.1064530700",
+                "pub.1110073698",
+                "pub.1032156468",
+                "pub.1061835195",
+                "pub.1049572366",
+                "pub.1031717691",
+                "pub.1030695398",
+                "pub.1032775270",
+                "pub.1017399618",
+                "pub.1059569083",
+                "pub.1040532753",
+                "pub.1017150571",
+                "pub.1043844860",
+                "pub.1061934131",
+                "pub.1083931543",
+                "pub.1042006139",
+                "pub.1008548399",
+                "pub.1005329280",
+                "pub.1059570290",
+                "pub.1042323245",
+                "pub.1059380142",
+                "pub.1077890233",
+                "pub.1077720839",
+                "pub.1017741574",
+                "pub.1012353089",
+                "pub.1014754908",
+                "pub.1025227855",
+                "pub.1102244462",
+                "pub.1006216324",
+                "pub.1098663805",
+                "pub.1059380177",
+                "pub.1044667787",
+                "pub.1064525511",
+                "pub.1042413566",
+                "pub.1061936536",
+                "pub.1058575100",
+                "pub.1061933686",
+                "pub.1069804371",
                 "pub.1026097282",
                 "pub.1027431945",
-                "pub.1042413566",
-                "pub.1006216324",
-                "pub.1043844860",
-                "pub.1058623920",
-                "pub.1058574556",
-                "pub.1059570290",
-                "pub.1049572366",
-                "pub.1005329280",
-                "pub.1044674002",
-                "pub.1069804371",
-                "pub.1030695398",
-                "pub.1041206214",
-                "pub.1044667787",
+                "pub.1013789585",
+                "pub.1014131101",
+                "pub.1025664436",
+                "pub.1064526370",
                 "pub.1018912937",
-                "pub.1014754908",
+                "pub.1059380075",
+                "pub.1073417393",
+                "pub.1037791434",
+                "pub.1010309311",
+                "pub.1059379589",
+                "pub.1013374027",
+                "pub.1059379566",
+                "pub.1039193306",
+                "pub.1061832797",
                 "pub.1034296010",
-                "pub.1069971904",
-                "pub.1042323245",
-                "pub.1061933686",
-                "pub.1115026397",
-                "pub.1098663805",
-                "pub.1025227855",
-                "pub.1061936536",
-                "pub.1059380177",
-                "pub.1017741574",
-                "pub.1059380142",
-                "pub.1025664436"
+                "pub.1069971904"
             ],
             "references": [
-                "pub.1061835195",
-                "pub.1008548399",
-                "pub.1039193306",
-                "pub.1059569083",
-                "pub.1010309311",
-                "pub.1061934131",
-                "pub.1077890233",
-                "pub.1012353089",
-                "pub.1032156468",
-                "pub.1083931543",
-                "pub.1059380075",
-                "pub.1031717691",
-                "pub.1032775270",
-                "pub.1014131101",
-                "pub.1017150571",
-                "pub.1061832797",
-                "pub.1064526370",
-                "pub.1059379566",
-                "pub.1042006139",
-                "pub.1064525511",
-                "pub.1077720839",
-                "pub.1037791434",
-                "pub.1017399618",
-                "pub.1073417393",
-                "pub.1110073698",
-                "pub.1013789585",
-                "pub.1040532753",
-                "pub.1059379589",
-                "pub.1058575100",
-                "pub.1064530700",
-                "pub.1045316917",
+                "pub.1041206214",
+                "pub.1115026397",
+                "pub.1058574556",
+                "pub.1058623920",
                 "pub.1074970726",
-                "pub.1013374027",
+                "pub.1044674002",
+                "pub.1045316917",
+                "pub.1064530700",
+                "pub.1110073698",
+                "pub.1032156468",
+                "pub.1061835195",
+                "pub.1049572366",
+                "pub.1031717691",
+                "pub.1030695398",
+                "pub.1032775270",
+                "pub.1017399618",
+                "pub.1059569083",
+                "pub.1040532753",
+                "pub.1017150571",
+                "pub.1043844860",
+                "pub.1061934131",
+                "pub.1083931543",
+                "pub.1042006139",
+                "pub.1008548399",
+                "pub.1005329280",
+                "pub.1059570290",
+                "pub.1042323245",
+                "pub.1059380142",
+                "pub.1077890233",
+                "pub.1077720839",
+                "pub.1017741574",
+                "pub.1012353089",
+                "pub.1014754908",
+                "pub.1025227855",
+                "pub.1102244462",
+                "pub.1006216324",
+                "pub.1098663805",
+                "pub.1059380177",
+                "pub.1044667787",
+                "pub.1064525511",
+                "pub.1042413566",
+                "pub.1061936536",
+                "pub.1058575100",
+                "pub.1061933686",
+                "pub.1069804371",
                 "pub.1026097282",
                 "pub.1027431945",
-                "pub.1042413566",
-                "pub.1006216324",
-                "pub.1043844860",
-                "pub.1058623920",
-                "pub.1058574556",
-                "pub.1059570290",
-                "pub.1049572366",
-                "pub.1005329280",
-                "pub.1044674002",
-                "pub.1069804371",
-                "pub.1030695398",
-                "pub.1041206214",
-                "pub.1044667787",
+                "pub.1013789585",
+                "pub.1014131101",
+                "pub.1025664436",
+                "pub.1064526370",
                 "pub.1018912937",
-                "pub.1014754908",
+                "pub.1059380075",
+                "pub.1073417393",
+                "pub.1037791434",
+                "pub.1010309311",
+                "pub.1059379589",
+                "pub.1013374027",
+                "pub.1059379566",
+                "pub.1039193306",
+                "pub.1061832797",
                 "pub.1034296010",
-                "pub.1069971904",
-                "pub.1042323245",
-                "pub.1061933686",
-                "pub.1115026397",
-                "pub.1098663805",
-                "pub.1025227855",
-                "pub.1061936536",
-                "pub.1059380177",
-                "pub.1017741574",
-                "pub.1059380142",
-                "pub.1025664436"
+                "pub.1069971904"
             ],
             "research_org_cities": [
                 {
@@ -17834,15 +18556,13 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "University of Wisconsin–Madison",
+                "Michigan State University",
+                "Iowa State University",
+                "California Polytechnic State University"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-CA",
-                    "name": "California"
-                },
-                {
-                    "id": "US-IA",
-                    "name": "Iowa"
-                },
                 {
                     "id": "US-WI",
                     "name": "Wisconsin"
@@ -17850,13 +18570,21 @@
                 {
                     "id": "US-MI",
                     "name": "Michigan"
+                },
+                {
+                    "id": "US-IA",
+                    "name": "Iowa"
+                },
+                {
+                    "id": "US-CA",
+                    "name": "California"
                 }
             ],
             "research_org_state_names": [
-                "Wisconsin",
-                "California",
                 "Michigan",
-                "Iowa"
+                "Iowa",
+                "Wisconsin",
+                "California"
             ],
             "research_orgs": [
                 {
@@ -17929,8 +18657,8 @@
                     "id": "ur.012520150346.31",
                     "last_name": "Dong",
                     "research_orgs": [
-                        "grid.14003.36",
-                        "grid.34421.30"
+                        "grid.34421.30",
+                        "grid.14003.36"
                     ]
                 },
                 {
@@ -17938,9 +18666,9 @@
                     "id": "ur.010670534704.69",
                     "last_name": "Hennessy",
                     "research_orgs": [
-                        "grid.17088.36",
                         "grid.34421.30",
-                        "grid.30064.31"
+                        "grid.30064.31",
+                        "grid.17088.36"
                     ]
                 },
                 {
@@ -17951,8 +18679,8 @@
                         "0000-0001-6878-1729"
                     ],
                     "research_orgs": [
-                        "grid.34421.30",
-                        "grid.430387.b"
+                        "grid.430387.b",
+                        "grid.34421.30"
                     ]
                 },
                 {
@@ -17978,11 +18706,9 @@
                 "U.S. dairy farms",
                 "dairy farms",
                 "farms",
-                "average herd size",
                 "herd size",
                 "size",
                 "exit",
-                "small herds",
                 "productive farms",
                 "operation size",
                 "efficient farms",
@@ -17994,8 +18720,6 @@
                 "cost",
                 "technical efficiency",
                 "efficiency",
-                "stochastic production frontier analysis",
-                "production frontier analysis",
                 "frontier analysis",
                 "analysis",
                 "endogenous inputs",
@@ -18566,17 +19290,37 @@
         },
         "doi": "10.1111/agec.12253",
         "keyphrases": {
+            "arms phase iii": {
+                "count": 1,
+                "rank_score": 0.040465754232940805
+            },
             "average herd sizes": {
                 "count": 1,
                 "rank_score": 0.11506973846886177
+            },
+            "costs": {
+                "count": 1,
+                "rank_score": 0.06592753891429828
             },
             "dairy production practices": {
                 "count": 1,
                 "rank_score": 0.0869697855930397
             },
+            "efficiency estimate": {
+                "count": 1,
+                "rank_score": 0.04462890325919339
+            },
+            "endogenous inputs": {
+                "count": 1,
+                "rank_score": 0.06179289059552729
+            },
             "exit intention": {
                 "count": 1,
                 "rank_score": 0.07455319871387923
+            },
+            "exits": {
+                "count": 1,
+                "rank_score": 0.060228573233807134
             },
             "farms": {
                 "count": 1,
@@ -18594,13 +19338,17 @@
                 "count": 1,
                 "rank_score": 0.08022383036343132
             },
+            "more productive farms": {
+                "count": 1,
+                "rank_score": 0.06245145284687582
+            },
+            "operation": {
+                "count": 1,
+                "rank_score": 0.06588744398407001
+            },
             "operation size": {
                 "count": 1,
                 "rank_score": 0.10063404969105252
-            },
-            "production": {
-                "count": 1,
-                "rank_score": 0.0723560221072004
             },
             "recent decades": {
                 "count": 2,
@@ -18610,6 +19358,10 @@
                 "count": 2,
                 "rank_score": 0.06803828064476672
             },
+            "smaller and less efficient farms": {
+                "count": 1,
+                "rank_score": 0.04592371798860405
+            },
             "smaller herds": {
                 "count": 1,
                 "rank_score": 0.09999485499472704
@@ -18618,6 +19370,14 @@
                 "count": 1,
                 "rank_score": 0.11079949222349594
             },
+            "stronger incentives": {
+                "count": 1,
+                "rank_score": 0.06254856174913825
+            },
+            "successors": {
+                "count": 1,
+                "rank_score": 0.047869176839352635
+            },
             "technical efficiency": {
                 "count": 1,
                 "rank_score": 0.08187882806972999
@@ -18625,6 +19385,10 @@
             "u.s. dairy farms": {
                 "count": 1,
                 "rank_score": 0.1243973085310341
+            },
+            "u.s. dairy industry": {
+                "count": 1,
+                "rank_score": 0.06415542316789248
             }
         },
         "original": {
@@ -18651,6 +19415,7 @@
                     "name": "08 Information and Computing Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -18667,8 +19432,9 @@
                             }
                         ],
                         "corresponding": true,
-                        "current_organization_id": "grid.250060.1",
+                        "current_organization_id": "grid.482913.5",
                         "first_name": "Jeffrey",
+                        "initials": "",
                         "last_name": "Gillespie",
                         "orcid": "",
                         "researcher_id": "ur.01214244502.40"
@@ -18689,6 +19455,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.482913.5",
                         "first_name": "Richard",
+                        "initials": "",
                         "last_name": "Nehring",
                         "orcid": "",
                         "researcher_id": "ur.016661112713.26"
@@ -18709,6 +19476,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.252567.1",
                         "first_name": "Isaac",
+                        "initials": "",
                         "last_name": "Sitienei",
                         "orcid": "",
                         "researcher_id": "ur.013166403173.49"
@@ -18730,8 +19498,9 @@
                         }
                     ],
                     "corresponding": true,
-                    "current_organization_id": "grid.250060.1",
+                    "current_organization_id": "grid.482913.5",
                     "first_name": "Jeffrey",
+                    "initials": "",
                     "last_name": "Gillespie",
                     "orcid": "",
                     "researcher_id": "ur.01214244502.40"
@@ -18752,6 +19521,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.482913.5",
                     "first_name": "Richard",
+                    "initials": "",
                     "last_name": "Nehring",
                     "orcid": "",
                     "researcher_id": "ur.016661112713.26"
@@ -18772,6 +19542,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.252567.1",
                     "first_name": "Isaac",
+                    "initials": "",
                     "last_name": "Sitienei",
                     "orcid": "",
                     "researcher_id": "ur.013166403173.49"
@@ -18817,8 +19588,7 @@
                 "greater increase",
                 "increase",
                 "adoption",
-                "automatic take-offs",
-                "off",
+                "breeding technologies",
                 "USDA",
                 "organic production",
                 "production",
@@ -18839,7 +19609,7 @@
             "date": "2014-12-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1186/s40100-014-0017-y",
-            "field_citation_ratio": 1.67,
+            "field_citation_ratio": 1.57,
             "id": "pub.1039681943",
             "issn": [
                 "2193-7532"
@@ -18850,11 +19620,31 @@
                 "title": "Agricultural and Food Economics"
             },
             "journal_lists": [
-                "DOAJ",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "VABB-SHW",
+                "DOAJ"
             ],
             "linkout": "https://agrifoodecon.springeropen.com/track/pdf/10.1186/s40100-014-0017-y",
+            "noun_phrases": [
+                "adoption",
+                "technology",
+                "management practice",
+                "production system",
+                "milk production",
+                "U.S.",
+                "Logistic Model",
+                "farm",
+                "great increase",
+                "take-off",
+                "Internet",
+                "organic",
+                "reduction",
+                "usage",
+                "tenure",
+                "diversification",
+                "farmer",
+                "Education"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -18876,46 +19666,46 @@
             "publisher": "Springer Nature",
             "recent_citations": 3,
             "reference_ids": [
-                "pub.1058305605",
-                "pub.1077596109",
-                "pub.1039957537",
+                "pub.1086086498",
                 "pub.1069635738",
                 "pub.1035614753",
-                "pub.1059379566",
-                "pub.1086081886",
-                "pub.1086086498",
+                "pub.1039957537",
                 "pub.1081703649",
-                "pub.1025599357",
-                "pub.1058736117",
-                "pub.1082967613",
-                "pub.1082438977",
                 "pub.1080068630",
-                "pub.1086085128",
+                "pub.1061936536",
+                "pub.1082438977",
+                "pub.1082967613",
+                "pub.1059379566",
                 "pub.1051033466",
-                "pub.1061936278",
+                "pub.1077596109",
+                "pub.1086081886",
+                "pub.1086085128",
+                "pub.1058305605",
+                "pub.1058736117",
                 "pub.1080064342",
-                "pub.1061936536"
+                "pub.1061936278",
+                "pub.1025599357"
             ],
             "references": [
-                "pub.1058305605",
-                "pub.1077596109",
-                "pub.1039957537",
+                "pub.1086086498",
                 "pub.1069635738",
                 "pub.1035614753",
-                "pub.1059379566",
-                "pub.1086081886",
-                "pub.1086086498",
+                "pub.1039957537",
                 "pub.1081703649",
-                "pub.1025599357",
-                "pub.1058736117",
-                "pub.1082967613",
-                "pub.1082438977",
                 "pub.1080068630",
-                "pub.1086085128",
+                "pub.1061936536",
+                "pub.1082438977",
+                "pub.1082967613",
+                "pub.1059379566",
                 "pub.1051033466",
-                "pub.1061936278",
+                "pub.1077596109",
+                "pub.1086081886",
+                "pub.1086085128",
+                "pub.1058305605",
+                "pub.1058736117",
                 "pub.1080064342",
-                "pub.1061936536"
+                "pub.1061936278",
+                "pub.1025599357"
             ],
             "research_org_cities": [
                 {
@@ -18936,14 +19726,19 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Louisiana State University Agricultural Center",
+                "Economic Research Service",
+                "Louisiana State University"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-LA",
-                    "name": "Louisiana"
-                },
                 {
                     "id": "US-DC",
                     "name": "District of Columbia"
+                },
+                {
+                    "id": "US-LA",
+                    "name": "Louisiana"
                 }
             ],
             "research_org_state_names": [
@@ -19005,11 +19800,11 @@
                     "id": "ur.01214244502.40",
                     "last_name": "Gillespie",
                     "research_orgs": [
-                        "grid.250060.1",
                         "grid.482913.5",
-                        "grid.441248.f",
+                        "grid.250060.1",
+                        "grid.463419.d",
                         "grid.64337.35",
-                        "grid.463419.d"
+                        "grid.441248.f"
                     ]
                 },
                 {
@@ -19017,10 +19812,10 @@
                     "id": "ur.016661112713.26",
                     "last_name": "Nehring",
                     "research_orgs": [
-                        "grid.250060.1",
+                        "grid.482913.5",
                         "grid.463419.d",
                         "grid.417548.b",
-                        "grid.482913.5"
+                        "grid.250060.1"
                     ]
                 },
                 {
@@ -19029,8 +19824,8 @@
                     "last_name": "Sitienei",
                     "research_orgs": [
                         "grid.264772.2",
-                        "grid.64337.35",
-                        "grid.252567.1"
+                        "grid.252567.1",
+                        "grid.64337.35"
                     ]
                 }
             ],
@@ -19052,8 +19847,7 @@
                 "greater increase",
                 "increase",
                 "adoption",
-                "automatic take-offs",
-                "off",
+                "breeding technologies",
                 "USDA",
                 "organic production",
                 "production",
@@ -20114,7 +20908,7 @@
         "abstract": "Adoption rates of 19 dairy technologies, management practices, and production systems (TMPPS) are estimated for the U.S. for 2005 and 2010 and, in cases where data are available, 1993 and 2000. Logit models are estimated to determine types of farms most likely to use each TMPPS. TMPPS experiencing the greatest increases in adoption have been automatic take-offs, the internet, breeding technologies, and USDA certified organic production; recombinant bovine somatotropin experienced a reduction in usage between 2005 and 2010. Factors influencing TMPPS usage include farm size, tenure, and diversification; farmer age and education; and region of the U.S. where the farm is located.",
         "authors": [
             "author-90bc4481530141e6afc5",
-            "author-728d2a4f000a921c7a9a",
+            "author-bb0ab303190804e8000c",
             "author-28dc2cf297e47b6eacfc"
         ],
         "datasets": [
@@ -20203,13 +20997,21 @@
                 "count": 1,
                 "rank_score": 0.08353627306318792
             },
+            "automatic take-offs": {
+                "count": 1,
+                "rank_score": 0.0602098341806069
+            },
             "breeding technologies": {
                 "count": 1,
                 "rank_score": 0.0945310058315573
             },
-            "data": {
+            "diversification": {
                 "count": 1,
-                "rank_score": 0.08218544850554951
+                "rank_score": 0.06573829329935181
+            },
+            "education": {
+                "count": 1,
+                "rank_score": 0.06757055207035213
             },
             "farm size": {
                 "count": 1,
@@ -20222,6 +21024,14 @@
             "farms": {
                 "count": 2,
                 "rank_score": 0.10620559697486827
+            },
+            "greatest increases": {
+                "count": 1,
+                "rank_score": 0.049367516566377924
+            },
+            "internet": {
+                "count": 1,
+                "rank_score": 0.034964964454456654
             },
             "logit models": {
                 "count": 1,
@@ -20239,6 +21049,14 @@
                 "count": 1,
                 "rank_score": 0.09996033629183201
             },
+            "region": {
+                "count": 1,
+                "rank_score": 0.05596644967986856
+            },
+            "tenure": {
+                "count": 1,
+                "rank_score": 0.061937754312281
+            },
             "tmpps": {
                 "count": 5,
                 "rank_score": 0.10642293329325833
@@ -20246,6 +21064,10 @@
             "tmpps usage": {
                 "count": 1,
                 "rank_score": 0.12503287782041525
+            },
+            "types": {
+                "count": 1,
+                "rank_score": 0.061459110693359534
             },
             "usage": {
                 "count": 1,
@@ -20280,6 +21102,7 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -20291,6 +21114,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.463419.d",
                         "first_name": "Hisham Said",
+                        "initials": "",
                         "last_name": "El-Osta",
                         "orcid": "",
                         "researcher_id": "ur.01175423072.92"
@@ -20307,6 +21131,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.463419.d",
                     "first_name": "Hisham Said",
+                    "initials": "",
                     "last_name": "El-Osta",
                     "orcid": "",
                     "researcher_id": "ur.01175423072.92"
@@ -20355,6 +21180,8 @@
                 "Resource Management Survey",
                 "Management Survey",
                 "survey",
+                "means",
+                "count-data models",
                 "special emphasis",
                 "emphasis",
                 "role",
@@ -20364,13 +21191,12 @@
                 "recommendations",
                 "quality of life",
                 "rural communities",
-                "community",
-                "zero-inflated count"
+                "community"
             ],
             "date": "2007-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/s11482-007-9035-1",
-            "field_citation_ratio": 1.5,
+            "field_citation_ratio": 1.76,
             "id": "pub.1046310079",
             "issn": [
                 "1871-2584",
@@ -20382,9 +21208,33 @@
                 "title": "Applied Research in Quality of Life"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "determinant",
+                "life indicator",
+                "count data",
+                "assessment",
+                "life",
+                "USA",
+                "paper",
+                "attribute",
+                "segment",
+                "population",
+                "operator",
+                "resource management",
+                "database",
+                "indicator",
+                "mean",
+                "special emphasis",
+                "preponderance",
+                "zero",
+                "index",
+                "policy recommendation",
+                "Rural Population"
             ],
             "open_access_categories": [
                 {
@@ -20397,36 +21247,36 @@
             "publisher": "Springer Nature",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1069421209",
-                "pub.1069892767",
-                "pub.1098669308",
+                "pub.1069640764",
                 "pub.1069639909",
                 "pub.1069639422",
-                "pub.1069640764",
-                "pub.1069848927",
-                "pub.1025906030",
-                "pub.1102209915",
-                "pub.1030424577",
-                "pub.1069868795",
-                "pub.1030866454",
                 "pub.1109737957",
-                "pub.1069757151"
+                "pub.1030866454",
+                "pub.1025906030",
+                "pub.1069892767",
+                "pub.1069868795",
+                "pub.1098669308",
+                "pub.1030424577",
+                "pub.1069757151",
+                "pub.1102209915",
+                "pub.1069421209",
+                "pub.1069848927"
             ],
             "references": [
-                "pub.1069421209",
-                "pub.1069892767",
-                "pub.1098669308",
+                "pub.1069640764",
                 "pub.1069639909",
                 "pub.1069639422",
-                "pub.1069640764",
-                "pub.1069848927",
-                "pub.1025906030",
-                "pub.1102209915",
-                "pub.1030424577",
-                "pub.1069868795",
-                "pub.1030866454",
                 "pub.1109737957",
-                "pub.1069757151"
+                "pub.1030866454",
+                "pub.1025906030",
+                "pub.1069892767",
+                "pub.1069868795",
+                "pub.1098669308",
+                "pub.1030424577",
+                "pub.1069757151",
+                "pub.1102209915",
+                "pub.1069421209",
+                "pub.1069848927"
             ],
             "research_org_cities": [
                 {
@@ -20443,6 +21293,15 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "RRED/ERS/USDA, Room N-4082, 1800 M St., NW, 20036, Washington, DC, USA"
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-DC",
+                    "name": "District of Columbia"
+                }
+            ],
             "research_org_state_names": [
                 "Washington, D.C."
             ],
@@ -20452,8 +21311,8 @@
                     "id": "ur.01175423072.92",
                     "last_name": "El-Osta",
                     "research_orgs": [
-                        "grid.463419.d",
-                        "grid.482913.5"
+                        "grid.482913.5",
+                        "grid.463419.d"
                     ]
                 }
             ],
@@ -20478,6 +21337,8 @@
                 "Resource Management Survey",
                 "Management Survey",
                 "survey",
+                "means",
+                "count-data models",
                 "special emphasis",
                 "emphasis",
                 "role",
@@ -20487,8 +21348,7 @@
                 "recommendations",
                 "quality of life",
                 "rural communities",
-                "community",
-                "zero-inflated count"
+                "community"
             ],
             "times_cited": 6,
             "title": "The Determinants of a Quality of Life Indicator for Farm Operator Households: Application of Zero-Inflated Count-Data Models",
@@ -21439,7 +22299,7 @@
         },
         "abstract": "The assessment of the determinants of quality of life in the USA has long been a focus of many researchers. This paper contributes towards that effort by focusing on the quality of life attributes of a segment of the population; namely, farm operator households. To assist in this effort, a quality of life indicator is constructed based on data from the 2004 Agricultural Resource Management Survey along with some auxiliary databases. The determinants of this indicator have been assessed by means of count-data models with special emphasis being given to the role of the preponderance of zeros in the constructed index. Based on the findings, some policy recommendations on how to improve the quality of life in the rural communities are provided.",
         "authors": [
-            "author-e61f0853269871be7755"
+            "author-66781e1c4c38788dda19"
         ],
         "datasets": [
             "dataset-870",
@@ -21516,61 +22376,73 @@
         },
         "doi": "10.1007/s11482-007-9035-1",
         "keyphrases": {
+            "assessment": {
+                "count": 1,
+                "rank_score": 0.02413463130427839
+            },
             "attributes": {
                 "count": 1,
                 "rank_score": 0.06923437661544388
+            },
+            "constructed index": {
+                "count": 1,
+                "rank_score": 0.0555997044665634
             },
             "count-data models": {
                 "count": 1,
                 "rank_score": 0.07059944708577183
             },
-            "data": {
-                "count": 1,
-                "rank_score": 0.08289539238011262
+            "determinants": {
+                "count": 2,
+                "rank_score": 0.03676739639747228
             },
-            "life": {
-                "count": 3,
-                "rank_score": 0.11001690870184368
+            "effort": {
+                "count": 2,
+                "rank_score": 0.04454444034224888
+            },
+            "focus": {
+                "count": 1,
+                "rank_score": 0.03646624787447364
+            },
+            "indicator": {
+                "count": 1,
+                "rank_score": 0.048244508410934805
             },
             "life indicator": {
                 "count": 1,
                 "rank_score": 0.1311301326715171
             },
-            "many researchers": {
-                "count": 1,
-                "rank_score": 0.08932370012631205
-            },
-            "means": {
-                "count": 1,
-                "rank_score": 0.058344167076011096
-            },
             "namely, farm operator households": {
                 "count": 1,
                 "rank_score": 0.04872201825071566
             },
-            "quality": {
-                "count": 4,
-                "rank_score": 0.11704427472682574
+            "population": {
+                "count": 1,
+                "rank_score": 0.026441253813453323
+            },
+            "preponderance": {
+                "count": 1,
+                "rank_score": 0.03249383136580184
+            },
+            "rural communities": {
+                "count": 1,
+                "rank_score": 0.050518408103661386
+            },
+            "segment": {
+                "count": 1,
+                "rank_score": 0.03428945630372653
             },
             "some auxiliary databases": {
                 "count": 1,
                 "rank_score": 0.052716069030222
             },
+            "some policy recommendations": {
+                "count": 1,
+                "rank_score": 0.04663857092782857
+            },
             "special emphasis": {
                 "count": 1,
                 "rank_score": 0.09238965112610341
-            },
-            "the 2004 agricultural resource management survey": {
-                "count": 2,
-                "rank_score": 0.056725274471403436
-            },
-            "the constructed index": {
-                "count": 1,
-                "rank_score": 0.0555997044665634
-            },
-            "the rural communities": {
-                "count": 1,
-                "rank_score": 0.050518408103661386
             },
             "zeros": {
                 "count": 2,

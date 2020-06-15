@@ -10,6 +10,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Elaine",
+                        "initials": "",
                         "last_name": "Maag",
                         "orcid": "",
                         "researcher_id": ""
@@ -19,6 +20,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.56362.34",
                         "first_name": "C. Eugene",
+                        "initials": "",
                         "last_name": "Steuerle",
                         "orcid": "",
                         "researcher_id": "ur.01027372267.95"
@@ -28,6 +30,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Ritadhi",
+                        "initials": "",
                         "last_name": "Chakravarti",
                         "orcid": "",
                         "researcher_id": ""
@@ -37,6 +40,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Caleb",
+                        "initials": "",
                         "last_name": "Quakenbush",
                         "orcid": "",
                         "researcher_id": ""
@@ -49,6 +53,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Elaine",
+                    "initials": "",
                     "last_name": "Maag",
                     "orcid": "",
                     "researcher_id": ""
@@ -58,6 +63,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.56362.34",
                     "first_name": "C. Eugene",
+                    "initials": "",
                     "last_name": "Steuerle",
                     "orcid": "",
                     "researcher_id": "ur.01027372267.95"
@@ -67,6 +73,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Ritadhi",
+                    "initials": "",
                     "last_name": "Chakravarti",
                     "orcid": "",
                     "researcher_id": ""
@@ -76,6 +83,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Caleb",
+                    "initials": "",
                     "last_name": "Quakenbush",
                     "orcid": "",
                     "researcher_id": ""
@@ -87,12 +95,12 @@
                     "name": "18 Law and Legal Studies"
                 },
                 {
-                    "id": "3326",
-                    "name": "1501 Accounting, Auditing and Accountability"
-                },
-                {
                     "id": "3494",
                     "name": "1801 Law"
+                },
+                {
+                    "id": "3326",
+                    "name": "1501 Accounting, Auditing and Accountability"
                 },
                 {
                     "id": "2215",
@@ -100,17 +108,14 @@
                 }
             ],
             "concepts": [
-                "marginal tax rates",
-                "tax rates",
+                "rate",
                 "family",
-                "level of poverty",
-                "levels",
-                "poverty"
+                "levels"
             ],
             "date": "2012-12-01",
             "date_inserted": "2017-08-31",
             "doi": "10.17310/ntj.2012.4.02",
-            "field_citation_ratio": 6.27,
+            "field_citation_ratio": 6.3,
             "id": "pub.1068329436",
             "issn": [
                 "0028-0283",
@@ -123,8 +128,9 @@
                 "title": "National Tax Journal"
             },
             "journal_lists": [
-                "ERA 2015",
-                "Norwegian register level 1"
+                "ERA 2018",
+                "Norwegian register level 1",
+                "ERA 2015"
             ],
             "linkout": "http://www.urban.org/UploadedPDF/412722-How-marginal-Tax-Rates-Affect-Families.pdf",
             "open_access": [
@@ -158,12 +164,9 @@
                 }
             ],
             "terms": [
-                "marginal tax rates",
-                "tax rates",
+                "rate",
                 "family",
-                "level of poverty",
-                "levels",
-                "poverty"
+                "levels"
             ],
             "times_cited": 8,
             "title": "How Marginal Tax Rates Affect Families at Various Levels of Poverty",
@@ -847,9 +850,21 @@
         },
         "doi": "10.17310/ntj.2012.4.02",
         "keyphrases": {
-            "an average marginal tax rate": {
+            "additional earnings": {
+                "count": 1,
+                "rank_score": 0.04774411280037738
+            },
+            "assumptions": {
+                "count": 1,
+                "rank_score": 0.054417863241114556
+            },
+            "average marginal tax rate": {
                 "count": 1,
                 "rank_score": 0.0956473798274079
+            },
+            "both state": {
+                "count": 2,
+                "rank_score": 0.043910771798817624
             },
             "both supplemental nutrition assistance program benefits": {
                 "count": 1,
@@ -863,6 +878,10 @@
                 "count": 1,
                 "rank_score": 0.0916338520273359
             },
+            "her earnings": {
+                "count": 1,
+                "rank_score": 0.03951439479168568
+            },
             "her marginal rate": {
                 "count": 1,
                 "rank_score": 0.07779891145220533
@@ -870,6 +889,10 @@
             "high marginal tax rates": {
                 "count": 1,
                 "rank_score": 0.14241612149634278
+            },
+            "high tax rates": {
+                "count": 1,
+                "rank_score": 0.08390625470824176
             },
             "how sensitive marginal tax rates": {
                 "count": 1,
@@ -879,13 +902,33 @@
                 "count": 1,
                 "rank_score": 0.07629709610157429
             },
+            "low-income families": {
+                "count": 1,
+                "rank_score": 0.059721831498288205
+            },
+            "needy families": {
+                "count": 1,
+                "rank_score": 0.06850773734752078
+            },
             "poverty": {
                 "count": 1,
                 "rank_score": 0.0774042506588788
             },
+            "poverty level": {
+                "count": 2,
+                "rank_score": 0.05008640500907409
+            },
             "program participation": {
                 "count": 1,
                 "rank_score": 0.07112880032400642
+            },
+            "same income range": {
+                "count": 1,
+                "rank_score": 0.055442491438819415
+            },
+            "single parent": {
+                "count": 1,
+                "rank_score": 0.039967988161707796
             },
             "supplemental nutrition assistance program": {
                 "count": 1,
@@ -895,9 +938,9 @@
                 "count": 1,
                 "rank_score": 0.08141365090092834
             },
-            "these high tax rates": {
+            "temporary assistance for needy families": {
                 "count": 1,
-                "rank_score": 0.08390625470824176
+                "rank_score": 0.06191714587982161
             },
             "transfer benefits": {
                 "count": 1,
@@ -916,6 +959,7 @@
     },
     {
         "Dimensions": {
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -923,6 +967,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.419482.2",
                         "first_name": "Quinn",
+                        "initials": "",
                         "last_name": "Moore",
                         "orcid": "",
                         "researcher_id": "ur.016352375507.82"
@@ -932,6 +977,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Robert G.",
+                        "initials": "",
                         "last_name": "Wood",
                         "orcid": "",
                         "researcher_id": "ur.014137061045.92"
@@ -941,6 +987,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Anu",
+                        "initials": "",
                         "last_name": "Rangarajan",
                         "orcid": "",
                         "researcher_id": "ur.010421711645.73"
@@ -953,6 +1000,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.419482.2",
                     "first_name": "Quinn",
+                    "initials": "",
                     "last_name": "Moore",
                     "orcid": "",
                     "researcher_id": "ur.016352375507.82"
@@ -962,6 +1010,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Robert G.",
+                    "initials": "",
                     "last_name": "Wood",
                     "orcid": "",
                     "researcher_id": "ur.014137061045.92"
@@ -971,6 +1020,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Anu",
+                    "initials": "",
                     "last_name": "Rangarajan",
                     "orcid": "",
                     "researcher_id": "ur.010421711645.73"
@@ -987,15 +1037,12 @@
                 }
             ],
             "concepts": [
-                "dynamics",
-                "women",
-                "employment",
-                "welfare"
+                "women"
             ],
             "date": "2012-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1086/665735",
-            "field_citation_ratio": 5.46,
+            "field_citation_ratio": 6.06,
             "id": "pub.1058850391",
             "issn": [
                 "0037-7961",
@@ -1007,9 +1054,10 @@
                 "title": "Social Service Review"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
             ],
             "open_access_categories": [
                 {
@@ -1020,26 +1068,26 @@
             ],
             "pages": "93-118",
             "publisher": "University of Chicago Press",
-            "recent_citations": 5,
+            "recent_citations": 6,
             "reference_ids": [
-                "pub.1058794664",
-                "pub.1058715892",
+                "pub.1049245218",
                 "pub.1058712378",
                 "pub.1032187455",
-                "pub.1049245218",
-                "pub.1060043750",
+                "pub.1058794664",
+                "pub.1058639622",
                 "pub.1024617522",
-                "pub.1058639622"
+                "pub.1058715892",
+                "pub.1060043750"
             ],
             "references": [
-                "pub.1058794664",
-                "pub.1058715892",
+                "pub.1049245218",
                 "pub.1058712378",
                 "pub.1032187455",
-                "pub.1049245218",
-                "pub.1060043750",
+                "pub.1058794664",
+                "pub.1058639622",
                 "pub.1024617522",
-                "pub.1058639622"
+                "pub.1058715892",
+                "pub.1060043750"
             ],
             "researchers": [
                 {
@@ -1062,12 +1110,9 @@
                 }
             ],
             "terms": [
-                "dynamics",
-                "women",
-                "employment",
-                "welfare"
+                "women"
             ],
-            "times_cited": 14,
+            "times_cited": 15,
             "title": "The Dynamics of Women Disconnected from Employment and Welfare",
             "type": "article",
             "volume": "86",
@@ -1309,21 +1354,13 @@
                 "count": 1,
                 "rank_score": 0.04853568381162902
             },
-            "factors": {
+            "labor market": {
                 "count": 1,
-                "rank_score": 0.1388254950169542
+                "rank_score": 0.0973375566173095
             },
             "other substantial financial supports": {
                 "count": 1,
                 "rank_score": 0.204775836980176
-            },
-            "the labor market": {
-                "count": 1,
-                "rank_score": 0.0973375566173095
-            },
-            "this study": {
-                "count": 1,
-                "rank_score": 0.06433429060366858
             },
             "transitions": {
                 "count": 1,

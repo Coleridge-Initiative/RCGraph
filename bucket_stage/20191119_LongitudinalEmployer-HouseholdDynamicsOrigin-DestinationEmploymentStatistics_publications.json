@@ -13,7 +13,7 @@
                     "name": "14 Economics"
                 }
             ],
-            "altmetric": 105.0,
+            "altmetric": 114.0,
             "altmetric_id": 65397826,
             "author_affiliations": [
                 [
@@ -22,6 +22,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Jeffrey",
+                        "initials": "",
                         "last_name": "Brinkman",
                         "orcid": "",
                         "researcher_id": ""
@@ -31,6 +32,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "David",
+                        "initials": "",
                         "last_name": "Mok-Lamme",
                         "orcid": "",
                         "researcher_id": ""
@@ -43,6 +45,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Jeffrey",
+                    "initials": "",
                     "last_name": "Brinkman",
                     "orcid": "",
                     "researcher_id": ""
@@ -52,6 +55,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "David",
+                    "initials": "",
                     "last_name": "Mok-Lamme",
                     "orcid": "",
                     "researcher_id": ""
@@ -67,6 +71,7 @@
                     "name": "14 Economics"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30017",
@@ -81,15 +86,12 @@
             ],
             "concepts": [
                 "paper",
-                "effects",
-                "marijuana legalization",
+                "effect",
                 "legalization",
                 "neighborhood crime",
                 "crime",
-                "documents",
                 "detailed micro-level data",
                 "micro-level data",
-                "level data",
                 "data",
                 "novel identification strategy",
                 "identification strategy",
@@ -97,7 +99,6 @@
                 "exogenous changes",
                 "changes",
                 "demand",
-                "increased importance",
                 "importance",
                 "external markets",
                 "market",
@@ -105,7 +106,8 @@
                 "results",
                 "neighborhood",
                 "residents",
-                "relatives",
+                "percent decline",
+                "decline",
                 "crime rates",
                 "rate",
                 "sample period",
@@ -133,30 +135,66 @@
                 "title": "Regional Science and Urban Economics"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "linkout": "https://www.philadelphiafed.org/-/media/research-and-data/publications/working-papers/2017/wp17-19.pdf?utm_campaign=WorkingPapers&utm_source=2017/07/17&utm_medium=E-mail",
+            "noun_phrases": [
+                "backyard",
+                "legalization",
+                "crime",
+                "paper",
+                "pattern",
+                "location",
+                "micro-level data",
+                "Denver",
+                "Colorado",
+                "identification strategy",
+                "exogenous change",
+                "demand",
+                "different location",
+                "increased importance",
+                "market",
+                "Residence Characteristic",
+                "reduction",
+                "resident",
+                "decline",
+                "crime rate",
+                "sample",
+                "evidence",
+                "spillover",
+                "category"
+            ],
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - submitted"
             ],
             "open_access_categories": [
                 {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Free copy of submitted version, or where version is unknown, in an OA repository",
+                    "id": "green_sub",
+                    "name": "Green, Submitted"
                 }
             ],
             "pages": "103460",
             "publisher": "Elsevier",
+            "recent_citations": 0,
             "terms": [
                 "paper",
-                "effects",
-                "marijuana legalization",
+                "effect",
                 "legalization",
                 "neighborhood crime",
                 "crime",
-                "documents",
                 "detailed micro-level data",
                 "micro-level data",
-                "level data",
                 "data",
                 "novel identification strategy",
                 "identification strategy",
@@ -164,7 +202,6 @@
                 "exogenous changes",
                 "changes",
                 "demand",
-                "increased importance",
                 "importance",
                 "external markets",
                 "market",
@@ -172,7 +209,8 @@
                 "results",
                 "neighborhood",
                 "residents",
-                "relatives",
+                "percent decline",
+                "decline",
                 "crime rates",
                 "rate",
                 "sample period",
@@ -187,6 +225,7 @@
                 "insights",
                 "backyard"
             ],
+            "times_cited": 0,
             "title": "Not in my backyard? Not so fast. The effect of marijuana legalization on neighborhood crime",
             "type": "article",
             "volume": "78",
@@ -485,13 +524,21 @@
                 "count": 1,
                 "rank_score": 0.08481747958519212
             },
-            "changes": {
-                "count": 4,
-                "rank_score": 0.09751559686987735
+            "benefits": {
+                "count": 1,
+                "rank_score": 0.04983352399533346
             },
             "crime": {
                 "count": 2,
                 "rank_score": 0.11258471083871818
+            },
+            "demand": {
+                "count": 1,
+                "rank_score": 0.07040121265826306
+            },
+            "denver": {
+                "count": 2,
+                "rank_score": 0.05417698524645635
             },
             "detailed crime categories": {
                 "count": 1,
@@ -517,6 +564,22 @@
                 "count": 1,
                 "rank_score": 0.07853342449607895
             },
+            "highly local panel data": {
+                "count": 1,
+                "rank_score": 0.04795817693811759
+            },
+            "illicit markets": {
+                "count": 1,
+                "rank_score": 0.07559885689518626
+            },
+            "indirect evidence": {
+                "count": 1,
+                "rank_score": 0.07484755506874784
+            },
+            "marijuana": {
+                "count": 2,
+                "rank_score": 0.06626621218334917
+            },
             "marijuana dispensaries": {
                 "count": 1,
                 "rank_score": 0.08889112114513283
@@ -529,13 +592,29 @@
                 "count": 2,
                 "rank_score": 0.12796094217902307
             },
+            "neighborhoods": {
+                "count": 1,
+                "rank_score": 0.043509400930019926
+            },
+            "novel identification strategy": {
+                "count": 1,
+                "rank_score": 0.05054779163980737
+            },
             "reduced crime": {
                 "count": 1,
                 "rank_score": 0.11250585115287469
             },
+            "reductions": {
+                "count": 2,
+                "rank_score": 0.05419296568197607
+            },
             "retail dispensaries": {
                 "count": 1,
                 "rank_score": 0.09640615353288856
+            },
+            "state and local policy": {
+                "count": 1,
+                "rank_score": 0.05400398684094508
             },
             "unique geospatial data": {
                 "count": 1,
@@ -572,6 +651,7 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -583,6 +663,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Chunil",
+                        "initials": "",
                         "last_name": "Kim",
                         "orcid": "",
                         "researcher_id": ""
@@ -603,6 +684,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.412010.6",
                         "first_name": "Choongik",
+                        "initials": "",
                         "last_name": "Choi",
                         "orcid": "",
                         "researcher_id": "ur.016546144274.36"
@@ -619,6 +701,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Chunil",
+                    "initials": "",
                     "last_name": "Kim",
                     "orcid": "",
                     "researcher_id": ""
@@ -639,6 +722,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.412010.6",
                     "first_name": "Choongik",
+                    "initials": "",
                     "last_name": "Choi",
                     "orcid": "",
                     "researcher_id": "ur.016546144274.36"
@@ -650,6 +734,7 @@
                     "name": "12 Built Environment and Design"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30013",
@@ -666,22 +751,20 @@
                 "paper",
                 "debate",
                 "co-location hypothesis",
-                "location hypothesis",
                 "measures",
                 "urban form measures",
                 "form measures",
                 "statistics data",
                 "number of jobs",
                 "jobs",
+                "fine geography",
                 "geography",
                 "degree of centralization",
                 "centralization",
                 "proximity",
-                "housing mismatch",
+                "jobs–housing mismatch",
+                "mismatch",
                 "analysis",
-                "worker proximity",
-                "shorter commuting time",
-                "commuting time",
                 "suburban areas",
                 "area",
                 "impact",
@@ -691,7 +774,8 @@
                 "center",
                 "urban spatial structure",
                 "spatial structure",
-                "decentralization"
+                "decentralization",
+                "commuting time"
             ],
             "date": "2019-02-15",
             "date_inserted": "2019-02-19",
@@ -706,12 +790,33 @@
                 "title": "Sustainability"
             },
             "journal_lists": [
-                "DOAJ",
-                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "DOAJ",
+                "ERA 2015"
             ],
             "linkout": "https://www.mdpi.com/2071-1050/11/4/1012/pdf",
+            "noun_phrases": [
+                "urban spatial structure",
+                "Reduce",
+                "paper",
+                "debate",
+                "co-location",
+                "proximity",
+                "urban form",
+                "destination",
+                "job",
+                "geography",
+                "centralization",
+                "mismatch",
+                "multiple regression analysis",
+                "Time",
+                "imbalance",
+                "suburb",
+                "comparison",
+                "city center"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -731,131 +836,132 @@
             ],
             "pages": "1012",
             "publisher": "MDPI",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1058154869",
-                "pub.1044621393",
-                "pub.1064526801",
-                "pub.1061833257",
-                "pub.1011866980",
-                "pub.1042481945",
-                "pub.1000552651",
-                "pub.1015652859",
-                "pub.1006755554",
-                "pub.1102205100",
-                "pub.1016351343",
-                "pub.1008790878",
-                "pub.1007515380",
-                "pub.1005337292",
-                "pub.1050715478",
-                "pub.1050044705",
-                "pub.1029786135",
-                "pub.1063352907",
-                "pub.1069498675",
-                "pub.1036087081",
-                "pub.1050082324",
-                "pub.1013633746",
-                "pub.1058575060",
+                "pub.1038223007",
                 "pub.1070211149",
-                "pub.1011199454",
-                "pub.1034900492",
-                "pub.1042729550",
-                "pub.1006612903",
-                "pub.1024660599",
-                "pub.1075161180",
-                "pub.1026940253",
-                "pub.1012091945",
-                "pub.1098495672",
+                "pub.1058574588",
+                "pub.1034628381",
+                "pub.1008391321",
+                "pub.1013633746",
+                "pub.1036087081",
                 "pub.1058575325",
                 "pub.1027317694",
-                "pub.1008391321",
-                "pub.1035339051",
-                "pub.1005458825",
-                "pub.1021246944",
-                "pub.1046295947",
-                "pub.1064525159",
-                "pub.1034628381",
-                "pub.1020272568",
-                "pub.1058153706",
-                "pub.1014662849",
-                "pub.1006171594",
-                "pub.1042517053",
-                "pub.1020036503",
                 "pub.1038599048",
-                "pub.1102978235",
-                "pub.1014190625",
-                "pub.1011497024",
-                "pub.1042069236",
-                "pub.1003284725",
+                "pub.1050082324",
+                "pub.1014662849",
+                "pub.1042729550",
                 "pub.1022082878",
-                "pub.1028365534",
-                "pub.1033538640",
+                "pub.1005337292",
+                "pub.1006755554",
+                "pub.1006612903",
+                "pub.1042517053",
+                "pub.1058153706",
+                "pub.1024660599",
+                "pub.1011497024",
+                "pub.1051792925",
+                "pub.1015652859",
+                "pub.1007515380",
+                "pub.1005458825",
+                "pub.1058154869",
+                "pub.1000552651",
+                "pub.1020036503",
+                "pub.1034900492",
+                "pub.1011199454",
+                "pub.1061833257",
+                "pub.1011866980",
+                "pub.1064526801",
                 "pub.1006918194",
-                "pub.1038223007",
-                "pub.1058574588",
-                "pub.1051792925"
+                "pub.1058575060",
+                "pub.1102978235",
+                "pub.1020272568",
+                "pub.1003284725",
+                "pub.1028365534",
+                "pub.1006171594",
+                "pub.1035339051",
+                "pub.1042069236",
+                "pub.1029786135",
+                "pub.1069498675",
+                "pub.1050715478",
+                "pub.1075161180",
+                "pub.1046295947",
+                "pub.1033538640",
+                "pub.1016351343",
+                "pub.1064525159",
+                "pub.1042481945",
+                "pub.1021246944",
+                "pub.1098495672",
+                "pub.1102205100",
+                "pub.1014190625",
+                "pub.1050044705",
+                "pub.1012091945",
+                "pub.1044621393",
+                "pub.1008790878",
+                "pub.1026940253",
+                "pub.1063352907"
             ],
             "references": [
-                "pub.1058154869",
-                "pub.1044621393",
-                "pub.1064526801",
-                "pub.1061833257",
-                "pub.1011866980",
-                "pub.1042481945",
-                "pub.1000552651",
-                "pub.1015652859",
-                "pub.1006755554",
-                "pub.1102205100",
-                "pub.1016351343",
-                "pub.1008790878",
-                "pub.1007515380",
-                "pub.1005337292",
-                "pub.1050715478",
-                "pub.1050044705",
-                "pub.1029786135",
-                "pub.1063352907",
-                "pub.1069498675",
-                "pub.1036087081",
-                "pub.1050082324",
-                "pub.1013633746",
-                "pub.1058575060",
+                "pub.1038223007",
                 "pub.1070211149",
-                "pub.1011199454",
-                "pub.1034900492",
-                "pub.1042729550",
-                "pub.1006612903",
-                "pub.1024660599",
-                "pub.1075161180",
-                "pub.1026940253",
-                "pub.1012091945",
-                "pub.1098495672",
+                "pub.1058574588",
+                "pub.1034628381",
+                "pub.1008391321",
+                "pub.1013633746",
+                "pub.1036087081",
                 "pub.1058575325",
                 "pub.1027317694",
-                "pub.1008391321",
-                "pub.1035339051",
-                "pub.1005458825",
-                "pub.1021246944",
-                "pub.1046295947",
-                "pub.1064525159",
-                "pub.1034628381",
-                "pub.1020272568",
-                "pub.1058153706",
-                "pub.1014662849",
-                "pub.1006171594",
-                "pub.1042517053",
-                "pub.1020036503",
                 "pub.1038599048",
-                "pub.1102978235",
-                "pub.1014190625",
-                "pub.1011497024",
-                "pub.1042069236",
-                "pub.1003284725",
+                "pub.1050082324",
+                "pub.1014662849",
+                "pub.1042729550",
                 "pub.1022082878",
-                "pub.1028365534",
-                "pub.1033538640",
+                "pub.1005337292",
+                "pub.1006755554",
+                "pub.1006612903",
+                "pub.1042517053",
+                "pub.1058153706",
+                "pub.1024660599",
+                "pub.1011497024",
+                "pub.1051792925",
+                "pub.1015652859",
+                "pub.1007515380",
+                "pub.1005458825",
+                "pub.1058154869",
+                "pub.1000552651",
+                "pub.1020036503",
+                "pub.1034900492",
+                "pub.1011199454",
+                "pub.1061833257",
+                "pub.1011866980",
+                "pub.1064526801",
                 "pub.1006918194",
-                "pub.1038223007",
-                "pub.1058574588",
-                "pub.1051792925"
+                "pub.1058575060",
+                "pub.1102978235",
+                "pub.1020272568",
+                "pub.1003284725",
+                "pub.1028365534",
+                "pub.1006171594",
+                "pub.1035339051",
+                "pub.1042069236",
+                "pub.1029786135",
+                "pub.1069498675",
+                "pub.1050715478",
+                "pub.1075161180",
+                "pub.1046295947",
+                "pub.1033538640",
+                "pub.1016351343",
+                "pub.1064525159",
+                "pub.1042481945",
+                "pub.1021246944",
+                "pub.1098495672",
+                "pub.1102205100",
+                "pub.1014190625",
+                "pub.1050044705",
+                "pub.1012091945",
+                "pub.1044621393",
+                "pub.1008790878",
+                "pub.1026940253",
+                "pub.1063352907"
             ],
             "research_org_cities": [
                 {
@@ -876,8 +982,9 @@
             "research_org_country_names": [
                 "South Korea"
             ],
-            "research_org_state_names": [
-                "Busan"
+            "research_org_names": [
+                "Kangwon National University",
+                "Housing Urban Finance Institute, Korea Housing & Urban Guarantee Corporation (HUG), BIFC, 40 Munhyeon-geumyung-ro, Nam-gu, Busan 48400, Korea;, neo1001@snu.ac.kr"
             ],
             "research_orgs": [
                 {
@@ -910,22 +1017,20 @@
                 "paper",
                 "debate",
                 "co-location hypothesis",
-                "location hypothesis",
                 "measures",
                 "urban form measures",
                 "form measures",
                 "statistics data",
                 "number of jobs",
                 "jobs",
+                "fine geography",
                 "geography",
                 "degree of centralization",
                 "centralization",
                 "proximity",
-                "housing mismatch",
+                "jobs–housing mismatch",
+                "mismatch",
                 "analysis",
-                "worker proximity",
-                "shorter commuting time",
-                "commuting time",
                 "suburban areas",
                 "area",
                 "impact",
@@ -935,8 +1040,10 @@
                 "center",
                 "urban spatial structure",
                 "spatial structure",
-                "decentralization"
+                "decentralization",
+                "commuting time"
             ],
+            "times_cited": 0,
             "title": "Towards Sustainable Urban Spatial Structure: Does Decentralization Reduce Commuting Times?",
             "type": "article",
             "volume": "11",
@@ -2790,25 +2897,49 @@
         },
         "doi": "10.3390/su11041012",
         "keyphrases": {
-            "a proximity measure": {
+            "centralization, proximity, and job–housing mismatch": {
                 "count": 1,
-                "rank_score": 0.06068368984666317
+                "rank_score": 0.05002597755191687
             },
-            "comparison": {
+            "city center": {
                 "count": 1,
-                "rank_score": 0.060175580329577316
+                "rank_score": 0.042972680801899366
+            },
+            "co-location hypothesis": {
+                "count": 1,
+                "rank_score": 0.06725340733654249
+            },
+            "commuting time": {
+                "count": 1,
+                "rank_score": 0.048871151366778526
+            },
+            "degree": {
+                "count": 1,
+                "rank_score": 0.033617794997958625
+            },
+            "existing debate": {
+                "count": 1,
+                "rank_score": 0.041634159930209025
+            },
+            "finer geography": {
+                "count": 1,
+                "rank_score": 0.03623714935394489
             },
             "household dynamics": {
                 "count": 1,
                 "rank_score": 0.07584413268987525
             },
-            "jobs": {
-                "count": 4,
-                "rank_score": 0.10936209821637878
+            "impact": {
+                "count": 2,
+                "rank_score": 0.03175608540430222
             },
             "lehd": {
                 "count": 2,
                 "rank_score": 0.06581035212924075
+            },
+            "lodes) data": {
+                "count": 1,
+                "rank_score": 0.044635387570709444
             },
             "longitudinal employer": {
                 "count": 1,
@@ -2830,13 +2961,25 @@
                 "count": 1,
                 "rank_score": 0.10029994664399462
             },
+            "proximity measure": {
+                "count": 1,
+                "rank_score": 0.06068368984666317
+            },
+            "set": {
+                "count": 1,
+                "rank_score": 0.029137031134251833
+            },
+            "shorter commuting time": {
+                "count": 1,
+                "rank_score": 0.05605186431262905
+            },
+            "suburb": {
+                "count": 1,
+                "rank_score": 0.029981058068932177
+            },
             "suburban areas": {
                 "count": 1,
                 "rank_score": 0.08039220555619306
-            },
-            "the co-location hypothesis": {
-                "count": 1,
-                "rank_score": 0.06725340733654249
             },
             "worker imbalance": {
                 "count": 1,
@@ -2903,6 +3046,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.137628.9",
                         "first_name": "Yuan",
+                        "initials": "",
                         "last_name": "Lai",
                         "orcid": "['0000-0003-0664-5048']",
                         "researcher_id": "ur.015712317133.37"
@@ -2923,6 +3067,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.137628.9",
                         "first_name": "Constantine E.",
+                        "initials": "",
                         "last_name": "Kontokosta",
                         "orcid": "['0000-0003-4831-9996']",
                         "researcher_id": "ur.014014622577.54"
@@ -2946,6 +3091,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.137628.9",
                     "first_name": "Yuan",
+                    "initials": "",
                     "last_name": "Lai",
                     "orcid": "['0000-0003-0664-5048']",
                     "researcher_id": "ur.015712317133.37"
@@ -2966,6 +3112,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.137628.9",
                     "first_name": "Constantine E.",
+                    "initials": "",
                     "last_name": "Kontokosta",
                     "orcid": "['0000-0003-4831-9996']",
                     "researcher_id": "ur.014014622577.54"
@@ -2995,6 +3142,7 @@
                     "name": "Prevention"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30013",
@@ -3017,52 +3165,63 @@
                 "management",
                 "transportation",
                 "emergency response",
+                "economic development",
                 "development",
                 "pedestrian activity",
                 "urban computing",
                 "computing",
                 "urban datasets",
-                "dataset",
                 "attributes",
                 "urban landscape",
                 "landscape",
                 "weather",
                 "air quality",
                 "quality",
-                "data",
+                "pedestrian count data",
+                "New York City Department",
+                "City Department",
                 "array",
                 "open datasets",
+                "NYC",
                 "pedestrian volume",
                 "land use",
                 "use",
+                "building density",
+                "streetscape quality",
                 "transportation infrastructure",
                 "infrastructure",
+                "urban walkability",
                 "place dynamics",
-                "dynamics",
-                "high spatial–temporal resolution",
-                "spatial–temporal resolution",
-                "temporal resolution",
-                "resolution",
+                "high spatial-temporal resolution",
+                "spatial-temporal resolution",
+                "quantification process",
                 "process",
                 "urban context",
                 "context",
                 "urban data",
                 "geolocation",
                 "features",
+                "indicators",
+                "typology",
                 "place",
+                "analysis",
                 "model",
                 "error",
+                "specific contextual features",
+                "contextual features",
+                "situational indicators",
                 "time",
                 "results",
                 "key drivers",
                 "drivers",
+                "importance",
                 "immediate urban environment",
                 "urban environment",
                 "environment",
-                "Pedestrian behavior modeling",
+                "pedestrian behavior modeling",
                 "behavior modeling",
                 "modeling",
-                "dense urban environment"
+                "dense urban environments"
             ],
             "date": "2018-12-01",
             "date_inserted": "2018-09-16",
@@ -3072,15 +3231,62 @@
                 "0169-2046",
                 "1872-6062"
             ],
-            "issue": "Transportation Research Record: Journal of the Transportation Research Board 2009",
             "journal": {
                 "id": "jour.1028245",
                 "title": "Landscape and Urban Planning"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 2",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "quantifying",
+                "driver",
+                "pedestrian",
+                "dense urban environment",
+                "aspect",
+                "City Planning",
+                "management",
+                "transportation",
+                "public health",
+                "emergency response",
+                "economic development",
+                "in-situ observation",
+                "Dataset",
+                "attribute",
+                "urban landscape",
+                "infrastructure",
+                "weather",
+                "air quality",
+                "crime",
+                "count data",
+                "New York City",
+                "Department of Transportation",
+                "extensive array",
+                "building",
+                "transportation infrastructure",
+                "walkability",
+                "dynamic",
+                "situational factor",
+                "resolution",
+                "quantification",
+                "urban context",
+                "extracting",
+                "geolocation",
+                "feature",
+                "construct",
+                "typology",
+                "generalizability",
+                "multivariate regression model",
+                "standard error",
+                "contextual feature",
+                "time-varying",
+                "season",
+                "key driver",
+                "urban environment",
+                "spatial dynamic"
             ],
             "open_access_categories": [
                 {
@@ -3091,106 +3297,106 @@
             ],
             "pages": "166-178",
             "publisher": "Elsevier",
-            "recent_citations": 3,
+            "recent_citations": 4,
             "reference_ids": [
-                "pub.1050291307",
-                "pub.1041220758",
-                "pub.1071039792",
                 "pub.1012197621",
-                "pub.1005654688",
-                "pub.1019846995",
-                "pub.1086147472",
-                "pub.1040046262",
-                "pub.1044362984",
-                "pub.1021638677",
-                "pub.1001576897",
-                "pub.1050551747",
                 "pub.1071045817",
-                "pub.1071037062",
-                "pub.1083898086",
-                "pub.1061744049",
-                "pub.1004959995",
-                "pub.1032371350",
-                "pub.1040955872",
-                "pub.1094577939",
-                "pub.1034505533",
-                "pub.1105981123",
-                "pub.1102874865",
-                "pub.1017697625",
+                "pub.1071039792",
+                "pub.1021638677",
                 "pub.1057604703",
-                "pub.1052235375",
-                "pub.1030197330",
-                "pub.1015307730",
-                "pub.1069779533",
-                "pub.1094810467",
-                "pub.1030491853",
-                "pub.1047326867",
+                "pub.1071045815",
+                "pub.1105981123",
+                "pub.1050291307",
+                "pub.1019846995",
                 "pub.1018703138",
-                "pub.1096912873",
-                "pub.1003075702",
+                "pub.1017697625",
                 "pub.1022189890",
-                "pub.1032919888",
-                "pub.1011402023",
-                "pub.1087456240",
-                "pub.1042432121",
-                "pub.1032875106",
                 "pub.1073464780",
                 "pub.1061523265",
-                "pub.1044580625",
+                "pub.1050551747",
                 "pub.1001088854",
-                "pub.1071045815",
+                "pub.1015160012",
+                "pub.1069779533",
+                "pub.1061744049",
                 "pub.1068879280",
-                "pub.1015160012"
+                "pub.1001576897",
+                "pub.1094577939",
+                "pub.1005654688",
+                "pub.1102874865",
+                "pub.1004959995",
+                "pub.1011402023",
+                "pub.1041220758",
+                "pub.1094810467",
+                "pub.1096912873",
+                "pub.1003075702",
+                "pub.1083898086",
+                "pub.1044362984",
+                "pub.1040955872",
+                "pub.1047326867",
+                "pub.1042432121",
+                "pub.1015307730",
+                "pub.1086147472",
+                "pub.1032875106",
+                "pub.1052235375",
+                "pub.1032371350",
+                "pub.1030491853",
+                "pub.1040046262",
+                "pub.1087456240",
+                "pub.1030197330",
+                "pub.1032919888",
+                "pub.1034505533",
+                "pub.1071037062",
+                "pub.1044580625"
             ],
             "references": [
-                "pub.1050291307",
-                "pub.1041220758",
-                "pub.1071039792",
                 "pub.1012197621",
-                "pub.1005654688",
-                "pub.1019846995",
-                "pub.1086147472",
-                "pub.1040046262",
-                "pub.1044362984",
-                "pub.1021638677",
-                "pub.1001576897",
-                "pub.1050551747",
                 "pub.1071045817",
-                "pub.1071037062",
-                "pub.1083898086",
-                "pub.1061744049",
-                "pub.1004959995",
-                "pub.1032371350",
-                "pub.1040955872",
-                "pub.1094577939",
-                "pub.1034505533",
-                "pub.1105981123",
-                "pub.1102874865",
-                "pub.1017697625",
+                "pub.1071039792",
+                "pub.1021638677",
                 "pub.1057604703",
-                "pub.1052235375",
-                "pub.1030197330",
-                "pub.1015307730",
-                "pub.1069779533",
-                "pub.1094810467",
-                "pub.1030491853",
-                "pub.1047326867",
+                "pub.1071045815",
+                "pub.1105981123",
+                "pub.1050291307",
+                "pub.1019846995",
                 "pub.1018703138",
-                "pub.1096912873",
-                "pub.1003075702",
+                "pub.1017697625",
                 "pub.1022189890",
-                "pub.1032919888",
-                "pub.1011402023",
-                "pub.1087456240",
-                "pub.1042432121",
-                "pub.1032875106",
                 "pub.1073464780",
                 "pub.1061523265",
-                "pub.1044580625",
+                "pub.1050551747",
                 "pub.1001088854",
-                "pub.1071045815",
+                "pub.1015160012",
+                "pub.1069779533",
+                "pub.1061744049",
                 "pub.1068879280",
-                "pub.1015160012"
+                "pub.1001576897",
+                "pub.1094577939",
+                "pub.1005654688",
+                "pub.1102874865",
+                "pub.1004959995",
+                "pub.1011402023",
+                "pub.1041220758",
+                "pub.1094810467",
+                "pub.1096912873",
+                "pub.1003075702",
+                "pub.1083898086",
+                "pub.1044362984",
+                "pub.1040955872",
+                "pub.1047326867",
+                "pub.1042432121",
+                "pub.1015307730",
+                "pub.1086147472",
+                "pub.1032875106",
+                "pub.1052235375",
+                "pub.1032371350",
+                "pub.1030491853",
+                "pub.1040046262",
+                "pub.1087456240",
+                "pub.1030197330",
+                "pub.1032919888",
+                "pub.1034505533",
+                "pub.1071037062",
+                "pub.1044580625"
             ],
             "research_org_cities": [
                 {
@@ -3206,6 +3412,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "New York University"
             ],
             "research_org_state_codes": [
                 {
@@ -3243,8 +3452,8 @@
                         "0000-0003-0664-5048"
                     ],
                     "research_orgs": [
-                        "grid.116068.8",
-                        "grid.137628.9"
+                        "grid.137628.9",
+                        "grid.116068.8"
                     ]
                 },
                 {
@@ -3269,54 +3478,65 @@
                 "management",
                 "transportation",
                 "emergency response",
+                "economic development",
                 "development",
                 "pedestrian activity",
                 "urban computing",
                 "computing",
                 "urban datasets",
-                "dataset",
                 "attributes",
                 "urban landscape",
                 "landscape",
                 "weather",
                 "air quality",
                 "quality",
-                "data",
+                "pedestrian count data",
+                "New York City Department",
+                "City Department",
                 "array",
                 "open datasets",
+                "NYC",
                 "pedestrian volume",
                 "land use",
                 "use",
+                "building density",
+                "streetscape quality",
                 "transportation infrastructure",
                 "infrastructure",
+                "urban walkability",
                 "place dynamics",
-                "dynamics",
-                "high spatial–temporal resolution",
-                "spatial–temporal resolution",
-                "temporal resolution",
-                "resolution",
+                "high spatial-temporal resolution",
+                "spatial-temporal resolution",
+                "quantification process",
                 "process",
                 "urban context",
                 "context",
                 "urban data",
                 "geolocation",
                 "features",
+                "indicators",
+                "typology",
                 "place",
+                "analysis",
                 "model",
                 "error",
+                "specific contextual features",
+                "contextual features",
+                "situational indicators",
                 "time",
                 "results",
                 "key drivers",
                 "drivers",
+                "importance",
                 "immediate urban environment",
                 "urban environment",
                 "environment",
-                "Pedestrian behavior modeling",
+                "pedestrian behavior modeling",
                 "behavior modeling",
                 "modeling",
-                "dense urban environment"
+                "dense urban environments"
             ],
-            "times_cited": 3,
+            "times_cited": 4,
             "title": "Quantifying place: Analyzing the drivers of pedestrian activity in dense urban environments",
             "type": "article",
             "volume": "180",
@@ -3500,13 +3720,33 @@
                 "count": 1,
                 "rank_score": 0.057211539754910896
             },
+            "city planning": {
+                "count": 1,
+                "rank_score": 0.05116759517356274
+            },
+            "contextual and situational factors": {
+                "count": 1,
+                "rank_score": 0.05195289710833654
+            },
             "contextual indicators": {
                 "count": 1,
                 "rank_score": 0.07049226174809377
             },
+            "emergency response": {
+                "count": 1,
+                "rank_score": 0.05128162415562716
+            },
             "heterogeneous urban datasets": {
                 "count": 1,
                 "rank_score": 0.08789136704762096
+            },
+            "immediate urban environment": {
+                "count": 1,
+                "rank_score": 0.05258712591411654
+            },
+            "land use": {
+                "count": 1,
+                "rank_score": 0.05125110982095018
             },
             "local pedestrian activity": {
                 "count": 1,
@@ -3516,9 +3756,17 @@
                 "count": 1,
                 "rank_score": 0.10384219688396418
             },
+            "many aspects": {
+                "count": 1,
+                "rank_score": 0.05017382755204231
+            },
             "multivariate regression models": {
                 "count": 1,
                 "rank_score": 0.0556944204166964
+            },
+            "nyc": {
+                "count": 2,
+                "rank_score": 0.05152012940559506
             },
             "open datasets": {
                 "count": 1,
@@ -3544,9 +3792,21 @@
                 "count": 1,
                 "rank_score": 0.06334748342116979
             },
+            "public health": {
+                "count": 1,
+                "rank_score": 0.0541602213475753
+            },
             "urban computing": {
                 "count": 1,
                 "rank_score": 0.08387115392043126
+            },
+            "urban context": {
+                "count": 1,
+                "rank_score": 0.05046374498717627
+            },
+            "urban landscape": {
+                "count": 1,
+                "rank_score": 0.04824608994450747
             },
             "urban walkability": {
                 "count": 1,
@@ -3577,12 +3837,12 @@
             ],
             "RCDC": [
                 {
-                    "id": "314",
-                    "name": "Injury (total) Accidents/Adverse Effects"
-                },
-                {
                     "id": "558",
                     "name": "Prevention"
+                },
+                {
+                    "id": "314",
+                    "name": "Injury (total) Accidents/Adverse Effects"
                 }
             ],
             "altmetric": 1.0,
@@ -3605,6 +3865,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.419882.e",
                         "first_name": "Theodore J.",
+                        "initials": "",
                         "last_name": "Mansfield",
                         "orcid": "",
                         "researcher_id": "ur.011252272774.23"
@@ -3625,6 +3886,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Dana",
+                        "initials": "",
                         "last_name": "Peck",
                         "orcid": "",
                         "researcher_id": ""
@@ -3645,6 +3907,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Daniel",
+                        "initials": "",
                         "last_name": "Morgan",
                         "orcid": "",
                         "researcher_id": ""
@@ -3665,6 +3928,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Barbara",
+                        "initials": "",
                         "last_name": "McCann",
                         "orcid": "",
                         "researcher_id": ""
@@ -3685,6 +3949,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Paul",
+                        "initials": "",
                         "last_name": "Teicher",
                         "orcid": "",
                         "researcher_id": ""
@@ -3708,6 +3973,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.419882.e",
                     "first_name": "Theodore J.",
+                    "initials": "",
                     "last_name": "Mansfield",
                     "orcid": "",
                     "researcher_id": "ur.011252272774.23"
@@ -3728,6 +3994,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Dana",
+                    "initials": "",
                     "last_name": "Peck",
                     "orcid": "",
                     "researcher_id": ""
@@ -3748,6 +4015,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Daniel",
+                    "initials": "",
                     "last_name": "Morgan",
                     "orcid": "",
                     "researcher_id": ""
@@ -3768,6 +4036,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Barbara",
+                    "initials": "",
                     "last_name": "McCann",
                     "orcid": "",
                     "researcher_id": ""
@@ -3788,6 +4057,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Paul",
+                    "initials": "",
                     "last_name": "Teicher",
                     "orcid": "",
                     "researcher_id": ""
@@ -3811,14 +4081,15 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "314",
-                    "name": "Injury (total) Accidents/Adverse Effects"
-                },
-                {
                     "id": "558",
                     "name": "Prevention"
+                },
+                {
+                    "id": "314",
+                    "name": "Injury (total) Accidents/Adverse Effects"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30012",
@@ -3834,48 +4105,45 @@
             "concepts": [
                 "fatality risk",
                 "risk",
-                "use characteristics",
                 "high pedestrian activity",
                 "activity",
                 "data",
                 "EPA",
                 "Census Bureau",
-                "regression modeling",
+                "regression",
                 "association",
                 "pedestrian fatalities",
                 "fatalities",
                 "United States",
                 "tract",
                 "strong association",
-                "arterial",
                 "Los Angeles",
                 "Angeles",
                 "half",
                 "roadway facility types",
                 "facility type",
                 "assessment",
-                "support",
                 "safety",
-                "effects"
+                "effect"
             ],
             "date": "2018-12-01",
             "date_inserted": "2018-09-25",
             "doi": "10.1016/j.aap.2018.06.018",
-            "field_citation_ratio": 1.71,
+            "field_citation_ratio": 2.2,
             "id": "pub.1107183866",
             "issn": [
                 "0001-4575",
                 "1879-2057"
             ],
-            "issue": "Transp. Res. Part A 49 2013",
             "journal": {
                 "id": "jour.1054252",
                 "title": "Accident Analysis & Prevention"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
+                "ERA 2015",
                 "VABB-SHW",
+                "ERA 2018",
                 "PubMed"
             ],
             "mesh_terms": [
@@ -3898,6 +4166,41 @@
                 "Urban Population",
                 "Young Adult"
             ],
+            "noun_phrases": [
+                "roadway",
+                "built environment",
+                "pedestrian",
+                "national assessment",
+                "neighborhood scale",
+                "transportation system",
+                "vehicular",
+                "land use",
+                "combined data",
+                "EPA",
+                "Census Bureau",
+                "regression modeling",
+                "association",
+                "census tract",
+                "United State",
+                "tract",
+                "strong association",
+                "density",
+                "employment",
+                "retail sector",
+                "Los Angeles",
+                "CA",
+                "half",
+                "fatality",
+                "method",
+                "network",
+                "facility",
+                "sector",
+                "cross-disciplinary",
+                "novel way",
+                "assessment",
+                "systemic approach",
+                "transportation safety"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -3908,59 +4211,60 @@
             "pages": "166-176",
             "pmid": "30248532",
             "publisher": "Elsevier",
-            "recent_citations": 2,
+            "recent_citations": 3,
             "reference_ids": [
-                "pub.1031095416",
-                "pub.1071047318",
-                "pub.1049801910",
-                "pub.1015710018",
-                "pub.1071051263",
-                "pub.1098700693",
-                "pub.1067984574",
-                "pub.1002887433",
                 "pub.1003707357",
-                "pub.1007506570",
-                "pub.1071049484",
-                "pub.1012731958",
+                "pub.1046797658",
+                "pub.1071051263",
                 "pub.1052651977",
                 "pub.1009126488",
-                "pub.1046828417",
+                "pub.1007506570",
+                "pub.1002887433",
+                "pub.1071047318",
+                "pub.1015710018",
                 "pub.1068846086",
-                "pub.1007635381",
+                "pub.1031095416",
+                "pub.1005155083",
+                "pub.1067984574",
+                "pub.1049801910",
+                "pub.1046828417",
+                "pub.1098700693",
                 "pub.1038581222",
-                "pub.1046797658",
+                "pub.1007635381",
+                "pub.1012731958",
+                "pub.1010544951",
+                "pub.1071049484",
                 "pub.1099811812",
                 "pub.1033669184",
-                "pub.1005155083",
-                "pub.1083884165",
-                "pub.1010544951"
+                "pub.1083884165"
             ],
             "references": [
-                "pub.1031095416",
-                "pub.1071047318",
-                "pub.1049801910",
-                "pub.1015710018",
-                "pub.1071051263",
-                "pub.1098700693",
-                "pub.1067984574",
-                "pub.1002887433",
                 "pub.1003707357",
-                "pub.1007506570",
-                "pub.1071049484",
-                "pub.1012731958",
+                "pub.1046797658",
+                "pub.1071051263",
                 "pub.1052651977",
                 "pub.1009126488",
-                "pub.1046828417",
+                "pub.1007506570",
+                "pub.1002887433",
+                "pub.1071047318",
+                "pub.1015710018",
                 "pub.1068846086",
-                "pub.1007635381",
+                "pub.1031095416",
+                "pub.1005155083",
+                "pub.1067984574",
+                "pub.1049801910",
+                "pub.1046828417",
+                "pub.1098700693",
                 "pub.1038581222",
-                "pub.1046797658",
+                "pub.1007635381",
+                "pub.1012731958",
+                "pub.1010544951",
+                "pub.1071049484",
                 "pub.1099811812",
                 "pub.1033669184",
-                "pub.1005155083",
-                "pub.1083884165",
-                "pub.1010544951"
+                "pub.1083884165"
             ],
+            "relative_citation_ratio": 0.0,
             "research_org_cities": [
                 {
                     "id": 4140963,
@@ -3975,6 +4279,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "United States Department of Transportation"
             ],
             "research_org_state_codes": [
                 {
@@ -4016,31 +4323,28 @@
             "terms": [
                 "fatality risk",
                 "risk",
-                "use characteristics",
                 "high pedestrian activity",
                 "activity",
                 "data",
                 "EPA",
                 "Census Bureau",
-                "regression modeling",
+                "regression",
                 "association",
                 "pedestrian fatalities",
                 "fatalities",
                 "United States",
                 "tract",
                 "strong association",
-                "arterial",
                 "Los Angeles",
                 "Angeles",
                 "half",
                 "roadway facility types",
                 "facility type",
                 "assessment",
-                "support",
                 "safety",
-                "effects"
+                "effect"
             ],
-            "times_cited": 2,
+            "times_cited": 3,
             "title": "The effects of roadway and built environment characteristics on pedestrian fatality risk: A national assessment at the neighborhood scale",
             "type": "article",
             "volume": "121",
@@ -4250,33 +4554,65 @@
         },
         "doi": "10.1016/j.aap.2018.06.018",
         "keyphrases": {
-            "0.68 additional annual pedestrian fatalities": {
+            "census": {
                 "count": 1,
-                "rank_score": 0.07958206570229168
+                "rank_score": 0.05177137253366913
             },
-            "associations": {
+            "census tract scale": {
                 "count": 1,
-                "rank_score": 0.07418105076826463
+                "rank_score": 0.051170431811735195
             },
             "certain roadway facility types": {
                 "count": 1,
                 "rank_score": 0.0777456258016012
             },
+            "certain sectors": {
+                "count": 1,
+                "rank_score": 0.0656332160048633
+            },
+            "characteristics": {
+                "count": 1,
+                "rank_score": 0.060578772460942294
+            },
             "cross-disciplinary data": {
                 "count": 1,
                 "rank_score": 0.09195052789630122
+            },
+            "employment": {
+                "count": 1,
+                "rank_score": 0.054312345580337686
+            },
+            "employment density": {
+                "count": 1,
+                "rank_score": 0.06669104599711966
+            },
+            "environment": {
+                "count": 1,
+                "rank_score": 0.054956177974411526
             },
             "environment characteristics": {
                 "count": 1,
                 "rank_score": 0.07513096224294054
             },
+            "high injury network": {
+                "count": 4,
+                "rank_score": 0.054178266166324755
+            },
             "higher pedestrian activity": {
                 "count": 1,
                 "rank_score": 0.09686008128287035
             },
+            "los angeles": {
+                "count": 2,
+                "rank_score": 0.06279040172888062
+            },
             "minor arterial roadways": {
                 "count": 1,
                 "rank_score": 0.07778429976229431
+            },
+            "novel ways": {
+                "count": 1,
+                "rank_score": 0.0665051009281278
             },
             "observed fatalities": {
                 "count": 1,
@@ -4302,9 +4638,17 @@
                 "count": 1,
                 "rank_score": 0.08551459956340787
             },
+            "transportation safety": {
+                "count": 1,
+                "rank_score": 0.06698469381920642
+            },
             "transportation system": {
                 "count": 2,
                 "rank_score": 0.07609575973796413
+            },
+            "urban tracts": {
+                "count": 1,
+                "rank_score": 0.07094026675217825
             },
             "vehicular traffic": {
                 "count": 1,
@@ -4359,6 +4703,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.137628.9",
                         "first_name": "Ingrid Gould",
+                        "initials": "",
                         "last_name": "Ellen",
                         "orcid": "",
                         "researcher_id": "ur.015454227520.63"
@@ -4379,6 +4724,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.266685.9",
                         "first_name": "Keren Mertens",
+                        "initials": "",
                         "last_name": "Horn",
                         "orcid": "",
                         "researcher_id": "ur.015201057507.58"
@@ -4391,7 +4737,7 @@
                                 "country": "United States",
                                 "country_code": "US",
                                 "id": "grid.19006.3e",
-                                "name": "University of California Los Angeles",
+                                "name": "University of California, Los Angeles",
                                 "state": "California",
                                 "state_code": "US-CA"
                             }
@@ -4399,6 +4745,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.19006.3e",
                         "first_name": "Yiwen",
+                        "initials": "",
                         "last_name": "Kuai",
                         "orcid": "['0000-0001-8108-6018']",
                         "researcher_id": "ur.013423074530.84"
@@ -4422,6 +4769,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.137628.9",
                     "first_name": "Ingrid Gould",
+                    "initials": "",
                     "last_name": "Ellen",
                     "orcid": "",
                     "researcher_id": "ur.015454227520.63"
@@ -4442,6 +4790,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.266685.9",
                     "first_name": "Keren Mertens",
+                    "initials": "",
                     "last_name": "Horn",
                     "orcid": "",
                     "researcher_id": "ur.015201057507.58"
@@ -4454,7 +4803,7 @@
                             "country": "United States",
                             "country_code": "US",
                             "id": "grid.19006.3e",
-                            "name": "University of California Los Angeles",
+                            "name": "University of California, Los Angeles",
                             "state": "California",
                             "state_code": "US-CA"
                         }
@@ -4462,6 +4811,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.19006.3e",
                     "first_name": "Yiwen",
+                    "initials": "",
                     "last_name": "Kuai",
                     "orcid": "['0000-0001-8108-6018']",
                     "researcher_id": "ur.013423074530.84"
@@ -4507,11 +4857,10 @@
                 "neighborhood",
                 "opportunities",
                 "degree",
-                "Low-Income Housing Tax Credit (LIHTC) developments",
+                "low-income housing tax credit developments",
                 "credit developments",
                 "development",
                 "high-opportunity neighborhoods",
-                "opportunity neighborhoods",
                 "focus",
                 "neighborhood outcomes",
                 "outcomes",
@@ -4528,19 +4877,22 @@
                 "LIHTC units",
                 "high poverty rates",
                 "poverty rates",
+                "rate",
                 "weak labor market",
                 "labour market",
                 "market",
                 "environment",
                 "schools",
+                "better transit access",
                 "transit access",
                 "access",
-                "disparities"
+                "disparities",
+                "neighborhood conditions"
             ],
             "date": "2018-07-04",
             "date_inserted": "2018-03-12",
             "doi": "10.1080/10511482.2017.1413584",
-            "field_citation_ratio": 5.97,
+            "field_citation_ratio": 5.37,
             "id": "pub.1101393958",
             "issn": [
                 "1051-1482",
@@ -4552,8 +4904,31 @@
                 "title": "Housing Policy Debate"
             },
             "journal_lists": [
-                "ERA 2015",
-                "Norwegian register level 1"
+                "ERA 2018",
+                "Norwegian register level 1",
+                "ERA 2015"
+            ],
+            "noun_phrases": [
+                "gateway",
+                "disparity",
+                "neighborhood condition",
+                "key goal",
+                "assistance",
+                "low-income household",
+                "Residence Characteristic",
+                "low income",
+                "development",
+                "different subset",
+                "certain type",
+                "state",
+                "Weight and Measure",
+                "unit",
+                "high poverty rate",
+                "labor market",
+                "polluted environment",
+                "school",
+                "transit",
+                "minority"
             ],
             "open_access_categories": [
                 {
@@ -4566,44 +4941,44 @@
             "publisher": "Taylor & Francis",
             "recent_citations": 4,
             "reference_ids": [
-                "pub.1030843621",
                 "pub.1012187485",
-                "pub.1011268260",
                 "pub.1064526756",
+                "pub.1012440302",
                 "pub.1085321769",
+                "pub.1034568778",
                 "pub.1025115272",
+                "pub.1030843621",
+                "pub.1026972508",
+                "pub.1048992883",
+                "pub.1012275031",
+                "pub.1041609021",
+                "pub.1011268260",
+                "pub.1011199454",
+                "pub.1014857040",
+                "pub.1032041945",
                 "pub.1007670433",
                 "pub.1014655662",
-                "pub.1012275031",
-                "pub.1048992883",
-                "pub.1032041945",
-                "pub.1026972508",
-                "pub.1014857040",
-                "pub.1034568778",
-                "pub.1041609021",
-                "pub.1012440302",
-                "pub.1007358301",
-                "pub.1011199454"
+                "pub.1007358301"
             ],
             "references": [
-                "pub.1030843621",
                 "pub.1012187485",
-                "pub.1011268260",
                 "pub.1064526756",
+                "pub.1012440302",
                 "pub.1085321769",
+                "pub.1034568778",
                 "pub.1025115272",
+                "pub.1030843621",
+                "pub.1026972508",
+                "pub.1048992883",
+                "pub.1012275031",
+                "pub.1041609021",
+                "pub.1011268260",
+                "pub.1011199454",
+                "pub.1014857040",
+                "pub.1032041945",
                 "pub.1007670433",
                 "pub.1014655662",
-                "pub.1012275031",
-                "pub.1048992883",
-                "pub.1032041945",
-                "pub.1026972508",
-                "pub.1014857040",
-                "pub.1034568778",
-                "pub.1041609021",
-                "pub.1012440302",
-                "pub.1007358301",
-                "pub.1011199454"
+                "pub.1007358301"
             ],
             "research_org_cities": [
                 {
@@ -4628,11 +5003,12 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "University of Massachusetts Boston",
+                "University of California, Los Angeles",
+                "New York University"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-MA",
-                    "name": "Massachusetts"
-                },
                 {
                     "id": "US-NY",
                     "name": "New York"
@@ -4640,25 +5016,30 @@
                 {
                     "id": "US-CA",
                     "name": "California"
+                },
+                {
+                    "id": "US-MA",
+                    "name": "Massachusetts"
                 }
             ],
             "research_org_state_names": [
-                "California",
                 "New York",
-                "Massachusetts"
+                "Massachusetts",
+                "California"
             ],
             "research_orgs": [
                 {
-                    "city_name": "Boston",
+                    "acronym": "UCLA",
+                    "city_name": "Los Angeles",
                     "country_name": "United States",
-                    "id": "grid.266685.9",
-                    "latitude": 42.31343,
+                    "id": "grid.19006.3e",
+                    "latitude": 34.072224,
                     "linkout": [
-                        "https://www.umb.edu/"
+                        "http://www.ucla.edu/"
                     ],
-                    "longitude": -71.038445,
-                    "name": "University of Massachusetts Boston",
-                    "state_name": "Massachusetts",
+                    "longitude": -118.4441,
+                    "name": "University of California, Los Angeles",
+                    "state_name": "California",
                     "types": [
                         "Education"
                     ]
@@ -4680,17 +5061,16 @@
                     ]
                 },
                 {
-                    "acronym": "UCLA",
-                    "city_name": "Los Angeles",
+                    "city_name": "Boston",
                     "country_name": "United States",
-                    "id": "grid.19006.3e",
-                    "latitude": 34.072224,
+                    "id": "grid.266685.9",
+                    "latitude": 42.31343,
                     "linkout": [
-                        "http://www.ucla.edu/"
+                        "https://www.umb.edu/"
                     ],
-                    "longitude": -118.4441,
-                    "name": "University of California, Los Angeles",
-                    "state_name": "California",
+                    "longitude": -71.038445,
+                    "name": "University of Massachusetts Boston",
+                    "state_name": "Massachusetts",
                     "types": [
                         "Education"
                     ]
@@ -4702,9 +5082,9 @@
                     "id": "ur.015454227520.63",
                     "last_name": "Ellen",
                     "research_orgs": [
+                        "grid.56362.34",
                         "grid.431393.f",
-                        "grid.137628.9",
-                        "grid.56362.34"
+                        "grid.137628.9"
                     ]
                 },
                 {
@@ -4739,11 +5119,10 @@
                 "neighborhood",
                 "opportunities",
                 "degree",
-                "Low-Income Housing Tax Credit (LIHTC) developments",
+                "low-income housing tax credit developments",
                 "credit developments",
                 "development",
                 "high-opportunity neighborhoods",
-                "opportunity neighborhoods",
                 "focus",
                 "neighborhood outcomes",
                 "outcomes",
@@ -4760,14 +5139,17 @@
                 "LIHTC units",
                 "high poverty rates",
                 "poverty rates",
+                "rate",
                 "weak labor market",
                 "labour market",
                 "market",
                 "environment",
                 "schools",
+                "better transit access",
                 "transit access",
                 "access",
-                "disparities"
+                "disparities",
+                "neighborhood conditions"
             ],
             "times_cited": 4,
             "title": "Gateway to Opportunity? Disparities in Neighborhood Conditions Among Low-Income Housing Tax Credit Residents",
@@ -4927,6 +5309,22 @@
                 "count": 1,
                 "rank_score": 0.09486262008261243
             },
+            "certain types": {
+                "count": 1,
+                "rank_score": 0.07109837298121895
+            },
+            "degree": {
+                "count": 1,
+                "rank_score": 0.02986409252168755
+            },
+            "different subsets": {
+                "count": 1,
+                "rank_score": 0.07524112068859395
+            },
+            "high-opportunity neighborhoods": {
+                "count": 1,
+                "rank_score": 0.08024567485602865
+            },
             "higher poverty rates": {
                 "count": 1,
                 "rank_score": 0.09126199630142345
@@ -4934,6 +5332,10 @@
             "housing assistance programs": {
                 "count": 1,
                 "rank_score": 0.09012403506438293
+            },
+            "key goal": {
+                "count": 1,
+                "rank_score": 0.04253580518448015
             },
             "lihtc": {
                 "count": 1,
@@ -4959,6 +5361,14 @@
                 "count": 1,
                 "rank_score": 0.09556954716602507
             },
+            "lower performing schools": {
+                "count": 1,
+                "rank_score": 0.042818117648898264
+            },
+            "more polluted environments": {
+                "count": 1,
+                "rank_score": 0.039307660033877916
+            },
             "neighborhood opportunities": {
                 "count": 2,
                 "rank_score": 0.1216551670967272
@@ -4971,6 +5381,14 @@
                 "count": 3,
                 "rank_score": 0.11006326960861336
             },
+            "new data": {
+                "count": 1,
+                "rank_score": 0.07323152542785334
+            },
+            "opportunity": {
+                "count": 1,
+                "rank_score": 0.0736667723089512
+            },
             "other lihtc tenants": {
                 "count": 1,
                 "rank_score": 0.1364937857918452
@@ -4978,6 +5396,10 @@
             "other rental units": {
                 "count": 1,
                 "rank_score": 0.09243407979644477
+            },
+            "poor and minority tenants": {
+                "count": 1,
+                "rank_score": 0.06266457350918601
             },
             "weaker labor markets": {
                 "count": 1,
@@ -5006,6 +5428,7 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -5013,6 +5436,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Geoff",
+                        "initials": "",
                         "last_name": "Boeing",
                         "orcid": "",
                         "researcher_id": ""
@@ -5025,6 +5449,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Geoff",
+                    "initials": "",
                     "last_name": "Boeing",
                     "orcid": "",
                     "researcher_id": ""
@@ -5060,18 +5485,46 @@
                 "infrastructure",
                 "method",
                 "drawbacks",
-                "area",
-                "GPS",
+                "GPS traces",
                 "limitations",
                 "methodology"
             ],
             "date": "2018-06-02",
             "date_inserted": "2019-07-25",
+            "field_citation_ratio": 0.0,
             "id": "pub.1119351003",
             "journal": {
                 "id": "jour.1371339",
                 "title": "arXiv"
             },
+            "noun_phrases": [
+                "Estimating",
+                "Population Density",
+                "census",
+                "commute",
+                "waking hour",
+                "weight",
+                "urban planner",
+                "transportation infrastructure",
+                "utility",
+                "disaster recovery",
+                "vitality",
+                "method",
+                "drawback",
+                "metropolitan area",
+                "census data",
+                "travel",
+                "trace",
+                "San Francisco Bay",
+                "US Census",
+                "density",
+                "land use pattern",
+                "discussion",
+                "bias",
+                "limitation",
+                "implication",
+                "methodology"
+            ],
             "open_access_categories": [
                 {
                     "description": "Article is freely available",
@@ -5084,6 +5537,7 @@
                     "name": "Green, Submitted"
                 }
             ],
+            "recent_citations": 0,
             "resulting_publication_doi": "10.1080/21681376.2018.1455535",
             "terms": [
                 "urban planners",
@@ -5093,11 +5547,11 @@
                 "infrastructure",
                 "method",
                 "drawbacks",
-                "area",
-                "GPS",
+                "GPS traces",
                 "limitations",
                 "methodology"
             ],
+            "times_cited": 0,
             "title": "Estimating Local Daytime Population Density from Census and Payroll Data",
             "type": "preprint",
             "year": 2018
@@ -5546,6 +6000,10 @@
         },
         "doi": "10.1080/21681376.2018.1455535",
         "keyphrases": {
+            "biases": {
+                "count": 1,
+                "rank_score": 0.062095369460936196
+            },
             "census data": {
                 "count": 1,
                 "rank_score": 0.09351751218335858
@@ -5562,6 +6020,10 @@
                 "count": 2,
                 "rank_score": 0.13370869352001846
             },
+            "disaster recovery": {
+                "count": 1,
+                "rank_score": 0.06969182450115356
+            },
             "engineers site transportation infrastructure": {
                 "count": 1,
                 "rank_score": 0.09695915857984076
@@ -5570,17 +6032,41 @@
                 "count": 1,
                 "rank_score": 0.12900681461947663
             },
+            "gps": {
+                "count": 1,
+                "rank_score": 0.054697142424850714
+            },
+            "gps traces": {
+                "count": 1,
+                "rank_score": 0.06588361995520031
+            },
+            "lehd": {
+                "count": 1,
+                "rank_score": 0.05605840811678259
+            },
+            "night": {
+                "count": 1,
+                "rank_score": 0.05557043536123086
+            },
+            "people": {
+                "count": 1,
+                "rank_score": 0.05431436273297781
+            },
+            "publicly available payroll data": {
+                "count": 1,
+                "rank_score": 0.056989953224757875
+            },
             "regional land use patterns": {
                 "count": 1,
                 "rank_score": 0.08343981922571922
             },
+            "san francisco bay areas tract-level daytime population density": {
+                "count": 1,
+                "rank_score": 0.07074222045451505
+            },
             "significant weight": {
                 "count": 1,
                 "rank_score": 0.07596116459203762
-            },
-            "the san francisco bay areas tract-level daytime population density": {
-                "count": 1,
-                "rank_score": 0.07074222045451505
             },
             "travel diaries": {
                 "count": 1,
@@ -5594,9 +6080,17 @@
                 "count": 1,
                 "rank_score": 0.0804240947814847
             },
+            "us census": {
+                "count": 1,
+                "rank_score": 0.06902474117781389
+            },
             "us census and lehd lodes data": {
                 "count": 1,
                 "rank_score": 0.07066988847281326
+            },
+            "utilities": {
+                "count": 1,
+                "rank_score": 0.05453020090527297
             },
             "various drawbacks": {
                 "count": 1,
@@ -6198,17 +6692,25 @@
         },
         "doi": "10.1016/j.regsciurbeco.2017.03.008",
         "keyphrases": {
-            "a proposed rail line": {
-                "count": 1,
-                "rank_score": 0.0743837704284425
-            },
             "apparent local costs": {
                 "count": 1,
                 "rank_score": 0.08154608080564989
             },
+            "august": {
+                "count": 2,
+                "rank_score": 0.042541072801107145
+            },
+            "constructed light rail line": {
+                "count": 1,
+                "rank_score": 0.0832357644841298
+            },
             "disappointing levels": {
                 "count": 1,
                 "rank_score": 0.07306351236783333
+            },
+            "hampton roads": {
+                "count": 2,
+                "rank_score": 0.06569921466536176
             },
             "light rail": {
                 "count": 1,
@@ -6226,9 +6728,45 @@
                 "count": 1,
                 "rank_score": 0.08120139292780021
             },
+            "norfolk tide light rail": {
+                "count": 1,
+                "rank_score": 0.07961885881136672
+            },
+            "operations": {
+                "count": 2,
+                "rank_score": 0.0630734873640232
+            },
+            "our identification strategy": {
+                "count": 1,
+                "rank_score": 0.036924366449709325
+            },
             "potential accessibility benefits": {
                 "count": 1,
                 "rank_score": 0.08396791841289526
+            },
+            "potential negative effects": {
+                "count": 1,
+                "rank_score": 0.06930266371250819
+            },
+            "properties": {
+                "count": 1,
+                "rank_score": 0.03761473694970802
+            },
+            "proposed rail line": {
+                "count": 1,
+                "rank_score": 0.0743837704284425
+            },
+            "residential housing market": {
+                "count": 1,
+                "rank_score": 0.06118219405171582
+            },
+            "residential real estate market": {
+                "count": 1,
+                "rank_score": 0.06698931639118158
+            },
+            "ridership": {
+                "count": 1,
+                "rank_score": 0.057483724095839656
             },
             "sales price": {
                 "count": 2,
@@ -6242,17 +6780,13 @@
                 "count": 1,
                 "rank_score": 0.08137592691372623
             },
-            "the constructed light rail line": {
-                "count": 1,
-                "rank_score": 0.0832357644841298
-            },
-            "the norfolk tide light rail": {
-                "count": 1,
-                "rank_score": 0.07961885881136672
-            },
             "tide": {
                 "count": 2,
                 "rank_score": 0.0707422375002025
+            },
+            "virginia": {
+                "count": 4,
+                "rank_score": 0.06887463371764606
             },
             "virginia beach": {
                 "count": 2,
@@ -6281,6 +6815,7 @@
                     "name": "08 Information and Computing Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -6297,8 +6832,9 @@
                             }
                         ],
                         "corresponding": "",
-                        "current_organization_id": "grid.266683.f",
+                        "current_organization_id": "grid.47840.3f",
                         "first_name": "Nicholas",
+                        "initials": "",
                         "last_name": "Fournier",
                         "orcid": "['0000-0002-4722-4138']",
                         "researcher_id": "ur.012326141537.08"
@@ -6319,6 +6855,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.266683.f",
                         "first_name": "Eleni",
+                        "initials": "",
                         "last_name": "Christofa",
                         "orcid": "",
                         "researcher_id": "ur.013123522137.52"
@@ -6340,8 +6877,9 @@
                         }
                     ],
                     "corresponding": "",
-                    "current_organization_id": "grid.266683.f",
+                    "current_organization_id": "grid.47840.3f",
                     "first_name": "Nicholas",
+                    "initials": "",
                     "last_name": "Fournier",
                     "orcid": "['0000-0002-4722-4138']",
                     "researcher_id": "ur.012326141537.08"
@@ -6362,6 +6900,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.266683.f",
                     "first_name": "Eleni",
+                    "initials": "",
                     "last_name": "Christofa",
                     "orcid": "",
                     "researcher_id": "ur.013123522137.52"
@@ -6390,26 +6929,24 @@
                 }
             ],
             "concepts": [
-                "advances",
                 "computational power",
                 "power",
                 "source",
                 "model",
                 "gravity model",
                 "large sample data",
-                "sample data",
-                "spatial resolution",
-                "resolution",
+                "spatial resolution increases",
+                "resolution increases",
+                "increase",
                 "such models",
                 "survey costs",
                 "cost",
                 "limited sample data",
                 "high resolution",
-                "challenges",
+                "resolution",
                 "paper",
                 "method",
-                "aggregated source",
-                "individual travel time",
+                "individual travel times",
                 "travel time",
                 "time",
                 "travel time matrices",
@@ -6418,20 +6955,21 @@
                 "process",
                 "area",
                 "traffic analysis zones",
+                "analysis zones",
                 "zone",
                 "mode",
                 "origin zone",
+                "zonal radius",
                 "radius",
                 "possibility",
                 "industry",
-                "travel time constraints",
                 "constraints",
-                "trip assignment",
-                "simulation accounting"
+                "trip assignment"
             ],
             "date": "2017-06-01",
             "date_inserted": "2017-12-06",
             "doi": "10.1109/mtits.2017.8005720",
+            "field_citation_ratio": 0.0,
             "funder_countries": [
                 {
                     "id": "US",
@@ -6457,6 +6995,38 @@
                 }
             ],
             "id": "pub.1094813523",
+            "noun_phrases": [
+                "assignment",
+                "travel time",
+                "computational power",
+                "large sample",
+                "destination",
+                "Logistic Model",
+                "spatial resolution",
+                "restriction",
+                "high spatial resolution",
+                "aggregation",
+                "limited sample",
+                "high resolution",
+                "census",
+                "challenge",
+                "individual",
+                "explores",
+                "method",
+                "population",
+                "Boston",
+                "Massachusetts",
+                "zone",
+                "mode",
+                "origin",
+                "radius",
+                "subset",
+                "possibility",
+                "age",
+                "industry",
+                "time constraint",
+                "random assignment"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -6467,25 +7037,26 @@
             "pages": "480-485",
             "proceedings_title": "2017 5th IEEE International Conference on Models and Technologies for Intelligent Transportation Systems (MT-ITS)",
             "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1045685294",
-                "pub.1053626758",
-                "pub.1011444795",
-                "pub.1064402451",
-                "pub.1047623442",
                 "pub.1064402371",
                 "pub.1022499367",
-                "pub.1069746697"
+                "pub.1064402451",
+                "pub.1047623442",
+                "pub.1011444795",
+                "pub.1069746697",
+                "pub.1045685294",
+                "pub.1053626758"
             ],
             "references": [
-                "pub.1045685294",
-                "pub.1053626758",
-                "pub.1011444795",
-                "pub.1064402451",
-                "pub.1047623442",
                 "pub.1064402371",
                 "pub.1022499367",
-                "pub.1069746697"
+                "pub.1064402451",
+                "pub.1047623442",
+                "pub.1011444795",
+                "pub.1069746697",
+                "pub.1045685294",
+                "pub.1053626758"
             ],
             "research_org_cities": [
                 {
@@ -6501,6 +7072,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "University of Massachusetts Amherst"
             ],
             "research_org_state_codes": [
                 {
@@ -6537,9 +7111,9 @@
                         "0000-0002-4722-4138"
                     ],
                     "research_orgs": [
-                        "grid.1002.3",
                         "grid.47840.3f",
-                        "grid.266683.f"
+                        "grid.266683.f",
+                        "grid.1002.3"
                     ]
                 },
                 {
@@ -6547,32 +7121,30 @@
                     "id": "ur.013123522137.52",
                     "last_name": "Christofa",
                     "research_orgs": [
-                        "grid.47840.3f",
-                        "grid.266683.f"
+                        "grid.266683.f",
+                        "grid.47840.3f"
                     ]
                 }
             ],
             "terms": [
-                "advances",
                 "computational power",
                 "power",
                 "source",
                 "model",
                 "gravity model",
                 "large sample data",
-                "sample data",
-                "spatial resolution",
-                "resolution",
+                "spatial resolution increases",
+                "resolution increases",
+                "increase",
                 "such models",
                 "survey costs",
                 "cost",
                 "limited sample data",
                 "high resolution",
-                "challenges",
+                "resolution",
                 "paper",
                 "method",
-                "aggregated source",
-                "individual travel time",
+                "individual travel times",
                 "travel time",
                 "time",
                 "travel time matrices",
@@ -6581,17 +7153,18 @@
                 "process",
                 "area",
                 "traffic analysis zones",
+                "analysis zones",
                 "zone",
                 "mode",
                 "origin zone",
+                "zonal radius",
                 "radius",
                 "possibility",
                 "industry",
-                "travel time constraints",
                 "constraints",
-                "trip assignment",
-                "simulation accounting"
+                "trip assignment"
             ],
+            "times_cited": 0,
             "title": "Network Work Trip Assignment for Agent-Based Simulation Accounting for Travel Time",
             "type": "proceeding",
             "year": 2017
@@ -7124,9 +7697,21 @@
         },
         "doi": "10.1109/mtits.2017.8005720",
         "keyphrases": {
+            "added travel time constraint": {
+                "count": 1,
+                "rank_score": 0.06639564442448008
+            },
+            "aggregated gravity models": {
+                "count": 1,
+                "rank_score": 0.07966180365448887
+            },
             "aggregated sources": {
                 "count": 2,
                 "rank_score": 0.09035632784166972
+            },
+            "census sources": {
+                "count": 1,
+                "rank_score": 0.0777624489340002
             },
             "destination choices": {
                 "count": 1,
@@ -7148,6 +7733,10 @@
                 "count": 1,
                 "rank_score": 0.09067917255796465
             },
+            "high resolution": {
+                "count": 1,
+                "rank_score": 0.08117854882675707
+            },
             "higher spatial resolution work trip od assignment": {
                 "count": 1,
                 "rank_score": 0.10931852979755159
@@ -7156,9 +7745,17 @@
                 "count": 1,
                 "rank_score": 0.08819924800847642
             },
+            "individual criteria": {
+                "count": 1,
+                "rank_score": 0.06922083286852976
+            },
             "individual travel time": {
                 "count": 1,
                 "rank_score": 0.10462140419094534
+            },
+            "individuals": {
+                "count": 3,
+                "rank_score": 0.06887453828435285
             },
             "larger sample data": {
                 "count": 1,
@@ -7183,6 +7780,22 @@
             "possible destinations": {
                 "count": 1,
                 "rank_score": 0.0944740480925535
+            },
+            "privacy restrictions": {
+                "count": 1,
+                "rank_score": 0.07413105323425698
+            },
+            "random assignment": {
+                "count": 1,
+                "rank_score": 0.07114248155429259
+            },
+            "spatial resolution increases": {
+                "count": 1,
+                "rank_score": 0.08518742730175594
+            },
+            "survey costs": {
+                "count": 1,
+                "rank_score": 0.06732482688309209
             }
         },
         "original": {
@@ -7207,6 +7820,7 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -7225,6 +7839,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
                         "first_name": "Chris",
+                        "initials": "",
                         "last_name": "McCahill",
                         "orcid": "",
                         "researcher_id": "ur.011643262116.21"
@@ -7248,6 +7863,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
                     "first_name": "Chris",
+                    "initials": "",
                     "last_name": "McCahill",
                     "orcid": "",
                     "researcher_id": "ur.011643262116.21"
@@ -7279,6 +7895,7 @@
                     "name": "1205 Urban and Regional Planning"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30013",
@@ -7312,7 +7929,6 @@
                 "parking use",
                 "related factors",
                 "Madison",
-                "Wisconsin",
                 "neighborhood",
                 "building characteristics",
                 "characteristics",
@@ -7320,10 +7936,10 @@
                 "space",
                 "residential units",
                 "supply",
+                "model",
                 "parking occupancy",
                 "occupancy",
                 "neighborhood characteristics",
-                "third",
                 "work",
                 "findings",
                 "large cities",
@@ -7340,6 +7956,7 @@
             "date": "2017-01-01",
             "date_inserted": "2017-11-01",
             "doi": "10.3141/2651-08",
+            "field_citation_ratio": 0.0,
             "id": "pub.1092454201",
             "issn": [
                 "0361-1981",
@@ -7351,9 +7968,43 @@
                 "title": "Transportation Research Record Journal of the Transportation Research Board"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "Factors Affecting",
+                "Wisconsin",
+                "maker",
+                "urban area",
+                "United State",
+                "provision",
+                "negative impact",
+                "parking",
+                "Administrative Personnel",
+                "different factor",
+                "paper",
+                "related factor",
+                "Madison",
+                "Residence Characteristic",
+                "characteristic",
+                "evening",
+                "unit",
+                "supply",
+                "simple model",
+                "occupancy",
+                "neighborhood characteristic",
+                "variation",
+                "similar finding",
+                "prior study",
+                "large city",
+                "important guidance",
+                "practitioner",
+                "city",
+                "vast amount",
+                "notion",
+                "implement policy"
             ],
             "open_access_categories": [
                 {
@@ -7364,45 +8015,46 @@
             ],
             "pages": "71-79",
             "publisher": "SAGE Publications",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1071051543",
-                "pub.1072565734",
-                "pub.1071038287",
-                "pub.1071050561",
-                "pub.1071048644",
-                "pub.1071050330",
-                "pub.1030008724",
-                "pub.1017646934",
-                "pub.1046638008",
-                "pub.1108772402",
-                "pub.1071036065",
-                "pub.1034729346",
-                "pub.1008680192",
-                "pub.1071050560",
-                "pub.1071051957",
-                "pub.1070774045",
                 "pub.1071047427",
-                "pub.1054076857"
+                "pub.1108772402",
+                "pub.1071051543",
+                "pub.1046638008",
+                "pub.1072565734",
+                "pub.1071050330",
+                "pub.1071051957",
+                "pub.1071036065",
+                "pub.1030008724",
+                "pub.1008680192",
+                "pub.1071038287",
+                "pub.1017646934",
+                "pub.1071048644",
+                "pub.1071050561",
+                "pub.1070774045",
+                "pub.1034729346",
+                "pub.1054076857",
+                "pub.1071050560"
             ],
             "references": [
-                "pub.1071051543",
-                "pub.1072565734",
-                "pub.1071038287",
-                "pub.1071050561",
-                "pub.1071048644",
-                "pub.1071050330",
-                "pub.1030008724",
-                "pub.1017646934",
-                "pub.1046638008",
-                "pub.1108772402",
-                "pub.1071036065",
-                "pub.1034729346",
-                "pub.1008680192",
-                "pub.1071050560",
-                "pub.1071051957",
-                "pub.1070774045",
                 "pub.1071047427",
-                "pub.1054076857"
+                "pub.1108772402",
+                "pub.1071051543",
+                "pub.1046638008",
+                "pub.1072565734",
+                "pub.1071050330",
+                "pub.1071051957",
+                "pub.1071036065",
+                "pub.1030008724",
+                "pub.1008680192",
+                "pub.1071038287",
+                "pub.1017646934",
+                "pub.1071048644",
+                "pub.1071050561",
+                "pub.1070774045",
+                "pub.1034729346",
+                "pub.1054076857",
+                "pub.1071050560"
             ],
             "research_org_cities": [
                 {
@@ -7418,6 +8070,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "University of Wisconsin–Madison"
             ],
             "research_org_state_codes": [
                 {
@@ -7477,7 +8132,6 @@
                 "parking use",
                 "related factors",
                 "Madison",
-                "Wisconsin",
                 "neighborhood",
                 "building characteristics",
                 "characteristics",
@@ -7485,10 +8139,10 @@
                 "space",
                 "residential units",
                 "supply",
+                "model",
                 "parking occupancy",
                 "occupancy",
                 "neighborhood characteristics",
-                "third",
                 "work",
                 "findings",
                 "large cities",
@@ -7502,6 +8156,7 @@
                 "notion",
                 "policy"
             ],
+            "times_cited": 0,
             "title": "Factors Affecting Residential Parking Occupancy in Madison, Wisconsin",
             "type": "article",
             "volume": "2651",
@@ -7612,17 +8267,49 @@
                 "count": 2,
                 "rank_score": 0.1120894637043918
             },
+            "evening": {
+                "count": 1,
+                "rank_score": 0.046526015028234655
+            },
+            "evening peak": {
+                "count": 1,
+                "rank_score": 0.038836788061962745
+            },
             "excess parking": {
                 "count": 1,
                 "rank_score": 0.13320940345634955
+            },
+            "existing parking": {
+                "count": 1,
+                "rank_score": 0.08063248574422165
+            },
+            "existing supply": {
+                "count": 1,
+                "rank_score": 0.043637298343078244
+            },
+            "how different factors": {
+                "count": 1,
+                "rank_score": 0.05505107303593432
+            },
+            "its use": {
+                "count": 1,
+                "rank_score": 0.04894076774053274
             },
             "madison": {
                 "count": 2,
                 "rank_score": 0.060590383816984374
             },
+            "more than 50%": {
+                "count": 2,
+                "rank_score": 0.03966956066778029
+            },
             "multifamily residential parking use": {
                 "count": 1,
                 "rank_score": 0.14965684426524864
+            },
+            "negative impacts": {
+                "count": 1,
+                "rank_score": 0.04533880047006265
             },
             "neighborhood and building characteristics": {
                 "count": 1,
@@ -7660,13 +8347,21 @@
                 "count": 1,
                 "rank_score": 0.08273450497110256
             },
-            "the existing parking": {
+            "three simple models": {
                 "count": 1,
-                "rank_score": 0.08063248574422165
+                "rank_score": 0.04847460777601091
+            },
+            "united states": {
+                "count": 2,
+                "rank_score": 0.04229815957618051
             },
             "urban areas": {
                 "count": 1,
                 "rank_score": 0.07674287941804699
+            },
+            "wisconsin": {
+                "count": 2,
+                "rank_score": 0.046417414226448635
             }
         },
         "original": {
@@ -7691,7 +8386,7 @@
                     "name": "14 Economics"
                 }
             ],
-            "altmetric": 842.0,
+            "altmetric": 862.0,
             "altmetric_id": 14192019,
             "author_affiliations": [
                 [
@@ -7711,6 +8406,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.254880.3",
                         "first_name": "Garrett Dash",
+                        "initials": "",
                         "last_name": "Nelson",
                         "orcid": "['0000-0003-2515-6514']",
                         "researcher_id": "ur.013401607015.80"
@@ -7728,9 +8424,10 @@
                                 "state_code": null
                             }
                         ],
-                        "corresponding": "",
+                        "corresponding": true,
                         "current_organization_id": "grid.11835.3e",
                         "first_name": "Alasdair",
+                        "initials": "",
                         "last_name": "Rae",
                         "orcid": "['0000-0003-0136-7659']",
                         "researcher_id": "ur.015462171171.28"
@@ -7754,6 +8451,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.254880.3",
                     "first_name": "Garrett Dash",
+                    "initials": "",
                     "last_name": "Nelson",
                     "orcid": "['0000-0003-2515-6514']",
                     "researcher_id": "ur.013401607015.80"
@@ -7771,9 +8469,10 @@
                             "state_code": null
                         }
                     ],
-                    "corresponding": "",
+                    "corresponding": true,
                     "current_organization_id": "grid.11835.3e",
                     "first_name": "Alasdair",
+                    "initials": "",
                     "last_name": "Rae",
                     "orcid": "['0000-0003-0136-7659']",
                     "researcher_id": "ur.015462171171.28"
@@ -7825,6 +8524,7 @@
                 "empirical approach",
                 "approach",
                 "heuristics",
+                "areal aggregation",
                 "limitations",
                 "choice",
                 "input parameters",
@@ -7836,11 +8536,11 @@
                 "common sense",
                 "sense",
                 "interpretation",
-                "coherence",
                 "new perspective",
                 "perspective",
                 "light",
                 "problem",
+                "division of space",
                 "division",
                 "areal units",
                 "commute"
@@ -7848,7 +8548,7 @@
             "date": "2016-11-30",
             "date_inserted": "2017-08-31",
             "doi": "10.1371/journal.pone.0166083",
-            "field_citation_ratio": 29.8,
+            "field_citation_ratio": 32.11,
             "id": "pub.1044992699",
             "issn": [
                 "1932-6203"
@@ -7859,14 +8559,15 @@
                 "title": "PLoS ONE"
             },
             "journal_lists": [
+                "VABB-SHW",
+                "ERA 2018",
+                "Norwegian register level 1",
                 "DOAJ",
                 "ERA 2015",
-                "Norwegian register level 1",
                 "ERIH PLUS",
-                "VABB-SHW",
                 "PubMed"
             ],
-            "linkout": "https://doi.org/10.1371/journal.pone.0166083",
+            "linkout": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0166083&type=printable",
             "mesh_terms": [
                 "Algorithms",
                 "Demography",
@@ -7877,6 +8578,34 @@
                 "Transportation",
                 "United States",
                 "Urban Population"
+            ],
+            "noun_phrases": [
+                "economic geography",
+                "commute",
+                "emergence",
+                "United State",
+                "large scale",
+                "major metropolitan area",
+                "phenomenon",
+                "paper",
+                "Dataset",
+                "commuter",
+                "empirical approach",
+                "method",
+                "aggregation",
+                "partitioning",
+                "limitation",
+                "input parameter",
+                "scale",
+                "different result",
+                "stress",
+                "computational result",
+                "common sense",
+                "coherence",
+                "light",
+                "old",
+                "division",
+                "unit"
             ],
             "open_access": [
                 "Open Access - all",
@@ -7899,86 +8628,86 @@
             "pmcid": "PMC5130203",
             "pmid": "27902707",
             "publisher": "Public Library of Science (PLoS)",
-            "recent_citations": 36,
+            "recent_citations": 40,
             "reference_ids": [
-                "pub.1027317694",
-                "pub.1006934105",
-                "pub.1073335177",
-                "pub.1092657888",
-                "pub.1021370883",
-                "pub.1058153706",
-                "pub.1021246944",
-                "pub.1005128830",
-                "pub.1000595800",
-                "pub.1013601174",
-                "pub.1014185633",
-                "pub.1058153054",
-                "pub.1050131285",
-                "pub.1012201390",
-                "pub.1048148225",
-                "pub.1015821231",
-                "pub.1069875263",
-                "pub.1001533635",
-                "pub.1037248856",
-                "pub.1069491255",
-                "pub.1016125157",
-                "pub.1029655344",
-                "pub.1029865271",
-                "pub.1015696233",
-                "pub.1028487514",
-                "pub.1019339805",
-                "pub.1049037255",
-                "pub.1069992606",
-                "pub.1070209349",
-                "pub.1042689988",
-                "pub.1005458825",
-                "pub.1017871234",
-                "pub.1069992641",
+                "pub.1068672944",
                 "pub.1069784383",
+                "pub.1048148225",
+                "pub.1015696233",
+                "pub.1049037255",
+                "pub.1069875263",
+                "pub.1014185633",
+                "pub.1042689988",
+                "pub.1027317694",
+                "pub.1019339805",
+                "pub.1050131285",
+                "pub.1028487514",
+                "pub.1058153706",
+                "pub.1073335177",
+                "pub.1015821231",
+                "pub.1016125157",
+                "pub.1005458825",
+                "pub.1029865271",
+                "pub.1029655344",
+                "pub.1092657888",
+                "pub.1012201390",
+                "pub.1006934105",
+                "pub.1021370883",
+                "pub.1058153054",
+                "pub.1070209349",
                 "pub.1073404470",
+                "pub.1000595800",
                 "pub.1005626355",
-                "pub.1068672944"
+                "pub.1021246944",
+                "pub.1017871234",
+                "pub.1069992606",
+                "pub.1013601174",
+                "pub.1005128830",
+                "pub.1001533635",
+                "pub.1069491255",
+                "pub.1069992641",
+                "pub.1037248856"
             ],
             "references": [
-                "pub.1027317694",
-                "pub.1006934105",
-                "pub.1073335177",
-                "pub.1092657888",
-                "pub.1021370883",
-                "pub.1058153706",
-                "pub.1021246944",
-                "pub.1005128830",
-                "pub.1000595800",
-                "pub.1013601174",
-                "pub.1014185633",
-                "pub.1058153054",
-                "pub.1050131285",
-                "pub.1012201390",
-                "pub.1048148225",
-                "pub.1015821231",
-                "pub.1069875263",
-                "pub.1001533635",
-                "pub.1037248856",
-                "pub.1069491255",
-                "pub.1016125157",
-                "pub.1029655344",
-                "pub.1029865271",
-                "pub.1015696233",
-                "pub.1028487514",
-                "pub.1019339805",
-                "pub.1049037255",
-                "pub.1069992606",
-                "pub.1070209349",
-                "pub.1042689988",
-                "pub.1005458825",
-                "pub.1017871234",
-                "pub.1069992641",
+                "pub.1068672944",
                 "pub.1069784383",
+                "pub.1048148225",
+                "pub.1015696233",
+                "pub.1049037255",
+                "pub.1069875263",
+                "pub.1014185633",
+                "pub.1042689988",
+                "pub.1027317694",
+                "pub.1019339805",
+                "pub.1050131285",
+                "pub.1028487514",
+                "pub.1058153706",
+                "pub.1073335177",
+                "pub.1015821231",
+                "pub.1016125157",
+                "pub.1005458825",
+                "pub.1029865271",
+                "pub.1029655344",
+                "pub.1092657888",
+                "pub.1012201390",
+                "pub.1006934105",
+                "pub.1021370883",
+                "pub.1058153054",
+                "pub.1070209349",
                 "pub.1073404470",
+                "pub.1000595800",
                 "pub.1005626355",
-                "pub.1068672944"
+                "pub.1021246944",
+                "pub.1017871234",
+                "pub.1069992606",
+                "pub.1013601174",
+                "pub.1005128830",
+                "pub.1001533635",
+                "pub.1069491255",
+                "pub.1069992641",
+                "pub.1037248856"
             ],
-            "relative_citation_ratio": 0.63,
+            "relative_citation_ratio": 0.59,
             "research_org_cities": [
                 {
                     "id": 5087168,
@@ -7991,17 +8720,21 @@
             ],
             "research_org_countries": [
                 {
-                    "id": "GB",
-                    "name": "United Kingdom"
-                },
-                {
                     "id": "US",
                     "name": "United States"
+                },
+                {
+                    "id": "GB",
+                    "name": "United Kingdom"
                 }
             ],
             "research_org_country_names": [
-                "United States",
-                "United Kingdom"
+                "United Kingdom",
+                "United States"
+            ],
+            "research_org_names": [
+                "University of Sheffield",
+                "Dartmouth College"
             ],
             "research_org_state_codes": [
                 {
@@ -8013,6 +8746,20 @@
                 "New Hampshire"
             ],
             "research_orgs": [
+                {
+                    "city_name": "Sheffield",
+                    "country_name": "United Kingdom",
+                    "id": "grid.11835.3e",
+                    "latitude": 53.38139,
+                    "linkout": [
+                        "http://www.sheffield.ac.uk/"
+                    ],
+                    "longitude": -1.488272,
+                    "name": "University of Sheffield",
+                    "types": [
+                        "Education"
+                    ]
+                },
                 {
                     "city_name": "Hanover",
                     "country_name": "United States",
@@ -8027,20 +8774,6 @@
                     "types": [
                         "Education"
                     ]
-                },
-                {
-                    "city_name": "Sheffield",
-                    "country_name": "United Kingdom",
-                    "id": "grid.11835.3e",
-                    "latitude": 53.38139,
-                    "linkout": [
-                        "http://www.sheffield.ac.uk/"
-                    ],
-                    "longitude": -1.488272,
-                    "name": "University of Sheffield",
-                    "types": [
-                        "Education"
-                    ]
                 }
             ],
             "researchers": [
@@ -8052,8 +8785,8 @@
                         "0000-0003-2515-6514"
                     ],
                     "research_orgs": [
-                        "grid.14003.36",
-                        "grid.254880.3"
+                        "grid.254880.3",
+                        "grid.14003.36"
                     ]
                 },
                 {
@@ -8094,6 +8827,7 @@
                 "empirical approach",
                 "approach",
                 "heuristics",
+                "areal aggregation",
                 "limitations",
                 "choice",
                 "input parameters",
@@ -8105,16 +8839,16 @@
                 "common sense",
                 "sense",
                 "interpretation",
-                "coherence",
                 "new perspective",
                 "perspective",
                 "light",
                 "problem",
+                "division of space",
                 "division",
                 "areal units",
                 "commute"
             ],
-            "times_cited": 40,
+            "times_cited": 45,
             "title": "An Economic Geography of the United States: From Commutes to Megaregions",
             "type": "article",
             "volume": "11",
@@ -10149,9 +10883,9 @@
         },
         "doi": "10.1371/journal.pone.0166083",
         "keyphrases": {
-            "a computational partitioning algorithm": {
+            "algorithm": {
                 "count": 1,
-                "rank_score": 0.05166193148667908
+                "rank_score": 0.042987812730395814
             },
             "areal aggregation": {
                 "count": 1,
@@ -10161,6 +10895,14 @@
                 "count": 1,
                 "rank_score": 0.07292411145996072
             },
+            "both scholarly studies": {
+                "count": 1,
+                "rank_score": 0.04101156969182915
+            },
+            "computational partitioning algorithm": {
+                "count": 1,
+                "rank_score": 0.05166193148667908
+            },
             "computational results": {
                 "count": 1,
                 "rank_score": 0.09637985378272591
@@ -10169,9 +10911,25 @@
                 "count": 1,
                 "rank_score": 0.08945695999284069
             },
+            "data set": {
+                "count": 1,
+                "rank_score": 0.04275016348455992
+            },
             "different results": {
                 "count": 1,
                 "rank_score": 0.08639924824777716
+            },
+            "empirical approach": {
+                "count": 1,
+                "rank_score": 0.03929541000412865
+            },
+            "flows": {
+                "count": 1,
+                "rank_score": 0.05150976894676647
+            },
+            "functional economic geography": {
+                "count": 1,
+                "rank_score": 0.055255625189271296
             },
             "geographic coherence": {
                 "count": 1,
@@ -10181,9 +10939,29 @@
                 "count": 1,
                 "rank_score": 0.07104202747489063
             },
+            "large-scale megaregions": {
+                "count": 1,
+                "rank_score": 0.044626996329261516
+            },
+            "light": {
+                "count": 1,
+                "rank_score": 0.04767748923466071
+            },
             "major metropolitan areas": {
                 "count": 1,
                 "rank_score": 0.08318220810904525
+            },
+            "megaregion perspective": {
+                "count": 1,
+                "rank_score": 0.04334383290457618
+            },
+            "new perspective": {
+                "count": 1,
+                "rank_score": 0.0455058748114805
+            },
+            "old geographic problem": {
+                "count": 1,
+                "rank_score": 0.05475206661161958
             },
             "popular accounts": {
                 "count": 1,
@@ -10201,13 +10979,9 @@
                 "count": 1,
                 "rank_score": 0.0724482034775443
             },
-            "the functional economic geography": {
-                "count": 1,
-                "rank_score": 0.055255625189271296
-            },
-            "the old geographic problem": {
-                "count": 1,
-                "rank_score": 0.05475206661161958
+            "united states": {
+                "count": 4,
+                "rank_score": 0.048543660400590494
             }
         },
         "original": {
@@ -10242,8 +11016,8 @@
             ],
             "RCDC": [
                 {
-                    "id": "344",
-                    "name": "Digestive Diseases"
+                    "id": "497",
+                    "name": "Basic Behavioral and Social Science"
                 },
                 {
                     "id": "419",
@@ -10254,16 +11028,16 @@
                     "name": "Liver Disease"
                 },
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
-                    "id": "497",
-                    "name": "Basic Behavioral and Social Science"
-                },
-                {
                     "id": "448",
                     "name": "Hepatitis"
+                },
+                {
+                    "id": "344",
+                    "name": "Digestive Diseases"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
             "altmetric": 2.0,
@@ -10275,6 +11049,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Rebecca J.",
+                        "initials": "",
                         "last_name": "Walter",
                         "orcid": "",
                         "researcher_id": ""
@@ -10284,6 +11059,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Ruoniu",
+                        "initials": "",
                         "last_name": "Wang",
                         "orcid": "",
                         "researcher_id": ""
@@ -10296,6 +11072,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Rebecca J.",
+                    "initials": "",
                     "last_name": "Walter",
                     "orcid": "",
                     "researcher_id": ""
@@ -10305,6 +11082,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Ruoniu",
+                    "initials": "",
                     "last_name": "Wang",
                     "orcid": "",
                     "researcher_id": ""
@@ -10326,8 +11104,8 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "344",
-                    "name": "Digestive Diseases"
+                    "id": "497",
+                    "name": "Basic Behavioral and Social Science"
                 },
                 {
                     "id": "419",
@@ -10338,18 +11116,19 @@
                     "name": "Liver Disease"
                 },
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
-                    "id": "497",
-                    "name": "Basic Behavioral and Social Science"
-                },
-                {
                     "id": "448",
                     "name": "Hepatitis"
+                },
+                {
+                    "id": "344",
+                    "name": "Digestive Diseases"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30013",
@@ -10369,16 +11148,13 @@
                 "process",
                 "rental housing",
                 "housing",
-                "rich areas",
                 "area",
                 "Housing Choice Voucher Program",
                 "voucher program",
                 "program",
                 "low-income households",
-                "income households",
                 "households",
                 "low-poverty areas",
-                "poverty areas",
                 "neighborhood",
                 "public transportation",
                 "transportation",
@@ -10412,7 +11188,7 @@
             "date": "2016-09-02",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/10511482.2016.1163276",
-            "field_citation_ratio": 4.41,
+            "field_citation_ratio": 4.84,
             "id": "pub.1029211580",
             "issn": [
                 "1051-1482",
@@ -10424,8 +11200,34 @@
                 "title": "Housing Policy Debate"
             },
             "journal_lists": [
-                "ERA 2015",
-                "Norwegian register level 1"
+                "ERA 2018",
+                "Norwegian register level 1",
+                "ERA 2015"
+            ],
+            "noun_phrases": [
+                "affordability",
+                "key factor",
+                "search process",
+                "locating",
+                "rich area",
+                "housing",
+                "low-income household",
+                "recipient",
+                "Poverty Area",
+                "Residence Characteristic",
+                "public transportation",
+                "challenge",
+                "methodology",
+                "U.S. Department",
+                "development",
+                "assessment tool",
+                "index",
+                "accessibility",
+                "neighborhood condition",
+                "foundation",
+                "public housing",
+                "housing unit",
+                "local government"
             ],
             "open_access_categories": [
                 {
@@ -10436,108 +11238,108 @@
             ],
             "pages": "1-22",
             "publisher": "Taylor & Francis",
-            "recent_citations": 5,
+            "recent_citations": 6,
             "reference_ids": [
-                "pub.1023578798",
-                "pub.1010293927",
-                "pub.1032701614",
-                "pub.1015730893",
-                "pub.1020094297",
-                "pub.1008641454",
-                "pub.1071041872",
-                "pub.1058154941",
+                "pub.1053909185",
                 "pub.1011189099",
-                "pub.1063965608",
-                "pub.1013099519",
-                "pub.1030753853",
-                "pub.1098495672",
-                "pub.1068879275",
-                "pub.1063966555",
-                "pub.1033103089",
                 "pub.1034568778",
-                "pub.1047230437",
-                "pub.1073410000",
-                "pub.1048992883",
-                "pub.1022926036",
+                "pub.1071041872",
                 "pub.1069561091",
-                "pub.1003462481",
-                "pub.1000383820",
-                "pub.1102424877",
                 "pub.1004884241",
-                "pub.1038253120",
+                "pub.1002875905",
+                "pub.1013099519",
+                "pub.1048992883",
+                "pub.1015058734",
+                "pub.1030753853",
+                "pub.1043753351",
+                "pub.1008641454",
+                "pub.1016165449",
+                "pub.1022926036",
+                "pub.1063965803",
+                "pub.1047230437",
+                "pub.1068879275",
+                "pub.1013180717",
                 "pub.1036823430",
-                "pub.1031229870",
-                "pub.1068877229",
-                "pub.1037593304",
-                "pub.1020026809",
+                "pub.1032701614",
+                "pub.1033103089",
+                "pub.1003462481",
+                "pub.1073410000",
                 "pub.1040967727",
+                "pub.1063965608",
+                "pub.1015730893",
+                "pub.1058154941",
+                "pub.1038253120",
+                "pub.1073446987",
+                "pub.1010293927",
+                "pub.1038672461",
+                "pub.1070365259",
+                "pub.1000383820",
+                "pub.1037593304",
+                "pub.1031229870",
+                "pub.1098495672",
+                "pub.1023578798",
+                "pub.1063966555",
                 "pub.1023314631",
                 "pub.1027485650",
-                "pub.1015058734",
-                "pub.1038672461",
-                "pub.1042259227",
-                "pub.1021345385",
-                "pub.1013180717",
-                "pub.1073446987",
-                "pub.1063965803",
-                "pub.1043753351",
-                "pub.1070399498",
-                "pub.1016165449",
-                "pub.1053909185",
                 "pub.1002169642",
-                "pub.1070365259",
-                "pub.1002875905"
+                "pub.1021345385",
+                "pub.1068877229",
+                "pub.1020094297",
+                "pub.1020026809",
+                "pub.1102424877",
+                "pub.1070399498",
+                "pub.1042259227"
             ],
             "references": [
-                "pub.1023578798",
-                "pub.1010293927",
-                "pub.1032701614",
-                "pub.1015730893",
-                "pub.1020094297",
-                "pub.1008641454",
-                "pub.1071041872",
-                "pub.1058154941",
+                "pub.1053909185",
                 "pub.1011189099",
-                "pub.1063965608",
-                "pub.1013099519",
-                "pub.1030753853",
-                "pub.1098495672",
-                "pub.1068879275",
-                "pub.1063966555",
-                "pub.1033103089",
                 "pub.1034568778",
-                "pub.1047230437",
-                "pub.1073410000",
-                "pub.1048992883",
-                "pub.1022926036",
+                "pub.1071041872",
                 "pub.1069561091",
-                "pub.1003462481",
-                "pub.1000383820",
-                "pub.1102424877",
                 "pub.1004884241",
-                "pub.1038253120",
+                "pub.1002875905",
+                "pub.1013099519",
+                "pub.1048992883",
+                "pub.1015058734",
+                "pub.1030753853",
+                "pub.1043753351",
+                "pub.1008641454",
+                "pub.1016165449",
+                "pub.1022926036",
+                "pub.1063965803",
+                "pub.1047230437",
+                "pub.1068879275",
+                "pub.1013180717",
                 "pub.1036823430",
-                "pub.1031229870",
-                "pub.1068877229",
-                "pub.1037593304",
-                "pub.1020026809",
+                "pub.1032701614",
+                "pub.1033103089",
+                "pub.1003462481",
+                "pub.1073410000",
                 "pub.1040967727",
+                "pub.1063965608",
+                "pub.1015730893",
+                "pub.1058154941",
+                "pub.1038253120",
+                "pub.1073446987",
+                "pub.1010293927",
+                "pub.1038672461",
+                "pub.1070365259",
+                "pub.1000383820",
+                "pub.1037593304",
+                "pub.1031229870",
+                "pub.1098495672",
+                "pub.1023578798",
+                "pub.1063966555",
                 "pub.1023314631",
                 "pub.1027485650",
-                "pub.1015058734",
-                "pub.1038672461",
-                "pub.1042259227",
-                "pub.1021345385",
-                "pub.1013180717",
-                "pub.1073446987",
-                "pub.1063965803",
-                "pub.1043753351",
-                "pub.1070399498",
-                "pub.1016165449",
-                "pub.1053909185",
                 "pub.1002169642",
-                "pub.1070365259",
-                "pub.1002875905"
+                "pub.1021345385",
+                "pub.1068877229",
+                "pub.1020094297",
+                "pub.1020026809",
+                "pub.1102424877",
+                "pub.1070399498",
+                "pub.1042259227"
             ],
             "terms": [
                 "affordability",
@@ -10546,16 +11348,13 @@
                 "process",
                 "rental housing",
                 "housing",
-                "rich areas",
                 "area",
                 "Housing Choice Voucher Program",
                 "voucher program",
                 "program",
                 "low-income households",
-                "income households",
                 "households",
                 "low-poverty areas",
-                "poverty areas",
                 "neighborhood",
                 "public transportation",
                 "transportation",
@@ -10586,7 +11385,7 @@
                 "local governments",
                 "government"
             ],
-            "times_cited": 8,
+            "times_cited": 9,
             "title": "Searching for Affordability and Opportunity: A Framework for the Housing Choice Voucher Program",
             "type": "article",
             "volume": "26",
@@ -10809,17 +11608,13 @@
         },
         "doi": "10.1080/10511482.2016.1163276",
         "keyphrases": {
-            "a housing search framework": {
+            "accessibility": {
                 "count": 1,
-                "rank_score": 0.09246766794695066
+                "rank_score": 0.048619562351405556
             },
             "affordable neighborhoods": {
                 "count": 1,
                 "rank_score": 0.06986230634941251
-            },
-            "an online housing search application": {
-                "count": 1,
-                "rank_score": 0.09500912973231386
             },
             "distressed areas": {
                 "count": 1,
@@ -10841,13 +11636,53 @@
                 "count": 1,
                 "rank_score": 0.09115719791009219
             },
+            "housing choice voucher (hcv) program": {
+                "count": 1,
+                "rank_score": 0.05052968368523454
+            },
+            "housing search framework": {
+                "count": 1,
+                "rank_score": 0.09246766794695066
+            },
+            "housing search process": {
+                "count": 2,
+                "rank_score": 0.09225963701668122
+            },
             "housing supply": {
                 "count": 1,
                 "rank_score": 0.13059149037515422
             },
+            "location affordability index": {
+                "count": 1,
+                "rank_score": 0.053593307857034006
+            },
+            "low-income households": {
+                "count": 1,
+                "rank_score": 0.06102427410328405
+            },
+            "low-poverty areas": {
+                "count": 1,
+                "rank_score": 0.05908372512133848
+            },
             "multivariate indices": {
                 "count": 1,
                 "rank_score": 0.07079863624906206
+            },
+            "neighborhood conditions": {
+                "count": 1,
+                "rank_score": 0.06986230634941251
+            },
+            "online housing search application": {
+                "count": 1,
+                "rank_score": 0.09500912973231386
+            },
+            "opportunity": {
+                "count": 1,
+                "rank_score": 0.06879432004950803
+            },
+            "opportunity-rich areas": {
+                "count": 1,
+                "rank_score": 0.058273102956552844
             },
             "public housing author": {
                 "count": 1,
@@ -10861,13 +11696,17 @@
                 "count": 1,
                 "rank_score": 0.13007343077740896
             },
+            "recipients": {
+                "count": 1,
+                "rank_score": 0.06363679293523208
+            },
             "rental housing": {
                 "count": 1,
                 "rank_score": 0.13218721795946414
             },
-            "the housing search process": {
-                "count": 2,
-                "rank_score": 0.09225963701668122
+            "urban development": {
+                "count": 1,
+                "rank_score": 0.06895430981380346
             }
         },
         "original": {
@@ -10901,6 +11740,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.34477.33",
                         "first_name": "Rebecca",
+                        "initials": "",
                         "last_name": "Walter",
                         "orcid": "['0000-0001-9386-7735']",
                         "researcher_id": "ur.016021006201.09"
@@ -10910,6 +11750,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Aaron",
+                        "initials": "",
                         "last_name": "Evans",
                         "orcid": "",
                         "researcher_id": ""
@@ -10919,6 +11760,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.215352.2",
                         "first_name": "Serge",
+                        "initials": "",
                         "last_name": "Atherwood",
                         "orcid": "['0000-0001-9434-1401']",
                         "researcher_id": "ur.011506256401.47"
@@ -10931,6 +11773,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.34477.33",
                     "first_name": "Rebecca",
+                    "initials": "",
                     "last_name": "Walter",
                     "orcid": "['0000-0001-9386-7735']",
                     "researcher_id": "ur.016021006201.09"
@@ -10940,6 +11783,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Aaron",
+                    "initials": "",
                     "last_name": "Evans",
                     "orcid": "",
                     "researcher_id": ""
@@ -10949,6 +11793,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.215352.2",
                     "first_name": "Serge",
+                    "initials": "",
                     "last_name": "Atherwood",
                     "orcid": "['0000-0001-9434-1401']",
                     "researcher_id": "ur.011506256401.47"
@@ -10964,6 +11809,7 @@
                     "name": "1604 Human Geography"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30013",
@@ -10982,12 +11828,10 @@
                 "crisis",
                 "society",
                 "low-income households",
-                "income households",
                 "households",
                 "rapid urbanization",
                 "urbanization",
                 "land-use patterns",
-                "use patterns",
                 "patterns",
                 "barriers",
                 "housing",
@@ -10997,7 +11841,6 @@
                 "housing stock",
                 "stocks",
                 "renters",
-                "rich neighborhoods",
                 "neighborhood",
                 "standard framework",
                 "framework",
@@ -11012,12 +11855,10 @@
                 "creation",
                 "ArcGIS",
                 "affordability",
-                "Opportunity Surface",
                 "neighborhood quality",
                 "quality",
                 "accessibility rankings",
                 "ranking",
-                "opportunities",
                 "affordable housing crisis",
                 "housing crisis",
                 "insights"
@@ -11025,7 +11866,7 @@
             "date": "2016-01-02",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/10511482.2014.1003190",
-            "field_citation_ratio": 2.27,
+            "field_citation_ratio": 2.39,
             "id": "pub.1038672461",
             "issn": [
                 "1051-1482",
@@ -11037,114 +11878,129 @@
                 "title": "Housing Policy Debate"
             },
             "journal_lists": [
-                "ERA 2015",
-                "Norwegian register level 1"
+                "ERA 2018",
+                "Norwegian register level 1",
+                "ERA 2015"
             ],
-            "linkout": "https://www.tandfonline.com/doi/pdf/10.1080/10511482.2014.1003190?needAccess=true",
-            "open_access": [
-                "Open Access - all",
-                "Open Access - repository",
-                "Open Access - submitted"
+            "noun_phrases": [
+                "housing",
+                "county",
+                "South Florida",
+                "crisis",
+                "society",
+                "low-income household",
+                "rapid urbanization",
+                "land use pattern",
+                "barrier",
+                "solution",
+                "affordable housing",
+                "standard framework",
+                "acquisition",
+                "Case Report",
+                "spatial statistic",
+                "principal component analysis",
+                "Residence Characteristic",
+                "creation",
+                "affordability",
+                "overlain",
+                "surface",
+                "neighborhood quality",
+                "accessibility"
             ],
             "open_access_categories": [
                 {
-                    "description": "Article is freely available",
-                    "id": "oa_all",
-                    "name": "All OA"
-                },
-                {
-                    "description": "Free copy of submitted version, or where version is unknown, in an OA repository",
-                    "id": "green_sub",
-                    "name": "Green, Submitted"
+                    "description": "No freely available copy has been identified",
+                    "id": "closed",
+                    "name": "Closed"
                 }
             ],
             "pages": "123-149",
             "publisher": "Taylor & Francis",
             "recent_citations": 3,
             "reference_ids": [
-                "pub.1070225883",
+                "pub.1021880264",
                 "pub.1039560255",
-                "pub.1013021702",
-                "pub.1015598225",
-                "pub.1021575587",
-                "pub.1001743022",
+                "pub.1009654684",
+                "pub.1034568778",
+                "pub.1000408079",
+                "pub.1069792089",
+                "pub.1027886124",
                 "pub.1011238072",
-                "pub.1002917753",
-                "pub.1000383820",
-                "pub.1022602852",
-                "pub.1046611362",
-                "pub.1027961203",
-                "pub.1046909120",
                 "pub.1039803091",
-                "pub.1099468416",
-                "pub.1002169642",
+                "pub.1046909120",
+                "pub.1068878644",
+                "pub.1004552492",
+                "pub.1016165449",
+                "pub.1013021702",
+                "pub.1001915637",
+                "pub.1003462481",
                 "pub.1040967727",
                 "pub.1047282439",
-                "pub.1027196788",
-                "pub.1018593569",
-                "pub.1027886124",
-                "pub.1021880264",
-                "pub.1034568778",
-                "pub.1002164252",
-                "pub.1045787192",
-                "pub.1004552492",
-                "pub.1042139117",
-                "pub.1068878644",
-                "pub.1048612257",
-                "pub.1009654684",
-                "pub.1001915637",
                 "pub.1037234542",
-                "pub.1098732531",
+                "pub.1048612257",
+                "pub.1099468416",
+                "pub.1042139117",
+                "pub.1001743022",
                 "pub.1003703210",
                 "pub.1012275031",
-                "pub.1069792089",
+                "pub.1046611362",
+                "pub.1000383820",
+                "pub.1022602852",
                 "pub.1045086357",
-                "pub.1000408079",
-                "pub.1016165449",
-                "pub.1003462481",
+                "pub.1045787192",
+                "pub.1002917753",
+                "pub.1015598225",
+                "pub.1002164252",
+                "pub.1027961203",
+                "pub.1002169642",
+                "pub.1027196788",
+                "pub.1098732531",
+                "pub.1018593569",
+                "pub.1021575587",
+                "pub.1070225883",
                 "pub.1007358301"
             ],
             "references": [
-                "pub.1070225883",
+                "pub.1021880264",
                 "pub.1039560255",
-                "pub.1013021702",
-                "pub.1015598225",
-                "pub.1021575587",
-                "pub.1001743022",
+                "pub.1009654684",
+                "pub.1034568778",
+                "pub.1000408079",
+                "pub.1069792089",
+                "pub.1027886124",
                 "pub.1011238072",
-                "pub.1002917753",
-                "pub.1000383820",
-                "pub.1022602852",
-                "pub.1046611362",
-                "pub.1027961203",
-                "pub.1046909120",
                 "pub.1039803091",
-                "pub.1099468416",
-                "pub.1002169642",
+                "pub.1046909120",
+                "pub.1068878644",
+                "pub.1004552492",
+                "pub.1016165449",
+                "pub.1013021702",
+                "pub.1001915637",
+                "pub.1003462481",
                 "pub.1040967727",
                 "pub.1047282439",
-                "pub.1027196788",
-                "pub.1018593569",
-                "pub.1027886124",
-                "pub.1021880264",
-                "pub.1034568778",
-                "pub.1002164252",
-                "pub.1045787192",
-                "pub.1004552492",
-                "pub.1042139117",
-                "pub.1068878644",
-                "pub.1048612257",
-                "pub.1009654684",
-                "pub.1001915637",
                 "pub.1037234542",
-                "pub.1098732531",
+                "pub.1048612257",
+                "pub.1099468416",
+                "pub.1042139117",
+                "pub.1001743022",
                 "pub.1003703210",
                 "pub.1012275031",
-                "pub.1069792089",
+                "pub.1046611362",
+                "pub.1000383820",
+                "pub.1022602852",
                 "pub.1045086357",
-                "pub.1000408079",
-                "pub.1016165449",
-                "pub.1003462481",
+                "pub.1045787192",
+                "pub.1002917753",
+                "pub.1015598225",
+                "pub.1002164252",
+                "pub.1027961203",
+                "pub.1002169642",
+                "pub.1027196788",
+                "pub.1098732531",
+                "pub.1018593569",
+                "pub.1021575587",
+                "pub.1070225883",
                 "pub.1007358301"
             ],
             "researchers": [
@@ -11156,8 +12012,8 @@
                         "0000-0001-9386-7735"
                     ],
                     "research_orgs": [
-                        "grid.34477.33",
-                        "grid.215352.2"
+                        "grid.215352.2",
+                        "grid.34477.33"
                     ]
                 },
                 {
@@ -11168,8 +12024,8 @@
                         "0000-0001-9434-1401"
                     ],
                     "research_orgs": [
-                        "grid.29857.31",
-                        "grid.215352.2"
+                        "grid.215352.2",
+                        "grid.29857.31"
                     ]
                 }
             ],
@@ -11179,12 +12035,10 @@
                 "crisis",
                 "society",
                 "low-income households",
-                "income households",
                 "households",
                 "rapid urbanization",
                 "urbanization",
                 "land-use patterns",
-                "use patterns",
                 "patterns",
                 "barriers",
                 "housing",
@@ -11194,7 +12048,6 @@
                 "housing stock",
                 "stocks",
                 "renters",
-                "rich neighborhoods",
                 "neighborhood",
                 "standard framework",
                 "framework",
@@ -11209,12 +12062,10 @@
                 "creation",
                 "ArcGIS",
                 "affordability",
-                "Opportunity Surface",
                 "neighborhood quality",
                 "quality",
                 "accessibility rankings",
                 "ranking",
-                "opportunities",
                 "affordable housing crisis",
                 "housing crisis",
                 "insights"
@@ -11392,17 +12243,41 @@
         },
         "doi": "10.1080/10511482.2014.1003190",
         "keyphrases": {
-            "a housing acquisition tool": {
+            "acquisition": {
                 "count": 1,
-                "rank_score": 0.07242086881007634
+                "rank_score": 0.06210482714136976
+            },
+            "affordability": {
+                "count": 1,
+                "rank_score": 0.061034119153589264
+            },
+            "affordability surface": {
+                "count": 1,
+                "rank_score": 0.04800918008521071
+            },
+            "affordable rental crisis": {
+                "count": 1,
+                "rank_score": 0.06045977617539084
+            },
+            "arcgis": {
+                "count": 1,
+                "rank_score": 0.04484635017271283
             },
             "broward county": {
                 "count": 4,
                 "rank_score": 0.07739183492413867
             },
+            "case study": {
+                "count": 1,
+                "rank_score": 0.03822560000486763
+            },
             "housing": {
                 "count": 1,
                 "rank_score": 0.11071182382356248
+            },
+            "housing acquisition tool": {
+                "count": 1,
+                "rank_score": 0.07242086881007634
             },
             "housing agencies": {
                 "count": 1,
@@ -11424,6 +12299,14 @@
                 "count": 2,
                 "rank_score": 0.09805645778058042
             },
+            "no standard framework": {
+                "count": 1,
+                "rank_score": 0.03593879742094281
+            },
+            "opportunity surface": {
+                "count": 1,
+                "rank_score": 0.056521436966260406
+            },
             "opportunity-rich neighborhoods": {
                 "count": 1,
                 "rank_score": 0.07419847526126211
@@ -11439,6 +12322,14 @@
             "rapid urbanization": {
                 "count": 1,
                 "rank_score": 0.06700541304924212
+            },
+            "society": {
+                "count": 1,
+                "rank_score": 0.048028895724141554
+            },
+            "south florida": {
+                "count": 2,
+                "rank_score": 0.06329343802015187
             },
             "spatial statistics": {
                 "count": 1,
@@ -11463,38 +12354,16 @@
     },
     {
         "Dimensions": {
-            "FOR": [
-                {
-                    "id": "3292",
-                    "name": "1402 Applied Economics"
-                }
-            ],
-            "FOR_first": [
-                {
-                    "id": "2214",
-                    "name": "14 Economics"
-                }
-            ],
             "altmetric": 12.0,
-            "altmetric_id": 10420053,
+            "altmetric_id": 79866186,
             "author_affiliations": [
                 [
                     {
-                        "affiliations": [
-                            {
-                                "city": "Provo",
-                                "city_id": 5780026,
-                                "country": "United States",
-                                "country_code": "US",
-                                "id": "grid.253294.b",
-                                "name": "Brigham Young University",
-                                "state": "Utah",
-                                "state_code": "US-UT"
-                            }
-                        ],
+                        "affiliations": [],
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Riley",
+                        "initials": "",
                         "last_name": "Wilson",
                         "orcid": "",
                         "researcher_id": ""
@@ -11503,21 +12372,11 @@
             ],
             "authors": [
                 {
-                    "affiliations": [
-                        {
-                            "city": "Provo",
-                            "city_id": 5780026,
-                            "country": "United States",
-                            "country_code": "US",
-                            "id": "grid.253294.b",
-                            "name": "Brigham Young University",
-                            "state": "Utah",
-                            "state_code": "US-UT"
-                        }
-                    ],
+                    "affiliations": [],
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Riley",
+                    "initials": "",
                     "last_name": "Wilson",
                     "orcid": "",
                     "researcher_id": ""
@@ -11525,249 +12384,62 @@
             ],
             "category_for": [
                 {
+                    "id": "2218",
+                    "name": "18 Law and Legal Studies"
+                },
+                {
                     "id": "3292",
                     "name": "1402 Applied Economics"
+                },
+                {
+                    "id": "3494",
+                    "name": "1801 Law"
                 },
                 {
                     "id": "2214",
                     "name": "14 Economics"
                 }
             ],
-            "category_hra": [
-                {
-                    "id": "3903",
-                    "name": "Population & Society"
-                }
-            ],
-            "category_ua": [
-                {
-                    "id": "30016",
-                    "name": "C16 Economics and Econometrics"
-                }
-            ],
-            "category_uoa": [
-                {
-                    "id": "30016",
-                    "name": "C16 Economics and Econometrics"
-                }
-            ],
             "concepts": [
-                "boom",
-                "United States",
-                "state",
-                "unique opportunity",
-                "opportunities",
                 "migration response",
-                "labor demand shocks",
-                "demand shocks",
-                "shock",
-                "current context",
-                "context",
-                "geographic mobility",
-                "mobility",
-                "data",
-                "large increase",
-                "potential earnings",
-                "earnings",
-                "employment",
-                "County",
-                "migration effects",
-                "heterogeneity",
-                "migration behavior",
-                "behavior",
-                "demographics",
-                "region",
-                "migrants",
-                "area",
-                "mover",
-                "migration rate",
-                "fracking",
-                "same demographic group",
-                "demographic groups",
-                "short-term migration",
-                "term migration",
-                "migration",
-                "churn",
-                "instrumental variable analysis",
-                "variable analysis",
-                "analysis",
-                "instrument",
-                "percent increase",
-                "average earnings",
-                "percent",
-                "North Dakota",
-                "Dakota",
-                "west",
-                "south",
-                "northeast",
-                "market control",
-                "geographic spillovers",
-                "spillovers",
-                "specification",
-                "population characteristics",
-                "characteristics",
-                "non-linear relationship",
-                "relationship",
-                "news stories",
-                "story",
-                "information",
-                "role",
-                "certain conditions",
-                "economic shocks",
-                "population",
-                "non-market factors",
-                "market factors",
-                "factors",
-                "lack of information",
-                "lack",
-                "economic opportunities"
+                "response"
             ],
-            "date": "2016-01-01",
-            "date_inserted": "2018-04-06",
-            "doi": "10.2139/ssrn.2814147",
-            "field_citation_ratio": 2.98,
-            "id": "pub.1102463741",
+            "date": "2020-04-09",
+            "date_inserted": "2020-04-11",
+            "doi": "10.3368/jhr.57.3.0817-8989r2",
+            "id": "pub.1126576190",
             "issn": [
-                "1556-5068"
+                "0022-166X",
+                "1548-8004"
             ],
             "journal": {
-                "id": "jour.1276748",
-                "title": "SSRN Electronic Journal"
+                "id": "jour.1013146",
+                "title": "The Journal of Human Resources"
             },
             "journal_lists": [
-                "Norwegian register level 0"
+                "Norwegian register level 2",
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
             ],
             "open_access_categories": [
                 {
-                    "description": "Article is freely available",
-                    "id": "oa_all",
-                    "name": "All OA"
-                },
-                {
-                    "description": "Free copy of submitted version, or where version is unknown, in an OA repository",
-                    "id": "green_sub",
-                    "name": "Green, Submitted"
+                    "description": "No freely available copy has been identified",
+                    "id": "closed",
+                    "name": "Closed"
                 }
             ],
-            "publisher": "Elsevier",
-            "recent_citations": 4,
-            "research_org_cities": [
-                {
-                    "id": 5780026,
-                    "name": "Provo"
-                }
-            ],
-            "research_org_countries": [
-                {
-                    "id": "US",
-                    "name": "United States"
-                }
-            ],
-            "research_org_country_names": [
-                "United States"
-            ],
-            "research_org_state_codes": [
-                {
-                    "id": "US-UT",
-                    "name": "Utah"
-                }
-            ],
-            "research_org_state_names": [
-                "Utah"
-            ],
-            "research_orgs": [
-                {
-                    "acronym": "BYU",
-                    "city_name": "Provo",
-                    "country_name": "United States",
-                    "id": "grid.253294.b",
-                    "latitude": 40.25,
-                    "linkout": [
-                        "http://home.byu.edu/home/"
-                    ],
-                    "longitude": -111.65,
-                    "name": "Brigham Young University",
-                    "state_name": "Utah",
-                    "types": [
-                        "Education"
-                    ]
-                }
-            ],
+            "pages": "0817-8989r2",
+            "publisher": "University of Wisconsin Press",
+            "recent_citations": 0,
             "terms": [
-                "boom",
-                "United States",
-                "state",
-                "unique opportunity",
-                "opportunities",
                 "migration response",
-                "labor demand shocks",
-                "demand shocks",
-                "shock",
-                "current context",
-                "context",
-                "geographic mobility",
-                "mobility",
-                "data",
-                "large increase",
-                "potential earnings",
-                "earnings",
-                "employment",
-                "County",
-                "migration effects",
-                "heterogeneity",
-                "migration behavior",
-                "behavior",
-                "demographics",
-                "region",
-                "migrants",
-                "area",
-                "mover",
-                "migration rate",
-                "fracking",
-                "same demographic group",
-                "demographic groups",
-                "short-term migration",
-                "term migration",
-                "migration",
-                "churn",
-                "instrumental variable analysis",
-                "variable analysis",
-                "analysis",
-                "instrument",
-                "percent increase",
-                "average earnings",
-                "percent",
-                "North Dakota",
-                "Dakota",
-                "west",
-                "south",
-                "northeast",
-                "market control",
-                "geographic spillovers",
-                "spillovers",
-                "specification",
-                "population characteristics",
-                "characteristics",
-                "non-linear relationship",
-                "relationship",
-                "news stories",
-                "story",
-                "information",
-                "role",
-                "certain conditions",
-                "economic shocks",
-                "population",
-                "non-market factors",
-                "market factors",
-                "factors",
-                "lack of information",
-                "lack",
-                "economic opportunities"
+                "response"
             ],
-            "times_cited": 4,
+            "times_cited": 0,
             "title": "Moving to Economic Opportunity: The Migration Response to the Fracking Boom",
-            "type": "preprint",
-            "year": 2016
+            "type": "article",
+            "year": 2020
         },
         "Semantic Scholar": {
             "abstract": "In recent years, internal migration rates have fallen to all-time lows, raising questions about why more individuals do not appear to move to encounter more favorable labor market conditions. The fracking oil and gas boom has recently created large, localized economic shocks and corresponding wage increases for men with all levels of education. Fracking can only occur in certain areas exogenously determined by geology, creating a unique situation to identify wage-induced labor migration. In this paper, I first characterize the reduced form migration response to localized fracking booms. The data indicate that migration has been concentrated in North Dakota, with the largest population growth seen among men who are young, unmarried, or moderately educated. Using an instrumental variables (IV) approach to estimate the elasticity of in-migration with respect to wages, I find that a one percent increase in local average wages increased the in-migration rate by 4.6 percent in North Dakota, but only by 3.1 percent in other states. The elasticity in North Dakota is consistently larger across specifications. I find that initial labor market conditions, potential differences in commuting feasibility, and potential non-linear relationships between wages and migration do not seem to explain the geographic difference, while information might play a role. In combination these results suggest that in limited circumstances, there is still substantial migration to potential wage gains, although the magnitude of this response might be severely dampened by external non-market factors, such as the lack of information.",
@@ -12010,6 +12682,10 @@
         },
         "doi": "10.2139/ssrn.2814147",
         "keyphrases": {
+            "certain areas": {
+                "count": 1,
+                "rank_score": 0.05698685501572312
+            },
             "corresponding wage increases": {
                 "count": 1,
                 "rank_score": 0.09384901195187818
@@ -12018,9 +12694,25 @@
                 "count": 1,
                 "rank_score": 0.08328476179938933
             },
+            "feasibility": {
+                "count": 1,
+                "rank_score": 0.03831399496747229
+            },
+            "fracking": {
+                "count": 1,
+                "rank_score": 0.05190300150394743
+            },
             "fracking booms": {
                 "count": 1,
                 "rank_score": 0.06753993567054203
+            },
+            "fracking oil and gas boom": {
+                "count": 1,
+                "rank_score": 0.03672032103071154
+            },
+            "geographic difference": {
+                "count": 1,
+                "rank_score": 0.0362810638310775
             },
             "initial labor market conditions": {
                 "count": 1,
@@ -12030,6 +12722,18 @@
                 "count": 1,
                 "rank_score": 0.09750427598542133
             },
+            "large, localized economic shocks": {
+                "count": 1,
+                "rank_score": 0.05282446750006551
+            },
+            "largest population growth": {
+                "count": 1,
+                "rank_score": 0.04754756213100304
+            },
+            "limited circumstances": {
+                "count": 1,
+                "rank_score": 0.05419004170339661
+            },
             "local average wages": {
                 "count": 1,
                 "rank_score": 0.0919373827351931
@@ -12037,6 +12741,14 @@
             "migration": {
                 "count": 4,
                 "rank_score": 0.093623123181883
+            },
+            "more favorable labor market conditions": {
+                "count": 1,
+                "rank_score": 0.05843273566335068
+            },
+            "more individuals": {
+                "count": 1,
+                "rank_score": 0.054710096139797715
             },
             "north dakota": {
                 "count": 6,
@@ -12054,13 +12766,13 @@
                 "count": 1,
                 "rank_score": 0.09853168819520726
             },
+            "reduced form migration response": {
+                "count": 1,
+                "rank_score": 0.0684906176816137
+            },
             "substantial migration": {
                 "count": 1,
                 "rank_score": 0.0908938167451595
-            },
-            "the reduced form migration response": {
-                "count": 1,
-                "rank_score": 0.0684906176816137
             },
             "wage-induced labor migration": {
                 "count": 1,
@@ -12096,14 +12808,15 @@
             ],
             "RCDC": [
                 {
-                    "id": "497",
-                    "name": "Basic Behavioral and Social Science"
-                },
-                {
                     "id": "498",
                     "name": "Behavioral and Social Science"
+                },
+                {
+                    "id": "497",
+                    "name": "Basic Behavioral and Social Science"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -12122,6 +12835,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.215654.1",
                         "first_name": "Deborah",
+                        "initials": "",
                         "last_name": "Salon",
                         "orcid": "['0000-0002-2240-8408']",
                         "researcher_id": "ur.015564023001.71"
@@ -12145,6 +12859,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.215654.1",
                     "first_name": "Deborah",
+                    "initials": "",
                     "last_name": "Salon",
                     "orcid": "['0000-0002-2240-8408']",
                     "researcher_id": "ur.015564023001.71"
@@ -12176,12 +12891,12 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "497",
-                    "name": "Basic Behavioral and Social Science"
-                },
-                {
                     "id": "498",
                     "name": "Behavioral and Social Science"
+                },
+                {
+                    "id": "497",
+                    "name": "Basic Behavioral and Social Science"
                 }
             ],
             "category_ua": [
@@ -12223,29 +12938,26 @@
                 "key ways",
                 "way",
                 "approach",
-                "residential self-selection",
-                "self-selection",
                 "neighborhood",
                 "alternative",
                 "type choice",
                 "choice",
                 "environment",
                 "VMT",
-                "neighborhood types",
-                "travel purposes",
+                "travel purpose",
                 "purpose",
+                "neighborhood types",
                 "purpose of travel",
                 "travel",
                 "questions",
                 "prior research",
                 "travel choices",
-                "trip types",
-                "focus"
+                "trip types"
             ],
             "date": "2015-10-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.retrec.2015.10.008",
-            "field_citation_ratio": 5.13,
+            "field_citation_ratio": 5.27,
             "funder_countries": [
                 {
                     "id": "US",
@@ -12280,9 +12992,38 @@
                 "title": "Research in Transportation Economics"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "Population Characteristic",
+                "built environment",
+                "global concern",
+                "fossil fuel use",
+                "externality",
+                "government",
+                "resident",
+                "empirical analysis",
+                "survey data",
+                "vehicle",
+                "California",
+                "past research",
+                "key way",
+                "novel approach",
+                "control",
+                "self-selection",
+                "categorizing",
+                "alternative",
+                "predictive model",
+                "dimension",
+                "travel",
+                "usefulness",
+                "Research",
+                "single point",
+                "average",
+                "trip"
             ],
             "open_access_categories": [
                 {
@@ -12293,40 +13034,40 @@
             ],
             "pages": "34-45",
             "publisher": "Elsevier",
-            "recent_citations": 16,
+            "recent_citations": 17,
             "reference_ids": [
-                "pub.1008680535",
                 "pub.1042842570",
-                "pub.1030008724",
-                "pub.1046828417",
-                "pub.1051463709",
+                "pub.1022476785",
                 "pub.1034391516",
                 "pub.1038134532",
-                "pub.1037719535",
-                "pub.1069639613",
+                "pub.1008680535",
+                "pub.1046828417",
+                "pub.1030008724",
+                "pub.1112535417",
                 "pub.1002739241",
                 "pub.1000560470",
-                "pub.1112535417",
-                "pub.1038581222",
+                "pub.1037719535",
                 "pub.1051292736",
-                "pub.1022476785"
+                "pub.1051463709",
+                "pub.1038581222",
+                "pub.1069639613"
             ],
             "references": [
-                "pub.1008680535",
                 "pub.1042842570",
-                "pub.1030008724",
-                "pub.1046828417",
-                "pub.1051463709",
+                "pub.1022476785",
                 "pub.1034391516",
                 "pub.1038134532",
-                "pub.1037719535",
-                "pub.1069639613",
+                "pub.1008680535",
+                "pub.1046828417",
+                "pub.1030008724",
+                "pub.1112535417",
                 "pub.1002739241",
                 "pub.1000560470",
-                "pub.1112535417",
-                "pub.1038581222",
+                "pub.1037719535",
                 "pub.1051292736",
-                "pub.1022476785"
+                "pub.1051463709",
+                "pub.1038581222",
+                "pub.1069639613"
             ],
             "research_org_cities": [
                 {
@@ -12342,6 +13083,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Arizona State University"
             ],
             "research_org_state_codes": [
                 {
@@ -12380,8 +13124,8 @@
                     ],
                     "research_orgs": [
                         "grid.215654.1",
-                        "grid.21729.3f",
-                        "grid.27860.3b"
+                        "grid.27860.3b",
+                        "grid.21729.3f"
                     ]
                 }
             ],
@@ -12412,26 +13156,23 @@
                 "key ways",
                 "way",
                 "approach",
-                "residential self-selection",
-                "self-selection",
                 "neighborhood",
                 "alternative",
                 "type choice",
                 "choice",
                 "environment",
                 "VMT",
-                "neighborhood types",
-                "travel purposes",
+                "travel purpose",
                 "purpose",
+                "neighborhood types",
                 "purpose of travel",
                 "travel",
                 "questions",
                 "prior research",
                 "travel choices",
-                "trip types",
-                "focus"
+                "trip types"
             ],
-            "times_cited": 19,
+            "times_cited": 20,
             "title": "Heterogeneity in the relationship between the built environment and driving: Focus on neighborhood type and travel purpose",
             "type": "article",
             "volume": "52",
@@ -12865,17 +13606,21 @@
         },
         "doi": "10.1016/j.retrec.2015.10.008",
         "keyphrases": {
-            "actions": {
-                "count": 1,
-                "rank_score": 0.05718754199477428
-            },
             "associated environmental externalities": {
                 "count": 1,
                 "rank_score": 0.0911374250596861
             },
+            "built environment": {
+                "count": 1,
+                "rank_score": 0.05557306774294222
+            },
             "built environment characteristics": {
                 "count": 1,
                 "rank_score": 0.10135209198363943
+            },
+            "california": {
+                "count": 2,
+                "rank_score": 0.040095816071221736
             },
             "empirical analysis": {
                 "count": 1,
@@ -12909,13 +13654,45 @@
                 "count": 1,
                 "rank_score": 0.09300368396249716
             },
+            "novel approach": {
+                "count": 1,
+                "rank_score": 0.04610510139927401
+            },
             "past research": {
                 "count": 1,
                 "rank_score": 0.09027304686005011
             },
+            "predictive model": {
+                "count": 1,
+                "rank_score": 0.043319624076679886
+            },
+            "relationship": {
+                "count": 2,
+                "rank_score": 0.03640474256238857
+            },
+            "residential self-selection": {
+                "count": 1,
+                "rank_score": 0.055207273953142746
+            },
+            "their residents": {
+                "count": 1,
+                "rank_score": 0.03369833954457333
+            },
+            "travel": {
+                "count": 1,
+                "rank_score": 0.053850599080106185
+            },
             "travel survey data": {
                 "count": 1,
                 "rank_score": 0.08808738431667772
+            },
+            "two dimensions": {
+                "count": 1,
+                "rank_score": 0.02812034862457973
+            },
+            "two key ways": {
+                "count": 1,
+                "rank_score": 0.03738459909551524
             },
             "types": {
                 "count": 1,
@@ -12924,6 +13701,10 @@
             "vehicle miles": {
                 "count": 1,
                 "rank_score": 0.08270825745774224
+            },
+            "vmt": {
+                "count": 2,
+                "rank_score": 0.05321411483959769
             }
         },
         "original": {

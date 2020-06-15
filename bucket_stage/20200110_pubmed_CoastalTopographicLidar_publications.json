@@ -33,6 +33,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Eve R.",
+                        "initials": "",
                         "last_name": "Eisemann",
                         "orcid": "",
                         "researcher_id": ""
@@ -53,6 +54,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.267193.8",
                         "first_name": "Davin J.",
+                        "initials": "",
                         "last_name": "Wallace",
                         "orcid": "",
                         "researcher_id": "ur.012670776575.06"
@@ -73,6 +75,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.267193.8",
                         "first_name": "Maarten C.",
+                        "initials": "",
                         "last_name": "Buijsman",
                         "orcid": "['0000-0001-8478-5957']",
                         "researcher_id": "ur.014277621726.69"
@@ -86,6 +89,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Troy",
+                        "initials": "",
                         "last_name": "Pierce",
                         "orcid": "",
                         "researcher_id": ""
@@ -109,6 +113,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Eve R.",
+                    "initials": "",
                     "last_name": "Eisemann",
                     "orcid": "",
                     "researcher_id": ""
@@ -129,6 +134,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.267193.8",
                     "first_name": "Davin J.",
+                    "initials": "",
                     "last_name": "Wallace",
                     "orcid": "",
                     "researcher_id": "ur.012670776575.06"
@@ -149,6 +155,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.267193.8",
                     "first_name": "Maarten C.",
+                    "initials": "",
                     "last_name": "Buijsman",
                     "orcid": "['0000-0001-8478-5957']",
                     "researcher_id": "ur.014277621726.69"
@@ -162,6 +169,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Troy",
+                    "initials": "",
                     "last_name": "Pierce",
                     "orcid": "",
                     "researcher_id": ""
@@ -177,6 +185,7 @@
                     "name": "0403 Geology"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30014",
@@ -193,16 +202,13 @@
                 "barrier system",
                 "system",
                 "world",
-                "accelerated sea-level rise",
                 "sea-level rise",
-                "level rise",
                 "rise",
                 "sediment supply",
                 "supply",
                 "hurricane impacts",
                 "impact",
-                "quantitative field",
-                "field",
+                "field-based studies",
                 "study",
                 "response",
                 "external forcing mechanisms",
@@ -237,22 +243,21 @@
                 "changes",
                 "Ship Island",
                 "LiDAR datasets",
-                "dataset",
+                "datasets",
                 "complete topography",
                 "topography",
                 "bathymetry",
                 "inlet",
-                "Shallow",
+                "shallow",
                 "depth",
                 "sediment volume changes",
                 "volume changes",
                 "Hurricane Katrina",
                 "Katrina",
-                "high storm",
+                "higher storm",
                 "storms",
                 "United States",
                 "time",
-                "sediments",
                 "island volume",
                 "volume",
                 "area",
@@ -270,8 +275,6 @@
                 "morphodynamic analysis",
                 "barrier island system",
                 "island system",
-                "storm impacts",
-                "LiDAR-data",
                 "morphodynamic changes",
                 "Mississippi",
                 "USA"
@@ -279,7 +282,7 @@
             "date": "2018-07-01",
             "date_inserted": "2018-04-17",
             "doi": "10.1016/j.geomorph.2018.04.001",
-            "field_citation_ratio": 7.82,
+            "field_citation_ratio": 7.03,
             "funder_countries": [
                 {
                     "id": "US",
@@ -309,148 +312,201 @@
                 "0169-555X",
                 "1872-695X"
             ],
-            "issue": "EOS Trans. Am. Geophys. Union 91 2010",
             "journal": {
                 "id": "jour.1044680",
                 "title": "Geomorphology"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 2",
+                "ERA 2015",
                 "VABB-SHW",
+                "ERA 2018",
                 "PubMed"
+            ],
+            "linkout": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6687311",
+            "noun_phrases": [
+                "barrier island",
+                "storm impact",
+                "LiDAR data",
+                "island",
+                "Mississippi",
+                "barrier",
+                "world",
+                "sea level rise",
+                "sediment supply",
+                "field-based study",
+                "scarce",
+                "scale",
+                "Gulf of Mexico",
+                "coastline",
+                "hectare",
+                "record",
+                "coastal community",
+                "important ecosystem",
+                "risk",
+                "Light Detection and Ranging",
+                "lidar",
+                "digital elevation model",
+                "pattern",
+                "Dataset",
+                "topography",
+                "Bay",
+                "shallow",
+                "depth",
+                "volume change",
+                "Hurricane Katrina",
+                "storm surge",
+                "United State",
+                "sediment",
+                "volume",
+                "state",
+                "error bound",
+                "areal extent",
+                "severe storm",
+                "bathymetric data",
+                "morphodynamics"
+            ],
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - accepted"
             ],
             "open_access_categories": [
                 {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Free copy of accepted version in an OA repository",
+                    "id": "green_acc",
+                    "name": "Green, Accepted"
                 }
             ],
             "pages": "58-71",
             "pmcid": "PMC6687311",
             "pmid": "31395995",
             "publisher": "Elsevier",
-            "recent_citations": 13,
+            "recent_citations": 14,
             "reference_ids": [
-                "pub.1048407856",
-                "pub.1090148064",
-                "pub.1004493781",
-                "pub.1024020588",
-                "pub.1051593544",
-                "pub.1001624136",
-                "pub.1038480861",
-                "pub.1041973611",
-                "pub.1000760707",
                 "pub.1037730404",
-                "pub.1014726239",
+                "pub.1024020588",
+                "pub.1000760707",
+                "pub.1016281723",
+                "pub.1045380267",
+                "pub.1048407856",
+                "pub.1004430209",
+                "pub.1017000302",
+                "pub.1028285231",
+                "pub.1034214393",
+                "pub.1088806572",
+                "pub.1015043821",
+                "pub.1100461137",
+                "pub.1006817503",
+                "pub.1090148064",
+                "pub.1051593544",
+                "pub.1097148292",
+                "pub.1004351576",
                 "pub.1084842028",
                 "pub.1008235490",
-                "pub.1070663324",
-                "pub.1026799695",
-                "pub.1041566171",
-                "pub.1019184215",
-                "pub.1062457814",
-                "pub.1074147642",
                 "pub.1051260706",
-                "pub.1016634010",
-                "pub.1026168322",
-                "pub.1027017491",
-                "pub.1006817503",
-                "pub.1031315479",
-                "pub.1100461137",
-                "pub.1005726675",
-                "pub.1004430209",
-                "pub.1004623428",
-                "pub.1011513903",
-                "pub.1019946291",
-                "pub.1048290072",
-                "pub.1034214393",
-                "pub.1070191221",
-                "pub.1088806572",
-                "pub.1028285231",
-                "pub.1047570332",
-                "pub.1027098933",
-                "pub.1058638706",
-                "pub.1062449771",
-                "pub.1011672155",
-                "pub.1045380267",
-                "pub.1039292943",
-                "pub.1015043821",
-                "pub.1062452431",
-                "pub.1006087509",
+                "pub.1062457814",
                 "pub.1015024117",
-                "pub.1014884073",
-                "pub.1023538293",
-                "pub.1051848583",
-                "pub.1016281723",
-                "pub.1004351576",
-                "pub.1017000302",
+                "pub.1001624136",
+                "pub.1047570332",
+                "pub.1074147642",
+                "pub.1031315479",
+                "pub.1019184215",
+                "pub.1070191221",
+                "pub.1070663324",
+                "pub.1048290072",
+                "pub.1004493781",
+                "pub.1041566171",
                 "pub.1033254583",
+                "pub.1014726239",
                 "pub.1098872438",
                 "pub.1017109778",
-                "pub.1097148292",
-                "pub.1047941538"
+                "pub.1019946291",
+                "pub.1014884073",
+                "pub.1062452431",
+                "pub.1038480861",
+                "pub.1006087509",
+                "pub.1047941538",
+                "pub.1016634010",
+                "pub.1041973611",
+                "pub.1011672155",
+                "pub.1039292943",
+                "pub.1062449771",
+                "pub.1005726675",
+                "pub.1051848583",
+                "pub.1026799695",
+                "pub.1026168322",
+                "pub.1027098933",
+                "pub.1004623428",
+                "pub.1011513903",
+                "pub.1058638706",
+                "pub.1027017491",
+                "pub.1023538293"
             ],
             "references": [
-                "pub.1048407856",
-                "pub.1090148064",
-                "pub.1004493781",
-                "pub.1024020588",
-                "pub.1051593544",
-                "pub.1001624136",
-                "pub.1038480861",
-                "pub.1041973611",
-                "pub.1000760707",
                 "pub.1037730404",
-                "pub.1014726239",
+                "pub.1024020588",
+                "pub.1000760707",
+                "pub.1016281723",
+                "pub.1045380267",
+                "pub.1048407856",
+                "pub.1004430209",
+                "pub.1017000302",
+                "pub.1028285231",
+                "pub.1034214393",
+                "pub.1088806572",
+                "pub.1015043821",
+                "pub.1100461137",
+                "pub.1006817503",
+                "pub.1090148064",
+                "pub.1051593544",
+                "pub.1097148292",
+                "pub.1004351576",
                 "pub.1084842028",
                 "pub.1008235490",
-                "pub.1070663324",
-                "pub.1026799695",
-                "pub.1041566171",
-                "pub.1019184215",
-                "pub.1062457814",
-                "pub.1074147642",
                 "pub.1051260706",
-                "pub.1016634010",
-                "pub.1026168322",
-                "pub.1027017491",
-                "pub.1006817503",
-                "pub.1031315479",
-                "pub.1100461137",
-                "pub.1005726675",
-                "pub.1004430209",
-                "pub.1004623428",
-                "pub.1011513903",
-                "pub.1019946291",
-                "pub.1048290072",
-                "pub.1034214393",
-                "pub.1070191221",
-                "pub.1088806572",
-                "pub.1028285231",
-                "pub.1047570332",
-                "pub.1027098933",
-                "pub.1058638706",
-                "pub.1062449771",
-                "pub.1011672155",
-                "pub.1045380267",
-                "pub.1039292943",
-                "pub.1015043821",
-                "pub.1062452431",
-                "pub.1006087509",
+                "pub.1062457814",
                 "pub.1015024117",
-                "pub.1014884073",
-                "pub.1023538293",
-                "pub.1051848583",
-                "pub.1016281723",
-                "pub.1004351576",
-                "pub.1017000302",
+                "pub.1001624136",
+                "pub.1047570332",
+                "pub.1074147642",
+                "pub.1031315479",
+                "pub.1019184215",
+                "pub.1070191221",
+                "pub.1070663324",
+                "pub.1048290072",
+                "pub.1004493781",
+                "pub.1041566171",
                 "pub.1033254583",
+                "pub.1014726239",
                 "pub.1098872438",
                 "pub.1017109778",
-                "pub.1097148292",
-                "pub.1047941538"
+                "pub.1019946291",
+                "pub.1014884073",
+                "pub.1062452431",
+                "pub.1038480861",
+                "pub.1006087509",
+                "pub.1047941538",
+                "pub.1016634010",
+                "pub.1041973611",
+                "pub.1011672155",
+                "pub.1039292943",
+                "pub.1062449771",
+                "pub.1005726675",
+                "pub.1051848583",
+                "pub.1026799695",
+                "pub.1026168322",
+                "pub.1027098933",
+                "pub.1004623428",
+                "pub.1011513903",
+                "pub.1058638706",
+                "pub.1027017491",
+                "pub.1023538293"
             ],
             "research_org_cities": [
                 {
@@ -470,6 +526,10 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "United States Environmental Protection Agency, Gulf of Mexico Program, Gulfport, MS, USA",
+                "University of Southern Mississippi"
             ],
             "research_org_state_codes": [
                 {
@@ -504,10 +564,10 @@
                     "id": "ur.012670776575.06",
                     "last_name": "Wallace",
                     "research_orgs": [
-                        "grid.267193.8",
-                        "grid.56466.37",
                         "grid.266683.f",
-                        "grid.21940.3e"
+                        "grid.21940.3e",
+                        "grid.56466.37",
+                        "grid.267193.8"
                     ]
                 },
                 {
@@ -518,12 +578,13 @@
                         "0000-0001-8478-5957"
                     ],
                     "research_orgs": [
-                        "grid.10914.3d",
-                        "grid.267193.8",
-                        "grid.482795.5",
-                        "grid.19006.3e",
                         "grid.419657.8",
-                        "grid.266835.c"
+                        "grid.10914.3d",
+                        "grid.482795.5",
+                        "grid.266835.c",
+                        "grid.433794.e",
+                        "grid.267193.8",
+                        "grid.19006.3e"
                     ]
                 }
             ],
@@ -534,16 +595,13 @@
                 "barrier system",
                 "system",
                 "world",
-                "accelerated sea-level rise",
                 "sea-level rise",
-                "level rise",
                 "rise",
                 "sediment supply",
                 "supply",
                 "hurricane impacts",
                 "impact",
-                "quantitative field",
-                "field",
+                "field-based studies",
                 "study",
                 "response",
                 "external forcing mechanisms",
@@ -578,22 +636,21 @@
                 "changes",
                 "Ship Island",
                 "LiDAR datasets",
-                "dataset",
+                "datasets",
                 "complete topography",
                 "topography",
                 "bathymetry",
                 "inlet",
-                "Shallow",
+                "shallow",
                 "depth",
                 "sediment volume changes",
                 "volume changes",
                 "Hurricane Katrina",
                 "Katrina",
-                "high storm",
+                "higher storm",
                 "storms",
                 "United States",
                 "time",
-                "sediments",
                 "island volume",
                 "volume",
                 "area",
@@ -611,13 +668,11 @@
                 "morphodynamic analysis",
                 "barrier island system",
                 "island system",
-                "storm impacts",
-                "LiDAR-data",
                 "morphodynamic changes",
                 "Mississippi",
                 "USA"
             ],
-            "times_cited": 14,
+            "times_cited": 15,
             "title": "Response of a vulnerable barrier island to multi-year storm impacts: Lidar-data-inferred morphodynamic changes on Ship Island, Mississippi, USA",
             "type": "article",
             "volume": "313",
@@ -990,17 +1045,29 @@
         },
         "doi": "10.1016/j.geomorph.2018.04.001",
         "keyphrases": {
-            "3d datasets": {
+            "accelerated sea-level rise": {
                 "count": 1,
-                "rank_score": 0.06361439005422076
+                "rank_score": 0.046862933548716595
             },
             "barrier island systems": {
                 "count": 1,
                 "rank_score": 0.06483489444200496
             },
+            "barrier systems": {
+                "count": 1,
+                "rank_score": 0.050124783502134326
+            },
+            "detailed quantitative field-based studies": {
+                "count": 1,
+                "rank_score": 0.05143322064027859
+            },
             "entire islands": {
                 "count": 1,
                 "rank_score": 0.09315401670008754
+            },
+            "erosional/depositional patterns": {
+                "count": 1,
+                "rank_score": 0.04026320721860033
             },
             "frequent hurricane impacts": {
                 "count": 1,
@@ -1010,9 +1077,21 @@
                 "count": 1,
                 "rank_score": 0.05885348277989806
             },
+            "highest storm surge": {
+                "count": 1,
+                "rank_score": 0.04369386268699881
+            },
+            "hurricane katrina": {
+                "count": 2,
+                "rank_score": 0.04676179207731334
+            },
             "important ecosystems": {
                 "count": 1,
                 "rank_score": 0.0552802352100443
+            },
+            "islands": {
+                "count": 4,
+                "rank_score": 0.05070553659200478
             },
             "light detection": {
                 "count": 1,
@@ -1022,6 +1101,14 @@
                 "count": 1,
                 "rank_score": 0.06717469238541951
             },
+            "mexico": {
+                "count": 2,
+                "rank_score": 0.044106243691393585
+            },
+            "mississippi - alabama barrier island chain": {
+                "count": 1,
+                "rank_score": 0.053145339298553786
+            },
             "morphodynamic analyses": {
                 "count": 1,
                 "rank_score": 0.06711140306257418
@@ -1029,6 +1116,10 @@
             "reduced sediment supply": {
                 "count": 1,
                 "rank_score": 0.06401651444135388
+            },
+            "sediment": {
+                "count": 1,
+                "rank_score": 0.0480778122035678
             },
             "sediment loss": {
                 "count": 1,
@@ -1038,13 +1129,17 @@
                 "count": 1,
                 "rank_score": 0.07301710217624267
             },
+            "shallows": {
+                "count": 1,
+                "rank_score": 0.043713148690479625
+            },
+            "ship island": {
+                "count": 2,
+                "rank_score": 0.04392075828377239
+            },
             "subaerial and subaqueous sediment volume changes": {
                 "count": 1,
                 "rank_score": 0.05915808542412681
-            },
-            "the mississippi - alabama barrier island chain": {
-                "count": 1,
-                "rank_score": 0.053145339298553786
             },
             "vulnerable barrier islands": {
                 "count": 1,

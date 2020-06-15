@@ -100,53 +100,64 @@ def parse_dimensions (results):
     elif meta_list == []:
         return None
 
+def parse_pubmed_item (result):
+    article_meta = result["MedlineCitation"]["Article"]
+
+    meta = OrderedDict()
+    meta['doi'] = None  # to enforce having a 'doi' key
+
+    pmid = result["MedlineCitation"]["PMID"]["#text"]
+    meta["url"] = f"https://www.ncbi.nlm.nih.gov/pubmed/{pmid}"
+
+    try:
+        # sometimes the ArticleTitle is a dict.
+        if type(article_meta["ArticleTitle"]) is str:
+            meta["title"] = article_meta["ArticleTitle"]
+        else:
+            meta["title"] = article_meta["ArticleTitle"]['#text']
+    except Exception:
+        # debug this as an edge case
+        print('exception handling parse_pubmed ArticleTitle field')
+        print('***** type(article_meta["ArticleTitle"]):', type(article_meta["ArticleTitle"]))
+        print('*****', article_meta["ArticleTitle"])
+        traceback.print_exc()
+        meta["title"] = None
+        return None
+
+    meta["journal"] = article_meta["Journal"]["Title"]
+    meta["api"] = "pubmed"
+
+    try:
+        pid_list = article_meta["ELocationID"]
+
+        if isinstance(pid_list, list):
+            doi_test = [d["#text"] for d in pid_list if d["@EIdType"] == "doi"]
+
+            if len(doi_test) > 0:
+                meta["doi"] = doi_test[0]
+
+        if isinstance(pid_list, dict):
+            if pid_list["@EIdType"] == "doi":
+                meta["doi"] = pid_list["#text"]
+    except:
+        meta["doi"] = None
+
+    return meta
 
 def parse_pubmed (results):
     meta_list = []
 
-    for result in results:
-        if isinstance(result, dict) and "MedlineCitation" in result:
-            article_meta = result["MedlineCitation"]["Article"]
+    if isinstance(results,list):
+        for result in results:
+            if isinstance(result, dict) and "MedlineCitation" in result:
+                meta = parse_pubmed_item(result)
+                if meta:
+                    meta_list.append(meta)
 
-            meta = OrderedDict()
-            meta['doi'] = None #to enforce having a 'doi' key
-
-            pmid = result["MedlineCitation"]["PMID"]["#text"]
-            meta["url"] = f"https://www.ncbi.nlm.nih.gov/pubmed/{pmid}"
-
-            try:
-                # sometimes the ArticleTitle is a dict.
-                if type(article_meta["ArticleTitle"]) is str:
-                    meta["title"] = article_meta["ArticleTitle"]
-                else:
-                    meta["title"] = article_meta["ArticleTitle"]['#text']
-            except Exception:
-                # debug this as an edge case
-                print('exception handling parse_pubmed ArticleTitle field')
-                print('***** type(article_meta["ArticleTitle"]):', type(article_meta["ArticleTitle"]))
-                print('*****', article_meta["ArticleTitle"])
-                traceback.print_exc()
-                meta["title"] = None
-                continue
-
-            meta["journal"] = article_meta["Journal"]["Title"]
-            meta["api"] = "pubmed"
-
-            try:
-                pid_list = article_meta["ELocationID"]
-
-                if isinstance(pid_list,list):
-                    doi_test = [d["#text"] for d in pid_list if d["@EIdType"] == "doi"]
-
-                    if len(doi_test) > 0:
-                        meta["doi"] = doi_test[0]
-
-                if isinstance(pid_list,dict):
-                    if pid_list["@EIdType"] == "doi":
-                        meta["doi"] = pid_list["#text"]
-            except:
-                meta["doi"] = None
-
+    # When pubmed retunrs only one article is not a list of one dict, but one dict.
+    elif isinstance(results,dict) and "MedlineCitation" in results:
+        meta = parse_pubmed_item(results)
+        if meta:
             meta_list.append(meta)
 
     if len(meta_list) > 0:

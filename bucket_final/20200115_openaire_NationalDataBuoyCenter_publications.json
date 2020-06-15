@@ -13,6 +13,14 @@
         "doi": "10.3390/s19132914",
         "journal": "journal-1248",
         "keyphrases": {
+            "comparisons": {
+                "count": 3,
+                "rank_score": 0.05885874629788033
+            },
+            "forecasting": {
+                "count": 1,
+                "rank_score": 0.051563933694740424
+            },
             "high accuracy": {
                 "count": 1,
                 "rank_score": 0.06666974822183004
@@ -21,9 +29,17 @@
                 "count": 1,
                 "rank_score": 0.08170590152734379
             },
+            "jason-3": {
+                "count": 3,
+                "rank_score": 0.05624642810099101
+            },
             "jason-3 data": {
                 "count": 2,
                 "rank_score": 0.10280238545685218
+            },
+            "ndbc": {
+                "count": 2,
+                "rank_score": 0.059651862026690705
             },
             "ndbc buoy data": {
                 "count": 1,
@@ -33,6 +49,14 @@
                 "count": 1,
                 "rank_score": 0.06703668748640067
             },
+            "piecewise calibration functions": {
+                "count": 1,
+                "rank_score": 0.04486328292827405
+            },
+            "plrm": {
+                "count": 1,
+                "rank_score": 0.04635052240469876
+            },
             "rmse": {
                 "count": 3,
                 "rank_score": 0.061834342874992274
@@ -40,6 +64,10 @@
             "sar": {
                 "count": 1,
                 "rank_score": 0.06420577346826759
+            },
+            "sentinel-3a": {
+                "count": 1,
+                "rank_score": 0.05037721726109165
             },
             "sentinel-3a swh": {
                 "count": 2,
@@ -49,6 +77,10 @@
                 "count": 2,
                 "rank_score": 0.07622747059882373
             },
+            "sentinel-3a/3b sar altimeter": {
+                "count": 2,
+                "rank_score": 0.059118222433823434
+            },
             "sentinel-3a/3b swh": {
                 "count": 1,
                 "rank_score": 0.12913996546162715
@@ -56,6 +88,10 @@
             "significant wave height (swh) data": {
                 "count": 1,
                 "rank_score": 0.07420789216938514
+            },
+            "sral": {
+                "count": 1,
+                "rank_score": 0.047040960928052385
             },
             "swh": {
                 "count": 1,
@@ -68,6 +104,10 @@
             "u. s. national data buoy center": {
                 "count": 1,
                 "rank_score": 0.084547039872284
+            },
+            "u. s. national data buoy center (ndbc) buoys": {
+                "count": 1,
+                "rank_score": 0.05645064906368878
             },
             "wave climate studies": {
                 "count": 1,
@@ -91,9 +131,17 @@
         "doi": "10.1038/s41597-019-0083-9",
         "journal": "journal-864",
         "keyphrases": {
+            "all altimeter missions": {
+                "count": 1,
+                "rank_score": 0.04824185338389313
+            },
             "altimeter and buoy data": {
                 "count": 1,
                 "rank_score": 0.061180366185765486
+            },
+            "altimeter data": {
+                "count": 1,
+                "rank_score": 0.06544988028853534
             },
             "altimeters": {
                 "count": 3,
@@ -111,6 +159,10 @@
                 "count": 1,
                 "rank_score": 0.05754120410727463
             },
+            "cryosat-2": {
+                "count": 1,
+                "rank_score": 0.04718845551413975
+            },
             "design type(s)data": {
                 "count": 2,
                 "rank_score": 0.05976143046671968
@@ -118,6 +170,14 @@
             "devicefactor type(s)temporal_interval": {
                 "count": 1,
                 "rank_score": 0.05976143046671968
+            },
+            "ers-1": {
+                "count": 2,
+                "rank_score": 0.04954891546130372
+            },
+            "ers-2": {
+                "count": 2,
+                "rank_score": 0.04718845551413975
             },
             "extreme value performance": {
                 "count": 1,
@@ -127,9 +187,17 @@
                 "count": 1,
                 "rank_score": 0.06962047948870176
             },
+            "gfo": {
+                "count": 2,
+                "rank_score": 0.046733166908198606
+            },
             "global significant wave height and wind speed": {
                 "count": 1,
                 "rank_score": 0.0583548711481828
+            },
+            "hy-2a": {
+                "count": 2,
+                "rank_score": 0.04801860870580714
             },
             "integration objective": {
                 "count": 1,
@@ -139,17 +207,29 @@
                 "count": 2,
                 "rank_score": 0.07424863515505124
             },
+            "nodc": {
+                "count": 2,
+                "rank_score": 0.0474042785782639
+            },
             "probability distributions": {
                 "count": 1,
                 "rank_score": 0.0646696341455505
             },
-            "the altimeter data": {
-                "count": 1,
-                "rank_score": 0.06544988028853534
-            },
-            "the reported data": {
+            "reported data": {
                 "count": 1,
                 "rank_score": 0.055162627115098624
+            },
+            "saral": {
+                "count": 2,
+                "rank_score": 0.04954891546130372
+            },
+            "topex": {
+                "count": 1,
+                "rank_score": 0.04801860870580714
+            },
+            "users": {
+                "count": 1,
+                "rank_score": 0.04714221198032798
             }
         },
         "pdf": "http://europepmc.org/articles/PMC6541622?pdf=render",
@@ -159,9 +239,9 @@
     {
         "abstract": "The surface winds from the moored buoy data set available from the National Data Buoy Center are examined for the occurrence of inertial range oscillations in the surface winds by employing a novel joint time frequency analysis of the two-component vector winds. This data set was chosen for its high time resolution (1-h sampling) that enabled the full characterization of these inertial oscillations, its at least partially global coverage, and its record length, which is needed to extract the signals from the background noise. The observation system is comprised of over 200 sites with measurements as far back as 1972. Because of the large amount of data, many harmonics of the diurnal atmospheric tidal signature in the surface winds (24, 12, 8, and 3 h) were found in high-precision power spectra. These tidal oscillations are found to be important contributors to the inertial range oscillation at latitudes of 30 ◦ , where the largest inertial range oscillations are found. By turning to local (in time) spectral analysis using the S-transform, considerable energy was also found in the inertial frequency ranges at other latitudes, typically in the form of very large (>10 m s −1 ), yet short-lived (of the order of a few days) events. The surface wind rotation direction in near inertial frequency bands favors resonant inertial oscillations at all latitudes, and in every season of the year.",
         "authors": [
-            "author-f7d4902e91b29b311153",
-            "author-3a30fca5d2f799d0b04e",
-            "author-ab7ef8de94085d074dae"
+            "author-5e1f5a8982c5a18dbe5f",
+            "author-ad96ee5f17db6bddd036",
+            "author-fc9f21409643148bf9f7"
         ],
         "datasets": [
             "dataset-668"
@@ -169,25 +249,37 @@
         "doi": "10.1111/j.1600-0870.2004.00086.x",
         "journal": "journal-1286",
         "keyphrases": {
-            "a novel joint time frequency analysis": {
-                "count": 1,
-                "rank_score": 0.07082611615051977
-            },
             "considerable energy": {
                 "count": 1,
                 "rank_score": 0.05588910818985654
             },
-            "data": {
+            "diurnal atmospheric tidal signature": {
                 "count": 1,
-                "rank_score": 0.06704302937142913
+                "rank_score": 0.050556900421566034
+            },
+            "few days": {
+                "count": 2,
+                "rank_score": 0.042134238166574745
             },
             "high-precision power spectra": {
                 "count": 1,
                 "rank_score": 0.05382781752044855
             },
+            "important contributors": {
+                "count": 1,
+                "rank_score": 0.0473112491917303
+            },
+            "inertial frequency": {
+                "count": 1,
+                "rank_score": 0.06380175770666059
+            },
             "inertial frequency bands": {
                 "count": 1,
                 "rank_score": 0.10738084352245875
+            },
+            "inertial oscillations": {
+                "count": 1,
+                "rank_score": 0.06833049984067223
             },
             "inertial range oscillations": {
                 "count": 2,
@@ -197,9 +289,45 @@
                 "count": 1,
                 "rank_score": 0.05728445505428795
             },
+            "its record length": {
+                "count": 1,
+                "rank_score": 0.03806353169099736
+            },
+            "large amount": {
+                "count": 1,
+                "rank_score": 0.03864316982265577
+            },
+            "largest inertial range oscillations": {
+                "count": 1,
+                "rank_score": 0.08253582050788387
+            },
+            "latitudes": {
+                "count": 2,
+                "rank_score": 0.047397851667370795
+            },
             "many harmonics": {
                 "count": 1,
                 "rank_score": 0.05303684409631908
+            },
+            "measurements": {
+                "count": 1,
+                "rank_score": 0.049649042522792786
+            },
+            "moored buoy data": {
+                "count": 1,
+                "rank_score": 0.051541564927732
+            },
+            "national data buoy center": {
+                "count": 2,
+                "rank_score": 0.05245697908460596
+            },
+            "novel joint time frequency analysis": {
+                "count": 1,
+                "rank_score": 0.07082611615051977
+            },
+            "observation system": {
+                "count": 1,
+                "rank_score": 0.03806353169099736
             },
             "other latitudes": {
                 "count": 1,
@@ -209,25 +337,17 @@
                 "count": 1,
                 "rank_score": 0.11398238728571704
             },
-            "the inertial frequency": {
-                "count": 1,
-                "rank_score": 0.06380175770666059
-            },
-            "the largest inertial range oscillations": {
-                "count": 1,
-                "rank_score": 0.08253582050788387
-            },
-            "the surface wind rotation direction": {
+            "surface wind rotation direction": {
                 "count": 1,
                 "rank_score": 0.06004069497943819
             },
-            "these inertial oscillations": {
-                "count": 1,
-                "rank_score": 0.06833049984067223
+            "surface winds": {
+                "count": 2,
+                "rank_score": 0.05154102965831444
             },
-            "time": {
+            "tidal oscillations": {
                 "count": 1,
-                "rank_score": 0.07081876664709022
+                "rank_score": 0.052719544185966416
             }
         },
         "title": "Resonant inertial oscillations in moored buoy ocean surface winds",
@@ -244,13 +364,33 @@
         "doi": "10.25777/8cx1-0v89",
         "journal": "journal-000",
         "keyphrases": {
+            "atmosphere-ocean coupled global climate models": {
+                "count": 1,
+                "rank_score": 0.05794452307598196
+            },
             "climate change": {
                 "count": 2,
                 "rank_score": 0.07628714026916164
             },
+            "coastal engineers": {
+                "count": 1,
+                "rank_score": 0.05612505498915245
+            },
+            "coasts": {
+                "count": 1,
+                "rank_score": 0.05222102853368181
+            },
+            "consequently greater wave heights": {
+                "count": 1,
+                "rank_score": 0.06209332370605501
+            },
             "decreasing wave heights": {
                 "count": 1,
                 "rank_score": 0.09829978938789866
+            },
+            "dr. gangfeng ma": {
+                "count": 1,
+                "rank_score": 0.05790618353433768
             },
             "extreme waves": {
                 "count": 2,
@@ -259,6 +399,22 @@
             "future wind patterns": {
                 "count": 1,
                 "rank_score": 0.06351986403103703
+            },
+            "gangfeng ma": {
+                "count": 1,
+                "rank_score": 0.05118231881220371
+            },
+            "hillary lane": {
+                "count": 1,
+                "rank_score": 0.05556377235969798
+            },
+            "hourly": {
+                "count": 1,
+                "rank_score": 0.0496673681301769
+            },
+            "hourly data": {
+                "count": 1,
+                "rank_score": 0.06067257317130075
             },
             "hourly significant wave heights": {
                 "count": 1,
@@ -288,21 +444,25 @@
                 "count": 1,
                 "rank_score": 0.0792087775576344
             },
-            "trends": {
-                "count": 3,
-                "rank_score": 0.07329917758603789
-            },
-            "u.s.": {
-                "count": 2,
-                "rank_score": 0.06756229405520944
-            },
             "u.s. atlantic": {
                 "count": 1,
                 "rank_score": 0.07403904907238239
             },
+            "u.s. atlantic coast": {
+                "count": 1,
+                "rank_score": 0.05198396274336062
+            },
+            "u.s. mid-atlantic region hillary lane old dominion university": {
+                "count": 1,
+                "rank_score": 0.0553972556235477
+            },
             "wave heights": {
                 "count": 1,
                 "rank_score": 0.07536591119160563
+            },
+            "wind patterns": {
+                "count": 1,
+                "rank_score": 0.06012838777933433
             }
         },
         "title": "Changing Trends in Wave Heights in the U.S. Mid-Atlantic Region",
@@ -323,29 +483,57 @@
         "doi": "10.3390/s8031927",
         "journal": "journal-1248",
         "keyphrases": {
-            "12.5 km swath winds": {
-                "count": 1,
-                "rank_score": 0.06769857858256526
-            },
-            "25 km wind product": {
-                "count": 1,
-                "rank_score": 0.07699722284991527
-            },
             "best track analyses": {
                 "count": 1,
                 "rank_score": 0.07448863829469277
+            },
+            "better accuracy": {
+                "count": 1,
+                "rank_score": 0.06130153656930787
+            },
+            "buoy data": {
+                "count": 1,
+                "rank_score": 0.06715187268789574
             },
             "buoy measurements": {
                 "count": 3,
                 "rank_score": 0.07480305948389432
             },
+            "buoy-measured winds": {
+                "count": 1,
+                "rank_score": 0.06598335840639401
+            },
+            "extreme weather conditions": {
+                "count": 1,
+                "rank_score": 0.0642384178071254
+            },
+            "good agreement": {
+                "count": 1,
+                "rank_score": 0.05908702572385599
+            },
             "high wind speeds": {
                 "count": 1,
                 "rank_score": 0.10939735336599939
             },
+            "mexico": {
+                "count": 4,
+                "rank_score": 0.061880406355135927
+            },
             "moderate wind speeds": {
                 "count": 1,
                 "rank_score": 0.11122634174330154
+            },
+            "nasas quikscat satellite sensor": {
+                "count": 1,
+                "rank_score": 0.06431420018227638
+            },
+            "natural disasters": {
+                "count": 1,
+                "rank_score": 0.06047903818777823
+            },
+            "new quikscat l2b product": {
+                "count": 1,
+                "rank_score": 0.07597907704483957
             },
             "quikscat": {
                 "count": 7,
@@ -355,21 +543,33 @@
                 "count": 1,
                 "rank_score": 0.11274350124386347
             },
+            "quikscat wind comparisons": {
+                "count": 1,
+                "rank_score": 0.06394360698449814
+            },
             "quikscat winds": {
                 "count": 1,
                 "rank_score": 0.13423821045482312
+            },
+            "quikscats l2b dirth": {
+                "count": 1,
+                "rank_score": 0.06476443156612365
             },
             "remote sensing data": {
                 "count": 1,
                 "rank_score": 0.07447934845972862
             },
+            "spatial interval": {
+                "count": 1,
+                "rank_score": 0.06480502247929176
+            },
+            "speed": {
+                "count": 1,
+                "rank_score": 0.055916233625543356
+            },
             "such events": {
                 "count": 1,
                 "rank_score": 0.07138504494561483
-            },
-            "the new quikscat l2b product": {
-                "count": 1,
-                "rank_score": 0.07597907704483957
             },
             "wind data": {
                 "count": 1,

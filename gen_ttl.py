@@ -23,9 +23,10 @@ PATH_VOCAB_JSONLD = Path("vocab.json")
 PATH_SKOSIFY_CFG = Path("adrf-onto/skosify.cfg")
 PATH_ADRF_TTL = Path("adrf-onto/adrf.ttl")
 PATH_VOC_TTL = Path("voc.ttl")
-PATH_STOPWORDS = Path("stop.txt")
 PATH_INDEX = Path("index.json")
+PATH_DATA = Path("data_uuid.json")
 
+MIN_TOPIC_BREADTH = 2
 
 PREAMBLE = """
 @base <https://github.com/Coleridge-Initiative/adrf-onto/wiki/Vocabulary> .
@@ -74,25 +75,12 @@ TEMPLATE_AUTHOR = """
 TEMPLATE_TOPIC = """
 :{}
   rdf:type :Topic ;
-  skos:prefLabel "{}" ;
+  dct:title "{}" ;
 """
 
 
-def load_stopwords ():
-    """
-    load the stopwords to be removed from topic modeling
-    """
-    stopwords = set([])
-
-    with codecs.open(PATH_STOPWORDS, "r", encoding="utf8") as f:
-        for phrase in f.read().split("\n"):
-            text = phrase.lower().strip()
-
-            if len(text) > 0:
-                stopwords.add(text)
-
-    return stopwords
-
+######################################################################
+## load entities
 
 def load_providers (graph, frags):
     """
@@ -247,16 +235,18 @@ def load_authors (graph, frags):
     return known_authors
 
 
+######################################################################
+## build the topic index
+
 def update_topics (graph, frags, known_topics, topic_id, phrase, pub_id, rank, count):
     """
     update the known topics
     """
     if topic_id not in known_topics:
-        label = phrase.replace("ﬁ", "fi").replace("ﬂ", "fl").replace("ﬀ", "ff")
-
         t = {
             "uuid": topic_id,
-            "prefLabel": phrase,
+            "label": phrase,
+            "used": False,
             "pubs": []
             }
 
@@ -269,13 +259,114 @@ def update_topics (graph, frags, known_topics, topic_id, phrase, pub_id, rank, c
     buf = [
         TEMPLATE_TOPIC.format(
             t["uuid"],
-            t["prefLabel"]
+            t["label"]
             ).strip()
         ]
 
     buf.append(".\n")
     frags[t["uuid"]] = buf
 
+
+def prep_topics (graph, frags, known_topics, pub, pub_id):
+    """
+    prepare the topic for one publication
+    """
+    topic_iter = None
+
+    uuid = pub_id.split("-")[1]
+    tr_dir = Path("rclc/resources/pub/tr/")
+    tr_path = tr_dir / f"{uuid}.json"
+
+    if tr_path.exists():
+        with codecs.open(tr_path, "r", encoding="utf8") as f:
+            topic_iter = json.load(f).items()
+    elif "keyphrases" in pub:
+        topic_iter = pub["keyphrases"].items()
+
+    if topic_iter:
+        for phrase, val in topic_iter:
+            count = val["count"]
+            rank = val["rank_score"]
+
+            text, keep = graph.filter_topics(phrase)
+
+            if keep:
+                id_list = [ text ]
+                topic_id = graph.get_hash(id_list, prefix="topic-")
+                update_topics(graph, frags, known_topics, topic_id, text, pub_id, rank, count)
+
+
+def prep_publications (graph, frags, known_topics):
+    """
+    prep the publications, indexing topics
+    """
+    topics = {}
+
+    for partition, pub_iter in graph.iter_publications(path=graph.BUCKET_FINAL):
+        for pub in pub_iter:
+            if len(pub["datasets"]) > 0:
+                # prep titles for generating TTL
+                pub["title"] = pub["title"].replace('"', "'").replace("\\", "-")
+
+                # generate UUID
+                try:
+                    # use persistent identifiers where possible
+                    if "doi" in pub:
+                        id_list = pub["doi"]
+                    else:
+                        title = pub["title"].replace(".", "").replace(" ", "")
+                        id_list = [pub["journal"], title]
+
+                    pub_id = graph.get_hash(id_list, prefix="publication-")
+
+                    # prep topics
+                    prep_topics(graph, frags, known_topics, pub, pub_id)
+
+                except:
+                    traceback.print_exc()
+                    print("MISSING JOURNAL or URL")
+                    pprint.pprint(pub)
+                    sys.exit(-1)
+
+
+def build_index (graph, known_topics):
+    """
+    build an index for the topic modeling
+    """
+    pub_map = defaultdict(list)
+
+    for topic_id, t in known_topics.items():
+        for pub_id, rank, count in t["pubs"]:
+            pub_map[topic_id].append(pub_id)
+
+    idx = defaultdict(dict)
+
+    for topic_id, t in known_topics.items():
+        for pub_id, rank, count in t["pubs"]:
+            tfidf = float(rank) / float(len(pub_map[topic_id]))
+            idx[topic_id][pub_id] = [tfidf, count]
+
+    final_idx = []
+
+    for topic_id, rank_map in idx.items():
+        if len(rank_map.keys()) > MIN_TOPIC_BREADTH:
+            t = known_topics[topic_id]
+            t["used"] = True
+
+            final_idx.append({
+                    "id": topic_id,
+                    "text": [ t["label"] ],
+                    "hits": sorted(rank_map, key=lambda x: x[1], reverse=True)
+                    })
+
+    final_idx.sort(key=lambda x: x["text"][0])
+
+    with codecs.open(PATH_INDEX, "wb", encoding="utf8") as f:
+        json.dump(final_idx, f, indent=4, sort_keys=True, ensure_ascii=False)
+
+
+######################################################################
+## write the corpus
 
 def format_pub (out_buf, pub, pub_id, used, known_journals, known_datasets, known_authors, data_map, auth_map, topic_map, full_graph):
     """
@@ -350,37 +441,7 @@ def format_pub (out_buf, pub, pub_id, used, known_journals, known_datasets, know
     return True
 
 
-def foo (graph, frags, known_topics, stopwords, pub, pub_id):
-    topic_map = {}
-    topic_iter = None
-
-    uuid = pub_id.split("-")[1]
-    tr_dir = Path("rclc/resources/pub/tr/")
-    tr_path = tr_dir / f"{uuid}.json"
-
-    if tr_path.exists():
-        with codecs.open(tr_path, "r", encoding="utf8") as f:
-            topic_iter = json.load(f).items()
-    elif "keyphrases" in pub:
-        topic_iter = pub["keyphrases"].items()
-
-    if topic_iter:
-        for phrase, val in topic_iter:
-            count = val["count"]
-            rank = val["rank_score"]
-            text = phrase.replace('"', "").replace("\n", "").strip()
-
-            if text not in stopwords:
-                id_list = [ text ]
-                topic_id = graph.get_hash(id_list, prefix="topic-")
-                topic_map[topic_id] = rank
-
-                update_topics(graph, frags, known_topics, topic_id, text, pub_id, rank, count)
-
-    return topic_map
-
-
-def load_publications (graph, used, frags, out_buf, stopwords, known_datasets, known_journals, known_authors, known_topics, full_graph):
+def load_publications (graph, used, frags, out_buf, known_datasets, known_journals, known_authors, known_topics, full_graph):
     """
     load publications, link to datasets, link to authors, then reshape
     the metadata as TTL
@@ -407,8 +468,13 @@ def load_publications (graph, used, frags, out_buf, stopwords, known_datasets, k
 
                     pub_id = graph.get_hash(id_list, prefix="publication-")
 
-                    # manage topics
-                    topic_map = foo(graph, frags, known_topics, stopwords, pub, pub_id)
+                    # lookup the topics
+                    topic_map = {}
+
+                    for topic_id, t in known_topics.items():
+                        for t_pub_id, rank, count in t["pubs"]:
+                            if pub_id == t_pub_id and t["used"]:
+                                topic_map[topic_id] = rank
 
                     # ensure uniqueness
                     if pub_id not in seen:
@@ -503,35 +569,6 @@ def test_corpus (path):
     skosify.infer.rdfs_properties(g)
 
 
-def build_index (graph, known_topics):
-    """
-    build an index for the topic modeling
-    """
-    # "uuid": topic_id,
-    # "prefLabel": phrase,
-    # "pubs": [[pub_id, rank, count]]
-    df = defaultdict(list)
-    idx = defaultdict(dict)
-
-    for topic_id, t in known_topics.items():
-        for pub_id, rank, count in t["pubs"]:
-            df[topic_id].append(pub_id)
-
-    for topic_id, t in known_topics.items():
-        for pub_id, rank, count in t["pubs"]:
-            tfidf = float(rank) / float(len(df[topic_id]))
-            idx[t["prefLabel"]][pub_id] = tfidf
-
-    final_idx = {}
-
-    for key, val in idx.items():
-        if len(val.keys()) > 2:
-            final_idx[key] = val
-
-    with codecs.open(PATH_INDEX, "wb", encoding="utf8") as f:
-        json.dump(final_idx, f, indent=4, sort_keys=True, ensure_ascii=False)
-
-
 def main (args):
     ## 1. load the metadata for providers, datasets, journals, publications
     ## 2. validate the linked data
@@ -542,33 +579,40 @@ def main (args):
     graph = rc_graph.RCGraph("corpus")
     graph.journals.load_entities()
     graph.authors.load_entities()
+    graph.load_stopwords()
 
     frags = {}
     used = set([])
-    stopwords = load_stopwords()
 
     known_providers = load_providers(graph, frags)
     known_datasets = load_datasets(graph, frags, used, known_providers)
     known_journals = load_journals(graph, frags)
     known_authors = load_authors(graph, frags)
-    known_topics = {}
 
+    # create an index of dataset IDs => UUIDs to import into ADRF
+    with codecs.open(PATH_DATA, "wb", encoding="utf8") as f:
+        dat = { id: d["uuid"] for (id, d) in known_datasets.items() }
+        json.dump(dat, f, indent=4, sort_keys=True, ensure_ascii=False)
+
+    # build the topic index
+    known_topics = {}
+    prep_publications(graph, frags, known_topics)
+    build_index(graph, known_topics)
+
+    # generate the corpus
     out_buf = [ PREAMBLE.lstrip() ]
 
     num_pubs = load_publications(
-        graph, used, frags, out_buf, stopwords,
+        graph, used, frags, out_buf,
         known_datasets, known_journals, known_authors, known_topics,
         args.full_graph
         )
 
-    # test the generated corpus file
     write_corpus(frags, used, out_buf, PATH_CORPUS_TTL)
+
+    # test the generated corpus file
     test_corpus(PATH_CORPUS_TTL)
 
-    # construct a topic index
-    build_index(graph, known_topics)
-
-    # report results
     num_prov = len(used.intersection(set([p["uuid"] for p in known_providers.values()])))
     num_data = len(used.intersection(set([d["uuid"] for d in known_datasets.values()])))
     num_jour = len(used.intersection(set([j["uuid"] for j in known_journals.values()])))

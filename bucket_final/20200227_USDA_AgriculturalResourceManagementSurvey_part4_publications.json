@@ -16,6 +16,10 @@
                 "count": 1,
                 "rank_score": 0.09014840157959726
             },
+            "adoption decisions": {
+                "count": 1,
+                "rank_score": 0.055236128285864536
+            },
             "agricultural producers": {
                 "count": 1,
                 "rank_score": 0.09236563962496469
@@ -40,9 +44,21 @@
                 "count": 1,
                 "rank_score": 0.07584911269614376
             },
+            "likelihood": {
+                "count": 1,
+                "rank_score": 0.03503833750313323
+            },
+            "management practices": {
+                "count": 1,
+                "rank_score": 0.0601590738593801
+            },
             "many local and state environmental rules": {
                 "count": 1,
                 "rank_score": 0.09631153701244316
+            },
+            "relationships": {
+                "count": 1,
+                "rank_score": 0.03050098817068394
             },
             "relatively few federal environmental regulations": {
                 "count": 1,
@@ -52,10 +68,6 @@
                 "count": 1,
                 "rank_score": 0.14792626933543493
             },
-            "the management practices": {
-                "count": 1,
-                "rank_score": 0.0601590738593801
-            },
             "urban population centers": {
                 "count": 1,
                 "rank_score": 0.12305953488167572
@@ -64,17 +76,13 @@
                 "count": 1,
                 "rank_score": 0.11600637615869383
             },
-            "us": {
-                "count": 3,
-                "rank_score": 0.07751916078668858
-            },
             "us farms": {
                 "count": 1,
                 "rank_score": 0.11542247870934103
             }
         },
         "title": "On how environmental stringency influences adoption of best management practices in agriculture",
-        "url": "http://hdl.handle.net/10113/36601"
+        "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=On%20how%20environmental%20stringency%20influences%20adoption%20of%20best%20management%20practices%20in%20agriculture"
     },
     {
         "abstract": "PurposeParameterization refers to the practice of presenting Life Cycle Assessment (LCA) data using raw data and formulas instead of computed numbers in unit process datasets within databases. This paper reviews parameterization methods in the European Reference Life Cycle Data System (ELCD), ecoinvent v3, and the US Department of Agriculture's Digital Commons with the intent of providing a basis for continued methodological and coding advances.MethodsParameterized data are reviewed and categorized with respect to the type (raw data and formulas) and what is being represented (e.g., consumption and emission rates and factors, physical or thermodynamic properties, process efficiencies, etc.). Parameterization of engineering relationships and uncertainty distributions using Smirnov transforms (a.k.a. inverse transform sampling), and ensuring uncertain individual fractions (e.g., market shares) sum to the total value of interest are presented.ResultsSeventeen categories of parameters (raw data and formulas) are identified. Thirteen ELCD unit process datasets use 975 parameters in 12 categories, with 124 as raw data points and 851 as formulas, and emission factors as the most common category of parameter. Five additional parameter categories are identified in the Digital Commons for the presentation and analysis of data with uncertainty information, through 146 parameters, of which 53 represent raw data and 93 are formulas with most being uncertainty parameters, percentages, and consumption parameters.ConclusionsParameterization is a powerful way to ensure transparency, usability, and transferability of LCI data. Its use is expected to increase in frequency, the categories of parameters used, and the types of computational methods employed.",
@@ -90,25 +98,65 @@
         "doi": "10.1007/s11367-012-0411-1",
         "journal": "journal-1316",
         "keyphrases": {
+            "agricultures digital commons": {
+                "count": 1,
+                "rank_score": 0.049886783763144774
+            },
             "computational methods": {
                 "count": 1,
                 "rank_score": 0.06606323242618885
+            },
+            "computed numbers": {
+                "count": 1,
+                "rank_score": 0.049512302322327215
             },
             "consumption parameters": {
                 "count": 1,
                 "rank_score": 0.08438912616771697
             },
-            "data": {
+            "continued methodological and coding advances": {
                 "count": 1,
-                "rank_score": 0.0933857474054631
+                "rank_score": 0.051374805226127016
+            },
+            "elcd": {
+                "count": 1,
+                "rank_score": 0.05345633144066087
+            },
+            "emission factors": {
+                "count": 1,
+                "rank_score": 0.06199305080022098
+            },
+            "engineering relationships": {
+                "count": 1,
+                "rank_score": 0.053779274902807386
+            },
+            "european reference life cycle data system": {
+                "count": 2,
+                "rank_score": 0.06634128865789815
+            },
+            "five additional parameter categories": {
+                "count": 1,
+                "rank_score": 0.06090889313062922
+            },
+            "formulas": {
+                "count": 5,
+                "rank_score": 0.06279552602360429
             },
             "lci data": {
                 "count": 1,
                 "rank_score": 0.09130198552476582
             },
+            "life cycle assessment (lca) data": {
+                "count": 1,
+                "rank_score": 0.058924041295551975
+            },
             "methodsparameterized data": {
                 "count": 1,
                 "rank_score": 0.09102129301085521
+            },
+            "paper reviews parameterization methods": {
+                "count": 1,
+                "rank_score": 0.054880098156514845
             },
             "parameters": {
                 "count": 4,
@@ -134,9 +182,9 @@
                 "count": 1,
                 "rank_score": 0.06752793670817417
             },
-            "the european reference life cycle data system": {
-                "count": 2,
-                "rank_score": 0.06634128865789815
+            "uncertain individual fractions": {
+                "count": 1,
+                "rank_score": 0.06596454533934644
             },
             "uncertainty information": {
                 "count": 1,
@@ -152,7 +200,7 @@
             }
         },
         "title": "Parameterization in Life Cycle Assessment inventory data: review of current use and the representation of uncertainty",
-        "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=Parameterization%20in%20Life%20Cycle%20Assessment%20inventory%20data%3A%20review%20of%20current%20use%20and%20the%20representation%20of%20uncertainty"
+        "url": "https://www.semanticscholar.org/paper/5b3ba733e39a32e11e5c634a0ff3fb6ee0c67241"
     },
     {
         "abstract": "While biofuels may yield renewable fuel benefits, there could be downsides in terms of water quality and other environmental stressors, particularly if corn is relied upon exclusively as the feedstock. The consequences of increased corn production will depend importantly on where (and how) the additional corn is grown, which, in turn, depends on the characteristics of land and its associated profitability. Previous work has relied on rules of thumb for allocating land to increased acreage based on historical land use or other heuristics. Here, we advance our understanding of these phenomena by describing a modeling system that links an economics-driven land use model with a watershed-based water quality model for the Upper Mississippi River Basin (UMRB). This modeling system is used to assess the water quality changes due to increased corn acreage, which is associated with higher relative corn prices. We focus on six scenarios based on six realistic pairs of corn and soybean prices which correspond to a scale of decreasing soybean to corn price ratio. These price-driven land use changes provide estimates of the water quality effects that current biofuel policies may have in the UMRB. Our analysis can help evaluate the costs and environmental consequences associated with implementation strategies for the biofuel mandates of the new energy bill. The amounts of total N and P delivered to the outlet of the UMRB (located at Grafton, Illinois, USA) rise as corn production becomes more intensive in the region. Our results indicate that a 14.4% in corn acreage in the watershed due to corn intensification in the most economically profitable locations would result in a 5.4% increase in total nitrogen loads and in a 4.1% increase in total phosphorus loads at Grafton. Our most aggressive scenario, driven by high but not out of reach crop prices, results in about a 57% increase in corn acreage with a corresponding 18.5% increase in N and 12% increase in P. These are somewhat conservative increases in nutrients, compared to those of previous studies, likely due to our focus on cultivated cropland which is already heavily fertilized.",
@@ -172,6 +220,14 @@
         "doi": "10.1890/09-0619.1",
         "journal": "journal-1317",
         "keyphrases": {
+            "additional corn": {
+                "count": 1,
+                "rank_score": 0.05651102045633617
+            },
+            "biofuels": {
+                "count": 1,
+                "rank_score": 0.057168618536998284
+            },
             "corn": {
                 "count": 1,
                 "rank_score": 0.09965234768478626
@@ -195,6 +251,14 @@
             "corn production": {
                 "count": 1,
                 "rank_score": 0.10401545543009522
+            },
+            "current biofuel policies": {
+                "count": 1,
+                "rank_score": 0.06681784819085734
+            },
+            "environmental consequences": {
+                "count": 1,
+                "rank_score": 0.059360527957572164
             },
             "higher relative corn prices": {
                 "count": 1,
@@ -220,17 +284,41 @@
                 "count": 2,
                 "rank_score": 0.07628922934505813
             },
+            "other environmental stressors": {
+                "count": 1,
+                "rank_score": 0.061184520529606594
+            },
+            "price-driven land use changes": {
+                "count": 1,
+                "rank_score": 0.05813451514505685
+            },
             "reach crop prices": {
                 "count": 1,
                 "rank_score": 0.07117690820633708
+            },
+            "renewable fuel benefits": {
+                "count": 1,
+                "rank_score": 0.06109908533499188
             },
             "total n": {
                 "count": 1,
                 "rank_score": 0.0707199759914426
             },
+            "total nitrogen loads": {
+                "count": 1,
+                "rank_score": 0.06841845036553786
+            },
+            "total phosphorus loads": {
+                "count": 1,
+                "rank_score": 0.07044131625935866
+            },
             "water quality": {
                 "count": 1,
                 "rank_score": 0.0805417240213094
+            },
+            "water quality changes": {
+                "count": 1,
+                "rank_score": 0.05422918124648869
             }
         },
         "pdf": "https://opensiuc.lib.siu.edu/cgi/viewcontent.cgi?article=1002&context=agecon_articles",
@@ -250,13 +338,21 @@
         "doi": "10.1111/1467-8276.00107",
         "journal": "journal-011",
         "keyphrases": {
-            "a sample selection model": {
+            "both the operators decision": {
                 "count": 1,
-                "rank_score": 0.0641631714588277
+                "rank_score": 0.02804858352129084
             },
             "contract": {
                 "count": 1,
                 "rank_score": 0.0980879252575414
+            },
+            "contracting": {
+                "count": 1,
+                "rank_score": 0.05941090379912378
+            },
+            "copyright 2003, oxford university press": {
+                "count": 1,
+                "rank_score": 0.05797213274999454
             },
             "determinants": {
                 "count": 1,
@@ -270,13 +366,17 @@
                 "count": 1,
                 "rank_score": 0.11876247423798614
             },
+            "farmers decisions": {
+                "count": 1,
+                "rank_score": 0.054428852443695705
+            },
+            "impact": {
+                "count": 1,
+                "rank_score": 0.04018687146592355
+            },
             "independent production": {
                 "count": 1,
                 "rank_score": 0.10495755822311265
-            },
-            "other factors": {
-                "count": 1,
-                "rank_score": 0.11307563022787301
             },
             "oxford university press": {
                 "count": 1,
@@ -290,17 +390,21 @@
                 "count": 1,
                 "rank_score": 0.12585001589973666
             },
-            "results": {
-                "count": 2,
-                "rank_score": 0.0693576881681258
-            },
-            "the production technology": {
+            "production technology": {
                 "count": 1,
                 "rank_score": 0.062463275176488
             },
-            "u.s.": {
+            "sample selection model": {
                 "count": 1,
-                "rank_score": 0.07398114916018796
+                "rank_score": 0.0641631714588277
+            },
+            "substantial increase": {
+                "count": 1,
+                "rank_score": 0.04543808526579618
+            },
+            "technological improvement": {
+                "count": 1,
+                "rank_score": 0.05141319445131446
             },
             "u.s. hog operations": {
                 "count": 1,
@@ -324,15 +428,19 @@
             "dataset-870"
         ],
         "doi": "10.1111/j.1467-9353.2009.01450.x",
-        "journal": "journal-669",
+        "journal": "journal-010",
         "keyphrases": {
-            "an efficiency evaluation": {
+            "diverse specializations": {
                 "count": 1,
-                "rank_score": 0.07380375003166906
+                "rank_score": 0.0749093222009411
             },
             "efficiency": {
                 "count": 1,
                 "rank_score": 0.11809898365260163
+            },
+            "efficiency evaluation": {
+                "count": 1,
+                "rank_score": 0.07380375003166906
             },
             "efficiency measures": {
                 "count": 1,
@@ -345,6 +453,10 @@
             "feeder": {
                 "count": 3,
                 "rank_score": 0.05967297677976448
+            },
+            "finish": {
+                "count": 2,
+                "rank_score": 0.05677745719884872
             },
             "future analyses": {
                 "count": 1,
@@ -362,6 +474,10 @@
                 "count": 1,
                 "rank_score": 0.08854756478724986
             },
+            "rapid change": {
+                "count": 1,
+                "rank_score": 0.05382503698329758
+            },
             "specialization type": {
                 "count": 1,
                 "rank_score": 0.12930996156575053
@@ -374,13 +490,13 @@
                 "count": 1,
                 "rank_score": 0.08769336724176972
             },
-            "the diverse specializations": {
-                "count": 1,
-                "rank_score": 0.0749093222009411
-            },
-            "the swine industry": {
+            "swine industry": {
                 "count": 2,
                 "rank_score": 0.06945019141554765
+            },
+            "technical, allocative, scale, and overall efficiency": {
+                "count": 1,
+                "rank_score": 0.0499672764988162
             },
             "variation": {
                 "count": 1,
@@ -388,7 +504,7 @@
             }
         },
         "title": "Production Efficiency of Specialized Swine Producers",
-        "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=Production%20Efficiency%20of%20Specialized%20Swine%20Producers"
+        "url": "https://www.researchgate.net/publication/227356110_Production_Efficiency_of_Specialized_Swine_Producers"
     },
     {
         "abstract": "Many agricultural support payments are based on past production with restrictions on how land may currently be used. When support payments to field crops are analyzed in a static framework, they do not directly impact current production decisions. However, over time, as relative profits change, these payments affect current output. The payments may keep land in less profitable production of program crops through restrictions prohibiting potentially more profitable endeavors such as cultivating fruits and vegetables. These payments have the potential to lead to production and trade distortions similar in magnitude to the distortions associated with direct production subsidies. Copyright 2013, Oxford University Press.",
@@ -403,6 +519,10 @@
         "doi": "10.1093/ajae/aat060",
         "journal": "journal-011",
         "keyphrases": {
+            "copyright": {
+                "count": 1,
+                "rank_score": 0.05117280133713066
+            },
             "crops": {
                 "count": 1,
                 "rank_score": 0.08599249750810053
@@ -418,6 +538,14 @@
             "direct production subsidies": {
                 "count": 1,
                 "rank_score": 0.12563178588221594
+            },
+            "distortions": {
+                "count": 1,
+                "rank_score": 0.04572444280749535
+            },
+            "fruits": {
+                "count": 1,
+                "rank_score": 0.0642916843193803
             },
             "land": {
                 "count": 2,
@@ -439,6 +567,14 @@
                 "count": 1,
                 "rank_score": 0.12426100924911185
             },
+            "payments": {
+                "count": 3,
+                "rank_score": 0.06675852894390533
+            },
+            "potentially more profitable endeavors": {
+                "count": 1,
+                "rank_score": 0.04046239402606455
+            },
             "production and trade distortions": {
                 "count": 1,
                 "rank_score": 0.0870332641521731
@@ -451,17 +587,17 @@
                 "count": 1,
                 "rank_score": 0.08681360028129013
             },
-            "restrictions": {
-                "count": 2,
-                "rank_score": 0.07830862058286683
+            "static framework": {
+                "count": 1,
+                "rank_score": 0.04290662676332827
             },
             "support payments": {
                 "count": 1,
                 "rank_score": 0.12480671178417689
             },
-            "these payments": {
-                "count": 3,
-                "rank_score": 0.06675852894390533
+            "vegetables": {
+                "count": 1,
+                "rank_score": 0.054614412793834506
             }
         },
         "title": "Production Incentives from Static Decoupling: Land Use Exclusion Restrictions",
@@ -485,6 +621,10 @@
                 "count": 2,
                 "rank_score": 0.07490254638266992
             },
+            "choices": {
+                "count": 1,
+                "rank_score": 0.05171860066770531
+            },
             "decisionâ€": {
                 "count": 1,
                 "rank_score": 0.06940169367003071
@@ -496,6 +636,14 @@
             "economists": {
                 "count": 1,
                 "rank_score": 0.06835633755940787
+            },
+            "failure": {
+                "count": 1,
+                "rank_score": 0.03163329583281205
+            },
+            "impacts": {
+                "count": 1,
+                "rank_score": 0.06180220775261168
             },
             "indirect effects": {
                 "count": 1,
@@ -517,17 +665,29 @@
                 "count": 1,
                 "rank_score": 0.08491306278961451
             },
+            "more complete understanding": {
+                "count": 1,
+                "rank_score": 0.03120303645578702
+            },
             "other characteristics": {
                 "count": 1,
                 "rank_score": 0.10532551698794364
             },
+            "policymakers": {
+                "count": 1,
+                "rank_score": 0.06143393856030383
+            },
+            "producers": {
+                "count": 1,
+                "rank_score": 0.04968127351399522
+            },
+            "puzzle": {
+                "count": 1,
+                "rank_score": 0.026082318860188646
+            },
             "relationships": {
                 "count": 1,
                 "rank_score": 0.06528575447707874
-            },
-            "research": {
-                "count": 1,
-                "rank_score": 0.061836948491985316
             },
             "risk": {
                 "count": 1,
@@ -537,9 +697,17 @@
                 "count": 4,
                 "rank_score": 0.1482658225461017
             },
-            "the risk management decisionâ€ making process": {
+            "risk management decisionâ€ making process": {
                 "count": 1,
                 "rank_score": 0.09583704571038167
+            },
+            "structure": {
+                "count": 1,
+                "rank_score": 0.03470106675320097
+            },
+            "their influence": {
+                "count": 1,
+                "rank_score": 0.02475032707235461
             }
         },
         "title": "Risk attitudes and the structure of decisionmaking: evidence from the Illinois hog industry",
@@ -548,10 +716,10 @@
     {
         "abstract": "The U.S. dairy industry is undergoing rapid structural change, evolving from a structure including many small farmers in the Upper Midwest and Northeast to one that includes very large farms in new production regions. Small farms are struggling to retain competitiveness via improved management and low-input systems. Using data from USDA’s Agricultural Resource Management Survey, we determine the extent of U.S. conventional and pasture-based milk production during 2003-2007, and estimate net returns, scale efficiency, and technical efficiency associated with the systems across different operation sizes. We compare the financial performance of small conventional and pasture-based producers with one another and with largescale producers. A stochastic production frontier is used to analyze performance over the period for conventional and pasture technologies identified using a binomial logit model. Large conventional farms generally outperformed smaller farms using most economic measures – technical efficiency, various profitability measures, and returns to scale.",
         "authors": [
-            "author-728d2a4f000a921c7a9a",
+            "author-bb0ab303190804e8000c",
             "author-90bc4481530141e6afc5",
             "author-4ce4d32ee0b038f68e0d",
-            "author-44d1ea3cbd33b8502d55"
+            "author-81f0cc8f6f5a0235a94f"
         ],
         "datasets": [
             "dataset-870"
@@ -562,6 +730,10 @@
             "agricultural resource management survey": {
                 "count": 1,
                 "rank_score": 0.08674880503513123
+            },
+            "competitiveness": {
+                "count": 1,
+                "rank_score": 0.05562633420516972
             },
             "conventional and pasture technologies": {
                 "count": 1,
@@ -579,6 +751,14 @@
                 "count": 1,
                 "rank_score": 0.11143938836513759
             },
+            "largescale producers": {
+                "count": 1,
+                "rank_score": 0.05525432111867939
+            },
+            "low-input systems": {
+                "count": 1,
+                "rank_score": 0.052807751736400996
+            },
             "many small farmers": {
                 "count": 1,
                 "rank_score": 0.09827413921540348
@@ -595,9 +775,17 @@
                 "count": 1,
                 "rank_score": 0.08079333971252434
             },
+            "performance": {
+                "count": 1,
+                "rank_score": 0.06621734394577358
+            },
             "rapid structural change": {
                 "count": 1,
                 "rank_score": 0.07990225072026219
+            },
+            "returns": {
+                "count": 1,
+                "rank_score": 0.0677274101554944
             },
             "scale efficiency": {
                 "count": 1,
@@ -611,18 +799,38 @@
                 "count": 2,
                 "rank_score": 0.11562150883114389
             },
+            "stochastic production frontier": {
+                "count": 1,
+                "rank_score": 0.0505236294679471
+            },
             "technical efficiency": {
                 "count": 2,
                 "rank_score": 0.0905904521217114
             },
+            "u.s. conventional and pasture-based milk production": {
+                "count": 1,
+                "rank_score": 0.06739216024596881
+            },
+            "u.s. dairy industry": {
+                "count": 1,
+                "rank_score": 0.049633085133721784
+            },
+            "usda’s agricultural resource management survey": {
+                "count": 1,
+                "rank_score": 0.06426255035481332
+            },
             "various profitability measures": {
                 "count": 1,
                 "rank_score": 0.08179730903926134
+            },
+            "very large farms": {
+                "count": 1,
+                "rank_score": 0.05592425223763002
             }
         },
         "pdf": "http://ageconsearch.umn.edu/record/52869/files/134.pdf",
         "title": "Small U.S. dairy farms: can they compete?",
-        "url": "http://purl.umn.edu/52869"
+        "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=Small%20U.S.%20dairy%20farms%3A%20can%20they%20compete%3F"
     },
     {
         "abstract": "A substantial share of U.S. hog producers incorporate antimicrobial drugs into their livestock's feed or water at sub-therapeutic levels to promote feed efficiency and weight gain. Recently, in response to concerns that the overuse of antibiotics in livestock could promote the development of antimicrobial drug-resistant bacteria, the U.S. Food and Drug Administration adopted a strategy to phase out the use of antibiotics for production purposes. This study uses a stochastic frontier model and data from the 2009 USDA Agricultural Resource Management Survey of feeder-to-finish hog producers to estimate the potential effects on hog output and output variability resulting from a ban on antibiotics used for growth promotion. We use propensity score nearest neighbor matching to create a balanced sample of sub-therapeutic antibiotic (STA) users and nonusers. We estimate the frontier model for the pooled sample and separately for users and non-users-which allows for a flexible interaction between STA use and the production technology. Point estimates for the matched sample indicate that STA use has a small positive effect on productivity and production risk, increasing output by 1.0-1.3% and reducing the standard deviation of unexplained output by 1.4%. The results indicate that improvements in productivity resulted exclusively from technological improvement rather than from an increase in technical efficiency.",
@@ -640,6 +848,10 @@
                 "count": 3,
                 "rank_score": 0.06897158792837639
             },
+            "antimicrobial drug-resistant bacteria": {
+                "count": 1,
+                "rank_score": 0.05317381566714244
+            },
             "antimicrobial drugs": {
                 "count": 1,
                 "rank_score": 0.07539394664352517
@@ -647,6 +859,18 @@
             "feed efficiency": {
                 "count": 1,
                 "rank_score": 0.07413205172619561
+            },
+            "growth promotion": {
+                "count": 1,
+                "rank_score": 0.05063877553287922
+            },
+            "improvements": {
+                "count": 1,
+                "rank_score": 0.0527501123043585
+            },
+            "livestock": {
+                "count": 1,
+                "rank_score": 0.04926876275703089
             },
             "nearest neighbor": {
                 "count": 1,
@@ -656,21 +880,37 @@
                 "count": 1,
                 "rank_score": 0.07657006878680697
             },
-            "output": {
-                "count": 2,
-                "rank_score": 0.07234104473138572
-            },
             "output variability": {
                 "count": 1,
                 "rank_score": 0.07643646318396
+            },
+            "point estimates": {
+                "count": 1,
+                "rank_score": 0.05081030578966289
             },
             "production purposes": {
                 "count": 1,
                 "rank_score": 0.06579588352630529
             },
+            "productivity": {
+                "count": 1,
+                "rank_score": 0.05608280817575082
+            },
+            "productivity and production risk": {
+                "count": 1,
+                "rank_score": 0.05193537366403195
+            },
             "sta use": {
                 "count": 2,
                 "rank_score": 0.08439716828287477
+            },
+            "stochastic frontier model": {
+                "count": 1,
+                "rank_score": 0.04951920192525561
+            },
+            "sub-therapeutic antibiotic (sta) users": {
+                "count": 1,
+                "rank_score": 0.05972830199332102
             },
             "sub-therapeutic levels": {
                 "count": 1,
@@ -679,6 +919,10 @@
             "technical efficiency": {
                 "count": 1,
                 "rank_score": 0.0649464366739502
+            },
+            "technological improvement": {
+                "count": 1,
+                "rank_score": 0.05850856744402326
             },
             "u.s. hog producers": {
                 "count": 1,
@@ -695,6 +939,10 @@
             "users": {
                 "count": 1,
                 "rank_score": 0.06538902335404743
+            },
+            "weight gain": {
+                "count": 1,
+                "rank_score": 0.05216181797198248
             }
         },
         "pdf": "https://academic.oup.com/ajae/article-pdf/96/3/831/114598/aat091.pdf",
@@ -717,6 +965,10 @@
                 "count": 3,
                 "rank_score": 0.06897158792837639
             },
+            "antimicrobial drug-resistant bacteria": {
+                "count": 1,
+                "rank_score": 0.05317381566714244
+            },
             "antimicrobial drugs": {
                 "count": 1,
                 "rank_score": 0.07539394664352517
@@ -724,6 +976,18 @@
             "feed efficiency": {
                 "count": 1,
                 "rank_score": 0.07413205172619561
+            },
+            "growth promotion": {
+                "count": 1,
+                "rank_score": 0.05063877553287922
+            },
+            "improvements": {
+                "count": 1,
+                "rank_score": 0.0527501123043585
+            },
+            "livestock": {
+                "count": 1,
+                "rank_score": 0.04926876275703089
             },
             "nearest neighbor": {
                 "count": 1,
@@ -733,21 +997,37 @@
                 "count": 1,
                 "rank_score": 0.07657006878680697
             },
-            "output": {
-                "count": 2,
-                "rank_score": 0.07234104473138572
-            },
             "output variability": {
                 "count": 1,
                 "rank_score": 0.07643646318396
+            },
+            "point estimates": {
+                "count": 1,
+                "rank_score": 0.05081030578966289
             },
             "production purposes": {
                 "count": 1,
                 "rank_score": 0.06579588352630529
             },
+            "productivity": {
+                "count": 1,
+                "rank_score": 0.05608280817575082
+            },
+            "productivity and production risk": {
+                "count": 1,
+                "rank_score": 0.05193537366403195
+            },
             "sta use": {
                 "count": 2,
                 "rank_score": 0.08439716828287477
+            },
+            "stochastic frontier model": {
+                "count": 1,
+                "rank_score": 0.04951920192525561
+            },
+            "sub-therapeutic antibiotic (sta) users": {
+                "count": 1,
+                "rank_score": 0.05972830199332102
             },
             "sub-therapeutic levels": {
                 "count": 1,
@@ -756,6 +1036,10 @@
             "technical efficiency": {
                 "count": 1,
                 "rank_score": 0.0649464366739502
+            },
+            "technological improvement": {
+                "count": 1,
+                "rank_score": 0.05850856744402326
             },
             "u.s. hog producers": {
                 "count": 1,
@@ -772,11 +1056,15 @@
             "users": {
                 "count": 1,
                 "rank_score": 0.06538902335404743
+            },
+            "weight gain": {
+                "count": 1,
+                "rank_score": 0.05216181797198248
             }
         },
         "pdf": "https://academic.oup.com/ajae/article-pdf/96/3/831/114598/aat091.pdf",
         "title": "Subtherapeutic Antibiotics and the Efficiency of U.S. Hog Farms",
-        "url": "https://www.researchgate.net/publication/241750410_Sub-therapeutic_Antibiotics_and_the_Efficiency_of_US_Hog_Farms"
+        "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=Sub%E2%80%90therapeutic%20Antibiotics%20and%20the%20Efficiency%20of%20U.S.%20Hog%20Farms"
     },
     {
         "abstract": "Abstract We demonstrate the use of a surrogate-based optimization framework for large-scale and high-resolution landscape management optimization, using irrigated corn production systems in eastern Colorado, USA as a case study. An artificial neural network was employed to create a surrogate of the DayCent biogeochemical simulation model. Our optimization considered trade-offs among seven different objectives at different scales, including farm profits, irrigation water use, corn grain, corn stover, soil organic carbon (SOC), greenhouse gas (GHG) emissions, and nitrogen leaching. The results show that the surrogate captured greater than 99% of the variations in the DayCent’s simulated outputs and was 6.2 million times faster than the DayCent model for our analysis. Farm-level optimization increased farm profits by 83%–150%, SOC by 16%–53%, grain yield by 10.1–11.3%, and reduced GHG emissions by 19%–55% compared to the ‘business-as-usual’ scenario.",
@@ -796,9 +1084,13 @@
         "doi": "10.1016/j.ecolmodel.2019.02.018",
         "journal": "journal-1319",
         "keyphrases": {
-            "a surrogate-based optimization framework": {
+            "artificial neural network": {
                 "count": 1,
-                "rank_score": 0.05995351371411856
+                "rank_score": 0.051706163827053675
+            },
+            "colorado": {
+                "count": 1,
+                "rank_score": 0.05171204110273442
             },
             "corn grain": {
                 "count": 1,
@@ -811,6 +1103,14 @@
             "daycent": {
                 "count": 4,
                 "rank_score": 0.08264259294181364
+            },
+            "daycent biogeochemical simulation model": {
+                "count": 1,
+                "rank_score": 0.06944761989434217
+            },
+            "daycent model": {
+                "count": 1,
+                "rank_score": 0.057818018664303375
             },
             "different scales": {
                 "count": 1,
@@ -828,9 +1128,17 @@
                 "count": 1,
                 "rank_score": 0.0735156755576862
             },
+            "ghg": {
+                "count": 2,
+                "rank_score": 0.052760542617534656
+            },
             "grain yield": {
                 "count": 1,
                 "rank_score": 0.07380150529695909
+            },
+            "greenhouse gas": {
+                "count": 1,
+                "rank_score": 0.05827223684674289
             },
             "irrigated corn production systems": {
                 "count": 1,
@@ -840,9 +1148,29 @@
                 "count": 1,
                 "rank_score": 0.08445220751693544
             },
+            "large-scale and high-resolution landscape management optimization": {
+                "count": 1,
+                "rank_score": 0.056792010025747325
+            },
+            "nitrogen leaching": {
+                "count": 1,
+                "rank_score": 0.05924318408897761
+            },
+            "our optimization": {
+                "count": 1,
+                "rank_score": 0.05294615886096349
+            },
             "reduced ghg emissions": {
                 "count": 1,
                 "rank_score": 0.084953036679422
+            },
+            "seven different objectives": {
+                "count": 1,
+                "rank_score": 0.04312356047028833
+            },
+            "simulated outputs": {
+                "count": 1,
+                "rank_score": 0.05934221851416096
             },
             "soc": {
                 "count": 1,
@@ -852,13 +1180,13 @@
                 "count": 1,
                 "rank_score": 0.0789409150737489
             },
-            "the daycent biogeochemical simulation model": {
+            "surrogate-based optimization framework": {
                 "count": 1,
-                "rank_score": 0.06944761989434217
+                "rank_score": 0.05995351371411856
             }
         },
         "title": "Surrogate-based multi-objective optimization of management options for agricultural landscapes using artificial neural networks",
-        "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=Surrogate-based%20multi-objective%20optimization%20of%20management%20options%20for%20agricultural%20landscapes%20using%20artificial%20neural%20networks"
+        "url": "https://doi.org/10.1016/j.ecolmodel.2019.02.018"
     },
     {
         "abstract": "The U.S. dairy industry has seen major restructuring in recent decades. A sharp decline in the number of U.S. dairy farms and an increase in average herd sizes have accompanied exits, which have been concentrated among smaller herds. Given that more productive farms are better positioned to increase operation size and to continue operation, we hypothesize that the more technically efficient farms are better able to expand and also have stronger incentives to continue production. Using data from the USDA's 2010 ARMS Phase III, Dairy Production Practices and Costs and Returns Report, we estimate technical efficiency using stochastic production frontier analysis with endogenous inputs. The efficiency estimate is then incorporated into the analysis of exit intention and herd size. The results confirm our hypotheses that smaller and less efficient farms are more likely to exit and that more efficient dairy farms tend to expand herd size. Moreover, farms without successors but with older and more educated operators are more likely to exit.",
@@ -874,17 +1202,37 @@
         "doi": "10.1111/agec.12253",
         "journal": "journal-013",
         "keyphrases": {
+            "arms phase iii": {
+                "count": 1,
+                "rank_score": 0.040465754232940805
+            },
             "average herd sizes": {
                 "count": 1,
                 "rank_score": 0.11506973846886177
+            },
+            "costs": {
+                "count": 1,
+                "rank_score": 0.06592753891429828
             },
             "dairy production practices": {
                 "count": 1,
                 "rank_score": 0.0869697855930397
             },
+            "efficiency estimate": {
+                "count": 1,
+                "rank_score": 0.04462890325919339
+            },
+            "endogenous inputs": {
+                "count": 1,
+                "rank_score": 0.06179289059552729
+            },
             "exit intention": {
                 "count": 1,
                 "rank_score": 0.07455319871387923
+            },
+            "exits": {
+                "count": 1,
+                "rank_score": 0.060228573233807134
             },
             "farms": {
                 "count": 1,
@@ -902,13 +1250,17 @@
                 "count": 1,
                 "rank_score": 0.08022383036343132
             },
+            "more productive farms": {
+                "count": 1,
+                "rank_score": 0.06245145284687582
+            },
+            "operation": {
+                "count": 1,
+                "rank_score": 0.06588744398407001
+            },
             "operation size": {
                 "count": 1,
                 "rank_score": 0.10063404969105252
-            },
-            "production": {
-                "count": 1,
-                "rank_score": 0.0723560221072004
             },
             "recent decades": {
                 "count": 2,
@@ -918,6 +1270,10 @@
                 "count": 2,
                 "rank_score": 0.06803828064476672
             },
+            "smaller and less efficient farms": {
+                "count": 1,
+                "rank_score": 0.04592371798860405
+            },
             "smaller herds": {
                 "count": 1,
                 "rank_score": 0.09999485499472704
@@ -926,6 +1282,14 @@
                 "count": 1,
                 "rank_score": 0.11079949222349594
             },
+            "stronger incentives": {
+                "count": 1,
+                "rank_score": 0.06254856174913825
+            },
+            "successors": {
+                "count": 1,
+                "rank_score": 0.047869176839352635
+            },
             "technical efficiency": {
                 "count": 1,
                 "rank_score": 0.08187882806972999
@@ -933,16 +1297,20 @@
             "u.s. dairy farms": {
                 "count": 1,
                 "rank_score": 0.1243973085310341
+            },
+            "u.s. dairy industry": {
+                "count": 1,
+                "rank_score": 0.06415542316789248
             }
         },
         "title": "Technical efficiency, herd size, and exit intentions in U.S. dairy farms",
-        "url": "https://app.dimensions.ai/discover/publication?search_type=kws&search_field=full_search&search_text=Technical%20efficiency%2C%20herd%20size%2C%20and%20exit%20intentions%20in%20U.S.%20dairy%20farms"
+        "url": "https://www.semanticscholar.org/paper/e027b6b3cdbfd165236cd102716277f47040a7f5"
     },
     {
         "abstract": "Adoption rates of 19 dairy technologies, management practices, and production systems (TMPPS) are estimated for the U.S. for 2005 and 2010 and, in cases where data are available, 1993 and 2000. Logit models are estimated to determine types of farms most likely to use each TMPPS. TMPPS experiencing the greatest increases in adoption have been automatic take-offs, the internet, breeding technologies, and USDA certified organic production; recombinant bovine somatotropin experienced a reduction in usage between 2005 and 2010. Factors influencing TMPPS usage include farm size, tenure, and diversification; farmer age and education; and region of the U.S. where the farm is located.",
         "authors": [
             "author-90bc4481530141e6afc5",
-            "author-728d2a4f000a921c7a9a",
+            "author-bb0ab303190804e8000c",
             "author-28dc2cf297e47b6eacfc"
         ],
         "datasets": [
@@ -960,13 +1328,21 @@
                 "count": 1,
                 "rank_score": 0.08353627306318792
             },
+            "automatic take-offs": {
+                "count": 1,
+                "rank_score": 0.0602098341806069
+            },
             "breeding technologies": {
                 "count": 1,
                 "rank_score": 0.0945310058315573
             },
-            "data": {
+            "diversification": {
                 "count": 1,
-                "rank_score": 0.08218544850554951
+                "rank_score": 0.06573829329935181
+            },
+            "education": {
+                "count": 1,
+                "rank_score": 0.06757055207035213
             },
             "farm size": {
                 "count": 1,
@@ -979,6 +1355,14 @@
             "farms": {
                 "count": 2,
                 "rank_score": 0.10620559697486827
+            },
+            "greatest increases": {
+                "count": 1,
+                "rank_score": 0.049367516566377924
+            },
+            "internet": {
+                "count": 1,
+                "rank_score": 0.034964964454456654
             },
             "logit models": {
                 "count": 1,
@@ -996,6 +1380,14 @@
                 "count": 1,
                 "rank_score": 0.09996033629183201
             },
+            "region": {
+                "count": 1,
+                "rank_score": 0.05596644967986856
+            },
+            "tenure": {
+                "count": 1,
+                "rank_score": 0.061937754312281
+            },
             "tmpps": {
                 "count": 5,
                 "rank_score": 0.10642293329325833
@@ -1003,6 +1395,10 @@
             "tmpps usage": {
                 "count": 1,
                 "rank_score": 0.12503287782041525
+            },
+            "types": {
+                "count": 1,
+                "rank_score": 0.061459110693359534
             },
             "usage": {
                 "count": 1,
@@ -1020,7 +1416,7 @@
     {
         "abstract": "The assessment of the determinants of quality of life in the USA has long been a focus of many researchers. This paper contributes towards that effort by focusing on the quality of life attributes of a segment of the population; namely, farm operator households. To assist in this effort, a quality of life indicator is constructed based on data from the 2004 Agricultural Resource Management Survey along with some auxiliary databases. The determinants of this indicator have been assessed by means of count-data models with special emphasis being given to the role of the preponderance of zeros in the constructed index. Based on the findings, some policy recommendations on how to improve the quality of life in the rural communities are provided.",
         "authors": [
-            "author-e61f0853269871be7755"
+            "author-66781e1c4c38788dda19"
         ],
         "datasets": [
             "dataset-870",
@@ -1031,61 +1427,73 @@
         "doi": "10.1007/s11482-007-9035-1",
         "journal": "journal-1320",
         "keyphrases": {
+            "assessment": {
+                "count": 1,
+                "rank_score": 0.02413463130427839
+            },
             "attributes": {
                 "count": 1,
                 "rank_score": 0.06923437661544388
+            },
+            "constructed index": {
+                "count": 1,
+                "rank_score": 0.0555997044665634
             },
             "count-data models": {
                 "count": 1,
                 "rank_score": 0.07059944708577183
             },
-            "data": {
-                "count": 1,
-                "rank_score": 0.08289539238011262
+            "determinants": {
+                "count": 2,
+                "rank_score": 0.03676739639747228
             },
-            "life": {
-                "count": 3,
-                "rank_score": 0.11001690870184368
+            "effort": {
+                "count": 2,
+                "rank_score": 0.04454444034224888
+            },
+            "focus": {
+                "count": 1,
+                "rank_score": 0.03646624787447364
+            },
+            "indicator": {
+                "count": 1,
+                "rank_score": 0.048244508410934805
             },
             "life indicator": {
                 "count": 1,
                 "rank_score": 0.1311301326715171
             },
-            "many researchers": {
-                "count": 1,
-                "rank_score": 0.08932370012631205
-            },
-            "means": {
-                "count": 1,
-                "rank_score": 0.058344167076011096
-            },
             "namely, farm operator households": {
                 "count": 1,
                 "rank_score": 0.04872201825071566
             },
-            "quality": {
-                "count": 4,
-                "rank_score": 0.11704427472682574
+            "population": {
+                "count": 1,
+                "rank_score": 0.026441253813453323
+            },
+            "preponderance": {
+                "count": 1,
+                "rank_score": 0.03249383136580184
+            },
+            "rural communities": {
+                "count": 1,
+                "rank_score": 0.050518408103661386
+            },
+            "segment": {
+                "count": 1,
+                "rank_score": 0.03428945630372653
             },
             "some auxiliary databases": {
                 "count": 1,
                 "rank_score": 0.052716069030222
             },
+            "some policy recommendations": {
+                "count": 1,
+                "rank_score": 0.04663857092782857
+            },
             "special emphasis": {
                 "count": 1,
                 "rank_score": 0.09238965112610341
-            },
-            "the 2004 agricultural resource management survey": {
-                "count": 2,
-                "rank_score": 0.056725274471403436
-            },
-            "the constructed index": {
-                "count": 1,
-                "rank_score": 0.0555997044665634
-            },
-            "the rural communities": {
-                "count": 1,
-                "rank_score": 0.050518408103661386
             },
             "zeros": {
                 "count": 2,

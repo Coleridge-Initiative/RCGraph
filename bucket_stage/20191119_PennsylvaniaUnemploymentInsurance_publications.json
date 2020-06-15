@@ -860,6 +860,14 @@
                 "count": 1,
                 "rank_score": 0.09314441174869889
             },
+            "fewer than 20 or more than 250 employees": {
+                "count": 1,
+                "rank_score": 0.024480042834010503
+            },
+            "impact": {
+                "count": 1,
+                "rank_score": 0.028507296520622873
+            },
             "injuries": {
                 "count": 1,
                 "rank_score": 0.07823345476596487
@@ -880,6 +888,18 @@
                 "count": 1,
                 "rank_score": 0.06444326638164986
             },
+            "methods": {
+                "count": 2,
+                "rank_score": 0.023424278964210222
+            },
+            "more than 10": {
+                "count": 1,
+                "rank_score": 0.024431867376930358
+            },
+            "more than 10 employees": {
+                "count": 1,
+                "rank_score": 0.03382920213047045
+            },
             "osha": {
                 "count": 1,
                 "rank_score": 0.05541622786877016
@@ -896,17 +916,37 @@
                 "count": 2,
                 "rank_score": 0.06480281208021257
             },
+            "pennsylvania": {
+                "count": 1,
+                "rank_score": 0.05353983155335196
+            },
+            "pennsylvania workers compensation program": {
+                "count": 1,
+                "rank_score": 0.051089454559330075
+            },
+            "prior study": {
+                "count": 1,
+                "rank_score": 0.052500362418934875
+            },
+            "rand human subjects protection committee": {
+                "count": 2,
+                "rank_score": 0.07268474701708862
+            },
+            "rates": {
+                "count": 1,
+                "rank_score": 0.03184720916771739
+            },
             "single-establishment manufacturing firms": {
                 "count": 1,
                 "rank_score": 0.06319740663410929
             },
-            "the rand human subjects protection committee": {
-                "count": 2,
-                "rank_score": 0.07268474701708862
-            },
             "unemployment compensation records": {
                 "count": 1,
                 "rank_score": 0.10000787759625403
+            },
+            "updated estimate": {
+                "count": 1,
+                "rank_score": 0.04309642922400953
             },
             "workplaces": {
                 "count": 1,
@@ -936,6 +976,7 @@
                     "name": "14 Economics"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -947,6 +988,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Steven J.",
+                        "initials": "",
                         "last_name": "Davis",
                         "orcid": "",
                         "researcher_id": ""
@@ -960,6 +1002,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.19006.3e",
                         "first_name": "Till",
+                        "initials": "",
                         "last_name": "von Wachter",
                         "orcid": "",
                         "researcher_id": "ur.01332226061.12"
@@ -976,6 +1019,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Steven J.",
+                    "initials": "",
                     "last_name": "Davis",
                     "orcid": "",
                     "researcher_id": ""
@@ -989,6 +1033,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.19006.3e",
                     "first_name": "Till",
+                    "initials": "",
                     "last_name": "von Wachter",
                     "orcid": "",
                     "researcher_id": "ur.01332226061.12"
@@ -1004,6 +1049,7 @@
                     "name": "14 Economics"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30016",
@@ -1057,10 +1103,8 @@
                 "present value loss",
                 "value loss",
                 "one-fourth",
-                "Fourth",
                 "aggregate conditions",
                 "time of displacement",
-                "patterns",
                 "data",
                 "recession",
                 "cost"
@@ -1068,7 +1112,7 @@
             "date": "2011-01-01",
             "date_inserted": "2018-04-06",
             "doi": "10.2139/ssrn.1969505",
-            "field_citation_ratio": 0.47,
+            "field_citation_ratio": 2.3,
             "id": "pub.1102328441",
             "issn": [
                 "1556-5068"
@@ -1081,6 +1125,38 @@
                 "Norwegian register level 0"
             ],
             "linkout": "http://europepmc.org/articles/pmc5521015?pdf=render",
+            "noun_phrases": [
+                "recession",
+                "job loss",
+                "evidence",
+                "earnings",
+                "displacement",
+                "drawing",
+                "Social Security",
+                "record",
+                "U.S. worker",
+                "present value",
+                "men",
+                "average",
+                "layoff",
+                "unemployment rate",
+                "discounting",
+                "annual rate",
+                "movement",
+                "incidence",
+                "present evidence",
+                "anxiety",
+                "cut",
+                "job opportunity",
+                "condition",
+                "confront",
+                "unemployment",
+                "search",
+                "job",
+                "one-fourth",
+                "observed loss",
+                "pattern"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -1099,7 +1175,7 @@
                 }
             ],
             "publisher": "Elsevier",
-            "recent_citations": 1,
+            "recent_citations": 4,
             "reference_ids": [
                 "pub.1007545156"
             ],
@@ -1125,17 +1201,35 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Columbia Business School - Economics Department; IZA Institute of Labor Economics",
+                "University of Chicago; National Bureau of Economic Research (NBER)"
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-NY",
+                    "name": "New York"
+                },
+                {
+                    "id": "US-IL",
+                    "name": "Illinois"
+                }
+            ],
+            "research_org_state_names": [
+                "New York",
+                "Illinois"
+            ],
             "researchers": [
                 {
                     "first_name": "Till M",
                     "id": "ur.01332226061.12",
                     "last_name": "Von Wachter",
                     "research_orgs": [
-                        "grid.250279.b",
-                        "grid.21729.3f",
-                        "grid.5570.7",
                         "grid.425330.3",
-                        "grid.19006.3e"
+                        "grid.5570.7",
+                        "grid.19006.3e",
+                        "grid.250279.b",
+                        "grid.21729.3f"
                     ]
                 }
             ],
@@ -1180,15 +1274,13 @@
                 "present value loss",
                 "value loss",
                 "one-fourth",
-                "Fourth",
                 "aggregate conditions",
                 "time of displacement",
-                "patterns",
                 "data",
                 "recession",
                 "cost"
             ],
-            "times_cited": 1,
+            "times_cited": 5,
             "title": "Recessions and the Costs of Job Loss",
             "type": "preprint",
             "year": 2011
@@ -2656,9 +2748,21 @@
         },
         "doi": "10.2139/ssrn.1969505",
         "keyphrases": {
+            "aggregate conditions": {
+                "count": 1,
+                "rank_score": 0.07021445640372623
+            },
             "contemporaneous economic conditions": {
                 "count": 1,
                 "rank_score": 0.07766698707592898
+            },
+            "cumulative earnings losses": {
+                "count": 1,
+                "rank_score": 0.07627612070741788
+            },
+            "displacement": {
+                "count": 2,
+                "rank_score": 0.07179842931924264
             },
             "job displacement": {
                 "count": 3,
@@ -2684,6 +2788,18 @@
                 "count": 1,
                 "rank_score": 0.08323138683359586
             },
+            "mass layoff events": {
+                "count": 1,
+                "rank_score": 0.07261758015005944
+            },
+            "national unemployment rate": {
+                "count": 1,
+                "rank_score": 0.062392355393006096
+            },
+            "new evidence": {
+                "count": 1,
+                "rank_score": 0.07431882486064793
+            },
             "observed losses": {
                 "count": 1,
                 "rank_score": 0.10267324238735501
@@ -2695,6 +2811,10 @@
             "present evidence": {
                 "count": 1,
                 "rank_score": 0.09654389229989165
+            },
+            "present value earnings losses": {
+                "count": 1,
+                "rank_score": 0.09125038027927831
             },
             "present value losses": {
                 "count": 2,
@@ -2708,13 +2828,25 @@
                 "count": 1,
                 "rank_score": 0.09720737877366821
             },
-            "the present value earnings losses": {
+            "social security": {
                 "count": 1,
-                "rank_score": 0.09125038027927831
+                "rank_score": 0.06675807038783885
+            },
+            "u.s. workers": {
+                "count": 1,
+                "rank_score": 0.0646947070814354
             },
             "unemployment fluctuations": {
                 "count": 1,
                 "rank_score": 0.08022255648774901
+            },
+            "unemployment rate": {
+                "count": 1,
+                "rank_score": 0.05704402290693903
+            },
+            "wage cuts": {
+                "count": 1,
+                "rank_score": 0.05968203501331586
             }
         },
         "original": {
@@ -2756,6 +2888,7 @@
                     "name": "Prevention"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -2774,6 +2907,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.34474.30",
                         "first_name": "Amelia",
+                        "initials": "",
                         "last_name": "Haviland",
                         "orcid": "",
                         "researcher_id": "ur.01050516331.93"
@@ -2794,6 +2928,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.34474.30",
                         "first_name": "Rachel",
+                        "initials": "",
                         "last_name": "Burns",
                         "orcid": "",
                         "researcher_id": "ur.01243361665.90"
@@ -2814,6 +2949,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.250279.b",
                         "first_name": "Wayne",
+                        "initials": "",
                         "last_name": "Gray",
                         "orcid": "",
                         "researcher_id": "ur.01166265413.12"
@@ -2834,6 +2970,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.34474.30",
                         "first_name": "Teague",
+                        "initials": "",
                         "last_name": "Ruder",
                         "orcid": "",
                         "researcher_id": "ur.01306427176.09"
@@ -2864,6 +3001,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.21925.3d",
                         "first_name": "John",
+                        "initials": "",
                         "last_name": "Mendeloff",
                         "orcid": "",
                         "researcher_id": "ur.01314234654.94"
@@ -2887,6 +3025,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.34474.30",
                     "first_name": "Amelia",
+                    "initials": "",
                     "last_name": "Haviland",
                     "orcid": "",
                     "researcher_id": "ur.01050516331.93"
@@ -2907,6 +3046,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.34474.30",
                     "first_name": "Rachel",
+                    "initials": "",
                     "last_name": "Burns",
                     "orcid": "",
                     "researcher_id": "ur.01243361665.90"
@@ -2927,6 +3067,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.250279.b",
                     "first_name": "Wayne",
+                    "initials": "",
                     "last_name": "Gray",
                     "orcid": "",
                     "researcher_id": "ur.01166265413.12"
@@ -2947,6 +3088,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.34474.30",
                     "first_name": "Teague",
+                    "initials": "",
                     "last_name": "Ruder",
                     "orcid": "",
                     "researcher_id": "ur.01306427176.09"
@@ -2977,6 +3119,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.21925.3d",
                     "first_name": "John",
+                    "initials": "",
                     "last_name": "Mendeloff",
                     "orcid": "",
                     "researcher_id": "ur.01314234654.94"
@@ -3031,12 +3174,11 @@
                 "workers",
                 "injury prevention",
                 "prevention",
-                "standard",
+                "standards",
                 "Pennsylvania Department",
                 "Department",
                 "labor",
                 "lost-time injuries",
-                "time injuries",
                 "injury",
                 "injury rates",
                 "rate",
@@ -3060,7 +3202,7 @@
             "date": "2010-08-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.jsr.2010.03.005",
-            "field_citation_ratio": 4.86,
+            "field_citation_ratio": 5.6,
             "id": "pub.1041253008",
             "issn": [
                 "0022-4375",
@@ -3072,9 +3214,10 @@
                 "title": "Journal of Safety Research"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
+                "ERA 2015",
                 "VABB-SHW",
+                "ERA 2018",
                 "PubMed"
             ],
             "mesh_terms": [
@@ -3087,6 +3230,36 @@
                 "United States Occupational Safety and Health Administration",
                 "Workers' Compensation"
             ],
+            "noun_phrases": [
+                "Wound and Injury",
+                "inspection",
+                "enforcement",
+                "major",
+                "American worker",
+                "scope",
+                "injury prevention",
+                "method",
+                "Pennsylvania",
+                "labor",
+                "industry",
+                "lost time",
+                "employment",
+                "injury rate",
+                "manufacturing firm",
+                "penalty",
+                "injury type",
+                "citation",
+                "violation",
+                "personal protective equipment",
+                "large impact",
+                "protective equipment",
+                "Attention",
+                "consultant",
+                "inspector",
+                "manager",
+                "Weight and Measure",
+                "compliance"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -3097,32 +3270,32 @@
             "pages": "339-345",
             "pmid": "20846550",
             "publisher": "Elsevier",
-            "recent_citations": 9,
+            "recent_citations": 10,
             "reference_ids": [
+                "pub.1102602467",
                 "pub.1005628918",
                 "pub.1058300501",
-                "pub.1006618797",
-                "pub.1070190816",
-                "pub.1069991603",
-                "pub.1041037757",
                 "pub.1069991269",
+                "pub.1006618797",
+                "pub.1041037757",
+                "pub.1098677322",
+                "pub.1070190816",
                 "pub.1058751723",
-                "pub.1102602467",
-                "pub.1098677322"
+                "pub.1069991603"
             ],
             "references": [
+                "pub.1102602467",
                 "pub.1005628918",
                 "pub.1058300501",
-                "pub.1006618797",
-                "pub.1070190816",
-                "pub.1069991603",
-                "pub.1041037757",
                 "pub.1069991269",
+                "pub.1006618797",
+                "pub.1041037757",
+                "pub.1098677322",
+                "pub.1070190816",
                 "pub.1058751723",
-                "pub.1102602467",
-                "pub.1098677322"
+                "pub.1069991603"
             ],
-            "relative_citation_ratio": 1.14,
+            "relative_citation_ratio": 1.07,
             "research_org_cities": [
                 {
                     "id": 4956184,
@@ -3146,14 +3319,19 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Clark University",
+                "University of Pittsburgh",
+                "RAND Corporation"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-CA",
-                    "name": "California"
-                },
                 {
                     "id": "US-PA",
                     "name": "Pennsylvania"
+                },
+                {
+                    "id": "US-CA",
+                    "name": "California"
                 },
                 {
                     "id": "US-MA",
@@ -3162,10 +3340,25 @@
             ],
             "research_org_state_names": [
                 "Massachusetts",
-                "Pennsylvania",
-                "California"
+                "California",
+                "Pennsylvania"
             ],
             "research_orgs": [
+                {
+                    "city_name": "Santa Monica",
+                    "country_name": "United States",
+                    "id": "grid.34474.30",
+                    "latitude": 34.009598,
+                    "linkout": [
+                        "http://www.rand.org/"
+                    ],
+                    "longitude": -118.49067,
+                    "name": "RAND Corporation",
+                    "state_name": "California",
+                    "types": [
+                        "Nonprofit"
+                    ]
+                },
                 {
                     "city_name": "Worcester",
                     "country_name": "United States",
@@ -3195,21 +3388,6 @@
                     "types": [
                         "Education"
                     ]
-                },
-                {
-                    "city_name": "Santa Monica",
-                    "country_name": "United States",
-                    "id": "grid.34474.30",
-                    "latitude": 34.009598,
-                    "linkout": [
-                        "http://www.rand.org/"
-                    ],
-                    "longitude": -118.49067,
-                    "name": "RAND Corporation",
-                    "state_name": "California",
-                    "types": [
-                        "Nonprofit"
-                    ]
                 }
             ],
             "researchers": [
@@ -3219,8 +3397,8 @@
                     "last_name": "Haviland",
                     "research_orgs": [
                         "grid.26009.3d",
-                        "grid.417934.c",
                         "grid.34474.30",
+                        "grid.417934.c",
                         "grid.147455.6"
                     ]
                 },
@@ -3256,8 +3434,8 @@
                     "id": "ur.01314234654.94",
                     "last_name": "Mendeloff",
                     "research_orgs": [
-                        "grid.21925.3d",
-                        "grid.34474.30"
+                        "grid.34474.30",
+                        "grid.21925.3d"
                     ]
                 }
             ],
@@ -3266,12 +3444,11 @@
                 "workers",
                 "injury prevention",
                 "prevention",
-                "standard",
+                "standards",
                 "Pennsylvania Department",
                 "Department",
                 "labor",
                 "lost-time injuries",
-                "time injuries",
                 "injury",
                 "injury rates",
                 "rate",
@@ -3292,7 +3469,7 @@
                 "kind of injury",
                 "OSHA inspections"
             ],
-            "times_cited": 28,
+            "times_cited": 29,
             "title": "What kinds of injuries do OSHA inspections prevent?",
             "type": "article",
             "volume": "41",
@@ -4155,9 +4332,29 @@
                 "count": 1,
                 "rank_score": 0.0761340225545391
             },
+            "all single-establishment manufacturing firms": {
+                "count": 1,
+                "rank_score": 0.04806962227018628
+            },
+            "american": {
+                "count": 1,
+                "rank_score": 0.058269181502270756
+            },
             "american workers": {
                 "count": 1,
                 "rank_score": 0.06994835580046531
+            },
+            "citations": {
+                "count": 1,
+                "rank_score": 0.05593165286821919
+            },
+            "consultants": {
+                "count": 1,
+                "rank_score": 0.05436039015863256
+            },
+            "employment": {
+                "count": 1,
+                "rank_score": 0.05845636079841916
             },
             "injuries": {
                 "count": 1,
@@ -4183,6 +4380,18 @@
                 "count": 1,
                 "rank_score": 0.07333565311620856
             },
+            "major public efforts": {
+                "count": 1,
+                "rank_score": 0.054627357658378825
+            },
+            "managers": {
+                "count": 1,
+                "rank_score": 0.06008102293429317
+            },
+            "objectiveoshas enforcement program": {
+                "count": 1,
+                "rank_score": 0.046062844819640174
+            },
             "osha": {
                 "count": 2,
                 "rank_score": 0.0742168735357677
@@ -4191,13 +4400,17 @@
                 "count": 1,
                 "rank_score": 0.10481413765254842
             },
+            "penalties": {
+                "count": 1,
+                "rank_score": 0.05563170372376711
+            },
+            "pennsylvania department of labor and industry": {
+                "count": 1,
+                "rank_score": 0.04704741633202812
+            },
             "personal protective equipment": {
                 "count": 1,
                 "rank_score": 0.1039339883503147
-            },
-            "programs": {
-                "count": 1,
-                "rank_score": 0.06120966499015341
             },
             "protective equipment use": {
                 "count": 1,
@@ -4210,6 +4423,10 @@
             "standards": {
                 "count": 3,
                 "rank_score": 0.08272441891000074
+            },
+            "violations": {
+                "count": 1,
+                "rank_score": 0.04986428451281705
             }
         },
         "original": {
@@ -4249,6 +4466,7 @@
                     "name": "Injuries and Accidents"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -4270,6 +4488,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.34474.30",
                         "first_name": "Hangsheng",
+                        "initials": "",
                         "last_name": "Liu",
                         "orcid": "",
                         "researcher_id": "ur.01171775060.26"
@@ -4290,6 +4509,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.34474.30",
                         "first_name": "Rachel M.",
+                        "initials": "",
                         "last_name": "Burns",
                         "orcid": "",
                         "researcher_id": "ur.01243361665.90"
@@ -4310,6 +4530,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.34474.30",
                         "first_name": "Agnes G.",
+                        "initials": "",
                         "last_name": "Schaefer",
                         "orcid": "",
                         "researcher_id": "ur.0576773063.03"
@@ -4330,6 +4551,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.34474.30",
                         "first_name": "Teague",
+                        "initials": "",
                         "last_name": "Ruder",
                         "orcid": "",
                         "researcher_id": "ur.01306427176.09"
@@ -4350,6 +4572,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.34474.30",
                         "first_name": "Christopher",
+                        "initials": "",
                         "last_name": "Nelson",
                         "orcid": "",
                         "researcher_id": "ur.01102602145.83"
@@ -4370,6 +4593,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.34474.30",
                         "first_name": "Amelia M.",
+                        "initials": "",
                         "last_name": "Haviland",
                         "orcid": "",
                         "researcher_id": "ur.01050516331.93"
@@ -4390,6 +4614,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.250279.b",
                         "first_name": "Wayne B.",
+                        "initials": "",
                         "last_name": "Gray",
                         "orcid": "",
                         "researcher_id": "ur.01166265413.12"
@@ -4410,6 +4635,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.21925.3d",
                         "first_name": "John",
+                        "initials": "",
                         "last_name": "Mendeloff",
                         "orcid": "",
                         "researcher_id": "ur.01314234654.94"
@@ -4436,6 +4662,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.34474.30",
                     "first_name": "Hangsheng",
+                    "initials": "",
                     "last_name": "Liu",
                     "orcid": "",
                     "researcher_id": "ur.01171775060.26"
@@ -4456,6 +4683,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.34474.30",
                     "first_name": "Rachel M.",
+                    "initials": "",
                     "last_name": "Burns",
                     "orcid": "",
                     "researcher_id": "ur.01243361665.90"
@@ -4476,6 +4704,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.34474.30",
                     "first_name": "Agnes G.",
+                    "initials": "",
                     "last_name": "Schaefer",
                     "orcid": "",
                     "researcher_id": "ur.0576773063.03"
@@ -4496,6 +4725,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.34474.30",
                     "first_name": "Teague",
+                    "initials": "",
                     "last_name": "Ruder",
                     "orcid": "",
                     "researcher_id": "ur.01306427176.09"
@@ -4516,6 +4746,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.34474.30",
                     "first_name": "Christopher",
+                    "initials": "",
                     "last_name": "Nelson",
                     "orcid": "",
                     "researcher_id": "ur.01102602145.83"
@@ -4536,6 +4767,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.34474.30",
                     "first_name": "Amelia M.",
+                    "initials": "",
                     "last_name": "Haviland",
                     "orcid": "",
                     "researcher_id": "ur.01050516331.93"
@@ -4556,6 +4788,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.250279.b",
                     "first_name": "Wayne B.",
+                    "initials": "",
                     "last_name": "Gray",
                     "orcid": "",
                     "researcher_id": "ur.01166265413.12"
@@ -4576,6 +4809,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.21925.3d",
                     "first_name": "John",
+                    "initials": "",
                     "last_name": "Mendeloff",
                     "orcid": "",
                     "researcher_id": "ur.01314234654.94"
@@ -4609,6 +4843,7 @@
                     "name": "Injuries and Accidents"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30017",
@@ -4634,7 +4869,7 @@
                 "factors",
                 "program participation",
                 "participation",
-                "effects",
+                "effect",
                 "program",
                 "work injuries",
                 "unemployment insurance data",
@@ -4643,8 +4878,8 @@
                 "workers' compensation data",
                 "compensation data",
                 "audit data",
-                "propensity score matching",
-                "score matching",
+                "Propensity Score Matching",
+                "Score Matching",
                 "regression analysis",
                 "analysis",
                 "program impact",
@@ -4659,6 +4894,7 @@
                 "Union",
                 "participants",
                 "participant firms",
+                "good compliance",
                 "compliance",
                 "firm size",
                 "key predictors",
@@ -4666,7 +4902,6 @@
                 "safety committee members",
                 "committee members",
                 "members",
-                "experience reductions",
                 "overall impact",
                 "evaluation of participation",
                 "evaluation",
@@ -4675,7 +4910,7 @@
             "date": "2010-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1002/ajim.20861",
-            "field_citation_ratio": 1.56,
+            "field_citation_ratio": 1.75,
             "id": "pub.1029072427",
             "issn": [
                 "0271-3586",
@@ -4687,9 +4922,10 @@
                 "title": "American Journal of Industrial Medicine"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
+                "ERA 2015",
                 "VABB-SHW",
+                "ERA 2018",
                 "PubMed"
             ],
             "mesh_terms": [
@@ -4707,6 +4943,38 @@
                 "Safety Management",
                 "Voluntary Programs"
             ],
+            "noun_phrases": [
+                "Pennsylvania",
+                "Evaluation Study as Topic",
+                "participation",
+                "work injury",
+                "discount",
+                "insurance",
+                "firm",
+                "management",
+                "program participation",
+                "method",
+                "unemployment insurance",
+                "worker",
+                "committee",
+                "propensity score",
+                "regression analysis",
+                "injury rate",
+                "larger",
+                "high risk industry",
+                "labor union",
+                "decline",
+                "non-participants",
+                "good compliance",
+                "poor compliance",
+                "conclusion",
+                "firm size",
+                "key predictor",
+                "reduction",
+                "Wound and Injury",
+                "non-compliance",
+                "overall impact"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -4719,40 +4987,40 @@
             "publisher": "Wiley",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1019670822",
-                "pub.1050276267",
-                "pub.1070370760",
-                "pub.1013100938",
-                "pub.1049423883",
-                "pub.1001190289",
                 "pub.1027440071",
-                "pub.1005300536",
                 "pub.1058300501",
+                "pub.1070370760",
+                "pub.1049423883",
                 "pub.1095904004",
+                "pub.1019670822",
+                "pub.1001190289",
+                "pub.1050276267",
                 "pub.1005025107",
-                "pub.1020218016",
-                "pub.1069971358",
+                "pub.1001105594",
+                "pub.1005300536",
+                "pub.1013100938",
                 "pub.1010272112",
-                "pub.1001105594"
+                "pub.1069971358",
+                "pub.1020218016"
             ],
             "references": [
-                "pub.1019670822",
-                "pub.1050276267",
-                "pub.1070370760",
-                "pub.1013100938",
-                "pub.1049423883",
-                "pub.1001190289",
                 "pub.1027440071",
-                "pub.1005300536",
                 "pub.1058300501",
+                "pub.1070370760",
+                "pub.1049423883",
                 "pub.1095904004",
+                "pub.1019670822",
+                "pub.1001190289",
+                "pub.1050276267",
                 "pub.1005025107",
-                "pub.1020218016",
-                "pub.1069971358",
+                "pub.1001105594",
+                "pub.1005300536",
+                "pub.1013100938",
                 "pub.1010272112",
-                "pub.1001105594"
+                "pub.1069971358",
+                "pub.1020218016"
             ],
-            "relative_citation_ratio": 0.55,
+            "relative_citation_ratio": 0.52,
             "research_org_cities": [
                 {
                     "id": 5147904,
@@ -4788,39 +5056,41 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "RAND Corporation",
+                "Associate Policy Researcher, RAND Corporation, 20 Park Plaza, Suite 720, Boston, MA 02116.",
+                "Clark University"
+            ],
             "research_org_state_codes": [
+                {
+                    "id": "US-MA",
+                    "name": "Massachusetts"
+                },
+                {
+                    "id": "US-NY",
+                    "name": "New York"
+                },
+                {
+                    "id": "US-GA",
+                    "name": "Georgia"
+                },
                 {
                     "id": "US-CA",
                     "name": "California"
                 },
                 {
-                    "id": "US-MA",
-                    "name": "Massachusetts"
+                    "id": "US-OH",
+                    "name": "Ohio"
                 }
             ],
             "research_org_state_names": [
-                "Georgia",
-                "Ohio",
-                "Massachusetts",
                 "California",
-                "New York"
+                "Massachusetts",
+                "New York",
+                "Ohio",
+                "Georgia"
             ],
             "research_orgs": [
-                {
-                    "city_name": "Worcester",
-                    "country_name": "United States",
-                    "id": "grid.254277.1",
-                    "latitude": 42.250977,
-                    "linkout": [
-                        "http://www.clarku.edu/"
-                    ],
-                    "longitude": -71.823166,
-                    "name": "Clark University",
-                    "state_name": "Massachusetts",
-                    "types": [
-                        "Education"
-                    ]
-                },
                 {
                     "city_name": "Santa Monica",
                     "country_name": "United States",
@@ -4835,6 +5105,21 @@
                     "types": [
                         "Nonprofit"
                     ]
+                },
+                {
+                    "city_name": "Worcester",
+                    "country_name": "United States",
+                    "id": "grid.254277.1",
+                    "latitude": 42.250977,
+                    "linkout": [
+                        "http://www.clarku.edu/"
+                    ],
+                    "longitude": -71.823166,
+                    "name": "Clark University",
+                    "state_name": "Massachusetts",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -4844,8 +5129,8 @@
                     "last_name": "Liu",
                     "research_orgs": [
                         "grid.468886.c",
-                        "grid.412750.5",
-                        "grid.34474.30"
+                        "grid.34474.30",
+                        "grid.412750.5"
                     ]
                 },
                 {
@@ -4880,9 +5165,9 @@
                     "last_name": "Nelson",
                     "research_orgs": [
                         "grid.34474.30",
+                        "grid.137628.9",
                         "grid.19006.3e",
-                        "grid.213910.8",
-                        "grid.137628.9"
+                        "grid.213910.8"
                     ]
                 },
                 {
@@ -4891,8 +5176,8 @@
                     "last_name": "Haviland",
                     "research_orgs": [
                         "grid.26009.3d",
-                        "grid.417934.c",
                         "grid.34474.30",
+                        "grid.417934.c",
                         "grid.147455.6"
                     ]
                 },
@@ -4911,8 +5196,8 @@
                     "id": "ur.01314234654.94",
                     "last_name": "Mendeloff",
                     "research_orgs": [
-                        "grid.21925.3d",
-                        "grid.34474.30"
+                        "grid.34474.30",
+                        "grid.21925.3d"
                     ]
                 }
             ],
@@ -4929,7 +5214,7 @@
                 "factors",
                 "program participation",
                 "participation",
-                "effects",
+                "effect",
                 "program",
                 "work injuries",
                 "unemployment insurance data",
@@ -4938,8 +5223,8 @@
                 "workers' compensation data",
                 "compensation data",
                 "audit data",
-                "propensity score matching",
-                "score matching",
+                "Propensity Score Matching",
+                "Score Matching",
                 "regression analysis",
                 "analysis",
                 "program impact",
@@ -4954,6 +5239,7 @@
                 "Union",
                 "participants",
                 "participant firms",
+                "good compliance",
                 "compliance",
                 "firm size",
                 "key predictors",
@@ -4961,7 +5247,6 @@
                 "safety committee members",
                 "committee members",
                 "members",
-                "experience reductions",
                 "overall impact",
                 "evaluation of participation",
                 "evaluation",
@@ -5650,13 +5935,17 @@
         },
         "doi": "10.1002/ajim.20861",
         "keyphrases": {
-            "firms": {
-                "count": 5,
-                "rank_score": 0.10838714780871389
+            "certified joint labor management safety committee": {
+                "count": 1,
+                "rank_score": 0.07462440876870163
             },
             "good compliance": {
                 "count": 1,
                 "rank_score": 0.07566464962448277
+            },
+            "high risk industries": {
+                "count": 1,
+                "rank_score": 0.06962657254258796
             },
             "higher injury rates": {
                 "count": 1,
@@ -5670,6 +5959,14 @@
                 "count": 2,
                 "rank_score": 0.12193515778924052
             },
+            "key predictors": {
+                "count": 1,
+                "rank_score": 0.062049179074682125
+            },
+            "labor unions": {
+                "count": 1,
+                "rank_score": 0.06916331835532999
+            },
             "larger firms": {
                 "count": 1,
                 "rank_score": 0.10479216083668624
@@ -5678,13 +5975,29 @@
                 "count": 1,
                 "rank_score": 0.07898611048997199
             },
+            "non-participants": {
+                "count": 1,
+                "rank_score": 0.0729532729040502
+            },
+            "other requirements": {
+                "count": 1,
+                "rank_score": 0.07029148212604915
+            },
             "participant firms": {
                 "count": 2,
                 "rank_score": 0.11161569498481021
             },
+            "pennsylvania": {
+                "count": 3,
+                "rank_score": 0.05768855795509285
+            },
             "pennsylvania unemployment insurance data": {
                 "count": 1,
                 "rank_score": 0.09304980655594866
+            },
+            "poor compliance": {
+                "count": 1,
+                "rank_score": 0.07019839982925544
             },
             "prior injury rates": {
                 "count": 1,
@@ -5702,13 +6015,25 @@
                 "count": 3,
                 "rank_score": 0.09523068694819403
             },
-            "the safety committee program": {
+            "regression analysis": {
+                "count": 1,
+                "rank_score": 0.06245274015889342
+            },
+            "safety committee program": {
                 "count": 1,
                 "rank_score": 0.07528353073905504
+            },
+            "several other states": {
+                "count": 1,
+                "rank_score": 0.07495494496923001
             },
             "work injuries": {
                 "count": 1,
                 "rank_score": 0.09140209383404574
+            },
+            "workers compensation insurance premiums": {
+                "count": 1,
+                "rank_score": 0.0627298573114684
             }
         },
         "original": {
@@ -5734,6 +6059,7 @@
                     "name": "14 Economics"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -5752,6 +6078,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Patricia",
+                        "initials": "",
                         "last_name": "Beeson",
                         "orcid": "",
                         "researcher_id": "ur.010024175665.27"
@@ -5772,6 +6099,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Fredrick",
+                        "initials": "",
                         "last_name": "Tannery",
                         "orcid": "",
                         "researcher_id": ""
@@ -5795,6 +6123,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Patricia",
+                    "initials": "",
                     "last_name": "Beeson",
                     "orcid": "",
                     "researcher_id": "ur.010024175665.27"
@@ -5815,6 +6144,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Fredrick",
+                    "initials": "",
                     "last_name": "Tannery",
                     "orcid": "",
                     "researcher_id": ""
@@ -5850,7 +6180,6 @@
                 "income distribution",
                 "distribution",
                 "Pittsburgh region",
-                "region",
                 "estimator",
                 "decomposition technique",
                 "industry shifts",
@@ -5867,7 +6196,6 @@
                 "earnings",
                 "employment",
                 "part-time workers",
-                "time workers",
                 "workers",
                 "trade",
                 "service sector",
@@ -5881,7 +6209,7 @@
             "date": "2004-02-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1111/j.0017-4815.2004.00236.x",
-            "field_citation_ratio": 0.87,
+            "field_citation_ratio": 0.88,
             "id": "pub.1023102972",
             "issn": [
                 "0017-4815",
@@ -5893,8 +6221,33 @@
                 "title": "Growth and Change"
             },
             "journal_lists": [
-                "ERA 2015",
-                "Norwegian register level 1"
+                "ERA 2018",
+                "Norwegian register level 1",
+                "ERA 2015"
+            ],
+            "noun_phrases": [
+                "earnings inequality",
+                "decline",
+                "steel",
+                "Pittsburgh",
+                "employment",
+                "income",
+                "estimator",
+                "decomposition technique",
+                "industry",
+                "reduction",
+                "distribution",
+                "low end",
+                "economy",
+                "recession",
+                "recovery",
+                "late part",
+                "improvement",
+                "earnings",
+                "low part",
+                "worker",
+                "low wage",
+                "service sector"
             ],
             "open_access_categories": [
                 {
@@ -5905,45 +6258,46 @@
             ],
             "pages": "21-41",
             "publisher": "Wiley",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1069768840",
                 "pub.1053119037",
-                "pub.1070065442",
-                "pub.1040090690",
-                "pub.1029895105",
+                "pub.1028045636",
+                "pub.1070143938",
+                "pub.1017328861",
+                "pub.1069768840",
+                "pub.1069804442",
+                "pub.1031128590",
+                "pub.1039151144",
                 "pub.1069970118",
                 "pub.1102716979",
                 "pub.1098466236",
-                "pub.1031128590",
-                "pub.1039151144",
-                "pub.1069972113",
-                "pub.1017328861",
-                "pub.1069768836",
-                "pub.1028045636",
                 "pub.1069969461",
-                "pub.1070143938",
+                "pub.1069972113",
+                "pub.1070065442",
                 "pub.1003507378",
-                "pub.1069804442"
+                "pub.1029895105",
+                "pub.1040090690",
+                "pub.1069768836"
             ],
             "references": [
-                "pub.1069768840",
                 "pub.1053119037",
-                "pub.1070065442",
-                "pub.1040090690",
-                "pub.1029895105",
+                "pub.1028045636",
+                "pub.1070143938",
+                "pub.1017328861",
+                "pub.1069768840",
+                "pub.1069804442",
+                "pub.1031128590",
+                "pub.1039151144",
                 "pub.1069970118",
                 "pub.1102716979",
                 "pub.1098466236",
-                "pub.1031128590",
-                "pub.1039151144",
-                "pub.1069972113",
-                "pub.1017328861",
-                "pub.1069768836",
-                "pub.1028045636",
                 "pub.1069969461",
-                "pub.1070143938",
+                "pub.1069972113",
+                "pub.1070065442",
                 "pub.1003507378",
-                "pub.1069804442"
+                "pub.1029895105",
+                "pub.1040090690",
+                "pub.1069768836"
             ],
             "research_org_cities": [
                 {
@@ -5964,6 +6318,10 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "University of Pittsburgh",
+                "Slippery Rock University"
+            ],
             "research_org_state_codes": [
                 {
                     "id": "US-PA",
@@ -5974,6 +6332,21 @@
                 "Pennsylvania"
             ],
             "research_orgs": [
+                {
+                    "city_name": "Pittsburgh",
+                    "country_name": "United States",
+                    "id": "grid.21925.3d",
+                    "latitude": 40.443504,
+                    "linkout": [
+                        "http://www.pitt.edu/"
+                    ],
+                    "longitude": -79.961525,
+                    "name": "University of Pittsburgh",
+                    "state_name": "Pennsylvania",
+                    "types": [
+                        "Education"
+                    ]
+                },
                 {
                     "acronym": "SRU",
                     "city_name": "Slippery Rock",
@@ -5989,21 +6362,6 @@
                     "types": [
                         "Education"
                     ]
-                },
-                {
-                    "city_name": "Pittsburgh",
-                    "country_name": "United States",
-                    "id": "grid.21925.3d",
-                    "latitude": 40.443504,
-                    "linkout": [
-                        "http://www.pitt.edu/"
-                    ],
-                    "longitude": -79.961525,
-                    "name": "University of Pittsburgh",
-                    "state_name": "Pennsylvania",
-                    "types": [
-                        "Education"
-                    ]
                 }
             ],
             "researchers": [
@@ -6012,8 +6370,8 @@
                     "id": "ur.010024175665.27",
                     "last_name": "Beeson",
                     "research_orgs": [
-                        "grid.21925.3d",
-                        "grid.431373.1"
+                        "grid.431373.1",
+                        "grid.21925.3d"
                     ]
                 }
             ],
@@ -6025,7 +6383,6 @@
                 "income distribution",
                 "distribution",
                 "Pittsburgh region",
-                "region",
                 "estimator",
                 "decomposition technique",
                 "industry shifts",
@@ -6042,7 +6399,6 @@
                 "earnings",
                 "employment",
                 "part-time workers",
-                "time workers",
                 "workers",
                 "trade",
                 "service sector",
@@ -6230,21 +6586,37 @@
         },
         "doi": "10.1111/j.0017-4815.2004.00236.x",
         "keyphrases": {
-            "business": {
-                "count": 1,
-                "rank_score": 0.07138491739036931
-            },
             "decomposition techniques": {
                 "count": 1,
                 "rank_score": 0.07296498878738295
+            },
+            "deep recession": {
+                "count": 1,
+                "rank_score": 0.04396199624312578
             },
             "dinardo et al": {
                 "count": 2,
                 "rank_score": 0.08933112489671068
             },
+            "distribution": {
+                "count": 2,
+                "rank_score": 0.0511221246064505
+            },
+            "early 1980s": {
+                "count": 2,
+                "rank_score": 0.044944310254500394
+            },
             "earnings": {
                 "count": 1,
                 "rank_score": 0.08782049744918094
+            },
+            "earnings distribution": {
+                "count": 1,
+                "rank_score": 0.07069175396922067
+            },
+            "earnings reductions": {
+                "count": 1,
+                "rank_score": 0.05503072451421984
             },
             "economics": {
                 "count": 1,
@@ -6258,6 +6630,14 @@
                 "count": 1,
                 "rank_score": 0.07657533749539586
             },
+            "gatton college of business and economics, university of kentucky": {
+                "count": 1,
+                "rank_score": 0.044851282843803145
+            },
+            "income distribution": {
+                "count": 1,
+                "rank_score": 0.05918832914970763
+            },
             "industry shifts": {
                 "count": 1,
                 "rank_score": 0.0912980360711248
@@ -6266,29 +6646,45 @@
                 "count": 1,
                 "rank_score": 0.11300072928763663
             },
+            "kentucky": {
+                "count": 1,
+                "rank_score": 0.0478866227552458
+            },
             "kernel density estimators": {
                 "count": 1,
                 "rank_score": 0.09198432861018724
+            },
+            "later part": {
+                "count": 1,
+                "rank_score": 0.055505477201240806
             },
             "little improvement": {
                 "count": 1,
                 "rank_score": 0.08379029829258552
             },
+            "low-wage trade and service sectors": {
+                "count": 1,
+                "rank_score": 0.05091426551192973
+            },
+            "lower end": {
+                "count": 1,
+                "rank_score": 0.05461229900438891
+            },
+            "lower part": {
+                "count": 1,
+                "rank_score": 0.06669321695836758
+            },
             "part-time workers": {
                 "count": 1,
                 "rank_score": 0.06245868413919865
             },
-            "the earnings distribution": {
+            "pittsburgh": {
                 "count": 1,
-                "rank_score": 0.07069175396922067
+                "rank_score": 0.05613233453182902
             },
-            "the lower part": {
+            "pittsburgh region": {
                 "count": 1,
-                "rank_score": 0.06669321695836758
-            },
-            "university": {
-                "count": 1,
-                "rank_score": 0.06396239456747296
+                "rank_score": 0.038501089346502065
             }
         },
         "original": {
@@ -6340,18 +6736,19 @@
             ],
             "RCDC": [
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
                     "id": "443",
                     "name": "Health Services"
                 },
                 {
                     "id": "507",
                     "name": "Clinical Research"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -6363,6 +6760,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Charles",
+                        "initials": "",
                         "last_name": "Michalopoulos",
                         "orcid": "",
                         "researcher_id": ""
@@ -6383,6 +6781,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Kathryn",
+                        "initials": "",
                         "last_name": "Edin",
                         "orcid": "",
                         "researcher_id": ""
@@ -6396,6 +6795,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Barbara",
+                        "initials": "",
                         "last_name": "Fink",
                         "orcid": "",
                         "researcher_id": ""
@@ -6409,6 +6809,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Mirella",
+                        "initials": "",
                         "last_name": "Landriscina",
                         "orcid": "",
                         "researcher_id": "ur.013524167164.00"
@@ -6422,6 +6823,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.1022.1",
                         "first_name": "Denise",
+                        "initials": "",
                         "last_name": "Polit",
                         "orcid": "",
                         "researcher_id": "ur.0735336204.43"
@@ -6435,6 +6837,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Judy",
+                        "initials": "",
                         "last_name": "Polyne",
                         "orcid": "",
                         "researcher_id": ""
@@ -6448,6 +6851,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.426857.a",
                         "first_name": "Lashawn",
+                        "initials": "",
                         "last_name": "Richburg-Hayes",
                         "orcid": "",
                         "researcher_id": "ur.01347422345.30"
@@ -6461,6 +6865,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "David C.",
+                        "initials": "",
                         "last_name": "Seith",
                         "orcid": "",
                         "researcher_id": "ur.011336243316.28"
@@ -6474,6 +6879,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Nandita",
+                        "initials": "",
                         "last_name": "Verma",
                         "orcid": "",
                         "researcher_id": "ur.010540662716.93"
@@ -6490,6 +6896,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Charles",
+                    "initials": "",
                     "last_name": "Michalopoulos",
                     "orcid": "",
                     "researcher_id": ""
@@ -6510,6 +6917,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Kathryn",
+                    "initials": "",
                     "last_name": "Edin",
                     "orcid": "",
                     "researcher_id": ""
@@ -6523,6 +6931,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Barbara",
+                    "initials": "",
                     "last_name": "Fink",
                     "orcid": "",
                     "researcher_id": ""
@@ -6536,6 +6945,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Mirella",
+                    "initials": "",
                     "last_name": "Landriscina",
                     "orcid": "",
                     "researcher_id": "ur.013524167164.00"
@@ -6549,6 +6959,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.1022.1",
                     "first_name": "Denise",
+                    "initials": "",
                     "last_name": "Polit",
                     "orcid": "",
                     "researcher_id": "ur.0735336204.43"
@@ -6562,6 +6973,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Judy",
+                    "initials": "",
                     "last_name": "Polyne",
                     "orcid": "",
                     "researcher_id": ""
@@ -6575,6 +6987,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.426857.a",
                     "first_name": "Lashawn",
+                    "initials": "",
                     "last_name": "Richburg-Hayes",
                     "orcid": "",
                     "researcher_id": "ur.01347422345.30"
@@ -6588,6 +7001,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "David C.",
+                    "initials": "",
                     "last_name": "Seith",
                     "orcid": "",
                     "researcher_id": "ur.011336243316.28"
@@ -6601,6 +7015,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Nandita",
+                    "initials": "",
                     "last_name": "Verma",
                     "orcid": "",
                     "researcher_id": "ur.010540662716.93"
@@ -6638,16 +7053,16 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
                     "id": "443",
                     "name": "Health Services"
                 },
                 {
                     "id": "507",
                     "name": "Clinical Research"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
             "category_ua": [
@@ -6670,6 +7085,7 @@
                 "changes",
                 "welfare policy",
                 "policy",
+                "five-year time limit",
                 "time limit",
                 "cash assistance",
                 "assistance",
@@ -6697,11 +7113,12 @@
                 "project",
                 "devolution",
                 "urban change",
-                "specific way",
+                "specific ways",
                 "way",
                 "Philadelphia",
                 "field research",
                 "research",
+                "state records",
                 "survey",
                 "ethnographic interviews",
                 "interviews",
@@ -6726,7 +7143,7 @@
             "date": "2003-01-01",
             "date_inserted": "2018-04-06",
             "doi": "10.2139/ssrn.2717015",
-            "field_citation_ratio": 0.34,
+            "field_citation_ratio": 0.35,
             "id": "pub.1102450258",
             "issn": [
                 "1556-5068"
@@ -6737,6 +7154,47 @@
             },
             "journal_lists": [
                 "Norwegian register level 0"
+            ],
+            "linkout": "http://pdfs.semanticscholar.org/052f/b69b66c4c9f88e3124272480575e9efdf8dd.pdf",
+            "noun_phrases": [
+                "welfare reform",
+                "implementation",
+                "poor family",
+                "Residence Characteristic",
+                "profound change",
+                "welfare policy",
+                "assistance",
+                "Temporary Assistance for Needy Families",
+                "work requirement",
+                "great flexibility",
+                "state",
+                "Jurisprudence",
+                "supporter",
+                "innovation",
+                "welfare",
+                "critic",
+                "cut",
+                "benefit",
+                "reform",
+                "big city",
+                "poverty",
+                "welfare receipt",
+                "urban change",
+                "specific way",
+                "Philadelphia",
+                "field research",
+                "record",
+                "ethnographic interview",
+                "welfare recipient",
+                "indicator",
+                "Economics",
+                "economy",
+                "service"
+            ],
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - submitted"
             ],
             "open_access_categories": [
                 {
@@ -6751,6 +7209,7 @@
                 }
             ],
             "publisher": "Elsevier",
+            "recent_citations": 0,
             "research_org_cities": [
                 {
                     "id": 4991640,
@@ -6771,26 +7230,42 @@
             ],
             "research_org_countries": [
                 {
-                    "id": "US",
-                    "name": "United States"
-                },
-                {
                     "id": "IE",
                     "name": "Ireland"
+                },
+                {
+                    "id": "US",
+                    "name": "United States"
                 }
             ],
             "research_org_country_names": [
                 "Ireland",
                 "United States"
             ],
+            "research_org_names": [
+                "MDRC - Welfare Reform",
+                "MDRC",
+                "Johns Hopkins University",
+                "Independent"
+            ],
             "research_org_state_codes": [
+                {
+                    "id": "US-NY",
+                    "name": "New York"
+                },
                 {
                     "id": "US-MD",
                     "name": "Maryland"
+                },
+                {
+                    "id": "US-MI",
+                    "name": "Michigan"
                 }
             ],
             "research_org_state_names": [
-                "Maryland"
+                "Maryland",
+                "Michigan",
+                "New York"
             ],
             "research_orgs": [
                 {
@@ -6821,9 +7296,9 @@
                     "id": "ur.0735336204.43",
                     "last_name": "Polit",
                     "research_orgs": [
-                        "grid.411196.a",
                         "grid.464559.f",
-                        "grid.1022.1"
+                        "grid.1022.1",
+                        "grid.411196.a"
                     ]
                 },
                 {
@@ -6853,6 +7328,7 @@
                 "changes",
                 "welfare policy",
                 "policy",
+                "five-year time limit",
                 "time limit",
                 "cash assistance",
                 "assistance",
@@ -6880,11 +7356,12 @@
                 "project",
                 "devolution",
                 "urban change",
-                "specific way",
+                "specific ways",
                 "way",
                 "Philadelphia",
                 "field research",
                 "research",
+                "state records",
                 "survey",
                 "ethnographic interviews",
                 "interviews",
@@ -9407,9 +9884,41 @@
                 "count": 1,
                 "rank_score": 0.06218544608343239
             },
+            "cuts": {
+                "count": 1,
+                "rank_score": 0.05040026730699521
+            },
+            "devolution": {
+                "count": 1,
+                "rank_score": 0.05210971560796529
+            },
+            "ethnographic interviews": {
+                "count": 1,
+                "rank_score": 0.06120743484737432
+            },
+            "federally funded cash assistance": {
+                "count": 1,
+                "rank_score": 0.05029970579839969
+            },
             "field research": {
                 "count": 1,
                 "rank_score": 0.06850625150026063
+            },
+            "greater flexibility": {
+                "count": 1,
+                "rank_score": 0.05657265576400001
+            },
+            "innovation": {
+                "count": 1,
+                "rank_score": 0.05008975840510656
+            },
+            "mdrc": {
+                "count": 1,
+                "rank_score": 0.05009804843935449
+            },
+            "needy families": {
+                "count": 2,
+                "rank_score": 0.05920879600392369
             },
             "poverty and welfare receipt": {
                 "count": 1,
@@ -9427,13 +9936,17 @@
                 "count": 1,
                 "rank_score": 0.0739629413476528
             },
-            "states": {
-                "count": 1,
-                "rank_score": 0.06716777664027362
-            },
             "stricter work requirements": {
                 "count": 1,
                 "rank_score": 0.06837665812356708
+            },
+            "surveys": {
+                "count": 1,
+                "rank_score": 0.05047792528789499
+            },
+            "tanf": {
+                "count": 3,
+                "rank_score": 0.059702086925243515
             },
             "temporary assistance": {
                 "count": 1,
@@ -9458,6 +9971,10 @@
             "welfare use": {
                 "count": 1,
                 "rank_score": 0.09907823621825516
+            },
+            "widespread suffering": {
+                "count": 1,
+                "rank_score": 0.05716965599893875
             }
         },
         "original": {

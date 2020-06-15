@@ -13,6 +13,7 @@
                     "name": "08 Information and Computing Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -31,6 +32,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.411307.0",
                         "first_name": "Min",
+                        "initials": "",
                         "last_name": "Sun",
                         "orcid": "",
                         "researcher_id": "ur.015002306423.07"
@@ -51,6 +53,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.411307.0",
                         "first_name": "Haijiang",
+                        "initials": "",
                         "last_name": "Wang",
                         "orcid": "",
                         "researcher_id": "ur.013277475721.23"
@@ -64,6 +67,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Zhaoming",
+                        "initials": "",
                         "last_name": "Li",
                         "orcid": "",
                         "researcher_id": ""
@@ -84,6 +88,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Mengqing",
+                        "initials": "",
                         "last_name": "Gao",
                         "orcid": "",
                         "researcher_id": ""
@@ -104,6 +109,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.454750.7",
                         "first_name": "Zili",
+                        "initials": "",
                         "last_name": "Xu",
                         "orcid": "",
                         "researcher_id": "ur.011375501163.08"
@@ -124,6 +130,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Jing",
+                        "initials": "",
                         "last_name": "Li",
                         "orcid": "",
                         "researcher_id": ""
@@ -147,6 +154,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.411307.0",
                     "first_name": "Min",
+                    "initials": "",
                     "last_name": "Sun",
                     "orcid": "",
                     "researcher_id": "ur.015002306423.07"
@@ -167,6 +175,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.411307.0",
                     "first_name": "Haijiang",
+                    "initials": "",
                     "last_name": "Wang",
                     "orcid": "",
                     "researcher_id": "ur.013277475721.23"
@@ -180,6 +189,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Zhaoming",
+                    "initials": "",
                     "last_name": "Li",
                     "orcid": "",
                     "researcher_id": ""
@@ -200,6 +210,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Mengqing",
+                    "initials": "",
                     "last_name": "Gao",
                     "orcid": "",
                     "researcher_id": ""
@@ -220,6 +231,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.454750.7",
                     "first_name": "Zili",
+                    "initials": "",
                     "last_name": "Xu",
                     "orcid": "",
                     "researcher_id": "ur.011375501163.08"
@@ -240,6 +252,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Jing",
+                    "initials": "",
                     "last_name": "Li",
                     "orcid": "",
                     "researcher_id": ""
@@ -268,19 +281,22 @@
                 }
             ],
             "concepts": [
+                "multiple weather radars",
                 "weather radar",
                 "radar",
                 "joint detection",
                 "detection",
                 "radar detection range",
+                "detection range",
+                "range",
                 "detection accuracy",
                 "accuracy",
                 "important method",
                 "method",
+                "large-scale weather",
                 "weather",
                 "paper",
-                "volume scan data",
-                "scan data",
+                "reflectivity volumes",
                 "data",
                 "grid",
                 "Cartesian",
@@ -299,7 +315,6 @@
                 "images",
                 "interpolation scheme",
                 "scheme",
-                "latter",
                 "reflectivity fields",
                 "field",
                 "filter",
@@ -308,8 +323,7 @@
                 "results",
                 "exponential weighting",
                 "weighting",
-                "data interpolation",
-                "Doppler weather radar"
+                "data interpolation"
             ],
             "date": "2019-12-01",
             "date_inserted": "2019-06-05",
@@ -324,20 +338,6 @@
                 {
                     "city_name": "Chengdu",
                     "country_name": "China",
-                    "id": "grid.454867.c",
-                    "latitude": 30.653057,
-                    "linkout": [
-                        "http://www.scst.gov.cn/"
-                    ],
-                    "longitude": 104.074135,
-                    "name": "Science and Technology Department of Sichuan Province",
-                    "types": [
-                        "Government"
-                    ]
-                },
-                {
-                    "city_name": "Chengdu",
-                    "country_name": "China",
                     "id": "grid.454734.5",
                     "latitude": 30.635923,
                     "linkout": [
@@ -345,6 +345,20 @@
                     ],
                     "longitude": 104.09111,
                     "name": "Sichuan Provincial Department of Education",
+                    "types": [
+                        "Government"
+                    ]
+                },
+                {
+                    "city_name": "Chengdu",
+                    "country_name": "China",
+                    "id": "grid.454867.c",
+                    "latitude": 30.653057,
+                    "linkout": [
+                        "http://www.scst.gov.cn/"
+                    ],
+                    "longitude": 104.074135,
+                    "name": "Science and Technology Department of Sichuan Province",
                     "types": [
                         "Government"
                     ]
@@ -361,12 +375,38 @@
                 "title": "EURASIP Journal on Wireless Communications and Networking"
             },
             "journal_lists": [
-                "DOAJ",
-                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "DOAJ",
+                "ERA 2015"
             ],
             "linkout": "https://jwcn-eurasipjournals.springeropen.com/track/pdf/10.1186/s13638-019-1465-6",
+            "noun_phrases": [
+                "interpolation",
+                "mosaic",
+                "weather radar",
+                "radar",
+                "detection accuracy",
+                "important method",
+                "large scale",
+                "paper",
+                "method",
+                "reflectivity",
+                "grid",
+                "coordinate system",
+                "physical characteristic",
+                "raw data",
+                "smoothing parameter",
+                "space structure",
+                "comparison",
+                "indication",
+                "high-resolution structure",
+                "deviation",
+                "fusion",
+                "weighting",
+                "excellent method"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -386,45 +426,46 @@
             ],
             "pages": "145",
             "publisher": "Springer Nature",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1031827724",
-                "pub.1015458599",
-                "pub.1034589182",
-                "pub.1063452982",
-                "pub.1024703608",
                 "pub.1005520176",
-                "pub.1063455745",
-                "pub.1012101236",
-                "pub.1048582756",
+                "pub.1015092839",
                 "pub.1009088514",
+                "pub.1034589182",
+                "pub.1015458599",
+                "pub.1061519638",
+                "pub.1045079008",
+                "pub.1031827724",
+                "pub.1063452982",
                 "pub.1046880214",
-                "pub.1006507888",
+                "pub.1024703608",
+                "pub.1049087742",
                 "pub.1027897735",
                 "pub.1047775512",
-                "pub.1049087742",
-                "pub.1061519638",
-                "pub.1015092839",
-                "pub.1045079008"
+                "pub.1048582756",
+                "pub.1063455745",
+                "pub.1006507888",
+                "pub.1012101236"
             ],
             "references": [
-                "pub.1031827724",
-                "pub.1015458599",
-                "pub.1034589182",
-                "pub.1063452982",
-                "pub.1024703608",
                 "pub.1005520176",
-                "pub.1063455745",
-                "pub.1012101236",
-                "pub.1048582756",
+                "pub.1015092839",
                 "pub.1009088514",
+                "pub.1034589182",
+                "pub.1015458599",
+                "pub.1061519638",
+                "pub.1045079008",
+                "pub.1031827724",
+                "pub.1063452982",
                 "pub.1046880214",
-                "pub.1006507888",
+                "pub.1024703608",
+                "pub.1049087742",
                 "pub.1027897735",
                 "pub.1047775512",
-                "pub.1049087742",
-                "pub.1061519638",
-                "pub.1015092839",
-                "pub.1045079008"
+                "pub.1048582756",
+                "pub.1063455745",
+                "pub.1006507888",
+                "pub.1012101236"
             ],
             "research_org_cities": [
                 {
@@ -449,8 +490,10 @@
             "research_org_country_names": [
                 "China"
             ],
-            "research_org_state_names": [
-                "Guangdong"
+            "research_org_names": [
+                "Chengdu University of Information Technology",
+                "Civil Aviation Administration of China",
+                "Foshan Tornado Research Center, Foshan Meteorological Service, 528000, Foshan, China"
             ],
             "research_orgs": [
                 {
@@ -500,8 +543,8 @@
                     "research_orgs": [
                         "grid.411292.d",
                         "grid.8658.3",
-                        "grid.411307.0",
-                        "grid.54549.39"
+                        "grid.54549.39",
+                        "grid.411307.0"
                     ]
                 },
                 {
@@ -514,19 +557,22 @@
                 }
             ],
             "terms": [
+                "multiple weather radars",
                 "weather radar",
                 "radar",
                 "joint detection",
                 "detection",
                 "radar detection range",
+                "detection range",
+                "range",
                 "detection accuracy",
                 "accuracy",
                 "important method",
                 "method",
+                "large-scale weather",
                 "weather",
                 "paper",
-                "volume scan data",
-                "scan data",
+                "reflectivity volumes",
                 "data",
                 "grid",
                 "Cartesian",
@@ -545,7 +591,6 @@
                 "images",
                 "interpolation scheme",
                 "scheme",
-                "latter",
                 "reflectivity fields",
                 "field",
                 "filter",
@@ -554,9 +599,9 @@
                 "results",
                 "exponential weighting",
                 "weighting",
-                "data interpolation",
-                "Doppler weather radar"
+                "data interpolation"
             ],
+            "times_cited": 0,
             "title": "Study on reflectivity data interpolation and mosaics for multiple Doppler weather radars",
             "type": "article",
             "volume": "2019",
@@ -1317,9 +1362,21 @@
                 "count": 1,
                 "rank_score": 0.09091117746290386
             },
+            "cartesian": {
+                "count": 1,
+                "rank_score": 0.05101469443544686
+            },
+            "cartesian coordinate system": {
+                "count": 1,
+                "rank_score": 0.044032552870550024
+            },
             "consecutive reflectivity fields": {
                 "count": 1,
                 "rank_score": 0.10189493858939475
+            },
+            "constant altitude plan position indication (cappi) images": {
+                "count": 1,
+                "rank_score": 0.059696595594577385
             },
             "continuous three-dimensional reflectivity mosaic data": {
                 "count": 1,
@@ -1329,6 +1386,10 @@
                 "count": 1,
                 "rank_score": 0.10759859308913795
             },
+            "excellent method": {
+                "count": 1,
+                "rank_score": 0.051524812174423965
+            },
             "exponential weighting": {
                 "count": 2,
                 "rank_score": 0.06723087787805755
@@ -1337,33 +1398,57 @@
                 "count": 1,
                 "rank_score": 0.12318912128271159
             },
+            "high-resolution structure": {
+                "count": 1,
+                "rank_score": 0.0493586528589966
+            },
+            "important method": {
+                "count": 1,
+                "rank_score": 0.05170282694706939
+            },
+            "improved adaptive barnes interpolation": {
+                "count": 1,
+                "rank_score": 0.0621252723318943
+            },
+            "large-scale weather": {
+                "count": 1,
+                "rank_score": 0.04691343317447743
+            },
+            "mean deviation filter": {
+                "count": 1,
+                "rank_score": 0.04561100876147768
+            },
+            "methods": {
+                "count": 1,
+                "rank_score": 0.04432745484490423
+            },
             "multiple weather radars’ joint detection": {
                 "count": 1,
                 "rank_score": 0.06953546199495308
+            },
+            "radar detection range": {
+                "count": 1,
+                "rank_score": 0.06123492289481047
+            },
+            "raw data": {
+                "count": 2,
+                "rank_score": 0.06335250317739596
+            },
+            "raw reflectivity data": {
+                "count": 1,
+                "rank_score": 0.08143949123591479
             },
             "reflectivity volume scan data": {
                 "count": 1,
                 "rank_score": 0.12049826756459464
             },
+            "result": {
+                "count": 1,
+                "rank_score": 0.04465554199927195
+            },
             "several radars": {
                 "count": 1,
                 "rank_score": 0.08025328981396991
-            },
-            "the improved adaptive barnes interpolation": {
-                "count": 1,
-                "rank_score": 0.0621252723318943
-            },
-            "the radar detection range": {
-                "count": 1,
-                "rank_score": 0.06123492289481047
-            },
-            "the raw data": {
-                "count": 2,
-                "rank_score": 0.06335250317739596
-            },
-            "the raw reflectivity data": {
-                "count": 1,
-                "rank_score": 0.08143949123591479
             },
             "various fusion methods": {
                 "count": 1,
@@ -1413,6 +1498,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.15276.37",
                         "first_name": "Luming",
+                        "initials": "",
                         "last_name": "Shi",
                         "orcid": "",
                         "researcher_id": "ur.011602445561.26"
@@ -1433,6 +1519,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.15276.37",
                         "first_name": "Maitane",
+                        "initials": "",
                         "last_name": "Olabarrieta",
                         "orcid": "",
                         "researcher_id": "ur.016624120314.33"
@@ -1453,6 +1540,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.15276.37",
                         "first_name": "Arnoldo",
+                        "initials": "",
                         "last_name": "Valle-Levinson",
                         "orcid": "['0000-0002-3852-0971']",
                         "researcher_id": "ur.013173470343.21"
@@ -1473,6 +1561,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.2865.9",
                         "first_name": "John C.",
+                        "initials": "",
                         "last_name": "Warner",
                         "orcid": "",
                         "researcher_id": "ur.07512651663.63"
@@ -1496,6 +1585,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.15276.37",
                     "first_name": "Luming",
+                    "initials": "",
                     "last_name": "Shi",
                     "orcid": "",
                     "researcher_id": "ur.011602445561.26"
@@ -1516,6 +1606,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.15276.37",
                     "first_name": "Maitane",
+                    "initials": "",
                     "last_name": "Olabarrieta",
                     "orcid": "",
                     "researcher_id": "ur.016624120314.33"
@@ -1536,6 +1627,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.15276.37",
                     "first_name": "Arnoldo",
+                    "initials": "",
                     "last_name": "Valle-Levinson",
                     "orcid": "['0000-0002-3852-0971']",
                     "researcher_id": "ur.013173470343.21"
@@ -1556,6 +1648,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.2865.9",
                     "first_name": "John C.",
+                    "initials": "",
                     "last_name": "Warner",
                     "orcid": "",
                     "researcher_id": "ur.07512651663.63"
@@ -1612,11 +1705,10 @@
                 "meteotsunami generation",
                 "generation",
                 "propagation",
-                "ocean-atmosphere",
-                "atmosphere",
-                "Wave-Sediment Transport",
-                "sediment transport",
-                "transport",
+                "Ocean-Atmosphere",
+                "Wave-Sediment Transport (COAWST) modeling system",
+                "transport modeling system",
+                "modeling system",
                 "system",
                 "model",
                 "sea level",
@@ -1635,16 +1727,15 @@
                 "speed",
                 "atmospheric pressure",
                 "pressure",
-                "hPa",
                 "underestimation",
                 "maximum elevation",
                 "relative effects",
+                "wind stress",
                 "stress",
                 "different numerical simulations",
                 "numerical simulations",
                 "simulations",
                 "results",
-                "wind stress",
                 "atmospheric pressure changes",
                 "pressure changes",
                 "changes",
@@ -1654,7 +1745,7 @@
                 "shallow water",
                 "water",
                 "atmospheric pressure disturbances",
-                "pressure disturbances",
+                "pressure disturbance",
                 "disturbances",
                 "area",
                 "Froude number",
@@ -1664,7 +1755,6 @@
                 "sea states",
                 "ocean waves",
                 "waves",
-                "wind-speed",
                 "scheme",
                 "applications",
                 "roughness parameterization",
@@ -1686,9 +1776,48 @@
                 "title": "Ocean Modelling"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "wind stress",
+                "surface roughness",
+                "generation",
+                "winter",
+                "Northern Gulf of Mexico",
+                "squall line",
+                "cold front",
+                "wind",
+                "variation",
+                "m/s",
+                "atmospheric pressure",
+                "HPA",
+                "period",
+                "propagation",
+                "sediment transport",
+                "modeling system",
+                "sea level",
+                "atmospheric observation",
+                "reproduce",
+                "timing",
+                "intensity",
+                "m elevation",
+                "mean",
+                "wind speed",
+                "elevation",
+                "underestimation",
+                "relative effect",
+                "numerical simulation",
+                "stress",
+                "dominant force",
+                "shallow water",
+                "passage",
+                "sea surface",
+                "sea state",
+                "ocean wave",
+                "parameterization"
             ],
             "open_access_categories": [
                 {
@@ -1701,126 +1830,126 @@
             "publisher": "Elsevier",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1037891538",
-                "pub.1020917168",
-                "pub.1017000755",
-                "pub.1036161767",
-                "pub.1069580755",
-                "pub.1007509452",
-                "pub.1027880191",
-                "pub.1003060648",
-                "pub.1097233425",
-                "pub.1045524060",
-                "pub.1021343343",
-                "pub.1053607037",
-                "pub.1038881733",
-                "pub.1112114162",
-                "pub.1047534556",
-                "pub.1047072983",
-                "pub.1020079333",
-                "pub.1105037816",
-                "pub.1013695832",
-                "pub.1003959760",
-                "pub.1034186232",
-                "pub.1022616699",
-                "pub.1048640056",
-                "pub.1012212118",
-                "pub.1044265822",
-                "pub.1046163780",
-                "pub.1027529492",
-                "pub.1022630035",
-                "pub.1025600577",
-                "pub.1034919580",
-                "pub.1002750793",
-                "pub.1053332805",
-                "pub.1018601461",
-                "pub.1017228810",
-                "pub.1042826424",
-                "pub.1008964351",
-                "pub.1014642994",
-                "pub.1037517371",
-                "pub.1024195339",
-                "pub.1047997361",
-                "pub.1063977048",
-                "pub.1019694772",
-                "pub.1044745504",
-                "pub.1001005891",
-                "pub.1051989023",
                 "pub.1085576075",
-                "pub.1037087428",
+                "pub.1069580755",
+                "pub.1051989023",
+                "pub.1017228810",
                 "pub.1050329278",
-                "pub.1048611578",
+                "pub.1037087428",
+                "pub.1044265822",
                 "pub.1010399107",
-                "pub.1026732729",
                 "pub.1022990285",
-                "pub.1045335296",
-                "pub.1030361080",
-                "pub.1047546569",
-                "pub.1031969609",
-                "pub.1024956082",
+                "pub.1012212118",
+                "pub.1036161767",
                 "pub.1025354948",
-                "pub.1037747783"
+                "pub.1045524060",
+                "pub.1047072983",
+                "pub.1037891538",
+                "pub.1024956082",
+                "pub.1027880191",
+                "pub.1048611578",
+                "pub.1017000755",
+                "pub.1042826424",
+                "pub.1020079333",
+                "pub.1020917168",
+                "pub.1047546569",
+                "pub.1008964351",
+                "pub.1044745504",
+                "pub.1021343343",
+                "pub.1105037816",
+                "pub.1014642994",
+                "pub.1003959760",
+                "pub.1027529492",
+                "pub.1007509452",
+                "pub.1025600577",
+                "pub.1019694772",
+                "pub.1053607037",
+                "pub.1022616699",
+                "pub.1002750793",
+                "pub.1030361080",
+                "pub.1047534556",
+                "pub.1024195339",
+                "pub.1034919580",
+                "pub.1018601461",
+                "pub.1003060648",
+                "pub.1037747783",
+                "pub.1034186232",
+                "pub.1031969609",
+                "pub.1001005891",
+                "pub.1026732729",
+                "pub.1053332805",
+                "pub.1047997361",
+                "pub.1013695832",
+                "pub.1022630035",
+                "pub.1048640056",
+                "pub.1045335296",
+                "pub.1112114162",
+                "pub.1097233425",
+                "pub.1038881733",
+                "pub.1037517371",
+                "pub.1046163780",
+                "pub.1063977048"
             ],
             "references": [
-                "pub.1037891538",
-                "pub.1020917168",
-                "pub.1017000755",
-                "pub.1036161767",
-                "pub.1069580755",
-                "pub.1007509452",
-                "pub.1027880191",
-                "pub.1003060648",
-                "pub.1097233425",
-                "pub.1045524060",
-                "pub.1021343343",
-                "pub.1053607037",
-                "pub.1038881733",
-                "pub.1112114162",
-                "pub.1047534556",
-                "pub.1047072983",
-                "pub.1020079333",
-                "pub.1105037816",
-                "pub.1013695832",
-                "pub.1003959760",
-                "pub.1034186232",
-                "pub.1022616699",
-                "pub.1048640056",
-                "pub.1012212118",
-                "pub.1044265822",
-                "pub.1046163780",
-                "pub.1027529492",
-                "pub.1022630035",
-                "pub.1025600577",
-                "pub.1034919580",
-                "pub.1002750793",
-                "pub.1053332805",
-                "pub.1018601461",
-                "pub.1017228810",
-                "pub.1042826424",
-                "pub.1008964351",
-                "pub.1014642994",
-                "pub.1037517371",
-                "pub.1024195339",
-                "pub.1047997361",
-                "pub.1063977048",
-                "pub.1019694772",
-                "pub.1044745504",
-                "pub.1001005891",
-                "pub.1051989023",
                 "pub.1085576075",
-                "pub.1037087428",
+                "pub.1069580755",
+                "pub.1051989023",
+                "pub.1017228810",
                 "pub.1050329278",
-                "pub.1048611578",
+                "pub.1037087428",
+                "pub.1044265822",
                 "pub.1010399107",
-                "pub.1026732729",
                 "pub.1022990285",
-                "pub.1045335296",
-                "pub.1030361080",
-                "pub.1047546569",
-                "pub.1031969609",
-                "pub.1024956082",
+                "pub.1012212118",
+                "pub.1036161767",
                 "pub.1025354948",
-                "pub.1037747783"
+                "pub.1045524060",
+                "pub.1047072983",
+                "pub.1037891538",
+                "pub.1024956082",
+                "pub.1027880191",
+                "pub.1048611578",
+                "pub.1017000755",
+                "pub.1042826424",
+                "pub.1020079333",
+                "pub.1020917168",
+                "pub.1047546569",
+                "pub.1008964351",
+                "pub.1044745504",
+                "pub.1021343343",
+                "pub.1105037816",
+                "pub.1014642994",
+                "pub.1003959760",
+                "pub.1027529492",
+                "pub.1007509452",
+                "pub.1025600577",
+                "pub.1019694772",
+                "pub.1053607037",
+                "pub.1022616699",
+                "pub.1002750793",
+                "pub.1030361080",
+                "pub.1047534556",
+                "pub.1024195339",
+                "pub.1034919580",
+                "pub.1018601461",
+                "pub.1003060648",
+                "pub.1037747783",
+                "pub.1034186232",
+                "pub.1031969609",
+                "pub.1001005891",
+                "pub.1026732729",
+                "pub.1053332805",
+                "pub.1047997361",
+                "pub.1013695832",
+                "pub.1022630035",
+                "pub.1048640056",
+                "pub.1045335296",
+                "pub.1112114162",
+                "pub.1097233425",
+                "pub.1038881733",
+                "pub.1037517371",
+                "pub.1046163780",
+                "pub.1063977048"
             ],
             "research_org_cities": [
                 {
@@ -1841,37 +1970,25 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "United States Geological Survey",
+                "University of Florida"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-FL",
-                    "name": "Florida"
-                },
                 {
                     "id": "US-VA",
                     "name": "Virginia"
+                },
+                {
+                    "id": "US-FL",
+                    "name": "Florida"
                 }
             ],
             "research_org_state_names": [
-                "Florida",
-                "Virginia"
+                "Virginia",
+                "Florida"
             ],
             "research_orgs": [
-                {
-                    "acronym": "UF",
-                    "city_name": "Gainesville",
-                    "country_name": "United States",
-                    "id": "grid.15276.37",
-                    "latitude": 29.643902,
-                    "linkout": [
-                        "http://www.ufl.edu/"
-                    ],
-                    "longitude": -82.35495,
-                    "name": "University of Florida",
-                    "state_name": "Florida",
-                    "types": [
-                        "Education"
-                    ]
-                },
                 {
                     "acronym": "USGS",
                     "city_name": "Reston",
@@ -1886,6 +2003,22 @@
                     "state_name": "Virginia",
                     "types": [
                         "Government"
+                    ]
+                },
+                {
+                    "acronym": "UF",
+                    "city_name": "Gainesville",
+                    "country_name": "United States",
+                    "id": "grid.15276.37",
+                    "latitude": 29.643902,
+                    "linkout": [
+                        "http://www.ufl.edu/"
+                    ],
+                    "longitude": -82.35495,
+                    "name": "University of Florida",
+                    "state_name": "Florida",
+                    "types": [
+                        "Education"
                     ]
                 }
             ],
@@ -1903,9 +2036,9 @@
                     "id": "ur.016624120314.33",
                     "last_name": "Olabarrieta",
                     "research_orgs": [
-                        "grid.2865.9",
                         "grid.7821.c",
-                        "grid.15276.37"
+                        "grid.15276.37",
+                        "grid.2865.9"
                     ]
                 },
                 {
@@ -1916,11 +2049,11 @@
                         "0000-0002-3852-0971"
                     ],
                     "research_orgs": [
-                        "grid.261368.8",
-                        "grid.33489.35",
+                        "grid.15276.37",
                         "grid.170693.a",
                         "grid.418218.6",
-                        "grid.15276.37"
+                        "grid.261368.8",
+                        "grid.33489.35"
                     ]
                 },
                 {
@@ -1954,11 +2087,10 @@
                 "meteotsunami generation",
                 "generation",
                 "propagation",
-                "ocean-atmosphere",
-                "atmosphere",
-                "Wave-Sediment Transport",
-                "sediment transport",
-                "transport",
+                "Ocean-Atmosphere",
+                "Wave-Sediment Transport (COAWST) modeling system",
+                "transport modeling system",
+                "modeling system",
                 "system",
                 "model",
                 "sea level",
@@ -1977,16 +2109,15 @@
                 "speed",
                 "atmospheric pressure",
                 "pressure",
-                "hPa",
                 "underestimation",
                 "maximum elevation",
                 "relative effects",
+                "wind stress",
                 "stress",
                 "different numerical simulations",
                 "numerical simulations",
                 "simulations",
                 "results",
-                "wind stress",
                 "atmospheric pressure changes",
                 "pressure changes",
                 "changes",
@@ -1996,7 +2127,7 @@
                 "shallow water",
                 "water",
                 "atmospheric pressure disturbances",
-                "pressure disturbances",
+                "pressure disturbance",
                 "disturbances",
                 "area",
                 "Froude number",
@@ -2006,7 +2137,6 @@
                 "sea states",
                 "ocean waves",
                 "waves",
-                "wind-speed",
                 "scheme",
                 "applications",
                 "roughness parameterization",
@@ -2183,9 +2313,9 @@
         },
         "doi": "10.1016/j.ocemod.2019.101408",
         "keyphrases": {
-            "10 m elevation and sea level atmospheric pressure fluctuations": {
-                "count": 1,
-                "rank_score": 0.06634702569288953
+            "abstract meteotsunamis": {
+                "count": 2,
+                "rank_score": 0.06205411879280641
             },
             "atmospheric observations": {
                 "count": 1,
@@ -2199,13 +2329,37 @@
                 "count": 1,
                 "rank_score": 0.11669173711550163
             },
+            "cold fronts": {
+                "count": 1,
+                "rank_score": 0.05743581833711793
+            },
             "different numerical simulations": {
                 "count": 1,
                 "rank_score": 0.06936343707615455
             },
+            "intensity": {
+                "count": 1,
+                "rank_score": 0.03908644830001176
+            },
+            "maximum elevation": {
+                "count": 1,
+                "rank_score": 0.04496973899538485
+            },
+            "maximum meteotsunami elevation": {
+                "count": 1,
+                "rank_score": 0.05402669257478795
+            },
             "meteotsunami generation": {
                 "count": 2,
                 "rank_score": 0.08768201634518151
+            },
+            "mexico": {
+                "count": 4,
+                "rank_score": 0.05917160502996989
+            },
+            "northern gulf": {
+                "count": 4,
+                "rank_score": 0.04397059914078532
             },
             "observed and measured wind speeds": {
                 "count": 1,
@@ -2214,6 +2368,14 @@
             "passing squall lines": {
                 "count": 1,
                 "rank_score": 0.07975933364451275
+            },
+            "periods": {
+                "count": 1,
+                "rank_score": 0.06293588540072585
+            },
+            "propagation": {
+                "count": 1,
+                "rank_score": 0.0468373551406184
             },
             "sea level": {
                 "count": 1,
@@ -2226,6 +2388,14 @@
             "several minutes": {
                 "count": 2,
                 "rank_score": 0.06694997478467887
+            },
+            "shallow waters": {
+                "count": 1,
+                "rank_score": 0.06115454850434822
+            },
+            "wind": {
+                "count": 1,
+                "rank_score": 0.0477383812599822
             },
             "wind speed variations": {
                 "count": 1,
@@ -2295,6 +2465,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.267323.1",
                         "first_name": "Gebreab K.",
+                        "initials": "",
                         "last_name": "Zewdie",
                         "orcid": "['0000-0002-1797-8967']",
                         "researcher_id": "ur.012753140113.09"
@@ -2315,6 +2486,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.267323.1",
                         "first_name": "David J.",
+                        "initials": "",
                         "last_name": "Lary",
                         "orcid": "",
                         "researcher_id": "ur.01142244562.72"
@@ -2335,6 +2507,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.267323.1",
                         "first_name": "Xun",
+                        "initials": "",
                         "last_name": "Liu",
                         "orcid": "",
                         "researcher_id": "ur.011360177113.63"
@@ -2355,6 +2528,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.267323.1",
                         "first_name": "Daji",
+                        "initials": "",
                         "last_name": "Wu",
                         "orcid": "",
                         "researcher_id": "ur.012155557513.11"
@@ -2375,6 +2549,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.267360.6",
                         "first_name": "Estelle",
+                        "initials": "",
                         "last_name": "Levetin",
                         "orcid": "['0000-0002-2409-5142']",
                         "researcher_id": "ur.0722221073.15"
@@ -2398,6 +2573,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.267323.1",
                     "first_name": "Gebreab K.",
+                    "initials": "",
                     "last_name": "Zewdie",
                     "orcid": "['0000-0002-1797-8967']",
                     "researcher_id": "ur.012753140113.09"
@@ -2418,6 +2594,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.267323.1",
                     "first_name": "David J.",
+                    "initials": "",
                     "last_name": "Lary",
                     "orcid": "",
                     "researcher_id": "ur.01142244562.72"
@@ -2438,6 +2615,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.267323.1",
                     "first_name": "Xun",
+                    "initials": "",
                     "last_name": "Liu",
                     "orcid": "",
                     "researcher_id": "ur.011360177113.63"
@@ -2458,6 +2636,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.267323.1",
                     "first_name": "Daji",
+                    "initials": "",
                     "last_name": "Wu",
                     "orcid": "",
                     "researcher_id": "ur.012155557513.11"
@@ -2478,6 +2657,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.267360.6",
                     "first_name": "Estelle",
+                    "initials": "",
                     "last_name": "Levetin",
                     "orcid": "['0000-0002-2409-5142']",
                     "researcher_id": "ur.0722221073.15"
@@ -2534,7 +2714,6 @@
                 "wind",
                 "amount",
                 "atmosphere",
-                "past",
                 "regression techniques",
                 "technique",
                 "daily pollen concentrations",
@@ -2558,7 +2737,8 @@
                 "daily pollen",
                 "fine spatial resolution",
                 "spatial resolution",
-                "resolution"
+                "resolution",
+                "machine learning"
             ],
             "date": "2019-07-01",
             "date_inserted": "2019-06-09",
@@ -2574,9 +2754,10 @@
                 "title": "Environmental Monitoring and Assessment"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
+                "ERA 2015",
                 "VABB-SHW",
+                "ERA 2018",
                 "PubMed"
             ],
             "mesh_terms": [
@@ -2592,6 +2773,36 @@
                 "Radar",
                 "Weather"
             ],
+            "noun_phrases": [
+                "pollen",
+                "atmosphere",
+                "machine",
+                "weather radar",
+                "Hypersensitivity",
+                "Seasonal Allergic Rhinitis",
+                "rise",
+                "global warming",
+                "Plant Weed",
+                "release",
+                "weather condition",
+                "temperature",
+                "rainfall",
+                "humidity",
+                "cloud",
+                "wind",
+                "regression technique",
+                "forecast",
+                "km",
+                "km region",
+                "Nerve Net",
+                "random forest",
+                "method",
+                "separate model",
+                "feasible way",
+                "radar data",
+                "foundation",
+                "fine spatial resolution"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -2604,58 +2815,58 @@
             "publisher": "Springer Nature",
             "recent_citations": 4,
             "reference_ids": [
-                "pub.1011563320",
-                "pub.1103194957",
-                "pub.1030197632",
-                "pub.1030322336",
-                "pub.1117615610",
-                "pub.1047803123",
-                "pub.1054486634",
-                "pub.1024739340",
-                "pub.1027859246",
-                "pub.1026070183",
-                "pub.1046171833",
-                "pub.1064736815",
-                "pub.1100588547",
-                "pub.1038728317",
-                "pub.1001104379",
-                "pub.1047009921",
-                "pub.1050890404",
-                "pub.1006257041",
-                "pub.1027990444",
                 "pub.1053735215",
+                "pub.1061218516",
                 "pub.1044260794",
+                "pub.1006257041",
+                "pub.1030197632",
+                "pub.1064736815",
+                "pub.1047803123",
+                "pub.1026070183",
+                "pub.1001104379",
+                "pub.1038728317",
+                "pub.1011563320",
+                "pub.1117615610",
+                "pub.1027859246",
+                "pub.1046171833",
+                "pub.1047009921",
+                "pub.1024739340",
+                "pub.1030322336",
+                "pub.1027990444",
+                "pub.1100588547",
+                "pub.1046063192",
                 "pub.1046297221",
                 "pub.1084246054",
-                "pub.1061218516",
-                "pub.1046063192"
+                "pub.1103194957",
+                "pub.1054486634",
+                "pub.1050890404"
             ],
             "references": [
-                "pub.1011563320",
-                "pub.1103194957",
-                "pub.1030197632",
-                "pub.1030322336",
-                "pub.1117615610",
-                "pub.1047803123",
-                "pub.1054486634",
-                "pub.1024739340",
-                "pub.1027859246",
-                "pub.1026070183",
-                "pub.1046171833",
-                "pub.1064736815",
-                "pub.1100588547",
-                "pub.1038728317",
-                "pub.1001104379",
-                "pub.1047009921",
-                "pub.1050890404",
-                "pub.1006257041",
-                "pub.1027990444",
                 "pub.1053735215",
+                "pub.1061218516",
                 "pub.1044260794",
+                "pub.1006257041",
+                "pub.1030197632",
+                "pub.1064736815",
+                "pub.1047803123",
+                "pub.1026070183",
+                "pub.1001104379",
+                "pub.1038728317",
+                "pub.1011563320",
+                "pub.1117615610",
+                "pub.1027859246",
+                "pub.1046171833",
+                "pub.1047009921",
+                "pub.1024739340",
+                "pub.1030322336",
+                "pub.1027990444",
+                "pub.1100588547",
+                "pub.1046063192",
                 "pub.1046297221",
                 "pub.1084246054",
-                "pub.1061218516",
-                "pub.1046063192"
+                "pub.1103194957",
+                "pub.1054486634",
+                "pub.1050890404"
             ],
             "research_org_cities": [
                 {
@@ -2676,14 +2887,18 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "The University of Texas at Dallas",
+                "University of Tulsa"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-OK",
-                    "name": "Oklahoma"
-                },
                 {
                     "id": "US-TX",
                     "name": "Texas"
+                },
+                {
+                    "id": "US-OK",
+                    "name": "Oklahoma"
                 }
             ],
             "research_org_state_names": [
@@ -2741,12 +2956,12 @@
                     "id": "ur.01142244562.72",
                     "last_name": "Lary",
                     "research_orgs": [
-                        "grid.5335.0",
-                        "grid.12136.37",
-                        "grid.267315.4",
-                        "grid.266673.0",
                         "grid.133275.1",
-                        "grid.267323.1"
+                        "grid.267323.1",
+                        "grid.267315.4",
+                        "grid.5335.0",
+                        "grid.266673.0",
+                        "grid.12136.37"
                     ]
                 },
                 {
@@ -2800,7 +3015,6 @@
                 "wind",
                 "amount",
                 "atmosphere",
-                "past",
                 "regression techniques",
                 "technique",
                 "daily pollen concentrations",
@@ -2824,7 +3038,8 @@
                 "daily pollen",
                 "fine spatial resolution",
                 "spatial resolution",
-                "resolution"
+                "resolution",
+                "machine learning"
             ],
             "times_cited": 4,
             "title": "Estimating the daily pollen concentration in the atmosphere using machine learning and NEXRAD weather radar data",
@@ -4217,17 +4432,33 @@
         },
         "doi": "10.1007/s10661-019-7542-9",
         "keyphrases": {
+            "ambient weather conditions": {
+                "count": 1,
+                "rank_score": 0.050945595037184654
+            },
+            "ambrosia": {
+                "count": 2,
+                "rank_score": 0.057867355368002193
+            },
             "cloud cover": {
                 "count": 1,
                 "rank_score": 0.07249580127634861
             },
-            "daily": {
-                "count": 4,
-                "rank_score": 0.08207038358750504
+            "daily ambrosia pollen": {
+                "count": 1,
+                "rank_score": 0.08652987909849075
             },
             "daily pollen": {
                 "count": 1,
                 "rank_score": 0.13688813783924716
+            },
+            "daily pollen concentration": {
+                "count": 2,
+                "rank_score": 0.08666200183266398
+            },
+            "dispersal": {
+                "count": 1,
+                "rank_score": 0.05132386537293371
             },
             "global warming": {
                 "count": 1,
@@ -4245,6 +4476,34 @@
                 "count": 1,
                 "rank_score": 0.11210515945719578
             },
+            "neural network and random forest machine learning methods": {
+                "count": 1,
+                "rank_score": 0.066714623289481
+            },
+            "nexrad": {
+                "count": 1,
+                "rank_score": 0.059128548880007015
+            },
+            "nexrad weather radar": {
+                "count": 1,
+                "rank_score": 0.05250935185505342
+            },
+            "next generation weather radar": {
+                "count": 1,
+                "rank_score": 0.05392014913273427
+            },
+            "next generation weather radar (nexrad) data": {
+                "count": 1,
+                "rank_score": 0.044985890429022256
+            },
+            "only the nexrad radar data and machine learning methods": {
+                "count": 1,
+                "rank_score": 0.05706488105761199
+            },
+            "people": {
+                "count": 1,
+                "rank_score": 0.049543381913610574
+            },
             "pollen": {
                 "count": 2,
                 "rank_score": 0.12439003781649277
@@ -4252,6 +4511,10 @@
             "pollen allergies": {
                 "count": 1,
                 "rank_score": 0.12013645432508065
+            },
+            "rainfall": {
+                "count": 1,
+                "rank_score": 0.054265483871165046
             },
             "random forest": {
                 "count": 1,
@@ -4261,21 +4524,13 @@
                 "count": 1,
                 "rank_score": 0.06553931583115805
             },
-            "the daily ambrosia pollen": {
-                "count": 1,
-                "rank_score": 0.08652987909849075
-            },
-            "the daily pollen concentration": {
-                "count": 2,
-                "rank_score": 0.08666200183266398
-            },
-            "the neural network and random forest machine learning methods": {
-                "count": 1,
-                "rank_score": 0.066714623289481
-            },
             "various regression techniques": {
                 "count": 1,
                 "rank_score": 0.07659437003980729
+            },
+            "wind": {
+                "count": 1,
+                "rank_score": 0.050322245835578074
             }
         },
         "original": {
@@ -4301,7 +4556,7 @@
                     "name": "08 Information and Computing Sciences"
                 }
             ],
-            "altmetric": 23.0,
+            "altmetric": 25.0,
             "altmetric_id": 48740950,
             "author_affiliations": [
                 [
@@ -4331,6 +4586,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.5386.8",
                         "first_name": "Adriaan M.",
+                        "initials": "",
                         "last_name": "Dokter",
                         "orcid": "",
                         "researcher_id": "ur.01012166714.67"
@@ -4344,6 +4600,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.435417.0",
                         "first_name": "Peter",
+                        "initials": "",
                         "last_name": "Desmet",
                         "orcid": "['0000-0002-8442-8025']",
                         "researcher_id": "ur.01273632634.56"
@@ -4364,6 +4621,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.454309.f",
                         "first_name": "Jurriaan H.",
+                        "initials": "",
                         "last_name": "Spaaks",
                         "orcid": "",
                         "researcher_id": "ur.011511641667.23"
@@ -4377,6 +4635,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.435417.0",
                         "first_name": "Stijn",
+                        "initials": "",
                         "last_name": "van Hoey",
                         "orcid": "['0000-0001-6413-3185']",
                         "researcher_id": "ur.013707547341.48"
@@ -4397,6 +4656,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.454309.f",
                         "first_name": "Lourens",
+                        "initials": "",
                         "last_name": "Veen",
                         "orcid": "",
                         "researcher_id": "ur.010027600033.97"
@@ -4417,6 +4677,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.7177.6",
                         "first_name": "Liesbeth",
+                        "initials": "",
                         "last_name": "Verlinden",
                         "orcid": "['0000-0003-1744-9325']",
                         "researcher_id": "ur.015343516660.24"
@@ -4437,6 +4698,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.5386.8",
                         "first_name": "Cecilia",
+                        "initials": "",
                         "last_name": "Nilsson",
                         "orcid": "['0000-0001-8957-4411']",
                         "researcher_id": "ur.0635370443.79"
@@ -4457,6 +4719,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.6057.4",
                         "first_name": "Günther",
+                        "initials": "",
                         "last_name": "Haase",
                         "orcid": "['0000-0001-7753-6055']",
                         "researcher_id": "ur.014716205443.52"
@@ -4477,6 +4740,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.8653.8",
                         "first_name": "Hidde",
+                        "initials": "",
                         "last_name": "Leijnse",
                         "orcid": "['0000-0001-7835-4480']",
                         "researcher_id": "ur.010022043734.19"
@@ -4497,6 +4761,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.5386.8",
                         "first_name": "Andrew",
+                        "initials": "",
                         "last_name": "Farnsworth",
                         "orcid": "['0000-0002-9854-4449']",
                         "researcher_id": "ur.01370157734.77"
@@ -4517,6 +4782,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.7177.6",
                         "first_name": "Willem",
+                        "initials": "",
                         "last_name": "Bouten",
                         "orcid": "['0000-0002-5250-8872']",
                         "researcher_id": "ur.013535062724.60"
@@ -4537,6 +4803,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.7177.6",
                         "first_name": "Judy",
+                        "initials": "",
                         "last_name": "Shamoun‐Baranes",
                         "orcid": "['0000-0002-1652-7646']",
                         "researcher_id": "ur.016512643227.95"
@@ -4570,6 +4837,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.5386.8",
                     "first_name": "Adriaan M.",
+                    "initials": "",
                     "last_name": "Dokter",
                     "orcid": "",
                     "researcher_id": "ur.01012166714.67"
@@ -4583,6 +4851,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.435417.0",
                     "first_name": "Peter",
+                    "initials": "",
                     "last_name": "Desmet",
                     "orcid": "['0000-0002-8442-8025']",
                     "researcher_id": "ur.01273632634.56"
@@ -4603,6 +4872,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.454309.f",
                     "first_name": "Jurriaan H.",
+                    "initials": "",
                     "last_name": "Spaaks",
                     "orcid": "",
                     "researcher_id": "ur.011511641667.23"
@@ -4616,6 +4886,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.435417.0",
                     "first_name": "Stijn",
+                    "initials": "",
                     "last_name": "van Hoey",
                     "orcid": "['0000-0001-6413-3185']",
                     "researcher_id": "ur.013707547341.48"
@@ -4636,6 +4907,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.454309.f",
                     "first_name": "Lourens",
+                    "initials": "",
                     "last_name": "Veen",
                     "orcid": "",
                     "researcher_id": "ur.010027600033.97"
@@ -4656,6 +4928,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.7177.6",
                     "first_name": "Liesbeth",
+                    "initials": "",
                     "last_name": "Verlinden",
                     "orcid": "['0000-0003-1744-9325']",
                     "researcher_id": "ur.015343516660.24"
@@ -4676,6 +4949,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.5386.8",
                     "first_name": "Cecilia",
+                    "initials": "",
                     "last_name": "Nilsson",
                     "orcid": "['0000-0001-8957-4411']",
                     "researcher_id": "ur.0635370443.79"
@@ -4696,6 +4970,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.6057.4",
                     "first_name": "Günther",
+                    "initials": "",
                     "last_name": "Haase",
                     "orcid": "['0000-0001-7753-6055']",
                     "researcher_id": "ur.014716205443.52"
@@ -4716,6 +4991,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.8653.8",
                     "first_name": "Hidde",
+                    "initials": "",
                     "last_name": "Leijnse",
                     "orcid": "['0000-0001-7835-4480']",
                     "researcher_id": "ur.010022043734.19"
@@ -4736,6 +5012,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.5386.8",
                     "first_name": "Andrew",
+                    "initials": "",
                     "last_name": "Farnsworth",
                     "orcid": "['0000-0002-9854-4449']",
                     "researcher_id": "ur.01370157734.77"
@@ -4756,6 +5033,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.7177.6",
                     "first_name": "Willem",
+                    "initials": "",
                     "last_name": "Bouten",
                     "orcid": "['0000-0002-5250-8872']",
                     "researcher_id": "ur.013535062724.60"
@@ -4776,6 +5054,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.7177.6",
                     "first_name": "Judy",
+                    "initials": "",
                     "last_name": "Shamoun‐Baranes",
                     "orcid": "['0000-0002-1652-7646']",
                     "researcher_id": "ur.016512643227.95"
@@ -4827,31 +5106,26 @@
                 "task",
                 "major hurdle",
                 "hurdles",
-                "difficulties",
                 "software platform",
                 "platform",
-                "biologists",
+                "low-level data",
                 "results",
                 "toolbox",
                 "functionality",
-                "process",
-                "meaningful biological information",
-                "biological information",
                 "information",
                 "animal's speed",
                 "speed",
                 "direction",
                 "extraction",
-                "statistics",
                 "package",
                 "method",
                 "biological signals",
-                "signal",
+                "signals",
                 "weather radar",
                 "roadmap",
                 "field",
+                "migration traffic rates",
                 "traffic rate",
-                "best practices",
                 "radar network",
                 "network",
                 "visualization"
@@ -4870,11 +5144,55 @@
                 "title": "Ecography"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 2",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
             ],
-            "linkout": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/ecog.04028",
+            "linkout": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ecog.04028",
+            "noun_phrases": [
+                "biological analysis",
+                "visualization",
+                "weather radar",
+                "movement",
+                "abundance",
+                "animal",
+                "airspace",
+                "task",
+                "major hurdle",
+                "accessing",
+                "radar data",
+                "software platform",
+                "ecologist",
+                "biologist",
+                "processing",
+                "product",
+                "standardized measure",
+                "hurdle",
+                "open source",
+                "toolbox",
+                "visualizing",
+                "biological study",
+                "functionality",
+                "biological information",
+                "different altitude",
+                "atmosphere",
+                "visualize",
+                "extraction",
+                "calculate",
+                "summary statistic",
+                "package",
+                "method",
+                "extracting",
+                "biological signal",
+                "roadmap",
+                "migration",
+                "good practice",
+                "Weight and Measure",
+                "radar network",
+                "ecology",
+                "good"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -4894,78 +5212,78 @@
             ],
             "pages": "852-860",
             "publisher": "Wiley",
-            "recent_citations": 14,
+            "recent_citations": 15,
             "reference_ids": [
+                "pub.1039181772",
+                "pub.1100268056",
                 "pub.1013823145",
                 "pub.1000644990",
+                "pub.1085148661",
                 "pub.1101033900",
-                "pub.1085662823",
-                "pub.1100239132",
+                "pub.1045786369",
                 "pub.1053030866",
+                "pub.1061445583",
                 "pub.1034772486",
-                "pub.1039181772",
+                "pub.1112109008",
+                "pub.1085662823",
+                "pub.1018641144",
+                "pub.1107041660",
+                "pub.1100239132",
+                "pub.1042931000",
+                "pub.1010461503",
+                "pub.1043062005",
+                "pub.1107031683",
+                "pub.1048055657",
+                "pub.1023676927",
+                "pub.1043302406",
+                "pub.1023656591",
                 "pub.1049457508",
+                "pub.1049740573",
+                "pub.1028525626",
+                "pub.1061613923",
+                "pub.1048490387",
+                "pub.1038720810",
+                "pub.1085917937",
+                "pub.1021500577",
                 "pub.1005372179",
                 "pub.1103856729",
-                "pub.1048055657",
-                "pub.1107041660",
-                "pub.1048490387",
-                "pub.1028525626",
-                "pub.1043062005",
-                "pub.1049740573",
-                "pub.1107031683",
-                "pub.1085148661",
-                "pub.1061445583",
-                "pub.1112109008",
-                "pub.1023676927",
-                "pub.1042931000",
-                "pub.1043302406",
-                "pub.1018641144",
-                "pub.1021500577",
-                "pub.1038720810",
-                "pub.1010461503",
-                "pub.1100268056",
-                "pub.1061610965",
-                "pub.1085917937",
-                "pub.1061613923",
-                "pub.1045786369",
-                "pub.1023656591"
+                "pub.1061610965"
             ],
             "references": [
+                "pub.1039181772",
+                "pub.1100268056",
                 "pub.1013823145",
                 "pub.1000644990",
+                "pub.1085148661",
                 "pub.1101033900",
-                "pub.1085662823",
-                "pub.1100239132",
+                "pub.1045786369",
                 "pub.1053030866",
+                "pub.1061445583",
                 "pub.1034772486",
-                "pub.1039181772",
+                "pub.1112109008",
+                "pub.1085662823",
+                "pub.1018641144",
+                "pub.1107041660",
+                "pub.1100239132",
+                "pub.1042931000",
+                "pub.1010461503",
+                "pub.1043062005",
+                "pub.1107031683",
+                "pub.1048055657",
+                "pub.1023676927",
+                "pub.1043302406",
+                "pub.1023656591",
                 "pub.1049457508",
+                "pub.1049740573",
+                "pub.1028525626",
+                "pub.1061613923",
+                "pub.1048490387",
+                "pub.1038720810",
+                "pub.1085917937",
+                "pub.1021500577",
                 "pub.1005372179",
                 "pub.1103856729",
-                "pub.1048055657",
-                "pub.1107041660",
-                "pub.1048490387",
-                "pub.1028525626",
-                "pub.1043062005",
-                "pub.1049740573",
-                "pub.1107031683",
-                "pub.1085148661",
-                "pub.1061445583",
-                "pub.1112109008",
-                "pub.1023676927",
-                "pub.1042931000",
-                "pub.1043302406",
-                "pub.1018641144",
-                "pub.1021500577",
-                "pub.1038720810",
-                "pub.1010461503",
-                "pub.1100268056",
-                "pub.1061610965",
-                "pub.1085917937",
-                "pub.1061613923",
-                "pub.1045786369",
-                "pub.1023656591"
+                "pub.1061610965"
             ],
             "research_org_cities": [
                 {
@@ -4991,6 +5309,10 @@
             ],
             "research_org_countries": [
                 {
+                    "id": "SE",
+                    "name": "Sweden"
+                },
+                {
                     "id": "BE",
                     "name": "Belgium"
                 },
@@ -5001,17 +5323,21 @@
                 {
                     "id": "NL",
                     "name": "Netherlands"
-                },
-                {
-                    "id": "SE",
-                    "name": "Sweden"
                 }
             ],
             "research_org_country_names": [
                 "Belgium",
+                "Netherlands",
                 "United States",
-                "Sweden",
-                "Netherlands"
+                "Sweden"
+            ],
+            "research_org_names": [
+                "Swedish Meteorological and Hydrological Institute",
+                "Cornell University",
+                "Netherlands eScience Center",
+                "Royal Netherlands Meteorological Institute",
+                "University of Amsterdam",
+                "Research Inst. for Nature and Forest (INBO), Belgium"
             ],
             "research_org_state_codes": [
                 {
@@ -5023,6 +5349,52 @@
                 "New York"
             ],
             "research_orgs": [
+                {
+                    "acronym": "NLeSC",
+                    "city_name": "Amsterdam",
+                    "country_name": "Netherlands",
+                    "id": "grid.454309.f",
+                    "latitude": 52.35695,
+                    "linkout": [
+                        "https://www.esciencecenter.nl/"
+                    ],
+                    "longitude": 4.954451,
+                    "name": "Netherlands eScience Center",
+                    "types": [
+                        "Nonprofit"
+                    ]
+                },
+                {
+                    "acronym": "SMHI",
+                    "city_name": "Norrköping",
+                    "country_name": "Sweden",
+                    "id": "grid.6057.4",
+                    "latitude": 58.581425,
+                    "linkout": [
+                        "http://www.smhi.se/en"
+                    ],
+                    "longitude": 16.148073,
+                    "name": "Swedish Meteorological and Hydrological Institute",
+                    "types": [
+                        "Government"
+                    ]
+                },
+                {
+                    "acronym": "UvA",
+                    "city_name": "Amsterdam",
+                    "country_name": "Netherlands",
+                    "id": "grid.7177.6",
+                    "latitude": 52.355793,
+                    "linkout": [
+                        "http://www.uva.nl/en/home"
+                    ],
+                    "longitude": 4.954782,
+                    "name": "University of Amsterdam",
+                    "state_name": "Noord-Holland",
+                    "types": [
+                        "Education"
+                    ]
+                },
                 {
                     "acronym": "KNMI",
                     "city_name": "De Bilt",
@@ -5053,52 +5425,6 @@
                     "types": [
                         "Education"
                     ]
-                },
-                {
-                    "acronym": "UvA",
-                    "city_name": "Amsterdam",
-                    "country_name": "Netherlands",
-                    "id": "grid.7177.6",
-                    "latitude": 52.355793,
-                    "linkout": [
-                        "http://www.uva.nl/en/home"
-                    ],
-                    "longitude": 4.954782,
-                    "name": "University of Amsterdam",
-                    "state_name": "Noord-Holland",
-                    "types": [
-                        "Education"
-                    ]
-                },
-                {
-                    "acronym": "NLeSC",
-                    "city_name": "Amsterdam",
-                    "country_name": "Netherlands",
-                    "id": "grid.454309.f",
-                    "latitude": 52.35695,
-                    "linkout": [
-                        "https://www.esciencecenter.nl/"
-                    ],
-                    "longitude": 4.954451,
-                    "name": "Netherlands eScience Center",
-                    "types": [
-                        "Nonprofit"
-                    ]
-                },
-                {
-                    "acronym": "SMHI",
-                    "city_name": "Norrköping",
-                    "country_name": "Sweden",
-                    "id": "grid.6057.4",
-                    "latitude": 58.581425,
-                    "linkout": [
-                        "http://www.smhi.se/en"
-                    ],
-                    "longitude": 16.148073,
-                    "name": "Swedish Meteorological and Hydrological Institute",
-                    "types": [
-                        "Government"
-                    ]
                 }
             ],
             "researchers": [
@@ -5107,12 +5433,12 @@
                     "id": "ur.01012166714.67",
                     "last_name": "Dokter",
                     "research_orgs": [
-                        "grid.417889.b",
                         "grid.5386.8",
-                        "grid.8653.8",
                         "grid.16750.35",
+                        "grid.7177.6",
                         "grid.418375.c",
-                        "grid.7177.6"
+                        "grid.8653.8",
+                        "grid.417889.b"
                     ]
                 },
                 {
@@ -5125,8 +5451,8 @@
                     "research_orgs": [
                         "grid.5342.0",
                         "grid.20478.39",
-                        "grid.435417.0",
-                        "grid.14848.31"
+                        "grid.14848.31",
+                        "grid.435417.0"
                     ]
                 },
                 {
@@ -5134,8 +5460,8 @@
                     "id": "ur.011511641667.23",
                     "last_name": "Spaaks",
                     "research_orgs": [
-                        "grid.454309.f",
-                        "grid.7177.6"
+                        "grid.7177.6",
+                        "grid.454309.f"
                     ]
                 },
                 {
@@ -5146,8 +5472,8 @@
                         "0000-0001-6413-3185"
                     ],
                     "research_orgs": [
-                        "grid.6717.7",
                         "grid.435417.0",
+                        "grid.6717.7",
                         "grid.5342.0"
                     ]
                 },
@@ -5156,8 +5482,8 @@
                     "id": "ur.010027600033.97",
                     "last_name": "Veen",
                     "research_orgs": [
-                        "grid.454309.f",
-                        "grid.7177.6"
+                        "grid.7177.6",
+                        "grid.454309.f"
                     ]
                 },
                 {
@@ -5179,9 +5505,9 @@
                         "0000-0001-8957-4411"
                     ],
                     "research_orgs": [
-                        "grid.419767.a",
+                        "grid.4514.4",
                         "grid.5386.8",
-                        "grid.4514.4"
+                        "grid.419767.a"
                     ]
                 },
                 {
@@ -5192,8 +5518,8 @@
                         "0000-0001-7753-6055"
                     ],
                     "research_orgs": [
-                        "grid.10388.32",
-                        "grid.6057.4"
+                        "grid.6057.4",
+                        "grid.10388.32"
                     ]
                 },
                 {
@@ -5217,8 +5543,8 @@
                     ],
                     "research_orgs": [
                         "grid.26090.3d",
-                        "grid.5386.8",
-                        "grid.260293.c"
+                        "grid.260293.c",
+                        "grid.5386.8"
                     ]
                 },
                 {
@@ -5257,36 +5583,31 @@
                 "task",
                 "major hurdle",
                 "hurdles",
-                "difficulties",
                 "software platform",
                 "platform",
-                "biologists",
+                "low-level data",
                 "results",
                 "toolbox",
                 "functionality",
-                "process",
-                "meaningful biological information",
-                "biological information",
                 "information",
                 "animal's speed",
                 "speed",
                 "direction",
                 "extraction",
-                "statistics",
                 "package",
                 "method",
                 "biological signals",
-                "signal",
+                "signals",
                 "weather radar",
                 "roadmap",
                 "field",
+                "migration traffic rates",
                 "traffic rate",
-                "best practices",
                 "radar network",
                 "network",
                 "visualization"
             ],
-            "times_cited": 14,
+            "times_cited": 15,
             "title": "bioRad: biological analysis and visualization of weather radar data",
             "type": "article",
             "volume": "42",
@@ -6159,6 +6480,10 @@
                 "count": 1,
                 "rank_score": 0.0671477117368316
             },
+            "animals": {
+                "count": 1,
+                "rank_score": 0.05933849899195141
+            },
             "better inter-comparability": {
                 "count": 1,
                 "rank_score": 0.07243683041343449
@@ -6171,9 +6496,25 @@
                 "count": 1,
                 "rank_score": 0.08659307438925591
             },
+            "both the european radar network": {
+                "count": 1,
+                "rank_score": 0.05050597308196742
+            },
+            "different altitudes": {
+                "count": 1,
+                "rank_score": 0.054495881461382026
+            },
+            "ecology": {
+                "count": 1,
+                "rank_score": 0.051937596861299035
+            },
             "familiar measures": {
                 "count": 1,
                 "rank_score": 0.07046452266893403
+            },
+            "further summary statistics": {
+                "count": 1,
+                "rank_score": 0.06547439881859192
             },
             "low-level data": {
                 "count": 2,
@@ -6182,6 +6523,10 @@
             "low-level radar data": {
                 "count": 1,
                 "rank_score": 0.08860813616452475
+            },
+            "major hurdles": {
+                "count": 1,
+                "rank_score": 0.05939852169456353
             },
             "meaningful biological information": {
                 "count": 1,
@@ -6195,9 +6540,25 @@
                 "count": 1,
                 "rank_score": 0.06721958626891736
             },
+            "open source r package biorad": {
+                "count": 1,
+                "rank_score": 0.05967488660460818
+            },
             "radar data": {
                 "count": 1,
                 "rank_score": 0.13028804702877497
+            },
+            "radar network": {
+                "count": 1,
+                "rank_score": 0.06458060522295515
+            },
+            "several good practices": {
+                "count": 1,
+                "rank_score": 0.0653913447846206
+            },
+            "standardized measures": {
+                "count": 1,
+                "rank_score": 0.05861106665663986
             },
             "weather radar data": {
                 "count": 2,
@@ -6239,6 +6600,7 @@
                     "name": "04 Earth Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -6257,6 +6619,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.482520.9",
                         "first_name": "Soo Ya",
+                        "initials": "",
                         "last_name": "Bae",
                         "orcid": "",
                         "researcher_id": "ur.07506145310.66"
@@ -6277,6 +6640,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.482520.9",
                         "first_name": "Song-You",
+                        "initials": "",
                         "last_name": "Hong",
                         "orcid": "['0000-0002-4046-848X']",
                         "researcher_id": "ur.0631725663.41"
@@ -6297,6 +6661,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.133275.1",
                         "first_name": "Wei-Kuo",
+                        "initials": "",
                         "last_name": "Tao",
                         "orcid": "",
                         "researcher_id": "ur.010170456351.13"
@@ -6320,6 +6685,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.482520.9",
                     "first_name": "Soo Ya",
+                    "initials": "",
                     "last_name": "Bae",
                     "orcid": "",
                     "researcher_id": "ur.07506145310.66"
@@ -6340,6 +6706,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.482520.9",
                     "first_name": "Song-You",
+                    "initials": "",
                     "last_name": "Hong",
                     "orcid": "['0000-0002-4046-848X']",
                     "researcher_id": "ur.0631725663.41"
@@ -6360,6 +6727,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.133275.1",
                     "first_name": "Wei-Kuo",
+                    "initials": "",
                     "last_name": "Tao",
                     "orcid": "",
                     "researcher_id": "ur.010170456351.13"
@@ -6396,11 +6764,8 @@
                 "precipitation",
                 "Weather Research",
                 "microphysics",
-                "hydrometeors",
                 "water substance",
                 "WSM6 scheme",
-                "ice",
-                "ice scheme",
                 "accretion rate",
                 "rate",
                 "ice particles",
@@ -6410,6 +6775,7 @@
                 "graupel",
                 "amount of hail",
                 "amount",
+                "maximum",
                 "low altitude",
                 "altitude",
                 "accretion",
@@ -6417,7 +6783,6 @@
                 "high altitude",
                 "increase",
                 "reduced sum",
-                "melting level",
                 "decrease",
                 "ratio of rain",
                 "ratio",
@@ -6431,8 +6796,7 @@
                 "squall line",
                 "precipitation intensity",
                 "intensity",
-                "stratiform region",
-                "region",
+                "region decrease",
                 "fact",
                 "light precipitation",
                 "precipitation activity",
@@ -6453,7 +6817,7 @@
             "funders": [
                 {
                     "acronym": "KMA",
-                    "city_name": "Sejong",
+                    "city_name": "Seoul",
                     "country_name": "South Korea",
                     "id": "grid.453000.2",
                     "latitude": 37.49371,
@@ -6477,6 +6841,43 @@
                 "id": "jour.1136296",
                 "title": "Asia-Pacific Journal of Atmospheric Sciences"
             },
+            "journal_lists": [
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "development",
+                "cloud microphysics",
+                "weather research",
+                "Weather Research and Forecasting",
+                "hail",
+                "microphysical process",
+                "precipitation",
+                "hydrometeors",
+                "prognostic",
+                "scheme",
+                "ice",
+                "accretion rate",
+                "ice particle",
+                "sedimentation",
+                "graupel",
+                "reduction",
+                "maximum",
+                "low altitude",
+                "accretion",
+                "snow",
+                "high altitude",
+                "mid-level",
+                "sum",
+                "decrease",
+                "mixing ratio",
+                "rain",
+                "experiment",
+                "squall line",
+                "convective activity",
+                "edge",
+                "stratiform region",
+                "heavy precipitation"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -6486,58 +6887,58 @@
             ],
             "pages": "233-245",
             "publisher": "Springer Nature",
-            "recent_citations": 2,
+            "recent_citations": 5,
             "reference_ids": [
-                "pub.1000852085",
-                "pub.1040645775",
-                "pub.1001126518",
-                "pub.1090360353",
-                "pub.1009408640",
-                "pub.1026675223",
-                "pub.1014374420",
-                "pub.1031328872",
-                "pub.1008322868",
-                "pub.1029324619",
+                "pub.1013616907",
+                "pub.1034711437",
                 "pub.1024547842",
                 "pub.1040040183",
-                "pub.1038153688",
-                "pub.1013616907",
                 "pub.1030560978",
-                "pub.1034711437",
-                "pub.1021634490",
-                "pub.1029787902",
                 "pub.1018358622",
-                "pub.1031969609",
+                "pub.1001126518",
+                "pub.1038153688",
+                "pub.1008322868",
+                "pub.1026675223",
                 "pub.1033829622",
-                "pub.1020534197",
+                "pub.1090360353",
+                "pub.1023980660",
+                "pub.1009408640",
+                "pub.1000852085",
+                "pub.1021634490",
+                "pub.1014374420",
+                "pub.1031969609",
+                "pub.1029324619",
+                "pub.1031328872",
+                "pub.1040645775",
+                "pub.1029787902",
                 "pub.1037280443",
-                "pub.1023980660"
+                "pub.1020534197"
             ],
             "references": [
-                "pub.1000852085",
-                "pub.1040645775",
-                "pub.1001126518",
-                "pub.1090360353",
-                "pub.1009408640",
-                "pub.1026675223",
-                "pub.1014374420",
-                "pub.1031328872",
-                "pub.1008322868",
-                "pub.1029324619",
+                "pub.1013616907",
+                "pub.1034711437",
                 "pub.1024547842",
                 "pub.1040040183",
-                "pub.1038153688",
-                "pub.1013616907",
                 "pub.1030560978",
-                "pub.1034711437",
-                "pub.1021634490",
-                "pub.1029787902",
                 "pub.1018358622",
-                "pub.1031969609",
+                "pub.1001126518",
+                "pub.1038153688",
+                "pub.1008322868",
+                "pub.1026675223",
                 "pub.1033829622",
-                "pub.1020534197",
+                "pub.1090360353",
+                "pub.1023980660",
+                "pub.1009408640",
+                "pub.1000852085",
+                "pub.1021634490",
+                "pub.1014374420",
+                "pub.1031969609",
+                "pub.1029324619",
+                "pub.1031328872",
+                "pub.1040645775",
+                "pub.1029787902",
                 "pub.1037280443",
-                "pub.1023980660"
+                "pub.1020534197"
             ],
             "research_org_cities": [
                 {
@@ -6551,17 +6952,21 @@
             ],
             "research_org_countries": [
                 {
-                    "id": "KR",
-                    "name": "South Korea"
-                },
-                {
                     "id": "US",
                     "name": "United States"
+                },
+                {
+                    "id": "KR",
+                    "name": "South Korea"
                 }
             ],
             "research_org_country_names": [
                 "United States",
                 "South Korea"
+            ],
+            "research_org_names": [
+                "Korea Institute of Atmospheric Prediction Systems",
+                "Goddard Space Flight Center"
             ],
             "research_org_state_codes": [
                 {
@@ -6612,9 +7017,9 @@
                     "last_name": "Bae",
                     "research_orgs": [
                         "grid.255649.9",
-                        "grid.482520.9",
+                        "grid.31501.36",
                         "grid.411627.7",
-                        "grid.31501.36"
+                        "grid.482520.9"
                     ]
                 },
                 {
@@ -6625,9 +7030,9 @@
                         "0000-0002-4046-848X"
                     ],
                     "research_orgs": [
-                        "grid.473673.2",
                         "grid.15444.30",
-                        "grid.482520.9"
+                        "grid.482520.9",
+                        "grid.473673.2"
                     ]
                 },
                 {
@@ -6649,11 +7054,8 @@
                 "precipitation",
                 "Weather Research",
                 "microphysics",
-                "hydrometeors",
                 "water substance",
                 "WSM6 scheme",
-                "ice",
-                "ice scheme",
                 "accretion rate",
                 "rate",
                 "ice particles",
@@ -6663,6 +7065,7 @@
                 "graupel",
                 "amount of hail",
                 "amount",
+                "maximum",
                 "low altitude",
                 "altitude",
                 "accretion",
@@ -6670,7 +7073,6 @@
                 "high altitude",
                 "increase",
                 "reduced sum",
-                "melting level",
                 "decrease",
                 "ratio of rain",
                 "ratio",
@@ -6684,8 +7086,7 @@
                 "squall line",
                 "precipitation intensity",
                 "intensity",
-                "stratiform region",
-                "region",
+                "region decrease",
                 "fact",
                 "light precipitation",
                 "precipitation activity",
@@ -6694,7 +7095,7 @@
                 "forecasting model",
                 "model"
             ],
-            "times_cited": 2,
+            "times_cited": 5,
             "title": "Development of a Single-Moment Cloud Microphysics Scheme with Prognostic Hail for the Weather Research and Forecasting (WRF) Model",
             "type": "article",
             "volume": "55",
@@ -7651,9 +8052,9 @@
         },
         "doi": "10.1007/s13143-018-0066-3",
         "keyphrases": {
-            "3d squall line experiments": {
+            "additional prognostic water substance": {
                 "count": 1,
-                "rank_score": 0.09046930695012072
+                "rank_score": 0.055090863890738175
             },
             "convective activities": {
                 "count": 1,
@@ -7671,6 +8072,10 @@
                 "count": 6,
                 "rank_score": 0.11398511729555712
             },
+            "hail hydrometeor": {
+                "count": 1,
+                "rank_score": 0.06693994712878863
+            },
             "heavy precipitation activities": {
                 "count": 1,
                 "rank_score": 0.09373920461139786
@@ -7683,6 +8088,10 @@
                 "count": 1,
                 "rank_score": 0.06752719381853754
             },
+            "idealized 2d squall case": {
+                "count": 1,
+                "rank_score": 0.05910015485274098
+            },
             "light precipitation": {
                 "count": 1,
                 "rank_score": 0.08531397019730347
@@ -7691,25 +8100,57 @@
                 "count": 1,
                 "rank_score": 0.0732686395119414
             },
+            "microphysical processes": {
+                "count": 1,
+                "rank_score": 0.05902183237588619
+            },
+            "mid-level": {
+                "count": 1,
+                "rank_score": 0.04727812048843978
+            },
             "precipitation": {
                 "count": 1,
                 "rank_score": 0.07756782795142884
+            },
+            "precipitation intensity": {
+                "count": 1,
+                "rank_score": 0.047293821110180864
+            },
+            "rain": {
+                "count": 1,
+                "rank_score": 0.049612286921824636
             },
             "snow": {
                 "count": 2,
                 "rank_score": 0.06004218636734887
             },
-            "the hail hydrometeor": {
+            "squall line": {
                 "count": 1,
-                "rank_score": 0.06693994712878863
+                "rank_score": 0.04796626990998551
+            },
+            "trailing stratiform region": {
+                "count": 1,
+                "rank_score": 0.04845237079178108
             },
             "weakened accretion": {
                 "count": 1,
                 "rank_score": 0.06378982030372003
             },
+            "wsm6 scheme": {
+                "count": 2,
+                "rank_score": 0.04778802320554387
+            },
             "wsm7": {
                 "count": 1,
                 "rank_score": 0.079662032509359
+            },
+            "wsm7 experiment": {
+                "count": 1,
+                "rank_score": 0.05295045309834426
+            },
+            "wsm7 scheme": {
+                "count": 2,
+                "rank_score": 0.05817038829826704
             }
         },
         "original": {

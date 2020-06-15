@@ -19,7 +19,7 @@
                     "name": "Rare Diseases"
                 }
             ],
-            "altmetric": 58.0,
+            "altmetric": 60.0,
             "altmetric_id": 72937153,
             "author_affiliations": [
                 [
@@ -39,6 +39,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.170430.1",
                         "first_name": "Md. Mamunur",
+                        "initials": "",
                         "last_name": "Rashid",
                         "orcid": "['0000-0002-0315-9055']",
                         "researcher_id": "ur.014453547575.94"
@@ -59,6 +60,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.170430.1",
                         "first_name": "Thomas",
+                        "initials": "",
                         "last_name": "Wahl",
                         "orcid": "",
                         "researcher_id": "ur.016660356101.06"
@@ -79,6 +81,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.170693.a",
                         "first_name": "Don P.",
+                        "initials": "",
                         "last_name": "Chambers",
                         "orcid": "['0000-0002-5439-0257']",
                         "researcher_id": "ur.011214640223.07"
@@ -99,6 +102,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.418022.d",
                         "first_name": "Francisco M.",
+                        "initials": "",
                         "last_name": "Calafat",
                         "orcid": "['0000-0002-7474-135X']",
                         "researcher_id": "ur.07407340637.13"
@@ -119,6 +123,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.423022.5",
                         "first_name": "William V.",
+                        "initials": "",
                         "last_name": "Sweet",
                         "orcid": "",
                         "researcher_id": "ur.014507227601.65"
@@ -142,6 +147,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.170430.1",
                     "first_name": "Md. Mamunur",
+                    "initials": "",
                     "last_name": "Rashid",
                     "orcid": "['0000-0002-0315-9055']",
                     "researcher_id": "ur.014453547575.94"
@@ -162,6 +168,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.170430.1",
                     "first_name": "Thomas",
+                    "initials": "",
                     "last_name": "Wahl",
                     "orcid": "",
                     "researcher_id": "ur.016660356101.06"
@@ -182,6 +189,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.170693.a",
                     "first_name": "Don P.",
+                    "initials": "",
                     "last_name": "Chambers",
                     "orcid": "['0000-0002-5439-0257']",
                     "researcher_id": "ur.011214640223.07"
@@ -202,6 +210,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.418022.d",
                     "first_name": "Francisco M.",
+                    "initials": "",
                     "last_name": "Calafat",
                     "orcid": "['0000-0002-7474-135X']",
                     "researcher_id": "ur.07407340637.13"
@@ -222,6 +231,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.423022.5",
                     "first_name": "William V.",
+                    "initials": "",
                     "last_name": "Sweet",
                     "orcid": "",
                     "researcher_id": "ur.014507227601.65"
@@ -243,6 +253,7 @@
                     "name": "Rare Diseases"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30012",
@@ -264,7 +275,6 @@
                 "separate indicators",
                 "mean sea level",
                 "sea level",
-                "storms",
                 "climatology",
                 "water level data",
                 "level data",
@@ -272,11 +282,10 @@
                 "tide gauges",
                 "gauge",
                 "multi-decadal variability",
-                "decadal variability",
                 "variability",
-                "SSC",
-                "coastline stretch",
+                "coastline stretches",
                 "stretch",
+                "observed changes",
                 "changes",
                 "significant fluctuations",
                 "fluctuations",
@@ -293,7 +302,7 @@
                 "sea level components",
                 "level components",
                 "impact",
-                "time scale",
+                "time scales",
                 "scale",
                 "coastal planning",
                 "planning",
@@ -359,87 +368,127 @@
                 "title": "Scientific Data"
             },
             "journal_lists": [
-                "DOAJ",
                 "Norwegian register level 1",
                 "VABB-SHW",
+                "ERA 2018",
+                "DOAJ",
                 "PubMed"
+            ],
+            "linkout": "https://www.nature.com/articles/s41597-019-0333-x.pdf",
+            "noun_phrases": [
+                "sea level",
+                "contiguous United States",
+                "coastline",
+                "indicator",
+                "mean sea level",
+                "storm surge",
+                "water level",
+                "tide gage",
+                "decadal variability",
+                "observed change",
+                "fluctuation",
+                "individual component",
+                "contribution",
+                "relative contribution",
+                "different component",
+                "important role",
+                "exacerbating",
+                "time scale",
+                "management",
+                "tracking change",
+                "threat",
+                "coastal community",
+                "period",
+                "likelihood",
+                "flooding"
+            ],
+            "open_access": [
+                "Open Access - all",
+                "Open Access - publisher",
+                "Open Access - published"
             ],
             "open_access_categories": [
                 {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Version Of Record (VOR) is free under an open licence from a full OA journal",
+                    "id": "gold_pure",
+                    "name": "Pure Gold"
                 }
             ],
             "pages": "326",
             "pmcid": "PMC6920150",
             "pmid": "31852894",
             "publisher": "Springer Nature",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1015557435",
-                "pub.1057645580",
-                "pub.1006087509",
-                "pub.1091159887",
-                "pub.1092351802",
-                "pub.1053452728",
-                "pub.1049643499",
-                "pub.1010566579",
-                "pub.1009846950",
-                "pub.1018582679",
-                "pub.1039363858",
-                "pub.1051980405",
-                "pub.1007435462",
-                "pub.1006705639",
-                "pub.1052855088",
-                "pub.1046145671",
-                "pub.1044123264",
-                "pub.1091106730",
-                "pub.1030261375",
-                "pub.1003023956",
-                "pub.1085953362",
-                "pub.1041824187",
-                "pub.1013161121",
                 "pub.1012323543",
+                "pub.1091159887",
+                "pub.1003023956",
+                "pub.1013161121",
+                "pub.1009846950",
+                "pub.1052855088",
                 "pub.1120129303",
+                "pub.1018582679",
                 "pub.1039266285",
-                "pub.1012070631",
+                "pub.1007435462",
+                "pub.1053452728",
+                "pub.1085953362",
+                "pub.1092351802",
+                "pub.1049643499",
+                "pub.1006705639",
+                "pub.1053427965",
+                "pub.1015557435",
                 "pub.1045493282",
+                "pub.1039363858",
+                "pub.1012070631",
+                "pub.1091106730",
+                "pub.1006087509",
+                "pub.1051980405",
                 "pub.1085277205",
+                "pub.1057645580",
+                "pub.1010566579",
                 "pub.1012010088",
-                "pub.1053427965"
+                "pub.1030261375",
+                "pub.1046145671",
+                "pub.1041824187",
+                "pub.1044123264"
             ],
             "references": [
-                "pub.1015557435",
-                "pub.1057645580",
-                "pub.1006087509",
-                "pub.1091159887",
-                "pub.1092351802",
-                "pub.1053452728",
-                "pub.1049643499",
-                "pub.1010566579",
-                "pub.1009846950",
-                "pub.1018582679",
-                "pub.1039363858",
-                "pub.1051980405",
-                "pub.1007435462",
-                "pub.1006705639",
-                "pub.1052855088",
-                "pub.1046145671",
-                "pub.1044123264",
-                "pub.1091106730",
-                "pub.1030261375",
-                "pub.1003023956",
-                "pub.1085953362",
-                "pub.1041824187",
-                "pub.1013161121",
                 "pub.1012323543",
+                "pub.1091159887",
+                "pub.1003023956",
+                "pub.1013161121",
+                "pub.1009846950",
+                "pub.1052855088",
                 "pub.1120129303",
+                "pub.1018582679",
                 "pub.1039266285",
-                "pub.1012070631",
+                "pub.1007435462",
+                "pub.1053452728",
+                "pub.1085953362",
+                "pub.1092351802",
+                "pub.1049643499",
+                "pub.1006705639",
+                "pub.1053427965",
+                "pub.1015557435",
                 "pub.1045493282",
+                "pub.1039363858",
+                "pub.1012070631",
+                "pub.1091106730",
+                "pub.1006087509",
+                "pub.1051980405",
                 "pub.1085277205",
+                "pub.1057645580",
+                "pub.1010566579",
                 "pub.1012010088",
-                "pub.1053427965"
+                "pub.1030261375",
+                "pub.1046145671",
+                "pub.1041824187",
+                "pub.1044123264"
             ],
             "research_org_cities": [
                 {
@@ -470,17 +519,23 @@
                 }
             ],
             "research_org_country_names": [
-                "United States",
-                "United Kingdom"
+                "United Kingdom",
+                "United States"
+            ],
+            "research_org_names": [
+                "University of Central Florida",
+                "National Ocean Service",
+                "National Oceanography Centre",
+                "University of South Florida"
             ],
             "research_org_state_codes": [
                 {
-                    "id": "US-FL",
-                    "name": "Florida"
-                },
-                {
                     "id": "US-MD",
                     "name": "Maryland"
+                },
+                {
+                    "id": "US-FL",
+                    "name": "Florida"
                 }
             ],
             "research_org_state_names": [
@@ -489,31 +544,16 @@
             ],
             "research_orgs": [
                 {
-                    "acronym": "NOC",
-                    "city_name": "Southampton",
-                    "country_name": "United Kingdom",
-                    "id": "grid.418022.d",
-                    "latitude": 50.892982,
-                    "linkout": [
-                        "http://noc.ac.uk/"
-                    ],
-                    "longitude": -1.394984,
-                    "name": "National Oceanography Centre",
-                    "types": [
-                        "Facility"
-                    ]
-                },
-                {
-                    "acronym": "UCF",
-                    "city_name": "Orlando",
+                    "acronym": "USF",
+                    "city_name": "Tampa",
                     "country_name": "United States",
-                    "id": "grid.170430.1",
-                    "latitude": 28.6016,
+                    "id": "grid.170693.a",
+                    "latitude": 28.054562,
                     "linkout": [
-                        "http://www.ucf.edu/"
+                        "http://www.usf.edu/"
                     ],
-                    "longitude": -81.2005,
-                    "name": "University of Central Florida",
+                    "longitude": -82.413055,
+                    "name": "University of South Florida",
                     "state_name": "Florida",
                     "types": [
                         "Education"
@@ -536,19 +576,34 @@
                     ]
                 },
                 {
-                    "acronym": "USF",
-                    "city_name": "Tampa",
+                    "acronym": "UCF",
+                    "city_name": "Orlando",
                     "country_name": "United States",
-                    "id": "grid.170693.a",
-                    "latitude": 28.054562,
+                    "id": "grid.170430.1",
+                    "latitude": 28.6016,
                     "linkout": [
-                        "http://www.usf.edu/"
+                        "http://www.ucf.edu/"
                     ],
-                    "longitude": -82.413055,
-                    "name": "University of South Florida",
+                    "longitude": -81.2005,
+                    "name": "University of Central Florida",
                     "state_name": "Florida",
                     "types": [
                         "Education"
+                    ]
+                },
+                {
+                    "acronym": "NOC",
+                    "city_name": "Southampton",
+                    "country_name": "United Kingdom",
+                    "id": "grid.418022.d",
+                    "latitude": 50.892982,
+                    "linkout": [
+                        "http://noc.ac.uk/"
+                    ],
+                    "longitude": -1.394984,
+                    "name": "National Oceanography Centre",
+                    "types": [
+                        "Facility"
                     ]
                 }
             ],
@@ -561,11 +616,11 @@
                         "0000-0002-0315-9055"
                     ],
                     "research_orgs": [
-                        "grid.1026.5",
-                        "grid.170430.1",
+                        "grid.1005.4",
                         "grid.443086.d",
+                        "grid.170430.1",
                         "grid.412656.2",
-                        "grid.1005.4"
+                        "grid.1026.5"
                     ]
                 },
                 {
@@ -573,10 +628,10 @@
                     "id": "ur.016660356101.06",
                     "last_name": "Wahl",
                     "research_orgs": [
-                        "grid.170693.a",
-                        "grid.5491.9",
                         "grid.5836.8",
-                        "grid.170430.1"
+                        "grid.170693.a",
+                        "grid.170430.1",
+                        "grid.5491.9"
                     ]
                 },
                 {
@@ -587,9 +642,9 @@
                         "0000-0002-5439-0257"
                     ],
                     "research_orgs": [
-                        "grid.170693.a",
                         "grid.89336.37",
                         "grid.447547.1",
+                        "grid.170693.a",
                         "grid.5292.c"
                     ]
                 },
@@ -601,9 +656,9 @@
                         "0000-0002-7474-135X"
                     ],
                     "research_orgs": [
-                        "grid.170693.a",
+                        "grid.418022.d",
                         "grid.466857.e",
-                        "grid.418022.d"
+                        "grid.170693.a"
                     ]
                 },
                 {
@@ -611,8 +666,8 @@
                     "id": "ur.014507227601.65",
                     "last_name": "Sweet",
                     "research_orgs": [
-                        "grid.423022.5",
-                        "grid.3532.7"
+                        "grid.3532.7",
+                        "grid.423022.5"
                     ]
                 }
             ],
@@ -628,7 +683,6 @@
                 "separate indicators",
                 "mean sea level",
                 "sea level",
-                "storms",
                 "climatology",
                 "water level data",
                 "level data",
@@ -636,11 +690,10 @@
                 "tide gauges",
                 "gauge",
                 "multi-decadal variability",
-                "decadal variability",
                 "variability",
-                "SSC",
-                "coastline stretch",
+                "coastline stretches",
                 "stretch",
+                "observed changes",
                 "changes",
                 "significant fluctuations",
                 "fluctuations",
@@ -657,7 +710,7 @@
                 "sea level components",
                 "level components",
                 "impact",
-                "time scale",
+                "time scales",
                 "scale",
                 "coastal planning",
                 "planning",
@@ -670,6 +723,7 @@
                 "likelihood of flooding",
                 "flooding"
             ],
+            "times_cited": 0,
             "title": "An extreme sea level indicator for the contiguous United States coastline",
             "type": "article",
             "volume": "6",
@@ -1937,7 +1991,7 @@
                 "count": 1,
                 "rank_score": 0.1143781981838053
             },
-            "an aggregated extreme sea level": {
+            "aggregated extreme sea level": {
                 "count": 1,
                 "rank_score": 0.07254506429236891
             },
@@ -1945,13 +1999,29 @@
                 "count": 1,
                 "rank_score": 0.08077756737125447
             },
+            "contiguous united states coastline": {
+                "count": 1,
+                "rank_score": 0.05458128783423797
+            },
             "different sea level components": {
                 "count": 1,
                 "rank_score": 0.11188959655730252
             },
-            "indicators": {
+            "esl": {
+                "count": 4,
+                "rank_score": 0.06982466119635009
+            },
+            "flooding": {
                 "count": 1,
-                "rank_score": 0.09709803369079736
+                "rank_score": 0.05363229865385216
+            },
+            "interannual": {
+                "count": 1,
+                "rank_score": 0.049172946766424454
+            },
+            "long-term msl rise": {
+                "count": 1,
+                "rank_score": 0.06024551854213245
             },
             "many coastal communities": {
                 "count": 1,
@@ -1977,17 +2047,41 @@
                 "count": 1,
                 "rank_score": 0.10293812231816668
             },
+            "periods": {
+                "count": 1,
+                "rank_score": 0.04994710312670612
+            },
+            "proposed indicator": {
+                "count": 1,
+                "rank_score": 0.05876521126102463
+            },
             "separate indicators": {
                 "count": 1,
                 "rank_score": 0.09762429730873476
+            },
+            "significant fluctuations": {
+                "count": 1,
+                "rank_score": 0.058866061850717404
             },
             "ssc": {
                 "count": 3,
                 "rank_score": 0.07002330819304264
             },
+            "storm surge climatology": {
+                "count": 1,
+                "rank_score": 0.06560717531638087
+            },
+            "tide gauges": {
+                "count": 1,
+                "rank_score": 0.061580964182909904
+            },
             "tracking changes": {
                 "count": 1,
                 "rank_score": 0.07474278784230629
+            },
+            "united states": {
+                "count": 1,
+                "rank_score": 0.059079579207479416
             },
             "water level data": {
                 "count": 1,
@@ -4085,13 +4179,29 @@
                 "count": 1,
                 "rank_score": 0.068532823866992
             },
+            "combined glacial isostatic adjustment": {
+                "count": 1,
+                "rank_score": 0.06102375377681119
+            },
             "delayed viscoelastic response": {
                 "count": 1,
                 "rank_score": 0.07992992402133625
             },
+            "earth": {
+                "count": 2,
+                "rank_score": 0.05417804242795677
+            },
             "glacial isostatic adjustment": {
                 "count": 1,
                 "rank_score": 0.08208761734905737
+            },
+            "global ocean salt budget": {
+                "count": 1,
+                "rank_score": 0.06239148850601237
+            },
+            "grace": {
+                "count": 1,
+                "rank_score": 0.046122098270936746
             },
             "grace data": {
                 "count": 1,
@@ -4101,45 +4211,69 @@
                 "count": 1,
                 "rank_score": 0.07212309045254067
             },
+            "gravity recovery and climate experiment": {
+                "count": 1,
+                "rank_score": 0.05789532791372842
+            },
             "increasing continental freshwater discharge": {
                 "count": 1,
                 "rank_score": 0.08467127821858489
+            },
+            "independent constraint": {
+                "count": 1,
+                "rank_score": 0.04863403496019717
+            },
+            "independent validation": {
+                "count": 1,
+                "rank_score": 0.04983927429233931
+            },
+            "last deglaciation- and geocenter variations": {
+                "count": 1,
+                "rank_score": 0.04498600425060286
             },
             "mass": {
                 "count": 1,
                 "rank_score": 0.07519690291267284
             },
+            "net ocean mass contribution": {
+                "count": 1,
+                "rank_score": 0.06993601638306172
+            },
+            "new ocean mass trends": {
+                "count": 1,
+                "rank_score": 0.08911332063883783
+            },
+            "observed rise": {
+                "count": 1,
+                "rank_score": 0.04369191963222369
+            },
             "ocean mass trend": {
                 "count": 3,
                 "rank_score": 0.1404770108936809
+            },
+            "ocean mass trends": {
+                "count": 1,
+                "rank_score": 0.08705241318634827
             },
             "sea level": {
                 "count": 2,
                 "rank_score": 0.10101573866104432
             },
+            "sea level budget approach": {
+                "count": 1,
+                "rank_score": 0.07152692334421698
+            },
             "situ data": {
                 "count": 1,
                 "rank_score": 0.06193187030973071
             },
-            "the global ocean salt budget": {
+            "yr−1": {
                 "count": 1,
-                "rank_score": 0.06239148850601237
+                "rank_score": 0.05582760257514045
             },
-            "the net ocean mass contribution": {
+            "yr−1 (full depth": {
                 "count": 1,
-                "rank_score": 0.06993601638306172
-            },
-            "the ocean mass trends": {
-                "count": 1,
-                "rank_score": 0.08705241318634827
-            },
-            "the sea level budget approach": {
-                "count": 1,
-                "rank_score": 0.07152692334421698
-            },
-            "these new ocean mass trends": {
-                "count": 1,
-                "rank_score": 0.08911332063883783
+                "rank_score": 0.05233837741419418
             }
         },
         "original": {
@@ -4166,6 +4300,7 @@
                     "name": "09 Engineering"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -4194,6 +4329,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Jian",
+                        "initials": "",
                         "last_name": "Zhao",
                         "orcid": "",
                         "researcher_id": ""
@@ -4214,6 +4350,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Ruiyang",
+                        "initials": "",
                         "last_name": "Cai",
                         "orcid": "",
                         "researcher_id": ""
@@ -4244,6 +4381,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Yanguo",
+                        "initials": "",
                         "last_name": "Fan",
                         "orcid": "",
                         "researcher_id": ""
@@ -4277,6 +4415,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Jian",
+                    "initials": "",
                     "last_name": "Zhao",
                     "orcid": "",
                     "researcher_id": ""
@@ -4297,6 +4436,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Ruiyang",
+                    "initials": "",
                     "last_name": "Cai",
                     "orcid": "",
                     "researcher_id": ""
@@ -4327,6 +4467,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Yanguo",
+                    "initials": "",
                     "last_name": "Fan",
                     "orcid": "",
                     "researcher_id": ""
@@ -4342,6 +4483,7 @@
                     "name": "0909 Geomatic Engineering"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30012",
@@ -4364,7 +4506,7 @@
                 "important scientific issues",
                 "scientific issues",
                 "paper",
-                "sea level anomaly data",
+                "sea level anomaly (SLA) data",
                 "anomaly data",
                 "data",
                 "satellite altimetry",
@@ -4372,8 +4514,7 @@
                 "sea level variations",
                 "level variations",
                 "variation",
-                "Shandong Peninsula",
-                "complete ensemble empirical mode decomposition method",
+                "complete ensemble empirical mode decomposition (CEEMD) method",
                 "ensemble empirical mode decomposition (EEMD) method",
                 "empirical mode decomposition method",
                 "mode decomposition method",
@@ -4385,7 +4526,6 @@
                 "network",
                 "prediction approach",
                 "approach",
-                "RBF",
                 "model",
                 "oscillatory modes",
                 "mode",
@@ -4394,20 +4534,18 @@
                 "process",
                 "CEEMD",
                 "frequency",
-                "oscillating modes",
+                "low frequency",
+                "RBF network",
                 "prediction model",
                 "IMF components",
                 "components",
                 "future trends",
-                "trends",
                 "input factors",
-                "prediction results",
-                "results",
                 "final prediction",
                 "sea level anomalies",
                 "level anomalies",
+                "results",
                 "non-stationary time series",
-                "stationary time series",
                 "time series",
                 "series",
                 "sea level predictions",
@@ -4430,16 +4568,47 @@
                 "title": "Sensors"
             },
             "journal_lists": [
+                "VABB-SHW",
+                "ERA 2018",
+                "Norwegian register level 1",
                 "DOAJ",
                 "ERA 2015",
-                "Norwegian register level 1",
-                "VABB-SHW",
                 "PubMed"
             ],
-            "linkout": "http://dx.doi.org/10.3390/s19214770",
+            "linkout": "https://www.mdpi.com/1424-8220/19/21/4770/pdf",
+            "noun_phrases": [
+                "prediction",
+                "sea level",
+                "peninsula",
+                "satellite altimetry",
+                "level change",
+                "key indicator",
+                "climate change",
+                "sea level rise",
+                "important scientific issue",
+                "paper",
+                "SLA",
+                "sea level variation",
+                "empirical mode decomposition",
+                "method",
+                "radial basis function",
+                "network",
+                "multi-scale",
+                "mode",
+                "oceanic process",
+                "high frequency",
+                "low frequency",
+                "prediction model",
+                "component",
+                "future trend",
+                "input",
+                "non-stationary time series",
+                "different scale"
+            ],
             "open_access": [
                 "Open Access - all",
-                "Open Access - publisher"
+                "Open Access - publisher",
+                "Open Access - published"
             ],
             "open_access_categories": [
                 {
@@ -4448,64 +4617,65 @@
                     "name": "All OA"
                 },
                 {
-                    "description": "Freely available on publisher page, but without an open licence",
-                    "id": "gold_bronze",
-                    "name": "Bronze"
+                    "description": "Version Of Record (VOR) is free under an open licence from a full OA journal",
+                    "id": "gold_pure",
+                    "name": "Pure Gold"
                 }
             ],
             "pages": "4770",
             "pmcid": "PMC6864553",
             "pmid": "31684069",
             "publisher": "MDPI",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1052708710",
-                "pub.1004107522",
-                "pub.1117070350",
-                "pub.1084025636",
-                "pub.1026726938",
                 "pub.1013374950",
-                "pub.1052782012",
-                "pub.1036858933",
                 "pub.1003846001",
-                "pub.1016104948",
-                "pub.1026284168",
-                "pub.1034583308",
-                "pub.1063022921",
-                "pub.1114846168",
-                "pub.1035586244",
-                "pub.1048418364",
-                "pub.1038690008",
-                "pub.1110422371",
-                "pub.1003876592",
-                "pub.1052134502",
-                "pub.1037454568",
+                "pub.1052782012",
                 "pub.1022865238",
-                "pub.1007675814"
+                "pub.1034583308",
+                "pub.1037454568",
+                "pub.1110422371",
+                "pub.1052708710",
+                "pub.1063022921",
+                "pub.1003876592",
+                "pub.1048418364",
+                "pub.1035586244",
+                "pub.1007675814",
+                "pub.1026726938",
+                "pub.1038690008",
+                "pub.1036858933",
+                "pub.1004107522",
+                "pub.1016104948",
+                "pub.1114846168",
+                "pub.1052134502",
+                "pub.1084025636",
+                "pub.1117070350",
+                "pub.1026284168"
             ],
             "references": [
-                "pub.1052708710",
-                "pub.1004107522",
-                "pub.1117070350",
-                "pub.1084025636",
-                "pub.1026726938",
                 "pub.1013374950",
-                "pub.1052782012",
-                "pub.1036858933",
                 "pub.1003846001",
-                "pub.1016104948",
-                "pub.1026284168",
-                "pub.1034583308",
-                "pub.1063022921",
-                "pub.1114846168",
-                "pub.1035586244",
-                "pub.1048418364",
-                "pub.1038690008",
-                "pub.1110422371",
-                "pub.1003876592",
-                "pub.1052134502",
-                "pub.1037454568",
+                "pub.1052782012",
                 "pub.1022865238",
-                "pub.1007675814"
+                "pub.1034583308",
+                "pub.1037454568",
+                "pub.1110422371",
+                "pub.1052708710",
+                "pub.1063022921",
+                "pub.1003876592",
+                "pub.1048418364",
+                "pub.1035586244",
+                "pub.1007675814",
+                "pub.1026726938",
+                "pub.1038690008",
+                "pub.1036858933",
+                "pub.1004107522",
+                "pub.1016104948",
+                "pub.1114846168",
+                "pub.1052134502",
+                "pub.1084025636",
+                "pub.1117070350",
+                "pub.1026284168"
             ],
             "research_org_cities": [
                 {
@@ -4522,21 +4692,11 @@
             "research_org_country_names": [
                 "China"
             ],
+            "research_org_names": [
+                "Qingdao National Laboratory for Marine Science and Technology",
+                "China University of Petroleum"
+            ],
             "research_orgs": [
-                {
-                    "city_name": "Qingdao",
-                    "country_name": "China",
-                    "id": "grid.497420.c",
-                    "latitude": 35.943577,
-                    "linkout": [
-                        "http://english.upc.edu.cn/"
-                    ],
-                    "longitude": 120.171555,
-                    "name": "China University of Petroleum",
-                    "types": [
-                        "Education"
-                    ]
-                },
                 {
                     "acronym": "QNLM",
                     "city_name": "Qingdao",
@@ -4551,6 +4711,20 @@
                     "types": [
                         "Facility"
                     ]
+                },
+                {
+                    "city_name": "Qingdao",
+                    "country_name": "China",
+                    "id": "grid.497420.c",
+                    "latitude": 35.943577,
+                    "linkout": [
+                        "http://english.upc.edu.cn/"
+                    ],
+                    "longitude": 120.171555,
+                    "name": "China University of Petroleum",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "terms": [
@@ -4563,7 +4737,7 @@
                 "important scientific issues",
                 "scientific issues",
                 "paper",
-                "sea level anomaly data",
+                "sea level anomaly (SLA) data",
                 "anomaly data",
                 "data",
                 "satellite altimetry",
@@ -4571,8 +4745,7 @@
                 "sea level variations",
                 "level variations",
                 "variation",
-                "Shandong Peninsula",
-                "complete ensemble empirical mode decomposition method",
+                "complete ensemble empirical mode decomposition (CEEMD) method",
                 "ensemble empirical mode decomposition (EEMD) method",
                 "empirical mode decomposition method",
                 "mode decomposition method",
@@ -4584,7 +4757,6 @@
                 "network",
                 "prediction approach",
                 "approach",
-                "RBF",
                 "model",
                 "oscillatory modes",
                 "mode",
@@ -4593,20 +4765,18 @@
                 "process",
                 "CEEMD",
                 "frequency",
-                "oscillating modes",
+                "low frequency",
+                "RBF network",
                 "prediction model",
                 "IMF components",
                 "components",
                 "future trends",
-                "trends",
                 "input factors",
-                "prediction results",
-                "results",
                 "final prediction",
                 "sea level anomalies",
                 "level anomalies",
+                "results",
                 "non-stationary time series",
-                "stationary time series",
                 "time series",
                 "series",
                 "sea level predictions",
@@ -4615,6 +4785,7 @@
                 "scale",
                 "nonlinear trend"
             ],
+            "times_cited": 0,
             "title": "Prediction of Sea Level Nonlinear Trends around Shandong Peninsula from Satellite Altimetry",
             "type": "article",
             "volume": "19",
@@ -6186,29 +6357,65 @@
         },
         "doi": "10.3390/s19214770",
         "keyphrases": {
-            "an improved sea level multi-scale prediction approach": {
-                "count": 1,
-                "rank_score": 0.1050055307797827
-            },
             "ceemd": {
                 "count": 3,
                 "rank_score": 0.07503789928728757
+            },
+            "ceemd-rbf": {
+                "count": 1,
+                "rank_score": 0.06132257785181417
             },
             "ceemd-rbf combined model": {
                 "count": 1,
                 "rank_score": 0.07048836823724294
             },
+            "climate change": {
+                "count": 1,
+                "rank_score": 0.06437853170288174
+            },
+            "complete ensemble empirical mode decomposition": {
+                "count": 2,
+                "rank_score": 0.062448711176853355
+            },
             "different oceanic processes": {
                 "count": 1,
                 "rank_score": 0.07581013078616589
+            },
+            "different scales": {
+                "count": 1,
+                "rank_score": 0.06078927169026086
+            },
+            "final predictions": {
+                "count": 1,
+                "rank_score": 0.054435634157075044
+            },
+            "improved sea level multi-scale prediction approach": {
+                "count": 1,
+                "rank_score": 0.1050055307797827
             },
             "intrinsic mode functions": {
                 "count": 1,
                 "rank_score": 0.07970084501106228
             },
+            "lowest frequency oscillating mode": {
+                "count": 1,
+                "rank_score": 0.06106382106155475
+            },
+            "multi-scale frequency oscillatory modes": {
+                "count": 1,
+                "rank_score": 0.08221682946703344
+            },
+            "nonlinear and non-stationary time series": {
+                "count": 1,
+                "rank_score": 0.0673369062202745
+            },
             "prediction models": {
                 "count": 1,
                 "rank_score": 0.09811824586704293
+            },
+            "prediction results": {
+                "count": 1,
+                "rank_score": 0.05614569452596203
             },
             "radial basis function": {
                 "count": 2,
@@ -6222,6 +6429,10 @@
                 "count": 1,
                 "rank_score": 0.13652579204464152
             },
+            "satellite altimetry": {
+                "count": 1,
+                "rank_score": 0.05741036367410555
+            },
             "sea level anomalies": {
                 "count": 1,
                 "rank_score": 0.12168273018924905
@@ -6234,13 +6445,13 @@
                 "count": 1,
                 "rank_score": 0.12168273018924905
             },
-            "the multi-scale frequency oscillatory modes": {
-                "count": 1,
-                "rank_score": 0.08221682946703344
-            },
-            "the sea level variations": {
+            "sea level variations": {
                 "count": 1,
                 "rank_score": 0.07968943253881768
+            },
+            "shandong peninsula": {
+                "count": 1,
+                "rank_score": 0.0521638007116063
             },
             "various imf components": {
                 "count": 1,
@@ -6270,6 +6481,7 @@
                     "name": "04 Earth Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -6288,6 +6500,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.461729.f",
                         "first_name": "Thomas",
+                        "initials": "",
                         "last_name": "Mann",
                         "orcid": "",
                         "researcher_id": "ur.013207325475.18"
@@ -6318,6 +6531,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Maren",
+                        "initials": "",
                         "last_name": "Bender",
                         "orcid": "",
                         "researcher_id": ""
@@ -6348,6 +6562,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Thomas",
+                        "initials": "",
                         "last_name": "Lorscheid",
                         "orcid": "",
                         "researcher_id": ""
@@ -6361,6 +6576,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.10914.3d",
                         "first_name": "Paolo",
+                        "initials": "",
                         "last_name": "Stocchi",
                         "orcid": "",
                         "researcher_id": "ur.01364660467.97"
@@ -6379,8 +6595,9 @@
                             }
                         ],
                         "corresponding": "",
-                        "current_organization_id": "grid.8391.3",
+                        "current_organization_id": "grid.5395.a",
                         "first_name": "Matteo",
+                        "initials": "",
                         "last_name": "Vacchi",
                         "orcid": "['0000-0002-1569-7862']",
                         "researcher_id": "ur.014674725727.05"
@@ -6396,11 +6613,22 @@
                                 "name": "Nanyang Technological University",
                                 "state": null,
                                 "state_code": null
+                            },
+                            {
+                                "city": "Singapore",
+                                "city_id": 1880252,
+                                "country": "Singapore",
+                                "country_code": "SG",
+                                "id": "grid.59025.3b",
+                                "name": "Nanyang Technological University",
+                                "state": null,
+                                "state_code": null
                             }
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.59025.3b",
                         "first_name": "Adam",
+                        "initials": "",
                         "last_name": "Switzer",
                         "orcid": "['0000-0002-4352-7852']",
                         "researcher_id": "ur.01176432015.36"
@@ -6431,6 +6659,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.7704.4",
                         "first_name": "Alessio",
+                        "initials": "",
                         "last_name": "Rovere",
                         "orcid": "['0000-0001-5575-1168']",
                         "researcher_id": "ur.0626134035.67"
@@ -6454,6 +6683,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.461729.f",
                     "first_name": "Thomas",
+                    "initials": "",
                     "last_name": "Mann",
                     "orcid": "",
                     "researcher_id": "ur.013207325475.18"
@@ -6484,6 +6714,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Maren",
+                    "initials": "",
                     "last_name": "Bender",
                     "orcid": "",
                     "researcher_id": ""
@@ -6514,6 +6745,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Thomas",
+                    "initials": "",
                     "last_name": "Lorscheid",
                     "orcid": "",
                     "researcher_id": ""
@@ -6527,6 +6759,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.10914.3d",
                     "first_name": "Paolo",
+                    "initials": "",
                     "last_name": "Stocchi",
                     "orcid": "",
                     "researcher_id": "ur.01364660467.97"
@@ -6545,8 +6778,9 @@
                         }
                     ],
                     "corresponding": "",
-                    "current_organization_id": "grid.8391.3",
+                    "current_organization_id": "grid.5395.a",
                     "first_name": "Matteo",
+                    "initials": "",
                     "last_name": "Vacchi",
                     "orcid": "['0000-0002-1569-7862']",
                     "researcher_id": "ur.014674725727.05"
@@ -6562,11 +6796,22 @@
                             "name": "Nanyang Technological University",
                             "state": null,
                             "state_code": null
+                        },
+                        {
+                            "city": "Singapore",
+                            "city_id": 1880252,
+                            "country": "Singapore",
+                            "country_code": "SG",
+                            "id": "grid.59025.3b",
+                            "name": "Nanyang Technological University",
+                            "state": null,
+                            "state_code": null
                         }
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.59025.3b",
                     "first_name": "Adam",
+                    "initials": "",
                     "last_name": "Switzer",
                     "orcid": "['0000-0002-4352-7852']",
                     "researcher_id": "ur.01176432015.36"
@@ -6597,6 +6842,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.7704.4",
                     "first_name": "Alessio",
+                    "initials": "",
                     "last_name": "Rovere",
                     "orcid": "['0000-0001-5575-1168']",
                     "researcher_id": "ur.0626134035.67"
@@ -6612,6 +6858,7 @@
                     "name": "04 Earth Sciences"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30014",
@@ -6625,9 +6872,10 @@
                 }
             ],
             "concepts": [
+                "relative sea-level indicators",
                 "sea-level indicators",
-                "level indicators",
                 "indicators",
+                "broader Southeast Asian region",
                 "Southeast Asian region",
                 "Asian region",
                 "region",
@@ -6635,21 +6883,16 @@
                 "India",
                 "Sri Lanka",
                 "Lanka",
-                "quality",
-                "relative sea",
-                "Sea",
-                "level data",
+                "relative sea-level data",
+                "sea-level data",
                 "data",
                 "suite",
                 "glacial isostatic adjustment models",
                 "adjustment model",
                 "model",
                 "relation",
-                "relative sea-level data",
-                "sea-level data",
                 "broad predictions",
                 "prediction",
-                "Holocene sea level",
                 "sea level",
                 "Southeast Asia",
                 "Asia",
@@ -6695,14 +6938,33 @@
                 "title": "Data in Brief"
             },
             "journal_lists": [
+                "ERA 2018",
                 "DOAJ",
                 "Norwegian register level 1",
                 "PubMed"
             ],
-            "linkout": "http://dx.doi.org/10.1016/j.dib.2019.104600",
+            "linkout": "https://doi.org/10.1016/j.dib.2019.104600",
+            "noun_phrases": [
+                "relative sea-level",
+                "database",
+                "model prediction",
+                "glacial isostatic adjustment",
+                "data repository",
+                "different study",
+                "Southeast Asians",
+                "Indian Ocean",
+                "Sri Lanka",
+                "suite",
+                "relation",
+                "prediction",
+                "sea level",
+                "Southeastern Asia",
+                "review"
+            ],
             "open_access": [
                 "Open Access - all",
-                "Open Access - publisher"
+                "Open Access - publisher",
+                "Open Access - published"
             ],
             "open_access_categories": [
                 {
@@ -6711,68 +6973,69 @@
                     "name": "All OA"
                 },
                 {
-                    "description": "Freely available on publisher page, but without an open licence",
-                    "id": "gold_bronze",
-                    "name": "Bronze"
+                    "description": "Version Of Record (VOR) is free under an open licence from a full OA journal",
+                    "id": "gold_pure",
+                    "name": "Pure Gold"
                 }
             ],
             "pages": "104600",
             "pmcid": "PMC6817659",
             "pmid": "31673594",
             "publisher": "Elsevier",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1040238259",
-                "pub.1014218806",
-                "pub.1003412407",
-                "pub.1042919808",
-                "pub.1014335214",
-                "pub.1064152951",
-                "pub.1063898490",
-                "pub.1008915140",
-                "pub.1018378159",
-                "pub.1023016896",
-                "pub.1083739318",
                 "pub.1062733964",
+                "pub.1064152951",
+                "pub.1026528362",
+                "pub.1035498133",
+                "pub.1018378159",
+                "pub.1010595037",
+                "pub.1118086086",
+                "pub.1008850893",
+                "pub.1008915140",
+                "pub.1014335214",
+                "pub.1083739318",
+                "pub.1014218806",
+                "pub.1040238259",
+                "pub.1048054973",
+                "pub.1023016896",
+                "pub.1063898490",
+                "pub.1062548489",
+                "pub.1008640917",
+                "pub.1027299523",
+                "pub.1042919808",
                 "pub.1002403133",
                 "pub.1033944040",
-                "pub.1035498133",
-                "pub.1027299523",
-                "pub.1029005752",
                 "pub.1045470640",
-                "pub.1010595037",
-                "pub.1008850893",
-                "pub.1026528362",
-                "pub.1048054973",
-                "pub.1118086086",
-                "pub.1062548489",
-                "pub.1008640917"
+                "pub.1029005752",
+                "pub.1003412407"
             ],
             "references": [
-                "pub.1040238259",
-                "pub.1014218806",
-                "pub.1003412407",
-                "pub.1042919808",
-                "pub.1014335214",
-                "pub.1064152951",
-                "pub.1063898490",
-                "pub.1008915140",
-                "pub.1018378159",
-                "pub.1023016896",
-                "pub.1083739318",
                 "pub.1062733964",
+                "pub.1064152951",
+                "pub.1026528362",
+                "pub.1035498133",
+                "pub.1018378159",
+                "pub.1010595037",
+                "pub.1118086086",
+                "pub.1008850893",
+                "pub.1008915140",
+                "pub.1014335214",
+                "pub.1083739318",
+                "pub.1014218806",
+                "pub.1040238259",
+                "pub.1048054973",
+                "pub.1023016896",
+                "pub.1063898490",
+                "pub.1062548489",
+                "pub.1008640917",
+                "pub.1027299523",
+                "pub.1042919808",
                 "pub.1002403133",
                 "pub.1033944040",
-                "pub.1035498133",
-                "pub.1027299523",
-                "pub.1029005752",
                 "pub.1045470640",
-                "pub.1010595037",
-                "pub.1008850893",
-                "pub.1026528362",
-                "pub.1048054973",
-                "pub.1118086086",
-                "pub.1062548489",
-                "pub.1008640917"
+                "pub.1029005752",
+                "pub.1003412407"
             ],
             "research_org_cities": [
                 {
@@ -6802,35 +7065,42 @@
                     "name": "United Kingdom"
                 },
                 {
-                    "id": "NL",
-                    "name": "Netherlands"
+                    "id": "DE",
+                    "name": "Germany"
                 },
                 {
                     "id": "SG",
                     "name": "Singapore"
                 },
                 {
-                    "id": "DE",
-                    "name": "Germany"
+                    "id": "NL",
+                    "name": "Netherlands"
                 }
             ],
             "research_org_country_names": [
+                "Singapore",
                 "United Kingdom",
-                "Netherlands",
                 "Germany",
-                "Singapore"
+                "Netherlands"
+            ],
+            "research_org_names": [
+                "Nanyang Technological University",
+                "University of Exeter",
+                "NIOZ Royal Netherlands Institute for Sea Research, Department of Coastal Systems, and Utrecht University, Den Horn, Texel, the Netherlands",
+                "University of Bremen",
+                "Leibniz Center for Tropical Marine Ecology"
             ],
             "research_orgs": [
                 {
-                    "city_name": "Exeter",
-                    "country_name": "United Kingdom",
-                    "id": "grid.8391.3",
-                    "latitude": 50.737343,
+                    "city_name": "Bremen",
+                    "country_name": "Germany",
+                    "id": "grid.7704.4",
+                    "latitude": 53.108612,
                     "linkout": [
-                        "http://www.exeter.ac.uk/"
+                        "http://www.uni-bremen.de/en.html"
                     ],
-                    "longitude": -3.535159,
-                    "name": "University of Exeter",
+                    "longitude": 8.853611,
+                    "name": "University of Bremen",
                     "types": [
                         "Education"
                     ]
@@ -6851,15 +7121,15 @@
                     ]
                 },
                 {
-                    "city_name": "Bremen",
-                    "country_name": "Germany",
-                    "id": "grid.7704.4",
-                    "latitude": 53.108612,
+                    "city_name": "Exeter",
+                    "country_name": "United Kingdom",
+                    "id": "grid.8391.3",
+                    "latitude": 50.737343,
                     "linkout": [
-                        "http://www.uni-bremen.de/en.html"
+                        "http://www.exeter.ac.uk/"
                     ],
-                    "longitude": 8.853611,
-                    "name": "University of Bremen",
+                    "longitude": -3.535159,
+                    "name": "University of Exeter",
                     "types": [
                         "Education"
                     ]
@@ -6886,8 +7156,8 @@
                     "id": "ur.013207325475.18",
                     "last_name": "Mann",
                     "research_orgs": [
-                        "grid.461729.f",
-                        "grid.7704.4"
+                        "grid.7704.4",
+                        "grid.461729.f"
                     ]
                 },
                 {
@@ -6895,15 +7165,15 @@
                     "id": "ur.01364660467.97",
                     "last_name": "Stocchi",
                     "research_orgs": [
-                        "grid.433670.5",
-                        "grid.5477.1",
-                        "grid.435667.5",
-                        "grid.7839.5",
                         "grid.7704.4",
-                        "grid.10914.3d",
-                        "grid.12711.34",
+                        "grid.435667.5",
                         "grid.5326.2",
-                        "grid.5292.c"
+                        "grid.5477.1",
+                        "grid.5292.c",
+                        "grid.10914.3d",
+                        "grid.433670.5",
+                        "grid.12711.34",
+                        "grid.7839.5"
                     ]
                 },
                 {
@@ -6915,11 +7185,11 @@
                     ],
                     "research_orgs": [
                         "grid.8391.3",
-                        "grid.5606.5",
-                        "grid.5399.6",
+                        "grid.498067.4",
                         "grid.121334.6",
                         "grid.5395.a",
-                        "grid.498067.4"
+                        "grid.5606.5",
+                        "grid.5399.6"
                     ]
                 },
                 {
@@ -6930,12 +7200,12 @@
                         "0000-0002-4352-7852"
                     ],
                     "research_orgs": [
-                        "grid.429485.6",
                         "grid.484099.8",
-                        "grid.7704.4",
-                        "grid.194645.b",
                         "grid.1007.6",
-                        "grid.59025.3b"
+                        "grid.7704.4",
+                        "grid.429485.6",
+                        "grid.59025.3b",
+                        "grid.194645.b"
                     ]
                 },
                 {
@@ -6946,19 +7216,20 @@
                         "0000-0001-5575-1168"
                     ],
                     "research_orgs": [
-                        "grid.473157.3",
-                        "grid.474422.3",
-                        "grid.461729.f",
-                        "grid.21729.3f",
                         "grid.7704.4",
-                        "grid.5606.5"
+                        "grid.21729.3f",
+                        "grid.473157.3",
+                        "grid.5606.5",
+                        "grid.474422.3",
+                        "grid.461729.f"
                     ]
                 }
             ],
             "terms": [
+                "relative sea-level indicators",
                 "sea-level indicators",
-                "level indicators",
                 "indicators",
+                "broader Southeast Asian region",
                 "Southeast Asian region",
                 "Asian region",
                 "region",
@@ -6966,21 +7237,16 @@
                 "India",
                 "Sri Lanka",
                 "Lanka",
-                "quality",
-                "relative sea",
-                "Sea",
-                "level data",
+                "relative sea-level data",
+                "sea-level data",
                 "data",
                 "suite",
                 "glacial isostatic adjustment models",
                 "adjustment model",
                 "model",
                 "relation",
-                "relative sea-level data",
-                "sea-level data",
                 "broad predictions",
                 "prediction",
-                "Holocene sea level",
                 "sea level",
                 "Southeast Asia",
                 "Asia",
@@ -6991,6 +7257,7 @@
                 "isostatic adjustment",
                 "adjustment"
             ],
+            "times_cited": 0,
             "title": "Relative sea-level data from the SEAMIS database compared to ICE-5G model predictions of glacial isostatic adjustment",
             "type": "article",
             "volume": "27",
@@ -8347,9 +8614,13 @@
         },
         "doi": "10.1016/j.dib.2019.104600",
         "keyphrases": {
-            "546 relative sea-level indicators": {
+            "broad predictions": {
                 "count": 1,
-                "rank_score": 0.078226255779147
+                "rank_score": 0.05121700914630431
+            },
+            "broader southeast asian region": {
+                "count": 1,
+                "rank_score": 0.07325299260762139
             },
             "glacial isostatic adjustment models": {
                 "count": 1,
@@ -8375,6 +8646,10 @@
                 "count": 4,
                 "rank_score": 0.07478867341625636
             },
+            "mendeley": {
+                "count": 1,
+                "rank_score": 0.06228213890334855
+            },
             "mendeley data repository": {
                 "count": 1,
                 "rank_score": 0.10569949561823185
@@ -8391,6 +8666,14 @@
                 "count": 1,
                 "rank_score": 0.1086648537754219
             },
+            "seamis": {
+                "count": 3,
+                "rank_score": 0.06850627639130735
+            },
+            "seamis database": {
+                "count": 3,
+                "rank_score": 0.054651174918970154
+            },
             "southeast asia": {
                 "count": 2,
                 "rank_score": 0.07526877383648488
@@ -8403,9 +8686,9 @@
                 "count": 4,
                 "rank_score": 0.08226931239877913
             },
-            "the broader southeast asian region": {
+            "suite": {
                 "count": 1,
-                "rank_score": 0.07325299260762139
+                "rank_score": 0.028801723864494033
             }
         },
         "original": {
@@ -8431,6 +8714,7 @@
                     "name": "04 Earth Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -8449,6 +8733,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.121334.6",
                         "first_name": "Dimitri",
+                        "initials": "",
                         "last_name": "Defrance",
                         "orcid": "['0000-0003-1371-294X']",
                         "researcher_id": "ur.010673765267.75"
@@ -8472,6 +8757,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.121334.6",
                     "first_name": "Dimitri",
+                    "initials": "",
                     "last_name": "Defrance",
                     "orcid": "['0000-0003-1371-294X']",
                     "researcher_id": "ur.010673765267.75"
@@ -8487,6 +8773,7 @@
                     "name": "04 Earth Sciences"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30007",
@@ -8526,16 +8813,16 @@
                 "Model Intercomparison Project Phase 5",
                 "phase 5",
                 "climatic data",
-                "scale",
+                "x0.5",
                 "cumulative distribution function transform",
                 "function transform",
-                "transform",
-                "dataset",
+                "datasets",
                 "bias correction",
                 "correction",
                 "climate input data",
                 "input data",
                 "indice",
+                "unbiased data",
                 "grid cells",
                 "continent",
                 "extreme climatic indices",
@@ -8556,14 +8843,46 @@
                 "title": "Data in Brief"
             },
             "journal_lists": [
+                "ERA 2018",
                 "DOAJ",
                 "Norwegian register level 1",
                 "PubMed"
             ],
-            "linkout": "http://dx.doi.org/10.1016/j.dib.2019.104585",
+            "linkout": "https://doi.org/10.1016/j.dib.2019.104585",
+            "noun_phrases": [
+                "Dataset",
+                "extreme",
+                "acceleration",
+                "Ice Cover",
+                "article",
+                "data cube",
+                "raster",
+                "different scenario",
+                "important contribution",
+                "sea level rise",
+                "Antarctica",
+                "representative",
+                "emission scenario",
+                "index",
+                "resolution",
+                "maximum",
+                "temperature",
+                "precipitation",
+                "LR",
+                "coupled model",
+                "CMIP5",
+                "climatic data",
+                "scale",
+                "distribution function",
+                "bias correction",
+                "input data",
+                "grid cell",
+                "continent"
+            ],
             "open_access": [
                 "Open Access - all",
-                "Open Access - publisher"
+                "Open Access - publisher",
+                "Open Access - published"
             ],
             "open_access_categories": [
                 {
@@ -8572,36 +8891,37 @@
                     "name": "All OA"
                 },
                 {
-                    "description": "Freely available on publisher page, but without an open licence",
-                    "id": "gold_bronze",
-                    "name": "Bronze"
+                    "description": "Version Of Record (VOR) is free under an open licence from a full OA journal",
+                    "id": "gold_pure",
+                    "name": "Pure Gold"
                 }
             ],
             "pages": "104585",
             "pmcid": "PMC6817647",
             "pmid": "31673587",
             "publisher": "Elsevier",
+            "recent_citations": 1,
             "reference_ids": [
-                "pub.1093082699",
-                "pub.1101819180",
-                "pub.1012024490",
-                "pub.1028914989",
-                "pub.1018743258",
-                "pub.1009684696",
                 "pub.1031816253",
-                "pub.1038421763",
-                "pub.1009312055"
+                "pub.1018743258",
+                "pub.1009312055",
+                "pub.1009684696",
+                "pub.1028914989",
+                "pub.1012024490",
+                "pub.1101819180",
+                "pub.1093082699",
+                "pub.1038421763"
             ],
             "references": [
-                "pub.1093082699",
-                "pub.1101819180",
-                "pub.1012024490",
-                "pub.1028914989",
-                "pub.1018743258",
-                "pub.1009684696",
                 "pub.1031816253",
-                "pub.1038421763",
-                "pub.1009312055"
+                "pub.1018743258",
+                "pub.1009312055",
+                "pub.1009684696",
+                "pub.1028914989",
+                "pub.1012024490",
+                "pub.1101819180",
+                "pub.1093082699",
+                "pub.1038421763"
             ],
             "research_org_cities": [
                 {
@@ -8617,6 +8937,9 @@
             ],
             "research_org_country_names": [
                 "France"
+            ],
+            "research_org_names": [
+                "University of Montpellier"
             ],
             "research_orgs": [
                 {
@@ -8646,8 +8969,8 @@
                     ],
                     "research_orgs": [
                         "grid.4444.0",
-                        "grid.462844.8",
                         "grid.460789.4",
+                        "grid.462844.8",
                         "grid.121334.6"
                     ]
                 }
@@ -8679,16 +9002,16 @@
                 "Model Intercomparison Project Phase 5",
                 "phase 5",
                 "climatic data",
-                "scale",
+                "x0.5",
                 "cumulative distribution function transform",
                 "function transform",
-                "transform",
-                "dataset",
+                "datasets",
                 "bias correction",
                 "correction",
                 "climate input data",
                 "input data",
                 "indice",
+                "unbiased data",
                 "grid cells",
                 "continent",
                 "extreme climatic indices",
@@ -8697,6 +9020,7 @@
                 "ice sheet melting",
                 "melting"
             ],
+            "times_cited": 1,
             "title": "Dataset of global extreme climatic indices due to an acceleration of ice sheet melting during the 21st century",
             "type": "article",
             "volume": "27",
@@ -9595,9 +9919,25 @@
         },
         "doi": "10.1016/j.dib.2019.104585",
         "keyphrases": {
+            "antarctica": {
+                "count": 2,
+                "rank_score": 0.043321463899686274
+            },
+            "bias correction": {
+                "count": 1,
+                "rank_score": 0.04285087311447397
+            },
+            "cdft": {
+                "count": 1,
+                "rank_score": 0.05344684839079481
+            },
             "climate input data": {
                 "count": 1,
                 "rank_score": 0.10117678388693928
+            },
+            "climatic data": {
+                "count": 1,
+                "rank_score": 0.05193161150253123
             },
             "coupled model intercomparison project": {
                 "count": 1,
@@ -9607,9 +9947,13 @@
                 "count": 1,
                 "rank_score": 0.10096000215917268
             },
-            "daily": {
+            "cumulative distribution function": {
                 "count": 1,
-                "rank_score": 0.059839459218528276
+                "rank_score": 0.055022747731816715
+            },
+            "cumulative distribution function transform": {
+                "count": 1,
+                "rank_score": 0.06326817452071257
             },
             "daily maximum and minimum temperature": {
                 "count": 1,
@@ -9623,37 +9967,57 @@
                 "count": 1,
                 "rank_score": 0.06537083469668697
             },
+            "each extreme indice": {
+                "count": 1,
+                "rank_score": 0.04489797910713309
+            },
+            "each grid cell": {
+                "count": 1,
+                "rank_score": 0.04040296919316282
+            },
+            "ewembi": {
+                "count": 1,
+                "rank_score": 0.05395214347531044
+            },
             "extreme indices maps": {
                 "count": 1,
                 "rank_score": 0.09996779477442261
+            },
+            "greenland": {
+                "count": 2,
+                "rank_score": 0.05078192696694445
+            },
+            "ipsl": {
+                "count": 1,
+                "rank_score": 0.04600123188202081
+            },
+            "isimip": {
+                "count": 2,
+                "rank_score": 0.044568134456625615
+            },
+            "precipitation": {
+                "count": 1,
+                "rank_score": 0.05427507279074082
             },
             "raster x time": {
                 "count": 1,
                 "rank_score": 0.08261082817586762
             },
-            "the cumulative distribution function": {
-                "count": 1,
-                "rank_score": 0.055022747731816715
-            },
-            "the cumulative distribution function transform": {
-                "count": 1,
-                "rank_score": 0.06326817452071257
-            },
-            "the representative concentration pathway": {
+            "representative concentration pathway": {
                 "count": 1,
                 "rank_score": 0.056265773923016335
             },
-            "the sea level rise": {
+            "representative concentration pathway (rcp": {
+                "count": 1,
+                "rank_score": 0.04947196575862652
+            },
+            "sea level rise": {
                 "count": 1,
                 "rank_score": 0.05762534814729757
             },
-            "the unbiased data": {
+            "unbiased data": {
                 "count": 1,
                 "rank_score": 0.05906575296678792
-            },
-            "°": {
-                "count": 2,
-                "rank_score": 0.06208019731378843
             }
         },
         "original": {
@@ -9679,7 +10043,7 @@
                     "name": "09 Engineering"
                 }
             ],
-            "altmetric": 7103.0,
+            "altmetric": 7045.0,
             "altmetric_id": 69467830,
             "author_affiliations": [
                 [
@@ -9699,6 +10063,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.426747.4",
                         "first_name": "Scott A.",
+                        "initials": "",
                         "last_name": "Kulp",
                         "orcid": "",
                         "researcher_id": "ur.01060053623.03"
@@ -9719,6 +10084,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.426747.4",
                         "first_name": "Benjamin H.",
+                        "initials": "",
                         "last_name": "Strauss",
                         "orcid": "['0000-0002-6856-6575']",
                         "researcher_id": "ur.011534601735.42"
@@ -9742,6 +10108,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.426747.4",
                     "first_name": "Scott A.",
+                    "initials": "",
                     "last_name": "Kulp",
                     "orcid": "",
                     "researcher_id": "ur.01060053623.03"
@@ -9762,6 +10129,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.426747.4",
                     "first_name": "Benjamin H.",
+                    "initials": "",
                     "last_name": "Strauss",
                     "orcid": "['0000-0002-6856-6575']",
                     "researcher_id": "ur.011534601735.42"
@@ -9777,6 +10145,7 @@
                     "name": "0909 Geomatic Engineering"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30007",
@@ -9794,8 +10163,6 @@
                 "global mean sea-level rise",
                 "mean sea-level rise",
                 "sea-level rise",
-                "level rise",
-                "rise",
                 "quantity",
                 "vertical bias",
                 "digital elevation model",
@@ -9805,9 +10172,10 @@
                 "coastal water levels",
                 "water level",
                 "SRTM",
-                "new DEM",
+                "new digital elevation model",
                 "neural network",
                 "network",
+                "SRTM error",
                 "error",
                 "global land",
                 "land",
@@ -9876,17 +10244,41 @@
                 "title": "Nature Communications"
             },
             "journal_lists": [
+                "VABB-SHW",
+                "ERA 2018",
+                "Nature Index journals",
+                "Norwegian register level 2",
                 "DOAJ",
                 "ERA 2015",
-                "Norwegian register level 2",
-                "VABB-SHW",
-                "PubMed",
-                "Nature Index journals"
+                "PubMed"
             ],
-            "linkout": "http://dx.doi.org/10.1038/s41467-019-12808-z",
+            "linkout": "https://www.nature.com/articles/s41467-019-12808-z.pdf",
+            "noun_phrases": [
+                "elevation",
+                "vulnerability",
+                "sea level rise",
+                "coastal flooding",
+                "mean sea level",
+                "quantity",
+                "bias",
+                "digital elevation model",
+                "national population",
+                "coastal water",
+                "NASA's",
+                "Nerve Net",
+                "error",
+                "CI",
+                "tide",
+                "carbon emission",
+                "figure",
+                "emission",
+                "flood",
+                "current"
+            ],
             "open_access": [
                 "Open Access - all",
-                "Open Access - publisher"
+                "Open Access - publisher",
+                "Open Access - published"
             ],
             "open_access_categories": [
                 {
@@ -9895,117 +10287,117 @@
                     "name": "All OA"
                 },
                 {
-                    "description": "Freely available on publisher page, but without an open licence",
-                    "id": "gold_bronze",
-                    "name": "Bronze"
+                    "description": "Version Of Record (VOR) is free under an open licence from a full OA journal",
+                    "id": "gold_pure",
+                    "name": "Pure Gold"
                 }
             ],
             "pages": "4844",
             "pmcid": "PMC6820795",
             "pmid": "31664024",
             "publisher": "Springer Nature",
-            "recent_citations": 13,
+            "recent_citations": 29,
             "reference_ids": [
-                "pub.1113904138",
-                "pub.1019212969",
-                "pub.1024431836",
-                "pub.1032539613",
-                "pub.1114980467",
-                "pub.1023280734",
-                "pub.1090923760",
-                "pub.1018582679",
-                "pub.1013016817",
-                "pub.1041880393",
-                "pub.1085728160",
-                "pub.1048504488",
-                "pub.1026849906",
-                "pub.1100104543",
-                "pub.1090316688",
-                "pub.1110575095",
-                "pub.1016136084",
-                "pub.1025099720",
-                "pub.1083396821",
-                "pub.1016879792",
-                "pub.1072674817",
-                "pub.1043522418",
-                "pub.1008229624",
-                "pub.1004316067",
-                "pub.1023807363",
-                "pub.1063815738",
-                "pub.1046203269",
                 "pub.1062613617",
-                "pub.1022305022",
-                "pub.1085616052",
-                "pub.1092171714",
+                "pub.1032539613",
                 "pub.1072676320",
-                "pub.1006405146",
-                "pub.1099967879",
-                "pub.1011147218",
-                "pub.1025214908",
-                "pub.1099667227",
-                "pub.1061613208",
-                "pub.1028056478",
-                "pub.1009084680",
-                "pub.1084860883",
-                "pub.1038355018",
+                "pub.1046203269",
+                "pub.1083396821",
+                "pub.1024431836",
                 "pub.1100797871",
-                "pub.1111950409",
-                "pub.1033472693",
-                "pub.1029709365",
-                "pub.1086086580",
+                "pub.1061613208",
                 "pub.1003023956",
-                "pub.1052855088"
+                "pub.1099667227",
+                "pub.1052855088",
+                "pub.1028056478",
+                "pub.1041880393",
+                "pub.1018582679",
+                "pub.1023807363",
+                "pub.1009084680",
+                "pub.1029709365",
+                "pub.1072674817",
+                "pub.1026849906",
+                "pub.1099967879",
+                "pub.1016136084",
+                "pub.1092171714",
+                "pub.1019212969",
+                "pub.1043522418",
+                "pub.1085728160",
+                "pub.1086086580",
+                "pub.1090316688",
+                "pub.1048504488",
+                "pub.1008229624",
+                "pub.1025214908",
+                "pub.1110575095",
+                "pub.1063815738",
+                "pub.1085616052",
+                "pub.1016879792",
+                "pub.1013016817",
+                "pub.1100104543",
+                "pub.1113904138",
+                "pub.1084860883",
+                "pub.1114980467",
+                "pub.1004316067",
+                "pub.1025099720",
+                "pub.1090923760",
+                "pub.1033472693",
+                "pub.1023280734",
+                "pub.1038355018",
+                "pub.1011147218",
+                "pub.1022305022",
+                "pub.1111950409",
+                "pub.1006405146"
             ],
             "references": [
-                "pub.1113904138",
-                "pub.1019212969",
-                "pub.1024431836",
-                "pub.1032539613",
-                "pub.1114980467",
-                "pub.1023280734",
-                "pub.1090923760",
-                "pub.1018582679",
-                "pub.1013016817",
-                "pub.1041880393",
-                "pub.1085728160",
-                "pub.1048504488",
-                "pub.1026849906",
-                "pub.1100104543",
-                "pub.1090316688",
-                "pub.1110575095",
-                "pub.1016136084",
-                "pub.1025099720",
-                "pub.1083396821",
-                "pub.1016879792",
-                "pub.1072674817",
-                "pub.1043522418",
-                "pub.1008229624",
-                "pub.1004316067",
-                "pub.1023807363",
-                "pub.1063815738",
-                "pub.1046203269",
                 "pub.1062613617",
-                "pub.1022305022",
-                "pub.1085616052",
-                "pub.1092171714",
+                "pub.1032539613",
                 "pub.1072676320",
-                "pub.1006405146",
-                "pub.1099967879",
-                "pub.1011147218",
-                "pub.1025214908",
-                "pub.1099667227",
-                "pub.1061613208",
-                "pub.1028056478",
-                "pub.1009084680",
-                "pub.1084860883",
-                "pub.1038355018",
+                "pub.1046203269",
+                "pub.1083396821",
+                "pub.1024431836",
                 "pub.1100797871",
-                "pub.1111950409",
-                "pub.1033472693",
-                "pub.1029709365",
-                "pub.1086086580",
+                "pub.1061613208",
                 "pub.1003023956",
-                "pub.1052855088"
+                "pub.1099667227",
+                "pub.1052855088",
+                "pub.1028056478",
+                "pub.1041880393",
+                "pub.1018582679",
+                "pub.1023807363",
+                "pub.1009084680",
+                "pub.1029709365",
+                "pub.1072674817",
+                "pub.1026849906",
+                "pub.1099967879",
+                "pub.1016136084",
+                "pub.1092171714",
+                "pub.1019212969",
+                "pub.1043522418",
+                "pub.1085728160",
+                "pub.1086086580",
+                "pub.1090316688",
+                "pub.1048504488",
+                "pub.1008229624",
+                "pub.1025214908",
+                "pub.1110575095",
+                "pub.1063815738",
+                "pub.1085616052",
+                "pub.1016879792",
+                "pub.1013016817",
+                "pub.1100104543",
+                "pub.1113904138",
+                "pub.1084860883",
+                "pub.1114980467",
+                "pub.1004316067",
+                "pub.1025099720",
+                "pub.1090923760",
+                "pub.1033472693",
+                "pub.1023280734",
+                "pub.1038355018",
+                "pub.1011147218",
+                "pub.1022305022",
+                "pub.1111950409",
+                "pub.1006405146"
             ],
             "research_org_cities": [
                 {
@@ -10021,6 +10413,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Climate Central"
             ],
             "research_org_state_codes": [
                 {
@@ -10079,8 +10474,6 @@
                 "global mean sea-level rise",
                 "mean sea-level rise",
                 "sea-level rise",
-                "level rise",
-                "rise",
                 "quantity",
                 "vertical bias",
                 "digital elevation model",
@@ -10090,9 +10483,10 @@
                 "coastal water levels",
                 "water level",
                 "SRTM",
-                "new DEM",
+                "new digital elevation model",
                 "neural network",
                 "network",
+                "SRTM error",
                 "error",
                 "global land",
                 "land",
@@ -10108,7 +10502,7 @@
                 "coastal flooding",
                 "flooding"
             ],
-            "times_cited": 13,
+            "times_cited": 29,
             "title": "New elevation data triple estimates of global vulnerability to sea-level rise and coastal flooding",
             "type": "article",
             "volume": "10",
@@ -12247,6 +12641,10 @@
                 "count": 1,
                 "rank_score": 0.09156682718593191
             },
+            "global and national population exposures": {
+                "count": 1,
+                "rank_score": 0.06640921786658113
+            },
             "global land": {
                 "count": 1,
                 "rank_score": 0.11089914371127889
@@ -12275,9 +12673,29 @@
                 "count": 1,
                 "rank_score": 0.07065835974629728
             },
+            "nasa": {
+                "count": 2,
+                "rank_score": 0.05391812543265745
+            },
+            "nasa srtm-based estimates": {
+                "count": 1,
+                "rank_score": 0.051344941520901216
+            },
             "neural networks": {
                 "count": 2,
                 "rank_score": 0.08032648766625214
+            },
+            "new dem": {
+                "count": 2,
+                "rank_score": 0.05856875474060898
+            },
+            "new digital elevation model": {
+                "count": 1,
+                "rank_score": 0.06621851236634366
+            },
+            "principle digital elevation model": {
+                "count": 1,
+                "rank_score": 0.05802463856306046
             },
             "projected high tide lines": {
                 "count": 1,
@@ -12286,6 +12704,22 @@
             "projected sea levels": {
                 "count": 1,
                 "rank_score": 0.10892702456599819
+            },
+            "rcp4.5": {
+                "count": 1,
+                "rank_score": 0.048054760052223575
+            },
+            "srtm": {
+                "count": 2,
+                "rank_score": 0.06352851704721162
+            },
+            "srtm error": {
+                "count": 1,
+                "rank_score": 0.06751387088958646
+            },
+            "triple srtm-based values": {
+                "count": 1,
+                "rank_score": 0.06007670635285095
             }
         },
         "original": {
@@ -17338,17 +17772,49 @@
         },
         "doi": "10.1038/s41586-019-1550-3",
         "keyphrases": {
+            "cent": {
+                "count": 1,
+                "rank_score": 0.04914731871829904
+            },
             "firn cores": {
                 "count": 1,
                 "rank_score": 0.06732075578172066
+            },
+            "global sea-level rise": {
+                "count": 3,
+                "rank_score": 0.056877918796949256
             },
             "greenland": {
                 "count": 6,
                 "rank_score": 0.08497003236731339
             },
+            "greenland ice sheet": {
+                "count": 2,
+                "rank_score": 0.08494067362192065
+            },
+            "greenland ice sheet1–3": {
+                "count": 2,
+                "rank_score": 0.0786965436237984
+            },
+            "greenland’s high-elevation interior": {
+                "count": 1,
+                "rank_score": 0.055206891964330825
+            },
+            "ice sheet": {
+                "count": 1,
+                "rank_score": 0.07152293753755894
+            },
             "ice slabs": {
                 "count": 6,
                 "rank_score": 0.1303454442573258
+            },
+            "inhibit": {
+                "count": 1,
+                "rank_score": 0.04172154571115751
+            },
+            "mass loss": {
+                "count": 1,
+                "rank_score": 0.057372683985383116
             },
             "meltwater": {
                 "count": 1,
@@ -17358,9 +17824,29 @@
                 "count": 1,
                 "rank_score": 0.09086145700068211
             },
+            "metres-thick, low-permeability ‘ice slabs": {
+                "count": 1,
+                "rank_score": 0.049911582671505306
+            },
+            "observations": {
+                "count": 1,
+                "rank_score": 0.051845843480863185
+            },
+            "present and future hydrology": {
+                "count": 1,
+                "rank_score": 0.03938494899452866
+            },
             "radar observations": {
                 "count": 1,
                 "rank_score": 0.06296947447705031
+            },
+            "recent decades": {
+                "count": 2,
+                "rank_score": 0.05977175211738861
+            },
+            "recent increases": {
+                "count": 1,
+                "rank_score": 0.05871822623873922
             },
             "regional climate models": {
                 "count": 2,
@@ -17381,18 +17867,6 @@
             "surface meltwater feedback processes": {
                 "count": 1,
                 "rank_score": 0.11001998014365576
-            },
-            "the greenland ice sheet": {
-                "count": 2,
-                "rank_score": 0.08494067362192065
-            },
-            "the greenland ice sheet1–3": {
-                "count": 2,
-                "rank_score": 0.0786965436237984
-            },
-            "the ice sheet": {
-                "count": 1,
-                "rank_score": 0.07152293753755894
             },
             "total runoff area": {
                 "count": 1,
@@ -17423,7 +17897,7 @@
                     "name": "09 Engineering"
                 }
             ],
-            "altmetric": 47.0,
+            "altmetric": 55.0,
             "altmetric_id": 65548728,
             "author_affiliations": [
                 [
@@ -17446,6 +17920,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.5477.1",
                         "first_name": "P. S. J.",
+                        "initials": "",
                         "last_name": "Minderhoud",
                         "orcid": "['0000-0002-0940-5931']",
                         "researcher_id": "ur.011175003363.97"
@@ -17466,6 +17941,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "L.",
+                        "initials": "",
                         "last_name": "Coumou",
                         "orcid": "",
                         "researcher_id": ""
@@ -17489,6 +17965,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.5477.1",
                         "first_name": "G.",
+                        "initials": "",
                         "last_name": "Erkens",
                         "orcid": "",
                         "researcher_id": "ur.014723056435.33"
@@ -17509,6 +17986,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.5477.1",
                         "first_name": "H.",
+                        "initials": "",
                         "last_name": "Middelkoop",
                         "orcid": "['0000-0002-9549-292X']",
                         "researcher_id": "ur.010503172525.21"
@@ -17529,6 +18007,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.5477.1",
                         "first_name": "E.",
+                        "initials": "",
                         "last_name": "Stouthamer",
                         "orcid": "",
                         "researcher_id": "ur.016055056355.94"
@@ -17555,6 +18034,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.5477.1",
                     "first_name": "P. S. J.",
+                    "initials": "",
                     "last_name": "Minderhoud",
                     "orcid": "['0000-0002-0940-5931']",
                     "researcher_id": "ur.011175003363.97"
@@ -17575,6 +18055,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "L.",
+                    "initials": "",
                     "last_name": "Coumou",
                     "orcid": "",
                     "researcher_id": ""
@@ -17598,6 +18079,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.5477.1",
                     "first_name": "G.",
+                    "initials": "",
                     "last_name": "Erkens",
                     "orcid": "",
                     "researcher_id": "ur.014723056435.33"
@@ -17618,6 +18100,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.5477.1",
                     "first_name": "H.",
+                    "initials": "",
                     "last_name": "Middelkoop",
                     "orcid": "['0000-0002-9549-292X']",
                     "researcher_id": "ur.010503172525.21"
@@ -17638,6 +18121,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.5477.1",
                     "first_name": "E.",
+                    "initials": "",
                     "last_name": "Stouthamer",
                     "orcid": "",
                     "researcher_id": "ur.016055056355.94"
@@ -17653,6 +18137,7 @@
                     "name": "0909 Geomatic Engineering"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30012",
@@ -17666,10 +18151,11 @@
                 }
             ],
             "concepts": [
+                "low-relief landforms",
                 "sea-level rise",
-                "level rise",
                 "impact assessment",
                 "relative sea-level rise",
+                "elevation data accuracy",
                 "data accuracy",
                 "accuracy",
                 "vertical datum",
@@ -17677,7 +18163,6 @@
                 "sea level",
                 "major deltas",
                 "data-sparse regions",
-                "sparse regions",
                 "region",
                 "global elevation data",
                 "elevation data",
@@ -17688,6 +18173,8 @@
                 "Vietnamese Mekong Delta",
                 "Mekong Delta",
                 "quality",
+                "cruciality",
+                "local tidal data",
                 "tidal data",
                 "results",
                 "major uncertainties",
@@ -17705,6 +18192,21 @@
             ],
             "funders": [
                 {
+                    "acronym": "NWO",
+                    "city_name": "The Hague",
+                    "country_name": "Netherlands",
+                    "id": "grid.420488.2",
+                    "latitude": 52.08048,
+                    "linkout": [
+                        "http://www.nwo.nl/"
+                    ],
+                    "longitude": 4.344407,
+                    "name": "Dutch Research Council",
+                    "types": [
+                        "Government"
+                    ]
+                },
+                {
                     "city_name": "Delft",
                     "country_name": "Netherlands",
                     "id": "grid.6385.8",
@@ -17716,21 +18218,6 @@
                     "name": "Deltares",
                     "types": [
                         "Facility"
-                    ]
-                },
-                {
-                    "acronym": "NWO",
-                    "city_name": "The Hague",
-                    "country_name": "Netherlands",
-                    "id": "grid.420488.2",
-                    "latitude": 52.08048,
-                    "linkout": [
-                        "http://www.nwo.nl/"
-                    ],
-                    "longitude": 4.344407,
-                    "name": "Netherlands Organisation for Scientific Research",
-                    "types": [
-                        "Government"
                     ]
                 }
             ],
@@ -17744,17 +18231,40 @@
                 "title": "Nature Communications"
             },
             "journal_lists": [
+                "VABB-SHW",
+                "ERA 2018",
+                "Nature Index journals",
+                "Norwegian register level 2",
                 "DOAJ",
                 "ERA 2015",
-                "Norwegian register level 2",
-                "VABB-SHW",
-                "PubMed",
-                "Nature Index journals"
+                "PubMed"
             ],
-            "linkout": "http://dx.doi.org/10.1038/s41467-019-11602-1",
+            "linkout": "https://www.nature.com/articles/s41467-019-11602-1.pdf",
+            "noun_phrases": [
+                "Mekong Delta",
+                "sea level rise",
+                "low relief",
+                "impact assessment",
+                "relative sea level rise",
+                "delta",
+                "data accuracy",
+                "datum",
+                "sea level",
+                "major",
+                "sparse",
+                "Administrative Personnel",
+                "low resolution",
+                "elevation",
+                "satellite platform",
+                "high accuracy",
+                "major uncertainty",
+                "worldwide",
+                "error"
+            ],
             "open_access": [
                 "Open Access - all",
-                "Open Access - publisher"
+                "Open Access - publisher",
+                "Open Access - published"
             ],
             "open_access_categories": [
                 {
@@ -17763,115 +18273,115 @@
                     "name": "All OA"
                 },
                 {
-                    "description": "Freely available on publisher page, but without an open licence",
-                    "id": "gold_bronze",
-                    "name": "Bronze"
+                    "description": "Version Of Record (VOR) is free under an open licence from a full OA journal",
+                    "id": "gold_pure",
+                    "name": "Pure Gold"
                 }
             ],
             "pages": "3847",
             "pmcid": "PMC6713785",
             "pmid": "31462638",
             "publisher": "Springer Nature",
-            "recent_citations": 2,
+            "recent_citations": 5,
             "reference_ids": [
-                "pub.1021038636",
-                "pub.1073390531",
-                "pub.1085268557",
-                "pub.1019227572",
-                "pub.1000835123",
-                "pub.1005984807",
-                "pub.1048362517",
-                "pub.1085738120",
-                "pub.1053687795",
                 "pub.1002641007",
-                "pub.1005839705",
-                "pub.1007318681",
-                "pub.1022927388",
-                "pub.1100085843",
-                "pub.1015024117",
-                "pub.1046154395",
-                "pub.1047815744",
-                "pub.1023648553",
-                "pub.1110364740",
-                "pub.1032663528",
-                "pub.1105814185",
-                "pub.1023634159",
-                "pub.1084938905",
-                "pub.1006651721",
-                "pub.1013622625",
-                "pub.1003023956",
-                "pub.1027730197",
-                "pub.1045052884",
-                "pub.1031030859",
-                "pub.1037849673",
-                "pub.1085728160",
-                "pub.1062665962",
-                "pub.1006549016",
-                "pub.1061610257",
-                "pub.1058283223",
-                "pub.1033332705",
                 "pub.1053003277",
-                "pub.1046593184",
-                "pub.1045363316",
-                "pub.1036096777",
-                "pub.1099153894",
-                "pub.1051437103",
-                "pub.1110575095",
-                "pub.1040740722",
-                "pub.1031924514",
-                "pub.1008197305",
                 "pub.1033242940",
-                "pub.1110716272"
+                "pub.1031924514",
+                "pub.1023634159",
+                "pub.1058283223",
+                "pub.1003023956",
+                "pub.1045052884",
+                "pub.1007318681",
+                "pub.1033332705",
+                "pub.1073390531",
+                "pub.1062665962",
+                "pub.1013622625",
+                "pub.1085268557",
+                "pub.1110716272",
+                "pub.1053687795",
+                "pub.1085738120",
+                "pub.1084938905",
+                "pub.1008197305",
+                "pub.1040740722",
+                "pub.1023648553",
+                "pub.1045363316",
+                "pub.1048362517",
+                "pub.1085728160",
+                "pub.1046593184",
+                "pub.1100085843",
+                "pub.1110575095",
+                "pub.1019227572",
+                "pub.1021038636",
+                "pub.1015024117",
+                "pub.1037849673",
+                "pub.1005984807",
+                "pub.1000835123",
+                "pub.1006549016",
+                "pub.1036096777",
+                "pub.1022927388",
+                "pub.1061610257",
+                "pub.1032663528",
+                "pub.1110364740",
+                "pub.1047815744",
+                "pub.1051437103",
+                "pub.1046154395",
+                "pub.1027730197",
+                "pub.1006651721",
+                "pub.1031030859",
+                "pub.1005839705",
+                "pub.1105814185",
+                "pub.1099153894"
             ],
             "references": [
-                "pub.1021038636",
-                "pub.1073390531",
-                "pub.1085268557",
-                "pub.1019227572",
-                "pub.1000835123",
-                "pub.1005984807",
-                "pub.1048362517",
-                "pub.1085738120",
-                "pub.1053687795",
                 "pub.1002641007",
-                "pub.1005839705",
-                "pub.1007318681",
-                "pub.1022927388",
-                "pub.1100085843",
-                "pub.1015024117",
-                "pub.1046154395",
-                "pub.1047815744",
-                "pub.1023648553",
-                "pub.1110364740",
-                "pub.1032663528",
-                "pub.1105814185",
-                "pub.1023634159",
-                "pub.1084938905",
-                "pub.1006651721",
-                "pub.1013622625",
-                "pub.1003023956",
-                "pub.1027730197",
-                "pub.1045052884",
-                "pub.1031030859",
-                "pub.1037849673",
-                "pub.1085728160",
-                "pub.1062665962",
-                "pub.1006549016",
-                "pub.1061610257",
-                "pub.1058283223",
-                "pub.1033332705",
                 "pub.1053003277",
-                "pub.1046593184",
-                "pub.1045363316",
-                "pub.1036096777",
-                "pub.1099153894",
-                "pub.1051437103",
-                "pub.1110575095",
-                "pub.1040740722",
-                "pub.1031924514",
-                "pub.1008197305",
                 "pub.1033242940",
-                "pub.1110716272"
+                "pub.1031924514",
+                "pub.1023634159",
+                "pub.1058283223",
+                "pub.1003023956",
+                "pub.1045052884",
+                "pub.1007318681",
+                "pub.1033332705",
+                "pub.1073390531",
+                "pub.1062665962",
+                "pub.1013622625",
+                "pub.1085268557",
+                "pub.1110716272",
+                "pub.1053687795",
+                "pub.1085738120",
+                "pub.1084938905",
+                "pub.1008197305",
+                "pub.1040740722",
+                "pub.1023648553",
+                "pub.1045363316",
+                "pub.1048362517",
+                "pub.1085728160",
+                "pub.1046593184",
+                "pub.1100085843",
+                "pub.1110575095",
+                "pub.1019227572",
+                "pub.1021038636",
+                "pub.1015024117",
+                "pub.1037849673",
+                "pub.1005984807",
+                "pub.1000835123",
+                "pub.1006549016",
+                "pub.1036096777",
+                "pub.1022927388",
+                "pub.1061610257",
+                "pub.1032663528",
+                "pub.1110364740",
+                "pub.1047815744",
+                "pub.1051437103",
+                "pub.1046154395",
+                "pub.1027730197",
+                "pub.1006651721",
+                "pub.1031030859",
+                "pub.1005839705",
+                "pub.1105814185",
+                "pub.1099153894"
             ],
             "research_org_cities": [
                 {
@@ -17888,8 +18398,9 @@
             "research_org_country_names": [
                 "Netherlands"
             ],
-            "research_org_state_names": [
-                "Utrecht"
+            "research_org_names": [
+                "Department of Subsurface and Groundwater Systems, Deltares Research Institute, PO Box 85467, 3508 AL, Utrecht, The Netherlands",
+                "Utrecht University"
             ],
             "research_orgs": [
                 {
@@ -17917,8 +18428,8 @@
                         "0000-0002-0940-5931"
                     ],
                     "research_orgs": [
-                        "grid.6385.8",
                         "grid.5292.c",
+                        "grid.6385.8",
                         "grid.5477.1"
                     ]
                 },
@@ -17939,13 +18450,13 @@
                         "0000-0002-9549-292X"
                     ],
                     "research_orgs": [
-                        "grid.425715.0",
-                        "grid.466856.f",
-                        "grid.9026.d",
-                        "grid.4818.5",
                         "grid.5477.1",
+                        "grid.425715.0",
                         "grid.6214.1",
-                        "grid.5292.c"
+                        "grid.466856.f",
+                        "grid.5292.c",
+                        "grid.4818.5",
+                        "grid.9026.d"
                     ]
                 },
                 {
@@ -17961,10 +18472,11 @@
                 "grant.4113923"
             ],
             "terms": [
+                "low-relief landforms",
                 "sea-level rise",
-                "level rise",
                 "impact assessment",
                 "relative sea-level rise",
+                "elevation data accuracy",
                 "data accuracy",
                 "accuracy",
                 "vertical datum",
@@ -17972,7 +18484,6 @@
                 "sea level",
                 "major deltas",
                 "data-sparse regions",
-                "sparse regions",
                 "region",
                 "global elevation data",
                 "elevation data",
@@ -17983,13 +18494,15 @@
                 "Vietnamese Mekong Delta",
                 "Mekong Delta",
                 "quality",
+                "cruciality",
+                "local tidal data",
                 "tidal data",
                 "results",
                 "major uncertainties",
                 "uncertainty",
                 "error"
             ],
-            "times_cited": 2,
+            "times_cited": 5,
             "title": "Mekong delta much lower than previously assumed in sea-level rise impact assessments",
             "type": "article",
             "volume": "10",
@@ -20073,6 +20586,10 @@
         },
         "doi": "10.1038/s41467-019-11602-1",
         "keyphrases": {
+            "assessments": {
+                "count": 1,
+                "rank_score": 0.06262456701005849
+            },
             "elevation data": {
                 "count": 1,
                 "rank_score": 0.13742840589236813
@@ -20081,9 +20598,17 @@
                 "count": 1,
                 "rank_score": 0.13465324962366465
             },
+            "extremely low mean elevation": {
+                "count": 1,
+                "rank_score": 0.0614917533874327
+            },
             "global elevation data": {
                 "count": 2,
                 "rank_score": 0.13716399468265417
+            },
+            "impact assessments": {
+                "count": 1,
+                "rank_score": 0.07264016947519393
             },
             "local sea level": {
                 "count": 1,
@@ -20092,6 +20617,10 @@
             "local tidal datum": {
                 "count": 1,
                 "rank_score": 0.10408793087666612
+            },
+            "low-relief landforms": {
+                "count": 1,
+                "rank_score": 0.05744952904257431
             },
             "major elevation uncertainties": {
                 "count": 1,
@@ -20105,13 +20634,33 @@
                 "count": 1,
                 "rank_score": 0.09672658863980745
             },
+            "mekong": {
+                "count": 3,
+                "rank_score": 0.07294321189375988
+            },
+            "much lower elevation": {
+                "count": 1,
+                "rank_score": 0.058236348923447666
+            },
+            "novel elevation model": {
+                "count": 1,
+                "rank_score": 0.07402306783526617
+            },
             "other deltas": {
                 "count": 1,
                 "rank_score": 0.08007885127349543
             },
+            "policy makers": {
+                "count": 1,
+                "rank_score": 0.07156443438889684
+            },
             "relative sea-level rise": {
                 "count": 1,
                 "rank_score": 0.09057323481454144
+            },
+            "researchers": {
+                "count": 1,
+                "rank_score": 0.05614900072784818
             },
             "sea level": {
                 "count": 2,
@@ -20129,9 +20678,13 @@
                 "count": 1,
                 "rank_score": 0.09537174773765343
             },
-            "the novel elevation model": {
+            "underlying principles": {
                 "count": 1,
-                "rank_score": 0.07402306783526617
+                "rank_score": 0.0680232916262703
+            },
+            "vietnamese mekong delta": {
+                "count": 1,
+                "rank_score": 0.06167605929739437
             }
         },
         "original": {
@@ -20179,6 +20732,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Laura S",
+                        "initials": "",
                         "last_name": "Brophy",
                         "orcid": "",
                         "researcher_id": ""
@@ -20196,9 +20750,10 @@
                                 "state_code": "US-WA"
                             }
                         ],
-                        "corresponding": "",
+                        "corresponding": true,
                         "current_organization_id": "grid.420104.3",
                         "first_name": "Correigh M",
+                        "initials": "",
                         "last_name": "Greene",
                         "orcid": "",
                         "researcher_id": "ur.01274375605.59"
@@ -20212,6 +20767,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Van C",
+                        "initials": "",
                         "last_name": "Hare",
                         "orcid": "['0000-0003-3787-3377']",
                         "researcher_id": "ur.011711474500.02"
@@ -20225,6 +20781,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Brett",
+                        "initials": "",
                         "last_name": "Holycross",
                         "orcid": "",
                         "researcher_id": ""
@@ -20245,6 +20802,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Andy",
+                        "initials": "",
                         "last_name": "Lanier",
                         "orcid": "",
                         "researcher_id": ""
@@ -20265,6 +20823,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Walter N",
+                        "initials": "",
                         "last_name": "Heady",
                         "orcid": "",
                         "researcher_id": ""
@@ -20278,6 +20837,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Kevin",
+                        "initials": "",
                         "last_name": "O'Connor",
                         "orcid": "",
                         "researcher_id": ""
@@ -20291,6 +20851,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Hiroo",
+                        "initials": "",
                         "last_name": "Imaki",
                         "orcid": "",
                         "researcher_id": ""
@@ -20311,6 +20872,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Tanya",
+                        "initials": "",
                         "last_name": "Haddad",
                         "orcid": "",
                         "researcher_id": ""
@@ -20331,6 +20893,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Randy",
+                        "initials": "",
                         "last_name": "Dana",
                         "orcid": "",
                         "researcher_id": ""
@@ -20347,6 +20910,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Laura S",
+                    "initials": "",
                     "last_name": "Brophy",
                     "orcid": "",
                     "researcher_id": ""
@@ -20364,9 +20928,10 @@
                             "state_code": "US-WA"
                         }
                     ],
-                    "corresponding": "",
+                    "corresponding": true,
                     "current_organization_id": "grid.420104.3",
                     "first_name": "Correigh M",
+                    "initials": "",
                     "last_name": "Greene",
                     "orcid": "",
                     "researcher_id": "ur.01274375605.59"
@@ -20380,6 +20945,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Van C",
+                    "initials": "",
                     "last_name": "Hare",
                     "orcid": "['0000-0003-3787-3377']",
                     "researcher_id": "ur.011711474500.02"
@@ -20393,6 +20959,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Brett",
+                    "initials": "",
                     "last_name": "Holycross",
                     "orcid": "",
                     "researcher_id": ""
@@ -20413,6 +20980,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Andy",
+                    "initials": "",
                     "last_name": "Lanier",
                     "orcid": "",
                     "researcher_id": ""
@@ -20433,6 +21001,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Walter N",
+                    "initials": "",
                     "last_name": "Heady",
                     "orcid": "",
                     "researcher_id": ""
@@ -20446,6 +21015,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Kevin",
+                    "initials": "",
                     "last_name": "O'Connor",
                     "orcid": "",
                     "researcher_id": ""
@@ -20459,6 +21029,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Hiroo",
+                    "initials": "",
                     "last_name": "Imaki",
                     "orcid": "",
                     "researcher_id": ""
@@ -20479,6 +21050,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Tanya",
+                    "initials": "",
                     "last_name": "Haddad",
                     "orcid": "",
                     "researcher_id": ""
@@ -20499,6 +21071,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Randy",
+                    "initials": "",
                     "last_name": "Dana",
                     "orcid": "",
                     "researcher_id": ""
@@ -20522,6 +21095,7 @@
                     "name": "0502 Environmental Science and Management"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30014",
@@ -20551,25 +21125,24 @@
                 "tidal wetlands",
                 "tide",
                 "restoration opportunities",
-                "opportunities",
                 "water level model",
+                "level model",
                 "model",
                 "high-resolution elevation data",
                 "elevation data",
-                "data",
                 "estuarine conservation",
                 "new map",
                 "U.S. West Coast",
-                "West Coast",
+                "west coast",
                 "coast",
-                "elevation",
                 "extent models",
-                "LiDAR DEMs",
+                "LiDAR digital elevation model",
                 "digital elevation model",
                 "elevation model",
                 "historical extent",
                 "major step",
                 "step",
+                "mapping accuracy",
                 "restoration planning",
                 "analysis",
                 "wetland loss",
@@ -20579,11 +21152,11 @@
                 "estuary area",
                 "area",
                 "hectare",
-                "West Coast estuaries",
-                "coast estuaries",
+                "west coast estuaries",
                 "major river deltas",
                 "River Delta",
                 "delta",
+                "estuarine",
                 "habitat restoration",
                 "understanding",
                 "future changes",
@@ -20592,7 +21165,6 @@
                 "level rise",
                 "rise",
                 "insights",
-                "habitat loss",
                 "western United States",
                 "maximum extent"
             ],
@@ -20606,6 +21178,22 @@
                 }
             ],
             "funders": [
+                {
+                    "acronym": "NOAA",
+                    "city_name": "Washington D.C.",
+                    "country_name": "United States",
+                    "id": "grid.3532.7",
+                    "latitude": 38.894806,
+                    "linkout": [
+                        "http://www.noaa.gov/"
+                    ],
+                    "longitude": -77.03173,
+                    "name": "National Oceanic and Atmospheric Administration",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
+                },
                 {
                     "acronym": "USFWS",
                     "city_name": "Falls Church",
@@ -20633,17 +21221,68 @@
                 "title": "PLoS ONE"
             },
             "journal_lists": [
+                "VABB-SHW",
+                "ERA 2018",
+                "Norwegian register level 1",
                 "DOAJ",
                 "ERA 2015",
-                "Norwegian register level 1",
                 "ERIH PLUS",
-                "VABB-SHW",
                 "PubMed"
             ],
-            "linkout": "http://dx.doi.org/10.1371/journal.pone.0218558",
+            "linkout": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0218558&type=printable",
+            "mesh_terms": [
+                "California",
+                "Conservation of Natural Resources",
+                "Ecosystem",
+                "Environmental Monitoring",
+                "Estuaries",
+                "Models, Theoretical",
+                "United States",
+                "Washington",
+                "Wetlands"
+            ],
+            "noun_phrases": [
+                "habitat loss",
+                "western",
+                "United States using",
+                "method",
+                "maximum extent",
+                "effective conservation",
+                "restoration",
+                "estuarine",
+                "current",
+                "wetland",
+                "tide",
+                "water level",
+                "high resolution",
+                "lidar",
+                "conservation",
+                "west coast",
+                "Washington",
+                "Oregon",
+                "California",
+                "elevation",
+                "digital elevation model",
+                "maximum",
+                "major step",
+                "accuracy",
+                "building",
+                "base",
+                "indirect method",
+                "mapping",
+                "estuary",
+                "hectare",
+                "major river",
+                "action plan",
+                "habitat restoration",
+                "baseline",
+                "future change",
+                "sea level rise"
+            ],
             "open_access": [
                 "Open Access - all",
-                "Open Access - publisher"
+                "Open Access - publisher",
+                "Open Access - published"
             ],
             "open_access_categories": [
                 {
@@ -20652,9 +21291,9 @@
                     "name": "All OA"
                 },
                 {
-                    "description": "Freely available on publisher page, but without an open licence",
-                    "id": "gold_bronze",
-                    "name": "Bronze"
+                    "description": "Version Of Record (VOR) is free under an open licence from a full OA journal",
+                    "id": "gold_pure",
+                    "name": "Pure Gold"
                 }
             ],
             "pages": "e0218558",
@@ -20663,96 +21302,96 @@
             "publisher": "Public Library of Science (PLoS)",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1013330434",
-                "pub.1073096500",
-                "pub.1035551704",
-                "pub.1042785681",
-                "pub.1092355106",
-                "pub.1016379782",
-                "pub.1003122712",
-                "pub.1044875030",
-                "pub.1007499307",
-                "pub.1035522059",
-                "pub.1069855594",
-                "pub.1083542856",
-                "pub.1037141245",
-                "pub.1090773799",
-                "pub.1035133140",
-                "pub.1048919245",
-                "pub.1039260503",
-                "pub.1049483369",
-                "pub.1029638504",
-                "pub.1022890229",
-                "pub.1036121066",
-                "pub.1041510715",
-                "pub.1023543706",
-                "pub.1069431569",
-                "pub.1019252270",
-                "pub.1091974412",
-                "pub.1039469321",
-                "pub.1008172695",
-                "pub.1018120677",
-                "pub.1050653727",
-                "pub.1028264754",
                 "pub.1022624635",
-                "pub.1012511870",
-                "pub.1031940276",
-                "pub.1097144629",
+                "pub.1069855594",
+                "pub.1035133140",
+                "pub.1028264754",
+                "pub.1048919245",
+                "pub.1018120677",
+                "pub.1007499307",
                 "pub.1053515703",
-                "pub.1026444920",
-                "pub.1031288925",
-                "pub.1039826022",
-                "pub.1007862079",
+                "pub.1022890229",
+                "pub.1012511870",
+                "pub.1023543706",
+                "pub.1036121066",
+                "pub.1050653727",
+                "pub.1044875030",
+                "pub.1092355106",
+                "pub.1083542856",
+                "pub.1086040751",
+                "pub.1041510715",
+                "pub.1039260503",
+                "pub.1019252270",
+                "pub.1097144629",
                 "pub.1005049172",
-                "pub.1053360833",
+                "pub.1037141245",
+                "pub.1029638504",
+                "pub.1035551704",
+                "pub.1031288925",
+                "pub.1069431569",
+                "pub.1026444920",
+                "pub.1039826022",
+                "pub.1073096500",
+                "pub.1091974412",
                 "pub.1053284911",
-                "pub.1086040751"
+                "pub.1090773799",
+                "pub.1053360833",
+                "pub.1031940276",
+                "pub.1008172695",
+                "pub.1039469321",
+                "pub.1013330434",
+                "pub.1007862079",
+                "pub.1016379782",
+                "pub.1035522059",
+                "pub.1042785681",
+                "pub.1049483369",
+                "pub.1003122712"
             ],
             "references": [
-                "pub.1013330434",
-                "pub.1073096500",
-                "pub.1035551704",
-                "pub.1042785681",
-                "pub.1092355106",
-                "pub.1016379782",
-                "pub.1003122712",
-                "pub.1044875030",
-                "pub.1007499307",
-                "pub.1035522059",
-                "pub.1069855594",
-                "pub.1083542856",
-                "pub.1037141245",
-                "pub.1090773799",
-                "pub.1035133140",
-                "pub.1048919245",
-                "pub.1039260503",
-                "pub.1049483369",
-                "pub.1029638504",
-                "pub.1022890229",
-                "pub.1036121066",
-                "pub.1041510715",
-                "pub.1023543706",
-                "pub.1069431569",
-                "pub.1019252270",
-                "pub.1091974412",
-                "pub.1039469321",
-                "pub.1008172695",
-                "pub.1018120677",
-                "pub.1050653727",
-                "pub.1028264754",
                 "pub.1022624635",
-                "pub.1012511870",
-                "pub.1031940276",
-                "pub.1097144629",
+                "pub.1069855594",
+                "pub.1035133140",
+                "pub.1028264754",
+                "pub.1048919245",
+                "pub.1018120677",
+                "pub.1007499307",
                 "pub.1053515703",
-                "pub.1026444920",
-                "pub.1031288925",
-                "pub.1039826022",
-                "pub.1007862079",
+                "pub.1022890229",
+                "pub.1012511870",
+                "pub.1023543706",
+                "pub.1036121066",
+                "pub.1050653727",
+                "pub.1044875030",
+                "pub.1092355106",
+                "pub.1083542856",
+                "pub.1086040751",
+                "pub.1041510715",
+                "pub.1039260503",
+                "pub.1019252270",
+                "pub.1097144629",
                 "pub.1005049172",
-                "pub.1053360833",
+                "pub.1037141245",
+                "pub.1029638504",
+                "pub.1035551704",
+                "pub.1031288925",
+                "pub.1069431569",
+                "pub.1026444920",
+                "pub.1039826022",
+                "pub.1073096500",
+                "pub.1091974412",
                 "pub.1053284911",
-                "pub.1086040751"
+                "pub.1090773799",
+                "pub.1053360833",
+                "pub.1031940276",
+                "pub.1008172695",
+                "pub.1039469321",
+                "pub.1013330434",
+                "pub.1007862079",
+                "pub.1016379782",
+                "pub.1035522059",
+                "pub.1042785681",
+                "pub.1049483369",
+                "pub.1003122712"
             ],
             "research_org_cities": [
                 {
@@ -20785,7 +21424,20 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Northwest Fisheries Science Center",
+                "Pacific Spatial Solutions Inc., Seattle, Washington, United States of America.",
+                "Moss Landing Marine Labs, Moss Landing, California, United States of America.",
+                "The Nature Conservancy",
+                "Oregon Department of Land Conservation and Development",
+                "Institute for Applied Ecology, Corvallis, Oregon, United States of America.",
+                "Pacific States Marine Fisheries Commission, Portland, Oregon, United States of America."
+            ],
             "research_org_state_codes": [
+                {
+                    "id": "US-OR",
+                    "name": "Oregon"
+                },
                 {
                     "id": "US-WA",
                     "name": "Washington"
@@ -20793,34 +21445,14 @@
                 {
                     "id": "US-VA",
                     "name": "Virginia"
-                },
-                {
-                    "id": "US-OR",
-                    "name": "Oregon"
                 }
             ],
             "research_org_state_names": [
+                "Virginia",
                 "Oregon",
-                "Washington",
-                "Virginia"
+                "Washington"
             ],
             "research_orgs": [
-                {
-                    "acronym": "NWFSC",
-                    "city_name": "Seattle",
-                    "country_name": "United States",
-                    "id": "grid.420104.3",
-                    "latitude": 47.64494,
-                    "linkout": [
-                        "http://www.nwfsc.noaa.gov/"
-                    ],
-                    "longitude": -122.30693,
-                    "name": "Northwest Fisheries Science Center",
-                    "state_name": "Washington",
-                    "types": [
-                        "Facility"
-                    ]
-                },
                 {
                     "acronym": "DLCD",
                     "city_name": "Salem",
@@ -20835,6 +21467,22 @@
                     "state_name": "Oregon",
                     "types": [
                         "Government"
+                    ]
+                },
+                {
+                    "acronym": "NWFSC",
+                    "city_name": "Seattle",
+                    "country_name": "United States",
+                    "id": "grid.420104.3",
+                    "latitude": 47.64494,
+                    "linkout": [
+                        "http://www.nwfsc.noaa.gov/"
+                    ],
+                    "longitude": -122.30693,
+                    "name": "Northwest Fisheries Science Center",
+                    "state_name": "Washington",
+                    "types": [
+                        "Facility"
                     ]
                 },
                 {
@@ -20860,9 +21508,9 @@
                     "id": "ur.01274375605.59",
                     "last_name": "Greene",
                     "research_orgs": [
-                        "grid.3532.7",
                         "grid.429997.8",
                         "grid.420104.3",
+                        "grid.3532.7",
                         "grid.27860.3b"
                     ]
                 },
@@ -20892,25 +21540,24 @@
                 "tidal wetlands",
                 "tide",
                 "restoration opportunities",
-                "opportunities",
                 "water level model",
+                "level model",
                 "model",
                 "high-resolution elevation data",
                 "elevation data",
-                "data",
                 "estuarine conservation",
                 "new map",
                 "U.S. West Coast",
-                "West Coast",
+                "west coast",
                 "coast",
-                "elevation",
                 "extent models",
-                "LiDAR DEMs",
+                "LiDAR digital elevation model",
                 "digital elevation model",
                 "elevation model",
                 "historical extent",
                 "major step",
                 "step",
+                "mapping accuracy",
                 "restoration planning",
                 "analysis",
                 "wetland loss",
@@ -20920,11 +21567,11 @@
                 "estuary area",
                 "area",
                 "hectare",
-                "West Coast estuaries",
-                "coast estuaries",
+                "west coast estuaries",
                 "major river deltas",
                 "River Delta",
                 "delta",
+                "estuarine",
                 "habitat restoration",
                 "understanding",
                 "future changes",
@@ -20933,7 +21580,6 @@
                 "level rise",
                 "rise",
                 "insights",
-                "habitat loss",
                 "western United States",
                 "maximum extent"
             ],
@@ -22821,6 +23467,10 @@
         },
         "doi": "10.1371/journal.pone.0218558",
         "keyphrases": {
+            "accurate maps": {
+                "count": 1,
+                "rank_score": 0.0781631293987293
+            },
             "current and historical tidal wetlands": {
                 "count": 1,
                 "rank_score": 0.08364411172119629
@@ -22828,6 +23478,18 @@
             "current tidal wetlands": {
                 "count": 1,
                 "rank_score": 0.11454690807088992
+            },
+            "estimated losses": {
+                "count": 1,
+                "rank_score": 0.06886930456517176
+            },
+            "estuarine conservation": {
+                "count": 1,
+                "rank_score": 0.06995314253050496
+            },
+            "estuarine wetland habitat restoration": {
+                "count": 1,
+                "rank_score": 0.07088580404004786
             },
             "estuarine wetlands": {
                 "count": 1,
@@ -22845,9 +23507,29 @@
                 "count": 1,
                 "rank_score": 0.08495687345688277
             },
+            "maps": {
+                "count": 1,
+                "rank_score": 0.07574015719363474
+            },
             "new maps": {
                 "count": 4,
                 "rank_score": 0.09314494380395193
+            },
+            "projected sea level rise": {
+                "count": 1,
+                "rank_score": 0.07856042134218039
+            },
+            "restoration": {
+                "count": 2,
+                "rank_score": 0.0697798831046695
+            },
+            "restoration opportunities": {
+                "count": 1,
+                "rank_score": 0.07017600820818495
+            },
+            "restoration planning": {
+                "count": 1,
+                "rank_score": 0.0726988065303186
             },
             "tidal wetland area": {
                 "count": 1,
@@ -22880,6 +23562,10 @@
             "west coast estuaries": {
                 "count": 1,
                 "rank_score": 0.09238998326754704
+            },
+            "wetland loss": {
+                "count": 1,
+                "rank_score": 0.07444041886337349
             }
         },
         "original": {

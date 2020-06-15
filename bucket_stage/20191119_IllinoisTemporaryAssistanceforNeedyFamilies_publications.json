@@ -15,42 +15,43 @@
             ],
             "RCDC": [
                 {
-                    "id": "546",
-                    "name": "Patient Safety"
-                },
-                {
-                    "id": "380",
-                    "name": "Mental Health"
-                },
-                {
-                    "id": "547",
-                    "name": "Pediatric"
-                },
-                {
-                    "id": "508",
-                    "name": "Clinical Trials and Supportive Activities"
+                    "id": "332",
+                    "name": "Child Abuse and Neglect Research"
                 },
                 {
                     "id": "498",
                     "name": "Behavioral and Social Science"
                 },
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
+                    "id": "508",
+                    "name": "Clinical Trials and Supportive Activities"
                 },
                 {
-                    "id": "332",
-                    "name": "Child Abuse and Neglect Research"
+                    "id": "380",
+                    "name": "Mental Health"
                 },
                 {
                     "id": "588",
                     "name": "Violence Research"
                 },
                 {
+                    "id": "507",
+                    "name": "Clinical Research"
+                },
+                {
+                    "id": "546",
+                    "name": "Patient Safety"
+                },
+                {
+                    "id": "547",
+                    "name": "Pediatric"
+                },
+                {
                     "id": "589",
                     "name": "Youth Violence"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -69,6 +70,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.21729.3f",
                         "first_name": "Marla",
+                        "initials": "",
                         "last_name": "McDaniel",
                         "orcid": "",
                         "researcher_id": "ur.0757424364.91"
@@ -89,6 +91,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
                         "first_name": "Kristen Shook",
+                        "initials": "",
                         "last_name": "Slack",
                         "orcid": "['0000-0002-9669-9906']",
                         "researcher_id": "ur.01366602064.92"
@@ -112,6 +115,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.21729.3f",
                     "first_name": "Marla",
+                    "initials": "",
                     "last_name": "McDaniel",
                     "orcid": "",
                     "researcher_id": "ur.0757424364.91"
@@ -132,6 +136,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
                     "first_name": "Kristen Shook",
+                    "initials": "",
                     "last_name": "Slack",
                     "orcid": "['0000-0002-9669-9906']",
                     "researcher_id": "ur.01366602064.92"
@@ -163,36 +168,36 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "546",
-                    "name": "Patient Safety"
-                },
-                {
-                    "id": "380",
-                    "name": "Mental Health"
-                },
-                {
-                    "id": "547",
-                    "name": "Pediatric"
-                },
-                {
-                    "id": "508",
-                    "name": "Clinical Trials and Supportive Activities"
+                    "id": "332",
+                    "name": "Child Abuse and Neglect Research"
                 },
                 {
                     "id": "498",
                     "name": "Behavioral and Social Science"
                 },
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
+                    "id": "508",
+                    "name": "Clinical Trials and Supportive Activities"
                 },
                 {
-                    "id": "332",
-                    "name": "Child Abuse and Neglect Research"
+                    "id": "380",
+                    "name": "Mental Health"
                 },
                 {
                     "id": "588",
                     "name": "Violence Research"
+                },
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
+                },
+                {
+                    "id": "546",
+                    "name": "Patient Safety"
+                },
+                {
+                    "id": "547",
+                    "name": "Pediatric"
                 },
                 {
                     "id": "589",
@@ -212,6 +217,7 @@
                 }
             ],
             "concepts": [
+                "new home",
                 "home",
                 "babies",
                 "children",
@@ -235,7 +241,7 @@
             "date": "2005-02-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.childyouth.2004.08.015",
-            "field_citation_ratio": 11.97,
+            "field_citation_ratio": 12.7,
             "funder_countries": [
                 {
                     "id": "US",
@@ -243,22 +249,6 @@
                 }
             ],
             "funders": [
-                {
-                    "acronym": "NCIPC",
-                    "city_name": "Atlanta",
-                    "country_name": "United States",
-                    "id": "grid.453275.2",
-                    "latitude": 33.800694,
-                    "linkout": [
-                        "http://www.cdc.gov/injury/"
-                    ],
-                    "longitude": -84.32763,
-                    "name": "National Center for Injury Prevention and Control",
-                    "state_name": "Georgia",
-                    "types": [
-                        "Other"
-                    ]
-                },
                 {
                     "acronym": "NICHD",
                     "city_name": "Bethesda",
@@ -274,6 +264,22 @@
                     "types": [
                         "Facility"
                     ]
+                },
+                {
+                    "acronym": "NCIPC",
+                    "city_name": "Atlanta",
+                    "country_name": "United States",
+                    "id": "grid.453275.2",
+                    "latitude": 33.800694,
+                    "linkout": [
+                        "http://www.cdc.gov/injury/"
+                    ],
+                    "longitude": -84.32763,
+                    "name": "National Center for Injury Prevention and Control",
+                    "state_name": "Georgia",
+                    "types": [
+                        "Other"
+                    ]
                 }
             ],
             "id": "pub.1043636844",
@@ -287,9 +293,26 @@
                 "title": "Children and Youth Services Review"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "major life event",
+                "risk",
+                "maltreatment",
+                "home",
+                "baby",
+                "child",
+                "low-income parent",
+                "Child Abuse",
+                "significant risk",
+                "parenting stress",
+                "hardship",
+                "caregiver",
+                "welfare",
+                "child protection"
             ],
             "open_access_categories": [
                 {
@@ -300,106 +323,106 @@
             ],
             "pages": "171-195",
             "publisher": "Elsevier",
-            "recent_citations": 8,
+            "recent_citations": 10,
             "reference_ids": [
-                "pub.1052163739",
+                "pub.1001782904",
                 "pub.1020651518",
-                "pub.1019133963",
-                "pub.1068871333",
-                "pub.1006142202",
-                "pub.1015993061",
-                "pub.1033813658",
-                "pub.1041782365",
-                "pub.1048140823",
-                "pub.1041268859",
-                "pub.1010941199",
-                "pub.1010300037",
-                "pub.1069758192",
-                "pub.1051627294",
-                "pub.1054034204",
-                "pub.1063957738",
-                "pub.1063957126",
                 "pub.1019393047",
-                "pub.1017362053",
-                "pub.1039255102",
-                "pub.1069777834",
+                "pub.1073329953",
+                "pub.1048140823",
+                "pub.1009093412",
+                "pub.1018961730",
+                "pub.1043095454",
+                "pub.1028839690",
+                "pub.1015993061",
                 "pub.1053829834",
+                "pub.1069758192",
+                "pub.1078592657",
+                "pub.1039255102",
+                "pub.1006897889",
+                "pub.1038319486",
+                "pub.1041268859",
                 "pub.1063957105",
+                "pub.1063957738",
                 "pub.1000459310",
                 "pub.1008094466",
-                "pub.1001782904",
-                "pub.1063956998",
-                "pub.1028839690",
-                "pub.1021894106",
-                "pub.1070361277",
-                "pub.1009093412",
-                "pub.1088071464",
-                "pub.1006897889",
-                "pub.1073356544",
-                "pub.1043095454",
-                "pub.1050729510",
-                "pub.1025716923",
-                "pub.1042521701",
-                "pub.1018961730",
-                "pub.1050371883",
-                "pub.1038319486",
+                "pub.1069777834",
+                "pub.1006142202",
+                "pub.1041782365",
+                "pub.1051627294",
                 "pub.1044621646",
-                "pub.1078592657",
-                "pub.1000342704",
-                "pub.1073329953",
-                "pub.1049525374",
+                "pub.1021894106",
+                "pub.1050371883",
+                "pub.1042521701",
                 "pub.1109889803",
-                "pub.1034377848"
+                "pub.1000342704",
+                "pub.1088071464",
+                "pub.1010941199",
+                "pub.1050729510",
+                "pub.1063956998",
+                "pub.1033813658",
+                "pub.1073356544",
+                "pub.1063957126",
+                "pub.1049525374",
+                "pub.1052163739",
+                "pub.1017362053",
+                "pub.1019133963",
+                "pub.1068871333",
+                "pub.1070361277",
+                "pub.1034377848",
+                "pub.1010300037",
+                "pub.1054034204",
+                "pub.1025716923"
             ],
             "references": [
-                "pub.1052163739",
+                "pub.1001782904",
                 "pub.1020651518",
-                "pub.1019133963",
-                "pub.1068871333",
-                "pub.1006142202",
-                "pub.1015993061",
-                "pub.1033813658",
-                "pub.1041782365",
-                "pub.1048140823",
-                "pub.1041268859",
-                "pub.1010941199",
-                "pub.1010300037",
-                "pub.1069758192",
-                "pub.1051627294",
-                "pub.1054034204",
-                "pub.1063957738",
-                "pub.1063957126",
                 "pub.1019393047",
-                "pub.1017362053",
-                "pub.1039255102",
-                "pub.1069777834",
+                "pub.1073329953",
+                "pub.1048140823",
+                "pub.1009093412",
+                "pub.1018961730",
+                "pub.1043095454",
+                "pub.1028839690",
+                "pub.1015993061",
                 "pub.1053829834",
+                "pub.1069758192",
+                "pub.1078592657",
+                "pub.1039255102",
+                "pub.1006897889",
+                "pub.1038319486",
+                "pub.1041268859",
                 "pub.1063957105",
+                "pub.1063957738",
                 "pub.1000459310",
                 "pub.1008094466",
-                "pub.1001782904",
-                "pub.1063956998",
-                "pub.1028839690",
-                "pub.1021894106",
-                "pub.1070361277",
-                "pub.1009093412",
-                "pub.1088071464",
-                "pub.1006897889",
-                "pub.1073356544",
-                "pub.1043095454",
-                "pub.1050729510",
-                "pub.1025716923",
-                "pub.1042521701",
-                "pub.1018961730",
-                "pub.1050371883",
-                "pub.1038319486",
+                "pub.1069777834",
+                "pub.1006142202",
+                "pub.1041782365",
+                "pub.1051627294",
                 "pub.1044621646",
-                "pub.1078592657",
-                "pub.1000342704",
-                "pub.1073329953",
-                "pub.1049525374",
+                "pub.1021894106",
+                "pub.1050371883",
+                "pub.1042521701",
                 "pub.1109889803",
-                "pub.1034377848"
+                "pub.1000342704",
+                "pub.1088071464",
+                "pub.1010941199",
+                "pub.1050729510",
+                "pub.1063956998",
+                "pub.1033813658",
+                "pub.1073356544",
+                "pub.1063957126",
+                "pub.1049525374",
+                "pub.1052163739",
+                "pub.1017362053",
+                "pub.1019133963",
+                "pub.1068871333",
+                "pub.1070361277",
+                "pub.1034377848",
+                "pub.1010300037",
+                "pub.1054034204",
+                "pub.1025716923"
             ],
             "research_org_cities": [
                 {
@@ -420,14 +443,18 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Columbia University",
+                "University of Wisconsin System"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-WI",
-                    "name": "Wisconsin"
-                },
                 {
                     "id": "US-NY",
                     "name": "New York"
+                },
+                {
+                    "id": "US-WI",
+                    "name": "Wisconsin"
                 }
             ],
             "research_org_state_names": [
@@ -455,11 +482,11 @@
                     "city_name": "New York",
                     "country_name": "United States",
                     "id": "grid.21729.3f",
-                    "latitude": 40.807774,
+                    "latitude": 40.8076,
                     "linkout": [
                         "http://www.columbia.edu/"
                     ],
-                    "longitude": -73.962585,
+                    "longitude": -73.96239,
                     "name": "Columbia University",
                     "state_name": "New York",
                     "types": [
@@ -484,16 +511,17 @@
                         "0000-0002-9669-9906"
                     ],
                     "research_orgs": [
-                        "grid.14003.36",
-                        "grid.28803.31"
+                        "grid.28803.31",
+                        "grid.14003.36"
                     ]
                 }
             ],
             "supporting_grant_ids": [
-                "grant.2404476",
-                "grant.2526243"
+                "grant.2526243",
+                "grant.2404476"
             ],
             "terms": [
+                "new home",
                 "home",
                 "babies",
                 "children",
@@ -514,7 +542,7 @@
                 "child maltreatment investigations",
                 "maltreatment investigations"
             ],
-            "times_cited": 38,
+            "times_cited": 41,
             "title": "Major life events and the risk of a child maltreatment investigation",
             "type": "article",
             "volume": "27",
@@ -1241,25 +1269,25 @@
         },
         "doi": "10.1016/j.childyouth.2004.08.015",
         "keyphrases": {
-            "a baby": {
+            "baby": {
                 "count": 1,
                 "rank_score": 0.03585485088650527
             },
-            "a child": {
+            "child": {
                 "count": 1,
                 "rank_score": 0.06091327112826818
-            },
-            "a new home": {
-                "count": 1,
-                "rank_score": 0.05835776790774086
-            },
-            "a significant risk": {
-                "count": 1,
-                "rank_score": 0.06240099828710197
             },
             "child maltreatment": {
                 "count": 1,
                 "rank_score": 0.1200020192398444
+            },
+            "child protection system": {
+                "count": 1,
+                "rank_score": 0.07994586047061361
+            },
+            "events": {
+                "count": 1,
+                "rank_score": 0.05100648686092214
             },
             "investigations": {
                 "count": 1,
@@ -1277,25 +1305,25 @@
                 "count": 1,
                 "rank_score": 0.09443402268887767
             },
+            "new home": {
+                "count": 1,
+                "rank_score": 0.05835776790774086
+            },
+            "placing reports": {
+                "count": 1,
+                "rank_score": 0.0563483188108571
+            },
             "school": {
                 "count": 1,
                 "rank_score": 0.07501937888002705
             },
+            "significant risk": {
+                "count": 1,
+                "rank_score": 0.06240099828710197
+            },
             "stress": {
                 "count": 1,
                 "rank_score": 0.09000729747647504
-            },
-            "the child protection system": {
-                "count": 1,
-                "rank_score": 0.07994586047061361
-            },
-            "these events": {
-                "count": 1,
-                "rank_score": 0.05100648686092214
-            },
-            "those placing reports": {
-                "count": 1,
-                "rank_score": 0.0563483188108571
             },
             "welfare": {
                 "count": 1,
@@ -1313,6 +1341,7 @@
     },
     {
         "Dimensions": {
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -1320,6 +1349,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
                         "first_name": "Kristen Shook",
+                        "initials": "",
                         "last_name": "Slack",
                         "orcid": "['0000-0002-9669-9906']",
                         "researcher_id": "ur.01366602064.92"
@@ -1329,6 +1359,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.16753.36",
                         "first_name": "Jane L.",
+                        "initials": "",
                         "last_name": "Holl",
                         "orcid": "",
                         "researcher_id": "ur.01144066006.45"
@@ -1338,6 +1369,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Maria",
+                        "initials": "",
                         "last_name": "McDaniel",
                         "orcid": "",
                         "researcher_id": ""
@@ -1347,6 +1379,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Joan",
+                        "initials": "",
                         "last_name": "Yoo",
                         "orcid": "",
                         "researcher_id": ""
@@ -1356,6 +1389,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
                         "first_name": "Kerry",
+                        "initials": "",
                         "last_name": "Bolger",
                         "orcid": "",
                         "researcher_id": "ur.015371343546.00"
@@ -1368,6 +1402,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
                     "first_name": "Kristen Shook",
+                    "initials": "",
                     "last_name": "Slack",
                     "orcid": "['0000-0002-9669-9906']",
                     "researcher_id": "ur.01366602064.92"
@@ -1377,6 +1412,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.16753.36",
                     "first_name": "Jane L.",
+                    "initials": "",
                     "last_name": "Holl",
                     "orcid": "",
                     "researcher_id": "ur.01144066006.45"
@@ -1386,6 +1422,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Maria",
+                    "initials": "",
                     "last_name": "McDaniel",
                     "orcid": "",
                     "researcher_id": ""
@@ -1395,6 +1432,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Joan",
+                    "initials": "",
                     "last_name": "Yoo",
                     "orcid": "",
                     "researcher_id": ""
@@ -1404,6 +1442,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
                     "first_name": "Kerry",
+                    "initials": "",
                     "last_name": "Bolger",
                     "orcid": "",
                     "researcher_id": "ur.015371343546.00"
@@ -1412,8 +1451,9 @@
             "book_doi": "10.4135/9781452230689",
             "book_title": "Child Maltreatment: A Collection of Readings",
             "concepts": [
-                "exploration",
-                "characteristics"
+                "risk",
+                "child neglect",
+                "Parenting Characteristics"
             ],
             "date": "2012-01-01",
             "date_inserted": "2017-08-31",
@@ -1428,6 +1468,7 @@
             ],
             "pages": "182-201",
             "publisher": "SAGE Publications",
+            "recent_citations": 0,
             "researchers": [
                 {
                     "first_name": "Kristen Shook",
@@ -1437,8 +1478,8 @@
                         "0000-0002-9669-9906"
                     ],
                     "research_orgs": [
-                        "grid.14003.36",
-                        "grid.28803.31"
+                        "grid.28803.31",
+                        "grid.14003.36"
                     ]
                 },
                 {
@@ -1446,13 +1487,13 @@
                     "id": "ur.01144066006.45",
                     "last_name": "Holl",
                     "research_orgs": [
-                        "grid.490348.2",
-                        "grid.16416.34",
-                        "grid.412750.5",
                         "grid.421127.3",
-                        "grid.240684.c",
-                        "grid.280893.8",
+                        "grid.412750.5",
                         "grid.16753.36",
+                        "grid.280893.8",
+                        "grid.16416.34",
+                        "grid.490348.2",
+                        "grid.240684.c",
                         "grid.299784.9",
                         "grid.413808.6"
                     ]
@@ -1462,17 +1503,19 @@
                     "id": "ur.015371343546.00",
                     "last_name": "Bolger",
                     "research_orgs": [
-                        "grid.27755.32",
+                        "grid.26790.3a",
                         "grid.5386.8",
-                        "grid.14003.36",
-                        "grid.26790.3a"
+                        "grid.27755.32",
+                        "grid.14003.36"
                     ]
                 }
             ],
             "terms": [
-                "exploration",
-                "characteristics"
+                "risk",
+                "child neglect",
+                "Parenting Characteristics"
             ],
+            "times_cited": 0,
             "title": "Understanding the Risks of Child Neglect: An Exploration of Poverty and Parenting Characteristics",
             "type": "chapter",
             "year": 2012
@@ -5012,9 +5055,25 @@
                 "count": 1,
                 "rank_score": 0.13153475623711414
             },
+            "design": {
+                "count": 1,
+                "rank_score": 0.058414745458330086
+            },
+            "employment": {
+                "count": 1,
+                "rank_score": 0.06429780633218636
+            },
+            "families": {
+                "count": 1,
+                "rank_score": 0.06050003332123522
+            },
             "frequent television viewing": {
                 "count": 1,
                 "rank_score": 0.08343553015195433
+            },
+            "influence": {
+                "count": 1,
+                "rank_score": 0.02447930983273079
             },
             "infrequent employment": {
                 "count": 1,
@@ -5023,6 +5082,10 @@
             "low parental warmth": {
                 "count": 1,
                 "rank_score": 0.08433841059731476
+            },
+            "mechanisms": {
+                "count": 1,
+                "rank_score": 0.028051249783250614
             },
             "neglect": {
                 "count": 3,
@@ -5040,6 +5103,10 @@
                 "count": 1,
                 "rank_score": 0.09916926821463658
             },
+            "physical discipline": {
+                "count": 1,
+                "rank_score": 0.07009418923026775
+            },
             "poverty": {
                 "count": 2,
                 "rank_score": 0.08872472508053976
@@ -5047,6 +5114,14 @@
             "poverty and parenting characteristics": {
                 "count": 1,
                 "rank_score": 0.07563562731430619
+            },
+            "relationship": {
+                "count": 1,
+                "rank_score": 0.028051249783250614
+            },
+            "strong association": {
+                "count": 1,
+                "rank_score": 0.036292776657747154
             },
             "subsequent child neglect": {
                 "count": 1,
@@ -5120,6 +5195,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.35403.31",
                         "first_name": "Steven G.",
+                        "initials": "",
                         "last_name": "Anderson",
                         "orcid": "",
                         "researcher_id": "ur.01224250372.18"
@@ -5140,6 +5216,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.35403.31",
                         "first_name": "Richard",
+                        "initials": "",
                         "last_name": "Schuldt",
                         "orcid": "",
                         "researcher_id": "ur.015534323231.01"
@@ -5153,6 +5230,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Anthony P.",
+                        "initials": "",
                         "last_name": "Halter",
                         "orcid": "",
                         "researcher_id": "ur.01340476772.24"
@@ -5166,6 +5244,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Jeff",
+                        "initials": "",
                         "last_name": "Scott",
                         "orcid": "",
                         "researcher_id": ""
@@ -5189,6 +5268,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.35403.31",
                     "first_name": "Steven G.",
+                    "initials": "",
                     "last_name": "Anderson",
                     "orcid": "",
                     "researcher_id": "ur.01224250372.18"
@@ -5209,6 +5289,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.35403.31",
                     "first_name": "Richard",
+                    "initials": "",
                     "last_name": "Schuldt",
                     "orcid": "",
                     "researcher_id": "ur.015534323231.01"
@@ -5222,6 +5303,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Anthony P.",
+                    "initials": "",
                     "last_name": "Halter",
                     "orcid": "",
                     "researcher_id": "ur.01340476772.24"
@@ -5235,6 +5317,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Jeff",
+                    "initials": "",
                     "last_name": "Scott",
                     "orcid": "",
                     "researcher_id": ""
@@ -5277,7 +5360,7 @@
                 "reform",
                 "personal responsibility",
                 "responsibility",
-                "Work Opportunity Reconciliation Act",
+                "Opportunity Reconciliation Act",
                 "Reconciliation Act",
                 "act",
                 "devolution",
@@ -5290,7 +5373,6 @@
                 "area",
                 "article",
                 "sub-state variations",
-                "state variation",
                 "employment experiences",
                 "experience",
                 "support service use",
@@ -5309,14 +5391,13 @@
                 "policy development",
                 "development",
                 "research",
-                "support services",
-                "services",
                 "TANF exits",
                 "exit"
             ],
             "date": "2003-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1300/j185v02n01_04",
+            "field_citation_ratio": 0.0,
             "id": "pub.1026317170",
             "issn": [
                 "1558-8742",
@@ -5329,7 +5410,30 @@
                 "title": "Journal of Policy Practice"
             },
             "journal_lists": [
-                "ERA 2015"
+                "ERA 2015",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "support service",
+                "welfare reform",
+                "Personal Responsibility and Work Opportunity Reconciliation Act",
+                "devolution",
+                "authority",
+                "variability",
+                "geographic area",
+                "article",
+                "variation",
+                "employment",
+                "service use",
+                "random sample",
+                "Illinois",
+                "Temporary Assistance for Needy Families",
+                "recipient",
+                "substantial variation",
+                "service outcome",
+                "large city",
+                "implication",
+                "development"
             ],
             "open_access_categories": [
                 {
@@ -5340,29 +5444,30 @@
             ],
             "pages": "35-56",
             "publisher": "Taylor & Francis",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1075208516",
-                "pub.1069758198",
-                "pub.1069792089",
-                "pub.1060042664",
-                "pub.1058809619",
-                "pub.1058809651",
-                "pub.1060042677",
                 "pub.1058809698",
+                "pub.1060042677",
+                "pub.1058549765",
+                "pub.1075208516",
                 "pub.1060043530",
-                "pub.1058549765"
+                "pub.1060042664",
+                "pub.1069792089",
+                "pub.1058809651",
+                "pub.1058809619",
+                "pub.1069758198"
             ],
             "references": [
-                "pub.1075208516",
-                "pub.1069758198",
-                "pub.1069792089",
-                "pub.1060042664",
-                "pub.1058809619",
-                "pub.1058809651",
-                "pub.1060042677",
                 "pub.1058809698",
+                "pub.1060042677",
+                "pub.1058549765",
+                "pub.1075208516",
                 "pub.1060043530",
-                "pub.1058549765"
+                "pub.1060042664",
+                "pub.1069792089",
+                "pub.1058809651",
+                "pub.1058809619",
+                "pub.1069758198"
             ],
             "research_org_cities": [
                 {
@@ -5382,6 +5487,11 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "University of Illinois at Urbana Champaign",
+                "University of Ilinois, School of Social Work ,",
+                "University of Illinois, School of Social Work ,"
             ],
             "research_org_state_codes": [
                 {
@@ -5441,7 +5551,7 @@
                 "reform",
                 "personal responsibility",
                 "responsibility",
-                "Work Opportunity Reconciliation Act",
+                "Opportunity Reconciliation Act",
                 "Reconciliation Act",
                 "act",
                 "devolution",
@@ -5454,7 +5564,6 @@
                 "area",
                 "article",
                 "sub-state variations",
-                "state variation",
                 "employment experiences",
                 "experience",
                 "support service use",
@@ -5473,11 +5582,10 @@
                 "policy development",
                 "development",
                 "research",
-                "support services",
-                "services",
                 "TANF exits",
                 "exit"
             ],
+            "times_cited": 0,
             "title": "Employment Experiences and Support Services Use Following TANF Exits",
             "type": "article",
             "volume": "2",
@@ -5627,17 +5735,17 @@
         },
         "doi": "10.1300/j185v02n01_04",
         "keyphrases": {
-            "514 former illinois temporary assistance": {
+            "devolution": {
                 "count": 1,
-                "rank_score": 0.0698077658676281
+                "rank_score": 0.03623093339662742
             },
             "employment and support services outcomes": {
                 "count": 1,
                 "rank_score": 0.07764464332860971
             },
-            "findings": {
-                "count": 2,
-                "rank_score": 0.07555683033639803
+            "four types": {
+                "count": 1,
+                "rank_score": 0.027776666415191532
             },
             "geographic areas": {
                 "count": 2,
@@ -5659,9 +5767,25 @@
                 "count": 1,
                 "rank_score": 0.07083210442381169
             },
+            "personal responsibility and work opportunity reconciliation act": {
+                "count": 2,
+                "rank_score": 0.06444794545313298
+            },
+            "post-exit employment experiences": {
+                "count": 1,
+                "rank_score": 0.07872118012637916
+            },
             "program authority": {
                 "count": 1,
                 "rank_score": 0.07871468231766789
+            },
+            "prwora": {
+                "count": 1,
+                "rank_score": 0.04837670556518589
+            },
+            "random sample": {
+                "count": 1,
+                "rank_score": 0.038100562051754654
             },
             "social policy development": {
                 "count": 1,
@@ -5679,13 +5803,17 @@
                 "count": 1,
                 "rank_score": 0.09529276953185907
             },
-            "the personal responsibility and work opportunity reconciliation act": {
-                "count": 2,
-                "rank_score": 0.06444794545313298
-            },
-            "the post-exit employment experiences": {
+            "tanf": {
                 "count": 1,
-                "rank_score": 0.07872118012637916
+                "rank_score": 0.06240088752863572
+            },
+            "variability": {
+                "count": 1,
+                "rank_score": 0.03040750757039679
+            },
+            "welfare reforms": {
+                "count": 1,
+                "rank_score": 0.041825050160014816
             }
         },
         "original": {

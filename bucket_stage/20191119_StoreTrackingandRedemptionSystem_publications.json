@@ -874,9 +874,17 @@
                 "count": 1,
                 "rank_score": 0.08095341563084885
             },
+            "extensive research": {
+                "count": 1,
+                "rank_score": 0.06746228547372729
+            },
             "food environment characteristics": {
                 "count": 1,
                 "rank_score": 0.131180965345823
+            },
+            "food retail environment": {
+                "count": 2,
+                "rank_score": 0.08538018845988998
             },
             "food security": {
                 "count": 2,
@@ -885,6 +893,10 @@
             "food security outcomes": {
                 "count": 2,
                 "rank_score": 0.14048406266199898
+            },
+            "future research": {
+                "count": 1,
+                "rank_score": 0.06746228547372729
             },
             "healthy food financing initiatives": {
                 "count": 1,
@@ -902,9 +914,25 @@
                 "count": 1,
                 "rank_score": 0.10914617339154864
             },
+            "households own automobile": {
+                "count": 1,
+                "rank_score": 0.06656154386336693
+            },
+            "less research": {
+                "count": 1,
+                "rank_score": 0.06746228547372729
+            },
+            "logistic regression analysis": {
+                "count": 1,
+                "rank_score": 0.06931521876461008
+            },
             "low-income households": {
                 "count": 1,
                 "rank_score": 0.0761642157456187
+            },
+            "low-income neighborhoods": {
+                "count": 1,
+                "rank_score": 0.05279453654845845
             },
             "low-income us households": {
                 "count": 1,
@@ -918,13 +946,25 @@
                 "count": 1,
                 "rank_score": 0.1277927333527149
             },
+            "new supermarkets": {
+                "count": 1,
+                "rank_score": 0.06995861235371875
+            },
+            "nutrition outcomes": {
+                "count": 1,
+                "rank_score": 0.07267150568440209
+            },
             "nutritious food": {
                 "count": 1,
                 "rank_score": 0.12457582273741838
             },
-            "the food retail environment": {
-                "count": 2,
-                "rank_score": 0.08538018845988998
+            "regression controls": {
+                "count": 1,
+                "rank_score": 0.05765382206188792
+            },
+            "unique information": {
+                "count": 1,
+                "rank_score": 0.06171460316925234
             }
         },
         "original": {
@@ -960,22 +1000,22 @@
             ],
             "HRCS_HC": [
                 {
-                    "id": "894",
-                    "name": "Cardiovascular"
-                },
-                {
                     "id": "909",
                     "name": "Stroke"
+                },
+                {
+                    "id": "894",
+                    "name": "Cardiovascular"
                 }
             ],
             "RCDC": [
                 {
-                    "id": "389",
-                    "name": "Obesity"
-                },
-                {
                     "id": "388",
                     "name": "Nutrition"
+                },
+                {
+                    "id": "389",
+                    "name": "Obesity"
                 }
             ],
             "altmetric": 3.0,
@@ -998,6 +1038,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.25879.31",
                         "first_name": "Amy",
+                        "initials": "",
                         "last_name": "Hillier",
                         "orcid": "",
                         "researcher_id": "ur.01243127766.41"
@@ -1018,6 +1059,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.25879.31",
                         "first_name": "Tony E",
+                        "initials": "",
                         "last_name": "Smith",
                         "orcid": "",
                         "researcher_id": "ur.015431067731.40"
@@ -1038,6 +1080,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.25879.31",
                         "first_name": "Eliza D",
+                        "initials": "",
                         "last_name": "Whiteman",
                         "orcid": "['0000-0003-4972-431X']",
                         "researcher_id": "ur.011775325153.27"
@@ -1058,6 +1101,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.168010.e",
                         "first_name": "Benjamin W",
+                        "initials": "",
                         "last_name": "Chrisinger",
                         "orcid": "['0000-0002-1480-6481']",
                         "researcher_id": "ur.01245216641.42"
@@ -1081,6 +1125,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.25879.31",
                     "first_name": "Amy",
+                    "initials": "",
                     "last_name": "Hillier",
                     "orcid": "",
                     "researcher_id": "ur.01243127766.41"
@@ -1101,6 +1146,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.25879.31",
                     "first_name": "Tony E",
+                    "initials": "",
                     "last_name": "Smith",
                     "orcid": "",
                     "researcher_id": "ur.015431067731.40"
@@ -1121,6 +1167,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.25879.31",
                     "first_name": "Eliza D",
+                    "initials": "",
                     "last_name": "Whiteman",
                     "orcid": "['0000-0003-4972-431X']",
                     "researcher_id": "ur.011775325153.27"
@@ -1141,6 +1188,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.168010.e",
                     "first_name": "Benjamin W",
+                    "initials": "",
                     "last_name": "Chrisinger",
                     "orcid": "['0000-0002-1480-6481']",
                     "researcher_id": "ur.01245216641.42"
@@ -1166,22 +1214,22 @@
             ],
             "category_hrcs_hc": [
                 {
-                    "id": "894",
-                    "name": "Cardiovascular"
-                },
-                {
                     "id": "909",
                     "name": "Stroke"
+                },
+                {
+                    "id": "894",
+                    "name": "Cardiovascular"
                 }
             ],
             "category_rcdc": [
                 {
-                    "id": "389",
-                    "name": "Obesity"
-                },
-                {
                     "id": "388",
                     "name": "Nutrition"
+                },
+                {
+                    "id": "389",
+                    "name": "Obesity"
                 }
             ],
             "category_ua": [
@@ -1201,7 +1249,6 @@
                 "food",
                 "concern",
                 "body of research",
-                "research",
                 "people",
                 "choice",
                 "risk of obesity",
@@ -1212,13 +1259,10 @@
                 "data",
                 "National Household Food Acquisition",
                 "Household Food Acquisition",
-                "food acquisition",
                 "acquisition",
                 "Purchase Survey",
                 "survey",
                 "conditional logit model",
-                "logit model",
-                "model",
                 "home",
                 "household characteristics",
                 "food shoppers",
@@ -1226,13 +1270,11 @@
                 "store size",
                 "full-service supermarkets",
                 "supermarkets",
-                "driving distance",
                 "stores",
                 "main effect",
-                "effects",
+                "effect",
                 "participants",
                 "large stores",
-                "conventional supermarkets",
                 "types of stores",
                 "interaction effects",
                 "Supplemental Nutrition Assistance Program",
@@ -1240,9 +1282,8 @@
                 "assistance programs",
                 "program",
                 "Hispanic participants",
-                "Hispanics",
+                "non-Hispanics",
                 "white participants",
-                "whites",
                 "study",
                 "evidence",
                 "national trends",
@@ -1252,7 +1293,7 @@
             "date": "2017-09-27",
             "date_inserted": "2017-09-28",
             "doi": "10.3390/ijerph14101133",
-            "field_citation_ratio": 3.93,
+            "field_citation_ratio": 3.74,
             "funder_countries": [
                 {
                     "id": "US",
@@ -1288,10 +1329,11 @@
                 "title": "International Journal of Environmental Research and Public Health"
             },
             "journal_lists": [
+                "VABB-SHW",
+                "ERA 2018",
+                "Norwegian register level 1",
                 "DOAJ",
                 "ERA 2015",
-                "Norwegian register level 1",
-                "VABB-SHW",
                 "PubMed"
             ],
             "linkout": "https://www.mdpi.com/1660-4601/14/10/1133/pdf",
@@ -1307,6 +1349,36 @@
                 "Logistic Models",
                 "Residence Characteristics",
                 "Socioeconomic Factors"
+            ],
+            "noun_phrases": [
+                "discrete choice model",
+                "purchase",
+                "Family Characteristic",
+                "income level",
+                "food",
+                "central concern",
+                "body",
+                "shop",
+                "risk",
+                "obesity",
+                "chronic disease",
+                "analyzed data",
+                "food acquisition",
+                "logit",
+                "home",
+                "household characteristic",
+                "shopper",
+                "characteristic",
+                "distance",
+                "store",
+                "supermarket",
+                "main effect",
+                "large store",
+                "interaction effect",
+                "Food Assistance",
+                "evidence",
+                "national trend",
+                "local study"
             ],
             "open_access": [
                 "Open Access - all",
@@ -1331,66 +1403,66 @@
             "publisher": "MDPI",
             "recent_citations": 6,
             "reference_ids": [
-                "pub.1051528204",
-                "pub.1006805467",
-                "pub.1070213964",
-                "pub.1086102002",
-                "pub.1028453459",
-                "pub.1051160256",
-                "pub.1040829621",
-                "pub.1004885949",
-                "pub.1048328233",
-                "pub.1009893606",
                 "pub.1010257598",
-                "pub.1086033831",
-                "pub.1016865795",
-                "pub.1059380109",
-                "pub.1068878470",
-                "pub.1018167813",
-                "pub.1007508740",
-                "pub.1016253723",
                 "pub.1058157555",
-                "pub.1041567321",
-                "pub.1014655909",
-                "pub.1036643046",
-                "pub.1010828452",
+                "pub.1007508740",
+                "pub.1070213964",
                 "pub.1010751194",
-                "pub.1021067648",
+                "pub.1009893606",
                 "pub.1051436804",
-                "pub.1000605891",
-                "pub.1059380415"
+                "pub.1086033831",
+                "pub.1006805467",
+                "pub.1014655909",
+                "pub.1016865795",
+                "pub.1051528204",
+                "pub.1051160256",
+                "pub.1004885949",
+                "pub.1028453459",
+                "pub.1016253723",
+                "pub.1018167813",
+                "pub.1021067648",
+                "pub.1086102002",
+                "pub.1059380415",
+                "pub.1048328233",
+                "pub.1010828452",
+                "pub.1068878470",
+                "pub.1059380109",
+                "pub.1041567321",
+                "pub.1036643046",
+                "pub.1040829621",
+                "pub.1000605891"
             ],
             "references": [
-                "pub.1051528204",
-                "pub.1006805467",
-                "pub.1070213964",
-                "pub.1086102002",
-                "pub.1028453459",
-                "pub.1051160256",
-                "pub.1040829621",
-                "pub.1004885949",
-                "pub.1048328233",
-                "pub.1009893606",
                 "pub.1010257598",
-                "pub.1086033831",
-                "pub.1016865795",
-                "pub.1059380109",
-                "pub.1068878470",
-                "pub.1018167813",
-                "pub.1007508740",
-                "pub.1016253723",
                 "pub.1058157555",
-                "pub.1041567321",
-                "pub.1014655909",
-                "pub.1036643046",
-                "pub.1010828452",
+                "pub.1007508740",
+                "pub.1070213964",
                 "pub.1010751194",
-                "pub.1021067648",
+                "pub.1009893606",
                 "pub.1051436804",
-                "pub.1000605891",
-                "pub.1059380415"
+                "pub.1086033831",
+                "pub.1006805467",
+                "pub.1014655909",
+                "pub.1016865795",
+                "pub.1051528204",
+                "pub.1051160256",
+                "pub.1004885949",
+                "pub.1028453459",
+                "pub.1016253723",
+                "pub.1018167813",
+                "pub.1021067648",
+                "pub.1086102002",
+                "pub.1059380415",
+                "pub.1048328233",
+                "pub.1010828452",
+                "pub.1068878470",
+                "pub.1059380109",
+                "pub.1041567321",
+                "pub.1036643046",
+                "pub.1040829621",
+                "pub.1000605891"
             ],
-            "relative_citation_ratio": 1.54,
+            "relative_citation_ratio": 1.33,
             "research_org_cities": [
                 {
                     "id": 5398563,
@@ -1410,19 +1482,23 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Stanford University",
+                "University of Pennsylvania"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-CA",
-                    "name": "California"
-                },
                 {
                     "id": "US-PA",
                     "name": "Pennsylvania"
+                },
+                {
+                    "id": "US-CA",
+                    "name": "California"
                 }
             ],
             "research_org_state_names": [
-                "Pennsylvania",
-                "California"
+                "California",
+                "Pennsylvania"
             ],
             "research_orgs": [
                 {
@@ -1463,10 +1539,10 @@
                     "id": "ur.01243127766.41",
                     "last_name": "Hillier",
                     "research_orgs": [
-                        "grid.25879.31",
-                        "grid.166341.7",
                         "grid.10698.36",
-                        "grid.263081.e"
+                        "grid.25879.31",
+                        "grid.263081.e",
+                        "grid.166341.7"
                     ]
                 },
                 {
@@ -1497,10 +1573,10 @@
                         "0000-0002-1480-6481"
                     ],
                     "research_orgs": [
-                        "grid.414123.1",
-                        "grid.168010.e",
+                        "grid.4991.5",
                         "grid.25879.31",
-                        "grid.4991.5"
+                        "grid.168010.e",
+                        "grid.414123.1"
                     ]
                 }
             ],
@@ -1509,7 +1585,6 @@
                 "food",
                 "concern",
                 "body of research",
-                "research",
                 "people",
                 "choice",
                 "risk of obesity",
@@ -1520,13 +1595,10 @@
                 "data",
                 "National Household Food Acquisition",
                 "Household Food Acquisition",
-                "food acquisition",
                 "acquisition",
                 "Purchase Survey",
                 "survey",
                 "conditional logit model",
-                "logit model",
-                "model",
                 "home",
                 "household characteristics",
                 "food shoppers",
@@ -1534,13 +1606,11 @@
                 "store size",
                 "full-service supermarkets",
                 "supermarkets",
-                "driving distance",
                 "stores",
                 "main effect",
-                "effects",
+                "effect",
                 "participants",
                 "large stores",
-                "conventional supermarkets",
                 "types of stores",
                 "interaction effects",
                 "Supplemental Nutrition Assistance Program",
@@ -1548,9 +1618,8 @@
                 "assistance programs",
                 "program",
                 "Hispanic participants",
-                "Hispanics",
+                "non-Hispanics",
                 "white participants",
-                "whites",
                 "study",
                 "evidence",
                 "national trends",
@@ -1977,9 +2046,21 @@
         },
         "doi": "10.3390/ijerph14101133",
         "keyphrases": {
+            "central concern": {
+                "count": 1,
+                "rank_score": 0.05277712990856248
+            },
+            "chronic disease": {
+                "count": 1,
+                "rank_score": 0.05722214226095065
+            },
             "conventional supermarkets": {
                 "count": 1,
                 "rank_score": 0.06743968993861613
+            },
+            "explicitly spatial discrete choice models": {
+                "count": 1,
+                "rank_score": 0.06194296264896654
             },
             "food": {
                 "count": 2,
@@ -1989,6 +2070,10 @@
                 "count": 1,
                 "rank_score": 0.07687739493059823
             },
+            "full-service supermarkets": {
+                "count": 2,
+                "rank_score": 0.05183288692072117
+            },
             "hispanic participants": {
                 "count": 1,
                 "rank_score": 0.07749023235601984
@@ -1997,17 +2082,41 @@
                 "count": 1,
                 "rank_score": 0.07076657571382658
             },
+            "interaction effects": {
+                "count": 1,
+                "rank_score": 0.06370260772219831
+            },
             "larger stores": {
                 "count": 2,
                 "rank_score": 0.10514907808125577
+            },
+            "national household food acquisition and purchase survey": {
+                "count": 2,
+                "rank_score": 0.05254132726901338
+            },
+            "national trends": {
+                "count": 1,
+                "rank_score": 0.06399122501823445
             },
             "non-hispanics": {
                 "count": 2,
                 "rank_score": 0.07872487727493345
             },
-            "participants": {
-                "count": 3,
-                "rank_score": 0.07975098962027544
+            "non-whites": {
+                "count": 2,
+                "rank_score": 0.06702745159688554
+            },
+            "other types": {
+                "count": 1,
+                "rank_score": 0.055857851742442836
+            },
+            "people": {
+                "count": 1,
+                "rank_score": 0.053600144603967975
+            },
+            "previous smaller, local studies": {
+                "count": 1,
+                "rank_score": 0.05354432628275736
             },
             "store characteristics": {
                 "count": 1,
@@ -2063,16 +2172,16 @@
             ],
             "RCDC": [
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
-                },
-                {
                     "id": "388",
                     "name": "Nutrition"
+                },
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
                 }
             ],
             "altmetric": 1.0,
-            "altmetric_id": 26983356,
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -2091,6 +2200,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.419482.2",
                         "first_name": "James",
+                        "initials": "",
                         "last_name": "Mabli",
                         "orcid": "",
                         "researcher_id": "ur.01334166153.83"
@@ -2111,6 +2221,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.419482.2",
                         "first_name": "Julie",
+                        "initials": "",
                         "last_name": "Worthington",
                         "orcid": "",
                         "researcher_id": "ur.01303705744.24"
@@ -2134,6 +2245,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.419482.2",
                     "first_name": "James",
+                    "initials": "",
                     "last_name": "Mabli",
                     "orcid": "",
                     "researcher_id": "ur.01334166153.83"
@@ -2154,6 +2266,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.419482.2",
                     "first_name": "Julie",
+                    "initials": "",
                     "last_name": "Worthington",
                     "orcid": "",
                     "researcher_id": "ur.01303705744.24"
@@ -2177,12 +2290,12 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
-                },
-                {
                     "id": "388",
                     "name": "Nutrition"
+                },
+                {
+                    "id": "507",
+                    "name": "Clinical Research"
                 }
             ],
             "category_ua": [
@@ -2202,10 +2315,8 @@
                 "Supplemental Nutrition Assistance Program (SNAP) participation",
                 "program participation",
                 "participation",
-                "pantry use",
                 "use",
                 "pretest-posttest design",
-                "posttest design",
                 "program enrollment",
                 "enrollment",
                 "months of participation",
@@ -2219,9 +2330,6 @@
                 "baseline interview",
                 "interviews",
                 "SNAP",
-                "outcome measures",
-                "measures",
-                "emergency food",
                 "food",
                 "pantries",
                 "days",
@@ -2251,7 +2359,7 @@
             "date": "2017-09-01",
             "date_inserted": "2017-09-15",
             "doi": "10.1016/j.jneb.2016.12.001",
-            "field_citation_ratio": 4.34,
+            "field_citation_ratio": 4.15,
             "id": "pub.1091497525",
             "issn": [
                 "1499-4046",
@@ -2264,10 +2372,11 @@
                 "title": "Journal of Nutrition Education and Behavior"
             },
             "journal_lists": [
-                "ERA 2015",
-                "Norwegian register level 1",
-                "ERIH PLUS",
                 "VABB-SHW",
+                "ERA 2018",
+                "Norwegian register level 1",
+                "ERA 2015",
+                "ERIH PLUS",
                 "PubMed"
             ],
             "mesh_terms": [
@@ -2285,6 +2394,38 @@
                 "Middle Aged",
                 "Young Adult"
             ],
+            "noun_phrases": [
+                "program participation",
+                "association",
+                "Food Assistance",
+                "participation",
+                "pretest-posttest design",
+                "enrollment",
+                "Family Characteristic",
+                "geographic characteristic",
+                "setting",
+                "assistance",
+                "telephone survey",
+                "baseline interview",
+                "main outcome measure",
+                "emergency",
+                "logistic regression analysis",
+                "household characteristic",
+                "independent variable",
+                "statistical significance",
+                "t-tests",
+                "author",
+                "multiple comparison",
+                "decrease",
+                "reduction",
+                "implication",
+                "allotment",
+                "adequacy",
+                "program benefit",
+                "access",
+                "food",
+                "active life"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -2297,24 +2438,24 @@
             "publisher": "Elsevier",
             "recent_citations": 8,
             "reference_ids": [
-                "pub.1018077975",
+                "pub.1030591973",
                 "pub.1044860632",
-                "pub.1058674243",
-                "pub.1006262714",
                 "pub.1034978584",
+                "pub.1006262714",
                 "pub.1053183641",
-                "pub.1030591973"
+                "pub.1058674243",
+                "pub.1018077975"
             ],
             "references": [
-                "pub.1018077975",
+                "pub.1030591973",
                 "pub.1044860632",
-                "pub.1058674243",
-                "pub.1006262714",
                 "pub.1034978584",
+                "pub.1006262714",
                 "pub.1053183641",
-                "pub.1030591973"
+                "pub.1058674243",
+                "pub.1018077975"
             ],
-            "relative_citation_ratio": 0.64,
+            "relative_citation_ratio": 0.49,
             "research_org_cities": [
                 {
                     "id": 5102922,
@@ -2329,6 +2470,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Mathematica Policy Research"
             ],
             "research_org_state_codes": [
                 {
@@ -2379,10 +2523,8 @@
                 "Supplemental Nutrition Assistance Program (SNAP) participation",
                 "program participation",
                 "participation",
-                "pantry use",
                 "use",
                 "pretest-posttest design",
-                "posttest design",
                 "program enrollment",
                 "enrollment",
                 "months of participation",
@@ -2396,9 +2538,6 @@
                 "baseline interview",
                 "interviews",
                 "SNAP",
-                "outcome measures",
-                "measures",
-                "emergency food",
                 "food",
                 "pantries",
                 "days",
@@ -3100,25 +3239,57 @@
         },
         "doi": "10.1016/j.jneb.2016.12.001",
         "keyphrases": {
+            "analysis logistic": {
+                "count": 1,
+                "rank_score": 0.055552264460901515
+            },
             "analysis logistic regression analysis": {
                 "count": 1,
                 "rank_score": 0.07341763553744841
+            },
+            "baseline interviews": {
+                "count": 1,
+                "rank_score": 0.054861674916012765
+            },
+            "bonferroni adjustment": {
+                "count": 1,
+                "rank_score": 0.04042450238836174
             },
             "conclusions and implications supplemental nutrition assistance program benefit allotments": {
                 "count": 1,
                 "rank_score": 0.08536953310868603
             },
+            "design a pretest–posttest design": {
+                "count": 1,
+                "rank_score": 0.03968751082856583
+            },
             "emergency food": {
                 "count": 1,
                 "rank_score": 0.07202164370864855
             },
-            "household": {
-                "count": 3,
-                "rank_score": 0.09142859815839263
+            "geographic characteristics": {
+                "count": 1,
+                "rank_score": 0.062171336506430454
             },
             "household characteristics": {
                 "count": 1,
                 "rank_score": 0.0982029431789912
+            },
+            "independent variables": {
+                "count": 1,
+                "rank_score": 0.053512800923311496
+            },
+            "main outcome measure": {
+                "count": 1,
+                "rank_score": 0.06892867513211069
+            },
+            "multiple comparisons": {
+                "count": 1,
+                "rank_score": 0.06510682205025493
+            },
+            "national telephone survey": {
+                "count": 1,
+                "rank_score": 0.040321052308255986
             },
             "pantries": {
                 "count": 2,
@@ -3127,6 +3298,10 @@
             "pantry use": {
                 "count": 4,
                 "rank_score": 0.11153520018469673
+            },
+            "program enrollment": {
+                "count": 1,
+                "rank_score": 0.059767643184375364
             },
             "snap": {
                 "count": 9,
@@ -3147,6 +3322,10 @@
             "snap participation": {
                 "count": 2,
                 "rank_score": 0.1103573873821718
+            },
+            "statistical significance": {
+                "count": 1,
+                "rank_score": 0.054224779835179496
             },
             "sufficient food": {
                 "count": 1,
@@ -3190,7 +3369,7 @@
                     "name": "Behavioral and Social Science"
                 }
             ],
-            "altmetric": 2.0,
+            "altmetric": 1.0,
             "altmetric_id": 8343587,
             "author_affiliations": [
                 [
@@ -3199,6 +3378,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.419482.2",
                         "first_name": "James",
+                        "initials": "",
                         "last_name": "Mabli",
                         "orcid": "",
                         "researcher_id": "ur.01334166153.83"
@@ -3208,6 +3388,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.419482.2",
                         "first_name": "Julie",
+                        "initials": "",
                         "last_name": "Worthington",
                         "orcid": "",
                         "researcher_id": "ur.01303705744.24"
@@ -3220,6 +3401,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.419482.2",
                     "first_name": "James",
+                    "initials": "",
                     "last_name": "Mabli",
                     "orcid": "",
                     "researcher_id": "ur.01334166153.83"
@@ -3229,6 +3411,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.419482.2",
                     "first_name": "Julie",
+                    "initials": "",
                     "last_name": "Worthington",
                     "orcid": "",
                     "researcher_id": "ur.01303705744.24"
@@ -3273,6 +3456,7 @@
                 "food purchase behavior",
                 "data",
                 "Food Security Survey",
+                "Security Survey",
                 "survey",
                 "recent national survey",
                 "national survey",
@@ -3286,6 +3470,7 @@
                 "number",
                 "respondents",
                 "reasons",
+                "least half",
                 "half",
                 "more supermarkets",
                 "majority",
@@ -3302,7 +3487,7 @@
             "date": "2015-01-02",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/19320248.2015.1004221",
-            "field_citation_ratio": 1.7,
+            "field_citation_ratio": 1.77,
             "id": "pub.1016850570",
             "issn": [
                 "1932-0248",
@@ -3314,8 +3499,46 @@
                 "title": "Journal of Hunger & Environmental Nutrition"
             },
             "journal_lists": [
-                "ERA 2015",
-                "Norwegian register level 1"
+                "ERA 2018",
+                "Norwegian register level 1",
+                "ERA 2015"
+            ],
+            "noun_phrases": [
+                "food purchase",
+                "assistance",
+                "food access",
+                "Food Assistance",
+                "Family Characteristic",
+                "national survey",
+                "program participant",
+                "date",
+                "geographic access",
+                "food",
+                "street",
+                "retailer",
+                "distance",
+                "store",
+                "Data Collection",
+                "grocery",
+                "mode",
+                "transportation",
+                "travel time",
+                "least half",
+                "access",
+                "supermarket",
+                "close range",
+                "majority",
+                "shopping",
+                "purchase",
+                "convenience store",
+                "home",
+                "low price",
+                "Commerce",
+                "american",
+                "policymakers",
+                "prevalence",
+                "limitation",
+                "healthy food"
             ],
             "open_access_categories": [
                 {
@@ -3328,20 +3551,20 @@
             "publisher": "Taylor & Francis",
             "recent_citations": 3,
             "reference_ids": [
-                "pub.1004021966",
-                "pub.1020185910",
                 "pub.1049754799",
-                "pub.1014299186",
+                "pub.1004021966",
                 "pub.1068842532",
-                "pub.1038931346"
+                "pub.1020185910",
+                "pub.1038931346",
+                "pub.1014299186"
             ],
             "references": [
-                "pub.1004021966",
-                "pub.1020185910",
                 "pub.1049754799",
-                "pub.1014299186",
+                "pub.1004021966",
                 "pub.1068842532",
-                "pub.1038931346"
+                "pub.1020185910",
+                "pub.1038931346",
+                "pub.1014299186"
             ],
             "researchers": [
                 {
@@ -3366,6 +3589,7 @@
                 "food purchase behavior",
                 "data",
                 "Food Security Survey",
+                "Security Survey",
                 "survey",
                 "recent national survey",
                 "national survey",
@@ -3379,6 +3603,7 @@
                 "number",
                 "respondents",
                 "reasons",
+                "least half",
                 "half",
                 "more supermarkets",
                 "majority",
@@ -3632,13 +3857,29 @@
         },
         "doi": "10.1080/19320248.2015.1004221",
         "keyphrases": {
-            "access": {
+            "at least half": {
+                "count": 2,
+                "rank_score": 0.0401106881101583
+            },
+            "close range": {
                 "count": 1,
-                "rank_score": 0.07894541435907239
+                "rank_score": 0.0723983422564611
+            },
+            "convenience store": {
+                "count": 1,
+                "rank_score": 0.056599374721249575
+            },
+            "distance": {
+                "count": 2,
+                "rank_score": 0.06699025423074151
             },
             "food": {
                 "count": 1,
                 "rank_score": 0.1066647424275768
+            },
+            "food access environment": {
+                "count": 1,
+                "rank_score": 0.0776413635206727
             },
             "food purchase behavior": {
                 "count": 2,
@@ -3652,13 +3893,29 @@
                 "count": 1,
                 "rank_score": 0.07467486417087782
             },
+            "largest and most recent national survey": {
+                "count": 1,
+                "rank_score": 0.03643436049122806
+            },
             "nearby stores": {
                 "count": 1,
                 "rank_score": 0.10061428341744126
             },
+            "numbers": {
+                "count": 1,
+                "rank_score": 0.045274213942788834
+            },
+            "retailers": {
+                "count": 2,
+                "rank_score": 0.06222745772774796
+            },
             "snap": {
                 "count": 4,
                 "rank_score": 0.11601211377249616
+            },
+            "snap food security survey": {
+                "count": 2,
+                "rank_score": 0.08031370008655765
             },
             "snap households": {
                 "count": 1,
@@ -3672,17 +3929,25 @@
                 "count": 4,
                 "rank_score": 0.09384196855070917
             },
+            "street addresses": {
+                "count": 1,
+                "rank_score": 0.06476753235507542
+            },
+            "supermarket": {
+                "count": 1,
+                "rank_score": 0.03789689528502325
+            },
             "supplemental nutrition assistance program": {
                 "count": 1,
                 "rank_score": 0.08984628865321066
             },
-            "the food access environment": {
+            "their food shopping": {
                 "count": 1,
-                "rank_score": 0.0776413635206727
+                "rank_score": 0.06274449579420592
             },
-            "the snap food security survey": {
-                "count": 2,
-                "rank_score": 0.08031370008655765
+            "transportation": {
+                "count": 1,
+                "rank_score": 0.057904888040766725
             },
             "typical mode": {
                 "count": 1,
@@ -3718,16 +3983,16 @@
             ],
             "RCDC": [
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
                     "id": "497",
                     "name": "Basic Behavioral and Social Science"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
             "altmetric": 1.0,
-            "altmetric_id": 15650611,
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -3735,6 +4000,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "James",
+                        "initials": "",
                         "last_name": "Mabli",
                         "orcid": "",
                         "researcher_id": ""
@@ -3744,6 +4010,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "David",
+                        "initials": "",
                         "last_name": "Jones",
                         "orcid": "",
                         "researcher_id": ""
@@ -3753,6 +4020,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Phillip",
+                        "initials": "",
                         "last_name": "Kaufman",
                         "orcid": "",
                         "researcher_id": ""
@@ -3765,6 +4033,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "James",
+                    "initials": "",
                     "last_name": "Mabli",
                     "orcid": "",
                     "researcher_id": ""
@@ -3774,6 +4043,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "David",
+                    "initials": "",
                     "last_name": "Jones",
                     "orcid": "",
                     "researcher_id": ""
@@ -3783,6 +4053,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Phillip",
+                    "initials": "",
                     "last_name": "Kaufman",
                     "orcid": "",
                     "researcher_id": ""
@@ -3806,14 +4077,15 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
                     "id": "497",
                     "name": "Basic Behavioral and Social Science"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30002",
@@ -3829,29 +4101,27 @@
             "concepts": [
                 "study",
                 "low-income households",
-                "income households",
                 "households",
-                "vulnerable populations",
-                "population",
                 "food",
                 "access",
                 "food pantries",
                 "pantries",
                 "area",
                 "supermarkets",
+                "state",
                 "District of Columbia",
                 "district",
-                "percentage",
+                "Columbia",
+                "local area",
                 "area population characteristics",
                 "population characteristics",
-                "subgroups",
                 "poverty level",
                 "levels",
                 "socioeconomic status",
                 "status",
                 "access limitations",
                 "quarter",
-                "census tracts",
+                "census",
                 "high rate",
                 "rate",
                 "poverty",
@@ -3860,9 +4130,9 @@
                 "important role",
                 "role",
                 "American families",
-                "family",
                 "importance",
                 "program",
+                "account",
                 "extent",
                 "food access",
                 "America"
@@ -3870,7 +4140,7 @@
             "date": "2013-07-03",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/19320248.2013.786663",
-            "field_citation_ratio": 1.87,
+            "field_citation_ratio": 1.98,
             "id": "pub.1014299186",
             "issn": [
                 "1932-0248",
@@ -3882,64 +4152,82 @@
                 "title": "Journal of Hunger & Environmental Nutrition"
             },
             "journal_lists": [
-                "ERA 2015",
-                "Norwegian register level 1"
+                "ERA 2018",
+                "Norwegian register level 1",
+                "ERA 2015"
             ],
-            "linkout": "https://www.tandfonline.com/doi/pdf/10.1080/19320248.2013.786663?needAccess=true",
-            "open_access": [
-                "Open Access - all",
-                "Open Access - repository",
-                "Open Access - submitted"
+            "noun_phrases": [
+                "food access",
+                "emergency",
+                "supermarket",
+                "depiction",
+                "environment",
+                "low-income household",
+                "vulnerable population",
+                "purchase",
+                "access",
+                "location",
+                "food",
+                "map",
+                "state",
+                "District of Columbia",
+                "local area",
+                "Population Characteristic",
+                "subgroup",
+                "poverty level",
+                "Social Class",
+                "Family Characteristic",
+                "quarter",
+                "census tract",
+                "high poverty",
+                "high rate",
+                "poverty",
+                "low socioeconomic status",
+                "important role",
+                "American family"
             ],
             "open_access_categories": [
                 {
-                    "description": "Article is freely available",
-                    "id": "oa_all",
-                    "name": "All OA"
-                },
-                {
-                    "description": "Free copy of submitted version, or where version is unknown, in an OA repository",
-                    "id": "green_sub",
-                    "name": "Green, Submitted"
+                    "description": "No freely available copy has been identified",
+                    "id": "closed",
+                    "name": "Closed"
                 }
             ],
             "pages": "310-323",
             "publisher": "Taylor & Francis",
             "recent_citations": 5,
             "reference_ids": [
-                "pub.1068842532",
-                "pub.1032431584"
+                "pub.1032431584",
+                "pub.1068842532"
             ],
             "references": [
-                "pub.1068842532",
-                "pub.1032431584"
+                "pub.1032431584",
+                "pub.1068842532"
             ],
             "terms": [
                 "study",
                 "low-income households",
-                "income households",
                 "households",
-                "vulnerable populations",
-                "population",
                 "food",
                 "access",
                 "food pantries",
                 "pantries",
                 "area",
                 "supermarkets",
+                "state",
                 "District of Columbia",
                 "district",
-                "percentage",
+                "Columbia",
+                "local area",
                 "area population characteristics",
                 "population characteristics",
-                "subgroups",
                 "poverty level",
                 "levels",
                 "socioeconomic status",
                 "status",
                 "access limitations",
                 "quarter",
-                "census tracts",
+                "census",
                 "high rate",
                 "rate",
                 "poverty",
@@ -3948,9 +4236,9 @@
                 "important role",
                 "role",
                 "American families",
-                "family",
                 "importance",
                 "program",
+                "account",
                 "extent",
                 "food access",
                 "America"
@@ -4231,17 +4519,33 @@
         },
         "doi": "10.1080/19320248.2013.786663",
         "keyphrases": {
-            "access": {
-                "count": 1,
-                "rank_score": 0.07225729714325907
+            "about one quarter": {
+                "count": 2,
+                "rank_score": 0.01976993984934435
             },
-            "areas": {
-                "count": 7,
-                "rank_score": 0.13173672642097134
+            "census": {
+                "count": 1,
+                "rank_score": 0.0513638104224675
+            },
+            "columbia": {
+                "count": 1,
+                "rank_score": 0.05742795849949402
+            },
+            "district": {
+                "count": 1,
+                "rank_score": 0.027115733676170314
+            },
+            "district of columbia": {
+                "count": 1,
+                "rank_score": 0.03082501018603712
             },
             "emergency food pantries": {
                 "count": 1,
                 "rank_score": 0.14262977400125085
+            },
+            "environment": {
+                "count": 1,
+                "rank_score": 0.030006006577902658
             },
             "food": {
                 "count": 1,
@@ -4259,6 +4563,10 @@
                 "count": 1,
                 "rank_score": 0.07791851177628045
             },
+            "in which low-income households": {
+                "count": 1,
+                "rank_score": 0.038692548760528765
+            },
             "local area population characteristics": {
                 "count": 1,
                 "rank_score": 0.14398265220258458
@@ -4266,6 +4574,18 @@
             "local areas": {
                 "count": 1,
                 "rank_score": 0.1397325236426441
+            },
+            "locations": {
+                "count": 1,
+                "rank_score": 0.022939058169782898
+            },
+            "more comprehensive depiction": {
+                "count": 1,
+                "rank_score": 0.033005801537986115
+            },
+            "only high-poverty tracts": {
+                "count": 1,
+                "rank_score": 0.049438203828397934
             },
             "other vulnerable populations": {
                 "count": 1,
@@ -4278,6 +4598,10 @@
             "poverty level": {
                 "count": 1,
                 "rank_score": 0.08955709827710198
+            },
+            "sizable percentage": {
+                "count": 1,
+                "rank_score": 0.042231392154939394
             },
             "socioeconomic status": {
                 "count": 1,
@@ -4335,6 +4659,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.267193.8",
                         "first_name": "Carol L.",
+                        "initials": "",
                         "last_name": "Connell",
                         "orcid": "['0000-0001-9017-7499']",
                         "researcher_id": "ur.011134166757.26"
@@ -4355,6 +4680,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.267193.8",
                         "first_name": "M. Kathleen",
+                        "initials": "",
                         "last_name": "Yadrick",
                         "orcid": "",
                         "researcher_id": "ur.01026010203.67"
@@ -4375,6 +4701,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.30760.32",
                         "first_name": "Pippa",
+                        "initials": "",
                         "last_name": "Simpson",
                         "orcid": "",
                         "researcher_id": "ur.01060544002.57"
@@ -4395,6 +4722,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.241054.6",
                         "first_name": "Jeffrey",
+                        "initials": "",
                         "last_name": "Gossett",
                         "orcid": "",
                         "researcher_id": "ur.01353775116.51"
@@ -4415,6 +4743,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.263880.7",
                         "first_name": "Bernestine B.",
+                        "initials": "",
                         "last_name": "McGee",
                         "orcid": "",
                         "researcher_id": "ur.01262413213.37"
@@ -4428,6 +4757,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.463419.d",
                         "first_name": "Margaret L.",
+                        "initials": "",
                         "last_name": "Bogle",
                         "orcid": "",
                         "researcher_id": "ur.01277563156.88"
@@ -4451,6 +4781,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.267193.8",
                     "first_name": "Carol L.",
+                    "initials": "",
                     "last_name": "Connell",
                     "orcid": "['0000-0001-9017-7499']",
                     "researcher_id": "ur.011134166757.26"
@@ -4471,6 +4802,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.267193.8",
                     "first_name": "M. Kathleen",
+                    "initials": "",
                     "last_name": "Yadrick",
                     "orcid": "",
                     "researcher_id": "ur.01026010203.67"
@@ -4491,6 +4823,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.30760.32",
                     "first_name": "Pippa",
+                    "initials": "",
                     "last_name": "Simpson",
                     "orcid": "",
                     "researcher_id": "ur.01060544002.57"
@@ -4511,6 +4844,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.241054.6",
                     "first_name": "Jeffrey",
+                    "initials": "",
                     "last_name": "Gossett",
                     "orcid": "",
                     "researcher_id": "ur.01353775116.51"
@@ -4531,6 +4865,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.263880.7",
                     "first_name": "Bernestine B.",
+                    "initials": "",
                     "last_name": "McGee",
                     "orcid": "",
                     "researcher_id": "ur.01262413213.37"
@@ -4544,6 +4879,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.463419.d",
                     "first_name": "Margaret L.",
+                    "initials": "",
                     "last_name": "Bogle",
                     "orcid": "",
                     "researcher_id": "ur.01277563156.88"
@@ -4588,14 +4924,15 @@
                 "United States",
                 "food stores",
                 "County",
-                "outcome measures",
+                "MAIN",
                 "measures",
                 "percentage",
                 "quality ratings",
                 "ratings",
-                "food section",
+                "food sections",
                 "mean percentage",
-                "overall quality rating",
+                "higher overall quality ratings",
+                "overall quality ratings",
                 "food",
                 "practice",
                 "large percentage",
@@ -4603,15 +4940,15 @@
                 "community residents",
                 "residents",
                 "limited transportation",
+                "community-based nutrition interventions",
                 "nutrition interventions",
                 "intervention",
-                "food choices",
-                "choice"
+                "food choices"
             ],
             "date": "2007-03-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.jneb.2006.10.007",
-            "field_citation_ratio": 7.39,
+            "field_citation_ratio": 8.4,
             "id": "pub.1005729068",
             "issn": [
                 "1499-4046",
@@ -4623,10 +4960,11 @@
                 "title": "Journal of Nutrition Education and Behavior"
             },
             "journal_lists": [
-                "ERA 2015",
-                "Norwegian register level 1",
-                "ERIH PLUS",
                 "VABB-SHW",
+                "ERA 2018",
+                "Norwegian register level 1",
+                "ERA 2015",
+                "ERIH PLUS",
                 "PubMed"
             ],
             "mesh_terms": [
@@ -4636,6 +4974,32 @@
                 "Humans",
                 "Mississippi",
                 "Rural Population"
+            ],
+            "noun_phrases": [
+                "Food Supply",
+                "Mississippi Delta",
+                "food store",
+                "food item",
+                "supermarket",
+                "store",
+                "convenience store",
+                "setting",
+                "United State",
+                "county",
+                "main outcome measure",
+                "food",
+                "rating",
+                "section",
+                "average",
+                "mean",
+                "overall quality",
+                "implication",
+                "community resident",
+                "transportation",
+                "nutrition intervention",
+                "partnership",
+                "retailer",
+                "food choice"
             ],
             "open_access_categories": [
                 {
@@ -4649,58 +5013,58 @@
             "publisher": "Elsevier",
             "recent_citations": 6,
             "reference_ids": [
-                "pub.1069974986",
-                "pub.1005504212",
-                "pub.1043996567",
+                "pub.1015982836",
+                "pub.1005669111",
+                "pub.1039888124",
+                "pub.1078026524",
+                "pub.1036268260",
+                "pub.1024717279",
+                "pub.1076884489",
+                "pub.1038417067",
                 "pub.1002804167",
+                "pub.1033471074",
+                "pub.1039632729",
+                "pub.1054022189",
+                "pub.1005504212",
+                "pub.1068879736",
+                "pub.1022758302",
+                "pub.1069974986",
+                "pub.1058253149",
+                "pub.1018581419",
+                "pub.1050544684",
+                "pub.1068878470",
+                "pub.1043996567",
                 "pub.1024974539",
                 "pub.1010255031",
-                "pub.1018581419",
-                "pub.1005669111",
-                "pub.1068879736",
-                "pub.1039888124",
-                "pub.1068878470",
-                "pub.1024717279",
-                "pub.1038417067",
-                "pub.1036268260",
-                "pub.1014060704",
-                "pub.1054022189",
-                "pub.1022758302",
-                "pub.1039632729",
-                "pub.1078026524",
-                "pub.1058253149",
-                "pub.1050544684",
-                "pub.1033471074",
-                "pub.1015982836",
-                "pub.1076884489"
+                "pub.1014060704"
             ],
             "references": [
-                "pub.1069974986",
-                "pub.1005504212",
-                "pub.1043996567",
+                "pub.1015982836",
+                "pub.1005669111",
+                "pub.1039888124",
+                "pub.1078026524",
+                "pub.1036268260",
+                "pub.1024717279",
+                "pub.1076884489",
+                "pub.1038417067",
                 "pub.1002804167",
+                "pub.1033471074",
+                "pub.1039632729",
+                "pub.1054022189",
+                "pub.1005504212",
+                "pub.1068879736",
+                "pub.1022758302",
+                "pub.1069974986",
+                "pub.1058253149",
+                "pub.1018581419",
+                "pub.1050544684",
+                "pub.1068878470",
+                "pub.1043996567",
                 "pub.1024974539",
                 "pub.1010255031",
-                "pub.1018581419",
-                "pub.1005669111",
-                "pub.1068879736",
-                "pub.1039888124",
-                "pub.1068878470",
-                "pub.1024717279",
-                "pub.1038417067",
-                "pub.1036268260",
-                "pub.1014060704",
-                "pub.1054022189",
-                "pub.1022758302",
-                "pub.1039632729",
-                "pub.1078026524",
-                "pub.1058253149",
-                "pub.1050544684",
-                "pub.1033471074",
-                "pub.1015982836",
-                "pub.1076884489"
+                "pub.1014060704"
             ],
-            "relative_citation_ratio": 1.99,
+            "relative_citation_ratio": 1.94,
             "research_org_cities": [
                 {
                     "id": 4119403,
@@ -4730,14 +5094,16 @@
                 }
             ],
             "research_org_country_names": [
-                "United States",
-                "Belgium"
+                "Belgium",
+                "United States"
+            ],
+            "research_org_names": [
+                "University of Arkansas for Medical Sciences",
+                "University of Southern Mississippi",
+                "United States Department of Agriculture, Agricultural Research Service, SPA, Lower Mississippi Delta Nutrition Intervention Research Initiative, Little Rock, Arkansas",
+                "Southern University and Agricultural and Mechanical College"
             ],
             "research_org_state_codes": [
-                {
-                    "id": "US-MS",
-                    "name": "Mississippi"
-                },
                 {
                     "id": "US-LA",
                     "name": "Louisiana"
@@ -4745,11 +5111,14 @@
                 {
                     "id": "US-AR",
                     "name": "Arkansas"
+                },
+                {
+                    "id": "US-MS",
+                    "name": "Mississippi"
                 }
             ],
             "research_org_state_names": [
                 "Mississippi",
-                "Wallonia",
                 "Arkansas",
                 "Louisiana"
             ],
@@ -4811,10 +5180,10 @@
                         "0000-0001-9017-7499"
                     ],
                     "research_orgs": [
-                        "grid.266862.e",
-                        "grid.463419.d",
                         "grid.21729.3f",
-                        "grid.267193.8"
+                        "grid.267193.8",
+                        "grid.463419.d",
+                        "grid.266862.e"
                     ]
                 },
                 {
@@ -4829,25 +5198,28 @@
                     "first_name": "Pippa Margaret",
                     "id": "ur.01060544002.57",
                     "last_name": "Simpson",
+                    "orcid_id": [
+                        "0000-0003-1458-3748"
+                    ],
                     "research_orgs": [
-                        "grid.11630.35",
-                        "grid.67105.35",
-                        "grid.254444.7",
-                        "grid.414086.f",
-                        "grid.266623.5",
-                        "grid.266539.d",
-                        "grid.239305.e",
-                        "grid.16753.36",
-                        "grid.266756.6",
-                        "grid.280427.b",
-                        "grid.239281.3",
                         "grid.30760.32",
                         "grid.241054.6",
+                        "grid.239305.e",
+                        "grid.266623.5",
                         "grid.17635.36",
+                        "grid.16753.36",
+                        "grid.414154.1",
                         "grid.194632.b",
-                        "grid.463419.d",
+                        "grid.11630.35",
+                        "grid.266539.d",
+                        "grid.414086.f",
+                        "grid.266756.6",
                         "grid.15276.37",
-                        "grid.414154.1"
+                        "grid.254444.7",
+                        "grid.463419.d",
+                        "grid.239281.3",
+                        "grid.280427.b",
+                        "grid.67105.35"
                     ]
                 },
                 {
@@ -4855,14 +5227,14 @@
                     "id": "ur.01353775116.51",
                     "last_name": "Gossett",
                     "research_orgs": [
+                        "grid.463419.d",
+                        "grid.488749.e",
+                        "grid.239305.e",
                         "grid.241054.6",
                         "grid.416947.9",
-                        "grid.239305.e",
-                        "grid.463419.d",
-                        "grid.413808.6",
                         "grid.414086.f",
                         "grid.240871.8",
-                        "grid.488749.e"
+                        "grid.413808.6"
                     ]
                 },
                 {
@@ -4880,8 +5252,8 @@
                     "last_name": "Bogle",
                     "research_orgs": [
                         "grid.250514.7",
-                        "grid.417548.b",
-                        "grid.463419.d"
+                        "grid.463419.d",
+                        "grid.417548.b"
                     ]
                 }
             ],
@@ -4902,14 +5274,15 @@
                 "United States",
                 "food stores",
                 "County",
-                "outcome measures",
+                "MAIN",
                 "measures",
                 "percentage",
                 "quality ratings",
                 "ratings",
-                "food section",
+                "food sections",
                 "mean percentage",
-                "overall quality rating",
+                "higher overall quality ratings",
+                "overall quality ratings",
                 "food",
                 "practice",
                 "large percentage",
@@ -4917,10 +5290,10 @@
                 "community residents",
                 "residents",
                 "limited transportation",
+                "community-based nutrition interventions",
                 "nutrition interventions",
                 "intervention",
-                "food choices",
-                "choice"
+                "food choices"
             ],
             "times_cited": 50,
             "title": "Food Supply Adequacy in the Lower Mississippi Delta",
@@ -7817,17 +8190,13 @@
         },
         "doi": "10.1016/j.jneb.2006.10.007",
         "keyphrases": {
-            "102 food items": {
+            "community residents": {
                 "count": 1,
-                "rank_score": 0.0798275451515294
+                "rank_score": 0.07127149099894171
             },
-            "225 food stores": {
+            "community-based nutrition interventions": {
                 "count": 1,
-                "rank_score": 0.08851475704017524
-            },
-            "3 food store types": {
-                "count": 1,
-                "rank_score": 0.09253511302729717
+                "rank_score": 0.05557896011622951
             },
             "convenience stores": {
                 "count": 2,
@@ -7836,6 +8205,10 @@
             "food supply adequacy": {
                 "count": 1,
                 "rank_score": 0.1270524650198569
+            },
+            "fresh and frozen foods": {
+                "count": 1,
+                "rank_score": 0.0761490274223042
             },
             "higher overall quality ratings": {
                 "count": 1,
@@ -7857,6 +8230,14 @@
                 "count": 1,
                 "rank_score": 0.08131156281817419
             },
+            "mean percentage": {
+                "count": 1,
+                "rank_score": 0.06504021509908495
+            },
+            "mississippi delta": {
+                "count": 2,
+                "rank_score": 0.07057771795933121
+            },
             "quality ratings": {
                 "count": 1,
                 "rank_score": 0.09015439611883841
@@ -7865,17 +8246,49 @@
                 "count": 1,
                 "rank_score": 0.1405132485890714
             },
+            "residents food choices": {
+                "count": 1,
+                "rank_score": 0.07875509785345144
+            },
+            "small/medium and convenience stores": {
+                "count": 1,
+                "rank_score": 0.06298579944866181
+            },
             "small/medium food retailers": {
                 "count": 1,
                 "rank_score": 0.08581110364426843
+            },
+            "small/medium stores": {
+                "count": 2,
+                "rank_score": 0.07729277957976721
             },
             "store types": {
                 "count": 1,
                 "rank_score": 0.10634684412179339
             },
+            "stores": {
+                "count": 1,
+                "rank_score": 0.05520737697471122
+            },
             "supermarkets": {
                 "count": 6,
                 "rank_score": 0.0871155284052868
+            },
+            "tfp": {
+                "count": 5,
+                "rank_score": 0.0755513786924802
+            },
+            "tfp items": {
+                "count": 1,
+                "rank_score": 0.05830718575641081
+            },
+            "thrifty food plan": {
+                "count": 1,
+                "rank_score": 0.0748478314416058
+            },
+            "thrifty food plan (tfp) food items": {
+                "count": 1,
+                "rank_score": 0.07711307698466696
             }
         },
         "original": {

@@ -19,6 +19,7 @@
                     "name": "Aging"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -37,6 +38,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Joshua D.",
+                        "initials": "",
                         "last_name": "Hawley",
                         "orcid": "",
                         "researcher_id": ""
@@ -57,6 +59,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Shu-Chen",
+                        "initials": "",
                         "last_name": "Chiang",
                         "orcid": "",
                         "researcher_id": ""
@@ -80,6 +83,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Joshua D.",
+                    "initials": "",
                     "last_name": "Hawley",
                     "orcid": "",
                     "researcher_id": ""
@@ -100,6 +104,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Shu-Chen",
+                    "initials": "",
                     "last_name": "Chiang",
                     "orcid": "",
                     "researcher_id": ""
@@ -121,6 +126,7 @@
                     "name": "Aging"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30023",
@@ -137,19 +143,19 @@
                 "paper",
                 "developmental education",
                 "education",
-                "degree attainment",
-                "attainment",
+                "degree",
                 "years",
                 "adults",
                 "public community",
                 "community",
                 "technical colleges",
                 "College",
+                "degree attainment",
+                "attainment",
                 "data",
                 "course enrollment",
                 "enrollment",
                 "measures",
-                "scores",
                 "impact",
                 "study",
                 "educational characteristics",
@@ -164,6 +170,8 @@
                 "intervention",
                 "adult undergraduates",
                 "undergraduates",
+                "education help",
+                "help",
                 "findings",
                 "academic performance",
                 "performance",
@@ -175,7 +183,7 @@
             "date": "2017-07-03",
             "date_inserted": "2017-08-31",
             "doi": "10.1080/10668926.2016.1194237",
-            "field_citation_ratio": 1.1,
+            "field_citation_ratio": 0.99,
             "funder_countries": [
                 {
                     "id": "US",
@@ -210,7 +218,33 @@
                 "title": "Community College Journal of Research and Practice"
             },
             "journal_lists": [
+                "ERA 2018",
                 "Norwegian register level 1"
+            ],
+            "noun_phrases": [
+                "Education",
+                "academic performance",
+                "undergraduate student",
+                "community college",
+                "paper",
+                "association",
+                "degree attainment",
+                "adult",
+                "age 24",
+                "Ohio",
+                "Technical College",
+                "first time",
+                "enrollment",
+                "completion",
+                "Logistic Model",
+                "fixed effect",
+                "propensity score",
+                "characteristic",
+                "persistence",
+                "degree completion",
+                "educational institution",
+                "educational intervention",
+                "barrier"
             ],
             "open_access_categories": [
                 {
@@ -223,60 +257,64 @@
             "publisher": "Taylor & Francis",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1053811459",
-                "pub.1050700549",
-                "pub.1009795237",
-                "pub.1015266953",
-                "pub.1021276964",
-                "pub.1043556406",
-                "pub.1024226561",
-                "pub.1052604547",
                 "pub.1041532962",
-                "pub.1053769703",
-                "pub.1005934147",
                 "pub.1109491887",
-                "pub.1053928902",
-                "pub.1010991154",
-                "pub.1070970045",
-                "pub.1005972776",
-                "pub.1053891648",
-                "pub.1070972214",
-                "pub.1040679933",
-                "pub.1024938242",
-                "pub.1063768114",
-                "pub.1069973886",
                 "pub.1014390860",
+                "pub.1113510166",
+                "pub.1070970045",
+                "pub.1005934147",
                 "pub.1009157205",
+                "pub.1053811459",
+                "pub.1024938242",
+                "pub.1110073266",
+                "pub.1070972214",
+                "pub.1010991154",
+                "pub.1063768114",
+                "pub.1015266953",
+                "pub.1050700549",
+                "pub.1053928902",
+                "pub.1024226561",
+                "pub.1005972776",
                 "pub.1004278615",
-                "pub.1053863990"
+                "pub.1043556406",
+                "pub.1053769703",
+                "pub.1009795237",
+                "pub.1021276964",
+                "pub.1053863990",
+                "pub.1053891648",
+                "pub.1040679933",
+                "pub.1052604547",
+                "pub.1069973886"
             ],
             "references": [
-                "pub.1053811459",
-                "pub.1050700549",
-                "pub.1009795237",
-                "pub.1015266953",
-                "pub.1021276964",
-                "pub.1043556406",
-                "pub.1024226561",
-                "pub.1052604547",
                 "pub.1041532962",
-                "pub.1053769703",
-                "pub.1005934147",
                 "pub.1109491887",
-                "pub.1053928902",
-                "pub.1010991154",
-                "pub.1070970045",
-                "pub.1005972776",
-                "pub.1053891648",
-                "pub.1070972214",
-                "pub.1040679933",
-                "pub.1024938242",
-                "pub.1063768114",
-                "pub.1069973886",
                 "pub.1014390860",
+                "pub.1113510166",
+                "pub.1070970045",
+                "pub.1005934147",
                 "pub.1009157205",
+                "pub.1053811459",
+                "pub.1024938242",
+                "pub.1110073266",
+                "pub.1070972214",
+                "pub.1010991154",
+                "pub.1063768114",
+                "pub.1015266953",
+                "pub.1050700549",
+                "pub.1053928902",
+                "pub.1024226561",
+                "pub.1005972776",
                 "pub.1004278615",
-                "pub.1053863990"
+                "pub.1043556406",
+                "pub.1053769703",
+                "pub.1009795237",
+                "pub.1021276964",
+                "pub.1053863990",
+                "pub.1053891648",
+                "pub.1040679933",
+                "pub.1052604547",
+                "pub.1069973886"
             ],
             "research_org_cities": [
                 {
@@ -290,17 +328,21 @@
             ],
             "research_org_countries": [
                 {
-                    "id": "TW",
-                    "name": "Taiwan"
-                },
-                {
                     "id": "US",
                     "name": "United States"
+                },
+                {
+                    "id": "TW",
+                    "name": "Taiwan"
                 }
             ],
             "research_org_country_names": [
-                "Taiwan",
-                "United States"
+                "United States",
+                "Taiwan"
+            ],
+            "research_org_names": [
+                "The Ohio State University",
+                "Tunghai University"
             ],
             "research_org_state_codes": [
                 {
@@ -348,19 +390,19 @@
                 "paper",
                 "developmental education",
                 "education",
-                "degree attainment",
-                "attainment",
+                "degree",
                 "years",
                 "adults",
                 "public community",
                 "community",
                 "technical colleges",
                 "College",
+                "degree attainment",
+                "attainment",
                 "data",
                 "course enrollment",
                 "enrollment",
                 "measures",
-                "scores",
                 "impact",
                 "study",
                 "educational characteristics",
@@ -375,6 +417,8 @@
                 "intervention",
                 "adult undergraduates",
                 "undergraduates",
+                "education help",
+                "help",
                 "findings",
                 "academic performance",
                 "performance",
@@ -554,9 +598,9 @@
         },
         "doi": "10.1080/10668926.2016.1194237",
         "keyphrases": {
-            "10 ohio public community": {
+            "abstractthis paper": {
                 "count": 1,
-                "rank_score": 0.05794965697710672
+                "rank_score": 0.027354715149424377
             },
             "adult developmental education": {
                 "count": 1,
@@ -570,9 +614,25 @@
                 "count": 1,
                 "rank_score": 0.0750141442570167
             },
+            "age": {
+                "count": 2,
+                "rank_score": 0.05098002526839471
+            },
             "annual data": {
                 "count": 1,
                 "rank_score": 0.07589980783590533
+            },
+            "barriers": {
+                "count": 1,
+                "rank_score": 0.03460664167382741
+            },
+            "both a logistic regression": {
+                "count": 1,
+                "rank_score": 0.030459244699556253
+            },
+            "course": {
+                "count": 1,
+                "rank_score": 0.05603500195711583
             },
             "credit completion": {
                 "count": 1,
@@ -594,17 +654,41 @@
                 "count": 1,
                 "rank_score": 0.09661374488325239
             },
+            "enrollment and completion measures": {
+                "count": 1,
+                "rank_score": 0.056824515531982846
+            },
             "final degree completion": {
                 "count": 1,
                 "rank_score": 0.10470031417732649
+            },
+            "first time": {
+                "count": 1,
+                "rank_score": 0.03947600032437006
             },
             "fixed effects": {
                 "count": 1,
                 "rank_score": 0.07052317062731403
             },
+            "impact": {
+                "count": 1,
+                "rank_score": 0.025286655670771926
+            },
             "intermediate educational characteristics": {
                 "count": 1,
                 "rank_score": 0.10104130440679573
+            },
+            "ohio": {
+                "count": 1,
+                "rank_score": 0.05164976288990916
+            },
+            "persistence": {
+                "count": 1,
+                "rank_score": 0.050310702117230495
+            },
+            "range": {
+                "count": 1,
+                "rank_score": 0.031209110283159355
             },
             "specific educational interventions": {
                 "count": 1,

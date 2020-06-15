@@ -13,6 +13,7 @@
                     "name": "09 Engineering"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -31,6 +32,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.453137.7",
                         "first_name": "Jungang",
+                        "initials": "",
                         "last_name": "Yang",
                         "orcid": "['0000-0002-0233-750X']",
                         "researcher_id": "ur.013371553266.54"
@@ -51,6 +53,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.453137.7",
                         "first_name": "Jie",
+                        "initials": "",
                         "last_name": "Zhang",
                         "orcid": "",
                         "researcher_id": "ur.011776612266.61"
@@ -74,6 +77,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.453137.7",
                     "first_name": "Jungang",
+                    "initials": "",
                     "last_name": "Yang",
                     "orcid": "['0000-0002-0233-750X']",
                     "researcher_id": "ur.013371553266.54"
@@ -94,6 +98,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.453137.7",
                     "first_name": "Jie",
+                    "initials": "",
                     "last_name": "Zhang",
                     "orcid": "",
                     "researcher_id": "ur.011776612266.61"
@@ -136,19 +141,17 @@
                 "climate studies",
                 "SWH data",
                 "comparison",
-                "National Data Buoy Center",
-                "center",
+                "National Data Buoy Center buoys",
+                "buoys",
                 "spatial scales",
                 "scale",
                 "temporal scales",
                 "time difference",
-                "root-mean",
-                "means",
+                "buoy data",
                 "square error",
                 "error",
                 "SWH",
                 "Sentinel-3B",
-                "low",
                 "synthetic aperture radar (SAR) mode",
                 "radar mode",
                 "mode",
@@ -172,10 +175,7 @@
                 "calibration function",
                 "calibration",
                 "results",
-                "study show",
-                "show",
-                "high accuracy",
-                "buoys"
+                "high accuracy"
             ],
             "date": "2019-07-01",
             "date_inserted": "2019-07-03",
@@ -214,13 +214,45 @@
                 "title": "Sensors"
             },
             "journal_lists": [
+                "VABB-SHW",
+                "ERA 2018",
+                "Norwegian register level 1",
                 "DOAJ",
                 "ERA 2015",
-                "Norwegian register level 1",
-                "VABB-SHW",
                 "PubMed"
             ],
             "linkout": "https://www.mdpi.com/1424-8220/19/13/2914/pdf",
+            "noun_phrases": [
+                "validation",
+                "satellite altimetry",
+                "Jason",
+                "wave height",
+                "ocean wave",
+                "forecasting",
+                "climate study",
+                "comparison",
+                "national data",
+                "buoy",
+                "spatial scale",
+                "km",
+                "temporal scale",
+                "min",
+                "crossover",
+                "time difference",
+                "mean square error",
+                "sentinel",
+                "low resolution",
+                "synthetic aperture radar",
+                "mode",
+                "statistical analysis",
+                "bin",
+                "accuracy",
+                "bias",
+                "upwards",
+                "global ocean",
+                "calibration",
+                "high accuracy"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -242,50 +274,50 @@
             "pmcid": "PMC6651353",
             "pmid": "31266206",
             "publisher": "MDPI",
-            "recent_citations": 1,
+            "recent_citations": 3,
             "reference_ids": [
-                "pub.1044324425",
-                "pub.1041861029",
+                "pub.1043776399",
                 "pub.1013158180",
-                "pub.1062462860",
-                "pub.1053145067",
-                "pub.1027223362",
-                "pub.1015088202",
-                "pub.1010125910",
                 "pub.1053497084",
                 "pub.1094308839",
-                "pub.1050233886",
-                "pub.1095748194",
-                "pub.1016066606",
-                "pub.1025713656",
-                "pub.1036325761",
                 "pub.1043274998",
-                "pub.1043776399",
+                "pub.1010829123",
+                "pub.1025713656",
                 "pub.1020095318",
+                "pub.1016066606",
+                "pub.1036325761",
+                "pub.1044324425",
+                "pub.1095748194",
+                "pub.1062462860",
+                "pub.1050233886",
+                "pub.1010125910",
+                "pub.1053145067",
+                "pub.1027223362",
                 "pub.1029273968",
-                "pub.1010829123"
+                "pub.1015088202",
+                "pub.1041861029"
             ],
             "references": [
-                "pub.1044324425",
-                "pub.1041861029",
+                "pub.1043776399",
                 "pub.1013158180",
-                "pub.1062462860",
-                "pub.1053145067",
-                "pub.1027223362",
-                "pub.1015088202",
-                "pub.1010125910",
                 "pub.1053497084",
                 "pub.1094308839",
-                "pub.1050233886",
-                "pub.1095748194",
-                "pub.1016066606",
-                "pub.1025713656",
-                "pub.1036325761",
                 "pub.1043274998",
-                "pub.1043776399",
+                "pub.1010829123",
+                "pub.1025713656",
                 "pub.1020095318",
+                "pub.1016066606",
+                "pub.1036325761",
+                "pub.1044324425",
+                "pub.1095748194",
+                "pub.1062462860",
+                "pub.1050233886",
+                "pub.1010125910",
+                "pub.1053145067",
+                "pub.1027223362",
                 "pub.1029273968",
-                "pub.1010829123"
+                "pub.1015088202",
+                "pub.1041861029"
             ],
             "research_org_cities": [
                 {
@@ -301,6 +333,9 @@
             ],
             "research_org_country_names": [
                 "China"
+            ],
+            "research_org_names": [
+                "Ministry of Natural Resources"
             ],
             "research_orgs": [
                 {
@@ -335,11 +370,11 @@
                     "id": "ur.011776612266.61",
                     "last_name": "Zhang",
                     "research_orgs": [
-                        "grid.497420.c",
-                        "grid.453137.7",
+                        "grid.19373.3f",
                         "grid.411643.5",
-                        "grid.440686.8",
-                        "grid.19373.3f"
+                        "grid.453137.7",
+                        "grid.497420.c",
+                        "grid.440686.8"
                     ]
                 }
             ],
@@ -361,19 +396,17 @@
                 "climate studies",
                 "SWH data",
                 "comparison",
-                "National Data Buoy Center",
-                "center",
+                "National Data Buoy Center buoys",
+                "buoys",
                 "spatial scales",
                 "scale",
                 "temporal scales",
                 "time difference",
-                "root-mean",
-                "means",
+                "buoy data",
                 "square error",
                 "error",
                 "SWH",
                 "Sentinel-3B",
-                "low",
                 "synthetic aperture radar (SAR) mode",
                 "radar mode",
                 "mode",
@@ -397,12 +430,9 @@
                 "calibration function",
                 "calibration",
                 "results",
-                "study show",
-                "show",
-                "high accuracy",
-                "buoys"
+                "high accuracy"
             ],
-            "times_cited": 1,
+            "times_cited": 3,
             "title": "Validation of Sentinel-3A/3B Satellite Altimetry Wave Heights with Buoy and Jason-3 Data",
             "type": "article",
             "volume": "19",
@@ -1329,6 +1359,14 @@
         },
         "doi": "10.3390/s19132914",
         "keyphrases": {
+            "comparisons": {
+                "count": 3,
+                "rank_score": 0.05885874629788033
+            },
+            "forecasting": {
+                "count": 1,
+                "rank_score": 0.051563933694740424
+            },
             "high accuracy": {
                 "count": 1,
                 "rank_score": 0.06666974822183004
@@ -1337,9 +1375,17 @@
                 "count": 1,
                 "rank_score": 0.08170590152734379
             },
+            "jason-3": {
+                "count": 3,
+                "rank_score": 0.05624642810099101
+            },
             "jason-3 data": {
                 "count": 2,
                 "rank_score": 0.10280238545685218
+            },
+            "ndbc": {
+                "count": 2,
+                "rank_score": 0.059651862026690705
             },
             "ndbc buoy data": {
                 "count": 1,
@@ -1349,6 +1395,14 @@
                 "count": 1,
                 "rank_score": 0.06703668748640067
             },
+            "piecewise calibration functions": {
+                "count": 1,
+                "rank_score": 0.04486328292827405
+            },
+            "plrm": {
+                "count": 1,
+                "rank_score": 0.04635052240469876
+            },
             "rmse": {
                 "count": 3,
                 "rank_score": 0.061834342874992274
@@ -1356,6 +1410,10 @@
             "sar": {
                 "count": 1,
                 "rank_score": 0.06420577346826759
+            },
+            "sentinel-3a": {
+                "count": 1,
+                "rank_score": 0.05037721726109165
             },
             "sentinel-3a swh": {
                 "count": 2,
@@ -1365,6 +1423,10 @@
                 "count": 2,
                 "rank_score": 0.07622747059882373
             },
+            "sentinel-3a/3b sar altimeter": {
+                "count": 2,
+                "rank_score": 0.059118222433823434
+            },
             "sentinel-3a/3b swh": {
                 "count": 1,
                 "rank_score": 0.12913996546162715
@@ -1372,6 +1434,10 @@
             "significant wave height (swh) data": {
                 "count": 1,
                 "rank_score": 0.07420789216938514
+            },
+            "sral": {
+                "count": 1,
+                "rank_score": 0.047040960928052385
             },
             "swh": {
                 "count": 1,
@@ -1384,6 +1450,10 @@
             "u. s. national data buoy center": {
                 "count": 1,
                 "rank_score": 0.084547039872284
+            },
+            "u. s. national data buoy center (ndbc) buoys": {
+                "count": 1,
+                "rank_score": 0.05645064906368878
             },
             "wave climate studies": {
                 "count": 1,
@@ -1445,6 +1515,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.412001.6",
                         "first_name": "Agustinus",
+                        "initials": "",
                         "last_name": "Ribal",
                         "orcid": "['0000-0002-3286-5565']",
                         "researcher_id": "ur.011267001017.99"
@@ -1465,6 +1536,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.1008.9",
                         "first_name": "Ian R.",
+                        "initials": "",
                         "last_name": "Young",
                         "orcid": "['0000-0003-2233-9227']",
                         "researcher_id": "ur.01106711472.29"
@@ -1498,6 +1570,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.412001.6",
                     "first_name": "Agustinus",
+                    "initials": "",
                     "last_name": "Ribal",
                     "orcid": "['0000-0002-3286-5565']",
                     "researcher_id": "ur.011267001017.99"
@@ -1518,6 +1591,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.1008.9",
                     "first_name": "Ian R.",
+                    "initials": "",
                     "last_name": "Young",
                     "orcid": "['0000-0003-2233-9227']",
                     "researcher_id": "ur.01106711472.29"
@@ -1546,7 +1620,9 @@
                 }
             ],
             "concepts": [
-                "dataset",
+                "datasets",
+                "years",
+                "global significant wave height",
                 "significant wave height",
                 "wave height",
                 "height",
@@ -1565,12 +1641,9 @@
                 "HY-2A",
                 "SARAL",
                 "Jason-3",
-                "Sentinel-3A.",
                 "altimeter data",
                 "data",
-                "National Oceanographic Data Center",
-                "data centers",
-                "center",
+                "buoy data",
                 "time",
                 "cross validation",
                 "validation",
@@ -1633,12 +1706,40 @@
                 "title": "Scientific Data"
             },
             "journal_lists": [
-                "DOAJ",
                 "Norwegian register level 1",
                 "VABB-SHW",
+                "ERA 2018",
+                "DOAJ",
                 "PubMed"
             ],
             "linkout": "https://www.nature.com/articles/s41597-019-0083-9.pdf",
+            "noun_phrases": [
+                "wave height",
+                "wind",
+                "observation",
+                "Dataset",
+                "altimeter",
+                "HY",
+                "sentinel",
+                "oceanographic data",
+                "buoy",
+                "difference",
+                "long-term stability",
+                "cross validation",
+                "stability",
+                "consistency",
+                "calibration",
+                "comparison",
+                "probability distribution",
+                "extreme value",
+                "bin",
+                "convenient access",
+                "user",
+                "download",
+                "single point",
+                "storage",
+                "format"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -1660,84 +1761,84 @@
             "pmcid": "PMC6541622",
             "pmid": "31142742",
             "publisher": "Springer Nature",
-            "recent_citations": 8,
+            "recent_citations": 14,
             "reference_ids": [
-                "pub.1062462860",
-                "pub.1044085863",
-                "pub.1016874836",
-                "pub.1084610625",
-                "pub.1094308839",
-                "pub.1001678395",
-                "pub.1015460559",
-                "pub.1022611042",
-                "pub.1023642173",
-                "pub.1027223362",
-                "pub.1044324425",
-                "pub.1021573206",
-                "pub.1033255991",
-                "pub.1043027921",
-                "pub.1036737522",
-                "pub.1010125910",
-                "pub.1029273968",
-                "pub.1058304492",
-                "pub.1058331936",
-                "pub.1110765326",
-                "pub.1053225314",
-                "pub.1104513164",
-                "pub.1033906520",
                 "pub.1047845205",
                 "pub.1027135236",
+                "pub.1107831840",
+                "pub.1018124976",
+                "pub.1104513164",
+                "pub.1058331936",
+                "pub.1027223362",
                 "pub.1008832791",
+                "pub.1010125910",
+                "pub.1032739865",
+                "pub.1016874836",
+                "pub.1023642173",
+                "pub.1044085863",
+                "pub.1062462860",
+                "pub.1010829123",
+                "pub.1029273968",
                 "pub.1104651266",
+                "pub.1043027921",
+                "pub.1000910336",
+                "pub.1084610625",
+                "pub.1110765326",
+                "pub.1022611042",
+                "pub.1021573206",
+                "pub.1022114209",
+                "pub.1033906520",
+                "pub.1053225314",
+                "pub.1008520549",
+                "pub.1058304492",
+                "pub.1094308839",
                 "pub.1113713754",
                 "pub.1093674271",
-                "pub.1010829123",
-                "pub.1032739865",
-                "pub.1107831840",
-                "pub.1000910336",
+                "pub.1033255991",
+                "pub.1036737522",
+                "pub.1001678395",
                 "pub.1084808554",
-                "pub.1018124976",
-                "pub.1008520549",
-                "pub.1022114209"
+                "pub.1044324425",
+                "pub.1015460559"
             ],
             "references": [
-                "pub.1062462860",
-                "pub.1044085863",
-                "pub.1016874836",
-                "pub.1084610625",
-                "pub.1094308839",
-                "pub.1001678395",
-                "pub.1015460559",
-                "pub.1022611042",
-                "pub.1023642173",
-                "pub.1027223362",
-                "pub.1044324425",
-                "pub.1021573206",
-                "pub.1033255991",
-                "pub.1043027921",
-                "pub.1036737522",
-                "pub.1010125910",
-                "pub.1029273968",
-                "pub.1058304492",
-                "pub.1058331936",
-                "pub.1110765326",
-                "pub.1053225314",
-                "pub.1104513164",
-                "pub.1033906520",
                 "pub.1047845205",
                 "pub.1027135236",
+                "pub.1107831840",
+                "pub.1018124976",
+                "pub.1104513164",
+                "pub.1058331936",
+                "pub.1027223362",
                 "pub.1008832791",
+                "pub.1010125910",
+                "pub.1032739865",
+                "pub.1016874836",
+                "pub.1023642173",
+                "pub.1044085863",
+                "pub.1062462860",
+                "pub.1010829123",
+                "pub.1029273968",
                 "pub.1104651266",
+                "pub.1043027921",
+                "pub.1000910336",
+                "pub.1084610625",
+                "pub.1110765326",
+                "pub.1022611042",
+                "pub.1021573206",
+                "pub.1022114209",
+                "pub.1033906520",
+                "pub.1053225314",
+                "pub.1008520549",
+                "pub.1058304492",
+                "pub.1094308839",
                 "pub.1113713754",
                 "pub.1093674271",
-                "pub.1010829123",
-                "pub.1032739865",
-                "pub.1107831840",
-                "pub.1000910336",
+                "pub.1033255991",
+                "pub.1036737522",
+                "pub.1001678395",
                 "pub.1084808554",
-                "pub.1018124976",
-                "pub.1008520549",
-                "pub.1022114209"
+                "pub.1044324425",
+                "pub.1015460559"
             ],
             "research_org_cities": [
                 {
@@ -1751,17 +1852,21 @@
             ],
             "research_org_countries": [
                 {
-                    "id": "ID",
-                    "name": "Indonesia"
-                },
-                {
                     "id": "AU",
                     "name": "Australia"
+                },
+                {
+                    "id": "ID",
+                    "name": "Indonesia"
                 }
             ],
             "research_org_country_names": [
-                "Indonesia",
-                "Australia"
+                "Australia",
+                "Indonesia"
+            ],
+            "research_org_names": [
+                "University of Melbourne",
+                "Hasanuddin University"
             ],
             "research_org_state_codes": [
                 {
@@ -1773,6 +1878,20 @@
                 "Victoria"
             ],
             "research_orgs": [
+                {
+                    "city_name": "Makassar",
+                    "country_name": "Indonesia",
+                    "id": "grid.412001.6",
+                    "latitude": -5.132517,
+                    "linkout": [
+                        "http://www.unhas.ac.id/id/"
+                    ],
+                    "longitude": 119.487915,
+                    "name": "Hasanuddin University",
+                    "types": [
+                        "Education"
+                    ]
+                },
                 {
                     "city_name": "Melbourne",
                     "country_name": "Australia",
@@ -1787,20 +1906,6 @@
                     "types": [
                         "Education"
                     ]
-                },
-                {
-                    "city_name": "Makassar",
-                    "country_name": "Indonesia",
-                    "id": "grid.412001.6",
-                    "latitude": -5.132517,
-                    "linkout": [
-                        "http://www.unhas.ac.id/id/"
-                    ],
-                    "longitude": 119.487915,
-                    "name": "Hasanuddin University",
-                    "types": [
-                        "Education"
-                    ]
                 }
             ],
             "researchers": [
@@ -1812,9 +1917,9 @@
                         "0000-0002-3286-5565"
                     ],
                     "research_orgs": [
-                        "grid.412001.6",
+                        "grid.1027.4",
                         "grid.1008.9",
-                        "grid.1027.4"
+                        "grid.412001.6"
                     ]
                 },
                 {
@@ -1825,21 +1930,24 @@
                         "0000-0003-2233-9227"
                     ],
                     "research_orgs": [
-                        "grid.1001.0",
                         "grid.1011.1",
-                        "grid.1010.0",
+                        "grid.1008.9",
+                        "grid.97008.36",
                         "grid.1027.4",
-                        "grid.1005.4",
-                        "grid.1008.9"
+                        "grid.1010.0",
+                        "grid.1001.0",
+                        "grid.1005.4"
                     ]
                 }
             ],
             "supporting_grant_ids": [
-                "grant.5128258",
-                "grant.3561162"
+                "grant.3561162",
+                "grant.5128258"
             ],
             "terms": [
-                "dataset",
+                "datasets",
+                "years",
+                "global significant wave height",
                 "significant wave height",
                 "wave height",
                 "height",
@@ -1858,12 +1966,9 @@
                 "HY-2A",
                 "SARAL",
                 "Jason-3",
-                "Sentinel-3A.",
                 "altimeter data",
                 "data",
-                "National Oceanographic Data Center",
-                "data centers",
-                "center",
+                "buoy data",
                 "time",
                 "cross validation",
                 "validation",
@@ -1889,7 +1994,7 @@
                 "altimeter observations",
                 "observations"
             ],
-            "times_cited": 8,
+            "times_cited": 14,
             "title": "33 years of globally calibrated wave height and wind speed data based on altimeter observations",
             "type": "article",
             "volume": "6",
@@ -3575,9 +3680,17 @@
         },
         "doi": "10.1038/s41597-019-0083-9",
         "keyphrases": {
+            "all altimeter missions": {
+                "count": 1,
+                "rank_score": 0.04824185338389313
+            },
             "altimeter and buoy data": {
                 "count": 1,
                 "rank_score": 0.061180366185765486
+            },
+            "altimeter data": {
+                "count": 1,
+                "rank_score": 0.06544988028853534
             },
             "altimeters": {
                 "count": 3,
@@ -3595,6 +3708,10 @@
                 "count": 1,
                 "rank_score": 0.05754120410727463
             },
+            "cryosat-2": {
+                "count": 1,
+                "rank_score": 0.04718845551413975
+            },
             "design type(s)data": {
                 "count": 2,
                 "rank_score": 0.05976143046671968
@@ -3602,6 +3719,14 @@
             "devicefactor type(s)temporal_interval": {
                 "count": 1,
                 "rank_score": 0.05976143046671968
+            },
+            "ers-1": {
+                "count": 2,
+                "rank_score": 0.04954891546130372
+            },
+            "ers-2": {
+                "count": 2,
+                "rank_score": 0.04718845551413975
             },
             "extreme value performance": {
                 "count": 1,
@@ -3611,9 +3736,17 @@
                 "count": 1,
                 "rank_score": 0.06962047948870176
             },
+            "gfo": {
+                "count": 2,
+                "rank_score": 0.046733166908198606
+            },
             "global significant wave height and wind speed": {
                 "count": 1,
                 "rank_score": 0.0583548711481828
+            },
+            "hy-2a": {
+                "count": 2,
+                "rank_score": 0.04801860870580714
             },
             "integration objective": {
                 "count": 1,
@@ -3623,17 +3756,29 @@
                 "count": 2,
                 "rank_score": 0.07424863515505124
             },
+            "nodc": {
+                "count": 2,
+                "rank_score": 0.0474042785782639
+            },
             "probability distributions": {
                 "count": 1,
                 "rank_score": 0.0646696341455505
             },
-            "the altimeter data": {
-                "count": 1,
-                "rank_score": 0.06544988028853534
-            },
-            "the reported data": {
+            "reported data": {
                 "count": 1,
                 "rank_score": 0.055162627115098624
+            },
+            "saral": {
+                "count": 2,
+                "rank_score": 0.04954891546130372
+            },
+            "topex": {
+                "count": 1,
+                "rank_score": 0.04801860870580714
+            },
+            "users": {
+                "count": 1,
+                "rank_score": 0.04714221198032798
             }
         },
         "original": {
@@ -3661,6 +3806,7 @@
                     "name": "04 Earth Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -3679,6 +3825,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.421615.5",
                         "first_name": "R. G.",
+                        "initials": "",
                         "last_name": "STOCKWELL",
                         "orcid": "",
                         "researcher_id": "ur.0615772630.98"
@@ -3699,6 +3846,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.57828.30",
                         "first_name": "W. G.",
+                        "initials": "",
                         "last_name": "LARGE",
                         "orcid": "",
                         "researcher_id": "ur.015415214420.51"
@@ -3719,6 +3867,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.464551.7",
                         "first_name": "R. F.",
+                        "initials": "",
                         "last_name": "MILLIFF",
                         "orcid": "",
                         "researcher_id": "ur.016370632653.63"
@@ -3742,6 +3891,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.421615.5",
                     "first_name": "R. G.",
+                    "initials": "",
                     "last_name": "STOCKWELL",
                     "orcid": "",
                     "researcher_id": "ur.0615772630.98"
@@ -3762,6 +3912,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.57828.30",
                     "first_name": "W. G.",
+                    "initials": "",
                     "last_name": "LARGE",
                     "orcid": "",
                     "researcher_id": "ur.015415214420.51"
@@ -3782,6 +3933,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.464551.7",
                     "first_name": "R. F.",
+                    "initials": "",
                     "last_name": "MILLIFF",
                     "orcid": "",
                     "researcher_id": "ur.016370632653.63"
@@ -3811,7 +3963,6 @@
             ],
             "concepts": [
                 "surface",
-                "moored buoy data",
                 "buoy data",
                 "data",
                 "National Data Buoy Center",
@@ -3835,8 +3986,7 @@
                 "global coverage",
                 "coverage",
                 "record length",
-                "signal",
-                "background noise",
+                "signals",
                 "observation system",
                 "system",
                 "sites",
@@ -3847,7 +3997,6 @@
                 "tidal signatures",
                 "signatures",
                 "power spectrum",
-                "spectra",
                 "tidal oscillations",
                 "important contributor",
                 "contributor",
@@ -3856,9 +4005,9 @@
                 "spectral analysis",
                 "considerable energy",
                 "energy",
-                "inertial frequency range",
-                "frequency range",
-                "range",
+                "inertial frequency",
+                "frequency",
+                "lived events",
                 "events",
                 "rotation direction",
                 "direction",
@@ -3885,10 +4034,45 @@
                 "title": "Tellus A Dynamic Meteorology and Oceanography"
             },
             "journal_lists": [
-                "DOAJ",
-                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018",
                 "Norwegian register level 2",
-                "VABB-SHW"
+                "DOAJ",
+                "ERA 2015"
+            ],
+            "noun_phrases": [
+                "inertial oscillation",
+                "ocean surface",
+                "surface wind",
+                "buoy",
+                "national data",
+                "occurrence",
+                "oscillation",
+                "time-frequency analysis",
+                "two-component",
+                "Dataset",
+                "high time resolution",
+                "sampling",
+                "full characterization",
+                "global coverage",
+                "record",
+                "extract",
+                "signal",
+                "background noise",
+                "observation",
+                "measurement",
+                "large amount",
+                "harmonic",
+                "signature",
+                "high precision",
+                "important contributor",
+                "latitude",
+                "spectral analysis",
+                "Transform",
+                "energy",
+                "frequency range",
+                "frequency band",
+                "season"
             ],
             "open_access_categories": [
                 {
@@ -3901,74 +4085,74 @@
             "publisher": "Taylor & Francis",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1053768476",
-                "pub.1049470509",
                 "pub.1001687057",
-                "pub.1041423477",
-                "pub.1043047912",
-                "pub.1016348005",
-                "pub.1061100303",
-                "pub.1063421243",
-                "pub.1007565958",
-                "pub.1011176366",
                 "pub.1023670083",
-                "pub.1098682460",
-                "pub.1014701036",
-                "pub.1008928741",
-                "pub.1035728098",
-                "pub.1018091259",
-                "pub.1017895341",
-                "pub.1032107152",
-                "pub.1011325223",
-                "pub.1043759889",
-                "pub.1012626130",
-                "pub.1014386499",
-                "pub.1050903762",
-                "pub.1006191175",
-                "pub.1031627902",
-                "pub.1048875410",
-                "pub.1031951024",
-                "pub.1020440165",
-                "pub.1038580324",
                 "pub.1033167734",
-                "pub.1039113703",
+                "pub.1032107152",
+                "pub.1012626130",
+                "pub.1011325223",
+                "pub.1014386499",
+                "pub.1031951024",
+                "pub.1043047912",
+                "pub.1098682460",
+                "pub.1007565958",
+                "pub.1016348005",
+                "pub.1050903762",
+                "pub.1063421243",
+                "pub.1041423477",
+                "pub.1011176366",
+                "pub.1017895341",
+                "pub.1053768476",
+                "pub.1061229441",
+                "pub.1048875410",
+                "pub.1061100303",
+                "pub.1006191175",
+                "pub.1038580324",
+                "pub.1031627902",
+                "pub.1043759889",
                 "pub.1061227893",
-                "pub.1061229441"
+                "pub.1020440165",
+                "pub.1008928741",
+                "pub.1049470509",
+                "pub.1018091259",
+                "pub.1035728098",
+                "pub.1014701036",
+                "pub.1039113703"
             ],
             "references": [
-                "pub.1053768476",
-                "pub.1049470509",
                 "pub.1001687057",
-                "pub.1041423477",
-                "pub.1043047912",
-                "pub.1016348005",
-                "pub.1061100303",
-                "pub.1063421243",
-                "pub.1007565958",
-                "pub.1011176366",
                 "pub.1023670083",
-                "pub.1098682460",
-                "pub.1014701036",
-                "pub.1008928741",
-                "pub.1035728098",
-                "pub.1018091259",
-                "pub.1017895341",
-                "pub.1032107152",
-                "pub.1011325223",
-                "pub.1043759889",
-                "pub.1012626130",
-                "pub.1014386499",
-                "pub.1050903762",
-                "pub.1006191175",
-                "pub.1031627902",
-                "pub.1048875410",
-                "pub.1031951024",
-                "pub.1020440165",
-                "pub.1038580324",
                 "pub.1033167734",
-                "pub.1039113703",
+                "pub.1032107152",
+                "pub.1012626130",
+                "pub.1011325223",
+                "pub.1014386499",
+                "pub.1031951024",
+                "pub.1043047912",
+                "pub.1098682460",
+                "pub.1007565958",
+                "pub.1016348005",
+                "pub.1050903762",
+                "pub.1063421243",
+                "pub.1041423477",
+                "pub.1011176366",
+                "pub.1017895341",
+                "pub.1053768476",
+                "pub.1061229441",
+                "pub.1048875410",
+                "pub.1061100303",
+                "pub.1006191175",
+                "pub.1038580324",
+                "pub.1031627902",
+                "pub.1043759889",
                 "pub.1061227893",
-                "pub.1061229441"
+                "pub.1020440165",
+                "pub.1008928741",
+                "pub.1049470509",
+                "pub.1018091259",
+                "pub.1035728098",
+                "pub.1014701036",
+                "pub.1039113703"
             ],
             "research_org_cities": [
                 {
@@ -3989,6 +4173,10 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Northwest Research Associates",
+                "National Center for Atmospheric Research"
+            ],
             "research_org_state_codes": [
                 {
                     "id": "US-CO",
@@ -4005,6 +4193,22 @@
             ],
             "research_orgs": [
                 {
+                    "acronym": "NCAR",
+                    "city_name": "Boulder",
+                    "country_name": "United States",
+                    "id": "grid.57828.30",
+                    "latitude": 39.97815,
+                    "linkout": [
+                        "https://ncar.ucar.edu/"
+                    ],
+                    "longitude": -105.27492,
+                    "name": "National Center for Atmospheric Research",
+                    "state_name": "Colorado",
+                    "types": [
+                        "Facility"
+                    ]
+                },
+                {
                     "acronym": "NWRA",
                     "city_name": "Redmond",
                     "country_name": "United States",
@@ -4019,22 +4223,6 @@
                     "types": [
                         "Facility"
                     ]
-                },
-                {
-                    "acronym": "NCAR",
-                    "city_name": "Boulder",
-                    "country_name": "United States",
-                    "id": "grid.57828.30",
-                    "latitude": 39.97815,
-                    "linkout": [
-                        "https://ncar.ucar.edu/about-ncar"
-                    ],
-                    "longitude": -105.27492,
-                    "name": "National Center for Atmospheric Research",
-                    "state_name": "Colorado",
-                    "types": [
-                        "Facility"
-                    ]
                 }
             ],
             "researchers": [
@@ -4043,9 +4231,9 @@
                     "id": "ur.0615772630.98",
                     "last_name": "Stockwell",
                     "research_orgs": [
-                        "grid.274356.1",
                         "grid.421615.5",
-                        "grid.39381.30"
+                        "grid.39381.30",
+                        "grid.274356.1"
                     ]
                 },
                 {
@@ -4053,9 +4241,9 @@
                     "id": "ur.015415214420.51",
                     "last_name": "Large",
                     "research_orgs": [
-                        "grid.469431.d",
                         "grid.413455.2",
-                        "grid.57828.30"
+                        "grid.57828.30",
+                        "grid.469431.d"
                     ]
                 },
                 {
@@ -4063,18 +4251,17 @@
                     "id": "ur.016370632653.63",
                     "last_name": "Milliff",
                     "research_orgs": [
-                        "grid.274356.1",
-                        "grid.133342.4",
-                        "grid.38142.3c",
                         "grid.266190.a",
-                        "grid.464551.7",
-                        "grid.57828.30"
+                        "grid.133342.4",
+                        "grid.57828.30",
+                        "grid.274356.1",
+                        "grid.38142.3c",
+                        "grid.464551.7"
                     ]
                 }
             ],
             "terms": [
                 "surface",
-                "moored buoy data",
                 "buoy data",
                 "data",
                 "National Data Buoy Center",
@@ -4098,8 +4285,7 @@
                 "global coverage",
                 "coverage",
                 "record length",
-                "signal",
-                "background noise",
+                "signals",
                 "observation system",
                 "system",
                 "sites",
@@ -4110,7 +4296,6 @@
                 "tidal signatures",
                 "signatures",
                 "power spectrum",
-                "spectra",
                 "tidal oscillations",
                 "important contributor",
                 "contributor",
@@ -4119,9 +4304,9 @@
                 "spectral analysis",
                 "considerable energy",
                 "energy",
-                "inertial frequency range",
-                "frequency range",
-                "range",
+                "inertial frequency",
+                "frequency",
+                "lived events",
                 "events",
                 "rotation direction",
                 "direction",
@@ -5158,9 +5343,9 @@
         },
         "abstract": "The surface winds from the moored buoy data set available from the National Data Buoy Center are examined for the occurrence of inertial range oscillations in the surface winds by employing a novel joint time frequency analysis of the two-component vector winds. This data set was chosen for its high time resolution (1-h sampling) that enabled the full characterization of these inertial oscillations, its at least partially global coverage, and its record length, which is needed to extract the signals from the background noise. The observation system is comprised of over 200 sites with measurements as far back as 1972. Because of the large amount of data, many harmonics of the diurnal atmospheric tidal signature in the surface winds (24, 12, 8, and 3 h) were found in high-precision power spectra. These tidal oscillations are found to be important contributors to the inertial range oscillation at latitudes of 30 ◦ , where the largest inertial range oscillations are found. By turning to local (in time) spectral analysis using the S-transform, considerable energy was also found in the inertial frequency ranges at other latitudes, typically in the form of very large (>10 m s −1 ), yet short-lived (of the order of a few days) events. The surface wind rotation direction in near inertial frequency bands favors resonant inertial oscillations at all latitudes, and in every season of the year.",
         "authors": [
-            "author-f7d4902e91b29b311153",
-            "author-3a30fca5d2f799d0b04e",
-            "author-ab7ef8de94085d074dae"
+            "author-5e1f5a8982c5a18dbe5f",
+            "author-ad96ee5f17db6bddd036",
+            "author-fc9f21409643148bf9f7"
         ],
         "datasets": [
             "dataset-668"
@@ -5247,25 +5432,37 @@
         },
         "doi": "10.1111/j.1600-0870.2004.00086.x",
         "keyphrases": {
-            "a novel joint time frequency analysis": {
-                "count": 1,
-                "rank_score": 0.07082611615051977
-            },
             "considerable energy": {
                 "count": 1,
                 "rank_score": 0.05588910818985654
             },
-            "data": {
+            "diurnal atmospheric tidal signature": {
                 "count": 1,
-                "rank_score": 0.06704302937142913
+                "rank_score": 0.050556900421566034
+            },
+            "few days": {
+                "count": 2,
+                "rank_score": 0.042134238166574745
             },
             "high-precision power spectra": {
                 "count": 1,
                 "rank_score": 0.05382781752044855
             },
+            "important contributors": {
+                "count": 1,
+                "rank_score": 0.0473112491917303
+            },
+            "inertial frequency": {
+                "count": 1,
+                "rank_score": 0.06380175770666059
+            },
             "inertial frequency bands": {
                 "count": 1,
                 "rank_score": 0.10738084352245875
+            },
+            "inertial oscillations": {
+                "count": 1,
+                "rank_score": 0.06833049984067223
             },
             "inertial range oscillations": {
                 "count": 2,
@@ -5275,9 +5472,45 @@
                 "count": 1,
                 "rank_score": 0.05728445505428795
             },
+            "its record length": {
+                "count": 1,
+                "rank_score": 0.03806353169099736
+            },
+            "large amount": {
+                "count": 1,
+                "rank_score": 0.03864316982265577
+            },
+            "largest inertial range oscillations": {
+                "count": 1,
+                "rank_score": 0.08253582050788387
+            },
+            "latitudes": {
+                "count": 2,
+                "rank_score": 0.047397851667370795
+            },
             "many harmonics": {
                 "count": 1,
                 "rank_score": 0.05303684409631908
+            },
+            "measurements": {
+                "count": 1,
+                "rank_score": 0.049649042522792786
+            },
+            "moored buoy data": {
+                "count": 1,
+                "rank_score": 0.051541564927732
+            },
+            "national data buoy center": {
+                "count": 2,
+                "rank_score": 0.05245697908460596
+            },
+            "novel joint time frequency analysis": {
+                "count": 1,
+                "rank_score": 0.07082611615051977
+            },
+            "observation system": {
+                "count": 1,
+                "rank_score": 0.03806353169099736
             },
             "other latitudes": {
                 "count": 1,
@@ -5287,25 +5520,17 @@
                 "count": 1,
                 "rank_score": 0.11398238728571704
             },
-            "the inertial frequency": {
-                "count": 1,
-                "rank_score": 0.06380175770666059
-            },
-            "the largest inertial range oscillations": {
-                "count": 1,
-                "rank_score": 0.08253582050788387
-            },
-            "the surface wind rotation direction": {
+            "surface wind rotation direction": {
                 "count": 1,
                 "rank_score": 0.06004069497943819
             },
-            "these inertial oscillations": {
-                "count": 1,
-                "rank_score": 0.06833049984067223
+            "surface winds": {
+                "count": 2,
+                "rank_score": 0.05154102965831444
             },
-            "time": {
+            "tidal oscillations": {
                 "count": 1,
-                "rank_score": 0.07081876664709022
+                "rank_score": 0.052719544185966416
             }
         },
         "original": {
@@ -6024,13 +6249,33 @@
         },
         "doi": "10.25777/8cx1-0v89",
         "keyphrases": {
+            "atmosphere-ocean coupled global climate models": {
+                "count": 1,
+                "rank_score": 0.05794452307598196
+            },
             "climate change": {
                 "count": 2,
                 "rank_score": 0.07628714026916164
             },
+            "coastal engineers": {
+                "count": 1,
+                "rank_score": 0.05612505498915245
+            },
+            "coasts": {
+                "count": 1,
+                "rank_score": 0.05222102853368181
+            },
+            "consequently greater wave heights": {
+                "count": 1,
+                "rank_score": 0.06209332370605501
+            },
             "decreasing wave heights": {
                 "count": 1,
                 "rank_score": 0.09829978938789866
+            },
+            "dr. gangfeng ma": {
+                "count": 1,
+                "rank_score": 0.05790618353433768
             },
             "extreme waves": {
                 "count": 2,
@@ -6039,6 +6284,22 @@
             "future wind patterns": {
                 "count": 1,
                 "rank_score": 0.06351986403103703
+            },
+            "gangfeng ma": {
+                "count": 1,
+                "rank_score": 0.05118231881220371
+            },
+            "hillary lane": {
+                "count": 1,
+                "rank_score": 0.05556377235969798
+            },
+            "hourly": {
+                "count": 1,
+                "rank_score": 0.0496673681301769
+            },
+            "hourly data": {
+                "count": 1,
+                "rank_score": 0.06067257317130075
             },
             "hourly significant wave heights": {
                 "count": 1,
@@ -6068,21 +6329,25 @@
                 "count": 1,
                 "rank_score": 0.0792087775576344
             },
-            "trends": {
-                "count": 3,
-                "rank_score": 0.07329917758603789
-            },
-            "u.s.": {
-                "count": 2,
-                "rank_score": 0.06756229405520944
-            },
             "u.s. atlantic": {
                 "count": 1,
                 "rank_score": 0.07403904907238239
             },
+            "u.s. atlantic coast": {
+                "count": 1,
+                "rank_score": 0.05198396274336062
+            },
+            "u.s. mid-atlantic region hillary lane old dominion university": {
+                "count": 1,
+                "rank_score": 0.0553972556235477
+            },
             "wave heights": {
                 "count": 1,
                 "rank_score": 0.07536591119160563
+            },
+            "wind patterns": {
+                "count": 1,
+                "rank_score": 0.06012838777933433
             }
         },
         "original": {
@@ -6109,6 +6374,7 @@
                     "name": "09 Engineering"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -6127,6 +6393,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Neha",
+                        "initials": "",
                         "last_name": "Sharma",
                         "orcid": "",
                         "researcher_id": ""
@@ -6147,6 +6414,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.64337.35",
                         "first_name": "Eurico",
+                        "initials": "",
                         "last_name": "D’Sa",
                         "orcid": "['0000-0002-5262-6094']",
                         "researcher_id": "ur.013726143423.43"
@@ -6170,6 +6438,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Neha",
+                    "initials": "",
                     "last_name": "Sharma",
                     "orcid": "",
                     "researcher_id": ""
@@ -6190,6 +6459,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.64337.35",
                     "first_name": "Eurico",
+                    "initials": "",
                     "last_name": "D’Sa",
                     "orcid": "['0000-0002-5262-6094']",
                     "researcher_id": "ur.013726143423.43"
@@ -6225,6 +6495,9 @@
                 "natural disasters",
                 "disasters",
                 "hurricanes",
+                "use",
+                "remote sensing data",
+                "sensing data",
                 "wind",
                 "satellite sensors",
                 "sensors",
@@ -6232,7 +6505,7 @@
                 "QuikSCAT products",
                 "products",
                 "respect",
-                "measure wind",
+                "buoy-measured winds",
                 "Gulf of Mexico",
                 "analysis",
                 "good accuracy",
@@ -6273,7 +6546,7 @@
             "date": "2008-03-18",
             "date_inserted": "2017-08-31",
             "doi": "10.3390/s8031927",
-            "field_citation_ratio": 3.52,
+            "field_citation_ratio": 3.49,
             "funder_countries": [
                 {
                     "id": "US",
@@ -6309,13 +6582,54 @@
                 "title": "Sensors"
             },
             "journal_lists": [
+                "VABB-SHW",
+                "ERA 2018",
+                "Norwegian register level 1",
                 "DOAJ",
                 "ERA 2015",
-                "Norwegian register level 1",
-                "VABB-SHW",
                 "PubMed"
             ],
             "linkout": "https://www.mdpi.com/1424-8220/8/3/1927/pdf",
+            "noun_phrases": [
+                "assessment",
+                "product",
+                "Gulf of Mexico",
+                "long term",
+                "northern",
+                "Gulf",
+                "Mexico",
+                "disaster",
+                "Cyclonic Storm",
+                "wind",
+                "NASA's",
+                "satellite sensor",
+                "Civil Defense",
+                "swath",
+                "respect",
+                "buoy",
+                "January",
+                "February",
+                "regression analysis",
+                "good accuracy",
+                "km",
+                "Level 3",
+                "L3",
+                "time interval",
+                "min",
+                "interval",
+                "wind speed",
+                "speed",
+                "comparison",
+                "coast",
+                "regression",
+                "measurement",
+                "National",
+                "contamination",
+                "high wind speed",
+                "good agreement",
+                "potential use",
+                "extreme weather condition"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -6339,56 +6653,56 @@
             "publisher": "MDPI",
             "recent_citations": 1,
             "reference_ids": [
-                "pub.1030562831",
-                "pub.1015336861",
-                "pub.1003972056",
-                "pub.1061609187",
-                "pub.1021002442",
-                "pub.1052042098",
-                "pub.1048359165",
-                "pub.1053329853",
-                "pub.1095202894",
-                "pub.1052856872",
-                "pub.1062452206",
-                "pub.1051982241",
                 "pub.1094834945",
-                "pub.1063421233",
+                "pub.1013453987",
+                "pub.1051520341",
+                "pub.1052042098",
+                "pub.1052856872",
+                "pub.1016348005",
                 "pub.1002912593",
                 "pub.1062449131",
+                "pub.1015336861",
+                "pub.1063421233",
+                "pub.1003972056",
                 "pub.1039113703",
+                "pub.1053329853",
+                "pub.1030562831",
+                "pub.1051982241",
                 "pub.1061608918",
+                "pub.1062452206",
+                "pub.1021002442",
                 "pub.1032389050",
+                "pub.1048359165",
+                "pub.1095202894",
                 "pub.1061160639",
-                "pub.1016348005",
-                "pub.1013453987",
-                "pub.1051520341"
+                "pub.1061609187"
             ],
             "references": [
-                "pub.1030562831",
-                "pub.1015336861",
-                "pub.1003972056",
-                "pub.1061609187",
-                "pub.1021002442",
-                "pub.1052042098",
-                "pub.1048359165",
-                "pub.1053329853",
-                "pub.1095202894",
-                "pub.1052856872",
-                "pub.1062452206",
-                "pub.1051982241",
                 "pub.1094834945",
-                "pub.1063421233",
+                "pub.1013453987",
+                "pub.1051520341",
+                "pub.1052042098",
+                "pub.1052856872",
+                "pub.1016348005",
                 "pub.1002912593",
                 "pub.1062449131",
+                "pub.1015336861",
+                "pub.1063421233",
+                "pub.1003972056",
                 "pub.1039113703",
+                "pub.1053329853",
+                "pub.1030562831",
+                "pub.1051982241",
                 "pub.1061608918",
+                "pub.1062452206",
+                "pub.1021002442",
                 "pub.1032389050",
+                "pub.1048359165",
+                "pub.1095202894",
                 "pub.1061160639",
-                "pub.1016348005",
-                "pub.1013453987",
-                "pub.1051520341"
+                "pub.1061609187"
             ],
-            "relative_citation_ratio": 0.43,
+            "relative_citation_ratio": 0.39,
             "research_org_cities": [
                 {
                     "id": 4315588,
@@ -6403,6 +6717,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Louisiana State University"
             ],
             "research_org_state_codes": [
                 {
@@ -6440,13 +6757,13 @@
                         "0000-0002-5262-6094"
                     ],
                     "research_orgs": [
-                        "grid.436330.1",
-                        "grid.267193.8",
-                        "grid.410428.b",
-                        "grid.3532.7",
-                        "grid.170693.a",
                         "grid.419657.8",
-                        "grid.64337.35"
+                        "grid.170693.a",
+                        "grid.410428.b",
+                        "grid.267193.8",
+                        "grid.64337.35",
+                        "grid.3532.7",
+                        "grid.436330.1"
                     ]
                 }
             ],
@@ -6458,6 +6775,9 @@
                 "natural disasters",
                 "disasters",
                 "hurricanes",
+                "use",
+                "remote sensing data",
+                "sensing data",
                 "wind",
                 "satellite sensors",
                 "sensors",
@@ -6465,7 +6785,7 @@
                 "QuikSCAT products",
                 "products",
                 "respect",
-                "measure wind",
+                "buoy-measured winds",
                 "Gulf of Mexico",
                 "analysis",
                 "good accuracy",
@@ -7917,29 +8237,57 @@
         },
         "doi": "10.3390/s8031927",
         "keyphrases": {
-            "12.5 km swath winds": {
-                "count": 1,
-                "rank_score": 0.06769857858256526
-            },
-            "25 km wind product": {
-                "count": 1,
-                "rank_score": 0.07699722284991527
-            },
             "best track analyses": {
                 "count": 1,
                 "rank_score": 0.07448863829469277
+            },
+            "better accuracy": {
+                "count": 1,
+                "rank_score": 0.06130153656930787
+            },
+            "buoy data": {
+                "count": 1,
+                "rank_score": 0.06715187268789574
             },
             "buoy measurements": {
                 "count": 3,
                 "rank_score": 0.07480305948389432
             },
+            "buoy-measured winds": {
+                "count": 1,
+                "rank_score": 0.06598335840639401
+            },
+            "extreme weather conditions": {
+                "count": 1,
+                "rank_score": 0.0642384178071254
+            },
+            "good agreement": {
+                "count": 1,
+                "rank_score": 0.05908702572385599
+            },
             "high wind speeds": {
                 "count": 1,
                 "rank_score": 0.10939735336599939
             },
+            "mexico": {
+                "count": 4,
+                "rank_score": 0.061880406355135927
+            },
             "moderate wind speeds": {
                 "count": 1,
                 "rank_score": 0.11122634174330154
+            },
+            "nasas quikscat satellite sensor": {
+                "count": 1,
+                "rank_score": 0.06431420018227638
+            },
+            "natural disasters": {
+                "count": 1,
+                "rank_score": 0.06047903818777823
+            },
+            "new quikscat l2b product": {
+                "count": 1,
+                "rank_score": 0.07597907704483957
             },
             "quikscat": {
                 "count": 7,
@@ -7949,21 +8297,33 @@
                 "count": 1,
                 "rank_score": 0.11274350124386347
             },
+            "quikscat wind comparisons": {
+                "count": 1,
+                "rank_score": 0.06394360698449814
+            },
             "quikscat winds": {
                 "count": 1,
                 "rank_score": 0.13423821045482312
+            },
+            "quikscats l2b dirth": {
+                "count": 1,
+                "rank_score": 0.06476443156612365
             },
             "remote sensing data": {
                 "count": 1,
                 "rank_score": 0.07447934845972862
             },
+            "spatial interval": {
+                "count": 1,
+                "rank_score": 0.06480502247929176
+            },
+            "speed": {
+                "count": 1,
+                "rank_score": 0.055916233625543356
+            },
             "such events": {
                 "count": 1,
                 "rank_score": 0.07138504494561483
-            },
-            "the new quikscat l2b product": {
-                "count": 1,
-                "rank_score": 0.07597907704483957
             },
             "wind data": {
                 "count": 1,

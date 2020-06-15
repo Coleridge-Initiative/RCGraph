@@ -19,6 +19,7 @@
                     "name": "Pediatric"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -37,6 +38,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.47894.36",
                         "first_name": "Hsueh-Hsiang",
+                        "initials": "",
                         "last_name": "Li",
                         "orcid": "",
                         "researcher_id": "ur.013503656215.63"
@@ -57,6 +59,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
                         "first_name": "John Karl",
+                        "initials": "",
                         "last_name": "Scholz",
                         "orcid": "",
                         "researcher_id": "ur.01317726730.08"
@@ -77,6 +80,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Patricia R.",
+                        "initials": "",
                         "last_name": "Brown",
                         "orcid": "",
                         "researcher_id": ""
@@ -100,6 +104,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.47894.36",
                     "first_name": "Hsueh-Hsiang",
+                    "initials": "",
                     "last_name": "Li",
                     "orcid": "",
                     "researcher_id": "ur.013503656215.63"
@@ -120,6 +125,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
                     "first_name": "John Karl",
+                    "initials": "",
                     "last_name": "Scholz",
                     "orcid": "",
                     "researcher_id": "ur.01317726730.08"
@@ -140,6 +146,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Patricia R.",
+                    "initials": "",
                     "last_name": "Brown",
                     "orcid": "",
                     "researcher_id": ""
@@ -188,6 +195,7 @@
             "concepts": [
                 "unique data set",
                 "data sets",
+                "set",
                 "information",
                 "individual income tax returns",
                 "income tax returns",
@@ -209,24 +217,25 @@
                 "households",
                 "little evidence",
                 "evidence",
-                "parents",
                 "strategic allocation",
                 "allocation",
                 "claims",
                 "low-income parents",
-                "income parents",
                 "cost-effective way",
-                "effective way",
                 "way",
+                "low-income working families",
+                "working families",
                 "provision",
                 "tax code",
                 "court order",
-                "EITC",
+                "order",
+                "placement cases",
                 "cases"
             ],
             "date": "2018-05-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1177/1091142116629204",
+            "field_citation_ratio": 0.0,
             "id": "pub.1014693439",
             "issn": [
                 "1091-1421",
@@ -238,8 +247,36 @@
                 "title": "Public Finance Review"
             },
             "journal_lists": [
+                "ERA 2018",
                 "Norwegian register level 1",
                 "ERA 2015"
+            ],
+            "noun_phrases": [
+                "Earned Income Tax Credit",
+                "placement",
+                "unique data set",
+                "income tax",
+                "unemployment insurance",
+                "hand",
+                "usage",
+                "men",
+                "woman",
+                "child",
+                "adult",
+                "Tax",
+                "tax system",
+                "additional resource",
+                "Family Characteristic",
+                "evidence",
+                "parent",
+                "allocation",
+                "claim",
+                "cost-effective way",
+                "Health Resource",
+                "low income",
+                "Understand",
+                "provision",
+                "court"
             ],
             "open_access_categories": [
                 {
@@ -250,19 +287,20 @@
             ],
             "pages": "327-358",
             "publisher": "SAGE Publications",
+            "recent_citations": 0,
             "reference_ids": [
+                "pub.1099552550",
                 "pub.1068329068",
                 "pub.1068328838",
-                "pub.1068329222",
-                "pub.1099552550",
-                "pub.1068328839"
+                "pub.1068328839",
+                "pub.1068329222"
             ],
             "references": [
+                "pub.1099552550",
                 "pub.1068329068",
                 "pub.1068328838",
-                "pub.1068329222",
-                "pub.1099552550",
-                "pub.1068328839"
+                "pub.1068328839",
+                "pub.1068329222"
             ],
             "research_org_cities": [
                 {
@@ -283,6 +321,10 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "University of Wisconsin–Madison",
+                "Colorado State University"
+            ],
             "research_org_state_codes": [
                 {
                     "id": "US-WI",
@@ -299,22 +341,6 @@
             ],
             "research_orgs": [
                 {
-                    "acronym": "UW",
-                    "city_name": "Madison",
-                    "country_name": "United States",
-                    "id": "grid.14003.36",
-                    "latitude": 43.076694,
-                    "linkout": [
-                        "http://www.wisc.edu/"
-                    ],
-                    "longitude": -89.41244,
-                    "name": "University of Wisconsin–Madison",
-                    "state_name": "Wisconsin",
-                    "types": [
-                        "Education"
-                    ]
-                },
-                {
                     "acronym": "CSU",
                     "city_name": "Fort Collins",
                     "country_name": "United States",
@@ -326,6 +352,22 @@
                     "longitude": -105.086555,
                     "name": "Colorado State University",
                     "state_name": "Colorado",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
+                    "acronym": "UW",
+                    "city_name": "Madison",
+                    "country_name": "United States",
+                    "id": "grid.14003.36",
+                    "latitude": 43.076694,
+                    "linkout": [
+                        "http://www.wisc.edu/"
+                    ],
+                    "longitude": -89.41244,
+                    "name": "University of Wisconsin–Madison",
+                    "state_name": "Wisconsin",
                     "types": [
                         "Education"
                     ]
@@ -345,14 +387,15 @@
                     "id": "ur.01317726730.08",
                     "last_name": "Scholz",
                     "research_orgs": [
-                        "grid.14003.36",
-                        "grid.250279.b"
+                        "grid.250279.b",
+                        "grid.14003.36"
                     ]
                 }
             ],
             "terms": [
                 "unique data set",
                 "data sets",
+                "set",
                 "information",
                 "individual income tax returns",
                 "income tax returns",
@@ -374,21 +417,22 @@
                 "households",
                 "little evidence",
                 "evidence",
-                "parents",
                 "strategic allocation",
                 "allocation",
                 "claims",
                 "low-income parents",
-                "income parents",
                 "cost-effective way",
-                "effective way",
                 "way",
+                "low-income working families",
+                "working families",
                 "provision",
                 "tax code",
                 "court order",
-                "EITC",
+                "order",
+                "placement cases",
                 "cases"
             ],
+            "times_cited": 0,
             "title": "EITC Use in Shared Placement Cases",
             "type": "article",
             "volume": "46",
@@ -531,9 +575,17 @@
         },
         "doi": "10.1177/1091142116629204",
         "keyphrases": {
+            "child-related provisions": {
+                "count": 1,
+                "rank_score": 0.05943162930659468
+            },
             "children": {
                 "count": 3,
                 "rank_score": 0.0901414092802302
+            },
+            "court order": {
+                "count": 1,
+                "rank_score": 0.043208156841006054
             },
             "divorced adults": {
                 "count": 1,
@@ -547,9 +599,21 @@
                 "count": 1,
                 "rank_score": 0.09590758807132913
             },
-            "information": {
+            "earned income tax credit": {
                 "count": 1,
-                "rank_score": 0.06715073455682274
+                "rank_score": 0.08070231002492512
+            },
+            "eitc) usage": {
+                "count": 1,
+                "rank_score": 0.047768091442286525
+            },
+            "hand": {
+                "count": 1,
+                "rank_score": 0.05326747823084733
+            },
+            "large percentage": {
+                "count": 1,
+                "rank_score": 0.039345976764800596
             },
             "little evidence": {
                 "count": 1,
@@ -563,21 +627,37 @@
                 "count": 1,
                 "rank_score": 0.07222259619807425
             },
+            "resources": {
+                "count": 1,
+                "rank_score": 0.03741868326321091
+            },
             "state individual income tax returns": {
                 "count": 1,
                 "rank_score": 0.12647808141402853
+            },
+            "strategic allocations": {
+                "count": 1,
+                "rank_score": 0.06228472011534106
             },
             "substantial additional resources": {
                 "count": 1,
                 "rank_score": 0.08644575432688972
             },
+            "tax code": {
+                "count": 1,
+                "rank_score": 0.05669367444680575
+            },
             "tax returns": {
                 "count": 1,
                 "rank_score": 0.1080050806471069
             },
-            "the earned income tax credit": {
+            "tax system": {
                 "count": 1,
-                "rank_score": 0.08070231002492512
+                "rank_score": 0.0564675430706196
+            },
+            "unique data": {
+                "count": 1,
+                "rank_score": 0.04342699781921491
             },
             "wisconsin": {
                 "count": 2,
@@ -590,6 +670,10 @@
             "wisconsin unemployment insurance wage data": {
                 "count": 1,
                 "rank_score": 0.09769027283346383
+            },
+            "women": {
+                "count": 1,
+                "rank_score": 0.0501766156799634
             }
         },
         "original": {
@@ -631,6 +715,7 @@
                     "name": "16 Studies in Human Society"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -638,6 +723,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "David Brian",
+                        "initials": "",
                         "last_name": "Robertson",
                         "orcid": "",
                         "researcher_id": ""
@@ -650,6 +736,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "David Brian",
+                    "initials": "",
                     "last_name": "Robertson",
                     "orcid": "",
                     "researcher_id": ""
@@ -700,7 +787,6 @@
                 "authorities",
                 "national governments",
                 "government",
-                "state",
                 "prosperity",
                 "security",
                 "daily life",
@@ -710,6 +796,7 @@
                 "American history",
                 "history",
                 "battlefield",
+                "states' rights",
                 "rights",
                 "Union",
                 "government power",
@@ -726,7 +813,6 @@
                 "comprehensive text",
                 "text",
                 "Robertson",
-                "choice",
                 "present circumstances",
                 "circumstances",
                 "deeper understanding",
@@ -758,7 +844,53 @@
             "date": "2017-09-14",
             "date_inserted": "2017-10-27",
             "doi": "10.4324/9781315394503",
+            "field_citation_ratio": 0.0,
             "id": "pub.1092313433",
+            "noun_phrases": [
+                "federalism",
+                "America",
+                "american",
+                "nation",
+                "division",
+                "government",
+                "federal government",
+                "prosperity",
+                "security",
+                "life",
+                "political conflict",
+                "American history",
+                "battlefield",
+                "state",
+                "union",
+                "Commerce",
+                "Continental Population Group",
+                "poverty",
+                "pollution",
+                "Induced Abortion",
+                "right",
+                "second edition",
+                "text",
+                "Robertson",
+                "circumstance",
+                "deep understanding",
+                "American government",
+                "public policy",
+                "political process",
+                "society",
+                "key step",
+                "evolution",
+                "edition",
+                "introduction",
+                "American politics",
+                "political party",
+                "capitalism",
+                "Economics",
+                "construction",
+                "reform",
+                "activism",
+                "relation",
+                "governance"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -767,6 +899,7 @@
                 }
             ],
             "publisher": "Taylor & Francis",
+            "recent_citations": 0,
             "terms": [
                 "Americans",
                 "federalism",
@@ -778,7 +911,6 @@
                 "authorities",
                 "national governments",
                 "government",
-                "state",
                 "prosperity",
                 "security",
                 "daily life",
@@ -788,6 +920,7 @@
                 "American history",
                 "history",
                 "battlefield",
+                "states' rights",
                 "rights",
                 "Union",
                 "government power",
@@ -804,7 +937,6 @@
                 "comprehensive text",
                 "text",
                 "Robertson",
-                "choice",
                 "present circumstances",
                 "circumstances",
                 "deeper understanding",
@@ -833,6 +965,7 @@
                 "making",
                 "America"
             ],
+            "times_cited": 0,
             "title": "Federalism and the Making of America, 2nd",
             "type": "monograph",
             "year": 2017
@@ -1165,6 +1298,10 @@
                 "count": 1,
                 "rank_score": 0.08459423316397023
             },
+            "construction": {
+                "count": 1,
+                "rank_score": 0.04109974682633932
+            },
             "enduring fault lines": {
                 "count": 1,
                 "rank_score": 0.12029114103630548
@@ -1172,6 +1309,10 @@
             "federalism": {
                 "count": 3,
                 "rank_score": 0.12759291536138534
+            },
+            "founding": {
+                "count": 1,
+                "rank_score": 0.02914413890376323
             },
             "interests part ii": {
                 "count": 1,
@@ -1189,9 +1330,9 @@
                 "count": 1,
                 "rank_score": 0.10067340828210362
             },
-            "life": {
+            "new deal": {
                 "count": 1,
-                "rank_score": 0.06211986286675088
+                "rank_score": 0.05941431370400415
             },
             "political parties": {
                 "count": 1,
@@ -1201,9 +1342,13 @@
                 "count": 1,
                 "rank_score": 0.10067340828210364
             },
-            "the new deal": {
+            "race": {
                 "count": 1,
-                "rank_score": 0.05941431370400415
+                "rank_score": 0.049380553141209434
+            },
+            "twenty-first century": {
+                "count": 2,
+                "rank_score": 0.0517738243373467
             }
         },
         "original": {
@@ -1240,12 +1385,12 @@
                     "name": "Pediatric"
                 },
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
                     "id": "416",
                     "name": "Contraception/Reproduction"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
             "altmetric": 19.0,
@@ -1268,6 +1413,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.261915.8",
                         "first_name": "Yeongmin",
+                        "initials": "",
                         "last_name": "Kim",
                         "orcid": "",
                         "researcher_id": "ur.011640357463.53"
@@ -1288,6 +1434,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
                         "first_name": "Maria",
+                        "initials": "",
                         "last_name": "Cancian",
                         "orcid": "",
                         "researcher_id": "ur.0650305152.28"
@@ -1308,6 +1455,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
                         "first_name": "Daniel R.",
+                        "initials": "",
                         "last_name": "Meyer",
                         "orcid": "",
                         "researcher_id": "ur.01076052262.74"
@@ -1331,6 +1479,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.261915.8",
                     "first_name": "Yeongmin",
+                    "initials": "",
                     "last_name": "Kim",
                     "orcid": "",
                     "researcher_id": "ur.011640357463.53"
@@ -1351,6 +1500,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
                     "first_name": "Maria",
+                    "initials": "",
                     "last_name": "Cancian",
                     "orcid": "",
                     "researcher_id": "ur.0650305152.28"
@@ -1371,6 +1521,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
                     "first_name": "Daniel R.",
+                    "initials": "",
                     "last_name": "Meyer",
                     "orcid": "",
                     "researcher_id": "ur.01076052262.74"
@@ -1414,12 +1565,12 @@
                     "name": "Pediatric"
                 },
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
-                },
-                {
                     "id": "416",
                     "name": "Contraception/Reproduction"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 }
             ],
             "category_ua": [
@@ -1441,7 +1592,6 @@
                 "partners",
                 "factors",
                 "multiple-partner fertility",
-                "partner fertility",
                 "fertility",
                 "interest",
                 "policy makers",
@@ -1449,7 +1599,6 @@
                 "single mothers",
                 "mothers",
                 "policy-relevant factors",
-                "relevant factors",
                 "subsequent fertility",
                 "child support income",
                 "income",
@@ -1476,7 +1625,7 @@
             "date": "2017-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1177/0192513x14565701",
-            "field_citation_ratio": 1.67,
+            "field_citation_ratio": 2.42,
             "id": "pub.1053363776",
             "issn": [
                 "0192-513X",
@@ -1488,10 +1637,35 @@
                 "title": "Journal of Family Issues"
             },
             "journal_lists": [
-                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018",
                 "Norwegian register level 1",
-                "ERIH PLUS",
-                "VABB-SHW"
+                "ERA 2015",
+                "ERIH PLUS"
+            ],
+            "noun_phrases": [
+                "child care",
+                "fertility",
+                "parent",
+                "child",
+                "partner",
+                "significant effect",
+                "multiple partner",
+                "Administrative Personnel",
+                "single mother",
+                "policy-relevant",
+                "income",
+                "magnitude",
+                "negative relationship",
+                "sample",
+                "low income",
+                "advantage",
+                "experiment",
+                "difference",
+                "causal relationship",
+                "receipt",
+                "suggestive evidence",
+                "mother"
             ],
             "open_access_categories": [
                 {
@@ -1502,50 +1676,50 @@
             ],
             "pages": "151-176",
             "publisher": "SAGE Publications",
-            "recent_citations": 1,
+            "recent_citations": 2,
             "reference_ids": [
-                "pub.1038563762",
-                "pub.1058563584",
-                "pub.1098761631",
-                "pub.1024686369",
-                "pub.1001432674",
                 "pub.1041994161",
-                "pub.1022986382",
-                "pub.1030211122",
-                "pub.1070365239",
-                "pub.1047053275",
-                "pub.1035304432",
-                "pub.1022548661",
-                "pub.1071055579",
-                "pub.1070193545",
-                "pub.1019634475",
-                "pub.1032614476",
                 "pub.1037312614",
+                "pub.1019634475",
+                "pub.1038563762",
+                "pub.1071055579",
+                "pub.1001432674",
+                "pub.1035304432",
+                "pub.1070365239",
                 "pub.1022532925",
                 "pub.1010537947",
-                "pub.1031995150"
+                "pub.1024686369",
+                "pub.1047053275",
+                "pub.1031995150",
+                "pub.1098761631",
+                "pub.1022548661",
+                "pub.1022986382",
+                "pub.1032614476",
+                "pub.1070193545",
+                "pub.1030211122",
+                "pub.1058563584"
             ],
             "references": [
-                "pub.1038563762",
-                "pub.1058563584",
-                "pub.1098761631",
-                "pub.1024686369",
-                "pub.1001432674",
                 "pub.1041994161",
-                "pub.1022986382",
-                "pub.1030211122",
-                "pub.1070365239",
-                "pub.1047053275",
-                "pub.1035304432",
-                "pub.1022548661",
-                "pub.1071055579",
-                "pub.1070193545",
-                "pub.1019634475",
-                "pub.1032614476",
                 "pub.1037312614",
+                "pub.1019634475",
+                "pub.1038563762",
+                "pub.1071055579",
+                "pub.1001432674",
+                "pub.1035304432",
+                "pub.1070365239",
                 "pub.1022532925",
                 "pub.1010537947",
-                "pub.1031995150"
+                "pub.1024686369",
+                "pub.1047053275",
+                "pub.1031995150",
+                "pub.1098761631",
+                "pub.1022548661",
+                "pub.1022986382",
+                "pub.1032614476",
+                "pub.1070193545",
+                "pub.1030211122",
+                "pub.1058563584"
             ],
             "research_org_cities": [
                 {
@@ -1566,19 +1740,23 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "University of Wisconsin–Madison",
+                "Pittsburg State University"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-WI",
-                    "name": "Wisconsin"
-                },
                 {
                     "id": "US-KS",
                     "name": "Kansas"
+                },
+                {
+                    "id": "US-WI",
+                    "name": "Wisconsin"
                 }
             ],
             "research_org_state_names": [
-                "Wisconsin",
-                "Kansas"
+                "Kansas",
+                "Wisconsin"
             ],
             "research_orgs": [
                 {
@@ -1639,8 +1817,8 @@
                     "last_name": "Meyer",
                     "research_orgs": [
                         "grid.89336.37",
-                        "grid.35403.31",
-                        "grid.14003.36"
+                        "grid.14003.36",
+                        "grid.35403.31"
                     ]
                 }
             ],
@@ -1651,7 +1829,6 @@
                 "partners",
                 "factors",
                 "multiple-partner fertility",
-                "partner fertility",
                 "fertility",
                 "interest",
                 "policy makers",
@@ -1659,7 +1836,6 @@
                 "single mothers",
                 "mothers",
                 "policy-relevant factors",
-                "relevant factors",
                 "subsequent fertility",
                 "child support income",
                 "income",
@@ -1683,7 +1859,7 @@
                 "nonmarital births",
                 "birth"
             ],
-            "times_cited": 2,
+            "times_cited": 3,
             "title": "Child Support and Subsequent Nonmarital Fertility With a New Partner",
             "type": "article",
             "volume": "38",
@@ -1869,13 +2045,9 @@
         },
         "doi": "10.1177/0192513x14565701",
         "keyphrases": {
-            "a negative causal relationship": {
-                "count": 1,
-                "rank_score": 0.06462464842222812
-            },
-            "a new partner": {
-                "count": 5,
-                "rank_score": 0.07109041688992297
+            "any effect": {
+                "count": 2,
+                "rank_score": 0.03628258842940587
             },
             "child support": {
                 "count": 1,
@@ -1893,9 +2065,9 @@
                 "count": 2,
                 "rank_score": 0.13036669502246068
             },
-            "factors": {
+            "interest": {
                 "count": 1,
-                "rank_score": 0.0859772633098678
+                "rank_score": 0.062370132275037
             },
             "low-income unmarried mothers": {
                 "count": 1,
@@ -1909,25 +2081,69 @@
                 "count": 1,
                 "rank_score": 0.07996385083701515
             },
+            "negative causal relationship": {
+                "count": 1,
+                "rank_score": 0.06462464842222812
+            },
+            "new partner": {
+                "count": 5,
+                "rank_score": 0.07109041688992297
+            },
+            "no support": {
+                "count": 1,
+                "rank_score": 0.062463791013773085
+            },
             "nonmarital fertility": {
                 "count": 2,
                 "rank_score": 0.11030280712202933
+            },
+            "one potential policy-relevant factor": {
+                "count": 1,
+                "rank_score": 0.06371071403292551
+            },
+            "our sample": {
+                "count": 1,
+                "rank_score": 0.024953745411769358
+            },
+            "parents": {
+                "count": 2,
+                "rank_score": 0.061275085125922224
+            },
+            "policy experiment": {
+                "count": 1,
+                "rank_score": 0.057977063392883034
             },
             "policy makers": {
                 "count": 1,
                 "rank_score": 0.09739667249387055
             },
+            "randomly assigned differences": {
+                "count": 1,
+                "rank_score": 0.04135927297441723
+            },
+            "significant effect": {
+                "count": 1,
+                "rank_score": 0.04781406106236477
+            },
+            "simple negative relationship": {
+                "count": 1,
+                "rank_score": 0.06761780731989579
+            },
             "single mothers": {
                 "count": 1,
                 "rank_score": 0.0731646905652997
+            },
+            "subsequent nonmarital birth": {
+                "count": 1,
+                "rank_score": 0.060736871860941656
             },
             "suggestive evidence": {
                 "count": 1,
                 "rank_score": 0.07302502274280823
             },
-            "the simple negative relationship": {
+            "their subsequent fertility": {
                 "count": 1,
-                "rank_score": 0.06761780731989579
+                "rank_score": 0.06141900667288282
             }
         },
         "original": {
@@ -1985,12 +2201,12 @@
             ],
             "RCDC": [
                 {
-                    "id": "547",
-                    "name": "Pediatric"
-                },
-                {
                     "id": "507",
                     "name": "Clinical Research"
+                },
+                {
+                    "id": "547",
+                    "name": "Pediatric"
                 }
             ],
             "altmetric": 18.0,
@@ -2013,6 +2229,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
                         "first_name": "Maria",
+                        "initials": "",
                         "last_name": "Cancian",
                         "orcid": "",
                         "researcher_id": "ur.0650305152.28"
@@ -2033,6 +2250,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.14003.36",
                         "first_name": "Steven T.",
+                        "initials": "",
                         "last_name": "Cook",
                         "orcid": "",
                         "researcher_id": "ur.0764533552.25"
@@ -2051,8 +2269,9 @@
                             }
                         ],
                         "corresponding": "",
-                        "current_organization_id": "grid.14003.36",
+                        "current_organization_id": "grid.450504.0",
                         "first_name": "Mai",
+                        "initials": "",
                         "last_name": "Seki",
                         "orcid": "",
                         "researcher_id": "ur.015457115311.11"
@@ -2073,6 +2292,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
                         "first_name": "Lynn",
+                        "initials": "",
                         "last_name": "Wimer",
                         "orcid": "",
                         "researcher_id": "ur.016254475711.22"
@@ -2096,6 +2316,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
                     "first_name": "Maria",
+                    "initials": "",
                     "last_name": "Cancian",
                     "orcid": "",
                     "researcher_id": "ur.0650305152.28"
@@ -2116,6 +2337,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.14003.36",
                     "first_name": "Steven T.",
+                    "initials": "",
                     "last_name": "Cook",
                     "orcid": "",
                     "researcher_id": "ur.0764533552.25"
@@ -2134,8 +2356,9 @@
                         }
                     ],
                     "corresponding": "",
-                    "current_organization_id": "grid.14003.36",
+                    "current_organization_id": "grid.450504.0",
                     "first_name": "Mai",
+                    "initials": "",
                     "last_name": "Seki",
                     "orcid": "",
                     "researcher_id": "ur.015457115311.11"
@@ -2156,6 +2379,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
                     "first_name": "Lynn",
+                    "initials": "",
                     "last_name": "Wimer",
                     "orcid": "",
                     "researcher_id": "ur.016254475711.22"
@@ -2203,12 +2427,12 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "547",
-                    "name": "Pediatric"
-                },
-                {
                     "id": "507",
                     "name": "Clinical Research"
+                },
+                {
+                    "id": "547",
+                    "name": "Pediatric"
                 }
             ],
             "category_ua": [
@@ -2235,7 +2459,6 @@
                 "Wisconsin",
                 "large regional variations",
                 "regional variation",
-                "children",
                 "referral policy",
                 "policy",
                 "important effect",
@@ -2253,12 +2476,13 @@
                 "unintended effects",
                 "spells",
                 "taxpayers",
+                "extended placements",
                 "foster care",
                 "care",
                 "consequences",
+                "children",
                 "importance",
                 "cross-system analysis",
-                "system analysis",
                 "analysis",
                 "potential consequences",
                 "fundamental objective",
@@ -2273,7 +2497,7 @@
             "date": "2017-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.childyouth.2016.10.018",
-            "field_citation_ratio": 3.23,
+            "field_citation_ratio": 3.0,
             "funder_countries": [
                 {
                     "id": "US",
@@ -2281,6 +2505,21 @@
                 }
             ],
             "funders": [
+                {
+                    "city_name": "New York",
+                    "country_name": "United States",
+                    "id": "grid.433838.7",
+                    "latitude": 40.757072,
+                    "linkout": [
+                        "http://wtgrantfoundation.org/"
+                    ],
+                    "longitude": -73.97195,
+                    "name": "William Thomas Grant Foundation",
+                    "state_name": "New York",
+                    "types": [
+                        "Nonprofit"
+                    ]
+                },
                 {
                     "acronym": "DHHS",
                     "city_name": "Raleigh",
@@ -2296,21 +2535,6 @@
                     "types": [
                         "Government"
                     ]
-                },
-                {
-                    "city_name": "New York",
-                    "country_name": "United States",
-                    "id": "grid.433838.7",
-                    "latitude": 40.757072,
-                    "linkout": [
-                        "http://wtgrantfoundation.org/"
-                    ],
-                    "longitude": -73.97195,
-                    "name": "William Thomas Grant Foundation",
-                    "state_name": "New York",
-                    "types": [
-                        "Nonprofit"
-                    ]
                 }
             ],
             "id": "pub.1009112358",
@@ -2323,11 +2547,45 @@
                 "title": "Children and Youth Services Review"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
             ],
             "linkout": "https://doi.org/10.1016/j.childyouth.2016.10.018",
+            "noun_phrases": [
+                "parent",
+                "unintended consequence",
+                "care",
+                "family",
+                "service system",
+                "child",
+                "enforcement",
+                "natural experiment",
+                "Wisconsin",
+                "state",
+                "regional variation",
+                "policy",
+                "important effect",
+                "duration",
+                "home",
+                "placement",
+                "delay",
+                "reunification",
+                "evidence",
+                "unintended effect",
+                "spell",
+                "taxpayer",
+                "consequence",
+                "child well-being",
+                "potential importance",
+                "system analysis",
+                "potential consequence",
+                "fundamental objective",
+                "public system",
+                "implication",
+                "service"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -2349,50 +2607,50 @@
             "publisher": "Elsevier",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1042505305",
-                "pub.1007573297",
                 "pub.1020651518",
-                "pub.1058855453",
-                "pub.1008619539",
-                "pub.1058638314",
-                "pub.1015993061",
-                "pub.1058790610",
-                "pub.1058809504",
                 "pub.1015799361",
-                "pub.1037751518",
-                "pub.1035304432",
+                "pub.1058638314",
+                "pub.1037312614",
+                "pub.1015993061",
                 "pub.1102718307",
-                "pub.1004780855",
-                "pub.1064527624",
+                "pub.1008619539",
+                "pub.1037751518",
                 "pub.1033515328",
+                "pub.1042505305",
+                "pub.1058855453",
+                "pub.1035304432",
                 "pub.1058714842",
                 "pub.1002815201",
+                "pub.1058790610",
                 "pub.1070145913",
-                "pub.1037312614",
-                "pub.1019985296"
+                "pub.1004780855",
+                "pub.1019985296",
+                "pub.1058809504",
+                "pub.1064527624",
+                "pub.1007573297"
             ],
             "references": [
-                "pub.1042505305",
-                "pub.1007573297",
                 "pub.1020651518",
-                "pub.1058855453",
-                "pub.1008619539",
-                "pub.1058638314",
-                "pub.1015993061",
-                "pub.1058790610",
-                "pub.1058809504",
                 "pub.1015799361",
-                "pub.1037751518",
-                "pub.1035304432",
+                "pub.1058638314",
+                "pub.1037312614",
+                "pub.1015993061",
                 "pub.1102718307",
-                "pub.1004780855",
-                "pub.1064527624",
+                "pub.1008619539",
+                "pub.1037751518",
                 "pub.1033515328",
+                "pub.1042505305",
+                "pub.1058855453",
+                "pub.1035304432",
                 "pub.1058714842",
                 "pub.1002815201",
+                "pub.1058790610",
                 "pub.1070145913",
-                "pub.1037312614",
-                "pub.1019985296"
+                "pub.1004780855",
+                "pub.1019985296",
+                "pub.1058809504",
+                "pub.1064527624",
+                "pub.1007573297"
             ],
             "research_org_cities": [
                 {
@@ -2408,6 +2666,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "University of Wisconsin–Madison"
             ],
             "research_org_state_codes": [
                 {
@@ -2485,7 +2746,6 @@
                 "Wisconsin",
                 "large regional variations",
                 "regional variation",
-                "children",
                 "referral policy",
                 "policy",
                 "important effect",
@@ -2503,12 +2763,13 @@
                 "unintended effects",
                 "spells",
                 "taxpayers",
+                "extended placements",
                 "foster care",
                 "care",
                 "consequences",
+                "children",
                 "importance",
                 "cross-system analysis",
-                "system analysis",
                 "analysis",
                 "potential consequences",
                 "fundamental objective",
@@ -2755,6 +3016,10 @@
                 "count": 1,
                 "rank_score": 0.14528851375934768
             },
+            "child protective services system": {
+                "count": 1,
+                "rank_score": 0.10099820116066865
+            },
             "child support": {
                 "count": 1,
                 "rank_score": 0.1511742217419924
@@ -2763,13 +3028,29 @@
                 "count": 1,
                 "rank_score": 0.14991615859853044
             },
+            "child support enforcement system": {
+                "count": 1,
+                "rank_score": 0.10635481750539502
+            },
+            "child well-being": {
+                "count": 1,
+                "rank_score": 0.05643933756180837
+            },
             "childrens reunification": {
                 "count": 1,
                 "rank_score": 0.07862962219520103
             },
+            "consequences": {
+                "count": 1,
+                "rank_score": 0.05819683564146212
+            },
             "cross-systems analysis": {
                 "count": 1,
                 "rank_score": 0.10569345543098102
+            },
+            "extended placements": {
+                "count": 1,
+                "rank_score": 0.07750880611520239
             },
             "foster care": {
                 "count": 1,
@@ -2783,9 +3064,33 @@
                 "count": 1,
                 "rank_score": 0.11914643499022969
             },
+            "fundamental objectives": {
+                "count": 1,
+                "rank_score": 0.06662286596393177
+            },
+            "most families": {
+                "count": 1,
+                "rank_score": 0.05645008599968594
+            },
+            "natural experiment": {
+                "count": 1,
+                "rank_score": 0.0478001150984729
+            },
             "other permanent placement": {
                 "count": 1,
                 "rank_score": 0.08602839639560121
+            },
+            "parents": {
+                "count": 2,
+                "rank_score": 0.06666838291216057
+            },
+            "potential consequences": {
+                "count": 1,
+                "rank_score": 0.04821755539282874
+            },
+            "potential importance": {
+                "count": 1,
+                "rank_score": 0.04742064357430377
             },
             "public systems": {
                 "count": 1,
@@ -2795,17 +3100,13 @@
                 "count": 1,
                 "rank_score": 0.08538744447532774
             },
-            "support": {
+            "states large regional variation": {
                 "count": 1,
-                "rank_score": 0.09111956789039095
+                "rank_score": 0.04530854854658461
             },
-            "the child protective services system": {
-                "count": 1,
-                "rank_score": 0.10099820116066865
-            },
-            "the child support enforcement system": {
-                "count": 1,
-                "rank_score": 0.10635481750539502
+            "wisconsin": {
+                "count": 2,
+                "rank_score": 0.05806474487063213
             }
         },
         "original": {
@@ -2847,23 +3148,23 @@
                     "name": "Clinical Trials and Supportive Activities"
                 },
                 {
-                    "id": "558",
-                    "name": "Prevention"
+                    "id": "380",
+                    "name": "Mental Health"
                 },
                 {
                     "id": "498",
                     "name": "Behavioral and Social Science"
                 },
                 {
-                    "id": "380",
-                    "name": "Mental Health"
+                    "id": "558",
+                    "name": "Prevention"
                 },
                 {
                     "id": "588",
                     "name": "Violence Research"
                 }
             ],
-            "altmetric": 11.0,
+            "altmetric": 18.0,
             "altmetric_id": 5749178,
             "author_affiliations": [
                 [
@@ -2893,6 +3194,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.26009.3d",
                         "first_name": "Philip J.",
+                        "initials": "",
                         "last_name": "Cook",
                         "orcid": "['0000-0001-5094-9052']",
                         "researcher_id": "ur.01355145447.14"
@@ -2913,6 +3215,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.49606.3d",
                         "first_name": "Songman",
+                        "initials": "",
                         "last_name": "Kang",
                         "orcid": "",
                         "researcher_id": "ur.014450412573.29"
@@ -2933,6 +3236,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.261112.7",
                         "first_name": "Anthony A.",
+                        "initials": "",
                         "last_name": "Braga",
                         "orcid": "",
                         "researcher_id": "ur.01127540470.28"
@@ -2956,6 +3260,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.170205.1",
                         "first_name": "Jens",
+                        "initials": "",
                         "last_name": "Ludwig",
                         "orcid": "",
                         "researcher_id": "ur.01253554034.81"
@@ -2976,6 +3281,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Mallory E.",
+                        "initials": "",
                         "last_name": "O’Brien",
                         "orcid": "",
                         "researcher_id": ""
@@ -3009,6 +3315,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.26009.3d",
                     "first_name": "Philip J.",
+                    "initials": "",
                     "last_name": "Cook",
                     "orcid": "['0000-0001-5094-9052']",
                     "researcher_id": "ur.01355145447.14"
@@ -3029,6 +3336,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.49606.3d",
                     "first_name": "Songman",
+                    "initials": "",
                     "last_name": "Kang",
                     "orcid": "",
                     "researcher_id": "ur.014450412573.29"
@@ -3049,6 +3357,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.261112.7",
                     "first_name": "Anthony A.",
+                    "initials": "",
                     "last_name": "Braga",
                     "orcid": "",
                     "researcher_id": "ur.01127540470.28"
@@ -3072,6 +3381,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.170205.1",
                     "first_name": "Jens",
+                    "initials": "",
                     "last_name": "Ludwig",
                     "orcid": "",
                     "researcher_id": "ur.01253554034.81"
@@ -3092,6 +3402,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Mallory E.",
+                    "initials": "",
                     "last_name": "O’Brien",
                     "orcid": "",
                     "researcher_id": ""
@@ -3129,16 +3440,16 @@
                     "name": "Clinical Trials and Supportive Activities"
                 },
                 {
-                    "id": "558",
-                    "name": "Prevention"
+                    "id": "380",
+                    "name": "Mental Health"
                 },
                 {
                     "id": "498",
                     "name": "Behavioral and Social Science"
                 },
                 {
-                    "id": "380",
-                    "name": "Mental Health"
+                    "id": "558",
+                    "name": "Prevention"
                 },
                 {
                     "id": "588",
@@ -3164,13 +3475,12 @@
                 "market prospects",
                 "prospects",
                 "recidivism",
-                "previous employment",
-                "employment",
-                "entry program",
+                "re-entry program",
                 "program",
-                "multi",
+                "multi-faceted challenges",
                 "challenges",
                 "prisoners",
+                "enhanced employment opportunities",
                 "employment opportunities",
                 "opportunities",
                 "services",
@@ -3178,7 +3488,6 @@
                 "work",
                 "social services",
                 "high-risk offenders",
-                "risk offenders",
                 "offenders",
                 "Milwaukee",
                 "history of violence",
@@ -3186,10 +3495,9 @@
                 "violence",
                 "gang involvement",
                 "involvement",
-                "employment rates",
+                "employment rate",
                 "earnings",
                 "period",
-                "ex-offenders",
                 "subsidized jobs",
                 "jobs",
                 "years",
@@ -3199,12 +3507,13 @@
                 "rearrest",
                 "group",
                 "first year",
-                "differences",
                 "human capital",
                 "capital",
                 "inmates",
+                "employment",
                 "sufficient impact",
                 "impact",
+                "benefit-cost test",
                 "average earnings",
                 "legal work",
                 "economic life",
@@ -3214,7 +3523,7 @@
             "date": "2015-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/s10940-014-9242-5",
-            "field_citation_ratio": 9.23,
+            "field_citation_ratio": 9.2,
             "id": "pub.1011124323",
             "issn": [
                 "0748-4518",
@@ -3226,8 +3535,57 @@
                 "title": "Journal of Quantitative Criminology"
             },
             "journal_lists": [
-                "ERA 2015",
-                "Norwegian register level 1"
+                "ERA 2018",
+                "Norwegian register level 1",
+                "ERA 2015"
+            ],
+            "noun_phrases": [
+                "experimental evaluation",
+                "re-entry",
+                "economic model",
+                "crime",
+                "labor market",
+                "recidivism",
+                "Evaluation Study as Topic",
+                "mixed result",
+                "challenge",
+                "prisoner",
+                "release",
+                "experiment",
+                "employment opportunity",
+                "wrap",
+                "service",
+                "paper",
+                "RCT",
+                "post-release",
+                "Reach",
+                "Social Work",
+                "sample",
+                "high risk",
+                "Milwaukee",
+                "history",
+                "violence",
+                "involvement",
+                "increased employment",
+                "earnings",
+                "period",
+                "ex",
+                "job",
+                "gain",
+                "intervention",
+                "significant effect",
+                "likelihood",
+                "treatment group",
+                "control",
+                "difference",
+                "human capital",
+                "inmate",
+                "employment",
+                "benefit",
+                "average",
+                "control group",
+                "economic life",
+                "released prisoner"
             ],
             "open_access_categories": [
                 {
@@ -3238,48 +3596,48 @@
             ],
             "pages": "355-382",
             "publisher": "Springer Nature",
-            "recent_citations": 12,
+            "recent_citations": 13,
             "reference_ids": [
-                "pub.1019628055",
-                "pub.1011002679",
-                "pub.1070049014",
-                "pub.1028208506",
                 "pub.1053771328",
                 "pub.1063768369",
-                "pub.1058733726",
-                "pub.1058305036",
-                "pub.1067700185",
-                "pub.1102715356",
-                "pub.1041973353",
-                "pub.1058572875",
-                "pub.1028163015",
-                "pub.1032770311",
-                "pub.1023162972",
-                "pub.1025676819",
                 "pub.1033401503",
+                "pub.1058572875",
+                "pub.1102715356",
+                "pub.1019628055",
+                "pub.1070049014",
+                "pub.1117143142",
+                "pub.1023162972",
+                "pub.1011002679",
                 "pub.1040380237",
-                "pub.1117143142"
+                "pub.1067700185",
+                "pub.1058305036",
+                "pub.1028163015",
+                "pub.1058733726",
+                "pub.1028208506",
+                "pub.1025676819",
+                "pub.1041973353",
+                "pub.1032770311"
             ],
             "references": [
-                "pub.1019628055",
-                "pub.1011002679",
-                "pub.1070049014",
-                "pub.1028208506",
                 "pub.1053771328",
                 "pub.1063768369",
-                "pub.1058733726",
-                "pub.1058305036",
-                "pub.1067700185",
-                "pub.1102715356",
-                "pub.1041973353",
-                "pub.1058572875",
-                "pub.1028163015",
-                "pub.1032770311",
-                "pub.1023162972",
-                "pub.1025676819",
                 "pub.1033401503",
+                "pub.1058572875",
+                "pub.1102715356",
+                "pub.1019628055",
+                "pub.1070049014",
+                "pub.1117143142",
+                "pub.1023162972",
+                "pub.1011002679",
                 "pub.1040380237",
-                "pub.1117143142"
+                "pub.1067700185",
+                "pub.1058305036",
+                "pub.1028163015",
+                "pub.1058733726",
+                "pub.1028208506",
+                "pub.1025676819",
+                "pub.1041973353",
+                "pub.1032770311"
             ],
             "research_org_cities": [
                 {
@@ -3309,19 +3667,35 @@
             ],
             "research_org_countries": [
                 {
-                    "id": "US",
-                    "name": "United States"
-                },
-                {
                     "id": "KR",
                     "name": "South Korea"
+                },
+                {
+                    "id": "US",
+                    "name": "United States"
                 }
             ],
             "research_org_country_names": [
-                "South Korea",
-                "United States"
+                "United States",
+                "South Korea"
+            ],
+            "research_org_names": [
+                "Harris School of Public Policy, University of Chicago, 1155 East 60th Street, 60637, Chicago, IL, USA",
+                "Hanyang University",
+                "Marquette University",
+                "Duke University",
+                "Rutgers, The State University of New Jersey",
+                "National Bureau of Economic Research"
             ],
             "research_org_state_codes": [
+                {
+                    "id": "US-NJ",
+                    "name": "New Jersey"
+                },
+                {
+                    "id": "US-IL",
+                    "name": "Illinois"
+                },
                 {
                     "id": "US-NC",
                     "name": "North Carolina"
@@ -3331,10 +3705,6 @@
                     "name": "Massachusetts"
                 },
                 {
-                    "id": "US-NJ",
-                    "name": "New Jersey"
-                },
-                {
                     "id": "US-WI",
                     "name": "Wisconsin"
                 }
@@ -3342,11 +3712,27 @@
             "research_org_state_names": [
                 "Massachusetts",
                 "North Carolina",
-                "Illinois",
                 "New Jersey",
+                "Illinois",
                 "Wisconsin"
             ],
             "research_orgs": [
+                {
+                    "acronym": "RU",
+                    "city_name": "New Brunswick",
+                    "country_name": "United States",
+                    "id": "grid.430387.b",
+                    "latitude": 40.740875,
+                    "linkout": [
+                        "http://www.rutgers.edu/"
+                    ],
+                    "longitude": -74.1739,
+                    "name": "Rutgers, The State University of New Jersey",
+                    "state_name": "New Jersey",
+                    "types": [
+                        "Education"
+                    ]
+                },
                 {
                     "acronym": "NBER",
                     "city_name": "Cambridge",
@@ -3361,21 +3747,6 @@
                     "state_name": "Massachusetts",
                     "types": [
                         "Nonprofit"
-                    ]
-                },
-                {
-                    "city_name": "Milwaukee",
-                    "country_name": "United States",
-                    "id": "grid.259670.f",
-                    "latitude": 43.038,
-                    "linkout": [
-                        "http://www.marquette.edu/"
-                    ],
-                    "longitude": -87.928,
-                    "name": "Marquette University",
-                    "state_name": "Wisconsin",
-                    "types": [
-                        "Education"
                     ]
                 },
                 {
@@ -3394,17 +3765,16 @@
                     ]
                 },
                 {
-                    "acronym": "RU",
-                    "city_name": "New Brunswick",
+                    "city_name": "Milwaukee",
                     "country_name": "United States",
-                    "id": "grid.430387.b",
-                    "latitude": 40.740875,
+                    "id": "grid.259670.f",
+                    "latitude": 43.038,
                     "linkout": [
-                        "http://www.rutgers.edu/"
+                        "http://www.marquette.edu/"
                     ],
-                    "longitude": -74.1739,
-                    "name": "Rutgers, The State University of New Jersey",
-                    "state_name": "New Jersey",
+                    "longitude": -87.928,
+                    "name": "Marquette University",
+                    "state_name": "Wisconsin",
                     "types": [
                         "Education"
                     ]
@@ -3433,8 +3803,8 @@
                         "0000-0001-5094-9052"
                     ],
                     "research_orgs": [
-                        "grid.250279.b",
                         "grid.27860.3b",
+                        "grid.250279.b",
                         "grid.26009.3d"
                     ]
                 },
@@ -3451,10 +3821,10 @@
                     "id": "ur.01127540470.28",
                     "last_name": "Braga",
                     "research_orgs": [
-                        "grid.38142.3c",
                         "grid.261112.7",
-                        "grid.47840.3f",
-                        "grid.430387.b"
+                        "grid.430387.b",
+                        "grid.38142.3c",
+                        "grid.47840.3f"
                     ]
                 },
                 {
@@ -3462,12 +3832,12 @@
                     "id": "ur.01253554034.81",
                     "last_name": "Ludwig",
                     "research_orgs": [
-                        "grid.25879.31",
-                        "grid.213910.8",
                         "grid.250279.b",
+                        "grid.504449.8",
+                        "grid.213910.8",
+                        "grid.25879.31",
                         "grid.170205.1",
-                        "grid.280571.9",
-                        "grid.504449.8"
+                        "grid.280571.9"
                     ]
                 }
             ],
@@ -3478,13 +3848,12 @@
                 "market prospects",
                 "prospects",
                 "recidivism",
-                "previous employment",
-                "employment",
-                "entry program",
+                "re-entry program",
                 "program",
-                "multi",
+                "multi-faceted challenges",
                 "challenges",
                 "prisoners",
+                "enhanced employment opportunities",
                 "employment opportunities",
                 "opportunities",
                 "services",
@@ -3492,7 +3861,6 @@
                 "work",
                 "social services",
                 "high-risk offenders",
-                "risk offenders",
                 "offenders",
                 "Milwaukee",
                 "history of violence",
@@ -3500,10 +3868,9 @@
                 "violence",
                 "gang involvement",
                 "involvement",
-                "employment rates",
+                "employment rate",
                 "earnings",
                 "period",
-                "ex-offenders",
                 "subsidized jobs",
                 "jobs",
                 "years",
@@ -3513,19 +3880,20 @@
                 "rearrest",
                 "group",
                 "first year",
-                "differences",
                 "human capital",
                 "capital",
                 "inmates",
+                "employment",
                 "sufficient impact",
                 "impact",
+                "benefit-cost test",
                 "average earnings",
                 "legal work",
                 "economic life",
                 "life",
                 "Comprehensive Employment"
             ],
-            "times_cited": 21,
+            "times_cited": 22,
             "title": "An Experimental Evaluation of a Comprehensive Employment-Oriented Prisoner Re-entry Program",
             "type": "article",
             "volume": "31",
@@ -4958,29 +5326,61 @@
         },
         "doi": "10.1007/s10940-014-9242-5",
         "keyphrases": {
-            "a re-entry program": {
-                "count": 1,
-                "rank_score": 0.06211188728038301
-            },
             "average earnings": {
                 "count": 1,
                 "rank_score": 0.056019149542887704
+            },
+            "conclusionsthe results": {
+                "count": 1,
+                "rank_score": 0.05230204977177218
+            },
+            "controls": {
+                "count": 1,
+                "rank_score": 0.04686568100525385
+            },
+            "earnings": {
+                "count": 1,
+                "rank_score": 0.055222389353182674
             },
             "enhanced employment opportunities": {
                 "count": 1,
                 "rank_score": 0.08167377754761462
             },
+            "evaluations": {
+                "count": 2,
+                "rank_score": 0.05213138270085116
+            },
             "ex-offenders": {
                 "count": 1,
                 "rank_score": 0.07917327922568013
+            },
+            "gang involvement": {
+                "count": 1,
+                "rank_score": 0.053547100957659535
+            },
+            "human capital": {
+                "count": 1,
+                "rank_score": 0.05510344043741808
             },
             "increased employment rates": {
                 "count": 1,
                 "rank_score": 0.08258257266621594
             },
+            "legal work": {
+                "count": 1,
+                "rank_score": 0.0549773666153298
+            },
+            "methodsthis paper": {
+                "count": 1,
+                "rank_score": 0.0508528632823228
+            },
             "mixed results": {
                 "count": 1,
                 "rank_score": 0.056881257433123535
+            },
+            "multi-faceted challenges": {
+                "count": 1,
+                "rank_score": 0.05541575806128769
             },
             "post-prison labor market prospects": {
                 "count": 1,
@@ -4994,29 +5394,37 @@
                 "count": 1,
                 "rank_score": 0.0758567743420059
             },
+            "prisoners": {
+                "count": 1,
+                "rank_score": 0.0513929030092167
+            },
+            "rct": {
+                "count": 2,
+                "rank_score": 0.04640563044089139
+            },
+            "re-entry program": {
+                "count": 1,
+                "rank_score": 0.06211188728038301
+            },
             "recidivism": {
                 "count": 2,
                 "rank_score": 0.057308035560889356
-            },
-            "release": {
-                "count": 4,
-                "rank_score": 0.05986663807164814
             },
             "released prisoners": {
                 "count": 1,
                 "rank_score": 0.06527690636494651
             },
-            "services": {
-                "count": 2,
-                "rank_score": 0.06174934454033974
-            },
             "significant effects": {
                 "count": 1,
                 "rank_score": 0.0581158312612401
             },
-            "the multi-faceted challenges": {
+            "subsidized jobs": {
                 "count": 1,
-                "rank_score": 0.05541575806128769
+                "rank_score": 0.04739872898704507
+            },
+            "violence": {
+                "count": 1,
+                "rank_score": 0.04888724579471253
             }
         },
         "original": {
@@ -5042,6 +5450,7 @@
                     "name": "15 Commerce, Management, Tourism and Services"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -5053,6 +5462,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.8250.f",
                         "first_name": "John T.",
+                        "initials": "",
                         "last_name": "Addison",
                         "orcid": "['0000-0001-5176-6848']",
                         "researcher_id": "ur.011155223631.76"
@@ -5073,6 +5483,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.267474.4",
                         "first_name": "Chad D.",
+                        "initials": "",
                         "last_name": "Cotti",
                         "orcid": "",
                         "researcher_id": "ur.01042764202.37"
@@ -5093,6 +5504,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.262914.a",
                         "first_name": "Christopher J.",
+                        "initials": "",
                         "last_name": "Surfield",
                         "orcid": "",
                         "researcher_id": "ur.016647312422.88"
@@ -5109,6 +5521,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.8250.f",
                     "first_name": "John T.",
+                    "initials": "",
                     "last_name": "Addison",
                     "orcid": "['0000-0001-5176-6848']",
                     "researcher_id": "ur.011155223631.76"
@@ -5129,6 +5542,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.267474.4",
                     "first_name": "Chad D.",
+                    "initials": "",
                     "last_name": "Cotti",
                     "orcid": "",
                     "researcher_id": "ur.01042764202.37"
@@ -5149,6 +5563,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.262914.a",
                     "first_name": "Christopher J.",
+                    "initials": "",
                     "last_name": "Surfield",
                     "orcid": "",
                     "researcher_id": "ur.016647312422.88"
@@ -5189,14 +5604,16 @@
                 "work arrangements",
                 "arrangement",
                 "work",
-                "open-ended employment",
+                "ended employment",
                 "employment",
                 "British papers",
                 "paper",
-                "booth",
                 "such jobs",
                 "jobs",
+                "stepping stone",
                 "permanent work",
+                "conclusion",
+                "prescient",
                 "support",
                 "Europe",
                 "analysis",
@@ -5215,7 +5632,7 @@
             "date": "2015-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1111/manc.12052",
-            "field_citation_ratio": 1.7,
+            "field_citation_ratio": 4.23,
             "id": "pub.1037032368",
             "issn": [
                 "1463-6786",
@@ -5228,11 +5645,35 @@
                 "title": "Manchester School"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
             ],
             "linkout": "http://dro.dur.ac.uk/12534/1/12534.pdf",
+            "noun_phrases": [
+                "job",
+                "stepping-stone",
+                "evidence",
+                "arrangement",
+                "offering",
+                "paid work",
+                "employment",
+                "paper",
+                "booth",
+                "Economics",
+                "vol",
+                "PP",
+                "stone",
+                "conclusion",
+                "Europe",
+                "parallel analysis",
+                "USA",
+                "similar finding",
+                "temporary worker",
+                "contract",
+                "Britain"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -5254,50 +5695,50 @@
             "publisher": "Wiley",
             "recent_citations": 3,
             "reference_ids": [
-                "pub.1046316428",
-                "pub.1031576356",
-                "pub.1038710781",
-                "pub.1047098546",
-                "pub.1069908712",
-                "pub.1004701676",
-                "pub.1040067409",
-                "pub.1102342288",
-                "pub.1018804874",
-                "pub.1099498252",
-                "pub.1034692582",
-                "pub.1030004597",
-                "pub.1063348878",
-                "pub.1064528408",
-                "pub.1073329134",
-                "pub.1011206433",
                 "pub.1016019116",
-                "pub.1049322914",
+                "pub.1040067409",
+                "pub.1031576356",
+                "pub.1069908712",
+                "pub.1047098546",
+                "pub.1073329134",
+                "pub.1018804874",
+                "pub.1046316428",
+                "pub.1102342288",
+                "pub.1063348878",
+                "pub.1004701676",
+                "pub.1038710781",
+                "pub.1011206433",
+                "pub.1064528408",
                 "pub.1040062192",
+                "pub.1030004597",
                 "pub.1058640338",
-                "pub.1013328006"
+                "pub.1013328006",
+                "pub.1049322914",
+                "pub.1099498252",
+                "pub.1034692582"
             ],
             "references": [
-                "pub.1046316428",
-                "pub.1031576356",
-                "pub.1038710781",
-                "pub.1047098546",
-                "pub.1069908712",
-                "pub.1004701676",
-                "pub.1040067409",
-                "pub.1102342288",
-                "pub.1018804874",
-                "pub.1099498252",
-                "pub.1034692582",
-                "pub.1030004597",
-                "pub.1063348878",
-                "pub.1064528408",
-                "pub.1073329134",
-                "pub.1011206433",
                 "pub.1016019116",
-                "pub.1049322914",
+                "pub.1040067409",
+                "pub.1031576356",
+                "pub.1069908712",
+                "pub.1047098546",
+                "pub.1073329134",
+                "pub.1018804874",
+                "pub.1046316428",
+                "pub.1102342288",
+                "pub.1063348878",
+                "pub.1004701676",
+                "pub.1038710781",
+                "pub.1011206433",
+                "pub.1064528408",
                 "pub.1040062192",
+                "pub.1030004597",
                 "pub.1058640338",
-                "pub.1013328006"
+                "pub.1013328006",
+                "pub.1049322914",
+                "pub.1099498252",
+                "pub.1034692582"
             ],
             "research_org_cities": [
                 {
@@ -5322,10 +5763,19 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Saginaw Valley State University",
+                "University of Connecticut",
+                "Durham University and University of South Carolina"
+            ],
             "research_org_state_codes": [
                 {
                     "id": "US-CT",
                     "name": "Connecticut"
+                },
+                {
+                    "id": "US-SC",
+                    "name": "South Carolina"
                 },
                 {
                     "id": "US-MI",
@@ -5333,25 +5783,11 @@
                 }
             ],
             "research_org_state_names": [
-                "Connecticut",
-                "Michigan"
+                "South Carolina",
+                "Michigan",
+                "Connecticut"
             ],
             "research_orgs": [
-                {
-                    "city_name": "Storrs",
-                    "country_name": "United States",
-                    "id": "grid.63054.34",
-                    "latitude": 41.807167,
-                    "linkout": [
-                        "http://uconn.edu/"
-                    ],
-                    "longitude": -72.2525,
-                    "name": "University of Connecticut",
-                    "state_name": "Connecticut",
-                    "types": [
-                        "Education"
-                    ]
-                },
                 {
                     "acronym": "SVSU",
                     "city_name": "Bay City",
@@ -5367,6 +5803,21 @@
                     "types": [
                         "Education"
                     ]
+                },
+                {
+                    "city_name": "Storrs",
+                    "country_name": "United States",
+                    "id": "grid.63054.34",
+                    "latitude": 41.807167,
+                    "linkout": [
+                        "http://uconn.edu/"
+                    ],
+                    "longitude": -72.2525,
+                    "name": "University of Connecticut",
+                    "state_name": "Connecticut",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -5378,20 +5829,20 @@
                         "0000-0001-5176-6848"
                     ],
                     "research_orgs": [
+                        "grid.254567.7",
                         "grid.8051.c",
-                        "grid.6572.6",
+                        "grid.5808.5",
                         "grid.5330.5",
                         "grid.9122.8",
-                        "grid.8250.f",
                         "grid.4777.3",
-                        "grid.5808.5",
-                        "grid.254567.7",
-                        "grid.411021.7",
-                        "grid.424879.4",
                         "grid.4367.6",
+                        "grid.424879.4",
+                        "grid.6572.6",
+                        "grid.411021.7",
+                        "grid.8250.f",
+                        "grid.469877.3",
                         "grid.494029.2",
-                        "grid.5949.1",
-                        "grid.469877.3"
+                        "grid.5949.1"
                     ]
                 },
                 {
@@ -5409,8 +5860,8 @@
                     "id": "ur.016647312422.88",
                     "last_name": "Surfield",
                     "research_orgs": [
-                        "grid.262914.a",
-                        "grid.258938.d"
+                        "grid.258938.d",
+                        "grid.262914.a"
                     ]
                 }
             ],
@@ -5419,14 +5870,16 @@
                 "work arrangements",
                 "arrangement",
                 "work",
-                "open-ended employment",
+                "ended employment",
                 "employment",
                 "British papers",
                 "paper",
-                "booth",
                 "such jobs",
                 "jobs",
+                "stepping stone",
                 "permanent work",
+                "conclusion",
+                "prescient",
                 "support",
                 "Europe",
                 "analysis",
@@ -6816,10 +7269,6 @@
         },
         "doi": "10.1111/manc.12052",
         "keyphrases": {
-            "an important british paper": {
-                "count": 1,
-                "rank_score": 0.059429551650700296
-            },
             "atypical work arrangements": {
                 "count": 1,
                 "rank_score": 0.1009096437207116
@@ -6828,21 +7277,53 @@
                 "count": 2,
                 "rank_score": 0.09316612939941982
             },
+            "britain": {
+                "count": 2,
+                "rank_score": 0.05226477815788176
+            },
             "british": {
                 "count": 1,
                 "rank_score": 0.06339152176074697
+            },
+            "broadly parallel analysis": {
+                "count": 1,
+                "rank_score": 0.03564225732363496
+            },
+            "conclusion": {
+                "count": 1,
+                "rank_score": 0.02785103792178342
             },
             "economic journal": {
                 "count": 2,
                 "rank_score": 0.07958027130324194
             },
+            "europe": {
+                "count": 2,
+                "rank_score": 0.05251642074020464
+            },
+            "f189–f213": {
+                "count": 1,
+                "rank_score": 0.024551430807011818
+            },
             "fixed-term contract workers": {
                 "count": 1,
                 "rank_score": 0.07646864396295631
             },
+            "important british paper": {
+                "count": 1,
+                "rank_score": 0.059429551650700296
+            },
             "increased support": {
                 "count": 1,
                 "rank_score": 0.08641354918962801
+            },
+            "issue": {
+                "count": 1,
+                "rank_score": 0.03361843118006909
+            },
+            "more precarious and lower paid work": {
+                "count": 1,
+                "rank_score": 0.042672845679672174
             },
             "permanent work": {
                 "count": 1,
@@ -6860,6 +7341,10 @@
                 "count": 1,
                 "rank_score": 0.08718372475037349
             },
+            "stepping stone": {
+                "count": 1,
+                "rank_score": 0.047509587262766426
+            },
             "such jobs": {
                 "count": 1,
                 "rank_score": 0.08792962538917212
@@ -6868,9 +7353,9 @@
                 "count": 1,
                 "rank_score": 0.0974838461706048
             },
-            "usa": {
-                "count": 4,
-                "rank_score": 0.07844349406662379
+            "type=main": {
+                "count": 1,
+                "rank_score": 0.024551430807011818
             },
             "vol": {
                 "count": 1,
@@ -6900,6 +7385,7 @@
                     "name": "08 Information and Computing Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -6907,6 +7393,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Jorge",
+                        "initials": "",
                         "last_name": "Moratalla",
                         "orcid": "",
                         "researcher_id": "ur.013516746734.31"
@@ -6916,6 +7403,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.28479.30",
                         "first_name": "Valeria",
+                        "initials": "",
                         "last_name": "de Castro",
                         "orcid": "['0000-0003-2193-7807']",
                         "researcher_id": "ur.016051506173.65"
@@ -6925,6 +7413,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Marcos Lopez",
+                        "initials": "",
                         "last_name": "Sanz",
                         "orcid": "",
                         "researcher_id": "ur.016520422653.03"
@@ -6934,6 +7423,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.28479.30",
                         "first_name": "Esperanza",
+                        "initials": "",
                         "last_name": "Marcos",
                         "orcid": "",
                         "researcher_id": "ur.016503135171.23"
@@ -6946,6 +7436,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Jorge",
+                    "initials": "",
                     "last_name": "Moratalla",
                     "orcid": "",
                     "researcher_id": "ur.013516746734.31"
@@ -6955,6 +7446,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.28479.30",
                     "first_name": "Valeria",
+                    "initials": "",
                     "last_name": "de Castro",
                     "orcid": "['0000-0003-2193-7807']",
                     "researcher_id": "ur.016051506173.65"
@@ -6964,6 +7456,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Marcos Lopez",
+                    "initials": "",
                     "last_name": "Sanz",
                     "orcid": "",
                     "researcher_id": "ur.016520422653.03"
@@ -6973,6 +7466,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.28479.30",
                     "first_name": "Esperanza",
+                    "initials": "",
                     "last_name": "Marcos",
                     "orcid": "",
                     "researcher_id": "ur.016503135171.23"
@@ -7049,14 +7543,43 @@
                 "gap analysis technique",
                 "analysis techniques",
                 "technique",
-                "gap-analysis",
                 "framework"
             ],
             "date": "2012-07-01",
             "date_inserted": "2017-12-06",
             "doi": "10.1109/srii.2012.45",
-            "field_citation_ratio": 1.66,
+            "field_citation_ratio": 1.54,
             "id": "pub.1094976357",
+            "noun_phrases": [
+                "gap",
+                "evolution",
+                "Internet",
+                "technological aspect",
+                "society",
+                "management",
+                "technology",
+                "country",
+                "authority",
+                "Health Resource",
+                "enterprise",
+                "individual citizen",
+                "demand",
+                "service",
+                "entity",
+                "Fee and Charge",
+                "assignment",
+                "Spain",
+                "IT",
+                "business professional",
+                "actual situation",
+                "appropriate strategy",
+                "challenge",
+                "Social Change",
+                "efficiency",
+                "maintenance cost",
+                "gap analysis",
+                "technique"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -7069,30 +7592,30 @@
             "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
             "recent_citations": 3,
             "reference_ids": [
-                "pub.1015570104",
                 "pub.1093233060",
+                "pub.1031260819",
                 "pub.1004519141",
-                "pub.1063185067",
-                "pub.1002874440",
-                "pub.1012048201",
+                "pub.1093253335",
                 "pub.1023414898",
                 "pub.1062983708",
-                "pub.1093253335",
+                "pub.1012048201",
                 "pub.1036700185",
-                "pub.1031260819"
+                "pub.1002874440",
+                "pub.1063185067",
+                "pub.1015570104"
             ],
             "references": [
-                "pub.1015570104",
                 "pub.1093233060",
+                "pub.1031260819",
                 "pub.1004519141",
-                "pub.1063185067",
-                "pub.1002874440",
-                "pub.1012048201",
+                "pub.1093253335",
                 "pub.1023414898",
                 "pub.1062983708",
-                "pub.1093253335",
+                "pub.1012048201",
                 "pub.1036700185",
-                "pub.1031260819"
+                "pub.1002874440",
+                "pub.1063185067",
+                "pub.1015570104"
             ],
             "researchers": [
                 {
@@ -7124,10 +7647,10 @@
                     "id": "ur.016503135171.23",
                     "last_name": "Marcos",
                     "research_orgs": [
+                        "grid.7840.b",
                         "grid.28479.30",
-                        "grid.5515.4",
                         "grid.5690.a",
-                        "grid.7840.b"
+                        "grid.5515.4"
                     ]
                 }
             ],
@@ -7180,7 +7703,6 @@
                 "gap analysis technique",
                 "analysis techniques",
                 "technique",
-                "gap-analysis",
                 "framework"
             ],
             "times_cited": 4,
@@ -7846,9 +8368,9 @@
         },
         "doi": "10.1109/srii.2012.45",
         "keyphrases": {
-            "a modernization process": {
-                "count": 2,
-                "rank_score": 0.06337501577094078
+            "actual situation": {
+                "count": 1,
+                "rank_score": 0.043026225354155484
             },
             "architecture driven modernization and gap analysis techniques": {
                 "count": 1,
@@ -7858,9 +8380,17 @@
                 "count": 1,
                 "rank_score": 0.06655022796905286
             },
+            "both it and business professionals": {
+                "count": 1,
+                "rank_score": 0.038601444549501
+            },
             "charge": {
                 "count": 1,
                 "rank_score": 0.05553918978367515
+            },
+            "domain assignment process": {
+                "count": 1,
+                "rank_score": 0.0746734835291876
             },
             "domain management": {
                 "count": 2,
@@ -7886,13 +8416,49 @@
                 "count": 1,
                 "rank_score": 0.06149107322995329
             },
+            "information society": {
+                "count": 1,
+                "rank_score": 0.038828603336041136
+            },
+            "institutional support": {
+                "count": 1,
+                "rank_score": 0.03688101213142376
+            },
+            "key technological aspects": {
+                "count": 1,
+                "rank_score": 0.046756864914959145
+            },
+            "last few years": {
+                "count": 2,
+                "rank_score": 0.04905923337705202
+            },
             "many efforts": {
                 "count": 1,
                 "rank_score": 0.06869295123517319
             },
+            "modernization": {
+                "count": 1,
+                "rank_score": 0.03932671655862122
+            },
+            "modernization process": {
+                "count": 2,
+                "rank_score": 0.06337501577094078
+            },
+            "omg": {
+                "count": 1,
+                "rank_score": 0.04948133209479233
+            },
             "red.es": {
                 "count": 2,
                 "rank_score": 0.05491878079413917
+            },
+            "resources": {
+                "count": 1,
+                "rank_score": 0.05169065306862431
+            },
+            "spain": {
+                "count": 2,
+                "rank_score": 0.04350506224279783
             },
             "such process": {
                 "count": 1,
@@ -7901,10 +8467,6 @@
             "technologies": {
                 "count": 1,
                 "rank_score": 0.052648270820043835
-            },
-            "the domain assignment process": {
-                "count": 1,
-                "rank_score": 0.0746734835291876
             }
         },
         "original": {
@@ -7967,8 +8529,9 @@
                         "corresponding": true,
                         "current_organization_id": "grid.266900.b",
                         "first_name": "Deven",
+                        "initials": "",
                         "last_name": "Carlson",
-                        "orcid": "",
+                        "orcid": "['0000-0002-3406-7022']",
                         "researcher_id": "ur.0702727044.99"
                     },
                     {
@@ -7987,6 +8550,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
                         "first_name": "Robert",
+                        "initials": "",
                         "last_name": "Haveman",
                         "orcid": "",
                         "researcher_id": "ur.01150210466.19"
@@ -8007,6 +8571,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
                         "first_name": "Thomas",
+                        "initials": "",
                         "last_name": "Kaplan",
                         "orcid": "",
                         "researcher_id": "ur.01126266671.73"
@@ -8027,6 +8592,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
                         "first_name": "Barbara",
+                        "initials": "",
                         "last_name": "Wolfe",
                         "orcid": "['0000-0002-8803-9019']",
                         "researcher_id": "ur.014436352471.44"
@@ -8050,8 +8616,9 @@
                     "corresponding": true,
                     "current_organization_id": "grid.266900.b",
                     "first_name": "Deven",
+                    "initials": "",
                     "last_name": "Carlson",
-                    "orcid": "",
+                    "orcid": "['0000-0002-3406-7022']",
                     "researcher_id": "ur.0702727044.99"
                 },
                 {
@@ -8070,6 +8637,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
                     "first_name": "Robert",
+                    "initials": "",
                     "last_name": "Haveman",
                     "orcid": "",
                     "researcher_id": "ur.01150210466.19"
@@ -8090,6 +8658,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
                     "first_name": "Thomas",
+                    "initials": "",
                     "last_name": "Kaplan",
                     "orcid": "",
                     "researcher_id": "ur.01126266671.73"
@@ -8110,6 +8679,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
                     "first_name": "Barbara",
+                    "initials": "",
                     "last_name": "Wolfe",
                     "orcid": "['0000-0002-8803-9019']",
                     "researcher_id": "ur.014436352471.44"
@@ -8158,7 +8728,7 @@
                 }
             ],
             "concepts": [
-                "effects",
+                "effect",
                 "housing voucher receipt",
                 "voucher receipt",
                 "receipt",
@@ -8166,23 +8736,19 @@
                 "households",
                 "quality",
                 "neighborhood",
-                "dataset",
+                "datasets",
                 "extensive information",
                 "information",
                 "panel",
                 "low-income families",
-                "income families",
-                "propensity score matching techniques",
-                "matching technique",
+                "propensity score",
                 "regression adjustment",
                 "adjustment",
                 "full-sample results",
-                "sample results",
                 "results",
                 "neighborhood quality",
                 "positive long-term effects",
                 "long-term effects",
-                "term effects",
                 "high probability",
                 "probability",
                 "changes",
@@ -8202,7 +8768,7 @@
             "date": "2012-06-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.jhe.2012.04.004",
-            "field_citation_ratio": 8.37,
+            "field_citation_ratio": 8.1,
             "id": "pub.1043753351",
             "issn": [
                 "1051-1377",
@@ -8214,11 +8780,40 @@
                 "title": "Journal of Housing Economics"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
             ],
             "linkout": "http://www.lafollette.wisc.edu/publications/workingpapers/wolfe2012-002.pdf",
+            "noun_phrases": [
+                "Time",
+                "low income",
+                "neighborhood quality",
+                "household composition",
+                "paper",
+                "housing",
+                "composition",
+                "recipient",
+                "Residence Characteristic",
+                "Dataset",
+                "extensive information",
+                "diverse panel",
+                "low-income family",
+                "voucher",
+                "propensity score",
+                "technique",
+                "regression",
+                "full sample",
+                "long term effect",
+                "high probability",
+                "great stability",
+                "large sample",
+                "differential response",
+                "subgroup",
+                "implication",
+                "policy"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - repository",
@@ -8240,50 +8835,50 @@
             "publisher": "Elsevier",
             "recent_citations": 10,
             "reference_ids": [
-                "pub.1009688482",
-                "pub.1012011614",
-                "pub.1009923762",
-                "pub.1016453968",
-                "pub.1058305540",
-                "pub.1027440071",
-                "pub.1053385144",
-                "pub.1031395732",
-                "pub.1007358301",
                 "pub.1038967459",
+                "pub.1016453968",
+                "pub.1012011614",
+                "pub.1064525609",
                 "pub.1070163412",
-                "pub.1064524402",
-                "pub.1070155007",
                 "pub.1013780371",
-                "pub.1014390860",
-                "pub.1058784375",
+                "pub.1064524402",
+                "pub.1027440071",
                 "pub.1015240354",
-                "pub.1008416862",
-                "pub.1006417745",
+                "pub.1053385144",
+                "pub.1014390860",
                 "pub.1098675208",
-                "pub.1064525609"
+                "pub.1006417745",
+                "pub.1008416862",
+                "pub.1058305540",
+                "pub.1031395732",
+                "pub.1009923762",
+                "pub.1070155007",
+                "pub.1058784375",
+                "pub.1009688482",
+                "pub.1007358301"
             ],
             "references": [
-                "pub.1009688482",
-                "pub.1012011614",
-                "pub.1009923762",
-                "pub.1016453968",
-                "pub.1058305540",
-                "pub.1027440071",
-                "pub.1053385144",
-                "pub.1031395732",
-                "pub.1007358301",
                 "pub.1038967459",
+                "pub.1016453968",
+                "pub.1012011614",
+                "pub.1064525609",
                 "pub.1070163412",
-                "pub.1064524402",
-                "pub.1070155007",
                 "pub.1013780371",
-                "pub.1014390860",
-                "pub.1058784375",
+                "pub.1064524402",
+                "pub.1027440071",
                 "pub.1015240354",
-                "pub.1008416862",
-                "pub.1006417745",
+                "pub.1053385144",
+                "pub.1014390860",
                 "pub.1098675208",
-                "pub.1064525609"
+                "pub.1006417745",
+                "pub.1008416862",
+                "pub.1058305540",
+                "pub.1031395732",
+                "pub.1009923762",
+                "pub.1070155007",
+                "pub.1058784375",
+                "pub.1009688482",
+                "pub.1007358301"
             ],
             "research_org_cities": [
                 {
@@ -8299,6 +8894,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "University of Wisconsin–Madison"
             ],
             "research_org_state_codes": [
                 {
@@ -8365,15 +8963,15 @@
                         "0000-0002-8803-9019"
                     ],
                     "research_orgs": [
-                        "grid.14003.36",
                         "grid.25879.31",
                         "grid.28803.31",
+                        "grid.14003.36",
                         "grid.1001.0"
                     ]
                 }
             ],
             "terms": [
-                "effects",
+                "effect",
                 "housing voucher receipt",
                 "voucher receipt",
                 "receipt",
@@ -8381,23 +8979,19 @@
                 "households",
                 "quality",
                 "neighborhood",
-                "dataset",
+                "datasets",
                 "extensive information",
                 "information",
                 "panel",
                 "low-income families",
-                "income families",
-                "propensity score matching techniques",
-                "matching technique",
+                "propensity score",
                 "regression adjustment",
                 "adjustment",
                 "full-sample results",
-                "sample results",
                 "results",
                 "neighborhood quality",
                 "positive long-term effects",
                 "long-term effects",
-                "term effects",
                 "high probability",
                 "probability",
                 "changes",
@@ -9301,9 +9895,17 @@
         },
         "doi": "10.1016/j.jhe.2012.04.004",
         "keyphrases": {
-            "change": {
+            "both research": {
                 "count": 1,
-                "rank_score": 0.05892330979652741
+                "rank_score": 0.03247528831721249
+            },
+            "composition": {
+                "count": 1,
+                "rank_score": 0.0351183207694267
+            },
+            "dataset": {
+                "count": 1,
+                "rank_score": 0.03380325162145118
             },
             "differential responses": {
                 "count": 1,
@@ -9321,9 +9923,21 @@
                 "count": 1,
                 "rank_score": 0.054590182979447455
             },
+            "higher probability": {
+                "count": 1,
+                "rank_score": 0.03795652946785491
+            },
             "household composition": {
                 "count": 1,
                 "rank_score": 0.09024346156329459
+            },
+            "housing": {
+                "count": 1,
+                "rank_score": 0.04747350251728184
+            },
+            "large and diverse panel": {
+                "count": 1,
+                "rank_score": 0.04369812654383671
             },
             "little effect": {
                 "count": 1,
@@ -9337,6 +9951,14 @@
                 "count": 1,
                 "rank_score": 0.08102514463325987
             },
+            "neighborhoods": {
+                "count": 1,
+                "rank_score": 0.03282084160497889
+            },
+            "our large sample": {
+                "count": 1,
+                "rank_score": 0.053286651087109956
+            },
             "recipient households": {
                 "count": 2,
                 "rank_score": 0.0877337869659142
@@ -9349,6 +9971,14 @@
                 "count": 1,
                 "rank_score": 0.08409302896215656
             },
+            "short-term": {
+                "count": 1,
+                "rank_score": 0.03031167900288865
+            },
+            "some positive long-term effects": {
+                "count": 1,
+                "rank_score": 0.053638408140073576
+            },
             "subsequent years": {
                 "count": 2,
                 "rank_score": 0.07338319245711104
@@ -9356,6 +9986,10 @@
             "techniques": {
                 "count": 1,
                 "rank_score": 0.05990029183156147
+            },
+            "up to 5years": {
+                "count": 2,
+                "rank_score": 0.01830236544992648
             },
             "voucher receipt": {
                 "count": 6,
@@ -9413,6 +10047,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.264484.8",
                         "first_name": "SARAH",
+                        "initials": "",
                         "last_name": "HAMERSMA",
                         "orcid": "",
                         "researcher_id": "ur.013044402755.44"
@@ -9436,6 +10071,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.264484.8",
                     "first_name": "SARAH",
+                    "initials": "",
                     "last_name": "HAMERSMA",
                     "orcid": "",
                     "researcher_id": "ur.013044402755.44"
@@ -9451,6 +10087,7 @@
                     "name": "14 Economics"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30017",
@@ -9483,17 +10120,17 @@
                 "participation",
                 "administrative data",
                 "data",
+                "large fraction",
                 "evidence",
                 "subsidy payments",
                 "payments",
-                "don'ts",
-                "hiring subsidy",
+                "eligible firms",
                 "role"
             ],
             "date": "2011-07-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1111/j.1465-7295.2009.00260.x",
-            "field_citation_ratio": 3.27,
+            "field_citation_ratio": 3.24,
             "id": "pub.1017472964",
             "issn": [
                 "0095-2583",
@@ -9505,9 +10142,28 @@
                 "title": "Economic Inquiry"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "subsidy",
+                "duration",
+                "small fraction",
+                "firm",
+                "worker",
+                "Federal",
+                "credit",
+                "welfare",
+                "threshold",
+                "estimate",
+                "participation",
+                "administrative data",
+                "large fraction",
+                "claim",
+                "Tax",
+                "evidence"
             ],
             "open_access_categories": [
                 {
@@ -9518,27 +10174,28 @@
             ],
             "pages": "916-934",
             "publisher": "Wiley",
+            "recent_citations": 0,
             "reference_ids": [
+                "pub.1009982356",
+                "pub.1069969814",
+                "pub.1058791597",
                 "pub.1073352766",
                 "pub.1102342288",
-                "pub.1045907653",
-                "pub.1058791597",
-                "pub.1102715899",
-                "pub.1009982356",
                 "pub.1029396894",
+                "pub.1045907653",
                 "pub.1068328992",
-                "pub.1069969814"
+                "pub.1102715899"
             ],
             "references": [
+                "pub.1009982356",
+                "pub.1069969814",
+                "pub.1058791597",
                 "pub.1073352766",
                 "pub.1102342288",
-                "pub.1045907653",
-                "pub.1058791597",
-                "pub.1102715899",
-                "pub.1009982356",
                 "pub.1029396894",
+                "pub.1045907653",
                 "pub.1068328992",
-                "pub.1069969814"
+                "pub.1102715899"
             ],
             "research_org_cities": [
                 {
@@ -9554,6 +10211,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "University of Florida"
             ],
             "research_org_state_codes": [
                 {
@@ -9588,8 +10248,8 @@
                     "id": "ur.013044402755.44",
                     "last_name": "Hamersma",
                     "research_orgs": [
-                        "grid.15276.37",
-                        "grid.264484.8"
+                        "grid.264484.8",
+                        "grid.15276.37"
                     ]
                 }
             ],
@@ -9613,11 +10273,11 @@
                 "participation",
                 "administrative data",
                 "data",
+                "large fraction",
                 "evidence",
                 "subsidy payments",
                 "payments",
-                "don'ts",
-                "hiring subsidy",
+                "eligible firms",
                 "role"
             ],
             "times_cited": 7,
@@ -10150,9 +10810,17 @@
                 "count": 1,
                 "rank_score": 0.1247095500751288
             },
-            "firms": {
-                "count": 3,
-                "rank_score": 0.09890181273890766
+            "expected relationship": {
+                "count": 1,
+                "rank_score": 0.04724089367725746
+            },
+            "federal subsidies": {
+                "count": 1,
+                "rank_score": 0.06110538902893238
+            },
+            "firms wotc/wtw participation": {
+                "count": 1,
+                "rank_score": 0.05233604820592751
             },
             "higher subsidy rates": {
                 "count": 1,
@@ -10166,9 +10834,25 @@
                 "count": 2,
                 "rank_score": 0.10406864989057528
             },
-            "participation": {
+            "larger fraction": {
                 "count": 1,
-                "rank_score": 0.0796881307179207
+                "rank_score": 0.048576783809689945
+            },
+            "no evidence": {
+                "count": 1,
+                "rank_score": 0.026203784842441402
+            },
+            "only a small fraction": {
+                "count": 1,
+                "rank_score": 0.03424954974473572
+            },
+            "programs job‐duration thresholds": {
+                "count": 1,
+                "rank_score": 0.04756405897073827
+            },
+            "relationship": {
+                "count": 1,
+                "rank_score": 0.03739835784860175
             },
             "subsidy benefits": {
                 "count": 1,
@@ -10182,13 +10866,21 @@
                 "count": 1,
                 "rank_score": 0.10678762993712365
             },
-            "the work opportunity tax credit": {
-                "count": 2,
-                "rank_score": 0.07549860735128008
-            },
             "unique wisconsin administrative data": {
                 "count": 1,
                 "rank_score": 0.10726039610676179
+            },
+            "welfare‐to‐work": {
+                "count": 1,
+                "rank_score": 0.05622035320049487
+            },
+            "wisconsin": {
+                "count": 1,
+                "rank_score": 0.06795478371123857
+            },
+            "work opportunity tax credit": {
+                "count": 2,
+                "rank_score": 0.07549860735128008
             },
             "workers": {
                 "count": 2,
@@ -10201,6 +10893,10 @@
             "wotc": {
                 "count": 2,
                 "rank_score": 0.07091595685041328
+            },
+            "wtw": {
+                "count": 2,
+                "rank_score": 0.06428882777572363
             }
         },
         "original": {
@@ -10226,6 +10922,7 @@
                     "name": "08 Information and Computing Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -10244,6 +10941,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.12295.3d",
                         "first_name": "Dinh Khoa",
+                        "initials": "",
                         "last_name": "Nguyen",
                         "orcid": "",
                         "researcher_id": "ur.07667734320.10"
@@ -10264,6 +10962,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.12295.3d",
                         "first_name": "Willem-Jan",
+                        "initials": "",
                         "last_name": "van den Heuvel",
                         "orcid": "",
                         "researcher_id": "ur.013376573333.91"
@@ -10284,6 +10983,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.12295.3d",
                         "first_name": "Mike P.",
+                        "initials": "",
                         "last_name": "Papazoglou",
                         "orcid": "",
                         "researcher_id": "ur.016257756227.19"
@@ -10304,6 +11004,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.28479.30",
                         "first_name": "Valeria",
+                        "initials": "",
                         "last_name": "de Castro",
                         "orcid": "['0000-0003-2193-7807']",
                         "researcher_id": "ur.016051506173.65"
@@ -10324,6 +11025,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.28479.30",
                         "first_name": "Esperanza",
+                        "initials": "",
                         "last_name": "Marcos",
                         "orcid": "",
                         "researcher_id": "ur.016503135171.23"
@@ -10347,6 +11049,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.12295.3d",
                     "first_name": "Dinh Khoa",
+                    "initials": "",
                     "last_name": "Nguyen",
                     "orcid": "",
                     "researcher_id": "ur.07667734320.10"
@@ -10367,6 +11070,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.12295.3d",
                     "first_name": "Willem-Jan",
+                    "initials": "",
                     "last_name": "van den Heuvel",
                     "orcid": "",
                     "researcher_id": "ur.013376573333.91"
@@ -10387,6 +11091,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.12295.3d",
                     "first_name": "Mike P.",
+                    "initials": "",
                     "last_name": "Papazoglou",
                     "orcid": "",
                     "researcher_id": "ur.016257756227.19"
@@ -10407,6 +11112,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.28479.30",
                     "first_name": "Valeria",
+                    "initials": "",
                     "last_name": "de Castro",
                     "orcid": "['0000-0003-2193-7807']",
                     "researcher_id": "ur.016051506173.65"
@@ -10427,6 +11133,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.28479.30",
                     "first_name": "Esperanza",
+                    "initials": "",
                     "last_name": "Marcos",
                     "orcid": "",
                     "researcher_id": "ur.016503135171.23"
@@ -10471,10 +11178,7 @@
                 "granularity",
                 "design techniques",
                 "technique",
-                "ad-hoc",
-                "hoc",
-                "experience",
-                "identification of values",
+                "Experience-Based Identification",
                 "identification",
                 "business services",
                 "blue sky",
@@ -10485,27 +11189,29 @@
                 "limited support",
                 "support",
                 "candidate services",
-                "pre",
                 "software assets",
                 "assets",
+                "service engineering methodology",
+                "engineering methodology",
                 "methodology",
+                "identifies",
                 "business domain",
                 "domain",
                 "approach",
                 "account",
                 "realistic situations",
+                "pre-existing enterprise assets",
                 "enterprise assets",
                 "example",
                 "gap analysis methodology",
                 "analysis methodology",
                 "SOA-Based Applications",
-                "Based Applications",
                 "applications"
             ],
             "date": "2009-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/978-3-642-02463-4_16",
-            "field_citation_ratio": 3.77,
+            "field_citation_ratio": 3.98,
             "id": "pub.1031260819",
             "issn": [
                 "0302-9743",
@@ -10514,6 +11220,32 @@
             "journal_lists": [
                 "Norwegian register level 1",
                 "VABB-SHW"
+            ],
+            "noun_phrases": [
+                "analysis methodology",
+                "SOA",
+                "business service",
+                "business process",
+                "service",
+                "in-depth understanding",
+                "functionality",
+                "scope",
+                "reuse",
+                "granularity",
+                "design technique",
+                "ad hoc",
+                "sky",
+                "development",
+                "offering",
+                "discovering",
+                "Equipment and Supply",
+                "software",
+                "article",
+                "methodology",
+                "domain",
+                "realistic situation",
+                "enterprise",
+                "fragment"
             ],
             "open_access_categories": [
                 {
@@ -10524,34 +11256,34 @@
             ],
             "pages": "293-318",
             "publisher": "Springer Nature",
-            "recent_citations": 3,
+            "recent_citations": 4,
             "reference_ids": [
-                "pub.1108231685",
-                "pub.1044681920",
-                "pub.1013867516",
-                "pub.1049966346",
                 "pub.1026463689",
-                "pub.1011349828",
-                "pub.1009651618",
-                "pub.1049815535",
-                "pub.1007572100",
-                "pub.1022871435",
+                "pub.1044681920",
                 "pub.1015570104",
-                "pub.1023390229"
+                "pub.1022871435",
+                "pub.1009651618",
+                "pub.1049966346",
+                "pub.1108231685",
+                "pub.1011349828",
+                "pub.1013867516",
+                "pub.1023390229",
+                "pub.1049815535",
+                "pub.1007572100"
             ],
             "references": [
-                "pub.1108231685",
-                "pub.1044681920",
-                "pub.1013867516",
-                "pub.1049966346",
                 "pub.1026463689",
-                "pub.1011349828",
-                "pub.1009651618",
-                "pub.1049815535",
-                "pub.1007572100",
-                "pub.1022871435",
+                "pub.1044681920",
                 "pub.1015570104",
-                "pub.1023390229"
+                "pub.1022871435",
+                "pub.1009651618",
+                "pub.1049966346",
+                "pub.1108231685",
+                "pub.1011349828",
+                "pub.1013867516",
+                "pub.1023390229",
+                "pub.1049815535",
+                "pub.1007572100"
             ],
             "research_org_cities": [
                 {
@@ -10576,6 +11308,10 @@
             "research_org_country_names": [
                 "Netherlands",
                 "Spain"
+            ],
+            "research_org_names": [
+                "King Juan Carlos University",
+                "Tilburg University"
             ],
             "research_orgs": [
                 {
@@ -10624,8 +11360,8 @@
                     "id": "ur.013376573333.91",
                     "last_name": "Van Den Heuvel",
                     "research_orgs": [
-                        "grid.12295.3d",
-                        "grid.6852.9"
+                        "grid.6852.9",
+                        "grid.12295.3d"
                     ]
                 },
                 {
@@ -10633,11 +11369,11 @@
                     "id": "ur.016257756227.19",
                     "last_name": "Papazoglou",
                     "research_orgs": [
-                        "grid.67617.31",
-                        "grid.1024.7",
                         "grid.12295.3d",
                         "grid.11696.39",
-                        "grid.1001.0"
+                        "grid.67617.31",
+                        "grid.1001.0",
+                        "grid.1024.7"
                     ]
                 },
                 {
@@ -10656,10 +11392,10 @@
                     "id": "ur.016503135171.23",
                     "last_name": "Marcos",
                     "research_orgs": [
+                        "grid.7840.b",
                         "grid.28479.30",
-                        "grid.5515.4",
                         "grid.5690.a",
-                        "grid.7840.b"
+                        "grid.5515.4"
                     ]
                 }
             ],
@@ -10677,10 +11413,7 @@
                 "granularity",
                 "design techniques",
                 "technique",
-                "ad-hoc",
-                "hoc",
-                "experience",
-                "identification of values",
+                "Experience-Based Identification",
                 "identification",
                 "business services",
                 "blue sky",
@@ -10691,24 +11424,26 @@
                 "limited support",
                 "support",
                 "candidate services",
-                "pre",
                 "software assets",
                 "assets",
+                "service engineering methodology",
+                "engineering methodology",
                 "methodology",
+                "identifies",
                 "business domain",
                 "domain",
                 "approach",
                 "account",
                 "realistic situations",
+                "pre-existing enterprise assets",
                 "enterprise assets",
                 "example",
                 "gap analysis methodology",
                 "analysis methodology",
                 "SOA-Based Applications",
-                "Based Applications",
                 "applications"
             ],
-            "times_cited": 11,
+            "times_cited": 12,
             "title": "GAMBUSE: A Gap Analysis Methodology for Engineering SOA-Based Applications",
             "type": "chapter",
             "volume": "5600",
@@ -11344,13 +12079,13 @@
         },
         "doi": "10.1007/978-3-642-02463-4_16",
         "keyphrases": {
-            "a business domain": {
+            "blue sky situation": {
+                "count": 1,
+                "rank_score": 0.036116962487852025
+            },
+            "business domain": {
                 "count": 1,
                 "rank_score": 0.06736752934837836
-            },
-            "a novel business service engineering methodology": {
-                "count": 1,
-                "rank_score": 0.10625124832792161
             },
             "business service analysis": {
                 "count": 1,
@@ -11376,6 +12111,34 @@
                 "count": 1,
                 "rank_score": 0.07094489397926737
             },
+            "development": {
+                "count": 1,
+                "rank_score": 0.0249626145655785
+            },
+            "fragments": {
+                "count": 1,
+                "rank_score": 0.052872571297155724
+            },
+            "granularity": {
+                "count": 1,
+                "rank_score": 0.04009109843130266
+            },
+            "in-depth understanding": {
+                "count": 1,
+                "rank_score": 0.025138456772586245
+            },
+            "newly conceived business services": {
+                "count": 1,
+                "rank_score": 0.07471557024380779
+            },
+            "novel business service engineering methodology": {
+                "count": 1,
+                "rank_score": 0.10625124832792161
+            },
+            "our approach": {
+                "count": 2,
+                "rank_score": 0.03160532730044189
+            },
             "pre-existing enterprise assets": {
                 "count": 1,
                 "rank_score": 0.10974332487181321
@@ -11384,17 +12147,21 @@
                 "count": 1,
                 "rank_score": 0.10967421164156732
             },
+            "realistic situation": {
+                "count": 1,
+                "rank_score": 0.04713563728393827
+            },
             "reuse": {
                 "count": 2,
                 "rank_score": 0.07994288484661796
             },
-            "services": {
+            "running example": {
                 "count": 1,
-                "rank_score": 0.1317059923221543
+                "rank_score": 0.038037916443212305
             },
-            "the newly conceived business services": {
+            "their functionality": {
                 "count": 1,
-                "rank_score": 0.07471557024380779
+                "rank_score": 0.031105694211408477
             },
             "todays service analysis": {
                 "count": 1,
@@ -11403,6 +12170,14 @@
             "value-creating business services": {
                 "count": 1,
                 "rank_score": 0.1037014202013259
+            },
+            "varied inventory": {
+                "count": 1,
+                "rank_score": 0.037800188703275575
+            },
+            "very limited support": {
+                "count": 1,
+                "rank_score": 0.04090311922457232
             }
         },
         "original": {
@@ -11415,14 +12190,9 @@
     },
     {
         "Dimensions": {
-            "altmetric": 5.0,
+            "altmetric": 8.0,
             "altmetric_id": 5343074,
             "book_series_title": "Lecture Notes in Computer Science",
-            "concepts": [
-                "foundation",
-                "essay",
-                "honor"
-            ],
             "date": "2009-01-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1007/978-3-642-02463-4",
@@ -11444,11 +12214,6 @@
             ],
             "publisher": "Springer Nature",
             "recent_citations": 3,
-            "terms": [
-                "foundation",
-                "essay",
-                "honor"
-            ],
             "times_cited": 22,
             "title": "Conceptual Modeling: Foundations and Applications, Essays in Honor of John Mylopoulos",
             "type": "book",
@@ -11518,6 +12283,10 @@
                 "count": 1,
                 "rank_score": 0.10684727269089825
             },
+            "book": {
+                "count": 2,
+                "rank_score": 0.08163255774942715
+            },
             "conceptual modeling foundations": {
                 "count": 1,
                 "rank_score": 0.12439721489086115
@@ -11534,23 +12303,15 @@
                 "count": 2,
                 "rank_score": 0.09884697224623046
             },
-            "knowledge": {
-                "count": 1,
-                "rank_score": 0.08282539554644139
-            },
             "more and more experience": {
                 "count": 1,
                 "rank_score": 0.09567365114882057
             },
-            "the life": {
-                "count": 1,
-                "rank_score": 0.04128826374465884
-            },
-            "the new book collection": {
+            "new book collection": {
                 "count": 1,
                 "rank_score": 0.10252427406512847
             },
-            "the reader heart": {
+            "reader heart": {
                 "count": 1,
                 "rank_score": 0.06806739608372551
             },
@@ -11558,13 +12319,9 @@
                 "count": 1,
                 "rank_score": 0.0737719304136013
             },
-            "this book": {
+            "you": {
                 "count": 2,
-                "rank_score": 0.08163255774942715
-            },
-            "this day": {
-                "count": 1,
-                "rank_score": 0.041460214374580376
+                "rank_score": 0.0
             },
             "your heart": {
                 "count": 1,
@@ -12264,13 +13021,17 @@
         },
         "doi": "10.1002/pam.20354",
         "keyphrases": {
-            "applications": {
+            "credits": {
                 "count": 1,
-                "rank_score": 0.05963085510733979
+                "rank_score": 0.014887283354385343
             },
             "disadvantaged workers": {
                 "count": 1,
                 "rank_score": 0.11059743078105172
+            },
+            "each year": {
+                "count": 2,
+                "rank_score": 0.036739680049839
             },
             "eligible disadvantaged youth": {
                 "count": 1,
@@ -12280,9 +13041,21 @@
                 "count": 1,
                 "rank_score": 0.12818363614420808
             },
-            "participation": {
-                "count": 2,
-                "rank_score": 0.112210577834733
+            "estimates": {
+                "count": 1,
+                "rank_score": 0.03515527991515517
+            },
+            "even upper–bound esimates": {
+                "count": 1,
+                "rank_score": 0.04993467558797951
+            },
+            "less than 17 percent": {
+                "count": 4,
+                "rank_score": 0.043911266297357705
+            },
+            "low participation rates": {
+                "count": 1,
+                "rank_score": 0.07911737136804206
             },
             "previous years": {
                 "count": 2,
@@ -12296,21 +13069,25 @@
                 "count": 1,
                 "rank_score": 0.10084835325532913
             },
-            "the work opportunity tax credit": {
-                "count": 1,
-                "rank_score": 0.0903389716039946
-            },
-            "these low participation rates": {
-                "count": 1,
-                "rank_score": 0.07911737136804206
-            },
             "two federal employer subsidy programs": {
                 "count": 1,
                 "rank_score": 0.08622577419438687
             },
+            "welfare": {
+                "count": 2,
+                "rank_score": 0.0280717307022173
+            },
             "welfare recipients": {
                 "count": 1,
                 "rank_score": 0.08760496277113058
+            },
+            "whose employers": {
+                "count": 1,
+                "rank_score": 0.048605428835112235
+            },
+            "work opportunity tax credit": {
+                "count": 1,
+                "rank_score": 0.0903389716039946
             },
             "work tax credit": {
                 "count": 1,
@@ -12356,6 +13133,7 @@
                     "name": "11 Medical and Health Sciences"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -12374,6 +13152,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
                         "first_name": "Geoffrey L.",
+                        "initials": "",
                         "last_name": "Wallace",
                         "orcid": "",
                         "researcher_id": "ur.013176512605.51"
@@ -12394,6 +13173,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.14003.36",
                         "first_name": "Robert",
+                        "initials": "",
                         "last_name": "Haveman",
                         "orcid": "",
                         "researcher_id": "ur.01150210466.19"
@@ -12417,6 +13197,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
                     "first_name": "Geoffrey L.",
+                    "initials": "",
                     "last_name": "Wallace",
                     "orcid": "",
                     "researcher_id": "ur.013176512605.51"
@@ -12437,6 +13218,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.14003.36",
                     "first_name": "Robert",
+                    "initials": "",
                     "last_name": "Haveman",
                     "orcid": "",
                     "researcher_id": "ur.01150210466.19"
@@ -12458,6 +13240,7 @@
                     "name": "Population & Society"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30020",
@@ -12473,8 +13256,7 @@
             "concepts": [
                 "employment",
                 "earnings effects",
-                "effects",
-                "state",
+                "effect",
                 "federal welfare reform legislation",
                 "welfare reform legislation",
                 "reform legislation",
@@ -12497,27 +13279,25 @@
                 "survey records",
                 "earnings",
                 "low-skilled women",
-                "skilled women",
                 "findings",
                 "substantial differences",
-                "employment rates",
+                "mean earnings",
+                "employment rate",
                 "rate",
                 "unemployment insurance data",
                 "insurance data",
                 "disparities",
                 "definition",
-                "data collection",
                 "UI",
-                "survey sources",
                 "earnings growth",
                 "growth",
                 "employees",
-                "employer reports",
                 "consistent information"
             ],
             "date": "2007-12-10",
             "date_inserted": "2019-03-07",
             "doi": "10.3233/jem-2007-0287",
+            "field_citation_ratio": 0.0,
             "id": "pub.1112535756",
             "issn": [
                 "0747-9662",
@@ -12530,18 +13310,57 @@
                 "title": "Journal of Economic and Social Measurement"
             },
             "journal_lists": [
-                "ERA 2015",
-                "Norwegian register level 1"
+                "ERA 2018",
+                "Norwegian register level 1",
+                "ERA 2015"
+            ],
+            "linkout": "http://pdfs.semanticscholar.org/01f3/ec7476d46163b36c4aea571dafbc675cd992.pdf",
+            "noun_phrases": [
+                "earnings",
+                "woman",
+                "employe",
+                "employer",
+                "employment",
+                "welfare reform",
+                "Data Collection",
+                "administrative data",
+                "true effect",
+                "intervention",
+                "Evaluation Study as Topic",
+                "different data source",
+                "paper",
+                "demonstration",
+                "unemployment insurance",
+                "record",
+                "sample",
+                "congruent",
+                "substantial difference",
+                "employment rate",
+                "disparity",
+                "difference",
+                "definition",
+                "method"
+            ],
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - submitted"
             ],
             "open_access_categories": [
                 {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Free copy of submitted version, or where version is unknown, in an OA repository",
+                    "id": "green_sub",
+                    "name": "Green, Submitted"
                 }
             ],
             "pages": "149-176",
             "publisher": "IOS Press",
+            "recent_citations": 0,
             "research_org_cities": [
                 {
                     "id": 5261457,
@@ -12556,6 +13375,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "University of Wisconsin–Madison"
             ],
             "research_org_state_codes": [
                 {
@@ -12606,8 +13428,7 @@
             "terms": [
                 "employment",
                 "earnings effects",
-                "effects",
-                "state",
+                "effect",
                 "federal welfare reform legislation",
                 "welfare reform legislation",
                 "reform legislation",
@@ -12630,24 +13451,22 @@
                 "survey records",
                 "earnings",
                 "low-skilled women",
-                "skilled women",
                 "findings",
                 "substantial differences",
-                "employment rates",
+                "mean earnings",
+                "employment rate",
                 "rate",
                 "unemployment insurance data",
                 "insurance data",
                 "disparities",
                 "definition",
-                "data collection",
                 "UI",
-                "survey sources",
                 "earnings growth",
                 "growth",
                 "employees",
-                "employer reports",
                 "consistent information"
             ],
+            "times_cited": 0,
             "title": "Work and earnings of low-skilled women: Do employee and employer reports provide consistent information?",
             "type": "article",
             "volume": "32",
@@ -13163,17 +13982,29 @@
                 "count": 1,
                 "rank_score": 0.10866466589374534
             },
-            "data": {
+            "both mean earnings": {
                 "count": 1,
-                "rank_score": 0.10008712794732053
+                "rank_score": 0.05845659406542078
             },
             "data collection": {
                 "count": 1,
                 "rank_score": 0.10062709658334568
             },
-            "differences": {
-                "count": 2,
-                "rank_score": 0.0755332594839167
+            "data sources": {
+                "count": 1,
+                "rank_score": 0.06737363824903801
+            },
+            "definition": {
+                "count": 1,
+                "rank_score": 0.022849819368895487
+            },
+            "different data sources": {
+                "count": 1,
+                "rank_score": 0.07308156296609239
+            },
+            "disparities": {
+                "count": 1,
+                "rank_score": 0.028350877115939106
             },
             "earnings": {
                 "count": 2,
@@ -13183,33 +14014,53 @@
                 "count": 1,
                 "rank_score": 0.09266197701539776
             },
+            "employment and earnings effects": {
+                "count": 1,
+                "rank_score": 0.06177953919594474
+            },
             "employment and earnings growth": {
                 "count": 1,
                 "rank_score": 0.0765257776951965
+            },
+            "estimates": {
+                "count": 1,
+                "rank_score": 0.06851194729830413
             },
             "evaluation estimates": {
                 "count": 1,
                 "rank_score": 0.09037772096567095
             },
+            "extent": {
+                "count": 2,
+                "rank_score": 0.028777087357660654
+            },
+            "interventions": {
+                "count": 2,
+                "rank_score": 0.03205625963634134
+            },
+            "low-skilled women": {
+                "count": 2,
+                "rank_score": 0.06370054674811727
+            },
             "mean employment rates": {
                 "count": 1,
                 "rank_score": 0.10160381034155178
+            },
+            "records": {
+                "count": 1,
+                "rank_score": 0.04222843891742512
+            },
+            "state-oriented federal welfare reform legislation": {
+                "count": 1,
+                "rank_score": 0.06110666854092229
             },
             "substantial differences": {
                 "count": 1,
                 "rank_score": 0.07728224893239435
             },
-            "survey": {
-                "count": 2,
-                "rank_score": 0.10024722779024903
-            },
-            "the wisconsin child support demonstration evaluation": {
-                "count": 2,
-                "rank_score": 0.07389055138541271
-            },
-            "these different data sources": {
+            "true effects": {
                 "count": 1,
-                "rank_score": 0.07308156296609239
+                "rank_score": 0.047063585537422965
             },
             "ui and survey sources": {
                 "count": 1,
@@ -13218,6 +14069,10 @@
             "unemployment insurance": {
                 "count": 1,
                 "rank_score": 0.07651334501586006
+            },
+            "wisconsin child support demonstration evaluation": {
+                "count": 2,
+                "rank_score": 0.07389055138541271
             }
         },
         "original": {
@@ -13245,18 +14100,19 @@
             ],
             "RCDC": [
                 {
-                    "id": "547",
-                    "name": "Pediatric"
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 },
                 {
                     "id": "497",
                     "name": "Basic Behavioral and Social Science"
                 },
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
+                    "id": "547",
+                    "name": "Pediatric"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -13275,6 +14131,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.184764.8",
                         "first_name": "Royce A.",
+                        "initials": "",
                         "last_name": "Hutson",
                         "orcid": "",
                         "researcher_id": "ur.01125361017.44"
@@ -13298,6 +14155,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.184764.8",
                     "first_name": "Royce A.",
+                    "initials": "",
                     "last_name": "Hutson",
                     "orcid": "",
                     "researcher_id": "ur.01125361017.44"
@@ -13321,18 +14179,19 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "547",
-                    "name": "Pediatric"
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
                 },
                 {
                     "id": "497",
                     "name": "Basic Behavioral and Social Science"
                 },
                 {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
+                    "id": "547",
+                    "name": "Pediatric"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30019",
@@ -13375,13 +14234,12 @@
                 "higher likelihood",
                 "cases",
                 "low-income families",
-                "income families",
                 "family"
             ],
             "date": "2007-09-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1016/j.childyouth.2007.04.004",
-            "field_citation_ratio": 3.33,
+            "field_citation_ratio": 3.4,
             "id": "pub.1009803719",
             "issn": [
                 "0190-7409",
@@ -13393,9 +14251,24 @@
                 "title": "Children and Youth Services Review"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 1",
-                "VABB-SHW"
+                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "child",
+                "parental conflict",
+                "low-income family",
+                "collection",
+                "payment",
+                "Wisconsin",
+                "survey data",
+                "father",
+                "great likelihood",
+                "biological parent",
+                "receipt",
+                "high likelihood"
             ],
             "open_access_categories": [
                 {
@@ -13408,36 +14281,36 @@
             "publisher": "Elsevier",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1102717796",
-                "pub.1069757498",
+                "pub.1070365112",
+                "pub.1070361804",
                 "pub.1058669355",
                 "pub.1045662461",
-                "pub.1053790774",
                 "pub.1038494137",
-                "pub.1070365112",
                 "pub.1037527558",
-                "pub.1037097086",
+                "pub.1053790774",
                 "pub.1022059276",
-                "pub.1070364259",
                 "pub.1009374323",
+                "pub.1069757498",
+                "pub.1037097086",
+                "pub.1070364259",
                 "pub.1028827292",
-                "pub.1070361804"
+                "pub.1102717796"
             ],
             "references": [
-                "pub.1102717796",
-                "pub.1069757498",
+                "pub.1070365112",
+                "pub.1070361804",
                 "pub.1058669355",
                 "pub.1045662461",
-                "pub.1053790774",
                 "pub.1038494137",
-                "pub.1070365112",
                 "pub.1037527558",
-                "pub.1037097086",
+                "pub.1053790774",
                 "pub.1022059276",
-                "pub.1070364259",
                 "pub.1009374323",
+                "pub.1069757498",
+                "pub.1037097086",
+                "pub.1070364259",
                 "pub.1028827292",
-                "pub.1070361804"
+                "pub.1102717796"
             ],
             "research_org_cities": [
                 {
@@ -13453,6 +14326,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Wayne State University"
             ],
             "research_org_state_codes": [
                 {
@@ -13522,7 +14398,6 @@
                 "higher likelihood",
                 "cases",
                 "low-income families",
-                "income families",
                 "family"
             ],
             "times_cited": 11,
@@ -13719,10 +14594,6 @@
         },
         "doi": "10.1016/j.childyouth.2007.04.004",
         "keyphrases": {
-            "a greater likelihood": {
-                "count": 1,
-                "rank_score": 0.05946641533152249
-            },
             "abstract child": {
                 "count": 1,
                 "rank_score": 0.09970685306628
@@ -13751,13 +14622,13 @@
                 "count": 1,
                 "rank_score": 0.11319211225321271
             },
-            "contact": {
-                "count": 1,
-                "rank_score": 0.10303323398987288
-            },
             "father contact": {
                 "count": 1,
                 "rank_score": 0.115425585402981
+            },
+            "greater likelihood": {
+                "count": 1,
+                "rank_score": 0.05946641533152249
             },
             "higher likelihoods": {
                 "count": 1,
@@ -13771,9 +14642,9 @@
                 "count": 1,
                 "rank_score": 0.11854597773870504
             },
-            "state": {
+            "some cases": {
                 "count": 1,
-                "rank_score": 0.0837728246722096
+                "rank_score": 0.024343512946811596
             },
             "wisconsin": {
                 "count": 2,
@@ -13809,6 +14680,7 @@
                     "name": "Clinical Research"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -13820,6 +14692,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.170205.1",
                         "first_name": "Amy",
+                        "initials": "",
                         "last_name": "Dworsky",
                         "orcid": "",
                         "researcher_id": "ur.0734407100.67"
@@ -13833,6 +14706,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.170205.1",
                         "first_name": "Mark E.",
+                        "initials": "",
                         "last_name": "Courtney",
                         "orcid": "",
                         "researcher_id": "ur.0624660065.94"
@@ -13849,6 +14723,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.170205.1",
                     "first_name": "Amy",
+                    "initials": "",
                     "last_name": "Dworsky",
                     "orcid": "",
                     "researcher_id": "ur.0734407100.67"
@@ -13862,6 +14737,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.170205.1",
                     "first_name": "Mark E.",
+                    "initials": "",
                     "last_name": "Courtney",
                     "orcid": "",
                     "researcher_id": "ur.0624660065.94"
@@ -13931,13 +14807,12 @@
                 "policy",
                 "practice",
                 "consequences",
-                "self-sufficiency",
-                "sufficiency"
+                "Self-Sufficiency"
             ],
             "date": "2007-07-01",
             "date_inserted": "2017-08-31",
             "doi": "10.1606/1044-3894.3647",
-            "field_citation_ratio": 8.48,
+            "field_citation_ratio": 8.66,
             "id": "pub.1051422838",
             "issn": [
                 "1044-3894",
@@ -13949,34 +14824,66 @@
                 "title": "Families in Society"
             },
             "journal_lists": [
+                "ERA 2018",
                 "Norwegian register level 1",
                 "ERA 2015"
             ],
+            "linkout": "http://pdfs.semanticscholar.org/53bd/a61381108bb196ada4e6be37dc186c424e60.pdf",
+            "noun_phrases": [
+                "barrier",
+                "employment",
+                "self-sufficiency",
+                "article",
+                "prevalence",
+                "potential barrier",
+                "longitudinal study",
+                "Milwaukee",
+                "parent",
+                "assistance",
+                "Wisconsin's",
+                "earnings",
+                "multiple barrier",
+                "reduction",
+                "likelihood",
+                "implication",
+                "welfare policy",
+                "practice"
+            ],
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - submitted"
+            ],
             "open_access_categories": [
                 {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Free copy of submitted version, or where version is unknown, in an OA repository",
+                    "id": "green_sub",
+                    "name": "Green, Submitted"
                 }
             ],
             "pages": "379-389",
             "publisher": "SAGE Publications",
             "recent_citations": 6,
             "reference_ids": [
-                "pub.1063473687",
-                "pub.1064523790",
-                "pub.1054062651",
-                "pub.1060223218",
+                "pub.1032138273",
                 "pub.1025396515",
-                "pub.1032138273"
+                "pub.1054062651",
+                "pub.1063473687",
+                "pub.1060223218",
+                "pub.1064523790"
             ],
             "references": [
-                "pub.1063473687",
-                "pub.1064523790",
-                "pub.1054062651",
-                "pub.1060223218",
+                "pub.1032138273",
                 "pub.1025396515",
-                "pub.1032138273"
+                "pub.1054062651",
+                "pub.1063473687",
+                "pub.1060223218",
+                "pub.1064523790"
             ],
             "research_org_cities": [
                 {
@@ -13993,14 +14900,26 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "Chapin Hall Center for Children at the University of Chicago."
+            ],
+            "research_org_state_codes": [
+                {
+                    "id": "US-IL",
+                    "name": "Illinois"
+                }
+            ],
+            "research_org_state_names": [
+                "Illinois"
+            ],
             "researchers": [
                 {
                     "first_name": "Amy Lynn",
                     "id": "ur.0734407100.67",
                     "last_name": "Dworsky",
                     "research_orgs": [
-                        "grid.170205.1",
                         "grid.34477.33",
+                        "grid.170205.1",
                         "grid.14003.36"
                     ]
                 },
@@ -14010,8 +14929,8 @@
                     "last_name": "Courtney",
                     "research_orgs": [
                         "grid.34477.33",
-                        "grid.170205.1",
-                        "grid.4367.6"
+                        "grid.4367.6",
+                        "grid.170205.1"
                     ]
                 }
             ],
@@ -14039,8 +14958,7 @@
                 "policy",
                 "practice",
                 "consequences",
-                "self-sufficiency",
-                "sufficiency"
+                "Self-Sufficiency"
             ],
             "times_cited": 28,
             "title": "Barriers to Employment among TANF Applicants and Their Consequences for Self-Sufficiency",
@@ -15136,17 +16054,17 @@
         },
         "doi": "10.1606/1044-3894.3647",
         "keyphrases": {
-            "1,075 milwaukee county parents": {
+            "assistance": {
                 "count": 1,
-                "rank_score": 0.06779188831461282
+                "rank_score": 0.06062227883213289
+            },
+            "both a reduction": {
+                "count": 1,
+                "rank_score": 0.02003288229478825
             },
             "critical issues": {
                 "count": 1,
                 "rank_score": 0.08435796198514026
-            },
-            "data": {
-                "count": 1,
-                "rank_score": 0.06642175261073996
             },
             "earnings": {
                 "count": 1,
@@ -15155,6 +16073,10 @@
             "employment": {
                 "count": 2,
                 "rank_score": 0.0980677081498661
+            },
+            "longitudinal study": {
+                "count": 1,
+                "rank_score": 0.04649485087762664
             },
             "lower earnings": {
                 "count": 1,
@@ -15172,9 +16094,29 @@
                 "count": 1,
                 "rank_score": 0.07929474777137074
             },
+            "prevalence": {
+                "count": 1,
+                "rank_score": 0.03769805285528497
+            },
+            "significant and often multiple barriers": {
+                "count": 1,
+                "rank_score": 0.05914762830532214
+            },
             "tanf": {
                 "count": 2,
                 "rank_score": 0.09635138621032376
+            },
+            "tanf applicants": {
+                "count": 1,
+                "rank_score": 0.06382662874101325
+            },
+            "their likelihood": {
+                "count": 1,
+                "rank_score": 0.03609123702547588
+            },
+            "their subsequent employment": {
+                "count": 1,
+                "rank_score": 0.06369166740092316
             },
             "welfare policy": {
                 "count": 1,

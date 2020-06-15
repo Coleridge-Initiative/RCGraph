@@ -19,24 +19,24 @@
                     "name": "Rare Diseases"
                 },
                 {
-                    "id": "547",
-                    "name": "Pediatric"
-                },
-                {
-                    "id": "497",
-                    "name": "Basic Behavioral and Social Science"
-                },
-                {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
+                    "id": "507",
+                    "name": "Clinical Research"
                 },
                 {
                     "id": "558",
                     "name": "Prevention"
                 },
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
+                },
+                {
+                    "id": "497",
+                    "name": "Basic Behavioral and Social Science"
+                },
+                {
+                    "id": "547",
+                    "name": "Pediatric"
                 }
             ],
             "altmetric": 3.0,
@@ -59,6 +59,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.89336.37",
                         "first_name": "Robert W.",
+                        "initials": "",
                         "last_name": "Ressler",
                         "orcid": "['0000-0002-6265-2528']",
                         "researcher_id": "ur.014460432163.48"
@@ -77,11 +78,12 @@
                             }
                         ],
                         "corresponding": "",
-                        "current_organization_id": "",
+                        "current_organization_id": "grid.89336.37",
                         "first_name": "Elizabeth",
+                        "initials": "",
                         "last_name": "Ackert",
                         "orcid": "",
-                        "researcher_id": ""
+                        "researcher_id": "ur.015072054071.96"
                     },
                     {
                         "affiliations": [
@@ -99,6 +101,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Arya",
+                        "initials": "",
                         "last_name": "Ansari",
                         "orcid": "",
                         "researcher_id": ""
@@ -119,6 +122,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.89336.37",
                         "first_name": "Robert",
+                        "initials": "",
                         "last_name": "Crosnoe",
                         "orcid": "",
                         "researcher_id": "ur.01050506553.13"
@@ -142,6 +146,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.89336.37",
                     "first_name": "Robert W.",
+                    "initials": "",
                     "last_name": "Ressler",
                     "orcid": "['0000-0002-6265-2528']",
                     "researcher_id": "ur.014460432163.48"
@@ -160,11 +165,12 @@
                         }
                     ],
                     "corresponding": "",
-                    "current_organization_id": "",
+                    "current_organization_id": "grid.89336.37",
                     "first_name": "Elizabeth",
+                    "initials": "",
                     "last_name": "Ackert",
                     "orcid": "",
-                    "researcher_id": ""
+                    "researcher_id": "ur.015072054071.96"
                 },
                 {
                     "affiliations": [
@@ -182,6 +188,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Arya",
+                    "initials": "",
                     "last_name": "Ansari",
                     "orcid": "",
                     "researcher_id": ""
@@ -202,6 +209,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.89336.37",
                     "first_name": "Robert",
+                    "initials": "",
                     "last_name": "Crosnoe",
                     "orcid": "",
                     "researcher_id": "ur.01050506553.13"
@@ -235,26 +243,27 @@
                     "name": "Rare Diseases"
                 },
                 {
-                    "id": "547",
-                    "name": "Pediatric"
-                },
-                {
-                    "id": "497",
-                    "name": "Basic Behavioral and Social Science"
-                },
-                {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
+                    "id": "507",
+                    "name": "Clinical Research"
                 },
                 {
                     "id": "558",
                     "name": "Prevention"
                 },
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
+                },
+                {
+                    "id": "497",
+                    "name": "Basic Behavioral and Social Science"
+                },
+                {
+                    "id": "547",
+                    "name": "Pediatric"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30023",
@@ -269,11 +278,8 @@
             ],
             "concepts": [
                 "Mexican-origin families",
-                "origin families",
                 "family",
-                "immigration",
                 "barriers",
-                "enrollment",
                 "early childhood education programs",
                 "childhood education programs",
                 "education programs",
@@ -284,8 +290,6 @@
                 "educational opportunities",
                 "opportunities",
                 "Early Childhood Longitudinal Study-Birth Cohort",
-                "Childhood Longitudinal Study-Birth Cohort",
-                "birth cohort",
                 "study",
                 "broader social theory",
                 "social theory",
@@ -294,7 +298,9 @@
                 "human capital considerations",
                 "capital considerations",
                 "consideration",
+                "early childhood education enrollment",
                 "education enrollment",
+                "enrollment",
                 "early childhood care",
                 "childhood care",
                 "care",
@@ -323,22 +329,6 @@
             ],
             "funders": [
                 {
-                    "acronym": "NSF SBE",
-                    "city_name": "Arlington",
-                    "country_name": "United States",
-                    "id": "grid.457916.8",
-                    "latitude": 38.880566,
-                    "linkout": [
-                        "http://www.nsf.gov/dir/index.jsp?org=SBE"
-                    ],
-                    "longitude": -77.11099,
-                    "name": "Directorate for Social, Behavioral & Economic Sciences",
-                    "state_name": "Virginia",
-                    "types": [
-                        "Government"
-                    ]
-                },
-                {
                     "acronym": "IES",
                     "city_name": "Washington D.C.",
                     "country_name": "United States",
@@ -352,22 +342,6 @@
                     "state_name": "District of Columbia",
                     "types": [
                         "Education"
-                    ]
-                },
-                {
-                    "acronym": "NICHD",
-                    "city_name": "Bethesda",
-                    "country_name": "United States",
-                    "id": "grid.420089.7",
-                    "latitude": 39.001095,
-                    "linkout": [
-                        "http://www.nichd.nih.gov/Pages/index.aspx"
-                    ],
-                    "longitude": -77.10042,
-                    "name": "National Institute of Child Health and Human Development",
-                    "state_name": "Maryland",
-                    "types": [
-                        "Facility"
                     ]
                 },
                 {
@@ -385,6 +359,38 @@
                     "types": [
                         "Government"
                     ]
+                },
+                {
+                    "acronym": "NSF SBE",
+                    "city_name": "Arlington",
+                    "country_name": "United States",
+                    "id": "grid.457916.8",
+                    "latitude": 38.880566,
+                    "linkout": [
+                        "http://www.nsf.gov/dir/index.jsp?org=SBE"
+                    ],
+                    "longitude": -77.11099,
+                    "name": "Directorate for Social, Behavioral & Economic Sciences",
+                    "state_name": "Virginia",
+                    "types": [
+                        "Government"
+                    ]
+                },
+                {
+                    "acronym": "NICHD",
+                    "city_name": "Bethesda",
+                    "country_name": "United States",
+                    "id": "grid.420089.7",
+                    "latitude": 39.001095,
+                    "linkout": [
+                        "http://www.nichd.nih.gov/Pages/index.aspx"
+                    ],
+                    "longitude": -77.10042,
+                    "name": "National Institute of Child Health and Human Development",
+                    "state_name": "Maryland",
+                    "types": [
+                        "Facility"
+                    ]
                 }
             ],
             "id": "pub.1121519689",
@@ -397,122 +403,157 @@
                 "title": "Social Science Research"
             },
             "journal_lists": [
-                "ERA 2015",
                 "Norwegian register level 2",
+                "ERA 2015",
                 "VABB-SHW",
+                "ERA 2018",
                 "PubMed"
+            ],
+            "linkout": "https://doi.org/10.1016/j.ssresearch.2019.102364",
+            "noun_phrases": [
+                "race/ethnicity",
+                "human capital",
+                "selection",
+                "young child",
+                "early childhood education",
+                "complex",
+                "barrier",
+                "enrollment",
+                "population",
+                "good understanding",
+                "Mexican origin",
+                "constraint",
+                "educational opportunity",
+                "Early Childhood Longitudinal Study",
+                "social theory",
+                "association",
+                "early childhood",
+                "Education",
+                "limited evidence",
+                "expectation"
+            ],
+            "open_access": [
+                "Open Access - all",
+                "Open Access - publisher",
+                "Open Access - published"
             ],
             "open_access_categories": [
                 {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Freely available on publisher page, but without an open licence",
+                    "id": "gold_bronze",
+                    "name": "Bronze"
                 }
             ],
             "pages": "102364",
             "pmid": "31789196",
             "publisher": "Elsevier",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1032843275",
-                "pub.1070970287",
-                "pub.1016587372",
-                "pub.1073428515",
-                "pub.1099115885",
-                "pub.1016893222",
-                "pub.1017144846",
-                "pub.1027188223",
-                "pub.1069380427",
-                "pub.1073423399",
-                "pub.1063545811",
-                "pub.1050942335",
-                "pub.1009135480",
                 "pub.1037439194",
-                "pub.1031907207",
+                "pub.1015551476",
+                "pub.1049963696",
                 "pub.1028891825",
                 "pub.1060034492",
-                "pub.1007570123",
-                "pub.1069768267",
-                "pub.1069792025",
-                "pub.1042367436",
-                "pub.1038865131",
-                "pub.1027078940",
-                "pub.1007663031",
-                "pub.1002745434",
-                "pub.1026934021",
-                "pub.1053855042",
-                "pub.1073452665",
-                "pub.1069362368",
-                "pub.1052961929",
-                "pub.1050136259",
-                "pub.1102716732",
-                "pub.1072901456",
-                "pub.1070969212",
-                "pub.1051743968",
                 "pub.1042765483",
-                "pub.1060039732",
-                "pub.1037528298",
-                "pub.1003283453",
-                "pub.1018852509",
-                "pub.1049963696",
-                "pub.1069768341",
-                "pub.1002032652",
-                "pub.1015551476",
+                "pub.1042367436",
+                "pub.1073428515",
+                "pub.1069383052",
+                "pub.1051743968",
+                "pub.1099115885",
+                "pub.1009135480",
+                "pub.1050136259",
                 "pub.1011752763",
-                "pub.1047808046",
+                "pub.1038865131",
+                "pub.1002032652",
+                "pub.1070970287",
+                "pub.1027078940",
+                "pub.1032843275",
+                "pub.1052961929",
+                "pub.1002745434",
+                "pub.1072901456",
+                "pub.1018852509",
+                "pub.1060039732",
+                "pub.1069362368",
+                "pub.1050942335",
+                "pub.1037528298",
+                "pub.1073452665",
+                "pub.1017144846",
+                "pub.1027188223",
+                "pub.1069792025",
                 "pub.1062453894",
+                "pub.1026934021",
+                "pub.1070969212",
+                "pub.1053855042",
+                "pub.1007570123",
+                "pub.1047808046",
+                "pub.1069768341",
+                "pub.1031907207",
+                "pub.1069380427",
+                "pub.1069768267",
+                "pub.1102716732",
+                "pub.1073423399",
+                "pub.1063545811",
+                "pub.1016587372",
                 "pub.1005807345",
-                "pub.1069383052"
+                "pub.1007663031",
+                "pub.1016893222",
+                "pub.1003283453"
             ],
             "references": [
-                "pub.1032843275",
-                "pub.1070970287",
-                "pub.1016587372",
-                "pub.1073428515",
-                "pub.1099115885",
-                "pub.1016893222",
-                "pub.1017144846",
-                "pub.1027188223",
-                "pub.1069380427",
-                "pub.1073423399",
-                "pub.1063545811",
-                "pub.1050942335",
-                "pub.1009135480",
                 "pub.1037439194",
-                "pub.1031907207",
+                "pub.1015551476",
+                "pub.1049963696",
                 "pub.1028891825",
                 "pub.1060034492",
-                "pub.1007570123",
-                "pub.1069768267",
-                "pub.1069792025",
-                "pub.1042367436",
-                "pub.1038865131",
-                "pub.1027078940",
-                "pub.1007663031",
-                "pub.1002745434",
-                "pub.1026934021",
-                "pub.1053855042",
-                "pub.1073452665",
-                "pub.1069362368",
-                "pub.1052961929",
-                "pub.1050136259",
-                "pub.1102716732",
-                "pub.1072901456",
-                "pub.1070969212",
-                "pub.1051743968",
                 "pub.1042765483",
-                "pub.1060039732",
-                "pub.1037528298",
-                "pub.1003283453",
-                "pub.1018852509",
-                "pub.1049963696",
-                "pub.1069768341",
-                "pub.1002032652",
-                "pub.1015551476",
+                "pub.1042367436",
+                "pub.1073428515",
+                "pub.1069383052",
+                "pub.1051743968",
+                "pub.1099115885",
+                "pub.1009135480",
+                "pub.1050136259",
                 "pub.1011752763",
-                "pub.1047808046",
+                "pub.1038865131",
+                "pub.1002032652",
+                "pub.1070970287",
+                "pub.1027078940",
+                "pub.1032843275",
+                "pub.1052961929",
+                "pub.1002745434",
+                "pub.1072901456",
+                "pub.1018852509",
+                "pub.1060039732",
+                "pub.1069362368",
+                "pub.1050942335",
+                "pub.1037528298",
+                "pub.1073452665",
+                "pub.1017144846",
+                "pub.1027188223",
+                "pub.1069792025",
                 "pub.1062453894",
+                "pub.1026934021",
+                "pub.1070969212",
+                "pub.1053855042",
+                "pub.1007570123",
+                "pub.1047808046",
+                "pub.1069768341",
+                "pub.1031907207",
+                "pub.1069380427",
+                "pub.1069768267",
+                "pub.1102716732",
+                "pub.1073423399",
+                "pub.1063545811",
+                "pub.1016587372",
                 "pub.1005807345",
-                "pub.1069383052"
+                "pub.1007663031",
+                "pub.1016893222",
+                "pub.1003283453"
             ],
             "research_org_cities": [
                 {
@@ -528,6 +569,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "The University of Texas at Austin"
             ],
             "research_org_state_codes": [
                 {
@@ -568,32 +612,40 @@
                     ]
                 },
                 {
+                    "first_name": "Elizabeth",
+                    "id": "ur.015072054071.96",
+                    "last_name": "Ackert",
+                    "research_orgs": [
+                        "grid.89336.37",
+                        "grid.34477.33",
+                        "grid.256304.6",
+                        "grid.133342.4"
+                    ]
+                },
+                {
                     "first_name": "Robert L",
                     "id": "ur.01050506553.13",
                     "last_name": "Crosnoe",
                     "research_orgs": [
-                        "grid.21107.35",
+                        "grid.89336.37",
                         "grid.55460.32",
+                        "grid.21107.35",
                         "grid.429997.8",
-                        "grid.10698.36",
-                        "grid.89336.37"
+                        "grid.10698.36"
                     ]
                 }
             ],
             "supporting_grant_ids": [
-                "grant.2621397",
-                "grant.4312654",
                 "grant.2684208",
+                "grant.2621397",
+                "grant.4104035",
                 "grant.7553723",
-                "grant.4104035"
+                "grant.4312654"
             ],
             "terms": [
                 "Mexican-origin families",
-                "origin families",
                 "family",
-                "immigration",
                 "barriers",
-                "enrollment",
                 "early childhood education programs",
                 "childhood education programs",
                 "education programs",
@@ -604,8 +656,6 @@
                 "educational opportunities",
                 "opportunities",
                 "Early Childhood Longitudinal Study-Birth Cohort",
-                "Childhood Longitudinal Study-Birth Cohort",
-                "birth cohort",
                 "study",
                 "broader social theory",
                 "social theory",
@@ -614,7 +664,9 @@
                 "human capital considerations",
                 "capital considerations",
                 "consideration",
+                "early childhood education enrollment",
                 "education enrollment",
+                "enrollment",
                 "early childhood care",
                 "childhood care",
                 "care",
@@ -632,6 +684,7 @@
                 "early childhood education",
                 "childhood education"
             ],
+            "times_cited": 0,
             "title": "Race/ethnicity, human capital, and the selection of young children into early childhood education",
             "type": "article",
             "volume": "85",
@@ -836,13 +889,17 @@
         },
         "doi": "10.1016/j.ssresearch.2019.102364",
         "keyphrases": {
-            "associations": {
-                "count": 1,
-                "rank_score": 0.053637725253111015
-            },
             "barriers": {
                 "count": 1,
                 "rank_score": 0.069206172534952
+            },
+            "better understanding": {
+                "count": 1,
+                "rank_score": 0.041079264789606565
+            },
+            "both general and group-specific constraints": {
+                "count": 1,
+                "rank_score": 0.04343832494011624
             },
             "broad social theory": {
                 "count": 1,
@@ -864,6 +921,10 @@
                 "count": 1,
                 "rank_score": 0.12198303705908858
             },
+            "early childhood longitudinal study-birth cohort": {
+                "count": 2,
+                "rank_score": 0.06432980981926989
+            },
             "education": {
                 "count": 1,
                 "rank_score": 0.08179687381070742
@@ -876,9 +937,17 @@
                 "count": 2,
                 "rank_score": 0.0869561469436512
             },
+            "expectation": {
+                "count": 1,
+                "rank_score": 0.025586243683113772
+            },
             "human capital considerations": {
                 "count": 2,
                 "rank_score": 0.10782764191165495
+            },
+            "hypothesis": {
+                "count": 1,
+                "rank_score": 0.032731718519912
             },
             "limited evidence": {
                 "count": 1,
@@ -892,9 +961,9 @@
                 "count": 4,
                 "rank_score": 0.08258939034904483
             },
-            "the early childhood longitudinal study-birth cohort": {
+            "population": {
                 "count": 2,
-                "rank_score": 0.06432980981926989
+                "rank_score": 0.031006827877147716
             }
         },
         "original": {
@@ -935,24 +1004,24 @@
             ],
             "RCDC": [
                 {
-                    "id": "497",
-                    "name": "Basic Behavioral and Social Science"
-                },
-                {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
+                    "id": "507",
+                    "name": "Clinical Research"
                 },
                 {
                     "id": "547",
                     "name": "Pediatric"
                 },
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
-                },
-                {
                     "id": "558",
                     "name": "Prevention"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
+                },
+                {
+                    "id": "497",
+                    "name": "Basic Behavioral and Social Science"
                 }
             ],
             "altmetric": 16.0,
@@ -975,6 +1044,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.1006.7",
                         "first_name": "James",
+                        "initials": "",
                         "last_name": "Law",
                         "orcid": "",
                         "researcher_id": "ur.01335731603.59"
@@ -995,6 +1065,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.11835.3e",
                         "first_name": "Judy",
+                        "initials": "",
                         "last_name": "Clegg",
                         "orcid": "['0000-0001-7366-0243']",
                         "researcher_id": "ur.01367247624.32"
@@ -1015,6 +1086,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.104846.f",
                         "first_name": "Robert",
+                        "initials": "",
                         "last_name": "Rush",
                         "orcid": "",
                         "researcher_id": "ur.01106656142.60"
@@ -1035,6 +1107,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.6518.a",
                         "first_name": "Sue",
+                        "initials": "",
                         "last_name": "Roulstone",
                         "orcid": "",
                         "researcher_id": "ur.0673707671.95"
@@ -1055,6 +1128,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.5337.2",
                         "first_name": "Tim J.",
+                        "initials": "",
                         "last_name": "Peters",
                         "orcid": "['0000-0003-2881-4180']",
                         "researcher_id": "ur.011157457632.83"
@@ -1078,6 +1152,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.1006.7",
                     "first_name": "James",
+                    "initials": "",
                     "last_name": "Law",
                     "orcid": "",
                     "researcher_id": "ur.01335731603.59"
@@ -1098,6 +1173,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.11835.3e",
                     "first_name": "Judy",
+                    "initials": "",
                     "last_name": "Clegg",
                     "orcid": "['0000-0001-7366-0243']",
                     "researcher_id": "ur.01367247624.32"
@@ -1118,6 +1194,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.104846.f",
                     "first_name": "Robert",
+                    "initials": "",
                     "last_name": "Rush",
                     "orcid": "",
                     "researcher_id": "ur.01106656142.60"
@@ -1138,6 +1215,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.6518.a",
                     "first_name": "Sue",
+                    "initials": "",
                     "last_name": "Roulstone",
                     "orcid": "",
                     "researcher_id": "ur.0673707671.95"
@@ -1158,6 +1236,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.5337.2",
                     "first_name": "Tim J.",
+                    "initials": "",
                     "last_name": "Peters",
                     "orcid": "['0000-0003-2881-4180']",
                     "researcher_id": "ur.011157457632.83"
@@ -1201,24 +1280,24 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "497",
-                    "name": "Basic Behavioral and Social Science"
-                },
-                {
-                    "id": "498",
-                    "name": "Behavioral and Social Science"
+                    "id": "507",
+                    "name": "Clinical Research"
                 },
                 {
                     "id": "547",
                     "name": "Pediatric"
                 },
                 {
-                    "id": "507",
-                    "name": "Clinical Research"
-                },
-                {
                     "id": "558",
                     "name": "Prevention"
+                },
+                {
+                    "id": "498",
+                    "name": "Behavioral and Social Science"
+                },
+                {
+                    "id": "497",
+                    "name": "Basic Behavioral and Social Science"
                 }
             ],
             "category_ua": [
@@ -1234,7 +1313,6 @@
                 }
             ],
             "concepts": [
-                "AbstractText",
                 "association",
                 "social disadvantage",
                 "early language development",
@@ -1251,12 +1329,10 @@
                 "years of life",
                 "years",
                 "life",
-                "aim",
                 "contribution of gender",
                 "contribution",
                 "gender",
                 "parental reports",
-                "report",
                 "early language skills",
                 "language skills",
                 "skills",
@@ -1265,51 +1341,40 @@
                 "children",
                 "receptive language development",
                 "community",
-                "population cohort",
-                "cohort",
-                "PROCEDURES\"",
                 "focus sample",
                 "samples",
                 "Avon Longitudinal Study",
                 "longitudinal study",
                 "study",
                 "parents",
-                "multivariable regression models",
-                "regression models",
-                "model",
                 "proximal measures",
                 "measures",
                 "distal measures",
-                "months",
                 "verbal comprehension",
                 "comprehension",
-                "expressive vocabulary",
-                "vocabulary",
                 "expressive grammar",
                 "grammar",
                 "years of age",
                 "age",
                 "outcomes",
-                "results",
-                "RESULTS\"",
                 "model gender",
+                "early language",
                 "proximal social factors",
                 "social factors",
                 "factors",
                 "distal factors",
                 "variance",
+                "expressive vocabulary",
+                "vocabulary",
                 "word combinations",
                 "significant predictors",
                 "predictors",
-                "environmental factors",
                 "expressive scales",
                 "scale",
                 "picture",
                 "different processes",
                 "process",
-                "conclusion",
                 "implications",
-                "IMPLICATIONS\"",
                 "argument",
                 "social advantages",
                 "strong contribution",
@@ -1317,15 +1382,14 @@
                 "early years",
                 "parents/carers",
                 "carers",
+                "structural aspects",
                 "family income",
                 "consideration",
                 "relationship",
                 "public health interventions",
                 "health interventions",
                 "intervention",
-                "early language",
                 "pre-literacy skills",
-                "literacy skills",
                 "hand",
                 "home learning environment",
                 "learning environment",
@@ -1386,12 +1450,14 @@
                 "title": "International Journal of Language & Communication Disorders"
             },
             "journal_lists": [
-                "ERA 2015",
-                "Norwegian register level 1",
-                "ERIH PLUS",
                 "VABB-SHW",
+                "ERA 2018",
+                "Norwegian register level 1",
+                "ERA 2015",
+                "ERIH PLUS",
                 "PubMed"
             ],
+            "linkout": "http://eprints.whiterose.ac.uk/156201/8/Law%2C%20Clegg%20et%20al.%2C%20ALSPAC%20Paper%202019%20accepted.pdf",
             "mesh_terms": [
                 "Child Language",
                 "Child, Preschool",
@@ -1411,99 +1477,164 @@
                 "Socioeconomic Factors",
                 "Vulnerable Populations"
             ],
+            "noun_phrases": [
+                "association",
+                "element",
+                "social disadvantage",
+                "child",
+                "language development",
+                "IN",
+                "CIF",
+                "sample",
+                "Avon Longitudinal Study of parent and child",
+                "early language development",
+                "less attention",
+                "different aspect",
+                "language",
+                "contribution",
+                "Gender Identity",
+                "early language",
+                "social variable",
+                "stimulation",
+                "home",
+                "Health Resource",
+                "status",
+                "him/her",
+                "family income",
+                "maternal education",
+                "population",
+                "method",
+                "Avon Longitudinal Study of parent child",
+                "regression model",
+                "parent",
+                "Weight and Measure",
+                "wealth",
+                "development",
+                "comprehension",
+                "vocabulary",
+                "social factor",
+                "distal factor",
+                "variance",
+                "significant predictor",
+                "environmental factor",
+                "scale",
+                "picture",
+                "different mechanism",
+                "implication",
+                "argument",
+                "advantage",
+                "strong contribution",
+                "structural aspect",
+                "housing",
+                "consideration",
+                "public health intervention",
+                "literacy skill",
+                "environment"
+            ],
+            "open_access": [
+                "Open Access - all",
+                "Open Access - repository",
+                "Open Access - accepted"
+            ],
             "open_access_categories": [
                 {
-                    "description": "No freely available copy has been identified",
-                    "id": "closed",
-                    "name": "Closed"
+                    "description": "Article is freely available",
+                    "id": "oa_all",
+                    "name": "All OA"
+                },
+                {
+                    "description": "Free copy of accepted version in an OA repository",
+                    "id": "green_acc",
+                    "name": "Green, Accepted"
                 }
             ],
             "pages": "362-376",
             "pmid": "30479068",
             "publisher": "Wiley",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1011604033",
+                "pub.1068843669",
+                "pub.1053748114",
+                "pub.1098704101",
+                "pub.1036009409",
                 "pub.1014073631",
-                "pub.1069863682",
+                "pub.1053444446",
+                "pub.1003439831",
+                "pub.1050534937",
+                "pub.1085026410",
+                "pub.1037838316",
+                "pub.1110073412",
+                "pub.1067824914",
+                "pub.1013847950",
+                "pub.1109489390",
+                "pub.1012505959",
+                "pub.1019831516",
+                "pub.1053988613",
+                "pub.1020379640",
                 "pub.1004959623",
+                "pub.1069863682",
+                "pub.1046459784",
+                "pub.1067825988",
+                "pub.1046161320",
+                "pub.1064169277",
+                "pub.1019672834",
                 "pub.1039075311",
                 "pub.1037665530",
-                "pub.1098704101",
-                "pub.1012505959",
                 "pub.1085937715",
-                "pub.1053750395",
-                "pub.1050534937",
-                "pub.1064169277",
-                "pub.1034701741",
-                "pub.1063547193",
-                "pub.1109489390",
-                "pub.1067824914",
-                "pub.1082674554",
-                "pub.1053988613",
-                "pub.1046161320",
-                "pub.1037838316",
-                "pub.1010717161",
-                "pub.1040297631",
-                "pub.1001403049",
                 "pub.1038537082",
-                "pub.1025416672",
-                "pub.1036009409",
-                "pub.1019831516",
-                "pub.1085026410",
-                "pub.1068843669",
-                "pub.1013847950",
-                "pub.1110073412",
                 "pub.1050697317",
-                "pub.1053444446",
-                "pub.1020379640",
+                "pub.1053750395",
+                "pub.1001403049",
+                "pub.1082674554",
+                "pub.1011604033",
+                "pub.1010717161",
+                "pub.1025416672",
                 "pub.1041953528",
-                "pub.1019672834",
-                "pub.1053748114",
-                "pub.1003439831",
-                "pub.1046459784",
-                "pub.1067825988"
+                "pub.1063547193",
+                "pub.1040297631",
+                "pub.1034701741"
             ],
             "references": [
-                "pub.1011604033",
+                "pub.1068843669",
+                "pub.1053748114",
+                "pub.1098704101",
+                "pub.1036009409",
                 "pub.1014073631",
-                "pub.1069863682",
+                "pub.1053444446",
+                "pub.1003439831",
+                "pub.1050534937",
+                "pub.1085026410",
+                "pub.1037838316",
+                "pub.1110073412",
+                "pub.1067824914",
+                "pub.1013847950",
+                "pub.1109489390",
+                "pub.1012505959",
+                "pub.1019831516",
+                "pub.1053988613",
+                "pub.1020379640",
                 "pub.1004959623",
+                "pub.1069863682",
+                "pub.1046459784",
+                "pub.1067825988",
+                "pub.1046161320",
+                "pub.1064169277",
+                "pub.1019672834",
                 "pub.1039075311",
                 "pub.1037665530",
-                "pub.1098704101",
-                "pub.1012505959",
                 "pub.1085937715",
-                "pub.1053750395",
-                "pub.1050534937",
-                "pub.1064169277",
-                "pub.1034701741",
-                "pub.1063547193",
-                "pub.1109489390",
-                "pub.1067824914",
-                "pub.1082674554",
-                "pub.1053988613",
-                "pub.1046161320",
-                "pub.1037838316",
-                "pub.1010717161",
-                "pub.1040297631",
-                "pub.1001403049",
                 "pub.1038537082",
-                "pub.1025416672",
-                "pub.1036009409",
-                "pub.1019831516",
-                "pub.1085026410",
-                "pub.1068843669",
-                "pub.1013847950",
-                "pub.1110073412",
                 "pub.1050697317",
-                "pub.1053444446",
-                "pub.1020379640",
+                "pub.1053750395",
+                "pub.1001403049",
+                "pub.1082674554",
+                "pub.1011604033",
+                "pub.1010717161",
+                "pub.1025416672",
                 "pub.1041953528",
-                "pub.1019672834",
-                "pub.1053748114",
-                "pub.1003439831",
-                "pub.1046459784",
-                "pub.1067825988"
+                "pub.1063547193",
+                "pub.1040297631",
+                "pub.1034701741"
             ],
             "research_org_cities": [
                 {
@@ -1532,32 +1663,24 @@
             "research_org_country_names": [
                 "United Kingdom"
             ],
+            "research_org_names": [
+                "University of the West of England",
+                "University of Sheffield",
+                "Newcastle University",
+                "University of Bristol",
+                "Queen Margaret University"
+            ],
             "research_orgs": [
                 {
-                    "acronym": "QMUC",
-                    "city_name": "Edinburgh",
+                    "city_name": "Sheffield",
                     "country_name": "United Kingdom",
-                    "id": "grid.104846.f",
-                    "latitude": 55.93139,
+                    "id": "grid.11835.3e",
+                    "latitude": 53.38139,
                     "linkout": [
-                        "http://www.qmu.ac.uk/"
+                        "http://www.sheffield.ac.uk/"
                     ],
-                    "longitude": -3.073056,
-                    "name": "Queen Margaret University",
-                    "types": [
-                        "Education"
-                    ]
-                },
-                {
-                    "city_name": "Bristol",
-                    "country_name": "United Kingdom",
-                    "id": "grid.5337.2",
-                    "latitude": 51.45639,
-                    "linkout": [
-                        "http://bristol.ac.uk/"
-                    ],
-                    "longitude": -2.604444,
-                    "name": "University of Bristol",
+                    "longitude": -1.488272,
+                    "name": "University of Sheffield",
                     "types": [
                         "Education"
                     ]
@@ -1579,15 +1702,30 @@
                     ]
                 },
                 {
-                    "city_name": "Sheffield",
+                    "city_name": "Bristol",
                     "country_name": "United Kingdom",
-                    "id": "grid.11835.3e",
-                    "latitude": 53.38139,
+                    "id": "grid.5337.2",
+                    "latitude": 51.45639,
                     "linkout": [
-                        "http://www.sheffield.ac.uk/"
+                        "http://bristol.ac.uk/"
                     ],
-                    "longitude": -1.488272,
-                    "name": "University of Sheffield",
+                    "longitude": -2.604444,
+                    "name": "University of Bristol",
+                    "types": [
+                        "Education"
+                    ]
+                },
+                {
+                    "acronym": "QMUC",
+                    "city_name": "Edinburgh",
+                    "country_name": "United Kingdom",
+                    "id": "grid.104846.f",
+                    "latitude": 55.93139,
+                    "linkout": [
+                        "http://www.qmu.ac.uk/"
+                    ],
+                    "longitude": -3.073056,
+                    "name": "Queen Margaret University",
                     "types": [
                         "Education"
                     ]
@@ -1613,12 +1751,12 @@
                     "id": "ur.01335731603.59",
                     "last_name": "Law",
                     "research_orgs": [
+                        "grid.28577.3f",
                         "grid.1058.c",
-                        "grid.1006.7",
-                        "grid.1022.1",
-                        "grid.416107.5",
                         "grid.104846.f",
-                        "grid.28577.3f"
+                        "grid.1022.1",
+                        "grid.1006.7",
+                        "grid.416107.5"
                     ]
                 },
                 {
@@ -1638,25 +1776,25 @@
                     "last_name": "Rush",
                     "research_orgs": [
                         "grid.417068.c",
-                        "grid.1006.7",
-                        "grid.4991.5",
-                        "grid.104846.f",
                         "grid.4305.2",
-                        "grid.46699.34"
+                        "grid.1006.7",
+                        "grid.46699.34",
+                        "grid.104846.f",
+                        "grid.4991.5"
                     ]
                 },
                 {
-                    "first_name": "Susan",
+                    "first_name": "Sue E",
                     "id": "ur.0673707671.95",
                     "last_name": "Roulstone",
                     "research_orgs": [
+                        "grid.104846.f",
+                        "grid.418484.5",
                         "grid.6518.a",
-                        "grid.416201.0",
-                        "grid.5337.2",
                         "grid.83440.3b",
                         "grid.415059.c",
-                        "grid.104846.f",
-                        "grid.418484.5"
+                        "grid.5337.2",
+                        "grid.416201.0"
                     ]
                 },
                 {
@@ -1667,25 +1805,25 @@
                         "0000-0003-2881-4180"
                     ],
                     "research_orgs": [
-                        "grid.1006.7",
-                        "grid.5645.2",
-                        "grid.46699.34",
                         "grid.5600.3",
-                        "grid.13097.3c",
-                        "grid.5337.2",
                         "grid.5570.7",
-                        "grid.415856.b",
+                        "grid.46699.34",
+                        "grid.5645.2",
+                        "grid.13097.3c",
                         "grid.410421.2",
-                        "grid.411024.2",
-                        "grid.6572.6"
+                        "grid.5337.2",
+                        "grid.1006.7",
+                        "grid.6572.6",
+                        "grid.415856.b",
+                        "grid.411024.2"
                     ]
                 }
             ],
             "supporting_grant_ids": [
-                "grant.4576591"
+                "grant.4576591",
+                "grant.2760054"
             ],
             "terms": [
-                "AbstractText",
                 "association",
                 "social disadvantage",
                 "early language development",
@@ -1702,12 +1840,10 @@
                 "years of life",
                 "years",
                 "life",
-                "aim",
                 "contribution of gender",
                 "contribution",
                 "gender",
                 "parental reports",
-                "report",
                 "early language skills",
                 "language skills",
                 "skills",
@@ -1716,51 +1852,40 @@
                 "children",
                 "receptive language development",
                 "community",
-                "population cohort",
-                "cohort",
-                "PROCEDURES\"",
                 "focus sample",
                 "samples",
                 "Avon Longitudinal Study",
                 "longitudinal study",
                 "study",
                 "parents",
-                "multivariable regression models",
-                "regression models",
-                "model",
                 "proximal measures",
                 "measures",
                 "distal measures",
-                "months",
                 "verbal comprehension",
                 "comprehension",
-                "expressive vocabulary",
-                "vocabulary",
                 "expressive grammar",
                 "grammar",
                 "years of age",
                 "age",
                 "outcomes",
-                "results",
-                "RESULTS\"",
                 "model gender",
+                "early language",
                 "proximal social factors",
                 "social factors",
                 "factors",
                 "distal factors",
                 "variance",
+                "expressive vocabulary",
+                "vocabulary",
                 "word combinations",
                 "significant predictors",
                 "predictors",
-                "environmental factors",
                 "expressive scales",
                 "scale",
                 "picture",
                 "different processes",
                 "process",
-                "conclusion",
                 "implications",
-                "IMPLICATIONS\"",
                 "argument",
                 "social advantages",
                 "strong contribution",
@@ -1768,15 +1893,14 @@
                 "early years",
                 "parents/carers",
                 "carers",
+                "structural aspects",
                 "family income",
                 "consideration",
                 "relationship",
                 "public health interventions",
                 "health interventions",
                 "intervention",
-                "early language",
                 "pre-literacy skills",
-                "literacy skills",
                 "hand",
                 "home learning environment",
                 "learning environment",
@@ -1785,6 +1909,7 @@
                 "ALSPAC birth cohort",
                 "birth cohort"
             ],
+            "times_cited": 0,
             "title": "Association of proximal elements of social disadvantage with children's language development at 2 years: an analysis of data from the Children in Focus (CiF) sample from the ALSPAC birth cohort",
             "type": "article",
             "volume": "54",
@@ -2080,13 +2205,29 @@
         },
         "doi": "10.1111/1460-6984.12442",
         "keyphrases": {
+            "childrens expressive and receptive language development": {
+                "count": 1,
+                "rank_score": 0.0647050042076095
+            },
             "childrens language development": {
                 "count": 1,
                 "rank_score": 0.07077485254857936
             },
+            "co-varying": {
+                "count": 1,
+                "rank_score": 0.05228264174603928
+            },
             "different aspects": {
                 "count": 2,
                 "rank_score": 0.07593460973668797
+            },
+            "different mechanisms": {
+                "count": 1,
+                "rank_score": 0.06746222923043743
+            },
+            "distal factors": {
+                "count": 1,
+                "rank_score": 0.06806433371161477
             },
             "distal social variables": {
                 "count": 1,
@@ -2104,6 +2245,10 @@
                 "count": 1,
                 "rank_score": 0.10472631959715273
             },
+            "environmental factors": {
+                "count": 1,
+                "rank_score": 0.055646518946275945
+            },
             "expressive grammar": {
                 "count": 1,
                 "rank_score": 0.07182757641267613
@@ -2111,6 +2256,10 @@
             "expressive vocabulary": {
                 "count": 2,
                 "rank_score": 0.07593249234390223
+            },
+            "family income": {
+                "count": 2,
+                "rank_score": 0.07019080626698064
             },
             "language": {
                 "count": 1,
@@ -2120,6 +2269,14 @@
                 "count": 1,
                 "rank_score": 0.1042499853793119
             },
+            "multivariable regression models": {
+                "count": 1,
+                "rank_score": 0.061205569518814076
+            },
+            "pre-literacy skills": {
+                "count": 1,
+                "rank_score": 0.058521565901455054
+            },
             "proximal social factors": {
                 "count": 1,
                 "rank_score": 0.09621174556266149
@@ -2127,6 +2284,10 @@
             "proximal social variables": {
                 "count": 1,
                 "rank_score": 0.09313150908463921
+            },
+            "public health interventions": {
+                "count": 1,
+                "rank_score": 0.05743755850922022
             },
             "receptive language": {
                 "count": 2,
@@ -2139,6 +2300,10 @@
             "social disadvantage": {
                 "count": 4,
                 "rank_score": 0.09814736229952387
+            },
+            "structural aspects": {
+                "count": 1,
+                "rank_score": 0.057266362143955266
             }
         },
         "original": {
@@ -2181,36 +2346,37 @@
             ],
             "HRCS_HC": [
                 {
-                    "id": "894",
-                    "name": "Cardiovascular"
-                },
-                {
                     "id": "909",
                     "name": "Stroke"
                 },
                 {
-                    "id": "911",
-                    "name": "Cancer"
+                    "id": "894",
+                    "name": "Cardiovascular"
                 },
                 {
                     "id": "906",
                     "name": "Metabolic and Endocrine"
+                },
+                {
+                    "id": "911",
+                    "name": "Cancer"
                 }
             ],
             "RCDC": [
                 {
-                    "id": "547",
-                    "name": "Pediatric"
+                    "id": "388",
+                    "name": "Nutrition"
                 },
                 {
                     "id": "389",
                     "name": "Obesity"
                 },
                 {
-                    "id": "388",
-                    "name": "Nutrition"
+                    "id": "547",
+                    "name": "Pediatric"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -2229,6 +2395,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.263856.c",
                         "first_name": "Jebaraj",
+                        "initials": "",
                         "last_name": "Asirvatham",
                         "orcid": "['0000-0002-5374-5271']",
                         "researcher_id": "ur.014410270607.54"
@@ -2249,6 +2416,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.411017.2",
                         "first_name": "Michael R.",
+                        "initials": "",
                         "last_name": "Thomsen",
                         "orcid": "",
                         "researcher_id": "ur.01255146542.92"
@@ -2269,6 +2437,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.411017.2",
                         "first_name": "Rodolfo M.",
+                        "initials": "",
                         "last_name": "Nayga",
                         "orcid": "",
                         "researcher_id": "ur.012663275027.98"
@@ -2292,6 +2461,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.263856.c",
                     "first_name": "Jebaraj",
+                    "initials": "",
                     "last_name": "Asirvatham",
                     "orcid": "['0000-0002-5374-5271']",
                     "researcher_id": "ur.014410270607.54"
@@ -2312,6 +2482,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.411017.2",
                     "first_name": "Michael R.",
+                    "initials": "",
                     "last_name": "Thomsen",
                     "orcid": "",
                     "researcher_id": "ur.01255146542.92"
@@ -2332,6 +2503,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.411017.2",
                     "first_name": "Rodolfo M.",
+                    "initials": "",
                     "last_name": "Nayga",
                     "orcid": "",
                     "researcher_id": "ur.012663275027.98"
@@ -2361,36 +2533,37 @@
             ],
             "category_hrcs_hc": [
                 {
-                    "id": "894",
-                    "name": "Cardiovascular"
-                },
-                {
                     "id": "909",
                     "name": "Stroke"
                 },
                 {
-                    "id": "911",
-                    "name": "Cancer"
+                    "id": "894",
+                    "name": "Cardiovascular"
                 },
                 {
                     "id": "906",
                     "name": "Metabolic and Endocrine"
+                },
+                {
+                    "id": "911",
+                    "name": "Cancer"
                 }
             ],
             "category_rcdc": [
                 {
-                    "id": "547",
-                    "name": "Pediatric"
+                    "id": "388",
+                    "name": "Nutrition"
                 },
                 {
                     "id": "389",
                     "name": "Obesity"
                 },
                 {
-                    "id": "388",
-                    "name": "Nutrition"
+                    "id": "547",
+                    "name": "Pediatric"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30023",
@@ -2406,7 +2579,6 @@
             "concepts": [
                 "health problems",
                 "problem",
-                "risk",
                 "socioeconomic outcomes",
                 "outcomes",
                 "academic outcomes",
@@ -2418,7 +2590,6 @@
                 "decades",
                 "study",
                 "student obesity",
-                "own educational outcomes",
                 "educational outcomes",
                 "context of obesity",
                 "context",
@@ -2435,16 +2606,12 @@
                 "public school students",
                 "school students",
                 "students",
-                "grades kindergarten",
-                "kindergarten",
+                "grade",
                 "similar factors",
                 "factors",
                 "school hierarchy",
-                "grade",
+                "hierarchy",
                 "schools",
-                "district-level",
-                "obesity prevalence",
-                "prevalence",
                 "percentage of students",
                 "proficiency levels",
                 "literacy",
@@ -2461,8 +2628,7 @@
                 "school settings",
                 "setting",
                 "small percentage",
-                "vice versa",
-                "versa",
+                "vice",
                 "childhood obesity",
                 "public school children",
                 "school children"
@@ -2524,10 +2690,43 @@
                 "title": "Educational Research"
             },
             "journal_lists": [
-                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018",
                 "Norwegian register level 2",
-                "ERIH PLUS",
-                "VABB-SHW"
+                "ERA 2015",
+                "ERIH PLUS"
+            ],
+            "noun_phrases": [
+                "Pediatric Obesity",
+                "academic performance",
+                "public school",
+                "health problem",
+                "significant risk",
+                "obesity",
+                "socioeconomic outcome",
+                "academic outcome",
+                "obesity rate",
+                "educational outcome",
+                "grade level",
+                "stigmatisation",
+                "method",
+                "variable",
+                "proficiency",
+                "public school student",
+                "kindergarten",
+                "Arkansas",
+                "multilevel method",
+                "similar factor",
+                "hierarchy",
+                "school district",
+                "obesity prevalence",
+                "math",
+                "obese child",
+                "association",
+                "conclusion",
+                "obese",
+                "psychological consequence",
+                "school setting"
             ],
             "open_access_categories": [
                 {
@@ -2538,87 +2737,88 @@
             ],
             "pages": "1-21",
             "publisher": "Taylor & Francis",
+            "recent_citations": 0,
             "reference_ids": [
                 "pub.1010663826",
-                "pub.1034758059",
-                "pub.1032593299",
-                "pub.1049455738",
-                "pub.1017502371",
-                "pub.1012605546",
-                "pub.1070145080",
-                "pub.1058794931",
-                "pub.1012956738",
-                "pub.1101067963",
-                "pub.1050772149",
-                "pub.1015618166",
-                "pub.1015375936",
+                "pub.1045816471",
                 "pub.1033608353",
+                "pub.1013662524",
+                "pub.1070145080",
+                "pub.1032593299",
+                "pub.1045778279",
+                "pub.1058794931",
+                "pub.1029836515",
+                "pub.1035422173",
+                "pub.1101067963",
+                "pub.1045107634",
+                "pub.1015618166",
                 "pub.1017106430",
                 "pub.1043319583",
-                "pub.1014894519",
-                "pub.1045816471",
-                "pub.1025032046",
-                "pub.1010637781",
-                "pub.1039454805",
-                "pub.1019163800",
-                "pub.1064528514",
-                "pub.1035422173",
-                "pub.1045107634",
-                "pub.1029836515",
-                "pub.1013662524",
-                "pub.1039763005",
-                "pub.1053030167",
-                "pub.1021939589",
-                "pub.1045778279",
-                "pub.1023262698",
-                "pub.1070194673",
-                "pub.1020791959",
-                "pub.1052876714",
-                "pub.1062429183",
-                "pub.1051291549",
                 "pub.1035212729",
-                "pub.1053874805"
+                "pub.1017502371",
+                "pub.1064528514",
+                "pub.1015375936",
+                "pub.1010637781",
+                "pub.1053030167",
+                "pub.1012956738",
+                "pub.1053874805",
+                "pub.1012605546",
+                "pub.1014894519",
+                "pub.1034758059",
+                "pub.1039454805",
+                "pub.1023262698",
+                "pub.1050772149",
+                "pub.1020791959",
+                "pub.1051291549",
+                "pub.1052876714",
+                "pub.1049455738",
+                "pub.1070194673",
+                "pub.1039763005",
+                "pub.1021939589",
+                "pub.1019163800",
+                "pub.1062429183",
+                "pub.1025032046"
             ],
             "references": [
                 "pub.1010663826",
-                "pub.1034758059",
-                "pub.1032593299",
-                "pub.1049455738",
-                "pub.1017502371",
-                "pub.1012605546",
-                "pub.1070145080",
-                "pub.1058794931",
-                "pub.1012956738",
-                "pub.1101067963",
-                "pub.1050772149",
-                "pub.1015618166",
-                "pub.1015375936",
+                "pub.1045816471",
                 "pub.1033608353",
+                "pub.1013662524",
+                "pub.1070145080",
+                "pub.1032593299",
+                "pub.1045778279",
+                "pub.1058794931",
+                "pub.1029836515",
+                "pub.1035422173",
+                "pub.1101067963",
+                "pub.1045107634",
+                "pub.1015618166",
                 "pub.1017106430",
                 "pub.1043319583",
-                "pub.1014894519",
-                "pub.1045816471",
-                "pub.1025032046",
-                "pub.1010637781",
-                "pub.1039454805",
-                "pub.1019163800",
-                "pub.1064528514",
-                "pub.1035422173",
-                "pub.1045107634",
-                "pub.1029836515",
-                "pub.1013662524",
-                "pub.1039763005",
-                "pub.1053030167",
-                "pub.1021939589",
-                "pub.1045778279",
-                "pub.1023262698",
-                "pub.1070194673",
-                "pub.1020791959",
-                "pub.1052876714",
-                "pub.1062429183",
-                "pub.1051291549",
                 "pub.1035212729",
-                "pub.1053874805"
+                "pub.1017502371",
+                "pub.1064528514",
+                "pub.1015375936",
+                "pub.1010637781",
+                "pub.1053030167",
+                "pub.1012956738",
+                "pub.1053874805",
+                "pub.1012605546",
+                "pub.1014894519",
+                "pub.1034758059",
+                "pub.1039454805",
+                "pub.1023262698",
+                "pub.1050772149",
+                "pub.1020791959",
+                "pub.1051291549",
+                "pub.1052876714",
+                "pub.1049455738",
+                "pub.1070194673",
+                "pub.1039763005",
+                "pub.1021939589",
+                "pub.1019163800",
+                "pub.1062429183",
+                "pub.1025032046"
             ],
             "research_org_cities": [
                 {
@@ -2638,6 +2838,10 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "Southern Illinois University Carbondale",
+                "University of Arkansas at Fayetteville"
             ],
             "research_org_state_codes": [
                 {
@@ -2695,9 +2899,9 @@
                         "0000-0002-5374-5271"
                     ],
                     "research_orgs": [
-                        "grid.411026.0",
                         "grid.411017.2",
-                        "grid.263856.c"
+                        "grid.263856.c",
+                        "grid.411026.0"
                     ]
                 },
                 {
@@ -2705,8 +2909,8 @@
                     "id": "ur.01255146542.92",
                     "last_name": "Thomsen",
                     "research_orgs": [
-                        "grid.250279.b",
                         "grid.194632.b",
+                        "grid.250279.b",
                         "grid.411017.2"
                     ]
                 },
@@ -2715,19 +2919,19 @@
                     "id": "ur.012663275027.98",
                     "last_name": "Nayga",
                     "research_orgs": [
-                        "grid.411017.2",
-                        "grid.222754.4",
-                        "grid.10985.35",
-                        "grid.264756.4",
+                        "grid.194632.b",
                         "grid.148374.d",
-                        "grid.454322.6",
-                        "grid.250279.b",
-                        "grid.430387.b",
-                        "grid.6292.f",
-                        "grid.411461.7",
-                        "grid.36567.31",
+                        "grid.411017.2",
                         "grid.5510.1",
-                        "grid.194632.b"
+                        "grid.6292.f",
+                        "grid.10985.35",
+                        "grid.36567.31",
+                        "grid.264756.4",
+                        "grid.454322.6",
+                        "grid.411461.7",
+                        "grid.430387.b",
+                        "grid.222754.4",
+                        "grid.250279.b"
                     ]
                 }
             ],
@@ -2737,7 +2941,6 @@
             "terms": [
                 "health problems",
                 "problem",
-                "risk",
                 "socioeconomic outcomes",
                 "outcomes",
                 "academic outcomes",
@@ -2749,7 +2952,6 @@
                 "decades",
                 "study",
                 "student obesity",
-                "own educational outcomes",
                 "educational outcomes",
                 "context of obesity",
                 "context",
@@ -2766,16 +2968,12 @@
                 "public school students",
                 "school students",
                 "students",
-                "grades kindergarten",
-                "kindergarten",
+                "grade",
                 "similar factors",
                 "factors",
                 "school hierarchy",
-                "grade",
+                "hierarchy",
                 "schools",
-                "district-level",
-                "obesity prevalence",
-                "prevalence",
                 "percentage of students",
                 "proficiency levels",
                 "literacy",
@@ -2792,12 +2990,12 @@
                 "school settings",
                 "setting",
                 "small percentage",
-                "vice versa",
-                "versa",
+                "vice",
                 "childhood obesity",
                 "public school children",
                 "school children"
             ],
+            "times_cited": 0,
             "title": "Childhood obesity and academic performance among elementary public school children",
             "type": "article",
             "volume": "61",
@@ -2967,9 +3165,33 @@
                 "count": 1,
                 "rank_score": 0.115057737993643
             },
+            "attention": {
+                "count": 1,
+                "rank_score": 0.05949266695994279
+            },
+            "existing studies": {
+                "count": 1,
+                "rank_score": 0.04945413303778906
+            },
+            "grade-, school- and school district-l": {
+                "count": 1,
+                "rank_score": 0.04182466620697963
+            },
             "health problems": {
                 "count": 2,
                 "rank_score": 0.09391228692938539
+            },
+            "interest": {
+                "count": 1,
+                "rank_score": 0.0606649806403104
+            },
+            "last few decades": {
+                "count": 2,
+                "rank_score": 0.052221222759451784
+            },
+            "main variables": {
+                "count": 1,
+                "rank_score": 0.041101408246542744
             },
             "methods": {
                 "count": 1,
@@ -2995,21 +3217,37 @@
                 "count": 1,
                 "rank_score": 0.12477617913378201
             },
+            "school hierarchy": {
+                "count": 1,
+                "rank_score": 0.054062189276851455
+            },
             "several socioeconomic outcomes": {
                 "count": 1,
                 "rank_score": 0.09138410452588835
+            },
+            "significant risk": {
+                "count": 1,
+                "rank_score": 0.042727878564979276
             },
             "similar factors": {
                 "count": 1,
                 "rank_score": 0.0801497706826137
             },
+            "stigmatisation": {
+                "count": 1,
+                "rank_score": 0.04401557803909954
+            },
+            "student": {
+                "count": 1,
+                "rank_score": 0.053574992312403945
+            },
+            "student grade level": {
+                "count": 1,
+                "rank_score": 0.07882445175261865
+            },
             "student obesity": {
                 "count": 1,
                 "rank_score": 0.13839074877435756
-            },
-            "the student grade level": {
-                "count": 1,
-                "rank_score": 0.07882445175261865
             },
             "various levels": {
                 "count": 1,
@@ -3040,12 +3278,12 @@
             ],
             "RCDC": [
                 {
-                    "id": "388",
-                    "name": "Nutrition"
-                },
-                {
                     "id": "547",
                     "name": "Pediatric"
+                },
+                {
+                    "id": "388",
+                    "name": "Nutrition"
                 },
                 {
                     "id": "558",
@@ -3082,6 +3320,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.214458.e",
                         "first_name": "Dina H.",
+                        "initials": "",
                         "last_name": "Griauzde",
                         "orcid": "",
                         "researcher_id": "ur.07454731000.25"
@@ -3097,11 +3336,32 @@
                                 "name": "University of Michigan–Ann Arbor",
                                 "state": "Michigan",
                                 "state_code": "US-MI"
+                            },
+                            {
+                                "city": "Ann Arbor",
+                                "city_id": 4984247,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.214458.e",
+                                "name": "University of Michigan–Ann Arbor",
+                                "state": "Michigan",
+                                "state_code": "US-MI"
+                            },
+                            {
+                                "city": "Ann Arbor",
+                                "city_id": 4984247,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.214458.e",
+                                "name": "University of Michigan–Ann Arbor",
+                                "state": "Michigan",
+                                "state_code": "US-MI"
                             }
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.214458.e",
                         "first_name": "Julie C.",
+                        "initials": "",
                         "last_name": "Lumeng",
                         "orcid": "['0000-0002-7898-8210']",
                         "researcher_id": "ur.01305472417.36"
@@ -3117,11 +3377,22 @@
                                 "name": "University of Michigan–Ann Arbor",
                                 "state": "Michigan",
                                 "state_code": "US-MI"
+                            },
+                            {
+                                "city": "Ann Arbor",
+                                "city_id": 4984247,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.214458.e",
+                                "name": "University of Michigan–Ann Arbor",
+                                "state": "Michigan",
+                                "state_code": "US-MI"
                             }
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.214458.e",
                         "first_name": "Prachi E.",
+                        "initials": "",
                         "last_name": "Shah",
                         "orcid": "",
                         "researcher_id": "ur.0711305335.06"
@@ -3137,11 +3408,22 @@
                                 "name": "University of Michigan–Ann Arbor",
                                 "state": "Michigan",
                                 "state_code": "US-MI"
+                            },
+                            {
+                                "city": "Ann Arbor",
+                                "city_id": 4984247,
+                                "country": "United States",
+                                "country_code": "US",
+                                "id": "grid.214458.e",
+                                "name": "University of Michigan–Ann Arbor",
+                                "state": "Michigan",
+                                "state_code": "US-MI"
                             }
                         ],
                         "corresponding": "",
                         "current_organization_id": "grid.214458.e",
                         "first_name": "Niko",
+                        "initials": "",
                         "last_name": "Kaciroti",
                         "orcid": "['0000-0001-8843-8231']",
                         "researcher_id": "ur.01363204572.69"
@@ -3175,6 +3457,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.214458.e",
                     "first_name": "Dina H.",
+                    "initials": "",
                     "last_name": "Griauzde",
                     "orcid": "",
                     "researcher_id": "ur.07454731000.25"
@@ -3190,11 +3473,32 @@
                             "name": "University of Michigan–Ann Arbor",
                             "state": "Michigan",
                             "state_code": "US-MI"
+                        },
+                        {
+                            "city": "Ann Arbor",
+                            "city_id": 4984247,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.214458.e",
+                            "name": "University of Michigan–Ann Arbor",
+                            "state": "Michigan",
+                            "state_code": "US-MI"
+                        },
+                        {
+                            "city": "Ann Arbor",
+                            "city_id": 4984247,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.214458.e",
+                            "name": "University of Michigan–Ann Arbor",
+                            "state": "Michigan",
+                            "state_code": "US-MI"
                         }
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.214458.e",
                     "first_name": "Julie C.",
+                    "initials": "",
                     "last_name": "Lumeng",
                     "orcid": "['0000-0002-7898-8210']",
                     "researcher_id": "ur.01305472417.36"
@@ -3210,11 +3514,22 @@
                             "name": "University of Michigan–Ann Arbor",
                             "state": "Michigan",
                             "state_code": "US-MI"
+                        },
+                        {
+                            "city": "Ann Arbor",
+                            "city_id": 4984247,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.214458.e",
+                            "name": "University of Michigan–Ann Arbor",
+                            "state": "Michigan",
+                            "state_code": "US-MI"
                         }
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.214458.e",
                     "first_name": "Prachi E.",
+                    "initials": "",
                     "last_name": "Shah",
                     "orcid": "",
                     "researcher_id": "ur.0711305335.06"
@@ -3230,11 +3545,22 @@
                             "name": "University of Michigan–Ann Arbor",
                             "state": "Michigan",
                             "state_code": "US-MI"
+                        },
+                        {
+                            "city": "Ann Arbor",
+                            "city_id": 4984247,
+                            "country": "United States",
+                            "country_code": "US",
+                            "id": "grid.214458.e",
+                            "name": "University of Michigan–Ann Arbor",
+                            "state": "Michigan",
+                            "state_code": "US-MI"
                         }
                     ],
                     "corresponding": "",
                     "current_organization_id": "grid.214458.e",
                     "first_name": "Niko",
+                    "initials": "",
                     "last_name": "Kaciroti",
                     "orcid": "['0000-0001-8843-8231']",
                     "researcher_id": "ur.01363204572.69"
@@ -3264,12 +3590,12 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "388",
-                    "name": "Nutrition"
-                },
-                {
                     "id": "547",
                     "name": "Pediatric"
+                },
+                {
+                    "id": "388",
+                    "name": "Nutrition"
                 },
                 {
                     "id": "558",
@@ -3294,7 +3620,7 @@
                 "differences",
                 "body mass index z",
                 "index z",
-                "score trajectories",
+                "scores",
                 "early childhood",
                 "childhood",
                 "children",
@@ -3322,23 +3648,21 @@
                 "diet quality",
                 "quality",
                 "months",
-                "preschool",
-                "piecewise linear regression model",
                 "linear regression models",
                 "regression models",
                 "association",
                 "birth",
-                "BMIz trajectory",
+                "BMIz",
                 "mediation",
-                "new sibling",
                 "family",
                 "sibships",
                 "representative cohort",
                 "US children",
+                "lower BMIz",
                 "obesogenic risk factors",
                 "risk factors",
                 "factors",
-                "lower body mass index z"
+                "lower body mass index (BMI) z"
             ],
             "date": "2019-01-01",
             "date_inserted": "2018-06-20",
@@ -3348,12 +3672,13 @@
                 "1876-2859",
                 "1876-2867"
             ],
-            "issue": "JAMA 315 21 2016",
+            "issue": "1",
             "journal": {
                 "id": "jour.1028479",
                 "title": "Academic Pediatrics"
             },
             "journal_lists": [
+                "ERA 2018",
                 "Norwegian register level 1",
                 "ERA 2015",
                 "PubMed"
@@ -3372,6 +3697,38 @@
                 "Pediatric Obesity",
                 "Siblings"
             ],
+            "noun_phrases": [
+                "body mass index",
+                "early childhood",
+                "Parturition",
+                "young sibling",
+                "difference",
+                "trajectory",
+                "child",
+                "potential mediator",
+                "method",
+                "longitudinal cohort study",
+                "Early Childhood Longitudinal Study",
+                "birth cohort",
+                "ECLS-B",
+                "weight",
+                "height",
+                "sibships",
+                "screen time",
+                "frequency",
+                "diet quality",
+                "preschool",
+                "kindergarten",
+                "linear regression model",
+                "association",
+                "sibling",
+                "Negotiating",
+                "family",
+                "conclusion",
+                "representative cohort",
+                "US child",
+                "risk factor"
+            ],
             "open_access_categories": [
                 {
                     "description": "No freely available copy has been identified",
@@ -3382,73 +3739,74 @@
             "pages": "51-57",
             "pmid": "29920332",
             "publisher": "Elsevier",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1084108959",
-                "pub.1067821475",
-                "pub.1050555541",
-                "pub.1047240666",
-                "pub.1067831224",
-                "pub.1090665342",
-                "pub.1046055125",
-                "pub.1070365147",
-                "pub.1050069548",
-                "pub.1001980850",
-                "pub.1002205655",
-                "pub.1023819708",
-                "pub.1051886435",
-                "pub.1035939030",
-                "pub.1078241635",
-                "pub.1090898440",
-                "pub.1031243890",
-                "pub.1034094594",
-                "pub.1035432861",
-                "pub.1005267540",
-                "pub.1029224350",
-                "pub.1049049147",
-                "pub.1019570619",
-                "pub.1024544056",
-                "pub.1003320962",
-                "pub.1030170002",
-                "pub.1046573794",
                 "pub.1078146137",
-                "pub.1014578262",
-                "pub.1018832050",
+                "pub.1031243890",
                 "pub.1037961706",
-                "pub.1047399748"
+                "pub.1034094594",
+                "pub.1024544056",
+                "pub.1023819708",
+                "pub.1019570619",
+                "pub.1046055125",
+                "pub.1001980850",
+                "pub.1035939030",
+                "pub.1003320962",
+                "pub.1005267540",
+                "pub.1051886435",
+                "pub.1018832050",
+                "pub.1090898440",
+                "pub.1050555541",
+                "pub.1084108959",
+                "pub.1029224350",
+                "pub.1050069548",
+                "pub.1049049147",
+                "pub.1002205655",
+                "pub.1030170002",
+                "pub.1047399748",
+                "pub.1047240666",
+                "pub.1078241635",
+                "pub.1067831224",
+                "pub.1035432861",
+                "pub.1014578262",
+                "pub.1090665342",
+                "pub.1046573794",
+                "pub.1070365147",
+                "pub.1067821475"
             ],
             "references": [
-                "pub.1084108959",
-                "pub.1067821475",
-                "pub.1050555541",
-                "pub.1047240666",
-                "pub.1067831224",
-                "pub.1090665342",
-                "pub.1046055125",
-                "pub.1070365147",
-                "pub.1050069548",
-                "pub.1001980850",
-                "pub.1002205655",
-                "pub.1023819708",
-                "pub.1051886435",
-                "pub.1035939030",
-                "pub.1078241635",
-                "pub.1090898440",
-                "pub.1031243890",
-                "pub.1034094594",
-                "pub.1035432861",
-                "pub.1005267540",
-                "pub.1029224350",
-                "pub.1049049147",
-                "pub.1019570619",
-                "pub.1024544056",
-                "pub.1003320962",
-                "pub.1030170002",
-                "pub.1046573794",
                 "pub.1078146137",
-                "pub.1014578262",
-                "pub.1018832050",
+                "pub.1031243890",
                 "pub.1037961706",
-                "pub.1047399748"
+                "pub.1034094594",
+                "pub.1024544056",
+                "pub.1023819708",
+                "pub.1019570619",
+                "pub.1046055125",
+                "pub.1001980850",
+                "pub.1035939030",
+                "pub.1003320962",
+                "pub.1005267540",
+                "pub.1051886435",
+                "pub.1018832050",
+                "pub.1090898440",
+                "pub.1050555541",
+                "pub.1084108959",
+                "pub.1029224350",
+                "pub.1050069548",
+                "pub.1049049147",
+                "pub.1002205655",
+                "pub.1030170002",
+                "pub.1047399748",
+                "pub.1047240666",
+                "pub.1078241635",
+                "pub.1067831224",
+                "pub.1035432861",
+                "pub.1014578262",
+                "pub.1090665342",
+                "pub.1046573794",
+                "pub.1070365147",
+                "pub.1067821475"
             ],
             "research_org_cities": [
                 {
@@ -3465,6 +3823,10 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "VA Center for Clinical Management Research",
+                "University of Michigan–Ann Arbor"
+            ],
             "research_org_state_codes": [
                 {
                     "id": "US-MI",
@@ -3475,22 +3837,6 @@
                 "Michigan"
             ],
             "research_orgs": [
-                {
-                    "acronym": "UM",
-                    "city_name": "Ann Arbor",
-                    "country_name": "United States",
-                    "id": "grid.214458.e",
-                    "latitude": 42.278305,
-                    "linkout": [
-                        "https://www.umich.edu/"
-                    ],
-                    "longitude": -83.73822,
-                    "name": "University of Michigan",
-                    "state_name": "Michigan",
-                    "types": [
-                        "Education"
-                    ]
-                },
                 {
                     "acronym": "CCMR",
                     "city_name": "Ann Arbor",
@@ -3506,6 +3852,22 @@
                     "types": [
                         "Healthcare"
                     ]
+                },
+                {
+                    "acronym": "UM",
+                    "city_name": "Ann Arbor",
+                    "country_name": "United States",
+                    "id": "grid.214458.e",
+                    "latitude": 42.278305,
+                    "linkout": [
+                        "https://www.umich.edu/"
+                    ],
+                    "longitude": -83.73822,
+                    "name": "University of Michigan",
+                    "state_name": "Michigan",
+                    "types": [
+                        "Education"
+                    ]
                 }
             ],
             "researchers": [
@@ -3514,9 +3876,9 @@
                     "id": "ur.07454731000.25",
                     "last_name": "Griauzde",
                     "research_orgs": [
-                        "grid.214458.e",
                         "grid.497654.d",
-                        "grid.413800.e"
+                        "grid.413800.e",
+                        "grid.214458.e"
                     ]
                 },
                 {
@@ -3527,10 +3889,10 @@
                         "0000-0002-7898-8210"
                     ],
                     "research_orgs": [
-                        "grid.5288.7",
-                        "grid.412590.b",
+                        "grid.214458.e",
                         "grid.189504.1",
-                        "grid.214458.e"
+                        "grid.5288.7",
+                        "grid.412590.b"
                     ]
                 },
                 {
@@ -3549,10 +3911,10 @@
                         "0000-0001-8843-8231"
                     ],
                     "research_orgs": [
-                        "grid.412590.b",
+                        "grid.214458.e",
                         "grid.418152.b",
-                        "grid.266093.8",
-                        "grid.214458.e"
+                        "grid.412590.b",
+                        "grid.266093.8"
                     ]
                 }
             ],
@@ -3562,7 +3924,7 @@
                 "differences",
                 "body mass index z",
                 "index z",
-                "score trajectories",
+                "scores",
                 "early childhood",
                 "childhood",
                 "children",
@@ -3590,24 +3952,23 @@
                 "diet quality",
                 "quality",
                 "months",
-                "preschool",
-                "piecewise linear regression model",
                 "linear regression models",
                 "regression models",
                 "association",
                 "birth",
-                "BMIz trajectory",
+                "BMIz",
                 "mediation",
-                "new sibling",
                 "family",
                 "sibships",
                 "representative cohort",
                 "US children",
+                "lower BMIz",
                 "obesogenic risk factors",
                 "risk factors",
                 "factors",
-                "lower body mass index z"
+                "lower body mass index (BMI) z"
             ],
+            "times_cited": 0,
             "title": "Lower Body mass index z-score trajectory during early childhood following the birth of a younger sibling",
             "type": "article",
             "volume": "19",
@@ -3786,6 +4147,10 @@
                 "count": 1,
                 "rank_score": 0.10478651804963164
             },
+            "birth": {
+                "count": 1,
+                "rank_score": 0.048173980488545834
+            },
             "birth cohort": {
                 "count": 1,
                 "rank_score": 0.0711127099251166
@@ -3798,6 +4163,10 @@
                 "count": 1,
                 "rank_score": 0.09162917788099093
             },
+            "body mass index z-score (bmiz) trajectory": {
+                "count": 1,
+                "rank_score": 0.05330832727090635
+            },
             "children": {
                 "count": 3,
                 "rank_score": 0.09062409798228067
@@ -3806,9 +4175,25 @@
                 "count": 3,
                 "rank_score": 0.07704245548470386
             },
+            "early childhood": {
+                "count": 1,
+                "rank_score": 0.054509413971034745
+            },
+            "early childhood longitudinal study": {
+                "count": 1,
+                "rank_score": 0.05991099595627184
+            },
+            "early childhood longitudinal study, birth cohort": {
+                "count": 1,
+                "rank_score": 0.056010352386973036
+            },
             "family dinner": {
                 "count": 3,
                 "rank_score": 0.089750018014978
+            },
+            "focal child": {
+                "count": 1,
+                "rank_score": 0.06017282966951645
             },
             "focal childrens weight": {
                 "count": 1,
@@ -3822,9 +4207,25 @@
                 "count": 4,
                 "rank_score": 0.06773100077510902
             },
+            "longitudinal cohort study": {
+                "count": 1,
+                "rank_score": 0.054958179449562036
+            },
+            "lower bmiz trajectory": {
+                "count": 1,
+                "rank_score": 0.06179058361954651
+            },
             "new sibship": {
                 "count": 2,
                 "rank_score": 0.08716002047991953
+            },
+            "piecewise linear regression model": {
+                "count": 1,
+                "rank_score": 0.05688240962209293
+            },
+            "potential mediators": {
+                "count": 1,
+                "rank_score": 0.055406952467086476
             },
             "screen time": {
                 "count": 3,
@@ -3867,12 +4268,12 @@
             ],
             "RCDC": [
                 {
-                    "id": "416",
-                    "name": "Contraception/Reproduction"
-                },
-                {
                     "id": "498",
                     "name": "Behavioral and Social Science"
+                },
+                {
+                    "id": "416",
+                    "name": "Contraception/Reproduction"
                 }
             ],
             "altmetric": 4.0,
@@ -3884,6 +4285,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.417837.e",
                         "first_name": "Athena",
+                        "initials": "",
                         "last_name": "Tapales",
                         "orcid": "",
                         "researcher_id": "ur.01221572617.69"
@@ -3893,6 +4295,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Sheila",
+                        "initials": "",
                         "last_name": "Desai",
                         "orcid": "",
                         "researcher_id": ""
@@ -3902,6 +4305,7 @@
                         "corresponding": "",
                         "current_organization_id": "",
                         "first_name": "Ellie",
+                        "initials": "",
                         "last_name": "Leong",
                         "orcid": "",
                         "researcher_id": ""
@@ -3914,6 +4318,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.417837.e",
                     "first_name": "Athena",
+                    "initials": "",
                     "last_name": "Tapales",
                     "orcid": "",
                     "researcher_id": "ur.01221572617.69"
@@ -3923,6 +4328,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Sheila",
+                    "initials": "",
                     "last_name": "Desai",
                     "orcid": "",
                     "researcher_id": ""
@@ -3932,6 +4338,7 @@
                     "corresponding": "",
                     "current_organization_id": "",
                     "first_name": "Ellie",
+                    "initials": "",
                     "last_name": "Leong",
                     "orcid": "",
                     "researcher_id": ""
@@ -3961,12 +4368,12 @@
             ],
             "category_rcdc": [
                 {
-                    "id": "416",
-                    "name": "Contraception/Reproduction"
-                },
-                {
                     "id": "498",
                     "name": "Behavioral and Social Science"
+                },
+                {
+                    "id": "416",
+                    "name": "Contraception/Reproduction"
                 }
             ],
             "category_ua": [
@@ -3982,6 +4389,7 @@
                 }
             ],
             "concepts": [
+                "paper",
                 "data sources",
                 "reproductive health",
                 "health",
@@ -3996,7 +4404,6 @@
                 "race/ethnicity",
                 "ethnicity",
                 "challenges",
-                "study design",
                 "national level",
                 "levels",
                 "National Longitudinal Study",
@@ -4012,7 +4419,6 @@
                 "New York City Community Health Survey",
                 "Community Health Survey",
                 "Health Survey",
-                "present opportunities",
                 "opportunities",
                 "research",
                 "public health surveillance",
@@ -4022,7 +4428,8 @@
                 "program",
                 "underserved populations",
                 "population",
-                "data opportunities"
+                "data opportunities",
+                "Sexual"
             ],
             "date": "2019-01-01",
             "date_inserted": "2019-05-29",
@@ -4062,11 +4469,50 @@
                 "title": "Journal of Health Care for the Poor and Underserved"
             },
             "journal_lists": [
-                "ERA 2015",
+                "ERA 2018",
                 "Norwegian register level 1",
+                "ERA 2015",
                 "PubMed"
             ],
             "linkout": "https://muse.jhu.edu/article/724525/pdf",
+            "mesh_terms": [
+                "Continental Population Groups",
+                "Datasets as Topic",
+                "Emigrants and Immigrants",
+                "Ethnic Groups",
+                "Humans",
+                "Patient Acceptance of Health Care",
+                "Reproductive Health",
+                "Sexual Health",
+                "United States"
+            ],
+            "noun_phrases": [
+                "reproductive health",
+                "United State",
+                "paper",
+                "review",
+                "local level",
+                "sexual and reproductive health",
+                "Emigrant and Immigrant",
+                "public use",
+                "Emigration and Immigration",
+                "health service utilization",
+                "race/ethnicity",
+                "challenge",
+                "study design",
+                "content",
+                "local source",
+                "national level",
+                "National",
+                "longitudinal study",
+                "national survey",
+                "family",
+                "New York City",
+                "present opportunity",
+                "public health surveillance",
+                "policy",
+                "vulnerable population"
+            ],
             "open_access": [
                 "Open Access - all",
                 "Open Access - publisher",
@@ -4088,49 +4534,50 @@
             "pmcid": "PMC6691731",
             "pmid": "31130538",
             "publisher": "Johns Hopkins University Press",
+            "recent_citations": 0,
             "reference_ids": [
-                "pub.1053430380",
-                "pub.1026195422",
-                "pub.1014756166",
-                "pub.1054942060",
-                "pub.1085401252",
                 "pub.1000667257",
-                "pub.1054066822",
-                "pub.1059290544",
-                "pub.1020031888",
-                "pub.1068876065",
-                "pub.1021684967",
                 "pub.1068845004",
-                "pub.1053662685",
-                "pub.1053938766",
                 "pub.1045832141",
-                "pub.1068847471",
-                "pub.1052860716",
                 "pub.1046754730",
                 "pub.1085402858",
-                "pub.1078306729"
+                "pub.1059290544",
+                "pub.1021684967",
+                "pub.1053662685",
+                "pub.1068876065",
+                "pub.1085401252",
+                "pub.1020031888",
+                "pub.1053938766",
+                "pub.1014756166",
+                "pub.1052860716",
+                "pub.1026195422",
+                "pub.1053430380",
+                "pub.1054942060",
+                "pub.1068847471",
+                "pub.1078306729",
+                "pub.1054066822"
             ],
             "references": [
-                "pub.1053430380",
-                "pub.1026195422",
-                "pub.1014756166",
-                "pub.1054942060",
-                "pub.1085401252",
                 "pub.1000667257",
-                "pub.1054066822",
-                "pub.1059290544",
-                "pub.1020031888",
-                "pub.1068876065",
-                "pub.1021684967",
                 "pub.1068845004",
-                "pub.1053662685",
-                "pub.1053938766",
                 "pub.1045832141",
-                "pub.1068847471",
-                "pub.1052860716",
                 "pub.1046754730",
                 "pub.1085402858",
-                "pub.1078306729"
+                "pub.1059290544",
+                "pub.1021684967",
+                "pub.1053662685",
+                "pub.1068876065",
+                "pub.1085401252",
+                "pub.1020031888",
+                "pub.1053938766",
+                "pub.1014756166",
+                "pub.1052860716",
+                "pub.1026195422",
+                "pub.1053430380",
+                "pub.1054942060",
+                "pub.1068847471",
+                "pub.1078306729",
+                "pub.1054066822"
             ],
             "researchers": [
                 {
@@ -4138,16 +4585,16 @@
                     "id": "ur.01221572617.69",
                     "last_name": "Tapales",
                     "research_orgs": [
-                        "grid.417837.e",
-                        "grid.21107.35"
+                        "grid.21107.35",
+                        "grid.417837.e"
                     ]
                 }
             ],
             "supporting_grant_ids": [
-                "grant.2528396",
                 "grant.2621440"
             ],
             "terms": [
+                "paper",
                 "data sources",
                 "reproductive health",
                 "health",
@@ -4162,7 +4609,6 @@
                 "race/ethnicity",
                 "ethnicity",
                 "challenges",
-                "study design",
                 "national level",
                 "levels",
                 "National Longitudinal Study",
@@ -4178,7 +4624,6 @@
                 "New York City Community Health Survey",
                 "Community Health Survey",
                 "Health Survey",
-                "present opportunities",
                 "opportunities",
                 "research",
                 "public health surveillance",
@@ -4188,8 +4633,10 @@
                 "program",
                 "underserved populations",
                 "population",
-                "data opportunities"
+                "data opportunities",
+                "Sexual"
             ],
+            "times_cited": 0,
             "title": "Data Opportunities for Studying the Sexual and Reproductive Health of Immigrants in the United States",
             "type": "article",
             "volume": "30",
@@ -5230,9 +5677,13 @@
                 "count": 1,
                 "rank_score": 0.07648767292257419
             },
-            "content": {
+            "challenges": {
                 "count": 1,
-                "rank_score": 0.05727757745775734
+                "rank_score": 0.04958593565981829
+            },
+            "each source": {
+                "count": 2,
+                "rank_score": 0.04709919818451208
             },
             "family growth": {
                 "count": 1,
@@ -5246,17 +5697,57 @@
                 "count": 1,
                 "rank_score": 0.09284602248623455
             },
-            "information": {
-                "count": 2,
-                "rank_score": 0.07862340469869039
+            "immigrants": {
+                "count": 1,
+                "rank_score": 0.05048537229781154
+            },
+            "immigration": {
+                "count": 1,
+                "rank_score": 0.05121676591014566
+            },
+            "local level": {
+                "count": 1,
+                "rank_score": 0.05422242904297881
             },
             "local-level data sources": {
                 "count": 1,
                 "rank_score": 0.07727744705682431
             },
+            "most information": {
+                "count": 1,
+                "rank_score": 0.05054551540316791
+            },
+            "national level": {
+                "count": 1,
+                "rank_score": 0.046402430235132186
+            },
+            "national longitudinal study": {
+                "count": 1,
+                "rank_score": 0.053047468281786844
+            },
+            "national longitudinal study of adolescent to adult health": {
+                "count": 1,
+                "rank_score": 0.0488242629483455
+            },
+            "national survey": {
+                "count": 1,
+                "rank_score": 0.0507298986599209
+            },
+            "national survey of family growth": {
+                "count": 1,
+                "rank_score": 0.05054470477905255
+            },
+            "new york city community health survey": {
+                "count": 2,
+                "rank_score": 0.07723431535921275
+            },
             "opportunities": {
                 "count": 1,
                 "rank_score": 0.056100027204550824
+            },
+            "policies": {
+                "count": 1,
+                "rank_score": 0.05351719301234885
             },
             "public health surveillance": {
                 "count": 1,
@@ -5266,21 +5757,17 @@
                 "count": 1,
                 "rank_score": 0.06728686673980977
             },
-            "research": {
-                "count": 1,
-                "rank_score": 0.05586541749193774
-            },
             "seven local sources": {
                 "count": 1,
                 "rank_score": 0.06173047561932985
             },
+            "sexual and reproductive health": {
+                "count": 1,
+                "rank_score": 0.04513836552317437
+            },
             "srh": {
                 "count": 6,
                 "rank_score": 0.08648315035045841
-            },
-            "the new york city community health survey": {
-                "count": 2,
-                "rank_score": 0.07723431535921275
             }
         },
         "original": {
@@ -5341,6 +5828,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.15276.37",
                         "first_name": "Crystal D.",
+                        "initials": "",
                         "last_name": "Bishop",
                         "orcid": "",
                         "researcher_id": "ur.015634345467.82"
@@ -5361,6 +5849,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.15276.37",
                         "first_name": "Walter L.",
+                        "initials": "",
                         "last_name": "Leite",
                         "orcid": "['0000-0001-7655-5668']",
                         "researcher_id": "ur.01157533057.92"
@@ -5381,6 +5870,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.15276.37",
                         "first_name": "Patricia A.",
+                        "initials": "",
                         "last_name": "Snyder",
                         "orcid": "",
                         "researcher_id": "ur.0657351225.20"
@@ -5404,6 +5894,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.15276.37",
                     "first_name": "Crystal D.",
+                    "initials": "",
                     "last_name": "Bishop",
                     "orcid": "",
                     "researcher_id": "ur.015634345467.82"
@@ -5424,6 +5915,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.15276.37",
                     "first_name": "Walter L.",
+                    "initials": "",
                     "last_name": "Leite",
                     "orcid": "['0000-0001-7655-5668']",
                     "researcher_id": "ur.01157533057.92"
@@ -5444,6 +5936,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.15276.37",
                     "first_name": "Patricia A.",
+                    "initials": "",
                     "last_name": "Snyder",
                     "orcid": "",
                     "researcher_id": "ur.0657351225.20"
@@ -5457,12 +5950,20 @@
             ],
             "category_for": [
                 {
-                    "id": "3177",
-                    "name": "1117 Public Health and Health Services"
+                    "id": "3468",
+                    "name": "1701 Psychology"
                 },
                 {
-                    "id": "2211",
-                    "name": "11 Medical and Health Sciences"
+                    "id": "2217",
+                    "name": "17 Psychology and Cognitive Sciences"
+                },
+                {
+                    "id": "3268",
+                    "name": "1303 Specialist Studies In Education"
+                },
+                {
+                    "id": "2213",
+                    "name": "13 Education"
                 }
             ],
             "category_hra": [
@@ -5513,12 +6014,10 @@
                 "variety of fields",
                 "variety",
                 "field",
-                "early intervention",
                 "intervention",
                 "relationship",
                 "malleable factors",
                 "child outcomes",
-                "outcomes",
                 "issues of measurement",
                 "issues",
                 "survey data",
@@ -5543,7 +6042,7 @@
             "date": "2018-12-01",
             "date_inserted": "2018-08-22",
             "doi": "10.1177/1053815118793430",
-            "field_citation_ratio": 0.85,
+            "field_citation_ratio": 1.07,
             "funder_countries": [
                 {
                     "id": "US",
@@ -5551,6 +6050,22 @@
                 }
             ],
             "funders": [
+                {
+                    "acronym": "DoED",
+                    "city_name": "Washington D.C.",
+                    "country_name": "United States",
+                    "id": "grid.419881.d",
+                    "latitude": 38.886513,
+                    "linkout": [
+                        "http://www.ed.gov/"
+                    ],
+                    "longitude": -77.01885,
+                    "name": "United States Department of Education",
+                    "state_name": "District of Columbia",
+                    "types": [
+                        "Government"
+                    ]
+                },
                 {
                     "acronym": "IES",
                     "city_name": "Washington D.C.",
@@ -5580,7 +6095,33 @@
             },
             "journal_lists": [
                 "Norwegian register level 1",
-                "ERIH PLUS"
+                "ERIH PLUS",
+                "ERA 2018"
+            ],
+            "noun_phrases": [
+                "propensity score",
+                "large-scale data set",
+                "young child",
+                "family",
+                "secondary analysis",
+                "early intervention",
+                "Dataset",
+                "child outcome",
+                "measurement",
+                "survey data",
+                "less extent",
+                "causal relationship",
+                "variable",
+                "increased likelihood",
+                "selection bias",
+                "article",
+                "probability",
+                "weighting",
+                "experimental methodology",
+                "advantage",
+                "disadvantage",
+                "implication",
+                "intervention research"
             ],
             "open_access_categories": [
                 {
@@ -5594,63 +6135,63 @@
             "recent_citations": 1,
             "reference_ids": [
                 "pub.1014809625",
+                "pub.1030090390",
+                "pub.1026060254",
+                "pub.1053691504",
+                "pub.1059421699",
+                "pub.1012755702",
+                "pub.1048531344",
+                "pub.1015529465",
+                "pub.1026260744",
+                "pub.1041617393",
+                "pub.1043748359",
+                "pub.1011053858",
+                "pub.1003278847",
+                "pub.1064389892",
+                "pub.1043300042",
+                "pub.1064391139",
+                "pub.1045428208",
+                "pub.1013306039",
                 "pub.1030480924",
+                "pub.1014390860",
+                "pub.1038372249",
+                "pub.1053994444",
+                "pub.1013131667",
+                "pub.1019233381",
                 "pub.1053762347",
                 "pub.1058304777",
-                "pub.1026060254",
-                "pub.1039515430",
-                "pub.1038372249",
-                "pub.1043748359",
-                "pub.1030090390",
-                "pub.1015529465",
-                "pub.1064389892",
-                "pub.1045428208",
-                "pub.1019233381",
-                "pub.1064391139",
-                "pub.1003278847",
-                "pub.1048531344",
-                "pub.1026260744",
-                "pub.1013131667",
-                "pub.1013306039",
-                "pub.1043300042",
-                "pub.1014390860",
-                "pub.1053994444",
-                "pub.1012755702",
-                "pub.1053691504",
                 "pub.1016353050",
-                "pub.1059421699",
-                "pub.1011053858",
-                "pub.1041617393"
+                "pub.1039515430"
             ],
             "references": [
                 "pub.1014809625",
+                "pub.1030090390",
+                "pub.1026060254",
+                "pub.1053691504",
+                "pub.1059421699",
+                "pub.1012755702",
+                "pub.1048531344",
+                "pub.1015529465",
+                "pub.1026260744",
+                "pub.1041617393",
+                "pub.1043748359",
+                "pub.1011053858",
+                "pub.1003278847",
+                "pub.1064389892",
+                "pub.1043300042",
+                "pub.1064391139",
+                "pub.1045428208",
+                "pub.1013306039",
                 "pub.1030480924",
+                "pub.1014390860",
+                "pub.1038372249",
+                "pub.1053994444",
+                "pub.1013131667",
+                "pub.1019233381",
                 "pub.1053762347",
                 "pub.1058304777",
-                "pub.1026060254",
-                "pub.1039515430",
-                "pub.1038372249",
-                "pub.1043748359",
-                "pub.1030090390",
-                "pub.1015529465",
-                "pub.1064389892",
-                "pub.1045428208",
-                "pub.1019233381",
-                "pub.1064391139",
-                "pub.1003278847",
-                "pub.1048531344",
-                "pub.1026260744",
-                "pub.1013131667",
-                "pub.1013306039",
-                "pub.1043300042",
-                "pub.1014390860",
-                "pub.1053994444",
-                "pub.1012755702",
-                "pub.1053691504",
                 "pub.1016353050",
-                "pub.1059421699",
-                "pub.1011053858",
-                "pub.1041617393"
+                "pub.1039515430"
             ],
             "research_org_cities": [
                 {
@@ -5666,6 +6207,9 @@
             ],
             "research_org_country_names": [
                 "United States"
+            ],
+            "research_org_names": [
+                "University of Florida"
             ],
             "research_org_state_codes": [
                 {
@@ -5720,12 +6264,15 @@
                     "id": "ur.0657351225.20",
                     "last_name": "Snyder",
                     "research_orgs": [
-                        "grid.152326.1",
-                        "grid.470125.5",
                         "grid.15276.37",
+                        "grid.470125.5",
+                        "grid.152326.1",
                         "grid.260001.5"
                     ]
                 }
+            ],
+            "supporting_grant_ids": [
+                "grant.4053460"
             ],
             "terms": [
                 "set",
@@ -5741,12 +6288,10 @@
                 "variety of fields",
                 "variety",
                 "field",
-                "early intervention",
                 "intervention",
                 "relationship",
                 "malleable factors",
                 "child outcomes",
-                "outcomes",
                 "issues of measurement",
                 "issues",
                 "survey data",
@@ -6840,10 +7385,6 @@
         },
         "doi": "10.1177/1053815118793430",
         "keyphrases": {
-            "a variety": {
-                "count": 1,
-                "rank_score": 0.05389783465530224
-            },
             "early interv": {
                 "count": 1,
                 "rank_score": 0.12241554074882707
@@ -6851,10 +7392,6 @@
             "families": {
                 "count": 1,
                 "rank_score": 0.11044115083659259
-            },
-            "fields": {
-                "count": 1,
-                "rank_score": 0.07838502621425152
             },
             "large-scale longitudinal surveys": {
                 "count": 1,
@@ -6905,6 +7442,7 @@
                     "name": "Clinical Research"
                 }
             ],
+            "altmetric_id": 0,
             "author_affiliations": [
                 [
                     {
@@ -6923,6 +7461,7 @@
                         "corresponding": true,
                         "current_organization_id": "grid.89336.37",
                         "first_name": "Elizabeth",
+                        "initials": "",
                         "last_name": "Ackert",
                         "orcid": "",
                         "researcher_id": "ur.015072054071.96"
@@ -6943,6 +7482,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.89336.37",
                         "first_name": "Robert",
+                        "initials": "",
                         "last_name": "Ressler",
                         "orcid": "['0000-0002-6265-2528']",
                         "researcher_id": "ur.014460432163.48"
@@ -6963,6 +7503,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.27755.32",
                         "first_name": "Arya",
+                        "initials": "",
                         "last_name": "Ansari",
                         "orcid": "['0000-0001-5033-9668']",
                         "researcher_id": "ur.01313462533.32"
@@ -6983,6 +7524,7 @@
                         "corresponding": "",
                         "current_organization_id": "grid.89336.37",
                         "first_name": "Robert",
+                        "initials": "",
                         "last_name": "Crosnoe",
                         "orcid": "",
                         "researcher_id": "ur.01050506553.13"
@@ -7006,6 +7548,7 @@
                     "corresponding": true,
                     "current_organization_id": "grid.89336.37",
                     "first_name": "Elizabeth",
+                    "initials": "",
                     "last_name": "Ackert",
                     "orcid": "",
                     "researcher_id": "ur.015072054071.96"
@@ -7026,6 +7569,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.89336.37",
                     "first_name": "Robert",
+                    "initials": "",
                     "last_name": "Ressler",
                     "orcid": "['0000-0002-6265-2528']",
                     "researcher_id": "ur.014460432163.48"
@@ -7046,6 +7590,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.27755.32",
                     "first_name": "Arya",
+                    "initials": "",
                     "last_name": "Ansari",
                     "orcid": "['0000-0001-5033-9668']",
                     "researcher_id": "ur.01313462533.32"
@@ -7066,6 +7611,7 @@
                     "corresponding": "",
                     "current_organization_id": "grid.89336.37",
                     "first_name": "Robert",
+                    "initials": "",
                     "last_name": "Crosnoe",
                     "orcid": "",
                     "researcher_id": "ur.01050506553.13"
@@ -7111,6 +7657,7 @@
                     "name": "Clinical Research"
                 }
             ],
+            "category_sdg": [],
             "category_ua": [
                 {
                     "id": "30023",
@@ -7130,14 +7677,12 @@
                 "childhood education programs",
                 "education programs",
                 "program",
-                "blacks",
                 "white children",
                 "potential benefits",
                 "benefits",
                 "early childhood education",
                 "childhood education",
                 "education",
-                "enrollment",
                 "way",
                 "efforts",
                 "future",
@@ -7145,27 +7690,24 @@
                 "early care",
                 "care",
                 "Mexican-origin families",
-                "origin families",
                 "family",
                 "community context",
                 "context",
                 "data",
                 "Mexican-origin children",
-                "origin children",
                 "Early Childhood Longitudinal Study-Birth Cohort",
-                "Childhood Longitudinal Study-Birth Cohort",
-                "birth cohort",
                 "cohort",
                 "U.S. Census Bureau",
                 "Census Bureau",
                 "Bureau",
                 "odds of enrollment",
                 "odds",
+                "enrollment",
                 "childcare centers",
                 "center",
                 "County",
                 "percent",
-                "Latino/",
+                "Latinos",
                 "ethnic enclaves",
                 "enclaves",
                 "early childhood care",
@@ -7177,7 +7719,7 @@
             "date": "2018-12-01",
             "date_inserted": "2018-12-05",
             "doi": "10.1016/j.ecresq.2018.09.008",
-            "field_citation_ratio": 2.44,
+            "field_citation_ratio": 1.99,
             "funder_countries": [
                 {
                     "id": "US",
@@ -7207,16 +7749,43 @@
                 "0885-2006",
                 "1873-7706"
             ],
-            "issue": "Ethnic and Racial Studies 37 3 2013",
             "journal": {
                 "id": "jour.1096851",
                 "title": "Early Childhood Research Quarterly"
             },
             "journal_lists": [
-                "ERA 2015",
+                "VABB-SHW",
+                "ERA 2018",
                 "Norwegian register level 1",
-                "ERIH PLUS",
-                "VABB-SHW"
+                "ERA 2015",
+                "ERIH PLUS"
+            ],
+            "noun_phrases": [
+                "community context",
+                "utilization",
+                "early childhood",
+                "Education",
+                "Mexican origin",
+                "child",
+                "early childhood education",
+                "Black and White",
+                "potential benefit",
+                "enrollment",
+                "care",
+                "education program",
+                "Integrating",
+                "Early Childhood Longitudinal Study",
+                "community data",
+                "U.S. Census Bureau",
+                "Logistic Model",
+                "odds",
+                "supply",
+                "childcare center",
+                "county",
+                "CO",
+                "enclave",
+                "family",
+                "U.S. institution"
             ],
             "open_access_categories": [
                 {
@@ -7228,87 +7797,89 @@
             "publisher": "Elsevier",
             "recent_citations": 2,
             "reference_ids": [
-                "pub.1002032652",
-                "pub.1073430274",
-                "pub.1017221268",
-                "pub.1032324815",
-                "pub.1073428515",
-                "pub.1008890743",
-                "pub.1015368641",
-                "pub.1048676199",
-                "pub.1065049197",
-                "pub.1017576523",
-                "pub.1032843275",
-                "pub.1034250733",
-                "pub.1016614158",
                 "pub.1044655687",
-                "pub.1002745434",
-                "pub.1011752763",
-                "pub.1053676153",
-                "pub.1073423649",
-                "pub.1009135480",
-                "pub.1045090233",
+                "pub.1065049309",
+                "pub.1073428515",
+                "pub.1032324815",
                 "pub.1020309927",
-                "pub.1063965684",
-                "pub.1015577013",
-                "pub.1040653359",
-                "pub.1048861882",
-                "pub.1037193683",
-                "pub.1102750680",
-                "pub.1008438229",
-                "pub.1036731953",
+                "pub.1036841467",
+                "pub.1009135480",
+                "pub.1011752763",
+                "pub.1016614158",
+                "pub.1017576523",
                 "pub.1018029300",
-                "pub.1073377545",
-                "pub.1058801467",
+                "pub.1002032652",
+                "pub.1124706913",
+                "pub.1048676199",
+                "pub.1032843275",
                 "pub.1010812704",
+                "pub.1015577013",
+                "pub.1042147955",
+                "pub.1048861882",
+                "pub.1002745434",
+                "pub.1008438229",
+                "pub.1045090233",
                 "pub.1052076138",
                 "pub.1090948720",
-                "pub.1036841467",
+                "pub.1034250733",
+                "pub.1065049197",
+                "pub.1073377545",
+                "pub.1102750680",
+                "pub.1063965684",
+                "pub.1073423649",
+                "pub.1053676153",
+                "pub.1015368641",
+                "pub.1073430274",
+                "pub.1008890743",
+                "pub.1037193683",
+                "pub.1058801467",
+                "pub.1036731953",
                 "pub.1007663031",
-                "pub.1065049309",
-                "pub.1042147955",
+                "pub.1017221268",
+                "pub.1040653359",
                 "pub.1058729035"
             ],
             "references": [
-                "pub.1002032652",
-                "pub.1073430274",
-                "pub.1017221268",
-                "pub.1032324815",
-                "pub.1073428515",
-                "pub.1008890743",
-                "pub.1015368641",
-                "pub.1048676199",
-                "pub.1065049197",
-                "pub.1017576523",
-                "pub.1032843275",
-                "pub.1034250733",
-                "pub.1016614158",
                 "pub.1044655687",
-                "pub.1002745434",
-                "pub.1011752763",
-                "pub.1053676153",
-                "pub.1073423649",
-                "pub.1009135480",
-                "pub.1045090233",
+                "pub.1065049309",
+                "pub.1073428515",
+                "pub.1032324815",
                 "pub.1020309927",
-                "pub.1063965684",
-                "pub.1015577013",
-                "pub.1040653359",
-                "pub.1048861882",
-                "pub.1037193683",
-                "pub.1102750680",
-                "pub.1008438229",
-                "pub.1036731953",
+                "pub.1036841467",
+                "pub.1009135480",
+                "pub.1011752763",
+                "pub.1016614158",
+                "pub.1017576523",
                 "pub.1018029300",
-                "pub.1073377545",
-                "pub.1058801467",
+                "pub.1002032652",
+                "pub.1124706913",
+                "pub.1048676199",
+                "pub.1032843275",
                 "pub.1010812704",
+                "pub.1015577013",
+                "pub.1042147955",
+                "pub.1048861882",
+                "pub.1002745434",
+                "pub.1008438229",
+                "pub.1045090233",
                 "pub.1052076138",
                 "pub.1090948720",
-                "pub.1036841467",
+                "pub.1034250733",
+                "pub.1065049197",
+                "pub.1073377545",
+                "pub.1102750680",
+                "pub.1063965684",
+                "pub.1073423649",
+                "pub.1053676153",
+                "pub.1015368641",
+                "pub.1073430274",
+                "pub.1008890743",
+                "pub.1037193683",
+                "pub.1058801467",
+                "pub.1036731953",
                 "pub.1007663031",
-                "pub.1065049309",
-                "pub.1042147955",
+                "pub.1017221268",
+                "pub.1040653359",
                 "pub.1058729035"
             ],
             "research_org_cities": [
@@ -7330,19 +7901,23 @@
             "research_org_country_names": [
                 "United States"
             ],
+            "research_org_names": [
+                "The University of Texas at Austin",
+                "University of Virginia"
+            ],
             "research_org_state_codes": [
-                {
-                    "id": "US-TX",
-                    "name": "Texas"
-                },
                 {
                     "id": "US-VA",
                     "name": "Virginia"
+                },
+                {
+                    "id": "US-TX",
+                    "name": "Texas"
                 }
             ],
             "research_org_state_names": [
-                "Texas",
-                "Virginia"
+                "Virginia",
+                "Texas"
             ],
             "research_orgs": [
                 {
@@ -7383,8 +7958,10 @@
                     "id": "ur.015072054071.96",
                     "last_name": "Ackert",
                     "research_orgs": [
+                        "grid.89336.37",
                         "grid.34477.33",
-                        "grid.89336.37"
+                        "grid.256304.6",
+                        "grid.133342.4"
                     ]
                 },
                 {
@@ -7406,9 +7983,9 @@
                         "0000-0001-5033-9668"
                     ],
                     "research_orgs": [
+                        "grid.27755.32",
                         "grid.89336.37",
-                        "grid.261331.4",
-                        "grid.27755.32"
+                        "grid.261331.4"
                     ]
                 },
                 {
@@ -7416,11 +7993,11 @@
                     "id": "ur.01050506553.13",
                     "last_name": "Crosnoe",
                     "research_orgs": [
-                        "grid.21107.35",
+                        "grid.89336.37",
                         "grid.55460.32",
+                        "grid.21107.35",
                         "grid.429997.8",
-                        "grid.10698.36",
-                        "grid.89336.37"
+                        "grid.10698.36"
                     ]
                 }
             ],
@@ -7435,14 +8012,12 @@
                 "childhood education programs",
                 "education programs",
                 "program",
-                "blacks",
                 "white children",
                 "potential benefits",
                 "benefits",
                 "early childhood education",
                 "childhood education",
                 "education",
-                "enrollment",
                 "way",
                 "efforts",
                 "future",
@@ -7450,27 +8025,24 @@
                 "early care",
                 "care",
                 "Mexican-origin families",
-                "origin families",
                 "family",
                 "community context",
                 "context",
                 "data",
                 "Mexican-origin children",
-                "origin children",
                 "Early Childhood Longitudinal Study-Birth Cohort",
-                "Childhood Longitudinal Study-Birth Cohort",
-                "birth cohort",
                 "cohort",
                 "U.S. Census Bureau",
                 "Census Bureau",
                 "Bureau",
                 "odds of enrollment",
                 "odds",
+                "enrollment",
                 "childcare centers",
                 "center",
                 "County",
                 "percent",
-                "Latino/",
+                "Latinos",
                 "ethnic enclaves",
                 "enclaves",
                 "early childhood care",
@@ -7629,13 +8201,29 @@
         },
         "doi": "10.1016/j.ecresq.2018.09.008",
         "keyphrases": {
+            "abstract children": {
+                "count": 1,
+                "rank_score": 0.05225717908937283
+            },
+            "black and white children": {
+                "count": 1,
+                "rank_score": 0.048955831779079056
+            },
             "childcare centers": {
                 "count": 1,
                 "rank_score": 0.07894824121748424
             },
+            "children": {
+                "count": 2,
+                "rank_score": 0.0676138850534229
+            },
             "co-ethnic latinos": {
                 "count": 1,
                 "rank_score": 0.09052249239557358
+            },
+            "community data": {
+                "count": 1,
+                "rank_score": 0.06949132531651905
             },
             "early care": {
                 "count": 2,
@@ -7653,9 +8241,17 @@
                 "count": 1,
                 "rank_score": 0.12785221723796156
             },
+            "early childhood longitudinal study-birth cohort": {
+                "count": 1,
+                "rank_score": 0.05542324109204884
+            },
             "education programs": {
                 "count": 2,
                 "rank_score": 0.10500108714252705
+            },
+            "enrollment": {
+                "count": 3,
+                "rank_score": 0.060312621266857144
             },
             "ethnic enclaves": {
                 "count": 1,
@@ -7665,9 +8261,21 @@
                 "count": 1,
                 "rank_score": 0.07417818260612459
             },
+            "latinos": {
+                "count": 1,
+                "rank_score": 0.04710325119313109
+            },
+            "least acculturated mexican-origin families": {
+                "count": 1,
+                "rank_score": 0.05474499084921585
+            },
             "logistic regressions": {
                 "count": 1,
                 "rank_score": 0.07152426237258232
+            },
+            "longitudinal study-birth cohort": {
+                "count": 1,
+                "rank_score": 0.06073471209243654
             },
             "mexican": {
                 "count": 6,
@@ -7688,6 +8296,10 @@
             "u.s. institutions": {
                 "count": 1,
                 "rank_score": 0.07118290091773963
+            },
+            "ways": {
+                "count": 1,
+                "rank_score": 0.05027592440659954
             }
         },
         "original": {
