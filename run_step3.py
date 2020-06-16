@@ -50,6 +50,12 @@ def lookup_doi (schol, graph, partition, pub):
                         print("Issue with: ", doi)
                         print(api.name)
                         print(response.message)
+                        continue
+
+                    if response.meta and len(response.meta) > 0:
+                        doi_match = True
+                        meta = dict(response.meta)
+                        pub[api.name] = meta
 
             except Exception:
                 # debug this as an edge case
@@ -58,11 +64,6 @@ def lookup_doi (schol, graph, partition, pub):
                 print(doi)
                 print(api.name)
                 continue
-
-            if response and response.meta and len(response.meta) > 0:
-                doi_match = True
-                meta = dict(response.meta)
-                pub[api.name] = meta
 
     # send this publication along into the workflow stream
     return doi_match

@@ -33,17 +33,18 @@ def gather_doi (schol, graph, partition, pub):
                     print(api.name)
                     print(response.message)
                     continue
+
+                if response.meta and len(response.meta) > 0:
+                    title_match = True
+                    meta = dict(response.meta)
+                    pub[api.name] = meta
+
         except Exception:
             # debug this as an edge case
             traceback.print_exc()
             print(title)
             print(api.name)
             continue
-
-        if response and response.meta and len(response.meta) > 0:
-            title_match = True
-            meta = dict(response.meta)
-            pub[api.name] = meta
 
     # send this publication along into the workflow stream
     return title_match
