@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
+import math
+import time
 
 from richcontext import graph as rc_graph
 from richcontext import scholapi as rc_scholapi
@@ -51,6 +53,12 @@ def main (args):
     schol = rc_scholapi.ScholInfraAPI(config_file="rc.cfg", logger=None)
     graph = rc_graph.RCGraph("step2")
 
+    # The Dimensions Analytics API is limited to 30 requests per IP address per minute. Source https://docs.dimensions.ai/dsl/api.html
+    dimensions_requests_limits = 30
+    dimensions_time_limit = 60
+    t0 = time.time()
+    count = 0
+
     # for each publication: enrich metadata, gather the DOIs, etc.
     for partition, pub_iter in graph.iter_publications(graph.PATH_PUBLICATIONS, filter=args.partition):
         pub_list = []
@@ -59,7 +67,24 @@ def main (args):
             pub["title"] = unicodedata.normalize("NFKD", pub["title"]).strip()
             pub_list.append(pub)
 
+            time_elapsed = time.time() - t0
+
+            # already used all the API requests allowed in the time window
+            if count == dimensions_requests_limits and time_elapsed < dimensions_time_limit:
+                to_sleep = dimensions_time_limit - math.floor(time_elapsed) + 1 # adding some extra margin
+                #print("API calls:",count,"time elapsed:", time_elapsed, "- will sleep:",to_sleep)
+                time.sleep( to_sleep )
+                count = 0
+                t0 = time.time()
+            # didn't got to the requests limit in the time window
+            elif count < dimensions_requests_limits and time_elapsed >= dimensions_time_limit:
+                count = 1 # adding some extra margin
+                t0 = time.time()
+                #print("API calls:", count, "time elapsed:", time_elapsed,"reseting counters...")
+
             title_match = gather_doi(schol, graph, partition, pub)
+
+            count += 1
 
             if title_match:
                 graph.publications.title_hits += 1
