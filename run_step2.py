@@ -53,7 +53,7 @@ def main (args):
     schol = rc_scholapi.ScholInfraAPI(config_file="rc.cfg", logger=None)
     graph = rc_graph.RCGraph("step2")
 
-    # The Dimensions Analytics API is limited to 30 requests per IP address per minute. Source https://docs.dimensions.ai/dsl/api.html
+    # The Dimensions Analytics API is limited to 30 requests per IP address per minute. Source https://docs.dimensions.ai/dsl/api.html - TODO: this might be better refactored into scholapi to handle all particular cases
     dimensions_requests_limits = 30
     dimensions_time_limit = 60
     t0 = time.time()
