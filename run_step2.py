@@ -17,7 +17,7 @@ import unicodedata
 DEFAULT_PARTITION = None
 
 
-def gather_doi (schol, graph, partition, pub):
+def gather_doi (schol, graph, partition_progress_bar, pub):
     """
     use `title_search()` across scholarly infrastructure APIs to
     identify this publication's DOI, etc.
@@ -30,6 +30,8 @@ def gather_doi (schol, graph, partition, pub):
             message = None
 
             if api.has_credentials():
+                partition_progress_bar.set_postfix_str(api.name) # useful to see which APIs are used
+                time.sleep(0.01) # this improves the refreshing of the progress bar, although sometimes it doesn't get to refresh
                 meta, timing, message = api.title_search(title)
         except Exception:
             # debug this as an edge case
@@ -54,16 +56,17 @@ def main (args):
     graph = rc_graph.RCGraph("step2")
 
     # The Dimensions Analytics API is limited to 30 requests per IP address per minute. Source https://docs.dimensions.ai/dsl/api.html - TODO: this might be better refactored into scholapi to handle all particular cases
-    dimensions_requests_limits = 30
-    dimensions_time_limit = 60
+    dimensions_requests_limits = 28 # extra margin added after tests, to prevent being parked by the Dimensions API
+    dimensions_time_limit = 57 # extra margin added after tests, to prevent being parked by the Dimensions API
     t0 = time.time()
-    count = 0
+    count = 1
 
     # for each publication: enrich metadata, gather the DOIs, etc.
     for partition, pub_iter in graph.iter_publications(graph.PATH_PUBLICATIONS, filter=args.partition):
         pub_list = []
 
-        for pub in tqdm(pub_iter, ascii=True, desc=partition[:30]):
+        partition_progress_bar = tqdm(pub_iter, ascii=True, desc=partition[:30])
+        for pub in partition_progress_bar:
             pub["title"] = unicodedata.normalize("NFKD", pub["title"]).strip()
             pub_list.append(pub)
 
@@ -74,7 +77,7 @@ def main (args):
                 to_sleep = dimensions_time_limit - math.floor(time_elapsed) + 1 # adding some extra margin
                 #print("API calls:",count,"time elapsed:", time_elapsed, "- will sleep:",to_sleep)
                 time.sleep( to_sleep )
-                count = 0
+                count = 1
                 t0 = time.time()
             # didn't got to the requests limit in the time window
             elif count < dimensions_requests_limits and time_elapsed >= dimensions_time_limit:
@@ -82,7 +85,7 @@ def main (args):
                 t0 = time.time()
                 #print("API calls:", count, "time elapsed:", time_elapsed,"reseting counters...")
 
-            title_match = gather_doi(schol, graph, partition, pub)
+            title_match = gather_doi(schol, graph, partition_progress_bar, pub)
 
             count += 1
 
