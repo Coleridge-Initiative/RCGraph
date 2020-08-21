@@ -30,7 +30,7 @@ def lookup_doi (schol, graph, partition, pub):
             if doi:
                 doi_list.append(doi)
             else:
-                message = "BAD DOI: |{}| in {} -- {}".format(doi, source, pub["title"])
+                message = "BAD DOI: |{}| in {} -- {}".format(pub[source]["doi"], source, pub["title"])
                 graph.report_error(message)
 
     if len(doi_list) > 0:
