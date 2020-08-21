@@ -45,8 +45,17 @@ def lookup_doi (schol, graph, partition, pub):
                     doi_match = True
                     continue
                 else:
-                    message = None
-                    meta, timing, message = api.publication_lookup(doi)
+                    response = api.publication_lookup(doi)
+                    if response.message:
+                        print("Issue with: ", doi)
+                        print(api.name)
+                        print(response.message)
+                        continue
+
+                    if response.meta and len(response.meta) > 0:
+                        doi_match = True
+                        meta = dict(response.meta)
+                        pub[api.name] = meta
 
             except Exception:
                 # debug this as an edge case
@@ -54,13 +63,7 @@ def lookup_doi (schol, graph, partition, pub):
                 print(pub["title"])
                 print(doi)
                 print(api.name)
-                print(message)
                 continue
-
-            if meta and len(meta) > 0:
-                doi_match = True
-                meta = dict(meta)
-                pub[api.name] = meta
 
     # send this publication along into the workflow stream
     return doi_match

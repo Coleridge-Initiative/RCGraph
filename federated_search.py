@@ -293,37 +293,34 @@ def main (search_terms, limit):
     for api in get_api_list_with_full_text_search(schol):
         if api.has_credentials():
             try:
-                meta, timing, message = api.full_text_search(search_term=search_terms, limit=limit)
-
+                responses = api.full_text_search(search_term=search_terms, limit=limit)
+                if responses[0].message:
+                    print("Issue with: ", search_terms)
+                    print(api.name)
+                    print(responses[0].message)
+                    continue
                 # if not empty, parse the result and get a list of elements returned by the API
-                if meta:
-                    print(api.name, "returned",len(meta),"hits")
-                    results = parse_results(api.name, meta)
+                elif responses[0].meta :
+                    print(api.name, "returned", len(responses), "hits")
 
-                    if results:
-                        for item in results:
-                            article = dict()
+                    for item in responses:
+                        article = dict()
 
-                            #make sure DOI field is a valid DOI
-                            item["doi"] = graph.publications.verify_doi(item['doi'])
+                        #make sure DOI field is a valid DOI
+                        if graph.publications.verify_doi(item.doi()) != None:
+                            article['doi'] = item.doi()
+                        else:
+                            print("DOI not valid: ", item)
 
-                            #assuming that all articles have a Title but not all articles have a DOI
-                            if item["doi"] != None:
-                                article['doi']=item['doi']
+                        article['title'] = item.title()
+                        article['api'] = item.meta['api']
+                        article["url"] = item.url()
 
-                            article['title']=item['title']
-                            article['api']=item['api']
-                            article["url"] = item["url"]
-
-                            search_hits[item['doi']].append(article)
+                        search_hits[item.doi()].append(article)
 
             except Exception:
                 # debug this as an edge case
                 print(api.name, 'exception calling full_text_search')
-
-                if message:
-                    print(message)
-
                 traceback.print_exc()
                 continue
 
