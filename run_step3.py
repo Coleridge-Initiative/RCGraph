@@ -9,6 +9,9 @@ import argparse
 import sys
 import traceback
 
+import math
+import time
+
 DEFAULT_FORCE = False
 DEFAULT_PARTITION = None
 
@@ -74,13 +77,37 @@ def main (args):
     schol = rc_scholapi.ScholInfraAPI(config_file="rc.cfg", logger=None)
     graph = rc_graph.RCGraph("step3")
 
+    # TODO: this logic might be better to be moved into RCApi
+    semantic_scholar_requests_limits = 98
+    semantic_scholar_time_limit = 59 * 5
+    t0 = time.time()
+    count = 1
+
     # for each publication: enrich metadata, gather the DOIs, etc.
     for partition, pub_iter in graph.iter_publications(graph.BUCKET_STAGE, filter=args.partition):
         pub_list = []
 
         for pub in tqdm(pub_iter, ascii=True, desc=partition[:30]):
             pub_list.append(pub)
+
+            time_elapsed = math.ceil (time.time() - t0)
+
+            # already used all the API requests allowed in the time window
+            if count == semantic_scholar_requests_limits and time_elapsed < semantic_scholar_time_limit:
+                to_sleep = semantic_scholar_time_limit - math.floor(time_elapsed) + 1  # adding some extra margin
+                print("API calls:",count,"time elapsed:", time_elapsed, "- will sleep:",to_sleep)
+                time.sleep(to_sleep)
+                count = 1
+                t0 = time.time()
+            # didn't got to the requests limit in the time window
+            elif count < semantic_scholar_requests_limits and time_elapsed >= semantic_scholar_time_limit:
+                count = 1  # adding some extra margin
+                t0 = time.time()
+                # print("API calls:", count, "time elapsed:", time_elapsed,"reseting counters...")
+
             doi_match = lookup_doi(schol, graph, partition, pub)
+
+            count += 1
 
             if doi_match:
                 graph.publications.doi_hits += 1
