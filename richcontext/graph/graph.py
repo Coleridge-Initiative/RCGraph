@@ -366,6 +366,8 @@ class RCPublications:
                     doi = doi.replace("https://doi.org/", "")
                 elif doi.startswith("doi.org/"):
                     doi = doi.replace("doi.org/", "")
+                elif doi.startswith("http://doi.org/"):
+                    doi = doi.replace("http://doi.org/", "")
 
                 assert len(doi) > 0
                 assert doi.startswith("10.")
@@ -1105,7 +1107,7 @@ class RCGraph:
     PATH_PROVIDERS = Path("datasets/providers.json")
 
     PATH_MANUAL = Path("human/manual/partitions")
-    PATH_PUBLICATIONS = Path("publications/partitions")
+    PATH_PUBLICATIONS = Path("noaa_publications/partitions")
 
     PATH_STOPWORDS = Path("stop.txt")
     DET_SET = set([ "a", "an", "the", "these", "those", "this", "that" ])
