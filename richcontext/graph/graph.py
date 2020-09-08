@@ -366,6 +366,8 @@ class RCPublications:
                     doi = doi.replace("https://doi.org/", "")
                 elif doi.startswith("doi.org/"):
                     doi = doi.replace("doi.org/", "")
+                elif doi.startswith("http://doi.org/"):
+                    doi = doi.replace("http://doi.org/", "")
 
                 assert len(doi) > 0
                 assert doi.startswith("10.")
@@ -451,6 +453,15 @@ class RCPublications:
         links for this publication
         """
         pdf_list = []
+
+        # Manually input by human reviewers
+        if "original" in pub:
+            meta = pub["original"]
+            if "pdf" in meta:
+                pdf = meta["pdf"]
+
+                if pdf and pdf.endswith(".pdf"):
+                    pdf_list.append(pdf)
 
         # EuropePMC has the best PDFs
         if "EuropePMC" in pub:
