@@ -454,6 +454,15 @@ class RCPublications:
         """
         pdf_list = []
 
+        # Manually input by human reviewers
+        if "original" in pub:
+            meta = pub["original"]
+            if "pdf" in meta:
+                pdf = meta["pdf"]
+
+                if pdf and pdf.endswith(".pdf"):
+                    pdf_list.append(pdf)
+
         # EuropePMC has the best PDFs
         if "EuropePMC" in pub:
             meta = pub["EuropePMC"]
