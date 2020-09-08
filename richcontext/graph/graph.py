@@ -1116,7 +1116,7 @@ class RCGraph:
     PATH_PROVIDERS = Path("datasets/providers.json")
 
     PATH_MANUAL = Path("human/manual/partitions")
-    PATH_PUBLICATIONS = Path("noaa_publications/partitions")
+    PATH_PUBLICATIONS = Path("publications/partitions")
 
     PATH_STOPWORDS = Path("stop.txt")
     DET_SET = set([ "a", "an", "the", "these", "those", "this", "that" ])
