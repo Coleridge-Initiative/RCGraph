@@ -209,16 +209,16 @@ def api_implements_full_text_search (api):
 def parse_results (apiName, results):
     # TODO handle all APIs
     if apiName == "OpenAIRE":
-        search_hits = parse_oa(results)
+        api_hits = parse_oa(results)
     elif apiName == "Dimensions":
-        search_hits = parse_dimensions(results)
+        api_hits = parse_dimensions(results)
     elif apiName == "PubMed":
-        search_hits = parse_pubmed(results)
+        api_hits = parse_pubmed(results)
     else:
-        search_hits = None
+        api_hits = None
         print(apiName, "without a parser...skipping results")
 
-    return search_hits
+    return api_hits
 
 
 def get_api_list_with_full_text_search (schol):
@@ -236,8 +236,16 @@ def get_api_list_with_full_text_search (schol):
 
 
 def create_datadrop (view, file_path='federated.csv'):
-    dfKnown = pd.DataFrame(view["known"])
-    dfKnown["category"] = "known hits in KG"
+
+    # deduplicated= list()
+    #
+    # for overlap in view["overlap"]:
+    #     if overlap["doi"]== "":
+    #
+
+
+    # dfKnown = pd.DataFrame(view["known"])
+    # dfKnown["category"] = "known hits in KG"
 
     dfOverlap = pd.DataFrame(view["overlap"])
     dfOverlap["category"] = "overlap between APIs"
@@ -246,13 +254,15 @@ def create_datadrop (view, file_path='federated.csv'):
     dfUnique["category"] = "unique hits"
 
     dfAll = pd.DataFrame()
-    dfAll = dfAll.append(dfKnown)
+    # dfAll = dfAll.append(dfKnown)
     dfAll = dfAll.append(dfOverlap)
     dfAll = dfAll.append(dfUnique)
 
     if len(dfAll) > 0:
 
-        dfAll = dfAll[["category","api","doi","title","url","search_term","dataset"]]
+        dfAll = dfAll[["doi","title","url","search_term","dataset"]]
+        dfAll = dfAll.groupby(["doi","title","url","dataset"])['search_term'].apply(' - '.join).reset_index()
+        dfAll = dfAll.drop_duplicates()
         # dfAll["search_term"]= search_terms
 
         dfAll.to_csv(file_path, index=False, encoding="utf-8-sig")
@@ -295,42 +305,82 @@ def main (search_list, limit):
         for api in get_api_list_with_full_text_search(schol):
             if api.has_credentials():
                 try:
-                    meta, timing, message = api.full_text_search(search_term=search["terms"], limit=limit,exact_match=False )
+                    responses = api.full_text_search(search_term=search["terms"], limit=int(limit),exact_match=False)
+                    if responses[0].message:
+                        print("Issue with: ", search)
+                        print(api.name)
+                        print(responses[0].message)
+                        continue
+                        # if not empty, parse the result and get a list of elements returned by the API
+                    elif responses[0].meta :
+                        print(api.name, "returned", len(responses), "hits")
 
-                    # if not empty, parse the result and get a list of elements returned by the API
-                    if meta:
-                        print(api.name, "returned",len(meta),"hits")
-                        results = parse_results(api.name, meta)
+                        result_list = []
+                        for item in responses:
+                            result_list.append(item.meta)
 
-                        if results:
-                            for item in results:
+                        parsed_results = parse_results(api.name,result_list)
+
+                        if parsed_results is not None:
+                            for response in parsed_results:
+
+                                if response["title"] is None or response["title"] == "":
+                                    continue
+
+                                article = dict()
+
+                                article["search_term"] = search["terms"]
+                                article["dataset"] = search["dataset"]
+
+                                # make sure DOI field is a valid DOI
+                                # if graph.publications.verify_doi(response["doi"]) != None:
+                                article['doi'] = graph.publications.verify_doi(response["doi"])
+                                # else:
+                                #     print("DOI not valid: ", response)
+                                #     article['doi'] = ""
+
+                                article['title'] = response["title"]
+                                article['api'] = api.name
+
+                                if "url" in response:
+                                    article["url"] = response["url"]
+
+                                search_hits[article['doi']].append(article)
+
+                        else:
+
+
+                            for item in responses:
+
+                                if item.title() is None or item.title() == "":
+                                    continue
+
                                 article = dict()
 
                                 article["search_term"] = search["terms"]
                                 article["dataset"] = search["dataset"]
 
                                 #make sure DOI field is a valid DOI
-                                item["doi"] = graph.publications.verify_doi(item['doi'])
+                                # if graph.publications.verify_doi(item.doi()) != None:
+                                article['doi'] = graph.publications.verify_doi(item.doi())
+                                # else:
+                                #     print("DOI not valid: ", item)
 
-                                #assuming that all articles have a Title but not all articles have a DOI
-                                if item["doi"] != None:
-                                    article['doi']=item['doi']
+                                article['title'] = item.title()
+                                article['api'] = api.name
+                                try:
+                                    article["url"] = item.url()
+                                except:
+                                    article["url"] = ""
 
-                                article['title']=item['title']
-                                article['api']=item['api']
-                                article["url"] = item["url"]
-
-                                search_hits[item['doi']].append(article)
+                                search_hits[item.doi()].append(article)
 
                 except Exception:
                     # debug this as an edge case
                     print(api.name, 'exception calling full_text_search')
-
-                    if message:
-                        print(message)
-
                     traceback.print_exc()
                     continue
+            print("acumulated hits",len(search_hits))
 
     # after getting all the federated results, try to match search
     # hits with unknown DOI comparing by title to search hits with
@@ -433,95 +483,111 @@ if __name__ == '__main__':
 
     terms=list()
 
-    # a_search=dict()
-    #
-    # a_search['terms'] = "USDA ARMS"
+
+
+    for i in list(["USDA ERS ARMS",
+                    "USDA Agricultural Resource Management Survey",
+                    "USDA Agricultural Resources Management Survey",
+                    #"ARMS USDA",
+                     "Agricultural Resource Management Survey USDA",
+                     "Agricultural Resources Management Survey USDA",
+                     #"ERS ARMS",
+                    "ERS Agricultural Resource Management Survey",
+                     "ERS Agricultural Resources Management Survey",
+                     #"ARMS ERS",
+                    "Agricultural Resource Management Survey ERS",
+                    "Agricultural Resources Management Survey ERS"]):
+        a_search = dict()
+        a_search['terms'] = i
+        a_search['dataset'] = "dataset-000"
+        terms.append(a_search)
+
+
+
+
+    # a_search = dict()
+    # a_search['terms'] = "Survey of Earned Doctorates Donna Ginther"
     # a_search['dataset'] = "dataset-370"
     # terms.append(a_search)
-
-    a_search = dict()
-    a_search['terms'] = "Survey of Earned Doctorates Donna Ginther"
-    a_search['dataset'] = "dataset-370"
-    terms.append(a_search)
-
-    a_search = dict()
-    a_search['terms'] = "Paula Stephan Survey of Earned Doctorates"
-    a_search['dataset'] = "dataset-370"
-    terms.append(a_search)
-
-    a_search = dict()
-
-    a_search['terms'] = "Sharon Levin Survey of Earned Doctorates"
-    a_search['dataset'] = "dataset-370"
-    terms.append(a_search)
-
-    a_search = dict()
-    a_search['terms'] = "Lisa Wolf-Wendel Survey of Earned Doctorates"
-    a_search['dataset'] = "dataset-370"
-    terms.append(a_search)
-
-
-    a_search = dict()
-    a_search['terms'] = "Lisa Frehill Survey of Earned Doctorates"
-    a_search['dataset'] = "dataset-370"
-    terms.append(a_search)
-
-
-    a_search = dict()
-    a_search['terms'] = "NSF Survey of Earned Doctorates"
-    a_search['dataset'] = "dataset-370"
-    terms.append(a_search)
-
-    a_search = dict()
-    a_search['terms'] = "Survey of Earned Doctorates NSF"
-    a_search['dataset'] = "dataset-370"
-    terms.append(a_search)
-
-
-    a_search = dict()
-    a_search['terms'] = "NSF Survey of Doctorate Recipients"
-    a_search['dataset'] = "dataset-371"
-    terms.append(a_search)
-
-    a_search = dict()
-    a_search['terms'] = "Survey of Doctorate Recipients NSF"
-    a_search['dataset'] = "dataset-371"
-    terms.append(a_search)
-
-
-    a_search = dict()
-    a_search['terms'] =  'Lisa Frehill Survey of Doctorate Recipients'
-    a_search['dataset'] = "dataset-371"
-    terms.append(a_search)
-
-
-
-    a_search = dict()
-    a_search['terms'] = 'Lisa Wolf-Wendel Survey of Doctorate Recipients'
-    a_search['dataset'] = "dataset-371"
-    terms.append(a_search)
-
-
-
-    a_search = dict()
-    a_search['terms'] = 'Sharon Levin Survey of Doctorate Recipients'
-    a_search['dataset'] = "dataset-371"
-    terms.append(a_search)
-
-
-
-    a_search = dict()
-    a_search['terms'] = 'Paula Stephan Survey of Doctorate Recipients'
-    a_search['dataset'] = "dataset-371"
-    terms.append(a_search)
-
-
-
-    a_search = dict()
-    a_search['terms'] = 'Donna Ginther Survey of Doctorate Recipients'
-    a_search['dataset'] = "dataset-371"
-    terms.append(a_search)
-
+    #
+    # a_search = dict()
+    # a_search['terms'] = "Paula Stephan Survey of Earned Doctorates"
+    # a_search['dataset'] = "dataset-370"
+    # terms.append(a_search)
+    #
+    # a_search = dict()
+    #
+    # a_search['terms'] = "Sharon Levin Survey of Earned Doctorates"
+    # a_search['dataset'] = "dataset-370"
+    # terms.append(a_search)
+    #
+    # a_search = dict()
+    # a_search['terms'] = "Lisa Wolf-Wendel Survey of Earned Doctorates"
+    # a_search['dataset'] = "dataset-370"
+    # terms.append(a_search)
+    #
+    #
+    # a_search = dict()
+    # a_search['terms'] = "Lisa Frehill Survey of Earned Doctorates"
+    # a_search['dataset'] = "dataset-370"
+    # terms.append(a_search)
+    #
+    #
+    # a_search = dict()
+    # a_search['terms'] = "NSF Survey of Earned Doctorates"
+    # a_search['dataset'] = "dataset-370"
+    # terms.append(a_search)
+    #
+    # a_search = dict()
+    # a_search['terms'] = "Survey of Earned Doctorates NSF"
+    # a_search['dataset'] = "dataset-370"
+    # terms.append(a_search)
+    #
+    #
+    # a_search = dict()
+    # a_search['terms'] = "NSF Survey of Doctorate Recipients"
+    # a_search['dataset'] = "dataset-371"
+    # terms.append(a_search)
+    #
+    # a_search = dict()
+    # a_search['terms'] = "Survey of Doctorate Recipients NSF"
+    # a_search['dataset'] = "dataset-371"
+    # terms.append(a_search)
+    #
+    #
+    # a_search = dict()
+    # a_search['terms'] =  'Lisa Frehill Survey of Doctorate Recipients'
+    # a_search['dataset'] = "dataset-371"
+    # terms.append(a_search)
+    #
+    #
+    #
+    # a_search = dict()
+    # a_search['terms'] = 'Lisa Wolf-Wendel Survey of Doctorate Recipients'
+    # a_search['dataset'] = "dataset-371"
+    # terms.append(a_search)
+    #
+    #
+    #
+    # a_search = dict()
+    # a_search['terms'] = 'Sharon Levin Survey of Doctorate Recipients'
+    # a_search['dataset'] = "dataset-371"
+    # terms.append(a_search)
+    #
+    #
+    #
+    # a_search = dict()
+    # a_search['terms'] = 'Paula Stephan Survey of Doctorate Recipients'
+    # a_search['dataset'] = "dataset-371"
+    # terms.append(a_search)
+    #
+    #
+    #
+    # a_search = dict()
+    # a_search['terms'] = 'Donna Ginther Survey of Doctorate Recipients'
+    # a_search['dataset'] = "dataset-371"
+    # terms.append(a_search)
+    #
 
 
 
