@@ -312,7 +312,7 @@ def prep_publications (graph, frags, known_topics):
                 try:
                     # use persistent identifiers where possible
                     if "doi" in pub:
-                        id_list = pub["doi"]
+                        id_list = [pub["doi"]]
                     else:
                         title = pub["title"].replace(".", "").replace(" ", "")
                         id_list = [pub["journal"], title]
@@ -461,7 +461,7 @@ def load_publications (graph, used, frags, out_buf, known_datasets, known_journa
                 try:
                     # use persistent identifiers where possible
                     if "doi" in pub:
-                        id_list = pub["doi"]
+                        id_list = [pub["doi"]]
                     else:
                         title = pub["title"].replace(".", "").replace(" ", "")
                         id_list = [pub["journal"], title]
