@@ -165,7 +165,7 @@ class RCJournals:
             journal["titles"] = RCGraph.make_ordered_list(
                 journal["titles"],
                 [ meta["Title"], meta["MedlineTA"] ],
-                meta["ISOAbbreviation"]
+                meta["ISOAbbreviation"] if "ISOAbbreviation" in meta else None
                 )
 
 
