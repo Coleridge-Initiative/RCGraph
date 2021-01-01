@@ -42,9 +42,7 @@ Given that foundation, load the dependencies:
 pip install -r requirements.txt
 ```
 
-Fourth, set up the local `rc.cfg` configuration file and run unit the
-tests (see below) to confirm that this project has been installed and
-configured properly.
+Fourth, set up the local `rc.cfg` configuration file. To do this, you need first to download the file <https://github.com/Coleridge-Initiative/RCApi/blob/master/rc_template.cfg> into the root folder of the project under the name `rc.cfg` and populate it with your credentials. Then, run unit tests (see below) to confirm that this project has been installed and configured properly.
 
 
 ## Submodules
