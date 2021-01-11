@@ -25,7 +25,7 @@ def gather_doi (schol, graph, partition, pub):
     title = pub["title"]
     title_match = False
 
-    for api in [schol.openaire, schol.europepmc, schol.dimensions]:
+    for api in [schol.crossref, schol.openaire, schol.europepmc]:
         try:
             if api.has_credentials():
                 response = api.title_search(title)
@@ -76,7 +76,7 @@ def main (args):
             # already used all the API requests allowed in the time window
             if count == dimensions_requests_limits and time_elapsed < dimensions_time_limit:
                 to_sleep = dimensions_time_limit - math.floor(time_elapsed) + 1 # adding some extra margin
-                #print("API calls:",count,"time elapsed:", time_elapsed, "- will sleep:",to_sleep)
+                print("API calls:",count,"time elapsed:", time_elapsed, "- will sleep:",to_sleep)
                 time.sleep( to_sleep )
                 count = 0
                 t0 = time.time()

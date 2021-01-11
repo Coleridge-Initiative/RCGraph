@@ -65,6 +65,10 @@ def propagate_view (pub, graph, override):
     journal = graph.journals.select_best_entity(journal_list)
     view["journal"] = journal["id"]
 
+    # select the year of publication
+    year = graph.journals.extract_year(pub)
+    view["year"] = year
+
     # apply the manual override
     if title in override:
         override[title]["used"] = True

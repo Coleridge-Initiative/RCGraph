@@ -58,7 +58,6 @@ def main (args):
     for partition, pub_iter in graph.iter_publications(graph.BUCKET_STAGE, filter=args.partition):
         for pub in tqdm(pub_iter, ascii=True, desc=partition[:30]):
             journal_list, message, freq_issn = reconcile_journal(schol, graph, pub, disputed)
-
             if len(journal_list) > 0:
                 journal_tally = graph.tally_list(journal_list, ignores=graph.journals.IGNORE_JOURNALS)
                 proposed[freq_issn] = journal_tally
@@ -77,7 +76,6 @@ def main (args):
     # show a tentative list of journals, considered for adding
     for freq_issn, tally in proposed.items():
         new_entity = graph.journals.add_entity(tally, freq_issn)
-
         if new_entity:
             print("{},".format(json.dumps(new_entity, indent=2, sort_keys=True)))
 

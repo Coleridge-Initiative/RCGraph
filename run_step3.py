@@ -26,7 +26,7 @@ def lookup_doi (schol, graph, partition, pub):
     doi_list = []
     doi_match = False
 
-    for source in ["original", schol.dimensions.name, schol.europepmc.name, schol.openaire.name]:
+    for source in ["original", schol.crossref.name, schol.europepmc.name, schol.openaire.name]:
         if (source in pub) and ("doi" in pub[source]):
             doi = graph.publications.verify_doi(pub[source]["doi"])
 
