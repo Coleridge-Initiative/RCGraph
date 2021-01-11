@@ -114,7 +114,7 @@ Test coverage reports can be viewed at
 <https://codecov.io/gh/Coleridge-Initiative/RCGraph>
 
 
-### Step 2: Gather the DOIs, etc.
+### Step 2: Gather the DOIs and additional metadata
 
 Use *title search* across the scholarly infrastructure APIs to
 identify a DOI and other metadata for each publication.
@@ -131,10 +131,10 @@ See the `misses_step2.json` file which reports the title of each
 publication that failed every API lookup.
 
 
-### Step 3: Gather the PDFs, etc.
+### Step 3: Search by DOIs additional metadata
 
-Use *publication lookup* with DOIs across the scholarly infrastructure
-APIs to identify open access PDFs, journals, authors, keywords, etc.
+Using the DOIs identified by the second step, use *publication lookup* with DOIs across the scholarly infrastructure
+APIs that were not used in step 2 to identify open access PDFs, journals, authors, keywords, etc.
 
 ```
 python run_step3.py
